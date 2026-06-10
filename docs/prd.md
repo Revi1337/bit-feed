@@ -5,12 +5,12 @@
 ## Phase 1: Project Setup & Foundation (기초 뼈대 구축)
 가장 기본이 되는 프로젝트 환경과 Vercel 디자인 시스템의 기초를 설정합니다.
 
-- [ ] Nuxt 3 프로젝트 초기화 (`npx nuxi@latest init`)
-- [ ] Tailwind CSS 모듈 설치 및 설정 (`@nuxtjs/tailwindcss`)
-- [ ] `docs/DESIGN.md` 내용을 기반으로 `tailwind.config.js` 테마 확장 (Vercel 색상, 폰트, 그림자 토큰 설정)
-- [ ] 전역 폰트(Inter/Geist, Mono) 및 글로벌 스타일시트(`assets/css/main.css`) 적용
-- [ ] `public/data/news.json` 생성 및 임시 Mock 데이터 입력
-- [ ] Phase 1 작업 내역 Git Commit (`git commit -m "chore: finish phase 1 - project setup"`)
+- [x] Nuxt 3 프로젝트 초기화 (`npx nuxi@latest init`)
+- [x] Tailwind CSS 모듈 설치 및 설정 (`@nuxtjs/tailwindcss`)
+- [x] `docs/DESIGN.md` 내용을 기반으로 `tailwind.config.js` 테마 확장 (Vercel 색상, 폰트, 그림자 토큰 설정)
+- [x] 전역 폰트(Inter/Geist, Mono) 및 글로벌 스타일시트(`assets/css/main.css`) 적용
+- [x] `public/data/news.json` 생성 및 임시 Mock 데이터 입력
+- [x] Phase 1 작업 내역 Git Commit (`git commit -m "chore: finish phase 1 - project setup"`)
 
 ## Phase 2: UI Component Development (디자인 시스템 기반 컴포넌트)
 `docs/DESIGN.md` 가이드라인에 맞춰 세부 컴포넌트들을 하나씩 조립합니다.
