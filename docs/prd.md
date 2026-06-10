@@ -26,13 +26,13 @@
 ## Phase 3: Data Collection Pipeline (RSS 데이터 수집 스크립트)
 백엔드 서버 없이 GitHub Actions 환경에서 구동될 데이터 수집 로직을 구현합니다.
 
-- [ ] Node.js 기반 RSS 파싱을 위한 프로젝트 스크립트 생성 (`scripts/fetch-rss.js`)
-- [ ] `rss-parser` 라이브러리 설치
-- [ ] 대상 블로그 목록 세팅 (반드시 각 기술/프레임워크/언어의 **"공식 블로그 및 공식 문서"**만을 출처로 엄격하게 한정; 프로그래밍 언어, 프론트엔드, 백엔드, 인공지능, 보안 5개 카테고리 구성)
-- [ ] 대상 블로그 피드 URL에서 데이터를 추출 및 정제하는 로직 구현
-- [ ] 여러 다중 필터(카테고리, 출처, 날짜, 태그 등) 적용을 위해 `news.json` 데이터 구조를 세분화하여 가공 (예: `id`, `title`, `summary`, `url`, `category`, `source`, `author`, `pubDate`, `tags` 등 다양한 필드 포함)
-- [ ] 파싱 및 정제된 데이터를 `public/data/news.json` 파일로 덮어쓰기 저장하는 로직 구현
-- [ ] Phase 3 작업 내역 Git Commit (`git commit -m "feat: finish phase 3 - data pipeline"`)
+- [x] Node.js 기반 RSS 파싱을 위한 프로젝트 스크립트 생성 (`scripts/fetch-rss.js`)
+- [x] `rss-parser` 라이브러리 설치
+- [x] 대상 블로그 목록 세팅 (반드시 각 기술/프레임워크/언어의 **"공식 블로그 및 공식 문서"**만을 출처로 엄격하게 한정; 프로그래밍 언어, 프론트엔드, 백엔드, 인공지능, 보안 5개 카테고리 구성)
+- [x] 대상 블로그 피드 URL에서 데이터를 추출 및 정제하는 로직 구현
+- [x] 여러 다중 필터(카테고리, 출처, 날짜, 태그 등) 적용을 위해 `news.json` 데이터 구조를 세분화하여 가공 (예: `id`, `title`, `summary`, `url`, `category`, `source`, `author`, `pubDate`, `tags` 등 다양한 필드 포함)
+- [x] 파싱 및 정제된 데이터를 `public/data/news.json` 파일로 덮어쓰기 저장하는 로직 구현
+- [x] Phase 3 작업 내역 Git Commit (`git commit -m "feat: finish phase 3 - data pipeline"`)
 
 ## Phase 4: Frontend Data Integration & State (데이터 연동 및 필터링)
 미리 수집된 정적 데이터(JSON)를 프론트엔드 화면에 동적으로 연결합니다.
