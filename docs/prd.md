@@ -37,13 +37,13 @@
 ## Phase 4: Frontend Data Integration & State (데이터 연동 및 필터링)
 미리 수집된 정적 데이터(JSON)를 프론트엔드 화면에 동적으로 연결합니다.
 
-- [ ] Nuxt `useFetch` 또는 정적 임포트를 이용해 `news.json` 데이터를 로드
-- [ ] 전역 상태(또는 컴포넌트 상태)로 카테고리, 출처, 태그 등 다양한 필터 상태 관리 (다중 필터 지원)
-- [ ] 데이터의 여러 field(`category`, `source`, `pubDate`, `tags` 등)를 조합하여 필터링하는 복합 필터 로직 구현
-- [ ] 다중 필터 상태에 따라 사이드바 UI 동기화 (체크박스/토글 상태 등 표기)
-- [ ] 필터 조건에 따라 필터링된 뉴스 리스트 렌더링 로직 연동
-- [ ] 각 뉴스 카드에 실제 기사 정보(제목, 요약, 발행일, 출처, 태그, 링크 등) 매핑
-- [ ] Phase 4 작업 내역 Git Commit (`git commit -m "feat: finish phase 4 - data integration"`)
+- [x] Nuxt `useFetch` 또는 정적 임포트를 이용해 `news.json` 데이터를 로드
+- [x] 전역 상태(또는 컴포넌트 상태)로 카테고리, 출처, 태그 등 다양한 필터 상태 관리 (다중 필터 지원)
+- [x] 데이터의 여러 field(`category`, `source`, `pubDate`, `tags` 등)를 조합하여 필터링하는 복합 필터 로직 구현
+- [x] 다중 필터 상태에 따라 사이드바 UI 동기화 (체크박스/토글 상태 등 표기)
+- [x] 필터 조건에 따라 필터링된 뉴스 리스트 렌더링 로직 연동
+- [x] 각 뉴스 카드에 실제 기사 정보(제목, 요약, 발행일, 출처, 태그, 링크 등) 매핑
+- [x] Phase 4 작업 내역 Git Commit (`git commit -m "feat: finish phase 4 - data integration"`)
 
 ## Phase 5: Automation & Deployment (자동화 및 배포)
 정기적인 콘텐츠 업데이트와 자동 배포 파이프라인을 구축합니다.
