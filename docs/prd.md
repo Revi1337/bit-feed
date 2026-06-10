@@ -15,13 +15,13 @@
 ## Phase 2: UI Component Development (디자인 시스템 기반 컴포넌트)
 `docs/DESIGN.md` 가이드라인에 맞춰 세부 컴포넌트들을 하나씩 조립합니다.
 
-- [ ] 네비게이션 및 헤더 바(Logo, 6px Nav 버튼) 퍼블리싱
-- [ ] 공통 100px Pill 형태 버튼, 배지(Badge) 등 소형 컴포넌트 개발
-- [ ] 좌측 사이드바 컴포넌트 레이아웃 구성 (카테고리 필터 영역)
-- [ ] 우측 리스트뷰 레이아웃 구성
-- [ ] 뉴스 카드(News Card) 컴포넌트 퍼블리싱 (1px inset hairline 및 Stacked Shadow 적용)
-- [ ] 반응형(Responsive) 처리를 통한 모바일/데스크톱 레이아웃 조정
-- [ ] Phase 2 작업 내역 Git Commit (`git commit -m "feat: finish phase 2 - UI components"`)
+- [x] 네비게이션 및 헤더 바(Logo, 6px Nav 버튼) 퍼블리싱
+- [x] 공통 100px Pill 형태 버튼, 배지(Badge) 등 소형 컴포넌트 개발
+- [x] 좌측 사이드바 컴포넌트 레이아웃 구성 (카테고리 필터 영역)
+- [x] 우측 리스트뷰 레이아웃 구성
+- [x] 뉴스 카드(News Card) 컴포넌트 퍼블리싱 (1px inset hairline 및 Stacked Shadow 적용)
+- [x] 반응형(Responsive) 처리를 통한 모바일/데스크톱 레이아웃 조정
+- [x] Phase 2 작업 내역 Git Commit (`git commit -m "feat: finish phase 2 - UI components"`)
 
 ## Phase 3: Data Collection Pipeline (RSS 데이터 수집 스크립트)
 백엔드 서버 없이 GitHub Actions 환경에서 구동될 데이터 수집 로직을 구현합니다.
