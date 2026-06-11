@@ -9,7 +9,7 @@
     <aside :class="[
       'flex flex-col gap-xl shrink-0 transition-transform duration-300 ease-in-out',
       'fixed inset-y-0 right-0 z-50 w-[280px] p-xl bg-canvas overflow-y-auto border-l border-t-0 border-r-0 border-b-0 border-hairline',
-      'md:static md:w-[200px] md:order-last md:p-0 md:border-none md:bg-transparent md:z-auto md:overflow-visible',
+      'md:sticky md:top-[112px] md:self-start md:w-[200px] md:order-last md:p-0 md:border-none md:bg-transparent md:z-auto md:overflow-visible',
       mobileFilterOpen ? 'translate-x-0 shadow-[-10px_0_40px_rgba(0,0,0,0.08)]' : 'translate-x-full md:translate-x-0'
     ]">
       <!-- Categories -->
