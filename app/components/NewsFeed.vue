@@ -134,7 +134,10 @@ const props = defineProps({
 const mobileFilterOpen = useState('mobileFilterOpen', () => false)
 
 const dataUrl = computed(() => props.mode === 'latest' ? '/data/latest.json' : '/data/news.json')
-const { data: baseNews } = await useFetch(dataUrl, { default: () => [], server: true })
+const { data: baseNews } = await useFetch(dataUrl, { 
+  server: false,
+  default: () => [] 
+})
 
 // Filter State
 const selectedCategories = ref([])

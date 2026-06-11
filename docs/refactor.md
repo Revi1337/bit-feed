@@ -17,8 +17,7 @@
 ## Phase 3: 애니메이션 및 데이터 페칭 (View Transitions & SSR)
 - [x] **Task 3.1**: `nuxt.config.ts` 파일에서 `experimental.viewTransition: true` 활성화.
 - [x] **Task 3.2**: `tailwind.css` 전역 스타일 영역에 `@media (prefers-reduced-motion: reduce)`를 추가하여 어지럼증을 느끼는 사용자의 접근성(A11y) 보장용 폴백 구현.
-- [x] **Task 3.3**: `NewsFeed.vue`의 데이터 로딩 로직(`useFetch`) 옵션을 `server: true`로 변경하여 브라우저 초기 로딩(FCP/LCP) 속도 개선.
-
+- [ ] **Task 3.3**: (보류) `NewsFeed.vue`의 데이터 로딩 로직(`useFetch`) 옵션을 `server: true`로 변경하려 했으나, Nuxt 3에서 정적 JSON 파일(`public/data/`) 페칭 시 발생하는 Hydration 데이터 증발 버그로 인해 다시 `server: false`로 롤백.
 ## Phase 4: 최종 검증 (Verification)
 - [x] **Task 4.1**: `<dialog>` 기반 모달이 배경 클릭(Light dismiss)과 ESC 키로 정상적으로 닫히는지 확인.
 - [x] **Task 4.2**: '오늘의 소식'과 '모든 소식' 메뉴 이동 시 화면이 자연스럽게 크로스페이드(View Transition)되는지 확인.
