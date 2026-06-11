@@ -1,7 +1,17 @@
 <template>
   <main class="flex-1 max-w-[1400px] w-full mx-auto px-md md:px-lg py-[48px] flex flex-col md:flex-row gap-xl md:gap-2xl">
+    <!-- Mobile Filter Backdrop -->
+    <Transition enter-active-class="transition-opacity duration-300" enter-from-class="opacity-0" enter-to-class="opacity-100" leave-active-class="transition-opacity duration-300" leave-from-class="opacity-100" leave-to-class="opacity-0">
+      <div v-if="mobileFilterOpen" @click="mobileFilterOpen = false" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 md:hidden"></div>
+    </Transition>
+
     <!-- Sidebar -->
-    <aside class="w-full md:w-[200px] flex flex-col gap-xl shrink-0 md:order-last">
+    <aside :class="[
+      'flex flex-col gap-xl shrink-0 transition-transform duration-300 ease-in-out',
+      'fixed inset-y-0 right-0 z-50 w-[280px] p-xl bg-canvas overflow-y-auto border-l border-t-0 border-r-0 border-b-0 border-hairline',
+      'md:static md:w-[200px] md:order-last md:p-0 md:border-none md:bg-transparent md:z-auto md:overflow-visible',
+      mobileFilterOpen ? 'translate-x-0 shadow-[-10px_0_40px_rgba(0,0,0,0.08)]' : 'translate-x-full md:translate-x-0'
+    ]">
       <!-- Categories -->
       <div class="flex flex-col gap-sm">
         <h3 class="font-mono text-[12px] uppercase text-hairline-strong tracking-widest flex items-center justify-between">
@@ -47,8 +57,31 @@
       </div>
 
       <!-- News List Grid -->
-      <div v-if="filteredNews.length > 0" class="grid grid-cols-1 xl:grid-cols-2 gap-lg">
-        <NewsCard v-for="news in filteredNews" :key="news.id" :news="news" @select="openArticle" />
+      <div v-if="filteredNews.length > 0" class="flex flex-col gap-lg">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-lg">
+          <NewsCard v-for="news in paginatedNews" :key="news.id" :news="news" @select="openArticle" />
+        </div>
+        
+        <!-- Pagination Controls -->
+        <div class="flex items-center justify-between mt-xl border-t border-hairline pt-lg" v-if="totalPages > 1">
+          <button 
+            @click="prevPage" 
+            :disabled="currentPage === 1"
+            class="px-4 py-2 text-[14px] font-medium rounded-md border border-hairline bg-canvas hover:bg-canvas-soft transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            Previous
+          </button>
+          <span class="text-[14px] text-mute font-medium">Page {{ currentPage }} of {{ totalPages }}</span>
+          <button 
+            @click="nextPage" 
+            :disabled="currentPage === totalPages"
+            class="px-4 py-2 text-[14px] font-medium rounded-md border border-hairline bg-canvas hover:bg-canvas-soft transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+          >
+            Next
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
       </div>
       <div v-else class="py-xl text-center text-mute border border-hairline border-dashed rounded-md">
         No articles match your selected filters.
@@ -86,7 +119,8 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
+import { useState } from '#imports'
 
 const props = defineProps({
   mode: {
@@ -95,12 +129,23 @@ const props = defineProps({
   }
 })
 
+const mobileFilterOpen = useState('mobileFilterOpen', () => false)
+
 const dataUrl = computed(() => props.mode === 'latest' ? '/data/latest.json' : '/data/news.json')
 const { data: baseNews } = await useFetch(dataUrl, { default: () => [], server: false })
 
 // Filter State
 const selectedCategories = ref([])
 const selectedTags = ref([])
+
+// Pagination State
+const currentPage = ref(1)
+const itemsPerPage = 20
+
+// Reset page when filters change
+watch([selectedCategories, selectedTags], () => {
+  currentPage.value = 1
+}, { deep: true })
 
 // Modal State
 const selectedArticle = ref(null)
@@ -139,4 +184,26 @@ const filteredNews = computed(() => {
     return matchCategory && matchTag
   })
 })
+
+// Paginated List
+const totalPages = computed(() => Math.ceil(filteredNews.value.length / itemsPerPage) || 1)
+const paginatedNews = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage
+  const end = start + itemsPerPage
+  return filteredNews.value.slice(start, end)
+})
+
+const prevPage = () => {
+  if (currentPage.value > 1) {
+    currentPage.value--
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
+
+const nextPage = () => {
+  if (currentPage.value < totalPages.value) {
+    currentPage.value++
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
 </script>
