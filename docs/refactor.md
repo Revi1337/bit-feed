@@ -15,9 +15,9 @@
 - [x] **Task 2.4**: `NewsCard.vue`의 최상단 컨테이너를 시맨틱 웹 표준에 맞게 `<div>`에서 `<article>`로 변경.
 
 ## Phase 3: 애니메이션 및 데이터 페칭 (View Transitions & SSR)
-- [ ] **Task 3.1**: `nuxt.config.ts` 파일에서 `experimental.viewTransition: true` 활성화.
-- [ ] **Task 3.2**: `tailwind.css` 전역 스타일 영역에 `@media (prefers-reduced-motion: reduce)`를 추가하여 어지럼증을 느끼는 사용자의 접근성(A11y) 보장용 폴백 구현.
-- [ ] **Task 3.3**: `NewsFeed.vue`의 데이터 로딩 로직(`useFetch`) 옵션을 `server: true`로 변경하여 브라우저 초기 로딩(FCP/LCP) 속도 개선.
+- [x] **Task 3.1**: `nuxt.config.ts` 파일에서 `experimental.viewTransition: true` 활성화.
+- [x] **Task 3.2**: `tailwind.css` 전역 스타일 영역에 `@media (prefers-reduced-motion: reduce)`를 추가하여 어지럼증을 느끼는 사용자의 접근성(A11y) 보장용 폴백 구현.
+- [x] **Task 3.3**: `NewsFeed.vue`의 데이터 로딩 로직(`useFetch`) 옵션을 `server: true`로 변경하여 브라우저 초기 로딩(FCP/LCP) 속도 개선.
 
 ## Phase 4: 최종 검증 (Verification)
 - [ ] **Task 4.1**: `<dialog>` 기반 모달이 배경 클릭(Light dismiss)과 ESC 키로 정상적으로 닫히는지 확인.

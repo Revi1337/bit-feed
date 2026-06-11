@@ -5,6 +5,14 @@
 @tailwind utilities;
 
 @layer base {
+  @media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(*),
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+      animation: none !important;
+    }
+  }
+
   :root {
     --color-primary: #171717;
     --color-on-primary: #ffffff;
