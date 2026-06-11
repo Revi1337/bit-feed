@@ -51,9 +51,9 @@
       <!-- Header -->
       <div class="flex items-center justify-between mb-lg">
         <h1 class="text-[32px] font-semibold tracking-[-1.28px]">
-          {{ mode === 'latest' ? 'Today\'s News' : 'All Updates' }}
+          {{ mode === 'latest' ? '오늘의 소식' : '모든 소식' }}
         </h1>
-        <span class="text-body text-[14px]">Showing {{ filteredNews.length }} items</span>
+        <span class="text-body text-[14px]">총 {{ filteredNews.length }}개의 소식</span>
       </div>
 
       <!-- News List Grid -->
