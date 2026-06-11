@@ -20,6 +20,6 @@
 - [x] **Task 3.3**: `NewsFeed.vue`의 데이터 로딩 로직(`useFetch`) 옵션을 `server: true`로 변경하여 브라우저 초기 로딩(FCP/LCP) 속도 개선.
 
 ## Phase 4: 최종 검증 (Verification)
-- [ ] **Task 4.1**: `<dialog>` 기반 모달이 배경 클릭(Light dismiss)과 ESC 키로 정상적으로 닫히는지 확인.
-- [ ] **Task 4.2**: '오늘의 소식'과 '모든 소식' 메뉴 이동 시 화면이 자연스럽게 크로스페이드(View Transition)되는지 확인.
-- [ ] **Task 4.3**: Chrome 개발자 도구 렌더링 탭에서 스크롤 아래쪽 카드의 렌더링이 `content-visibility`에 의해 정상적으로 지연되는지 확인.
+- [x] **Task 4.1**: `<dialog>` 기반 모달이 배경 클릭(Light dismiss)과 ESC 키로 정상적으로 닫히는지 확인.
+- [x] **Task 4.2**: '오늘의 소식'과 '모든 소식' 메뉴 이동 시 화면이 자연스럽게 크로스페이드(View Transition)되는지 확인.
+- [x] **Task 4.3**: Chrome 개발자 도구 렌더링 탭에서 스크롤 아래쪽 카드의 렌더링이 `content-visibility`에 의해 정상적으로 지연되는지 확인.
