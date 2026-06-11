@@ -2,7 +2,7 @@ name: Update RSS Data
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정 실행
+    - cron: "0 15 * * *" # 한국 시간 기준 매일 00시 00분 실행 (UTC 15시)
   workflow_dispatch: # 수동 실행 옵션
 
 permissions:
@@ -25,11 +25,13 @@ jobs:
 
       - name: Fetch RSS feeds
         run: node scripts/fetch-rss.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add public/data/news.json
-          git commit -m "chore: auto-update news.json" || exit 0
+          git add public/data/news.json public/data/latest.json
+          git commit -m "chore: auto-update news and latest data" || exit 0
           git push
