@@ -21,7 +21,7 @@
 
     <!-- Navigation -->
     <nav class="absolute left-1/2 -translate-x-1/2 flex items-center gap-md md:gap-lg">
-      <NuxtLink to="/" class="nav-link text-[15px] transition-colors" data-text="What's New">
+      <NuxtLink to="/new" class="nav-link text-[15px] transition-colors" data-text="What's New">
         What's New
       </NuxtLink>
       <NuxtLink to="/all" class="nav-link text-[15px] transition-colors" data-text="All Updates">
