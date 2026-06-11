@@ -1,1 +1,3494 @@
-[]
+[
+  {
+    "id": "https://www.anthropic.com/news/services-track-partner-hub",
+    "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner NetworkJun 3, 2026Almost every large enterprise is moving AI into producti",
+    "aiSummary": "앤스로픽이 기업들의 성공적인 AI 도입을 지원하기 위해 클로드 파트너 네트워크의 서비스 트랙과 파트너 허브를 새롭게 발표했습니다.\n\n대규모 기업들이 AI를 본격적으로 제품화하고 운영 환경에 도입하는 과정이 가속화됨에 따라 기업별 맞춤형 기술 지원과 전략적 협력이 필수적인 상황입니다. 이번에 신설된 서비스 트랙은 기업 고객이 클로드 모델을 활용하여 비즈니스 가치를 극대화할 수 있도록 전문적인 컨설팅과 구현 서비스를 제공하는 파트너들을 연결하는 역할을 합니다.\n\n또한 파트너 허브는 파트너사가 앤스로픽의 기술 및 리소스에 보다 효율적으로 접근할 수 있도록 돕는 중앙화된 플랫폼으로 운영됩니다. 이를 통해 파트너사는 교육 자료와 협업 도구를 손쉽게 활용하며 고객에게 더욱 고도화된 AI 솔루션을 제안할 수 있습니다. 앤스로픽은 이러한 생태계 확장을 통해 기업 고객이 기술적 제약을 넘어 실질적인 비즈니스 성과를 창출할 수 있도록 지원 체계를 강화합니다.",
+    "url": "https://www.anthropic.com/news/services-track-partner-hub",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-11T08:43:01.519Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsAnthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical &quot;Magnifica humanitas&quot;May 25, 2026On Monday May 25, 2",
+    "aiSummary": "앤스로픽의 공동 창업자인 크리스 올라가 교황 레오 14세의 회칙 마니피카 휴마니타스에 대한 견해를 밝혔습니다. 해당 문건은 인공지능 기술의 발전이 인류와 맺는 관계에 관한 심도 있는 성찰을 담고 있습니다. 크리스 올라는 기술적 진보와 윤리적 가치가 공존해야 한다는 점을 강조하며 교황의 철학적 메시지에 대해 논평하였습니다. 이번 발언은 급변하는 AI 기술 환경 속에서 기업의 책임과 인간 중심적 가치의 중요성을 재확인하는 계기가 될 것으로 보입니다.",
+    "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-11T08:42:58.788Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/claude-opus-4-8",
+    "title": "Introducing Claude Opus 4.8",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeProductAnnouncementsIntroducing Claude Opus 4.8May 28, 2026We’re upgrading Claude Opus to a new version: Claude Opus 4.8. It builds on Opus 4.7 with improve",
+    "aiSummary": "앤스로픽은 클로드 오퍼스 4.7 버전을 개선한 차세대 모델인 클로드 오퍼스 4.8을 새롭게 공개하였습니다. 이번 업데이트는 기존 모델의 성능을 기반으로 더욱 정교하고 향상된 기능을 제공하는 데 중점을 두었습니다. 사용자는 2026년 5월 28일부로 개선된 버전의 클로드 오퍼스를 경험할 수 있습니다.",
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-11T08:42:56.660Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "title": "Expanding Project Glasswing",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsExpanding Project GlasswingJun 2, 2026Project Glasswing is our collaborative effort to secure the world’s most important software. In early Apr",
+    "aiSummary": "프로젝트 글래스윙은 세계에서 가장 중요한 소프트웨어의 보안을 강화하기 위한 협력 프로젝트입니다. 지난 2026년 4월 초에 시작된 이 프로젝트는 오픈소스 생태계 전반의 안전성을 확보하는 데 중점을 두고 있습니다.\n\n이번 발표를 통해 프로젝트 글래스윙은 그 범위를 더욱 확대할 예정입니다. 이는 핵심 인프라를 구성하는 소프트웨어들의 취약점을 선제적으로 탐지하고 대응하기 위한 전략적 행보입니다. 앞으로 더 많은 파트너와 협력하여 디지털 환경의 신뢰도를 높이고 보안 공백을 최소화하는 데 기여할 것입니다.",
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-11T08:42:56.236Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "title": "Claude Fable 5 and Claude Mythos 5",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsClaude Fable 5 and Claude Mythos 5Jun 9, 2026Today we’re launching Claude Fable 5: a Mythos-class1 model that we’ve made safe for general use. ",
+    "aiSummary": "앤스로픽은 2026년 6월 9일 범용적인 사용이 가능한 미소스 급 모델인 클로드 페이블 5를 새롭게 출시하였습니다. 이와 함께 동일한 미소스 급 모델 라인업인 클로드 미소스 5도 함께 공개되었습니다. 이번 모델들은 안전성을 강화하여 일상적인 작업부터 복잡한 과업까지 폭넓게 활용할 수 있도록 설계되었습니다.",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-11T08:42:54.854Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc",
+    "title": "Simplifying Weak Reference Processing in ZGC",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Fredrik Hammarberg (guest)",
+    "pubDate": "2026-06-11T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
+    "title": "A Bootiful Podcast: Spring Security lead Rob Winch answers some security questions for me",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "title": "How an astrophysicist uses Codex to help simulate black holes",
+    "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+    "aiSummary": "",
+    "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+    "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem ",
+    "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+    "aiSummary": "",
+    "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-cache-friendly-cpp-jonathan-mueller",
+    "title": "CppCon 2025 Cache-Friendly C++ -- Jonathan Müller",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-cache-friendly-cpp-jonathan-mueller",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Wed, 10 Jun 2026 22:01:18 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jun/10/dsf-2026-fundraising-goals/",
+    "title": "DSF 2026 Fundraising Goals",
+    "summary": "Django has grown far beyond a web framework. It powers businesses, nonprofits, startups, educational institutions, and critical infrastructure around the world. The Django Software Foundation exists t",
+    "aiSummary": "",
+    "url": "https://www.djangoproject.com/weblog/2026/jun/10/dsf-2026-fundraising-goals/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "Wed, 10 Jun 2026 15:00:00 -0500",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/openai-on-oracle-cloud",
+    "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+    "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+    "aiSummary": "",
+    "url": "https://openai.com/index/openai-on-oracle-cloud",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 10 Jun 2026 20:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60238",
+    "title": "Join us for .NET Day on Agentic Modernization Livestream",
+    "summary": "Announcing the .NET Day of Agentic Modernization Livestream\nThe post Join us for .NET Day on Agentic Modernization Livestream appeared first on .NET Blog.",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-day-on-agentic-modernization-livestream/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Jeffrey Fritz",
+    "pubDate": "Wed, 10 Jun 2026 17:05:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+    "title": "DiffusionGemma: 4x faster text generation",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Wed, 10 Jun 2026 16:24:11 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "title": "PRC-linked influence operations are targeting AI debates in the US",
+    "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+    "aiSummary": "",
+    "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 10 Jun 2026 12:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-15-0",
+    "title": "Typed Translation Accessors in Laravel 13.15.0",
+    "summary": "Laravel 13.15.0 adds typed translation accessors, JSON Schema deserialization, a dedicated Cloud queue driver, and security fixes for date validation and route unserialization.\nThe post Typed Translat",
+    "aiSummary": "",
+    "url": "https://laravel-news.com/laravel-13-15-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Wed, 10 Jun 2026 02:03:31 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/06/python-3146-31314/",
+    "title": "Python 3.14.6 and 3.13.14 are now available!",
+    "summary": "A pair of bug fix releases await your upgrade.",
+    "aiSummary": "",
+    "url": "https://blog.python.org/2026/06/python-3146-31314/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/10/hat-tensors-computation",
+    "title": "Exploiting GPU Tensor Cores from Java using Babylon",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://inside.java/2026/06/10/hat-tensors-computation",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Juan Fumero",
+    "pubDate": "2026-06-10T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/10/spring-batch-6-0-4-and-5-2-6-available-now",
+    "title": "Spring Batch 6.0.4 and 5.2.6 available now",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/10/spring-batch-6-0-4-and-5-2-6-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "fmbenhassine",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/10/spring-boot-3-5-15-available-now",
+    "title": "Spring Boot 3.5.15 available now",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/10/spring-boot-3-5-15-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "wilkinsona",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/10/spring-boot-4-0-7-available-now",
+    "title": "Spring Boot 4.0.7 available now",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/10/spring-boot-4-0-7-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "wilkinsona",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/10/spring-boot-4",
+    "title": "Spring Boot 4.1.0 available now",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/10/spring-boot-4",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "wilkinsona",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/real-time-fraud-detection/",
+    "title": "Real-time fraud detection for financial transactions",
+    "summary": "When a customer taps \"pay,\" a clock starts that your fraud system can't pause. The payment authorization resolves in a fixed window whether your model has scored the transaction or not. If it hasn't, ",
+    "aiSummary": "",
+    "url": "https://redis.io/blog/real-time-fraud-detection/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/context-window-ai/",
+    "title": "Context windows in AI: why every token is a budget decision",
+    "summary": "Some of today's most capable LLMs now support very large context windows. That doesn't mean you should fill them. Context windows have grown fast, but the underlying cost and quality tradeoffs haven't",
+    "aiSummary": "",
+    "url": "https://redis.io/blog/context-window-ai/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/lseg",
+    "title": "From data to decisions: how LSEG is scaling trusted AI",
+    "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+    "aiSummary": "",
+    "url": "https://openai.com/index/lseg",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "/blog/vulnerability/june-2026-security-releases?1781042400000",
+    "title": "Wednesday, June 17, 2026 Security Releases",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Tue, 09 Jun 2026 22:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60230",
+    "title": ".NET 11 Preview 5 is now available!",
+    "summary": "Find out about the new features in .NET 11 Preview 5 across the .NET runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, and more!\nThe post .NET 11 Preview 5 is now available!",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-5/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "Tue, 09 Jun 2026 18:30:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60226",
+    "title": ".NET and .NET Framework June 2026 servicing releases updates",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for June 2026.\nThe post .NET and .NET Framework June 2026 servicing releases updates appeared first on .NET Blog.",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-june-2026-servicing-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT), Tara Overfield",
+    "pubDate": "Tue, 09 Jun 2026 18:08:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+    "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+    "aiSummary": "",
+    "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 09 Jun 2026 15:16:25 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 09 Jun 2026 14:10:19 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "title": "Powering the future of robotics in Europe",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 09 Jun 2026 14:02:33 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49248",
+    "title": "Percona Operator for MySQL (PXC) 1.20.0: Automatic Storage Resizing, TLS Certificate Rotation, and ARM64 Support",
+    "summary": "Percona Operator for MySQL PXC 1.20.0 is out today, and it addresses three long-requested operational headaches: storage that grows on its own before it fills up, TLS certificates that rotate without ",
+    "aiSummary": "",
+    "url": "https://www.percona.com/blog/percona-operator-for-mysql-pxc-1-20-0-automatic-storage-resizing-tls-rotation-arm64/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Slava Sarzhan",
+    "pubDate": "Tue, 09 Jun 2026 10:25:46 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/06/apple-foundation-models-gemini",
+    "title": "Gemini in Apple's Foundation Models framework",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://firebase.blog/posts/2026/06/apple-foundation-models-gemini",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "Tue, 09 Jun 2026 09:41:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/culture-decemberfest-elastic-holiday-celebration",
+    "title": "Decemberfest is here! How we celebrate the holidays at Elastic",
+    "summary": "Take a peek at how Elasticians around the world are celebrating the holiday season during Decemberfest.",
+    "aiSummary": "",
+    "url": "https://www.elastic.co/blog/culture-decemberfest-elastic-holiday-celebration",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Culture",
+    "pubDate": "Tue, 09 Jun 2026 04:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/refresh-your-laravel-database-without-dropping-every-table",
+    "title": "Refresh Your Laravel Database Without Dropping Every Table",
+    "summary": "Custom Fresh adds a `fresh:custom` Artisan command that rebuilds your Laravel database while leaving the tables you name untouched.\nThe post Refresh Your Laravel Database Without Dropping Every Table ",
+    "aiSummary": "",
+    "url": "https://laravel-news.com/refresh-your-laravel-database-without-dropping-every-table?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Tue, 09 Jun 2026 02:18:37 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-14-0",
+    "title": "JSON Schema Deserialization in Laravel 13.14",
+    "summary": "Laravel 13.14 adds JsonSchema::fromArray() for turning JSON Schema arrays back into Type objects, queue inheritance fixes, job inspection improvements, and several HTTP client and mail fixes.\nThe post",
+    "aiSummary": "",
+    "url": "https://laravel-news.com/laravel-13-14-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Tue, 09 Jun 2026 02:16:59 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/09/jdk-26-performance-improvements",
+    "title": "Performance Improvements in JDK 26",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://inside.java/2026/06/09/jdk-26-performance-improvements",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ana-Maria Mihalceanu",
+    "pubDate": "2026-06-09T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/09/this-week-in-spring-june-9-2026",
+    "title": "This Week in Spring - June 9th, 2026",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/09/this-week-in-spring-june-9-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Tue, 09 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgpool-ii-472-467-4512-4417-and-4320-released-3314/",
+    "title": "Pgpool-II 4.7.2, 4.6.7, 4.5.12, 4.4.17 and 4.3.20 released.\n",
+    "summary": "What is Pgpool-II?\nPgpool-II is a tool to add useful features to PostgreSQL, including:  \nconnection pooling\nload balancing\nautomatic failover and more.\nMinor releases\nPgpool Global Development Group ",
+    "aiSummary": "",
+    "url": "https://www.postgresql.org/about/news/pgpool-ii-472-467-4512-4417-and-4320-released-3314/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Tue, 09 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-anonymizer-31-introducing-local-differential-privacy-3311/",
+    "title": "PostgreSQL Anonymizer 3.1 : Introducing Local Differential Privacy\n",
+    "summary": "Eymoutiers, France, May 27th, 2026\nDalibo is pleased to announce PostgreSQL Anonymizer 3.1 introducing innovative\ndata masking techniques to protect your data !\nEnhanced Privacy Protection for Your Da",
+    "aiSummary": "",
+    "url": "https://www.postgresql.org/about/news/postgresql-anonymizer-31-introducing-local-differential-privacy-3311/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Tue, 09 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/ai-agent-context/",
+    "title": "Context engineering for AI agents: the infrastructure behind every decision",
+    "summary": "Your agent is only as good as the information it can see at decision time. The data sitting in your infrastructure doesn't count, and neither does what the model learned in training months ago. What c",
+    "aiSummary": "",
+    "url": "https://redis.io/blog/ai-agent-context/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Tue, 09 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic",
+    "title": "Meet Elastic's ERGs",
+    "summary": "Employee resource groups build a sense of community and belonging, provide an inclusive space for people with similar experiences, empower employees to share their voice, and amplify our DEI initiativ",
+    "aiSummary": "",
+    "url": "https://www.elastic.co/blog/culture-meet-our-7-ergs-who-are-building-communities-at-elastic",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Culture",
+    "pubDate": "Tue, 09 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-cutting-down-on-unnecessary-objects-prithvi-okade-kathleen-bake",
+    "title": "CppCon 2025 Cutting Down on Unnecessary Objects -- Prithvi Okade & Kathleen Baker",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-cutting-down-on-unnecessary-objects-prithvi-okade-kathleen-bake",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 08 Jun 2026 21:58:01 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91002",
+    "title": "5 Software Supply Chain Security Best Practices for Development Teams",
+    "summary": "Understanding software supply chain security is one thing. Putting it into practice across a real pipeline, with real deadlines and real constraints, is another. Most organizations recognize that thei",
+    "aiSummary": "",
+    "url": "https://www.docker.com/blog/software-supply-chain-security-best-practices/",
+    "category": "인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Mon, 08 Jun 2026 19:54:40 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60216",
+    "title": ".NET at Microsoft Build 2026: Must watch sessions",
+    "summary": "Catch up on all the .NET sessions from Microsoft Build 2026 covering .NET 11, union types in C#, AI building blocks, the agentic web, .NET MAUI, and more!\nThe post .NET at Microsoft Build 2026: Must w",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-at-microsoft-build-2026/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Daniel Roth",
+    "pubDate": "Mon, 08 Jun 2026 17:15:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/generate-short-url-safe-ids-from-numbers-with-sqids",
+    "title": "Generate Short, URL-Safe IDs From Numbers With Sqids",
+    "summary": "Sqids is a PHP library that encodes one or more integers into short, URL-safe strings and decodes them back, with options for minimum length, a custom alphabet, and a profanity blocklist.\nThe post Gen",
+    "aiSummary": "",
+    "url": "https://laravel-news.com/generate-short-url-safe-ids-from-numbers-with-sqids?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 08 Jun 2026 13:08:17 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+    "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+    "aiSummary": "",
+    "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Mon, 08 Jun 2026 13:04:59 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.26",
+    "title": "v11.1.26",
+    "summary": "What's Changed\nfix(core): post sse endpoint empty response #17098 by @kamilmysliwiec in #17099\nFull Changelog: v11.1.25...v11.1.26",
+    "aiSummary": "",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.26",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-06-08T12:37:55.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.25",
+    "title": "v11.1.25",
+    "summary": "What's Changed\nfix(microservices): reject pending Redis requests on close by @yudin-s in #17024\nfix(core): register SSE close listener before async setup by @fallintoplace in #17018\nfix(platform-fasti",
+    "aiSummary": "",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.25",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-06-08T07:39:37.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/08/java-vscode-extension-update",
+    "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://inside.java/2026/06/08/java-vscode-extension-update",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Arvind Aprameya",
+    "pubDate": "2026-06-08T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/redis-data-integration-in-redis-cloud-is-now-ga-in-aws/",
+    "title": "Redis Data Integration in Redis Cloud is now GA in AWS",
+    "summary": "Today, we’re announcing the general availability of Redis Data Integration (RDI) in Redis Cloud on AWS.\n\nRDI in Redis Cloud is our fully-managed service for moving operational and analytical data into",
+    "aiSummary": "",
+    "url": "https://redis.io/blog/redis-data-integration-in-redis-cloud-is-now-ga-in-aws/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Pieter Cailliau, Mirko Ortensi",
+    "pubDate": "Mon, 08 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/07/java-next-language-features",
+    "title": "JavaNext Language Features",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://inside.java/2026/06/07/java-next-language-features",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Dan Smith",
+    "pubDate": "2026-06-07T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/quality-context-ai-agents/",
+    "title": "AI context windows: Why context quality beats context size",
+    "summary": "Your AI agent has a 128K token context window. You're adding in retrieved documents, conversation history, tool outputs, and system instructions. But the answers are getting worse.\n\nYou're not alone. ",
+    "aiSummary": "",
+    "url": "https://redis.io/blog/quality-context-ai-agents/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Sun, 07 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=90819",
+    "title": "What is AI Governance? Frameworks, Principles, and Best Practices",
+    "summary": "AI agents are moving fast. According to our State of Agentic AI report, 60% of organizations already have AI agents in production, yet 40% cite security and compliance as the number-one barrier to sca",
+    "aiSummary": "",
+    "url": "https://www.docker.com/blog/what-is-ai-governance/",
+    "category": "인프라",
+    "source": "Docker Blog",
+    "author": "Srini Sekaran",
+    "pubDate": "Fri, 05 Jun 2026 18:39:35 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/ff37df480574",
+    "title": "Angular in 2026: Mid-Year Reality Check, Signals, and AI Code Quality! ",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.angular.dev/angular-in-2026-mid-year-reality-check-signals-and-ai-code-quality-ff37df480574?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Fri, 05 Jun 2026 04:23:01 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/scheduler-list-a-web-dashboard-for-laravels-scheduled-tasks",
+    "title": "Scheduler List: A Web Dashboard for Laravel's Scheduled Tasks",
+    "summary": "Scheduler List adds a Pulse-style web interface to Laravel that lists every scheduled task, lets you search and filter them, and can run a task on demand while streaming its output.\nThe post Scheduler",
+    "aiSummary": "",
+    "url": "https://laravel-news.com/scheduler-list-a-web-dashboard-for-laravels-scheduled-tasks?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Fri, 05 Jun 2026 02:55:11 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/6/5/this-week-in-rails",
+    "title": "Better guides, better framework",
+    "summary": "Hi, it’s Claudio. Let’s explore this week’s changes in the Rails codebase.\nThe revamped Active Job guide is live\nActive Jobs Basics guide to learn everything about background jobs in Rails, from Solid",
+    "aiSummary": "",
+    "url": "https://rubyonrails.org/2026/6/5/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Claudio Baccigalupo",
+    "pubDate": "2026-06-05T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+    "title": "Improved performance and model support with GGUF",
+    "summary": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider ra",
+    "aiSummary": "",
+    "url": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "Fri, 05 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-06-04-2",
+    "title": "PHP 8.4.22 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.22. This is a bug fix release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.22 ",
+    "aiSummary": "",
+    "url": "https://www.php.net/index.php#2026-06-04-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-06-04T22:14:47.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-building-vector-math-libraries-with-concepts-customization-poin",
+    "title": "CppCon 2025 Building Vector Math Libraries with Concepts & Customization Points -- Greg von Winckel",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-building-vector-math-libraries-with-concepts-customization-poin",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Thu, 04 Jun 2026 21:55:04 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=90754",
+    "title": "Hardened Images Explained: Fewer CVEs, Smaller Attack Surface",
+    "summary": "When security teams scan their container environments for the first time, they often discover hundreds of known vulnerabilities, and almost none of them trace back to application code. The overwhelmin",
+    "aiSummary": "",
+    "url": "https://www.docker.com/blog/what-are-hardened-images/",
+    "category": "인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Thu, 04 Jun 2026 17:02:51 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-06-04-1",
+    "title": "PHP 8.5.7 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.7. This is a bug fix release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.7 pl",
+    "aiSummary": "",
+    "url": "https://www.php.net/index.php#2026-06-04-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-06-04T14:05:37.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49065",
+    "title": "Migrating from MongoDB 6.0 to 8.0: How Percona ClusterSync Handles Cross-Version Replication",
+    "summary": "Percona ClusterSync for MongoDB (PCSM) replicates data between MongoDB clusters to keep migrations with near-zero downtime. Prior to version 0.9.0 it required the source and target to run the same maj",
+    "aiSummary": "",
+    "url": "https://www.percona.com/blog/migrating-from-mongodb-6-0-to-8-0-how-percona-clustersync-handles-cross-version-replication/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Adnan Supic",
+    "pubDate": "Thu, 04 Jun 2026 11:44:04 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/multigres-v0-1-alpha",
+    "title": "Multigres v0.1 Alpha: an operating system for Postgres",
+    "summary": "Today we're releasing Multigres v0.1 alpha to the open source community, bringing Vitess-grade horizontal scaling, high availability, and operational simplicity to Postgres.",
+    "aiSummary": "",
+    "url": "https://supabase.com/blog/multigres-v0-1-alpha",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 -0700",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/supabase-series-f",
+    "title": "Supabase Series F",
+    "summary": "Supabase has raised a $500M Series F at a $10B pre-money valuation, led by GIC.",
+    "aiSummary": "",
+    "url": "https://supabase.com/blog/supabase-series-f",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 -0700",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/astro-mart-ss26/",
+    "title": "Astro Mart: Summer 2026 Collection",
+    "summary": "Get ready for a summer of sport with our new personalizable merch.",
+    "aiSummary": "",
+    "url": "https://astro.build/blog/astro-mart-ss26/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/04/a-bootiful-podcast-marit-van-dijk",
+    "title": "A Bootiful Podcast: JetBrains' Marit van Dijk",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/04/a-bootiful-podcast-marit-van-dijk",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgconfpl-2026-call-for-papers-open-3312/",
+    "title": "PGConf.PL 2026 Call for Papers Open\n",
+    "summary": "The PostgreSQL Conference Poland - PGConf.PL 2026 - Call for Papers is now officially open!\nWe invite PostgreSQL practitioners, developers, DBAs, contributors, companies, students, and community membe",
+    "aiSummary": "",
+    "url": "https://www.postgresql.org/about/news/pgconfpl-2026-call-for-papers-open-3312/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/",
+    "title": "PostgreSQL 19 Beta 1 Released!\n",
+    "summary": "The PostgreSQL Global Development Group announces that the first beta release of\nPostgreSQL 19 is now available for download.\nThis release contains PostgreSQL 19 feature previews ahead of general\navai",
+    "aiSummary": "",
+    "url": "https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/nemotron-3-ultra",
+    "title": "NVIDIA Nemotron 3 Ultra",
+    "summary": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
+    "aiSummary": "",
+    "url": "https://ollama.com/blog/nemotron-3-ultra",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "Thu, 04 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/agentic-supplier-management-with-atlas-voyage-ai-multi-modal-search",
+    "title": "Agentic Supplier Management with MongoDB Atlas, Voyage AI, and Multi-Modal Search",
+    "summary": "Retail supply chains are not a back-office logistics function; they are a high-stakes, board-level concern. Imagine learning suddenly that shipment rerouting surcharges have doubled due to new regiona",
+    "aiSummary": "",
+    "url": "https://www.mongodb.com/company/blog/innovation/agentic-supplier-management-with-atlas-voyage-ai-multi-modal-search",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "Wed, 03 Jun 2026 19:51:09 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=90779",
+    "title": "What is Software Supply Chain Security?",
+    "summary": "Software supply chain attacks have accelerated faster than most security teams anticipated. Sonatype's 2026 State of the Software Supply Chain report identified more than 454,000 new malicious package",
+    "aiSummary": "",
+    "url": "https://www.docker.com/blog/what-is-software-supply-chain-security/",
+    "category": "인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Wed, 03 Jun 2026 18:24:39 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/c52bb83a4664",
+    "title": "Announcing Angular v22",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Wed, 03 Jun 2026 16:14:58 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jun/03/security-releases/",
+    "title": "Django security releases issued: 6.0.6 and 5.2.15",
+    "summary": "In accordance with our security release policy,\nthe Django team is issuing releases for\nDjango 6.0.6 and\nDjango 5.2.15.\nThese releases address the security issues detailed below. We encourage all\nuser",
+    "aiSummary": "",
+    "url": "https://www.djangoproject.com/weblog/2026/jun/03/security-releases/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Natalia Bidart",
+    "pubDate": "Wed, 03 Jun 2026 06:00:00 -0500",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cpp-the-documentary",
+    "title": "C++: The Documentary",
+    "summary": "Sponsored by HRT and produced by CultRepo, C++: The Documentary is about to be released worldwide on YouTube on Thursday at 20:00 UTC. Click Notify me on the YouTube Premiere page to get a reminder wh",
+    "aiSummary": "",
+    "url": "https://isocpp.org//blog/2026/06/cpp-the-documentary",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Wed, 03 Jun 2026 00:10:21 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-best-practices-for-ai-tool-use-in-cpp-jason-turner",
+    "title": "CppCon 2025 Best Practices for AI Tool Use in C++ -- Jason Turner",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-best-practices-for-ai-tool-use-in-cpp-jason-turner",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Tue, 02 Jun 2026 21:52:09 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=90499",
+    "title": "How to Secure AI Agents: A Practical Overview for Development Teams",
+    "summary": "In our State of Agentic AI report, 45% of organizations said they struggle to ensure the tools their agents use are secure and enterprise-ready. That number reflects a broader reality: AI agents are m",
+    "aiSummary": "",
+    "url": "https://www.docker.com/blog/how-to-secure-ai-agents/",
+    "category": "인프라",
+    "source": "Docker Blog",
+    "author": "Jackie Frederick",
+    "pubDate": "Tue, 02 Jun 2026 16:11:02 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/api-key-management-now-in-graphos-studio",
+    "title": "API Key Management now in GraphOS Studio",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://www.apollographql.com/blog/api-key-management-now-in-graphos-studio",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Meryl Charleston",
+    "pubDate": "Tue, 02 Jun 2026 09:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/06/python-3150-beta-2/",
+    "title": "Python 3.15.0 beta 2 is here!",
+    "summary": "The antepenultimate 3.15 beta is out!",
+    "aiSummary": "",
+    "url": "https://blog.python.org/2026/06/python-3150-beta-2/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "Tue, 02 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
+    "title": "Launching the Rust Foundation Maintainers Fund",
+    "summary": "If you want to financially support the development of Rust, please consider donating to the Rust Foundation Maintainers Fund.\nA few months ago, the Rust Foundation announced the Rust Foundation Mainta",
+    "aiSummary": "",
+    "url": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Funding team",
+    "pubDate": "2026-06-02T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/02/this-week-in-spring-june-2-2026",
+    "title": "This Week in Spring - June 2nd, 2026",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/02/this-week-in-spring-june-2-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Tue, 02 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/",
+    "title": "From Kubernetes Dashboard to Headlamp: Understanding the Transition",
+    "summary": "For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without relyi",
+    "aiSummary": "",
+    "url": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/",
+    "category": "인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Mon, 01 Jun 2026 10:00:00 -0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-06-01-1",
+    "title": "Laracon US 2026",
+    "summary": "Join Laravel and PHP developers from around the world for two days of world-class talks, hands-on learning, and community connection. Come ready to level up, leave ready to ship.\n\n\n    Plus an after p",
+    "aiSummary": "",
+    "url": "https://www.php.net/conferences/index.php#2026-06-01-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-06-01T16:50:29.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.3.0?1780319508265",
+    "title": "Node.js 26.3.0 (Current)",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://nodejs.org/en/blog/release/v26.3.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Mon, 01 Jun 2026 13:11:48 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-june-2026",
+    "title": "What’s new in Svelte: June 2026",
+    "summary": "This month we got a bunch of improvements in SvelteKit's forms and remote functions. Plus, a new query function (.live(...)) that makes accessing real-time data from the server easier.\nKeep an eye out",
+    "aiSummary": "",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-june-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "Mon, 01 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai",
+    "title": "Spring and Security In The Times Of AI",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "mminella",
+    "pubDate": "Mon, 01 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/whats-new-may-2026/",
+    "title": "What's new in Astro - May 2026",
+    "summary": "May 2026 - A new Astro jobs board, TinaCMS makes Astro their default template, experimental advanced routing, and more!",
+    "aiSummary": "",
+    "url": "https://astro.build/blog/whats-new-may-2026/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/5/29/this-week-in-rails",
+    "title": "Action Cable adapterization and more",
+    "summary": "Hi, Wojtek here. Let’s see a huge list of this week’s changes in the Rails codebase.\nAction Cable server adapterization\nActionCable::Server abstractions.\nThis refactoring separates socket handling, co",
+    "aiSummary": "",
+    "url": "https://rubyonrails.org/2026/5/29/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Wojtek",
+    "pubDate": "2026-05-29T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/05/building-cooking-assistant-ai-logic",
+    "title": "Building a cooking assistant with Firebase AI Logic",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://firebase.blog/posts/2026/05/building-cooking-assistant-ai-logic",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/f316e57186e3",
+    "title": "That’s a wrap: Everything Flutter at Google I/O 2026",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.flutter.dev/thats-a-wrap-everything-flutter-at-google-i-o-2026-f316e57186e3?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Emma Twersky",
+    "pubDate": "Thu, 28 May 2026 15:43:11 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=47940",
+    "title": "Percona Operator for PostgreSQL 3.0.0: Hard Fork, OLM Scoping, Major Upgrades",
+    "summary": "The Percona Operator for PostgreSQL 3.0.0 is here. This is the release that completes the hard fork of the operator from the Crunchy Data PostgreSQL Operator into a fully independent project, with a d",
+    "aiSummary": "",
+    "url": "https://www.percona.com/blog/percona-operator-for-postgresql-3-0-0-hard-fork-olm-scoping-major-upgrades/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Slava Sarzhan",
+    "pubDate": "Thu, 28 May 2026 13:29:03 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+    "title": "Announcing Rust 1.96.0",
+    "summary": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust in",
+    "aiSummary": "",
+    "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rust Release Team",
+    "pubDate": "2026-05-28T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/astro-640/",
+    "title": "Astro 6.4",
+    "summary": "Astro 6.4 introduces a new pluggable Markdown processor API, a Rust-based Markdown processor for faster builds, and helpers to wire up experimental advanced routing with Cloudflare.",
+    "aiSummary": "",
+    "url": "https://astro.build/blog/astro-640/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Thu, 28 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/05/react-firestore-search",
+    "title": "Live text search with Firestore pipelines and React",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://firebase.blog/posts/2026/05/react-firestore-search",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "Thu, 28 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/openjarvis",
+    "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+    "summary": "OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.",
+    "aiSummary": "",
+    "url": "https://ollama.com/blog/openjarvis",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "Thu, 28 May 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=47144",
+    "title": "Migrate from Crunchy Data PostgreSQL Operator to Percona PostgreSQL Operator: Backup-Restore and PV Reuse",
+    "summary": "A Percona PostgreSQL operator pgBackRest restore is the simplest way to move off the Crunchy Data PostgreSQL Operator: take a full Crunchy backup, point the new Percona cluster’s dataSource at the exi",
+    "aiSummary": "",
+    "url": "https://www.percona.com/blog/migrate-from-crunchy-data-to-percona-postgresql-operator-backup-restore-pv-reuse/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Slava Sarzhan",
+    "pubDate": "Wed, 27 May 2026 12:02:55 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/whats-new-in-apollo-client-4-2",
+    "title": "What’s New in Apollo Client 4.2",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://www.apollographql.com/blog/whats-new-in-apollo-client-4-2",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Jerel Miller",
+    "pubDate": "Wed, 27 May 2026 11:33:11 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
+    "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
+    "summary": "The Kubernetes project relies on transparency to empower cluster administrators and security\nresearchers. One important way we do that is by publishing CVE records into the Common\nVulnerabilities and ",
+    "aiSummary": "",
+    "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
+    "category": "인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Tue, 26 May 2026 09:30:00 -0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60186",
+    "title": "Doing More with GitHub Copilot as a .NET Developer",
+    "summary": "Want to get more out of your GitHub Copilot experience? Here are some easy ways to get started.\nThe post Doing More with GitHub Copilot as a .NET Developer appeared first on .NET Blog.",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/doing-more-with-github-copilot/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Wendy Breiding (SHE/HER)",
+    "pubDate": "Tue, 26 May 2026 17:05:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49088",
+    "title": "How Procurement Leaders Realize ROI from Open Source Databases",
+    "summary": "Database purchases are often considered just another IT expense. The primary concerns are limited to license fees and sign support contracts. But this mindset ignores hidden costs like downtime, exces",
+    "aiSummary": "",
+    "url": "https://www.percona.com/blog/how-procurement-leaders-realize-roi-from-open-source-databases/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Scott LaFortune",
+    "pubDate": "Tue, 26 May 2026 15:20:50 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/protecting-your-supabase-projects-from-npm-supply-chain-attacks",
+    "title": "Protecting your Supabase projects from npm supply chain attacks",
+    "summary": "How Supabase is responding to npm supply chain attacks and practical steps you should take today to reduce your risk.",
+    "aiSummary": "",
+    "url": "https://supabase.com/blog/protecting-your-supabase-projects-from-npm-supply-chain-attacks",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "Tue, 26 May 2026 00:00:00 -0700",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.24",
+    "title": "v11.1.24",
+    "summary": "v11.1.24 (2026-05-25)\nBug fixes\ncore\n\n#17009 fix(core): reset dependency-tree cache on metadata changes (@puneetdixit200)\nEnhancements\ncore\n\n#16997 feat(core): warn on late websocket adapter registrat",
+    "aiSummary": "",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.24",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-05-25T08:41:52.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+    "title": "Security Advisory for Cargo (CVE-2026-5223)",
+    "summary": "The Rust Security Response Team was notified that Cargo incorrectly handled\nsymlinks inside of crate tarballs downloaded from third-party registries,\nallowing a malicious crate to override the source ",
+    "aiSummary": "",
+    "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Rust Security Response Team",
+    "pubDate": "2026-05-25T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
+    "title": "Security Advisory for Cargo (CVE-2026-5222)",
+    "summary": "The Rust Security Response Team was notified that Cargo incorrectly normalized\nthe URLs of third-party registries using the sparse index protocol. If a\nhosting provider allowed multiple registries to ",
+    "aiSummary": "",
+    "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Rust Security Response Team",
+    "pubDate": "2026-05-25T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.136.3",
+    "title": "0.136.3",
+    "summary": "Refactors\n♻️ Do not accept underscore headers when using convert_underscores=True (the default). PR #15589 by @tiangolo.",
+    "aiSummary": "",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.3",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "tiangolo",
+    "pubDate": "2026-05-23T18:52:33.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.136.2",
+    "title": "0.136.2",
+    "summary": "Refactors\n♻️ Validate Server Sent Event fields to avoid applications from sending broken data. PR #15588 by @tiangolo.\nDocs\n📝 Document --entrypoint CLI option. PR #15464 by @YuriiMotov.\n📝 Update and",
+    "aiSummary": "",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.2",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "tiangolo",
+    "pubDate": "2026-05-23T17:25:22.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/5/23/this-week-in-rails",
+    "title": "Safer to_i coercion, custom to_fs formats, and more!",
+    "summary": "Hi, I’m Emmanuel Hayford. Rails had a busy week, so grab a tea and let’s get into it.\nThe 2026 Ruby on Rails Community Survey is open\nLimit the size of strings we call to_i on in ActiveRecord\nto_i on ",
+    "aiSummary": "",
+    "url": "https://rubyonrails.org/2026/5/23/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Emmanuel Hayford",
+    "pubDate": "2026-05-23T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/94c18a911a3a",
+    "title": "Mastering Dynamic Components, HTTP Resources, and AI Writing Assistants ️",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.angular.dev/mastering-dynamic-components-http-resources-and-ai-writing-assistants-%EF%B8%8F-94c18a911a3a?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Fri, 22 May 2026 13:01:01 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_tre-111-released-an-approximate-regex-index-am-for-postgresql-18-3305/",
+    "title": "pg_tre 1.1.1 released -- an approximate-REGEX index AM for PostgreSQL 18+\n",
+    "summary": "I am pleased to announce the first public release of [pg_tre] (https://codeberg.org/gregburd/pg_tre), a native PostgreSQL 18+ index access method for approximate-regex matching.\npg_tre indexes text co",
+    "aiSummary": "",
+    "url": "https://www.postgresql.org/about/news/pg_tre-111-released-an-approximate-regex-index-am-for-postgresql-18-3305/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Fri, 22 May 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.23",
+    "title": "v11.1.23",
+    "summary": "v11.1.23 (2026-05-21)\nBug fixes\ncore\n\n#16998 fix snapshot: true eagerly instantiates Terminus transient indicators since 11.1.20\nCommitters: 1\nKamil Mysliwiec (@kamilmysliwiec)",
+    "aiSummary": "",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.23",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-05-21T18:18:12.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "/blog/release/v24.16.0?1779369943186",
+    "title": "Node.js 24.16.0 (LTS)",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://nodejs.org/en/blog/release/v24.16.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Thu, 21 May 2026 13:25:43 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.22",
+    "title": "v11.1.22",
+    "summary": "v11.1.22 (2026-05-21)\nBug fixes\ncore\n\n#16993 fix(core): inflight request injection bug #16989 (@kamilmysliwiec)\nEnhancements\ncore\n\n#16967 fix(core): identify decorator type in invalid-class-module err",
+    "aiSummary": "",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.22",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-05-21T08:57:18.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/pkgsite-api",
+    "title": "Introducing the pkg.go.dev API",
+    "summary": "The Go Blog\nIntroducing the pkg.go.dev API\nSince its inception, pkg.go.dev has established itself as\nthe Go community’s primary resource for package documentation and discovery.\nWhile we initially pri",
+    "aiSummary": "",
+    "url": "https://go.dev/blog/pkgsite-api",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Ethan Lee, Hana Kim, and Jonathan Amsterdam",
+    "pubDate": "2026-05-21T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/may/20/django-61-alpha-1-released/",
+    "title": "Django 6.1 alpha 1 released",
+    "summary": "Django 6.1 alpha 1 is now available. It represents the first\nstage in the 6.1 release cycle and is an opportunity to try out\nthe changes coming in Django 6.1.\nDjango 6.1 offers a harmonious mélange of",
+    "aiSummary": "",
+    "url": "https://www.djangoproject.com/weblog/2026/may/20/django-61-alpha-1-released/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jacob Walls",
+    "pubDate": "Wed, 20 May 2026 14:40:00 -0500",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/b0cc1ad3c527",
+    "title": "What’s new in Flutter 3.44",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.flutter.dev/whats-new-in-flutter-3-44-b0cc1ad3c527?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Khanh Nguyen",
+    "pubDate": "Wed, 20 May 2026 18:01:02 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.2.0?1779282208511",
+    "title": "Node.js 26.2.0 (Current)",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://nodejs.org/en/blog/release/v26.2.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Wed, 20 May 2026 13:03:28 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/05/20/ruby-4-0-5-released/",
+    "title": "Ruby 4.0.5 Released",
+    "summary": "Ruby 4.0.5 has been released.\nThis release only contains a security fix for\nCVE-2026-46727: Use-after-free in pthread-based getaddrinfo timeout handler\nand a build system regression in Ruby 4.0.4 unde",
+    "aiSummary": "",
+    "url": "https://www.ruby-lang.org/en/news/2026/05/20/ruby-4-0-5-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "Wed, 20 May 2026 00:12:20 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/05/20/getaddrinfo-cve-2026-46727/",
+    "title": "CVE-2026-46727: Use-after-free in pthread-based getaddrinfo timeout handler",
+    "summary": "A use-after-free vulnerability has been discovered in the pthread-based getaddrinfo timeout handler of Ruby. This vulnerability has been assigned the CVE identifier CVE-2026-46727. This issue has been",
+    "aiSummary": "",
+    "url": "https://www.ruby-lang.org/en/news/2026/05/20/getaddrinfo-cve-2026-46727/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "Wed, 20 May 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/",
+    "title": "Announcing etcd 3.7.0-beta.0",
+    "summary": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0. This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream ",
+    "aiSummary": "",
+    "url": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/",
+    "category": "인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Wed, 20 May 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/05/google-io-2026-announcements",
+    "title": "What’s new from Firebase at Google I/O 2026",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://firebase.blog/posts/2026/05/google-io-2026-announcements",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "Tue, 19 May 2026 01:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/05/ai-logic-maps-grounding",
+    "title": "Bringing the real world to your AI application using Firebase AI Logic",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://firebase.blog/posts/2026/05/ai-logic-maps-grounding",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "Tue, 19 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/cb5c7da7c2bc",
+    "title": "Flutter’s multiplatform value for agentic development",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.flutter.dev/flutters-multiplatform-value-for-agentic-development-cb5c7da7c2bc?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Michael Thomsen",
+    "pubDate": "Mon, 18 May 2026 18:42:10 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
+    "title": "Project goals update — April 2026 (end of 2025H2)",
+    "summary": "The 2025H2 Project Goal period has now concluded. Over these months, the Rust Project pursued 41 Project Goals, 13 of which were designated as Flagship Goals. This post contains curated updates on our",
+    "aiSummary": "",
+    "url": "https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Nurzhan Saken",
+    "pubDate": "2026-05-18T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/5/16/this-week-in-rails",
+    "title": "This Week in Rails: May 16, 2026",
+    "summary": "Hi, it’s Greg. Let’s explore this week’s changes in the Rails codebase.\nRails World 2026 update\nhttps://rubyonrails.org/world/2026.\nA new add-on tutorial is ready for community review\nThis builds on t",
+    "aiSummary": "",
+    "url": "https://rubyonrails.org/2026/5/16/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Greg",
+    "pubDate": "2026-05-16T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/",
+    "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
+    "summary": "This article was originally published with the wrong date. It was later republished, dated the 15th of\nMay 2026.\nKubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_tota",
+    "aiSummary": "",
+    "url": "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/",
+    "category": "인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Fri, 15 May 2026 10:35:00 -0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/",
+    "title": "Kubernetes v1.36: Mixed Version Proxy Graduates to Beta",
+    "summary": "Back in Kubernetes 1.28, we introduced the Mixed Version Proxy (MVP) as an Alpha feature (under the feature gate UnknownVersionInteroperabilityProxy) in a previous blog post. The goal was simple but c",
+    "aiSummary": "",
+    "url": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/",
+    "category": "인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Fri, 15 May 2026 10:00:00 -0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/e5ddff07737b",
+    "title": "New updates to A2UI and Flutter’s GenUI package",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.flutter.dev/new-updates-to-a2ui-and-flutters-genui-package-e5ddff07737b?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Andrew Brogdon",
+    "pubDate": "Thu, 14 May 2026 14:18:22 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "/blog/release/v22.22.3?1778697903090",
+    "title": "Node.js 22.22.3 (LTS)",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://nodejs.org/en/blog/release/v22.22.3",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Wed, 13 May 2026 18:45:03 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-kotlin-5-is-now-available",
+    "title": "Apollo Kotlin 5 Is Now Available",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://www.apollographql.com/blog/apollo-kotlin-5-is-now-available",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Martin Bonnin",
+    "pubDate": "Wed, 13 May 2026 12:00:25 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/may/12/2026-django-developers-survey/",
+    "title": "2026 Django Developers Survey",
+    "summary": "The Django Software Foundation is once again partnering with JetBrains to run the 2026 Django Developers Survey 🌈\nIt’s an important metric of Django usage and is immensely helpful to guide future tec",
+    "aiSummary": "",
+    "url": "https://www.djangoproject.com/weblog/2026/may/12/2026-django-developers-survey/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Django Software Foundation and JetBrains",
+    "pubDate": "Tue, 12 May 2026 07:00:00 -0500",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-05-11-1",
+    "title": "Longhorn PHP 2026 - Call For Papers",
+    "summary": "Longhorn PHP is back, with a slightly updated format - this year our conference in Austin, TX, will feature a tutorial day (Thursday, October 15), followed by a main conference day (Friday, October 16",
+    "aiSummary": "",
+    "url": "https://www.php.net/conferences/index.php#2026-05-11-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-05-11T22:03:37.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/05/11/ruby-4-0-4-released/",
+    "title": "Ruby 4.0.4 Released",
+    "summary": "Ruby 4.0.4 has been released.\nThis is a routine update that includes bugfixes.\nPlease see the GitHub Releases for further details.\nRelease Schedule\nWe intend to release the latest stable Ruby version ",
+    "aiSummary": "",
+    "url": "https://www.ruby-lang.org/en/news/2026/05/11/ruby-4-0-4-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "Mon, 11 May 2026 21:41:38 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/technical/fighting-tool-sprawl-case-for-ai-tool-registries",
+    "title": "Fighting Tool Sprawl: The Case for AI Tool Registries",
+    "summary": "As enterprise AI agent adoption scales, the absence of centralized, organization-level tool infrastructure is producing compounding costs. When adoption is built around optimizing for deployment speed",
+    "aiSummary": "",
+    "url": "https://www.mongodb.com/company/blog/technical/fighting-tool-sprawl-case-for-ai-tool-registries",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "Mon, 11 May 2026 14:35:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/may/11/dsf-member-of-the-month-bhuvnesh-sharma/",
+    "title": "DSF member of the month -  Bhuvnesh Sharma",
+    "summary": "For May 2026, we welcome Bhuvnesh Sharma as our DSF member of the month! ⭐\n\nBhuvnesh is a Django contributor since 2022 and a Google Summer of Code (GSoC) participant in 2023 for Django. He is now a m",
+    "aiSummary": "",
+    "url": "https://www.djangoproject.com/weblog/2026/may/11/dsf-member-of-the-month-bhuvnesh-sharma/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Sarah Abderemane",
+    "pubDate": "Mon, 11 May 2026 06:00:00 -0500",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/05/11/may-train-shift",
+    "title": "May Release Train Date Changes",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/05/11/may-train-shift",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "mminella",
+    "pubDate": "Mon, 11 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/05/python-3145-is-out/",
+    "title": "Python 3.14.5 is out!",
+    "summary": "A special release with a new (old) garbage collector.",
+    "aiSummary": "",
+    "url": "https://blog.python.org/2026/05/python-3145-is-out/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "Sun, 10 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "Tailwind CSS v4.3: Scrollbars, new colors, and more",
+    "title": "Tailwind CSS v4.3: Scrollbars, new colors, and more",
+    "summary": "Tailwind CSS v4.3 is here with first-party scrollbar styling, even more logical property utilities, new zoom and tab-size utilities, better @variant support, and all the v4.2 stuff we shipped while fo",
+    "aiSummary": "",
+    "url": "https://tailwindcss.com/blog/tailwindcss-v4-3",
+    "category": "프론트엔드",
+    "source": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "pubDate": "Fri, 08 May 2026 20:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Tailwind",
+      "CSS"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/supabase-is-now-an-official-chatgpt-app",
+    "title": "Supabase Is Now an Official ChatGPT App",
+    "summary": "Connect your Supabase projects to ChatGPT and manage your database infrastructure by telling ChatGPT what you need.",
+    "aiSummary": "",
+    "url": "https://supabase.com/blog/supabase-is-now-an-official-chatgpt-app",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "Fri, 08 May 2026 00:00:00 -0700",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/5/8/this-week-in-rails",
+    "title": "This Week in Rails: May 8, 2026",
+    "summary": "Hi, it’s zzak. This week was full of changes, so grab a seat, there’s a lot to cover.\nNew Accessibility Guide open for review\nAdd ActiveJob::Attributes to persist data between steps\nserialize and dese",
+    "aiSummary": "",
+    "url": "https://rubyonrails.org/2026/5/8/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "zzak",
+    "pubDate": "2026-05-08T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-05-07-4",
+    "title": "PHP 8.5.6 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.6. This is a security release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.6 p",
+    "aiSummary": "",
+    "url": "https://www.php.net/index.php#2026-05-07-4",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-05-07T17:59:54.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-federation-goes-full-rust",
+    "title": "Apollo Federation Goes Full Rust",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://www.apollographql.com/blog/apollo-federation-goes-full-rust",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "David Walter",
+    "pubDate": "Thu, 07 May 2026 17:50:09 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/ai-changing-what-customers-need-from-database-mongodb-8-3-built-for-it",
+    "title": "AI Is Changing What Customers Need From a Database. MongoDB 8.3 Is Built for It",
+    "summary": "Today, we announced at .local London that MongoDB 8.3 is built for the speed AI demands—and our customers can't afford to wait.\nThe data layer has to move at AI speed\nThe old contract between database",
+    "aiSummary": "",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/ai-changing-what-customers-need-from-database-mongodb-8-3-built-for-it",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "Thu, 07 May 2026 14:33:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/05/python-3150-beta-1/",
+    "title": "Python 3.15.0 beta 1 is here!",
+    "summary": "The propreantepenultimate 3.15 beta is out!",
+    "aiSummary": "",
+    "url": "https://blog.python.org/2026/05/python-3150-beta-1/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "Thu, 07 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/astro-630/",
+    "title": "Astro 6.3",
+    "summary": "Astro 6.3 introduces experimental advanced routing with Hono support, image redirect handling, resilient island hydration, and more.",
+    "aiSummary": "",
+    "url": "https://astro.build/blog/astro-630/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Thu, 07 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/starlight-039/",
+    "title": "Starlight 0.39",
+    "summary": "Get more flexible autogenerated sidebars, improved styling, and stronger multilingual docs support with the latest Starlight release.",
+    "aiSummary": "",
+    "url": "https://astro.build/blog/starlight-039/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Thu, 07 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/23837c6ec0ae",
+    "title": "Introducing Skills for Dart and Flutter",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.flutter.dev/introducing-skills-for-dart-and-flutter-23837c6ec0ae?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Mariam Hasnany",
+    "pubDate": "Wed, 06 May 2026 18:19:09 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/introducing-supabase-server",
+    "title": "Introducing @supabase/server",
+    "summary": "Stateless auth, RLS-scoped clients, and CORS on the server, without the boilerplate.",
+    "aiSummary": "",
+    "url": "https://supabase.com/blog/introducing-supabase-server",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "Wed, 06 May 2026 00:00:00 -0700",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/05/python-3145rc1/",
+    "title": "Python 3.14.5 release candidate",
+    "summary": "A special release candidate with a new (old) garbage collector.",
+    "aiSummary": "",
+    "url": "https://blog.python.org/2026/05/python-3145rc1/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "Mon, 04 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-may-2026",
+    "title": "What’s new in Svelte: May 2026",
+    "summary": "This month we got a ton of improvements to SvelteKit's remote functions, TypeScript 6.0 support and the experimental release of community plugins in the Svelte CLI.\nSvelte was also featured in Thought",
+    "aiSummary": "",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-may-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "Fri, 01 May 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-is-recognized-in-gartner-voice-of-the-customer",
+    "title": "Apollo is Recognized in Gartner® Voice of the Customer ",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://www.apollographql.com/blog/apollo-is-recognized-in-gartner-voice-of-the-customer",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Ilan Belehssen",
+    "pubDate": "Wed, 29 Apr 2026 16:05:06 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/07c0afb816a3",
+    "title": "Back from Baby Bonding: Agents, Building Blocks, and the Future of AI Engineering",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.angular.dev/back-from-baby-bonding-agents-building-blocks-and-the-future-of-ai-engineering-07c0afb816a3?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Devin Chasanoff",
+    "pubDate": "Tue, 28 Apr 2026 18:56:45 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
+    "id": "deepseek-2026-04-24",
+    "title": "DeepSeek Update: DeepSeek-V4",
+    "summary": "The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and th",
+    "aiSummary": "",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-04-24",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-04-24T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.136.1",
+    "title": "0.136.1",
+    "summary": "Upgrades\n⬆️ Update Pydantic v2 code to address deprecations. PR #15101 by @svlandeg.\nInternal\n🔨 Tweak translation script. PR #15174 by @YuriiMotov.\n⬆ Bump mkdocs-material from 9.7.1 to 9.7.6. PR #154",
+    "aiSummary": "",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "tiangolo",
+    "pubDate": "2026-04-23T16:49:26.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5152",
+    "title": "Announcing TypeScript 7.0 Beta",
+    "summary": "Today we are absolutely thrilled to announce the release of TypeScript 7.0 Beta! If you haven’t been following TypeScript 7.0’s development, this release is significant in that it is built on a comple",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Tue, 21 Apr 2026 18:24:17 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/04/21/ruby-4-0-3-released/",
+    "title": "Ruby 4.0.3 Released",
+    "summary": "Ruby 4.0.3 has been released.\nThis release only contains ERB 6.0.1.1, which fixes CVE-2026-41316.\nIf your application calls Marshal.load on untrusted data AND has both erb and activesupport loaded, pl",
+    "aiSummary": "",
+    "url": "https://www.ruby-lang.org/en/news/2026/04/21/ruby-4-0-3-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "Tue, 21 Apr 2026 08:45:44 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/04/21/erb-cve-2026-41316/",
+    "title": "CVE-2026-41316: ERB @_init deserialization guard bypass via def_module / def_method / def_class",
+    "summary": "We published security advisory for CVE-2026-41316.\nCVE-2026-41316: ERB @_init deserialization guard bypass via def_module / def_method / def_class\nA deserialization vulnerability exists in ERB. This v",
+    "aiSummary": "",
+    "url": "https://www.ruby-lang.org/en/news/2026/04/21/erb-cve-2026-41316/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "Tue, 21 Apr 2026 07:51:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/6dd270e87fac",
+    "title": "AI Training, Local Gemini, and Styling Signal Forms ",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://blog.angular.dev/ai-training-local-gemini-and-styling-signal-forms-6dd270e87fac?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Mon, 20 Apr 2026 15:44:47 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.136.0",
+    "title": "0.136.0",
+    "summary": "Upgrades\n⬆️ Support free-threaded Python 3.14t. PR #15149 by @svlandeg.",
+    "aiSummary": "",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "tiangolo",
+    "pubDate": "2026-04-16T11:46:49.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.135.4",
+    "title": "0.135.4",
+    "summary": "Refactors\n🔥 Remove April Fool's @app.vibe() 🤪. PR #15363 by @tiangolo.\nInternal\n⬆ Bump cryptography from 46.0.5 to 46.0.7. PR #15314 by @dependabot[bot].\n⬆ Bump strawberry-graphql from 0.307.1 to 0.",
+    "aiSummary": "",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.135.4",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "tiangolo",
+    "pubDate": "2026-04-16T11:38:45.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/new-research-reveals-overcoming-legacy-tech-issues-key-ai-success",
+    "title": "New Research Reveals Overcoming Legacy Tech Issues Key to AI Success",
+    "summary": "This guest post comes from IDC’s Dr. William Lee, Senior Research Director, Service Provider and Core Infrastructure Research. MongoDB commissioned IDC to explore the connection between legacy infrast",
+    "aiSummary": "",
+    "url": "https://www.mongodb.com/company/blog/innovation/new-research-reveals-overcoming-legacy-tech-issues-key-ai-success",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "Tue, 14 Apr 2026 17:01:07 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/04/10/spring-io-2026-broadcom-speakers",
+    "title": "Catch the Spring Team at Spring I/O 2026!",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2026/04/10/spring-io-2026-broadcom-speakers",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "jasonkonicki",
+    "pubDate": "Fri, 10 Apr 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/engineering/mongodb-predictive-auto-scaling-an-experiment",
+    "title": "MongoDB Predictive Auto-Scaling: An Experiment",
+    "summary": "You can often predict a load spike before it arrives. Maybe it happens at the same time every day, or there’s always a spike at midnight on a Friday when you run a certain batch job. Or maybe it’s not",
+    "aiSummary": "",
+    "url": "https://www.mongodb.com/company/blog/engineering/mongodb-predictive-auto-scaling-an-experiment",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "Tue, 07 Apr 2026 17:03:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-april-2026",
+    "title": "What’s new in Svelte: April 2026",
+    "summary": "This month, a new best practices guide was added to the Svelte docs. Check it out, if you haven't already!\nOn the code side, the Svelte MCP got even easier to use with improvements to the official Ope",
+    "aiSummary": "",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-april-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "Wed, 01 Apr 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/mlx",
+    "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+    "summary": "Today, we're previewing the fastest way to run Ollama on Apple silicon, powered by MLX, Apple's machine learning framework.",
+    "aiSummary": "",
+    "url": "https://ollama.com/blog/mlx",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "Mon, 30 Mar 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
+    "id": "/blog/nextjs-across-platforms",
+    "title": "Next.js Across Platforms: Adapters, OpenNext, and Our Commitments",
+    "summary": "Next.js 16.2 introduces a stable Adapter API, a public adapter test suite, and a working group for more consistent deployment across platforms.",
+    "aiSummary": "",
+    "url": "https://nextjs.org/blog/nextjs-across-platforms",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Jimmy Lai"
+      ]
+    },
+    "pubDate": "Wed, 25 Mar 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/type-construction-and-cycle-detection",
+    "title": "Type Construction and Cycle Detection",
+    "summary": "The Go Blog\nType Construction and Cycle Detection\nGo’s static typing is an important part of why Go is a good fit for production\nsystems that have to be robust and reliable. When a Go package is compi",
+    "aiSummary": "",
+    "url": "https://go.dev/blog/type-construction-and-cycle-detection",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Mark Freeman",
+    "pubDate": "2026-03-24T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5106",
+    "title": "Announcing TypeScript 6.0",
+    "summary": "Today we are excited to announce the availability of TypeScript 6.0! If you are not familiar with TypeScript, it’s a language that builds on JavaScript by adding syntax for types, which enables type-c",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Mon, 23 Mar 2026 16:34:10 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/next-16-2-ai",
+    "title": "Next.js 16.2: AI Improvements",
+    "summary": "Next.js 16.2 ships AGENTS.md in create-next-app, browser log forwarding, dev server lock file with PID, and next-browser for AI agent debugging.",
+    "aiSummary": "",
+    "url": "https://nextjs.org/blog/next-16-2-ai",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Jude Gao"
+      ]
+    },
+    "pubDate": "Wed, 18 Mar 2026 20:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "/blog/next-16-2-turbopack",
+    "title": "Turbopack: What's New in Next.js 16.2",
+    "summary": "Turbopack in Next.js 16.2 brings faster builds, SRI support, postcss.config.ts, tree shaking of dynamic imports, Server Fast Refresh, inline loader configuration, and over 200 bug fixes.",
+    "aiSummary": "",
+    "url": "https://nextjs.org/blog/next-16-2-turbopack",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Andrew Imm"
+      ]
+    },
+    "pubDate": "Wed, 18 Mar 2026 20:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "/blog/next-16-2",
+    "title": "Next.js 16.2",
+    "summary": "Next.js 16.2 includes Adapters, rendering performance improvements, improved debugging and error pages, and more.",
+    "aiSummary": "",
+    "url": "https://nextjs.org/blog/next-16-2",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Jimmy Lai"
+      ]
+    },
+    "pubDate": "Wed, 18 Mar 2026 20:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/inliner",
+    "title": "//go:fix inline and the source-level inliner",
+    "summary": "The Go Blog\n//go:fix inline and the source-level inliner\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.b",
+    "aiSummary": "",
+    "url": "https://go.dev/blog/inliner",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Alan Donovan",
+    "pubDate": "2026-03-10T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5087",
+    "title": "Announcing TypeScript 6.0 RC",
+    "summary": "Today we are excited to announce the Release Candidate (RC) of TypeScript 6.0! To get started using the RC, you can get it through npm with the following command: npm install -D typescript@rc TypeScri",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Fri, 06 Mar 2026 19:13:14 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-march-2026",
+    "title": "What’s new in Svelte: March 2026",
+    "summary": "This month, we got a ton of new features across Svelte, SvelteKit and even the Svelte CLI. Plus, the State of JS 2025 is out and Svelte continues to hold the top spot among reactive frameworks in term",
+    "aiSummary": "",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-march-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "Sun, 01 Mar 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/allocation-optimizations",
+    "title": "Allocating on the Stack",
+    "summary": "The Go Blog\nAllocating on the Stack\nWe’re always looking for ways to make Go programs faster. In the last\n2 releases, we have concentrated on mitigating a particular source of\nslowness, heap allocatio",
+    "aiSummary": "",
+    "url": "https://go.dev/blog/allocation-optimizations",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Keith Randall",
+    "pubDate": "2026-02-27T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://react.dev/blog/2026/02/24/the-react-foundation",
+    "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
+    "summary": "The React Foundation has officially launched, hosted by the Linux Foundation.",
+    "aiSummary": "",
+    "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
+    "category": "프론트엔드",
+    "source": "React Blog",
+    "author": "Matt Carroll",
+    "pubDate": "Tue, 24 Feb 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/openclaw-tutorial",
+    "title": "The simplest and fastest way to setup OpenClaw",
+    "summary": "Setup OpenClaw in under two minutes with a single Ollama command.",
+    "aiSummary": "",
+    "url": "https://ollama.com/blog/openclaw-tutorial",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "Mon, 23 Feb 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/gofix",
+    "title": "Using go fix to modernize Go code",
+    "summary": "The Go Blog\nUsing go fix to modernize Go code\nThe 1.26 release of Go this month includes a completely rewritten go fix subcommand. Go fix uses a suite of algorithms to identify opportunities to improv",
+    "aiSummary": "",
+    "url": "https://go.dev/blog/gofix",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Alan Donovan",
+    "pubDate": "2026-02-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "/blog/agentic-future",
+    "title": "Building Next.js for an agentic future",
+    "summary": "How we built and sunset an in-browser agent, shipped MCP integration, and learned that better AI agent support means thinking from the agent's perspective.",
+    "aiSummary": "",
+    "url": "https://nextjs.org/blog/agentic-future",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Jiachi Liu"
+      ]
+    },
+    "pubDate": "Thu, 12 Feb 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5055",
+    "title": "Announcing TypeScript 6.0 Beta",
+    "summary": "Today we are announcing the beta release of TypeScript 6.0! To get started using the beta, you can get it through npm with the following command: npm install -D typescript@beta TypeScript 6.0 is a uni",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Wed, 11 Feb 2026 18:50:26 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-february-2026",
+    "title": "What’s new in Svelte: February 2026",
+    "summary": "This month brings a few new features to Svelte and SvelteKit and quite a few new libraries from around the community.\nAlso, in case you missed it last month, the Svelte maintainers released patches fo",
+    "aiSummary": "",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-february-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "Sun, 01 Feb 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+    "title": "Denial of Service and Source Code Exposure in React Server Components",
+    "summary": "Security researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability. High vulnerabilit",
+    "aiSummary": "",
+    "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+    "category": "프론트엔드",
+    "source": "React Blog",
+    "author": "The React Team",
+    "pubDate": "Thu, 11 Dec 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "id": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+    "title": "Critical Security Vulnerability in React Server Components",
+    "summary": "There is an unauthenticated remote code execution vulnerability in React Server Components. A fix has been published in versions 19.0.1, 19.1.2, and 19.2.1. We recommend upgrading immediately.",
+    "aiSummary": "",
+    "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+    "category": "프론트엔드",
+    "source": "React Blog",
+    "author": "The React Team",
+    "pubDate": "Wed, 03 Dec 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5013",
+    "title": "Progress on TypeScript 7 – December 2025",
+    "summary": "Earlier this year, the TypeScript team announced that we’ve been porting the compiler and language service to native code to take advantage of better raw performance, memory usage, and parallelism. Th",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Tue, 02 Dec 2025 17:31:32 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "deepseek-2025-12-01",
+    "title": "DeepSeek Update: DeepSeek-V3.2",
+    "summary": "Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2.",
+    "aiSummary": "",
+    "url": "https://api-docs.deepseek.com/updates#date-2025-12-01",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2025-12-01T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=58698",
+    "title": "Get Ready for .NET Conf 2025!",
+    "summary": "The biggest .NET event of the year is just one week away! Join us November 11-13 for .NET 10 and Visual Studio 2026, plus a Student Zone on November 14th.\nThe post Get Ready for .NET Conf 2025! appear",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2025/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": "Jon Galloway",
+    "pubDate": "Tue, 04 Nov 2025 18:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2025/10/29/spring-pulsar-reactive-discontinued",
+    "title": "Reactive Support in Spring for Apache Pulsar Will Be Discontinued",
+    "summary": "",
+    "aiSummary": "",
+    "url": "https://spring.io/blog/2025/10/29/spring-pulsar-reactive-discontinued",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "onobc",
+    "pubDate": "Wed, 29 Oct 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://react.dev/blog/2025/10/16/react-conf-2025-recap",
+    "title": "React Conf 2025 Recap",
+    "summary": "Last week we hosted React Conf 2025, in this post, we summarize the talks and announcements from the event...",
+    "aiSummary": "",
+    "url": "https://react.dev/blog/2025/10/16/react-conf-2025-recap",
+    "category": "프론트엔드",
+    "source": "React Blog",
+    "author": "Matt Carroll and Ricky Hanlon",
+    "pubDate": "Thu, 16 Oct 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "id": "https://react.dev/blog/2025/10/07/react-compiler-1",
+    "title": "React Compiler v1.0",
+    "summary": "We are releasing the compiler's first stable release today.",
+    "aiSummary": "",
+    "url": "https://react.dev/blog/2025/10/07/react-compiler-1",
+    "category": "프론트엔드",
+    "source": "React Blog",
+    "author": "Lauren Tan, Joe Savona, and Mofei Zhang",
+    "pubDate": "Tue, 07 Oct 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "id": "deepseek-2025-09-29",
+    "title": "DeepSeek Update: DeepSeek-V3.2-Exp",
+    "summary": "Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp.",
+    "aiSummary": "",
+    "url": "https://api-docs.deepseek.com/updates#date-2025-09-29",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2025-09-29T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://qwenlm.github.io/blog/qwen3guard/",
+    "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+    "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD\nIntroduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation mo",
+    "aiSummary": "",
+    "url": "https://qwenlm.github.io/blog/qwen3guard/",
+    "category": "인공지능",
+    "source": "Qwen Blog",
+    "author": "Qwen Blog",
+    "pubDate": "Tue, 23 Sep 2025 04:00:00 +0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Qwen",
+      "LLM",
+      "Alibaba"
+    ]
+  },
+  {
+    "id": "deepseek-2025-09-22",
+    "title": "DeepSeek Update: DeepSeek-V3.1-Terminus",
+    "summary": "Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus&#x27;s non-thinking mode, while deepseek-reasoner corresponds",
+    "aiSummary": "",
+    "url": "https://api-docs.deepseek.com/updates#date-2025-09-22",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2025-09-22T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "deepseek-2025-08-21",
+    "title": "DeepSeek Update: DeepSeek-V3.1",
+    "summary": "Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1&#x27;s non-thinking mode, while deepseek-reasoner corresponds to its thinking m",
+    "aiSummary": "",
+    "url": "https://api-docs.deepseek.com/updates#date-2025-08-21",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2025-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://qwenlm.github.io/blog/qwen-image-edit/",
+    "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+    "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD\nWe are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully",
+    "aiSummary": "",
+    "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+    "category": "인공지능",
+    "source": "Qwen Blog",
+    "author": "Qwen Blog",
+    "pubDate": "Tue, 19 Aug 2025 01:30:00 +0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Qwen",
+      "LLM",
+      "Alibaba"
+    ]
+  },
+  {
+    "id": "https://qwenlm.github.io/blog/qwen-image/",
+    "title": "Qwen-Image: Crafting with Native Text Rendering",
+    "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD\nWe are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image edi",
+    "aiSummary": "",
+    "url": "https://qwenlm.github.io/blog/qwen-image/",
+    "category": "인공지능",
+    "source": "Qwen Blog",
+    "author": "Qwen Blog",
+    "pubDate": "Mon, 04 Aug 2025 22:08:30 +0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Qwen",
+      "LLM",
+      "Alibaba"
+    ]
+  },
+  {
+    "id": "https://qwenlm.github.io/blog/gspo/",
+    "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+    "summary": "PAPER DISCORD\nIntroduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, t",
+    "aiSummary": "",
+    "url": "https://qwenlm.github.io/blog/gspo/",
+    "category": "인공지능",
+    "source": "Qwen Blog",
+    "author": "Qwen Blog",
+    "pubDate": "Sun, 27 Jul 2025 15:00:00 +0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Qwen",
+      "LLM",
+      "Alibaba"
+    ]
+  },
+  {
+    "id": "Vanilla JavaScript support for Tailwind Plus",
+    "title": "Vanilla JavaScript support for Tailwind Plus",
+    "summary": "Every UI block in Tailwind Plus is now fully functional, accessible, and interactive, even if you don't use a framework like React or Vue.",
+    "aiSummary": "",
+    "url": "https://tailwindcss.com/blog/vanilla-js-support-for-tailwind-plus",
+    "category": "프론트엔드",
+    "source": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "pubDate": "Fri, 25 Jul 2025 14:30:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Tailwind",
+      "CSS"
+    ]
+  },
+  {
+    "id": "https://qwenlm.github.io/blog/qwen-mt/",
+    "title": "Qwen-MT: Where Speed Meets Smart Translation",
+    "summary": "DEMO API DISCORD\nIntroduction Here we introduce the latest update of Qwen-MT (qwen-mt-turbo) via Qwen API. This update builds upon the powerful Qwen3, leveraging trillions multilingual and translation",
+    "aiSummary": "",
+    "url": "https://qwenlm.github.io/blog/qwen-mt/",
+    "category": "인공지능",
+    "source": "Qwen Blog",
+    "author": "Qwen Blog",
+    "pubDate": "Thu, 24 Jul 2025 22:00:00 +0800",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Qwen",
+      "LLM",
+      "Alibaba"
+    ]
+  },
+  {
+    "id": "Compass: A starter kit for online courses",
+    "title": "Compass: A starter kit for online courses",
+    "summary": "I've been itching to get back into screencasting and teaching lately, and the natural first step was to build our own course platform. So we just released Compass, a Next.js starter kit for publishing",
+    "aiSummary": "",
+    "url": "https://tailwindcss.com/blog/2025-05-14-compass-course-starter-kit",
+    "category": "프론트엔드",
+    "source": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "pubDate": "Wed, 14 May 2025 19:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Tailwind",
+      "CSS"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=56452",
+    "title": "Join the .NET & C# Teams at Microsoft Build 2025",
+    "summary": "The countdown to Microsoft Build 2025 is on! Join us May 19-22 either in-person in Seattle or online and explore an exciting lineup of .NET and C# content, including sessions on AI integration, app mo",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/join-us-at-build-2025/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": ".NET Team",
+    "pubDate": "Tue, 15 Apr 2025 18:45:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "Tailwind CSS v4.1: Text shadows, masks, and tons more",
+    "title": "Tailwind CSS v4.1: Text shadows, masks, and tons more",
+    "summary": "I wasn't sure it would ever happen but we did it — we released a version of Tailwind CSS that includes text shadow utilities. Tailwind CSS v4.1 is here and it's packed with improvements that will help",
+    "aiSummary": "",
+    "url": "https://tailwindcss.com/blog/tailwindcss-v4-1",
+    "category": "프론트엔드",
+    "source": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "pubDate": "Thu, 03 Apr 2025 20:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Tailwind",
+      "CSS"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=56293",
+    "title": "Modernizing push notification API for Teams",
+    "summary": "Push Notification Hub is an essential internal service that plays a crucial role in the messaging and calling flows within Teams and other platforms. This article describes its recent overhaul, which ",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/modernizing-push-notification-api-for-teams/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": "Rudolf Kurka, Frantisek (Fero) Kaduk",
+    "pubDate": "Tue, 01 Apr 2025 17:00:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=56088",
+    "title": "Exploring new .NET releases with Dev Containers",
+    "summary": "Learn how to set up and use dev containers for experimenting with new .NET releases.\nThe post Exploring new .NET releases with Dev Containers appeared first on .NET Blog.",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-in-dev-container/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": "Mike Kistler",
+    "pubDate": "Tue, 25 Mar 2025 17:05:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "Tailwind UI is now Tailwind Plus",
+    "title": "Tailwind UI is now Tailwind Plus",
+    "summary": "We just shipped a huge rebrand project, turning what was previously known as Tailwind UI into Tailwind Plus. Tailwind Plus is the all same high-quality resources you know from Tailwind UI, but with al",
+    "aiSummary": "",
+    "url": "https://tailwindcss.com/blog/tailwind-plus",
+    "category": "프론트엔드",
+    "source": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "pubDate": "Tue, 04 Mar 2025 16:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Tailwind",
+      "CSS"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=54412",
+    "title": "Get Ready for .NET Conf 2024!",
+    "summary": "The biggest .NET event of the year is almost here, its all free, all online, and you're invited!\nThe post Get Ready for .NET Conf 2024! appeared first on .NET Blog.",
+    "aiSummary": "",
+    "url": "https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2024/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": "Jeffrey Fritz",
+    "pubDate": "Thu, 07 Nov 2024 20:30:00 +0000",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://blog.vuejs.org/posts/vue-3-5",
+    "title": "Announcing Vue 3.5",
+    "summary": "Today we are excited to announce the release of Vue 3.5 \"Tengen Toppa Gurren Lagann\"!\nThis minor release contains no breaking changes and includes both internal improvements and useful new features. W",
+    "aiSummary": "",
+    "url": "https://blog.vuejs.org/posts/vue-3-5",
+    "category": "프론트엔드",
+    "source": "Vue.js Blog",
+    "author": "Vue.js Blog",
+    "pubDate": "Sun, 01 Sep 2024 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Vue"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/how-to-choose-a-vector-database",
+    "title": "How to choose a vector database",
+    "summary": "Explore the different types of vector databases available and discover the key factors to consider when choosing the right one.",
+    "aiSummary": "",
+    "url": "https://www.elastic.co/blog/how-to-choose-a-vector-database",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "The Elastic Platform team",
+    "pubDate": "Mon, 15 Jul 2024 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/culture-engineers-advance-careers",
+    "title": "3 engineers share how they advanced their careers at Elastic",
+    "summary": "Advancement and continued learning are top of mind for employees. We asked three Elastician engineers who have advanced their careers at Elastic for their top tips. Read them here.",
+    "aiSummary": "",
+    "url": "https://www.elastic.co/blog/culture-engineers-advance-careers",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Culture",
+    "pubDate": "Fri, 21 Jun 2024 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/understanding-ann",
+    "title": "Understanding the approximate nearest neighbor (ANN) algorithm",
+    "summary": "Discover the power of approximate nearest neighbor (ANN) algorithms. ANN search is the key to lightning-fast searches and valuable insights in vast data landscapes.",
+    "aiSummary": "",
+    "url": "https://www.elastic.co/blog/understanding-ann",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "The Elastic Platform team",
+    "pubDate": "Wed, 17 Apr 2024 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.vuejs.org/posts/vitepress-1.0",
+    "title": "Announcing VitePress 1.0",
+    "summary": "Today we are happy to announce the (long overdue) 1.0 release of VitePress!\nVitePress is a Static Site Generator (SSG) designed for building fast, content-centric websites. In a nutshell, VitePress ta",
+    "aiSummary": "",
+    "url": "https://blog.vuejs.org/posts/vitepress-1.0",
+    "category": "프론트엔드",
+    "source": "Vue.js Blog",
+    "author": "Vue.js Blog",
+    "pubDate": "Thu, 21 Mar 2024 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Vue"
+    ]
+  },
+  {
+    "id": "https://blog.vuejs.org/posts/vue-3-4",
+    "title": "Announcing Vue 3.4",
+    "summary": "Today we're excited to announce the release of Vue 3.4 \"🏀 Slam Dunk\"!\nThis release includes some substantial internal improvements - most notably a rewritten template parser that is 2x faster, and a ",
+    "aiSummary": "",
+    "url": "https://blog.vuejs.org/posts/vue-3-4",
+    "category": "프론트엔드",
+    "source": "Vue.js Blog",
+    "author": "Vue.js Blog",
+    "pubDate": "Thu, 28 Dec 2023 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Vue"
+    ]
+  },
+  {
+    "id": "https://blog.vuejs.org/posts/vue-2-eol",
+    "title": "Vue 2 is Approaching End Of Life",
+    "summary": "With 2024 almost upon us, we would like to take this opportunity to remind the Vue community that Vue 2 will reach End of Life (EOL) on December 31st, 2023.\nVue 2.0 was released more than 7 years ago ",
+    "aiSummary": "",
+    "url": "https://blog.vuejs.org/posts/vue-2-eol",
+    "category": "프론트엔드",
+    "source": "Vue.js Blog",
+    "author": "Vue.js Blog",
+    "pubDate": "Fri, 15 Dec 2023 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Vue"
+    ]
+  },
+  {
+    "id": "https://blog.vuejs.org/posts/vue-3-3",
+    "title": "Announcing Vue 3.3",
+    "summary": "Today we're excited to announce the release of Vue 3.3 \"Rurouni Kenshin\"!\nThis release is focused on developer experience improvements - in particular, SFC  usage with TypeScript. Together with the 1.",
+    "aiSummary": "",
+    "url": "https://blog.vuejs.org/posts/vue-3-3",
+    "category": "프론트엔드",
+    "source": "Vue.js Blog",
+    "author": "Vue.js Blog",
+    "pubDate": "Thu, 11 May 2023 00:00:00 GMT",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Vue"
+    ]
+  },
+  {
+    "id": "https://palletsprojects.com/blog/blinker-1-6-released",
+    "title": "Blinker 1.6 Released",
+    "summary": "Signalling allows for applications to be decoupled by allowing designated\nreceivers to be informed when an action has taken place (the signal). Flask and\nQuart both utilise the excellent Blinker\nlibra",
+    "aiSummary": "",
+    "url": "https://palletsprojects.com/blog/blinker-1-6-released",
+    "category": "백엔드",
+    "source": "Flask Blog (Pallets)",
+    "author": "P G Jones",
+    "pubDate": "2023-04-02T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://palletsprojects.com/blog/quart-pallets",
+    "title": "Quart is now a Pallets project",
+    "summary": "Quart, an ASGI re-implementation of the Flask API has joined the\nPallets organization. This means that future development will be under\nthe Pallets governance by the Pallets maintainers.\nOur long term",
+    "aiSummary": "",
+    "url": "https://palletsprojects.com/blog/quart-pallets",
+    "category": "백엔드",
+    "source": "Flask Blog (Pallets)",
+    "author": "P G Jones",
+    "pubDate": "2022-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://palletsprojects.com/blog/pallets-community-org",
+    "title": "Introducing the Pallets Community Organization (Pallets-Eco)",
+    "summary": "Flask and many of the other Pallets projects benefit from having a diverse\necosystem of user-maintained extensions. However, we recognize that not every\nextension creator can maintain an extension ind",
+    "aiSummary": "",
+    "url": "https://palletsprojects.com/blog/pallets-community-org",
+    "category": "백엔드",
+    "source": "Flask Blog (Pallets)",
+    "author": "Kara Babcock",
+    "pubDate": "2022-04-03T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://palletsprojects.com/blog/flask-2-0-released",
+    "title": "New Major Versions Released! Flask 2.0, Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe 2.0",
+    "summary": "The Pallets team is pleased to announce that the next major versions for\nour six core projects have been released!\nThis represents two years of work by the Pallets team and community,\nthere are a sign",
+    "aiSummary": "",
+    "url": "https://palletsprojects.com/blog/flask-2-0-released",
+    "category": "백엔드",
+    "source": "Flask Blog (Pallets)",
+    "author": "David Lord",
+    "pubDate": "2021-05-11T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://palletsprojects.com/blog/end-python2-prereleases",
+    "title": "New Flask, Jinja2, Click, Werkzeug, ItsDangerous, and MarkupSafe major release candidates",
+    "summary": "The Pallets team is pleased to announce that release candidates are\nnow available for the next major version of each project.\nCheck out the changelogs for every project to see what's new:\nFlask 2.0\nJi",
+    "aiSummary": "",
+    "url": "https://palletsprojects.com/blog/end-python2-prereleases",
+    "category": "백엔드",
+    "source": "Flask Blog (Pallets)",
+    "author": "Philip Jones",
+    "pubDate": "2021-04-29T00:00:00.000Z",
+    "fetchedAt": "2026-06-11T08:42:24.763Z",
+    "tags": [
+      "Flask",
+      "Python"
+    ]
+  }
+]
