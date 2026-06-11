@@ -48,9 +48,20 @@
 ## Phase 5: Automation & Deployment (자동화 및 배포)
 정기적인 콘텐츠 업데이트와 자동 배포 파이프라인을 구축합니다.
 
-- [ ] `.github/workflows/update-news.yml` 파일 생성
-- [ ] Cron Job을 설정하여 주기적(예: 6시간/12시간 간격)으로 `npm run fetch-rss` 실행 설정
-- [ ] GitHub Actions 내에서 업데이트된 `news.json`을 Git Commit & Push 하는 파이프라인 완성
-- [ ] 최종 웹 어플리케이션 배포 환경 설정 (Vercel 또는 GitHub Pages 연동)
-- [ ] 모바일/웹 환경 통합 테스트 및 최종 검수
-- [ ] Phase 5 작업 내역 Git Commit (`git commit -m "feat: finish phase 5 - automation and deployment"`)
+- [x] `.github/workflows/update-news.yml` 파일 생성
+- [x] Cron Job을 설정하여 주기적(예: 6시간/12시간 간격)으로 `npm run fetch-rss` 실행 설정
+- [x] GitHub Actions 내에서 업데이트된 `news.json`을 Git Commit & Push 하는 파이프라인 완성
+- [x] 최종 웹 어플리케이션 배포 환경 설정 (Vercel 또는 GitHub Pages 연동)
+- [x] 모바일/웹 환경 통합 테스트 및 최종 검수
+- [x] Phase 5 작업 내역 Git Commit (`git commit -m "feat: finish phase 5 - automation and deployment"`)
+
+## Phase 6: Advanced Features & Refinement (고급 기능 및 고도화)
+기본 구축이 완료된 이후, 사용자 경험(UX)과 데이터 퀄리티를 향상하기 위해 도입한 고급 기능들입니다.
+
+- [x] `news.json`(전체 아카이브)과 `latest.json`(최신 업데이트) 파일 분리 로직 구현 (스크립트 실행 직전 병합 후 분리)
+- [x] Gemini API를 활용한 기사 핵심 AI 요약(`aiSummary`) 기능 연동
+- [x] AI 요약 프롬프트 엄격화 (마크다운 배제, 2~3문장 제한, 정중한 존댓말 통일 등)
+- [x] "What's New"(`latest.json`)와 "All Updates"(`news.json`) 탭 UI 분리 및 네비게이션 연동
+- [x] 단순 텍스트 로고를 기하학적이고 세련된 커스텀 SVG 로고(Stem, Loop, Data Dot 형태)로 교체
+- [x] 불필요한 시리즈/팟캐스트 필터링을 위해 Spring 블로그 피드를 Engineering, Releases, News 3개 채널로 정밀하게 분리
+- [x] Phase 6 작업 내역 Git Commit (`git commit -m "feat: finish phase 6 - advanced features and AI summary"`)

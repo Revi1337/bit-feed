@@ -5,13 +5,16 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 
 ## 2. Core Features
 - **자동화된 데이터 수집**: 주기적으로 타겟 출처의 RSS 피드를 수집하여 정적 데이터(JSON)로 저장.
+- **아카이브 및 최신화 로직**: 데이터를 `latest.json`(최신 업데이트)과 `news.json`(전체 아카이브)으로 분리하여 데이터 파이프라인의 효율성 증대.
+- **AI 핵심 요약**: Gemini 모델을 연동하여 장문의 기사 내용을 2~3줄의 정중한 평문으로 실시간 요약(`aiSummary` 필드).
 - **다중 필터링 시스템**: 카테고리, 출처, 태그, 날짜 등 복합적인 조건을 조합하여 원하는 뉴스만 필터링 기능 제공.
-- **모던 대시보드 UI**: 사용자가 직관적이고 편안하게 기사를 탐색할 수 있는 반응형 레이아웃 제공.
+- **모던 대시보드 UI**: 커스텀 SVG 로고와 "What's New" / "All Updates"가 구분된 직관적인 반응형 레이아웃 제공.
 
 ## 3. Technology Stack
 - **프론트엔드 프레임워크**: Nuxt (Vue.js)
 - **스타일링**: Tailwind CSS
-- **데이터베이스/저장소**: 순수 JSON 데이터 파일
+- **데이터베이스/저장소**: 순수 JSON 데이터 파일 (`latest.json`, `news.json`)
+- **AI 연동**: `@google/generative-ai` (Gemini API)
 - **자동화 파이프라인**: GitHub Actions (스케줄링 기반 Node.js 스크립트 실행)
 - **배포 환경**: Vercel 또는 GitHub Pages 기반 정적 호스팅
 
