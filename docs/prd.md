@@ -65,3 +65,13 @@
 - [x] 단순 텍스트 로고를 기하학적이고 세련된 커스텀 SVG 로고(Stem, Loop, Data Dot 형태)로 교체
 - [x] 불필요한 시리즈/팟캐스트 필터링을 위해 Spring 블로그 피드를 Engineering, Releases, News 3개 채널로 정밀하게 분리
 - [x] Phase 6 작업 내역 Git Commit (`git commit -m "feat: finish phase 6 - advanced features and AI summary"`)
+
+## Phase 7: Final Polish & UX Enhancements (다크모드 및 사용성 최적화)
+사용자 피드백을 반영하여 다크모드 기본 적용, 사이드바 고정 등 세밀한 UI/UX 개선을 진행합니다.
+
+- [x] Vercel 스타일의 완벽한 다크모드 테마 적용 및 기본(Default) 테마로 설정 (`nuxt.config.ts` 및 컴포넌트 클래스 조정)
+- [x] 다크모드 전환 시 SVG 로고 색상 반전 및 투명도, 버튼 호버(hover) 시인성 등 디테일 보정
+- [x] 모달(Modal) 컴포넌트의 헤더, 본문, 푸터 배경색 통일하여 빛 반사 및 이질감 제거
+- [x] 데스크톱 환경에서 스크롤을 내릴 때 우측 필터 패널이 따라오는 Sticky 기능 적용 (내부 이중 스크롤 제거)
+- [x] 랜딩 페이지 및 뉴스 피드의 빈 화면(Empty State) 영문 메시지를 자연스러운 한국어로 현지화
+- [x] Phase 7 작업 내역 Git Commit (`git commit -m "chore(docs): update PRD with Phase 7 UX enhancements"`)

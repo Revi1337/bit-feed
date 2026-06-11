@@ -19,6 +19,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 - **배포 환경**: Vercel 또는 GitHub Pages 기반 정적 호스팅
 
 ## 4. Design Guidelines (Vercel Style)
+- **Theme**: 다크모드를 기본(Default)으로 설정하며, Vercel 스타일의 완전한 색상 반전(True Dark Mode)을 지원하여 시각적 피로도를 낮추고 프리미엄 감각 유지.
 - **Typography**: 메인 텍스트는 산세리프(Inter/Geist), 기술적인 메타데이터는 모노스페이스 사용.
 - **Color Palette**: 블랙(Ink)과 화이트, 옅은 캔버스 그레이를 활용한 명도 대비 중심의 심플한 컬러 시스템 적용.
 - **Elevation**: 단순한 그림자가 아닌, 얇은 테두리(Inset hairline)와 다단계 그림자(Stacked shadow)를 조합하여 세련된 입체감 표현.
