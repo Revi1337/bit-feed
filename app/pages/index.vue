@@ -26,7 +26,7 @@
     <!-- Logo Cloud Section -->
     <section class="w-full max-w-[1400px] mx-auto px-4 sm:px-6 pb-[120px] flex flex-col items-center animate-fade-in-up" style="animation-delay: 400ms;">
       <p class="text-[13px] font-semibold tracking-widest text-mute uppercase mb-4">
-        매일 수집되는 글로벌 IT 기업 및 연구소 아티클
+        글로벌 톱티어 기술 블로그 및 AI 연구소의 최신 아티클
       </p>
       <div class="w-full relative">
         <!-- Subtle gradient overlays for depth -->

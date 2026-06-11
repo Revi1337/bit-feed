@@ -84,9 +84,9 @@
         </div>
       </div>
       <div v-else class="py-xl text-center text-mute border border-hairline border-dashed rounded-md flex flex-col items-center justify-center gap-2">
-        <span v-if="baseNews.length === 0 && mode === 'latest'">No new tech updates have been posted today.</span>
-        <span v-else-if="baseNews.length === 0 && mode === 'all'">No tech updates registered yet.</span>
-        <span v-else>No articles match your selected filters.</span>
+        <span v-if="baseNews.length === 0 && mode === 'latest'">오늘은 아직 새로 올라온 소식이 없습니다.</span>
+        <span v-else-if="baseNews.length === 0 && mode === 'all'">아직 수집된 아티클이 없습니다.</span>
+        <span v-else>선택하신 조건에 맞는 소식이 없습니다.</span>
       </div>
     </section>
 
@@ -101,7 +101,7 @@
 
       <div class="flex flex-col gap-md">
         <div class="flex items-center gap-2">
-          <UiBadge variant="primary" class="bg-primary/10 text-primary border-primary/20">✨ AI 요약</UiBadge>
+          <UiBadge variant="secondary" class="shadow-sm">✨ AI 요약</UiBadge>
         </div>
         <p class="text-[15px] text-body leading-relaxed whitespace-pre-wrap text-mute" v-if="!selectedArticle?.aiSummary">
           ⏳ AI가 이 기사를 요약하는 중입니다. 잠시 후 새로고침해 주세요.
