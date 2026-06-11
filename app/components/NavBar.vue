@@ -11,9 +11,9 @@
             </linearGradient>
           </defs>
           <rect width="32" height="32" rx="8" fill="url(#logo-grad)"/>
-          <rect x="9.5" y="8" width="3" height="16" rx="1.5" fill="white"/>
-          <circle cx="16.5" cy="18.5" r="4.5" stroke="white" stroke-width="3"/>
-          <circle cx="21.5" cy="10" r="2" fill="white"/>
+          <rect x="9.5" y="8" width="3" height="16" rx="1.5" fill="var(--color-on-primary)"/>
+          <circle cx="16.5" cy="18.5" r="4.5" stroke="var(--color-on-primary)" stroke-width="3"/>
+          <circle cx="21.5" cy="10" r="2" fill="var(--color-on-primary)"/>
         </svg>
       </div>
       <span class="font-bold text-[18px] tracking-tight hidden sm:block">bit-feed</span>
@@ -28,9 +28,33 @@
         모든 소식
       </NuxtLink>
     </nav>
-    <!-- Right Actions (Mobile Filter Toggle) -->
-    <div class="ml-auto flex items-center z-10 md:hidden" v-if="isFeedPage">
-      <button @click="mobileFilterOpen = !mobileFilterOpen" class="w-10 h-10 flex items-center justify-center rounded-md hover:bg-canvas-soft transition-colors text-body hover:text-ink">
+    <!-- Right Actions -->
+    <div class="ml-auto flex items-center z-10 gap-1 md:gap-2">
+      <!-- Theme Toggle -->
+      <button @click="$colorMode.preference = $colorMode.value === 'dark' ? 'light' : 'dark'" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-md hover:bg-canvas-soft transition-colors text-body hover:text-ink" aria-label="Toggle Dark Mode">
+        <ClientOnly>
+          <svg v-if="$colorMode.value === 'dark'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <template #fallback>
+            <div class="w-[18px] h-[18px]"></div>
+          </template>
+        </ClientOnly>
+      </button>
+
+      <!-- Mobile Filter Toggle -->
+      <button v-if="isFeedPage" @click="mobileFilterOpen = !mobileFilterOpen" class="md:hidden w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-md hover:bg-canvas-soft transition-colors text-body hover:text-ink">
         <svg v-if="!mobileFilterOpen" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
         </svg>

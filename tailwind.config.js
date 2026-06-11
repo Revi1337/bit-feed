@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./app/components/**/*.{js,vue,ts}",
     "./app/layouts/**/*.vue",
@@ -11,23 +12,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#171717',
-        'on-primary': '#ffffff',
-        cyan: '#50e3c2',
-        'highlight-pink': '#ff0080',
-        violet: '#7928ca',
-        link: '#0070f3',
-        canvas: '#ffffff',
-        'canvas-soft': '#fafafa',
-        'canvas-soft-2': '#f5f5f5',
-        hairline: '#ebebeb',
-        'hairline-strong': '#a1a1a1',
-        ink: '#171717',
-        body: '#4d4d4d',
-        mute: '#888888',
-        success: '#0070f3',
-        error: '#ee0000',
-        warning: '#f5a623'
+        primary: 'var(--color-primary)',
+        'on-primary': 'var(--color-on-primary)',
+        cyan: 'var(--color-cyan)',
+        'highlight-pink': 'var(--color-highlight-pink)',
+        violet: 'var(--color-violet)',
+        link: 'var(--color-link)',
+        canvas: 'var(--color-canvas)',
+        'canvas-soft': 'var(--color-canvas-soft)',
+        'canvas-soft-2': 'var(--color-canvas-soft-2)',
+        hairline: 'var(--color-hairline)',
+        'hairline-strong': 'var(--color-hairline-strong)',
+        ink: 'var(--color-ink)',
+        body: 'var(--color-body)',
+        mute: 'var(--color-mute)',
+        success: 'var(--color-success)',
+        error: 'var(--color-error)',
+        warning: 'var(--color-warning)'
       },
       fontFamily: {
         sans: ['Inter', 'Satoshi', 'sans-serif'],
