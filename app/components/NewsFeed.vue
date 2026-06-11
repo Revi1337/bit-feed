@@ -2,7 +2,7 @@
   <main class="flex-1 max-w-[1400px] w-full mx-auto px-md md:px-lg py-[48px] flex flex-col md:flex-row gap-xl md:gap-2xl">
     <!-- Mobile Filter Backdrop -->
     <Transition enter-active-class="transition-opacity duration-300" enter-from-class="opacity-0" enter-to-class="opacity-100" leave-active-class="transition-opacity duration-300" leave-from-class="opacity-100" leave-to-class="opacity-0">
-      <div v-if="mobileFilterOpen" @click="mobileFilterOpen = false" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 md:hidden"></div>
+      <div v-if="mobileFilterOpen" @click="mobileFilterOpen = false" class="fixed inset-0 bg-black/40 backdrop-blur-md z-40 md:hidden"></div>
     </Transition>
 
     <!-- Sidebar -->

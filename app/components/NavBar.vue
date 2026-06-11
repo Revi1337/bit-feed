@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 w-full h-[64px] bg-canvas border-b border-hairline flex items-center px-md md:px-lg relative">
+  <header class="sticky top-0 z-50 w-full h-[64px] bg-canvas/80 backdrop-blur-md border-b border-hairline flex items-center px-md md:px-lg relative">
     <!-- Logo -->
     <NuxtLink to="/" class="flex items-center gap-2 z-10 shrink-0">
       <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 shadow-sm">
@@ -103,7 +103,13 @@ nav a:not(.router-link-exact-active) {
   color: var(--color-mute);
   font-weight: 500;
 }
-nav a:not(.router-link-exact-active):hover {
+nav a:hover {
   color: var(--color-ink);
+}
+
+/* :has() - Dim other links when one is hovered */
+nav:has(a:hover) a:not(:hover) {
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
 }
 </style>
