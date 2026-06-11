@@ -4,6 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
   colorMode: {
+    preference: 'dark',
+    fallback: 'dark',
     classSuffix: ''
   },
   srcDir: 'app/',
