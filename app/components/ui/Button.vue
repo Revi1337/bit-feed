@@ -17,18 +17,18 @@ const props = defineProps({
 defineEmits(['click'])
 
 const classes = computed(() => {
-  const base = 'inline-flex items-center justify-center transition-colors font-medium cursor-pointer'
+  const base = 'inline-flex items-center justify-center transition-all font-medium cursor-pointer'
   switch (props.variant) {
     case 'primary':
-      return `${base} bg-primary text-on-primary text-[16px] rounded-pill px-lg h-[48px] hover:bg-black/80`
+      return `${base} bg-primary text-on-primary text-[16px] rounded-pill px-lg h-[48px] hover:opacity-80`
     case 'secondary':
       return `${base} bg-canvas text-ink text-[16px] rounded-pill px-lg h-[48px] border border-hairline shadow-level-1 hover:bg-canvas-soft`
     case 'primary-sm':
-      return `${base} bg-primary text-on-primary text-[14px] rounded-pill px-md h-[32px] hover:bg-black/80`
+      return `${base} bg-primary text-on-primary text-[14px] rounded-pill px-md h-[32px] hover:opacity-80`
     case 'secondary-sm':
       return `${base} bg-canvas text-ink text-[14px] rounded-pill px-md h-[32px] border border-hairline shadow-level-1 hover:bg-canvas-soft`
     case 'nav-primary':
-      return `${base} bg-primary text-on-primary text-[14px] rounded-sm px-sm h-[28px] hover:bg-black/80`
+      return `${base} bg-primary text-on-primary text-[14px] rounded-sm px-sm h-[28px] hover:opacity-80`
     case 'nav-secondary':
       return `${base} bg-canvas text-ink text-[14px] rounded-sm px-sm h-[28px] border border-hairline hover:bg-canvas-soft`
     case 'tab-ghost':
