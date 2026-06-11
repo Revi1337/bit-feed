@@ -1,7 +1,7 @@
 <template>
   <header class="sticky top-0 z-50 w-full h-[64px] bg-canvas border-b border-hairline flex items-center px-md md:px-lg relative">
     <!-- Logo -->
-    <NuxtLink to="/" class="flex items-center gap-2 z-10">
+    <NuxtLink to="/" class="flex items-center gap-2 z-10 shrink-0">
       <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 shadow-sm">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -16,22 +16,40 @@
           <circle cx="21.5" cy="10" r="2" fill="white"/>
         </svg>
       </div>
-      <span class="font-bold text-[18px] tracking-tight">bit-feed</span>
+      <span class="font-bold text-[18px] tracking-tight hidden sm:block">bit-feed</span>
     </NuxtLink>
 
     <!-- Navigation -->
-    <nav class="absolute left-1/2 -translate-x-1/2 flex items-center gap-md md:gap-lg">
-      <NuxtLink to="/new" class="nav-link text-[15px] transition-colors" data-text="What's New">
+    <nav class="flex-1 md:flex-none flex items-center justify-start md:justify-center gap-4 md:gap-lg ml-4 md:ml-0 md:absolute md:left-1/2 md:-translate-x-1/2 overflow-x-auto no-scrollbar">
+      <NuxtLink to="/new" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="What's New">
         What's New
       </NuxtLink>
-      <NuxtLink to="/all" class="nav-link text-[15px] transition-colors" data-text="All Updates">
+      <NuxtLink to="/all" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="All Updates">
         All Updates
       </NuxtLink>
     </nav>
+    <!-- Right Actions (Mobile Filter Toggle) -->
+    <div class="ml-auto flex items-center z-10 md:hidden" v-if="isFeedPage">
+      <button @click="mobileFilterOpen = !mobileFilterOpen" class="w-10 h-10 flex items-center justify-center rounded-md hover:bg-canvas-soft transition-colors text-body hover:text-ink">
+        <svg v-if="!mobileFilterOpen" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+        </svg>
+        <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
   </header>
 </template>
 
 <script setup>
+import { computed } from 'vue'
+import { useRoute, useState } from '#imports'
+
+const route = useRoute()
+const isFeedPage = computed(() => ['/new', '/all'].includes(route.path))
+const mobileFilterOpen = useState('mobileFilterOpen', () => false)
 </script>
 
 <style scoped>
