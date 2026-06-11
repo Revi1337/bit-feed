@@ -59,7 +59,7 @@
       <!-- News List Grid -->
       <div v-if="filteredNews.length > 0" class="flex flex-col gap-lg">
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-lg">
-          <NewsCard v-for="news in paginatedNews" :key="news.id" :news="news" @select="openArticle" />
+          <NewsCard v-for="(news, index) in paginatedNews" :key="news.id" :news="news" :index="index" @select="openArticle" />
         </div>
         
         <!-- Pagination Controls -->

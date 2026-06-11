@@ -1,5 +1,14 @@
 <template>
-  <div role="button" tabindex="0" @click="$emit('select', news)" @keydown.enter="$emit('select', news)" class="block bg-canvas rounded-md p-lg shadow-level-2 hover:shadow-level-3 transition-shadow duration-200 group text-left cursor-pointer">
+  <article 
+    role="button" 
+    tabindex="0" 
+    @click="$emit('select', news)" 
+    @keydown.enter="$emit('select', news)" 
+    :class="[
+      'block bg-canvas rounded-md p-lg shadow-level-2 hover:shadow-level-3 transition-shadow duration-200 group text-left cursor-pointer',
+      index >= 6 ? 'defer-rendering' : ''
+    ]"
+  >
     <!-- Meta -->
     <div class="flex items-center gap-2 mb-sm">
       <UiBadge variant="primary">{{ news.category }}</UiBadge>
@@ -17,7 +26,7 @@
     <div class="flex flex-wrap gap-2">
       <UiBadge variant="secondary" v-for="tag in news.tags" :key="tag">#{{ tag }}</UiBadge>
     </div>
-  </div>
+  </article>
 </template>
 
 <script setup>
@@ -26,6 +35,10 @@ const props = defineProps({
   news: {
     type: Object,
     required: true
+  },
+  index: {
+    type: Number,
+    default: 0
   }
 })
 
@@ -35,3 +48,10 @@ const formatDate = (dateString) => {
   return new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'short', day: 'numeric' }).format(d)
 }
 </script>
+
+<style scoped>
+.defer-rendering {
+  content-visibility: auto;
+  contain-intrinsic-size: auto none auto 150px;
+}
+</style>

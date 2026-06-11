@@ -9,10 +9,10 @@
 - [x] **Task 1.4**: `NavBar.vue`의 복잡한 활성화/호버 스크립트 로직을 CSS `:has()` 선택자를 활용해 단순화.
 
 ## Phase 2: 렌더링 성능 최적화 (Core Web Vitals)
-- [ ] **Task 2.1**: `NewsFeed.vue`에서 렌더링 루프 시 `NewsCard.vue`로 배열의 `index` 속성 전달.
-- [ ] **Task 2.2**: `NewsCard.vue` 내부에 인덱스 판별 로직을 추가하여, 첫 화면 밖(`index >= 6`)의 요소에만 `content-visibility: auto` 속성을 부여.
-- [ ] **Task 2.3**: 레이아웃 점프 방지를 위해 `NewsCard` CSS에 `contain-intrinsic-size: auto none auto 150px` 추가.
-- [ ] **Task 2.4**: `NewsCard.vue`의 최상단 컨테이너를 시맨틱 웹 표준에 맞게 `<div>`에서 `<article>`로 변경.
+- [x] **Task 2.1**: `NewsFeed.vue`에서 렌더링 루프 시 `NewsCard.vue`로 배열의 `index` 속성 전달.
+- [x] **Task 2.2**: `NewsCard.vue` 내부에 인덱스 판별 로직을 추가하여, 첫 화면 밖(`index >= 6`)의 요소에만 `content-visibility: auto` 속성을 부여.
+- [x] **Task 2.3**: 레이아웃 점프 방지를 위해 `NewsCard` CSS에 `contain-intrinsic-size: auto none auto 150px` 추가.
+- [x] **Task 2.4**: `NewsCard.vue`의 최상단 컨테이너를 시맨틱 웹 표준에 맞게 `<div>`에서 `<article>`로 변경.
 
 ## Phase 3: 애니메이션 및 데이터 페칭 (View Transitions & SSR)
 - [ ] **Task 3.1**: `nuxt.config.ts` 파일에서 `experimental.viewTransition: true` 활성화.
