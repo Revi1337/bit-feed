@@ -21,8 +21,8 @@
 
     <!-- Navigation -->
     <nav class="flex-1 md:flex-none flex items-center justify-start md:justify-center gap-4 md:gap-lg ml-4 md:ml-0 md:absolute md:left-1/2 md:-translate-x-1/2 overflow-x-auto no-scrollbar">
-      <NuxtLink to="/new" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="What's New">
-        What's New
+      <NuxtLink to="/new" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="Today's News">
+        Today's News
       </NuxtLink>
       <NuxtLink to="/all" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="All Updates">
         All Updates

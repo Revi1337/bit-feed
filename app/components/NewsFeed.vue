@@ -51,7 +51,7 @@
       <!-- Header -->
       <div class="flex items-center justify-between mb-lg">
         <h1 class="text-[32px] font-semibold tracking-[-1.28px]">
-          {{ mode === 'latest' ? 'What\'s New' : 'All Updates' }}
+          {{ mode === 'latest' ? 'Today\'s News' : 'All Updates' }}
         </h1>
         <span class="text-body text-[14px]">Showing {{ filteredNews.length }} items</span>
       </div>
@@ -83,8 +83,10 @@
           </button>
         </div>
       </div>
-      <div v-else class="py-xl text-center text-mute border border-hairline border-dashed rounded-md">
-        No articles match your selected filters.
+      <div v-else class="py-xl text-center text-mute border border-hairline border-dashed rounded-md flex flex-col items-center justify-center gap-2">
+        <span v-if="baseNews.length === 0 && mode === 'latest'">No new tech updates have been posted today.</span>
+        <span v-else-if="baseNews.length === 0 && mode === 'all'">No tech updates registered yet.</span>
+        <span v-else>No articles match your selected filters.</span>
       </div>
     </section>
 
