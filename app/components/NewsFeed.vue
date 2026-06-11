@@ -112,7 +112,7 @@
       </div>
 
       <template #footer>
-        <a :href="selectedArticle?.url" target="_blank" class="inline-flex items-center justify-center transition-colors font-medium cursor-pointer bg-primary text-on-primary text-[14px] rounded-sm px-md h-[36px] hover:bg-black/80 w-full md:w-auto">
+        <a :href="selectedArticle?.url" target="_blank" class="inline-flex items-center justify-center transition-opacity font-medium cursor-pointer bg-primary text-on-primary text-[14px] rounded-sm px-md h-[36px] hover:opacity-80 w-full md:w-auto">
           원문 읽으러 가기
         </a>
       </template>
