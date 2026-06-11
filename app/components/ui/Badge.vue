@@ -20,7 +20,7 @@ const classes = computed(() => {
     case 'secondary':
       return `${base} bg-canvas-soft-2 text-body border border-hairline`
     case 'primary':
-      return `${base} bg-primary text-on-primary`
+      return `${base} bg-primary text-on-primary border border-transparent`
     case 'outline':
       return `${base} bg-transparent text-body border border-hairline`
     default:

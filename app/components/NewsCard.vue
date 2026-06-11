@@ -1,5 +1,5 @@
 <template>
-  <a :href="news.url" target="_blank" class="block bg-canvas rounded-md p-lg shadow-level-2 hover:shadow-level-3 transition-shadow duration-200 group">
+  <div role="button" tabindex="0" @click="$emit('select', news)" @keydown.enter="$emit('select', news)" class="block bg-canvas rounded-md p-lg shadow-level-2 hover:shadow-level-3 transition-shadow duration-200 group text-left cursor-pointer">
     <!-- Meta -->
     <div class="flex items-center gap-2 mb-sm">
       <UiBadge variant="primary">{{ news.category }}</UiBadge>
@@ -10,18 +10,18 @@
 
     <!-- Content -->
     <h2 class="text-[20px] font-semibold text-ink leading-tight mb-sm group-hover:text-link transition-colors">{{ news.title }}</h2>
-    <p class="text-[14px] text-body line-clamp-2 mb-md">{{ news.summary }}</p>
+    <p class="text-[14px] text-body line-clamp-2 mb-md text-mute" v-if="!news.aiSummary">⏳ AI가 요약을 생성하는 중입니다...</p>
+    <p class="text-[14px] text-body line-clamp-2 mb-md" v-else>{{ news.aiSummary }}</p>
 
     <!-- Tags -->
     <div class="flex flex-wrap gap-2">
       <UiBadge variant="secondary" v-for="tag in news.tags" :key="tag">#{{ tag }}</UiBadge>
     </div>
-  </a>
+  </div>
 </template>
 
 <script setup>
-import UiBadge from '~/components/ui/Badge.vue'
-
+const emit = defineEmits(['select'])
 const props = defineProps({
   news: {
     type: Object,

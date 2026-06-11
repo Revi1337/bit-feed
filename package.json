@@ -10,7 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
     "nuxt": "^4.4.8",
+    "p-limit": "^7.3.0",
     "vue": "^3.5.35",
     "vue-router": "^5.1.0"
   },
