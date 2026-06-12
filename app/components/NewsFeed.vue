@@ -2,14 +2,14 @@
   <main class="flex-1 max-w-[1400px] w-full mx-auto px-md md:px-lg py-[48px] flex flex-col md:flex-row gap-xl md:gap-2xl">
     <!-- Mobile Filter Backdrop -->
     <Transition enter-active-class="transition-opacity duration-300" enter-from-class="opacity-0" enter-to-class="opacity-100" leave-active-class="transition-opacity duration-300" leave-from-class="opacity-100" leave-to-class="opacity-0">
-      <div v-if="mobileFilterOpen" @click="mobileFilterOpen = false" class="fixed inset-0 bg-black/40 backdrop-blur-md z-40 md:hidden"></div>
+      <div v-if="mobileFilterOpen" @click="mobileFilterOpen = false" class="fixed top-[64px] inset-x-0 bottom-0 bg-black/40 backdrop-blur-md z-40 md:hidden"></div>
     </Transition>
 
     <!-- Sidebar -->
     <aside :class="[
       'flex flex-col gap-xl shrink-0 transition-transform duration-300 ease-in-out',
-      'fixed inset-y-0 right-0 z-50 w-[280px] p-xl bg-canvas overflow-y-auto border-l border-t-0 border-r-0 border-b-0 border-hairline',
-      'md:sticky md:top-[112px] md:self-start md:w-[200px] md:order-last md:p-0 md:border-none md:bg-transparent md:z-auto md:overflow-visible',
+      'fixed top-[64px] bottom-0 right-0 z-50 w-[280px] p-xl bg-canvas overflow-y-auto border-l border-hairline',
+      'md:sticky md:top-[112px] md:bottom-auto md:self-start md:w-[200px] md:order-last md:p-0 md:border-none md:bg-transparent md:z-auto md:overflow-visible',
       mobileFilterOpen ? 'translate-x-0 shadow-[-10px_0_40px_rgba(0,0,0,0.08)]' : 'translate-x-full md:translate-x-0'
     ]">
       <!-- Categories -->
