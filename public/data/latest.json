@@ -102,8 +102,8 @@
   {
     "id": "https://spring.io/blog/2026/06/11/spring-shell-4-0-3-and-3-4-3-are-out",
     "title": "Spring Shell 4.0.3 and 3.4.3 are out!",
-    "summary": "",
-    "aiSummary": "본문이 제공되지 않은 기사입니다.",
+    "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Shell 4.0.3 and 3.4.3 are now available from Maven Central!\nThese releases come with a number of bug fixes and dependen",
+    "aiSummary": "스프링 셸 4.0.3 버전과 3.4.3 버전이 메이븐 센트럴을 통해 정식으로 공개되었습니다. 이번 업데이트는 주로 기존에 발견된 버그 수정과 의존성 라이브러리 업데이트를 포함하고 있습니다. 상세한 변경 사항은 각 버전별 릴리스 노트를 통해 확인할 수 있으며 프로젝트에 대한 피드백은 깃허브 이슈와 토론 페이지를 통해 제공할 수 있습니다.",
     "url": "https://spring.io/blog/2026/06/11/spring-shell-4-0-3-and-3-4-3-are-out",
     "category": "백엔드",
     "source": "Spring Releases",
@@ -118,8 +118,8 @@
   {
     "id": "https://spring.io/blog/2026/06/11/spring-modulith-2-1-ga-2-0-7-and-1-4-12-released",
     "title": "Spring Modulith 2.1 GA, 2.0.7, and 1.4.12 released",
-    "summary": "",
-    "aiSummary": "본문이 제공되지 않은 기사입니다.",
+    "summary": "On behalf of the community, I am excited to announce the availability of Spring Modulith 2.1 GA, 2.0.7, and 1.4.12. The bug fix releases primarily ship the usual dependency upgrades. The 2.1 release s",
+    "aiSummary": "스프링 모듈리스 버전 2.1 GA와 2.0.7, 1.4.12가 새롭게 출시되었습니다. 이번 업데이트는 버전 2.0.7과 1.4.12를 포함한 하위 버전들에서 일반적인 의존성 라이브러리 업그레이드와 버그 수정을 중심으로 진행되었습니다. 특히 2.1 GA 버전에서는 나마스택과 잡런러를 활용한 이벤트 외부화 아웃박스 지원이 추가되었으며 스프링 부트의 슬라이스 테스트와 연동된 애플리케이션 모듈 테스트 기능이 도입되었습니다. 또한 모든 스레드에서 게시된 이벤트를 기본적으로 확인할 수 있도록 관련 인터페이스를 개선하였고 관측 가능성 인프라를 효율적으로 정비하였습니다. 이번 개선 사항에는 외부 기여자인 롤랜드 바이젤과 로널드 데하이서의 노력이 포함되었습니다.",
     "url": "https://spring.io/blog/2026/06/11/spring-modulith-2-1-ga-2-0-7-and-1-4-12-released",
     "category": "백엔드",
     "source": "Spring Releases",
