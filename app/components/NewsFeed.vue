@@ -28,13 +28,32 @@
 
       <!-- Tags -->
       <div class="flex flex-col gap-sm">
-        <h3 class="font-mono text-[12px] uppercase text-hairline-strong tracking-widest flex items-center justify-between">
-          Tags
-          <button v-if="selectedTags.length > 0" @click="selectedTags = []" class="text-[10px] text-link hover:underline">Clear</button>
-        </h3>
+        <div class="flex items-center justify-between">
+          <h3 class="font-mono text-[12px] uppercase text-hairline-strong tracking-widest flex items-center gap-2">
+            Tags
+            <button v-if="selectedTags.length > 0" @click="selectedTags = []" class="text-[10px] text-link hover:underline normal-case tracking-normal">Clear</button>
+          </h3>
+          <div class="flex items-center gap-1" v-if="totalTagPages > 1">
+            <button 
+              @click="prevTagPage" 
+              :disabled="currentTagPage === 1"
+              class="p-1 rounded text-hairline-strong hover:text-ink hover:bg-canvas-soft-2 disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-colors"
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <span class="text-[10px] text-mute font-mono">{{ currentTagPage }} / {{ totalTagPages }}</span>
+            <button 
+              @click="nextTagPage" 
+              :disabled="currentTagPage === totalTagPages"
+              class="p-1 rounded text-hairline-strong hover:text-ink hover:bg-canvas-soft-2 disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-colors"
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
         <div class="flex flex-wrap gap-2">
           <UiBadge 
-            v-for="tag in availableTags" 
+            v-for="tag in paginatedTags" 
             :key="tag" 
             :variant="selectedTags.includes(tag) ? 'primary' : 'secondary'"
             class="cursor-pointer hover:border-hairline-strong transition-colors py-[2px]"
@@ -173,6 +192,24 @@ const availableTags = computed(() => {
   const tags = new Set(baseNews.value.flatMap(n => n.tags || []))
   return Array.from(tags).sort()
 })
+
+// Tag Pagination
+const currentTagPage = ref(1)
+const tagsPerPage = 40
+const totalTagPages = computed(() => Math.ceil(availableTags.value.length / tagsPerPage) || 1)
+
+const paginatedTags = computed(() => {
+  const start = (currentTagPage.value - 1) * tagsPerPage
+  return availableTags.value.slice(start, start + tagsPerPage)
+})
+
+const prevTagPage = () => {
+  if (currentTagPage.value > 1) currentTagPage.value--
+}
+
+const nextTagPage = () => {
+  if (currentTagPage.value < totalTagPages.value) currentTagPage.value++
+}
 
 // Toggle tag selection
 const toggleTag = (tag) => {
