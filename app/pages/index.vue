@@ -4,7 +4,7 @@
     <section class="w-full max-w-[1200px] mx-auto px-6 pt-[120px] pb-[80px] flex flex-col items-center text-center">
       
       <h1 class="text-[48px] md:text-[72px] font-extrabold tracking-tighter leading-[1.1] mb-6 text-ink animate-fade-in-up" style="animation-delay: 100ms;">
-        가장 가볍고, 편안하게<br />
+        가볍고, 편안하게<br />
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">기술 트렌드를 앞서가세요.</span>
       </h1>
       
@@ -40,6 +40,11 @@
 </template>
 
 <script setup>
+useHead({
+  bodyAttrs: {
+    class: '!bg-canvas transition-colors duration-300'
+  }
+})
 </script>
 
 <style scoped>

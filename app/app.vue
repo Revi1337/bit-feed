@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col font-sans bg-canvas-soft text-ink">
+  <div class="min-h-screen flex flex-col font-sans text-ink">
     <NavBar />
     <NuxtPage />
   </div>
