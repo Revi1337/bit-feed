@@ -133,7 +133,11 @@ const props = defineProps({
 
 const mobileFilterOpen = useState('mobileFilterOpen', () => false)
 
-const dataUrl = computed(() => props.mode === 'latest' ? '/data/latest.json' : '/data/news.json')
+const config = useRuntimeConfig()
+const dataUrl = computed(() => {
+  const path = props.mode === 'latest' ? '/data/latest.json' : '/data/news.json'
+  return `${path}?v=${config.public.buildVersion}`
+})
 const { data: baseNews } = await useFetch(dataUrl, { 
   server: false,
   default: () => [] 
