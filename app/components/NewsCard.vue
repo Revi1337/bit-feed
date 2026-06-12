@@ -5,7 +5,7 @@
     @click="$emit('select', news)" 
     @keydown.enter="$emit('select', news)" 
     :class="[
-      'block bg-canvas rounded-md p-lg shadow-level-2 hover:shadow-level-3 transition-shadow duration-200 group text-left cursor-pointer',
+      'block bg-canvas rounded-md p-lg shadow-level-2 md:hover:shadow-level-3 transition-shadow duration-200 group text-left cursor-pointer focus:outline-none',
       index >= 6 ? 'defer-rendering' : ''
     ]"
   >
@@ -18,7 +18,7 @@
     </div>
 
     <!-- Content -->
-    <h2 class="text-[20px] font-semibold text-ink leading-tight mb-sm group-hover:text-link transition-colors">{{ news.title }}</h2>
+    <h2 class="text-[20px] font-semibold text-ink leading-tight mb-sm md:group-hover:text-link transition-colors">{{ news.title }}</h2>
     <p class="text-[14px] text-body line-clamp-2 mb-md text-mute" v-if="!news.aiSummary">⏳ AI가 요약을 생성하는 중입니다...</p>
     <p class="text-[14px] text-body line-clamp-2 mb-md" v-else>{{ news.aiSummary }}</p>
 
