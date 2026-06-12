@@ -4,6 +4,8 @@ import Parser from 'rss-parser';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import * as dotenv from 'dotenv';
 import pLimit from 'p-limit';
+import { JSDOM } from 'jsdom';
+import { Readability } from '@mozilla/readability';
 
 dotenv.config();
 
@@ -88,6 +90,25 @@ const FEEDS = [
 ];
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function fetchAndExtractArticle(url) {
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+      }
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const doc = new JSDOM(html, { url });
+    const reader = new Readability(doc.window.document);
+    const article = reader.parse();
+    return article ? article.textContent.trim() : null;
+  } catch (error) {
+    console.error(`[ERROR] Failed to fetch or extract article from ${url}:`, error.message);
+    return null;
+  }
+}
 
 async function generateAISummary(title, content) {
   if (!process.env.GEMINI_API_KEY) return "API Key가 설정되지 않아 AI 요약을 생성할 수 없습니다.";
@@ -305,14 +326,27 @@ async function fetchAllFeeds() {
         const title = unescapeHtml(item.title || 'No Title');
         const rawContent = unescapeHtml(item.contentSnippet || item.content || '');
         const cleanContent = rawContent.replace(/(<([^>]+)>)/gi, "");
-        const summary = cleanContent.slice(0, 200);
+        let summary = cleanContent.slice(0, 200);
+        let finalContent = cleanContent;
+
+        if (cleanContent.trim().length < 30) {
+          console.log(`[INFO] Content too short for "${title}", attempting to crawl original link: ${item.link}`);
+          const extractedText = await fetchAndExtractArticle(item.link);
+          if (extractedText && extractedText.trim().length >= 30) {
+            finalContent = extractedText;
+            summary = finalContent.slice(0, 200);
+            console.log(`[INFO] Successfully extracted ${extractedText.length} characters from original link.`);
+          } else {
+            console.log(`[WARN] Failed to extract meaningful content from original link or content is still too short.`);
+          }
+        }
 
         newLatestNews.push({
           id,
           title,
           summary,
           aiSummary: '',
-          cleanContent, // temporary field
+          cleanContent: finalContent, // temporary field
           url: item.link,
           category: feed.category,
           source: feed.name,
