@@ -1,5 +1,5 @@
 <template>
-  <main class="flex-1 w-full flex flex-col items-center bg-canvas">
+  <main class="flex-1 w-full flex flex-col items-center bg-canvas transition-colors duration-300">
     <!-- Hero Section -->
     <section class="w-full max-w-[1200px] mx-auto px-6 pt-[120px] pb-[80px] flex flex-col items-center text-center">
       
