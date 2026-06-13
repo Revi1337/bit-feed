@@ -154,7 +154,7 @@ ${content.slice(0, 15000)}
   }
 }
 
-async function scrapeAnthropicNews(existingMap, runTime) {
+async function scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC) {
   const anthropicNews = [];
   try {
     console.log(`Scraping Anthropic News...`);
@@ -202,6 +202,12 @@ async function scrapeAnthropicNews(existingMap, runTime) {
         continue;
       }
 
+      const itemTime = parsedDate ? new Date(parsedDate).getTime() : new Date().getTime();
+      if (kstMidnightUTC && itemTime >= kstMidnightUTC) {
+        console.log(`[INFO] Skipping today's article: ${title}`);
+        continue;
+      }
+
       const cleanContent = content.slice(0, 3000);
       const summary = cleanContent.slice(0, 200);
 
@@ -226,7 +232,7 @@ async function scrapeAnthropicNews(existingMap, runTime) {
   return anthropicNews;
 }
 
-async function scrapeDeepSeekNews(existingMap, runTime) {
+async function scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC) {
   const deepseekNews = [];
   try {
     console.log(`Scraping DeepSeek Updates...`);
@@ -245,6 +251,10 @@ async function scrapeDeepSeekNews(existingMap, runTime) {
       if (existingMap.has(id)) continue;
 
       const pubDate = new Date(dateMatch[1]).toISOString();
+      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
+        console.log(`[INFO] Skipping today's update: deepseek-${dateMatch[1]}`);
+        continue;
+      }
 
       const h3Match = section.match(/<h3[^>]*>([^<]+)</);
       let title = 'DeepSeek Update';
@@ -319,6 +329,12 @@ async function fetchAllFeeds() {
   const existingMap = new Map(existingNews.map(n => [n.id, n]));
   const runTime = new Date().toISOString();
 
+  // KST 기준 오늘 자정 타임스탬프 계산 (스크립트 실행일 기준 '전날'까지만 수집하기 위함)
+  const now = new Date();
+  const kstTime = now.getTime() + 9 * 60 * 60 * 1000;
+  const kstDate = new Date(kstTime);
+  const kstMidnightUTC = Date.UTC(kstDate.getUTCFullYear(), kstDate.getUTCMonth(), kstDate.getUTCDate()) - 9 * 60 * 60 * 1000;
+
   // Phase 1: Fetch all RSS and HTML data quickly
   for (const feed of FEEDS) {
     try {
@@ -330,6 +346,12 @@ async function fetchAllFeeds() {
         const id = item.guid || item.id || item.link || Math.random().toString(36).substring(7);
 
         if (existingMap.has(id)) {
+          continue;
+        }
+
+        const itemPubDate = item.pubDate || item.isoDate || new Date().toISOString();
+        if (new Date(itemPubDate).getTime() >= kstMidnightUTC) {
+          console.log(`[INFO] Skipping today's article: ${item.title || 'No Title'}`);
           continue;
         }
 
@@ -361,7 +383,7 @@ async function fetchAllFeeds() {
           category: feed.category,
           source: feed.name,
           author: item.creator || item.author || feed.name,
-          pubDate: item.pubDate || item.isoDate || new Date().toISOString(),
+          pubDate: itemPubDate,
           fetchedAt: runTime,
           tags: feed.tags
         });
@@ -372,10 +394,10 @@ async function fetchAllFeeds() {
     }
   }
 
-  const anthropicResults = await scrapeAnthropicNews(existingMap, runTime);
+  const anthropicResults = await scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC);
   newLatestNews.push(...anthropicResults);
 
-  const deepseekResults = await scrapeDeepSeekNews(existingMap, runTime);
+  const deepseekResults = await scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC);
   newLatestNews.push(...deepseekResults);
 
   // Phase 2: Process AI Summaries with Concurrency Control
