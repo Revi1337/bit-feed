@@ -50,4 +50,13 @@
   body {
     @apply bg-canvas-soft text-ink font-sans antialiased transition-colors duration-300;
   }
+
+  /* Hide scrollbars globally to prevent layout shift */
+  html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+  }
 }
