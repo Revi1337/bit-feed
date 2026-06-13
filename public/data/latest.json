@@ -1,15 +1,46 @@
 [
   {
-    "id": "https://www.anthropic.com/news/anthropic-public-record",
-    "title": "Results from first Anthropic Public Record",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsResults from the first Anthropic Public RecordJun 12, 2026We’re conducting a new survey series, Anthropic Public Record, to understand how the ",
-    "aiSummary": "앤스로픽이 2025년 11월과 12월에 걸쳐 미국 성인 약 5만 2천 명을 대상으로 실시한 첫 번째 대중 인식 조사 결과인 앤스로픽 퍼블릭 레코드를 발표하였습니다. 이번 조사는 인공지능에 대한 일반 대중의 태도를 파악하기 위해 진행되었으며, 정치적 성향이나 거주 지역, 교육 수준에 관계없이 미국인들 사이에 인공지능에 대한 폭넓은 공감대가 형성되어 있음을 확인하였습니다. 대다수의 응답자는 인공지능이 가져올 혜택을 기대하면서도 동시에 사회적 혼란을 우려하고 있으며, 개발 기업의 책임 있는 태도를 요구하고 있습니다.\n\n조사 결과 응답자들이 인공지능에 거는 가장 큰 희망은 질병 치료가 48%로 압도적인 1위를 차지하였으며, 장애인 지원이 그 뒤를 이었습니다. 반면 상담이나 외로움 해소와 같이 인공지능이 인간 간의 상호작용을 대체하는 분야에 대한 기대는 상대적으로 낮게 나타났습니다.\n\n가장 우려되는 사안으로는 일자리 감소가 꼽혔으며, 전체 응답자의 약 3분의 2가 이에 대해 깊은 걱정을 표명하였습니다. 앤스로픽은 이번 조사를 시작으로 인공지능 모델의 발전과 보급 확산에 따른 대중의 인식 변화를 지속적으로 추적할 예정이며, 향후 조사 대상을 미국 이외의 지역으로 확대해 나갈 계획입니다. 이번 연구는 기존 클로드 사용자 대상의 정성적 조사 및 경제 지수 발표와 더불어 인공지능 개발 방향 설정을 위한 기초 자료로 활용될 예정입니다.",
-    "url": "https://www.anthropic.com/news/anthropic-public-record",
+    "id": "https://isocpp.org//blog/2026/06/cpp26-structured-bindings-can-introduce-a-pack-sandor-dargo",
+    "title": "C++26: Structured Bindings can introduce a Pack -- Sandor Dargo",
+    "summary": "In previous posts, we talked about how C++26 improves structured bindings by allowing them to be used in conditionals’ init statements. We also briefly touched on other improvements coming in C++26, s",
+    "aiSummary": "C++26에서는 structured bindings 내에서 pack을 도입할 수 있는 새로운 기능이 추가될 예정입니다.\n\n과거 C++에서 pack은 오직 template 문맥 내에서만 존재할 수 있었으나, 최근 언어 표준은 이러한 제약을 점진적으로 완화하는 추세입니다. 이번 변경 사항은 structured binding을 통해 pack을 정의할 수 있게 함으로써 프로그래밍의 유연성을 높이는 데 목적을 둡니다.\n\n당초 비 template 문맥에서도 structured binding pack을 지원하려는 시도가 있었으나, 구현의 복잡성과 기술적인 반대 의견들로 인해 해당 부분은 최종안에서 제외되었습니다. 그럼에도 불구하고 이번 업데이트는 C++ 언어가 정적인 제약을 벗어나 보다 범용적인 메타프로그래밍을 지원하는 방향으로 나아가고 있음을 보여줍니다.",
+    "url": "https://isocpp.org//blog/2026/06/cpp26-structured-bindings-can-introduce-a-pack-sandor-dargo",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Fri, 12 Jun 2026 19:18:43 +0000",
+    "fetchedAt": "2026-06-13T15:56:15.485Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security",
+    "title": "Monitor Claude activity in Elastic Security ",
+    "summary": "Elastic’s Anthropic integration ingests Claude Compliance API events into Elastic Security, enabling teams to monitor activity via dashboards, detect risks with automated rules, and investigate threat",
+    "aiSummary": "Elastic은 Anthropic과의 새로운 통합을 통해 Claude Compliance API 이벤트를 Elastic Security로 수집하는 기능을 제공합니다. 이를 통해 보안 팀은 전용 대시보드를 사용하여 Claude의 활동을 실시간으로 모니터링할 수 있습니다.\n\n또한 자동화된 탐지 규칙을 설정하여 잠재적인 보안 위험을 조기에 발견할 수 있습니다. 수집된 이벤트는 기존의 원격 측정 데이터와 통합되어 더욱 정밀한 위협 조사 및 분석을 가능하게 합니다.",
+    "url": "https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jamie Hynds,Sumana Mannem",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T15:56:15.485Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/fable-mythos-access",
+    "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security autho",
+    "aiSummary": "미국 정부가 국가 안보를 이유로 Anthropic의 Fable 5와 Mythos 5 모델에 대한 접근을 전면 중단할 것을 명령했습니다. 이번 조치에 따라 Anthropic은 자사 직원 및 모든 외국인을 포함한 전 세계 사용자들의 해당 모델 접근을 즉각 차단했습니다.\n\n정부는 특정 우회 경로를 통한 jailbreak 가능성을 지적했으나, Anthropic은 해당 취약점이 이미 공개된 다른 AI 모델들에서도 유사하게 발견되는 수준이며 보안 시스템을 방어하는 데 사용되는 일반적인 기능이라고 반박했습니다. Anthropic은 이번 명령이 기술적 근거가 부족하고 불투명한 절차에 따라 진행되었다고 판단하고 있습니다.\n\nAnthropic은 정부의 법적 명령을 준수하여 서비스를 일시 중단하지만, 이번 조치가 업계 전반의 AI 모델 배포를 가로막는 과도한 기준이라고 비판했습니다. 또한 이번 사태가 오해에서 비롯된 것으로 보고 신속하게 문제를 해결하여 서비스 접근 권한을 복구하겠다고 밝혔습니다. 이외에 다른 Claude 모델들에 대한 접근은 이번 조치의 영향을 받지 않습니다.",
+    "url": "https://www.anthropic.com/news/fable-mythos-access",
     "category": "인공지능",
     "source": "Anthropic News",
     "author": "Anthropic",
-    "pubDate": "2026-06-12T17:29:37.557Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
+    "pubDate": "2026-06-12T00:00:00.000Z",
+    "fetchedAt": "2026-06-13T15:56:15.485Z",
     "tags": [
       "Anthropic",
       "Claude",
@@ -18,377 +49,16 @@
     ]
   },
   {
-    "id": "https://isocpp.org//blog/2026/06/the-voting-on-the-talks-for-meeting-cpp-2026-has-begun",
-    "title": "The voting on the talks for Meeting C++ 2026 has begun!",
-    "summary": "The yearly voting for the conference program of Meeting C++ has begun! You can vote on 118 talks until Sunday 21st.\nThe voting on the talks for Meeting C++ 2026 has begun!\nMeeting C++ 2026! Thanks to ",
-    "aiSummary": "미팅 C++ 2026 컨퍼런스 프로그램 구성을 위한 투표가 시작되었습니다. 이번 투표는 총 118개의 발표 주제를 대상으로 하며 한국 시간 기준으로 오는 21일 일요일까지 진행됩니다.\n\n발표자로 참여하거나 티켓을 구매한 사람, 과거 컨퍼런스 발표 이력이 있거나 작년 행사에 참석했던 사람들에게는 투표 시 가중치가 부여됩니다. 올해 베를린 현장과 온라인에서 진행될 이번 행사의 프로그램은 이러한 투표 결과를 바탕으로 구성될 예정입니다.",
-    "url": "https://isocpp.org//blog/2026/06/the-voting-on-the-talks-for-meeting-cpp-2026-has-begun",
-    "category": "프로그래밍 언어",
-    "source": "ISO C++",
-    "author": "Meeting C++",
-    "pubDate": "Fri, 12 Jun 2026 10:41:36 +0000",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "C++"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "title": "New OpenAI Academy courses for the next era of work",
-    "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-    "aiSummary": "오픈AI가 실무형 인공지능 역량을 강화하기 위한 3가지 아카데미 교육 과정을 새롭게 공개합니다. 이번 교육은 사용자가 업무 현장에서 반복 가능한 작업 흐름을 설계하고, AI 에이전트를 실제 업무에 효과적으로 활용하는 능력을 기르는 데 중점을 둡니다. 이를 통해 변화하는 미래 업무 환경에 필요한 실질적인 AI 기술을 습득할 수 있도록 지원할 예정입니다.",
-    "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Fri, 12 Jun 2026 10:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/toolkit-reusable-ai-tools-for-the-laravel-ai-sdk",
-    "title": "Toolkit: Reusable AI Tools for the Laravel AI SDK",
-    "summary": "Toolkit is a community catalog of small, independently installable tools for the Laravel AI SDK, covering math, read-only database queries, and web search, research providers, and more.\nThe post Toolk",
-    "aiSummary": "Toolkit은 라라벨 AI SDK를 위한 재사용 가능한 도구들의 커뮤니티 카탈로그입니다. 수학 연산이나 읽기 전용 데이터베이스 쿼리부터 웹 검색 및 연구용 제공자 연결에 이르기까지 다양한 기능을 갖춘 독립적인 도구들을 설치하여 사용할 수 있습니다. 개발자는 이 플랫폼을 통해 자신의 라라벨 애플리케이션에 필요한 AI 기능을 손쉽게 확장하고 통합할 수 있습니다.",
-    "url": "https://laravel-news.com/toolkit-reusable-ai-tools-for-the-laravel-ai-sdk?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "Fri, 12 Jun 2026 01:37:13 +0000",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/12/spring-ai-1-1-8-1-0-9-avaialble-now",
-    "title": "Spring AI 1.0.9, 1.1.8 Available Now",
-    "summary": "On behalf of the Spring AI engineering team and everyone who has contributed, I'm happy to announce that Spring AI 1.0.9, 1.1.8 have been released and are now available from Maven Central.\nThese relea",
-    "aiSummary": "스프링 AI 팀은 안정성 향상과 버그 수정을 포함한 버전 1.0.9와 1.1.8을 메이븐 센트럴을 통해 배포하였습니다. 이번 업데이트의 공통된 주요 변경 사항으로는 스프링 부트 3.5.15 및 MCP SDK 0.18.3으로의 의존성 업그레이드가 포함되며, CVE-2026-47835 보안 취약점에 대한 수정 조치가 이루어졌습니다.\n\n버전 1.0.9에서는 기존 Pixtral 모델에 대한 지원이 중단되었습니다. 한편 버전 1.1.8에서는 ZhiPuAiApi의 ChatCompletionFinishReason에 누락되었던 값을 보완하였고, Anthropic 채팅 관련 문서에 속도 제한 메타데이터 섹션을 추가하는 등 사용성을 개선하였습니다.\n\n현재 스프링 AI 팀은 대규모 업데이트인 2.0.0 버전의 출시를 앞두고 있으며, 향후 해당 버전의 정식 발표와 관련된 상세 정보를 추가로 공개할 예정입니다. 각 버전에 대한 상세한 변경 내역은 공식 프로젝트 페이지와 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/06/12/spring-ai-1-1-8-1-0-9-avaialble-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ilayaperumalg",
-    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now",
-    "title": "Spring AI 2.0.0 GA Available Now",
-    "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring AI 2.0.0 has been released and is now available from Maven Central!\nRelease notes | Upgrade notes | Reference ",
-    "aiSummary": "Spring AI 2.0.0이 정식 출시되어 메이븐 센트럴을 통해 배포되었습니다. 이번 버전은 설계의 일관성과 품질을 최우선으로 하여 개발자 경험을 획기적으로 개선하고, 지속 가능한 프로젝트 발전을 위한 새로운 토대를 마련하는 데 집중했습니다.\n\n기술적으로는 스프링 부트 4와 스프링 프레임워크 7을 기반으로 하며, 잭슨 3로의 업그레이드를 통해 JSON 직렬화 성능이 향상되었습니다. 코드 전반에 제이스파이 주석을 적용하여 널 안전성을 강화했고, 옵션 관리 방식을 빌더 패턴과 불변 객체 중심으로 전면 재설계하여 개발 효율성과 안정성을 높였습니다.\n\n모델 지원 측면에서는 핵심 프로젝트가 오프너이, 앤스로픽, 아마존 베드록, 구글 제네이아이, 미스트랄, 딥식, 올라마 등 주요 제공업체 위주로 재편되었습니다. 특히 각 벤더의 SDK를 직접 활용하는 방식으로 변경하여 최신 모델 API에 더 빠르게 대응할 수 있도록 했습니다.\n\n에이전트 구현 기능도 크게 강화되었습니다. 기존의 모델별로 파편화되었던 도구 호출 루프가 어드바이저 체인으로 통합되어, 복잡한 도구 호출, 구조화된 출력의 재시도, 평가 루프 등을 유연하게 구성할 수 있게 되었습니다. 또한 수백 개의 도구를 효율적으로 다루기 위한 도구 검색 어드바이저와 구조화된 출력 검증 어드바이저가 추가되었습니다.\n\n엠시피 연동 역시 공식 엠시피 자바 SDK 2.0.0을 탑재하며 더욱 강력해졌습니다. 주석 기반의 프로그래밍 모델을 통해 스프링 서비스를 손쉽게 엠시피 서버로 노출할 수 있으며, 웹 엠브이씨 및 웹 플럭스 전송 구현을 통합하여 더 나은 생산성을 제공합니다. 이 외에도 커뮤니티 프로젝트를 통해 이벤트 기반의 대화 메모리와 에이전트 유틸리티 등이 추가되어 에이전트 시스템 구축이 더욱 수월해졌습니다.",
-    "url": "https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "tzolov",
-    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/6/12/this-week-in-rails",
-    "title": "This Week in Rails: June 12, 2026",
-    "summary": "Hi, it’s Greg, bringing you this week’s changes in the Rails codebase.\nFix increment! with explicit query constraints\nincrement! / decrement! on models with query\nconstraints to include every query co",
-    "aiSummary": "이번 주 레일즈 코드베이스에는 복합 기본 키 지원 강화와 데이터베이스 작업의 안정성 개선을 포함한 여러 변경 사항이 적용되었습니다.\n\n먼저 increment!와 decrement! 메서드가 모델의 쿼리 제약 조건을 모두 반영하도록 수정되었으며, delete 및 destroy 메서드에서 단일 복합 기본 키 ID를 사용할 수 있게 되었습니다. 또한 복합 기본 키를 가진 모델에서 find([]) 호출 시 빈 배열을 정상적으로 반환하도록 개선되었습니다.\n\n액티브 레코드 관련 기능으로 insert! 메서드에 unique_by 옵션을 추가하였고, update_all과 delete_all 메서드가 group 및 having 절을 무시하던 문제를 해결하여 의도한 행만 수정하거나 삭제하도록 수정하였습니다.\n\n액션 메일러의 deliver 콜백에는 only와 except 옵션이 추가되었으며, 관련 옵션 누락 시 예외를 발생시키는 설정이 포함되었습니다.\n\n개발 환경 개선 측면에서는 vips 라이브러리가 설치되지 않은 환경에서도 rails new 명령어가 정상적으로 동작하도록 조치하였고, 랙터 래이터 안전성을 준비하기 위해 프로시저 공유 가능 여부를 제어하는 새로운 메커니즘을 도입하였습니다. 이번 주간 업데이트에는 총 39명의 기여자가 참여하였습니다.",
-    "url": "https://rubyonrails.org/2026/6/12/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Greg",
-    "pubDate": "2026-06-12T00:00:00.000Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/preply",
-    "title": "How Preply combines AI and human tutors to personalize learning",
-    "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-    "aiSummary": "어학 학습 플랫폼인 프레플리는 오픈AI의 기술을 도입하여 인공지능 기반의 수업 요약 서비스를 시작했습니다. 이 서비스는 학습자에게 개인화된 피드백을 제공하고 맞춤형 언어 학습 연습 문제를 생성하는 역할을 합니다. 결과적으로 인공지능의 효율성과 인간 튜터의 전문성을 결합하여 학습자 개개인에게 최적화된 교육 경험을 지원합니다.",
-    "url": "https://openai.com/index/preply",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/innovation/production-ready-agents-need-production-ready-data-platform",
-    "title": "Production-Ready Agents Need A Production-Ready Data Platform",
-    "summary": "There’s a common theme to the conversations I’ve been having with AI teams lately: change. Constant, head-spinning change. Teams across industries are evaluating and re-evaluating model providers, age",
-    "aiSummary": "빠르게 변화하는 인공지능 환경에서 성공적인 에이전트를 구축하기 위해서는 기술 스택의 유연성과 확장성이 무엇보다 중요합니다. 몽고디비는 변화하는 AI 모델과 프레임워크에 구애받지 않고 일관된 성능을 제공하는 데이터 플랫폼으로서, 에이전트 구축을 단순화하고 가속화하는 역할을 수행합니다.\n\n에이전트의 지능은 정보의 맥락을 얼마나 잘 파악하느냐에 달려 있습니다. 몽고디비는 비정형 데이터를 효율적으로 처리하는 JSON 형식과 스키마 유연성을 제공하여 에이전트가 단기 기억과 장기 지식을 통합하는 데 최적의 환경을 조성합니다. 특히 운영 데이터가 저장된 곳에서 직접 검색, 벡터 검색, 하이브리드 검색을 수행할 수 있어 별도의 시스템 동기화 없이도 실시간으로 정밀한 시맨틱 검색이 가능합니다.\n\n데브레브, 일레븐랩스, 어도비와 같은 기업들은 이미 몽고디비 아틀라스를 활용해 복잡한 컨텍스트를 유지하고 실시간으로 개인화된 에이전트 경험을 제공하고 있습니다. 몽고디비는 단순한 저장소를 넘어 에이전트의 의사결정을 뒷받침하는 핵심 메모리 계층 역할을 수행하며 운영 비용을 최적화합니다.\n\n또한 몽고디비는 랭체인을 비롯한 파트너들과 함께 에이전트 메모리에 대한 개방형 표준과 참조 아키텍처를 구축하는 데 앞장서고 있습니다. 이를 통해 기업들이 특정 프레임워크에 종속되지 않고 유연하게 기술 스택을 변경할 수 있도록 지원하며, 인터페이스와 데이터 규격을 표준화하여 에이전트 간 상호 운용성을 높이는 것을 목표로 합니다.\n\n결론적으로 몽고디비는 AI 워크로드의 속도와 요구 사항을 충족하기 위해 설계된 플랫폼입니다. 최신 버전인 몽고디비 8.3은 더욱 향상된 성능으로 복잡한 장기 작업을 수행하는 에이전트를 뒷받침하며, 데이터베이스 내에서 검색과 분석 기능을 통합 제공함으로써 미션 크리티컬한 AI 애플리케이션을 위한 강력한 기반을 제공합니다.",
-    "url": "https://www.mongodb.com/company/blog/innovation/production-ready-agents-need-production-ready-data-platform",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "Thu, 11 Jun 2026 19:46:11 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-    "title": "Simplifying Weak Reference Processing in ZGC",
-    "summary": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, inv",
-    "aiSummary": "자바의 가비지 컬렉터인 ZGC에서 약한 참조를 처리할 때 발생하는 성능 저하 문제를 해결하기 위한 연구 결과입니다. 현재 ZGC는 참조 대기열 등록 여부와 관계없이 모든 약한 참조를 동일하게 처리하여 불필요한 연산 비용을 발생시키는 구조적 한계를 가지고 있습니다.\n\n연구는 이를 해결하기 위해 네 가지 기술적 기법을 제시합니다. 첫째는 대기열이 필요 없는 참조를 별도로 분리하여 처리하는 방식이고, 둘째는 연결 리스트 대신 캐시 효율이 높은 동적 배열을 사용하는 방식입니다. 셋째는 참조 해제 과정을 간소화하여 로드 배리어와 원자적 연산을 생략하는 최적화입니다. 마지막으로, 별도의 객체 대신 필드 어노테이션을 사용하는 약한 필드 방식을 제안합니다.\n\n성능 평가 결과, 파이프라인을 최적화한 기법들은 참조 처리 단계에서 최대 81퍼센트의 시간 단축 효과를 보였으나, 전체 가비지 컬렉션 시간의 단축 폭은 상대적으로 크지 않았습니다. 반면 약한 필드 어노테이션 방식은 참조 객체 자체를 제거함으로써 메모리 사용량을 53퍼센트 절감하고 전체 가비지 컬렉션 시간을 41퍼센트까지 줄이는 등 가장 실질적이고 효과적인 성능 개선을 증명했습니다.\n\n결론적으로 약한 참조 문제는 단순히 처리 과정을 최적화하는 수준을 넘어, 언어 차원에서 약한 참조를 표현하는 방식을 근본적으로 재설계해야 한다는 점을 시사합니다. 향후 해당 연구는 오픈JDK 프로젝트의 통합 검토를 포함한 다양한 개선 방향으로 발전할 가능성을 열어두고 있습니다.",
-    "url": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Fredrik Hammarberg (guest)",
-    "pubDate": "2026-06-11T00:00:00.000Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/spring-cloud-2025-1-2-aka-oakwood-has-been-released",
-    "title": "Spring Cloud 2025.1.2 (aka Oakwood) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.2 Release Train is available today. The release can be found in Maven Central. Y",
-    "aiSummary": "스프링 클라우드 2025.1.2 오크우드 버전이 공식 출시되었습니다. 이번 업데이트는 스프링 부트 4.0.7 버전과 호환되며 4.1.0 버전에 대한 지원을 새롭게 추가하였습니다. 메이븐 센트럴을 통해 배포가 완료되었으며 주요 프로젝트 전반에 걸친 개선과 수정 사항을 포함합니다.\n\n주요 변경 사항으로 스프링 클라우드 쿠버네티스는 패브릭8 디스커버리를 리스터로 이전하고 서비스 레이블 필터링 기능을 강화하였습니다. 스프링 클라우드 컨피그는 S3 버킷의 멀티 문서 YAML 파일에서 부정 프로파일 처리를 개선하였습니다.\n\n스프링 클라우드 게이트웨이에서는 보안 취약점인 CVE-2026-47825에 대한 수정이 이루어졌으며 스트립 컨텍스트 패스 필터 추가와 코덱 커스터마이저를 통한 바디 필터 코덱 인코딩 설정 지원 기능이 포함되었습니다.\n\n이번 릴리스 트레인에는 스프링 클라우드 넷플릭스, 스트림, 컨설, 서킷브레이커, 버스, 컨트랙트, 볼트, 태스크, 펑션, 커먼즈, 오픈페인, 주키퍼 등 대다수 모듈이 업데이트되었습니다. 사용자는 메이븐이나 그래들 빌드 설정에서 해당 버전을 지정하여 사용할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/06/11/spring-cloud-2025-1-2-aka-oakwood-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
-    "title": "Spring Cloud 2025.0.3 (aka Northfields) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. Y",
-    "aiSummary": "스프링 클라우드 2025.0.3 버전인 노스필즈가 정식 출시되었습니다. 이번 릴리즈는 스프링 부트 3.5.15 버전을 기반으로 하며 메이븐 중앙 저장소에서 내려받을 수 있습니다.\n\n이번 업데이트는 2025.0.x 릴리즈 트레인의 마지막 오픈 소스 버전으로 2026년 6월 30일에 공식 지원이 종료될 예정입니다.\n\n스프링 클라우드 게이트웨이 모듈에서는 보안 취약점인 CVE-2026-47825에 대한 수정 사항이 포함되었습니다. 또한 빈 경로 접두사에 대한 지원이 추가되었으며 MVC 프록시 익스체인지에서 URI 템플릿의 관측 가능성을 제공하도록 개선되었습니다.\n\n주요 업데이트 모듈로는 스프링 클라우드 버스, 오픈페인, 서킷브레이커, 쿠버네티스, 펑션, 태스크, 스트림, 볼트, 커먼즈, 넷플릭스, 컨설, 주키퍼, 컨피그, 컨트랙트 등이 포함되어 전반적인 기능 안정성과 버그 수정이 이루어졌습니다.\n\n사용자는 메이븐이나 그래들 빌드 설정에서 BOM 파일을 통해 이번 버전을 적용할 수 있습니다. 자세한 변경 사항은 해당 릴리즈 노트를 참고하시기 바랍니다.",
-    "url": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/connect-your-redis-index-to-ai-agents-with-redisvl-mcp/",
-    "title": "Connect Your Redis index to AI agents with RedisVL MCP",
-    "summary": "If you already use Redis for search, retrieval, or application memory, the RedisVL MCP is a practical next step: making that data available to agents without rebuilding your integration for every fram",
-    "aiSummary": "레디스브이엘 엠씨피는 레디스에 저장된 검색 인덱스나 애플리케이션 메모리 데이터를 인공지능 에이전트와 간편하게 연결할 수 있도록 돕는 도구입니다. 기존에는 프레임워크가 바뀔 때마다 매번 새로운 통합 과정을 거쳐야 했으나 이 도구를 사용하면 데이터 접근 방식을 표준화하여 효율적인 연동이 가능합니다.\n\n이 기술은 특히 개발 팀이 인덱싱된 데이터를 에이전트에 연결하는 과정에서 발생하는 복잡한 중복 작업을 줄여줍니다. 모델 컨텍스트 프로토콜을 지원함으로써 레디스에 보관된 정보를 다양한 에이전트가 공통된 규격으로 쉽게 활용할 수 있게 설계되었습니다.\n\n결과적으로 개발자는 데이터 구조를 다시 구축할 필요 없이 레디스의 검색 및 벡터 데이터 기능을 인공지능 에이전트 환경에서 즉각적으로 활용할 수 있습니다. 이는 개발 생산성을 높이고 시스템 전반의 유연성을 확보하는 데 기여합니다.",
-    "url": "https://redis.io/blog/connect-your-redis-index-to-ai-agents-with-redisvl-mcp/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Vishal Bala",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/quantum-computing-in-financial-services",
-    "title": "Quantum computing, agentic AI, and the next infrastructure layer in financial services",
-    "summary": "As financial services firms adopt AI and explore quantum computing, vector search, observability, and security platforms are emerging as the contextual intelligence foundation for autonomous enterpris",
-    "aiSummary": "금융 서비스 기업들이 인공지능을 도입하고 양자 컴퓨팅 기술을 탐색함에 따라 벡터 검색, 관측 가능성, 보안 플랫폼이 자율적 엔터프라이즈 시스템을 위한 문맥적 지능의 핵심 기반으로 부상하고 있습니다. 이러한 기술 요소들은 차세대 인프라 계층으로서 금융 서비스의 운영 효율성과 지능형 의사결정을 지원하는 중추적인 역할을 수행할 전망입니다.",
-    "url": "https://www.elastic.co/blog/quantum-computing-in-financial-services",
+    "id": "https://www.elastic.co/blog/wp-engine-partnership",
+    "title": "How one partnership powers hundreds of millions of WP Engine searches per month",
+    "summary": "Discover how WP Engine innovates with Google Cloud and Elastic to deliver high-precision search and seamless integration for modern software vendors.",
+    "aiSummary": "WP Engine은 Google Cloud 및 Elastic과의 전략적 파트너십을 통해 매월 수억 건에 달하는 검색 요청을 안정적으로 처리하고 있습니다. \n\n이번 협업은 현대적인 소프트웨어 공급업체들이 요구하는 높은 수준의 검색 정확도와 원활한 시스템 통합 기능을 제공하는 데 중점을 둡니다. 이를 통해 WP Engine은 사용자에게 신속하고 정밀한 검색 경험을 제공하며 서비스의 효율성을 극대화하고 있습니다.",
+    "url": "https://www.elastic.co/blog/wp-engine-partnership",
     "category": "데이터베이스",
     "source": "Elastic Blog",
-    "author": "Karen Mcdermott",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/mlx-performance",
-    "title": "Ollama's highest performance on Apple Silicon yet with MLX",
-    "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
-    "aiSummary": "올라마의 엠엘엑스 엔진이 업데이트되면서 애플 실리콘 환경에서의 구동 성능이 역대 최고 수준으로 향상되었습니다. 이번 개선을 통해 인공지능 모델의 응답 속도가 더욱 빨라졌으며 출력되는 답변의 품질 또한 개선되었습니다. 또한 메모리 사용 효율성까지 최적화되어 애플 기기에서 더 원활한 모델 활용이 가능해졌습니다.",
-    "url": "https://ollama.com/blog/mlx-performance",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 +0000",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/10/hat-tensors-computation/",
-    "title": "Exploiting GPU Tensor Cores from Java using Babylon",
-    "summary": "this article shows an approach to extend the HAT programming model with an API for explicit tensor-core programming. Furthermore, it shows how to make this approach generic to be able to process compu",
-    "aiSummary": "이 기사는 자바 언어에서 GPU 텐서 코어를 직접 활용하기 위한 새로운 접근 방식을 다루고 있습니다. 기존의 HAT 프로그래밍 모델을 확장하여 명시적인 텐서 코어 프로그래밍을 가능하게 하는 API를 제안합니다.\n\n또한, 이 방식은 텐서 전용 하드웨어 명령어가 없는 가속기 환경에서도 해당 API로 작성된 연산을 범용적으로 처리할 수 있도록 설계되었습니다. 결과적으로 자바 환경에서 하드웨어 특성에 구애받지 않고 효율적인 텐서 연산을 수행할 수 있는 기반을 마련하고자 합니다.",
-    "url": "https://inside.java/2026/06/10/hat-tensors-computation/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Juan Fumero",
-    "pubDate": "2026-06-10T00:00:00.000Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/09/jdk-26-performance-improvements/",
-    "title": "Performance Improvements in JDK 26",
-    "summary": "JDK 26 is the latest feature release of the Java platform and comes with more than 2500 issues fixed, of which more than a thousand were enhancements. To give you a clearer view of the performance wor",
-    "aiSummary": "JDK 26은 2500개 이상의 이슈를 해결하며 성능 최적화에 중점을 둔 릴리스로, 라이브러리, 가비지 컬렉터(GC), 컴파일러, 런타임 등 4가지 주요 분야에서 전반적인 개선을 이루었습니다.\n\nJDK 라이브러리 분야에서는 지연 초기화 상수를 지원하는 LazyConstant API를 도입하여 시작 시간을 단축하고 효율적인 메모리 관리를 지원합니다. 또한 메모리 세그먼트의 문자열 추출 성능을 개선하여 불필요한 할당을 줄였으며, 레코드 클래스의 해시 코드 생성 최적화 및 암호화 알고리즘의 성능 향상을 통해 처리량을 높였습니다. 이외에도 GZIPInputStream이나 리플렉션의 equals 메서드 등 자주 사용되는 기능들이 효율화되었습니다.\n\n가비지 컬렉터 영역에서는 G1 GC가 2단계 카드 테이블 방식을 도입하여 스레드 간 동기화를 줄임으로써 참조가 많은 워크로드에서 최대 15%의 처리량 향상을 달성했습니다. 또한 AOT 객체 캐싱이 모든 GC와 호환되도록 개선되어 저지연 GC 환경에서도 빠른 시작과 워밍업이 가능해졌습니다. 더불어 기본 힙 크기 할당 정책이 변경되어 초기 JVM 실행 시 메모리 사용량을 최소화하고 즉각적인 실행을 돕습니다.\n\n컴파일러 측면에서는 C2 JIT 컴파일러가 매개변수가 많은 메서드를 처리할 수 있도록 지원 범위를 넓혔으며, 루프 벡터화 비용 모델을 고도화하여 SIMD 실행의 효율성을 개선했습니다. 이를 통해 복잡한 연산에서도 최적화된 기계어 코드를 생성하여 성능을 끌어올립니다.\n\n런타임 환경에서는 가상 스레드가 클래스 초기화를 기다리는 동안 캐리어 스레드에서 분리될 수 있도록 하여, 클래스 로딩 과정에서 발생할 수 있는 캐리어 스레드의 차단 문제를 방지하고 확장성을 대폭 향상했습니다. 이러한 다양한 개선 사항들은 별도의 코드 수정 없이도 애플리케이션의 성능과 처리량 향상에 기여하도록 설계되었습니다.",
-    "url": "https://inside.java/2026/06/09/jdk-26-performance-improvements/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Ana-Maria Mihalceanu",
-    "pubDate": "2026-06-09T00:00:00.000Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/08/java-vscode-extension-update/",
-    "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
-    "summary": "Oracle Java Platform Extension for Visual Studio Code version 26.0.0 is now live on Visual Studio Code Marketplace  and OpenVSX Registry.\n\t\t\t\tJava Visual Studio Plugin 26.0.0  is based on Apache NetBe",
-    "aiSummary": "오라클은 비주얼 스튜디오 코드용 자바 플랫폼 확장 기능의 최신 버전인 26.0.0을 마켓플레이스와 오픈VSX 레지스트리에 배포했습니다. 이번 업데이트는 아파치 넷빈즈 29를 기반으로 개발되었습니다.\n\n주요 기능 개선 사항으로 확장 설정 내 변수 지원과 실행 구성 설정 기능이 추가되었습니다. 또한 JDK 홈 경로 및 노트북 옵션을 포함한 추가 설정 항목이 포함되었으며 포맷터 설정을 확장 프로그램 내부에서 직접 구성할 수 있게 되었습니다. 메이븐 프로젝트를 위한 설정 파일 경로 지정 기능도 새롭게 제공합니다.\n\n버그 수정 측면에서는 JDK 다운로더 인터페이스 라벨을 업데이트하고 설정 파일과 사용자 인터페이스 패널 간 실행 구성 동기화 문제를 해결했습니다. 자세한 변경 사항은 공식 변경 로그를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/06/08/java-vscode-extension-update/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Arvind Aprameya",
-    "pubDate": "2026-06-08T00:00:00.000Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/07/java-next-language-features/",
-    "title": "JavaNext Language Features",
-    "summary": "by Dan Smith on June 7, 2026\n\t\t\t\n\t\t\t\n    \n\n\t\t\t\t\tThe Java programming language is evolving fast. In this talk, we’ll summarize many of the recent changes that have appeared as well as look ahead to dir",
-    "aiSummary": "자바 프로그래밍 언어는 현재 빠르게 진화하고 있습니다. 이번 발표에서는 최근 도입된 다양한 변화들을 정리하고 향후 출시될 자바 버전에 포함될 개발 중인 기능과 발전 방향을 살펴봅니다. 자세한 내용은 자바원 2026 재생 목록을 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/06/07/java-next-language-features/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Dan Smith",
-    "pubDate": "2026-06-07T00:00:00.000Z",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://main.previews.astro.build/blog/astro-mart-ss26/",
-    "title": "Astro Mart: Summer 2026 Collection",
-    "summary": "Get ready for a summer of sport with our new personalizable merch.",
-    "aiSummary": "2026년 여름 시즌을 겨냥하여 스포츠를 테마로 한 새로운 개인 맞춤형 상품 컬렉션인 아스트로 마트가 공개되었습니다. 고객이 직접 내용을 설정할 수 있는 다양한 굿즈를 통해 개인의 취향을 반영한 스포츠 관련 아이템을 만나볼 수 있습니다.",
-    "url": "https://main.previews.astro.build/blog/astro-mart-ss26/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "Thu, 04 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://main.previews.astro.build/blog/whats-new-may-2026/",
-    "title": "What's new in Astro - May 2026",
-    "summary": "May 2026 - A new Astro jobs board, TinaCMS makes Astro their default template, experimental advanced routing, and more!",
-    "aiSummary": "2026년 5월 아스트로 관련 주요 업데이트 소식입니다.\n\n아스트로 전용 구인 게시판이 새롭게 신설되었습니다. 티나CMS가 자사의 기본 템플릿으로 아스트로를 채택하여 개발 환경의 편의성을 높였습니다. 또한 실험적 기능으로 고급 라우팅 기술이 추가되어 더욱 복잡한 경로 설정이 가능해졌습니다. 이외에도 여러 개선 사항이 함께 포함되었습니다.",
-    "url": "https://main.previews.astro.build/blog/whats-new-may-2026/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://main.previews.astro.build/blog/astro-640/",
-    "title": "Astro 6.4",
-    "summary": "Astro 6.4 introduces a new pluggable Markdown processor API, a Rust-based Markdown processor for faster builds, and helpers to wire up experimental advanced routing with Cloudflare.",
-    "aiSummary": "Astro 6.4 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 플러그인 구성이 가능한 새로운 마크다운 프로세서 API가 도입된 점입니다.\n\n또한 빌드 속도를 향상하기 위해 러스트 기반의 마크다운 프로세서를 추가했습니다. 이와 함께 클라우드플레어 환경에서 실험적인 고급 라우팅 기능을 손쉽게 구현할 수 있도록 돕는 도구들도 함께 제공합니다.",
-    "url": "https://main.previews.astro.build/blog/astro-640/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "Thu, 28 May 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://main.previews.astro.build/blog/astro-630/",
-    "title": "Astro 6.3",
-    "summary": "Astro 6.3 introduces experimental advanced routing with Hono support, image redirect handling, resilient island hydration, and more.",
-    "aiSummary": "Astro 6.3 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 Hono 프레임워크를 지원하는 실험적인 고급 라우팅 기능이 추가되었습니다.\n\n또한 이미지 리다이렉트 처리 기능이 개선되었으며 아일랜드 하이드레이션의 복원력이 한층 강화되었습니다. 이 외에도 전반적인 성능과 안정성을 높이기 위한 다양한 기능 개선이 이루어졌습니다.",
-    "url": "https://main.previews.astro.build/blog/astro-630/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
+    "author": "Sunile Manjee",
     "pubDate": "Thu, 07 May 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://main.previews.astro.build/blog/starlight-039/",
-    "title": "Starlight 0.39",
-    "summary": "Get more flexible autogenerated sidebars, improved styling, and stronger multilingual docs support with the latest Starlight release.",
-    "aiSummary": "스타라이트 0.39 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 자동 생성되는 사이드바의 유연성이 한층 강화되었으며 스타일링 기능 또한 개선되었습니다. 이와 더불어 다국어 문서 지원 기능이 보강되어 더욱 효율적인 문서화 작업이 가능해졌습니다.",
-    "url": "https://main.previews.astro.build/blog/starlight-039/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "Thu, 07 May 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/rethinking-financial-crime-investigation",
-    "title": "After the alert: Rethinking how we investigate financial crime",
-    "summary": "Financial services stop most fraud before it hits customers, but millions of cases still need investigating. Elastic brings AI-assisted triage, unified data, and scalable analytics to the investigatio",
-    "aiSummary": "금융 서비스 분야에서는 대부분의 사기 시도를 고객 피해 발생 이전에 차단하고 있으나 여전히 수백만 건의 사례가 추가적인 조사를 필요로 합니다. 엘라스틱은 이러한 조사 과정의 효율성을 높이기 위해 인공지능 기반의 우선순위 분류 체계를 제공합니다. 또한 방대한 데이터를 통합하고 확장 가능한 분석 기능을 활용하여 금융 범죄 조사 환경을 혁신하고자 합니다.",
-    "url": "https://www.elastic.co/blog/rethinking-financial-crime-investigation",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Jon Williams",
-    "pubDate": "Wed, 15 Apr 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-12T17:29:14.324Z",
+    "fetchedAt": "2026-06-13T15:56:15.485Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
