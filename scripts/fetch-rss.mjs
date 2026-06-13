@@ -173,6 +173,7 @@ async function scrapeAnthropicNews(existingMap, runTime) {
 
       let title = 'No Title';
       let content = '';
+      let parsedDate = null;
 
       try {
         const articleRes = await fetch(url);
@@ -181,6 +182,14 @@ async function scrapeAnthropicNews(existingMap, runTime) {
         const titleMatch = articleHtml.match(/<title>(.*?)<\/title>/);
         if (titleMatch) {
           title = unescapeHtml(titleMatch[1].replace(' \\ Anthropic', '').replace('Newsroom \\ ', '').trim());
+        }
+
+        const dateMatch = articleHtml.match(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* \d{1,2}, \d{4}/i);
+        if (dateMatch) {
+          const parsed = new Date(dateMatch[0]);
+          if (!isNaN(parsed.getTime())) {
+            parsedDate = parsed.toISOString();
+          }
         }
 
         const pMatches = articleHtml.match(/<p[^>]*>(.*?)<\/p>/g);
@@ -205,7 +214,7 @@ async function scrapeAnthropicNews(existingMap, runTime) {
         category: '인공지능',
         source: 'Anthropic News',
         author: 'Anthropic',
-        pubDate: new Date().toISOString(),
+        pubDate: parsedDate || new Date().toISOString(),
         fetchedAt: runTime,
         tags: ['Anthropic', 'Claude', 'AI', 'LLM']
       });
