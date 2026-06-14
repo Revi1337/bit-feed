@@ -29,8 +29,11 @@ export default defineNuxtConfig({
     serverAssets: [
       {
         baseName: 'data',
-        dir: './public/data'
+        dir: 'public/data'
       }
-    ]
+    ],
+    vercel: {
+      regions: ['icn1'] // 서울 리전으로 설정하여 워싱턴 D.C. 라우팅 방지
+    }
   }
 })
