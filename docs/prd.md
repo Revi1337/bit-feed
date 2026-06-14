@@ -77,3 +77,13 @@
 - [x] 데스크톱 환경에서 스크롤을 내릴 때 우측 필터 패널이 따라오는 Sticky 기능 적용 (내부 이중 스크롤 제거)
 - [x] 랜딩 페이지 및 뉴스 피드의 빈 화면(Empty State) 영문 메시지를 자연스러운 한국어로 현지화
 - [x] Phase 7 작업 내역 Git Commit (`git commit -m "chore(docs): update PRD with Phase 7 UX enhancements"`)
+
+## Phase 8: Open API 연동 (외부 서비스 제공용)
+외부 서비스(타사 대시보드, 슬랙 봇 등)에서 `bit-feed`의 요약 데이터를 활용할 수 있도록 Nuxt Nitro 기반의 RESTful API를 구축합니다.
+
+- [x] `server/middleware/cors.ts`: 지정된 도메인(`localhost`, `*.revi1337.com`, `revi1337.com`)에서만 접근할 수 있도록 동적 CORS 헤더 제어 로직 구현.
+- [x] `server/api/feeds/latest.get.ts`: 가장 최근에 수집된 `latest.json` 데이터 반환 엔드포인트 구현.
+- [x] `server/api/feeds/index.get.ts`: 전체 아카이브(`all.json`) 데이터 조회 기능. 검색어(`q`), 카테고리(`category`), 출처(`source`), 페이지네이션(`page`, `limit`) 필터링 지원.
+- [x] `server/api/feeds/sources.get.ts`: 데이터 내에 존재하는 모든 출처(sourceName) 목록 반환.
+- [x] `server/api/feeds/categories.get.ts`: 데이터 내에 존재하는 모든 카테고리(category) 목록 반환.
+- [x] Phase 8 작업 내역 Git Commit (`git commit -m "feat: add Open API routes and CORS middleware"`)

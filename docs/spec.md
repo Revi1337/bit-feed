@@ -34,3 +34,12 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
   - 인공지능 (OpenAI, Claude, Gemini, Antigravity 등)
   - 보안 (주요 보안 취약점 공지 등)
 - **데이터 스키마**: 단일 기사는 고유 식별자, 제목, 요약, 카테고리, 출처, 작성자, 발행일, 태그, 원본 링크 등의 풍부한 메타데이터 필드를 포함하여 필터링을 지원.
+
+## 6. Open API (외부 연동)
+`bit-feed`는 수집된 데이터를 서드파티 서비스가 활용할 수 있도록 Nuxt Nitro 기반의 REST API를 제공합니다. 보안을 위해 CORS 미들웨어를 통해 `localhost`, `revi1337.com`, `*.revi1337.com` 출처의 요청만 허용합니다.
+
+- **`GET /api/feeds/latest`**: 최신(`latest.json`) 수집 기사 원본 배열 반환.
+- **`GET /api/feeds`**: 아카이브(`all.json`) 전체 기사를 대상으로 한 검색 및 필터링 기능 지원.
+  - 파라미터: `page`, `limit`, `category`, `source`, `q` (검색어)
+- **`GET /api/feeds/sources`**: 데이터 내 고유 출처(sourceName) 목록 정렬 배열 반환.
+- **`GET /api/feeds/categories`**: 데이터 내 고유 카테고리(category) 목록 정렬 배열 반환.
