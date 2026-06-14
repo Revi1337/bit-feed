@@ -9,7 +9,7 @@
       </h1>
       
       <p class="text-[18px] md:text-[20px] text-body max-w-[600px] leading-relaxed mb-10 animate-fade-in-up" style="animation-delay: 200ms;">
-        매일 쏟아지는 IT 소식, 이제 한 곳에서 확인하세요. 40여 곳의 글로벌 기술 블로그와 AI 연구소의 최신 아티클을 수집하고 Gemini가 핵심만 요약해 드립니다.
+        매일 쏟아지는 IT 소식, 이제 한 곳에서 확인하세요. 50+ 곳의 글로벌 기술 블로그와 AI 연구소의 최신 아티클을 수집하고 Gemini가 핵심만 요약해 드립니다.
       </p>
       
       <div class="flex flex-col sm:flex-row items-center gap-4 animate-fade-in-up" style="animation-delay: 300ms;">
