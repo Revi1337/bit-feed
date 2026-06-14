@@ -22,3 +22,8 @@
 - [x] **Task 4.1**: `<dialog>` 기반 모달이 배경 클릭(Light dismiss)과 ESC 키로 정상적으로 닫히는지 확인.
 - [x] **Task 4.2**: '오늘의 소식'과 '모든 소식' 메뉴 이동 시 화면이 자연스럽게 크로스페이드(View Transition)되는지 확인.
 - [x] **Task 4.3**: Chrome 개발자 도구 렌더링 탭에서 스크롤 아래쪽 카드의 렌더링이 `content-visibility`에 의해 정상적으로 지연되는지 확인.
+
+## Phase 5: 데이터 신뢰성 및 추가 UX 고도화 (Data & UX Polish)
+- [x] **Task 5.1**: Vercel 스타일의 LogoCloud 트랙에 커스텀 SVG(AWS, WebKit 등)를 포함한 50개 이상의 테크 블로그 로고를 유연한 `viewBox` 속성으로 매끄럽게 연결.
+- [x] **Task 5.2**: GitHub Actions 워크플로우에 `concurrency` 속성(cancel-in-progress)을 도입하여 여러 커밋이 발생할 때 데이터 파이프라인의 레이스 컨디션(Race Condition)을 원천 차단.
+- [x] **Task 5.3**: `all.json`을 전체 누적 아카이브로, `latest.json`을 신규 업데이트만을 담는 휘발성 저장소로 완벽히 분리하여 상태 관리 안정성 확보.

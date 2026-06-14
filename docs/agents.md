@@ -23,17 +23,17 @@
 ## 2. Sub-Agent 2: Data Pipeline & Deployment Expert (데이터 수집 및 연동 전담)
 - **역할**: 백엔드 없이 작동하는 서버리스 데이터 수집 파이프라인을 구축하고, 완성된 앱을 배포합니다.
 - **매핑된 PRD Task**:
-  - **Phase 3 전반**: 5가지 카테고리의 "공식 문서/블로그" RSS 피드를 파싱하는 Node.js 스크립트(`fetch-rss.js`) 작성.
-  - JSON 스키마(`id`, `title`, `category`, `pubDate` 등) 구조화.
+  - **Phase 3 전반**: 58개의 카테고리별 RSS 피드 및 커스텀 파서(`scraper.mjs`)를 구축하는 파이프라인.
+  - JSON 스키마(`id`, `title`, `category`, `pubDate` 등) 구조화 및 `all.json`/`latest.json` 아카이빙 로직 구성.
   - **Phase 4 전반**: Nuxt의 `useFetch` 등을 이용한 프론트엔드 상태 관리 및 필터링 로직(로직 연동) 구현.
-  - **Phase 5 전반**: GitHub Actions 워크플로우 구성 및 Vercel/GitHub Pages 배포 자동화.
+  - **Phase 5 전반**: GitHub Actions 워크플로우 구성 (동시성 제어 포함) 및 Vercel 배포 자동화.
 
 ---
 
 ## 3. Sub-Agent 3: QA & Exception Handling Expert (QA 및 예외 처리 전담)
 - **역할**: 시스템이 중단되거나 오류 페이지가 노출되지 않도록, 모든 에지 케이스(Edge case)와 장애 상황에 대한 방어 로직을 작성합니다.
 - **담당 업무**:
-  - 데이터 파이프라인에서 RSS 피드 URL 접속 실패 시 재시도(Retry) 로직 및 Fallback 데이터 처리.
+  - 데이터 파이프라인에서 RSS 피드 URL 접속 실패 시 재시도(Retry) 로직 및 SPA 블로그용 Fallback 스크래퍼 처리.
   - JSON 파싱 중 구조가 깨진 데이터가 들어왔을 때의 예외 처리(Try-Catch).
   - 프론트엔드 로딩 상태(Skeleton UI 적용 확인), 필터링 결과가 없을 때의 Empty State UI 노출 확인.
   - 크로스 브라우징 및 모바일 환경에서의 레이아웃 깨짐 테스트 계획 수립.

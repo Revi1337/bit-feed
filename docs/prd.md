@@ -28,7 +28,8 @@
 
 - [x] Node.js 기반 RSS 파싱을 위한 프로젝트 스크립트 생성 (`scripts/fetch-rss.js`)
 - [x] `rss-parser` 라이브러리 설치
-- [x] 대상 블로그 목록 세팅 (반드시 각 기술/프레임워크/언어의 **"공식 블로그 및 공식 문서"**만을 출처로 엄격하게 한정; 프로그래밍 언어, 프론트엔드, 백엔드, 인공지능, 보안 5개 카테고리 구성)
+- [x] 대상 블로그 목록 세팅 (58개의 프론트엔드/백엔드/인공지능/보안 공식 블로그 및 문서로 확장)
+- [x] 기본 RSS 파싱이 불가능한 CSR/SPA 블로그(Vite, Babel, Bun 등)를 위한 커스텀 크롤러 스크립트(`scraper.mjs`) 도입
 - [x] 대상 블로그 피드 URL에서 데이터를 추출 및 정제하는 로직 구현
 - [x] 여러 다중 필터(카테고리, 출처, 날짜, 태그 등) 적용을 위해 `news.json` 데이터 구조를 세분화하여 가공 (예: `id`, `title`, `summary`, `url`, `category`, `source`, `author`, `pubDate`, `tags` 등 다양한 필드 포함)
 - [x] 파싱 및 정제된 데이터를 `public/data/news.json` 파일로 덮어쓰기 저장하는 로직 구현
@@ -51,6 +52,7 @@
 - [x] `.github/workflows/update-news.yml` 파일 생성
 - [x] Cron Job을 설정하여 주기적(예: 6시간/12시간 간격)으로 `npm run fetch-rss` 실행 설정
 - [x] GitHub Actions 내에서 업데이트된 `news.json`을 Git Commit & Push 하는 파이프라인 완성
+- [x] 워크플로우 동시성 이슈(Race condition) 방지를 위해 `concurrency: cancel-in-progress` 로직 추가
 - [x] 최종 웹 어플리케이션 배포 환경 설정 (Vercel 또는 GitHub Pages 연동)
 - [x] 모바일/웹 환경 통합 테스트 및 최종 검수
 - [x] Phase 5 작업 내역 Git Commit (`git commit -m "feat: finish phase 5 - automation and deployment"`)
@@ -58,11 +60,11 @@
 ## Phase 6: Advanced Features & Refinement (고급 기능 및 고도화)
 기본 구축이 완료된 이후, 사용자 경험(UX)과 데이터 퀄리티를 향상하기 위해 도입한 고급 기능들입니다.
 
-- [x] `news.json`(전체 아카이브)과 `latest.json`(최신 업데이트) 파일 분리 로직 구현 (스크립트 실행 직전 병합 후 분리)
+- [x] `all.json`(전체 누적 아카이브)과 `latest.json`(당일 신규 업데이트) 파일 분리 로직 완전 구현
 - [x] Gemini API를 활용한 기사 핵심 AI 요약(`aiSummary`) 기능 연동
 - [x] AI 요약 프롬프트 엄격화 (마크다운 배제, 2~3문장 제한, 정중한 존댓말 통일 등)
-- [x] "What's New"(`latest.json`)와 "All Updates"(`news.json`) 탭 UI 분리 및 네비게이션 연동
-- [x] 단순 텍스트 로고를 기하학적이고 세련된 커스텀 SVG 로고(Stem, Loop, Data Dot 형태)로 교체
+- [x] "What's New"(`latest.json`)와 "All Updates"(`all.json`) 탭 UI 분리 및 네비게이션 연동
+- [x] 랜딩 페이지 LogoCloud 업데이트: 50+ 곳의 파서 출처(AWS, WebKit 등 커스텀 SVG 포함) 연동
 - [x] 불필요한 시리즈/팟캐스트 필터링을 위해 Spring 블로그 피드를 Engineering, Releases, News 3개 채널로 정밀하게 분리
 - [x] Phase 6 작업 내역 Git Commit (`git commit -m "feat: finish phase 6 - advanced features and AI summary"`)
 
