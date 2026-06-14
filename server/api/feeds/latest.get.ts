@@ -1,7 +1,9 @@
+import latestDataRaw from '~~/public/data/latest.json'
+
 export default defineEventHandler(async (event) => {
   try {
-    // Nitro의 서버 스토리지 기능을 이용해 직접 읽어옵니다.
-    const latestData = await useStorage('assets:data').getItem('latest.json') || []
+    // Vite 빌드 시 JSON을 JS 번들에 직접 포함
+    const latestData = latestDataRaw as any[]
     return {
       success: true,
       data: latestData

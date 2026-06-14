@@ -1,3 +1,5 @@
+import allDataRaw from '~~/public/data/all.json'
+
 export default defineEventHandler(async (event) => {
   const query = getQuery(event)
   
@@ -8,9 +10,8 @@ export default defineEventHandler(async (event) => {
   const q = query.q as string
 
   try {
-    // Nitro의 서버 스토리지 기능을 이용해 메모리/파일시스템에서 직접 읽어옵니다.
-    // HTTP 오버헤드가 발생하지 않는 최적의 방식입니다.
-    let allData = await useStorage('assets:data').getItem('all.json') as any[] || []
+    // Vite 빌드 시 JSON을 JS 번들에 직접 포함 (가장 빠르고 확실한 방법)
+    let allData = allDataRaw as any[]
 
     // 필터링 적용
     if (category) {
