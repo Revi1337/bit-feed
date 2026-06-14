@@ -20,7 +20,7 @@ async function fillMissing() {
   const latestPath = path.resolve(process.cwd(), 'public/data/latest.json');
   const data = JSON.parse(await fs.readFile(latestPath, 'utf-8'));
   
-  const missingItems = data.filter(item => !item.aiSummary || item.aiSummary.includes("요약하는 중입니다"));
+  const missingItems = data.filter(item => !item.aiSummary || item.aiSummary.includes("요약하는 중입니다") || item.aiSummary.includes("오류가 발생했습니다"));
   console.log(`Found ${missingItems.length} items missing aiSummary.`);
   
   for (let i = 0; i < missingItems.length; i++) {
