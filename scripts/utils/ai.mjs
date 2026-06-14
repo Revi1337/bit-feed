@@ -1,18 +1,15 @@
 import fs from 'fs/promises';
-import path from 'path';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import * as dotenv from 'dotenv';
+import pLimit from 'p-limit';
 
-dotenv.config();
+export const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
-const model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
-
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-
-async function generateAISummary(title, content) {
+export async function generateAISummary(title, content) {
   if (!process.env.GEMINI_API_KEY) return "API Key가 설정되지 않아 AI 요약을 생성할 수 없습니다.";
   if (!content || content.trim().length < 30) return "본문이 제공되지 않은 기사입니다.";
+
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
+  const model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
 
   let attempt = 0;
   const maxRetries = 3;
@@ -28,6 +25,7 @@ async function generateAISummary(title, content) {
 2. 마크다운 기호(**, #, *, - 등)를 절대 사용하지 말고, 오직 순수한 평문(Plain text)으로만 출력해라.
 3. 기사의 분량과 심도에 비례하여 요약의 길이를 동적으로 조절해라. 가벼운 내용이라면 2~3문장으로 짧게, 기술적으로 깊고 방대한 내용이라면 줄바꿈과 여러 문단을 적극 활용하여 상세히 요약해라.
 4. 모든 문장의 끝마맺음은 반드시 정중한 존댓말("~합니다.", "~입니다." 등)로 통일해라.
+5. 고유명사(회사명, 모델명, 서비스명, 기술 용어 등)는 억지로 한국어로 발음 나는 대로 적지 말고 반드시 영문 원어 그대로 작성해라. (예: 오프너이 -> OpenAI, 앤스로픽 -> Anthropic, 제네이아이 -> Gemini, 딥식 -> DeepSeek, 올라마 -> Ollama, 엠시피 -> MCP)
 
 제목: ${title}
 
@@ -53,23 +51,24 @@ ${content.slice(0, 15000)}
   }
 }
 
-async function run() {
-  const latestPath = path.resolve(process.cwd(), 'public/data/latest.json');
-  let data = JSON.parse(await fs.readFile(latestPath, 'utf-8'));
+export async function processAiSummaries(newLatestNews, latestPath) {
+  console.log('--- Phase 2: AI Summarization ---');
+  const itemsToSummarize = newLatestNews.filter(n => !n.aiSummary);
+  console.log(`Found ${itemsToSummarize.length} items needing AI summaries.`);
 
-  let count = 0;
-  for (let i = 0; i < data.length; i++) {
-    if (!data[i].aiSummary && data[i].summary && data[i].summary.trim().length > 30) {
-      console.log(`Summarizing: ${data[i].title}`);
-      data[i].aiSummary = await generateAISummary(data[i].title, data[i].summary);
-      count++;
-      await sleep(1000); 
+  const limit = pLimit(1); // 1 concurrent request
+
+  let completed = 0;
+  await Promise.all(itemsToSummarize.map(item => limit(async () => {
+    console.log(`Generating AI summary for: ${item.title}`);
+    item.aiSummary = await generateAISummary(item.title, item.cleanContent);
+    completed++;
+    if (completed % 10 === 0) {
+      console.log(`Progress: ${completed}/${itemsToSummarize.length}`);
+      const tempNews = [...newLatestNews];
+      tempNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      await fs.writeFile(latestPath, JSON.stringify(tempNews, null, 2), 'utf-8');
     }
-    if (count >= 5) break;
-  }
-
-  await fs.writeFile(latestPath, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`Successfully generated summaries for ${count} items.`);
+    await sleep(4100); // Strict 4.1s delay to perfectly align with 15 requests per minute limit
+  })));
 }
-
-run();
