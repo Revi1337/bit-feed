@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import * as dotenv from 'dotenv';
 import { FEEDS } from '../config/feeds.mjs';
-import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews } from '../utils/scraper.mjs';
+import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews } from '../utils/scraper.mjs';
 import { processAiSummaries } from '../utils/ai.mjs';
 
 dotenv.config();
@@ -23,8 +23,25 @@ dotenv.config();
 async function main() {
   const latestPath = path.resolve(process.cwd(), 'public/data/latest.json');
 
-  // 기존 데이터 없이 전부 새로 수집한다고 가정
+  // 로컬 환경을 위해 기존 latest.json과 all.json을 모두 읽어와 existingMap 구성 (중복 방지)
+  const newsPath = path.resolve(process.cwd(), 'public/data/all.json');
+  let existingNews = [];
+  try {
+    const fileData = await fs.readFile(newsPath, 'utf-8');
+    existingNews = JSON.parse(fileData);
+  } catch (e) {}
+
+  let latestNewsData = [];
+  try {
+    const fileData = await fs.readFile(latestPath, 'utf-8');
+    latestNewsData = JSON.parse(fileData);
+  } catch (e) {}
+
   const existingMap = new Map();
+  [...existingNews, ...latestNewsData].forEach(item => {
+    existingMap.set(item.id, item);
+  });
+
   const runTime = new Date().toISOString();
 
   const now = new Date();
@@ -36,8 +53,11 @@ async function main() {
   const rssResults = await fetchRssFeeds(FEEDS, existingMap, kstMidnightUTC, runTime);
   const anthropicResults = await scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC);
   const deepseekResults = await scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC);
+  const viteResults = await scrapeViteNews(existingMap, runTime, kstMidnightUTC);
+  const babelResults = await scrapeBabelNews(existingMap, runTime, kstMidnightUTC);
+  const bunResults = await scrapeBunNews(existingMap, runTime, kstMidnightUTC);
 
-  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults];
+  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults, ...viteResults, ...babelResults, ...bunResults];
 
   console.log(`\n[임시 테스트] 수집 완료! 총 ${newLatestNews.length}개의 기사를 메모리(newLatestNews)에 보관했습니다.`);
   console.log(`[임시 테스트] 2. ai.mjs 로 넘겨서 요약 시작 (10개 단위로 latest.json에 중간 저장) \n`);

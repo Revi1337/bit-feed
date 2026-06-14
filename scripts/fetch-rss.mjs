@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import * as dotenv from 'dotenv';
 import { FEEDS } from './config/feeds.mjs';
-import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews } from './utils/scraper.mjs';
+import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews } from './utils/scraper.mjs';
 import { processAiSummaries } from './utils/ai.mjs';
 
 dotenv.config();
@@ -51,8 +51,11 @@ async function fetchAllFeeds() {
   const rssResults = await fetchRssFeeds(FEEDS, existingMap, kstMidnightUTC, runTime);
   const anthropicResults = await scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC);
   const deepseekResults = await scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC);
+  const viteResults = await scrapeViteNews(existingMap, runTime, kstMidnightUTC);
+  const babelResults = await scrapeBabelNews(existingMap, runTime, kstMidnightUTC);
+  const bunResults = await scrapeBunNews(existingMap, runTime, kstMidnightUTC);
   
-  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults];
+  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults, ...viteResults, ...babelResults, ...bunResults];
 
   // 3. AI Summarization Phase
   await processAiSummaries(newLatestNews, latestPath);

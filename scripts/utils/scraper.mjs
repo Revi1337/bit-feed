@@ -240,3 +240,146 @@ export async function scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC) {
   }
   return deepseekNews;
 }
+
+export async function scrapeViteNews(existingMap, runTime, kstMidnightUTC) {
+  const news = [];
+  try {
+    console.log(`Scraping Vite News...`);
+    const res = await fetch('https://vite.dev/blog/');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    const links = doc.querySelectorAll('main a[href^="/blog/"]');
+    
+    const uniqueUrls = new Set();
+    const items = [];
+    for (const a of links) {
+      if (uniqueUrls.has(a.href)) continue;
+      uniqueUrls.add(a.href);
+      items.push(a);
+    }
+
+    for (const a of items.slice(0, 5)) {
+      const url = `https://vite.dev${a.href}`;
+      const title = a.textContent.trim();
+      const id = url;
+      if (existingMap.has(id)) continue;
+      
+      const timeEl = a.closest('div, article, section')?.querySelector('time');
+      const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
+      
+      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
+        console.log(`[INFO] Skipping today's article: ${title}`);
+        continue;
+      }
+      
+      const content = await fetchAndExtractArticle(url);
+      if (!content) continue;
+      
+      news.push({
+        id, title, summary: content.slice(0, 200), aiSummary: '', cleanContent: content.slice(0, 3000),
+        url, category: '프론트엔드', source: 'Vite Blog', author: 'Vite Team',
+        pubDate, fetchedAt: runTime, tags: ['Vite', 'Build']
+      });
+    }
+  } catch (error) { console.error(`[ERROR] Failed to scrape Vite:`, error.message); }
+  return news;
+}
+
+export async function scrapeBabelNews(existingMap, runTime, kstMidnightUTC) {
+  const news = [];
+  try {
+    console.log(`Scraping Babel News...`);
+    const res = await fetch('https://babeljs.io/blog/');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    const articles = doc.querySelectorAll('article');
+    
+    for (const article of Array.from(articles).slice(0, 5)) {
+      const a = article.querySelector('h2 a, h1 a');
+      if (!a) continue;
+      
+      const url = `https://babeljs.io${a.href}`;
+      const title = a.textContent.trim();
+      const id = url;
+      if (existingMap.has(id)) continue;
+      
+      const timeEl = article.querySelector('time');
+      const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
+      
+      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
+        console.log(`[INFO] Skipping today's article: ${title}`);
+        continue;
+      }
+      
+      const content = await fetchAndExtractArticle(url);
+      if (!content) continue;
+      
+      news.push({
+        id, title, summary: content.slice(0, 200), aiSummary: '', cleanContent: content.slice(0, 3000),
+        url, category: '프론트엔드', source: 'Babel Blog', author: 'Babel Team',
+        pubDate, fetchedAt: runTime, tags: ['Babel', 'Build']
+      });
+    }
+  } catch (error) { console.error(`[ERROR] Failed to scrape Babel:`, error.message); }
+  return news;
+}
+
+export async function scrapeBunNews(existingMap, runTime, kstMidnightUTC) {
+  const news = [];
+  try {
+    console.log(`Scraping Bun News...`);
+    const res = await fetch('https://bun.sh/blog');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    const links = doc.querySelectorAll('a[href^="/blog/"]');
+    
+    const uniqueUrls = new Set();
+    const items = [];
+    for (const a of links) {
+      if (uniqueUrls.has(a.href)) continue;
+      uniqueUrls.add(a.href);
+      items.push(a);
+    }
+
+    for (const a of items.slice(0, 5)) {
+      const url = `https://bun.sh${a.href}`;
+      let title = a.textContent.trim().split('\n')[0];
+      const id = url;
+      if (existingMap.has(id)) continue;
+      
+      const contentHtmlRes = await fetch(url);
+      if (!contentHtmlRes.ok) continue;
+      const contentHtml = await contentHtmlRes.text();
+      const contentDom = new JSDOM(contentHtml, { url });
+      const contentDoc = contentDom.window.document;
+      
+      const timeEl = contentDoc.querySelector('time');
+      const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
+      
+      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
+        console.log(`[INFO] Skipping today's article: ${title}`);
+        continue;
+      }
+      
+      const reader = new Readability(contentDoc);
+      const article = reader.parse();
+      const content = article ? article.textContent.trim() : null;
+      if (!content) continue;
+      
+      if (article && article.title) title = article.title;
+      
+      news.push({
+        id, title, summary: content.slice(0, 200), aiSummary: '', cleanContent: content.slice(0, 3000),
+        url, category: '백엔드', source: 'Bun Blog', author: 'Bun Team',
+        pubDate, fetchedAt: runTime, tags: ['Bun', 'Runtime']
+      });
+    }
+  } catch (error) { console.error(`[ERROR] Failed to scrape Bun:`, error.message); }
+  return news;
+}
