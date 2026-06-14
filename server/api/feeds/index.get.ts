@@ -8,8 +8,9 @@ export default defineEventHandler(async (event) => {
   const q = query.q as string
 
   try {
-    // 내부 $fetch를 사용하여 전체 데이터 로드
-    let allData = await $fetch<any[]>('/data/all.json')
+    // Nitro의 서버 스토리지 기능을 이용해 메모리/파일시스템에서 직접 읽어옵니다.
+    // HTTP 오버헤드가 발생하지 않는 최적의 방식입니다.
+    let allData = await useStorage('assets:data').getItem('all.json') as any[] || []
 
     // 필터링 적용
     if (category) {

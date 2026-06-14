@@ -24,5 +24,13 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
       ]
     }
+  },
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'data',
+        dir: './public/data'
+      }
+    ]
   }
 })

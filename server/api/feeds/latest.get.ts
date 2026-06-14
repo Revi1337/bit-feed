@@ -1,7 +1,7 @@
 export default defineEventHandler(async (event) => {
   try {
-    // 내부 $fetch를 사용하여 public/data/latest.json 호출 (정적 파일)
-    const latestData = await $fetch('/data/latest.json')
+    // Nitro의 서버 스토리지 기능을 이용해 직접 읽어옵니다.
+    const latestData = await useStorage('assets:data').getItem('latest.json') || []
     return {
       success: true,
       data: latestData
