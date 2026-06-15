@@ -113,8 +113,8 @@
     <UiModal :isOpen="!!selectedArticle" @close="selectedArticle = null">
       <template #header>
         <div class="flex flex-col pr-4">
-          <h2 class="text-[18px] font-semibold leading-tight text-ink">{{ selectedArticle?.title }}</h2>
-          <span class="text-[12px] text-mute mt-1">{{ selectedArticle?.source }}</span>
+          <h2 class="text-[18px] font-semibold leading-tight text-ink">{{ displayedArticle?.title }}</h2>
+          <span class="text-[12px] text-mute mt-1">{{ displayedArticle?.source }}</span>
         </div>
       </template>
 
@@ -122,16 +122,16 @@
         <div class="flex items-center gap-2">
           <UiBadge variant="secondary" class="shadow-sm">✨ AI 요약</UiBadge>
         </div>
-        <p class="text-[15px] text-body leading-relaxed whitespace-pre-wrap text-mute" v-if="!selectedArticle?.aiSummary">
+        <p class="text-[15px] text-body leading-relaxed whitespace-pre-wrap text-mute" v-if="!displayedArticle?.aiSummary">
           ⏳ AI가 이 기사를 요약하는 중입니다. 잠시 후 새로고침해 주세요.
         </p>
         <p class="text-[15px] text-body leading-relaxed whitespace-pre-wrap" v-else>
-          {{ selectedArticle?.aiSummary }}
+          {{ displayedArticle?.aiSummary }}
         </p>
       </div>
 
       <template #footer>
-        <a :href="selectedArticle?.url" target="_blank" class="inline-flex items-center justify-center transition-opacity font-medium cursor-pointer bg-primary text-on-primary text-[14px] rounded-sm px-md h-[36px] hover:opacity-80 w-full md:w-auto">
+        <a :href="displayedArticle?.url" target="_blank" class="inline-flex items-center justify-center transition-opacity font-medium cursor-pointer bg-primary text-on-primary text-[14px] rounded-sm px-md h-[36px] hover:opacity-80 w-full md:w-auto">
           원문 읽으러 가기
         </a>
       </template>
@@ -177,6 +177,13 @@ watch([selectedCategories, selectedTags], () => {
 
 // Modal State
 const selectedArticle = ref(null)
+const displayedArticle = ref(null)
+
+watch(selectedArticle, (newVal) => {
+  if (newVal) {
+    displayedArticle.value = newVal
+  }
+})
 
 const openArticle = (news) => {
   selectedArticle.value = news

@@ -1,8 +1,8 @@
 <template>
-  <dialog 
-    ref="dialogRef" 
-    closedby="any" 
-    @close="close" 
+  <dialog
+    ref="dialogRef"
+    @click="handleBackdropClick"
+    @cancel.prevent="close"
     :class="['modal-dialog bg-canvas w-full max-w-2xl mx-4 md:mx-auto rounded-xl shadow-level-5 flex-col max-h-[90vh] overflow-hidden p-0 backdrop:bg-black/60 backdrop:backdrop-blur-sm', { 'is-closing': isClosing }]"
   >
     <!-- Header -->
@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted } from 'vue'
+import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 
 const props = defineProps({
   isOpen: {
@@ -42,21 +42,46 @@ const props = defineProps({
 
 const emit = defineEmits(['close'])
 const dialogRef = ref(null)
+// 닫힘 애니메이션이 재생되는 동안 true. [open]을 유지한 채 시각적으로만 사라지게 한다.
 const isClosing = ref(false)
+
+let closeFallbackTimer = null
+
+const TRANSITION_MS = 200
+
+const finishClose = () => {
+  const dialog = dialogRef.value
+  clearTimeout(closeFallbackTimer)
+  if (dialog) {
+    dialog.removeEventListener('transitionend', onDialogTransitionEnd)
+    if (dialog.open) dialog.close()
+  }
+  isClosing.value = false
+}
+
+const onDialogTransitionEnd = (e) => {
+  // 다이얼로그 본체(opacity)의 트랜지션만 처리. 자식 요소에서 버블링된 이벤트는 무시.
+  if (e.target !== dialogRef.value || e.propertyName !== 'opacity') return
+  finishClose()
+}
 
 const syncDialogState = (isOpen) => {
   const dialog = dialogRef.value
   if (!dialog) return
-  
-  if (isOpen && !dialog.open) {
-    dialog.showModal()
-  } else if (!isOpen && dialog.open) {
+
+  if (isOpen) {
+    // 닫히는 도중 다시 열리면 진행 중인 닫힘 애니메이션을 취소한다.
+    clearTimeout(closeFallbackTimer)
+    dialog.removeEventListener('transitionend', onDialogTransitionEnd)
+    isClosing.value = false
+    if (!dialog.open) dialog.showModal()
+  } else if (dialog.open && !isClosing.value) {
+    // top-layer에 남긴 채(=[open] 유지) 닫힘 애니메이션을 재생하고, 끝난 뒤 실제로 close().
+    // 이렇게 해야 애니메이션 도중 top-layer에서 빠져 깜빡이거나 끊기는 현상을 막을 수 있다.
     isClosing.value = true
-    // 모바일(Safari) 잔상 버그 방지: Top-layer에서 빠지기 전에 애니메이션 시간만큼 대기
-    setTimeout(() => {
-      dialog.close()
-      isClosing.value = false
-    }, 300)
+    dialog.addEventListener('transitionend', onDialogTransitionEnd)
+    // transitionend가 발생하지 않는 환경(prefers-reduced-motion 등) 대비 폴백
+    closeFallbackTimer = setTimeout(finishClose, TRANSITION_MS + 50)
   }
 }
 
@@ -68,8 +93,20 @@ onMounted(() => {
   syncDialogState(props.isOpen)
 })
 
+onBeforeUnmount(() => {
+  clearTimeout(closeFallbackTimer)
+})
+
+// 닫기 요청은 항상 부모의 isOpen을 통해서만 처리한다(단일 경로 → 중복 close 방지).
 const close = () => {
   emit('close')
+}
+
+// iOS Safari 백드롭 클릭 버그 방지 및 모달 닫기
+const handleBackdropClick = (e) => {
+  if (e.target === dialogRef.value) {
+    close()
+  }
 }
 </script>
 
@@ -78,29 +115,25 @@ const close = () => {
 .modal-dialog {
   margin: auto;
   border: none;
-  transition: 
-    opacity 0.3s ease, 
-    transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  /* 순수 opacity 페이드. scale을 쓰지 않으므로 '크기가 계단처럼 끊겨 보이는' 현상 자체가 없다.
+     opacity는 compositor 전용 속성이라 어떤 기기에서도 매끄럽다. */
+  transition: opacity 0.2s ease;
   opacity: 0;
-  transform: scale(0.95);
 }
 
 .modal-dialog[open] {
   opacity: 1;
-  transform: scale(1);
   display: flex; /* Override native display: block to keep flex-col */
 }
 
-/* 모바일 Safari 잔상 방지를 위한 닫힘 애니메이션 클래스 */
-.modal-dialog.is-closing {
-  opacity: 0 !important;
-  transform: scale(0.95) !important;
+/* 닫힘 애니메이션: [open](top-layer)을 유지한 채 시각적으로만 사라지게 한다 */
+.modal-dialog[open].is-closing {
+  opacity: 0;
 }
 
 @starting-style {
   .modal-dialog[open] {
     opacity: 0;
-    transform: scale(0.95);
   }
 }
 
@@ -108,7 +141,7 @@ const close = () => {
 .modal-dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
-  transition: opacity 0.3s ease;
+  transition: opacity 0.2s ease;
   opacity: 0;
 }
 
@@ -116,8 +149,12 @@ const close = () => {
   opacity: 1;
 }
 
-.modal-dialog.is-closing::backdrop {
-  opacity: 0 !important;
+.modal-dialog[open].is-closing::backdrop {
+  opacity: 0;
+  /* 닫힘 페이드 중에는 blur를 끈다. backdrop-filter는 매 프레임 재계산돼
+     프레임 드랍(끊김)의 실제 원인이므로, 사라지는 동안에는 비활성화한다. */
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 @starting-style {
