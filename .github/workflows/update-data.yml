@@ -1,8 +1,8 @@
 name: Update RSS Data
 
 on:
-#  schedule:
-#    - cron: "23 15 * * *" # 한국 시간 기준 매일 00시 23분 실행 (UTC 15시 23분)
+  schedule:
+    - cron: "23 7,15,23 * * *" # 한국 시간 기준 16:23, 00:23, 08:23 (8시간 간격, 하루 3번 실행)
   workflow_dispatch: # 수동 실행 옵션
 
 permissions:

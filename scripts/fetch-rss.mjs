@@ -23,18 +23,13 @@ async function fetchAllFeeds() {
   const existingMap = new Map(existingNews.map(n => [n.id, n]));
   const runTime = new Date().toISOString();
 
-  const now = new Date();
-  const kstTime = now.getTime() + 9 * 60 * 60 * 1000;
-  const kstDate = new Date(kstTime);
-  const kstMidnightUTC = Date.UTC(kstDate.getUTCFullYear(), kstDate.getUTCMonth(), kstDate.getUTCDate()) - 9 * 60 * 60 * 1000;
-
   const results = await Promise.all([
-    fetchRssFeeds(FEEDS, existingMap, kstMidnightUTC, runTime),
-    scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC),
-    scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC),
-    scrapeViteNews(existingMap, runTime, kstMidnightUTC),
-    scrapeBabelNews(existingMap, runTime, kstMidnightUTC),
-    scrapeBunNews(existingMap, runTime, kstMidnightUTC)
+    fetchRssFeeds(FEEDS, existingMap, runTime),
+    scrapeAnthropicNews(existingMap, runTime),
+    scrapeDeepSeekNews(existingMap, runTime),
+    scrapeViteNews(existingMap, runTime),
+    scrapeBabelNews(existingMap, runTime),
+    scrapeBunNews(existingMap, runTime)
   ]);
 
   const newLatestNews = results.flat();
@@ -45,23 +40,25 @@ async function fetchAllFeeds() {
   }
 
   // 2. AI Summarization Phase
-  await processAiSummaries(newLatestNews, latestPath);
+  const tempPath = path.resolve(process.cwd(), 'public/data/temp.json');
+  await processAiSummaries(newLatestNews, tempPath);
 
   // 3. Cleanup and Save
   newLatestNews.forEach(item => delete item.cleanContent);
-  newLatestNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
-  // Save to latest.json
-  await fs.writeFile(latestPath, JSON.stringify(newLatestNews, null, 2), 'utf-8');
-  console.log(`Successfully saved ${newLatestNews.length} newly fetched articles to public/data/latest.json`);
-
-  // Append to all.json
+  // Merge and sort ALL data
   const updatedAllNews = [...newLatestNews, ...existingNews];
   updatedAllNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
+  // Save to all.json
   await fs.mkdir(path.dirname(newsPath), { recursive: true });
   await fs.writeFile(newsPath, JSON.stringify(updatedAllNews, null, 2), 'utf-8');
   console.log(`Successfully appended ${newLatestNews.length} articles to all.json. Total: ${updatedAllNews.length}`);
+
+  // Save Top 50 to latest.json
+  const top50 = updatedAllNews.slice(0, 50);
+  await fs.writeFile(latestPath, JSON.stringify(top50, null, 2), 'utf-8');
+  console.log(`Successfully saved top 50 articles to public/data/latest.json`);
 }
 
 async function main() {

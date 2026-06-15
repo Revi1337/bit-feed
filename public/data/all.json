@@ -1,5 +1,294 @@
 [
   {
+    "id": "https://bun.sh/blog/bun-v1.3.10",
+    "title": "Bun v1.3.10",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.10",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.289Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.11",
+    "title": "Bun v1.3.11",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.11",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.078Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.12",
+    "title": "Bun v1.3.12",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.12 버전이 출시되었습니다. 해당 업데이트에는 기존 Bun 환경의 설치 및 관리를 지원하는 명령어들이 포함되어 있습니다.\n\nmacOS와 Linux 환경에서는 curl 또는 npm을 사용하여 Bun을 설치할 수 있습니다. Windows 사용자의 경우 PowerShell이나 scoop을 통해 간편하게 설치가 가능하며 Homebrew를 이용한 설치 방식도 지원합니다. Docker를 활용한 환경 구성 또한 가능하도록 다양한 설치 경로를 제공합니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.12",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.869Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.13",
+    "title": "Bun v1.3.13",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.13 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용하면 됩니다. macOS나 Linux 환경에서는 curl 또는 brew를 이용할 수 있으며 npm이나 docker를 통한 설치도 지원합니다. Windows 사용자는 PowerShell이나 scoop 명령어를 통해 Bun을 설치할 수 있습니다. 각 환경별로 최적화된 설치 방법을 제공하여 사용자의 접근성을 높였습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.13",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.668Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.14",
+    "title": "Bun v1.3.14",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.14 버전이 출시되었습니다. 해당 업데이트는 기존 사용자가 최신 환경으로 전환하거나 신규 사용자가 Bun을 설치할 수 있도록 다양한 운영체제 및 패키지 관리자를 위한 설치 명령어를 제공합니다. macOS와 Linux 환경에서는 curl 및 npm을 통해 설치가 가능하며 Windows 사용자를 위한 PowerShell 명령어와 scoop 명령어도 지원합니다. 또한 Docker 환경에서의 설치 방법도 함께 명시되어 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.14",
+    "category": "백엔드",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.371Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+    "summary": "Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North Americ",
+    "aiSummary": "Google Threat Intelligence Group은 중국 연계 해킹 그룹인 UNC6508이 북미 지역의 의료 및 학계 기관을 대상으로 정교한 사이버 공격을 감행하고 있다고 밝혔습니다.\n\n해당 공격자들은 인공지능, 사이버 보안, 의료, 국방 분야의 핵심 연구 데이터 탈취를 목적으로 활동하고 있습니다. UNC6508은 주로 합법적인 소프트웨어 도구를 악용하는 Living off the Land 기법을 사용하여 보안 탐지를 회피하며, 공격 대상 네트워크에 대한 지속적인 접근 권한을 확보하는 데 집중하고 있습니다.\n\n이들은 취약점을 이용해 초기 침투를 수행한 뒤, 정보를 수집하고 측면 이동을 통해 민감한 연구 자료에 접근하는 치밀한 전략을 구사합니다. 이번 활동은 중국의 전략적 기술 경쟁력 확보와 관련이 있는 것으로 분석되며, 관련 분야의 기관들은 보안 강화와 이상 징후에 대한 모니터링을 강화할 필요가 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/subscriptionify",
+    "title": "Subscriptionify: Feature-Based Subscription Management for Laravel",
+    "summary": "Subscriptionify is a gateway-agnostic Laravel package for modeling plans, features, usage quotas, and optional overage billing without tying your application to a specific payment provider.\nThe post S",
+    "aiSummary": "Subscriptionify는 특정 결제 서비스에 종속되지 않고 유연하게 구독 모델을 관리할 수 있도록 설계된 Laravel 패키지입니다. 이 도구는 플랜 구성, 개별 기능 설정, 사용량 할당량 정의를 지원하며 필요에 따라 초과 사용량에 대한 과금 기능도 제공합니다. 결제 게이트웨이와 독립적인 구조를 갖추고 있어 개발자가 원하는 결제 시스템을 자유롭게 연동하여 애플리케이션의 구독 로직을 구현할 수 있습니다.",
+    "url": "https://laravel-news.com/subscriptionify?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 15 Jun 2026 12:03:18 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "d4a483b5504b40c977cc5d689275cac967902536",
+    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog p",
+    "aiSummary": "뉴욕에서 개최된 AWS Summit을 통해 다양한 신규 서비스와 기술 업데이트가 발표되었습니다. \n\n가장 눈에 띄는 변화는 AWS FinOps Agent의 프리뷰 공개입니다. 이 도구는 클라우드 비용을 보다 세밀하게 추적하고 최적화할 수 있도록 지원하며 기업의 클라우드 운영 효율을 높여줄 것으로 기대됩니다. \n\nAI 분야에서는 Google의 최신 모델인 Gemma 4가 Amazon Bedrock에 공식적으로 추가되었습니다. 이를 통해 사용자는 Bedrock 환경 내에서 보다 강력한 성능의 오픈 모델을 간편하게 활용할 수 있게 되었습니다. \n\n이외에도 Kiro Pro Max를 포함한 신규 서비스 및 기술 업데이트가 함께 소개되었으며 상세한 내용은 AWS 공식 블로그를 통해 확인할 수 있습니다. 이번 업데이트는 AWS 생태계 내에서의 개발 편의성과 인프라 관리 효율을 극대화하는 데 중점을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Mon, 15 Jun 2026 11:41:48 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.137.1",
+    "title": "0.137.1",
+    "summary": "Fixes\n🚨 Fix typing checks for APIRoute. PR #15765 by @tiangolo.\n🐛 Fix bug, allow empty path in path operation in prefixless router. PR #15763 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.137.1 업데이트를 통해 두 가지 버그가 수정되었습니다.\n\n먼저 APIRoute와 관련된 타입 체크 오류를 수정하여 안정성을 개선했습니다.\n\n또한 접두사가 없는 라우터의 경로 작업에서 빈 경로를 허용하지 않던 버그를 해결했습니다. 이번 업데이트는 모두 @tiangolo에 의해 진행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-15T11:27:57.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.27",
+    "title": "v11.1.27",
+    "summary": "What's Changed\nfix(core): sse async handlers teardown issue by @kamilmysliwiec in #17131\nfix(platform-fastify): forRoutes middleware ending slash  by @kamilmysliwiec in #17138\nFull Changelog: v11.1.26",
+    "aiSummary": "NestJS v11.1.27 버전에서는 두 가지 주요 수정 사항이 포함되었습니다.\n\ncore 패키지에서는 sse async 핸들러의 종료 처리와 관련된 문제를 해결하였습니다.\n\nplatform-fastify 패키지에서는 forRoutes 미들웨어 사용 시 발생하는 경로 끝 슬래시 처리 오류를 수정하였습니다.\n\n자세한 변경 사항은 이전 버전인 v11.1.26과의 전체 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.27",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-06-15T09:17:02.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "title": "Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia) -- Herb Sutter",
+    "summary": "Hot off the press from the latest ISO C++ meeting:\nTrip report: June 2026 ISO C++ standards meeting (Brno, Czechia)\ntl;dr… A few highlights\nAdopted this week in draft C++29: Complete catalog of all un",
+    "aiSummary": "2026년 6월 체코 브르노에서 개최된 ISO C++ 위원회 회의 결과가 발표되었습니다. 이번 회의를 통해 C++29 표준 초안에 다수의 새로운 기능이 공식적으로 채택되었습니다.\n\n주요 성과로는 언어의 일관성과 생산성을 높이기 위한 다양한 개선 사항들이 포함되었습니다. 특히 개발자들이 오랫동안 요구해 온 기능들이 표준안에 반영되면서 C++의 현대화 작업이 한층 더 속도를 내게 되었습니다.\n\n이번 업데이트는 개발자 경험을 향상시키고 코드의 안전성을 강화하는 데 초점을 맞추고 있습니다. 향후 발표될 상세 기술 문서와 변경 사항들에 대해 전 세계 C++ 커뮤니티의 관심이 집중되고 있습니다.",
+    "url": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 15 Jun 2026 08:09:37 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49833",
+    "title": "Group Replication VS Percona XtraDB Cluster: The True Cost of Consistency",
+    "summary": "Overview When building high-availability MySQL environments, the choice between MySQL Group Replication (GR) and Percona XtraDB Cluster (PXC) often comes down to how they handle the eternal database d",
+    "aiSummary": "MySQL 고가용성 환경을 구축할 때 선택하게 되는 MySQL Group Replication과 Percona XtraDB Cluster는 데이터 일관성 처리 방식에서 근본적인 차이를 보입니다.\n\nMySQL Group Replication은 MySQL 내장 솔루션으로 통합성이 뛰어나며 트랜잭션의 순서와 충돌 해결을 관리하는 분산 합의 알고리즘인 Paxos를 기반으로 합니다. 이 방식은 읽기 및 쓰기 확장성을 제공하지만 쓰기 지연 시간이 네트워크 상태에 민감하게 반응한다는 특징이 있습니다.\n\n반면 Percona XtraDB Cluster는 Galera 라이브러리를 기반으로 하며 동기식 복제를 엄격하게 준수합니다. 노드 간의 트랜잭션 인증을 통해 데이터의 완전성을 강력하게 보장하지만 클러스터 내 모든 노드가 동일한 처리 능력을 갖추어야 하며 네트워크 지연에 따른 성능 저하가 발생할 수 있습니다.\n\n두 솔루션은 각기 다른 목적에 부합하는 장단점을 가지고 있습니다. MySQL Group Replication은 오피셜 환경에서의 유연한 관리와 클라우드 네이티브 환경에 적합하며 Percona XtraDB Cluster는 데이터 일관성이 최우선인 엄격한 금융 및 엔터프라이즈 데이터베이스 운영 환경에 더욱 최적화되어 있습니다. 따라서 운영자는 시스템의 가용성 요구사항과 인프라 네트워크 환경을 고려하여 적절한 기술 스택을 선택해야 합니다.",
+    "url": "https://www.percona.com/blog/group-replication-vs-percona-xtradb-cluster-the-true-cost-of-consistency/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:58:17 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49852",
+    "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+    "summary": "It is time to talk again about Flow control and group replication. This time with a special eye on the use of Group Replication in the Kubernetes context. In this article we will dig a bit on how it w",
+    "aiSummary": "MySQL Group Replication의 핵심 기제인 Flow Control이 Kubernetes 환경에서 고가용성을 유지하는 데 어떤 제약이 있는지 분석합니다. 특히 특정 노드 장애 시 발생하는 Failover 과정에서 시스템의 처리량이 급격히 저하되는 Brownout 현상의 원인을 규명합니다.\n\n단순히 노드를 복구하는 것을 넘어 네트워크 지연과 리소스 경합이 클러스터 전체의 성능에 미치는 영향을 설명합니다. Kubernetes 내에서 Group Replication을 운영할 때 발생하는 트래픽 제어 문제를 해결하기 위한 설정 최적화와 아키텍처 개선 방안을 제시합니다.\n\n기존의 고가용성 전략이 가진 한계를 지적하며 시스템 안정성을 보장하기 위한 새로운 접근법을 모색합니다. 효율적인 클러스터 운영을 위해 Flow Control 메커니즘을 보다 정밀하게 조정하고 예측 가능한 장애 대응 시스템을 구축하는 것이 필요합니다.",
+    "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:57:24 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
+    "summary": "Tool calling — the ability for an AI model to invoke application-defined functions and act on the results — is the essential building block of agentic AI systems.\n\nA model that can discover informatio",
+    "aiSummary": "Spring AI 2.0은 AI 모델이 애플리케이션 내 정의된 함수를 호출하고 그 결과를 처리하는 Tool calling 기능을 강화하여 에이전트형 AI 시스템 구축을 지원합니다.\n\n이번 업데이트의 핵심은 구성 가능하고 유연한 에이전트 아키텍처를 제공하는 데 있습니다. 이를 통해 개발자는 모델이 필요한 정보를 스스로 탐색하고 외부 작업을 수행하도록 유도할 수 있으며, 복잡한 비즈니스 로직을 AI 워크플로우에 원활하게 통합할 수 있습니다.\n\nSpring AI는 다양한 LLM과의 상호작용을 표준화하여 Tool calling 구현 과정을 단순화합니다. 개발자는 복잡한 구현 세부 사항에 얽매이지 않고도 일관된 방식으로 모델이 외부 도구를 식별하고 활용하게 함으로써 더욱 자율적이고 지능적인 애플리케이션을 개발할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "title": "Spring Tools 5.2.0 released",
+    "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.2.0 release of the Spring Tools\nfor Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code.\nHightlights\n\nCl",
+    "aiSummary": "Spring Tools 5.2.0 버전이 정식으로 출시되었습니다. 이번 업데이트는 Visual Studio Code를 비롯하여 Cursor, Eclipse, Theia, 그리고 Claude Code 환경을 모두 지원합니다. 개발팀과 기여자의 협업을 통해 이루어진 이번 릴리스는 다양한 통합 개발 환경에서의 Spring 기반 애플리케이션 개발 효율성을 높이는 데 초점을 맞추고 있습니다. 구체적인 세부 사항과 개선점은 추후 공개될 상세 업데이트 내역을 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "martinlippert",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "title": "Spotlight on SIG Storage",
+    "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project\nmoving forward. This time, we catch up with SIG\nStorage, the group responsible\nfor persistent data,",
+    "aiSummary": "Kubernetes 프로젝트를 지속적으로 발전시키는 그룹을 소개하는 SIG Spotlight 시리즈의 일환으로 SIG Storage를 조명합니다. SIG Storage는 Kubernetes 환경에서 영속적인 데이터를 관리하고 처리하는 핵심적인 역할을 담당하는 그룹입니다. 이들은 클러스터 내 데이터의 안정성과 가용성을 보장하기 위해 필요한 다양한 저장소 기술 표준을 정의하고 관련 기능을 개발하는 데 집중하고 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-openai-partner-network",
+    "title": "Introducing the OpenAI Partner Network",
+    "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+    "aiSummary": "OpenAI가 글로벌 파트너들의 기업용 AI 도입과 배포 및 기술 전환을 가속화하기 위해 OpenAI Partner Network를 출범하고 1억 5천만 달러를 투자합니다. 이번 프로그램을 통해 파트너사들은 보다 효율적인 AI 통합 환경을 구축하고 비즈니스 혁신을 도모할 수 있을 것으로 전망됩니다.",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Sun, 14 Jun 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.137.0",
     "title": "0.137.0",
     "summary": "Breaking Changes\n♻️ Refactor internals to preserve APIRouter and APIRoute instances. PR #15745 by @tiangolo.\nUnblocks ✨ SO MANY THINGS ✨\nBefore this, router.include_router(other_router) would take eac",

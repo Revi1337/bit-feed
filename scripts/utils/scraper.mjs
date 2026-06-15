@@ -42,7 +42,7 @@ export async function fetchAndExtractArticle(url) {
   }
 }
 
-export async function fetchRssFeeds(feeds, existingMap, kstMidnightUTC, runTime) {
+export async function fetchRssFeeds(feeds, existingMap, runTime) {
   const newLatestNews = [];
   for (const feed of feeds) {
     try {
@@ -58,10 +58,6 @@ export async function fetchRssFeeds(feeds, existingMap, kstMidnightUTC, runTime)
         }
 
         const itemPubDate = item.pubDate || item.isoDate || new Date().toISOString();
-        if (new Date(itemPubDate).getTime() >= kstMidnightUTC) {
-          console.log(`[INFO] Skipping today's article: ${item.title || 'No Title'}`);
-          continue;
-        }
 
         const title = unescapeHtml(item.title || 'No Title');
         const rawContent = unescapeHtml(item.contentSnippet || item.content || '');
@@ -104,7 +100,7 @@ export async function fetchRssFeeds(feeds, existingMap, kstMidnightUTC, runTime)
   return newLatestNews;
 }
 
-export async function scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC) {
+export async function scrapeAnthropicNews(existingMap, runTime) {
   const anthropicNews = [];
   try {
     console.log(`Scraping Anthropic News...`);
@@ -153,10 +149,6 @@ export async function scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC) 
       }
 
       const itemTime = parsedDate ? new Date(parsedDate).getTime() : new Date().getTime();
-      if (kstMidnightUTC && itemTime >= kstMidnightUTC) {
-        console.log(`[INFO] Skipping today's article: ${title}`);
-        continue;
-      }
 
       const cleanContent = content.slice(0, 3000);
       const summary = cleanContent.slice(0, 200);
@@ -182,7 +174,7 @@ export async function scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC) 
   return anthropicNews;
 }
 
-export async function scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC) {
+export async function scrapeDeepSeekNews(existingMap, runTime) {
   const deepseekNews = [];
   try {
     console.log(`Scraping DeepSeek Updates...`);
@@ -201,10 +193,6 @@ export async function scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC) {
       if (existingMap.has(id)) continue;
 
       const pubDate = new Date(dateMatch[1]).toISOString();
-      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
-        console.log(`[INFO] Skipping today's update: deepseek-${dateMatch[1]}`);
-        continue;
-      }
 
       const h3Match = section.match(/<h3[^>]*>([^<]+)</);
       let title = 'DeepSeek Update';
@@ -241,7 +229,7 @@ export async function scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC) {
   return deepseekNews;
 }
 
-export async function scrapeViteNews(existingMap, runTime, kstMidnightUTC) {
+export async function scrapeViteNews(existingMap, runTime) {
   const news = [];
   try {
     console.log(`Scraping Vite News...`);
@@ -269,10 +257,8 @@ export async function scrapeViteNews(existingMap, runTime, kstMidnightUTC) {
       const timeEl = a.closest('div, article, section')?.querySelector('time');
       const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
       
-      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
-        console.log(`[INFO] Skipping today's article: ${title}`);
-        continue;
-      }
+      
+
       
       const content = await fetchAndExtractArticle(url);
       if (!content) continue;
@@ -287,7 +273,7 @@ export async function scrapeViteNews(existingMap, runTime, kstMidnightUTC) {
   return news;
 }
 
-export async function scrapeBabelNews(existingMap, runTime, kstMidnightUTC) {
+export async function scrapeBabelNews(existingMap, runTime) {
   const news = [];
   try {
     console.log(`Scraping Babel News...`);
@@ -310,11 +296,7 @@ export async function scrapeBabelNews(existingMap, runTime, kstMidnightUTC) {
       const timeEl = article.querySelector('time');
       const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
       
-      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
-        console.log(`[INFO] Skipping today's article: ${title}`);
-        continue;
-      }
-      
+
       const content = await fetchAndExtractArticle(url);
       if (!content) continue;
       
@@ -328,7 +310,7 @@ export async function scrapeBabelNews(existingMap, runTime, kstMidnightUTC) {
   return news;
 }
 
-export async function scrapeBunNews(existingMap, runTime, kstMidnightUTC) {
+export async function scrapeBunNews(existingMap, runTime) {
   const news = [];
   try {
     console.log(`Scraping Bun News...`);
@@ -362,11 +344,7 @@ export async function scrapeBunNews(existingMap, runTime, kstMidnightUTC) {
       const timeEl = contentDoc.querySelector('time');
       const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
       
-      if (kstMidnightUTC && new Date(pubDate).getTime() >= kstMidnightUTC) {
-        console.log(`[INFO] Skipping today's article: ${title}`);
-        continue;
-      }
-      
+
       const reader = new Readability(contentDoc);
       const article = reader.parse();
       const content = article ? article.textContent.trim() : null;
