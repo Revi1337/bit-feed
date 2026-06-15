@@ -106,10 +106,4 @@ nav a:not(.router-link-exact-active) {
 nav a:hover {
   color: var(--color-ink);
 }
-
-/* :has() - Dim other links when one is hovered */
-nav:has(a:hover) a:not(:hover) {
-  opacity: 0.5;
-  transition: opacity 0.2s ease;
-}
 </style>
