@@ -21,7 +21,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        // self-host 폰트를 첫 페인트 전에 받아 swap으로 인한 Layout Shift를 없앤다.
+        { rel: 'preload', as: 'font', type: 'font/woff2', href: '/fonts/inter-latin-var.woff2', crossorigin: '' },
+        { rel: 'preload', as: 'font', type: 'font/woff2', href: '/fonts/jetbrains-mono-latin.woff2', crossorigin: '' }
       ]
     }
   },

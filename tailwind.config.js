@@ -31,7 +31,7 @@ export default {
         warning: 'var(--color-warning)'
       },
       fontFamily: {
-        sans: ['Inter', 'Satoshi', 'sans-serif'],
+        sans: ['Inter', 'Inter Fallback', 'Satoshi', 'sans-serif'],
         mono: ['JetBrains Mono', 'IBM Plex Mono', 'monospace'],
       },
       borderRadius: {
