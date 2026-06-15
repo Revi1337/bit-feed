@@ -3,7 +3,7 @@
     ref="dialogRef" 
     closedby="any" 
     @close="close" 
-    class="modal-dialog bg-canvas w-full max-w-2xl mx-4 md:mx-auto rounded-xl shadow-level-5 flex-col max-h-[90vh] overflow-hidden p-0 backdrop:bg-black/60 backdrop:backdrop-blur-sm"
+    :class="['modal-dialog bg-canvas w-full max-w-2xl mx-4 md:mx-auto rounded-xl shadow-level-5 flex-col max-h-[90vh] overflow-hidden p-0 backdrop:bg-black/60 backdrop:backdrop-blur-sm', { 'is-closing': isClosing }]"
   >
     <!-- Header -->
     <div class="px-lg py-md border-b border-hairline flex items-center justify-between">
@@ -42,6 +42,7 @@ const props = defineProps({
 
 const emit = defineEmits(['close'])
 const dialogRef = ref(null)
+const isClosing = ref(false)
 
 const syncDialogState = (isOpen) => {
   const dialog = dialogRef.value
@@ -50,7 +51,12 @@ const syncDialogState = (isOpen) => {
   if (isOpen && !dialog.open) {
     dialog.showModal()
   } else if (!isOpen && dialog.open) {
-    dialog.close()
+    isClosing.value = true
+    // 모바일(Safari) 잔상 버그 방지: Top-layer에서 빠지기 전에 애니메이션 시간만큼 대기
+    setTimeout(() => {
+      dialog.close()
+      isClosing.value = false
+    }, 300)
   }
 }
 
@@ -72,10 +78,7 @@ const close = () => {
 .modal-dialog {
   margin: auto;
   border: none;
-  /* transition behavior for animating display/overlay */
   transition: 
-    display 0.3s allow-discrete, 
-    overlay 0.3s allow-discrete, 
     opacity 0.3s ease, 
     transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   opacity: 0;
@@ -86,6 +89,12 @@ const close = () => {
   opacity: 1;
   transform: scale(1);
   display: flex; /* Override native display: block to keep flex-col */
+}
+
+/* 모바일 Safari 잔상 방지를 위한 닫힘 애니메이션 클래스 */
+.modal-dialog.is-closing {
+  opacity: 0 !important;
+  transform: scale(0.95) !important;
 }
 
 @starting-style {
@@ -99,15 +108,16 @@ const close = () => {
 .modal-dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
-  transition: 
-    display 0.3s allow-discrete, 
-    overlay 0.3s allow-discrete, 
-    opacity 0.3s ease;
+  transition: opacity 0.3s ease;
   opacity: 0;
 }
 
 .modal-dialog[open]::backdrop {
   opacity: 1;
+}
+
+.modal-dialog.is-closing::backdrop {
+  opacity: 0 !important;
 }
 
 @starting-style {
