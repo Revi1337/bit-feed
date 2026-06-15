@@ -4,16 +4,20 @@
  * 도착 → display=swap 으로 교체되며 "bit-feed" 라벨이 작아졌다 커지고 본문이
  * 꿀렁거리는 Layout Shift가 발생했다.
  *
- * font-display: optional 로 두면 짧은 block 구간 안에 폰트가 준비되면 그대로
- * 쓰고, 못 받으면 폴백으로 "고정"한다(중간 swap 없음). preload 로 woff2 를
- * 첫 페인트 전에 받아두므로 보통 Inter 가 처음부터 보이고, 느린 네트워크에서도
- * 폴백으로 고정되어 어느 경우든 라벨이 꿀렁거리지 않는다.
+ * font-display: optional 은 짧은(~100ms) block 구간 안에 폰트가 도착하면 Inter,
+ * 못 받으면 폴백으로 고정한다. 그런데 이 경쟁의 결과가 로드마다 달라져서
+ * (네트워크/캐시 지터) "bit-feed" 라벨이 새로고침할 때마다 Inter(진짜 bold) ↔
+ * Arial 폴백(faux-bold, 폭도 다름) 사이를 오가 "가끔 bold됐다 풀리는" 현상이 났다.
+ *
+ * font-display: block 으로 폰트가 준비될 때까지 텍스트 렌더를 잠깐 보류했다가
+ * 항상 Inter 로 그린다. preload + 48KB latin subset 이라 보류 시간은 사실상
+ * 인지 불가 수준이고, 결과가 결정적이라 라벨이 꿀렁거리지 않는다.
  */
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
-  font-display: optional;
+  font-display: block;
   src: url('/fonts/inter-latin-var.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
@@ -22,7 +26,7 @@
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 400;
-  font-display: optional;
+  font-display: block;
   src: url('/fonts/jetbrains-mono-latin.woff2') format('woff2');
 }
 
