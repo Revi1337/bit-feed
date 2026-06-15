@@ -60,7 +60,7 @@
 ## Phase 6: Advanced Features & Refinement (고급 기능 및 고도화)
 기본 구축이 완료된 이후, 사용자 경험(UX)과 데이터 퀄리티를 향상하기 위해 도입한 고급 기능들입니다.
 
-- [x] `all.json`(전체 누적 아카이브)과 `latest.json`(당일 신규 업데이트) 파일 분리 로직 완전 구현
+- [x] `all.json`(전체 누적 아카이브)과 `latest.json`(최근 업데이트) 파일 분리 로직 및 데이터 파이프라인 고도화(조기 종료, 동시 저장) 완전 구현
 - [x] Gemini API를 활용한 기사 핵심 AI 요약(`aiSummary`) 기능 연동
 - [x] AI 요약 프롬프트 엄격화 (마크다운 배제, 2~3문장 제한, 정중한 존댓말 통일 등)
 - [x] "What's New"(`latest.json`)와 "All Updates"(`all.json`) 탭 UI 분리 및 네비게이션 연동

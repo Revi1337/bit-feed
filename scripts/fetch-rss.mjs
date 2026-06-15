@@ -19,27 +19,7 @@ async function fetchAllFeeds() {
     // File might not exist
   }
 
-  let latestNewsData = [];
-  try {
-    const fileData = await fs.readFile(latestPath, 'utf-8');
-    latestNewsData = JSON.parse(fileData);
-  } catch (e) {
-    // File might not exist
-  }
-
-  // 1. Archiving
-  const mergedMap = new Map();
-  [...existingNews, ...latestNewsData].forEach(item => {
-    mergedMap.set(item.id, item);
-  });
-  existingNews = Array.from(mergedMap.values());
-  existingNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-  await fs.mkdir(path.dirname(newsPath), { recursive: true });
-  await fs.writeFile(newsPath, JSON.stringify(existingNews, null, 2), 'utf-8');
-  console.log(`Archived ${existingNews.length} articles to all.json`);
-
-  // 2. Fetching Phase
+  // 1. Fetching Phase
   const existingMap = new Map(existingNews.map(n => [n.id, n]));
   const runTime = new Date().toISOString();
 
@@ -48,24 +28,40 @@ async function fetchAllFeeds() {
   const kstDate = new Date(kstTime);
   const kstMidnightUTC = Date.UTC(kstDate.getUTCFullYear(), kstDate.getUTCMonth(), kstDate.getUTCDate()) - 9 * 60 * 60 * 1000;
 
-  const rssResults = await fetchRssFeeds(FEEDS, existingMap, kstMidnightUTC, runTime);
-  const anthropicResults = await scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC);
-  const deepseekResults = await scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC);
-  const viteResults = await scrapeViteNews(existingMap, runTime, kstMidnightUTC);
-  const babelResults = await scrapeBabelNews(existingMap, runTime, kstMidnightUTC);
-  const bunResults = await scrapeBunNews(existingMap, runTime, kstMidnightUTC);
-  
-  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults, ...viteResults, ...babelResults, ...bunResults];
+  const results = await Promise.all([
+    fetchRssFeeds(FEEDS, existingMap, kstMidnightUTC, runTime),
+    scrapeAnthropicNews(existingMap, runTime, kstMidnightUTC),
+    scrapeDeepSeekNews(existingMap, runTime, kstMidnightUTC),
+    scrapeViteNews(existingMap, runTime, kstMidnightUTC),
+    scrapeBabelNews(existingMap, runTime, kstMidnightUTC),
+    scrapeBunNews(existingMap, runTime, kstMidnightUTC)
+  ]);
 
-  // 3. AI Summarization Phase
+  const newLatestNews = results.flat();
+
+  if (newLatestNews.length === 0) {
+    console.log(`[INFO] No new articles found. Exiting without updating files.`);
+    return;
+  }
+
+  // 2. AI Summarization Phase
   await processAiSummaries(newLatestNews, latestPath);
 
-  // 4. Cleanup and Save
+  // 3. Cleanup and Save
   newLatestNews.forEach(item => delete item.cleanContent);
   newLatestNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
+  // Save to latest.json
   await fs.writeFile(latestPath, JSON.stringify(newLatestNews, null, 2), 'utf-8');
   console.log(`Successfully saved ${newLatestNews.length} newly fetched articles to public/data/latest.json`);
+
+  // Append to all.json
+  const updatedAllNews = [...newLatestNews, ...existingNews];
+  updatedAllNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+  await fs.mkdir(path.dirname(newsPath), { recursive: true });
+  await fs.writeFile(newsPath, JSON.stringify(updatedAllNews, null, 2), 'utf-8');
+  console.log(`Successfully appended ${newLatestNews.length} articles to all.json. Total: ${updatedAllNews.length}`);
 }
 
 async function main() {

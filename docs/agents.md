@@ -24,7 +24,7 @@
 - **역할**: 백엔드 없이 작동하는 서버리스 데이터 수집 파이프라인을 구축하고, 완성된 앱을 배포합니다.
 - **매핑된 PRD Task**:
   - **Phase 3 전반**: 58개의 카테고리별 RSS 피드 및 커스텀 파서(`scraper.mjs`)를 구축하는 파이프라인.
-  - JSON 스키마(`id`, `title`, `category`, `pubDate` 등) 구조화 및 `all.json`/`latest.json` 아카이빙 로직 구성.
+  - JSON 스키마(`id`, `title`, `category`, `pubDate` 등) 구조화 및 병렬 처리, 조기 종료(Early Return) 기반의 효율적인 `all.json`/`latest.json` 동시 아카이빙 로직 구성.
   - **Phase 4 전반**: Nuxt의 `useFetch` 등을 이용한 프론트엔드 상태 관리 및 필터링 로직(로직 연동) 구현.
   - **Phase 5 전반**: GitHub Actions 워크플로우 구성 (동시성 제어 포함) 및 Vercel 배포 자동화.
 
