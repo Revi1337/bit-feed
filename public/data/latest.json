@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://www.percona.com/?p=49241",
+    "title": "Extending pt-archiver with a Partition-Aware Plug-in for Fast Retention Policy Enforcement",
+    "summary": "Managing data retention policies is one of the most common operational tasks in MySQL. Applications continuously generate transactional, audit, logging, telemetry, and event data. Over time, these tab",
+    "aiSummary": "MySQL 환경에서 데이터 보존 정책을 관리하는 작업은 운영 효율성과 직결되는 중요한 과제입니다. 시간이 지남에 따라 데이터가 방대해지면 백업 시간 증가, 복구 지연, 버퍼 풀 효율 저하, 스토리지 비용 상승 등 다양한 성능 문제가 발생합니다.\n\n이를 해결하기 위해 Percona는 pt-archiver 도구에 Partition-Aware 플러그인을 도입하여 데이터 보존 정책 실행 속도를 향상하는 방안을 제시합니다. 이 접근 방식은 파티셔닝된 테이블의 특성을 활용하여 데이터를 효율적으로 아카이빙하거나 삭제함으로써, 대규모 데이터셋 운영 시 발생하는 오버헤드를 최소화하고 시스템의 전반적인 성능을 유지하는 데 도움을 줍니다.",
+    "url": "https://www.percona.com/blog/extending-pt-archiver-with-a-partition-aware-plug-in-for-fast-retention-policy-enforcement/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Corrado Pandiani",
+    "pubDate": "Tue, 16 Jun 2026 11:31:51 +0000",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+    "title": "This Week in Spring - June 16th, 2026",
+    "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring! I'm writing this from the oh-so-delightful (and delicious!) city of New Delhi, India. It's been a real privilege to come and visi",
+    "aiSummary": "Spring 팀은 최근 AI 기반 취약점 문제인 CVE 해결을 위해 지연되었던 릴리스 일정을 정상화하고 대규모 업데이트를 발표했습니다. 이번 업데이트의 핵심은 Spring Boot 4.1의 정식 출시이며, 이를 즉시 업그레이드할 것을 강력히 권장합니다.\n\nSpring AI 2.0이 새롭게 출시되었으며 시맨틱 캐싱 지원과 도구 호출 기능을 포함한 에이전트 아키텍처 구현이 가능해졌습니다. 또한 개발 도구 측면에서는 Visual Studio Code와 Eclipse 환경을 개선한 Spring Tools 5.2.0이 배포되었습니다.\n\n기타 주요 소프트웨어 업데이트는 다음과 같습니다. Spring Cloud 2025.0.3 및 2025.1.2를 비롯하여 Spring Batch, Spring Security, Spring Data 등 Spring 생태계 전반에 걸친 보안 패치와 기능 개선이 포함된 다수의 버전이 릴리스되었습니다. 특히 Spring Security의 최신 릴리스에는 중요한 CVE 수정 사항이 반영되어 있어 보안 업데이트가 요구됩니다.\n\n추가로 A Bootiful Podcast를 통해 Spring Security 리드인 Rob Winch와의 인터뷰가 공개되었으며, 인도 투어를 진행 중인 Spring 팀의 소식도 함께 전해졌습니다. 상세한 변경 사항과 각 버전별 세부 정보는 각 공식 프로젝트 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://isocpp.org//blog/2026/06/new-features-in-gcc-16-improved-error-messages-and-sarif-output-david-malco",
     "title": "New features in GCC 16: Improved error messages and SARIF output -- David Malcolm",
     "summary": "GCC 16 is about to be released, so I'm sharing some of the new features I worked on this year. Some changes are visible to users, while others improve the system more subtly.\nNew features in GCC 16: I",
@@ -463,6 +495,21 @@
     ]
   },
   {
+    "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
+    "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
+    "aiSummary": "과거 6년 전 진행했던 Java와 Go 마이크로서비스의 성능 비교 연구가 2026년 기준의 현대적인 런타임과 하드웨어를 바탕으로 다시 수행되었습니다. 이번 연구는 단순히 특정 언어의 우위를 가리는 것이 아니라 페이로드 크기와 동시성이 증가하는 환경에서 각 언어가 어떤 성능을 보이는지 심층적으로 분석하였습니다. 모든 벤치마크 코드와 상세 결과 데이터는 관련 저장소를 통해 공개되어 있으며, 정교하게 구현된 Java와 Go HTTP 서비스가 현대적인 환경에서 어느 정도의 성능 격차를 나타내는지 확인하는 데 초점을 맞추고 있습니다.",
+    "url": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mark Nelson",
+    "pubDate": "2026-06-15T00:00:00.000Z",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
     "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
     "summary": "Tool calling — the ability for an AI model to invoke application-defined functions and act on the results — is the essential building block of agentic AI systems.\n\nA model that can discover informatio",
@@ -894,57 +941,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-10-bot-created-pull-requests-can-run-workflows-if-approved",
-    "title": "Bot-created pull requests can run workflows if approved",
-    "summary": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically…\n",
-    "aiSummary": "GitHub에서 github-actions[bot]이 생성한 Pull request가 사용자의 승인을 거쳐 CI/CD 워크플로우를 실행할 수 있도록 기능이 변경되었습니다.\n\n이는 자동 생성된 코드가 검증 없이 자동으로 실행되는 것을 방지하기 위한 보안 조치입니다. 이제 개발자는 봇이 작성한 코드 변경 사항을 직접 검토하고 승인함으로써 보안성을 유지하면서도 워크플로우의 자동화 효율성을 높일 수 있습니다.",
-    "cleanContent": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically…\nThe post Bot-created pull requests can run workflows if approved appeared first on The GitHub Blog.",
-    "url": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Thu, 11 Jun 2026 19:00:56 +0000",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
-    "title": "AI usage report updates",
-    "summary": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount…\nThe post AI usa",
-    "aiSummary": "GitHub의 AI 사용량 보고서 기능이 업데이트되었습니다. 이제 표준 보고서 필드에서 GitHub AI Credits 사용 내역을 직접 확인할 수 있습니다. 향후 AI 크레딧 사용량을 추적하기 위해서는 보고서의 quantity 필드와 gross_amount 필드를 참조하면 됩니다.",
-    "cleanContent": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount…\nThe post AI usage report updates appeared first on The GitHub Blog.",
-    "url": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Thu, 11 Jun 2026 18:27:05 +0000",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
-    "title": "Terraform MCP server is now generally available",
-    "summary": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure ",
-    "aiSummary": "HashiCorp에서 개발한 Terraform MCP server가 정식 출시되었습니다. 이 기술은 GitHub Copilot, IBM Bob, Claude Code 등 MCP를 지원하는 AI 어시스턴트가 Terraform 워크플로우와 직접 상호작용할 수 있도록 연결합니다.\n\n이번 업데이트를 통해 엔지니어들은 인프라 운영 과정에서 겪던 반복적인 업무 부담을 획기적으로 줄일 수 있게 되었습니다. AI 어시스턴트는 조직의 private registry에 직접 접근하여 승인된 모듈을 검색하고 표준화된 코드를 자동으로 생성함으로써, 수동 작업으로 인한 오류와 일관성 없는 인프라 구성을 방지합니다.\n\n또한 Terraform MCP server는 복잡한 워크스페이스 데이터를 통합하여 AI가 즉각적인 상태 분석과 질의응답을 수행하도록 지원합니다. 특히 난해한 Terraform plan 결과를 자연어로 분석하고 설명해주어 코드 리뷰 효율을 높여줍니다.\n\n보안 측면에서는 기존의 Terraform 인증 및 권한 모델을 그대로 유지하며, AI 어시스턴트가 최소한의 데이터만 처리하도록 설계되었습니다. 또한 CORS 정책, 속도 제한, OpenTelemetry 연동을 통해 모니터링과 보안 감사가 가능합니다.\n\n해당 서버는 로컬 개발자 환경이나 중앙 집중식 공유 서비스 형태로 유연하게 배포할 수 있습니다. HCP Terraform과 Terraform Enterprise 사용자 모두 이용 가능하며, GitHub 리포지토리나 공식 문서를 통해 설정을 시작할 수 있습니다.",
-    "cleanContent": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure workflows, teams reduce manual effort, eliminate context switching between tools, and accelerate delivery without compromising security.\nToday, we're announcing the general availability of Terraform MCP server, now available for both HCP Terraform and Terraform Enterprise. This represents a milestone shaped by customer and community feedback since we first announced Terraform MCP server last year. In this post, we'll explore how Terraform MCP server improves infrastructure team productivity through AI-assisted workflows, maintains security by design, and provides flexible deployment options for teams of any size.\nAccelerate infrastructure workflows with AI\nTeams previously spent significant time on repetitive tasks: searching documentation, interpreting plan files, and auditing configurations. Terraform MCP server shifts this burden to AI assistants, allowing engineers to focus on strategic work rather than routine operations.\nGenerate code using your organization's standards\nBefore, engineers manually searched private registries for approved modules, copied examples, and verified compliance with organizational policies. This process was time-consuming and error-prone, often resulting in inconsistent infrastructure patterns across teams.\nNow, AI assistants can connect directly to your Terraform or Terraform Enterprise private registry. They discover approved modules, understand your organization's patterns, and generate compliant code automatically. This eliminates the need to manually search modules and ensures consistent infrastructure across your organization, reducing both development time and compliance risk.\nAccess Terraform workspace data and configurations\nManaging infrastructure across multiple workspaces requires constant context switching between tools and interfaces. Traditionally, engineers navigate through web UIs or CLI commands to gather information about workspace configurations and variables, a fragmented workflow that slows down troubleshooting and decision-making.\nTerraform MCP server provides AI assistants with direct access to workspace data and configurations. Users can ask questions like \"Which workspaces haven't been updated in 90 days?\" or \"Show me workspaces managing more than 1,000 resources,\" and receive immediate answers. This unified access eliminates context switching, enabling teams to gain faster insights and make informed decisions without leaving their development environment.\nUnderstand plan changes with context\nTerraform plan output can be difficult to interpret, especially for complex infrastructure changes. Engineers have traditionally spent time manually parsing plan files, tracing resource dependencies, and assessing the impact of modifications before approval.\nTerraform MCP server now enables AI assistants to analyze plan details and explain changes in natural language. This reduces the risk of misinterpreting plans and speeds up code review cycles, helping teams move faster while maintaining confidence in their infrastructure changes.\nSecurity by design\nFor infrastructure teams, security is non-negotiable. Terraform MCP server acts as a controlled interface that enforces your existing Terraform authentication and authorization. AI assistants receive only the specific information needed to answer questions, and not the credentials or sensitive data, reducing the risk of exposure while maintaining the security boundaries you've already established. The server includes CORS policies, rate limiting, and OpenTelemetry integration for monitoring and security auditing.\nFlexible deployment options\nTerraform MCP server supports deployment modes that fit how your team works. For individual developers, local execution provides the fastest setup and keeps all data on your machine, ideal for personal development and testing. For teams requiring centralized management, the server can be deployed as a shared service that team members access remotely while maintaining individual access controls through their own Terraform tokens.\nBoth deployment modes enforce the same authentication model, credentials remain in the deployment environment, while AI assistants receive only necessary metadata and configuration data needed to respond to queries.\nGet started with Terraform MCP server\nTerraform MCP server works with multiple AI assistants, including IBM Bob, Claude Desktop, GitHub Copilot, and other MCP-compatible tools. To get started:\n·      Read the documentation on setting up the MCP server.\n·      View the private registry tutorial\n·      Go to the GitHub repo\nNew to Terraform? Sign up for an HCP account to get started today and check out our tutorials. HCP Terraform includes a $500 credit that allows users to quickly get started using features from any plan, including HCP Terraform Premium. Contact our sales team if you’re interested in trying our self-managed offering: Terraform Enterprise.",
-    "url": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Vishnu Ravindra",
-    "pubDate": "2026-06-11T18:00:00.000Z",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "Terraform",
-      "IaC"
     ]
   }
 ]

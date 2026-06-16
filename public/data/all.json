@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://www.percona.com/?p=49241",
+    "title": "Extending pt-archiver with a Partition-Aware Plug-in for Fast Retention Policy Enforcement",
+    "summary": "Managing data retention policies is one of the most common operational tasks in MySQL. Applications continuously generate transactional, audit, logging, telemetry, and event data. Over time, these tab",
+    "aiSummary": "MySQL 환경에서 데이터 보존 정책을 관리하는 작업은 운영 효율성과 직결되는 중요한 과제입니다. 시간이 지남에 따라 데이터가 방대해지면 백업 시간 증가, 복구 지연, 버퍼 풀 효율 저하, 스토리지 비용 상승 등 다양한 성능 문제가 발생합니다.\n\n이를 해결하기 위해 Percona는 pt-archiver 도구에 Partition-Aware 플러그인을 도입하여 데이터 보존 정책 실행 속도를 향상하는 방안을 제시합니다. 이 접근 방식은 파티셔닝된 테이블의 특성을 활용하여 데이터를 효율적으로 아카이빙하거나 삭제함으로써, 대규모 데이터셋 운영 시 발생하는 오버헤드를 최소화하고 시스템의 전반적인 성능을 유지하는 데 도움을 줍니다.",
+    "url": "https://www.percona.com/blog/extending-pt-archiver-with-a-partition-aware-plug-in-for-fast-retention-policy-enforcement/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Corrado Pandiani",
+    "pubDate": "Tue, 16 Jun 2026 11:31:51 +0000",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+    "title": "This Week in Spring - June 16th, 2026",
+    "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring! I'm writing this from the oh-so-delightful (and delicious!) city of New Delhi, India. It's been a real privilege to come and visi",
+    "aiSummary": "Spring 팀은 최근 AI 기반 취약점 문제인 CVE 해결을 위해 지연되었던 릴리스 일정을 정상화하고 대규모 업데이트를 발표했습니다. 이번 업데이트의 핵심은 Spring Boot 4.1의 정식 출시이며, 이를 즉시 업그레이드할 것을 강력히 권장합니다.\n\nSpring AI 2.0이 새롭게 출시되었으며 시맨틱 캐싱 지원과 도구 호출 기능을 포함한 에이전트 아키텍처 구현이 가능해졌습니다. 또한 개발 도구 측면에서는 Visual Studio Code와 Eclipse 환경을 개선한 Spring Tools 5.2.0이 배포되었습니다.\n\n기타 주요 소프트웨어 업데이트는 다음과 같습니다. Spring Cloud 2025.0.3 및 2025.1.2를 비롯하여 Spring Batch, Spring Security, Spring Data 등 Spring 생태계 전반에 걸친 보안 패치와 기능 개선이 포함된 다수의 버전이 릴리스되었습니다. 특히 Spring Security의 최신 릴리스에는 중요한 CVE 수정 사항이 반영되어 있어 보안 업데이트가 요구됩니다.\n\n추가로 A Bootiful Podcast를 통해 Spring Security 리드인 Rob Winch와의 인터뷰가 공개되었으며, 인도 투어를 진행 중인 Spring 팀의 소식도 함께 전해졌습니다. 상세한 변경 사항과 각 버전별 세부 정보는 각 공식 프로젝트 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://isocpp.org//blog/2026/06/new-features-in-gcc-16-improved-error-messages-and-sarif-output-david-malco",
     "title": "New features in GCC 16: Improved error messages and SARIF output -- David Malcolm",
     "summary": "GCC 16 is about to be released, so I'm sharing some of the new features I worked on this year. Some changes are visible to users, while others improve the system more subtly.\nNew features in GCC 16: I",
@@ -460,6 +492,21 @@
     "tags": [
       "MySQL",
       "Database"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
+    "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
+    "aiSummary": "과거 6년 전 진행했던 Java와 Go 마이크로서비스의 성능 비교 연구가 2026년 기준의 현대적인 런타임과 하드웨어를 바탕으로 다시 수행되었습니다. 이번 연구는 단순히 특정 언어의 우위를 가리는 것이 아니라 페이로드 크기와 동시성이 증가하는 환경에서 각 언어가 어떤 성능을 보이는지 심층적으로 분석하였습니다. 모든 벤치마크 코드와 상세 결과 데이터는 관련 저장소를 통해 공개되어 있으며, 정교하게 구현된 Java와 Go HTTP 서비스가 현대적인 환경에서 어느 정도의 성능 격차를 나타내는지 확인하는 데 초점을 맞추고 있습니다.",
+    "url": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mark Nelson",
+    "pubDate": "2026-06-15T00:00:00.000Z",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Java"
     ]
   },
   {
