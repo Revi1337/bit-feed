@@ -19,7 +19,7 @@
     </div>
 
     <!-- Body -->
-    <div class="p-lg overflow-y-auto">
+    <div class="p-lg overflow-y-auto hide-scrollbar">
       <slot />
     </div>
 
@@ -161,5 +161,16 @@ const handleBackdropClick = (e) => {
   .modal-dialog[open]::backdrop {
     opacity: 0;
   }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 </style>
