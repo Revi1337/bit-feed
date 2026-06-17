@@ -725,14 +725,15 @@
     "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
     "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
     "url": "https://bun.sh/blog/bun-v1.3.10",
-    "category": "백엔드",
+    "category": "웹 생태계 & 브라우저",
     "source": "Bun Blog",
     "author": "Bun Team",
     "pubDate": "2026-06-15T15:17:23.289Z",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
       "Bun",
-      "Runtime"
+      "Runtime",
+      "Build Tool"
     ]
   },
   {
@@ -741,14 +742,15 @@
     "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
     "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
     "url": "https://bun.sh/blog/bun-v1.3.11",
-    "category": "백엔드",
+    "category": "웹 생태계 & 브라우저",
     "source": "Bun Blog",
     "author": "Bun Team",
     "pubDate": "2026-06-15T15:17:23.078Z",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
       "Bun",
-      "Runtime"
+      "Runtime",
+      "Build Tool"
     ]
   },
   {
@@ -757,14 +759,15 @@
     "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
     "aiSummary": "Bun v1.3.12 버전이 출시되었습니다. 해당 업데이트에는 기존 Bun 환경의 설치 및 관리를 지원하는 명령어들이 포함되어 있습니다.\n\nmacOS와 Linux 환경에서는 curl 또는 npm을 사용하여 Bun을 설치할 수 있습니다. Windows 사용자의 경우 PowerShell이나 scoop을 통해 간편하게 설치가 가능하며 Homebrew를 이용한 설치 방식도 지원합니다. Docker를 활용한 환경 구성 또한 가능하도록 다양한 설치 경로를 제공합니다.",
     "url": "https://bun.sh/blog/bun-v1.3.12",
-    "category": "백엔드",
+    "category": "웹 생태계 & 브라우저",
     "source": "Bun Blog",
     "author": "Bun Team",
     "pubDate": "2026-06-15T15:17:22.869Z",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
       "Bun",
-      "Runtime"
+      "Runtime",
+      "Build Tool"
     ]
   },
   {
@@ -773,14 +776,15 @@
     "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
     "aiSummary": "Bun v1.3.13 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용하면 됩니다. macOS나 Linux 환경에서는 curl 또는 brew를 이용할 수 있으며 npm이나 docker를 통한 설치도 지원합니다. Windows 사용자는 PowerShell이나 scoop 명령어를 통해 Bun을 설치할 수 있습니다. 각 환경별로 최적화된 설치 방법을 제공하여 사용자의 접근성을 높였습니다.",
     "url": "https://bun.sh/blog/bun-v1.3.13",
-    "category": "백엔드",
+    "category": "웹 생태계 & 브라우저",
     "source": "Bun Blog",
     "author": "Bun Team",
     "pubDate": "2026-06-15T15:17:22.668Z",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
       "Bun",
-      "Runtime"
+      "Runtime",
+      "Build Tool"
     ]
   },
   {
@@ -789,14 +793,15 @@
     "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
     "aiSummary": "Bun v1.3.14 버전이 출시되었습니다. 해당 업데이트는 기존 사용자가 최신 환경으로 전환하거나 신규 사용자가 Bun을 설치할 수 있도록 다양한 운영체제 및 패키지 관리자를 위한 설치 명령어를 제공합니다. macOS와 Linux 환경에서는 curl 및 npm을 통해 설치가 가능하며 Windows 사용자를 위한 PowerShell 명령어와 scoop 명령어도 지원합니다. 또한 Docker 환경에서의 설치 방법도 함께 명시되어 있습니다.",
     "url": "https://bun.sh/blog/bun-v1.3.14",
-    "category": "백엔드",
+    "category": "웹 생태계 & 브라우저",
     "source": "Bun Blog",
     "author": "Bun Team",
     "pubDate": "2026-06-15T15:17:22.371Z",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
       "Bun",
-      "Runtime"
+      "Runtime",
+      "Build Tool"
     ]
   },
   {

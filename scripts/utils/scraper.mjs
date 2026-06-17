@@ -354,8 +354,8 @@ export async function scrapeBunNews(existingMap, runTime) {
       
       news.push({
         id, title, summary: content.slice(0, 200), aiSummary: '', cleanContent: content.slice(0, 3000),
-        url, category: '백엔드', source: 'Bun Blog', author: 'Bun Team',
-        pubDate, fetchedAt: runTime, tags: ['Bun', 'Runtime']
+        url, category: '웹 생태계 & 브라우저', source: 'Bun Blog', author: 'Bun Team',
+        pubDate, fetchedAt: runTime, tags: ['Bun', 'Runtime', 'Build Tool']
       });
     }
   } catch (error) { console.error(`[ERROR] Failed to scrape Bun:`, error.message); }
