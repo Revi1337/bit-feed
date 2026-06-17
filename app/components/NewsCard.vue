@@ -50,10 +50,10 @@ const isNew = (dateString) => {
   const d = new Date(dateString)
   const today = new Date()
   
-  // 시간/분/초 무시, 오직 'UTC 기준 연, 월, 일' 날짜만 비교 (화면 텍스트와 완벽 동기화)
-  return d.getUTCDate() === today.getUTCDate() &&
-         d.getUTCMonth() === today.getUTCMonth() &&
-         d.getUTCFullYear() === today.getUTCFullYear()
+  // 카드에 찍히는 날짜(UTC 기준 연/월/일)와 유저의 실제 달력 날짜(로컬 연/월/일)가 완벽히 일치할 때만 new 표시
+  return d.getUTCDate() === today.getDate() &&
+         d.getUTCMonth() === today.getMonth() &&
+         d.getUTCFullYear() === today.getFullYear()
 }
 
 const formatDate = (dateString) => {
