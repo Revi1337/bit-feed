@@ -50,10 +50,10 @@ const isNew = (dateString) => {
   const d = new Date(dateString)
   const today = new Date()
   
-  // 시간/분/초는 완전히 무시하고 오직 유저 로컬의 '연, 월, 일' 달력 날짜만 비교
-  return d.getDate() === today.getDate() &&
-         d.getMonth() === today.getMonth() &&
-         d.getFullYear() === today.getFullYear()
+  // 시간/분/초 무시, 오직 'UTC 기준 연, 월, 일' 날짜만 비교 (화면 텍스트와 완벽 동기화)
+  return d.getUTCDate() === today.getUTCDate() &&
+         d.getUTCMonth() === today.getUTCMonth() &&
+         d.getUTCFullYear() === today.getUTCFullYear()
 }
 
 const formatDate = (dateString) => {
