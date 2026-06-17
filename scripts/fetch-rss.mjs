@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import * as dotenv from 'dotenv';
 import { FEEDS } from './config/feeds.mjs';
-import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews } from './utils/scraper.mjs';
+import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews, scrapeCursorNews, scrapeSublimeNews } from './utils/scraper.mjs';
 import { processAiSummaries } from './utils/ai.mjs';
 
 dotenv.config();
@@ -29,7 +29,9 @@ async function fetchAllFeeds() {
     scrapeDeepSeekNews(existingMap, runTime),
     scrapeViteNews(existingMap, runTime),
     scrapeBabelNews(existingMap, runTime),
-    scrapeBunNews(existingMap, runTime)
+    scrapeBunNews(existingMap, runTime),
+    scrapeCursorNews(existingMap, runTime),
+    scrapeSublimeNews(existingMap, runTime)
   ]);
 
   const newLatestNews = results.flat();

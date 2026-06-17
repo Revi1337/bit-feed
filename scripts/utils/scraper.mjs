@@ -361,3 +361,98 @@ export async function scrapeBunNews(existingMap, runTime) {
   } catch (error) { console.error(`[ERROR] Failed to scrape Bun:`, error.message); }
   return news;
 }
+
+export async function scrapeCursorNews(existingMap, runTime) {
+  const news = [];
+  try {
+    console.log(`Scraping Cursor News...`);
+    const res = await fetch('https://www.cursor.com/changelog');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    
+    const articles = doc.querySelectorAll('article');
+    const uniqueUrls = new Set();
+    const items = [];
+    for (const article of articles) {
+      const link = article.querySelector('h1 a');
+      if (!link) continue;
+      const url = `https://www.cursor.com${link.getAttribute('href')}`;
+      if (uniqueUrls.has(url)) continue;
+      uniqueUrls.add(url);
+      items.push({ article, url, title: link.textContent.trim() });
+    }
+
+    for (const item of items.slice(0, 5)) {
+      const { article, url, title } = item;
+      const id = url;
+      if (existingMap.has(id)) continue;
+      
+      const timeEl = article.querySelector('time');
+      let pubDate = runTime;
+      if (timeEl) {
+        const dt = timeEl.getAttribute('dateTime') || timeEl.getAttribute('datetime');
+        if (dt) {
+          const parsed = new Date(dt);
+          if (!isNaN(parsed.getTime())) pubDate = parsed.toISOString();
+        }
+      }
+      
+      const content = article.textContent.trim();
+      
+      news.push({
+        id, title, summary: content.slice(0, 200), aiSummary: '', cleanContent: content.slice(0, 3000),
+        url, category: 'IDE & 개발 도구', source: 'Cursor Changelog', author: 'Cursor Team',
+        pubDate, fetchedAt: runTime, tags: ['Cursor', 'Editor']
+      });
+    }
+  } catch (error) { console.error(`[ERROR] Failed to scrape Cursor:`, error.message); }
+  return news;
+}
+
+export async function scrapeSublimeNews(existingMap, runTime) {
+  const news = [];
+  try {
+    console.log(`Scraping Sublime Text News...`);
+    const res = await fetch('https://www.sublimetext.com/blog');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    
+    const links = doc.querySelectorAll('.post h2 a, article h2 a');
+    
+    const uniqueUrls = new Set();
+    const items = [];
+    for (const a of links) {
+      if (uniqueUrls.has(a.href)) continue;
+      uniqueUrls.add(a.href);
+      items.push(a);
+    }
+
+    for (const a of items.slice(0, 5)) {
+      const url = `https://www.sublimetext.com${a.href}`;
+      const title = a.textContent.trim();
+      const id = url;
+      if (existingMap.has(id)) continue;
+      
+      const content = await fetchAndExtractArticle(url);
+      if (!content) continue;
+      
+      const dateEl = a.closest('article, .post')?.querySelector('.date, time');
+      let pubDate = runTime;
+      if (dateEl) {
+        const parsed = new Date(dateEl.getAttribute('datetime') || dateEl.textContent.trim());
+        if (!isNaN(parsed.getTime())) pubDate = parsed.toISOString();
+      }
+      
+      news.push({
+        id, title, summary: content.slice(0, 200), aiSummary: '', cleanContent: content.slice(0, 3000),
+        url, category: 'IDE & 개발 도구', source: 'Sublime Text Blog', author: 'Sublime HQ',
+        pubDate, fetchedAt: runTime, tags: ['Sublime Text', 'Editor']
+      });
+    }
+  } catch (error) { console.error(`[ERROR] Failed to scrape Sublime Text:`, error.message); }
+  return news;
+}

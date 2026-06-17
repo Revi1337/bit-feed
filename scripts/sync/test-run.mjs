@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import * as dotenv from 'dotenv';
 import { FEEDS } from '../config/feeds.mjs';
-import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews } from '../utils/scraper.mjs';
+import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews, scrapeCursorNews, scrapeSublimeNews } from '../utils/scraper.mjs';
 import { processAiSummaries } from '../utils/ai.mjs';
 
 dotenv.config();
@@ -50,14 +50,22 @@ async function main() {
   const viteResults = await scrapeViteNews(existingMap, runTime);
   const babelResults = await scrapeBabelNews(existingMap, runTime);
   const bunResults = await scrapeBunNews(existingMap, runTime);
+  const cursorResults = await scrapeCursorNews(existingMap, runTime);
+  const sublimeResults = await scrapeSublimeNews(existingMap, runTime);
 
-  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults, ...viteResults, ...babelResults, ...bunResults];
+  const newLatestNews = [...rssResults, ...anthropicResults, ...deepseekResults, ...viteResults, ...babelResults, ...bunResults, ...cursorResults, ...sublimeResults];
 
   console.log(`\n[임시 테스트] 수집 완료! 총 ${newLatestNews.length}개의 기사를 메모리(newLatestNews)에 보관했습니다.`);
   console.log(`[임시 테스트] 2. ai.mjs 로 넘겨서 요약 시작 (10개 단위로 temp.json에 중간 저장) \n`);
 
   // 최종 저장(4단계) 코드는 제외하고 딱 3단계까지만 실행
   await processAiSummaries(newLatestNews, tempPath);
+  
+  // 클린업(원문 제거) 처리
+  newLatestNews.forEach(item => delete item.cleanContent);
+  
+  // 클린업된 최종 결과를 temp.json에 한 번 더 덮어쓰기
+  await fs.writeFile(tempPath, JSON.stringify(newLatestNews, null, 2), 'utf-8');
 
   console.log('\n[임시 테스트] AI 요약 및 중간 저장 단계까지 완료되었습니다! 스크립트를 종료합니다.');
   process.exit(0);

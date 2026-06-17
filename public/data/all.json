@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_125",
+    "title": "Visual Studio Code 1.125",
+    "summary": "Learn what's new in Visual Studio Code 1.125\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.125 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 추가된 다양한 신기능과 개선 사항을 확인할 수 있으며 자세한 변경 내용은 공식 블로그의 전체 기사를 통해 살펴볼 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_125",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-17T17:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49970",
+    "title": "Security advisory: CVE-2026-9740 and CVE-2026-11933 in Percona Server for MongoDB",
+    "summary": "TL;DR: This advisory covers the two most important high-severity memory-safety vulnerabilities affecting MongoDB Community and our downstream Percona Server for MongoDB – CVE-2026-11933 and CVE-2026-9",
+    "aiSummary": "Percona는 MongoDB Community 및 자사가 제공하는 Percona Server for MongoDB에서 발견된 두 가지 고위험 메모리 안전 취약점인 CVE-2026-11933과 CVE-2026-9740에 대한 보안 권고를 발표했습니다.\n\n이번 조치에는 해당 고위험 취약점들을 포함하여 CVE-2026-9753, CVE-2026-9752, CVE-2026-9751, CVE-2026-9750, CVE-2026-9749, CVE-2026-9748, CVE-2026-9747, CVE-2026-9746, CVE-2026-9743, CVE-2026-9741 등 최근 확인된 다수의 취약점들을 해결하기 위한 패치가 포함됩니다.\n\n사용자는 보안 강화를 위해 통합 패치 릴리스가 제공되는 대로 시스템을 업데이트해야 합니다.",
+    "url": "https://www.percona.com/blog/security-advisory-cve-2026-9740-and-cve-2026-11933-in-percona-server-for-mongodb/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Radoslaw Szulgo",
+    "pubDate": "Wed, 17 Jun 2026 14:24:02 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/how-we-cached-laravel-news-at-the-edge-with-fast-laravel",
+    "title": "How We Cached Laravel News at the Edge with Fast Laravel",
+    "summary": "Jason McCreary joined the Laravel Creator Series to walk through how we used his Fast Laravel practices and Cloudflare to cache Laravel News, a high-traffic site whose content changes all day.\nThe pos",
+    "aiSummary": "Jason McCreary는 Laravel Creator Series에 출연하여 Fast Laravel의 방법론과 Cloudflare를 결합해 높은 트래픽이 발생하는 Laravel News 사이트를 엣지에서 캐싱하는 전략을 공유했습니다.\n\n해당 사이트는 실시간으로 콘텐츠가 변화하는 특성을 가지고 있으나, Fast Laravel 기법을 통해 효율적인 캐싱 환경을 구축함으로써 성능을 최적화했습니다. 이는 동적인 콘텐츠가 많은 웹사이트에서 성능과 확장성을 동시에 확보하는 구체적인 실무 사례를 제시합니다.",
+    "url": "https://laravel-news.com/how-we-cached-laravel-news-at-the-edge-with-fast-laravel?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Wed, 17 Jun 2026 14:11:48 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jun/17/announcing-the-search-for-a-dsf-executive-director/",
+    "title": "Announcing the Search for a DSF Executive Director",
+    "summary": "The Django Software Foundation is hiring its first Executive Director, and we have the Django community to thank for making it possible.\nSix Django web development agencies have jointly pledged $47,50",
+    "aiSummary": "DSF는 재단 운영의 전문성과 지속 가능성을 강화하기 위해 최초로 Executive Director를 채용하기로 결정했습니다. 그동안 자원봉사 형태의 이사회가 운영해 온 재단 업무의 한계를 극복하고, 재단 운영 및 관리, 파트너십 개발, 커뮤니티 소통 등 전반적인 업무를 전담할 전문가를 영입하려는 목적입니다.\n\n이번 채용은 Caktus Group, Lincoln Loop, Six Feet Up, Cuttlesoft, OddBird, Two Rock 등 6개 Django 전문 기업이 총 47,500달러를 공동 후원함으로써 본격화되었습니다. 이들 기업은 Django 생태계의 장기적인 안정성을 확보하고, 프레임워크의 지속적인 발전을 위해 재단에 상근 인력이 필요하다는 점에 뜻을 모았습니다.\n\nDSF는 이번 채용을 시작으로 연간 모금 목표액을 기존 30만 달러에서 50만 달러로 상향 조정하며, 인건비와 재단 운영 비용을 안정적으로 확보하기 위해 추가적인 기업과 커뮤니티 구성원들의 후원을 독려하고 있습니다. \n\n현재 채용 절차를 공식화하고 있으며, 향후 수주 내에 DSF 공식 블로그와 포럼, Discord 등 다양한 채널을 통해 채용 공고를 게시할 예정입니다. 이번 결정은 Django 생태계가 단순한 프레임워크를 넘어 더욱 견고하고 신뢰할 수 있는 기반으로 성장하기 위한 중요한 전환점이 될 것으로 기대됩니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jun/17/announcing-the-search-for-a-dsf-executive-director/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "Wed, 17 Jun 2026 08:00:00 -0500",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=junie&p=713100",
+    "title": "Junie: The JetBrains AI Coding Agent Leaves Beta.",
+    "summary": "Junie started as an experiment. We asked, “What if an AI coding agent didn’t just guess at the details of your project, but actually used the same tools you do?” Over the last year, that experiment tu",
+    "aiSummary": "JetBrains가 자사의 AI 코딩 에이전트인 Junie의 베타 서비스를 종료하고 공식 출시를 발표하였습니다.\n\nJunie는 단순히 프로젝트의 세부 사항을 추측하는 기존의 방식에서 벗어나 개발자가 실제 사용하는 도구를 직접 활용하며 IDE와 터미널 환경에서 통합적으로 작동하도록 설계되었습니다.\n\n지난 1년 동안 실험적인 프로젝트로 시작되었던 Junie는 이제 일상적인 개발 업무를 보조하는 실제 제품으로 거듭났습니다. 개발자는 Junie를 통해 보다 실질적이고 효율적인 코드 작성 및 프로젝트 관리 경험을 누릴 수 있게 되었습니다.",
+    "url": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitry Savelev",
+    "pubDate": "Wed, 17 Jun 2026 09:07:19 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=research&p=713201",
+    "title": "Step Rejection Fine-Tuning: Squeezing More Signal from Noisy Agent Trajectories",
+    "summary": "If you want to dive straight into the technical details, you can read our full paper here. Imagine you are mentoring a junior developer. If they make a single logical error on line 42 of a 100-line sc",
+    "aiSummary": "Step Rejection Fine-Tuning은 에이전트 학습 과정에서 발생하는 전체 데이터가 아닌 특정 오류 지점만을 선별적으로 학습하는 새로운 최적화 기법입니다.\n\n기존의 학습 방식은 에이전트가 긴 작업 수행 중 마지막 단계에서 실패할 경우 전체 과정을 실패로 간주하여 데이터의 효율성을 떨어뜨리는 문제가 있었습니다. 반면 이 기법은 에이전트가 올바른 결정을 내린 단계는 보존하고 오류가 발생한 지점만을 거부하거나 수정하도록 모델을 학습시킵니다.\n\n이러한 접근은 모델이 전체 흐름을 포기하지 않고 특정 단계에서의 논리적 오류를 스스로 교정하게 함으로써 학습 데이터의 노이즈를 줄이고 효율적인 성능 향상을 이끌어냅니다. 결과적으로 복잡한 작업에서 에이전트의 문제 해결 능력을 비약적으로 높일 수 있습니다.",
+    "url": "https://blog.jetbrains.com/research/2026/06/step-rejection-fine-tuning/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Igor Slinko",
+    "pubDate": "Wed, 17 Jun 2026 08:57:24 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
     "title": "How growing UK midsize businesses are building in the AI era",
     "summary": "The UK’s 5-million-plus small and midsize businesses and enterprises (SMBs) are the backbone of our economy. Today, we’re seeing these critical businesses begin to put AI to work, to operate more effi",
@@ -61,6 +157,38 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-16-0",
+    "title": "The artisan dev Command in Laravel 13.16.0",
+    "summary": "Laravel 13.16.0 adds an artisan dev command for running development processes, a whenFilledEnum request method, withCookies on all responses, and an array maintenance mode driver for parallel testing.",
+    "aiSummary": "Laravel 13.16.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 개발 프로세스를 효율적으로 실행하기 위한 artisan dev 명령어가 추가된 점입니다.\n\n또한 요청 데이터 처리를 위한 whenFilledEnum 메서드가 도입되었으며 모든 응답에 적용할 수 있는 withCookies 기능이 추가되었습니다. 이와 더불어 병렬 테스트를 원활하게 지원하기 위한 array 형태의 유지보수 모드 드라이버가 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-16-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Wed, 17 Jun 2026 04:33:02 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "title": "Improving token efficiency in GitHub Copilot",
+    "summary": "Learn how we're improving token efficiency in GitHub Copilot to reduce costs and latency for users.\nRead the full article",
+    "aiSummary": "GitHub Copilot은 사용자에게 제공하는 서비스의 비용을 절감하고 응답 속도를 개선하기 위해 토큰 효율성을 향상하는 작업을 진행하고 있습니다. 이번 최적화는 AI 모델이 처리하는 데이터 양을 효율적으로 관리하여 전반적인 성능을 높이는 데 중점을 둡니다. 이를 통해 개발자는 더 빠르고 경제적으로 GitHub Copilot의 기능을 활용할 수 있게 될 전망입니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Ryan Caldwell, Bhavya U",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -837,6 +965,22 @@
     ]
   },
   {
+    "id": "https://blog.jetbrains.com/?post_type=qodana&p=712838",
+    "title": "Opinion: The Anthropic Dispute Is Not Really About Anthropic. It’s About Trust.",
+    "summary": "When the US government effectively forced Anthropic to suspend access to some of its newest AI models over security concerns (Fable 5, Mythos 5), much of the debate immediately split into familiar cam",
+    "aiSummary": "미국 정부가 보안상의 우려를 이유로 Anthropic의 최신 AI 모델인 Fable 5와 Mythos 5에 대한 접근을 제한하면서 기술 업계 내 찬반 논란이 거세지고 있습니다. 일각에서는 정부의 과도한 개입이라고 주장하는 반면, 다른 한편에서는 잠재적 위험을 방지하기 위한 필수적인 조치라고 평가하고 있습니다.\n\n이번 사태의 핵심은 단순히 Anthropic이라는 특정 기업에 대한 규제 차원을 넘어섭니다. 본질적인 문제는 급격히 발전하는 AI 기술과 이를 통제하려는 정부 사이의 신뢰 관계입니다. AI 모델의 안전성과 투명성에 대한 기준이 명확하지 않은 상황에서 정부가 실력 행사에 나선 것은 기술 기업에 대한 불신이 극에 달했음을 방증합니다.\n\n결국 이 사건은 앞으로 AI 개발사와 정부 기관이 기술의 안전성을 어떻게 검증하고 신뢰를 구축할 것인지에 대한 근본적인 과제를 던져주고 있습니다. 명확한 가이드라인 없는 규제는 혁신을 저해할 수 있고, 반대로 검증 없는 기술 배포는 사회적 혼란을 야기할 수 있으므로 양측의 보다 성숙한 협력적 접근이 요구됩니다.",
+    "url": "https://blog.jetbrains.com/qodana/2026/06/anthropic-suspension/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Kerry Beetge",
+    "pubDate": "Mon, 15 Jun 2026 12:10:43 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/subscriptionify",
     "title": "Subscriptionify: Feature-Based Subscription Management for Laravel",
     "summary": "Subscriptionify is a gateway-agnostic Laravel package for modeling plans, features, usage quotas, and optional overage billing without tying your application to a specific payment provider.\nThe post S",
@@ -1224,6 +1368,22 @@
     ]
   },
   {
+    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=712652",
+    "title": "dotInsights | June 2026",
+    "summary": "Did you know? The var keyword isn’t a keyword! It’s one of several “contextual” keywords in C#, and it only has special meaning when used to declare a variable. Try defining a class called var and see",
+    "aiSummary": "C#에서 var 키워드는 일반적인 예약어가 아니라 변수를 선언할 때만 특정 의미를 갖는 상황적 키워드입니다. 만약 코드베이스 내에 var라는 이름의 클래스를 정의하면 기존의 var 키워드 사용 방식에 혼란이 발생할 수 있습니다. JetBrains가 발행하는 dotInsights는 이처럼 C# 개발 환경에서 유용한 기술적 통찰과 정보를 제공하는 뉴스레터입니다.",
+    "url": "https://blog.jetbrains.com/dotnet/2026/06/12/dotinsights-june-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Matt Ellis",
+    "pubDate": "Fri, 12 Jun 2026 11:43:07 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://isocpp.org//blog/2026/06/the-voting-on-the-talks-for-meeting-cpp-2026-has-begun",
     "title": "The voting on the talks for Meeting C++ 2026 has begun!",
     "summary": "The yearly voting for the conference program of Meeting C++ has begun! You can vote on 118 talks until Sunday 21st.\nThe voting on the talks for Meeting C++ 2026 has begun!\nMeeting C++ 2026! Thanks to ",
@@ -1255,6 +1415,22 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=life-at-jetbrains&p=712524",
+    "title": "Inside JetPride: How JetBrains Employees Built an LGBTQIA+ Community",
+    "summary": "What makes a workplace feel welcoming? Sometimes it’s finding colleagues who share your interests. Sometimes it’s discovering people with similar experiences. Sometimes it’s knowing you can talk openl",
+    "aiSummary": "JetBrains는 모든 직원이 자신의 정체성을 숨기지 않고 자유롭게 소통하며 포용적인 환경에서 근무할 수 있도록 지원하는 사내 LGBTQIA+ 직원 리소스 그룹인 JetPride를 운영하고 있습니다.\n\nJetPride는 공통의 관심사와 경험을 공유하는 동료들을 연결하고 업무 공간 안에서 심리적 안전감을 제공하는 역할을 수행합니다. 이곳은 직원들이 일상적인 삶에 대해 편안하게 대화하고 서로의 관점을 나눌 수 있는 커뮤니티를 형성함으로써 구성원 간의 유대감을 강화하는 데 기여하고 있습니다.\n\n이러한 커뮤니티 활동은 JetBrains가 지향하는 다양성과 포용성을 바탕으로 한 조직 문화를 구축하는 핵심 요소 중 하나입니다. 결과적으로 JetPride는 구성원들이 업무 환경에서 온전한 자기 자신의 모습으로 존재할 수 있도록 돕는 중요한 지지 기반으로 자리 잡고 있습니다.",
+    "url": "https://blog.jetbrains.com/life-at-jetbrains/2026/06/inside-jetpride-how-jetbrains-employees-built-an-lgbtqia-community/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Grete Kivi",
+    "pubDate": "Fri, 12 Jun 2026 07:59:58 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
     ]
   },
   {
@@ -1927,6 +2103,22 @@
     ]
   },
   {
+    "id": "https://code.visualstudio.com/updates/v1_124",
+    "title": "Visual Studio Code 1.124",
+    "summary": "Learn what is new in Visual Studio Code 1.124\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.124 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 사용자 경험을 개선하고 다양한 기능이 추가되거나 향상되었습니다. 구체적인 변경 사항과 상세한 기술적 세부 정보는 Visual Studio Code 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_124",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-10T17:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
     "title": "DiffusionGemma: 4x faster text generation",
     "summary": "Jun 10, 2026\n          \n          \n            \n          \n        \n      \n        \n          Our newest open experimental model delivers up to 4x faster inference on dedicated GPUs and opens the door",
@@ -2116,6 +2308,22 @@
       "Redis",
       "NoSQL",
       "Cache"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/bugbot-updates-june-2026",
+    "title": "Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs",
+    "summary": "Jun 10, 2026 · ChangelogBugbot is now over 3x faster, 22% cheaper, and finds 10% more bugsThe average review time for Bugbot is now ~90 seconds, down from ~5 minutes. Bugbot also finds 10% more bugs p",
+    "aiSummary": "Bugbot이 Composer 2.5 모델을 도입하며 성능과 경제성을 크게 개선했습니다. 평균 검토 시간은 기존 5분에서 약 90초로 3배 이상 단축되었으며 비용은 약 22퍼센트 절감되었습니다. 또한 검토당 버그 발견율은 기존 0.56개에서 0.62개로 10퍼센트가량 증가했습니다.\n\n코드 푸시 이전에 실행할 수 있는 /review 기능을 통해 Bugbot과 Security Review를 활용할 수 있게 되었습니다. 해당 기능은 GitHub 및 GitLab과 연동되어 동일한 diff가 포함된 PR 생성 시 중복 검토를 방지하며 이미 검토된 내용임을 알리는 댓글을 자동으로 남깁니다.\n\n사용자는 Bugbot을 구성하여 마지막 검토 이후 변경된 코드만을 검토하도록 설정할 수 있어 피드백의 집중도를 높일 수 있습니다. 이러한 업데이트는 Cursor 3.7 버전 이상과 웹 페이지에서 즉시 이용 가능하며 추후 CLI에서도 지원될 예정입니다.",
+    "url": "https://www.cursor.com/changelog/bugbot-updates-june-2026",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-10T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -2719,6 +2927,22 @@
     ]
   },
   {
+    "id": "https://www.cursor.com/changelog/design-mode-improvements",
+    "title": "Design Mode Improvements",
+    "summary": "3.7 Jun 5, 2026 · ChangelogDesign Mode ImprovementsWith Design Mode in the Cursor browser, you can click, draw, or describe changes by voice to help agents update your UI.\n#Multi-select elements\nClick",
+    "aiSummary": "Cursor의 Design Mode가 업데이트되어 사용자는 브라우저 내에서 클릭, 드래그, 음성 명령을 통해 더욱 효율적으로 UI를 수정할 수 있게 되었습니다.\n\n멀티 셀렉트 기능을 활용하면 브라우저에서 여러 요소를 동시에 선택할 수 있으며, Cursor는 선택된 요소들의 코드와 주변 레이아웃, 시각적 관계를 종합적으로 파악합니다. 이를 통해 사용자는 여러 구성 요소를 한 번에 조정하거나 중복된 내용을 제거하고, 특정 요소를 다른 요소와 동일한 스타일로 맞추는 등의 작업을 수행할 수 있습니다.\n\n또한 Design Mode 오버레이에서 음성 입력 기능을 지원합니다. 에이전트가 작업을 수행하는 도중에도 마이크를 계속 사용할 수 있어, 이전 작업이 완료되기를 기다릴 필요 없이 음성으로 다음 변경 사항을 즉시 대기열에 추가할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/design-mode-improvements",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-05T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://www.php.net/archive/2026.php#2026-06-04-2",
     "title": "PHP 8.4.22 Released!",
     "summary": "The PHP development team announces the immediate availability of PHP 8.4.22. This is a bug fix release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.22 ",
@@ -2956,6 +3180,38 @@
     ]
   },
   {
+    "id": "https://www.cursor.com/changelog/sdk-updates-jun-2026",
+    "title": "Custom stores, custom tools, and auto-review for the Cursor SDK",
+    "summary": "Jun 4, 2026 · ChangelogCustom stores, custom tools, and auto-review for the Cursor SDKWe've shipped a batch of new functionality across the TypeScript and Python SDKs. You can now choose how agent and",
+    "aiSummary": "Cursor SDK가 TypeScript 및 Python 환경에서 다양한 기능을 추가하며 업데이트되었습니다.\n\n이번 업데이트의 핵심인 Custom tools 기능을 통해 별도의 MCP 서버를 구축하지 않고도 Agent.create나 send 함수를 통해 함수 정의만으로 에이전트에 자체 도구를 즉시 추가할 수 있습니다. 정의된 도구는 부모 에이전트의 모든 하위 에이전트에서 공유되며, 내장된 custom-user-tools MCP 서버를 통해 기존과 동일한 권한 체계 내에서 실행됩니다.\n\nAuto-review 기능은 헤드리스 환경에서 도구 호출을 자동으로 수행하는 대신, 자연어 지침을 기반으로 실행 여부를 판단하는 분류기를 도입했습니다. 개발자는 permissions.json 파일의 allow_instructions와 block_instructions 설정을 통해 읽기 전용 작업은 허용하고 삭제와 같은 파괴적인 작업은 사용자의 검토를 거치도록 제어할 수 있습니다.\n\n데이터 저장 방식도 유연해졌습니다. 기존의 SQLite 외에도 버전 관리가 용이한 JSONL 포맷을 선택할 수 있으며, LocalAgentStore 인터페이스를 직접 구현하여 메모리 기반 저장소나 Postgres 등 사용자 환경에 최적화된 맞춤형 저장소를 구성할 수 있습니다.\n\n또한 서브 에이전트가 스스로 하위 에이전트를 생성하는 중첩 구조가 지원되어 복잡한 작업 위임이 가능해졌습니다. 이와 함께 전반적인 안정성과 성능이 개선되어 프로덕션 스크립트나 CI 환경 및 커스텀 통합 작업에서의 활용성이 더욱 향상되었습니다.",
+    "url": "https://www.cursor.com/changelog/sdk-updates-jun-2026",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-04T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/canvas-improvements",
+    "title": "Canvas Design Mode and Context Usage Report",
+    "summary": "3.7 Jun 4, 2026 · ChangelogCanvas Design Mode and Context Usage ReportWith canvases, agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your t",
+    "aiSummary": "Cursor가 2026년 6월 4일 업데이트를 통해 Canvas 기능을 대폭 개선했습니다.\n\n새롭게 추가된 Design Mode는 사용자가 Canvas 내 UI 요소를 직접 선택하고 주석을 달아 편집을 지시할 수 있는 기능입니다. 이를 통해 텍스트로 수정 사항을 일일이 설명할 필요 없이 직관적이고 빠르게 피드백을 주고받으며 편집 과정을 반복할 수 있습니다.\n\n또한 Context usage report 기능이 도입되어 에이전트가 사용하는 토큰의 비중을 시스템 프롬프트, 도구 정의, 규칙 등 상세 항목별로 분석해 보여줍니다. 이 보고서는 Canvas 형태로 제공되므로 에이전트에게 추가 질문을 던져 분석 내용을 구체화할 수 있으며, Debug with Agent 버튼을 통해 컨텍스트 사용량을 최적화할 방법도 찾을 수 있습니다.\n\n그 외에도 공유된 Canvas를 브라우저에서 전체 화면으로 열 수 있는 기능, 에이전트가 특정 프롬프트를 실행하는 버튼을 Canvas 내부에 삽입하는 기능이 추가되었습니다. 더불어 Canvas 내 타입 에러 수정 능력, 컴포넌트 스타일링, 차트 커스터마이징 옵션도 전반적으로 향상되었습니다.",
+    "url": "https://www.cursor.com/changelog/canvas-improvements",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-04T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
     "id": "ffb6b5eaa7f07ef9c7f8b9dd92ccdd689e10d7ae",
     "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
     "summary": "Amazon Cognito now offers multi-Region replication that automatically synchronizes user data, credentials, and pool configurations to a secondary AWS Region, enabling uninterrupted authentication duri",
@@ -3007,6 +3263,22 @@
     ]
   },
   {
+    "id": "https://code.visualstudio.com/updates/v1_123",
+    "title": "Visual Studio Code 1.123",
+    "summary": "Learn what's new in Visual Studio Code 1.123\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.123 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 사용자 경험을 개선하고 생산성을 높이기 위한 다양한 기능들이 추가되었습니다. 상세한 변경 사항과 새롭게 적용된 기술적 개선점은 공식 홈페이지에 게시된 전체 문서를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_123",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-03T17:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://medium.com/p/c52bb83a4664",
     "title": "Announcing Angular v22",
     "summary": "Today, we are thrilled to announce the release of Angular v22. We continue to be proud of the work we do with each release. Our goal is to maintain a high quality stream of features and improvements t",
@@ -3054,6 +3326,22 @@
     "tags": [
       "Kotlin",
       "Android"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/enterprise-organizations",
+    "title": "Organizations for Cursor Enterprise",
+    "summary": "Jun 3, 2026 · ChangelogOrganizations for Cursor EnterpriseEnterprise customers can now manage multiple Cursor teams from one place, with different security, governance, budget, and feature controls fo",
+    "aiSummary": "Cursor가 Enterprise 고객을 대상으로 여러 팀을 통합 관리할 수 있는 Organizations 기능을 정식 출시했습니다. 이번 업데이트를 통해 기업은 최상위 계층인 Organization을 중심으로 부서나 지역별로 분리된 여러 팀을 체계적으로 운영할 수 있게 되었습니다.\n\nOrganization은 기업의 전체적인 관리와 회원 정보를 담는 컨테이너 역할을 수행하며 관리자는 이곳에서 전체 비용과 토큰 사용량을 한눈에 파악할 수 있습니다. 각 팀은 개별적인 보안 정책, 거버넌스, 예산 및 기능 설정을 독립적으로 적용받으며 사용자는 여러 팀에 동시에 소속되어 각기 다른 역할을 수행할 수 있습니다.\n\n새롭게 추가된 Groups 기능은 팀 단위보다 유연한 사용자 관리 체계를 제공합니다. 이를 활용하면 팀 경계와 상관없이 사용자 그룹을 구성하여 특정 모델 접근 권한이나 사용량 제한, 에이전트 권한을 효율적으로 제어할 수 있습니다. 만약 사용자가 여러 팀이나 그룹에 속해 있을 경우 가장 허용 범위가 넓은 권한 설정이 우선 적용됩니다.\n\n이외에도 Organization 단위의 IDP 관리와 상세한 사용량 분석 기능이 도입되었으며 대시보드, API, CSV 파일을 통해 관리자가 사용자를 팀 간에 손쉽게 이동시킬 수 있습니다. 신규 사용자가 팀에 합류할 경우 기존의 설정과 권한이 자동으로 계승되는 등 관리 효율성이 대폭 강화되었습니다.",
+    "url": "https://www.cursor.com/changelog/enterprise-organizations",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-03T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -3290,6 +3578,22 @@
       "Firebase",
       "NoSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_122",
+    "title": "Visual Studio Code 1.122",
+    "summary": "Learn what's new in Visual Studio Code 1.122\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.122 버전의 업데이트가 진행되었습니다. 이번 업데이트를 통해 추가된 새로운 기능과 개선 사항은 공식 웹사이트에 게시된 전체 문서를 통해 확인하실 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_122",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-05-28T17:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -5548,6 +5852,22 @@
     ]
   },
   {
+    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4200",
+    "title": "Sublime Text Build 4200 and Future Plugin Changes",
+    "summary": "Sublime Text 4, build 4200 is out now with some exciting new features,\nimprovements and fixes. We're also announcing some changes to the way\nplugins will be handled in the future:\n\nPhasing out Python ",
+    "aiSummary": "Sublime Text 4의 새로운 빌드 4200이 배포되었습니다. 이번 업데이트는 편집기의 성능 향상과 더불어 향후 플러그인 환경의 대대적인 변화를 예고합니다.\n\n가장 눈에 띄는 변화는 Python 버전의 점진적 교체입니다. 기존의 Python 3.3은 단계적으로 제거되어 2026년 1분기 이후 완전히 삭제될 예정이며, 현재는 disable_plugin_host_3.3 설정을 통해 모든 플러그인을 Python 3.8 환경에서 실행할 수 있습니다. 또한 향후 개발 주기에서는 Python 3.8을 3.13으로 업그레이드할 계획이며, 이를 위해 향후 약 5년 주기의 Python 업데이트 정책을 도입합니다. 이러한 기술적 전환에 따라 지원 운영체제 사양도 상향 조정되어, 최소 요구 사양은 macOS 10.13 이상, Windows 10 이상으로 변경됩니다.\n\n기능적으로는 사이드바 위치를 우측으로 옮길 수 있는 sidebar_on_right 설정이 추가되었고, 빌드 시스템에 interactive: true 옵션을 설정하여 프로그램 실행 중 직접 입력을 제공할 수 있게 되었습니다. 또한 10만 개 이상의 다중 커서 환경에서도 편집기가 원활하게 동작하도록 성능이 대폭 개선되었습니다.\n\n이 외에도 TOML 및 Zsh 구문 강조 기능이 기본 탑재되었으며, SQL, Bash 등 다양한 언어의 구문 강조가 개선되었습니다. Git 상태 확인 성능 향상과 더불어 명령줄 인자 전달 방식의 최적화, 새로운 API 추가 등 사용자 경험을 높이기 위한 다수의 변경 사항이 반영되었습니다. 상세한 수정 사항은 공식 전체 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4200",
+    "category": "IDE & 개발 도구",
+    "source": "Sublime Text Blog",
+    "author": "Sublime HQ",
+    "pubDate": "2025-05-20T15:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Sublime Text",
+      "Editor"
+    ]
+  },
+  {
     "id": "Compass: A starter kit for online courses",
     "title": "Compass: A starter kit for online courses",
     "summary": "I've been itching to get back into screencasting and teaching lately, and the natural first step was to build our own course platform. So we just released Compass, a Next.js starter kit for publishing",
@@ -5721,6 +6041,22 @@
     ]
   },
   {
+    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4189",
+    "title": "Sublime Text 4 Build 4189",
+    "summary": "Sublime Text 4, build 4189 is out now with lots of improvements and fixes.\n\nDownload Sublime Text 4\n\nFull Changelog\n\n\nVarious syntax highlighting improvements\nFixed file change detection not working f",
+    "aiSummary": "Sublime Text 4 Build 4189 버전이 새롭게 출시되었습니다. 이번 업데이트는 구문 강조 기능의 개선과 더불어 엔진 성능 최적화에 중점을 두었습니다. 특히 캐시 압축 성능을 크게 향상시키고 구문 강조에 사용되는 사용자 정의 정규식 엔진의 성능을 개선했으며 특정 조건에서 구문 엔진의 메모리 사용량을 줄였습니다. 또한 Git 저장소 스캔 성능과 테마 렌더링 속도도 개선되었습니다.\n\n기능 개선 및 버그 수정 사항도 다수 포함되었습니다. 탭 다중 선택을 위한 unselect_current 명령어가 추가되었고 탭 그룹이 닫힐 때 순서가 뒤바뀌는 현상이나 Goto Definition 기능에서 심볼 우선순위가 적용되지 않던 회귀 버그가 해결되었습니다. 또한 minihtml을 통해 인터넷 이미지를 불러올 수 있게 되었으며 구문 테스트 오류 메시지와 기능도 강화되었습니다.\n\nAPI 측면에서는 CompletionList.set_completions 스레드 안전성 확보와 View.find_all 내 특정 영역 검색 제한 기능이 추가되었고 대량의 완성 항목 처리 성능이 향상되었습니다. 플랫폼별 수정 사항으로는 Windows 환경에서 일부 백신 프로그램과의 충돌 문제를 해결하였고 Mac 환경에서 클립보드 업데이트 및 클릭 문제 등을 개선하였습니다.",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4189",
+    "category": "IDE & 개발 도구",
+    "source": "Sublime Text Blog",
+    "author": "Sublime HQ",
+    "pubDate": "2024-12-20T15:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Sublime Text",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://vite.dev/blog/announcing-vite6",
     "title": "Announcing Vite 6",
     "summary": "November 26, 2024Today, we're taking another big step in Vite's story. The Vite team, contributors, and ecosystem partners are excited to announce the release of Vite 6.It has been an eventful year. V",
@@ -5789,6 +6125,22 @@
     ]
   },
   {
+    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4180",
+    "title": "Sublime Text 4 Build 4180",
+    "summary": "August 12, 2024\n\tby\n\t\n\tAll Posts\n\n\n\n\t\n\nSublime Text 4, build 4180 is out now with lots of improvements and fixes.\n\nDownload Sublime Text 4\n\nFull Changelog\n\n\nVarious syntax highlighting improvements\nNe",
+    "aiSummary": "Sublime Text 4의 새로운 빌드인 4180 버전이 출시되었습니다. 이번 업데이트는 다양한 플랫폼별 기능 개선과 사용자 편의성을 높이는 기능들을 포함하고 있습니다.\n\nLinux 사용자를 위해 Wayland 환경에서의 키네틱 스크롤 지원 및 xdg-activation 프로토콜 구현이 이루어졌으며, 탭 드래그와 관련된 충돌 및 오류가 수정되었습니다. 또한 KDE 환경에서 캐럿이 고정되는 문제에 대한 보완책이 추가되었습니다.\n\nWindows 환경에서는 스크롤바 드래그 시 스크롤 초기화 동작이 구현되었으며, 텍스트 복사 시 발생하는 널 문자 누락 문제와 사용자 정의 상단 메뉴 테마가 적용되지 않던 현상을 해결하였습니다.\n\nMac 버전에서는 휴지통으로 이동한 파일에 대해 원위치 복구 기능을 지원하며, 창 경계 드래그 및 플러그인 보안 권한 설정과 관련된 이슈들이 개선되었습니다.\n\n공통적으로는 대용량 파일 편집 시 메모리 사용량이 감소하였고, 이미지 파일 처리를 위한 별도의 설정 및 컨텍스트 메뉴가 추가되었습니다. 또한 Python docstrings에서의 선택 영역 확장 기능 개선, goto_anything_file_preview 설정 추가, UTF-16 시퀀스 처리 강화 등 전반적인 편집기 안정성과 사용성이 향상되었습니다. \n\n그 외에도 Find 기능의 이력 중복 제거, 탭 드래그 시 혼합 DPI 설정 환경에서의 정렬 문제 수정 등 다수의 버그 수정과 성능 최적화가 이루어졌습니다.",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4180",
+    "category": "IDE & 개발 도구",
+    "source": "Sublime Text Blog",
+    "author": "Sublime HQ",
+    "pubDate": "2024-08-11T15:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Sublime Text",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/observability-security-strengthen-business",
     "title": "How can unifying observability and security strengthen your business?",
     "summary": "Incorporating a unified observability and security platform enhanced by AI and ML is not just a technical upgrade; it's a strategic imperative. By adopting this approach, organizations can ensure a re",
@@ -5850,6 +6202,38 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "Vue"
+    ]
+  },
+  {
+    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4166",
+    "title": "Sublime Text 4 Build 4166",
+    "summary": "November 24, 2023\n\tby\n\t\n\tAll Posts\n\n\n\n\tFull Changelog\n\n\nVarious syntax highlighting improvements\nIndex collation is now done incrementally\nFixed an issue where animations were causing excessive redraw",
+    "aiSummary": "Sublime Text 4 Build 4166 업데이트는 전반적인 성능 개선과 다수의 버그 수정을 포함합니다.\n\n구문 강조 기능이 향상되었고 인덱스 대조 작업이 점진적으로 처리되도록 변경되었으며 애니메이션으로 인한 과도한 화면 다시 그리기 문제가 해결되었습니다. 사용자 편의를 위해 마우스 바인딩 설정이 Preferences 메뉴에 추가되었고 글꼴 선택 기능과 사이드바의 경로 복사 기능이 새롭게 도입되었습니다.\n\n자동 완성 기능에서 현재 줄의 토큰을 제대로 제안하지 못하던 문제가 수정되었고 파일 찾기 기능의 긴 줄 처리와 줄 번호 정렬 등 세부적인 동작이 개선되었습니다. 또한 OpenSSL은 1.1.1v 버전으로 업데이트되었으며 북마크 전환과 정의 팝업의 성능이 최적화되었습니다.\n\nAPI 측면에서는 새로운 폰트 선택 대화 상자가 추가되었고 ListInputHandler의 초기 선택 지원 강화와 각종 API 호출 안정성 문제가 해결되었습니다.\n\n운영체제별 특화 수정 사항으로는 Linux의 전체 화면 상태 추적 및 메모리 누수 해결, Windows의 CRLF 드래그 앤 드롭 지원 및 폰트 렌더링 오류 수정, Mac의 창 계단식 배치 구현과 복사 기능 오류 수정 등이 포함되어 전반적인 편집 환경의 안정성을 높였습니다.",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4166",
+    "category": "IDE & 개발 도구",
+    "source": "Sublime Text Blog",
+    "author": "Sublime HQ",
+    "pubDate": "2023-11-23T15:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Sublime Text",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4151",
+    "title": "Sublime Text 4 Build 4151",
+    "summary": "August 2, 2023\n\tby\n\t\n\tAll Posts\n\n\n\n\tFull Changelog\n\n\nVarious syntax highlighting improvements\nAdded \"fold_style\" setting for controlling syntax-based code folding\nLast tab in a group can now be select",
+    "aiSummary": "Sublime Text 4 Build 4151 버전이 공개되었습니다. 이번 업데이트는 다양한 기능 개선과 버그 수정을 포함하고 있습니다.\n\n주요 변경 사항으로 WebP 이미지 형식에 대한 지원이 추가되었습니다. 코드 편집과 관련해서는 fold_style 설정이 추가되어 문법 기반의 코드 접기 방식을 제어할 수 있게 되었으며, split view 사용 시 기존 뷰포트 위치가 유지되도록 개선되었습니다. 또한, Windows와 Linux에서는 alt+9, Mac에서는 cmd+9 단축키를 통해 그룹 내 마지막 탭을 선택할 수 있는 기능이 도입되었습니다. 창 제목을 통해 관리자 권한 실행 여부를 확인할 수 있으며, 들여쓰기 감지 및 텍스트 줄바꿈 시 캐럿 위치 등 편집 편의성도 향상되었습니다.\n\nFind in Files 기능이 대폭 보강되었습니다. 탭 다중 선택을 위한 수정자 키 지원, 검색 결과 순서 오류 수정, 경로 인용문 지원 등이 포함되었습니다. 또한, find_in_files_suppress_errors, find_in_files_context_lines, find_in_files_side_by_side 등 세밀한 설정을 위한 옵션들이 추가되어 검색 작업의 효율성이 높아졌습니다.\n\n구문 강조 기능에서는 백트래킹과 관련된 성능 문제를 해결하고 렌더링 오류를 수정하여 안정성을 높였습니다. 그 외에도 사이드바의 Git 상태 표시 오류, 메모리 사용량 이슈, 각종 UI 렌더링 오류 등 전반적인 사용자 경험을 저해하던 요소들이 다수 수정되었습니다. API 및 매크로와 관련된 오류들도 해결되어 전반적으로 더욱 안정적인 개발 환경을 제공합니다.",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4151",
+    "category": "IDE & 개발 도구",
+    "source": "Sublime Text Blog",
+    "author": "Sublime HQ",
+    "pubDate": "2023-08-01T15:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Sublime Text",
+      "Editor"
     ]
   },
   {

@@ -71,4 +71,12 @@ export async function processAiSummaries(newLatestNews, latestPath) {
     }
     await sleep(4100); // Strict 4.1s delay to perfectly align with 15 requests per minute limit
   })));
+
+  // 루프가 끝난 뒤, 10으로 나누어 떨어지지 않아 미처 저장되지 못한 잔여 요약본 최종 저장
+  if (completed > 0 && completed % 10 !== 0) {
+    console.log(`Saving final ${completed % 10} remaining summaries...`);
+    const tempNews = [...newLatestNews];
+    tempNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    await fs.writeFile(latestPath, JSON.stringify(tempNews, null, 2), 'utf-8');
+  }
 }

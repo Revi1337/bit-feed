@@ -64,5 +64,9 @@ export const FEEDS = [
   // 7. 웹 생태계 & 브라우저
   { name: 'V8 JavaScript Engine', url: 'https://v8.dev/blog.atom', category: '웹 생태계 & 브라우저', tags: ['V8', 'JavaScript'] },
   { name: 'WebKit Blog', url: 'https://webkit.org/blog/feed/', category: '웹 생태계 & 브라우저', tags: ['WebKit', 'Safari'] },
-  { name: 'MDN Web Docs (Hacks)', url: 'https://hacks.mozilla.org/feed/', category: '웹 생태계 & 브라우저', tags: ['MDN', 'Web Standards'] }
+  { name: 'MDN Web Docs (Hacks)', url: 'https://hacks.mozilla.org/feed/', category: '웹 생태계 & 브라우저', tags: ['MDN', 'Web Standards'] },
+
+  // 8. IDE & 개발 도구
+  { name: 'VS Code', url: 'https://code.visualstudio.com/feed.xml', category: 'IDE & 개발 도구', tags: ['VS Code', 'Editor'] },
+  { name: 'JetBrains Blog', url: 'https://blog.jetbrains.com/feed/', category: 'IDE & 개발 도구', tags: ['JetBrains', 'IDE'] }
 ];
