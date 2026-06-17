@@ -140,7 +140,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, nextTick } from 'vue'
 import { useState } from '#imports'
 
 const props = defineProps({
@@ -249,14 +249,18 @@ const paginatedNews = computed(() => {
 const prevPage = () => {
   if (currentPage.value > 1) {
     currentPage.value--
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    nextTick(() => {
+      window.scrollTo(0, 0)
+    })
   }
 }
 
 const nextPage = () => {
   if (currentPage.value < totalPages.value) {
     currentPage.value++
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    nextTick(() => {
+      window.scrollTo(0, 0)
+    })
   }
 }
 </script>
