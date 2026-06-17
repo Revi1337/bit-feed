@@ -18,7 +18,7 @@
         <span class="text-mute">{{ formatDate(news.pubDate) }}</span>
       </div>
     </div>
-    <span v-if="isToday(news.fetchedAt)" class="absolute top-lg right-lg text-[10px] font-medium text-body bg-canvas-soft-2 border border-hairline px-1.5 py-[2px] rounded-sm tracking-wide">new</span>
+    <span v-if="isNew(news.pubDate)" class="absolute top-lg right-lg text-[10px] font-medium text-body bg-canvas-soft-2 border border-hairline px-1.5 py-[2px] rounded-sm tracking-wide">new</span>
 
     <!-- Content -->
     <h2 class="text-[20px] font-semibold text-ink leading-tight mb-sm md:group-hover:text-link transition-colors">{{ news.title }}</h2>
@@ -45,13 +45,12 @@ const props = defineProps({
   }
 })
 
-const isToday = (dateString) => {
+const isNew = (dateString) => {
   if (!dateString) return false
-  const d = new Date(dateString)
-  const today = new Date()
-  return d.getDate() === today.getDate() &&
-         d.getMonth() === today.getMonth() &&
-         d.getFullYear() === today.getFullYear()
+  const pubTime = new Date(dateString).getTime()
+  const now = Date.now()
+  // 24시간(ms) 이내에 발행된 기사인지 확인
+  return (now - pubTime) <= 24 * 60 * 60 * 1000 && (now - pubTime) >= -24 * 60 * 60 * 1000 // 미래 시간(예: VSCode)도 커버하기 위해 절대값 또는 범위 허용
 }
 
 const formatDate = (dateString) => {
