@@ -60,6 +60,7 @@ const formatDate = (dateString) => {
   if (!dateString) return ''
   const d = new Date(dateString)
   return new Intl.DateTimeFormat('ko-KR', { 
+    timeZone: 'UTC',
     year: 'numeric', 
     month: 'short', 
     day: 'numeric' 
