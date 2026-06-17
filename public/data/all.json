@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+    "title": "Enterprise-managed settings now support bypass permission controls",
+    "summary": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed",
+    "aiSummary": "GitHub가 기업용 관리 설정에 거버넌스 기능을 새롭게 추가하였습니다.\n\n기업 관리자는 enterprise-managed settings.json 파일 내에 disableBypassPermissionsMode 설정을 비활성화 상태로 지정할 수 있습니다. 이를 통해 사용자가 GitHub Copilot CLI나 VS Code 등에서 권한 우회 모드를 사용하는 것을 사전에 방지할 수 있습니다. 해당 기능은 기업 내 보안 정책을 더욱 엄격하게 준수하고 개발 도구에 대한 접근 제어 수준을 높이기 위해 마련되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 17:13:47 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60274",
+    "title": "AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server",
+    "summary": "Diagnose MSBuild build failures and performance issues with AI using the new Microsoft Binlog MCP Server - 15 specialized tools that let your AI assistant investigate binary logs.\nThe post AI-Powered ",
+    "aiSummary": "Microsoft가 MSBuild의 빌드 실패 및 성능 문제를 진단하기 위해 Microsoft Binlog MCP Server를 새롭게 출시하였습니다.\n\n해당 서버는 15가지의 전문화된 도구를 제공하며 이를 통해 AI 어시스턴트가 이진 로그를 심층적으로 분석할 수 있도록 지원합니다.\n\n개발자는 이 도구를 활용하여 복잡한 빌드 과정을 효율적으로 추적하고 문제의 원인을 신속하게 파악할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-mcp-server/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team, Jan Krivanek",
+    "pubDate": "Wed, 17 Jun 2026 17:00:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_125",
     "title": "Visual Studio Code 1.125",
     "summary": "Learn what's new in Visual Studio Code 1.125\nRead the full article",
@@ -13,6 +45,102 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "5c0395519cc4bb7cb222916f6a9f1cc174957d0f",
+    "title": "Top announcements of the AWS Summit in New York, 2026",
+    "summary": "A recap of the top announcements from AWS's New York Summit 2026",
+    "aiSummary": "AWS Summit New York 2026에서 발표된 주요 내용을 정리합니다.\n\n이번 행사에서는 AWS의 최신 기술 발전과 클라우드 혁신을 주도하는 전략적 업데이트가 대거 공개되었습니다. 특히 생성형 AI를 엔터프라이즈 환경에 보다 효율적으로 통합하고 관리할 수 있는 새로운 인프라와 서비스 도구들이 핵심으로 다루어졌습니다.\n\n또한 개발자의 생산성을 극대화하기 위한 도구 개선과 더불어 보안 및 데이터 분석 성능을 강화한 클라우드 플랫폼의 기능적 변화가 강조되었습니다. 이번 발표들은 클라우드 네이티브 환경에서 기업들이 더 빠르고 안전하게 디지털 전환을 이룰 수 있도록 지원하는 데 초점을 맞추고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "AWS News Blog Team",
+    "pubDate": "Wed, 17 Jun 2026 16:36:08 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+    "title": "Auto mode in Copilot Chat available for all users",
+    "summary": "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on…\nThe post Auto mode ",
+    "aiSummary": "GitHub Copilot의 자동 모델 선택 기능인 Auto mode가 github.com 및 GitHub 모바일 앱의 모든 Copilot 플랜 사용자를 대상으로 정식 출시되었습니다.\n\n해당 기능을 활성화하면 Copilot은 사용자의 요청이나 작업 환경에 맞춰 가장 적합한 AI 모델을 스스로 판단하여 자동으로 선택합니다. 이를 통해 사용자는 수동으로 모델을 변경할 필요 없이 최적의 성능과 효율성으로 코딩 작업을 수행할 수 있습니다. \n\n이번 업데이트는 모든 GitHub Copilot 요금제 사용자에게 제공되어 모델 선택의 복잡함을 줄이고 개발 생산성을 향상시키는 데 기여합니다.",
+    "url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 16:24:33 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access",
+    "title": "Limit open pull requests for users without write access",
+    "summary": "Maintainers of open source repositories are dealing with an ever-growing volume of pull requests, including repeated low-quality or drive-by contributions that can slow triage and overwhelm review que",
+    "aiSummary": "GitHub가 오픈소스 프로젝트 관리자의 업무 부담을 줄이기 위해 저장소 설정 기능을 업데이트합니다. 앞으로 관리자는 쓰기 권한이 없는 사용자가 생성할 수 있는 오픈 풀 리퀘스트의 개수를 제한할 수 있게 됩니다.\n\n이 기능은 품질이 낮거나 무분별하게 생성되는 풀 리퀘스트로 인해 관리자의 검토 작업이 지연되고 운영 효율이 떨어지는 문제를 해결하기 위해 도입되었습니다. 관리자는 필요에 따라 기여 제한 정책을 설정함으로써 중요한 작업에 집중할 수 있는 환경을 조성할 수 있습니다. \n\n이번 업데이트를 통해 GitHub 저장소 유지보수 팀은 프로젝트 관리의 복잡도를 낮추고 더욱 효율적으로 기여를 검토하고 수용할 수 있게 될 것입니다.",
+    "url": "https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 16:23:56 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
+    "title": "Agent finder for GitHub Copilot now available",
+    "summary": "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot ",
+    "aiSummary": "GitHub Copilot에 새로운 기능인 Agent finder가 도입되었습니다. \n\n기존에는 개발자가 직접 어떤 MCP 서버, 스킬, 캔버스, 에이전트, 도구를 사용할지 일일이 설정해야 했으며 이 과정에서 컨텍스트 윈도우를 불필요하게 차지하는 문제가 있었습니다. \n\n이제 Agent finder를 통해 GitHub Copilot이 작업에 필요한 적절한 도구와 에이전트를 자동으로 식별하고 연결해 줍니다. 이를 통해 개발자는 복잡한 수동 설정 없이도 효율적으로 AI 보조 도구를 활용할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 16:21:56 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "4c24fcdc8f84279cf19adcd9af7c745709c8ab27",
+    "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+    "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Ag",
+    "aiSummary": "Amazon Bedrock이 기업용 RAG 파이프라인 구축을 간소화하기 위해 완전히 관리되는 새로운 Knowledge Base 기능을 발표했습니다.\n\n이 기능은 다양한 데이터 소스를 연결하는 네이티브 데이터 커넥터와 다중 형식 데이터를 자동으로 준비하는 Smart Parsing 기술을 포함하고 있습니다. 또한 복잡한 다단계 쿼리를 처리할 수 있는 Agentic Retriever가 통합되어 있어 검색의 정확도를 높여줍니다.\n\n모든 과정은 AgentCore Gateway와 연결되어 있어 개발자가 인프라 관리 부담을 덜고 비즈니스 성과 창출에 집중할 수 있도록 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "Wed, 17 Jun 2026 15:09:20 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "de6487c2a98aa63becca18998e2eaf30133784c1",
+    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale.",
+    "aiSummary": "AWS Transform은 기술 부채를 자율적으로 관리하고 경감하기 위해 새롭게 공개된 프리뷰 서비스입니다.\n\n이 도구는 코드 저장소를 자동으로 스캔하여 기술 부채를 탐색합니다. 이후 발견된 부채의 우선순위를 체계적으로 지정하고 대규모 환경에서도 이를 효율적으로 개선하는 과정을 지원합니다.\n\n개발팀은 이 서비스를 통해 복잡한 코드 관리 과정을 자동화함으로써 현대화 작업을 지속적으로 수행할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Micah Walter",
+    "pubDate": "Wed, 17 Jun 2026 14:58:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "AWS",
+      "Cloud"
     ]
   },
   {
@@ -80,6 +208,22 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-06-15-copilot-individual-plan-sign-ups-are-reopening",
+    "title": "Copilot individual plan sign-ups are reopening",
+    "summary": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with…\nThe post Copilot ",
+    "aiSummary": "GitHub가 중단되었던 GitHub Copilot Student, Pro, Pro+, Max 플랜에 대한 신규 구독 신청을 다시 시작합니다. 이번 조치는 향후 몇 주에 걸쳐 순차적으로 진행될 예정입니다. 서비스 구독을 대기하던 사용자들은 단계적으로 신규 가입이 가능해질 전망입니다.",
+    "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 14:10:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=blog&p=711459",
     "title": "Your JetBrains IDE Expertise, Now on LinkedIn",
     "summary": "Every developer has tools they rely on daily. The workflows they’ve built around them, the ways they’ve learned to move faster, debug smarter, and write better code – that kind of hands-on experience ",
@@ -109,6 +253,23 @@
     "tags": [
       "Django",
       "Python"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/ai-chemist-improves-reaction",
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+    "aiSummary": "OpenAI와 Molecule.one이 협력하여 GPT-4o 기반의 준자율적 AI 화학자를 활용해 의약 화학 분야의 핵심 약물 합성 반응을 개선하는 성과를 거두었습니다. 이번 연구는 AI가 복잡한 화학 실험 설계 및 최적화 과정에 자율적으로 참여하여 신약 개발 연구의 효율성과 정확도를 획기적으로 높일 수 있음을 입증합니다. 이를 통해 향후 의약 화학 연구 현장에서 AI 모델이 실험 수행 과정을 주도하며 난도가 높은 합성 반응을 해결하는 핵심적인 역할을 할 것으로 기대됩니다.",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 17 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -205,6 +366,22 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
+    "title": "Elastic named a Leader in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment",
+    "summary": "Elastic was named a 2026 IDC MarketScape Leader for SIEM. See why we were recognized.",
+    "aiSummary": "Elastic이 2026 IDC MarketScape의 전 세계 SIEM 공급업체 평가에서 리더로 선정되었습니다. 이번 평가는 SIEM 시장에서의 기술력과 전략적 역량을 인정받은 결과입니다. Elastic은 검색 및 분석 플랫폼으로서 보안 운영 효율성을 높이고 위협 탐지 및 대응 능력을 강화한 점을 높게 평가받았습니다.",
+    "url": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Natalie Blake",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
