@@ -48,7 +48,17 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
     try {
       console.log(`Fetching ${feed.name}...`);
       const parsed = await parser.parseURL(feed.url);
-      const items = parsed.items.slice(0, 5);
+      
+      let items = parsed.items;
+      if (feed.allowedCategories) {
+        items = items.filter(item => {
+          const itemCategories = item.categories || [];
+          return itemCategories.some(cat => 
+            feed.allowedCategories.some(allowed => cat.toLowerCase() === allowed.toLowerCase())
+          );
+        });
+      }
+      items = items.slice(0, 5);
 
       for (const item of items) {
         const id = item.guid || item.id || item.link || Math.random().toString(36).substring(7);
