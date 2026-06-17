@@ -1,5 +1,85 @@
 [
   {
+    "id": "d825f9d469e21e76b22344398328d967de0264d2",
+    "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
+    "summary": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover,",
+    "aiSummary": "Amazon S3가 객체에 최대 1GB 용량의 풍부하고 수정 가능하며 쿼리 가능한 컨텍스트를 직접 첨부할 수 있는 Amazon S3 annotations 기능을 새롭게 도입했습니다.\n\n이 기능은 AI 에이전트와 자율 워크플로우를 위해 특별히 설계되었습니다. 사용자는 별도의 메타데이터 시스템을 유지 관리할 필요 없이 대규모 데이터 환경에서 즉각적으로 정보를 발견하고 이해하며 대응할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "Tue, 16 Jun 2026 23:13:10 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-how-to-tame-packs-stdtuple-the-wily-stdinteger-sequence-andrei",
+    "title": "CppCon 2025 How to Tame Packs, std::tuple, & the Wily std::integer_sequence -- Andrei Alexandrescu",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "CppCon 2026의 개최가 다가옴에 따라 주최 측은 작년 인기 강연 중 하나인 Andrei Alexandrescu의 How to Tame Packs, std::tuple, & the Wily std::integer_sequence 영상을 공개했습니다.\n\n해당 강연은 C++의 템플릿 파라미터 팩과 std::tuple이 가진 강력한 메타프로그래밍 기능을 다루면서도 이들이 가진 복잡성과 설계상의 한계를 지적합니다. 특히 팩이 원래 perfect forwarding을 목적으로 설계되어 컴파일 타임 반복 작업에 부적합하다는 점과 std::integer_sequence가 근본적인 해결책이 되기에는 부족하다는 점을 강조합니다.\n\n강연자는 기존 라이브러리 유틸리티들이 일관성이 부족하고 사용하기 어렵다는 문제를 해결하기 위해 보다 직관적이고 재사용 가능한 추상화 방안을 제시합니다. 이를 통해 복잡한 C++ 메타프로그래밍 작업을 더 안전하고 간결하게 수행할 수 있는 실질적인 도구와 방법론을 공유합니다.",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-how-to-tame-packs-stdtuple-the-wily-stdinteger-sequence-andrei",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Tue, 16 Jun 2026 22:03:58 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+    "aiSummary": "UK 정부가 영국의 주택 건설 속도를 높이기 위해 Google DeepMind와 협력하여 새로운 AI 기반 시제품을 개발합니다. 이 프로젝트는 복잡한 주택 건설 인허가 절차를 간소화하고 보다 신속한 의사결정을 지원하는 것을 목표로 합니다. AI를 도입함으로써 행정적 병목 현상을 해결하고 주택 공급 문제를 효과적으로 개선할 수 있을 것으로 기대됩니다.",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 16 Jun 2026 21:29:50 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+    "title": "GitHub Models is no longer available to new customers",
+    "summary": "We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won’t see…\nThe post GitHub Models is ",
+    "aiSummary": "GitHub는 자사 서비스인 GitHub Models를 종료하기로 결정하였습니다. 이에 따라 신규 사용자의 서비스 접근이 즉시 제한되었습니다. 기존에 GitHub Models를 사용하지 않았던 조직이나 기업 고객은 더 이상 해당 기능을 이용할 수 없습니다. 이번 조치는 GitHub Models 서비스 운영을 단계적으로 중단하기 위한 첫 번째 과정입니다.",
+    "url": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 16 Jun 2026 20:24:41 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+    "title": "Introducing tfctl: The CLI for HCP Terraform and TFE ",
+    "summary": "For years, automating HCP Terraform platform operations meant building and maintaining custom tooling on top of the API. Today, we're changing that with tfctl, the first dedicated CLI for HCP Terrafor",
+    "aiSummary": "HashiCorp가 HCP Terraform과 Terraform Enterprise를 위한 공식 CLI 도구인 tfctl을 새롭게 공개하였습니다. 기존에는 플랫폼 운영을 위해 API 기반의 커스텀 도구를 직접 개발해야 하는 번거로움이 있었으나, 이제 tfctl을 통해 인프라 운영 워크플로우를 효율적으로 자동화할 수 있게 되었습니다.\n\ntfctl은 작업 취소, 워크스페이스 생성, 변수 관리, 조직 관리 등 인프라 코드를 실행하는 Terraform CLI가 다루지 못했던 플랫폼 운영 업무를 직접 수행합니다. 주요 기능으로는 모든 명령에 대한 dry-run 지원과 삭제 작업 시 대화형 승인 절차를 포함한 안전 장치, API 키워드 검색을 통해 스키마를 확인하는 기능, JSON 및 Markdown 등을 지원하는 유연한 출력 모드가 있습니다.\n\n특히 이 도구는 OpenAPI 표준을 기반으로 설계되어 100%의 API 커버리지를 제공하며, 플랫폼이 발전하더라도 새로운 엔드포인트에 즉각 대응할 수 있는 확장성을 갖췄습니다. 플랫폼 엔지니어들은 이를 활용하여 사고 대응 및 문제 진단, 변경 영향도 분석, 워크스페이스 라이프사이클 관리 등을 자동화할 수 있습니다. \n\ntfctl은 현재 GitHub를 통해 제공되며, 인간 사용자와 AI 에이전트 모두가 플랫폼 API와 원활하게 상호작용할 수 있도록 설계되었습니다. 앞으로도 HashiCorp는 플랫폼 엔지니어와 AI 에이전트가 HCP Terraform 환경에서 더 효율적으로 작업할 수 있도록 지원을 강화할 예정입니다.",
+    "url": "https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Roshan Chandna",
+    "pubDate": "2026-06-16T20:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://www.docker.com/?p=91250",
     "title": "Docker Content Trust: Retirement and Migration Guidance",
     "summary": "TLDR: Docker Content Trust (DCT) and the Notary v1 service at notary.docker.io are being fully retired (first announced in July of 2025). This blog explains what is changing, who is affected, and how ",
@@ -77,6 +157,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+    "title": "What’s new with Terraform + Ansible ",
+    "summary": "Last year, we introduced Terraform actions and outlined our vision for deeper integration between Terraform and Ansible. As organizations increasingly rely on hybrid and multi-cloud environments, infr",
+    "aiSummary": "하이브리드 및 멀티 클라우드 환경의 복잡성을 해결하기 위해 Terraform과 Ansible 간의 통합을 강화한 새로운 기능들이 발표되었습니다. 핵심은 인프라의 전체 수명 주기인 프로비저닝, 구성 관리, 운영 업무 전반을 자동화하여 운영 복잡도를 낮추는 것입니다.\n\n먼저 Terraform Ansible collection 2.0이 출시되었습니다. 이 업데이트는 pyTFE를 기반으로 하며 Ansible에서 직접 Terraform 워크플로우를 관리할 수 있는 API 우선 방식을 제공합니다. 이를 통해 기존에 파편화된 스크립트나 불필요한 연동 코드를 제거하고 더 안정적인 통합 환경을 구축할 수 있습니다.\n\n함께 발표된 pyTFE 1.0은 HCP Terraform 및 Terraform Enterprise를 위한 공식 Python SDK로 정식 출시되었습니다. 이제 개발자와 플랫폼 팀은 개별적인 API 클라이언트 없이도 안정적인 SDK를 사용하여 자동화 도구를 개발할 수 있습니다.\n\n인벤토리 관리의 효율성을 높이기 위해 Terraform Ansible collection 2.0에는 실험적인 동적 인벤토리 플러그인인 tfc_inv.py가 포함되었습니다. 이 플러그인은 HCP Terraform의 상태 정보를 직접 참조하여 Ansible 인벤토리를 자동으로 생성하므로, 수동 스크립트 없이도 Terraform과 Ansible 간의 상태 불일치를 해소할 수 있습니다.\n\n운영 효율을 위한 기능도 강화되었습니다. HCP Terraform에는 새로운 Actions 환경이 추가되어 운영 워크플로우를 중앙에서 확인하고 실행하며 이력을 검토할 수 있게 되었습니다. 또한 이러한 Actions 기능이 Terraform Stacks까지 확장되어, 더 높은 수준의 추상화된 인프라 배포 단계에서도 자동화된 워크플로우를 유연하게 적용할 수 있게 되었습니다.\n\n이번 업데이트를 통해 인프라 자동화 도구 간의 상호 운용성이 대폭 향상되었으며, 기업은 인프라의 배포부터 운영까지 전 과정을 더욱 일관되고 신뢰성 있게 관리할 수 있게 됩니다.",
+    "url": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-06-16T16:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -237,6 +333,39 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/deployment-simulation",
+    "title": "Predicting model behavior before release by simulating deployment",
+    "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "aiSummary": "OpenAI가 새로운 AI 모델의 배포 전 행동을 예측하기 위한 Deployment Simulation 방식을 도입했습니다. 이 기술은 실제 대화 데이터를 활용하여 모델이 실제 환경에서 어떻게 작동할지 미리 시뮬레이션함으로써 안전성을 강화하고 평가의 정확도를 높이는 것을 목표로 합니다. 결과적으로 모델 출시 전 잠재적인 위험 요소를 사전에 파악하여 더욱 신뢰할 수 있는 AI 서비스를 제공할 수 있을 것으로 기대됩니다.",
+    "url": "https://openai.com/index/deployment-simulation",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://babeljs.io/blog/2026/06/16/8.0.0",
+    "title": "Releasing Babel 8 today: ESM-only, drop ES5 default, and a smooth migration path",
+    "summary": "Today we are releasing Babel 8. It's been 8 years since we released Babel 7. And that's not without reason.\nOver these past 8 years, the JavaScript ecosystem has changed significantly. In addition to ",
+    "aiSummary": "Babel 7 이후 8년 만에 새로운 메이저 버전인 Babel 8이 출시되었습니다. 이번 업데이트는 새로운 기능을 추가하기보다는 Babel의 핵심을 현대화하여 향후 8년을 대비하는 것에 중점을 두고 있습니다.\n\n가장 큰 변화는 ESM-only로의 전환입니다. Babel 8은 모든 패키지에 대해 TypeScript 타입을 기본으로 제공하며, 더 이상 기본적으로 ES5나 CommonJS로 컴파일하지 않습니다. 이는 최신 브라우저 환경에 맞게 컴파일 과정을 최적화하여 번들 크기를 줄이고, Node.js의 발전에 발맞추기 위한 결정입니다.\n\n이번 릴리스는 하위 호환성을 고려하여 점진적인 개선을 추구했으며, 이전 메이저 버전 업데이트보다 훨씬 간소화된 마이그레이션 경로를 제공합니다. 한편, Babel 핵심 팀은 프로젝트를 지속하기 위한 기부와 후원이 최근 몇 년간 감소하고 있다는 점을 언급하며, 생태계 발전을 위한 기업 및 사용자들의 지속적인 관심과 지원을 요청했습니다.",
+    "url": "https://babeljs.io/blog/2026/06/16/8.0.0",
+    "category": "프론트엔드",
+    "source": "Babel Blog",
+    "author": "Babel Team",
+    "pubDate": "2026-06-16T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Babel",
+      "Build"
     ]
   },
   {
