@@ -47,10 +47,13 @@ const props = defineProps({
 
 const isNew = (dateString) => {
   if (!dateString) return false
-  const pubTime = new Date(dateString).getTime()
-  const now = Date.now()
-  // 24시간(ms) 이내에 발행된 기사인지 확인
-  return (now - pubTime) <= 24 * 60 * 60 * 1000 && (now - pubTime) >= -24 * 60 * 60 * 1000 // 미래 시간(예: VSCode)도 커버하기 위해 절대값 또는 범위 허용
+  const d = new Date(dateString)
+  const today = new Date()
+  
+  // 시간/분/초는 완전히 무시하고 오직 유저 로컬의 '연, 월, 일' 달력 날짜만 비교
+  return d.getDate() === today.getDate() &&
+         d.getMonth() === today.getMonth() &&
+         d.getFullYear() === today.getFullYear()
 }
 
 const formatDate = (dateString) => {
