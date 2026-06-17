@@ -57,10 +57,15 @@ async function fetchAllFeeds() {
   await fs.writeFile(newsPath, JSON.stringify(updatedAllNews, null, 2), 'utf-8');
   console.log(`Successfully appended ${newLatestNews.length} articles to all.json. Total: ${updatedAllNews.length}`);
 
-  // Save Top 50 to latest.json
-  const top50 = updatedAllNews.slice(0, 50);
-  await fs.writeFile(latestPath, JSON.stringify(top50, null, 2), 'utf-8');
-  console.log(`Successfully saved top 50 articles to public/data/latest.json`);
+  // Save recent 7 days to latest.json
+  const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const recentItems = updatedAllNews.filter(item => {
+    const pubTime = new Date(item.pubDate).getTime();
+    return pubTime >= sevenDaysAgo;
+  });
+  
+  await fs.writeFile(latestPath, JSON.stringify(recentItems, null, 2), 'utf-8');
+  console.log(`Successfully saved ${recentItems.length} recent articles (last 7 days) to public/data/latest.json`);
 }
 
 async function main() {
