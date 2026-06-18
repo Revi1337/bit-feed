@@ -1,5 +1,100 @@
 [
   {
+    "id": "https://webkit.org/?p=18128",
+    "title": "Release Notes for Safari Technology Preview 246",
+    "summary": "Safari Technology Preview Release 246 is now available for download for macOS Golden Gate and macOS Tahoe.",
+    "aiSummary": "Safari Technology Preview 246 버전이 정식으로 공개되었습니다. 이번 업데이트는 macOS Golden Gate 및 macOS Tahoe 운영 체제에서 다운로드하여 사용할 수 있습니다.",
+    "url": "https://webkit.org/blog/18128/release-notes-for-safari-technology-preview-246/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "Wed, 17 Jun 2026 23:08:46 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cpp26-string-and-string-view-improvements-sandor-dargo",
+    "title": "C++26: string and string_view improvements -- Sandor Dargo",
+    "summary": "Let’s continue our exploration of C++26 improvements. Today we focus on string_view. Some types got new constructors accepting string_views, and concatenation of strings and string_views just got easi",
+    "aiSummary": "C++26 표준에서는 string_view 활용도를 높이기 위한 라이브러리 개선이 이루어집니다. \n\n가장 핵심적인 변화는 P2495R3 제안의 채택으로, 기존에 stringstream을 초기화하기 위해 string_view를 강제로 string으로 변환해야 했던 번거로움이 해소됩니다. 이제는 stringstream 생성자가 직접 string_view를 매개변수로 받아 처리할 수 있게 되어 코드의 효율성과 작성 편의성이 크게 향상됩니다.\n\n이러한 개선은 기존 코드와 호환성을 유지하는 추가적인 라이브러리 확장 방식이며, 이미 Clang 19 버전에서 해당 기능을 사용할 수 있습니다. C++17에서 도입된 이후 읽기 전용 문자열 접근을 위해 널리 활용되어 온 string_view는 이번 변화를 통해 문자열 스트림 처리에 있어서도 더욱 직관적이고 성능 최적화된 도구로 자리매김하게 됩니다.",
+    "url": "https://isocpp.org//blog/2026/06/cpp26-string-and-string-view-improvements-sandor-dargo",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Wed, 17 Jun 2026 22:28:43 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli",
+    "title": "Read remote repository content with GitHub CLI",
+    "summary": "Explore repository content from your terminal without cloning by using two new commands: gh repo read-file and gh repo read-dir. What you can do Use gh repo read-file to read…\nThe post Read remote rep",
+    "aiSummary": "GitHub는 터미널 환경에서 저장소를 복제하지 않고도 원격 저장소의 내용을 직접 확인할 수 있는 gh repo read-file과 gh repo read-dir 명령어를 새롭게 도입했습니다.\n\ngh repo read-file 명령어를 사용하면 특정 파일의 내용을 터미널에서 바로 읽을 수 있습니다. 또한 gh repo read-dir 명령어를 활용하면 저장소 내의 디렉토리 구조와 파일 목록을 간편하게 조회할 수 있습니다. \n\n이번 업데이트를 통해 개발자는 저장소 전체를 로컬 환경으로 내려받는 번거로움 없이도 필요한 정보를 빠르게 탐색하고 확인할 수 있게 되었습니다. 이는 GitHub CLI를 사용하는 개발자들의 작업 효율성을 높이는 데 기여할 것으로 보입니다.",
+    "url": "https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 20:03:57 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/cloud-network-insights-end-to-end-cross-cloud-observability/",
+    "title": "Cloud Network Insights: end-to-end observability for the Cross-Cloud Network",
+    "summary": "In today’s digital landscape, the network is no longer confined to a single data center or even a single cloud provider. Enterprises are increasingly adopting cross-cloud strategies, connecting Google",
+    "aiSummary": "Google Cloud는 복잡한 멀티클라우드 및 하이브리드 환경에서 엔드투엔드 가시성을 제공하는 솔루션인 Cloud Network Insights를 공식 출시합니다. Broadcom AppNeta와의 파트너십을 통해 구축된 이 솔루션은 활성 합성 프로빙 기술을 사용하여 사용자의 트래픽 발생 여부와 관계없이 네트워크 경로를 상시 모니터링합니다.\n\n이 솔루션은 Google Cloud Observability 제품군과 직접 통합되어 Google Cloud를 비롯해 AWS, Azure, 온프레미스 데이터 센터 및 인터넷 전반에 걸친 네트워크 성능 정보를 단일 뷰로 제공합니다. 주요 기능은 다음과 같습니다.\n\n네트워크 성능 모니터링은 계층 3 및 4 수준에서 홉별 가시성을 확보하여 왕복 시간, 패킷 손실, 지터 등을 측정합니다. 이를 통해 네트워크 경로상의 병목 지점을 정확히 파악할 수 있습니다.\n\n디지털 경험 모니터링은 계층 7 수준에서 웹 애플리케이션의 사용자 경험을 추적합니다. 실제 브라우저 엔진을 활용한 페이지 로딩 시간 측정이나 HTTP 요청을 통한 서버 가용성 및 DNS 성능 확인이 가능합니다.\n\n지능형 운영을 위해 과거 데이터를 기반으로 한 동적 임계값 설정과 이상 징후 발생 시 Slack, PagerDuty 등으로 전송되는 자동 알림 기능을 지원합니다. 또한 Gemini Cloud Assist와 통합되어 자연어 질의를 통해 네트워크 성능 데이터를 분석하고 문제 해결 시간을 단축할 수 있습니다.\n\nCloud Network Insights는 Monitoring Points라는 경량 소프트웨어 에이전트를 주요 네트워크 구간에 배치하여 운영됩니다. 수집된 데이터는 Google Cloud로 실시간 동기화되며 OpenTelemetry 프로토콜을 지원하여 기존 모니터링 도구와의 상호 운용성을 보장합니다. 이를 통해 기업들은 복잡한 크로스 클라우드 환경에서 운영 복잡성을 줄이고 예방적 최적화 전략을 수행할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/networking/cloud-network-insights-end-to-end-cross-cloud-observability/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Poonam Yadav"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 17 Jun 2026 19:30:00 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026",
+    "title": "Secret scanning updates – June 2026",
+    "summary": "Since our last pattern update, we’ve expanded secret scanning’s detection coverage with new partners, more patterns blocked by push protection by default, additional validity checks, and richer metada",
+    "aiSummary": "GitHub의 Secret scanning 기능이 2026년 6월을 기점으로 더욱 강화되었습니다. 이번 업데이트를 통해 새로운 파트너들과의 협력을 확대하여 탐지 범위를 넓혔으며 Push protection 기능으로 차단되는 패턴의 종류도 증가하였습니다. 또한 유출된 정보에 대한 추가적인 유효성 검사 절차를 도입하고 관련 메타데이터의 상세 정보를 보강하여 보안 대응 능력을 높였습니다. 이를 통해 개발자는 코드 저장소 내의 민감한 정보가 외부로 노출되는 상황을 보다 효과적으로 방지할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 19:23:42 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
     "title": "Enterprise-managed settings now support bypass permission controls",
     "summary": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed",
@@ -366,6 +461,73 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+    "title": "Why a bigger context window won't fix your agent's memory",
+    "summary": "Context windows have grown fast. Models that once capped out at a few thousand tokens now advertise hundreds of thousands, and the natural assumption was that the agent memory problem would shrink as ",
+    "aiSummary": "최근 LLM의 Context window가 비약적으로 확장되면서 모델의 기억력 문제가 자연스럽게 해결될 것으로 기대되었으나 실제로는 그렇지 않습니다. 단순히 프롬프트에 더 많은 데이터를 입력하는 방식은 정보 검색의 정확도를 떨어뜨리는 Lost in the middle 현상을 유발하며 토큰 소비량 증가에 따른 비용과 지연 시간 문제를 야기합니다.\n\n모델이 방대한 문맥 내에서 특정 정보를 찾는 능력은 완벽하지 않으며 데이터가 많아질수록 모델이 중요한 맥락을 놓치거나 부적절한 답변을 생성할 위험이 커집니다. 따라서 단순히 문맥의 크기를 키우는 것만으로는 에이전트의 기억 문제를 해결할 수 없습니다.\n\n이를 보완하기 위해서는 RAG와 같은 외부 지식 저장소 시스템이나 체계적인 메모리 관리 기법이 필수적입니다. 에이전트가 모든 정보를 프롬프트에 담는 대신 필요한 시점에 정보를 추출하여 활용하는 구조적인 접근이 장기적인 기억과 효율적인 작업 수행을 가능하게 합니다.",
+    "url": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+    "title": "Retrieval vs. memory in AI agents: why context layers need both",
+    "summary": "A returning user asks your agent why their bill doubled this month. The agent greets them by name, pulls up last week's billing dispute, and references the workaround your team suggested. Then it conf",
+    "aiSummary": "AI 에이전트가 사용자의 질문에 정확히 대응하기 위해서는 외부 데이터 검색인 Retrieval과 과거 상호작용을 저장하는 Memory라는 두 가지 핵심 요소가 모두 필요합니다. Retrieval은 최신 데이터베이스나 공식 문서 등 정적인 지식에 접근하여 객관적인 정보를 제공하는 역할을 합니다. 반면 Memory는 사용자와의 과거 대화 기록, 개인화된 맥락, 그리고 특정 시점의 의사결정 과정을 보존하여 에이전트가 흐름을 파악하도록 돕습니다.\n\n만약 Retrieval에만 의존할 경우 에이전트는 사용자의 과거 이력이나 진행 중인 분쟁 사례를 알지 못해 기계적이고 단편적인 답변만을 제공하게 됩니다. 반대로 Memory가 부족하면 사용자마다 다른 상황을 구분하지 못해 혼란을 야기할 수 있습니다. 특히 청구서 사례와 같이 복잡한 맥락이 중요한 상황에서 에이전트가 정확한 상담을 수행하려면, 외부 지식 베이스의 최신 정책과 사용자의 고유한 과거 맥락이 결합된 하이브리드 아키텍처가 필수적입니다.\n\n결론적으로 차세대 AI 에이전트는 검색된 데이터의 정확성과 저장된 기억의 연속성을 통합함으로써 사용자에게 개인화된 고품질 서비스를 제공할 수 있습니다. 기술 개발 시 이 두 레이어를 적절히 조율하는 것이 에이전트의 신뢰도를 결정짓는 핵심 전략이 됩니다.",
+    "url": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-life-sci-bench",
+    "title": "Introducing LifeSciBench",
+    "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+    "aiSummary": "LifeSciBench는 AI 시스템이 실제 생명과학 연구 현장에서 수행하는 과제와 의사결정 능력을 평가하기 위해 개발된 새로운 벤치마크입니다. 해당 벤치마크는 분야별 전문가들이 직접 내용을 작성하고 검토하였으며, AI 모델이 복잡하고 전문적인 생명과학 분야의 문제들을 얼마나 효과적으로 해결하는지 측정하는 데 초점을 맞추고 있습니다.",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/cloud-in-agents-window",
+    "title": "Cloud Environment Setup and Cloud Subagents in Agents Window",
+    "summary": "3.7 Jun 17, 2026 · ChangelogCloud Environment Setup and Cloud Subagents in Agents WindowThis release introduces updates to cloud agents in the Agents Window of the Cursor desktop app.\n#Cloud environme",
+    "aiSummary": "Cursor 데스크톱 앱의 최신 업데이트를 통해 클라우드 환경 설정 및 클라우드 서브 에이전트 기능이 추가되었습니다.\n\n클라우드 환경 설정 기능은 10분 이내에 개발 환경을 클라우드에 구축할 수 있도록 지원합니다. 설정 과정은 공유 터미널 세션을 통해 실시간으로 확인할 수 있으며, 완료된 환경은 재사용 가능한 스냅샷으로 저장되어 향후 에이전트 구동 시간을 단축합니다. 환경 정보는 .cursor/environment.json 파일로 팀 내 공유가 가능합니다.\n\n/in-cloud 명령어를 사용하면 별도의 가상 머신에서 작동하는 클라우드 서브 에이전트를 생성할 수 있습니다. 이를 통해 로컬 워크스페이스에 영향을 주지 않고 복잡한 CI 수정이나 코드 분석 같은 장기 작업을 병렬로 수행할 수 있습니다. 특히 /babysit 기능을 활용하면 로컬 세션을 점유하지 않고도 클라우드 에이전트가 알아서 PR 준비 및 병합 과정을 관리합니다.\n\n로컬과 클라우드 간의 세션 전환도 강화되었습니다. 로컬에서 실행 중이던 무거운 작업을 클라우드로 넘겨 백그라운드에서 처리하게 하거나, 클라우드에서 수행 중인 작업을 로컬로 가져와 변경 사항을 직접 테스트할 수 있습니다. 이를 통해 사용자는 리소스 제약 없이 다수의 클라우드 에이전트를 동시에 운용하며 효율적인 개발 흐름을 유지할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/cloud-in-agents-window",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1382,6 +1544,23 @@
     ]
   },
   {
+    "id": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+    "title": "Your agent hit the context limit. Here's the playbook",
+    "summary": "Your agent was humming along, then it stopped mid-task and declared the job done when it wasn't. One common cause is the AI context limit, a hard ceiling on how many tokens a model can hold in its wor",
+    "aiSummary": "AI 에이전트가 작업 도중 갑작스럽게 중단되거나 불완전하게 임무를 마치는 주된 원인은 모델의 컨텍스트 제한 때문입니다. 컨텍스트 제한은 AI가 작업 메모리에 한 번에 처리할 수 있는 토큰의 양을 물리적으로 제한하는 임계점입니다.\n\n이러한 문제를 해결하기 위해 가장 먼저 필요한 것은 현재 사용 중인 모델의 토큰 제한치를 정확히 파악하고 작업의 규모를 그 범위 내로 조절하는 것입니다. 만약 긴 작업이 필요하다면 문서를 요약하거나 불필요한 정보를 제거하여 입력 데이터의 크기를 줄이는 전략이 필요합니다.\n\n기술적으로는 컨텍스트를 효율적으로 관리하기 위한 RAG 기법이나 긴 문맥을 지원하는 롱 컨텍스트 모델로의 전환을 고려할 수 있습니다. 또한 작업을 단계별로 나누어 처리하는 멀티 에이전트 방식이나 중간 결과물을 별도의 스토리지에 저장하여 필요한 시점에 다시 불러오는 메모리 최적화 전략을 도입하는 것이 효과적입니다.\n\n단순히 모델을 업그레이드하는 것 외에도 프롬프트를 최적화하여 불필요한 시스템 메시지나 과거 대화 기록을 정리함으로써 가용 토큰을 확보하는 세심한 관리가 필수적입니다. 이러한 체계적인 접근은 에이전트가 중도에 멈추지 않고 더 복잡하고 긴 작업을 안정적으로 수행할 수 있도록 돕습니다.",
+    "url": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
     "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
     "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
@@ -1475,6 +1654,23 @@
     "tags": [
       "FastAPI",
       "Python"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+    "title": "Five context-engineering principles that survive production",
+    "summary": "Your agent passes every test you throw at it. The demo is clean, the eval suite is green, and you ship. Then a week later, the support tickets start: agents looping, costs spiking, responses that conf",
+    "aiSummary": "LLM 기반 에이전트를 실제 운영 환경에 배포한 후 발생하는 문제들을 해결하기 위한 다섯 가지 컨텍스트 엔지니어링 원칙을 제시합니다.\n\n첫째, 명시적인 제약 사항을 컨텍스트에 포함해야 합니다. 모델은 모호한 지시사항보다 구체적으로 하지 말아야 할 행동을 정의할 때 더 안정적으로 작동합니다.\n\n둘째, 컨텍스트에 구조를 부여해야 합니다. 시스템 메시지에 Markdown이나 구조화된 데이터 형식을 사용하면 모델이 정보를 이해하고 처리하는 과정에서 발생하는 오류를 크게 줄일 수 있습니다.\n\n셋째, 최소한의 정보만 제공하는 간결함을 유지해야 합니다. 컨텍스트가 너무 길어지면 주의력 분산으로 인해 성능이 저하되는 Lost in the middle 현상이 발생하므로, 작업 수행에 필요한 핵심 정보만 선택적으로 주입하는 것이 중요합니다.\n\n넷째, 모델의 출력 형식과 사고 과정을 명확히 규정해야 합니다. 최종 답변 전에 Chain of Thought를 유도하거나 답변 양식을 엄격하게 고정하면 환각 현상을 방지하고 결과의 일관성을 높일 수 있습니다.\n\n다섯째, 실제 운영 데이터로부터 피드백 루프를 구축해야 합니다. 개발 단계의 테스트 통과가 운영 환경의 성공을 보장하지 않으므로, 에이전트가 생성한 결과물을 지속적으로 모니터링하고 실패 사례를 컨텍스트 개선에 활용해야 합니다.",
+    "url": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Sun, 14 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -1657,6 +1853,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/what-model-context-protocol-gives-your-agents/",
+    "title": "What Model Context Protocol gives your agents & what it leaves to you",
+    "summary": "If you've shipped an AI agent that connects to tools, you've probably felt the relief of having one standard way to wire it all up. Model Context Protocol (MCP) handles that part well. But there's a g",
+    "aiSummary": "Model Context Protocol은 AI 에이전트와 외부 도구를 연결하는 표준화된 방식을 제공하여 개발 과정의 복잡성을 줄여주는 유용한 기술입니다. 하지만 이 프로토콜은 데이터 연결과 컨텍스트 전달이라는 본연의 기능에 집중할 뿐 에이전트가 특정 도구를 언제, 어떻게 사용할지 결정하는 전략이나 복잡한 워크플로우 제어까지는 책임지지 않습니다.\n\n결국 도구와의 연결은 MCP가 대신 수행하지만 에이전트가 업무를 수행하는 과정에서 발생하는 논리적 판단과 도구 활용의 최적화는 개발자가 직접 구현해야 하는 영역으로 남습니다. 많은 팀이 이 지점에서 혼란을 겪는데, 이는 단순히 도구를 연결하는 것을 넘어 에이전트가 실질적인 결과물을 내도록 만드는 설계 역량이 여전히 개발자의 핵심 과제임을 의미합니다. 따라서 성공적인 에이전트 구축을 위해서는 MCP를 활용해 인프라를 간소화하면서도 에이전트의 의사결정 체계와 도구 제어 전략을 고도화하는 데 집중해야 합니다.",
+    "url": "https://redis.io/blog/what-model-context-protocol-gives-your-agents/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -2032,266 +2245,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "title": "How an astrophysicist uses Codex to help simulate black holes",
-    "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-    "aiSummary": "천체물리학자 Chi-kwan Chan은 블랙홀 시뮬레이션을 구축하는 과정에서 OpenAI의 Codex를 활용하고 있습니다. 이 기술은 복잡한 물리 현상을 수치화하여 연구 효율을 높이는 데 기여합니다. 이를 통해 과학자들은 극한의 물리적 환경을 탐구하고 Einstein의 일반 상대성 이론을 더욱 정밀하게 검증할 수 있게 되었습니다.",
-    "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-14T16:50:23.671Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-    "title": "Simplifying Weak Reference Processing in ZGC",
-    "summary": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, inv",
-    "aiSummary": "Uppsala University의 Fredrik이 수행한 연구는 ZGC에서 발생하는 WeakReference 처리 오버헤드를 줄이기 위한 최적화 기법을 다루고 있습니다. 기존 ZGC는 큐 등록 여부와 상관없이 모든 WeakReference를 동일하게 처리하여 대규모 워크로드에서 성능 병목 현상을 유발합니다. 이에 대한 해결책으로 크게 네 가지 메커니즘을 제안합니다.\n\n첫 번째는 Skip-Enqueue Separation으로, 큐 등록이 필요 없는 참조를 별도로 분리하여 ReferenceHandler 스레드 처리를 생략하는 방식입니다. 두 번째는 Dynamic Array를 도입하여 힙에 흩어진 객체 대신 연속적인 배열을 사용함으로써 캐시 지역성을 높이는 방법입니다. 세 번째는 Optimised Clear Path로, 참조 제거 과정에서 불필요한 로드 배리어, 가상 함수 호출, CAS 연산을 최적화하여 처리 속도를 대폭 개선합니다. 마지막으로 네 번째는 Weak Fields로, 객체 형태의 WeakReference 대신 @weak 어노테이션을 필드에 직접 적용하여 WeakReference 객체 자체를 제거하는 근본적인 접근 방식입니다.\n\n연구 결과, 세 가지 파이프라인 최적화를 조합한 clear_path_dyn 방식은 특정 단계에서 81%의 성능 향상을 보였으나 전체 GC 시간 단축에는 한계가 있었습니다. 반면 @weak 어노테이션을 사용하는 방식은 힙 점유율을 53% 줄이고 전체 주요 GC 시간을 최대 41%까지 단축하는 등 압도적인 효율성을 입증했습니다. 결과적으로 이번 연구는 WeakReference 오버헤드가 단순히 처리 파이프라인의 문제가 아니라 언어 차원에서의 표현 방식 문제임을 시사하며, @weak 어노테이션이 Java의 참조 관리 효율성을 높이는 유망한 대안이 될 수 있음을 보여줍니다.",
-    "cleanContent": "My name is Fredrik, and I recently completed my master's degree in Computer and Information Engineering at Uppsala University. For my thesis I worked with the GC team at Oracle's Stockholm office, investigating the overhead of weak reference processing in generational ZGC and whether it could be reduced with targeted modifications to the pipeline — or avoided altogether through a different representation of weak semantics.\n\t\t\t\tThe Problem\n\t\t\t\tJava's WeakReference provides a way to hold a reference to an object without preventing it from being collected. When the GC determines that an object is only weakly reachable, it clears the referent field and, if the reference was registered with a ReferenceQueue, enqueues the reference so the application can react to the collection event. This notification mechanism is optional: the WeakReference constructor accepts a null queue argument, and many uses, e.g. caches, interning maps, listener registrations, never register a queue.\n\t\t\t\tDespite this distinction, ZGC's reference-processing pipeline treats all weak references uniformly. Every discovered reference is linked into an intrusive per-thread linked list via the hidden discovered field, transferred to the ReferenceHandler thread via the pending list, and iterated by that thread regardless of whether it will actually be enqueued. This mismatch between the optional nature of the callback mechanism and the unconditional work performed for it has been noted in the OpenJDK issue tracker (JDK-8029205) but has not yet been addressed in the JDK.\n\t\t\t\tThe per-reference processing cost scales linearly with the number of weak references, making it a bottleneck in workloads that allocate many of them. This thesis investigates whether that cost can be reduced through three orthogonal pipeline modifications, and whether it can be avoided more fundamentally by replacing WeakReference objects with an annotated-field mechanism.\n\t\t\t\tFour Mechanisms\n\t\t\t\t1. Skip-Enqueue Separation (sep)\n\t\t\t\tThe simplest modification routes queue-less weak references to a separate per-worker discovered list during the mark phase. References on this list are processed and cleared by GC threads directly, without ever being added to the pending list or handed to the ReferenceHandler thread. The key change in ZReferenceProcessor is a queue check at discovery time:\n\t\t\t\tif (type == REF_WEAK && !has_reference_queue(ref)) {\n    weak_no_queue_list_per_worker.append(ref);  // bypasses pending list entirely\n} else {\n    discovered_list_per_worker.append(ref);     // normal enqueue pipeline\n}\n\n\t\t\t\t\n\t\t\t\tThe two lists are processed by specialised functions, keeping the no-enqueue path free of per-reference queue checks.\n\t\t\t\t2. Dynamic Array (dyn)\n\t\t\t\tThe intrusive linked list traversed during reference processing exhibits poor cache locality: each element is a WeakReference object scattered across the heap, and following the discovered chain requires loading a new cache line per reference. The dyn mechanism replaces this list with a contiguous ZWeakRefArray allocated on the C heap. References are appended during discovery in O(1) amortised time; during processing the array is iterated sequentially with index-based access, keeping references in L1/L2 cache. The array retains capacity between cycles to avoid reallocations when the reference population is stable.\n\t\t\t\tA secondary benefit is that field data can be pre-loaded during discovery and stored inline in each array entry, enabling the clear path optimisation described next.\n\t\t\t\t3. Optimised Clear Path (clear_path)\n\t\t\t\tThe standard ZGC path for clearing a referent performs three operations: a load barrier to read the referent, a virtual call to determine the reference type, and a CAS via a ZGC barrier to atomically set the field to a coloured null. For queue-less weak references, all three can be simplified:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tLoad barrier eliminated. When combined with dyn, the referent address and value are pre-loaded at discovery time and stored in the array entry. No additional heap loads are needed at processing time.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVirtual call eliminated. The reference type is statically known at the call site.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCAS replaced with a plain store. The only concurrent application-level operations on a referent field are clearing or enqueueing it (both set it to null), so an atomic CAS can be replaced with a direct store without correctness risk.\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tThese three simplifications interact constructively: individually they reduce non-strong processing time by 7% (clear_path_only) and 36% (dyn_only), but together in clear_path_dyn they achieve an 81% reduction — far larger than the sum of their individual contributions. The superadditivity arises because the dynamic array removes the pointer-chasing bottleneck that would otherwise persist when the CAS is eliminated, and the pre-loaded data lets the clear logic run without any barrier overhead.\n\t\t\t\t4. Weak Fields (weak_fields)\n\t\t\t\tThe three pipeline optimisations accelerate the processing of WeakReference's , but the WeakReference objects themselves remain on the heap and must be marked, promoted, and relocated across every GC cycle. The weak_fields mechanism takes a different approach: rather than wrapping a weak pointer in a separate object, weak semantics is expressed directly as a field annotation.\n\t\t\t\t// Instead of:\npublic class Cache {\n    private final WeakReference<Value> entry;\n}\n\n// With the @weak annotation:\npublic class Cache {\n    private @weak Value entry;\n}\n\t\t\t\t\n\t\t\t\tThe @weak annotation is recognised by the class-file parser and stored in fieldInfo metadata. At GC time, ZGC's marking closure checks each reference field against its fieldInfo entry and, if the field is annotated @weak, diverts it to a per-worker ZWeakFieldArray rather than treating it as a strong reference. After marking, weak fields whose referents are unreachable are nulled via a CAS.\n\t\t\t\tBenchmark Design\n\t\t\t\tTwo custom microbenchmarks target the reference-processing pipeline under ZGC:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSingle-object benchmark. 20 million holder objects each contain either a WeakReference or an @weak field pointing to a single shared target. After a randomised setup (Fisher-Yates shuffle), the strong reference to the target is released and System.gc() is called, concentrating the entire weak-reference load into one GC cycle and maximising non-strong processing time.\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tMulti-object benchmark. 2 million objects with variable-size byte-array payloads are paired with holder objects. Strong references are released in five 20%-rounds with a System.gc() after each round, spreading reference processing across multiple cycles.\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tBoth benchmarks use -XX:+UseZGC, a 100 GB heap, and -XX:InitialTenuringThreshold=1 to promote objects quickly to the old generation where ZGC discovers and processes references. Each variant ran 250 measurement iterations on an exclusive AMD EPYC 9454P node (48 cores, 768 GiB RAM) on the UPPMAX Pelle supercomputer cluster, with four parallel instances pinned via taskset to isolated CPU sets to avoid inter-instance interference.\n\t\t\t\tResults\n\t\t\t\tNon-Strong Reference Processing Time\n\t\t\t\tThe metric most directly targeted by the optimisations is Concurrent Process Non-Strong, the wall-clock duration of ZGC's concurrent reference-processing phase.\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tSingle-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\tMulti-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone (baseline)\n\t\t\t\t\t\t\t996.9 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\t44.1 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tsep_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t943.8 ms\n\t\t\t\t\t\t\t−5 %\n\t\t\t\t\t\t\t44.1 ms\n\t\t\t\t\t\t\t0 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tdyn_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t639.1 ms\n\t\t\t\t\t\t\t−36 %\n\t\t\t\t\t\t\t27.5 ms\n\t\t\t\t\t\t\t−38 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t923.7 ms\n\t\t\t\t\t\t\t−7 %\n\t\t\t\t\t\t\t41.5 ms\n\t\t\t\t\t\t\t−6 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_dyn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t187.9 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−81 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18.8 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−57 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t184.4 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−81 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18.7 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−57 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t484.6 ms\n\t\t\t\t\t\t\t−51 %\n\t\t\t\t\t\t\t35.8 ms\n\t\t\t\t\t\t\t−19 %\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tThe clear_path_dyn and all variants are the clear leaders. The sep_only variant shows that the enqueueing stage itself is not the dominant bottleneck: routing queue-less references away from the ReferenceHandler thread has negligible effect on processing time in these queue-less benchmarks. However, it should reduce pending-list traversal in the ReferenceHandler thread and might improve branch prediction in the processing step for workloads with a mix of queue-less and queue-registered references.\n\t\t\t\tTotal GC Collection Time\n\t\t\t\tThe 81% reduction in the targeted phase translates to a more modest improvement in total major collection time, because non-strong processing accounts for only 14.7% of baseline major-collection time in the single-object benchmark and 4.5% in the multi-object benchmark. Furthermore, these improvements should be taken with a grain of salt as the distributions of total collection time overlap substantially across variants, only the weak_fields variant shows a clear separation from the baseline.\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tSingle-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\tMulti-object median\n\t\t\t\t\t\t\tvs. baseline\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t6 958 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\t982 ms\n\t\t\t\t\t\t\t—\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t6 377 ms\n\t\t\t\t\t\t\t−8 %\n\t\t\t\t\t\t\t967 ms\n\t\t\t\t\t\t\t−2 %\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t4 136 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−41 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t708 ms\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t−28 %\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tweak_fields reduces major collection time by 41% and old-generation time by 37% in the single-object benchmark (28% and 31% in the multi-object benchmark). This improvement spans every phase - concurrent mark, relocate, young generation - because eliminating millions of WeakReference objects from the heap reduces the GC workload across the board, not only in the reference-processing phase.\n\t\t\t\tMemory Usage\n\t\t\t\tThe dynamic array incurs a meaningful auxiliary GCr memory cost in the single-object benchmark, where 20 million entries are live simultaneously:\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tVariant\n\t\t\t\t\t\t\tAuxiliary GCr memory (single-object, median max)\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnone\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t120 MB\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tdyn_only\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t308 MB (+157%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tclear_path_dyn\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t1 268 MB (+957%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t884 MB (+637%)\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tweak_fields\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t446 MB (+272%)\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tIn the multi-object benchmark the absolute numbers are smaller (292 MB baseline) and the relative overheads contract sharply, because the reference population is smaller.\n\t\t\t\t\n\t\t\t\t\tall saves ~30% of auxiliary GCr memory over clear_path_dyn by not needing to store the reference address in each array entry (the skip-enqueue separation routes queue-less references to a separate list, so the address field is not needed there) making it the more attractive pipeline variant overall.\n\t\t\t\tJava heap occupancy is essentially identical across all WeakReference variants (~1 720 MB in the single-object benchmark). weak_fields reduces this to 806 MB (−53%), directly reflecting the absence of the WeakReference objects.\n\t\t\t\tKey Takeaways\n\t\t\t\tThe results suggest that weak-reference overhead behaves more like a representation problem than a pipeline problem. Reducing it meaningfully appears to require reconsidering how weak semantics is encoded in the language, not merely how the resulting objects are processed once they have been allocated.\n\t\t\t\tThe clear_path_dyn and all combinations demonstrate that a carefully designed interaction between cache-friendly data structures and simplified per-reference logic can achieve large reductions in the targeted phase. Yet even an 81% reduction only an 8% reduction in collection time under conditions engineered to maximise it. The @weak field annotation, by contrast, eliminates the objects responsible for that overhead from every phase of every cycle, delivering 41% major-collection-time savings and 53% heap savings in the single-object benchmark.\n\t\t\t\tThis finding is consistent with how weak semantics is implemented across the broader language ecosystem. Go's weak.Pointer, C++'s std::weak_ptr, and .NET's WeakReference<T> all treat weak reachability and cleanup notification as separate concerns. The @weak annotation brings Java's callback-less weak-reference cost closer to that model.\n\t\t\t\tThe weak_fields implementation currently touches 27 files (compared to at most 10 for the most complex pipeline variant) and remains a prototype. Several paths forward are described in the thesis, including integration of one or more pipeline variants into the OpenJDK project.\n\t\t\t\t\n\t\t\t\tThe thesis is available at Uppsala University's DiVA portal. The full codebase is a fork of OpenJDK with all four mechanisms implemented as source-file overlays under patches/, together with build and benchmarking scripts. The complete measurement dataset is published on Zenodo.\n\t\t\t\tI would like to extend my sincere thanks to Stefan Johansson and Tobias Wrigstad for their guidance throughout the project, and to everyone at the Oracle Stockholm office for their support and generosity in sharing their expertise.",
-    "url": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Fredrik Hammarberg (guest)",
-    "pubDate": "2026-06-11T00:00:00.000Z",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
-    "title": "A Bootiful Podcast: Spring Security lead Rob Winch answers some security questions for me",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apach",
-    "aiSummary": "제공해주신 기사 본문은 기술적인 내용이나 특정 프로젝트에 관한 정보가 아니라 Broadcom 사의 저작권 정책 및 상표권 관련 고지 사항으로 구성되어 있습니다. 따라서 별도의 기사 핵심 내용을 요약할 정보가 포함되어 있지 않습니다.",
-    "cleanContent": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.",
-    "url": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
-    "title": "Spring Cloud 2025.0.3 (aka Northfields) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. Y",
-    "aiSummary": "Spring Cloud 2025.0.3 버전인 Northfields가 정식 출시되었습니다. 이번 릴리스는 Spring Cloud 2025.0.x 라인의 마지막 오픈 소스 버전이며 2026년 6월 30일에 오픈 소스 지원이 종료될 예정입니다. 해당 버전은 Spring Boot 3.5.15를 기반으로 하며 Maven Central을 통해 배포됩니다.\n\n주요 변경 사항으로는 Spring Cloud Gateway에서의 CVE-2026-47825 취약점 해결을 포함하여 빈 경로 접두사 지원 추가와 MVC ProxyExchange의 URI 템플릿 관측 가능성 개선이 포함되었습니다.\n\n이번 업데이트에는 Spring Cloud Bus, Spring Cloud Openfeign, Spring Cloud Circuitbreaker, Spring Cloud Kubernetes, Spring Cloud Function 등 다수의 모듈이 포함되었습니다. 상세한 모듈별 버전 정보는 릴리스 노트를 통해 확인할 수 있으며 Maven 또는 Gradle을 통해 프로젝트 의존성에 반영할 수 있습니다.",
-    "cleanContent": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.0.3 Release Train is available today. The release can be found in Maven Central. You can check out the 2025.0.3 release notes for more information.\nNotable Changes in the 2025.0.3 Release Train\nThis will be the final open source release of the Spring Cloud 2025.0.x release train.  Open source support for SPring Cloud 2025.0.x will end on June 30th, 2026.\nThis release is based on Spring Boot 3.5.15.\nSpring Cloud Gateway\n\nFix for CVE-2026-47825\nAdd support for empty path prefixes (#3201)\nMVC ProxyExchange provides observability of URI template (#3458)\n\nThe following modules were updated as part of 2025.0.3:\n\n\n\nModule\nVersion\nIssues\n\n\n\n\nSpring Cloud Bus\n4.3.2\n(issues)\n\n\nSpring Cloud Openfeign\n4.3.3\n(issues)\n\n\nSpring Cloud Circuitbreaker\n3.3.3\n(issues)\n\n\nSpring Cloud Kubernetes\n3.3.3\n(issues)\n\n\nSpring Cloud Function\n4.3.4\n(issues)\n\n\nSpring Cloud Task\n3.3.2\n(issues)\n\n\nSpring Cloud Stream\n4.3.3\n(issues)\n\n\nSpring Cloud Starter Build\n2025.0.3\n(issues)\n\n\nSpring Cloud Vault\n4.3.3\n(issues)\n\n\nSpring Cloud Commons\n4.3.3\n(issues)\n\n\nSpring Cloud Netflix\n4.3.3\n(issues)\n\n\nSpring Cloud Consul\n4.3.3\n(issues)\n\n\nSpring Cloud Gateway\n4.3.5\n(issues)\n\n\nSpring Cloud Zookeeper\n4.3.3\n(issues)\n\n\nSpring Cloud Config\n4.3.4\n(issues)\n\n\nSpring Cloud Build\n4.3.4\n(issues)\n\n\nSpring Cloud Contract\n4.3.4\n(issues)\n\n\n\nAs always, we welcome feedback on GitHub, on Gitter, on Stack Overflow, or on Twitter.\nTo get started with Maven with a BOM (dependency management only):\n\n<dependencyManagement>\n    <dependencies>\n        <dependency>\n            <groupId>org.springframework.cloud</groupId>\n            <artifactId>spring-cloud-dependencies</artifactId>\n            <version>2025.0.3</version>\n            <type>pom</type>\n            <scope>import</scope>\n        </dependency>\n    </dependencies>\n</dependencyManagement>\n<dependencies>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-config</artifactId>\n    </dependency>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\n    </dependency>\n    ...\n</dependencies>\n\nor with Gradle:\nbuildscript {\ndependencies {\nclasspath \"io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE\"\n}\n}\n\n\n\napply plugin: \"io.spring.dependency-management\"\n\ndependencyManagement {\nimports {\nmavenBom 'org.springframework.cloud:spring-cloud-dependencies:2025.0.3'\n}\n}\n\ndependencies {\ncompile 'org.springframework.cloud:spring-cloud-starter-config'\ncompile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'\n...\n}",
-    "url": "https://spring.io/blog/2026/06/11/spring-cloud-2025-0-3-aka-northfields-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/11/spring-cloud-2025-1-2-aka-oakwood-has-been-released",
-    "title": "Spring Cloud 2025.1.2 (aka Oakwood) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.2 Release Train is available today. The release can be found in Maven Central. Y",
-    "aiSummary": "Spring Cloud 2025.1.2 정식 버전인 Oakwood가 출시되어 Maven Central을 통해 배포되었습니다. 이번 업데이트는 Spring Boot 4.0.7과 호환되며 Spring Boot 4.1.0에 대한 지원을 새롭게 추가하였습니다.\n\n주요 변경 사항으로는 Spring Cloud Kubernetes에서 Fabric8 디스커버리를 listers로 이전하고 서비스 레이블 필터링 기능을 개선하였습니다. Spring Cloud Config는 S3 버킷의 멀티 다큐먼트 YAML 파일에서 부정 프로파일 처리를 지원하며, Spring Cloud Gateway는 CVE-2026-47825 보안 취약점을 해결하고 StripContextPath 필터 추가 및 바디 필터 코덱 인코딩 커스터마이징 기능을 도입하였습니다.\n\n이 외에도 Spring Cloud Netflix, Spring Cloud Stream, Spring Cloud Consul, Spring Cloud Circuitbreaker를 포함한 총 17개의 모듈이 5.0.x 버전대로 업데이트되었습니다. 사용자는 Maven 또는 Gradle을 통해 BOM을 설정하여 프로젝트에 적용할 수 있습니다.",
-    "cleanContent": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.2 Release Train is available today. The release can be found in Maven Central. You can check out the 2025.1.2 release notes for more information.\nNotable Changes in the 2025.1.2 Release Train\nSpring Cloud 2025.1.2 is compatible with Spring Boot 4.0.7 and introduces compatibility for Spring Boot 4.1.0.\nSpring Cloud Kubernetes\n\nMove Fabric8 discovery to listers (#2133)\nAdd support for spring.cloud.kubernetes.discovery.service-labels filter in Fabric8ServicesListSupplier\nenhancement (#1965)\n\nSpring Cloud Config\n\nHandle negated profiles in S3 bucket multi-document YAML files (#3225)\n\nSpring Cloud Gateway\n\nFix for CVE-2026-47825\nAdds StripContextPath filter (#4089)\nEnable body filter codec encoding customization via CodecCustomizer (#4151)\n\nThe following modules were updated as part of 2025.1.2:\n\n\n\nModule\nVersion\nIssues\n\n\n\n\nSpring Cloud Netflix\n5.0.2\n(issues)\n\n\nSpring Cloud Stream\n5.0.2\n(issues)\n\n\nSpring Cloud Config\n5.0.4\n(issues)\n\n\nSpring Cloud Consul\n5.0.2\n(issues)\n\n\nSpring Cloud Circuitbreaker\n5.0.2\n(issues)\n\n\nSpring Cloud Starter Build\n2025.1.2\n(issues)\n\n\nSpring Cloud Build\n5.0.2\n(issues)\n\n\nSpring Cloud Gateway\n5.0.2\n(issues)\n\n\nSpring Cloud Bus\n5.0.2\n(issues)\n\n\nSpring Cloud Contract\n5.0.3\n(issues)\n\n\nSpring Cloud Vault\n5.0.2\n(issues)\n\n\nSpring Cloud Task\n5.0.2\n(issues)\n\n\nSpring Cloud Function\n5.0.3\n(issues)\n\n\nSpring Cloud Kubernetes\n5.0.2\n(issues)\n\n\nSpring Cloud Commons\n5.0.2\n(issues)\n\n\nSpring Cloud Openfeign\n5.0.2\n(issues)\n\n\nSpring Cloud Zookeeper\n5.0.2\n(issues)\n\n\n\nAs always, we welcome feedback on GitHub, on Gitter, on Stack Overflow, or on Twitter.\nTo get started with Maven with a BOM (dependency management only):\n\n<dependencyManagement>\n    <dependencies>\n        <dependency>\n            <groupId>org.springframework.cloud</groupId>\n            <artifactId>spring-cloud-dependencies</artifactId>\n            <version>2025.1.2</version>\n            <type>pom</type>\n            <scope>import</scope>\n        </dependency>\n    </dependencies>\n</dependencyManagement>\n<dependencies>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-config</artifactId>\n    </dependency>\n    <dependency>\n        <groupId>org.springframework.cloud</groupId>\n        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\n    </dependency>\n    ...\n</dependencies>\n\nor with Gradle:\nbuildscript {\ndependencies {\nclasspath \"io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE\"\n}\n}\n\n\n\napply plugin: \"io.spring.dependency-management\"\n\ndependencyManagement {\nimports {\nmavenBom 'org.springframework.cloud:spring-cloud-dependencies:2025.1.2'\n}\n}\n\ndependencies {\ncompile 'org.springframework.cloud:spring-cloud-starter-config'\ncompile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'\n...\n}",
-    "url": "https://spring.io/blog/2026/06/11/spring-cloud-2025-1-2-aka-oakwood-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/connect-your-redis-index-to-ai-agents-with-redisvl-mcp/",
-    "title": "Connect Your Redis index to AI agents with RedisVL MCP",
-    "summary": "If you already use Redis for search, retrieval, or application memory, the RedisVL MCP is a practical next step: making that data available to agents without rebuilding your integration for every fram",
-    "aiSummary": "RedisVL MCP는 Redis를 검색, 데이터 검색 또는 애플리케이션 메모리로 활용하는 환경에서 데이터를 AI 에이전트와 손쉽게 연결할 수 있도록 지원하는 도구입니다. 이 기술을 도입하면 각 프레임워크마다 별도의 통합 과정을 거치지 않고도 Redis 내의 인덱싱된 데이터를 AI 에이전트가 직접 활용할 수 있게 됩니다.\n\n기존에는 팀 단위로 인덱싱된 데이터를 에이전트에 연동하는 과정에서 반복적인 통합 작업이 수반되어 개발 효율성이 저하되는 문제가 있었습니다. RedisVL MCP는 이러한 복잡한 과정을 간소화하여 개발자가 범용적인 표준 인터페이스를 통해 효율적으로 데이터를 연결하도록 돕습니다.\n\n결과적으로 RedisVL MCP를 사용하면 데이터 아키텍처를 그대로 유지하면서도 최신 AI 에이전트 기능을 빠르게 적용할 수 있습니다. 이는 복잡한 설정 없이도 Redis에 저장된 방대한 데이터를 AI 모델의 문맥으로 제공하여 더욱 지능적이고 정확한 응답을 생성하는 환경을 구축하는 데 기여합니다.",
-    "cleanContent": "If you already use Redis for search, retrieval, or application memory, the RedisVL MCP is a practical next step: making that data available to agents without rebuilding your integration for every framework.\n\nAs teams connect indexed data to agents, th...",
-    "url": "https://redis.io/blog/connect-your-redis-index-to-ai-agents-with-redisvl-mcp/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Vishal Bala",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/m-26-14-memorandum",
-    "title": "From M-21-31 to M-26-14: What US government agencies need to know now",
-    "summary": "M-26-14 sets a new compliance baseline for cybersecurity logging, shifting to a risk-based, outcome-driven approach. Agencies operating with distributed, open, and AI-powered platforms like Elastic ar",
-    "aiSummary": "미국 정부의 새로운 사이버 보안 지침인 M-26-14는 기존의 M-21-31을 대체하며 보안 로그 기록에 대한 새로운 준수 기준을 제시합니다.\n\n이번 지침은 단순한 형식적 준수를 넘어 위험 기반의 성과 중심적 접근 방식을 강조합니다.\n\nElastic과 같이 분산형 환경과 AI 기반 플랫폼을 운영하는 기관들은 이러한 새로운 요구 사항을 보다 효율적으로 충족할 수 있는 유리한 위치를 확보하고 있습니다.",
-    "cleanContent": "M-26-14 sets a new compliance baseline for cybersecurity logging, shifting to a risk-based, outcome-driven approach. Agencies operating with distributed, open, and AI-powered platforms like Elastic are better positioned to meet the requirements.",
-    "url": "https://www.elastic.co/blog/m-26-14-memorandum",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Chris Townsend",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem ",
-    "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-    "aiSummary": "OpenAI는 유럽 연합의 AI 콘텐츠 투명성 실행 강령을 지지하며 이를 위한 노력을 지속하고 있습니다. AI가 생성한 콘텐츠의 출처를 명확히 파악할 수 있도록 관련 표준과 기술 도구를 발전시켜 신뢰할 수 있는 AI 생태계를 조성하는 데 기여하고자 합니다.",
-    "cleanContent": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-    "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/bbva",
-    "title": "BBVA puts AI at the core of banking with OpenAI",
-    "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-    "aiSummary": "BBVA가 전 세계 은행 서비스의 디지털 전환을 가속하기 위해 OpenAI와 전략적 파트너십을 체결했습니다.\n\n이번 협력을 통해 BBVA는 ChatGPT Enterprise를 도입하여 전 세계 10만 명의 임직원에게 생성형 AI 도구를 제공하고 업무 환경에 통합했습니다.\n\n이를 계기로 BBVA는 AI 기술을 은행의 핵심 운영 전략으로 삼고, 기술 혁신을 통해 금융 서비스 전반의 생산성과 고객 경험을 개선하는 데 집중할 계획입니다.",
-    "cleanContent": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-    "url": "https://openai.com/index/bbva",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/openai-to-acquire-ona",
-    "title": "OpenAI to acquire Ona",
-    "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-    "aiSummary": "OpenAI가 기업용 워크플로우 전반에서 장기간 구동되는 AI 에이전트를 구현하기 위해 Ona를 인수합니다. 이번 인수를 통해 OpenAI는 자사의 Codex 모델을 강화할 예정입니다. 특히 보안이 확보된 지속적인 클라우드 환경을 통합함으로써, AI 모델이 복잡한 작업을 보다 안정적이고 연속적으로 수행할 수 있도록 지원할 계획입니다.",
-    "cleanContent": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-    "url": "https://openai.com/index/openai-to-acquire-ona",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/mlx-performance",
-    "title": "Ollama's highest performance on Apple Silicon yet with MLX",
-    "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
-    "aiSummary": "Ollama가 Apple Silicon 환경에서 최상의 성능을 낼 수 있도록 MLX 엔진을 업데이트하였습니다. 이번 개선을 통해 모델의 응답 품질이 향상되었으며, 처리 속도가 더욱 빨라졌습니다. 또한 메모리 사용 효율성까지 개선되어 전반적인 실행 성능이 최적화되었습니다.",
-    "cleanContent": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
-    "url": "https://ollama.com/blog/mlx-performance",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
-    ]
-  },
-  {
-    "id": "/blog/bun-rust-rewrite-prisma-compute",
-    "title": "We put Bun's Rust rewrite in production on Prisma Compute",
-    "summary": "Why Prisma Compute's public beta runs on Bun's Rust rewrite canary: the memory and connection-pool failures we hit on stable Bun, and what changed.",
-    "aiSummary": "Prisma Compute는 서비스의 공개 베타 환경에서 기존의 안정화된 Bun 대신 Bun의 Rust 기반 재작성 버전인 canary 버전을 도입하여 운영하고 있습니다.\n\n해당 결정은 기존 안정화 버전의 Bun을 사용하던 중 발생한 메모리 관리 문제와 커넥션 풀 장애를 해결하기 위한 조치입니다.\n\nRust로 재작성된 버전은 이러한 기술적 한계를 극복하고 더 높은 시스템 안정성을 제공하며 Prisma Compute의 인프라 효율성을 높이는 데 기여하고 있습니다.",
-    "cleanContent": "Why Prisma Compute's public beta runs on Bun's Rust rewrite canary: the memory and connection-pool failures we hit on stable Bun, and what changed.",
-    "url": "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "/blog/prisma-next-performance-benchmark",
-    "title": "Prisma Next is 50% faster than Prisma 7 | Benchmark",
-    "summary": "Prisma Next reaches about 50% higher peak throughput than Prisma 7 and holds latency low under load, closing most of the gap to the raw pg driver while keeping Prisma's type-safe, model-first workflow",
-    "aiSummary": "Prisma Next는 Prisma 7 대비 최대 처리량에서 약 50퍼센트 향상된 성능을 기록했습니다.\n\n이번 업데이트를 통해 높은 부하 상황에서도 낮은 지연 시간을 안정적으로 유지하는 성과를 거두었습니다. 결과적으로 Prisma 고유의 타입 세이프 및 모델 퍼스트 워크플로우를 그대로 유지하면서도 raw pg driver와의 성능 격차를 대부분 해소했습니다.",
-    "cleanContent": "Prisma Next reaches about 50% higher peak throughput than Prisma 7 and holds latency low under load, closing most of the gap to the raw pg driver while keeping Prisma's type-safe, model-first workflow.",
-    "url": "https://www.prisma.io/blog/prisma-next-performance-benchmark",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-cache-friendly-cpp-jonathan-mueller",
-    "title": "CppCon 2025 Cache-Friendly C++ -- Jonathan Müller",
-    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
-    "aiSummary": "CppCon 2026의 개최가 발표된 가운데 주최 측은 지난 행사의 인기 강연인 Jonathan Müller의 Cache-Friendly C++ 영상을 공개하였습니다.\n\n해당 강연은 C++ 프로그래밍에서 왜 std::vector<T>를 기본 컨테이너로 선택해야 하는지 그 이유를 캐시 효율성 측면에서 설명합니다.\n\n강연은 CPU 캐시의 필요성과 그 작동 원리, 그리고 성능 최적화를 위해 CPU가 사용하는 예측 기술과 그 한계를 다룹니다.\n\n프로그램의 구조 설계 과정에서 발생할 수 있는 성능 저하를 방지하기 위해 캐시 친화적인 자료 구조와 데이터 중심 설계를 적용하는 방법, 그리고 개발자가 흔히 빠지기 쉬운 함정을 피하는 실무적인 가이드를 제공합니다.",
-    "cleanContent": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some of the top-rated talks from last year's conference. Here’s another CppCon talk video we hope you will enjoy – and why not register today for CppCon 2026!\nCache-Friendly C++\n\t\n\t\tby Jonathan Müller\n\n\n\tSummary of the talk:\n\n\t\n\t\tWhen you need a container, pick std::vector＜T＞ by default. This is because std::vector＜T＞ is cache-friendly.\n\t\t\n\t\tWhat does that mean, though?\n\t\t\n\t\tThis talk will answer that from the ground-up. We will cover the need for CPU caches and their consequences, how the CPU tricks to make them as seamless as possible, and when and why those tricks sometimes fail. This means that you need to be careful when structuring your program to avoid slowdowns. We will thus explore cache-friendly data structures, data-oriented design, and how to avoid common pitfalls.",
-    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-cache-friendly-cpp-jonathan-mueller",
-    "category": "프로그래밍 언어",
-    "source": "ISO C++",
-    "author": "Blog Staff",
-    "pubDate": "Wed, 10 Jun 2026 22:01:18 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "C++"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/jun/10/dsf-2026-fundraising-goals/",
-    "title": "DSF 2026 Fundraising Goals",
-    "summary": "Django has grown far beyond a web framework. It powers businesses, nonprofits, startups, educational institutions, and critical infrastructure around the world. The Django Software Foundation exists t",
-    "aiSummary": "DSF는 2026년도 연간 모금 목표액을 기존 30만 달러에서 50만 달러로 상향 조정했습니다. 이번 목표는 Django 생태계의 지속 가능성을 확보하고, Django Fellows 프로그램 운영 및 커뮤니티 지원 활동을 강화하기 위한 것입니다.\n\n현재 DSF의 가장 큰 예산 항목은 Django Fellows 프로그램으로, 이들은 티켓 분류와 코드 리뷰, 릴리스 관리 및 보안 문제 해결 등 Django 유지보수에 필수적인 역할을 수행하고 있습니다. 이번 모금액 증액은 이러한 핵심 활동을 유지하는 동시에, 프로젝트의 장기적인 운영을 이끌 전문적인 Executive Director를 채용하기 위한 재원을 마련하는 데 목적이 있습니다.\n\n재원 확보를 위해 DSF는 새로운 Sponsored Fellow 기업 멤버십 티어와 기존의 기업 멤버십, 개인 기부, 고용주 매칭 기부, GitHub Sponsors 등 다양한 후원 방식을 적극 권장하고 있습니다. 특히 새로 도입된 Sponsored Fellow 티어는 기업이 특정 Django Fellow의 활동을 직접 후원하고 그에 상응하는 홍보 혜택을 받는 방식으로, Django에 의존하는 대규모 조직들의 참여를 유도하고 있습니다.\n\nDSF는 모금 현황과 운영 예산을 투명하게 공개하고 있으며, 이번 목표 달성이 단순히 규모 확장을 넘어 Django 프로젝트의 안정성과 지속적인 발전을 위한 필수적인 과정임을 강조합니다. 향후 커뮤니티의 폭넓은 지원을 통해 Django가 전 세계 개발자들에게 안정적인 프레임워크로 남을 수 있도록 노력할 것입니다.",
-    "cleanContent": "Django has grown far beyond a web framework. It powers businesses, nonprofits, startups, educational institutions, and critical infrastructure around the world. The Django Software Foundation exists to support that ecosystem, and none of that work is possible without funding. This year, the board set an ambitious new fundraising goal, and I want to be transparent about what we are aiming for and why it matters.\nBefore talking about where we want to go, it's important to recognize that everything the DSF does today is possible because of the organizations and individuals who already support Django. Their contributions fund the work that keeps Django healthy, secure, and sustainable, and we are deeply grateful for that support. \nOur 2026 Goal: $500,000\nThis year, we are raising our annual fundraising goal from $300,000 to $500,000.\nThat is a meaningful increase, and it reflects where the foundation needs to be. To reach this goal, we need to raise an additional $16,000 per month in recurring support.\nReaching this goal will require both new supporters and increased support from existing donors. Doing so will help us maintain the programs the community relies on while creating room for future growth.\nWhat the Money Funds\nBefore asking for support, it is only fair to explain where the money goes.\nThe largest line item in our budget is the Django Fellows program. Our three Fellows dedicate their time to triaging tickets, reviewing pull requests, managing releases, handling security issues, and doing the essential work that keeps Django moving forward. Without sustained funding, we cannot maintain this program.\nBeyond the Fellows, the DSF:\nManages the Django trademark and legal protections  \nFunds the infrastructure that keeps djangoproject.com and related services running  \nProvides grants to DjangoCon events around the world, including DjangoCon US, DjangoCon Europe, and DjangoCon Africa  \nFunds regional Django Days, sprints, and community events  \nSupports Django Girls events through grants  \nInvests in community programs like Djangonaut Space\nTaken together, $500,000 in annual funding would allow us to sustain our three Fellows, maintain operational support for the DSF, create a clear path to hiring an Executive Director, and expand our ability to support the Django ecosystem at scale.\nHiring an Executive Director\nFor most of its history, the DSF has been powered almost entirely by volunteers, with board members handling fundraising, grants, trademarks, and operations on top of their day jobs. That commitment has carried the foundation a long way, but it also limits how much we can take on.\nThat is why we are working toward hiring an Executive Director this year. An Executive Director would give the foundation dedicated, day-to-day leadership: someone who can build lasting relationships with sponsors, grow our fundraising programs, strengthen support for our volunteers and working groups, and turn the board's long-term plans into steady progress.\nWe are optimistic about what this role would unlock. With dedicated operational support, the DSF could pursue larger partnerships, launch new programs, and respond more quickly to the community's needs. Reaching our fundraising goal is a key part of making that a reality.\nWays to Support Django\nSponsored Fellow: The Highest-Impact Way to Support Django\nThis year, the DSF is introducing a Sponsored Fellow corporate membership tier, a new way for organizations to make a direct, visible investment in Django's future.\nAs a Sponsored Fellow sponsor, your company directly funds one of the Django Fellows who keep the framework running every day. In return, you receive the highest level of recognition the DSF offers. Depending on the partnership, that can include your company's logo and information featured in Django release announcements, recognition through the Fellows' work at conferences and community events, advertising opportunities across DSF communications, and visibility across DSF publications and promotional materials throughout the year.\nDjango releases reach tens of thousands of developers. The Fellows represent Django at DjangoCon events around the world. If you want your company's name and logo in front of the global Django community, this is the most direct path to get there.\nThis tier is designed for organizations that depend on Django at scale and want to do more than write a check. It is a partnership, and we will work with you to make sure your sponsorship is visible and meaningful.\nTo learn more or start a conversation about the Sponsored Fellow tier, reach out through our Contact the DSF page.\nCorporate Membership\nCorporate membership is a proven way for organizations to support the DSF. Tiers range from Bronze at $2,000 per year up to Platinum at $150,000 per year. Member organizations receive recognition on djangoproject.com, benefits in our community channels, and the knowledge that they are directly funding the framework their teams depend on.\nTo learn more or get started, visit djangoproject.com/foundation/corporate-membership/.\nIndividual Donations\nIndividual donations add up. Whether it is a one-time gift or a small monthly contribution, every bit helps us reach our monthly target and plan ahead with more confidence.\nYou can donate via our donate page or through Open Collective, which we added last year to make recurring donations easier.\nEmployer Donation Matching\nMany companies offer donation matching programs that can double or even triple the impact of an individual contribution. If your employer has a matching program, the DSF is typically eligible. Check with your HR or finance team and put that benefit to work.\nGitHub Sponsors\nWe have also raised our GitHub Sponsors goal to $15,000 per month to better reflect the level of ongoing support Django needs. We are currently over $9,000 per month, so we are well on our way, but there is still ground to cover. If you already sponsor Django through GitHub, thank you. If you have been thinking about it, now is a great time to start.\nThanks to all our existing sponsors and donors, Django has been able to sustain community initiatives over the past several years.\nSpread the Word\nIf you cannot contribute financially right now, you can still help by spreading the word. Share this post. Mention Django's funding needs the next time someone asks how to give back to open source. Tell your employer about corporate membership.\nA Note on Transparency\nWe publish monthly balance snapshots in our board minutes. The foundation started 2026 with around $222,000 in operating reserves. We take stewardship of those funds seriously, and you should always be able to see where we stand. Those reserves help ensure continuity of operations and provide financial stability for the foundation's ongoing commitments.\nLooking Ahead\nA significant portion of our funding comes directly from the community through individual donations, memberships, sponsorships, and fundraising campaigns. That ongoing support is one of the clearest signals that Django still matters to the people who build with it every day, and we are deeply grateful for it.\nEvery Django release, security advisory, ticket review, and mentoring interaction represents countless hours of work from people who care deeply about the framework and community. The DSF exists to make sure that work remains sustainable and that contributors have the support they need to keep Django healthy for everyone who depends on it.\nRaising our goal is not about growth for growth's sake. It is about stability, sustainability, and making sure the project, the Fellows, and the broader community have what they need for the years ahead.\nWe believe $500,000 is achievable. If you have ever benefited from Django, professionally or personally, now is a great time to give back.\nThank you for being part of this community.",
-    "url": "https://www.djangoproject.com/weblog/2026/jun/10/dsf-2026-fundraising-goals/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jeff Triplett",
-    "pubDate": "Wed, 10 Jun 2026 15:00:00 -0500",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Django",
-      "Python"
     ]
   }
 ]
