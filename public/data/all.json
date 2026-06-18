@@ -1,5 +1,198 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_126",
+    "title": "Visual Studio Code 1.126",
+    "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.126 Insiders 버전이 공개되었습니다. 이번 업데이트에는 주요 기능 개선과 함께 사용자 편의성을 높이기 위한 다양한 변경 사항이 포함되었습니다. 개발자는 공식 웹사이트의 전체 문서를 통해 세부적인 업데이트 내용과 새롭게 추가된 기능들을 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_126",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-24T17:00:00.000Z",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary",
+    "title": "Watch the Teaser for 'The Story of PHP' Documentary",
+    "summary": "CultRepo has released a teaser for The Story of PHP, a JetBrains-sponsored documentary featuring Taylor Otwell, Fabien Potencier, Nikita Popov, and more.\nThe post Watch the Teaser for 'The Story of PH",
+    "aiSummary": "CultRepo가 JetBrains의 후원을 받아 제작 중인 다큐멘터리 The Story of PHP의 티저 영상을 공개하였습니다.\n\n해당 다큐멘터리에는 Taylor Otwell, Fabien Potencier, Nikita Popov 등 PHP 생태계에서 중요한 역할을 하는 인물들이 대거 출연합니다. \n\n이번 영상은 PHP 언어의 역사와 발전 과정을 다루며 개발자들 사이에서 큰 관심을 모으고 있습니다.",
+    "url": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Thu, 18 Jun 2026 17:01:23 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+    "title": "Copilot-authored pull requests now included in author searches",
+    "summary": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own…\nT",
+    "aiSummary": "GitHub의 풀 리퀘스트 검색 기능이 개선되어 이제 Copilot cloud agent가 사용자를 대신하여 작성한 풀 리퀘스트도 검색 결과에 포함됩니다. \n\n기존에는 사용자가 직접 생성한 내역만 확인 가능했으나, 이제는 author:@me와 같은 검색 명령어를 사용하면 Copilot이 작성한 풀 리퀘스트까지 한꺼번에 조회할 수 있게 되었습니다. 이러한 변화를 통해 개발자는 GitHub 상에서 본인이 관여한 모든 작업 흐름을 더욱 효율적으로 추적하고 관리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 16:24:05 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+    "title": "Repository switcher generally available in global navigation",
+    "summary": "You can now quickly jump between repositories without leaving your current page. The new repository switcher in the global navigation is generally available. Select the chevron next to the repository…",
+    "aiSummary": "GitHub의 글로벌 내비게이션 바에 새로운 리포지토리 스위처 기능이 정식으로 도입되었습니다.\n\n이제 사용자는 현재 작업 중인 페이지를 벗어나지 않고도 리포지토리 이름 옆에 있는 꺽쇠 아이콘을 클릭하여 다른 리포지토리로 빠르게 이동할 수 있습니다. 이번 업데이트를 통해 사용자들은 여러 프로젝트 간을 더욱 효율적으로 전환하며 작업 흐름을 개선할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 16:23:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/improving-ray-serve-llm-on-gke-throughput-latency/",
+    "title": "Scaling Ray Serve LLM on GKE: Performance without losing the developer experience",
+    "summary": "Developers looking for LLM inference and model serving often turn to Ray Serve, a scalable model serving library with developer-friendly, Python-native APIs built by Anyscale. Combined with Google Kub",
+    "aiSummary": "Google Cloud는 Anyscale과의 파트너십을 통해 GKE 환경에서 Ray Serve를 활용한 LLM 추론 성능을 획기적으로 개선했다고 발표했습니다. 이번 최적화를 통해 이전 대비 최대 5배의 처리량 증가와 8배의 지연 시간 감소를 달성했습니다.\n\n성능 개선을 위해 도입된 핵심 아키텍처 변화는 세 가지입니다. 첫째, Ray Serve에 HAProxy를 통합하여 내부 요청 라우팅과 부하 분산을 효율화하고 Python 런타임의 과부하를 방지합니다. 둘째, 직접 토큰 스트리밍 아키텍처를 도입하여 토큰이 ingress 라우터를 거치지 않고 모델 복제본에서 직접 전송되도록 함으로써 지연 시간을 줄였습니다. 셋째, vLLM을 위한 v2 Ray executor 백엔드를 개선하여 Ray를 데이터 평면에서 분리하고 비동기 스케줄링을 활성화했습니다.\n\n이러한 기술적 진보는 NVIDIA HGX B200 시스템 기반의 Google Cloud A4 VM 및 Gemma 4 E2B 모델 테스트에서 입증되었습니다. 실험 결과, 새로운 Ray Serve는 기존보다 월등한 확장성을 보여주었으며 vLLM을 네이티브로 실행하는 것과 유사한 수준의 고성능을 구현했습니다.\n\n개발자는 Ray 2.56 버전 이상부터 이러한 향상된 기능을 사용할 수 있습니다. GKE의 Ray Operator 애드온을 함께 활용하면 하드웨어 오케스트레이션, 자동 수평 확장, 모니터링 및 결함 허용 기능을 지원받아 더욱 안정적인 LLM 서비스 운영이 가능합니다. 이로써 개발자는 Ray의 유연한 생태계와 Kubernetes의 강력한 인프라 성능을 동시에 누릴 수 있게 되었습니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/improving-ray-serve-llm-on-gke-throughput-latency/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Spencer Peterson"
+      ],
+      "title": [
+        "Software Engineer, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
+    "title": "Actions: Build custom images from custom images",
+    "summary": "Custom images for GitHub-hosted runners are getting new capabilities that give you more flexibility over how you compose and manage your image-generation pipelines. You can now build custom images on…",
+    "aiSummary": "GitHub Actions에서 제공하는 GitHub-hosted runners용 커스텀 이미지 구축 기능이 더욱 강화되었습니다. 이번 업데이트를 통해 사용자들은 이제 다른 커스텀 이미지를 기반으로 새로운 이미지를 생성할 수 있게 되었습니다.\n\n이러한 변화는 이미지 생성 파이프라인의 구성과 관리 방식에 있어 더 높은 유연성을 제공합니다. 개발자들은 기존에 구축해 둔 커스텀 이미지를 템플릿처럼 활용하여 환경 설정을 효율적으로 확장하고 최적화할 수 있습니다. 결과적으로 복잡한 빌드 환경을 구축해야 하는 작업에서 시간과 리소스를 절약할 수 있는 환경이 마련되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 15:32:44 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5203",
+    "title": "Announcing TypeScript 7.0 RC",
+    "summary": "Today we are excited to announce the Release Candidate of TypeScript 7.0! If you haven’t been following TypeScript 7.0’s development, this release is significant in that it is built on a completely ne",
+    "aiSummary": "Microsoft가 TypeScript 7.0의 Release Candidate 버전을 공개했습니다. 이번 버전은 기존 TypeScript 코드베이스를 완전히 새로운 기반으로 재작성했다는 점에서 매우 큰 의미를 지닙니다. 지난 1년간 개발팀은 기존 TypeScript 코드베이스를 새로운 환경으로 포팅하는 작업을 진행해 왔으며, 이번 RC 버전을 통해 그 결과물을 선보이게 되었습니다. 이번 업데이트는 TypeScript의 기술적 토대를 근본적으로 개선하여 향후 더 나은 개발 경험과 성능을 제공할 것으로 기대됩니다.",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/",
+    "category": "프로그래밍 언어",
+    "source": "TypeScript Blog",
+    "author": "Daniel Rosenwasser",
+    "pubDate": "Thu, 18 Jun 2026 14:31:17 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "TypeScript",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
+    "title": "Safer pull_request_target defaults for GitHub Actions checkout",
+    "summary": "The pull_request_target event is one of the most commonly misused triggers in GitHub Actions, leading to vulnerabilities in workflows. Workflows triggered by pull_request_target run with the base repo",
+    "aiSummary": "GitHub Actions에서 pull_request_target 이벤트는 워크플로우 취약점을 유발하는 가장 대표적인 오용 사례 중 하나입니다. 해당 이벤트로 실행되는 워크플로우는 기본 저장소의 GITHUB_TOKEN과 비밀 값을 참조할 수 있어 보안상 위험이 따릅니다.\n\n이번 업데이트를 통해 GitHub는 checkout 액션의 기본 설정을 더욱 안전하게 개선하였습니다. 사용자가 의도치 않은 권한 상승이나 코드 실행 문제를 겪지 않도록 환경을 보완하고 보안 지침을 강화한 것입니다. 개발자는 앞으로 워크플로우 구성 시 더욱 엄격해진 기본값을 활용하여 저장소의 안전성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 14:06:55 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/ship-ai-with-laravel-give-your-ai-agent-live-web-search",
+    "title": "Ship AI with Laravel: Give Your AI Agent Live Web Search",
+    "summary": "The agent can answer from our knowledge base, but not about things that change by the minute like shipping delays. In this episode we add the WebSearch tool so the agent can pull live information from",
+    "aiSummary": "Laravel 기반의 AI 에이전트가 고정된 지식 데이터베이스를 넘어 실시간 정보를 활용할 수 있도록 WebSearch 도구를 통합하는 방법을 설명합니다.\n\n기존의 AI 에이전트는 배송 지연과 같이 수시로 변하는 정보를 파악하는 데 한계가 있었습니다. 이를 해결하기 위해 WebSearch 도구를 도입하여 에이전트가 실시간으로 웹 데이터를 수집할 수 있는 기능을 구현합니다.\n\n특히 보안을 강화하기 위해 신뢰할 수 있는 도메인만을 허용하는 화이트리스트 기능을 적용하여 안전한 정보 검색 환경을 조성합니다. 이를 통해 Laravel 환경에서 더욱 유연하고 정확한 응답을 제공하는 AI 에이전트를 구축할 수 있습니다.",
+    "url": "https://laravel-news.com/ship-ai-with-laravel-give-your-ai-agent-live-web-search?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Harris Raftopoulos",
+    "pubDate": "Thu, 18 Jun 2026 13:04:07 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91314",
+    "title": "Coding Agent Horror Stories: The 13-Hour AWS Outage",
+    "summary": "In Part 1, we walked through six categories of AI coding agent failures and why they keep happening. The agent runs as you, with your filesystem permissions and your credentials, and nothing sits betw",
+    "aiSummary": "AI 코딩 에이전트가 사용자의 권한과 자격 증명을 그대로 사용하여 셸 명령을 직접 실행할 때 발생하는 위험성을 다루고 있습니다. \n\n에이전트의 결정과 실제 시스템 실행 사이에 어떠한 통제 장치도 존재하지 않는 구조적 취약점으로 인해 예상치 못한 대규모 장애가 발생할 수 있음을 경고합니다. \n\n특히 13시간 동안 지속된 AWS 장애 사례는 AI 에이전트가 가진 접근 권한의 오남용이 인프라 수준에서 얼마나 파괴적인 결과를 초래할 수 있는지를 극명하게 보여줍니다.\n\n이러한 문제들은 AI가 파일 시스템에 대한 완전한 접근 권한을 가질 때 더욱 심각해지며, 코드 생성 과정에서 발생하는 오류가 물리적인 클라우드 자원 관리까지 영향을 미칠 수 있다는 점을 시사합니다.",
+    "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-13-hour-aws-outage/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jennifer Kohl",
+    "pubDate": "Thu, 18 Jun 2026 13:00:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "title": "Improving health intelligence in ChatGPT",
+    "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+    "aiSummary": "GPT-5.5 Instant 모델이 도입됨에 따라 ChatGPT의 건강 및 웰니스 관련 정보 제공 능력이 대폭 향상됩니다. 해당 모델은 더욱 강화된 추론 능력과 문맥 파악 기능을 갖추어 사용자의 건강 질문에 대해 보다 정확한 답변을 제시합니다.\n\n또한 의학 전문가들의 검토를 거친 평가 체계를 적용하여 정보의 신뢰성을 높였으며, 이전보다 명확하고 이해하기 쉬운 방식으로 정보를 전달합니다. 이를 통해 사용자는 자신의 건강 관련 고민에 대해 더욱 정교하고 안전한 수준의 지능형 응답을 기대할 수 있게 되었습니다.",
+    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 18 Jun 2026 11:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
     "title": "Generated release notes credit you for Copilot pull requests",
     "summary": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release…\nThe p",
@@ -13,6 +206,55 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+    "aiSummary": "연구진이 희귀 유전 질환을 앓고 있는 아동들의 진단을 돕기 위해 OpenAI의 추론 모델을 활용했습니다.\n\n이 연구를 통해 기존의 진단 방법으로 해결되지 않았던 사례들 중에서 18건의 새로운 질환을 성공적으로 밝혀냈습니다. 이는 AI가 복잡한 유전적 데이터를 분석하여 의학적 난제를 해결하는 데 중요한 역할을 할 수 있음을 시사합니다.",
+    "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 18 Jun 2026 08:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
+    "title": "Agent Factory Recap:  100X engineering with AI agents in Google Antigravity 2.0",
+    "summary": "In this episode of the Agent Factory, I sat down with Rody Davis, one of Google’s top agentic engineers. We dive into the massive shift from traditional IDEs to agent-first platforms, the reality of c",
+    "aiSummary": "Agent Factory 에피소드에서는 Google의 엔지니어 Rody Davis와 함께 AI 에이전트 중심의 개발 환경으로의 전환과 100배 높은 생산성을 달성하는 전략을 논의합니다. Google Antigravity 2.0은 기존 IDE에서 벗어나 독립형 에이전트 관리자, CLI, SDK, 특화 IDE로 구성된 에이전트 우선 플랫폼으로 진화했습니다. 이는 개발자가 단일 작업 공간에 구속되지 않고 각기 다른 구조의 프로젝트를 유연하게 관리할 수 있도록 지원합니다.\n\nRody Davis는 엔지니어의 영향력을 확장하고 인지적 피로를 줄이기 위해 AI 에이전트를 활용하여 테스트 코드 작성, 프로토타입 개발, 반복적인 작업 등을 자동화합니다. 특히 기술 문서나 디자인 시스템을 압축된 정보로 전달하는 스킬 시스템을 통해 에이전트의 정확도와 속도를 높입니다. 또한 MCP 서버를 활용해 외부 도구와의 연동성을 극대화하며, 복잡한 아키텍처 대신 상태와 UI 및 데이터가 명확히 분리된 단순한 구조를 유지하여 에이전트의 작업을 효율적으로 제어하는 방식을 강조합니다.\n\n코드 리뷰 측면에서는 작업의 성격에 따라 전략을 달리합니다. 마케팅 사이트와 같은 결과물은 시각적 확인에 집중하지만 백엔드 로직은 API 계약과 스키마를 엄격히 검토하며, 개발자가 초기 패턴을 직접 작성해 에이전트가 이를 학습하도록 유도합니다. 또한 개발 효율을 높이기 위해 특정 작업에 최적화된 macOS Finder 확장 기능을 직접 제작하거나, Gemma 4를 활용해 오프라인에서 개인 웹사이트의 콘텐츠 추천 기능을 구현하는 등 능동적인 도구 활용 사례를 제시합니다.\n\n기술적 시연을 통해 Antigravity 2.0은 다중 에이전트를 병렬로 가동하여 DevOps와 QA 기능을 포함한 풀스택 애플리케이션을 단번에 구축하는 능력을 입증했습니다. 마지막으로 미래 기술 전망에 관해 Rody Davis는 2026년까지 비기술적 창업자가 Vibe Coding만으로 서비스를 출시할 수 있게 되겠으나, 코드베이스의 관리 상태가 AI 도입의 핵심 병목 현상이 될 것이라고 경고합니다. 결론적으로 에이전트 엔지니어링 시대에는 코드베이스를 정교하게 다듬는 아키텍처적 절제력과 에이전트를 조율하는 능력이 더욱 중요해집니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shir Meir Lador"
+      ],
+      "title": [
+        "Head of AI Engineering, Google Cloud Developer Relations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 07:00:00 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -109,6 +351,86 @@
     "tags": [
       "Node.js",
       "JS"
+    ]
+  },
+  {
+    "id": "/blog/vulnerability/june-2026-security-releases?1781755200000",
+    "title": "Thursday, June 18, 2026 Security Releases",
+    "summary": "The Node.js Project(UPDATE 2026-06-18) Security releases available\nUpdates are now available for the 26.x, 24.x, 22.x Node.js release lines for the\nfollowing issues.\nThis security release includes the",
+    "aiSummary": "Node.js 프로젝트는 2026년 6월 18일, 주요 보안 취약점을 해결하기 위한 업데이트를 발표했습니다. 이번 보안 업데이트는 Node.js 22.x, 24.x, 26.x 릴리스 라인에 공통적으로 적용되며, 의존성 패키지인 llhttp, nghttp2, openssl, undici의 버전 업데이트를 포함합니다.\n\n주요 취약점 내용은 다음과 같습니다.\n\nNode.js WebCrypto 구현상의 정수 오버플로로 인한 서비스 거부(DoS) 취약점(CVE-2026-48933)이 발견되었습니다. 또한, 유니코드 점 구분 기호 처리에 따른 TLS 와일드카드 인증 우회 문제(CVE-2026-48618)와 HTTP/2 클라이언트에서의 메모리 부족 오류(CVE-2026-48619) 등 다수의 보안 결함이 보고되었습니다.\n\n이외에도 ERR_PROXY_TUNNEL 오류 메시지를 통한 프록시 자격 증명 유출(CVE-2026-48615), 권한 모델 우회 문제(CVE-2026-48617, CVE-2026-48935, CVE-2026-48936), HTTP/2 세션 종료 오류(CVE-2026-48937), 대소문자 구분 문제로 인한 mTLS 권한 우회(CVE-2026-48928), C-문자열 절단으로 인한 호스트 이름 재바인딩(CVE-2026-48930), TLS 호스트 식별 우회(CVE-2026-48934), HTTP 응답 큐 오염(CVE-2026-48931) 등 다양한 보안 이슈가 해결되었습니다.\n\n이번 패치를 통해 최고 심각도 등급인 HIGH를 포함한 여러 보안 위협이 개선되었습니다. 각 릴리스 라인별 최신 버전은 Node.js 22.23.1, 24.17.1, 26.3.2입니다. 시스템 보안을 위해 사용 중인 환경을 해당 버전으로 즉시 업데이트할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Thu, 18 Jun 2026 04:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/lattice-describe-inertia-uis-in-php",
+    "title": "Lattice: Describe Inertia UIs in PHP",
+    "summary": "Lattice is a server-driven UI framework for Laravel that lets you define pages, forms, and tables in PHP and renders them as typed React components over Inertia.\nThe post Lattice: Describe Inertia UIs",
+    "aiSummary": "Lattice는 Laravel 환경에서 사용할 수 있는 서버 주도형 UI 프레임워크입니다.\n\n이 프레임워크를 활용하면 개발자는 페이지와 폼, 그리고 테이블과 같은 요소들을 PHP 코드로 직접 정의할 수 있습니다. 정의된 요소들은 Inertia를 통해 타입이 지정된 React 컴포넌트로 렌더링되어 사용자에게 제공됩니다.",
+    "url": "https://laravel-news.com/lattice-describe-inertia-uis-in-php?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Thu, 18 Jun 2026 01:29:10 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
+    "title": "Building the Agentic SOC: A new model for financial services",
+    "summary": "As AI-powered threats accelerate, financial institutions are evolving toward agentic security operations. Unified data, contextual intelligence, and operational resilience are becoming foundational to",
+    "aiSummary": "AI 기반의 보안 위협이 급격히 증가함에 따라 금융 기관들은 Agentic SOC 모델로의 전환을 가속화하고 있습니다.\n\n미래의 SOC 구축을 위해서는 데이터의 통합, 문맥 기반의 지능형 분석, 그리고 운영상 복원력이 필수적인 핵심 요소로 자리 잡고 있습니다.\n\n금융 분야의 보안 체계는 단순한 대응을 넘어 자율적인 판단과 실행이 가능한 형태로 진화하며 보안 운영의 패러다임을 변화시키고 있습니다.",
+    "url": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Karen Mcdermott",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
+    "title": "Elastic’s no-code and full-code approaches to custom integrations",
+    "summary": "Elastic 9.4 ships two paths for custom integrations: a faster, no-code Automatic Import with multistream support, and Integration Skills, an open agentic toolkit for developers who want full lifecycle",
+    "aiSummary": "Elastic 9.4 버전은 사용자 맞춤형 통합을 위한 두 가지 경로를 제공합니다.\n\n첫 번째는 Automatic Import 기능으로 멀티스트림을 지원하며 코딩 없이도 빠르게 데이터를 통합할 수 있도록 설계되었습니다.\n\n두 번째는 Integration Skills로 이는 개발자가 전체 라이프사이클을 직접 제어할 수 있는 오픈 에이전트 툴킷입니다.\n\n사용자는 자신의 개발 환경과 요구 사항에 맞춰 노코드 방식인 Automatic Import와 풀코드 방식인 Integration Skills 중 하나를 선택하여 활용할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Charles Davison,Hanna Tamoudi",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+    "title": "Use your own language model key in VS Code",
+    "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and ",
+    "aiSummary": "VS Code에서 사용자가 직접 보유한 API Key를 활용하는 BYOK 방식을 통해 다양한 인공지능 모델을 통합할 수 있게 되었습니다.\n\nAzure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter와 같은 주요 클라우드 서비스 제공업체의 모델을 연결하여 사용할 수 있습니다.\n\n또한 Ollama나 Foundry Local 등을 이용해 로컬 환경에서 구동 중인 모델을 연동하는 것도 가능합니다.\n\n이 기능을 활용하면 외부 서비스의 인프라와 본인의 로컬 자원을 효율적으로 조합하여 개발 환경을 최적화할 수 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Kayla Cinnamon",
+    "pubDate": "2026-06-18T00:00:00.000Z",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -1009,6 +1331,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "title": "Securing the future of AI agents",
+    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "aiSummary": "AI 에이전트의 미래를 안전하게 보호하기 위해 전통적인 보안 조치와 실시간 모니터링을 결합한 AI Control Roadmap을 도입해야 합니다.\n\n해당 로드맵은 기업 내부 시스템에 AI 에이전트를 통합하는 과정에서 발생할 수 있는 잠재적 위험을 체계적으로 방어하는 데 중점을 둡니다. 기존의 보안 체계에 실시간 탐지 및 대응 기술을 접목함으로써 AI 에이전트의 운영 안정성을 높이고 보안 사고를 예방하는 것이 핵심입니다.",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 16 Jun 2026 15:46:31 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -6503,6 +6842,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/security-prebuilt-rules-editing",
+    "title": "Elastic Security simplifies customization of prebuilt SIEM detection rules",
+    "summary": "Learn about the prebuilt rule editing capabilities that allow you to get even more value from out-of-the-box SIEM detection rules.",
+    "aiSummary": "Elastic Security가 제공하는 기본 SIEM 탐지 규칙에 대한 편집 기능을 통해 사용자는 보안 환경에 맞춰 규칙을 더욱 정교하게 최적화할 수 있습니다.\n\n이번 업데이트를 통해 보안 운영 팀은 사전 구축된 규칙을 그대로 사용하는 것에 그치지 않고, 조직의 구체적인 위협 모델과 인프라 특성에 맞게 규칙을 수정하여 오탐지를 줄이고 탐지 정확도를 향상시킬 수 있습니다.\n\n결과적으로 이러한 유연한 사용자 정의 기능을 활용하여 보안 관리자는 SIEM 솔루션에서 더 높은 가치를 창출하고, 더욱 효율적인 보안 모니터링 체계를 구축할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/security-prebuilt-rules-editing",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Kseniia Ignatovych",
+    "pubDate": "Tue, 15 Apr 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "Tailwind CSS v4.1: Text shadows, masks, and tons more",
     "title": "Tailwind CSS v4.1: Text shadows, masks, and tons more",
     "summary": "I wasn't sure it would ever happen but we did it — we released a version of Tailwind CSS that includes text shadow utilities. Tailwind CSS v4.1 is here and it's packed with improvements that will help",
@@ -6900,6 +7255,22 @@
     "tags": [
       "Flask",
       "Python"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
+    "title": "5 ways search can modernize digital experiences in public sector",
+    "summary": "Customer experience (CX) is a growing field in the public sector. Offices like Technology Transformation Services are charged with designing and delivering a digital government with and for the public",
+    "aiSummary": "공공 부문의 디지털 전환을 가속화하고 신뢰를 회복하기 위해 CX 전략 전문가들은 검색 기술을 핵심 도구로 활용해야 합니다. 공공 기관의 디지털 환경을 개선하기 위한 다섯 가지 주요 검색 전략은 다음과 같습니다.\n\n첫째, 웹사이트 검색 기능을 고도화하여 시민들이 원하는 정보를 빠르게 찾을 수 있도록 해야 합니다. 자동 크롤러를 통한 인덱스 관리, 오타 수정 및 동의어 처리 알고리즘, 자연어 처리와 Vector search를 결합한 머니 러닝 기반의 개인화 서비스가 필수적입니다.\n\n둘째, 검색 데이터를 분석하여 셀프 서비스 환경을 구축해야 합니다. 사용자가 어떤 키워드를 검색하고 어떤 결과를 클릭하는지 분석하면 운영 효율성을 극대화할 수 있으며, 이는 대면 업무 대비 비용 절감 효과를 가져옵니다.\n\n셋째, 공공 분야의 전자상거래 경험을 최적화해야 합니다. 위치 정보 기반의 Faceted search나 필터링 기능을 도입하고, 특정 시기에 필요한 정보를 선제적으로 제공하는 큐레이션 기능을 통해 사용자 편의성을 높일 수 있습니다.\n\n넷째, 투명성을 강화하여 정부와 교육 기관에 대한 신뢰를 구축해야 합니다. FOIA와 같은 방대한 공공 기록물 저장소에 자연어 처리와 Vector search를 적용하면 사용자가 문맥을 기반으로 관련 기록을 정확하고 빠르게 탐색할 수 있게 됩니다.\n\n마지막으로, 기업형 검색을 통해 내부 직원의 생산성을 향상해야 합니다. 사내 인트라넷 전반에 걸쳐 문서, PDF, 스프레드시트, wiki 등 다양한 콘텐츠 소스를 통합 검색하게 함으로써 업무 효율을 높이고, 역할 기반 접근 제어를 통해 보안 환경 내에서 정보를 신속하게 공유해야 합니다.\n\nElastic과 같은 검색 플랫폼 솔루션은 이러한 기술적 기반을 제공하여 공공 부문의 디지털 서비스 혁신을 지원합니다.",
+    "url": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Suzzanna Martinez",
+    "pubDate": "Thu, 17 Mar 2022 00:26:42 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
