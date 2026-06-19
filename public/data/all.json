@@ -16,6 +16,133 @@
     ]
   },
   {
+    "id": "https://www.postgresql.org/about/news/pgadmin-4-v916-released-3324/",
+    "title": "pgAdmin 4 v9.16 Released\n",
+    "summary": "The pgAdmin Development Team is pleased to announce the release of pgAdmin 4 version 9.16. This release of pgAdmin 4 includes 64 bug fixes and new features, including fixes for seven security vulnerab",
+    "aiSummary": "PostgreSQL을 위한 관리 도구인 pgAdmin 4 v9.16 버전이 새롭게 출시되었습니다. 이번 업데이트에는 64개의 버그 수정과 함께 7개의 보안 취약점 CVE-2026-12044에서 CVE-2026-12050에 대한 조치가 포함되어 있습니다.\n\n주요 기능 업데이트로는 연결된 서버 색상에 따라 패널과 탭 헤더를 색칠하여 가독성을 높였으며, 비밀번호 재설정 페이지에 로그인 페이지로 돌아가는 링크를 추가하고, 마우스 가운데 클릭으로 탭을 닫는 기능을 지원합니다. 또한 Materialized View 대화 상자에서 TOAST tuple 대상 저장 매개변수를 지원하며, OAuth2 로그인 버튼 아이콘 설정이 자유로워졌습니다.\n\n보안 측면에서는 SQL 인젝션, AI Assistant 트랜잭션 우회, 인증 누락, HTML 인젝션, 크로스 사이트 스크립팅, 오픈 리다이렉트 등 다양한 취약점을 해결하여 시스템 안정성을 강화했습니다.\n\n기타 변경 사항으로는 EDB BigAnimal 클라우드 배포 지원 중단, Electron 및 의존성 라이브러리 업데이트, 이탈리아어 번역 갱신 등이 포함되었습니다. 특히 pgAgent가 공식적으로 지원 종료를 예고함에 따라 사용자들은 향후 6개월 이내에 다른 작업 예약 솔루션으로 마이그레이션할 것을 권장합니다.",
+    "url": "https://www.postgresql.org/about/news/pgadmin-4-v916-released-3324/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Fri, 19 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+    "title": "Upcoming deprecation of Opus 4.6 (fast)",
+    "summary": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date…\nT",
+    "aiSummary": "GitHub는 모든 GitHub Copilot 서비스에서 Opus 4.6 (fast) 모델을 공식적으로 지원 종료합니다.\n\n해당 조치는 Copilot Chat, inline edits, ask and agent modes, code completions 등 모든 GitHub Copilot 환경에 일괄 적용됩니다.\n\nOpus 4.6 (fast) 모델의 서비스 종료 시점은 2026년 6월 29일입니다.",
+    "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 23:58:34 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-lazy-and-fast-ranges-meet-parallelism-in-cpp-daniel-anderson",
+    "title": "CppCon 2025 Lazy and Fast: Ranges Meet Parallelism in C++ -- Daniel Anderson",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "CppCon 2026 개최 소식과 함께 지난 CppCon에서 호평받았던 Daniel Anderson의 강연 내용을 소개합니다.\n\n최신 C++ 표준에 도입된 Ranges와 Parallel Algorithms는 각각 코드의 간결함과 효율적인 병렬 처리를 위해 설계되었습니다. Ranges는 지연 계산을 통해 I/O 효율을 높이고, Parallel Algorithms는 멀티태스킹으로 연산 처리량을 극대화합니다. 그러나 두 기능은 서로 작동 방식이 달라 실제 조합해서 사용하기에는 기술적인 제약이 따릅니다. 특히 많은 Ranges 작업이 순차적인 데이터 처리를 기반으로 설계되어 있어 병렬화에 적합하지 않은 경우가 많습니다.\n\n본 강연에서는 이러한 간극을 해소할 수 있는 최신 라이브러리 설계 기법을 다룹니다. filter, scan, flatten과 같은 작업을 수행하면서도 병렬 처리가 가능한 지연 평가 파이프라인을 구축하는 구체적인 방법을 제시합니다. 이를 통해 코드의 우아함을 유지하면서도 실제 워크로드에서 성능 향상을 이끌어낼 수 있는 실무적인 도구와 사례를 공유합니다. 라이브러리 설계자나 성능 최적화에 관심이 있는 개발자에게 실질적인 통찰을 제공하는 내용입니다.",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-lazy-and-fast-ranges-meet-parallelism-in-cpp-daniel-anderson",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Thu, 18 Jun 2026 22:06:26 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "9c5d4385212a06a322e30ee7f64a694ffd756b6d",
+    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+    "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads.",
+    "aiSummary": "AWS가 AI 추론, 그래픽 작업, 데이터 분석 워크로드를 위해 고성능 GPU 가속을 제공하는 Amazon EC2 G7 인스턴스를 공식 출시합니다. 해당 인스턴스는 NVIDIA RTX PRO 4500 Blackwell Server Edition GPU를 탑재하여 이전 세대 대비 향상된 처리 성능을 제공합니다. 이를 통해 클라우드 환경에서 고사양 연산이 필요한 다양한 작업을 더욱 효율적으로 수행할 수 있게 됩니다.",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "Thu, 18 Jun 2026 21:22:10 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "abebfba02b3b7c0c3c3ed08a23aeb25f8830da3f",
+    "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recur",
+    "aiSummary": "Amazon ECS가 서비스 오토 스케일링의 속도와 정확성을 높이기 위해 새로운 고해상도 메트릭을 도입합니다. 기존의 1분 단위 메트릭보다 더 짧은 주기로 데이터를 수집하여 트래픽 변화에 즉각적으로 대응할 수 있게 되었습니다. \n\n이번 업데이트를 통해 타겟 트래킹 정책에서 더욱 세밀한 데이터 활용이 가능해짐에 따라 워크로드 변동에 맞춰 작업 수를 더 빠르게 조정할 수 있습니다. 결과적으로 애플리케이션의 가용성을 유지하면서도 불필요한 리소스 낭비를 줄여 비용 효율성을 개선합니다. \n\n사용자는 이를 통해 예측 가능한 트래픽 패턴이나 돌발적인 부하 상황에서도 서비스 성능을 안정적으로 확보할 수 있습니다. 고해상도 메트릭은 Amazon CloudWatch와의 연동을 통해 더 정밀한 모니터링과 자동화된 확장 작업을 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "Thu, 18 Jun 2026 21:06:38 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+    "title": "MAI-Code-1-Flash available on more Copilot surfaces",
+    "summary": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI GitHub Copilot app Copilot ",
+    "aiSummary": "Microsoft의 코딩 전용 소형 모델인 MAI-Code-1-Flash의 지원 범위가 GitHub Copilot 전반으로 확대되었습니다.\n\n이제 사용자는 Copilot CLI, GitHub Copilot 앱, 그리고 GitHub상의 Copilot Chat과 Visual Studio 등 다양한 환경에서 MAI-Code-1-Flash를 활용할 수 있습니다. 이번 업데이트를 통해 개발자들은 더욱 최적화된 코드 작성 경험을 여러 개발 도구와 인터페이스에서 일관되게 제공받게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 20:11:24 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+    "title": "Copilot code review: AGENTS.md support and UI improvements",
+    "summary": "Copilot code review now supports repository-level AGENTS.md files, and it’s easier to request a review from Copilot on draft pull requests with the Request button. These changes are all generally…\nThe",
+    "aiSummary": "GitHub Copilot code review 기능이 업데이트되어 이제 리포지토리 수준의 AGENTS.md 파일을 지원합니다. 또한 draft 상태의 pull request에서도 Request 버튼을 통해 Copilot에 리뷰를 요청하는 과정이 더욱 간편해졌습니다. 이러한 개선 사항들은 현재 일반 사용자에게 모두 공개된 상태입니다.",
+    "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 19:11:51 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+    "title": "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
+    "summary": "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this…\nThe p",
+    "aiSummary": "GitHub가 대규모 저장소 관리자의 업무 효율을 높이기 위해 중복 이슈 탐지 기능을 퍼블릭 프리뷰로 공개했습니다. 이 기능은 동일한 버그가 여러 방식으로 제기될 때 이를 식별하고 원본 이슈와 연결하는 과정을 자동화하여 관리자의 수작업 부담을 크게 줄여줍니다.\n\n아울러 GitHub Issues는 MCP 지원을 추가하여 외부 도구와 더욱 원활하게 연동될 수 있도록 개선되었습니다. 이를 통해 개발자는 다양한 시스템에서 GitHub의 이슈 필드에 접근하고 데이터를 효과적으로 관리할 수 있게 되었습니다. 이러한 업데이트는 오픈소스 및 대규모 프로젝트의 유지보수 과정을 간소화하고 협업의 생산성을 높이는 데 기여할 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 18:04:33 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary",
     "title": "Watch the Teaser for 'The Story of PHP' Documentary",
     "summary": "CultRepo has released a teaser for The Story of PHP, a JetBrains-sponsored documentary featuring Taylor Otwell, Fabien Potencier, Nikita Popov, and more.\nThe post Watch the Teaser for 'The Story of PH",
@@ -29,6 +156,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "aiSummary": "OpenAI가 ChatGPT Enterprise를 사용하는 기업 고객을 위해 새로운 사용량 분석 도구와 비용 관리 기능을 출시합니다. 이번 업데이트를 통해 기업들은 AI 활용에 따른 비용을 더욱 체계적으로 추적하고 관리할 수 있게 됩니다. 이를 통해 조직은 예측 가능한 예산 운용이 가능해지며, 안심하고 인공지능 기술을 규모에 맞게 확장할 수 있는 환경을 갖추게 됩니다.",
+    "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Thu, 18 Jun 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -173,6 +317,38 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
+    "title": "Scaling the Next Generation of Global Innovation: How Google Supports Top Startups Around the World",
+    "summary": "In the high-stakes world of tech entrepreneurship, the leap from a brilliant prototype to a scalable, market-defining business can be brutal. Founders need much more than capital; they need deep archi",
+    "aiSummary": "Google은 지난 10년간 자사의 액셀러레이터 프로그램을 통해 전 세계 88개국, 2,011개의 스타트업을 지원하며 강력한 기술 생태계를 구축해 왔습니다. 이 프로그램은 단순한 비즈니스 교육을 넘어 Google의 엔지니어와 제품 관리자가 직접 참여하여 스타트업의 아키텍처 설계와 AI 모델 파이프라인 최적화 등 기술적 난제를 해결하는 데 초점을 맞추고 있습니다. 이를 통해 93퍼센트라는 높은 생존율과 총 1,351억 달러 규모의 포트폴리오 가치를 기록하는 성과를 거두었습니다.\n\n최근 Google은 지정학적 정책 정렬 및 친환경 인프라 구축 등 전략적 분야로 지원 범위를 확장하고 있습니다. 호주와 캐나다에서는 정부 전략과 연계된 성과를 창출하고 있으며, 특히 Google DeepMind와 협력하여 유럽의 AI 로봇 공학 및 아시아 태평양 지역의 생물 다양성 파운데이션 모델 개발에 집중하는 등 첨단 기술 분야를 적극적으로 지원하고 있습니다.\n\n또한 전 세계에 흩어져 있던 졸업 기업들을 통합하여 1,750개 이상의 스타트업과 3,000명의 창업자가 교류할 수 있는 Unified Alumni Community를 결성했습니다. 이를 통해 창업자들은 Google의 고위 리더십 및 최신 기술에 접근하고, 자사 제품 개발에 피드백을 반영하며 서로 협력하는 환경을 갖게 되었습니다. Google은 앞으로도 기술적 확장을 꿈꾸는 창업자들을 위해 국가별 Demo Day 개최와 신규 애플리케이션 모집을 지속할 예정입니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Matt Thompson"
+      ],
+      "title": [
+        "Director, Developer Adoption"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 12:51:00 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -383,6 +559,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgfmt-21-in-place-formatting-and-pg_dump-compatible-output-3321/",
+    "title": "pgfmt 2.1: in-place formatting and pg_dump-compatible output\n",
+    "summary": "pgfmt 2.1 lands two headline features, plus a steady stream of formatting coverage improvements driven by libpgfmt. It is also now installable from a Homebrew tap.\nInstall via Homebrew\nbrew tap gmr/pg",
+    "aiSummary": "PostgreSQL SQL 포맷터인 pgfmt 2.1 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 소스 파일에 직접 서식을 적용하는 in-place 포맷팅 기능과 PostgreSQL의 pg_dump 스타일을 지원하는 것입니다.\n\n사용자는 이제 -i 또는 --inplace 옵션을 사용하여 표준 출력 대신 원본 파일에 직접 포맷팅 결과를 저장할 수 있으며, 이때 파일 권한은 그대로 유지됩니다. 또한 여러 파일을 동시에 처리하는 것도 가능합니다.\n\n새로 추가된 --style pg_dump 옵션은 PostgreSQL의 ruleutils.c deparser 레이아웃과 동일한 형태의 출력을 생성합니다. 이는 pg_get_viewdef나 pg_get_functiondef를 통해 얻은 출력과 일치하며, 실제 데이터베이스에 저장된 값과 마이그레이션 결과물을 비교하는 diff 작업에 매우 유용합니다.\n\n기능적인 측면에서는 libpgfmt를 기반으로 SQL 및 PL/pgSQL에 대한 포맷팅 적용 범위를 대폭 확대했습니다. 특히 기존에 누락되었던 INTERVAL과 같은 타입 지정 문자열 리터럴 처리 문제를 해결하고, 카탈로그 덤프에서 발생하는 뷰와 함수 포맷팅 오류를 수정하여 안정성을 높였습니다.\n\n설치 방식도 간편해져 기존의 cargo install이나 빌드 바이너리 외에도 Homebrew를 통해 쉽게 설치할 수 있습니다. 자세한 변경 사항은 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgfmt-21-in-place-formatting-and-pg_dump-compatible-output-3321/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/06-18-26",
+    "title": "Improvements to Cursor Automations",
+    "summary": "3.8 Jun 18, 2026 · ChangelogImprovements to Cursor AutomationsCursor Automations save you time by automating repetitive tasks with always-on agents. This release introduces the /automate skill, new tr",
+    "aiSummary": "Cursor가 반복적인 작업을 자동화하는 Automations 기능을 대폭 개선했습니다. 이번 업데이트의 핵심인 /automate 기술은 로컬 에이전트 세션에서 사용자가 자연어로 수행하고 싶은 작업을 설명하면 필요한 트리거와 지침, 도구를 Cursor가 직접 설정해 주는 기능을 제공합니다.\n\nSlack 연동 기능이 강화되어 특정 이모지로 메시지에 반응할 경우 자동화가 즉시 실행되도록 설정할 수 있습니다. 또한 GitHub 트리거가 대폭 추가되어 이슈 댓글 작성, PR 리뷰 관련 활동, GitHub Actions 워크플로우 완료 등 다섯 가지 상황에 맞춰 자동화를 시작할 수 있게 되었으며, 이를 지원하기 위한 새로운 템플릿도 Cursor Marketplace에 추가되었습니다.\n\n클라우드 에이전트에는 Computer use 도구가 새롭게 도입되었습니다. 이제 에이전트가 자체적으로 컴퓨터를 사용하여 작업 결과물이나 데모를 생성할 수 있으며, 이는 기본적으로 활성화되어 있습니다.\n\n기타 개선 사항으로 자동화 설정 도중 중단하더라도 진행 상황이 저장되어 추후 다시 작업을 이어갈 수 있습니다. 또한 PR 생성 도구가 기본으로 포함되어 별도의 설정 없이도 에이전트가 PR을 열 수 있으며, UI상에서 메모리 파일을 삭제하거나 자동화 실행 시 오래된 메모리를 삭제하도록 명령하는 기능이 추가되었습니다.",
+    "url": "https://www.cursor.com/changelog/06-18-26",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-18T00:00:00.000Z",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
