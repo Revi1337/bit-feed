@@ -1,5 +1,51 @@
 [
   {
+    "id": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-keith-stockdale-the-journey-to-w4-wx-how-hard-could-it",
+    "title": "BeCPP Symposium 2026 - Keith Stockdale - The journey to \"/W4 /WX\": How hard could it be?",
+    "summary": "BeCPP Symposium 2026 (organized by BeCPP): Now on YouTube!\nKeith Stockdale - The journey to \"/W4 /WX\": How hard could it be?\n\n\n\tAbstract:\n\n\t\n\t\tBuilding on the recent work of improving the quality of S",
+    "aiSummary": "BeCPP Symposium 2026에서 진행된 Keith Stockdale의 발표인 \"The journey to \"/W4 /WX\": How hard could it be?\"가 YouTube에 공개되었습니다. 이번 발표는 10년 동안 개발된 수백만 줄의 Unreal Engine 코드베이스를 가진 게임 Sea of Thieves의 코드 품질을 높이기 위해 C++14에서 C++20으로 업그레이드하고, 경고 수준을 높여 경고를 오류로 처리하는 옵션을 활성화하는 과정을 다룹니다. Rare Ltd의 시니어 소프트웨어 엔지니어인 Keith Stockdale이 이러한 작업을 수행하게 된 동기와 여정을 공유하며 코드 품질 향상의 중요성을 강조합니다.",
+    "url": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-keith-stockdale-the-journey-to-w4-wx-how-hard-could-it",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Marc Gregoire",
+    "pubDate": "Fri, 19 Jun 2026 16:28:08 +0000",
+    "fetchedAt": "2026-06-19T17:28:55.146Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-chris-croft-white-agentic-time-travel-debugging",
+    "title": "BeCPP Symposium 2026 - Chris Croft-White - Agentic Time-Travel Debugging",
+    "summary": "BeCPP Symposium 2026 (organized by BeCPP): Now on YouTube!\nChris Croft-White - Agentic Time-Travel Debugging\n\n\n\tAbstract:\n\n\t\n\t\tTime-travel debugging is a powerful technique to dive deep into the execu",
+    "aiSummary": "BeCPP Symposium 2026에서 발표된 Chris Croft-White의 Agentic Time-Travel Debugging 세션이 YouTube에 공개되었습니다. Time-travel debugging은 애플리케이션의 실행 과정을 정밀하게 추적하여 문제를 신속하게 진단하고 생소한 코드베이스를 이해하는 데 매우 유용한 기술입니다. 최근 AI 도입의 주요 장애물로 지목되는 환각 현상을 해결하기 위해 이 기술과 AI를 결합하는 방안이 제시되었습니다. Time-travel debugging 기술을 AI Agent와 결합하면 에이전트에게 실행 과정의 모든 정보를 제공할 수 있어, 에이전트가 문제 발생 시 스스로 가설을 수립하고 검증하며 발생 원인을 명확히 규명할 때까지 반복 분석을 수행할 수 있습니다.\n\n발표자인 Undo의 Staff Solutions Architect인 Chris Croft-White는 현재 AI가 단순한 코드 생성을 넘어 근본 원인 분석과 결함 해결의 진정한 파트너가 될 수 있도록 돕는 agentic debugging 영역에 집중하고 있으며, 실무 디버깅 워크플로우에 AI를 통합하는 실용적인 접근법을 제시하고 있습니다.",
+    "url": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-chris-croft-white-agentic-time-travel-debugging",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Marc Gregoire",
+    "pubDate": "Fri, 19 Jun 2026 16:24:32 +0000",
+    "fetchedAt": "2026-06-19T17:28:55.146Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+    "title": "AI credits consumed per user now in the Copilot usage metrics API",
+    "summary": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.…\nThe post AI credits co",
+    "aiSummary": "GitHub의 Copilot usage metrics API를 통해 각 사용자가 하루에 소비한 AI credits 정보를 확인할 수 있게 되었습니다. 해당 데이터는 기존 usage-based billing API에서 활용하는 AI credits 소비량 정보와 동일한 데이터를 기반으로 산출됩니다. 이를 통해 관리자는 사용자별 실시간 AI 자원 사용 현황을 보다 정밀하게 파악하고 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 19 Jun 2026 16:23:29 +0000",
+    "fetchedAt": "2026-06-19T17:28:55.146Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=youtrack&p=714100",
     "title": "YouTrack Security Update: Upgrade Required for YouTrack Server",
     "summary": "We’re sharing this update to inform YouTrack administrators about several security vulnerabilities that were recently identified and fixed in YouTrack. For YouTrack Cloud users, this post is purely in",
@@ -883,6 +929,1748 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/cloud-network-insights-end-to-end-cross-cloud-observability/",
+    "title": "Cloud Network Insights: end-to-end observability for the Cross-Cloud Network",
+    "summary": "In today’s digital landscape, the network is no longer confined to a single data center or even a single cloud provider. Enterprises are increasingly adopting cross-cloud strategies, connecting Google",
+    "aiSummary": "Google Cloud는 복잡한 멀티클라우드 및 하이브리드 환경에서 엔드투엔드 가시성을 제공하는 솔루션인 Cloud Network Insights를 공식 출시합니다. Broadcom AppNeta와의 파트너십을 통해 구축된 이 솔루션은 활성 합성 프로빙 기술을 사용하여 사용자의 트래픽 발생 여부와 관계없이 네트워크 경로를 상시 모니터링합니다.\n\n이 솔루션은 Google Cloud Observability 제품군과 직접 통합되어 Google Cloud를 비롯해 AWS, Azure, 온프레미스 데이터 센터 및 인터넷 전반에 걸친 네트워크 성능 정보를 단일 뷰로 제공합니다. 주요 기능은 다음과 같습니다.\n\n네트워크 성능 모니터링은 계층 3 및 4 수준에서 홉별 가시성을 확보하여 왕복 시간, 패킷 손실, 지터 등을 측정합니다. 이를 통해 네트워크 경로상의 병목 지점을 정확히 파악할 수 있습니다.\n\n디지털 경험 모니터링은 계층 7 수준에서 웹 애플리케이션의 사용자 경험을 추적합니다. 실제 브라우저 엔진을 활용한 페이지 로딩 시간 측정이나 HTTP 요청을 통한 서버 가용성 및 DNS 성능 확인이 가능합니다.\n\n지능형 운영을 위해 과거 데이터를 기반으로 한 동적 임계값 설정과 이상 징후 발생 시 Slack, PagerDuty 등으로 전송되는 자동 알림 기능을 지원합니다. 또한 Gemini Cloud Assist와 통합되어 자연어 질의를 통해 네트워크 성능 데이터를 분석하고 문제 해결 시간을 단축할 수 있습니다.\n\nCloud Network Insights는 Monitoring Points라는 경량 소프트웨어 에이전트를 주요 네트워크 구간에 배치하여 운영됩니다. 수집된 데이터는 Google Cloud로 실시간 동기화되며 OpenTelemetry 프로토콜을 지원하여 기존 모니터링 도구와의 상호 운용성을 보장합니다. 이를 통해 기업들은 복잡한 크로스 클라우드 환경에서 운영 복잡성을 줄이고 예방적 최적화 전략을 수행할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/networking/cloud-network-insights-end-to-end-cross-cloud-observability/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Poonam Yadav"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 17 Jun 2026 19:30:00 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026",
+    "title": "Secret scanning updates – June 2026",
+    "summary": "Since our last pattern update, we’ve expanded secret scanning’s detection coverage with new partners, more patterns blocked by push protection by default, additional validity checks, and richer metada",
+    "aiSummary": "GitHub의 Secret scanning 기능이 2026년 6월을 기점으로 더욱 강화되었습니다. 이번 업데이트를 통해 새로운 파트너들과의 협력을 확대하여 탐지 범위를 넓혔으며 Push protection 기능으로 차단되는 패턴의 종류도 증가하였습니다. 또한 유출된 정보에 대한 추가적인 유효성 검사 절차를 도입하고 관련 메타데이터의 상세 정보를 보강하여 보안 대응 능력을 높였습니다. 이를 통해 개발자는 코드 저장소 내의 민감한 정보가 외부로 노출되는 상황을 보다 효과적으로 방지할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 19:23:42 +0000",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+    "title": "Enterprise-managed settings now support bypass permission controls",
+    "summary": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed",
+    "aiSummary": "GitHub가 기업용 관리 설정에 거버넌스 기능을 새롭게 추가하였습니다.\n\n기업 관리자는 enterprise-managed settings.json 파일 내에 disableBypassPermissionsMode 설정을 비활성화 상태로 지정할 수 있습니다. 이를 통해 사용자가 GitHub Copilot CLI나 VS Code 등에서 권한 우회 모드를 사용하는 것을 사전에 방지할 수 있습니다. 해당 기능은 기업 내 보안 정책을 더욱 엄격하게 준수하고 개발 도구에 대한 접근 제어 수준을 높이기 위해 마련되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 17:13:47 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60274",
+    "title": "AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server",
+    "summary": "Diagnose MSBuild build failures and performance issues with AI using the new Microsoft Binlog MCP Server - 15 specialized tools that let your AI assistant investigate binary logs.\nThe post AI-Powered ",
+    "aiSummary": "Microsoft가 MSBuild의 빌드 실패 및 성능 문제를 진단하기 위해 Microsoft Binlog MCP Server를 새롭게 출시하였습니다.\n\n해당 서버는 15가지의 전문화된 도구를 제공하며 이를 통해 AI 어시스턴트가 이진 로그를 심층적으로 분석할 수 있도록 지원합니다.\n\n개발자는 이 도구를 활용하여 복잡한 빌드 과정을 효율적으로 추적하고 문제의 원인을 신속하게 파악할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-mcp-server/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team, Jan Krivanek",
+    "pubDate": "Wed, 17 Jun 2026 17:00:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_125",
+    "title": "Visual Studio Code 1.125",
+    "summary": "Learn what's new in Visual Studio Code 1.125\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.125 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 추가된 다양한 신기능과 개선 사항을 확인할 수 있으며 자세한 변경 내용은 공식 블로그의 전체 기사를 통해 살펴볼 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_125",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-17T17:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "5c0395519cc4bb7cb222916f6a9f1cc174957d0f",
+    "title": "Top announcements of the AWS Summit in New York, 2026",
+    "summary": "A recap of the top announcements from AWS's New York Summit 2026",
+    "aiSummary": "AWS Summit New York 2026에서 발표된 주요 내용을 정리합니다.\n\n이번 행사에서는 AWS의 최신 기술 발전과 클라우드 혁신을 주도하는 전략적 업데이트가 대거 공개되었습니다. 특히 생성형 AI를 엔터프라이즈 환경에 보다 효율적으로 통합하고 관리할 수 있는 새로운 인프라와 서비스 도구들이 핵심으로 다루어졌습니다.\n\n또한 개발자의 생산성을 극대화하기 위한 도구 개선과 더불어 보안 및 데이터 분석 성능을 강화한 클라우드 플랫폼의 기능적 변화가 강조되었습니다. 이번 발표들은 클라우드 네이티브 환경에서 기업들이 더 빠르고 안전하게 디지털 전환을 이룰 수 있도록 지원하는 데 초점을 맞추고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "AWS News Blog Team",
+    "pubDate": "Wed, 17 Jun 2026 16:36:08 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+    "title": "Auto mode in Copilot Chat available for all users",
+    "summary": "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on…\nThe post Auto mode ",
+    "aiSummary": "GitHub Copilot의 자동 모델 선택 기능인 Auto mode가 github.com 및 GitHub 모바일 앱의 모든 Copilot 플랜 사용자를 대상으로 정식 출시되었습니다.\n\n해당 기능을 활성화하면 Copilot은 사용자의 요청이나 작업 환경에 맞춰 가장 적합한 AI 모델을 스스로 판단하여 자동으로 선택합니다. 이를 통해 사용자는 수동으로 모델을 변경할 필요 없이 최적의 성능과 효율성으로 코딩 작업을 수행할 수 있습니다. \n\n이번 업데이트는 모든 GitHub Copilot 요금제 사용자에게 제공되어 모델 선택의 복잡함을 줄이고 개발 생산성을 향상시키는 데 기여합니다.",
+    "url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 16:24:33 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access",
+    "title": "Limit open pull requests for users without write access",
+    "summary": "Maintainers of open source repositories are dealing with an ever-growing volume of pull requests, including repeated low-quality or drive-by contributions that can slow triage and overwhelm review que",
+    "aiSummary": "GitHub가 오픈소스 프로젝트 관리자의 업무 부담을 줄이기 위해 저장소 설정 기능을 업데이트합니다. 앞으로 관리자는 쓰기 권한이 없는 사용자가 생성할 수 있는 오픈 풀 리퀘스트의 개수를 제한할 수 있게 됩니다.\n\n이 기능은 품질이 낮거나 무분별하게 생성되는 풀 리퀘스트로 인해 관리자의 검토 작업이 지연되고 운영 효율이 떨어지는 문제를 해결하기 위해 도입되었습니다. 관리자는 필요에 따라 기여 제한 정책을 설정함으로써 중요한 작업에 집중할 수 있는 환경을 조성할 수 있습니다. \n\n이번 업데이트를 통해 GitHub 저장소 유지보수 팀은 프로젝트 관리의 복잡도를 낮추고 더욱 효율적으로 기여를 검토하고 수용할 수 있게 될 것입니다.",
+    "url": "https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 16:23:56 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
+    "title": "Agent finder for GitHub Copilot now available",
+    "summary": "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot ",
+    "aiSummary": "GitHub Copilot에 새로운 기능인 Agent finder가 도입되었습니다. \n\n기존에는 개발자가 직접 어떤 MCP 서버, 스킬, 캔버스, 에이전트, 도구를 사용할지 일일이 설정해야 했으며 이 과정에서 컨텍스트 윈도우를 불필요하게 차지하는 문제가 있었습니다. \n\n이제 Agent finder를 통해 GitHub Copilot이 작업에 필요한 적절한 도구와 에이전트를 자동으로 식별하고 연결해 줍니다. 이를 통해 개발자는 복잡한 수동 설정 없이도 효율적으로 AI 보조 도구를 활용할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 16:21:56 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "4c24fcdc8f84279cf19adcd9af7c745709c8ab27",
+    "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+    "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Ag",
+    "aiSummary": "Amazon Bedrock이 기업용 RAG 파이프라인 구축을 간소화하기 위해 완전히 관리되는 새로운 Knowledge Base 기능을 발표했습니다.\n\n이 기능은 다양한 데이터 소스를 연결하는 네이티브 데이터 커넥터와 다중 형식 데이터를 자동으로 준비하는 Smart Parsing 기술을 포함하고 있습니다. 또한 복잡한 다단계 쿼리를 처리할 수 있는 Agentic Retriever가 통합되어 있어 검색의 정확도를 높여줍니다.\n\n모든 과정은 AgentCore Gateway와 연결되어 있어 개발자가 인프라 관리 부담을 덜고 비즈니스 성과 창출에 집중할 수 있도록 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "Wed, 17 Jun 2026 15:09:20 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "de6487c2a98aa63becca18998e2eaf30133784c1",
+    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale.",
+    "aiSummary": "AWS Transform은 기술 부채를 자율적으로 관리하고 경감하기 위해 새롭게 공개된 프리뷰 서비스입니다.\n\n이 도구는 코드 저장소를 자동으로 스캔하여 기술 부채를 탐색합니다. 이후 발견된 부채의 우선순위를 체계적으로 지정하고 대규모 환경에서도 이를 효율적으로 개선하는 과정을 지원합니다.\n\n개발팀은 이 서비스를 통해 복잡한 코드 관리 과정을 자동화함으로써 현대화 작업을 지속적으로 수행할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Micah Walter",
+    "pubDate": "Wed, 17 Jun 2026 14:58:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "6261b6e3f0038f8b71e95bf2f91f996b1505a1e9",
+    "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
+    "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and",
+    "aiSummary": "AWS DevOps Agent가 코드 변경 사항을 프로덕션 환경에 배포하기 전 준비 상태를 평가하고 자율적인 릴리스 테스트를 수행하는 릴리스 관리 기능을 프리뷰 형태로 새롭게 선보입니다.\n\n이번 업데이트를 통해 개발자는 코드를 프로덕션 환경으로 배포하기 전에 변경 사항의 안전성을 자동으로 검증받을 수 있습니다.\n\n이러한 자동화된 검토와 테스트 과정은 개발자가 더욱 안전하고 확신을 가진 상태로 소프트웨어를 릴리스할 수 있도록 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Wed, 17 Jun 2026 14:57:34 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "c95df14c0d340b8b3462b012a73af27313033e7a",
+    "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
+    "summary": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP —",
+    "aiSummary": "AWS Security Agent가 STRIDE 기반의 위협 모델링 기능을 새롭게 도입합니다. 이를 통해 개발자는 주요 Git 플랫폼 전반에서 전체 저장소와 PR 코드 스캔을 수행하고 보안 취약점에 대한 수정 제안을 즉시 확인할 수 있습니다.\n\n또한 Kiro power, Claude Code 플러그인, MCP를 통한 IDE 통합 기능을 지원합니다. 이러한 업데이트는 개발자가 작업 환경을 전환하지 않고도 보안 검토와 문제 해결을 효율적으로 수행할 수 있도록 돕습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "Wed, 17 Jun 2026 14:54:55 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49970",
+    "title": "Security advisory: CVE-2026-9740 and CVE-2026-11933 in Percona Server for MongoDB",
+    "summary": "TL;DR: This advisory covers the two most important high-severity memory-safety vulnerabilities affecting MongoDB Community and our downstream Percona Server for MongoDB – CVE-2026-11933 and CVE-2026-9",
+    "aiSummary": "Percona는 MongoDB Community 및 자사가 제공하는 Percona Server for MongoDB에서 발견된 두 가지 고위험 메모리 안전 취약점인 CVE-2026-11933과 CVE-2026-9740에 대한 보안 권고를 발표했습니다.\n\n이번 조치에는 해당 고위험 취약점들을 포함하여 CVE-2026-9753, CVE-2026-9752, CVE-2026-9751, CVE-2026-9750, CVE-2026-9749, CVE-2026-9748, CVE-2026-9747, CVE-2026-9746, CVE-2026-9743, CVE-2026-9741 등 최근 확인된 다수의 취약점들을 해결하기 위한 패치가 포함됩니다.\n\n사용자는 보안 강화를 위해 통합 패치 릴리스가 제공되는 대로 시스템을 업데이트해야 합니다.",
+    "url": "https://www.percona.com/blog/security-advisory-cve-2026-9740-and-cve-2026-11933-in-percona-server-for-mongodb/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Radoslaw Szulgo",
+    "pubDate": "Wed, 17 Jun 2026 14:24:02 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/how-we-cached-laravel-news-at-the-edge-with-fast-laravel",
+    "title": "How We Cached Laravel News at the Edge with Fast Laravel",
+    "summary": "Jason McCreary joined the Laravel Creator Series to walk through how we used his Fast Laravel practices and Cloudflare to cache Laravel News, a high-traffic site whose content changes all day.\nThe pos",
+    "aiSummary": "Jason McCreary는 Laravel Creator Series에 출연하여 Fast Laravel의 방법론과 Cloudflare를 결합해 높은 트래픽이 발생하는 Laravel News 사이트를 엣지에서 캐싱하는 전략을 공유했습니다.\n\n해당 사이트는 실시간으로 콘텐츠가 변화하는 특성을 가지고 있으나, Fast Laravel 기법을 통해 효율적인 캐싱 환경을 구축함으로써 성능을 최적화했습니다. 이는 동적인 콘텐츠가 많은 웹사이트에서 성능과 확장성을 동시에 확보하는 구체적인 실무 사례를 제시합니다.",
+    "url": "https://laravel-news.com/how-we-cached-laravel-news-at-the-edge-with-fast-laravel?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Wed, 17 Jun 2026 14:11:48 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-15-copilot-individual-plan-sign-ups-are-reopening",
+    "title": "Copilot individual plan sign-ups are reopening",
+    "summary": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with…\nThe post Copilot ",
+    "aiSummary": "GitHub가 중단되었던 GitHub Copilot Student, Pro, Pro+, Max 플랜에 대한 신규 구독 신청을 다시 시작합니다. 이번 조치는 향후 몇 주에 걸쳐 순차적으로 진행될 예정입니다. 서비스 구독을 대기하던 사용자들은 단계적으로 신규 가입이 가능해질 전망입니다.",
+    "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 14:10:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=blog&p=711459",
+    "title": "Your JetBrains IDE Expertise, Now on LinkedIn",
+    "summary": "Every developer has tools they rely on daily. The workflows they’ve built around them, the ways they’ve learned to move faster, debug smarter, and write better code – that kind of hands-on experience ",
+    "aiSummary": "JetBrains는 사용자가 자사 IDE를 활용하며 쌓은 개발 역량과 숙련도를 LinkedIn 프로필에 효과적으로 증명할 수 있도록 협업을 시작합니다. 개발자가 일상적으로 사용하는 도구와 그 안에서 구축한 업무 방식, 문제 해결 능력을 시각화하여 경력 정보로 간편하게 등록할 수 있는 기능을 제공합니다. 이를 통해 개발자는 자신의 기술적 전문성을 업계에 더 명확하게 알리고 구직 과정이나 네트워킹에서 실질적인 강점을 확보할 수 있게 됩니다.",
+    "url": "https://blog.jetbrains.com/blog/2026/06/17/your-jetbrains-ide-expertise-now-on-linkedin/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ekaterina Ryabukha",
+    "pubDate": "Wed, 17 Jun 2026 13:11:02 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jun/17/announcing-the-search-for-a-dsf-executive-director/",
+    "title": "Announcing the Search for a DSF Executive Director",
+    "summary": "The Django Software Foundation is hiring its first Executive Director, and we have the Django community to thank for making it possible.\nSix Django web development agencies have jointly pledged $47,50",
+    "aiSummary": "DSF는 재단 운영의 전문성과 지속 가능성을 강화하기 위해 최초로 Executive Director를 채용하기로 결정했습니다. 그동안 자원봉사 형태의 이사회가 운영해 온 재단 업무의 한계를 극복하고, 재단 운영 및 관리, 파트너십 개발, 커뮤니티 소통 등 전반적인 업무를 전담할 전문가를 영입하려는 목적입니다.\n\n이번 채용은 Caktus Group, Lincoln Loop, Six Feet Up, Cuttlesoft, OddBird, Two Rock 등 6개 Django 전문 기업이 총 47,500달러를 공동 후원함으로써 본격화되었습니다. 이들 기업은 Django 생태계의 장기적인 안정성을 확보하고, 프레임워크의 지속적인 발전을 위해 재단에 상근 인력이 필요하다는 점에 뜻을 모았습니다.\n\nDSF는 이번 채용을 시작으로 연간 모금 목표액을 기존 30만 달러에서 50만 달러로 상향 조정하며, 인건비와 재단 운영 비용을 안정적으로 확보하기 위해 추가적인 기업과 커뮤니티 구성원들의 후원을 독려하고 있습니다. \n\n현재 채용 절차를 공식화하고 있으며, 향후 수주 내에 DSF 공식 블로그와 포럼, Discord 등 다양한 채널을 통해 채용 공고를 게시할 예정입니다. 이번 결정은 Django 생태계가 단순한 프레임워크를 넘어 더욱 견고하고 신뢰할 수 있는 기반으로 성장하기 위한 중요한 전환점이 될 것으로 기대됩니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jun/17/announcing-the-search-for-a-dsf-executive-director/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "Wed, 17 Jun 2026 08:00:00 -0500",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/ai-chemist-improves-reaction",
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+    "aiSummary": "OpenAI와 Molecule.one이 협력하여 GPT-4o 기반의 준자율적 AI 화학자를 활용해 의약 화학 분야의 핵심 약물 합성 반응을 개선하는 성과를 거두었습니다. 이번 연구는 AI가 복잡한 화학 실험 설계 및 최적화 과정에 자율적으로 참여하여 신약 개발 연구의 효율성과 정확도를 획기적으로 높일 수 있음을 입증합니다. 이를 통해 향후 의약 화학 연구 현장에서 AI 모델이 실험 수행 과정을 주도하며 난도가 높은 합성 반응을 해결하는 핵심적인 역할을 할 것으로 기대됩니다.",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 17 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=junie&p=713100",
+    "title": "Junie: The JetBrains AI Coding Agent Leaves Beta.",
+    "summary": "Junie started as an experiment. We asked, “What if an AI coding agent didn’t just guess at the details of your project, but actually used the same tools you do?” Over the last year, that experiment tu",
+    "aiSummary": "JetBrains가 개발한 AI 코딩 에이전트인 Junie가 베타 테스트를 마치고 정식 출시되었습니다.\n\nJunie는 단순히 프로젝트의 세부 사항을 추측하는 수준을 넘어 개발자가 사용하는 도구를 직접 활용하며 IDE와 터미널 환경에서 실질적인 작업을 수행하도록 설계되었습니다.\n\n지난 1년간의 실험적인 단계를 거쳐 완성된 Junie는 개발자의 일상적인 코딩 업무를 보조하며 생산성을 높이는 도구로 자리 잡았습니다.\n\n이번 정식 출시를 통해 JetBrains는 더욱 고도화된 AI 기반 개발 경험을 제공할 계획입니다.",
+    "url": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitry Savelev",
+    "pubDate": "Wed, 17 Jun 2026 09:07:19 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
+    "title": "How growing UK midsize businesses are building in the AI era",
+    "summary": "The UK’s 5-million-plus small and midsize businesses and enterprises (SMBs) are the backbone of our economy. Today, we’re seeing these critical businesses begin to put AI to work, to operate more effi",
+    "aiSummary": "영국의 중소기업들이 비즈니스 운영의 효율성을 높이고 생산성을 개선하기 위해 AI 기술을 적극적으로 도입하고 있습니다. Enterprise Nation과 Google이 공동으로 발표한 최근 조사에 따르면 영국 내 AI 도입 기업의 71%가 반복 업무 시간을 단축하고 있으며, 64%는 실질적인 생산성 향상을 경험하고 있다고 응답했습니다. 특히 Google Workspace와 Gemini를 사용하는 기업들은 주당 업무 시간 중 하루 분량에 해당하는 20%의 생산성 향상 효과를 얻고 있습니다.\n\n실제로 Google Cloud의 AI 플랫폼을 활용하는 영국 중소기업의 수는 매년 거의 두 배씩 증가하는 추세입니다. 기업들은 Gemini 모델을 기반으로 고객 지원 시스템 개선, 급여 및 회계 업무 자동화, 데이터 분석 대중화, 마케팅 디자인 제작, AI 에이전트 구축 등 다양한 영역에서 성과를 내고 있습니다.\n\n사례로 핀테크 기업 Neural Alpha는 비정형 보고서 분석에 Gemini를 활용하여 수개월 걸리던 연구 시간을 대폭 단축했습니다. 디지털 보안 업체 Sep 2는 Gemini Enterprise를 통해 24시간 보안 위협을 탐지하는 자율형 AI 에이전트를 운영 중이며, 브랜드 디자인 에이전시 Sunhouse는 사내 아카이브 자료 검색 효율을 높였습니다. 또한 B2B 이벤트 기업 Terrapinn은 NotebookLM, Looker, BigQuery를 통합하여 업무 워크플로우를 자동화하고 있고, 통신 업체 VoCoVo는 분산된 데이터를 실시간 정보로 전환하여 혁신에 집중하고 있습니다.\n\nGoogle Cloud는 영국 중소기업이 AI 시대를 대비할 수 있도록 다양한 무료 교육 자원을 제공합니다. 여기에는 새로운 SMB Learning Path와 에이전트 기반 AI를 위한 GEAR 프로그램이 포함되며, Google Cloud와 Google DeepMind 전문가들이 설계한 3,000개 이상의 AI 강좌와 실습 과정을 통해 조직의 AI 역량 강화를 지원합니다. 또한 기술 멘토링과 자격증 취득 과정을 통해 기업들이 AI 기반의 비즈니스 환경에 적응할 수 있도록 돕고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Maureen Costello"
+      ],
+      "title": [
+        "Vice President, UK, Ireland & Sub-Saharan Africa"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 17 Jun 2026 08:00:00 +0000",
+    "fetchedAt": "2026-06-17T11:59:21.703Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
+    "title": "From AI potential to agentic reality: Driving the UK’s next chapter",
+    "summary": "The United Kingdom, and London in particular, continues to be one of the great hubs for AI development in Europe and the world. We’re home to Google DeepMind, of course, as well as significant AI unic",
+    "aiSummary": "영국은 현재 생성형 AI를 넘어 스스로 추론하고 계획하며 다단계 워크플로우를 실행하는 에이전트형 엔터프라이즈 시대로 진입하고 있습니다. Google Cloud는 커스텀 실리콘과 frontier 모델, 그리고 대규모 인프라를 통합 제공하며 이러한 영국의 AI 경제 전환을 주도하고 있습니다.\n\n금융 분야에서는 HSBC와 다년간의 전략적 파트너십을 체결하여 초개인화된 자산 관리, 금융 범죄 예방, AI 기반 고객 서비스 혁신을 추진합니다. 또한, 스타트업 생태계 지원을 위해 Ineffable Intelligence와 협력하며, 강화 학습을 통한 슈퍼러너 모델 개발을 위해 대규모 GPU 클러스터를 구축하고 있습니다. 이외에도 Deloitte와 협력하여 AI Studio를 설립하고 전문 인력을 양성함으로써 기업들이 실험 단계를 넘어 실제 비즈니스에 AI를 대규모로 도입할 수 있도록 지원합니다.\n\n공공 부문에서는 MHCLG 및 DfT 등과 협력하여 행정 업무 효율을 대폭 개선하고 있으며, 영국 내 데이터 주권 강화를 위해 현지 데이터 처리 기능을 갖춘 Gemini 3.5 Flash 도입을 준비 중입니다. 또한, Google AI Threat Defense 플랫폼을 통해 보안 체계를 강화하고 있습니다.\n\n영국 전역의 기업들 또한 THG Ingenuity, Starling, Rightmove 등 다양한 분야에서 실질적인 성과를 거두고 있습니다. Google Cloud는 50억 파운드 규모의 영국 내 인프라 투자를 지속하고 있으며, 2026년 4분기에는 런던 Platform 37에 The Model Garden을 열어 AI 혁신을 위한 거점으로 활용할 계획입니다.\n\n결론적으로 성공적인 AI 전환을 위해서는 기술 도입뿐만 아니라 조직 문화의 재구성, 책임감 있는 보안 중심의 설계, 그리고 지속 가능한 탄소 중립 에너지 사용이라는 세 가지 핵심 전략이 필요합니다. Google Cloud는 영국이 실험 단계를 지나 산업 규모의 AI 생산 시대로 나아가는 과정에서 핵심 파트너로서의 역할을 지속할 것입니다.",
+    "url": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Maureen Costello"
+      ],
+      "title": [
+        "Vice President, UK, Ireland & Sub-Saharan Africa"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 17 Jun 2026 08:00:00 +0000",
+    "fetchedAt": "2026-06-17T11:59:21.703Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-16-0",
+    "title": "The artisan dev Command in Laravel 13.16.0",
+    "summary": "Laravel 13.16.0 adds an artisan dev command for running development processes, a whenFilledEnum request method, withCookies on all responses, and an array maintenance mode driver for parallel testing.",
+    "aiSummary": "Laravel 13.16.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 개발 프로세스를 효율적으로 실행하기 위한 artisan dev 명령어가 추가된 점입니다.\n\n또한 요청 데이터 처리를 위한 whenFilledEnum 메서드가 도입되었으며 모든 응답에 적용할 수 있는 withCookies 기능이 추가되었습니다. 이와 더불어 병렬 테스트를 원활하게 지원하기 위한 array 형태의 유지보수 모드 드라이버가 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-16-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Wed, 17 Jun 2026 04:33:02 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
+    "title": "FAQ: Real-time context engine, agent memory, and retrieval",
+    "summary": "AI agents are getting better at reasoning, planning, and using tools. But even the smartest model can give a bad answer if it has the wrong context, stale data, or too much irrelevant information.\n\nTh",
+    "aiSummary": "AI 에이전트의 성능이 추론과 도구 활용 측면에서 발전하고 있으나 잘못된 맥락이나 오래된 데이터, 과도하게 불필요한 정보는 여전히 부정확한 답변을 야기합니다. 이를 해결하기 위해 적절한 맥락을 제공하는 컨텍스트 엔지니어링이 필수적인 핵심 요소로 부상하고 있습니다.\n\n특히 실시간 컨텍스트 엔진은 에이전트가 최신 정보를 바탕으로 판단할 수 있도록 지원하며 데이터의 최신성을 유지하는 역할을 합니다. 에이전트 메모리는 과거의 경험이나 상호작용을 기록하여 시간이 지남에 따라 에이전트가 사용자의 선호도나 특정 과업을 더 잘 이해하도록 돕습니다.\n\n검색 기술은 방대한 데이터베이스에서 필요한 정보만을 효율적으로 추출하여 답변의 정확도를 높입니다. 이 세 가지 요소가 유기적으로 결합될 때 에이전트는 제한된 정보 속에서도 최적의 의사결정을 내릴 수 있습니다. 결과적으로 이러한 시스템은 에이전트의 신뢰성을 확보하고 특정 도메인에서의 업무 효율성을 극대화하는 데 중요한 기반이 됩니다.",
+    "url": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Simba Khadder",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T11:33:41.315Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+    "title": "Why a bigger context window won't fix your agent's memory",
+    "summary": "Context windows have grown fast. Models that once capped out at a few thousand tokens now advertise hundreds of thousands, and the natural assumption was that the agent memory problem would shrink as ",
+    "aiSummary": "최근 LLM의 Context window가 비약적으로 확장되면서 모델의 기억력 문제가 자연스럽게 해결될 것으로 기대되었으나 실제로는 그렇지 않습니다. 단순히 프롬프트에 더 많은 데이터를 입력하는 방식은 정보 검색의 정확도를 떨어뜨리는 Lost in the middle 현상을 유발하며 토큰 소비량 증가에 따른 비용과 지연 시간 문제를 야기합니다.\n\n모델이 방대한 문맥 내에서 특정 정보를 찾는 능력은 완벽하지 않으며 데이터가 많아질수록 모델이 중요한 맥락을 놓치거나 부적절한 답변을 생성할 위험이 커집니다. 따라서 단순히 문맥의 크기를 키우는 것만으로는 에이전트의 기억 문제를 해결할 수 없습니다.\n\n이를 보완하기 위해서는 RAG와 같은 외부 지식 저장소 시스템이나 체계적인 메모리 관리 기법이 필수적입니다. 에이전트가 모든 정보를 프롬프트에 담는 대신 필요한 시점에 정보를 추출하여 활용하는 구조적인 접근이 장기적인 기억과 효율적인 작업 수행을 가능하게 합니다.",
+    "url": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+    "title": "Retrieval vs. memory in AI agents: why context layers need both",
+    "summary": "A returning user asks your agent why their bill doubled this month. The agent greets them by name, pulls up last week's billing dispute, and references the workaround your team suggested. Then it conf",
+    "aiSummary": "AI 에이전트가 사용자의 질문에 정확히 대응하기 위해서는 외부 데이터 검색인 Retrieval과 과거 상호작용을 저장하는 Memory라는 두 가지 핵심 요소가 모두 필요합니다. Retrieval은 최신 데이터베이스나 공식 문서 등 정적인 지식에 접근하여 객관적인 정보를 제공하는 역할을 합니다. 반면 Memory는 사용자와의 과거 대화 기록, 개인화된 맥락, 그리고 특정 시점의 의사결정 과정을 보존하여 에이전트가 흐름을 파악하도록 돕습니다.\n\n만약 Retrieval에만 의존할 경우 에이전트는 사용자의 과거 이력이나 진행 중인 분쟁 사례를 알지 못해 기계적이고 단편적인 답변만을 제공하게 됩니다. 반대로 Memory가 부족하면 사용자마다 다른 상황을 구분하지 못해 혼란을 야기할 수 있습니다. 특히 청구서 사례와 같이 복잡한 맥락이 중요한 상황에서 에이전트가 정확한 상담을 수행하려면, 외부 지식 베이스의 최신 정책과 사용자의 고유한 과거 맥락이 결합된 하이브리드 아키텍처가 필수적입니다.\n\n결론적으로 차세대 AI 에이전트는 검색된 데이터의 정확성과 저장된 기억의 연속성을 통합함으로써 사용자에게 개인화된 고품질 서비스를 제공할 수 있습니다. 기술 개발 시 이 두 레이어를 적절히 조율하는 것이 에이전트의 신뢰도를 결정짓는 핵심 전략이 됩니다.",
+    "url": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-life-sci-bench",
+    "title": "Introducing LifeSciBench",
+    "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+    "aiSummary": "LifeSciBench는 AI 시스템이 실제 생명과학 연구 현장에서 수행하는 과제와 의사결정 능력을 평가하기 위해 개발된 새로운 벤치마크입니다. 해당 벤치마크는 분야별 전문가들이 직접 내용을 작성하고 검토하였으며, AI 모델이 복잡하고 전문적인 생명과학 분야의 문제들을 얼마나 효과적으로 해결하는지 측정하는 데 초점을 맞추고 있습니다.",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/cloud-in-agents-window",
+    "title": "Cloud Environment Setup and Cloud Subagents in Agents Window",
+    "summary": "3.7 Jun 17, 2026 · ChangelogCloud Environment Setup and Cloud Subagents in Agents WindowThis release introduces updates to cloud agents in the Agents Window of the Cursor desktop app.\n#Cloud environme",
+    "aiSummary": "Cursor 데스크톱 앱의 최신 업데이트를 통해 클라우드 환경 설정 및 클라우드 서브 에이전트 기능이 추가되었습니다.\n\n클라우드 환경 설정 기능은 10분 이내에 개발 환경을 클라우드에 구축할 수 있도록 지원합니다. 설정 과정은 공유 터미널 세션을 통해 실시간으로 확인할 수 있으며, 완료된 환경은 재사용 가능한 스냅샷으로 저장되어 향후 에이전트 구동 시간을 단축합니다. 환경 정보는 .cursor/environment.json 파일로 팀 내 공유가 가능합니다.\n\n/in-cloud 명령어를 사용하면 별도의 가상 머신에서 작동하는 클라우드 서브 에이전트를 생성할 수 있습니다. 이를 통해 로컬 워크스페이스에 영향을 주지 않고 복잡한 CI 수정이나 코드 분석 같은 장기 작업을 병렬로 수행할 수 있습니다. 특히 /babysit 기능을 활용하면 로컬 세션을 점유하지 않고도 클라우드 에이전트가 알아서 PR 준비 및 병합 과정을 관리합니다.\n\n로컬과 클라우드 간의 세션 전환도 강화되었습니다. 로컬에서 실행 중이던 무거운 작업을 클라우드로 넘겨 백그라운드에서 처리하게 하거나, 클라우드에서 수행 중인 작업을 로컬로 가져와 변경 사항을 직접 테스트할 수 있습니다. 이를 통해 사용자는 리소스 제약 없이 다수의 클라우드 에이전트를 동시에 운용하며 효율적인 개발 흐름을 유지할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/cloud-in-agents-window",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
+    "title": "Elastic named a Leader in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment",
+    "summary": "Elastic was named a 2026 IDC MarketScape Leader for SIEM. See why we were recognized.",
+    "aiSummary": "Elastic이 2026 IDC MarketScape의 전 세계 SIEM 공급업체 평가에서 리더로 선정되었습니다. 이번 평가는 SIEM 시장에서의 기술력과 전략적 역량을 인정받은 결과입니다. Elastic은 검색 및 분석 플랫폼으로서 보안 운영 효율성을 높이고 위협 탐지 및 대응 능력을 강화한 점을 높게 평가받았습니다.",
+    "url": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Natalie Blake",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
+    "title": "Build and Deploy a Remote MCP Server to GKE in 30 Minutes",
+    "summary": "Build and Deploy a Remote MCP Server to GKE in 30 Minutes\nIntegrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address ",
+    "aiSummary": "Anthropic에서 개발한 MCP(Model Context Protocol)는 LLM과 외부 데이터 및 도구를 표준화된 방식으로 연결하기 위한 프로토콜입니다. 기존의 로컬 환경 위주의 실행 방식에서 벗어나 GKE(Google Kubernetes Engine)를 활용하면 원격에서 확장 가능하고 안전한 MCP 서버를 운영할 수 있습니다.\n\nGKE를 통해 MCP 서버를 구축할 경우 얻을 수 있는 주요 이점은 세 가지입니다. 첫째, GKE Autopilot을 통해 트래픽 변화에 따라 서버를 효율적으로 수평 확장할 수 있습니다. 둘째, 중앙 집중식 서버를 운영함으로써 여러 팀과 개발자가 동일한 인프라에 접속하여 리소스 중복을 방지하고 업데이트를 즉시 공유할 수 있습니다. 셋째, Kubernetes Gateway API와 SSL 인증서를 결합하여 외부 접근을 암호화하고 보안을 강화할 수 있습니다.\n\n구축 과정은 Python과 FastMCP 프레임워크를 활용하여 수학 연산 도구를 포함한 서버를 제작하는 것으로 시작합니다. 이때 Streamable HTTP 전송 방식을 사용해야 원격 서버 환경에서 안정적인 연결이 가능합니다. 이후 Docker 이미지를 생성하여 Artifact Registry에 저장하고, GKE 클러스터에 이를 배포합니다.\n\n최종적으로는 Kubernetes Gateway API를 사용하여 정적 IP를 할당하고 Google 관리형 SSL 인증서를 연결함으로써, 도메인을 통한 안전한 원격 접속 환경을 완성합니다. 이 과정을 통해 개발자는 복잡한 로컬 설정 없이도 확장성과 보안성을 갖춘 환경에서 AI 에이전트와 LLM을 연동할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Abdelfettah Sghiouar"
+      ],
+      "title": [
+        "Cloud Developer Advocate"
+      ],
+      "department": [
+        "Google Cloud"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "title": "Improving token efficiency in GitHub Copilot",
+    "summary": "Learn how we're improving token efficiency in GitHub Copilot to reduce costs and latency for users.\nRead the full article",
+    "aiSummary": "GitHub Copilot은 사용자에게 제공하는 서비스의 비용을 절감하고 응답 속도를 개선하기 위해 토큰 효율성을 향상하는 작업을 진행하고 있습니다. 이번 최적화는 AI 모델이 처리하는 데이터 양을 효율적으로 관리하여 전반적인 성능을 높이는 데 중점을 둡니다. 이를 통해 개발자는 더 빠르고 경제적으로 GitHub Copilot의 기능을 활용할 수 있게 될 전망입니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Ryan Caldwell, Bhavya U",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "d825f9d469e21e76b22344398328d967de0264d2",
+    "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
+    "summary": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover,",
+    "aiSummary": "Amazon S3가 객체에 최대 1GB 용량의 풍부하고 수정 가능하며 쿼리 가능한 컨텍스트를 직접 첨부할 수 있는 Amazon S3 annotations 기능을 새롭게 도입했습니다.\n\n이 기능은 AI 에이전트와 자율 워크플로우를 위해 특별히 설계되었습니다. 사용자는 별도의 메타데이터 시스템을 유지 관리할 필요 없이 대규모 데이터 환경에서 즉각적으로 정보를 발견하고 이해하며 대응할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "Tue, 16 Jun 2026 23:13:10 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cppcon-2025-how-to-tame-packs-stdtuple-the-wily-stdinteger-sequence-andrei",
+    "title": "CppCon 2025 How to Tame Packs, std::tuple, & the Wily std::integer_sequence -- Andrei Alexandrescu",
+    "summary": "Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some",
+    "aiSummary": "CppCon 2026의 개최가 다가옴에 따라 주최 측은 작년 인기 강연 중 하나인 Andrei Alexandrescu의 How to Tame Packs, std::tuple, & the Wily std::integer_sequence 영상을 공개했습니다.\n\n해당 강연은 C++의 템플릿 파라미터 팩과 std::tuple이 가진 강력한 메타프로그래밍 기능을 다루면서도 이들이 가진 복잡성과 설계상의 한계를 지적합니다. 특히 팩이 원래 perfect forwarding을 목적으로 설계되어 컴파일 타임 반복 작업에 부적합하다는 점과 std::integer_sequence가 근본적인 해결책이 되기에는 부족하다는 점을 강조합니다.\n\n강연자는 기존 라이브러리 유틸리티들이 일관성이 부족하고 사용하기 어렵다는 문제를 해결하기 위해 보다 직관적이고 재사용 가능한 추상화 방안을 제시합니다. 이를 통해 복잡한 C++ 메타프로그래밍 작업을 더 안전하고 간결하게 수행할 수 있는 실질적인 도구와 방법론을 공유합니다.",
+    "url": "https://isocpp.org//blog/2026/06/cppcon-2025-how-to-tame-packs-stdtuple-the-wily-stdinteger-sequence-andrei",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Tue, 16 Jun 2026 22:03:58 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+    "aiSummary": "UK 정부가 영국의 주택 건설 속도를 높이기 위해 Google DeepMind와 협력하여 새로운 AI 기반 시제품을 개발합니다. 이 프로젝트는 복잡한 주택 건설 인허가 절차를 간소화하고 보다 신속한 의사결정을 지원하는 것을 목표로 합니다. AI를 도입함으로써 행정적 병목 현상을 해결하고 주택 공급 문제를 효과적으로 개선할 수 있을 것으로 기대됩니다.",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 16 Jun 2026 21:29:50 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+    "title": "GitHub Models is no longer available to new customers",
+    "summary": "We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won’t see…\nThe post GitHub Models is ",
+    "aiSummary": "GitHub는 자사 서비스인 GitHub Models를 종료하기로 결정하였습니다. 이에 따라 신규 사용자의 서비스 접근이 즉시 제한되었습니다. 기존에 GitHub Models를 사용하지 않았던 조직이나 기업 고객은 더 이상 해당 기능을 이용할 수 없습니다. 이번 조치는 GitHub Models 서비스 운영을 단계적으로 중단하기 위한 첫 번째 과정입니다.",
+    "url": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 16 Jun 2026 20:24:41 +0000",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+    "title": "Introducing tfctl: The CLI for HCP Terraform and TFE ",
+    "summary": "For years, automating HCP Terraform platform operations meant building and maintaining custom tooling on top of the API. Today, we're changing that with tfctl, the first dedicated CLI for HCP Terrafor",
+    "aiSummary": "HashiCorp가 HCP Terraform과 Terraform Enterprise를 위한 공식 CLI 도구인 tfctl을 새롭게 공개하였습니다. 기존에는 플랫폼 운영을 위해 API 기반의 커스텀 도구를 직접 개발해야 하는 번거로움이 있었으나, 이제 tfctl을 통해 인프라 운영 워크플로우를 효율적으로 자동화할 수 있게 되었습니다.\n\ntfctl은 작업 취소, 워크스페이스 생성, 변수 관리, 조직 관리 등 인프라 코드를 실행하는 Terraform CLI가 다루지 못했던 플랫폼 운영 업무를 직접 수행합니다. 주요 기능으로는 모든 명령에 대한 dry-run 지원과 삭제 작업 시 대화형 승인 절차를 포함한 안전 장치, API 키워드 검색을 통해 스키마를 확인하는 기능, JSON 및 Markdown 등을 지원하는 유연한 출력 모드가 있습니다.\n\n특히 이 도구는 OpenAPI 표준을 기반으로 설계되어 100%의 API 커버리지를 제공하며, 플랫폼이 발전하더라도 새로운 엔드포인트에 즉각 대응할 수 있는 확장성을 갖췄습니다. 플랫폼 엔지니어들은 이를 활용하여 사고 대응 및 문제 진단, 변경 영향도 분석, 워크스페이스 라이프사이클 관리 등을 자동화할 수 있습니다. \n\ntfctl은 현재 GitHub를 통해 제공되며, 인간 사용자와 AI 에이전트 모두가 플랫폼 API와 원활하게 상호작용할 수 있도록 설계되었습니다. 앞으로도 HashiCorp는 플랫폼 엔지니어와 AI 에이전트가 HCP Terraform 환경에서 더 효율적으로 작업할 수 있도록 지원을 강화할 예정입니다.",
+    "url": "https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Roshan Chandna",
+    "pubDate": "2026-06-16T20:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91250",
+    "title": "Docker Content Trust: Retirement and Migration Guidance",
+    "summary": "TLDR: Docker Content Trust (DCT) and the Notary v1 service at notary.docker.io are being fully retired (first announced in July of 2025). This blog explains what is changing, who is affected, and how ",
+    "aiSummary": "Docker는 Docker Content Trust와 Notary v1 서비스의 단계적 종료를 공식화했습니다. 이는 10년 전 컨테이너 생태계의 보안을 위해 도입되었으나, 최신 기술 환경의 변화에 따라 향후 기술 지원이 중단될 예정입니다.\n\n이번 변화로 인해 Notary v1 서비스를 이용 중인 사용자들은 더 이상 해당 도구를 사용할 수 없게 됩니다. 이에 따라 Docker는 사용자들이 Sigstore와 같은 보다 현대적이고 안전한 대체 기술로 전환할 것을 강력히 권고하고 있습니다.\n\n사용자는 기존의 워크플로우를 점검하고 새로운 서명 표준에 맞춰 마이그레이션 계획을 수립해야 합니다. 상세한 마이그레이션 가이드는 Docker 공식 기술 문서를 통해 확인할 수 있으며, 보안 유지와 지속적인 이미지 무결성 검증을 위해 빠른 시일 내에 전환을 완료해야 합니다.",
+    "url": "https://www.docker.com/blog/docker-content-trust-retirement-and-migration-guidance/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Tue, 16 Jun 2026 18:33:29 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+    "title": "June Pixel Drop: New features for creators, Gemini upgrades and more",
+    "summary": "Get new screen recording feature, text-to-video tools with Gemini Omni, and better multitasking on your Pixel devices.",
+    "aiSummary": "June Pixel Drop 업데이트를 통해 Pixel 기기 사용자들을 위한 새로운 창작자 기능과 Gemini 업그레이드가 제공됩니다. 이번 업데이트에는 새로운 화면 녹화 기능과 Gemini Omni를 기반으로 한 텍스트-비디오 변환 도구가 추가되었으며, 더욱 향상된 멀티태스킹 기능을 경험할 수 있습니다.",
+    "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mayra Fajardo"
+      ],
+      "title": [
+        "Product Marketing Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 18:00:00 +0000",
+    "fetchedAt": "2026-06-19T15:49:15.282Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-idc-marketscape-siem-2026-vendor-assessment/",
+    "title": "Google named a Leader in IDC MarketScape SIEM 2026 Vendor Assessment",
+    "summary": "Security operations teams are under immense pressure to defend against adversaries who use AI to act with unprecedented speed, scale, and sophistication. To navigate these moments, secure mission-crit",
+    "aiSummary": "Google이 2026 IDC MarketScape의 전 세계 SIEM 공급업체 평가에서 리더로 선정되었습니다. 이번 결과는 Google Security Operations에 대한 지속적인 투자와 Mandiant의 현장 전문성, 그리고 고도화된 AI 에이전트 결합이 주요한 성과를 거둔 것으로 평가됩니다.\n\nIDC는 Google이 보유한 강력한 기술적 강점을 다각도로 높게 평가하였습니다. 먼저 Alert Triage and Investigation 에이전트를 통해 보안 분석가의 업무 부하를 획기적으로 줄이고, 보안 작업의 자동화 범위를 위협 사냥 및 규칙 생성까지 확장한 점을 강조했습니다. 또한 Google이 직접 설계한 실리콘과 인프라, DeepMind를 통해 개발된 Gemini 파운데이션 모델을 수직적으로 통합하여 보안 특화 작업에서 높은 정확도와 효율적인 유닛 이코노믹스를 구현했다는 점이 차별화된 경쟁력으로 꼽혔습니다.\n\n콘텐츠 측면에서는 Mandiant 분석가가 작성한 검증된 탐지 규칙이 MITRE ATT&CK 프레임워크와 정기적으로 연동되어 즉각적인 대응력을 제공한다는 점이 높게 평가받았습니다. 기술적으로는 방대한 데이터를 처리할 때 발생하는 성능 저하 없이 통합 데이터 레이크와 다단계 검색 기능을 통해 전체 보존 기간에 걸친 쿼리 수행이 가능하다는 점이 주요 강점으로 언급되었습니다.\n\n결과적으로 Google은 Gemini를 통한 자연어 기반의 보안 검색과 위협 인텔리전스, Mandiant Hunt 서비스 등을 결합하여 기업이 실질적인 운영 회복탄력성을 확보하도록 지원하고 있습니다. 이러한 기술적 통합은 보안 분석가가 단순 반복 업무에서 벗어나 전략적이고 창의적인 위협 대응에 집중할 수 있는 환경을 조성합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-idc-marketscape-siem-2026-vendor-assessment/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jon Ramsey"
+      ],
+      "title": [
+        "VP & GM, GCP Security"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 17:30:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+    "title": "GitHub Code Quality generally available July 20, 2026",
+    "summary": "More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code…\n",
+    "aiSummary": "GitHub Code Quality가 오는 2026년 7월 20일 정식 출시됩니다.\n\n그동안 1만 개 이상의 기업이 퍼블릭 프리뷰 버전을 통해 코드의 유지보수성과 신뢰성 문제를 탐지하고 품질 게이트를 설정하며 코드 커버리지를 추적하는 등 코드 품질 향상을 위한 검증 과정을 거쳤습니다. 정식 출시를 통해 더 많은 개발 환경에서 안정적인 코드 품질 관리 기능을 이용할 수 있게 될 전망입니다.",
+    "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 16 Jun 2026 16:25:31 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+    "title": "Organization-level enablement for GitHub Code Quality",
+    "summary": "Organization administrators can now enable or disable GitHub Code Quality across all repositories in their organization with a single toggle, instead of configuring each repository individually. What’",
+    "aiSummary": "GitHub는 이제 Organization 관리자가 조직 내 모든 저장소의 GitHub Code Quality 기능을 한 번의 설정으로 일괄 활성화하거나 비활성화할 수 있도록 기능을 개선했습니다.\n\n기존에는 개별 저장소마다 일일이 설정을 변경해야 하는 번거로움이 있었으나, 이번 업데이트를 통해 조직 차원에서 통합적으로 관리할 수 있게 됨에 따라 관리자의 운영 효율성이 크게 향상되었습니다. 이를 통해 대규모 프로젝트를 운영하는 조직은 전사적인 코드 품질 정책을 보다 신속하고 일관되게 적용할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 16 Jun 2026 16:25:28 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+    "title": "What’s new with Terraform + Ansible ",
+    "summary": "Last year, we introduced Terraform actions and outlined our vision for deeper integration between Terraform and Ansible. As organizations increasingly rely on hybrid and multi-cloud environments, infr",
+    "aiSummary": "하이브리드 및 멀티 클라우드 환경의 복잡성을 해결하기 위해 Terraform과 Ansible 간의 통합을 강화한 새로운 기능들이 발표되었습니다. 핵심은 인프라의 전체 수명 주기인 프로비저닝, 구성 관리, 운영 업무 전반을 자동화하여 운영 복잡도를 낮추는 것입니다.\n\n먼저 Terraform Ansible collection 2.0이 출시되었습니다. 이 업데이트는 pyTFE를 기반으로 하며 Ansible에서 직접 Terraform 워크플로우를 관리할 수 있는 API 우선 방식을 제공합니다. 이를 통해 기존에 파편화된 스크립트나 불필요한 연동 코드를 제거하고 더 안정적인 통합 환경을 구축할 수 있습니다.\n\n함께 발표된 pyTFE 1.0은 HCP Terraform 및 Terraform Enterprise를 위한 공식 Python SDK로 정식 출시되었습니다. 이제 개발자와 플랫폼 팀은 개별적인 API 클라이언트 없이도 안정적인 SDK를 사용하여 자동화 도구를 개발할 수 있습니다.\n\n인벤토리 관리의 효율성을 높이기 위해 Terraform Ansible collection 2.0에는 실험적인 동적 인벤토리 플러그인인 tfc_inv.py가 포함되었습니다. 이 플러그인은 HCP Terraform의 상태 정보를 직접 참조하여 Ansible 인벤토리를 자동으로 생성하므로, 수동 스크립트 없이도 Terraform과 Ansible 간의 상태 불일치를 해소할 수 있습니다.\n\n운영 효율을 위한 기능도 강화되었습니다. HCP Terraform에는 새로운 Actions 환경이 추가되어 운영 워크플로우를 중앙에서 확인하고 실행하며 이력을 검토할 수 있게 되었습니다. 또한 이러한 Actions 기능이 Terraform Stacks까지 확장되어, 더 높은 수준의 추상화된 인프라 배포 단계에서도 자동화된 워크플로우를 유연하게 적용할 수 있게 되었습니다.\n\n이번 업데이트를 통해 인프라 자동화 도구 간의 상호 운용성이 대폭 향상되었으며, 기업은 인프라의 배포부터 운영까지 전 과정을 더욱 일관되고 신뢰성 있게 관리할 수 있게 됩니다.",
+    "url": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-06-16T16:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/systems/brazos-liquid-cooling-system-for-air-cooled-data-centers/",
+    "title": "Introducing Brazos: Bringing liquid cooling to air-cooled data centers",
+    "summary": "Next-generation artificial intelligence (AI) and high-performance computing (HPC) chips routinely exceed 1000 W Thermal Design Power (TDP). Simply put, standard air cooling cannot manage these extreme",
+    "aiSummary": "차세대 AI 및 HPC 칩의 전력 밀도가 1000 W TDP를 넘어서며 기존의 공랭식 냉각 방식으로는 발열 제어가 어려워졌습니다. Google은 이러한 문제를 해결하기 위해 기존 공랭식 데이터 센터 환경에서도 고밀도 액체 냉각 장비를 사용할 수 있게 해주는 랙 장착형 폐쇄 루프 방식의 액체-공기 냉각 시스템인 Brazos를 개발했습니다.\n\nBrazos는 데이터 센터 전체의 시설을 개조하는 복잡한 과정 없이 랙 단위로 설치가 가능하며 내부 IT 액체 루프를 시설 급수 시스템과 분리하여 운영합니다. 이 시스템은 부품 수준에서 열을 흡수한 뒤 고효율 열교환기를 통해 데이터 센터의 핫 아일로 배출하는 플러그 앤 플레이 구조를 갖추고 있습니다.\n\n기술적 사양을 살펴보면 3개의 모듈형 유닛이 하나의 랙에서 60 kW의 열 부하를 처리할 수 있으며 OCP ORv3 폼팩터 랙과 호환됩니다. DI 워터 또는 PG25 냉각제를 사용하며 40-60 V DC 전원으로 구동됩니다. 또한 누출 감지 및 압력 릴리프 밸브 등의 안전 기능을 포함하고 있으며 Modbus over TCP를 통한 원격 관리를 지원합니다.\n\n현장 유지보수를 고려하여 핫스왑이 가능한 펌프와 팬을 적용하였고 수리 시간을 최소화하도록 설계되었습니다. Google은 이 기술을 업계 표준으로 확산시키기 위해 향후 기술 사양과 설계 원리를 OCP 포럼을 통해 오픈소스로 공개할 예정입니다.",
+    "url": "https://cloud.google.com/blog/topics/systems/brazos-liquid-cooling-system-for-air-cooled-data-centers/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jorge Padilla"
+      ],
+      "title": [
+        "Senior Staff Product Design Engineer, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/how-atlas-scales-hundreds-of-cloud-sql-databases/",
+    "title": "How Atlas scales hundreds of merchant databases with Cloud SQL Enterprise Plus edition",
+    "summary": "Atlas is building the operating system for restaurants. Online storefronts, point of sale, third-party logistics, food platform integrations, customer loyalty, and AI tools represent everything a rest",
+    "aiSummary": "Atlas는 레스토랑 운영을 위한 통합 플랫폼을 제공하며 수많은 가맹점에 개별적인 Cloud SQL for PostgreSQL 데이터베이스를 할당하는 전략을 사용합니다. 초기에는 Cloud SQL Enterprise 버전을 사용했으나 가맹점 수가 늘어남에 따라 커넥션 풀링 관리와 성능 문제 해결 과정에서 운영상 병목 현상이 발생했습니다.\n\n이러한 문제를 해결하기 위해 Atlas는 Cloud SQL Enterprise Plus 에디션으로 전환했습니다. 이를 통해 별도의 계층이었던 커넥션 풀링을 데이터베이스 내부에 통합하고, Query Insights 기능을 통해 특정 가맹점의 쿼리 부하를 정밀하게 식별할 수 있게 되었습니다. 또한 데이터 캐시 기능을 통한 읽기 성능 유지와 무중단 스케일링을 구현하여 데이터베이스 운영 효율성을 극대화했습니다.\n\n결과적으로 Atlas는 데이터베이스 운영 시간을 30퍼센트 이상 단축하고 가맹점 온보딩 속도를 비약적으로 높였습니다. 인프라 관리 부담이 줄어듦에 따라 엔지니어링 팀은 본연의 업무인 제품 개발과 AI 서비스 고도화에 집중할 수 있게 되었으며, 이를 바탕으로 매년 200퍼센트에서 300퍼센트의 성장을 이어가고 있습니다. Atlas는 Cloud SQL과 GKE를 기반으로 안정적인 인프라 환경을 구축하여 앞으로의 AI 혁신을 가속화할 계획입니다.",
+    "url": "https://cloud.google.com/blog/products/databases/how-atlas-scales-hundreds-of-cloud-sql-databases/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Surendhar Reddy"
+      ],
+      "title": [
+        "Co-founder & Head of Engineering, Atlas"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/looker-explore-ai-and-interface-updates/",
+    "title": "Introducing new Explores and Merge Queries in Looker",
+    "summary": "A key goal for many enterprises in the AI era is to empower their employees to uncover actionable data insights on their own. To help, we are evolving Looker Explore with a streamlined interface and i",
+    "aiSummary": "Google은 사용자가 데이터를 스스로 분석하고 실질적인 통찰을 얻을 수 있도록 Looker Explore의 인터페이스를 개선하고 AI 기능을 대폭 강화했습니다.\n\n새롭게 도입된 AI 어시스턴트 기능은 사용자가 데이터를 시작할 때 겪는 어려움을 줄여줍니다. AI-assisted Quick Start는 Google의 최신 Gemini 모델을 활용해 데이터 모델러가 미리 설정하지 않은 경우에도 자동으로 쿼리를 생성하며, Insight Assistant는 자연어 명령을 통해 데이터 테이블 수정이나 필터링, 정렬 작업을 즉시 수행합니다. 또한 Expression Assistant를 사용하면 복잡한 Looker Expression 문법을 몰라도 자연어로 계산식을 작성할 수 있으며, AI가 자동으로 Explore에 대한 요약을 제공하여 데이터 분석가의 이해도를 높여줍니다.\n\n사용자 경험을 향상하기 위한 UI 업데이트도 포함되었습니다. 필드 선택 창의 크기를 조절하거나 긴 필드 이름을 쉽게 읽을 수 있는 맞춤형 워크스페이스가 제공되며, 데이터 테이블 내에서 직접 필터를 적용하거나 복잡한 계산을 수행할 수 있는 컨텍스트 메뉴가 추가되었습니다. 시각적 피벗 기능을 통해 데이터를 행과 열로 자유롭게 재배치하는 기능도 지원합니다.\n\n데이터 병합 기능인 Merge Query 또한 새롭게 설계되었습니다. 3개의 패널로 구성된 통합 인터페이스를 통해 조인 구성을 유지하면서도 소스 쿼리를 효율적으로 편집할 수 있습니다. 시스템은 스마트 조인 제안을 통해 최적의 결합 필드를 추천하며, 쿼리 URL을 통한 즉각적인 연결과 BigQuery 외 소스에 대한 행 제한 상향 등을 통해 데이터 분석 환경의 생산성을 극대화합니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/looker-explore-ai-and-interface-updates/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Dharini Ramakrishnan"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "title": "Securing the future of AI agents",
+    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "aiSummary": "AI 에이전트의 미래를 안전하게 보호하기 위해 전통적인 보안 조치와 실시간 모니터링을 결합한 AI Control Roadmap을 도입해야 합니다.\n\n해당 로드맵은 기업 내부 시스템에 AI 에이전트를 통합하는 과정에서 발생할 수 있는 잠재적 위험을 체계적으로 방어하는 데 중점을 둡니다. 기존의 보안 체계에 실시간 탐지 및 대응 기술을 접목함으로써 AI 에이전트의 운영 안정성을 높이고 보안 사고를 예방하는 것이 핵심입니다.",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 16 Jun 2026 15:46:31 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/how-siemens-sliced-the-elephant-modernizing-legacy-code-with-agentic-workflows/",
+    "title": "How Siemens \"slices the elephant,\" advancing agentic workflows for industrial software development",
+    "summary": "For technology companies like Siemens, software is the nervous system of factories, energy grids, and transportation networks worldwide.\nAs a global leader in industrial AI, industrial software, and i",
+    "aiSummary": "Siemens는 공장 자동화와 에너지 인프라 등 핵심 산업 소프트웨어 분야에서 수십 년간 축적된 방대한 레거시 코드를 현대화하기 위해 Google Cloud와 협력하여 Knowledge Fabric을 개발하였습니다. 일반적인 AI 도구는 복잡하고 방대한 산업용 코드베이스를 이해하는 데 한계가 있었으나, Knowledge Fabric은 지식 그래프를 활용하여 코드와 설계 문서 간의 연관성을 파악함으로써 더욱 정교한 분석을 가능하게 합니다.\n\n이 시스템은 Spanner Graph를 사용하여 코드의 구조적 관계를 모델링하고, Google Agent Development Kit, Gemini API, Anthropic Claude Code 등을 결합하여 복잡한 소프트웨어 개발 수명 주기를 자동화합니다. 특히 단순한 RAG 방식의 한계를 극복하기 위해 GQL을 통한 구조적 쿼리와 벡터 검색, 전체 텍스트 검색을 결합하여 코드 간의 의존성을 정확하게 추적합니다.\n\n핵심 개발 전략인 Slicing the elephant 기법은 거대한 리팩토링 작업을 Search agent, User story agent, Architecture impact agent, Task breakdown agent, Coding agent와 같은 전문화된 에이전트 단위로 세분화하여 처리합니다. 이 과정에서 각 단계마다 인간의 검증 과정을 포함시켜 산업 현장에서 요구되는 높은 수준의 품질과 안정성을 유지합니다.\n\n결과적으로 Knowledge Fabric은 엔지니어들이 반복적인 작업에서 벗어나 가치 있는 문제 해결에 집중할 수 있도록 돕고 있으며, 레거시 시스템 현대화 과정에서 구현 노력을 대폭 절감하고 생산성을 향상하는 성과를 거두었습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/how-siemens-sliced-the-elephant-modernizing-legacy-code-with-agentic-workflows/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Anant Nawalgaria"
+      ],
+      "title": [
+        "Group Product Manager & AI engineer, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49241",
+    "title": "Extending pt-archiver with a Partition-Aware Plug-in for Fast Retention Policy Enforcement",
+    "summary": "Managing data retention policies is one of the most common operational tasks in MySQL. Applications continuously generate transactional, audit, logging, telemetry, and event data. Over time, these tab",
+    "aiSummary": "MySQL 환경에서 데이터 보존 정책을 관리하는 작업은 운영 효율성과 직결되는 중요한 과제입니다. 시간이 지남에 따라 데이터가 방대해지면 백업 시간 증가, 복구 지연, 버퍼 풀 효율 저하, 스토리지 비용 상승 등 다양한 성능 문제가 발생합니다.\n\n이를 해결하기 위해 Percona는 pt-archiver 도구에 Partition-Aware 플러그인을 도입하여 데이터 보존 정책 실행 속도를 향상하는 방안을 제시합니다. 이 접근 방식은 파티셔닝된 테이블의 특성을 활용하여 데이터를 효율적으로 아카이빙하거나 삭제함으로써, 대규모 데이터셋 운영 시 발생하는 오버헤드를 최소화하고 시스템의 전반적인 성능을 유지하는 데 도움을 줍니다.",
+    "url": "https://www.percona.com/blog/extending-pt-archiver-with-a-partition-aware-plug-in-for-fast-retention-policy-enforcement/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Corrado Pandiani",
+    "pubDate": "Tue, 16 Jun 2026 11:31:51 +0000",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "1e4fc761b5a706e81f4b43e635181511d9ca0099",
+    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS en",
+    "aiSummary": "AWS는 Amazon Bedrock AgentCore에 실시간 웹 검색 기능을 새롭게 도입합니다. 이 기능은 완전 관리형 도구로 제공되어 사용자가 인프라를 직접 관리하거나 웹 검색 기능을 수동으로 추가할 필요 없이 AI 에이전트가 최신의 정확한 웹 정보를 바탕으로 답변을 생성할 수 있도록 지원합니다.\n\n특히 고객의 보안이 유지되는 AWS 환경 내에서 데이터 외부 유출 없이 안전하게 웹 기반의 근거 자료를 확보할 수 있다는 점이 핵심입니다. 이를 통해 개발자는 복잡한 검색 인프라 구축 부담을 덜고 더욱 효율적으로 고도화된 AI 에이전트를 개발하는 데 집중할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "Tue, 16 Jun 2026 07:56:11 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/filament-storage-monitor-track-disk-usage-from-your-filament-dashboard",
+    "title": "Filament Storage Monitor: Track Disk Usage From Your Filament Dashboard",
+    "summary": "Filament Storage Monitor is a plugin that adds a dashboard widget for monitoring server disk usage across multiple partitions, with custom labels, health-based coloring, and per-disk authorization.\nTh",
+    "aiSummary": "Filament Storage Monitor는 Filament 대시보드 내에서 서버의 디스크 사용량을 간편하게 추적할 수 있도록 돕는 플러그인입니다.\n\n이 도구는 여러 파티션의 디스크 상태를 모니터링할 수 있는 대시보드 위젯을 제공합니다. 사용자는 각 디스크에 사용자 정의 레이블을 지정하거나 상태에 따른 색상 표시 기능을 활용할 수 있습니다. 또한 디스크별 접근 권한을 개별적으로 설정할 수 있어 관리 효율성을 높여줍니다.",
+    "url": "https://laravel-news.com/filament-storage-monitor-track-disk-usage-from-your-filament-dashboard?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Tue, 16 Jun 2026 02:48:27 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/deployment-simulation",
+    "title": "Predicting model behavior before release by simulating deployment",
+    "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "aiSummary": "OpenAI가 새로운 AI 모델의 배포 전 행동을 예측하기 위한 Deployment Simulation 방식을 도입했습니다. 이 기술은 실제 대화 데이터를 활용하여 모델이 실제 환경에서 어떻게 작동할지 미리 시뮬레이션함으로써 안전성을 강화하고 평가의 정확도를 높이는 것을 목표로 합니다. 결과적으로 모델 출시 전 잠재적인 위험 요소를 사전에 파악하여 더욱 신뢰할 수 있는 AI 서비스를 제공할 수 있을 것으로 기대됩니다.",
+    "url": "https://openai.com/index/deployment-simulation",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://babeljs.io/blog/2026/06/16/8.0.0",
+    "title": "Releasing Babel 8 today: ESM-only, drop ES5 default, and a smooth migration path",
+    "summary": "Today we are releasing Babel 8. It's been 8 years since we released Babel 7. And that's not without reason.\nOver these past 8 years, the JavaScript ecosystem has changed significantly. In addition to ",
+    "aiSummary": "Babel 7 이후 8년 만에 새로운 메이저 버전인 Babel 8이 출시되었습니다. 이번 업데이트는 새로운 기능을 추가하기보다는 Babel의 핵심을 현대화하여 향후 8년을 대비하는 것에 중점을 두고 있습니다.\n\n가장 큰 변화는 ESM-only로의 전환입니다. Babel 8은 모든 패키지에 대해 TypeScript 타입을 기본으로 제공하며, 더 이상 기본적으로 ES5나 CommonJS로 컴파일하지 않습니다. 이는 최신 브라우저 환경에 맞게 컴파일 과정을 최적화하여 번들 크기를 줄이고, Node.js의 발전에 발맞추기 위한 결정입니다.\n\n이번 릴리스는 하위 호환성을 고려하여 점진적인 개선을 추구했으며, 이전 메이저 버전 업데이트보다 훨씬 간소화된 마이그레이션 경로를 제공합니다. 한편, Babel 핵심 팀은 프로젝트를 지속하기 위한 기부와 후원이 최근 몇 년간 감소하고 있다는 점을 언급하며, 생태계 발전을 위한 기업 및 사용자들의 지속적인 관심과 지원을 요청했습니다.",
+    "url": "https://babeljs.io/blog/2026/06/16/8.0.0",
+    "category": "프론트엔드",
+    "source": "Babel Blog",
+    "author": "Babel Team",
+    "pubDate": "2026-06-16T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Babel",
+      "Build"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_kpart-version-10-3316/",
+    "title": "pg_kpart version 1.0\n",
+    "summary": "Bangkok, Thailand - June 12, 2026\npg_kpart - Reject queries that scan all partitions without using the partition key\npg_kpart is a PostgreSQL extension that rejects queries which would scan every part",
+    "aiSummary": "HexaCluster가 발표한 pg_kpart 1.0은 PostgreSQL의 파티션 테이블을 운영할 때 발생하는 성능 저하 문제를 방지하기 위해 개발된 확장 기능입니다. 파티션 키를 포함하지 않은 쿼리가 실행되어 모든 파티션을 스캔하는 상황을 사전에 차단함으로써, 대규모 데이터셋 환경에서 발생할 수 있는 I/O 부하와 서버 성능 저하를 방지합니다.\n\n이 도구는 파티션 키를 기반으로 한 조건문이 없는 쿼리의 실행을 강제로 거부하여, 개발자가 실수로 전체 파티션을 스캔하는 것을 방지하고 효율적인 쿼리 패턴을 유도합니다. 단순히 쿼리를 거부하는 기능 외에도 도입 과정에서의 혼란을 줄이기 위한 감사 모드, 특정 테이블을 지정할 수 있는 화이트리스트 및 블랙리스트 설정 기능, 그리고 애플리케이션이 오류를 적절히 처리할 수 있도록 지원하는 전용 SQLSTATE 등을 포함하고 있습니다.\n\nGilles Darold가 유지보수하는 pg_kpart는 리눅스 환경을 지원하며 PostgreSQL 라이선스로 배포되는 오픈 소스 프로젝트입니다. 대규모 파티션 테이블을 운영하는 DBA에게 데이터베이스 레벨에서의 쿼리 제어를 보장하여 시스템의 안정성을 높여주는 도구로 활용될 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_kpart-version-10-3316/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/powa-archivist-512-is-out-3317/",
+    "title": "powa-archivist 5.1.2 is out!\n",
+    "summary": "Taipei, Taiwan - Sat 13 Jun 2026\npowa-archivist 5.1.2\nThe PoWA team is pleased to announce the release of the version 5.1.2 of\npowa-archivist, the core\nextension of the PoWA project.\nPoWA (PostgreSQL ",
+    "aiSummary": "PoWA 팀이 PostgreSQL 성능 분석 도구인 powa-archivist의 최신 버전 5.1.2를 출시하였습니다.\n\nPoWA는 PostgreSQL 인스턴스 전반의 지표를 수집하고 통합하여 실시간 차트와 그래프로 모니터링을 지원하며, 쿼리별 인덱스 최적화 등 성능 향상을 위한 솔루션을 제공하는 도구입니다.\n\n이번 업데이트에서는 모듈별 보존 정책을 설정할 수 있는 기능이 새롭게 추가되었습니다.\n\n오픈 소스 프로젝트인 powa-archivist는 GitHub 저장소를 통해 사용자들의 버그 제보와 패치 기여를 받고 있으며, 상세한 기술 문서와 다운로드 정보는 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/powa-archivist-512-is-out-3317/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/liveperson-observability",
+    "title": "How LivePerson optimized Logstash and Kafka performance on GCP through benchmarking",
+    "summary": "LivePerson found that benchmarking GCP machine types cut Logstash costs by over half using AMD Milan instances, while Kafka compression codec selection significantly boosted throughput.",
+    "aiSummary": "LivePerson은 GCP 환경에서 인프라 효율성을 극대화하기 위해 기계 유형과 데이터 처리 방식을 최적화하는 과정을 거쳤습니다. \n\n특히 Logstash 실행 환경을 검토하는 과정에서 AMD Milan 인스턴스를 도입하고 벤치마킹을 수행한 결과, 기존 대비 운영 비용을 50퍼센트 이상 절감하는 성과를 거두었습니다. \n\n또한 Kafka 운영 측면에서는 데이터 압축 코덱을 전략적으로 선택하고 재구성함으로써 처리량인 Throughput을 크게 향상시켰습니다. \n\n이러한 기술적 벤치마킹과 최적화 작업은 클라우드 자원 비용을 낮추는 동시에 전체적인 시스템 성능을 효과적으로 개선하는 결과를 가져왔습니다.",
+    "url": "https://www.elastic.co/blog/liveperson-observability",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Emily Chioconi,Kiril Karamanolev,Strahil Nikolov",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/forrester-wave-strong-performer-extended-detection-and-response-platforms-2026",
+    "title": "Making Waves: Elastic named a Strong Performer in The Forrester Wave™: Extended Detection And Response Platforms, Q2 2026",
+    "summary": "Elastic has been named a Strong Performer in The Forrester Wave™: Extended Detection And Response Platforms, Q2 2026. Elastic Security is the agentic security operations platform built to secure, not ",
+    "aiSummary": "Elastic이 The Forrester Wave: Extended Detection And Response Platforms, Q2 2026 보고서에서 Strong Performer로 선정되었습니다. Elastic Security는 보안 업무의 효율성을 높이면서도 사용자에게 과도한 부담을 주지 않도록 설계된 에이전트 기반의 보안 운영 플랫폼입니다.",
+    "url": "https://www.elastic.co/blog/forrester-wave-strong-performer-extended-detection-and-response-platforms-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Natalie Blake",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+    "title": "This Week in Spring - June 16th, 2026",
+    "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring! I'm writing this from the oh-so-delightful (and delicious!) city of New Delhi, India. It's been a real privilege to come and visi",
+    "aiSummary": "Spring 팀은 최근 AI 기반 취약점 문제인 CVE 해결을 위해 지연되었던 릴리스 일정을 정상화하고 대규모 업데이트를 발표했습니다. 이번 업데이트의 핵심은 Spring Boot 4.1의 정식 출시이며, 이를 즉시 업그레이드할 것을 강력히 권장합니다.\n\nSpring AI 2.0이 새롭게 출시되었으며 시맨틱 캐싱 지원과 도구 호출 기능을 포함한 에이전트 아키텍처 구현이 가능해졌습니다. 또한 개발 도구 측면에서는 Visual Studio Code와 Eclipse 환경을 개선한 Spring Tools 5.2.0이 배포되었습니다.\n\n기타 주요 소프트웨어 업데이트는 다음과 같습니다. Spring Cloud 2025.0.3 및 2025.1.2를 비롯하여 Spring Batch, Spring Security, Spring Data 등 Spring 생태계 전반에 걸친 보안 패치와 기능 개선이 포함된 다수의 버전이 릴리스되었습니다. 특히 Spring Security의 최신 릴리스에는 중요한 CVE 수정 사항이 반영되어 있어 보안 업데이트가 요구됩니다.\n\n추가로 A Bootiful Podcast를 통해 Spring Security 리드인 Rob Winch와의 인터뷰가 공개되었으며, 인도 투어를 진행 중인 Spring 팀의 소식도 함께 전해졌습니다. 상세한 변경 사항과 각 버전별 세부 정보는 각 공식 프로젝트 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/new-features-in-gcc-16-improved-error-messages-and-sarif-output-david-malco",
+    "title": "New features in GCC 16: Improved error messages and SARIF output -- David Malcolm",
+    "summary": "GCC 16 is about to be released, so I'm sharing some of the new features I worked on this year. Some changes are visible to users, while others improve the system more subtly.\nNew features in GCC 16: I",
+    "aiSummary": "GCC 16 출시를 앞두고 사용자 경험과 시스템 효율성을 개선한 새로운 기능들이 공개되었습니다. \n\n가장 주목할 만한 변화는 향상된 오류 메시지 출력 방식입니다. 이번 업데이트에서는 복잡한 코드 구조를 계층화된 글머리 기호 형태로 보여주는 실험적인 옵션이 추가되었습니다. 사용자는 -fno-diagnostics-show-nesting 또는 -fdiagnostics-plain-output 옵션을 통해 가독성을 높일 수 있으며, 이를 통해 함수 선언과 정의 간의 불일치와 같은 실수를 더 명확하게 파악할 수 있게 되었습니다.\n\n또한, 이번 개선 사항은 계층적 구조 활용 범위를 넓히고 기존의 버그들을 수정하는 데 중점을 두었습니다. 개발자는 강화된 진단 기능을 통해 코드의 구조적 문제를 보다 직관적으로 확인하고 유지보수할 수 있는 환경을 제공받게 됩니다.",
+    "url": "https://isocpp.org//blog/2026/06/new-features-in-gcc-16-improved-error-messages-and-sarif-output-david-malco",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 15 Jun 2026 22:22:24 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+    "title": "Copilot usage metrics now include more of your active users",
+    "summary": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by…\nThe post C",
+    "aiSummary": "GitHub는 Copilot 사용량 측정 보고서의 정확도를 높이기 위해 기존의 클라이언트 측 신호 외에 서버 측 원격 측정 데이터를 새롭게 추가하였습니다.\n\n이번 업데이트를 통해 이전보다 더 많은 활성 사용자가 사용량 지표에 포함되어 더욱 정밀한 통계 확인이 가능해졌습니다. 이를 통해 Enterprise 관리자는 조직 내 Copilot의 활용 현황을 보다 포괄적으로 파악할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Mon, 15 Jun 2026 21:30:13 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18117",
+    "title": "The golden rule of Customizable Select",
+    "summary": "Customizable select is coming to Safari 27.",
+    "aiSummary": "Safari 27 버전부터 Customizable select 기능이 새롭게 도입될 예정입니다. 이 기능은 개발자가 웹 페이지의 select 요소를 더욱 유연하게 디자인하고 제어할 수 있도록 지원합니다. 그동안 브라우저 기본 스타일에 국한되었던 select 요소를 웹 표준 기술을 활용해 자유롭게 꾸밀 수 있게 됨에 따라 사용자 경험과 디자인의 일관성이 크게 향상될 것으로 기대됩니다.",
+    "url": "https://webkit.org/blog/18117/the-golden-rule-of-customizable-select/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "Mon, 15 Jun 2026 21:20:31 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "b888b8d60a4fd57cdcb13b3f7ef4d08b578e7e5d",
+    "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
+    "summary": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content a",
+    "aiSummary": "AWS WAF가 AI 봇과 에이전트의 콘텐츠 접근을 관리하고 수익화할 수 있는 새로운 기능을 공개하였습니다.\n\n이 기능을 통해 콘텐츠 제공자와 발행자는 자신의 데이터와 API를 사용하는 AI 봇에 가격을 책정하고 사용량을 측정하며 비용을 청구할 수 있게 됩니다.\n\nAWS WAF는 외부 결제 제공업체와의 연동을 지원하며, 엣지 단에서 직접 접근 권한을 세밀하게 제어하는 환경을 제공합니다. 이를 통해 웹 사이트나 서비스 운영자는 자신의 콘텐츠가 AI 학습이나 데이터 수집에 활용될 때 정당한 수익을 창출할 수 있는 기반을 마련하게 됩니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Mon, 15 Jun 2026 20:42:13 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/",
+    "title": "What’s new in data agents: Supercharging your AI workflows",
+    "summary": "The rise of AI agents is fundamentally disrupting applications and analytical systems. Generic AI platforms don't usually have access to the context stored within enterprise databases. This is because",
+    "aiSummary": "Google은 기업 데이터 환경에서 AI 에이전트의 정확성과 보안을 보장하기 위해 자사의 통합 데이터 플랫폼인 Agentic Data Cloud를 기반으로 하는 다양한 신규 데이터 에이전트와 도구를 발표했습니다. 기존의 일반적인 AI 플랫폼이 가진 맥락 부족과 보안 취약점을 해결하기 위해 맞춤형 실리콘부터 Gemini 모델에 이르는 전체 스택에 AI를 통합하여 기업 데이터에 기반한 추론과 거버넌스를 제공합니다.\n\nConversational Analytics는 자연어를 사용하여 데이터에 접근할 수 있도록 기능을 확장했습니다. BigQuery Studio, Lakehouse, 그리고 AlloyDB, Spanner, Cloud SQL 등 주요 데이터베이스에 AI 추론 엔진을 통합하여 사용자가 SQL을 직접 작성하지 않고도 실시간 운영 및 분석 데이터를 질의할 수 있게 지원합니다. 특히 Looker Embedded Conversational Analytics를 통해 사용자 정의 애플리케이션에 대화형 AI를 손쉽게 임베드할 수 있습니다.\n\n데이터 전문가를 위한 새로운 데이터 에이전트들도 공개되었습니다. 데이터 파이프라인 구축을 자동화하는 Data Engineering Agent, 모델 개발을 가속화하는 Data Science Agent, 데이터베이스 성능을 모니터링하는 Database Observability Agent, 데이터베이스 선택 및 배포를 돕는 Database Onboarding Agent 등이 포함됩니다. 또한 Looker Dashboard Agent와 Gemini Enterprise를 통한 Conversational Analytics는 비즈니스 사용자가 기술적인 제약 없이 데이터 인사이트를 도출할 수 있도록 돕습니다.\n\n이외에도 Data Insights Agent와 Deep Research Agent는 구조화된 데이터와 비구조화된 데이터를 결합하여 복잡한 비즈니스 문제를 해결하고 심층적인 연구 보고서를 생성합니다.\n\n개발자 생태계를 지원하기 위한 도구도 강화되었습니다. 개발 환경 내에서 데이터 활용을 돕는 Data Agent Kit를 비롯하여 AlloyDB, Spanner 등 주요 데이터베이스에 대한 Managed MCP Servers를 통해 AI 모델과 데이터 간의 연결을 더욱 안전하고 효율적으로 관리할 수 있습니다. 또한 MCP Toolbox 1.0의 정식 출시와 QueryData 기능을 통해 자연어 기반의 쿼리 변환 정확도를 높였으며, UCP Analytics를 통해 에이전트 기반 상거래에 대한 실시간 관측 가능성도 제공합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sean Rhee"
+      ],
+      "title": [
+        "Product Management, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 17:00:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/475913d622ec",
+    "title": "Flutter Q2 survey",
+    "summary": "Flutter is Google's UI framework for crafting high-quality native interfaces on iOS, Android, web, and desktop. Flutter works with existing code, is used by developers and organizations around the wor",
+    "aiSummary": "Google은 현재 Flutter 개발자들을 대상으로 분기별 만족도와 의견을 수렴하기 위한 2분기 설문조사를 진행하고 있습니다.\n\n이번 설문조사는 향후 Flutter의 로드맵 방향을 결정하고 제품 개선에 필요한 중요한 데이터를 확보하는 목적으로 실시됩니다.\n\n설문 참여는 6월 19일 금요일 일과 종료 시점까지 가능하며 개발자의 피드백은 공식 홈페이지를 통해 수집됩니다.",
+    "url": "https://blog.flutter.dev/flutter-q2-survey-475913d622ec?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Shams Zakhour",
+    "pubDate": "Mon, 15 Jun 2026 16:42:40 GMT",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91127",
+    "title": "Docker joins the Athena coalition: a cross-industry collaboration for supply chain security",
+    "summary": "The obvious takeaway from 2026's biggest incidents is that attackers are increasingly using AI to move fast. Docker's CISO, Mark Lechner, wrote about this shift and what every engineering team should ",
+    "aiSummary": "Docker가 공급망 보안 강화를 위해 산업 간 협력체인 Athena coalition에 합류했습니다. 최근 2026년의 주요 보안 사고들은 공격자들이 AI를 활용하여 공격 속도를 가속화하고 있음을 시사하고 있습니다.\n\nDocker의 CISO인 Mark Lechner는 이러한 보안 환경의 변화를 지적하며 모든 엔지니어링 팀이 즉각적인 대응 체계를 갖춰야 한다고 강조했습니다. 특히 기술 발전으로 인해 보안 취약점을 발견하고 악용하는 진입 장벽이 낮아지고 있다는 점이 업계의 큰 우려 사항으로 떠오르고 있습니다.\n\n이번 Athena coalition 참여를 통해 Docker는 공급망 전반에 걸친 보안 표준을 수립하고, 고도화되는 AI 기반의 위협에 공동으로 대응하는 전략을 추진할 예정입니다.",
+    "url": "https://www.docker.com/blog/docker-joins-the-athena-coalition-a-cross-industry-collaboration-for-supply-chain-security/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Mon, 15 Jun 2026 16:24:29 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/",
+    "title": "Cloud CISO Perspectives: The 4 lessons that guided AI Threat Defense",
+    "summary": "Welcome to the first Cloud CISO Perspectives for June 2026. Today, we introduce Chris Betz as the new CISO of Google Cloud. For his first Cloud CISO Perspectives, Chris shares four key lessons we lear",
+    "aiSummary": "Google Cloud의 새로운 CISO인 Chris Betz는 AI 기술이 사이버 보안 환경을 급격히 변화시키고 있다고 평가하며, 이에 대응하기 위한 핵심 전략인 AI Threat Defense의 네 가지 운영 원칙을 제시합니다.\n\n첫 번째는 준비 단계로, 기업의 공격 표면을 최소화하고 보안 운영을 위한 프레임워크를 구축해야 합니다. 여기에는 보안 팀과 엔지니어링 팀 간의 긴밀한 협업, 하드웨어 및 토큰 예산의 효율적 배분, 그리고 변화 관리를 위한 체계적인 계획 수립이 포함됩니다.\n\n두 번째는 스캔 및 우선순위 지정 단계입니다. 기술 전문가와 적절한 도구, 그리고 다수의 AI 모델을 결합하여 취약점을 분석하는 것이 중요합니다. 특히 영향력이 큰 핵심 코드부터 우선적으로 점검하고, AI를 활용해 오탐률을 낮추며 취약점의 중요도를 정확히 파악해야 합니다.\n\n세 번째는 교정 단계입니다. 가시성이 확보된 중앙 집중식 시스템을 통해 취약점 해결 과정을 추적하고, 외부 노출도가 높고 영향력이 큰 영역부터 우선적으로 패치를 적용합니다. 또한 취약점 해결을 넘어 시스템 자체를 강화하는 복원력 중심의 접근 방식을 채택하며, 보안 취약점을 제거하기 위해 오픈소스 소프트웨어 관리 전략인 갱신, 제거, 재작성 방식을 병행합니다.\n\n마지막 네 번째는 모니터링 단계입니다. 지속적인 피드백 루프를 통해 시스템 과부하나 새로운 취약점 발생 지점을 상시 감시해야 합니다. AI 에이전트를 활용하여 보안 표준을 자동화하고, 위협 탐지 및 대응 과정을 최적화함으로써 시간이 지날수록 더욱 견고해지는 보안 체계를 구축하는 것이 핵심입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Chris Betz"
+      ],
+      "title": [
+        "CISO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action/",
+    "title": "Architecting a trusted agentic platform with graph technologies: A Yahoo case study",
+    "summary": "As enterprises adopt agentic AI, they need to shift from reactive systems of intelligence to proactive systems of action to equip the agents they’re building with the context and performance they need",
+    "aiSummary": "Yahoo는 Google Cloud와 협력하여 복잡한 디지털 미디어 구매 과정을 자동화하는 Seller Agent 플랫폼을 구축했습니다. 이 플랫폼은 수주가 소요되던 업무를 수 초 내로 단축하면서도, AI 에이전트의 결정에 대한 투명성과 책임성을 확보한 것이 핵심입니다.\n\n플랫폼은 지식 그래프와 맥락 그래프라는 이중 그래프 구조를 통해 신뢰할 수 있는 실행 환경을 구현합니다. Spanner Graph 기반의 지식 그래프는 광고 인벤토리, 계약 조건, 규제 정책 등을 실시간으로 반영하여 에이전트가 비즈니스 논리에 근거해 판단하도록 지원합니다. 또한 BigQuery Graph를 사용하는 맥락 그래프는 에이전트의 모든 결정 과정과 정책 적용 근거를 기록하여, 추후 감사나 설명 가능성이 요구될 때 즉각적으로 추적 가능한 데이터 환경을 제공합니다.\n\n이러한 아키텍처는 단순히 생성형 AI 모델을 도입하는 것을 넘어, 확률적 모델의 한계를 확정적 비즈니스 규칙과 결합한 시스템입니다. Yahoo의 사례는 금융 거래나 공급망 관리와 같이 고도의 정확성과 규제 준수가 필요한 산업 분야에서, 기업이 자율 에이전트를 안전하게 운영하기 위한 표준 청사진을 제시합니다.\n\n결론적으로 기업의 경쟁력은 범용적인 언어 모델 자체보다, 자사의 고유한 비즈니스 운영 정보와 과거 결정 기록을 구조화한 그래프 데이터에 의해 결정됩니다. 기업은 에이전트가 단순히 작업을 수행하는 것을 넘어, 자신의 행동을 설명하고 규제 수준의 거버넌스를 준수하도록 설계된 시스템을 구축해야 합니다.",
+    "url": "https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mikul Bhatt"
+      ],
+      "title": [
+        "Director Of Engineering, Yahoo"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
+    "title": "Implementing workload identity with HashiCorp Vault and SPIFFE",
+    "summary": "Modern workloads are making machine identity strategy harder, not easier. Teams want a standard way to name and verify workloads, but they also need a realistic path from identity to access control. T",
+    "aiSummary": "현대 클라우드 환경에서 워크로드를 식별하고 권한을 제어하는 것은 복잡한 과제가 되었습니다. 많은 조직이 SPIFFE 표준을 통해 워크로드 식별을 표준화하려 하지만, 식별 그 자체만으로는 실제 서비스의 권한 부여 문제까지 해결해주지는 않습니다. 이러한 맥락에서 HashiCorp Vault는 SPIFFE와 상호보완적인 역할을 수행하며, 신뢰할 수 있는 워크로드 식별자를 기반으로 동적 비밀, 인증서, 접근 권한을 관리하는 제어 평면으로서 핵심적인 기능을 제공합니다.\n\nSPIFFE는 플랫폼에 구애받지 않는 이식 가능한 기계 식별 표준을 정의하며, SPIFFE ID와 SVID를 통해 워크로드를 유일하게 식별합니다. 반면, SPIRE는 노드 및 워크로드에 대한 엄격한 검증과 SVID 발급을 수행하는 런타임 구현체입니다. 하지만 모든 조직이 초기부터 SPIRE의 복잡한 운영 오버헤드를 감당할 준비가 된 것은 아니며, 대다수는 식별된 워크로드가 데이터베이스나 API에 어떻게 접근할지 결정하는 권한 부여 체계가 더욱 시급합니다.\n\nVault는 SPIFFE와 결합하여 다음과 같은 실무적인 아키텍처 패턴을 지원합니다.\n\n첫째, Vault의 SPIFFE 인증 방식과 PKI 엔진을 활용하여 워크로드 간의 제로 트러스트 mTLS를 구현할 수 있습니다. Vault는 쿠버네티스 서비스 계정 등을 기반으로 인증한 뒤 SPIFFE 식별자가 포함된 X.509 인증서를 발행하며, 이후 통신 과정에는 개입하지 않아 성능과 확장성을 보장합니다.\n\n둘째, JWT-SVID를 이용한 네트워크 간 API 인증을 지원합니다. Vault는 표준 JWT를 발행하여 외부 서비스가 복잡한 인증 절차 없이도 워크로드의 식별자와 비즈니스 컨텍스트를 검증하게 합니다. 이는 클라우드 간의 자격 증명 교환에도 활용되어 고정된 키를 제거하는 데 기여합니다.\n\n셋째, 기존 SPIRE 환경과의 통합입니다. Vault는 SPIRE가 발행한 SVID를 인증하여 데이터베이스 자격 증명을 제공하는 브로커 역할을 수행하거나, 반대로 Vault의 PKI 엔진을 SPIRE의 상위 인증 기관으로 설정하여 조직의 신뢰 체인을 통합 관리할 수 있게 합니다.\n\n결론적으로 워크로드 식별 전략은 식별자 모델인 SPIFFE, 권한 부여와 자격 증명 브로커 역할을 하는 Vault, 그리고 필요에 따라 심층적인 런타임 검증을 제공하는 SPIRE를 적절히 조합하는 것이 중요합니다. 이들의 역할 분담을 통해 조직은 파편화된 권한 관리 체계를 일관된 표준으로 통합하고, 운영 환경 전반에 걸쳐 안전하고 유연한 접근 제어를 달성할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Dinesh Gawande",
+    "pubDate": "2026-06-15T16:00:00.000Z",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.10",
+    "title": "Bun v1.3.10",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.10",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.289Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.11",
+    "title": "Bun v1.3.11",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.11",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.078Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.12",
+    "title": "Bun v1.3.12",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.12 버전이 출시되었습니다. 해당 업데이트에는 기존 Bun 환경의 설치 및 관리를 지원하는 명령어들이 포함되어 있습니다.\n\nmacOS와 Linux 환경에서는 curl 또는 npm을 사용하여 Bun을 설치할 수 있습니다. Windows 사용자의 경우 PowerShell이나 scoop을 통해 간편하게 설치가 가능하며 Homebrew를 이용한 설치 방식도 지원합니다. Docker를 활용한 환경 구성 또한 가능하도록 다양한 설치 경로를 제공합니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.12",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.869Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.13",
+    "title": "Bun v1.3.13",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.13 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용하면 됩니다. macOS나 Linux 환경에서는 curl 또는 brew를 이용할 수 있으며 npm이나 docker를 통한 설치도 지원합니다. Windows 사용자는 PowerShell이나 scoop 명령어를 통해 Bun을 설치할 수 있습니다. 각 환경별로 최적화된 설치 방법을 제공하여 사용자의 접근성을 높였습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.13",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.668Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.14",
+    "title": "Bun v1.3.14",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.14 버전이 출시되었습니다. 해당 업데이트는 기존 사용자가 최신 환경으로 전환하거나 신규 사용자가 Bun을 설치할 수 있도록 다양한 운영체제 및 패키지 관리자를 위한 설치 명령어를 제공합니다. macOS와 Linux 환경에서는 curl 및 npm을 통해 설치가 가능하며 Windows 사용자를 위한 PowerShell 명령어와 scoop 명령어도 지원합니다. 또한 Docker 환경에서의 설치 방법도 함께 명시되어 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.14",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.371Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+    "summary": "Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North Americ",
+    "aiSummary": "Google Threat Intelligence Group은 중국 연계 해킹 그룹인 UNC6508이 북미 지역의 의료 및 학계 기관을 대상으로 정교한 사이버 공격을 감행하고 있다고 밝혔습니다.\n\n해당 공격자들은 인공지능, 사이버 보안, 의료, 국방 분야의 핵심 연구 데이터 탈취를 목적으로 활동하고 있습니다. UNC6508은 주로 합법적인 소프트웨어 도구를 악용하는 Living off the Land 기법을 사용하여 보안 탐지를 회피하며, 공격 대상 네트워크에 대한 지속적인 접근 권한을 확보하는 데 집중하고 있습니다.\n\n이들은 취약점을 이용해 초기 침투를 수행한 뒤, 정보를 수집하고 측면 이동을 통해 민감한 연구 자료에 접근하는 치밀한 전략을 구사합니다. 이번 활동은 중국의 전략적 기술 경쟁력 확보와 관련이 있는 것으로 분석되며, 관련 분야의 기관들은 보안 강화와 이상 징후에 대한 모니터링을 강화할 필요가 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/subscriptionify",
+    "title": "Subscriptionify: Feature-Based Subscription Management for Laravel",
+    "summary": "Subscriptionify is a gateway-agnostic Laravel package for modeling plans, features, usage quotas, and optional overage billing without tying your application to a specific payment provider.\nThe post S",
+    "aiSummary": "Subscriptionify는 특정 결제 서비스에 종속되지 않고 유연하게 구독 모델을 관리할 수 있도록 설계된 Laravel 패키지입니다. 이 도구는 플랜 구성, 개별 기능 설정, 사용량 할당량 정의를 지원하며 필요에 따라 초과 사용량에 대한 과금 기능도 제공합니다. 결제 게이트웨이와 독립적인 구조를 갖추고 있어 개발자가 원하는 결제 시스템을 자유롭게 연동하여 애플리케이션의 구독 로직을 구현할 수 있습니다.",
+    "url": "https://laravel-news.com/subscriptionify?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 15 Jun 2026 12:03:18 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "d4a483b5504b40c977cc5d689275cac967902536",
+    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog p",
+    "aiSummary": "뉴욕에서 개최된 AWS Summit을 통해 다양한 신규 서비스와 기술 업데이트가 발표되었습니다. \n\n가장 눈에 띄는 변화는 AWS FinOps Agent의 프리뷰 공개입니다. 이 도구는 클라우드 비용을 보다 세밀하게 추적하고 최적화할 수 있도록 지원하며 기업의 클라우드 운영 효율을 높여줄 것으로 기대됩니다. \n\nAI 분야에서는 Google의 최신 모델인 Gemma 4가 Amazon Bedrock에 공식적으로 추가되었습니다. 이를 통해 사용자는 Bedrock 환경 내에서 보다 강력한 성능의 오픈 모델을 간편하게 활용할 수 있게 되었습니다. \n\n이외에도 Kiro Pro Max를 포함한 신규 서비스 및 기술 업데이트가 함께 소개되었으며 상세한 내용은 AWS 공식 블로그를 통해 확인할 수 있습니다. 이번 업데이트는 AWS 생태계 내에서의 개발 편의성과 인프라 관리 효율을 극대화하는 데 중점을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Mon, 15 Jun 2026 11:41:48 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.137.1",
+    "title": "0.137.1",
+    "summary": "Fixes\n🚨 Fix typing checks for APIRoute. PR #15765 by @tiangolo.\n🐛 Fix bug, allow empty path in path operation in prefixless router. PR #15763 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.137.1 업데이트를 통해 두 가지 버그가 수정되었습니다.\n\n먼저 APIRoute와 관련된 타입 체크 오류를 수정하여 안정성을 개선했습니다.\n\n또한 접두사가 없는 라우터의 경로 작업에서 빈 경로를 허용하지 않던 버그를 해결했습니다. 이번 업데이트는 모두 @tiangolo에 의해 진행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-15T11:27:57.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
+    "title": "How I learned Go in a Day with Antigravity 2.0 and How You Can Do the Same",
+    "summary": "I have been exploring how to reclaim my software stack from NPM dependency overhead and replace my resource-intensive Node.js runtime with a compiled, single-binary Go CLI. The result of my efforts is",
+    "aiSummary": "사용자는 기존 Node.js 기반의 무거운 의존성을 가진 CLI 도구를 성능이 뛰어나고 메모리 효율적인 Go 언어 기반의 단일 바이너리로 재구축하는 과정을 공유합니다. 이번 마이그레이션 프로젝트는 Antigravity 2.0이라는 AI 도구를 활용하여 진행되었으며, 단순히 코드를 변환하는 것을 넘어 학습과 설계 중심의 개발 철학을 적용했습니다.\n\n프로젝트의 첫 단계는 목표 설정과 기술 스택 검토였습니다. 작성자는 제로 의존성, 높은 성능, 무신뢰 보안 모델을 목표로 삼았으며, Rust와 Python, Zig 등을 검토한 끝에 선형적인 코드 구조와 풍부한 표준 라이브러리를 갖춘 Go를 최적의 언어로 선택했습니다. 이후 Antigravity에 Go 관련 Agent Skill을 학습시켜 개발 환경의 기준을 맞추고, 기존 TypeScript 기반의 로직을 Go 언어로 체계적으로 변환했습니다.\n\n개발 과정에서는 테스트 주도 개발(TDD)을 핵심 원칙으로 삼았습니다. Agent가 table-driven test 패턴으로 테스트 코드를 먼저 작성하게 하여 ReDoS와 같은 보안 취약점을 방지하고, 에러 처리 명령을 준수하도록 설계했습니다. 또한 코드의 신뢰성을 확보하기 위해 개별 명령어 단위로 subagent를 활용하는 병렬화 전략을 사용했으며, 이를 통해 전체 구조를 유지하면서도 개별 기능의 완성도를 높였습니다.\n\n마지막으로 CI/CD 파이프라인 구축과 Agent Skill화를 통해 개발 경험을 자산화했습니다. 작성자는 이번 과정에서 통합 개발 환경(IDE)에 의존하는 대신 AI를 지휘하는 건축가로서 프로젝트를 주도하며 Go 언어를 빠르게 습득했습니다. 결론적으로, 이번 경험은 기술적 전환뿐만 아니라 AI 에이전트를 효과적으로 관리하고 아키텍처를 설계하는 엔지니어링 역량을 성장시키는 계기가 되었습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Alex \"Sandu\" Astrum"
+      ],
+      "title": [
+        "Developer Relations, Antigravity"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 09:29:00 +0000",
+    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.27",
+    "title": "v11.1.27",
+    "summary": "What's Changed\nfix(core): sse async handlers teardown issue by @kamilmysliwiec in #17131\nfix(platform-fastify): forRoutes middleware ending slash  by @kamilmysliwiec in #17138\nFull Changelog: v11.1.26",
+    "aiSummary": "NestJS v11.1.27 버전에서는 두 가지 주요 수정 사항이 포함되었습니다.\n\ncore 패키지에서는 sse async 핸들러의 종료 처리와 관련된 문제를 해결하였습니다.\n\nplatform-fastify 패키지에서는 forRoutes 미들웨어 사용 시 발생하는 경로 끝 슬래시 처리 오류를 수정하였습니다.\n\n자세한 변경 사항은 이전 버전인 v11.1.26과의 전체 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.27",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-06-15T09:17:02.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "title": "Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia) -- Herb Sutter",
+    "summary": "Hot off the press from the latest ISO C++ meeting:\nTrip report: June 2026 ISO C++ standards meeting (Brno, Czechia)\ntl;dr… A few highlights\nAdopted this week in draft C++29: Complete catalog of all un",
+    "aiSummary": "2026년 6월 체코 브르노에서 개최된 ISO C++ 위원회 회의 결과가 발표되었습니다. 이번 회의를 통해 C++29 표준 초안에 다수의 새로운 기능이 공식적으로 채택되었습니다.\n\n주요 성과로는 언어의 일관성과 생산성을 높이기 위한 다양한 개선 사항들이 포함되었습니다. 특히 개발자들이 오랫동안 요구해 온 기능들이 표준안에 반영되면서 C++의 현대화 작업이 한층 더 속도를 내게 되었습니다.\n\n이번 업데이트는 개발자 경험을 향상시키고 코드의 안전성을 강화하는 데 초점을 맞추고 있습니다. 향후 발표될 상세 기술 문서와 변경 사항들에 대해 전 세계 C++ 커뮤니티의 관심이 집중되고 있습니다.",
+    "url": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 15 Jun 2026 08:09:37 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49833",
+    "title": "Group Replication VS Percona XtraDB Cluster: The True Cost of Consistency",
+    "summary": "Overview When building high-availability MySQL environments, the choice between MySQL Group Replication (GR) and Percona XtraDB Cluster (PXC) often comes down to how they handle the eternal database d",
+    "aiSummary": "MySQL 고가용성 환경을 구축할 때 선택하게 되는 MySQL Group Replication과 Percona XtraDB Cluster는 데이터 일관성 처리 방식에서 근본적인 차이를 보입니다.\n\nMySQL Group Replication은 MySQL 내장 솔루션으로 통합성이 뛰어나며 트랜잭션의 순서와 충돌 해결을 관리하는 분산 합의 알고리즘인 Paxos를 기반으로 합니다. 이 방식은 읽기 및 쓰기 확장성을 제공하지만 쓰기 지연 시간이 네트워크 상태에 민감하게 반응한다는 특징이 있습니다.\n\n반면 Percona XtraDB Cluster는 Galera 라이브러리를 기반으로 하며 동기식 복제를 엄격하게 준수합니다. 노드 간의 트랜잭션 인증을 통해 데이터의 완전성을 강력하게 보장하지만 클러스터 내 모든 노드가 동일한 처리 능력을 갖추어야 하며 네트워크 지연에 따른 성능 저하가 발생할 수 있습니다.\n\n두 솔루션은 각기 다른 목적에 부합하는 장단점을 가지고 있습니다. MySQL Group Replication은 오피셜 환경에서의 유연한 관리와 클라우드 네이티브 환경에 적합하며 Percona XtraDB Cluster는 데이터 일관성이 최우선인 엄격한 금융 및 엔터프라이즈 데이터베이스 운영 환경에 더욱 최적화되어 있습니다. 따라서 운영자는 시스템의 가용성 요구사항과 인프라 네트워크 환경을 고려하여 적절한 기술 스택을 선택해야 합니다.",
+    "url": "https://www.percona.com/blog/group-replication-vs-percona-xtradb-cluster-the-true-cost-of-consistency/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:58:17 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49852",
+    "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+    "summary": "It is time to talk again about Flow control and group replication. This time with a special eye on the use of Group Replication in the Kubernetes context. In this article we will dig a bit on how it w",
+    "aiSummary": "MySQL Group Replication의 핵심 기제인 Flow Control이 Kubernetes 환경에서 고가용성을 유지하는 데 어떤 제약이 있는지 분석합니다. 특히 특정 노드 장애 시 발생하는 Failover 과정에서 시스템의 처리량이 급격히 저하되는 Brownout 현상의 원인을 규명합니다.\n\n단순히 노드를 복구하는 것을 넘어 네트워크 지연과 리소스 경합이 클러스터 전체의 성능에 미치는 영향을 설명합니다. Kubernetes 내에서 Group Replication을 운영할 때 발생하는 트래픽 제어 문제를 해결하기 위한 설정 최적화와 아키텍처 개선 방안을 제시합니다.\n\n기존의 고가용성 전략이 가진 한계를 지적하며 시스템 안정성을 보장하기 위한 새로운 접근법을 모색합니다. 효율적인 클러스터 운영을 위해 Flow Control 메커니즘을 보다 정밀하게 조정하고 예측 가능한 장애 대응 시스템을 구축하는 것이 필요합니다.",
+    "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:57:24 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications",
+    "title": "LaraOwl: Self-Hosted Monitoring for Laravel Applications",
+    "summary": "LaraOwl is an open-source, self-hosted observability platform for Laravel that tracks requests, exceptions, queries, and jobs, with a client package that ships telemetry to a server you run yourself.\n",
+    "aiSummary": "LaraOwl은 Laravel 애플리케이션을 위한 오픈소스이자 자체 호스팅이 가능한 관측성 플랫폼입니다.\n\n이 도구는 클라이언트 패키지를 통해 Laravel 애플리케이션 내의 요청, 예외 사항, 데이터베이스 쿼리 및 작업 내역을 추적합니다.\n\n사용자는 제공되는 클라이언트 패키지를 활용하여 직접 운영하는 서버로 원격 측정 데이터를 전송하고 이를 모니터링할 수 있습니다.",
+    "url": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 15 Jun 2026 03:53:03 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+    "title": "Your agent hit the context limit. Here's the playbook",
+    "summary": "Your agent was humming along, then it stopped mid-task and declared the job done when it wasn't. One common cause is the AI context limit, a hard ceiling on how many tokens a model can hold in its wor",
+    "aiSummary": "AI 에이전트가 작업 도중 갑작스럽게 중단되거나 불완전하게 임무를 마치는 주된 원인은 모델의 컨텍스트 제한 때문입니다. 컨텍스트 제한은 AI가 작업 메모리에 한 번에 처리할 수 있는 토큰의 양을 물리적으로 제한하는 임계점입니다.\n\n이러한 문제를 해결하기 위해 가장 먼저 필요한 것은 현재 사용 중인 모델의 토큰 제한치를 정확히 파악하고 작업의 규모를 그 범위 내로 조절하는 것입니다. 만약 긴 작업이 필요하다면 문서를 요약하거나 불필요한 정보를 제거하여 입력 데이터의 크기를 줄이는 전략이 필요합니다.\n\n기술적으로는 컨텍스트를 효율적으로 관리하기 위한 RAG 기법이나 긴 문맥을 지원하는 롱 컨텍스트 모델로의 전환을 고려할 수 있습니다. 또한 작업을 단계별로 나누어 처리하는 멀티 에이전트 방식이나 중간 결과물을 별도의 스토리지에 저장하여 필요한 시점에 다시 불러오는 메모리 최적화 전략을 도입하는 것이 효과적입니다.\n\n단순히 모델을 업그레이드하는 것 외에도 프롬프트를 최적화하여 불필요한 시스템 메시지나 과거 대화 기록을 정리함으로써 가용 토큰을 확보하는 세심한 관리가 필수적입니다. 이러한 체계적인 접근은 에이전트가 중도에 멈추지 않고 더 복잡하고 긴 작업을 안정적으로 수행할 수 있도록 돕습니다.",
+    "url": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
+    "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
+    "aiSummary": "과거 6년 전 진행했던 Java와 Go 마이크로서비스의 성능 비교 연구가 2026년 기준의 현대적인 런타임과 하드웨어를 바탕으로 다시 수행되었습니다. 이번 연구는 단순히 특정 언어의 우위를 가리는 것이 아니라 페이로드 크기와 동시성이 증가하는 환경에서 각 언어가 어떤 성능을 보이는지 심층적으로 분석하였습니다. 모든 벤치마크 코드와 상세 결과 데이터는 관련 저장소를 통해 공개되어 있으며, 정교하게 구현된 Java와 Go HTTP 서비스가 현대적인 환경에서 어느 정도의 성능 격차를 나타내는지 확인하는 데 초점을 맞추고 있습니다.",
+    "url": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mark Nelson",
+    "pubDate": "2026-06-15T00:00:00.000Z",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
+    "summary": "Tool calling — the ability for an AI model to invoke application-defined functions and act on the results — is the essential building block of agentic AI systems.\n\nA model that can discover informatio",
+    "aiSummary": "Spring AI 2.0은 AI 모델이 애플리케이션 내 정의된 함수를 호출하고 그 결과를 처리하는 Tool calling 기능을 강화하여 에이전트형 AI 시스템 구축을 지원합니다.\n\n이번 업데이트의 핵심은 구성 가능하고 유연한 에이전트 아키텍처를 제공하는 데 있습니다. 이를 통해 개발자는 모델이 필요한 정보를 스스로 탐색하고 외부 작업을 수행하도록 유도할 수 있으며, 복잡한 비즈니스 로직을 AI 워크플로우에 원활하게 통합할 수 있습니다.\n\nSpring AI는 다양한 LLM과의 상호작용을 표준화하여 Tool calling 구현 과정을 단순화합니다. 개발자는 복잡한 구현 세부 사항에 얽매이지 않고도 일관된 방식으로 모델이 외부 도구를 식별하고 활용하게 함으로써 더욱 자율적이고 지능적인 애플리케이션을 개발할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "title": "Spring Tools 5.2.0 released",
+    "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.2.0 release of the Spring Tools\nfor Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code.\nHightlights\n\nCl",
+    "aiSummary": "Spring Tools 5.2.0 버전이 정식으로 출시되었습니다. 이번 업데이트는 Visual Studio Code를 비롯하여 Cursor, Eclipse, Theia, 그리고 Claude Code 환경을 모두 지원합니다. 개발팀과 기여자의 협업을 통해 이루어진 이번 릴리스는 다양한 통합 개발 환경에서의 Spring 기반 애플리케이션 개발 효율성을 높이는 데 초점을 맞추고 있습니다. 구체적인 세부 사항과 개선점은 추후 공개될 상세 업데이트 내역을 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "martinlippert",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "title": "Spotlight on SIG Storage",
+    "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project\nmoving forward. This time, we catch up with SIG\nStorage, the group responsible\nfor persistent data,",
+    "aiSummary": "Kubernetes 프로젝트를 지속적으로 발전시키는 그룹을 소개하는 SIG Spotlight 시리즈의 일환으로 SIG Storage를 조명합니다. SIG Storage는 Kubernetes 환경에서 영속적인 데이터를 관리하고 처리하는 핵심적인 역할을 담당하는 그룹입니다. 이들은 클러스터 내 데이터의 안정성과 가용성을 보장하기 위해 필요한 다양한 저장소 기술 표준을 정의하고 관련 기능을 개발하는 데 집중하고 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-openai-partner-network",
+    "title": "Introducing the OpenAI Partner Network",
+    "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+    "aiSummary": "OpenAI가 글로벌 파트너들의 기업용 AI 도입과 배포 및 기술 전환을 가속화하기 위해 OpenAI Partner Network를 출범하고 1억 5천만 달러를 투자합니다. 이번 프로그램을 통해 파트너사들은 보다 효율적인 AI 통합 환경을 구축하고 비즈니스 혁신을 도모할 수 있을 것으로 전망됩니다.",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Sun, 14 Jun 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.137.0",
+    "title": "0.137.0",
+    "summary": "Breaking Changes\n♻️ Refactor internals to preserve APIRouter and APIRoute instances. PR #15745 by @tiangolo.\nUnblocks ✨ SO MANY THINGS ✨\nBefore this, router.include_router(other_router) would take eac",
+    "aiSummary": "FastAPI 버전 0.137.0 업데이트를 통해 APIRouter와 APIRoute 인스턴스를 보존하도록 내부 구조를 대대적으로 개선했습니다.\n\n이번 리팩토링은 기존에 router.include_router 기능을 사용할 때 발생하던 제약 사항들을 해결하는 중요한 변경 사항입니다. 이를 통해 그동안 구현이 어려웠던 다양한 확장 기능과 복잡한 라우팅 설정을 지원할 수 있는 기술적 토대가 마련되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-14T12:51:11.000Z",
+    "fetchedAt": "2026-06-14T16:50:23.671Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+    "title": "Five context-engineering principles that survive production",
+    "summary": "Your agent passes every test you throw at it. The demo is clean, the eval suite is green, and you ship. Then a week later, the support tickets start: agents looping, costs spiking, responses that conf",
+    "aiSummary": "LLM 기반 에이전트를 실제 운영 환경에 배포한 후 발생하는 문제들을 해결하기 위한 다섯 가지 컨텍스트 엔지니어링 원칙을 제시합니다.\n\n첫째, 명시적인 제약 사항을 컨텍스트에 포함해야 합니다. 모델은 모호한 지시사항보다 구체적으로 하지 말아야 할 행동을 정의할 때 더 안정적으로 작동합니다.\n\n둘째, 컨텍스트에 구조를 부여해야 합니다. 시스템 메시지에 Markdown이나 구조화된 데이터 형식을 사용하면 모델이 정보를 이해하고 처리하는 과정에서 발생하는 오류를 크게 줄일 수 있습니다.\n\n셋째, 최소한의 정보만 제공하는 간결함을 유지해야 합니다. 컨텍스트가 너무 길어지면 주의력 분산으로 인해 성능이 저하되는 Lost in the middle 현상이 발생하므로, 작업 수행에 필요한 핵심 정보만 선택적으로 주입하는 것이 중요합니다.\n\n넷째, 모델의 출력 형식과 사고 과정을 명확히 규정해야 합니다. 최종 답변 전에 Chain of Thought를 유도하거나 답변 양식을 엄격하게 고정하면 환각 현상을 방지하고 결과의 일관성을 높일 수 있습니다.\n\n다섯째, 실제 운영 데이터로부터 피드백 루프를 구축해야 합니다. 개발 단계의 테스트 통과가 운영 환경의 성공을 보장하지 않으므로, 에이전트가 생성한 결과물을 지속적으로 모니터링하고 실패 사례를 컨텍스트 개선에 활용해야 합니다.",
+    "url": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Sun, 14 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/14/cline-migrate-java-oca/",
+    "title": "How Agentic Coding Can Help You Migrate Java Applications Faster",
+    "summary": "by Mahdi Kefayati, Saoud Rizwan (guest) on June 14, 2026\n\t\t\t\n    \n\n\t\t\t\t\tUpgrading Java isn’t just about keeping the lights on—it’s an opportunity to strengthen security, improve performance, and simpl",
+    "aiSummary": "기존 Java 애플리케이션을 최신 버전으로 마이그레이션하는 과정은 보안 강화와 성능 향상, 그리고 코드 복잡성 해소를 위한 필수적인 작업이지만 많은 비용과 시간이 소요되는 난제입니다. 이를 해결하기 위해 최근 주목받는 Agentic Coding은 AI 에이전트를 활용하여 코드 분석부터 리팩토링, 테스트 작성 및 오류 수정까지 마이그레이션 전 과정을 자동화합니다.\n\n전통적인 수동 방식과 달리 Agentic Coding 도구는 애플리케이션의 전체 구조를 문맥적으로 이해하며 종속성 관리와 API 변경 사항을 자동으로 처리합니다. AI 에이전트는 특정 코드 패턴을 식별하여 최신 Java 버전의 사양에 맞게 변환하고 필요한 단위 테스트를 생성하여 빌드 안정성을 확보합니다. \n\n이러한 방식은 개발자가 반복적이고 기계적인 작업에서 벗어나 비즈니스 로직 설계와 같은 고부가가치 작업에 집중할 수 있게 합니다. 결론적으로 Agentic Coding을 도입하면 마이그레이션에 투입되는 인적 자원과 리스크를 획기적으로 줄여 보다 신속하고 안전하게 시스템 현대화를 추진할 수 있습니다.",
+    "url": "https://inside.java/2026/06/14/cline-migrate-java-oca/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mahdi Kefayati",
+    "pubDate": "2026-06-14T00:00:00.000Z",
+    "fetchedAt": "2026-06-14T16:50:23.671Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+    "title": "Copilot code review: New configurations and controls",
+    "summary": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your…",
+    "aiSummary": "GitHub는 Copilot 코드 리뷰 기능을 사용자가 더욱 세밀하게 제어할 수 있도록 여러 가지 새로운 설정과 기능을 도입하였습니다.\n\n먼저 조직 단위의 러너 제어 기능이 추가되어 관리자가 코드 리뷰 환경을 더욱 효과적으로 운영할 수 있게 되었습니다. 또한 Copilot 콘텐츠 제외 지원 기능이 포함되어 특정 데이터가 리뷰 과정에 포함되지 않도록 설정할 수 있습니다.\n\n저장소 단위의 사용자 정의 지침에 적용되던 글자 수 제한이 완전히 제거되었습니다. 이를 통해 개발자들은 더욱 상세하고 구체적인 코딩 스타일이나 규칙을 Copilot에 전달할 수 있게 되어 보다 정교한 코드 리뷰를 수행할 수 있습니다.",
+    "cleanContent": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your…\nThe post Copilot code review: New configurations and controls appeared first on The GitHub Blog.",
+    "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 12 Jun 2026 21:37:14 +0000",
+    "fetchedAt": "2026-06-14T10:33:56.852Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/cpp26-structured-bindings-can-introduce-a-pack-sandor-dargo",
+    "title": "C++26: Structured Bindings can introduce a Pack -- Sandor Dargo",
+    "summary": "In previous posts, we talked about how C++26 improves structured bindings by allowing them to be used in conditionals’ init statements. We also briefly touched on other improvements coming in C++26, s",
+    "aiSummary": "C++26 표준에서는 구조적 바인딩을 통해 팩을 도입할 수 있는 새로운 기능이 추가됩니다. 기존의 팩은 주로 템플릿 문맥에서만 제한적으로 사용되어 왔으나, 이번 개선을 통해 구조적 바인딩 내에서도 팩을 활용할 수 있는 길이 열리게 되었습니다.\n\n당초 비템플릿 문맥까지 지원하려는 시도가 있었으나 구현의 복잡성과 기술적인 반대 의견들로 인해 해당 부분은 제외되었습니다. 하지만 이번 변화는 C++ 언어가 팩의 활용 범위를 점진적으로 확장하고 있다는 중요한 방향성을 보여줍니다. 이는 향후 C++ 언어의 메타프로그래밍과 구조적 바인딩 간의 통합 수준이 더욱 높아질 것임을 시사합니다.",
+    "cleanContent": "In previous posts, we talked about how C++26 improves structured bindings by allowing them to be used in conditionals’ init statements. We also briefly touched on other improvements coming in C++26, such as individual binding annotations and constexpr bindings. There is, however, one important enhancement to structured bindings that we haven’t covered yet on this blog: Structured Bindings can introduce a Pack\nC++26: Structured Bindings can introduce a Pack\npack is. A reasonably accurate (and not overly simplistic) definition is the following:\ntemplate in this definition. Historically, packs only existed in templated contexts, but that limitation is slowly being relaxed. Earlier versions of the proposal behind this feature even aimed to support structured binding packs in non-templated contexts. That part was eventually dropped due to implementation complexity and related objections — but the direction is still telling.",
+    "url": "https://isocpp.org//blog/2026/06/cpp26-structured-bindings-can-introduce-a-pack-sandor-dargo",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Fri, 12 Jun 2026 19:18:43 +0000",
+    "fetchedAt": "2026-06-13T19:19:32.218Z",
+    "tags": [
+      "C++"
     ]
   }
 ]

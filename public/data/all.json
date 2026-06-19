@@ -1,5 +1,51 @@
 [
   {
+    "id": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-keith-stockdale-the-journey-to-w4-wx-how-hard-could-it",
+    "title": "BeCPP Symposium 2026 - Keith Stockdale - The journey to \"/W4 /WX\": How hard could it be?",
+    "summary": "BeCPP Symposium 2026 (organized by BeCPP): Now on YouTube!\nKeith Stockdale - The journey to \"/W4 /WX\": How hard could it be?\n\n\n\tAbstract:\n\n\t\n\t\tBuilding on the recent work of improving the quality of S",
+    "aiSummary": "BeCPP Symposium 2026에서 진행된 Keith Stockdale의 발표인 \"The journey to \"/W4 /WX\": How hard could it be?\"가 YouTube에 공개되었습니다. 이번 발표는 10년 동안 개발된 수백만 줄의 Unreal Engine 코드베이스를 가진 게임 Sea of Thieves의 코드 품질을 높이기 위해 C++14에서 C++20으로 업그레이드하고, 경고 수준을 높여 경고를 오류로 처리하는 옵션을 활성화하는 과정을 다룹니다. Rare Ltd의 시니어 소프트웨어 엔지니어인 Keith Stockdale이 이러한 작업을 수행하게 된 동기와 여정을 공유하며 코드 품질 향상의 중요성을 강조합니다.",
+    "url": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-keith-stockdale-the-journey-to-w4-wx-how-hard-could-it",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Marc Gregoire",
+    "pubDate": "Fri, 19 Jun 2026 16:28:08 +0000",
+    "fetchedAt": "2026-06-19T17:28:55.146Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-chris-croft-white-agentic-time-travel-debugging",
+    "title": "BeCPP Symposium 2026 - Chris Croft-White - Agentic Time-Travel Debugging",
+    "summary": "BeCPP Symposium 2026 (organized by BeCPP): Now on YouTube!\nChris Croft-White - Agentic Time-Travel Debugging\n\n\n\tAbstract:\n\n\t\n\t\tTime-travel debugging is a powerful technique to dive deep into the execu",
+    "aiSummary": "BeCPP Symposium 2026에서 발표된 Chris Croft-White의 Agentic Time-Travel Debugging 세션이 YouTube에 공개되었습니다. Time-travel debugging은 애플리케이션의 실행 과정을 정밀하게 추적하여 문제를 신속하게 진단하고 생소한 코드베이스를 이해하는 데 매우 유용한 기술입니다. 최근 AI 도입의 주요 장애물로 지목되는 환각 현상을 해결하기 위해 이 기술과 AI를 결합하는 방안이 제시되었습니다. Time-travel debugging 기술을 AI Agent와 결합하면 에이전트에게 실행 과정의 모든 정보를 제공할 수 있어, 에이전트가 문제 발생 시 스스로 가설을 수립하고 검증하며 발생 원인을 명확히 규명할 때까지 반복 분석을 수행할 수 있습니다.\n\n발표자인 Undo의 Staff Solutions Architect인 Chris Croft-White는 현재 AI가 단순한 코드 생성을 넘어 근본 원인 분석과 결함 해결의 진정한 파트너가 될 수 있도록 돕는 agentic debugging 영역에 집중하고 있으며, 실무 디버깅 워크플로우에 AI를 통합하는 실용적인 접근법을 제시하고 있습니다.",
+    "url": "https://isocpp.org//blog/2026/06/becpp-symposium-2026-chris-croft-white-agentic-time-travel-debugging",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Marc Gregoire",
+    "pubDate": "Fri, 19 Jun 2026 16:24:32 +0000",
+    "fetchedAt": "2026-06-19T17:28:55.146Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+    "title": "AI credits consumed per user now in the Copilot usage metrics API",
+    "summary": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.…\nThe post AI credits co",
+    "aiSummary": "GitHub의 Copilot usage metrics API를 통해 각 사용자가 하루에 소비한 AI credits 정보를 확인할 수 있게 되었습니다. 해당 데이터는 기존 usage-based billing API에서 활용하는 AI credits 소비량 정보와 동일한 데이터를 기반으로 산출됩니다. 이를 통해 관리자는 사용자별 실시간 AI 자원 사용 현황을 보다 정밀하게 파악하고 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 19 Jun 2026 16:23:29 +0000",
+    "fetchedAt": "2026-06-19T17:28:55.146Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=youtrack&p=714100",
     "title": "YouTrack Security Update: Upgrade Required for YouTrack Server",
     "summary": "We’re sharing this update to inform YouTrack administrators about several security vulnerabilities that were recently identified and fixed in YouTrack. For YouTrack Cloud users, this post is purely in",
