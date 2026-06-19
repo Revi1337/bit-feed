@@ -68,11 +68,25 @@
     <!-- Main Content -->
     <section class="flex-1 flex flex-col gap-md">
       <!-- Header -->
-      <div class="flex items-center justify-between mb-lg">
+      <div class="flex items-center justify-between mb-md">
         <h1 class="text-[32px] font-semibold tracking-[-1.28px]">
           {{ mode === 'latest' ? '최신 소식' : '모든 소식' }}
         </h1>
         <span class="text-body text-[14px]">총 {{ filteredNews.length }}개의 소식</span>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="relative mb-lg">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 text-mute" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input 
+          v-model="searchQuery" 
+          type="text" 
+          placeholder="뉴스 제목을 검색해보세요..." 
+          class="w-full bg-canvas-soft border border-hairline rounded-md pl-10 pr-4 py-2.5 text-[15px] text-ink placeholder:text-mute focus:outline-none focus:border-hairline-strong focus:ring-1 focus:ring-hairline-strong transition-all"
+        />
+        <button v-if="searchQuery" @click="searchQuery = ''" class="absolute right-3 top-1/2 -translate-y-1/2 text-mute hover:text-ink">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
       </div>
 
       <!-- News List Grid -->
@@ -171,13 +185,14 @@ const { data: baseNews, pending } = useFetch(dataUrl, {
 // Filter State
 const selectedCategories = ref([])
 const selectedTags = ref([])
+const searchQuery = ref('')
 
 // Pagination State
 const currentPage = ref(1)
 const itemsPerPage = 20
 
 // Reset page when filters change
-watch([selectedCategories, selectedTags], () => {
+watch([selectedCategories, selectedTags, searchQuery], () => {
   currentPage.value = 1
 }, { deep: true })
 
@@ -233,6 +248,7 @@ const toggleTag = (tag) => {
 
 // Filtered List
 const filteredNews = computed(() => {
+  const query = searchQuery.value.trim().toLowerCase()
   return baseNews.value.filter(news => {
     // 1. Category Filter (OR logic within categories)
     const matchCategory = selectedCategories.value.length === 0 || selectedCategories.value.includes(news.category)
@@ -240,7 +256,11 @@ const filteredNews = computed(() => {
     // 2. Tag Filter (OR logic within tags)
     const matchTag = selectedTags.value.length === 0 || (news.tags && news.tags.some(t => selectedTags.value.includes(t)))
     
-    return matchCategory && matchTag
+    // 3. Search Filter
+    const matchSearch = query === '' || 
+      (news.title && news.title.toLowerCase().includes(query))
+      
+    return matchCategory && matchTag && matchSearch
   })
 })
 
