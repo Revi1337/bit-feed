@@ -67,7 +67,10 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
           continue;
         }
 
-        const itemPubDate = item.pubDate || item.isoDate || new Date().toISOString();
+        let itemPubDate = item.pubDate || item.isoDate || runTime;
+        if (new Date(itemPubDate) > new Date(runTime)) {
+          itemPubDate = runTime;
+        }
 
         const title = unescapeHtml(item.title || 'No Title');
         const rawContent = unescapeHtml(item.contentSnippet || item.content || '');
