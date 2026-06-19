@@ -6,7 +6,7 @@ export const FEEDS = [
   { name: 'TypeScript Blog', url: 'https://devblogs.microsoft.com/typescript/feed/', category: '프로그래밍 언어', tags: ['TypeScript', 'JS'] },
   { name: 'Inside Java', url: 'https://inside.java/feed.xml', category: '프로그래밍 언어', tags: ['Java'] },
   { name: 'Ruby News', url: 'https://www.ruby-lang.org/en/feeds/news.rss', category: '프로그래밍 언어', tags: ['Ruby'] },
-  { name: 'ISO C++', url: 'https://isocpp.org/blog/rss', category: '프로그래밍 언어', tags: ['C++'] },
+  { name: 'ISO C++', url: 'https://isocpp.org/blog/rss', category: '프로그래밍 언어', tags: ['C++'], allowedCategories: ['Standardization', 'Product News', 'Articles & Books'] },
   { name: 'PHP News', url: 'https://www.php.net/feed.atom', category: '프로그래밍 언어', tags: ['PHP'] },
   { name: '.NET Blog', url: 'https://devblogs.microsoft.com/dotnet/feed/', category: '프로그래밍 언어', tags: ['C#', '.NET'] },
   { name: 'Swift Blog', url: 'https://www.swift.org/atom.xml', category: '프로그래밍 언어', tags: ['Swift', 'Apple'] },

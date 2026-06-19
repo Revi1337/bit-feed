@@ -3,7 +3,11 @@ import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
 import { MAX_ARTICLES_PER_SOURCE, SUMMARY_LENGTH, CLEAN_CONTENT_LENGTH } from '../config/constants.mjs';
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: {
+    item: [['dc:subject', 'subject']]
+  }
+});
 
 function annotateLinks(doc) {
   doc.querySelectorAll('a').forEach(a => {
@@ -111,7 +115,11 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
       let items = parsed.items;
       if (feed.allowedCategories) {
         items = items.filter(item => {
-          const itemCategories = item.categories || [];
+          let itemCategories = item.categories || [];
+          if (item.subject) {
+            const subjects = item.subject.split(',').map(s => s.trim()).filter(Boolean);
+            itemCategories = itemCategories.concat(subjects);
+          }
           return itemCategories.some(cat =>
             feed.allowedCategories.some(allowed => cat.toLowerCase() === allowed.toLowerCase())
           );
