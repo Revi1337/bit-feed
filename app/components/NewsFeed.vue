@@ -76,7 +76,12 @@
       </div>
 
       <!-- News List Grid -->
-      <div v-if="filteredNews.length > 0" class="flex flex-col gap-lg">
+      <div v-if="pending" class="flex flex-col gap-lg">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-lg">
+          <NewsCardSkeleton v-for="i in 8" :key="'skeleton-' + i" />
+        </div>
+      </div>
+      <div v-else-if="filteredNews.length > 0" class="flex flex-col gap-lg">
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-lg">
           <NewsCard v-for="(news, index) in paginatedNews" :key="news.id" :news="news" :index="index" :hideNewBadge="mode === 'all'" @select="openArticle" />
         </div>
@@ -157,8 +162,9 @@ const dataUrl = computed(() => {
   const path = props.mode === 'latest' ? '/data/latest.json' : '/data/all.json'
   return `${path}?v=${config.public.buildVersion}`
 })
-const { data: baseNews } = await useFetch(dataUrl, { 
+const { data: baseNews, pending } = useFetch(dataUrl, { 
   server: false,
+  lazy: true,
   default: () => [] 
 })
 
