@@ -53,7 +53,7 @@ ${content.slice(0, AI_CONTENT_MAX_LENGTH)}
 `;
 
   let attempt = 0;
-  const maxRetries = 3;
+  const maxRetries = 6;
   const baseDelay = 2000;
 
   while (attempt < maxRetries) {
