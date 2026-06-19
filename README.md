@@ -6,7 +6,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 
 - 자동화된 데이터 수집: 별도의 백엔드 서버 없이 주기적으로 공식 블로그 및 문서의 RSS 피드를 수집하여 정적 JSON 데이터로 저장합니다.
 - 아카이브 및 최신화 로직: 데이터를 latest.json(최근 50개 롤링 윈도우)과 all.json(전체 아카이브)으로 분리하여 프론트엔드 렌더링 성능과 데이터 파이프라인 효율을 극대화합니다.
-- AI 핵심 요약: Gemini API를 연동하여 장문의 기사 내용을 짧고 정중한 한국어 문장으로 실시간 요약합니다.
+- AI 에이전트 핵심 요약 (Function Calling): Gemini API를 연동하여 장문의 기사 내용을 짧고 정중한 한국어 문장으로 실시간 요약합니다. 본문이 짧을 경우 자율적으로 원본 링크를 직접 크롤링하며, 503 등 서버 에러 시 Jitter가 포함된 Exponential Backoff(지수 백오프) 재시도 로직으로 중단 없는 요약을 보장합니다.
 - 다중 필터링 시스템: 카테고리, 출처, 태그, 날짜 등 복합적인 조건을 조합하여 원하는 뉴스만 정확하게 필터링할 수 있습니다.
 - 모던 대시보드 UI: Vercel의 디자인 가이드라인을 엄격히 준수하며, 다크모드를 기본으로 설정하고 "What's New"와 "All Updates"가 구분된 직관적인 반응형 레이아웃을 제공합니다.
 
@@ -19,45 +19,50 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 - 자동화 파이프라인: GitHub Actions (스케줄링 기반 Node.js 스크립트 실행)
 - 배포 환경: Vercel / GitHub Pages
 
-## 데이터 파이프라인 아키텍처
+## 데이터 파이프라인 아키텍처 (Modular Scripts)
 
-다음 ASCII 다이어그램은 GitHub Actions에 의해 주기적으로 실행되는 자동화된 JSON 데이터 수집 및 병합 워크플로우를 보여줍니다.
+프로젝트 스크립트는 재사용성 및 유지보수성을 극대화하기 위해 모듈형으로 구성되어 있습니다. 
+다음은 GitHub Actions에 의해 실행되는 자동화된 JSON 데이터 수집 및 병합 워크플로우입니다.
 
 ```text
 [GitHub Action Cron / Dispatch]
            |
            v
 +--------------------------------------+
-|        scripts/fetch-rss.mjs         |
+|        scripts/fetch-rss.mjs         | (메인 Orchestrator)
 +--------------------------------------+
-           |
-           | 1. 기존 데이터 읽기
+           |  -- 사용 모듈 --
+           |  1) scripts/config/feeds.mjs: 58개 피드 설정 로드
+           |  2) scripts/utils/scraper.mjs: JSDOM 파싱 및 링크 추출
+           |  3) scripts/utils/ai.mjs: 에이전트 요약 및 백오프 재시도
            v
 +--------------------------------------+
 |        public/data/all.json          | (기존 아카이브)
 +--------------------------------------+
            |
-           | 2. 40개 이상의 소스에서 RSS 피드 수집 및 파싱
-           | 3. Gemini API를 통한 기사 요약 생성
+           | 1. 데이터 수집 및 JSDOM 기반 정제
+           | 2. Gemini API 자율 에이전트 요약 (필요시 링크 직접 크롤링)
            v
 [        새로운 데이터 병합 및 정렬        ]
            |
-           | 4. 기존 아카이브 덮어쓰기
+           | 3. 기존 아카이브 덮어쓰기
            v
 +--------------------------------------+
 |        public/data/all.json          | (업데이트된 전체 아카이브)
 +--------------------------------------+
            |
-           | 5. 최신 50개 슬라이싱 (Rolling Window)
+           | 4. 최신 50개 슬라이싱 (Rolling Window)
            v
 +--------------------------------------+
 |       public/data/latest.json        | (최신 업데이트 내역)
 +--------------------------------------+
            |
-           | 6. Git Add, Commit & Push
+           | 5. Git Add, Commit & Push
            v
 [         GitHub Repository            ]
 ```
+
+*※ 예외 상황 시 누락된 요약본만 핀셋으로 복구하는 `scripts/sync/fill-missing.mjs` 독립 스크립트를 지원합니다.*
 
 ## 설치 및 로컬 실행 방법
 
@@ -103,4 +108,3 @@ npm run fetch-rss
 - docs/prd.md: 제품 요구사항 정의서 (Product Requirements Document)
 - docs/spec.md: 기술 명세서 (Technical Specifications)
 - docs/DESIGN.md: 디자인 가이드라인 (Vercel Design System)
-- docs/agents.md: 멀티 에이전트 협업 아키텍처

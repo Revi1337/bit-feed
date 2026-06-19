@@ -87,3 +87,13 @@
 - [x] `server/api/feeds/sources.get.ts`: 데이터 내에 존재하는 모든 출처(sourceName) 목록 반환.
 - [x] `server/api/feeds/categories.get.ts`: 데이터 내에 존재하는 모든 카테고리(category) 목록 반환.
 - [x] Phase 8 작업 내역 Git Commit (`git commit -m "feat: add Open API routes and CORS middleware"`)
+
+## Phase 9: AI Agent & Scripts Modularization (스크립트 모듈화 및 에이전트 도입)
+기존의 단일 파이프라인 스크립트를 역할별로 분리하고, AI 요약 기능을 강화하여 자율 에이전트(Agentic Workflow) 수준으로 고도화합니다.
+
+- [x] Monolithic 구조의 `fetch-rss.mjs`를 `config/`, `sync/`, `utils/` 모듈로 완벽히 분리.
+- [x] `gemini-3.5-flash` 모델에 `startChat` 기반의 Function Calling(`fetchUrlContent`) 에이전트 능력을 부여하여 짧은 본문을 감지하면 원본 링크의 내용을 자율적으로 크롤링.
+- [x] 구글 서버의 503 장애 등에 대응하기 위한 지수 백오프(Exponential Backoff: 2s -> 4s -> 8s) 공통 재시도 로직 도입.
+- [x] 링크 유실을 방지하기 위해 `scraper.mjs`의 `JSDOM` 기반 `<a>` 태그 추출 로직(`stripHtmlAndPreserveLinks`) 적용.
+- [x] 누락된 요약본만 선택적으로 복구하는 `fill-missing.mjs` 독립 스크립트 작성.
+- [x] Phase 9 작업 내역 Git Commit (`git commit -m "feat(ai): add function calling for external links and unify retry logic"`)
