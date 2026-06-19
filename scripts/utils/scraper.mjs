@@ -270,9 +270,6 @@ export async function scrapeViteNews(existingMap, runTime) {
       const timeEl = a.closest('div, article, section')?.querySelector('time');
       const pubDate = timeEl && timeEl.getAttribute('datetime') ? new Date(timeEl.getAttribute('datetime')).toISOString() : new Date().toISOString();
       
-      
-
-      
       const content = await fetchAndExtractArticle(url);
       if (!content) continue;
       
