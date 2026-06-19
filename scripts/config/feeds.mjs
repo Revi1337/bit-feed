@@ -57,6 +57,7 @@ export const FEEDS = [
 
   // 6. 인공지능
   { name: 'Google DeepMind', url: 'https://deepmind.google/blog/rss.xml', category: '인공지능', tags: ['DeepMind', 'Gemini', 'AI'] },
+  { name: 'Google Gemini Blog', url: 'https://blog.google/products/gemini/rss/', category: '인공지능', tags: ['Google', 'Gemini', 'AI'] },
   { name: 'OpenAI News', url: 'https://openai.com/news/rss.xml', category: '인공지능', tags: ['OpenAI', 'LLM', 'AI'] },
   { name: 'Ollama Blog', url: 'https://ollama.com/blog/rss.xml', category: '인공지능', tags: ['Ollama', 'LLM', 'Local AI'] },
   { name: 'Qwen Blog', url: 'https://qwenlm.github.io/blog/index.xml', category: '인공지능', tags: ['Qwen', 'LLM', 'Alibaba'] },
