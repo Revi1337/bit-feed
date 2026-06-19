@@ -18,7 +18,7 @@
         <span class="text-mute">{{ formatDate(news.pubDate) }}</span>
       </div>
     </div>
-    <span v-if="isNew(news.pubDate)" class="absolute top-lg right-lg text-[10px] font-medium text-body bg-canvas-soft-2 border border-hairline px-1.5 py-[2px] rounded-sm tracking-wide">new</span>
+    <span v-if="!hideNewBadge && isNew(news.pubDate)" class="absolute top-lg right-lg text-[10px] font-medium text-body bg-canvas-soft-2 border border-hairline px-1.5 py-[2px] rounded-sm tracking-wide">new</span>
 
     <!-- Content -->
     <h2 class="text-[20px] font-semibold text-ink leading-tight mb-sm md:group-hover:text-link transition-colors">{{ news.title }}</h2>
@@ -42,6 +42,10 @@ const props = defineProps({
   index: {
     type: Number,
     default: 0
+  },
+  hideNewBadge: {
+    type: Boolean,
+    default: false
   }
 })
 

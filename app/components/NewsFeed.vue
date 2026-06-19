@@ -70,7 +70,7 @@
       <!-- Header -->
       <div class="flex items-center justify-between mb-lg">
         <h1 class="text-[32px] font-semibold tracking-[-1.28px]">
-          {{ mode === 'latest' ? '오늘의 소식' : '모든 소식' }}
+          {{ mode === 'latest' ? '최신 소식' : '모든 소식' }}
         </h1>
         <span class="text-body text-[14px]">총 {{ filteredNews.length }}개의 소식</span>
       </div>
@@ -78,7 +78,7 @@
       <!-- News List Grid -->
       <div v-if="filteredNews.length > 0" class="flex flex-col gap-lg">
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-lg">
-          <NewsCard v-for="(news, index) in paginatedNews" :key="news.id" :news="news" :index="index" @select="openArticle" />
+          <NewsCard v-for="(news, index) in paginatedNews" :key="news.id" :news="news" :index="index" :hideNewBadge="mode === 'all'" @select="openArticle" />
         </div>
         
         <!-- Pagination Controls -->
@@ -103,7 +103,7 @@
         </div>
       </div>
       <div v-else class="py-xl text-center text-mute border border-hairline border-dashed rounded-md flex flex-col items-center justify-center gap-2">
-        <span v-if="baseNews.length === 0 && mode === 'latest'">오늘은 아직 새로 올라온 소식이 없습니다.</span>
+        <span v-if="baseNews.length === 0 && mode === 'latest'">최근에 새로 올라온 소식이 없습니다.</span>
         <span v-else-if="baseNews.length === 0 && mode === 'all'">아직 수집된 아티클이 없습니다.</span>
         <span v-else>선택하신 조건에 맞는 소식이 없습니다.</span>
       </div>

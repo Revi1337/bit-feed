@@ -21,8 +21,8 @@
 
     <!-- Navigation -->
     <nav class="flex-1 md:flex-none flex items-center justify-start md:justify-center gap-4 md:gap-lg ml-4 md:ml-0 md:absolute md:left-1/2 md:-translate-x-1/2 overflow-x-auto no-scrollbar">
-      <NuxtLink to="/new" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="오늘의 소식">
-        오늘의 소식
+      <NuxtLink to="/new" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="최신 소식">
+        최신 소식
       </NuxtLink>
       <NuxtLink to="/all" class="nav-link text-[14px] md:text-[15px] transition-colors whitespace-nowrap" data-text="모든 소식">
         모든 소식

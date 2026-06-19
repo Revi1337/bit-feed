@@ -14,7 +14,7 @@
       
       <div class="flex flex-col sm:flex-row items-center gap-4 animate-fade-in-up" style="animation-delay: 300ms;">
         <NuxtLink to="/new" class="flex items-center gap-2 px-8 py-3.5 rounded-lg bg-ink text-canvas font-semibold text-[15px] hover:opacity-90 transition-all shadow-level-2 hover:shadow-level-3">
-          오늘의 소식 확인하기
+          최신 소식 확인하기
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </NuxtLink>
         <NuxtLink to="/all" class="px-8 py-3.5 rounded-lg bg-canvas text-ink font-semibold text-[15px] hover:bg-canvas-soft transition-all border border-hairline shadow-sm">
