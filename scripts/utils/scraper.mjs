@@ -23,6 +23,22 @@ export function unescapeHtml(text) {
     .replace(/&#8221;/g, '”');
 }
 
+export function stripHtmlAndPreserveLinks(html) {
+  if (!html) return '';
+  try {
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    doc.querySelectorAll('a').forEach(a => {
+      if (a.href && !a.textContent.includes(a.href)) {
+        a.textContent = `${a.textContent} (${a.href})`;
+      }
+    });
+    return doc.body.textContent.trim();
+  } catch (error) {
+    return html.replace(/(<([^>]+)>)/gi, "").trim();
+  }
+}
+
 export async function fetchAndExtractArticle(url) {
   try {
     const res = await fetch(url, {
@@ -33,6 +49,13 @@ export async function fetchAndExtractArticle(url) {
     if (!res.ok) return null;
     const html = await res.text();
     const doc = new JSDOM(html, { url });
+    
+    doc.window.document.querySelectorAll('a').forEach(a => {
+      if (a.href && !a.textContent.includes(a.href)) {
+        a.textContent = `${a.textContent} (${a.href})`;
+      }
+    });
+
     const reader = new Readability(doc.window.document);
     const article = reader.parse();
     return article ? article.textContent.trim() : null;
@@ -74,7 +97,7 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
 
         const title = unescapeHtml(item.title || 'No Title');
         const rawContent = unescapeHtml(item.contentSnippet || item.content || '');
-        const cleanContent = rawContent.replace(/(<([^>]+)>)/gi, "");
+        const cleanContent = stripHtmlAndPreserveLinks(rawContent);
         let summary = cleanContent.slice(0, 200);
         let finalContent = cleanContent;
 

@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
+import { fetchAndExtractArticle } from './scraper.mjs';
 import pLimit from 'p-limit';
 
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -9,15 +10,32 @@ export async function generateAISummary(title, content) {
   if (!content || content.trim().length < 30) return "본문이 제공되지 않은 기사입니다.";
 
   const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
-  const model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
 
-  let attempt = 0;
-  const maxRetries = 3;
-  const baseDelay = 2000;
+  // 9월 28일 이후 Google AI Pro 계정이 끝나기 때문에 다시 flash-lite 를 사용해야 함
+  // let model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
+  let model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+  const isFlash35 = model.model.includes("gemini-3.5-flash");
 
-  while (attempt < maxRetries) {
-    try {
-      const prompt = `당신은 IT 뉴스 기사를 요약하는 전문 AI입니다. 
+  if (isFlash35) {
+    model = genAI.getGenerativeModel({
+      model: "gemini-3.5-flash",
+      tools: [{
+        functionDeclarations: [{
+          name: "fetchUrlContent",
+          description: "외부 하이퍼링크의 상세 텍스트 내용을 가져옵니다. 본문이 너무 짧거나, 'release notes', '자세히 보기' 등 구체적인 내용이 외부 링크에 있다고 명시된 경우 이 함수를 사용해 해당 링크의 내용을 긁어오세요. URL은 본문 내 괄호 안의 (https://...) 형태를 참고하세요.",
+          parameters: {
+            type: SchemaType.OBJECT,
+            properties: {
+              url: { type: SchemaType.STRING, description: "가져올 절대 경로 URL" }
+            },
+            required: ["url"]
+          }
+        }]
+      }]
+    });
+  }
+
+  const prompt = `당신은 IT 뉴스 기사를 요약하는 전문 AI입니다. 
 다음 기사 제목과 본문을 바탕으로 핵심 내용을 한국어로 요약해 줘.
 
 [엄격한 규칙]
@@ -32,8 +50,37 @@ export async function generateAISummary(title, content) {
 본문:
 ${content.slice(0, 15000)}
 `;
-      const result = await model.generateContent(prompt);
-      return result.response.text();
+
+  let attempt = 0;
+  const maxRetries = 3;
+  const baseDelay = 2000;
+
+  while (attempt < maxRetries) {
+    try {
+      if (isFlash35) { // when "gemini-3.5-flash"
+        const chat = model.startChat();
+        let result = await chat.sendMessage(prompt);
+        
+        const calls = result.response.functionCalls();
+        if (calls && calls.length > 0) {
+          const call = calls[0];
+          if (call.name === "fetchUrlContent") {
+            console.log(`[AI Agent] Fetching external link for "${title}": ${call.args.url}`);
+            const scrapedText = await fetchAndExtractArticle(call.args.url);
+            
+            result = await chat.sendMessage([{
+              functionResponse: {
+                name: 'fetchUrlContent',
+                response: { content: scrapedText ? scrapedText.slice(0, 15000) : "URL 본문 추출 실패" }
+              }
+            }]);
+          }
+        }
+        return result.response.text();
+      } else { // when "gemini-3.1-flash-lite"
+        const result = await model.generateContent(prompt);
+        return result.response.text();
+      }
     } catch (error) {
       attempt++;
       console.error(`AI Summary failed for "${title}" (Attempt ${attempt}/${maxRetries}):`, error.message);
