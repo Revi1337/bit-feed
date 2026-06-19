@@ -97,3 +97,15 @@
 - [x] 링크 유실을 방지하기 위해 `scraper.mjs`의 `JSDOM` 기반 `<a>` 태그 추출 로직(`stripHtmlAndPreserveLinks`) 적용.
 - [x] 누락된 요약본만 선택적으로 복구하는 `fill-missing.mjs` 독립 스크립트 작성.
 - [x] Phase 9 작업 내역 Git Commit (`git commit -m "feat(ai): add function calling for external links and unify retry logic"`)
+
+## Phase 10: Scripts Refactoring & Extensibility (스크립트 리팩토링 및 확장성 강화)
+파이프라인의 구조적 문제를 해결하고 OCP 원칙을 적용하여 새 데이터 소스 추가 비용을 최소화합니다.
+
+- [x] `scripts/config/constants.mjs` 도입: 매직 넘버(최대 기사 수, 요약 길이, AI 딜레이, 롤링 윈도우 기간 등)를 상수로 중앙화.
+- [x] `scripts/config/scrapers.mjs` 도입: `CUSTOM_SCRAPERS` 레지스트리 패턴 적용. 새 커스텀 스크래퍼 추가 시 `fetch-rss.mjs`·`test-run.mjs` 수정 없이 이 파일에만 등록 (OCP 달성).
+- [x] `scripts/scrapers/` 디렉토리 신설: 플랫폼별 스크래퍼(anthropic, deepseek, vite, babel, bun, cursor, sublime)를 개별 파일로 분리하여 `scraper.mjs`의 비대화 해소.
+- [x] `scripts/utils/scraper.mjs` 정리: `annotateLinks()` 추출로 링크 어노테이션 중복 제거, `createArticle()` 헬퍼 도입으로 Article 객체 생성 일관성 확보, `createArticle` export 추가.
+- [x] `fetchRssFeeds()`에 gzip 폴백 로직 추가: `parseURL` 실패 시 `Content-Encoding: gzip` 여부를 확인하고 `fetch`로 재시도하여 Swift Blog 등 gzip 전용 RSS 피드 정상 수집.
+- [x] `test-run.mjs` 병렬화: 커스텀 스크래퍼 순차 실행 → `Promise.all` 병렬 실행으로 개선.
+- [x] `fetch-rss.mjs` 정리: 파이프라인 성공 후 `temp.json` 자동 삭제 추가.
+- [x] Phase 10 작업 내역 Git Commit (`git commit -m "refactor(scripts): 스크립트 파이프라인 구조 개선 및 확장성 확보"`)
