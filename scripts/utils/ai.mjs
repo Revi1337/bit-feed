@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import { fetchAndExtractArticle } from './scraper.mjs';
 import pLimit from 'p-limit';
+import { AI_CONTENT_MAX_LENGTH, GEMINI_RATE_LIMIT_DELAY_MS } from '../config/constants.mjs';
 
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -35,7 +36,7 @@ export async function generateAISummary(title, content) {
     });
   }
 
-  const prompt = `당신은 IT 뉴스 기사를 요약하는 전문 AI입니다. 
+  const prompt = `당신은 IT 뉴스 기사를 요약하는 전문 AI입니다.
 다음 기사 제목과 본문을 바탕으로 핵심 내용을 한국어로 요약해 줘.
 
 [엄격한 규칙]
@@ -48,7 +49,7 @@ export async function generateAISummary(title, content) {
 제목: ${title}
 
 본문:
-${content.slice(0, 15000)}
+${content.slice(0, AI_CONTENT_MAX_LENGTH)}
 `;
 
   let attempt = 0;
@@ -60,18 +61,18 @@ ${content.slice(0, 15000)}
       if (isFlash35) { // when "gemini-3.5-flash"
         const chat = model.startChat();
         let result = await chat.sendMessage(prompt);
-        
+
         const calls = result.response.functionCalls();
         if (calls && calls.length > 0) {
           const call = calls[0];
           if (call.name === "fetchUrlContent") {
             console.log(`[AI Agent] Fetching external link for "${title}": ${call.args.url}`);
             const scrapedText = await fetchAndExtractArticle(call.args.url);
-            
+
             result = await chat.sendMessage([{
               functionResponse: {
                 name: 'fetchUrlContent',
-                response: { content: scrapedText ? scrapedText.slice(0, 15000) : "URL 본문 추출 실패" }
+                response: { content: scrapedText ? scrapedText.slice(0, AI_CONTENT_MAX_LENGTH) : "URL 본문 추출 실패" }
               }
             }]);
           }
@@ -116,7 +117,7 @@ export async function processAiSummaries(newLatestNews, latestPath) {
       tempNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
       await fs.writeFile(latestPath, JSON.stringify(tempNews, null, 2), 'utf-8');
     }
-    await sleep(4100); // Strict 4.1s delay to perfectly align with 15 requests per minute limit
+    await sleep(GEMINI_RATE_LIMIT_DELAY_MS); // Strict delay to align with 15 requests per minute limit
   })));
 
   // 루프가 끝난 뒤, 10으로 나누어 떨어지지 않아 미처 저장되지 못한 잔여 요약본 최종 저장

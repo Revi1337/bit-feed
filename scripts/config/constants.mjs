@@ -1,0 +1,7 @@
+export const MAX_ARTICLES_PER_SOURCE = 5;
+export const SUMMARY_LENGTH = 200;
+export const CLEAN_CONTENT_LENGTH = 3000;
+export const AI_CONTENT_MAX_LENGTH = 15000;
+export const GEMINI_RATE_LIMIT_DELAY_MS = 4100;
+export const ROLLING_WINDOW_DAYS = 7;
+export const LATEST_JSON_MAX_ITEMS = 50;

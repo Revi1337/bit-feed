@@ -2,8 +2,10 @@ import fs from 'fs/promises';
 import path from 'path';
 import * as dotenv from 'dotenv';
 import { FEEDS } from './config/feeds.mjs';
-import { fetchRssFeeds, scrapeAnthropicNews, scrapeDeepSeekNews, scrapeViteNews, scrapeBabelNews, scrapeBunNews, scrapeCursorNews, scrapeSublimeNews } from './utils/scraper.mjs';
+import { CUSTOM_SCRAPERS } from './config/scrapers.mjs';
+import { fetchRssFeeds } from './utils/scraper.mjs';
 import { processAiSummaries } from './utils/ai.mjs';
+import { ROLLING_WINDOW_DAYS } from './config/constants.mjs';
 
 dotenv.config();
 
@@ -25,13 +27,7 @@ async function fetchAllFeeds() {
 
   const results = await Promise.all([
     fetchRssFeeds(FEEDS, existingMap, runTime),
-    scrapeAnthropicNews(existingMap, runTime),
-    scrapeDeepSeekNews(existingMap, runTime),
-    scrapeViteNews(existingMap, runTime),
-    scrapeBabelNews(existingMap, runTime),
-    scrapeBunNews(existingMap, runTime),
-    scrapeCursorNews(existingMap, runTime),
-    scrapeSublimeNews(existingMap, runTime)
+    ...CUSTOM_SCRAPERS.map(fn => fn(existingMap, runTime)),
   ]);
 
   const newLatestNews = results.flat();
@@ -57,15 +53,18 @@ async function fetchAllFeeds() {
   await fs.writeFile(newsPath, JSON.stringify(updatedAllNews, null, 2), 'utf-8');
   console.log(`Successfully appended ${newLatestNews.length} articles to all.json. Total: ${updatedAllNews.length}`);
 
-  // Save recent 7 days to latest.json
-  const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  // Save recent N days to latest.json
+  const windowMs = ROLLING_WINDOW_DAYS * 24 * 60 * 60 * 1000;
   const recentItems = updatedAllNews.filter(item => {
     const pubTime = new Date(item.pubDate).getTime();
-    return pubTime >= sevenDaysAgo;
+    return pubTime >= Date.now() - windowMs;
   });
-  
+
   await fs.writeFile(latestPath, JSON.stringify(recentItems, null, 2), 'utf-8');
-  console.log(`Successfully saved ${recentItems.length} recent articles (last 7 days) to public/data/latest.json`);
+  console.log(`Successfully saved ${recentItems.length} recent articles (last ${ROLLING_WINDOW_DAYS} days) to public/data/latest.json`);
+
+  // Remove temp file after successful save
+  try { await fs.unlink(tempPath); } catch {}
 }
 
 async function main() {
