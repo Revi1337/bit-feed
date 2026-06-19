@@ -16,6 +16,21 @@
     ]
   },
   {
+    "id": "https://medium.com/p/25842ff36020",
+    "title": "Community Comebacks, Angular 21.1 Features, and Smarter Signal Forms ️⚡",
+    "summary": "Press enter or click to view image in full size2 min read1 hour ago--The Angular community is about much more than just code — it’s about the people building it, their career journeys, and how we coll",
+    "aiSummary": "The Dev Life 팟캐스트에서는 Minko Gechev가 출연하여 Angular 20의 엔지니어링 결정 사항을 상세히 다루었으며, 기술 업계의 해고 위기를 극복하고 새로운 기회로 전환하는 과정을 담은 인터뷰를 공개했습니다.\n\nAngular 21.1 릴리스와 관련하여 Alain Chautard는 이번 업데이트에 포함된 마이너 기능 개선과 버그 수정, 성능 최적화 내용을 정리한 가이드를 제공합니다.\n\n폼 처리 성능 최적화를 위해 Fanis Prodromou는 Signal Forms API에서 비동기 검증기와 디바운싱을 결합하여 불필요한 API 호출을 줄이는 방법을 제시했습니다. 또한 Modeste Assiongbon은 Signal Forms를 활용한 동적 필드 리스트 관리 기술과 오픈소스 기여자에서 Angular Core Team 멤버로 합류한 Matthieu Riegler의 성장 과정을 다룬 콘텐츠를 공유했습니다.\n\n마지막으로 Martine Dowden은 기존의 레거시 구조 지시문을 Angular의 최신 내장 제어 흐름 구문으로 안전하게 전환하는 실용적인 마이그레이션 가이드를 제공합니다.",
+    "url": "https://blog.angular.dev/angular-community-weekly-14-25842ff36020?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Fri, 19 Jun 2026 10:01:04 GMT",
+    "fetchedAt": "2026-06-19T11:44:07.799Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/pgadmin-4-v916-released-3324/",
     "title": "pgAdmin 4 v9.16 Released\n",
     "summary": "The pgAdmin Development Team is pleased to announce the release of pgAdmin 4 version 9.16. This release of pgAdmin 4 includes 64 bug fixes and new features, including fixes for seven security vulnerab",
