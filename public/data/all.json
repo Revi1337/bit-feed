@@ -79,6 +79,22 @@
     ]
   },
   {
+    "id": "https://rubyonrails.org/2026/6/19/this-week-in-rails",
+    "title": "This Week in Rails: June 19, 2026",
+    "summary": "Hi, it’s zzak. This week was full of changes, so let’s pull into the station and take a look.\nLast Rails World GA tickets available\nRails Foundation documentation guides\nInternationalization guide fro",
+    "aiSummary": "이번 주 Rails 소식에서는 다양한 주요 업데이트와 변경 사항이 소개되었습니다. Rails Foundation에서는 초보자부터 전문가까지 아우르는 다국어화 가이드를 포함하여 새로운 문서 가이드를 배포하였으며, Rails World의 마지막 일반 입장 티켓 판매 소식도 전했습니다.\n\n기술적인 변경 사항으로는 먼저 커넥션 풀 단위로 query_log_tags를 설정할 수 있는 기능이 추가되어 포맷이나 주석 위치를 설정하거나 특정 풀을 제외할 수 있게 되었습니다. 또한 ActiveRecord::Base.with 메서드에 블록을 전달할 때 Object#with를 호출하도록 개선되어 블록 내부에서 클래스 속성을 임시로 설정할 수 있게 되었으며 블록이 없을 때는 기존처럼 CTEs를 처리합니다. 쿼리 제약 조건이 있는 상태에서 increment! 및 decrement! 메서드를 호출할 때 카운터 업데이트에 모든 제약 조건 컬럼을 포함하도록 수정되어 대상 모델의 범위가 올바르게 유지됩니다. 마지막으로 assert_difference나 assert_changes 등의 검증 메서드에 정적 값을 전달하는 경우 ArgumentError를 발생시키도록 변경하여 무의미한 비교를 방지하도록 개선되었습니다. 이번 한 주 동안 총 20명의 기여자가 Rails 코드베이스 개선에 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/6/19/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "zzak",
+    "pubDate": "2026-06-19T00:00:00.000Z",
+    "fetchedAt": "2026-06-20T10:16:07.310Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
     "id": "/blog/app-hosting-compute-platforms-for-ai-agents-2026",
     "title": "App Hosting and Compute Platforms for AI Agents in 2026",
     "summary": "A field guide to the 2026 wave of app-hosting and compute platforms (Prisma Compute, Neon, Cloudflare Containers, Hosting.com, Unkey, and Insforge) and how close each gets to one coherent stack for ag",
