@@ -1,5 +1,21 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.138.0",
+    "title": "0.138.0",
+    "summary": "Features\n✨ Add support for app.frontend(\"/\", directory=\"dist\") and router.frontend(\"/\", directory=\"dist\"). PR #15800 by @tiangolo.\n\nRead the docs: Frontend.\nDocs\n📝 Fix typo in release notes. PR #1580",
+    "aiSummary": "이번 0.138.0 업데이트에서는 app.frontend(\"/\", directory=\"dist\") 및 router.frontend(\"/\", directory=\"dist\") 지원이 새롭게 추가되어 프론트엔드 디렉터리를 더욱 편리하게 연동할 수 있게 되었습니다.\n\n이와 함께 Agent Library Skill 문서에 app.frontend() 관련 안내를 추가하고, 오타 수정 및 깨진 링크 복구와 더불어 Hindi 언어 문서 번역을 활성화하는 등 문서 환경을 개선하였습니다.\n\n내부적으로는 테스트 오류와 빌드 환경을 수정하였으며, FastAPI Cloud 배포 관련 설명 조정 및 번역 스크립트인 translate.py에 gpt-5.5 모델을 적용하는 등의 최적화 작업을 진행하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.138.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-20T01:17:47.000Z",
+    "fetchedAt": "2026-06-20T01:34:25.373Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
     "title": "AI credits consumed per user now in the Copilot usage metrics API",
     "summary": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.…\nThe post AI credits co",
@@ -29,6 +45,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/25842ff36020",
+    "title": "Community Comebacks, Angular 21.1 Features, and Smarter Signal Forms ️⚡",
+    "summary": "Press enter or click to view image in full size2 min read1 hour ago--The Angular community is about much more than just code — it’s about the people building it, their career journeys, and how we coll",
+    "aiSummary": "The Dev Life 팟캐스트에서는 Minko Gechev가 출연하여 Angular 20의 엔지니어링 결정 사항을 상세히 다루었으며, 기술 업계의 해고 위기를 극복하고 새로운 기회로 전환하는 과정을 담은 인터뷰를 공개했습니다.\n\nAngular 21.1 릴리스와 관련하여 Alain Chautard는 이번 업데이트에 포함된 마이너 기능 개선과 버그 수정, 성능 최적화 내용을 정리한 가이드를 제공합니다.\n\n폼 처리 성능 최적화를 위해 Fanis Prodromou는 Signal Forms API에서 비동기 검증기와 디바운싱을 결합하여 불필요한 API 호출을 줄이는 방법을 제시했습니다. 또한 Modeste Assiongbon은 Signal Forms를 활용한 동적 필드 리스트 관리 기술과 오픈소스 기여자에서 Angular Core Team 멤버로 합류한 Matthieu Riegler의 성장 과정을 다룬 콘텐츠를 공유했습니다.\n\n마지막으로 Martine Dowden은 기존의 레거시 구조 지시문을 Angular의 최신 내장 제어 흐름 구문으로 안전하게 전환하는 실용적인 마이그레이션 가이드를 제공합니다.",
+    "url": "https://blog.angular.dev/angular-community-weekly-14-25842ff36020?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Fri, 19 Jun 2026 10:01:04 GMT",
+    "fetchedAt": "2026-06-19T11:44:07.799Z",
+    "tags": [
+      "Angular"
     ]
   },
   {
@@ -149,186 +180,6 @@
     ]
   },
   {
-    "id": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
-    "title": "Powering the world’s first AI arts museum",
-    "summary": "Refik Anadol Studio opens Dataland, the first museum of AI arts, powered by Google Cloud and supported by Google Arts & Culture.",
-    "aiSummary": "Refik Anadol Studio가 세계 최초의 AI 예술 미술관인 Dataland를 개관합니다. 이 미술관은 Google Cloud의 기술력을 바탕으로 운영되며, Google Arts & Culture의 지원을 받습니다.",
-    "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mira Lane"
-      ],
-      "title": [
-        "VP"
-      ],
-      "department": [
-        "Technology & Society"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 18 Jun 2026 15:00:00 +0000",
-    "fetchedAt": "2026-06-19T15:49:15.282Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
-    "title": "June Pixel Drop: New features for creators, Gemini upgrades and more",
-    "summary": "Get new screen recording feature, text-to-video tools with Gemini Omni, and better multitasking on your Pixel devices.",
-    "aiSummary": "June Pixel Drop 업데이트를 통해 Pixel 기기 사용자들을 위한 새로운 창작자 기능과 Gemini 업그레이드가 제공됩니다. 이번 업데이트에는 새로운 화면 녹화 기능과 Gemini Omni를 기반으로 한 텍스트-비디오 변환 도구가 추가되었으며, 더욱 향상된 멀티태스킹 기능을 경험할 수 있습니다.",
-    "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mayra Fajardo"
-      ],
-      "title": [
-        "Product Marketing Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Tue, 16 Jun 2026 18:00:00 +0000",
-    "fetchedAt": "2026-06-19T15:49:15.282Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
-    "title": "Save time and grow your business with new Gemini tools",
-    "summary": "An overview of new features in the Gemini app designed specifically to support businesses and entrepreneurs.",
-    "aiSummary": "Gemini 앱에 비즈니스 운영자와 기업가들을 지원하기 위해 특별히 설계된 새로운 기능들이 도입되었습니다. 이번에 추가된 기능들은 업무 시간을 절약하고 사업 성장을 촉진하는 데 도움을 줍니다. 기업가들은 새로운 Gemini 도구를 활용하여 비즈니스 효율성을 극대화할 수 있습니다.",
-    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Vishnu Sivaji"
-      ],
-      "title": [
-        "Senior Director, Gemini App"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 10 Jun 2026 15:00:00 +0000",
-    "fetchedAt": "2026-06-19T15:49:15.282Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
-    "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-    "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-    "aiSummary": "Gemini 3.5 Live Translate은 실시간에 가까운 자연스럽고 매끄러운 음성 번역 기능을 제공합니다. 이 기능은 Google AI Studio, Google Translate, Google Meet에 적용되어 사용자들이 더욱 직관적이고 편리하게 소통할 수 있도록 지원합니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Anuda Weerasinghe"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Tue, 09 Jun 2026 15:00:00 +0000",
-    "fetchedAt": "2026-06-19T15:49:15.282Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/products-and-platforms/products/search/soccer-tournament-google-tools-2026/",
-    "title": "4 ways soccer fans can catch every moment of the tournament",
-    "summary": "Google tools — like Maps, Gemini and AI Mode in Search — can help guide you from the first whistle to the final goal.",
-    "aiSummary": "축구 팬들이 토너먼트의 모든 순간을 놓치지 않고 즐길 수 있도록 Maps, Gemini, Search의 AI Mode를 포함한 다양한 Google 도구들이 첫 경기부터 결승골까지 상세한 안내를 지원합니다.",
-    "url": "https://blog.google/products-and-platforms/products/search/soccer-tournament-google-tools-2026/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Keyword Team"
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 08 Jun 2026 13:00:00 +0000",
-    "fetchedAt": "2026-06-19T15:49:15.282Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://medium.com/p/25842ff36020",
-    "title": "Community Comebacks, Angular 21.1 Features, and Smarter Signal Forms ️⚡",
-    "summary": "Press enter or click to view image in full size2 min read1 hour ago--The Angular community is about much more than just code — it’s about the people building it, their career journeys, and how we coll",
-    "aiSummary": "The Dev Life 팟캐스트에서는 Minko Gechev가 출연하여 Angular 20의 엔지니어링 결정 사항을 상세히 다루었으며, 기술 업계의 해고 위기를 극복하고 새로운 기회로 전환하는 과정을 담은 인터뷰를 공개했습니다.\n\nAngular 21.1 릴리스와 관련하여 Alain Chautard는 이번 업데이트에 포함된 마이너 기능 개선과 버그 수정, 성능 최적화 내용을 정리한 가이드를 제공합니다.\n\n폼 처리 성능 최적화를 위해 Fanis Prodromou는 Signal Forms API에서 비동기 검증기와 디바운싱을 결합하여 불필요한 API 호출을 줄이는 방법을 제시했습니다. 또한 Modeste Assiongbon은 Signal Forms를 활용한 동적 필드 리스트 관리 기술과 오픈소스 기여자에서 Angular Core Team 멤버로 합류한 Matthieu Riegler의 성장 과정을 다룬 콘텐츠를 공유했습니다.\n\n마지막으로 Martine Dowden은 기존의 레거시 구조 지시문을 Angular의 최신 내장 제어 흐름 구문으로 안전하게 전환하는 실용적인 마이그레이션 가이드를 제공합니다.",
-    "url": "https://blog.angular.dev/angular-community-weekly-14-25842ff36020?source=rss----447683c3d9a3---4",
-    "category": "프론트엔드",
-    "source": "Angular Blog",
-    "author": "Angular",
-    "pubDate": "Fri, 19 Jun 2026 10:01:04 GMT",
-    "fetchedAt": "2026-06-19T11:44:07.799Z",
-    "tags": [
-      "Angular"
-    ]
-  },
-  {
     "id": "https://www.postgresql.org/about/news/pgadmin-4-v916-released-3324/",
     "title": "pgAdmin 4 v9.16 Released\n",
     "summary": "The pgAdmin Development Team is pleased to announce the release of pgAdmin 4 version 9.16. This release of pgAdmin 4 includes 64 bug fixes and new features, including fixes for seven security vulnerab",
@@ -425,6 +276,22 @@
     ]
   },
   {
+    "id": "https://code.visualstudio.com/updates/v1_126",
+    "title": "Visual Studio Code 1.126",
+    "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.126 Insiders 버전이 공개되었습니다. 이번 업데이트에는 주요 기능 개선과 함께 사용자 편의성을 높이기 위한 다양한 변경 사항이 포함되었습니다. 개발자는 공식 웹사이트의 전체 문서를 통해 세부적인 업데이트 내용과 새롭게 추가된 기능들을 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_126",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-18T18:13:20.670Z",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
     "title": "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
     "summary": "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this…\nThe p",
@@ -438,6 +305,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary",
+    "title": "Watch the Teaser for 'The Story of PHP' Documentary",
+    "summary": "CultRepo has released a teaser for The Story of PHP, a JetBrains-sponsored documentary featuring Taylor Otwell, Fabien Potencier, Nikita Popov, and more.\nThe post Watch the Teaser for 'The Story of PH",
+    "aiSummary": "CultRepo가 JetBrains의 후원을 받아 제작 중인 다큐멘터리 The Story of PHP의 티저 영상을 공개하였습니다.\n\n해당 다큐멘터리에는 Taylor Otwell, Fabien Potencier, Nikita Popov 등 PHP 생태계에서 중요한 역할을 하는 인물들이 대거 출연합니다. \n\n이번 영상은 PHP 언어의 역사와 발전 과정을 다루며 개발자들 사이에서 큰 관심을 모으고 있습니다.",
+    "url": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Thu, 18 Jun 2026 17:01:23 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -455,102 +338,6 @@
       "OpenAI",
       "LLM",
       "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
-    "title": "Scaling the Next Generation of Global Innovation: How Google Supports Top Startups Around the World",
-    "summary": "In the high-stakes world of tech entrepreneurship, the leap from a brilliant prototype to a scalable, market-defining business can be brutal. Founders need much more than capital; they need deep archi",
-    "aiSummary": "Google은 지난 10년간 자사의 액셀러레이터 프로그램을 통해 전 세계 88개국, 2,011개의 스타트업을 지원하며 강력한 기술 생태계를 구축해 왔습니다. 이 프로그램은 단순한 비즈니스 교육을 넘어 Google의 엔지니어와 제품 관리자가 직접 참여하여 스타트업의 아키텍처 설계와 AI 모델 파이프라인 최적화 등 기술적 난제를 해결하는 데 초점을 맞추고 있습니다. 이를 통해 93퍼센트라는 높은 생존율과 총 1,351억 달러 규모의 포트폴리오 가치를 기록하는 성과를 거두었습니다.\n\n최근 Google은 지정학적 정책 정렬 및 친환경 인프라 구축 등 전략적 분야로 지원 범위를 확장하고 있습니다. 호주와 캐나다에서는 정부 전략과 연계된 성과를 창출하고 있으며, 특히 Google DeepMind와 협력하여 유럽의 AI 로봇 공학 및 아시아 태평양 지역의 생물 다양성 파운데이션 모델 개발에 집중하는 등 첨단 기술 분야를 적극적으로 지원하고 있습니다.\n\n또한 전 세계에 흩어져 있던 졸업 기업들을 통합하여 1,750개 이상의 스타트업과 3,000명의 창업자가 교류할 수 있는 Unified Alumni Community를 결성했습니다. 이를 통해 창업자들은 Google의 고위 리더십 및 최신 기술에 접근하고, 자사 제품 개발에 피드백을 반영하며 서로 협력하는 환경을 갖게 되었습니다. Google은 앞으로도 기술적 확장을 꿈꾸는 창업자들을 위해 국가별 Demo Day 개최와 신규 애플리케이션 모집을 지속할 예정입니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Matt Thompson"
-      ],
-      "title": [
-        "Director, Developer Adoption"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 18 Jun 2026 12:51:00 +0000",
-    "fetchedAt": "2026-06-19T02:10:27.001Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgfmt-21-in-place-formatting-and-pg_dump-compatible-output-3321/",
-    "title": "pgfmt 2.1: in-place formatting and pg_dump-compatible output\n",
-    "summary": "pgfmt 2.1 lands two headline features, plus a steady stream of formatting coverage improvements driven by libpgfmt. It is also now installable from a Homebrew tap.\nInstall via Homebrew\nbrew tap gmr/pg",
-    "aiSummary": "PostgreSQL SQL 포맷터인 pgfmt 2.1 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 소스 파일에 직접 서식을 적용하는 in-place 포맷팅 기능과 PostgreSQL의 pg_dump 스타일을 지원하는 것입니다.\n\n사용자는 이제 -i 또는 --inplace 옵션을 사용하여 표준 출력 대신 원본 파일에 직접 포맷팅 결과를 저장할 수 있으며, 이때 파일 권한은 그대로 유지됩니다. 또한 여러 파일을 동시에 처리하는 것도 가능합니다.\n\n새로 추가된 --style pg_dump 옵션은 PostgreSQL의 ruleutils.c deparser 레이아웃과 동일한 형태의 출력을 생성합니다. 이는 pg_get_viewdef나 pg_get_functiondef를 통해 얻은 출력과 일치하며, 실제 데이터베이스에 저장된 값과 마이그레이션 결과물을 비교하는 diff 작업에 매우 유용합니다.\n\n기능적인 측면에서는 libpgfmt를 기반으로 SQL 및 PL/pgSQL에 대한 포맷팅 적용 범위를 대폭 확대했습니다. 특히 기존에 누락되었던 INTERVAL과 같은 타입 지정 문자열 리터럴 처리 문제를 해결하고, 카탈로그 덤프에서 발생하는 뷰와 함수 포맷팅 오류를 수정하여 안정성을 높였습니다.\n\n설치 방식도 간편해져 기존의 cargo install이나 빌드 바이너리 외에도 Homebrew를 통해 쉽게 설치할 수 있습니다. 자세한 변경 사항은 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pgfmt-21-in-place-formatting-and-pg_dump-compatible-output-3321/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "Thu, 18 Jun 2026 00:00:00 +0000",
-    "fetchedAt": "2026-06-19T02:10:27.001Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/06-18-26",
-    "title": "Improvements to Cursor Automations",
-    "summary": "3.8 Jun 18, 2026 · ChangelogImprovements to Cursor AutomationsCursor Automations save you time by automating repetitive tasks with always-on agents. This release introduces the /automate skill, new tr",
-    "aiSummary": "Cursor가 반복적인 작업을 자동화하는 Automations 기능을 대폭 개선했습니다. 이번 업데이트의 핵심인 /automate 기술은 로컬 에이전트 세션에서 사용자가 자연어로 수행하고 싶은 작업을 설명하면 필요한 트리거와 지침, 도구를 Cursor가 직접 설정해 주는 기능을 제공합니다.\n\nSlack 연동 기능이 강화되어 특정 이모지로 메시지에 반응할 경우 자동화가 즉시 실행되도록 설정할 수 있습니다. 또한 GitHub 트리거가 대폭 추가되어 이슈 댓글 작성, PR 리뷰 관련 활동, GitHub Actions 워크플로우 완료 등 다섯 가지 상황에 맞춰 자동화를 시작할 수 있게 되었으며, 이를 지원하기 위한 새로운 템플릿도 Cursor Marketplace에 추가되었습니다.\n\n클라우드 에이전트에는 Computer use 도구가 새롭게 도입되었습니다. 이제 에이전트가 자체적으로 컴퓨터를 사용하여 작업 결과물이나 데모를 생성할 수 있으며, 이는 기본적으로 활성화되어 있습니다.\n\n기타 개선 사항으로 자동화 설정 도중 중단하더라도 진행 상황이 저장되어 추후 다시 작업을 이어갈 수 있습니다. 또한 PR 생성 도구가 기본으로 포함되어 별도의 설정 없이도 에이전트가 PR을 열 수 있으며, UI상에서 메모리 파일을 삭제하거나 자동화 실행 시 오래된 메모리를 삭제하도록 명령하는 기능이 추가되었습니다.",
-    "url": "https://www.cursor.com/changelog/06-18-26",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-18T00:00:00.000Z",
-    "fetchedAt": "2026-06-19T02:10:27.001Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_126",
-    "title": "Visual Studio Code 1.126",
-    "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders)\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.126 Insiders 버전이 공개되었습니다. 이번 업데이트에는 주요 기능 개선과 함께 사용자 편의성을 높이기 위한 다양한 변경 사항이 포함되었습니다. 개발자는 공식 웹사이트의 전체 문서를 통해 세부적인 업데이트 내용과 새롭게 추가된 기능들을 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_126",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-06-18T18:13:20.670Z",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary",
-    "title": "Watch the Teaser for 'The Story of PHP' Documentary",
-    "summary": "CultRepo has released a teaser for The Story of PHP, a JetBrains-sponsored documentary featuring Taylor Otwell, Fabien Potencier, Nikita Popov, and more.\nThe post Watch the Teaser for 'The Story of PH",
-    "aiSummary": "CultRepo가 JetBrains의 후원을 받아 제작 중인 다큐멘터리 The Story of PHP의 티저 영상을 공개하였습니다.\n\n해당 다큐멘터리에는 Taylor Otwell, Fabien Potencier, Nikita Popov 등 PHP 생태계에서 중요한 역할을 하는 인물들이 대거 출연합니다. \n\n이번 영상은 PHP 언어의 역사와 발전 과정을 다루며 개발자들 사이에서 큰 관심을 모으고 있습니다.",
-    "url": "https://laravel-news.com/watch-the-teaser-for-the-story-of-php-documentary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "Thu, 18 Jun 2026 17:01:23 +0000",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   },
   {
@@ -634,6 +421,39 @@
     ]
   },
   {
+    "id": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+    "title": "Powering the world’s first AI arts museum",
+    "summary": "Refik Anadol Studio opens Dataland, the first museum of AI arts, powered by Google Cloud and supported by Google Arts & Culture.",
+    "aiSummary": "Refik Anadol Studio가 세계 최초의 AI 예술 미술관인 Dataland를 개관합니다. 이 미술관은 Google Cloud의 기술력을 바탕으로 운영되며, Google Arts & Culture의 지원을 받습니다.",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mira Lane"
+      ],
+      "title": [
+        "VP"
+      ],
+      "department": [
+        "Technology & Society"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 15:00:00 +0000",
+    "fetchedAt": "2026-06-19T15:49:15.282Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
     "id": "https://devblogs.microsoft.com/typescript/?p=5203",
     "title": "Announcing TypeScript 7.0 RC",
     "summary": "Today we are excited to announce the Release Candidate of TypeScript 7.0! If you haven’t been following TypeScript 7.0’s development, this release is significant in that it is built on a completely ne",
@@ -698,6 +518,38 @@
     ]
   },
   {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
+    "title": "Scaling the Next Generation of Global Innovation: How Google Supports Top Startups Around the World",
+    "summary": "In the high-stakes world of tech entrepreneurship, the leap from a brilliant prototype to a scalable, market-defining business can be brutal. Founders need much more than capital; they need deep archi",
+    "aiSummary": "Google은 지난 10년간 자사의 액셀러레이터 프로그램을 통해 전 세계 88개국, 2,011개의 스타트업을 지원하며 강력한 기술 생태계를 구축해 왔습니다. 이 프로그램은 단순한 비즈니스 교육을 넘어 Google의 엔지니어와 제품 관리자가 직접 참여하여 스타트업의 아키텍처 설계와 AI 모델 파이프라인 최적화 등 기술적 난제를 해결하는 데 초점을 맞추고 있습니다. 이를 통해 93퍼센트라는 높은 생존율과 총 1,351억 달러 규모의 포트폴리오 가치를 기록하는 성과를 거두었습니다.\n\n최근 Google은 지정학적 정책 정렬 및 친환경 인프라 구축 등 전략적 분야로 지원 범위를 확장하고 있습니다. 호주와 캐나다에서는 정부 전략과 연계된 성과를 창출하고 있으며, 특히 Google DeepMind와 협력하여 유럽의 AI 로봇 공학 및 아시아 태평양 지역의 생물 다양성 파운데이션 모델 개발에 집중하는 등 첨단 기술 분야를 적극적으로 지원하고 있습니다.\n\n또한 전 세계에 흩어져 있던 졸업 기업들을 통합하여 1,750개 이상의 스타트업과 3,000명의 창업자가 교류할 수 있는 Unified Alumni Community를 결성했습니다. 이를 통해 창업자들은 Google의 고위 리더십 및 최신 기술에 접근하고, 자사 제품 개발에 피드백을 반영하며 서로 협력하는 환경을 갖게 되었습니다. Google은 앞으로도 기술적 확장을 꿈꾸는 창업자들을 위해 국가별 Demo Day 개최와 신규 애플리케이션 모집을 지속할 예정입니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Matt Thompson"
+      ],
+      "title": [
+        "Director, Developer Adoption"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 18 Jun 2026 12:51:00 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
     "title": "Improving health intelligence in ChatGPT",
     "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
@@ -712,6 +564,22 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
+    "title": "Generated release notes credit you for Copilot pull requests",
+    "summary": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release…\nThe p",
+    "aiSummary": "GitHub에서 릴리스 노트를 자동으로 생성할 때 해당 릴리스에 포함된 Pull requests 목록이 함께 작성됩니다. 이제 이 과정에서 GitHub Copilot이 생성하는 릴리스 노트에 각 Pull requests를 제안하거나 기여한 사용자에 대한 정보가 포함됩니다. 이번 업데이트를 통해 오픈소스 프로젝트나 팀 단위의 협업 과정에서 개별 기여자의 활동 내역이 더욱 투명하게 기록되고 인정받을 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 18 Jun 2026 09:30:02 +0000",
+    "fetchedAt": "2026-06-18T11:33:41.315Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -761,151 +629,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "/blog/vulnerability/june-2026-security-releases?1781755200000",
-    "title": "Thursday, June 18, 2026 Security Releases",
-    "summary": "The Node.js Project(UPDATE 2026-06-18) Security releases available\nUpdates are now available for the 26.x, 24.x, 22.x Node.js release lines for the\nfollowing issues.\nThis security release includes the",
-    "aiSummary": "Node.js 프로젝트는 2026년 6월 18일, 주요 보안 취약점을 해결하기 위한 업데이트를 발표했습니다. 이번 보안 업데이트는 Node.js 22.x, 24.x, 26.x 릴리스 라인에 공통적으로 적용되며, 의존성 패키지인 llhttp, nghttp2, openssl, undici의 버전 업데이트를 포함합니다.\n\n주요 취약점 내용은 다음과 같습니다.\n\nNode.js WebCrypto 구현상의 정수 오버플로로 인한 서비스 거부(DoS) 취약점(CVE-2026-48933)이 발견되었습니다. 또한, 유니코드 점 구분 기호 처리에 따른 TLS 와일드카드 인증 우회 문제(CVE-2026-48618)와 HTTP/2 클라이언트에서의 메모리 부족 오류(CVE-2026-48619) 등 다수의 보안 결함이 보고되었습니다.\n\n이외에도 ERR_PROXY_TUNNEL 오류 메시지를 통한 프록시 자격 증명 유출(CVE-2026-48615), 권한 모델 우회 문제(CVE-2026-48617, CVE-2026-48935, CVE-2026-48936), HTTP/2 세션 종료 오류(CVE-2026-48937), 대소문자 구분 문제로 인한 mTLS 권한 우회(CVE-2026-48928), C-문자열 절단으로 인한 호스트 이름 재바인딩(CVE-2026-48930), TLS 호스트 식별 우회(CVE-2026-48934), HTTP 응답 큐 오염(CVE-2026-48931) 등 다양한 보안 이슈가 해결되었습니다.\n\n이번 패치를 통해 최고 심각도 등급인 HIGH를 포함한 여러 보안 위협이 개선되었습니다. 각 릴리스 라인별 최신 버전은 Node.js 22.23.1, 24.17.1, 26.3.2입니다. 시스템 보안을 위해 사용 중인 환경을 해당 버전으로 즉시 업데이트할 것을 권장합니다.",
-    "url": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "Thu, 18 Jun 2026 04:00:00 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/lattice-describe-inertia-uis-in-php",
-    "title": "Lattice: Describe Inertia UIs in PHP",
-    "summary": "Lattice is a server-driven UI framework for Laravel that lets you define pages, forms, and tables in PHP and renders them as typed React components over Inertia.\nThe post Lattice: Describe Inertia UIs",
-    "aiSummary": "Lattice는 Laravel 환경에서 사용할 수 있는 서버 주도형 UI 프레임워크입니다.\n\n이 프레임워크를 활용하면 개발자는 페이지와 폼, 그리고 테이블과 같은 요소들을 PHP 코드로 직접 정의할 수 있습니다. 정의된 요소들은 Inertia를 통해 타입이 지정된 React 컴포넌트로 렌더링되어 사용자에게 제공됩니다.",
-    "url": "https://laravel-news.com/lattice-describe-inertia-uis-in-php?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "Thu, 18 Jun 2026 01:29:10 +0000",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
-    "title": "Building the Agentic SOC: A new model for financial services",
-    "summary": "As AI-powered threats accelerate, financial institutions are evolving toward agentic security operations. Unified data, contextual intelligence, and operational resilience are becoming foundational to",
-    "aiSummary": "AI 기반의 보안 위협이 급격히 증가함에 따라 금융 기관들은 Agentic SOC 모델로의 전환을 가속화하고 있습니다.\n\n미래의 SOC 구축을 위해서는 데이터의 통합, 문맥 기반의 지능형 분석, 그리고 운영상 복원력이 필수적인 핵심 요소로 자리 잡고 있습니다.\n\n금융 분야의 보안 체계는 단순한 대응을 넘어 자율적인 판단과 실행이 가능한 형태로 진화하며 보안 운영의 패러다임을 변화시키고 있습니다.",
-    "url": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Karen Mcdermott",
-    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
-    "title": "Elastic’s no-code and full-code approaches to custom integrations",
-    "summary": "Elastic 9.4 ships two paths for custom integrations: a faster, no-code Automatic Import with multistream support, and Integration Skills, an open agentic toolkit for developers who want full lifecycle",
-    "aiSummary": "Elastic 9.4 버전은 사용자 맞춤형 통합을 위한 두 가지 경로를 제공합니다.\n\n첫 번째는 Automatic Import 기능으로 멀티스트림을 지원하며 코딩 없이도 빠르게 데이터를 통합할 수 있도록 설계되었습니다.\n\n두 번째는 Integration Skills로 이는 개발자가 전체 라이프사이클을 직접 제어할 수 있는 오픈 에이전트 툴킷입니다.\n\n사용자는 자신의 개발 환경과 요구 사항에 맞춰 노코드 방식인 Automatic Import와 풀코드 방식인 Integration Skills 중 하나를 선택하여 활용할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Charles Davison,Hanna Tamoudi",
-    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
-    "title": "Use your own language model key in VS Code",
-    "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and ",
-    "aiSummary": "VS Code에서 사용자가 직접 보유한 API Key를 활용하는 BYOK 방식을 통해 다양한 인공지능 모델을 통합할 수 있게 되었습니다.\n\nAzure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter와 같은 주요 클라우드 서비스 제공업체의 모델을 연결하여 사용할 수 있습니다.\n\n또한 Ollama나 Foundry Local 등을 이용해 로컬 환경에서 구동 중인 모델을 연동하는 것도 가능합니다.\n\n이 기능을 활용하면 외부 서비스의 인프라와 본인의 로컬 자원을 효율적으로 조합하여 개발 환경을 최적화할 수 있습니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Kayla Cinnamon",
-    "pubDate": "2026-06-18T00:00:00.000Z",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-    "title": "Securing the future of AI agents",
-    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-    "aiSummary": "AI 에이전트의 미래를 안전하게 보호하기 위해 전통적인 보안 조치와 실시간 모니터링을 결합한 AI Control Roadmap을 도입해야 합니다.\n\n해당 로드맵은 기업 내부 시스템에 AI 에이전트를 통합하는 과정에서 발생할 수 있는 잠재적 위험을 체계적으로 방어하는 데 중점을 둡니다. 기존의 보안 체계에 실시간 탐지 및 대응 기술을 접목함으로써 AI 에이전트의 운영 안정성을 높이고 보안 사고를 예방하는 것이 핵심입니다.",
-    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "Tue, 16 Jun 2026 15:46:31 +0000",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/security-prebuilt-rules-editing",
-    "title": "Elastic Security simplifies customization of prebuilt SIEM detection rules",
-    "summary": "Learn about the prebuilt rule editing capabilities that allow you to get even more value from out-of-the-box SIEM detection rules.",
-    "aiSummary": "Elastic Security가 제공하는 기본 SIEM 탐지 규칙에 대한 편집 기능을 통해 사용자는 보안 환경에 맞춰 규칙을 더욱 정교하게 최적화할 수 있습니다.\n\n이번 업데이트를 통해 보안 운영 팀은 사전 구축된 규칙을 그대로 사용하는 것에 그치지 않고, 조직의 구체적인 위협 모델과 인프라 특성에 맞게 규칙을 수정하여 오탐지를 줄이고 탐지 정확도를 향상시킬 수 있습니다.\n\n결과적으로 이러한 유연한 사용자 정의 기능을 활용하여 보안 관리자는 SIEM 솔루션에서 더 높은 가치를 창출하고, 더욱 효율적인 보안 모니터링 체계를 구축할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/security-prebuilt-rules-editing",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Kseniia Ignatovych",
-    "pubDate": "Tue, 15 Apr 2025 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
-    "title": "5 ways search can modernize digital experiences in public sector",
-    "summary": "Customer experience (CX) is a growing field in the public sector. Offices like Technology Transformation Services are charged with designing and delivering a digital government with and for the public",
-    "aiSummary": "공공 부문의 디지털 전환을 가속화하고 신뢰를 회복하기 위해 CX 전략 전문가들은 검색 기술을 핵심 도구로 활용해야 합니다. 공공 기관의 디지털 환경을 개선하기 위한 다섯 가지 주요 검색 전략은 다음과 같습니다.\n\n첫째, 웹사이트 검색 기능을 고도화하여 시민들이 원하는 정보를 빠르게 찾을 수 있도록 해야 합니다. 자동 크롤러를 통한 인덱스 관리, 오타 수정 및 동의어 처리 알고리즘, 자연어 처리와 Vector search를 결합한 머니 러닝 기반의 개인화 서비스가 필수적입니다.\n\n둘째, 검색 데이터를 분석하여 셀프 서비스 환경을 구축해야 합니다. 사용자가 어떤 키워드를 검색하고 어떤 결과를 클릭하는지 분석하면 운영 효율성을 극대화할 수 있으며, 이는 대면 업무 대비 비용 절감 효과를 가져옵니다.\n\n셋째, 공공 분야의 전자상거래 경험을 최적화해야 합니다. 위치 정보 기반의 Faceted search나 필터링 기능을 도입하고, 특정 시기에 필요한 정보를 선제적으로 제공하는 큐레이션 기능을 통해 사용자 편의성을 높일 수 있습니다.\n\n넷째, 투명성을 강화하여 정부와 교육 기관에 대한 신뢰를 구축해야 합니다. FOIA와 같은 방대한 공공 기록물 저장소에 자연어 처리와 Vector search를 적용하면 사용자가 문맥을 기반으로 관련 기록을 정확하고 빠르게 탐색할 수 있게 됩니다.\n\n마지막으로, 기업형 검색을 통해 내부 직원의 생산성을 향상해야 합니다. 사내 인트라넷 전반에 걸쳐 문서, PDF, 스프레드시트, wiki 등 다양한 콘텐츠 소스를 통합 검색하게 함으로써 업무 효율을 높이고, 역할 기반 접근 제어를 통해 보안 환경 내에서 정보를 신속하게 공유해야 합니다.\n\nElastic과 같은 검색 플랫폼 솔루션은 이러한 기술적 기반을 제공하여 공공 부문의 디지털 서비스 혁신을 지원합니다.",
-    "url": "https://www.elastic.co/blog/search-can-modernize-digital-experiences-in-public-sector-government",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Suzzanna Martinez",
-    "pubDate": "Thu, 17 Mar 2022 00:26:42 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
-    "title": "Generated release notes credit you for Copilot pull requests",
-    "summary": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release…\nThe p",
-    "aiSummary": "GitHub에서 릴리스 노트를 자동으로 생성할 때 해당 릴리스에 포함된 Pull requests 목록이 함께 작성됩니다. 이제 이 과정에서 GitHub Copilot이 생성하는 릴리스 노트에 각 Pull requests를 제안하거나 기여한 사용자에 대한 정보가 포함됩니다. 이번 업데이트를 통해 오픈소스 프로젝트나 팀 단위의 협업 과정에서 개별 기여자의 활동 내역이 더욱 투명하게 기록되고 인정받을 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Thu, 18 Jun 2026 09:30:02 +0000",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   },
   {
@@ -1005,6 +728,118 @@
     ]
   },
   {
+    "id": "/blog/vulnerability/june-2026-security-releases?1781755200000",
+    "title": "Thursday, June 18, 2026 Security Releases",
+    "summary": "The Node.js Project(UPDATE 2026-06-18) Security releases available\nUpdates are now available for the 26.x, 24.x, 22.x Node.js release lines for the\nfollowing issues.\nThis security release includes the",
+    "aiSummary": "Node.js 프로젝트는 2026년 6월 18일, 주요 보안 취약점을 해결하기 위한 업데이트를 발표했습니다. 이번 보안 업데이트는 Node.js 22.x, 24.x, 26.x 릴리스 라인에 공통적으로 적용되며, 의존성 패키지인 llhttp, nghttp2, openssl, undici의 버전 업데이트를 포함합니다.\n\n주요 취약점 내용은 다음과 같습니다.\n\nNode.js WebCrypto 구현상의 정수 오버플로로 인한 서비스 거부(DoS) 취약점(CVE-2026-48933)이 발견되었습니다. 또한, 유니코드 점 구분 기호 처리에 따른 TLS 와일드카드 인증 우회 문제(CVE-2026-48618)와 HTTP/2 클라이언트에서의 메모리 부족 오류(CVE-2026-48619) 등 다수의 보안 결함이 보고되었습니다.\n\n이외에도 ERR_PROXY_TUNNEL 오류 메시지를 통한 프록시 자격 증명 유출(CVE-2026-48615), 권한 모델 우회 문제(CVE-2026-48617, CVE-2026-48935, CVE-2026-48936), HTTP/2 세션 종료 오류(CVE-2026-48937), 대소문자 구분 문제로 인한 mTLS 권한 우회(CVE-2026-48928), C-문자열 절단으로 인한 호스트 이름 재바인딩(CVE-2026-48930), TLS 호스트 식별 우회(CVE-2026-48934), HTTP 응답 큐 오염(CVE-2026-48931) 등 다양한 보안 이슈가 해결되었습니다.\n\n이번 패치를 통해 최고 심각도 등급인 HIGH를 포함한 여러 보안 위협이 개선되었습니다. 각 릴리스 라인별 최신 버전은 Node.js 22.23.1, 24.17.1, 26.3.2입니다. 시스템 보안을 위해 사용 중인 환경을 해당 버전으로 즉시 업데이트할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Thu, 18 Jun 2026 04:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/lattice-describe-inertia-uis-in-php",
+    "title": "Lattice: Describe Inertia UIs in PHP",
+    "summary": "Lattice is a server-driven UI framework for Laravel that lets you define pages, forms, and tables in PHP and renders them as typed React components over Inertia.\nThe post Lattice: Describe Inertia UIs",
+    "aiSummary": "Lattice는 Laravel 환경에서 사용할 수 있는 서버 주도형 UI 프레임워크입니다.\n\n이 프레임워크를 활용하면 개발자는 페이지와 폼, 그리고 테이블과 같은 요소들을 PHP 코드로 직접 정의할 수 있습니다. 정의된 요소들은 Inertia를 통해 타입이 지정된 React 컴포넌트로 렌더링되어 사용자에게 제공됩니다.",
+    "url": "https://laravel-news.com/lattice-describe-inertia-uis-in-php?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Thu, 18 Jun 2026 01:29:10 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgfmt-21-in-place-formatting-and-pg_dump-compatible-output-3321/",
+    "title": "pgfmt 2.1: in-place formatting and pg_dump-compatible output\n",
+    "summary": "pgfmt 2.1 lands two headline features, plus a steady stream of formatting coverage improvements driven by libpgfmt. It is also now installable from a Homebrew tap.\nInstall via Homebrew\nbrew tap gmr/pg",
+    "aiSummary": "PostgreSQL SQL 포맷터인 pgfmt 2.1 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 소스 파일에 직접 서식을 적용하는 in-place 포맷팅 기능과 PostgreSQL의 pg_dump 스타일을 지원하는 것입니다.\n\n사용자는 이제 -i 또는 --inplace 옵션을 사용하여 표준 출력 대신 원본 파일에 직접 포맷팅 결과를 저장할 수 있으며, 이때 파일 권한은 그대로 유지됩니다. 또한 여러 파일을 동시에 처리하는 것도 가능합니다.\n\n새로 추가된 --style pg_dump 옵션은 PostgreSQL의 ruleutils.c deparser 레이아웃과 동일한 형태의 출력을 생성합니다. 이는 pg_get_viewdef나 pg_get_functiondef를 통해 얻은 출력과 일치하며, 실제 데이터베이스에 저장된 값과 마이그레이션 결과물을 비교하는 diff 작업에 매우 유용합니다.\n\n기능적인 측면에서는 libpgfmt를 기반으로 SQL 및 PL/pgSQL에 대한 포맷팅 적용 범위를 대폭 확대했습니다. 특히 기존에 누락되었던 INTERVAL과 같은 타입 지정 문자열 리터럴 처리 문제를 해결하고, 카탈로그 덤프에서 발생하는 뷰와 함수 포맷팅 오류를 수정하여 안정성을 높였습니다.\n\n설치 방식도 간편해져 기존의 cargo install이나 빌드 바이너리 외에도 Homebrew를 통해 쉽게 설치할 수 있습니다. 자세한 변경 사항은 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgfmt-21-in-place-formatting-and-pg_dump-compatible-output-3321/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/06-18-26",
+    "title": "Improvements to Cursor Automations",
+    "summary": "3.8 Jun 18, 2026 · ChangelogImprovements to Cursor AutomationsCursor Automations save you time by automating repetitive tasks with always-on agents. This release introduces the /automate skill, new tr",
+    "aiSummary": "Cursor가 반복적인 작업을 자동화하는 Automations 기능을 대폭 개선했습니다. 이번 업데이트의 핵심인 /automate 기술은 로컬 에이전트 세션에서 사용자가 자연어로 수행하고 싶은 작업을 설명하면 필요한 트리거와 지침, 도구를 Cursor가 직접 설정해 주는 기능을 제공합니다.\n\nSlack 연동 기능이 강화되어 특정 이모지로 메시지에 반응할 경우 자동화가 즉시 실행되도록 설정할 수 있습니다. 또한 GitHub 트리거가 대폭 추가되어 이슈 댓글 작성, PR 리뷰 관련 활동, GitHub Actions 워크플로우 완료 등 다섯 가지 상황에 맞춰 자동화를 시작할 수 있게 되었으며, 이를 지원하기 위한 새로운 템플릿도 Cursor Marketplace에 추가되었습니다.\n\n클라우드 에이전트에는 Computer use 도구가 새롭게 도입되었습니다. 이제 에이전트가 자체적으로 컴퓨터를 사용하여 작업 결과물이나 데모를 생성할 수 있으며, 이는 기본적으로 활성화되어 있습니다.\n\n기타 개선 사항으로 자동화 설정 도중 중단하더라도 진행 상황이 저장되어 추후 다시 작업을 이어갈 수 있습니다. 또한 PR 생성 도구가 기본으로 포함되어 별도의 설정 없이도 에이전트가 PR을 열 수 있으며, UI상에서 메모리 파일을 삭제하거나 자동화 실행 시 오래된 메모리를 삭제하도록 명령하는 기능이 추가되었습니다.",
+    "url": "https://www.cursor.com/changelog/06-18-26",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-18T00:00:00.000Z",
+    "fetchedAt": "2026-06-19T02:10:27.001Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
+    "title": "Building the Agentic SOC: A new model for financial services",
+    "summary": "As AI-powered threats accelerate, financial institutions are evolving toward agentic security operations. Unified data, contextual intelligence, and operational resilience are becoming foundational to",
+    "aiSummary": "AI 기반의 보안 위협이 급격히 증가함에 따라 금융 기관들은 Agentic SOC 모델로의 전환을 가속화하고 있습니다.\n\n미래의 SOC 구축을 위해서는 데이터의 통합, 문맥 기반의 지능형 분석, 그리고 운영상 복원력이 필수적인 핵심 요소로 자리 잡고 있습니다.\n\n금융 분야의 보안 체계는 단순한 대응을 넘어 자율적인 판단과 실행이 가능한 형태로 진화하며 보안 운영의 패러다임을 변화시키고 있습니다.",
+    "url": "https://www.elastic.co/blog/agentic-soc-for-financial-services",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Karen Mcdermott",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
+    "title": "Elastic’s no-code and full-code approaches to custom integrations",
+    "summary": "Elastic 9.4 ships two paths for custom integrations: a faster, no-code Automatic Import with multistream support, and Integration Skills, an open agentic toolkit for developers who want full lifecycle",
+    "aiSummary": "Elastic 9.4 버전은 사용자 맞춤형 통합을 위한 두 가지 경로를 제공합니다.\n\n첫 번째는 Automatic Import 기능으로 멀티스트림을 지원하며 코딩 없이도 빠르게 데이터를 통합할 수 있도록 설계되었습니다.\n\n두 번째는 Integration Skills로 이는 개발자가 전체 라이프사이클을 직접 제어할 수 있는 오픈 에이전트 툴킷입니다.\n\n사용자는 자신의 개발 환경과 요구 사항에 맞춰 노코드 방식인 Automatic Import와 풀코드 방식인 Integration Skills 중 하나를 선택하여 활용할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elasticsearch-custom-integrations-automatic-import",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Charles Davison,Hanna Tamoudi",
+    "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+    "title": "Use your own language model key in VS Code",
+    "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and ",
+    "aiSummary": "VS Code에서 사용자가 직접 보유한 API Key를 활용하는 BYOK 방식을 통해 다양한 인공지능 모델을 통합할 수 있게 되었습니다.\n\nAzure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter와 같은 주요 클라우드 서비스 제공업체의 모델을 연결하여 사용할 수 있습니다.\n\n또한 Ollama나 Foundry Local 등을 이용해 로컬 환경에서 구동 중인 모델을 연동하는 것도 가능합니다.\n\n이 기능을 활용하면 외부 서비스의 인프라와 본인의 로컬 자원을 효율적으로 조합하여 개발 환경을 최적화할 수 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Kayla Cinnamon",
+    "pubDate": "2026-06-18T00:00:00.000Z",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/06/18/a-bootiful-podcast-dashaun-carter",
     "title": "A Bootiful Podcast: DaShaun Carter on patching, Spring Boot 4.1, and security in the world of AI",
     "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use • Privacy • Trademark Guidelines Apache®, Apache Tomcat®, Apach",
@@ -1018,23 +853,6 @@
     "tags": [
       "Spring",
       "Java"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
-    "title": "FAQ: Real-time context engine, agent memory, and retrieval",
-    "summary": "AI agents are getting better at reasoning, planning, and using tools. But even the smartest model can give a bad answer if it has the wrong context, stale data, or too much irrelevant information.\n\nTh",
-    "aiSummary": "AI 에이전트의 성능이 추론과 도구 활용 측면에서 발전하고 있으나 잘못된 맥락이나 오래된 데이터, 과도하게 불필요한 정보는 여전히 부정확한 답변을 야기합니다. 이를 해결하기 위해 적절한 맥락을 제공하는 컨텍스트 엔지니어링이 필수적인 핵심 요소로 부상하고 있습니다.\n\n특히 실시간 컨텍스트 엔진은 에이전트가 최신 정보를 바탕으로 판단할 수 있도록 지원하며 데이터의 최신성을 유지하는 역할을 합니다. 에이전트 메모리는 과거의 경험이나 상호작용을 기록하여 시간이 지남에 따라 에이전트가 사용자의 선호도나 특정 과업을 더 잘 이해하도록 돕습니다.\n\n검색 기술은 방대한 데이터베이스에서 필요한 정보만을 효율적으로 추출하여 답변의 정확도를 높입니다. 이 세 가지 요소가 유기적으로 결합될 때 에이전트는 제한된 정보 속에서도 최적의 의사결정을 내릴 수 있습니다. 결과적으로 이러한 시스템은 에이전트의 신뢰성을 확보하고 특정 도메인에서의 업무 효율성을 극대화하는 데 중요한 기반이 됩니다.",
-    "url": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Simba Khadder",
-    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
     ]
   },
   {
@@ -1133,124 +951,6 @@
     ]
   },
   {
-    "id": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
-    "title": "Why a bigger context window won't fix your agent's memory",
-    "summary": "Context windows have grown fast. Models that once capped out at a few thousand tokens now advertise hundreds of thousands, and the natural assumption was that the agent memory problem would shrink as ",
-    "aiSummary": "최근 LLM의 Context window가 비약적으로 확장되면서 모델의 기억력 문제가 자연스럽게 해결될 것으로 기대되었으나 실제로는 그렇지 않습니다. 단순히 프롬프트에 더 많은 데이터를 입력하는 방식은 정보 검색의 정확도를 떨어뜨리는 Lost in the middle 현상을 유발하며 토큰 소비량 증가에 따른 비용과 지연 시간 문제를 야기합니다.\n\n모델이 방대한 문맥 내에서 특정 정보를 찾는 능력은 완벽하지 않으며 데이터가 많아질수록 모델이 중요한 맥락을 놓치거나 부적절한 답변을 생성할 위험이 커집니다. 따라서 단순히 문맥의 크기를 키우는 것만으로는 에이전트의 기억 문제를 해결할 수 없습니다.\n\n이를 보완하기 위해서는 RAG와 같은 외부 지식 저장소 시스템이나 체계적인 메모리 관리 기법이 필수적입니다. 에이전트가 모든 정보를 프롬프트에 담는 대신 필요한 시점에 정보를 추출하여 활용하는 구조적인 접근이 장기적인 기억과 효율적인 작업 수행을 가능하게 합니다.",
-    "url": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Jim Allen Wallace",
-    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
-    "title": "Retrieval vs. memory in AI agents: why context layers need both",
-    "summary": "A returning user asks your agent why their bill doubled this month. The agent greets them by name, pulls up last week's billing dispute, and references the workaround your team suggested. Then it conf",
-    "aiSummary": "AI 에이전트가 사용자의 질문에 정확히 대응하기 위해서는 외부 데이터 검색인 Retrieval과 과거 상호작용을 저장하는 Memory라는 두 가지 핵심 요소가 모두 필요합니다. Retrieval은 최신 데이터베이스나 공식 문서 등 정적인 지식에 접근하여 객관적인 정보를 제공하는 역할을 합니다. 반면 Memory는 사용자와의 과거 대화 기록, 개인화된 맥락, 그리고 특정 시점의 의사결정 과정을 보존하여 에이전트가 흐름을 파악하도록 돕습니다.\n\n만약 Retrieval에만 의존할 경우 에이전트는 사용자의 과거 이력이나 진행 중인 분쟁 사례를 알지 못해 기계적이고 단편적인 답변만을 제공하게 됩니다. 반대로 Memory가 부족하면 사용자마다 다른 상황을 구분하지 못해 혼란을 야기할 수 있습니다. 특히 청구서 사례와 같이 복잡한 맥락이 중요한 상황에서 에이전트가 정확한 상담을 수행하려면, 외부 지식 베이스의 최신 정책과 사용자의 고유한 과거 맥락이 결합된 하이브리드 아키텍처가 필수적입니다.\n\n결론적으로 차세대 AI 에이전트는 검색된 데이터의 정확성과 저장된 기억의 연속성을 통합함으로써 사용자에게 개인화된 고품질 서비스를 제공할 수 있습니다. 기술 개발 시 이 두 레이어를 적절히 조율하는 것이 에이전트의 신뢰도를 결정짓는 핵심 전략이 됩니다.",
-    "url": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Jim Allen Wallace",
-    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/introducing-life-sci-bench",
-    "title": "Introducing LifeSciBench",
-    "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-    "aiSummary": "LifeSciBench는 AI 시스템이 실제 생명과학 연구 현장에서 수행하는 과제와 의사결정 능력을 평가하기 위해 개발된 새로운 벤치마크입니다. 해당 벤치마크는 분야별 전문가들이 직접 내용을 작성하고 검토하였으며, AI 모델이 복잡하고 전문적인 생명과학 분야의 문제들을 얼마나 효과적으로 해결하는지 측정하는 데 초점을 맞추고 있습니다.",
-    "url": "https://openai.com/index/introducing-life-sci-bench",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/cloud-in-agents-window",
-    "title": "Cloud Environment Setup and Cloud Subagents in Agents Window",
-    "summary": "3.7 Jun 17, 2026 · ChangelogCloud Environment Setup and Cloud Subagents in Agents WindowThis release introduces updates to cloud agents in the Agents Window of the Cursor desktop app.\n#Cloud environme",
-    "aiSummary": "Cursor 데스크톱 앱의 최신 업데이트를 통해 클라우드 환경 설정 및 클라우드 서브 에이전트 기능이 추가되었습니다.\n\n클라우드 환경 설정 기능은 10분 이내에 개발 환경을 클라우드에 구축할 수 있도록 지원합니다. 설정 과정은 공유 터미널 세션을 통해 실시간으로 확인할 수 있으며, 완료된 환경은 재사용 가능한 스냅샷으로 저장되어 향후 에이전트 구동 시간을 단축합니다. 환경 정보는 .cursor/environment.json 파일로 팀 내 공유가 가능합니다.\n\n/in-cloud 명령어를 사용하면 별도의 가상 머신에서 작동하는 클라우드 서브 에이전트를 생성할 수 있습니다. 이를 통해 로컬 워크스페이스에 영향을 주지 않고 복잡한 CI 수정이나 코드 분석 같은 장기 작업을 병렬로 수행할 수 있습니다. 특히 /babysit 기능을 활용하면 로컬 세션을 점유하지 않고도 클라우드 에이전트가 알아서 PR 준비 및 병합 과정을 관리합니다.\n\n로컬과 클라우드 간의 세션 전환도 강화되었습니다. 로컬에서 실행 중이던 무거운 작업을 클라우드로 넘겨 백그라운드에서 처리하게 하거나, 클라우드에서 수행 중인 작업을 로컬로 가져와 변경 사항을 직접 테스트할 수 있습니다. 이를 통해 사용자는 리소스 제약 없이 다수의 클라우드 에이전트를 동시에 운용하며 효율적인 개발 흐름을 유지할 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/cloud-in-agents-window",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-17T00:00:00.000Z",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
-    "title": "Your agent hit the context limit. Here's the playbook",
-    "summary": "Your agent was humming along, then it stopped mid-task and declared the job done when it wasn't. One common cause is the AI context limit, a hard ceiling on how many tokens a model can hold in its wor",
-    "aiSummary": "AI 에이전트가 작업 도중 갑작스럽게 중단되거나 불완전하게 임무를 마치는 주된 원인은 모델의 컨텍스트 제한 때문입니다. 컨텍스트 제한은 AI가 작업 메모리에 한 번에 처리할 수 있는 토큰의 양을 물리적으로 제한하는 임계점입니다.\n\n이러한 문제를 해결하기 위해 가장 먼저 필요한 것은 현재 사용 중인 모델의 토큰 제한치를 정확히 파악하고 작업의 규모를 그 범위 내로 조절하는 것입니다. 만약 긴 작업이 필요하다면 문서를 요약하거나 불필요한 정보를 제거하여 입력 데이터의 크기를 줄이는 전략이 필요합니다.\n\n기술적으로는 컨텍스트를 효율적으로 관리하기 위한 RAG 기법이나 긴 문맥을 지원하는 롱 컨텍스트 모델로의 전환을 고려할 수 있습니다. 또한 작업을 단계별로 나누어 처리하는 멀티 에이전트 방식이나 중간 결과물을 별도의 스토리지에 저장하여 필요한 시점에 다시 불러오는 메모리 최적화 전략을 도입하는 것이 효과적입니다.\n\n단순히 모델을 업그레이드하는 것 외에도 프롬프트를 최적화하여 불필요한 시스템 메시지나 과거 대화 기록을 정리함으로써 가용 토큰을 확보하는 세심한 관리가 필수적입니다. 이러한 체계적인 접근은 에이전트가 중도에 멈추지 않고 더 복잡하고 긴 작업을 안정적으로 수행할 수 있도록 돕습니다.",
-    "url": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Jim Allen Wallace",
-    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
-    "title": "Five context-engineering principles that survive production",
-    "summary": "Your agent passes every test you throw at it. The demo is clean, the eval suite is green, and you ship. Then a week later, the support tickets start: agents looping, costs spiking, responses that conf",
-    "aiSummary": "LLM 기반 에이전트를 실제 운영 환경에 배포한 후 발생하는 문제들을 해결하기 위한 다섯 가지 컨텍스트 엔지니어링 원칙을 제시합니다.\n\n첫째, 명시적인 제약 사항을 컨텍스트에 포함해야 합니다. 모델은 모호한 지시사항보다 구체적으로 하지 말아야 할 행동을 정의할 때 더 안정적으로 작동합니다.\n\n둘째, 컨텍스트에 구조를 부여해야 합니다. 시스템 메시지에 Markdown이나 구조화된 데이터 형식을 사용하면 모델이 정보를 이해하고 처리하는 과정에서 발생하는 오류를 크게 줄일 수 있습니다.\n\n셋째, 최소한의 정보만 제공하는 간결함을 유지해야 합니다. 컨텍스트가 너무 길어지면 주의력 분산으로 인해 성능이 저하되는 Lost in the middle 현상이 발생하므로, 작업 수행에 필요한 핵심 정보만 선택적으로 주입하는 것이 중요합니다.\n\n넷째, 모델의 출력 형식과 사고 과정을 명확히 규정해야 합니다. 최종 답변 전에 Chain of Thought를 유도하거나 답변 양식을 엄격하게 고정하면 환각 현상을 방지하고 결과의 일관성을 높일 수 있습니다.\n\n다섯째, 실제 운영 데이터로부터 피드백 루프를 구축해야 합니다. 개발 단계의 테스트 통과가 운영 환경의 성공을 보장하지 않으므로, 에이전트가 생성한 결과물을 지속적으로 모니터링하고 실패 사례를 컨텍스트 개선에 활용해야 합니다.",
-    "url": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Jim Allen Wallace",
-    "pubDate": "Sun, 14 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/what-model-context-protocol-gives-your-agents/",
-    "title": "What Model Context Protocol gives your agents & what it leaves to you",
-    "summary": "If you've shipped an AI agent that connects to tools, you've probably felt the relief of having one standard way to wire it all up. Model Context Protocol (MCP) handles that part well. But there's a g",
-    "aiSummary": "Model Context Protocol은 AI 에이전트와 외부 도구를 연결하는 표준화된 방식을 제공하여 개발 과정의 복잡성을 줄여주는 유용한 기술입니다. 하지만 이 프로토콜은 데이터 연결과 컨텍스트 전달이라는 본연의 기능에 집중할 뿐 에이전트가 특정 도구를 언제, 어떻게 사용할지 결정하는 전략이나 복잡한 워크플로우 제어까지는 책임지지 않습니다.\n\n결국 도구와의 연결은 MCP가 대신 수행하지만 에이전트가 업무를 수행하는 과정에서 발생하는 논리적 판단과 도구 활용의 최적화는 개발자가 직접 구현해야 하는 영역으로 남습니다. 많은 팀이 이 지점에서 혼란을 겪는데, 이는 단순히 도구를 연결하는 것을 넘어 에이전트가 실질적인 결과물을 내도록 만드는 설계 역량이 여전히 개발자의 핵심 과제임을 의미합니다. 따라서 성공적인 에이전트 구축을 위해서는 MCP를 활용해 인프라를 간소화하면서도 에이전트의 의사결정 체계와 도구 제어 전략을 고도화하는 데 집중해야 합니다.",
-    "url": "https://redis.io/blog/what-model-context-protocol-gives-your-agents/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Jim Allen Wallace",
-    "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
     "id": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
     "title": "Enterprise-managed settings now support bypass permission controls",
     "summary": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed",
@@ -1280,6 +980,22 @@
     "tags": [
       "C#",
       ".NET"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_125",
+    "title": "Visual Studio Code 1.125",
+    "summary": "Learn what's new in Visual Studio Code 1.125\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.125 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 추가된 다양한 신기능과 개선 사항을 확인할 수 있으며 자세한 변경 내용은 공식 블로그의 전체 기사를 통해 살펴볼 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_125",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-17T17:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -1379,55 +1095,6 @@
     ]
   },
   {
-    "id": "https://github.blog/changelog/2026-06-15-copilot-individual-plan-sign-ups-are-reopening",
-    "title": "Copilot individual plan sign-ups are reopening",
-    "summary": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with…\nThe post Copilot ",
-    "aiSummary": "GitHub가 중단되었던 GitHub Copilot Student, Pro, Pro+, Max 플랜에 대한 신규 구독 신청을 다시 시작합니다. 이번 조치는 향후 몇 주에 걸쳐 순차적으로 진행될 예정입니다. 서비스 구독을 대기하던 사용자들은 단계적으로 신규 가입이 가능해질 전망입니다.",
-    "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Wed, 17 Jun 2026 14:10:00 +0000",
-    "fetchedAt": "2026-06-17T18:06:33.799Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/ai-chemist-improves-reaction",
-    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-    "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-    "aiSummary": "OpenAI와 Molecule.one이 협력하여 GPT-4o 기반의 준자율적 AI 화학자를 활용해 의약 화학 분야의 핵심 약물 합성 반응을 개선하는 성과를 거두었습니다. 이번 연구는 AI가 복잡한 화학 실험 설계 및 최적화 과정에 자율적으로 참여하여 신약 개발 연구의 효율성과 정확도를 획기적으로 높일 수 있음을 입증합니다. 이를 통해 향후 의약 화학 연구 현장에서 AI 모델이 실험 수행 과정을 주도하며 난도가 높은 합성 반응을 해결하는 핵심적인 역할을 할 것으로 기대됩니다.",
-    "url": "https://openai.com/index/ai-chemist-improves-reaction",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Wed, 17 Jun 2026 10:00:00 GMT",
-    "fetchedAt": "2026-06-17T18:06:33.799Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
-    "title": "Elastic named a Leader in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment",
-    "summary": "Elastic was named a 2026 IDC MarketScape Leader for SIEM. See why we were recognized.",
-    "aiSummary": "Elastic이 2026 IDC MarketScape의 전 세계 SIEM 공급업체 평가에서 리더로 선정되었습니다. 이번 평가는 SIEM 시장에서의 기술력과 전략적 역량을 인정받은 결과입니다. Elastic은 검색 및 분석 플랫폼으로서 보안 운영 효율성을 높이고 위협 탐지 및 대응 능력을 강화한 점을 높게 평가받았습니다.",
-    "url": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Natalie Blake",
-    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-17T18:06:33.799Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
     "id": "6261b6e3f0038f8b71e95bf2f91f996b1505a1e9",
     "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
     "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and",
@@ -1457,118 +1124,6 @@
     "tags": [
       "AWS",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=blog&p=711459",
-    "title": "Your JetBrains IDE Expertise, Now on LinkedIn",
-    "summary": "Every developer has tools they rely on daily. The workflows they’ve built around them, the ways they’ve learned to move faster, debug smarter, and write better code – that kind of hands-on experience ",
-    "aiSummary": "JetBrains는 사용자가 자사 IDE를 활용하며 쌓은 개발 역량과 숙련도를 LinkedIn 프로필에 효과적으로 증명할 수 있도록 협업을 시작합니다. 개발자가 일상적으로 사용하는 도구와 그 안에서 구축한 업무 방식, 문제 해결 능력을 시각화하여 경력 정보로 간편하게 등록할 수 있는 기능을 제공합니다. 이를 통해 개발자는 자신의 기술적 전문성을 업계에 더 명확하게 알리고 구직 과정이나 네트워킹에서 실질적인 강점을 확보할 수 있게 됩니다.",
-    "url": "https://blog.jetbrains.com/blog/2026/06/17/your-jetbrains-ide-expertise-now-on-linkedin/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Ekaterina Ryabukha",
-    "pubDate": "Wed, 17 Jun 2026 13:11:02 +0000",
-    "fetchedAt": "2026-06-17T15:23:48.005Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=junie&p=713100",
-    "title": "Junie: The JetBrains AI Coding Agent Leaves Beta.",
-    "summary": "Junie started as an experiment. We asked, “What if an AI coding agent didn’t just guess at the details of your project, but actually used the same tools you do?” Over the last year, that experiment tu",
-    "aiSummary": "JetBrains가 개발한 AI 코딩 에이전트인 Junie가 베타 테스트를 마치고 정식 출시되었습니다.\n\nJunie는 단순히 프로젝트의 세부 사항을 추측하는 수준을 넘어 개발자가 사용하는 도구를 직접 활용하며 IDE와 터미널 환경에서 실질적인 작업을 수행하도록 설계되었습니다.\n\n지난 1년간의 실험적인 단계를 거쳐 완성된 Junie는 개발자의 일상적인 코딩 업무를 보조하며 생산성을 높이는 도구로 자리 잡았습니다.\n\n이번 정식 출시를 통해 JetBrains는 더욱 고도화된 AI 기반 개발 경험을 제공할 계획입니다.",
-    "url": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Dmitry Savelev",
-    "pubDate": "Wed, 17 Jun 2026 09:07:19 +0000",
-    "fetchedAt": "2026-06-17T15:23:48.005Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
-    "title": "Build and Deploy a Remote MCP Server to GKE in 30 Minutes",
-    "summary": "Build and Deploy a Remote MCP Server to GKE in 30 Minutes\nIntegrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address ",
-    "aiSummary": "Anthropic에서 개발한 MCP(Model Context Protocol)는 LLM과 외부 데이터 및 도구를 표준화된 방식으로 연결하기 위한 프로토콜입니다. 기존의 로컬 환경 위주의 실행 방식에서 벗어나 GKE(Google Kubernetes Engine)를 활용하면 원격에서 확장 가능하고 안전한 MCP 서버를 운영할 수 있습니다.\n\nGKE를 통해 MCP 서버를 구축할 경우 얻을 수 있는 주요 이점은 세 가지입니다. 첫째, GKE Autopilot을 통해 트래픽 변화에 따라 서버를 효율적으로 수평 확장할 수 있습니다. 둘째, 중앙 집중식 서버를 운영함으로써 여러 팀과 개발자가 동일한 인프라에 접속하여 리소스 중복을 방지하고 업데이트를 즉시 공유할 수 있습니다. 셋째, Kubernetes Gateway API와 SSL 인증서를 결합하여 외부 접근을 암호화하고 보안을 강화할 수 있습니다.\n\n구축 과정은 Python과 FastMCP 프레임워크를 활용하여 수학 연산 도구를 포함한 서버를 제작하는 것으로 시작합니다. 이때 Streamable HTTP 전송 방식을 사용해야 원격 서버 환경에서 안정적인 연결이 가능합니다. 이후 Docker 이미지를 생성하여 Artifact Registry에 저장하고, GKE 클러스터에 이를 배포합니다.\n\n최종적으로는 Kubernetes Gateway API를 사용하여 정적 IP를 할당하고 Google 관리형 SSL 인증서를 연결함으로써, 도메인을 통한 안전한 원격 접속 환경을 완성합니다. 이 과정을 통해 개발자는 복잡한 로컬 설정 없이도 확장성과 보안성을 갖춘 환경에서 AI 에이전트와 LLM을 연동할 수 있게 됩니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Abdelfettah Sghiouar"
-      ],
-      "title": [
-        "Cloud Developer Advocate"
-      ],
-      "department": [
-        "Google Cloud"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 17 Jun 2026 00:00:00 +0000",
-    "fetchedAt": "2026-06-17T15:23:48.005Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "1e4fc761b5a706e81f4b43e635181511d9ca0099",
-    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
-    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS en",
-    "aiSummary": "AWS는 Amazon Bedrock AgentCore에 실시간 웹 검색 기능을 새롭게 도입합니다. 이 기능은 완전 관리형 도구로 제공되어 사용자가 인프라를 직접 관리하거나 웹 검색 기능을 수동으로 추가할 필요 없이 AI 에이전트가 최신의 정확한 웹 정보를 바탕으로 답변을 생성할 수 있도록 지원합니다.\n\n특히 고객의 보안이 유지되는 AWS 환경 내에서 데이터 외부 유출 없이 안전하게 웹 기반의 근거 자료를 확보할 수 있다는 점이 핵심입니다. 이를 통해 개발자는 복잡한 검색 인프라 구축 부담을 덜고 더욱 효율적으로 고도화된 AI 에이전트를 개발하는 데 집중할 수 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "Tue, 16 Jun 2026 07:56:11 +0000",
-    "fetchedAt": "2026-06-17T15:23:48.005Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=clion&p=712025",
-    "title": "Modern C++ Support in CLion: What’s New",
-    "summary": "Modern C++ makes advanced high-performance techniques more accessible, with features like compile-time computation, zero-overhead abstractions, and expressive template code. But as your codebase grows",
-    "aiSummary": "JetBrains는 C++ 개발 환경인 CLion에서 현대적인 C++ 표준을 더욱 원활하게 활용할 수 있도록 언어 엔진 지원을 지속적으로 강화하고 있습니다. 현대 C++의 컴파일 타임 계산이나 템플릿 코드와 같은 복잡한 기능을 IDE가 정확히 이해하지 못하면 코드 탐색 오류나 잘못된 경고가 발생할 수 있기 때문에 CLion은 이를 개선하는 데 집중하고 있습니다.\n\n특히 CLion은 Clangd 기반의 언어 엔진을 고도화하여 C++20 및 C++23 표준에 포함된 새로운 기능들을 더욱 정밀하게 분석합니다. 이를 통해 개발자는 코드의 성능을 최적화하면서도 생산성을 유지할 수 있으며 IDE의 정적 분석 도구와 코드 자동 완성 기능이 최신 문법을 정확히 반영하도록 지원합니다.\n\n앞으로도 CLion은 대규모 코드베이스에서도 고성능 추상화와 복잡한 템플릿 구조를 효과적으로 관리할 수 있도록 인덱싱 성능을 높이고 리팩토링 및 디버깅 도구의 정확도를 높이는 방향으로 업데이트를 진행할 예정입니다. 이러한 기술적 지원은 개발자가 도구의 제약 없이 현대 C++의 강력한 기능을 온전히 활용할 수 있도록 돕는 역할을 합니다.",
-    "url": "https://blog.jetbrains.com/clion/2026/06/modern-cpp-support/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Oleg Zinovyev",
-    "pubDate": "Wed, 10 Jun 2026 09:36:29 +0000",
-    "fetchedAt": "2026-06-17T15:23:48.005Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_125",
-    "title": "Visual Studio Code 1.125",
-    "summary": "Learn what's new in Visual Studio Code 1.125\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.125 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 추가된 다양한 신기능과 개선 사항을 확인할 수 있으며 자세한 변경 내용은 공식 블로그의 전체 기사를 통해 살펴볼 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_125",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-06-17T17:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "VS Code",
-      "Editor"
     ]
   },
   {
@@ -1604,6 +1159,38 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-06-15-copilot-individual-plan-sign-ups-are-reopening",
+    "title": "Copilot individual plan sign-ups are reopening",
+    "summary": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with…\nThe post Copilot ",
+    "aiSummary": "GitHub가 중단되었던 GitHub Copilot Student, Pro, Pro+, Max 플랜에 대한 신규 구독 신청을 다시 시작합니다. 이번 조치는 향후 몇 주에 걸쳐 순차적으로 진행될 예정입니다. 서비스 구독을 대기하던 사용자들은 단계적으로 신규 가입이 가능해질 전망입니다.",
+    "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 17 Jun 2026 14:10:00 +0000",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=blog&p=711459",
+    "title": "Your JetBrains IDE Expertise, Now on LinkedIn",
+    "summary": "Every developer has tools they rely on daily. The workflows they’ve built around them, the ways they’ve learned to move faster, debug smarter, and write better code – that kind of hands-on experience ",
+    "aiSummary": "JetBrains는 사용자가 자사 IDE를 활용하며 쌓은 개발 역량과 숙련도를 LinkedIn 프로필에 효과적으로 증명할 수 있도록 협업을 시작합니다. 개발자가 일상적으로 사용하는 도구와 그 안에서 구축한 업무 방식, 문제 해결 능력을 시각화하여 경력 정보로 간편하게 등록할 수 있는 기능을 제공합니다. 이를 통해 개발자는 자신의 기술적 전문성을 업계에 더 명확하게 알리고 구직 과정이나 네트워킹에서 실질적인 강점을 확보할 수 있게 됩니다.",
+    "url": "https://blog.jetbrains.com/blog/2026/06/17/your-jetbrains-ide-expertise-now-on-linkedin/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ekaterina Ryabukha",
+    "pubDate": "Wed, 17 Jun 2026 13:11:02 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/jun/17/announcing-the-search-for-a-dsf-executive-director/",
     "title": "Announcing the Search for a DSF Executive Director",
     "summary": "The Django Software Foundation is hiring its first Executive Director, and we have the Django community to thank for making it possible.\nSix Django web development agencies have jointly pledged $47,50",
@@ -1620,243 +1207,36 @@
     ]
   },
   {
-    "id": "https://laravel-news.com/laravel-13-16-0",
-    "title": "The artisan dev Command in Laravel 13.16.0",
-    "summary": "Laravel 13.16.0 adds an artisan dev command for running development processes, a whenFilledEnum request method, withCookies on all responses, and an array maintenance mode driver for parallel testing.",
-    "aiSummary": "Laravel 13.16.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 개발 프로세스를 효율적으로 실행하기 위한 artisan dev 명령어가 추가된 점입니다.\n\n또한 요청 데이터 처리를 위한 whenFilledEnum 메서드가 도입되었으며 모든 응답에 적용할 수 있는 withCookies 기능이 추가되었습니다. 이와 더불어 병렬 테스트를 원활하게 지원하기 위한 array 형태의 유지보수 모드 드라이버가 포함되었습니다.",
-    "url": "https://laravel-news.com/laravel-13-16-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "Wed, 17 Jun 2026 04:33:02 +0000",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "id": "https://openai.com/index/ai-chemist-improves-reaction",
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+    "aiSummary": "OpenAI와 Molecule.one이 협력하여 GPT-4o 기반의 준자율적 AI 화학자를 활용해 의약 화학 분야의 핵심 약물 합성 반응을 개선하는 성과를 거두었습니다. 이번 연구는 AI가 복잡한 화학 실험 설계 및 최적화 과정에 자율적으로 참여하여 신약 개발 연구의 효율성과 정확도를 획기적으로 높일 수 있음을 입증합니다. 이를 통해 향후 의약 화학 연구 현장에서 AI 모델이 실험 수행 과정을 주도하며 난도가 높은 합성 반응을 해결하는 핵심적인 역할을 할 것으로 기대됩니다.",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 17 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
     "tags": [
-      "Laravel",
-      "PHP"
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
-    "id": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
-    "title": "Improving token efficiency in GitHub Copilot",
-    "summary": "Learn how we're improving token efficiency in GitHub Copilot to reduce costs and latency for users.\nRead the full article",
-    "aiSummary": "GitHub Copilot은 사용자에게 제공하는 서비스의 비용을 절감하고 응답 속도를 개선하기 위해 토큰 효율성을 향상하는 작업을 진행하고 있습니다. 이번 최적화는 AI 모델이 처리하는 데이터 양을 효율적으로 관리하여 전반적인 성능을 높이는 데 중점을 둡니다. 이를 통해 개발자는 더 빠르고 경제적으로 GitHub Copilot의 기능을 활용할 수 있게 될 전망입니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "id": "https://blog.jetbrains.com/?post_type=junie&p=713100",
+    "title": "Junie: The JetBrains AI Coding Agent Leaves Beta.",
+    "summary": "Junie started as an experiment. We asked, “What if an AI coding agent didn’t just guess at the details of your project, but actually used the same tools you do?” Over the last year, that experiment tu",
+    "aiSummary": "JetBrains가 개발한 AI 코딩 에이전트인 Junie가 베타 테스트를 마치고 정식 출시되었습니다.\n\nJunie는 단순히 프로젝트의 세부 사항을 추측하는 수준을 넘어 개발자가 사용하는 도구를 직접 활용하며 IDE와 터미널 환경에서 실질적인 작업을 수행하도록 설계되었습니다.\n\n지난 1년간의 실험적인 단계를 거쳐 완성된 Junie는 개발자의 일상적인 코딩 업무를 보조하며 생산성을 높이는 도구로 자리 잡았습니다.\n\n이번 정식 출시를 통해 JetBrains는 더욱 고도화된 AI 기반 개발 경험을 제공할 계획입니다.",
+    "url": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
     "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Ryan Caldwell, Bhavya U",
-    "pubDate": "2026-06-17T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "source": "JetBrains Blog",
+    "author": "Dmitry Savelev",
+    "pubDate": "Wed, 17 Jun 2026 09:07:19 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
     "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_124",
-    "title": "Visual Studio Code 1.124",
-    "summary": "Learn what is new in Visual Studio Code 1.124\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.124 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 사용자 경험을 개선하고 다양한 기능이 추가되거나 향상되었습니다. 구체적인 변경 사항과 상세한 기술적 세부 정보는 Visual Studio Code 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_124",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-06-10T17:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/bugbot-updates-june-2026",
-    "title": "Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs",
-    "summary": "Jun 10, 2026 · ChangelogBugbot is now over 3x faster, 22% cheaper, and finds 10% more bugsThe average review time for Bugbot is now ~90 seconds, down from ~5 minutes. Bugbot also finds 10% more bugs p",
-    "aiSummary": "Bugbot이 Composer 2.5 모델을 도입하며 성능과 경제성을 크게 개선했습니다. 평균 검토 시간은 기존 5분에서 약 90초로 3배 이상 단축되었으며 비용은 약 22퍼센트 절감되었습니다. 또한 검토당 버그 발견율은 기존 0.56개에서 0.62개로 10퍼센트가량 증가했습니다.\n\n코드 푸시 이전에 실행할 수 있는 /review 기능을 통해 Bugbot과 Security Review를 활용할 수 있게 되었습니다. 해당 기능은 GitHub 및 GitLab과 연동되어 동일한 diff가 포함된 PR 생성 시 중복 검토를 방지하며 이미 검토된 내용임을 알리는 댓글을 자동으로 남깁니다.\n\n사용자는 Bugbot을 구성하여 마지막 검토 이후 변경된 코드만을 검토하도록 설정할 수 있어 피드백의 집중도를 높일 수 있습니다. 이러한 업데이트는 Cursor 3.7 버전 이상과 웹 페이지에서 즉시 이용 가능하며 추후 CLI에서도 지원될 예정입니다.",
-    "url": "https://www.cursor.com/changelog/bugbot-updates-june-2026",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-10T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/design-mode-improvements",
-    "title": "Design Mode Improvements",
-    "summary": "3.7 Jun 5, 2026 · ChangelogDesign Mode ImprovementsWith Design Mode in the Cursor browser, you can click, draw, or describe changes by voice to help agents update your UI.\n#Multi-select elements\nClick",
-    "aiSummary": "Cursor의 Design Mode가 업데이트되어 사용자는 브라우저 내에서 클릭, 드래그, 음성 명령을 통해 더욱 효율적으로 UI를 수정할 수 있게 되었습니다.\n\n멀티 셀렉트 기능을 활용하면 브라우저에서 여러 요소를 동시에 선택할 수 있으며, Cursor는 선택된 요소들의 코드와 주변 레이아웃, 시각적 관계를 종합적으로 파악합니다. 이를 통해 사용자는 여러 구성 요소를 한 번에 조정하거나 중복된 내용을 제거하고, 특정 요소를 다른 요소와 동일한 스타일로 맞추는 등의 작업을 수행할 수 있습니다.\n\n또한 Design Mode 오버레이에서 음성 입력 기능을 지원합니다. 에이전트가 작업을 수행하는 도중에도 마이크를 계속 사용할 수 있어, 이전 작업이 완료되기를 기다릴 필요 없이 음성으로 다음 변경 사항을 즉시 대기열에 추가할 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/design-mode-improvements",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-05T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/sdk-updates-jun-2026",
-    "title": "Custom stores, custom tools, and auto-review for the Cursor SDK",
-    "summary": "Jun 4, 2026 · ChangelogCustom stores, custom tools, and auto-review for the Cursor SDKWe've shipped a batch of new functionality across the TypeScript and Python SDKs. You can now choose how agent and",
-    "aiSummary": "Cursor SDK가 TypeScript 및 Python 환경에서 다양한 기능을 추가하며 업데이트되었습니다.\n\n이번 업데이트의 핵심인 Custom tools 기능을 통해 별도의 MCP 서버를 구축하지 않고도 Agent.create나 send 함수를 통해 함수 정의만으로 에이전트에 자체 도구를 즉시 추가할 수 있습니다. 정의된 도구는 부모 에이전트의 모든 하위 에이전트에서 공유되며, 내장된 custom-user-tools MCP 서버를 통해 기존과 동일한 권한 체계 내에서 실행됩니다.\n\nAuto-review 기능은 헤드리스 환경에서 도구 호출을 자동으로 수행하는 대신, 자연어 지침을 기반으로 실행 여부를 판단하는 분류기를 도입했습니다. 개발자는 permissions.json 파일의 allow_instructions와 block_instructions 설정을 통해 읽기 전용 작업은 허용하고 삭제와 같은 파괴적인 작업은 사용자의 검토를 거치도록 제어할 수 있습니다.\n\n데이터 저장 방식도 유연해졌습니다. 기존의 SQLite 외에도 버전 관리가 용이한 JSONL 포맷을 선택할 수 있으며, LocalAgentStore 인터페이스를 직접 구현하여 메모리 기반 저장소나 Postgres 등 사용자 환경에 최적화된 맞춤형 저장소를 구성할 수 있습니다.\n\n또한 서브 에이전트가 스스로 하위 에이전트를 생성하는 중첩 구조가 지원되어 복잡한 작업 위임이 가능해졌습니다. 이와 함께 전반적인 안정성과 성능이 개선되어 프로덕션 스크립트나 CI 환경 및 커스텀 통합 작업에서의 활용성이 더욱 향상되었습니다.",
-    "url": "https://www.cursor.com/changelog/sdk-updates-jun-2026",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-04T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/canvas-improvements",
-    "title": "Canvas Design Mode and Context Usage Report",
-    "summary": "3.7 Jun 4, 2026 · ChangelogCanvas Design Mode and Context Usage ReportWith canvases, agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your t",
-    "aiSummary": "Cursor가 2026년 6월 4일 업데이트를 통해 Canvas 기능을 대폭 개선했습니다.\n\n새롭게 추가된 Design Mode는 사용자가 Canvas 내 UI 요소를 직접 선택하고 주석을 달아 편집을 지시할 수 있는 기능입니다. 이를 통해 텍스트로 수정 사항을 일일이 설명할 필요 없이 직관적이고 빠르게 피드백을 주고받으며 편집 과정을 반복할 수 있습니다.\n\n또한 Context usage report 기능이 도입되어 에이전트가 사용하는 토큰의 비중을 시스템 프롬프트, 도구 정의, 규칙 등 상세 항목별로 분석해 보여줍니다. 이 보고서는 Canvas 형태로 제공되므로 에이전트에게 추가 질문을 던져 분석 내용을 구체화할 수 있으며, Debug with Agent 버튼을 통해 컨텍스트 사용량을 최적화할 방법도 찾을 수 있습니다.\n\n그 외에도 공유된 Canvas를 브라우저에서 전체 화면으로 열 수 있는 기능, 에이전트가 특정 프롬프트를 실행하는 버튼을 Canvas 내부에 삽입하는 기능이 추가되었습니다. 더불어 Canvas 내 타입 에러 수정 능력, 컴포넌트 스타일링, 차트 커스터마이징 옵션도 전반적으로 향상되었습니다.",
-    "url": "https://www.cursor.com/changelog/canvas-improvements",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-04T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_123",
-    "title": "Visual Studio Code 1.123",
-    "summary": "Learn what's new in Visual Studio Code 1.123\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.123 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 사용자 경험을 개선하고 생산성을 높이기 위한 다양한 기능들이 추가되었습니다. 상세한 변경 사항과 새롭게 적용된 기술적 개선점은 공식 홈페이지에 게시된 전체 문서를 통해 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_123",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-06-03T17:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/enterprise-organizations",
-    "title": "Organizations for Cursor Enterprise",
-    "summary": "Jun 3, 2026 · ChangelogOrganizations for Cursor EnterpriseEnterprise customers can now manage multiple Cursor teams from one place, with different security, governance, budget, and feature controls fo",
-    "aiSummary": "Cursor가 Enterprise 고객을 대상으로 여러 팀을 통합 관리할 수 있는 Organizations 기능을 정식 출시했습니다. 이번 업데이트를 통해 기업은 최상위 계층인 Organization을 중심으로 부서나 지역별로 분리된 여러 팀을 체계적으로 운영할 수 있게 되었습니다.\n\nOrganization은 기업의 전체적인 관리와 회원 정보를 담는 컨테이너 역할을 수행하며 관리자는 이곳에서 전체 비용과 토큰 사용량을 한눈에 파악할 수 있습니다. 각 팀은 개별적인 보안 정책, 거버넌스, 예산 및 기능 설정을 독립적으로 적용받으며 사용자는 여러 팀에 동시에 소속되어 각기 다른 역할을 수행할 수 있습니다.\n\n새롭게 추가된 Groups 기능은 팀 단위보다 유연한 사용자 관리 체계를 제공합니다. 이를 활용하면 팀 경계와 상관없이 사용자 그룹을 구성하여 특정 모델 접근 권한이나 사용량 제한, 에이전트 권한을 효율적으로 제어할 수 있습니다. 만약 사용자가 여러 팀이나 그룹에 속해 있을 경우 가장 허용 범위가 넓은 권한 설정이 우선 적용됩니다.\n\n이외에도 Organization 단위의 IDP 관리와 상세한 사용량 분석 기능이 도입되었으며 대시보드, API, CSV 파일을 통해 관리자가 사용자를 팀 간에 손쉽게 이동시킬 수 있습니다. 신규 사용자가 팀에 합류할 경우 기존의 설정과 권한이 자동으로 계승되는 등 관리 효율성이 대폭 강화되었습니다.",
-    "url": "https://www.cursor.com/changelog/enterprise-organizations",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-06-03T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_122",
-    "title": "Visual Studio Code 1.122",
-    "summary": "Learn what's new in Visual Studio Code 1.122\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.122 버전의 업데이트가 진행되었습니다. 이번 업데이트를 통해 추가된 새로운 기능과 개선 사항은 공식 웹사이트에 게시된 전체 문서를 통해 확인하실 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_122",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-05-28T17:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4200",
-    "title": "Sublime Text Build 4200 and Future Plugin Changes",
-    "summary": "Sublime Text 4, build 4200 is out now with some exciting new features,\nimprovements and fixes. We're also announcing some changes to the way\nplugins will be handled in the future:\n\nPhasing out Python ",
-    "aiSummary": "Sublime Text 4의 새로운 빌드 4200이 배포되었습니다. 이번 업데이트는 편집기의 성능 향상과 더불어 향후 플러그인 환경의 대대적인 변화를 예고합니다.\n\n가장 눈에 띄는 변화는 Python 버전의 점진적 교체입니다. 기존의 Python 3.3은 단계적으로 제거되어 2026년 1분기 이후 완전히 삭제될 예정이며, 현재는 disable_plugin_host_3.3 설정을 통해 모든 플러그인을 Python 3.8 환경에서 실행할 수 있습니다. 또한 향후 개발 주기에서는 Python 3.8을 3.13으로 업그레이드할 계획이며, 이를 위해 향후 약 5년 주기의 Python 업데이트 정책을 도입합니다. 이러한 기술적 전환에 따라 지원 운영체제 사양도 상향 조정되어, 최소 요구 사양은 macOS 10.13 이상, Windows 10 이상으로 변경됩니다.\n\n기능적으로는 사이드바 위치를 우측으로 옮길 수 있는 sidebar_on_right 설정이 추가되었고, 빌드 시스템에 interactive: true 옵션을 설정하여 프로그램 실행 중 직접 입력을 제공할 수 있게 되었습니다. 또한 10만 개 이상의 다중 커서 환경에서도 편집기가 원활하게 동작하도록 성능이 대폭 개선되었습니다.\n\n이 외에도 TOML 및 Zsh 구문 강조 기능이 기본 탑재되었으며, SQL, Bash 등 다양한 언어의 구문 강조가 개선되었습니다. Git 상태 확인 성능 향상과 더불어 명령줄 인자 전달 방식의 최적화, 새로운 API 추가 등 사용자 경험을 높이기 위한 다수의 변경 사항이 반영되었습니다. 상세한 수정 사항은 공식 전체 변경 로그를 통해 확인할 수 있습니다.",
-    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4200",
-    "category": "IDE & 개발 도구",
-    "source": "Sublime Text Blog",
-    "author": "Sublime HQ",
-    "pubDate": "2025-05-20T15:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Sublime Text",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4189",
-    "title": "Sublime Text 4 Build 4189",
-    "summary": "Sublime Text 4, build 4189 is out now with lots of improvements and fixes.\n\nDownload Sublime Text 4\n\nFull Changelog\n\n\nVarious syntax highlighting improvements\nFixed file change detection not working f",
-    "aiSummary": "Sublime Text 4 Build 4189 버전이 새롭게 출시되었습니다. 이번 업데이트는 구문 강조 기능의 개선과 더불어 엔진 성능 최적화에 중점을 두었습니다. 특히 캐시 압축 성능을 크게 향상시키고 구문 강조에 사용되는 사용자 정의 정규식 엔진의 성능을 개선했으며 특정 조건에서 구문 엔진의 메모리 사용량을 줄였습니다. 또한 Git 저장소 스캔 성능과 테마 렌더링 속도도 개선되었습니다.\n\n기능 개선 및 버그 수정 사항도 다수 포함되었습니다. 탭 다중 선택을 위한 unselect_current 명령어가 추가되었고 탭 그룹이 닫힐 때 순서가 뒤바뀌는 현상이나 Goto Definition 기능에서 심볼 우선순위가 적용되지 않던 회귀 버그가 해결되었습니다. 또한 minihtml을 통해 인터넷 이미지를 불러올 수 있게 되었으며 구문 테스트 오류 메시지와 기능도 강화되었습니다.\n\nAPI 측면에서는 CompletionList.set_completions 스레드 안전성 확보와 View.find_all 내 특정 영역 검색 제한 기능이 추가되었고 대량의 완성 항목 처리 성능이 향상되었습니다. 플랫폼별 수정 사항으로는 Windows 환경에서 일부 백신 프로그램과의 충돌 문제를 해결하였고 Mac 환경에서 클립보드 업데이트 및 클릭 문제 등을 개선하였습니다.",
-    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4189",
-    "category": "IDE & 개발 도구",
-    "source": "Sublime Text Blog",
-    "author": "Sublime HQ",
-    "pubDate": "2024-12-20T15:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Sublime Text",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4180",
-    "title": "Sublime Text 4 Build 4180",
-    "summary": "August 12, 2024\n\tby\n\t\n\tAll Posts\n\n\n\n\t\n\nSublime Text 4, build 4180 is out now with lots of improvements and fixes.\n\nDownload Sublime Text 4\n\nFull Changelog\n\n\nVarious syntax highlighting improvements\nNe",
-    "aiSummary": "Sublime Text 4의 새로운 빌드인 4180 버전이 출시되었습니다. 이번 업데이트는 다양한 플랫폼별 기능 개선과 사용자 편의성을 높이는 기능들을 포함하고 있습니다.\n\nLinux 사용자를 위해 Wayland 환경에서의 키네틱 스크롤 지원 및 xdg-activation 프로토콜 구현이 이루어졌으며, 탭 드래그와 관련된 충돌 및 오류가 수정되었습니다. 또한 KDE 환경에서 캐럿이 고정되는 문제에 대한 보완책이 추가되었습니다.\n\nWindows 환경에서는 스크롤바 드래그 시 스크롤 초기화 동작이 구현되었으며, 텍스트 복사 시 발생하는 널 문자 누락 문제와 사용자 정의 상단 메뉴 테마가 적용되지 않던 현상을 해결하였습니다.\n\nMac 버전에서는 휴지통으로 이동한 파일에 대해 원위치 복구 기능을 지원하며, 창 경계 드래그 및 플러그인 보안 권한 설정과 관련된 이슈들이 개선되었습니다.\n\n공통적으로는 대용량 파일 편집 시 메모리 사용량이 감소하였고, 이미지 파일 처리를 위한 별도의 설정 및 컨텍스트 메뉴가 추가되었습니다. 또한 Python docstrings에서의 선택 영역 확장 기능 개선, goto_anything_file_preview 설정 추가, UTF-16 시퀀스 처리 강화 등 전반적인 편집기 안정성과 사용성이 향상되었습니다. \n\n그 외에도 Find 기능의 이력 중복 제거, 탭 드래그 시 혼합 DPI 설정 환경에서의 정렬 문제 수정 등 다수의 버그 수정과 성능 최적화가 이루어졌습니다.",
-    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4180",
-    "category": "IDE & 개발 도구",
-    "source": "Sublime Text Blog",
-    "author": "Sublime HQ",
-    "pubDate": "2024-08-11T15:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Sublime Text",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4166",
-    "title": "Sublime Text 4 Build 4166",
-    "summary": "November 24, 2023\n\tby\n\t\n\tAll Posts\n\n\n\n\tFull Changelog\n\n\nVarious syntax highlighting improvements\nIndex collation is now done incrementally\nFixed an issue where animations were causing excessive redraw",
-    "aiSummary": "Sublime Text 4 Build 4166 업데이트는 전반적인 성능 개선과 다수의 버그 수정을 포함합니다.\n\n구문 강조 기능이 향상되었고 인덱스 대조 작업이 점진적으로 처리되도록 변경되었으며 애니메이션으로 인한 과도한 화면 다시 그리기 문제가 해결되었습니다. 사용자 편의를 위해 마우스 바인딩 설정이 Preferences 메뉴에 추가되었고 글꼴 선택 기능과 사이드바의 경로 복사 기능이 새롭게 도입되었습니다.\n\n자동 완성 기능에서 현재 줄의 토큰을 제대로 제안하지 못하던 문제가 수정되었고 파일 찾기 기능의 긴 줄 처리와 줄 번호 정렬 등 세부적인 동작이 개선되었습니다. 또한 OpenSSL은 1.1.1v 버전으로 업데이트되었으며 북마크 전환과 정의 팝업의 성능이 최적화되었습니다.\n\nAPI 측면에서는 새로운 폰트 선택 대화 상자가 추가되었고 ListInputHandler의 초기 선택 지원 강화와 각종 API 호출 안정성 문제가 해결되었습니다.\n\n운영체제별 특화 수정 사항으로는 Linux의 전체 화면 상태 추적 및 메모리 누수 해결, Windows의 CRLF 드래그 앤 드롭 지원 및 폰트 렌더링 오류 수정, Mac의 창 계단식 배치 구현과 복사 기능 오류 수정 등이 포함되어 전반적인 편집 환경의 안정성을 높였습니다.",
-    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4166",
-    "category": "IDE & 개발 도구",
-    "source": "Sublime Text Blog",
-    "author": "Sublime HQ",
-    "pubDate": "2023-11-23T15:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Sublime Text",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4151",
-    "title": "Sublime Text 4 Build 4151",
-    "summary": "August 2, 2023\n\tby\n\t\n\tAll Posts\n\n\n\n\tFull Changelog\n\n\nVarious syntax highlighting improvements\nAdded \"fold_style\" setting for controlling syntax-based code folding\nLast tab in a group can now be select",
-    "aiSummary": "Sublime Text 4 Build 4151 버전이 공개되었습니다. 이번 업데이트는 다양한 기능 개선과 버그 수정을 포함하고 있습니다.\n\n주요 변경 사항으로 WebP 이미지 형식에 대한 지원이 추가되었습니다. 코드 편집과 관련해서는 fold_style 설정이 추가되어 문법 기반의 코드 접기 방식을 제어할 수 있게 되었으며, split view 사용 시 기존 뷰포트 위치가 유지되도록 개선되었습니다. 또한, Windows와 Linux에서는 alt+9, Mac에서는 cmd+9 단축키를 통해 그룹 내 마지막 탭을 선택할 수 있는 기능이 도입되었습니다. 창 제목을 통해 관리자 권한 실행 여부를 확인할 수 있으며, 들여쓰기 감지 및 텍스트 줄바꿈 시 캐럿 위치 등 편집 편의성도 향상되었습니다.\n\nFind in Files 기능이 대폭 보강되었습니다. 탭 다중 선택을 위한 수정자 키 지원, 검색 결과 순서 오류 수정, 경로 인용문 지원 등이 포함되었습니다. 또한, find_in_files_suppress_errors, find_in_files_context_lines, find_in_files_side_by_side 등 세밀한 설정을 위한 옵션들이 추가되어 검색 작업의 효율성이 높아졌습니다.\n\n구문 강조 기능에서는 백트래킹과 관련된 성능 문제를 해결하고 렌더링 오류를 수정하여 안정성을 높였습니다. 그 외에도 사이드바의 Git 상태 표시 오류, 메모리 사용량 이슈, 각종 UI 렌더링 오류 등 전반적인 사용자 경험을 저해하던 요소들이 다수 수정되었습니다. API 및 매크로와 관련된 오류들도 해결되어 전반적으로 더욱 안정적인 개발 환경을 제공합니다.",
-    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4151",
-    "category": "IDE & 개발 도구",
-    "source": "Sublime Text Blog",
-    "author": "Sublime HQ",
-    "pubDate": "2023-08-01T15:00:00.000Z",
-    "fetchedAt": "2026-06-17T14:55:29.192Z",
-    "tags": [
-      "Sublime Text",
-      "Editor"
+      "JetBrains",
+      "IDE"
     ]
   },
   {
@@ -1924,19 +1304,167 @@
     ]
   },
   {
-    "id": "https://www.elastic.co/blog/observability-security-strengthen-business",
-    "title": "How can unifying observability and security strengthen your business?",
-    "summary": "Incorporating a unified observability and security platform enhanced by AI and ML is not just a technical upgrade; it's a strategic imperative. By adopting this approach, organizations can ensure a re",
-    "aiSummary": "AI와 ML 기술이 결합된 통합 가시성 및 보안 플랫폼을 도입하는 것은 단순한 기술적 개선을 넘어 기업의 전략적 핵심 과제입니다. 이러한 통합 접근 방식을 통해 기업은 디지털 환경의 회복 탄력성을 높이고 보다 안전하며 효율적인 운영 체계를 확보할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/observability-security-strengthen-business",
+    "id": "https://laravel-news.com/laravel-13-16-0",
+    "title": "The artisan dev Command in Laravel 13.16.0",
+    "summary": "Laravel 13.16.0 adds an artisan dev command for running development processes, a whenFilledEnum request method, withCookies on all responses, and an array maintenance mode driver for parallel testing.",
+    "aiSummary": "Laravel 13.16.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 개발 프로세스를 효율적으로 실행하기 위한 artisan dev 명령어가 추가된 점입니다.\n\n또한 요청 데이터 처리를 위한 whenFilledEnum 메서드가 도입되었으며 모든 응답에 적용할 수 있는 withCookies 기능이 추가되었습니다. 이와 더불어 병렬 테스트를 원활하게 지원하기 위한 array 형태의 유지보수 모드 드라이버가 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-16-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Wed, 17 Jun 2026 04:33:02 +0000",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
+    "title": "FAQ: Real-time context engine, agent memory, and retrieval",
+    "summary": "AI agents are getting better at reasoning, planning, and using tools. But even the smartest model can give a bad answer if it has the wrong context, stale data, or too much irrelevant information.\n\nTh",
+    "aiSummary": "AI 에이전트의 성능이 추론과 도구 활용 측면에서 발전하고 있으나 잘못된 맥락이나 오래된 데이터, 과도하게 불필요한 정보는 여전히 부정확한 답변을 야기합니다. 이를 해결하기 위해 적절한 맥락을 제공하는 컨텍스트 엔지니어링이 필수적인 핵심 요소로 부상하고 있습니다.\n\n특히 실시간 컨텍스트 엔진은 에이전트가 최신 정보를 바탕으로 판단할 수 있도록 지원하며 데이터의 최신성을 유지하는 역할을 합니다. 에이전트 메모리는 과거의 경험이나 상호작용을 기록하여 시간이 지남에 따라 에이전트가 사용자의 선호도나 특정 과업을 더 잘 이해하도록 돕습니다.\n\n검색 기술은 방대한 데이터베이스에서 필요한 정보만을 효율적으로 추출하여 답변의 정확도를 높입니다. 이 세 가지 요소가 유기적으로 결합될 때 에이전트는 제한된 정보 속에서도 최적의 의사결정을 내릴 수 있습니다. 결과적으로 이러한 시스템은 에이전트의 신뢰성을 확보하고 특정 도메인에서의 업무 효율성을 극대화하는 데 중요한 기반이 됩니다.",
+    "url": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Simba Khadder",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T11:33:41.315Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+    "title": "Why a bigger context window won't fix your agent's memory",
+    "summary": "Context windows have grown fast. Models that once capped out at a few thousand tokens now advertise hundreds of thousands, and the natural assumption was that the agent memory problem would shrink as ",
+    "aiSummary": "최근 LLM의 Context window가 비약적으로 확장되면서 모델의 기억력 문제가 자연스럽게 해결될 것으로 기대되었으나 실제로는 그렇지 않습니다. 단순히 프롬프트에 더 많은 데이터를 입력하는 방식은 정보 검색의 정확도를 떨어뜨리는 Lost in the middle 현상을 유발하며 토큰 소비량 증가에 따른 비용과 지연 시간 문제를 야기합니다.\n\n모델이 방대한 문맥 내에서 특정 정보를 찾는 능력은 완벽하지 않으며 데이터가 많아질수록 모델이 중요한 맥락을 놓치거나 부적절한 답변을 생성할 위험이 커집니다. 따라서 단순히 문맥의 크기를 키우는 것만으로는 에이전트의 기억 문제를 해결할 수 없습니다.\n\n이를 보완하기 위해서는 RAG와 같은 외부 지식 저장소 시스템이나 체계적인 메모리 관리 기법이 필수적입니다. 에이전트가 모든 정보를 프롬프트에 담는 대신 필요한 시점에 정보를 추출하여 활용하는 구조적인 접근이 장기적인 기억과 효율적인 작업 수행을 가능하게 합니다.",
+    "url": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+    "title": "Retrieval vs. memory in AI agents: why context layers need both",
+    "summary": "A returning user asks your agent why their bill doubled this month. The agent greets them by name, pulls up last week's billing dispute, and references the workaround your team suggested. Then it conf",
+    "aiSummary": "AI 에이전트가 사용자의 질문에 정확히 대응하기 위해서는 외부 데이터 검색인 Retrieval과 과거 상호작용을 저장하는 Memory라는 두 가지 핵심 요소가 모두 필요합니다. Retrieval은 최신 데이터베이스나 공식 문서 등 정적인 지식에 접근하여 객관적인 정보를 제공하는 역할을 합니다. 반면 Memory는 사용자와의 과거 대화 기록, 개인화된 맥락, 그리고 특정 시점의 의사결정 과정을 보존하여 에이전트가 흐름을 파악하도록 돕습니다.\n\n만약 Retrieval에만 의존할 경우 에이전트는 사용자의 과거 이력이나 진행 중인 분쟁 사례를 알지 못해 기계적이고 단편적인 답변만을 제공하게 됩니다. 반대로 Memory가 부족하면 사용자마다 다른 상황을 구분하지 못해 혼란을 야기할 수 있습니다. 특히 청구서 사례와 같이 복잡한 맥락이 중요한 상황에서 에이전트가 정확한 상담을 수행하려면, 외부 지식 베이스의 최신 정책과 사용자의 고유한 과거 맥락이 결합된 하이브리드 아키텍처가 필수적입니다.\n\n결론적으로 차세대 AI 에이전트는 검색된 데이터의 정확성과 저장된 기억의 연속성을 통합함으로써 사용자에게 개인화된 고품질 서비스를 제공할 수 있습니다. 기술 개발 시 이 두 레이어를 적절히 조율하는 것이 에이전트의 신뢰도를 결정짓는 핵심 전략이 됩니다.",
+    "url": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-life-sci-bench",
+    "title": "Introducing LifeSciBench",
+    "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+    "aiSummary": "LifeSciBench는 AI 시스템이 실제 생명과학 연구 현장에서 수행하는 과제와 의사결정 능력을 평가하기 위해 개발된 새로운 벤치마크입니다. 해당 벤치마크는 분야별 전문가들이 직접 내용을 작성하고 검토하였으며, AI 모델이 복잡하고 전문적인 생명과학 분야의 문제들을 얼마나 효과적으로 해결하는지 측정하는 데 초점을 맞추고 있습니다.",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/cloud-in-agents-window",
+    "title": "Cloud Environment Setup and Cloud Subagents in Agents Window",
+    "summary": "3.7 Jun 17, 2026 · ChangelogCloud Environment Setup and Cloud Subagents in Agents WindowThis release introduces updates to cloud agents in the Agents Window of the Cursor desktop app.\n#Cloud environme",
+    "aiSummary": "Cursor 데스크톱 앱의 최신 업데이트를 통해 클라우드 환경 설정 및 클라우드 서브 에이전트 기능이 추가되었습니다.\n\n클라우드 환경 설정 기능은 10분 이내에 개발 환경을 클라우드에 구축할 수 있도록 지원합니다. 설정 과정은 공유 터미널 세션을 통해 실시간으로 확인할 수 있으며, 완료된 환경은 재사용 가능한 스냅샷으로 저장되어 향후 에이전트 구동 시간을 단축합니다. 환경 정보는 .cursor/environment.json 파일로 팀 내 공유가 가능합니다.\n\n/in-cloud 명령어를 사용하면 별도의 가상 머신에서 작동하는 클라우드 서브 에이전트를 생성할 수 있습니다. 이를 통해 로컬 워크스페이스에 영향을 주지 않고 복잡한 CI 수정이나 코드 분석 같은 장기 작업을 병렬로 수행할 수 있습니다. 특히 /babysit 기능을 활용하면 로컬 세션을 점유하지 않고도 클라우드 에이전트가 알아서 PR 준비 및 병합 과정을 관리합니다.\n\n로컬과 클라우드 간의 세션 전환도 강화되었습니다. 로컬에서 실행 중이던 무거운 작업을 클라우드로 넘겨 백그라운드에서 처리하게 하거나, 클라우드에서 수행 중인 작업을 로컬로 가져와 변경 사항을 직접 테스트할 수 있습니다. 이를 통해 사용자는 리소스 제약 없이 다수의 클라우드 에이전트를 동시에 운용하며 효율적인 개발 흐름을 유지할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/cloud-in-agents-window",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
+    "title": "Elastic named a Leader in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment",
+    "summary": "Elastic was named a 2026 IDC MarketScape Leader for SIEM. See why we were recognized.",
+    "aiSummary": "Elastic이 2026 IDC MarketScape의 전 세계 SIEM 공급업체 평가에서 리더로 선정되었습니다. 이번 평가는 SIEM 시장에서의 기술력과 전략적 역량을 인정받은 결과입니다. Elastic은 검색 및 분석 플랫폼으로서 보안 운영 효율성을 높이고 위협 탐지 및 대응 능력을 강화한 점을 높게 평가받았습니다.",
+    "url": "https://www.elastic.co/blog/elastic-leader-idc-marketscape-worldwide-siem-2026",
     "category": "데이터베이스",
     "source": "Elastic Blog",
-    "author": "Michael Calizo",
-    "pubDate": "Tue, 25 Jun 2024 00:00:00 GMT",
-    "fetchedAt": "2026-06-17T11:59:21.703Z",
+    "author": "Natalie Blake",
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-17T18:06:33.799Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
+    "title": "Build and Deploy a Remote MCP Server to GKE in 30 Minutes",
+    "summary": "Build and Deploy a Remote MCP Server to GKE in 30 Minutes\nIntegrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address ",
+    "aiSummary": "Anthropic에서 개발한 MCP(Model Context Protocol)는 LLM과 외부 데이터 및 도구를 표준화된 방식으로 연결하기 위한 프로토콜입니다. 기존의 로컬 환경 위주의 실행 방식에서 벗어나 GKE(Google Kubernetes Engine)를 활용하면 원격에서 확장 가능하고 안전한 MCP 서버를 운영할 수 있습니다.\n\nGKE를 통해 MCP 서버를 구축할 경우 얻을 수 있는 주요 이점은 세 가지입니다. 첫째, GKE Autopilot을 통해 트래픽 변화에 따라 서버를 효율적으로 수평 확장할 수 있습니다. 둘째, 중앙 집중식 서버를 운영함으로써 여러 팀과 개발자가 동일한 인프라에 접속하여 리소스 중복을 방지하고 업데이트를 즉시 공유할 수 있습니다. 셋째, Kubernetes Gateway API와 SSL 인증서를 결합하여 외부 접근을 암호화하고 보안을 강화할 수 있습니다.\n\n구축 과정은 Python과 FastMCP 프레임워크를 활용하여 수학 연산 도구를 포함한 서버를 제작하는 것으로 시작합니다. 이때 Streamable HTTP 전송 방식을 사용해야 원격 서버 환경에서 안정적인 연결이 가능합니다. 이후 Docker 이미지를 생성하여 Artifact Registry에 저장하고, GKE 클러스터에 이를 배포합니다.\n\n최종적으로는 Kubernetes Gateway API를 사용하여 정적 IP를 할당하고 Google 관리형 SSL 인증서를 연결함으로써, 도메인을 통한 안전한 원격 접속 환경을 완성합니다. 이 과정을 통해 개발자는 복잡한 로컬 설정 없이도 확장성과 보안성을 갖춘 환경에서 AI 에이전트와 LLM을 연동할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Abdelfettah Sghiouar"
+      ],
+      "title": [
+        "Cloud Developer Advocate"
+      ],
+      "department": [
+        "Google Cloud"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 17 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "title": "Improving token efficiency in GitHub Copilot",
+    "summary": "Learn how we're improving token efficiency in GitHub Copilot to reduce costs and latency for users.\nRead the full article",
+    "aiSummary": "GitHub Copilot은 사용자에게 제공하는 서비스의 비용을 절감하고 응답 속도를 개선하기 위해 토큰 효율성을 향상하는 작업을 진행하고 있습니다. 이번 최적화는 AI 모델이 처리하는 데이터 양을 효율적으로 관리하여 전반적인 성능을 높이는 데 중점을 둡니다. 이를 통해 개발자는 더 빠르고 경제적으로 GitHub Copilot의 기능을 활용할 수 있게 될 전망입니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Ryan Caldwell, Bhavya U",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T14:55:29.192Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -2005,55 +1533,6 @@
     ]
   },
   {
-    "id": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
-    "title": "What’s new with Terraform + Ansible ",
-    "summary": "Last year, we introduced Terraform actions and outlined our vision for deeper integration between Terraform and Ansible. As organizations increasingly rely on hybrid and multi-cloud environments, infr",
-    "aiSummary": "하이브리드 및 멀티 클라우드 환경의 복잡성을 해결하기 위해 Terraform과 Ansible 간의 통합을 강화한 새로운 기능들이 발표되었습니다. 핵심은 인프라의 전체 수명 주기인 프로비저닝, 구성 관리, 운영 업무 전반을 자동화하여 운영 복잡도를 낮추는 것입니다.\n\n먼저 Terraform Ansible collection 2.0이 출시되었습니다. 이 업데이트는 pyTFE를 기반으로 하며 Ansible에서 직접 Terraform 워크플로우를 관리할 수 있는 API 우선 방식을 제공합니다. 이를 통해 기존에 파편화된 스크립트나 불필요한 연동 코드를 제거하고 더 안정적인 통합 환경을 구축할 수 있습니다.\n\n함께 발표된 pyTFE 1.0은 HCP Terraform 및 Terraform Enterprise를 위한 공식 Python SDK로 정식 출시되었습니다. 이제 개발자와 플랫폼 팀은 개별적인 API 클라이언트 없이도 안정적인 SDK를 사용하여 자동화 도구를 개발할 수 있습니다.\n\n인벤토리 관리의 효율성을 높이기 위해 Terraform Ansible collection 2.0에는 실험적인 동적 인벤토리 플러그인인 tfc_inv.py가 포함되었습니다. 이 플러그인은 HCP Terraform의 상태 정보를 직접 참조하여 Ansible 인벤토리를 자동으로 생성하므로, 수동 스크립트 없이도 Terraform과 Ansible 간의 상태 불일치를 해소할 수 있습니다.\n\n운영 효율을 위한 기능도 강화되었습니다. HCP Terraform에는 새로운 Actions 환경이 추가되어 운영 워크플로우를 중앙에서 확인하고 실행하며 이력을 검토할 수 있게 되었습니다. 또한 이러한 Actions 기능이 Terraform Stacks까지 확장되어, 더 높은 수준의 추상화된 인프라 배포 단계에서도 자동화된 워크플로우를 유연하게 적용할 수 있게 되었습니다.\n\n이번 업데이트를 통해 인프라 자동화 도구 간의 상호 운용성이 대폭 향상되었으며, 기업은 인프라의 배포부터 운영까지 전 과정을 더욱 일관되고 신뢰성 있게 관리할 수 있게 됩니다.",
-    "url": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Mitchell Ross",
-    "pubDate": "2026-06-16T16:00:00.000Z",
-    "fetchedAt": "2026-06-17T01:45:40.260Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/deployment-simulation",
-    "title": "Predicting model behavior before release by simulating deployment",
-    "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-    "aiSummary": "OpenAI가 새로운 AI 모델의 배포 전 행동을 예측하기 위한 Deployment Simulation 방식을 도입했습니다. 이 기술은 실제 대화 데이터를 활용하여 모델이 실제 환경에서 어떻게 작동할지 미리 시뮬레이션함으로써 안전성을 강화하고 평가의 정확도를 높이는 것을 목표로 합니다. 결과적으로 모델 출시 전 잠재적인 위험 요소를 사전에 파악하여 더욱 신뢰할 수 있는 AI 서비스를 제공할 수 있을 것으로 기대됩니다.",
-    "url": "https://openai.com/index/deployment-simulation",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-17T01:45:40.260Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://babeljs.io/blog/2026/06/16/8.0.0",
-    "title": "Releasing Babel 8 today: ESM-only, drop ES5 default, and a smooth migration path",
-    "summary": "Today we are releasing Babel 8. It's been 8 years since we released Babel 7. And that's not without reason.\nOver these past 8 years, the JavaScript ecosystem has changed significantly. In addition to ",
-    "aiSummary": "Babel 7 이후 8년 만에 새로운 메이저 버전인 Babel 8이 출시되었습니다. 이번 업데이트는 새로운 기능을 추가하기보다는 Babel의 핵심을 현대화하여 향후 8년을 대비하는 것에 중점을 두고 있습니다.\n\n가장 큰 변화는 ESM-only로의 전환입니다. Babel 8은 모든 패키지에 대해 TypeScript 타입을 기본으로 제공하며, 더 이상 기본적으로 ES5나 CommonJS로 컴파일하지 않습니다. 이는 최신 브라우저 환경에 맞게 컴파일 과정을 최적화하여 번들 크기를 줄이고, Node.js의 발전에 발맞추기 위한 결정입니다.\n\n이번 릴리스는 하위 호환성을 고려하여 점진적인 개선을 추구했으며, 이전 메이저 버전 업데이트보다 훨씬 간소화된 마이그레이션 경로를 제공합니다. 한편, Babel 핵심 팀은 프로젝트를 지속하기 위한 기부와 후원이 최근 몇 년간 감소하고 있다는 점을 언급하며, 생태계 발전을 위한 기업 및 사용자들의 지속적인 관심과 지원을 요청했습니다.",
-    "url": "https://babeljs.io/blog/2026/06/16/8.0.0",
-    "category": "프론트엔드",
-    "source": "Babel Blog",
-    "author": "Babel Team",
-    "pubDate": "2026-06-16T00:00:00.000Z",
-    "fetchedAt": "2026-06-17T01:45:40.260Z",
-    "tags": [
-      "Babel",
-      "Build"
-    ]
-  },
-  {
     "id": "https://www.docker.com/?p=91250",
     "title": "Docker Content Trust: Retirement and Migration Guidance",
     "summary": "TLDR: Docker Content Trust (DCT) and the Notary v1 service at notary.docker.io are being fully retired (first announced in July of 2025). This blog explains what is changing, who is affected, and how ",
@@ -2067,6 +1546,39 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+    "title": "June Pixel Drop: New features for creators, Gemini upgrades and more",
+    "summary": "Get new screen recording feature, text-to-video tools with Gemini Omni, and better multitasking on your Pixel devices.",
+    "aiSummary": "June Pixel Drop 업데이트를 통해 Pixel 기기 사용자들을 위한 새로운 창작자 기능과 Gemini 업그레이드가 제공됩니다. 이번 업데이트에는 새로운 화면 녹화 기능과 Gemini Omni를 기반으로 한 텍스트-비디오 변환 도구가 추가되었으며, 더욱 향상된 멀티태스킹 기능을 경험할 수 있습니다.",
+    "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mayra Fajardo"
+      ],
+      "title": [
+        "Product Marketing Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 16 Jun 2026 18:00:00 +0000",
+    "fetchedAt": "2026-06-19T15:49:15.282Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -2131,6 +1643,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+    "title": "What’s new with Terraform + Ansible ",
+    "summary": "Last year, we introduced Terraform actions and outlined our vision for deeper integration between Terraform and Ansible. As organizations increasingly rely on hybrid and multi-cloud environments, infr",
+    "aiSummary": "하이브리드 및 멀티 클라우드 환경의 복잡성을 해결하기 위해 Terraform과 Ansible 간의 통합을 강화한 새로운 기능들이 발표되었습니다. 핵심은 인프라의 전체 수명 주기인 프로비저닝, 구성 관리, 운영 업무 전반을 자동화하여 운영 복잡도를 낮추는 것입니다.\n\n먼저 Terraform Ansible collection 2.0이 출시되었습니다. 이 업데이트는 pyTFE를 기반으로 하며 Ansible에서 직접 Terraform 워크플로우를 관리할 수 있는 API 우선 방식을 제공합니다. 이를 통해 기존에 파편화된 스크립트나 불필요한 연동 코드를 제거하고 더 안정적인 통합 환경을 구축할 수 있습니다.\n\n함께 발표된 pyTFE 1.0은 HCP Terraform 및 Terraform Enterprise를 위한 공식 Python SDK로 정식 출시되었습니다. 이제 개발자와 플랫폼 팀은 개별적인 API 클라이언트 없이도 안정적인 SDK를 사용하여 자동화 도구를 개발할 수 있습니다.\n\n인벤토리 관리의 효율성을 높이기 위해 Terraform Ansible collection 2.0에는 실험적인 동적 인벤토리 플러그인인 tfc_inv.py가 포함되었습니다. 이 플러그인은 HCP Terraform의 상태 정보를 직접 참조하여 Ansible 인벤토리를 자동으로 생성하므로, 수동 스크립트 없이도 Terraform과 Ansible 간의 상태 불일치를 해소할 수 있습니다.\n\n운영 효율을 위한 기능도 강화되었습니다. HCP Terraform에는 새로운 Actions 환경이 추가되어 운영 워크플로우를 중앙에서 확인하고 실행하며 이력을 검토할 수 있게 되었습니다. 또한 이러한 Actions 기능이 Terraform Stacks까지 확장되어, 더 높은 수준의 추상화된 인프라 배포 단계에서도 자동화된 워크플로우를 유연하게 적용할 수 있게 되었습니다.\n\n이번 업데이트를 통해 인프라 자동화 도구 간의 상호 운용성이 대폭 향상되었으며, 기업은 인프라의 배포부터 운영까지 전 과정을 더욱 일관되고 신뢰성 있게 관리할 수 있게 됩니다.",
+    "url": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-06-16T16:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -2230,6 +1758,23 @@
     ]
   },
   {
+    "id": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "title": "Securing the future of AI agents",
+    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "aiSummary": "AI 에이전트의 미래를 안전하게 보호하기 위해 전통적인 보안 조치와 실시간 모니터링을 결합한 AI Control Roadmap을 도입해야 합니다.\n\n해당 로드맵은 기업 내부 시스템에 AI 에이전트를 통합하는 과정에서 발생할 수 있는 잠재적 위험을 체계적으로 방어하는 데 중점을 둡니다. 기존의 보안 체계에 실시간 탐지 및 대응 기술을 접목함으로써 AI 에이전트의 운영 안정성을 높이고 보안 사고를 예방하는 것이 핵심입니다.",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 16 Jun 2026 15:46:31 +0000",
+    "fetchedAt": "2026-06-18T18:13:20.670Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/ai-machine-learning/how-siemens-sliced-the-elephant-modernizing-legacy-code-with-agentic-workflows/",
     "title": "How Siemens \"slices the elephant,\" advancing agentic workflows for industrial software development",
     "summary": "For technology companies like Siemens, software is the nervous system of factories, energy grids, and transportation networks worldwide.\nAs a global leader in industrial AI, industrial software, and i",
@@ -2262,6 +1807,38 @@
     ]
   },
   {
+    "id": "https://www.percona.com/?p=49241",
+    "title": "Extending pt-archiver with a Partition-Aware Plug-in for Fast Retention Policy Enforcement",
+    "summary": "Managing data retention policies is one of the most common operational tasks in MySQL. Applications continuously generate transactional, audit, logging, telemetry, and event data. Over time, these tab",
+    "aiSummary": "MySQL 환경에서 데이터 보존 정책을 관리하는 작업은 운영 효율성과 직결되는 중요한 과제입니다. 시간이 지남에 따라 데이터가 방대해지면 백업 시간 증가, 복구 지연, 버퍼 풀 효율 저하, 스토리지 비용 상승 등 다양한 성능 문제가 발생합니다.\n\n이를 해결하기 위해 Percona는 pt-archiver 도구에 Partition-Aware 플러그인을 도입하여 데이터 보존 정책 실행 속도를 향상하는 방안을 제시합니다. 이 접근 방식은 파티셔닝된 테이블의 특성을 활용하여 데이터를 효율적으로 아카이빙하거나 삭제함으로써, 대규모 데이터셋 운영 시 발생하는 오버헤드를 최소화하고 시스템의 전반적인 성능을 유지하는 데 도움을 줍니다.",
+    "url": "https://www.percona.com/blog/extending-pt-archiver-with-a-partition-aware-plug-in-for-fast-retention-policy-enforcement/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Corrado Pandiani",
+    "pubDate": "Tue, 16 Jun 2026 11:31:51 +0000",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "1e4fc761b5a706e81f4b43e635181511d9ca0099",
+    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS en",
+    "aiSummary": "AWS는 Amazon Bedrock AgentCore에 실시간 웹 검색 기능을 새롭게 도입합니다. 이 기능은 완전 관리형 도구로 제공되어 사용자가 인프라를 직접 관리하거나 웹 검색 기능을 수동으로 추가할 필요 없이 AI 에이전트가 최신의 정확한 웹 정보를 바탕으로 답변을 생성할 수 있도록 지원합니다.\n\n특히 고객의 보안이 유지되는 AWS 환경 내에서 데이터 외부 유출 없이 안전하게 웹 기반의 근거 자료를 확보할 수 있다는 점이 핵심입니다. 이를 통해 개발자는 복잡한 검색 인프라 구축 부담을 덜고 더욱 효율적으로 고도화된 AI 에이전트를 개발하는 데 집중할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "Tue, 16 Jun 2026 07:56:11 +0000",
+    "fetchedAt": "2026-06-17T15:23:48.005Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/filament-storage-monitor-track-disk-usage-from-your-filament-dashboard",
     "title": "Filament Storage Monitor: Track Disk Usage From Your Filament Dashboard",
     "summary": "Filament Storage Monitor is a plugin that adds a dashboard widget for monitoring server disk usage across multiple partitions, with custom labels, health-based coloring, and per-disk authorization.\nTh",
@@ -2275,6 +1852,39 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/deployment-simulation",
+    "title": "Predicting model behavior before release by simulating deployment",
+    "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "aiSummary": "OpenAI가 새로운 AI 모델의 배포 전 행동을 예측하기 위한 Deployment Simulation 방식을 도입했습니다. 이 기술은 실제 대화 데이터를 활용하여 모델이 실제 환경에서 어떻게 작동할지 미리 시뮬레이션함으로써 안전성을 강화하고 평가의 정확도를 높이는 것을 목표로 합니다. 결과적으로 모델 출시 전 잠재적인 위험 요소를 사전에 파악하여 더욱 신뢰할 수 있는 AI 서비스를 제공할 수 있을 것으로 기대됩니다.",
+    "url": "https://openai.com/index/deployment-simulation",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://babeljs.io/blog/2026/06/16/8.0.0",
+    "title": "Releasing Babel 8 today: ESM-only, drop ES5 default, and a smooth migration path",
+    "summary": "Today we are releasing Babel 8. It's been 8 years since we released Babel 7. And that's not without reason.\nOver these past 8 years, the JavaScript ecosystem has changed significantly. In addition to ",
+    "aiSummary": "Babel 7 이후 8년 만에 새로운 메이저 버전인 Babel 8이 출시되었습니다. 이번 업데이트는 새로운 기능을 추가하기보다는 Babel의 핵심을 현대화하여 향후 8년을 대비하는 것에 중점을 두고 있습니다.\n\n가장 큰 변화는 ESM-only로의 전환입니다. Babel 8은 모든 패키지에 대해 TypeScript 타입을 기본으로 제공하며, 더 이상 기본적으로 ES5나 CommonJS로 컴파일하지 않습니다. 이는 최신 브라우저 환경에 맞게 컴파일 과정을 최적화하여 번들 크기를 줄이고, Node.js의 발전에 발맞추기 위한 결정입니다.\n\n이번 릴리스는 하위 호환성을 고려하여 점진적인 개선을 추구했으며, 이전 메이저 버전 업데이트보다 훨씬 간소화된 마이그레이션 경로를 제공합니다. 한편, Babel 핵심 팀은 프로젝트를 지속하기 위한 기부와 후원이 최근 몇 년간 감소하고 있다는 점을 언급하며, 생태계 발전을 위한 기업 및 사용자들의 지속적인 관심과 지원을 요청했습니다.",
+    "url": "https://babeljs.io/blog/2026/06/16/8.0.0",
+    "category": "프론트엔드",
+    "source": "Babel Blog",
+    "author": "Babel Team",
+    "pubDate": "2026-06-16T00:00:00.000Z",
+    "fetchedAt": "2026-06-17T01:45:40.260Z",
+    "tags": [
+      "Babel",
+      "Build"
     ]
   },
   {
@@ -2342,54 +1952,6 @@
     ]
   },
   {
-    "id": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications",
-    "title": "LaraOwl: Self-Hosted Monitoring for Laravel Applications",
-    "summary": "LaraOwl is an open-source, self-hosted observability platform for Laravel that tracks requests, exceptions, queries, and jobs, with a client package that ships telemetry to a server you run yourself.\n",
-    "aiSummary": "LaraOwl은 Laravel 애플리케이션을 위한 오픈소스이자 자체 호스팅이 가능한 관측성 플랫폼입니다.\n\n이 도구는 클라이언트 패키지를 통해 Laravel 애플리케이션 내의 요청, 예외 사항, 데이터베이스 쿼리 및 작업 내역을 추적합니다.\n\n사용자는 제공되는 클라이언트 패키지를 활용하여 직접 운영하는 서버로 원격 측정 데이터를 전송하고 이를 모니터링할 수 있습니다.",
-    "url": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "Mon, 15 Jun 2026 03:53:03 +0000",
-    "fetchedAt": "2026-06-16T18:59:30.600Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/observability-profiling-metrics-logs-traces",
-    "title": "Why metrics, logs, and traces aren’t enough",
-    "summary": "The increasing complexity of cloud-native environments has led to a growing need for unified observability solutions. And metrics, logs, and traces are not enough. Learn why continuous profiling signa",
-    "aiSummary": "클라우드 네이티브 환경이 고도화됨에 따라 기존의 관측 가능성 도구만으로는 복잡한 시스템의 문제를 해결하는 데 한계가 발생하고 있습니다.\n\n일반적으로 사용되는 metrics, logs, traces 세 가지 요소만으로는 시스템의 상태를 완벽하게 파악하기 어렵기 때문에 새로운 접근 방식이 요구됩니다.\n\n이러한 문제를 해결하기 위해 continuous profiling 신호를 기존 관측 가능성 도구에 필수적으로 도입해야 합니다.\n\n시스템의 성능과 효율성을 극대화하기 위해서는 기존 지표를 넘어선 심층적인 프로파일링 데이터의 확보가 무엇보다 중요합니다.",
-    "url": "https://www.elastic.co/blog/observability-profiling-metrics-logs-traces",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Israel Ogbole,Thomas Dullien,Sean Heelan",
-    "pubDate": "Wed, 18 Jan 2023 23:00:00 GMT",
-    "fetchedAt": "2026-06-16T18:59:30.600Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=49241",
-    "title": "Extending pt-archiver with a Partition-Aware Plug-in for Fast Retention Policy Enforcement",
-    "summary": "Managing data retention policies is one of the most common operational tasks in MySQL. Applications continuously generate transactional, audit, logging, telemetry, and event data. Over time, these tab",
-    "aiSummary": "MySQL 환경에서 데이터 보존 정책을 관리하는 작업은 운영 효율성과 직결되는 중요한 과제입니다. 시간이 지남에 따라 데이터가 방대해지면 백업 시간 증가, 복구 지연, 버퍼 풀 효율 저하, 스토리지 비용 상승 등 다양한 성능 문제가 발생합니다.\n\n이를 해결하기 위해 Percona는 pt-archiver 도구에 Partition-Aware 플러그인을 도입하여 데이터 보존 정책 실행 속도를 향상하는 방안을 제시합니다. 이 접근 방식은 파티셔닝된 테이블의 특성을 활용하여 데이터를 효율적으로 아카이빙하거나 삭제함으로써, 대규모 데이터셋 운영 시 발생하는 오버헤드를 최소화하고 시스템의 전반적인 성능을 유지하는 데 도움을 줍니다.",
-    "url": "https://www.percona.com/blog/extending-pt-archiver-with-a-partition-aware-plug-in-for-fast-retention-policy-enforcement/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Corrado Pandiani",
-    "pubDate": "Tue, 16 Jun 2026 11:31:51 +0000",
-    "fetchedAt": "2026-06-16T12:24:45.938Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
     "id": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
     "title": "This Week in Spring - June 16th, 2026",
     "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring! I'm writing this from the oh-so-delightful (and delicious!) city of New Delhi, India. It's been a real privilege to come and visi",
@@ -2402,21 +1964,6 @@
     "fetchedAt": "2026-06-16T12:24:45.938Z",
     "tags": [
       "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
-    "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
-    "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
-    "aiSummary": "과거 6년 전 진행했던 Java와 Go 마이크로서비스의 성능 비교 연구가 2026년 기준의 현대적인 런타임과 하드웨어를 바탕으로 다시 수행되었습니다. 이번 연구는 단순히 특정 언어의 우위를 가리는 것이 아니라 페이로드 크기와 동시성이 증가하는 환경에서 각 언어가 어떤 성능을 보이는지 심층적으로 분석하였습니다. 모든 벤치마크 코드와 상세 결과 데이터는 관련 저장소를 통해 공개되어 있으며, 정교하게 구현된 Java와 Go HTTP 서비스가 현대적인 환경에서 어느 정도의 성능 격차를 나타내는지 확인하는 데 초점을 맞추고 있습니다.",
-    "url": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Mark Nelson",
-    "pubDate": "2026-06-15T00:00:00.000Z",
-    "fetchedAt": "2026-06-16T12:24:45.938Z",
-    "tags": [
       "Java"
     ]
   },
@@ -2628,6 +2175,171 @@
     ]
   },
   {
+    "id": "https://bun.sh/blog/bun-v1.3.10",
+    "title": "Bun v1.3.10",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.10",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.289Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.11",
+    "title": "Bun v1.3.11",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.11",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:23.078Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.12",
+    "title": "Bun v1.3.12",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.12 버전이 출시되었습니다. 해당 업데이트에는 기존 Bun 환경의 설치 및 관리를 지원하는 명령어들이 포함되어 있습니다.\n\nmacOS와 Linux 환경에서는 curl 또는 npm을 사용하여 Bun을 설치할 수 있습니다. Windows 사용자의 경우 PowerShell이나 scoop을 통해 간편하게 설치가 가능하며 Homebrew를 이용한 설치 방식도 지원합니다. Docker를 활용한 환경 구성 또한 가능하도록 다양한 설치 경로를 제공합니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.12",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.869Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.13",
+    "title": "Bun v1.3.13",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.13 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용하면 됩니다. macOS나 Linux 환경에서는 curl 또는 brew를 이용할 수 있으며 npm이나 docker를 통한 설치도 지원합니다. Windows 사용자는 PowerShell이나 scoop 명령어를 통해 Bun을 설치할 수 있습니다. 각 환경별로 최적화된 설치 방법을 제공하여 사용자의 접근성을 높였습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.13",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.668Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.3.14",
+    "title": "Bun v1.3.14",
+    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
+    "aiSummary": "Bun v1.3.14 버전이 출시되었습니다. 해당 업데이트는 기존 사용자가 최신 환경으로 전환하거나 신규 사용자가 Bun을 설치할 수 있도록 다양한 운영체제 및 패키지 관리자를 위한 설치 명령어를 제공합니다. macOS와 Linux 환경에서는 curl 및 npm을 통해 설치가 가능하며 Windows 사용자를 위한 PowerShell 명령어와 scoop 명령어도 지원합니다. 또한 Docker 환경에서의 설치 방법도 함께 명시되어 있습니다.",
+    "url": "https://bun.sh/blog/bun-v1.3.14",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-06-15T15:17:22.371Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+    "summary": "Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North Americ",
+    "aiSummary": "Google Threat Intelligence Group은 중국 연계 해킹 그룹인 UNC6508이 북미 지역의 의료 및 학계 기관을 대상으로 정교한 사이버 공격을 감행하고 있다고 밝혔습니다.\n\n해당 공격자들은 인공지능, 사이버 보안, 의료, 국방 분야의 핵심 연구 데이터 탈취를 목적으로 활동하고 있습니다. UNC6508은 주로 합법적인 소프트웨어 도구를 악용하는 Living off the Land 기법을 사용하여 보안 탐지를 회피하며, 공격 대상 네트워크에 대한 지속적인 접근 권한을 확보하는 데 집중하고 있습니다.\n\n이들은 취약점을 이용해 초기 침투를 수행한 뒤, 정보를 수집하고 측면 이동을 통해 민감한 연구 자료에 접근하는 치밀한 전략을 구사합니다. 이번 활동은 중국의 전략적 기술 경쟁력 확보와 관련이 있는 것으로 분석되며, 관련 분야의 기관들은 보안 강화와 이상 징후에 대한 모니터링을 강화할 필요가 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 15 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/subscriptionify",
+    "title": "Subscriptionify: Feature-Based Subscription Management for Laravel",
+    "summary": "Subscriptionify is a gateway-agnostic Laravel package for modeling plans, features, usage quotas, and optional overage billing without tying your application to a specific payment provider.\nThe post S",
+    "aiSummary": "Subscriptionify는 특정 결제 서비스에 종속되지 않고 유연하게 구독 모델을 관리할 수 있도록 설계된 Laravel 패키지입니다. 이 도구는 플랜 구성, 개별 기능 설정, 사용량 할당량 정의를 지원하며 필요에 따라 초과 사용량에 대한 과금 기능도 제공합니다. 결제 게이트웨이와 독립적인 구조를 갖추고 있어 개발자가 원하는 결제 시스템을 자유롭게 연동하여 애플리케이션의 구독 로직을 구현할 수 있습니다.",
+    "url": "https://laravel-news.com/subscriptionify?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 15 Jun 2026 12:03:18 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "d4a483b5504b40c977cc5d689275cac967902536",
+    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog p",
+    "aiSummary": "뉴욕에서 개최된 AWS Summit을 통해 다양한 신규 서비스와 기술 업데이트가 발표되었습니다. \n\n가장 눈에 띄는 변화는 AWS FinOps Agent의 프리뷰 공개입니다. 이 도구는 클라우드 비용을 보다 세밀하게 추적하고 최적화할 수 있도록 지원하며 기업의 클라우드 운영 효율을 높여줄 것으로 기대됩니다. \n\nAI 분야에서는 Google의 최신 모델인 Gemma 4가 Amazon Bedrock에 공식적으로 추가되었습니다. 이를 통해 사용자는 Bedrock 환경 내에서 보다 강력한 성능의 오픈 모델을 간편하게 활용할 수 있게 되었습니다. \n\n이외에도 Kiro Pro Max를 포함한 신규 서비스 및 기술 업데이트가 함께 소개되었으며 상세한 내용은 AWS 공식 블로그를 통해 확인할 수 있습니다. 이번 업데이트는 AWS 생태계 내에서의 개발 편의성과 인프라 관리 효율을 극대화하는 데 중점을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "Mon, 15 Jun 2026 11:41:48 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.137.1",
+    "title": "0.137.1",
+    "summary": "Fixes\n🚨 Fix typing checks for APIRoute. PR #15765 by @tiangolo.\n🐛 Fix bug, allow empty path in path operation in prefixless router. PR #15763 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.137.1 업데이트를 통해 두 가지 버그가 수정되었습니다.\n\n먼저 APIRoute와 관련된 타입 체크 오류를 수정하여 안정성을 개선했습니다.\n\n또한 접두사가 없는 라우터의 경로 작업에서 빈 경로를 허용하지 않던 버그를 해결했습니다. 이번 업데이트는 모두 @tiangolo에 의해 진행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-15T11:27:57.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
     "title": "How I learned Go in a Day with Antigravity 2.0 and How You Can Do the Same",
     "summary": "I have been exploring how to reclaim my software stack from NPM dependency overhead and replace my resource-intensive Node.js runtime with a compiled, single-binary Go CLI. The result of my efforts is",
@@ -2660,53 +2372,228 @@
     ]
   },
   {
-    "id": "https://www.elastic.co/blog/financial-services-ai-data-platform-strategy",
-    "title": "The data platform bet: Why financial AI initiatives stall and how the winners scale",
-    "summary": "Discover why 40% of financial AI initiatives fail, and learn how a unified data platform enables secure, real-time AI scaling in regulated environments.",
-    "aiSummary": "금융 분야에서 추진되는 AI 프로젝트의 40퍼센트가 실패하는 주된 원인은 데이터 관리의 복잡성과 파편화에 있습니다. 규제가 엄격한 금융 환경에서는 데이터의 보안성과 실시간성을 동시에 확보하는 것이 무엇보다 중요합니다.\n\n성공적인 AI 도입을 위해서는 데이터 사일로를 제거하고 데이터를 중앙 집중화하여 관리할 수 있는 통합 데이터 플랫폼을 구축해야 합니다. 이를 통해 데이터의 일관성을 유지하고 거버넌스를 준수하면서도, 안전하고 확장 가능한 실시간 AI 서비스를 구현할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/financial-services-ai-data-platform-strategy",
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.27",
+    "title": "v11.1.27",
+    "summary": "What's Changed\nfix(core): sse async handlers teardown issue by @kamilmysliwiec in #17131\nfix(platform-fastify): forRoutes middleware ending slash  by @kamilmysliwiec in #17138\nFull Changelog: v11.1.26",
+    "aiSummary": "NestJS v11.1.27 버전에서는 두 가지 주요 수정 사항이 포함되었습니다.\n\ncore 패키지에서는 sse async 핸들러의 종료 처리와 관련된 문제를 해결하였습니다.\n\nplatform-fastify 패키지에서는 forRoutes 미들웨어 사용 시 발생하는 경로 끝 슬래시 처리 오류를 수정하였습니다.\n\n자세한 변경 사항은 이전 버전인 v11.1.26과의 전체 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.27",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-06-15T09:17:02.000Z",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "title": "Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia) -- Herb Sutter",
+    "summary": "Hot off the press from the latest ISO C++ meeting:\nTrip report: June 2026 ISO C++ standards meeting (Brno, Czechia)\ntl;dr… A few highlights\nAdopted this week in draft C++29: Complete catalog of all un",
+    "aiSummary": "2026년 6월 체코 브르노에서 개최된 ISO C++ 위원회 회의 결과가 발표되었습니다. 이번 회의를 통해 C++29 표준 초안에 다수의 새로운 기능이 공식적으로 채택되었습니다.\n\n주요 성과로는 언어의 일관성과 생산성을 높이기 위한 다양한 개선 사항들이 포함되었습니다. 특히 개발자들이 오랫동안 요구해 온 기능들이 표준안에 반영되면서 C++의 현대화 작업이 한층 더 속도를 내게 되었습니다.\n\n이번 업데이트는 개발자 경험을 향상시키고 코드의 안전성을 강화하는 데 초점을 맞추고 있습니다. 향후 발표될 상세 기술 문서와 변경 사항들에 대해 전 세계 C++ 커뮤니티의 관심이 집중되고 있습니다.",
+    "url": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
+    "category": "프로그래밍 언어",
+    "source": "ISO C++",
+    "author": "Blog Staff",
+    "pubDate": "Mon, 15 Jun 2026 08:09:37 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "C++"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=49833",
+    "title": "Group Replication VS Percona XtraDB Cluster: The True Cost of Consistency",
+    "summary": "Overview When building high-availability MySQL environments, the choice between MySQL Group Replication (GR) and Percona XtraDB Cluster (PXC) often comes down to how they handle the eternal database d",
+    "aiSummary": "MySQL 고가용성 환경을 구축할 때 선택하게 되는 MySQL Group Replication과 Percona XtraDB Cluster는 데이터 일관성 처리 방식에서 근본적인 차이를 보입니다.\n\nMySQL Group Replication은 MySQL 내장 솔루션으로 통합성이 뛰어나며 트랜잭션의 순서와 충돌 해결을 관리하는 분산 합의 알고리즘인 Paxos를 기반으로 합니다. 이 방식은 읽기 및 쓰기 확장성을 제공하지만 쓰기 지연 시간이 네트워크 상태에 민감하게 반응한다는 특징이 있습니다.\n\n반면 Percona XtraDB Cluster는 Galera 라이브러리를 기반으로 하며 동기식 복제를 엄격하게 준수합니다. 노드 간의 트랜잭션 인증을 통해 데이터의 완전성을 강력하게 보장하지만 클러스터 내 모든 노드가 동일한 처리 능력을 갖추어야 하며 네트워크 지연에 따른 성능 저하가 발생할 수 있습니다.\n\n두 솔루션은 각기 다른 목적에 부합하는 장단점을 가지고 있습니다. MySQL Group Replication은 오피셜 환경에서의 유연한 관리와 클라우드 네이티브 환경에 적합하며 Percona XtraDB Cluster는 데이터 일관성이 최우선인 엄격한 금융 및 엔터프라이즈 데이터베이스 운영 환경에 더욱 최적화되어 있습니다. 따라서 운영자는 시스템의 가용성 요구사항과 인프라 네트워크 환경을 고려하여 적절한 기술 스택을 선택해야 합니다.",
+    "url": "https://www.percona.com/blog/group-replication-vs-percona-xtradb-cluster-the-true-cost-of-consistency/",
     "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Tim Brophy",
-    "pubDate": "Thu, 21 May 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:58:17 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
-      "ElasticSearch",
-      "NoSQL"
+      "MySQL",
+      "Database"
     ]
   },
   {
-    "id": "https://bun.sh/blog/bun-v1.3.10",
-    "title": "Bun v1.3.10",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.10",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:23.289Z",
+    "id": "https://www.percona.com/?p=49852",
+    "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
+    "summary": "It is time to talk again about Flow control and group replication. This time with a special eye on the use of Group Replication in the Kubernetes context. In this article we will dig a bit on how it w",
+    "aiSummary": "MySQL Group Replication의 핵심 기제인 Flow Control이 Kubernetes 환경에서 고가용성을 유지하는 데 어떤 제약이 있는지 분석합니다. 특히 특정 노드 장애 시 발생하는 Failover 과정에서 시스템의 처리량이 급격히 저하되는 Brownout 현상의 원인을 규명합니다.\n\n단순히 노드를 복구하는 것을 넘어 네트워크 지연과 리소스 경합이 클러스터 전체의 성능에 미치는 영향을 설명합니다. Kubernetes 내에서 Group Replication을 운영할 때 발생하는 트래픽 제어 문제를 해결하기 위한 설정 최적화와 아키텍처 개선 방안을 제시합니다.\n\n기존의 고가용성 전략이 가진 한계를 지적하며 시스템 안정성을 보장하기 위한 새로운 접근법을 모색합니다. 효율적인 클러스터 운영을 위해 Flow Control 메커니즘을 보다 정밀하게 조정하고 예측 가능한 장애 대응 시스템을 구축하는 것이 필요합니다.",
+    "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "Mon, 15 Jun 2026 06:57:24 +0000",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
+      "MySQL",
+      "Database"
     ]
   },
   {
-    "id": "https://bun.sh/blog/bun-v1.3.11",
-    "title": "Bun v1.3.11",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.11",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:23.078Z",
+    "id": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications",
+    "title": "LaraOwl: Self-Hosted Monitoring for Laravel Applications",
+    "summary": "LaraOwl is an open-source, self-hosted observability platform for Laravel that tracks requests, exceptions, queries, and jobs, with a client package that ships telemetry to a server you run yourself.\n",
+    "aiSummary": "LaraOwl은 Laravel 애플리케이션을 위한 오픈소스이자 자체 호스팅이 가능한 관측성 플랫폼입니다.\n\n이 도구는 클라이언트 패키지를 통해 Laravel 애플리케이션 내의 요청, 예외 사항, 데이터베이스 쿼리 및 작업 내역을 추적합니다.\n\n사용자는 제공되는 클라이언트 패키지를 활용하여 직접 운영하는 서버로 원격 측정 데이터를 전송하고 이를 모니터링할 수 있습니다.",
+    "url": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 15 Jun 2026 03:53:03 +0000",
+    "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+    "title": "Your agent hit the context limit. Here's the playbook",
+    "summary": "Your agent was humming along, then it stopped mid-task and declared the job done when it wasn't. One common cause is the AI context limit, a hard ceiling on how many tokens a model can hold in its wor",
+    "aiSummary": "AI 에이전트가 작업 도중 갑작스럽게 중단되거나 불완전하게 임무를 마치는 주된 원인은 모델의 컨텍스트 제한 때문입니다. 컨텍스트 제한은 AI가 작업 메모리에 한 번에 처리할 수 있는 토큰의 양을 물리적으로 제한하는 임계점입니다.\n\n이러한 문제를 해결하기 위해 가장 먼저 필요한 것은 현재 사용 중인 모델의 토큰 제한치를 정확히 파악하고 작업의 규모를 그 범위 내로 조절하는 것입니다. 만약 긴 작업이 필요하다면 문서를 요약하거나 불필요한 정보를 제거하여 입력 데이터의 크기를 줄이는 전략이 필요합니다.\n\n기술적으로는 컨텍스트를 효율적으로 관리하기 위한 RAG 기법이나 긴 문맥을 지원하는 롱 컨텍스트 모델로의 전환을 고려할 수 있습니다. 또한 작업을 단계별로 나누어 처리하는 멀티 에이전트 방식이나 중간 결과물을 별도의 스토리지에 저장하여 필요한 시점에 다시 불러오는 메모리 최적화 전략을 도입하는 것이 효과적입니다.\n\n단순히 모델을 업그레이드하는 것 외에도 프롬프트를 최적화하여 불필요한 시스템 메시지나 과거 대화 기록을 정리함으로써 가용 토큰을 확보하는 세심한 관리가 필수적입니다. 이러한 체계적인 접근은 에이전트가 중도에 멈추지 않고 더 복잡하고 긴 작업을 안정적으로 수행할 수 있도록 돕습니다.",
+    "url": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
+    "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
+    "aiSummary": "과거 6년 전 진행했던 Java와 Go 마이크로서비스의 성능 비교 연구가 2026년 기준의 현대적인 런타임과 하드웨어를 바탕으로 다시 수행되었습니다. 이번 연구는 단순히 특정 언어의 우위를 가리는 것이 아니라 페이로드 크기와 동시성이 증가하는 환경에서 각 언어가 어떤 성능을 보이는지 심층적으로 분석하였습니다. 모든 벤치마크 코드와 상세 결과 데이터는 관련 저장소를 통해 공개되어 있으며, 정교하게 구현된 Java와 Go HTTP 서비스가 현대적인 환경에서 어느 정도의 성능 격차를 나타내는지 확인하는 데 초점을 맞추고 있습니다.",
+    "url": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mark Nelson",
+    "pubDate": "2026-06-15T00:00:00.000Z",
+    "fetchedAt": "2026-06-16T12:24:45.938Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
+    "summary": "Tool calling — the ability for an AI model to invoke application-defined functions and act on the results — is the essential building block of agentic AI systems.\n\nA model that can discover informatio",
+    "aiSummary": "Spring AI 2.0은 AI 모델이 애플리케이션 내 정의된 함수를 호출하고 그 결과를 처리하는 Tool calling 기능을 강화하여 에이전트형 AI 시스템 구축을 지원합니다.\n\n이번 업데이트의 핵심은 구성 가능하고 유연한 에이전트 아키텍처를 제공하는 데 있습니다. 이를 통해 개발자는 모델이 필요한 정보를 스스로 탐색하고 외부 작업을 수행하도록 유도할 수 있으며, 복잡한 비즈니스 로직을 AI 워크플로우에 원활하게 통합할 수 있습니다.\n\nSpring AI는 다양한 LLM과의 상호작용을 표준화하여 Tool calling 구현 과정을 단순화합니다. 개발자는 복잡한 구현 세부 사항에 얽매이지 않고도 일관된 방식으로 모델이 외부 도구를 식별하고 활용하게 함으로써 더욱 자율적이고 지능적인 애플리케이션을 개발할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
     "fetchedAt": "2026-06-15T15:17:21.408Z",
     "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "title": "Spring Tools 5.2.0 released",
+    "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.2.0 release of the Spring Tools\nfor Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code.\nHightlights\n\nCl",
+    "aiSummary": "Spring Tools 5.2.0 버전이 정식으로 출시되었습니다. 이번 업데이트는 Visual Studio Code를 비롯하여 Cursor, Eclipse, Theia, 그리고 Claude Code 환경을 모두 지원합니다. 개발팀과 기여자의 협업을 통해 이루어진 이번 릴리스는 다양한 통합 개발 환경에서의 Spring 기반 애플리케이션 개발 효율성을 높이는 데 초점을 맞추고 있습니다. 구체적인 세부 사항과 개선점은 추후 공개될 상세 업데이트 내역을 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "martinlippert",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "title": "Spotlight on SIG Storage",
+    "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project\nmoving forward. This time, we catch up with SIG\nStorage, the group responsible\nfor persistent data,",
+    "aiSummary": "Kubernetes 프로젝트를 지속적으로 발전시키는 그룹을 소개하는 SIG Spotlight 시리즈의 일환으로 SIG Storage를 조명합니다. SIG Storage는 Kubernetes 환경에서 영속적인 데이터를 관리하고 처리하는 핵심적인 역할을 담당하는 그룹입니다. 이들은 클러스터 내 데이터의 안정성과 가용성을 보장하기 위해 필요한 다양한 저장소 기술 표준을 정의하고 관련 기능을 개발하는 데 집중하고 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Mon, 15 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-openai-partner-network",
+    "title": "Introducing the OpenAI Partner Network",
+    "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+    "aiSummary": "OpenAI가 글로벌 파트너들의 기업용 AI 도입과 배포 및 기술 전환을 가속화하기 위해 OpenAI Partner Network를 출범하고 1억 5천만 달러를 투자합니다. 이번 프로그램을 통해 파트너사들은 보다 효율적인 AI 통합 환경을 구축하고 비즈니스 혁신을 도모할 수 있을 것으로 전망됩니다.",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Sun, 14 Jun 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-15T15:17:21.408Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.137.0",
+    "title": "0.137.0",
+    "summary": "Breaking Changes\n♻️ Refactor internals to preserve APIRouter and APIRoute instances. PR #15745 by @tiangolo.\nUnblocks ✨ SO MANY THINGS ✨\nBefore this, router.include_router(other_router) would take eac",
+    "aiSummary": "FastAPI 버전 0.137.0 업데이트를 통해 APIRouter와 APIRoute 인스턴스를 보존하도록 내부 구조를 대대적으로 개선했습니다.\n\n이번 리팩토링은 기존에 router.include_router 기능을 사용할 때 발생하던 제약 사항들을 해결하는 중요한 변경 사항입니다. 이를 통해 그동안 구현이 어려웠던 다양한 확장 기능과 복잡한 라우팅 설정을 지원할 수 있는 기술적 토대가 마련되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-14T12:51:11.000Z",
+    "fetchedAt": "2026-06-14T16:50:23.671Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+    "title": "Five context-engineering principles that survive production",
+    "summary": "Your agent passes every test you throw at it. The demo is clean, the eval suite is green, and you ship. Then a week later, the support tickets start: agents looping, costs spiking, responses that conf",
+    "aiSummary": "LLM 기반 에이전트를 실제 운영 환경에 배포한 후 발생하는 문제들을 해결하기 위한 다섯 가지 컨텍스트 엔지니어링 원칙을 제시합니다.\n\n첫째, 명시적인 제약 사항을 컨텍스트에 포함해야 합니다. 모델은 모호한 지시사항보다 구체적으로 하지 말아야 할 행동을 정의할 때 더 안정적으로 작동합니다.\n\n둘째, 컨텍스트에 구조를 부여해야 합니다. 시스템 메시지에 Markdown이나 구조화된 데이터 형식을 사용하면 모델이 정보를 이해하고 처리하는 과정에서 발생하는 오류를 크게 줄일 수 있습니다.\n\n셋째, 최소한의 정보만 제공하는 간결함을 유지해야 합니다. 컨텍스트가 너무 길어지면 주의력 분산으로 인해 성능이 저하되는 Lost in the middle 현상이 발생하므로, 작업 수행에 필요한 핵심 정보만 선택적으로 주입하는 것이 중요합니다.\n\n넷째, 모델의 출력 형식과 사고 과정을 명확히 규정해야 합니다. 최종 답변 전에 Chain of Thought를 유도하거나 답변 양식을 엄격하게 고정하면 환각 현상을 방지하고 결과의 일관성을 높일 수 있습니다.\n\n다섯째, 실제 운영 데이터로부터 피드백 루프를 구축해야 합니다. 개발 단계의 테스트 통과가 운영 환경의 성공을 보장하지 않으므로, 에이전트가 생성한 결과물을 지속적으로 모니터링하고 실패 사례를 컨텍스트 개선에 활용해야 합니다.",
+    "url": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Jim Allen Wallace",
+    "pubDate": "Sun, 14 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-18T01:45:59.682Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/14/cline-migrate-java-oca/",
+    "title": "How Agentic Coding Can Help You Migrate Java Applications Faster",
+    "summary": "by Mahdi Kefayati, Saoud Rizwan (guest) on June 14, 2026\n\t\t\t\n    \n\n\t\t\t\t\tUpgrading Java isn’t just about keeping the lights on—it’s an opportunity to strengthen security, improve performance, and simpl",
+    "aiSummary": "기존 Java 애플리케이션을 최신 버전으로 마이그레이션하는 과정은 보안 강화와 성능 향상, 그리고 코드 복잡성 해소를 위한 필수적인 작업이지만 많은 비용과 시간이 소요되는 난제입니다. 이를 해결하기 위해 최근 주목받는 Agentic Coding은 AI 에이전트를 활용하여 코드 분석부터 리팩토링, 테스트 작성 및 오류 수정까지 마이그레이션 전 과정을 자동화합니다.\n\n전통적인 수동 방식과 달리 Agentic Coding 도구는 애플리케이션의 전체 구조를 문맥적으로 이해하며 종속성 관리와 API 변경 사항을 자동으로 처리합니다. AI 에이전트는 특정 코드 패턴을 식별하여 최신 Java 버전의 사양에 맞게 변환하고 필요한 단위 테스트를 생성하여 빌드 안정성을 확보합니다. \n\n이러한 방식은 개발자가 반복적이고 기계적인 작업에서 벗어나 비즈니스 로직 설계와 같은 고부가가치 작업에 집중할 수 있게 합니다. 결론적으로 Agentic Coding을 도입하면 마이그레이션에 투입되는 인적 자원과 리스크를 획기적으로 줄여 보다 신속하고 안전하게 시스템 현대화를 추진할 수 있습니다.",
+    "url": "https://inside.java/2026/06/14/cline-migrate-java-oca/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mahdi Kefayati",
+    "pubDate": "2026-06-14T00:00:00.000Z",
+    "fetchedAt": "2026-06-14T16:50:23.671Z",
+    "tags": [
+      "Java"
     ]
   }
 ]
