@@ -16,6 +16,22 @@
     ]
   },
   {
+    "id": "https://www.postgresql.org/about/news/hypopg-143-is-out-3326/",
+    "title": "HypoPG 1.4.3 is out!\n",
+    "summary": "Taipei, Taiwan - Sat 20 Jun\nHypoPG 1.4.3\nI'm pleased to announce the release of the version 1.4.3 of HypoPG, an\nextension adding support for Hypothetical Indexes, compatible with PostgreSQL\n9.2 and ab",
+    "aiSummary": "PostgreSQL 9.2 이상 버전과 호환되며 Hypothetical Indexes를 지원하는 확장 기능인 HypoPG의 1.4.3 버전이 출시되었습니다. \n\n이번 릴리스에서는 Julien Rouhaud가 오랫동안 지속되던 Int8GetDatum 버그를 수정하였고, PostgreSQL 19에 대한 지원이 새롭게 추가되었습니다. \n\n오픈 소스 프로젝트인 HypoPG는 GitHub 리포지토리를 통해 사용자들의 버그 제보와 기능 제안 등 다양한 형태의 기여를 환영하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/hypopg-143-is-out-3326/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Sat, 20 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-21T01:43:35.555Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
     "title": "AI credits consumed per user now in the Copilot usage metrics API",
     "summary": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.…\nThe post AI credits co",
