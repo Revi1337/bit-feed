@@ -1,5 +1,183 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/data-analytics/python-udf-in-bigquery-now-generally-available/",
+    "title": "Boost BigQuery with Python: Managed Python UDFs now generally available",
+    "summary": "SQL is the industry standard for high-performance structured data analysis. However, expressing complex procedural logic, scientific computations, advanced string manipulations, or machine learning wo",
+    "aiSummary": "Google Cloud가 BigQuery Managed Python UDFs(User-Defined Functions)의 정식 출시(GA)를 발표했습니다. 이번 출시로 데이터 과학자와 엔지니어들은 인프라나 컨테이너를 직접 관리할 필요 없이 표준 SQL 쿼리나 BigQuery DataFrames(BigFrames)를 통해 BigQuery 내부에서 안전하게 맞춤형 Python 코드를 실행할 수 있게 되었습니다. 이는 SQL만으로는 구현하기 까다로웠던 복잡한 절차적 로직, 과학 연산, 머신러닝 워크플로 등을 Python의 강력한 생태계를 활용해 BigQuery 내에서 직접 처리할 수 있도록 지원합니다.\n\nBigQuery Managed Python UDFs는 서버리스 환경에서 수십억 개의 행으로 자동 확장되며 컴파일, 이미지 빌드, 보안 패치 적용, 배포 등의 복잡한 과정을 Google Cloud가 완전하게 관리합니다. 사용자들은 NumPy, SciPy, pandas, scikit-learn 등 대중적인 라이브러리를 SQL 구문 내에서 자유롭게 호출할 수 있으며, Cloud Translation이나 Gemini Enterprise Agent Platform 같은 Google Cloud 서비스 및 외부 API와의 안전한 연동도 가능합니다.\n\n성능 최적화와 모니터링을 위한 고급 기능도 대거 추가되었습니다. PyArrow RecordBatches 기반의 벡터화 처리를 지원하여 데이터를 행 단위가 아닌 대량의 벌크 단위로 처리함으로써 성능을 최대 10배까지 향상시킵니다. 또한 고부하 작업 처리를 위해 함수당 최대 16 GB의 메모리와 4개의 vCPUs까지 컨테이너 자원을 할당할 수 있으며, 컨테이너당 최대 1,000개의 동시 작업을 수행하도록 설정할 수 있습니다. Cloud Monitoring과의 연동을 통해 실시간 CPU, 메모리, 동시성 지표 등을 모니터링하고 로그를 추적하는 디버깅 환경도 제공합니다.\n\n요금 체계의 경우 BigQuery Services SKU에 완전히 통합되어 기존의 약정 할인(CUDs) 혜택을 그대로 적용받을 수 있으며, 메타데이터 뷰를 통해 실행 비용의 모니터링이 가능합니다. 이 기능은 복잡한 데이터 분석 및 머신러닝 전처리 작업을 단일 데이터 웨어하우스 환경으로 통합하고자 하는 기업 환경에 강력한 효율성을 제공할 것으로 기대됩니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/python-udf-in-bigquery-now-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sandeep Karmarkar"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 22 Jun 2026 17:00:00 +0000",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-19-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+    "title": "New features and Claude as agent provider preview in JetBrains IDEs",
+    "summary": "This update adds support for organization and enterprise agents from GitHub, lets you queue and steer messages in Copilot CLI sessions, introduces a new agent debug logs summary view, and…\nThe post Ne",
+    "aiSummary": "JetBrains IDEs에 Claude를 에이전트 제공자로 사용할 수 있는 프리뷰 기능이 도입되었습니다. 이번 업데이트를 통해 GitHub의 조직 및 엔터프라이즈 에이전트 지원이 추가되었으며, Copilot CLI 세션에서 메시지를 대기열에 추가하고 조정할 수 있는 기능이 제공됩니다. 또한 새로운 에이전트 디버그 로그 요약 보기 화면이 추가되어 편의성을 높였습니다.",
+    "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Mon, 22 Jun 2026 15:34:00 +0000",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://medium.com/p/878c60a11f1a",
+    "title": "How we built a Flutter-powered AI coffee shop",
+    "summary": "8 min read3 hours ago--Press enter or click to view image in full sizeDash sits on a coffee shop’s checkout counter drinking a latte with the Flutter logo printed on topIf you start giving away coffee",
+    "aiSummary": "Google의 Flutter 팀은 인공지능 기술을 활용하여 사용자 맞춤형 이미지를 커피 위에 프린트해 주는 오프라인 데모 프로젝트 GenLatte(Google I/O 행사명 Antigravity Coffee Co.)의 개발 과정과 기술 아키텍처를 공개했습니다. 이 프로젝트는 Flutter와 Firebase를 기반으로 구축되었으며, 이미지 생성 모델인 Nano Banana와 dynamic UX를 생성하는 GenUI 기술을 결합하여 참가자들에게 독특한 경험을 제공했습니다.\n\n시스템의 프론트엔드는 Flutter로 구현되었으며, 하나의 monorepo 안에서 키오스크, 바리스타 화면, 모더레이터 화면, 대기열 화면, 최근 주문 화면 등 총 5개의 UI가 유기적으로 작동하도록 설계되었습니다. 백엔드는 Firebase를 기반으로 Cloud Build와 Firebase Hosting을 활용해 배포 프로세스를 자동화하였고, Firestore 보안 규칙과 GoRouter를 사용해 안전하지 않은 접근 및 데이터 무단 수정을 방지했습니다.\n\n사용자 경험의 핵심은 Gemini와 Nano Banana를 결합한 이미지 생성 및 미세 조정 과정입니다. 사용자가 입력한 짧은 키워드를 Gemini가 구체적인 묘사로 변환하여 Nano Banana에 전달하며, 이때 매력적인 구도를 위해 S자 곡선 구성 등을 프롬프트에 자동으로 적용했습니다. 특히 사용자가 이미지를 수정할 때 GenUI 기술이 적용되어, 질문의 유형에 따라 텍스트 입력창이나 라디오 버튼 등 가장 적합한 UI 구성요소를 Gemini가 실시간으로 선택하여 화면에 표시하도록 구현했습니다.\n\n사용자 생성 콘텐츠의 유해성을 방지하기 위해 3단계 보안 및 모더레이션 과정을 거쳤습니다. 먼저 입력된 텍스트를 Gemini Flash를 통해 1차 검증하고, Nano Banana 자체 필터링을 거친 후, 최종적으로 인간 모더레이터가 수동으로 승인하는 단계를 적용하여 행사장에서의 부적절한 이미지 출력을 차단했습니다. 이 프로젝트는 Cloud Next와 Google I/O에서 총 3,000잔 이상의 커피를 성공적으로 서비스하며 Flutter, Firebase, Gemini의 강력한 시너지 효과를 입증했습니다.",
+    "url": "https://blog.flutter.dev/how-we-built-a-flutter-powered-ai-coffee-shop-878c60a11f1a?source=rss----4da7dfd21a33---4",
+    "category": "프로그래밍 언어",
+    "source": "Flutter Blog",
+    "author": "Craig Labenz",
+    "pubDate": "Mon, 22 Jun 2026 15:16:53 GMT",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "Flutter",
+      "Dart"
+    ]
+  },
+  {
+    "id": "48f31f6fe142a62eba1b6ad460759328491f8672",
+    "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
+    "summary": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian",
+    "aiSummary": "AWS는 최근 개최된 AWS Summit New York City에서 최신 클라우드 및 AI 혁신 기술을 다수 선보였습니다. AWS의 Agentic AI 부사장인 Dr. Swami Sivasubramanian은 기조연설을 통해 가치를 증대시키는 에이전트를 중심으로 설계된 여러 AI 제품군을 공개했습니다. 이 외에도 Hanoi 지역의 Local Zone 개설, Bedrock에 Grok 4.3 탑재, 그리고 서비스 가격 인하 등의 주요 소식이 함께 발표되었습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "Mon, 22 Jun 2026 14:46:17 +0000",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/showcase-your-phpstorm-expertise-on-linkedin",
+    "title": "Showcase Your PhpStorm Expertise on LinkedIn",
+    "summary": "JetBrains has partnered with LinkedIn Connected Apps to let developers display a usage-based proficiency badge for PhpStorm and other JetBrains IDEs directly on their profile.\nThe post Showcase Your P",
+    "aiSummary": "JetBrains는 개발자들이 자신의 LinkedIn 프로필에 PhpStorm 및 기타 JetBrains IDE의 사용량 기반 숙련도 배지를 직접 표시할 수 있도록 LinkedIn Connected Apps와 파트너십을 체결했습니다. 이 새로운 기능을 통해 개발자들은 자신들의 도구 활용 전문성을 프로필에서 직관적으로 증명하고 보여줄 수 있습니다.",
+    "url": "https://laravel-news.com/showcase-your-phpstorm-expertise-on-linkedin?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "Mon, 22 Jun 2026 13:21:53 +0000",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/patch-the-planet",
+    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+    "aiSummary": "OpenAI는 오픈소스 유지관리자들이 AI와 전문가의 검토를 통해 보안 취약점을 찾고 검증하며 수정할 수 있도록 돕는 Daybreak 이니셔티브인 Patch the Planet을 발표했습니다.",
+    "url": "https://openai.com/index/patch-the-planet",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Mon, 22 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/daybreak-securing-the-world",
+    "title": "Daybreak: Tools for securing every organization in the world",
+    "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+    "aiSummary": "OpenAI는 전 세계 모든 조직이 대규모로 보안 취약점을 발견하고 검증하며 해결할 수 있도록 지원하는 새로운 Daybreak 도구를 공개했습니다. 이 보안 도구 패키지에는 Codex Security와 GPT-5.5-Cyber 등이 포함되어 있어 조직의 안전한 보안 환경 구축을 돕습니다.",
+    "url": "https://openai.com/index/daybreak-securing-the-world",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Mon, 22 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/",
+    "title": "The Starter Tier for Google AI Studio explained",
+    "summary": "You've got a working prototype in Google AI Studio. A React frontend, a Node.js backend, maybe a database. Now you want a live URL to share with your team, your users, or a friend who wants to try it.",
+    "aiSummary": "Google AI Studio에서 프로토타입을 빠르게 배포할 수 있도록 지원하는 Starter Tier가 도입되었습니다. 이 서비스는 신용카드 등록이나 청구 계정 설정 없이 Google 계정만으로 10분 만에 데이터베이스와 인증 기능이 결합된 프로토타입을 실제 작동하는 라이브 URL로 배포할 수 있게 해줍니다.\n\nStarter Tier는 Google이 백그라운드에서 프로젝트 생성, 리전 선택, API 활성화, 보안 정책 등을 완전 관리형으로 처리하는 서비스입니다. 복잡한 IAM 설정이나 API 관리가 필요 없는 간결한 구성이 특징이며, 개인 Google 계정 사용자를 대상으로 제공됩니다. 관리 콘솔 역시 로그 확인, 성능 지표 조회, 컨테이너 구성 등 프로토타입 검증에 꼭 필요한 기능만 모아둔 단순화된 화면을 제공합니다.\n\n이 서비스는 네 가지 핵심 제품이 사전에 연결된 스택 형태로 제공됩니다. 컴퓨팅 레이어인 Cloud Run은 계정당 최대 2개의 웹 애플리케이션을 지원하며 미사용 시 리소스를 자동으로 0까지 축소합니다. Firebase Authentication은 Google Sign-In을 사전 설정하여 사용자 로그인을 손쉽게 구현하도록 돕습니다. NoSQL 데이터베이스인 Cloud Firestore는 AI 에이전트가 보안 규칙과 연동 코드를 자동으로 작성해 줍니다. 마지막으로 관계형 데이터베이스가 필요한 경우를 위해 제공되는 Cloud SQL for PostgreSQL Developer edition은 즉각적인 프로비저닝을 지원하고 pgvector 플러그인을 기본 내장하여 RAG 애플리케이션 개발에 유용합니다.\n\n배포 과정은 매우 단순합니다. Google AI Studio의 Build Mode에서 원하는 앱을 자연어로 설명하면 에이전트가 코드를 작성하며, Firebase 설정을 거쳐 Publish 버튼을 누르면 배포가 완료됩니다. Dockerfile 작성이나 gcloud CLI 실행, YAML 파일 설정 없이 몇 초 만에 실제 접속 가능한 .run.app URL이 생성됩니다.\n\n기존 Google Cloud Free Trial과 달리 Starter Tier는 카드 정보를 요구하지 않으며 이용 기한에 제한이 없습니다. 다만 생성 가능한 앱이 최대 2개로 제한되고 리전이 하나로 고정되며 추가적인 API를 연동할 수 없다는 제약이 있습니다. 또한 Cloud Run의 임시 파일 시스템 특성상 컨테이너가 재시작되면 로컬에 저장된 파일이 모두 소멸되므로 지속성이 필요한 데이터는 반드시 Cloud Firestore나 Cloud SQL for PostgreSQL에 저장해야 합니다.\n\n프로토타입 단계를 넘어 본격적으로 서비스를 확장하려는 경우에는 마이그레이션이나 다운타임 없이 원클릭으로 청구 계정을 등록하여 프로덕션 등급으로 즉시 업그레이드할 수 있습니다. 기존에 사용하던 Cloud Run 서비스와 데이터베이스, URL이 그대로 유지되며, 업그레이드 이후에는 예산 알림 설정이나 Cloud Run 최대 인스턴스 제한 설정을 통해 갑작스러운 트래픽 증가로 인한 비용 과금을 방지하는 안전장치를 직접 구성할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Karl Weinmeister"
+      ],
+      "title": [
+        "Director, Developer Relations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 22 Jun 2026 07:00:00 +0000",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/privacy-filter-detect-pii-in-text-from-laravel",
+    "title": "Privacy Filter: Detect PII in Text from Laravel",
+    "summary": "A Laravel wrapper by DirectoryTree around the privacy-filter.cpp binary that detects private entities like names and emails in text, with confidence scores, byte offsets, and a test fake.\nThe post Pri",
+    "aiSummary": "DirectoryTree에서 텍스트 내의 이름이나 이메일 같은 개인 식별 정보(PII)를 감지할 수 있는 privacy-filter.cpp 바이너리 기반의 Laravel 래퍼 패키지를 출시했습니다. 이 패키지는 감지된 정보에 대한 신뢰도 점수와 바이트 오프셋을 제공하며, 원활한 테스트를 위한 test fake 기능도 함께 지원합니다.",
+    "url": "https://laravel-news.com/privacy-filter-detect-pii-in-text-from-laravel?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Mon, 22 Jun 2026 04:15:49 +0000",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations",
     "title": "NationForge: A Self-Hosted Admin Panel for Civic Organizations",
     "summary": "NationForge is an open-core Laravel 12 application that gives political movements, civic groups, and community organizations a self-hosted home for contacts, events, donations, and campaigns.\nThe post",
@@ -13,6 +191,54 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/astro-7/",
+    "title": "Astro 7.0",
+    "summary": "Astro 7.0 brings faster builds with Vite 8, a new Rust compiler, Advanced Routing, background dev server support, and structured logging.",
+    "aiSummary": "Astro 7.0이 정식 출시되었습니다. 이번 버전은 Vite 8과 새로운 Rust 컴파일러를 도입하여 빌드 속도를 대폭 향상시켰습니다. 이와 함께 Advanced Routing, background dev server 지원, structured logging 등 개발 프로세스를 개선하는 다양한 기능들이 새롭게 추가되었습니다.",
+    "url": "https://astro.build/blog/astro-7/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Mon, 22 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/6/22/here-are-the-rails-world-2026-speakers",
+    "title": "Here are the Rails World 2026 speakers",
+    "summary": "The fourth edition of Rails World is fast approaching with just over three months to go, so it’s time to meet the speakers who will join us this year in Austin, TX.\nBut first: Thank you to everyone wh",
+    "aiSummary": "텍사스 오스틴에서 개최를 앞둔 제4회 Rails World의 발표자 라인업이 공개되었습니다. 이번 행사의 CFP 모집에서는 제출된 제안서의 절반가량이 AI 관련 주제였으며, 최종 선정된 AI 세션들은 Rails 환경에서의 AI 파이프라인 구축, 개발 워크플로우 내 에이전트 활용법, 코드베이스 구조화 등 실제 서비스에서 검증된 실용적인 주제를 다룹니다. AI 주제 외에도 Hotwire, 배포, 데이터베이스 샤딩, Ruby 내부 동작 등 Rails 생태계의 다양한 기술적 세션들이 준비되어 있습니다. 이번 행사의 키노트 스피커로는 DHH, Aaron Patterson, Robby Russell이 참여하며, 이 외에도 다양한 분야의 전문가들이 세션을 진행할 예정입니다. 전체 행사 일정과 관련 애플리케이션은 오는 8월에 공개될 예정이며 현재 일반 입장권의 최종 수량이 판매 중입니다.",
+    "url": "https://rubyonrails.org/2026/6/22/here-are-the-rails-world-2026-speakers",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Rails Foundation",
+    "pubDate": "2026-06-22T00:00:00.000Z",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/codex-maxxing-long-running-work",
+    "title": "Codex-maxxing for long-running work",
+    "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+    "aiSummary": "Jason Liu가 장기 실행 작업에서 Codex를 활용하여 맥락을 유지하고 복잡한 프로젝트를 관리하는 방법을 소개합니다. 단일 프롬프트의 한계를 넘어 지속적으로 작업을 이어갈 수 있도록 돕는 Codex의 구체적인 활용법을 다루고 있습니다.",
+    "url": "https://openai.com/index/codex-maxxing-long-running-work",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Mon, 22 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-22T18:54:58.481Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -2156,267 +2382,6 @@
     "fetchedAt": "2026-06-16T02:03:24.292Z",
     "tags": [
       "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/",
-    "title": "What’s new in data agents: Supercharging your AI workflows",
-    "summary": "The rise of AI agents is fundamentally disrupting applications and analytical systems. Generic AI platforms don't usually have access to the context stored within enterprise databases. This is because",
-    "aiSummary": "Google은 기업 데이터 환경에서 AI 에이전트의 정확성과 보안을 보장하기 위해 자사의 통합 데이터 플랫폼인 Agentic Data Cloud를 기반으로 하는 다양한 신규 데이터 에이전트와 도구를 발표했습니다. 기존의 일반적인 AI 플랫폼이 가진 맥락 부족과 보안 취약점을 해결하기 위해 맞춤형 실리콘부터 Gemini 모델에 이르는 전체 스택에 AI를 통합하여 기업 데이터에 기반한 추론과 거버넌스를 제공합니다.\n\nConversational Analytics는 자연어를 사용하여 데이터에 접근할 수 있도록 기능을 확장했습니다. BigQuery Studio, Lakehouse, 그리고 AlloyDB, Spanner, Cloud SQL 등 주요 데이터베이스에 AI 추론 엔진을 통합하여 사용자가 SQL을 직접 작성하지 않고도 실시간 운영 및 분석 데이터를 질의할 수 있게 지원합니다. 특히 Looker Embedded Conversational Analytics를 통해 사용자 정의 애플리케이션에 대화형 AI를 손쉽게 임베드할 수 있습니다.\n\n데이터 전문가를 위한 새로운 데이터 에이전트들도 공개되었습니다. 데이터 파이프라인 구축을 자동화하는 Data Engineering Agent, 모델 개발을 가속화하는 Data Science Agent, 데이터베이스 성능을 모니터링하는 Database Observability Agent, 데이터베이스 선택 및 배포를 돕는 Database Onboarding Agent 등이 포함됩니다. 또한 Looker Dashboard Agent와 Gemini Enterprise를 통한 Conversational Analytics는 비즈니스 사용자가 기술적인 제약 없이 데이터 인사이트를 도출할 수 있도록 돕습니다.\n\n이외에도 Data Insights Agent와 Deep Research Agent는 구조화된 데이터와 비구조화된 데이터를 결합하여 복잡한 비즈니스 문제를 해결하고 심층적인 연구 보고서를 생성합니다.\n\n개발자 생태계를 지원하기 위한 도구도 강화되었습니다. 개발 환경 내에서 데이터 활용을 돕는 Data Agent Kit를 비롯하여 AlloyDB, Spanner 등 주요 데이터베이스에 대한 Managed MCP Servers를 통해 AI 모델과 데이터 간의 연결을 더욱 안전하고 효율적으로 관리할 수 있습니다. 또한 MCP Toolbox 1.0의 정식 출시와 QueryData 기능을 통해 자연어 기반의 쿼리 변환 정확도를 높였으며, UCP Analytics를 통해 에이전트 기반 상거래에 대한 실시간 관측 가능성도 제공합니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sean Rhee"
-      ],
-      "title": [
-        "Product Management, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 15 Jun 2026 17:00:00 +0000",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://medium.com/p/475913d622ec",
-    "title": "Flutter Q2 survey",
-    "summary": "Flutter is Google's UI framework for crafting high-quality native interfaces on iOS, Android, web, and desktop. Flutter works with existing code, is used by developers and organizations around the wor",
-    "aiSummary": "Google은 현재 Flutter 개발자들을 대상으로 분기별 만족도와 의견을 수렴하기 위한 2분기 설문조사를 진행하고 있습니다.\n\n이번 설문조사는 향후 Flutter의 로드맵 방향을 결정하고 제품 개선에 필요한 중요한 데이터를 확보하는 목적으로 실시됩니다.\n\n설문 참여는 6월 19일 금요일 일과 종료 시점까지 가능하며 개발자의 피드백은 공식 홈페이지를 통해 수집됩니다.",
-    "url": "https://blog.flutter.dev/flutter-q2-survey-475913d622ec?source=rss----4da7dfd21a33---4",
-    "category": "프로그래밍 언어",
-    "source": "Flutter Blog",
-    "author": "Shams Zakhour",
-    "pubDate": "Mon, 15 Jun 2026 16:42:40 GMT",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "Flutter",
-      "Dart"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=91127",
-    "title": "Docker joins the Athena coalition: a cross-industry collaboration for supply chain security",
-    "summary": "The obvious takeaway from 2026's biggest incidents is that attackers are increasingly using AI to move fast. Docker's CISO, Mark Lechner, wrote about this shift and what every engineering team should ",
-    "aiSummary": "Docker가 공급망 보안 강화를 위해 산업 간 협력체인 Athena coalition에 합류했습니다. 최근 2026년의 주요 보안 사고들은 공격자들이 AI를 활용하여 공격 속도를 가속화하고 있음을 시사하고 있습니다.\n\nDocker의 CISO인 Mark Lechner는 이러한 보안 환경의 변화를 지적하며 모든 엔지니어링 팀이 즉각적인 대응 체계를 갖춰야 한다고 강조했습니다. 특히 기술 발전으로 인해 보안 취약점을 발견하고 악용하는 진입 장벽이 낮아지고 있다는 점이 업계의 큰 우려 사항으로 떠오르고 있습니다.\n\n이번 Athena coalition 참여를 통해 Docker는 공급망 전반에 걸친 보안 표준을 수립하고, 고도화되는 AI 기반의 위협에 공동으로 대응하는 전략을 추진할 예정입니다.",
-    "url": "https://www.docker.com/blog/docker-joins-the-athena-coalition-a-cross-industry-collaboration-for-supply-chain-security/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Aditya Tripathi",
-    "pubDate": "Mon, 15 Jun 2026 16:24:29 +0000",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/",
-    "title": "Cloud CISO Perspectives: The 4 lessons that guided AI Threat Defense",
-    "summary": "Welcome to the first Cloud CISO Perspectives for June 2026. Today, we introduce Chris Betz as the new CISO of Google Cloud. For his first Cloud CISO Perspectives, Chris shares four key lessons we lear",
-    "aiSummary": "Google Cloud의 새로운 CISO인 Chris Betz는 AI 기술이 사이버 보안 환경을 급격히 변화시키고 있다고 평가하며, 이에 대응하기 위한 핵심 전략인 AI Threat Defense의 네 가지 운영 원칙을 제시합니다.\n\n첫 번째는 준비 단계로, 기업의 공격 표면을 최소화하고 보안 운영을 위한 프레임워크를 구축해야 합니다. 여기에는 보안 팀과 엔지니어링 팀 간의 긴밀한 협업, 하드웨어 및 토큰 예산의 효율적 배분, 그리고 변화 관리를 위한 체계적인 계획 수립이 포함됩니다.\n\n두 번째는 스캔 및 우선순위 지정 단계입니다. 기술 전문가와 적절한 도구, 그리고 다수의 AI 모델을 결합하여 취약점을 분석하는 것이 중요합니다. 특히 영향력이 큰 핵심 코드부터 우선적으로 점검하고, AI를 활용해 오탐률을 낮추며 취약점의 중요도를 정확히 파악해야 합니다.\n\n세 번째는 교정 단계입니다. 가시성이 확보된 중앙 집중식 시스템을 통해 취약점 해결 과정을 추적하고, 외부 노출도가 높고 영향력이 큰 영역부터 우선적으로 패치를 적용합니다. 또한 취약점 해결을 넘어 시스템 자체를 강화하는 복원력 중심의 접근 방식을 채택하며, 보안 취약점을 제거하기 위해 오픈소스 소프트웨어 관리 전략인 갱신, 제거, 재작성 방식을 병행합니다.\n\n마지막 네 번째는 모니터링 단계입니다. 지속적인 피드백 루프를 통해 시스템 과부하나 새로운 취약점 발생 지점을 상시 감시해야 합니다. AI 에이전트를 활용하여 보안 표준을 자동화하고, 위협 탐지 및 대응 과정을 최적화함으로써 시간이 지날수록 더욱 견고해지는 보안 체계를 구축하는 것이 핵심입니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Chris Betz"
-      ],
-      "title": [
-        "CISO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 15 Jun 2026 16:00:00 +0000",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action/",
-    "title": "Architecting a trusted agentic platform with graph technologies: A Yahoo case study",
-    "summary": "As enterprises adopt agentic AI, they need to shift from reactive systems of intelligence to proactive systems of action to equip the agents they’re building with the context and performance they need",
-    "aiSummary": "Yahoo는 Google Cloud와 협력하여 복잡한 디지털 미디어 구매 과정을 자동화하는 Seller Agent 플랫폼을 구축했습니다. 이 플랫폼은 수주가 소요되던 업무를 수 초 내로 단축하면서도, AI 에이전트의 결정에 대한 투명성과 책임성을 확보한 것이 핵심입니다.\n\n플랫폼은 지식 그래프와 맥락 그래프라는 이중 그래프 구조를 통해 신뢰할 수 있는 실행 환경을 구현합니다. Spanner Graph 기반의 지식 그래프는 광고 인벤토리, 계약 조건, 규제 정책 등을 실시간으로 반영하여 에이전트가 비즈니스 논리에 근거해 판단하도록 지원합니다. 또한 BigQuery Graph를 사용하는 맥락 그래프는 에이전트의 모든 결정 과정과 정책 적용 근거를 기록하여, 추후 감사나 설명 가능성이 요구될 때 즉각적으로 추적 가능한 데이터 환경을 제공합니다.\n\n이러한 아키텍처는 단순히 생성형 AI 모델을 도입하는 것을 넘어, 확률적 모델의 한계를 확정적 비즈니스 규칙과 결합한 시스템입니다. Yahoo의 사례는 금융 거래나 공급망 관리와 같이 고도의 정확성과 규제 준수가 필요한 산업 분야에서, 기업이 자율 에이전트를 안전하게 운영하기 위한 표준 청사진을 제시합니다.\n\n결론적으로 기업의 경쟁력은 범용적인 언어 모델 자체보다, 자사의 고유한 비즈니스 운영 정보와 과거 결정 기록을 구조화한 그래프 데이터에 의해 결정됩니다. 기업은 에이전트가 단순히 작업을 수행하는 것을 넘어, 자신의 행동을 설명하고 규제 수준의 거버넌스를 준수하도록 설계된 시스템을 구축해야 합니다.",
-    "url": "https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mikul Bhatt"
-      ],
-      "title": [
-        "Director Of Engineering, Yahoo"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 15 Jun 2026 16:00:00 +0000",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
-    "title": "Implementing workload identity with HashiCorp Vault and SPIFFE",
-    "summary": "Modern workloads are making machine identity strategy harder, not easier. Teams want a standard way to name and verify workloads, but they also need a realistic path from identity to access control. T",
-    "aiSummary": "현대 클라우드 환경에서 워크로드를 식별하고 권한을 제어하는 것은 복잡한 과제가 되었습니다. 많은 조직이 SPIFFE 표준을 통해 워크로드 식별을 표준화하려 하지만, 식별 그 자체만으로는 실제 서비스의 권한 부여 문제까지 해결해주지는 않습니다. 이러한 맥락에서 HashiCorp Vault는 SPIFFE와 상호보완적인 역할을 수행하며, 신뢰할 수 있는 워크로드 식별자를 기반으로 동적 비밀, 인증서, 접근 권한을 관리하는 제어 평면으로서 핵심적인 기능을 제공합니다.\n\nSPIFFE는 플랫폼에 구애받지 않는 이식 가능한 기계 식별 표준을 정의하며, SPIFFE ID와 SVID를 통해 워크로드를 유일하게 식별합니다. 반면, SPIRE는 노드 및 워크로드에 대한 엄격한 검증과 SVID 발급을 수행하는 런타임 구현체입니다. 하지만 모든 조직이 초기부터 SPIRE의 복잡한 운영 오버헤드를 감당할 준비가 된 것은 아니며, 대다수는 식별된 워크로드가 데이터베이스나 API에 어떻게 접근할지 결정하는 권한 부여 체계가 더욱 시급합니다.\n\nVault는 SPIFFE와 결합하여 다음과 같은 실무적인 아키텍처 패턴을 지원합니다.\n\n첫째, Vault의 SPIFFE 인증 방식과 PKI 엔진을 활용하여 워크로드 간의 제로 트러스트 mTLS를 구현할 수 있습니다. Vault는 쿠버네티스 서비스 계정 등을 기반으로 인증한 뒤 SPIFFE 식별자가 포함된 X.509 인증서를 발행하며, 이후 통신 과정에는 개입하지 않아 성능과 확장성을 보장합니다.\n\n둘째, JWT-SVID를 이용한 네트워크 간 API 인증을 지원합니다. Vault는 표준 JWT를 발행하여 외부 서비스가 복잡한 인증 절차 없이도 워크로드의 식별자와 비즈니스 컨텍스트를 검증하게 합니다. 이는 클라우드 간의 자격 증명 교환에도 활용되어 고정된 키를 제거하는 데 기여합니다.\n\n셋째, 기존 SPIRE 환경과의 통합입니다. Vault는 SPIRE가 발행한 SVID를 인증하여 데이터베이스 자격 증명을 제공하는 브로커 역할을 수행하거나, 반대로 Vault의 PKI 엔진을 SPIRE의 상위 인증 기관으로 설정하여 조직의 신뢰 체인을 통합 관리할 수 있게 합니다.\n\n결론적으로 워크로드 식별 전략은 식별자 모델인 SPIFFE, 권한 부여와 자격 증명 브로커 역할을 하는 Vault, 그리고 필요에 따라 심층적인 런타임 검증을 제공하는 SPIRE를 적절히 조합하는 것이 중요합니다. 이들의 역할 분담을 통해 조직은 파편화된 권한 관리 체계를 일관된 표준으로 통합하고, 운영 환경 전반에 걸쳐 안전하고 유연한 접근 제어를 달성할 수 있습니다.",
-    "url": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Dinesh Gawande",
-    "pubDate": "2026-06-15T16:00:00.000Z",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://bun.sh/blog/bun-v1.3.10",
-    "title": "Bun v1.3.10",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.10 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용할 수 있습니다.\n\nmacOS와 Linux 환경에서는 curl 명령어를 통해 설치하거나 npm을 이용해 전역으로 설치하는 것이 가능합니다. Windows 사용자의 경우 PowerShell을 활용하거나 scoop 패키지 관리자를 통해 Bun을 설치할 수 있습니다. 또한 Homebrew를 사용하는 환경이라면 tap 저장소를 추가한 뒤 brew install bun 명령어로 설치를 진행할 수 있으며 Docker를 통해서도 Bun을 이용할 수 있습니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.10",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:23.289Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
-    ]
-  },
-  {
-    "id": "https://bun.sh/blog/bun-v1.3.11",
-    "title": "Bun v1.3.11",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.11 업데이트 버전이 공개되었습니다.\n\n이번 릴리스는 설치 및 업데이트를 위한 다양한 명령어 환경을 지원합니다. macOS와 Linux 환경에서는 curl 명령어를 통해 설치할 수 있으며, Node.js 기반의 npm을 활용하거나 PowerShell, Scoop, Homebrew, Docker를 이용한 방식도 공식적으로 안내하고 있습니다. 사용자는 자신의 운영체제와 환경에 맞춰 적합한 설치 명령어를 선택하여 Bun을 최신 상태로 유지할 수 있습니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.11",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:23.078Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
-    ]
-  },
-  {
-    "id": "https://bun.sh/blog/bun-v1.3.12",
-    "title": "Bun v1.3.12",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.12 버전이 출시되었습니다. 해당 업데이트에는 기존 Bun 환경의 설치 및 관리를 지원하는 명령어들이 포함되어 있습니다.\n\nmacOS와 Linux 환경에서는 curl 또는 npm을 사용하여 Bun을 설치할 수 있습니다. Windows 사용자의 경우 PowerShell이나 scoop을 통해 간편하게 설치가 가능하며 Homebrew를 이용한 설치 방식도 지원합니다. Docker를 활용한 환경 구성 또한 가능하도록 다양한 설치 경로를 제공합니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.12",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:22.869Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
-    ]
-  },
-  {
-    "id": "https://bun.sh/blog/bun-v1.3.13",
-    "title": "Bun v1.3.13",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.13 버전이 출시되었습니다. 해당 업데이트를 설치하기 위해서는 운영체제와 환경에 따라 제공되는 명령어를 사용하면 됩니다. macOS나 Linux 환경에서는 curl 또는 brew를 이용할 수 있으며 npm이나 docker를 통한 설치도 지원합니다. Windows 사용자는 PowerShell이나 scoop 명령어를 통해 Bun을 설치할 수 있습니다. 각 환경별로 최적화된 설치 방법을 제공하여 사용자의 접근성을 높였습니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.13",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:22.668Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
-    ]
-  },
-  {
-    "id": "https://bun.sh/blog/bun-v1.3.14",
-    "title": "Bun v1.3.14",
-    "summary": "To install Buncurlcurl -fsSL https://bun.sh/install | bashnpmnpm install -g bunpowershellpowershell -c \"irm bun.sh/install.ps1|iex\"scoopscoop install bunbrewbrew tap oven-sh/bunbrew install bundockerd",
-    "aiSummary": "Bun v1.3.14 버전이 출시되었습니다. 해당 업데이트는 기존 사용자가 최신 환경으로 전환하거나 신규 사용자가 Bun을 설치할 수 있도록 다양한 운영체제 및 패키지 관리자를 위한 설치 명령어를 제공합니다. macOS와 Linux 환경에서는 curl 및 npm을 통해 설치가 가능하며 Windows 사용자를 위한 PowerShell 명령어와 scoop 명령어도 지원합니다. 또한 Docker 환경에서의 설치 방법도 함께 명시되어 있습니다.",
-    "url": "https://bun.sh/blog/bun-v1.3.14",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-06-15T15:17:22.371Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
-    "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
-    "summary": "Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North Americ",
-    "aiSummary": "Google Threat Intelligence Group은 중국 연계 해킹 그룹인 UNC6508이 북미 지역의 의료 및 학계 기관을 대상으로 정교한 사이버 공격을 감행하고 있다고 밝혔습니다.\n\n해당 공격자들은 인공지능, 사이버 보안, 의료, 국방 분야의 핵심 연구 데이터 탈취를 목적으로 활동하고 있습니다. UNC6508은 주로 합법적인 소프트웨어 도구를 악용하는 Living off the Land 기법을 사용하여 보안 탐지를 회피하며, 공격 대상 네트워크에 대한 지속적인 접근 권한을 확보하는 데 집중하고 있습니다.\n\n이들은 취약점을 이용해 초기 침투를 수행한 뒤, 정보를 수집하고 측면 이동을 통해 민감한 연구 자료에 접근하는 치밀한 전략을 구사합니다. 이번 활동은 중국의 전략적 기술 경쟁력 확보와 관련이 있는 것으로 분석되며, 관련 분야의 기관들은 보안 강화와 이상 징후에 대한 모니터링을 강화할 필요가 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 15 Jun 2026 14:00:00 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "GCP",
       "Cloud"
     ]
   }
