@@ -1,5 +1,22 @@
 [
   {
+    "id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "aiSummary": "Samsung Electronics가 전 세계 직원들을 대상으로 ChatGPT Enterprise와 Codex를 도입합니다. 이번 도입은 OpenAI의 기업용 AI 배포 사례 중 가장 큰 규모 중 하나로 기록될 전망입니다.",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Sun, 21 Jun 2026 23:00:00 GMT",
+    "fetchedAt": "2026-06-22T01:44:16.288Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
     "title": "MongoDB-backed Spring Batch jobs and more in Spring Boot 4.1",
     "summary": "Spring Batch was introduced many years before MongoDB existed, and its design assumed the presence of a SQL database in which to store the state of Spring Batch jobs.\nBut that was decades ago, and a c",

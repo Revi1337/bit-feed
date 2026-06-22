@@ -1,5 +1,22 @@
 [
   {
+    "id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "aiSummary": "Samsung Electronics가 전 세계 직원들을 대상으로 ChatGPT Enterprise와 Codex를 도입합니다. 이번 도입은 OpenAI의 기업용 AI 배포 사례 중 가장 큰 규모 중 하나로 기록될 전망입니다.",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Sun, 21 Jun 2026 23:00:00 GMT",
+    "fetchedAt": "2026-06-22T01:44:16.288Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
     "title": "MongoDB-backed Spring Batch jobs and more in Spring Boot 4.1",
     "summary": "Spring Batch was introduced many years before MongoDB existed, and its design assumed the presence of a SQL database in which to store the state of Spring Batch jobs.\nBut that was decades ago, and a c",
@@ -2513,103 +2530,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
-    "title": "Your agent hit the context limit. Here's the playbook",
-    "summary": "Your agent was humming along, then it stopped mid-task and declared the job done when it wasn't. One common cause is the AI context limit, a hard ceiling on how many tokens a model can hold in its wor",
-    "aiSummary": "AI 에이전트가 작업 도중 갑작스럽게 중단되거나 불완전하게 임무를 마치는 주된 원인은 모델의 컨텍스트 제한 때문입니다. 컨텍스트 제한은 AI가 작업 메모리에 한 번에 처리할 수 있는 토큰의 양을 물리적으로 제한하는 임계점입니다.\n\n이러한 문제를 해결하기 위해 가장 먼저 필요한 것은 현재 사용 중인 모델의 토큰 제한치를 정확히 파악하고 작업의 규모를 그 범위 내로 조절하는 것입니다. 만약 긴 작업이 필요하다면 문서를 요약하거나 불필요한 정보를 제거하여 입력 데이터의 크기를 줄이는 전략이 필요합니다.\n\n기술적으로는 컨텍스트를 효율적으로 관리하기 위한 RAG 기법이나 긴 문맥을 지원하는 롱 컨텍스트 모델로의 전환을 고려할 수 있습니다. 또한 작업을 단계별로 나누어 처리하는 멀티 에이전트 방식이나 중간 결과물을 별도의 스토리지에 저장하여 필요한 시점에 다시 불러오는 메모리 최적화 전략을 도입하는 것이 효과적입니다.\n\n단순히 모델을 업그레이드하는 것 외에도 프롬프트를 최적화하여 불필요한 시스템 메시지나 과거 대화 기록을 정리함으로써 가용 토큰을 확보하는 세심한 관리가 필수적입니다. 이러한 체계적인 접근은 에이전트가 중도에 멈추지 않고 더 복잡하고 긴 작업을 안정적으로 수행할 수 있도록 돕습니다.",
-    "url": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Jim Allen Wallace",
-    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-18T01:45:59.682Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
-    "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
-    "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern",
-    "aiSummary": "과거 6년 전 진행했던 Java와 Go 마이크로서비스의 성능 비교 연구가 2026년 기준의 현대적인 런타임과 하드웨어를 바탕으로 다시 수행되었습니다. 이번 연구는 단순히 특정 언어의 우위를 가리는 것이 아니라 페이로드 크기와 동시성이 증가하는 환경에서 각 언어가 어떤 성능을 보이는지 심층적으로 분석하였습니다. 모든 벤치마크 코드와 상세 결과 데이터는 관련 저장소를 통해 공개되어 있으며, 정교하게 구현된 Java와 Go HTTP 서비스가 현대적인 환경에서 어느 정도의 성능 격차를 나타내는지 확인하는 데 초점을 맞추고 있습니다.",
-    "url": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Mark Nelson",
-    "pubDate": "2026-06-15T00:00:00.000Z",
-    "fetchedAt": "2026-06-16T12:24:45.938Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
-    "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
-    "summary": "Tool calling — the ability for an AI model to invoke application-defined functions and act on the results — is the essential building block of agentic AI systems.\n\nA model that can discover informatio",
-    "aiSummary": "Spring AI 2.0은 AI 모델이 애플리케이션 내 정의된 함수를 호출하고 그 결과를 처리하는 Tool calling 기능을 강화하여 에이전트형 AI 시스템 구축을 지원합니다.\n\n이번 업데이트의 핵심은 구성 가능하고 유연한 에이전트 아키텍처를 제공하는 데 있습니다. 이를 통해 개발자는 모델이 필요한 정보를 스스로 탐색하고 외부 작업을 수행하도록 유도할 수 있으며, 복잡한 비즈니스 로직을 AI 워크플로우에 원활하게 통합할 수 있습니다.\n\nSpring AI는 다양한 LLM과의 상호작용을 표준화하여 Tool calling 구현 과정을 단순화합니다. 개발자는 복잡한 구현 세부 사항에 얽매이지 않고도 일관된 방식으로 모델이 외부 도구를 식별하고 활용하게 함으로써 더욱 자율적이고 지능적인 애플리케이션을 개발할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "tzolov",
-    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
-    "title": "Spring Tools 5.2.0 released",
-    "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.2.0 release of the Spring Tools\nfor Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code.\nHightlights\n\nCl",
-    "aiSummary": "Spring Tools 5.2.0 버전이 정식으로 출시되었습니다. 이번 업데이트는 Visual Studio Code를 비롯하여 Cursor, Eclipse, Theia, 그리고 Claude Code 환경을 모두 지원합니다. 개발팀과 기여자의 협업을 통해 이루어진 이번 릴리스는 다양한 통합 개발 환경에서의 Spring 기반 애플리케이션 개발 효율성을 높이는 데 초점을 맞추고 있습니다. 구체적인 세부 사항과 개선점은 추후 공개될 상세 업데이트 내역을 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "martinlippert",
-    "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
-    "title": "Spotlight on SIG Storage",
-    "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project\nmoving forward. This time, we catch up with SIG\nStorage, the group responsible\nfor persistent data,",
-    "aiSummary": "Kubernetes 프로젝트를 지속적으로 발전시키는 그룹을 소개하는 SIG Spotlight 시리즈의 일환으로 SIG Storage를 조명합니다. SIG Storage는 Kubernetes 환경에서 영속적인 데이터를 관리하고 처리하는 핵심적인 역할을 담당하는 그룹입니다. 이들은 클러스터 내 데이터의 안정성과 가용성을 보장하기 위해 필요한 다양한 저장소 기술 표준을 정의하고 관련 기능을 개발하는 데 집중하고 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "Mon, 15 Jun 2026 00:00:00 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/introducing-openai-partner-network",
-    "title": "Introducing the OpenAI Partner Network",
-    "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-    "aiSummary": "OpenAI가 글로벌 파트너들의 기업용 AI 도입과 배포 및 기술 전환을 가속화하기 위해 OpenAI Partner Network를 출범하고 1억 5천만 달러를 투자합니다. 이번 프로그램을 통해 파트너사들은 보다 효율적인 AI 통합 환경을 구축하고 비즈니스 혁신을 도모할 수 있을 것으로 전망됩니다.",
-    "url": "https://openai.com/index/introducing-openai-partner-network",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Sun, 14 Jun 2026 17:00:00 GMT",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
     ]
   }
 ]
