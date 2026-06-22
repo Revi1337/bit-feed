@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations",
+    "title": "NationForge: A Self-Hosted Admin Panel for Civic Organizations",
+    "summary": "NationForge is an open-core Laravel 12 application that gives political movements, civic groups, and community organizations a self-hosted home for contacts, events, donations, and campaigns.\nThe post",
+    "aiSummary": "NationForge는 정치 운동, 시민 단체, 지역 사회 조직을 위한 오픈 코어 기반의 Laravel 12 애플리케이션입니다. 이 플랫폼은 연락처, 이벤트, 기부금, 캠페인 등을 자체적으로 호스팅하고 관리할 수 있는 관리자 패널 서비스를 제공합니다.",
+    "url": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 22 Jun 2026 04:14:20 +0000",
+    "fetchedAt": "2026-06-22T13:08:30.454Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "/blog/evolving-agentic-engineering-at-prisma",
+    "title": "Evolving Agentic Engineering at Prisma",
+    "summary": "A follow-up on what we learned after putting Drive into practice: where an opinionated process helped, where it became too heavy, and why we are moving toward leaner skills, stronger plans, and cheape",
+    "aiSummary": "Prisma는 Drive를 실제 업무에 적용하면서 얻은 교훈과 피드백을 공유했습니다. 정형화된 프로세스가 효과적이었던 부분과 지나치게 무겁고 비효율적이었던 영역을 분석하였으며, 모델과 하네스 기술이 발전함에 따라 더욱 가벼운 기술 구현, 강력한 계획 수립, 그리고 비용 효율적인 실행 방향으로 전환하고 있습니다.",
+    "url": "https://www.prisma.io/blog/evolving-agentic-engineering-at-prisma",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Mon, 22 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-22T13:08:30.454Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
     "id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
     "title": "Samsung Electronics brings ChatGPT and Codex to employees",
     "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
@@ -14,6 +47,21 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/21/better-tools-immutable-data/",
+    "title": "Better Tools for Immutable Data",
+    "summary": "We'll review new and upcoming Java features that improve the convenience, reliability, and performance of immutable data, including:\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tRecords, record patterns, and derived",
+    "aiSummary": "Java에서 immutable data의 편의성과 신뢰성, 성능을 향상시키기 위한 새로운 기능들과 향후 도입될 기능들을 소개합니다. 이번 발표에서는 Records, record patterns, derived record creation을 비롯하여 Value classes 및 objects, 유연한 생성자 본문을 사용한 early field initialization 등을 다룹니다. 아울러 lazy constants API, static final 필드를 위한 initialization diagnostics, Unsafe reflective mutation 및 역직렬화의 대안인 marshalling API, 그리고 향후 추가될 가능성이 있는 immutable arrays에 대해서도 살펴봅니다. 이러한 기능들이 서로 어떻게 보완되며 어떠한 JVM 최적화를 가능하게 하는지 설명하고, 각 애플리케이션에 적절히 적용하는 기준을 제시합니다. 관련된 상세 내용은 JavaOne 2026 플레이리스트에서 제공됩니다.",
+    "url": "https://inside.java/2026/06/21/better-tools-immutable-data/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Dan Smith",
+    "pubDate": "2026-06-21T00:00:00.000Z",
+    "fetchedAt": "2026-06-22T13:08:30.454Z",
+    "tags": [
+      "Java"
     ]
   },
   {

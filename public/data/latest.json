@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations",
+    "title": "NationForge: A Self-Hosted Admin Panel for Civic Organizations",
+    "summary": "NationForge is an open-core Laravel 12 application that gives political movements, civic groups, and community organizations a self-hosted home for contacts, events, donations, and campaigns.\nThe post",
+    "aiSummary": "NationForge는 정치 운동, 시민 단체, 지역 사회 조직을 위한 오픈 코어 기반의 Laravel 12 애플리케이션입니다. 이 플랫폼은 연락처, 이벤트, 기부금, 캠페인 등을 자체적으로 호스팅하고 관리할 수 있는 관리자 패널 서비스를 제공합니다.",
+    "url": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "Mon, 22 Jun 2026 04:14:20 +0000",
+    "fetchedAt": "2026-06-22T13:08:30.454Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "/blog/evolving-agentic-engineering-at-prisma",
+    "title": "Evolving Agentic Engineering at Prisma",
+    "summary": "A follow-up on what we learned after putting Drive into practice: where an opinionated process helped, where it became too heavy, and why we are moving toward leaner skills, stronger plans, and cheape",
+    "aiSummary": "Prisma는 Drive를 실제 업무에 적용하면서 얻은 교훈과 피드백을 공유했습니다. 정형화된 프로세스가 효과적이었던 부분과 지나치게 무겁고 비효율적이었던 영역을 분석하였으며, 모델과 하네스 기술이 발전함에 따라 더욱 가벼운 기술 구현, 강력한 계획 수립, 그리고 비용 효율적인 실행 방향으로 전환하고 있습니다.",
+    "url": "https://www.prisma.io/blog/evolving-agentic-engineering-at-prisma",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Mon, 22 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-22T13:08:30.454Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
     "id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
     "title": "Samsung Electronics brings ChatGPT and Codex to employees",
     "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
@@ -14,6 +47,21 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/21/better-tools-immutable-data/",
+    "title": "Better Tools for Immutable Data",
+    "summary": "We'll review new and upcoming Java features that improve the convenience, reliability, and performance of immutable data, including:\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tRecords, record patterns, and derived",
+    "aiSummary": "Java에서 immutable data의 편의성과 신뢰성, 성능을 향상시키기 위한 새로운 기능들과 향후 도입될 기능들을 소개합니다. 이번 발표에서는 Records, record patterns, derived record creation을 비롯하여 Value classes 및 objects, 유연한 생성자 본문을 사용한 early field initialization 등을 다룹니다. 아울러 lazy constants API, static final 필드를 위한 initialization diagnostics, Unsafe reflective mutation 및 역직렬화의 대안인 marshalling API, 그리고 향후 추가될 가능성이 있는 immutable arrays에 대해서도 살펴봅니다. 이러한 기능들이 서로 어떻게 보완되며 어떠한 JVM 최적화를 가능하게 하는지 설명하고, 각 애플리케이션에 적절히 적용하는 기준을 제시합니다. 관련된 상세 내용은 JavaOne 2026 플레이리스트에서 제공됩니다.",
+    "url": "https://inside.java/2026/06/21/better-tools-immutable-data/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Dan Smith",
+    "pubDate": "2026-06-21T00:00:00.000Z",
+    "fetchedAt": "2026-06-22T13:08:30.454Z",
+    "tags": [
+      "Java"
     ]
   },
   {
@@ -2370,166 +2418,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/subscriptionify",
-    "title": "Subscriptionify: Feature-Based Subscription Management for Laravel",
-    "summary": "Subscriptionify is a gateway-agnostic Laravel package for modeling plans, features, usage quotas, and optional overage billing without tying your application to a specific payment provider.\nThe post S",
-    "aiSummary": "Subscriptionify는 특정 결제 서비스에 종속되지 않고 유연하게 구독 모델을 관리할 수 있도록 설계된 Laravel 패키지입니다. 이 도구는 플랜 구성, 개별 기능 설정, 사용량 할당량 정의를 지원하며 필요에 따라 초과 사용량에 대한 과금 기능도 제공합니다. 결제 게이트웨이와 독립적인 구조를 갖추고 있어 개발자가 원하는 결제 시스템을 자유롭게 연동하여 애플리케이션의 구독 로직을 구현할 수 있습니다.",
-    "url": "https://laravel-news.com/subscriptionify?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "Mon, 15 Jun 2026 12:03:18 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "d4a483b5504b40c977cc5d689275cac967902536",
-    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
-    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog p",
-    "aiSummary": "뉴욕에서 개최된 AWS Summit을 통해 다양한 신규 서비스와 기술 업데이트가 발표되었습니다. \n\n가장 눈에 띄는 변화는 AWS FinOps Agent의 프리뷰 공개입니다. 이 도구는 클라우드 비용을 보다 세밀하게 추적하고 최적화할 수 있도록 지원하며 기업의 클라우드 운영 효율을 높여줄 것으로 기대됩니다. \n\nAI 분야에서는 Google의 최신 모델인 Gemma 4가 Amazon Bedrock에 공식적으로 추가되었습니다. 이를 통해 사용자는 Bedrock 환경 내에서 보다 강력한 성능의 오픈 모델을 간편하게 활용할 수 있게 되었습니다. \n\n이외에도 Kiro Pro Max를 포함한 신규 서비스 및 기술 업데이트가 함께 소개되었으며 상세한 내용은 AWS 공식 블로그를 통해 확인할 수 있습니다. 이번 업데이트는 AWS 생태계 내에서의 개발 편의성과 인프라 관리 효율을 극대화하는 데 중점을 두고 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Esra Kayabali",
-    "pubDate": "Mon, 15 Jun 2026 11:41:48 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.137.1",
-    "title": "0.137.1",
-    "summary": "Fixes\n🚨 Fix typing checks for APIRoute. PR #15765 by @tiangolo.\n🐛 Fix bug, allow empty path in path operation in prefixless router. PR #15763 by @tiangolo.",
-    "aiSummary": "FastAPI의 0.137.1 업데이트를 통해 두 가지 버그가 수정되었습니다.\n\n먼저 APIRoute와 관련된 타입 체크 오류를 수정하여 안정성을 개선했습니다.\n\n또한 접두사가 없는 라우터의 경로 작업에서 빈 경로를 허용하지 않던 버그를 해결했습니다. 이번 업데이트는 모두 @tiangolo에 의해 진행되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.1",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-06-15T11:27:57.000Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
-    "title": "How I learned Go in a Day with Antigravity 2.0 and How You Can Do the Same",
-    "summary": "I have been exploring how to reclaim my software stack from NPM dependency overhead and replace my resource-intensive Node.js runtime with a compiled, single-binary Go CLI. The result of my efforts is",
-    "aiSummary": "사용자는 기존 Node.js 기반의 무거운 의존성을 가진 CLI 도구를 성능이 뛰어나고 메모리 효율적인 Go 언어 기반의 단일 바이너리로 재구축하는 과정을 공유합니다. 이번 마이그레이션 프로젝트는 Antigravity 2.0이라는 AI 도구를 활용하여 진행되었으며, 단순히 코드를 변환하는 것을 넘어 학습과 설계 중심의 개발 철학을 적용했습니다.\n\n프로젝트의 첫 단계는 목표 설정과 기술 스택 검토였습니다. 작성자는 제로 의존성, 높은 성능, 무신뢰 보안 모델을 목표로 삼았으며, Rust와 Python, Zig 등을 검토한 끝에 선형적인 코드 구조와 풍부한 표준 라이브러리를 갖춘 Go를 최적의 언어로 선택했습니다. 이후 Antigravity에 Go 관련 Agent Skill을 학습시켜 개발 환경의 기준을 맞추고, 기존 TypeScript 기반의 로직을 Go 언어로 체계적으로 변환했습니다.\n\n개발 과정에서는 테스트 주도 개발(TDD)을 핵심 원칙으로 삼았습니다. Agent가 table-driven test 패턴으로 테스트 코드를 먼저 작성하게 하여 ReDoS와 같은 보안 취약점을 방지하고, 에러 처리 명령을 준수하도록 설계했습니다. 또한 코드의 신뢰성을 확보하기 위해 개별 명령어 단위로 subagent를 활용하는 병렬화 전략을 사용했으며, 이를 통해 전체 구조를 유지하면서도 개별 기능의 완성도를 높였습니다.\n\n마지막으로 CI/CD 파이프라인 구축과 Agent Skill화를 통해 개발 경험을 자산화했습니다. 작성자는 이번 과정에서 통합 개발 환경(IDE)에 의존하는 대신 AI를 지휘하는 건축가로서 프로젝트를 주도하며 Go 언어를 빠르게 습득했습니다. 결론적으로, 이번 경험은 기술적 전환뿐만 아니라 AI 에이전트를 효과적으로 관리하고 아키텍처를 설계하는 엔지니어링 역량을 성장시키는 계기가 되었습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Alex \"Sandu\" Astrum"
-      ],
-      "title": [
-        "Developer Relations, Antigravity"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 15 Jun 2026 09:29:00 +0000",
-    "fetchedAt": "2026-06-16T02:03:24.292Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.1.27",
-    "title": "v11.1.27",
-    "summary": "What's Changed\nfix(core): sse async handlers teardown issue by @kamilmysliwiec in #17131\nfix(platform-fastify): forRoutes middleware ending slash  by @kamilmysliwiec in #17138\nFull Changelog: v11.1.26",
-    "aiSummary": "NestJS v11.1.27 버전에서는 두 가지 주요 수정 사항이 포함되었습니다.\n\ncore 패키지에서는 sse async 핸들러의 종료 처리와 관련된 문제를 해결하였습니다.\n\nplatform-fastify 패키지에서는 forRoutes 미들웨어 사용 시 발생하는 경로 끝 슬래시 처리 오류를 수정하였습니다.\n\n자세한 변경 사항은 이전 버전인 v11.1.26과의 전체 변경 로그를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.27",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-06-15T09:17:02.000Z",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
-    "title": "Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia) -- Herb Sutter",
-    "summary": "Hot off the press from the latest ISO C++ meeting:\nTrip report: June 2026 ISO C++ standards meeting (Brno, Czechia)\ntl;dr… A few highlights\nAdopted this week in draft C++29: Complete catalog of all un",
-    "aiSummary": "2026년 6월 체코 브르노에서 개최된 ISO C++ 위원회 회의 결과가 발표되었습니다. 이번 회의를 통해 C++29 표준 초안에 다수의 새로운 기능이 공식적으로 채택되었습니다.\n\n주요 성과로는 언어의 일관성과 생산성을 높이기 위한 다양한 개선 사항들이 포함되었습니다. 특히 개발자들이 오랫동안 요구해 온 기능들이 표준안에 반영되면서 C++의 현대화 작업이 한층 더 속도를 내게 되었습니다.\n\n이번 업데이트는 개발자 경험을 향상시키고 코드의 안전성을 강화하는 데 초점을 맞추고 있습니다. 향후 발표될 상세 기술 문서와 변경 사항들에 대해 전 세계 C++ 커뮤니티의 관심이 집중되고 있습니다.",
-    "url": "https://isocpp.org//blog/2026/06/trip-report-june-2026-iso-cpp-standards-meeting-brno-czechia-herb-sutter",
-    "category": "프로그래밍 언어",
-    "source": "ISO C++",
-    "author": "Blog Staff",
-    "pubDate": "Mon, 15 Jun 2026 08:09:37 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "C++"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=49833",
-    "title": "Group Replication VS Percona XtraDB Cluster: The True Cost of Consistency",
-    "summary": "Overview When building high-availability MySQL environments, the choice between MySQL Group Replication (GR) and Percona XtraDB Cluster (PXC) often comes down to how they handle the eternal database d",
-    "aiSummary": "MySQL 고가용성 환경을 구축할 때 선택하게 되는 MySQL Group Replication과 Percona XtraDB Cluster는 데이터 일관성 처리 방식에서 근본적인 차이를 보입니다.\n\nMySQL Group Replication은 MySQL 내장 솔루션으로 통합성이 뛰어나며 트랜잭션의 순서와 충돌 해결을 관리하는 분산 합의 알고리즘인 Paxos를 기반으로 합니다. 이 방식은 읽기 및 쓰기 확장성을 제공하지만 쓰기 지연 시간이 네트워크 상태에 민감하게 반응한다는 특징이 있습니다.\n\n반면 Percona XtraDB Cluster는 Galera 라이브러리를 기반으로 하며 동기식 복제를 엄격하게 준수합니다. 노드 간의 트랜잭션 인증을 통해 데이터의 완전성을 강력하게 보장하지만 클러스터 내 모든 노드가 동일한 처리 능력을 갖추어야 하며 네트워크 지연에 따른 성능 저하가 발생할 수 있습니다.\n\n두 솔루션은 각기 다른 목적에 부합하는 장단점을 가지고 있습니다. MySQL Group Replication은 오피셜 환경에서의 유연한 관리와 클라우드 네이티브 환경에 적합하며 Percona XtraDB Cluster는 데이터 일관성이 최우선인 엄격한 금융 및 엔터프라이즈 데이터베이스 운영 환경에 더욱 최적화되어 있습니다. 따라서 운영자는 시스템의 가용성 요구사항과 인프라 네트워크 환경을 고려하여 적절한 기술 스택을 선택해야 합니다.",
-    "url": "https://www.percona.com/blog/group-replication-vs-percona-xtradb-cluster-the-true-cost-of-consistency/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Marco Tusa",
-    "pubDate": "Mon, 15 Jun 2026 06:58:17 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=49852",
-    "title": "The Failover Brownout: Rethinking High Availability in MySQL Group Replication",
-    "summary": "It is time to talk again about Flow control and group replication. This time with a special eye on the use of Group Replication in the Kubernetes context. In this article we will dig a bit on how it w",
-    "aiSummary": "MySQL Group Replication의 핵심 기제인 Flow Control이 Kubernetes 환경에서 고가용성을 유지하는 데 어떤 제약이 있는지 분석합니다. 특히 특정 노드 장애 시 발생하는 Failover 과정에서 시스템의 처리량이 급격히 저하되는 Brownout 현상의 원인을 규명합니다.\n\n단순히 노드를 복구하는 것을 넘어 네트워크 지연과 리소스 경합이 클러스터 전체의 성능에 미치는 영향을 설명합니다. Kubernetes 내에서 Group Replication을 운영할 때 발생하는 트래픽 제어 문제를 해결하기 위한 설정 최적화와 아키텍처 개선 방안을 제시합니다.\n\n기존의 고가용성 전략이 가진 한계를 지적하며 시스템 안정성을 보장하기 위한 새로운 접근법을 모색합니다. 효율적인 클러스터 운영을 위해 Flow Control 메커니즘을 보다 정밀하게 조정하고 예측 가능한 장애 대응 시스템을 구축하는 것이 필요합니다.",
-    "url": "https://www.percona.com/blog/the-failover-brownout-rethinking-high-availability-in-mysql-group-replication/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Marco Tusa",
-    "pubDate": "Mon, 15 Jun 2026 06:57:24 +0000",
-    "fetchedAt": "2026-06-15T15:17:21.408Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications",
-    "title": "LaraOwl: Self-Hosted Monitoring for Laravel Applications",
-    "summary": "LaraOwl is an open-source, self-hosted observability platform for Laravel that tracks requests, exceptions, queries, and jobs, with a client package that ships telemetry to a server you run yourself.\n",
-    "aiSummary": "LaraOwl은 Laravel 애플리케이션을 위한 오픈소스이자 자체 호스팅이 가능한 관측성 플랫폼입니다.\n\n이 도구는 클라이언트 패키지를 통해 Laravel 애플리케이션 내의 요청, 예외 사항, 데이터베이스 쿼리 및 작업 내역을 추적합니다.\n\n사용자는 제공되는 클라이언트 패키지를 활용하여 직접 운영하는 서버로 원격 측정 데이터를 전송하고 이를 모니터링할 수 있습니다.",
-    "url": "https://laravel-news.com/laraowl-self-hosted-monitoring-for-laravel-applications?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "Mon, 15 Jun 2026 03:53:03 +0000",
-    "fetchedAt": "2026-06-16T18:59:30.600Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
