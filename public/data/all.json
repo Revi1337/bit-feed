@@ -1,5 +1,72 @@
 [
   {
+    "id": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
+    "title": "This Week in Spring - June 23rd, 2026",
+    "summary": "Hi Spring fans! In this installment, we look at the wide and wonderful world of Spring, as usual, and there's a good amount to get to, fresh off the recent Spring Boot 4.1 generation release train, so",
+    "aiSummary": "최신 Spring Boot 4.1 릴리스에 맞추어 다양한 Spring 생태계 소식과 기술 콘텐츠가 공개되었습니다. Spring Batch와 MongoDB 그리고 Spring Boot 4.1을 결합하여 활용하는 방법이 소개되었으며, A Bootiful Podcast를 통해서도 최신 Spring Boot 4.1 프로젝트의 주요 변화를 다루었습니다. InfoQ에서도 이번 Spring Boot 4.1 릴리스 소식과 Spring 커뮤니티의 최신 동향을 상세히 보도하였습니다.\n\n특히 AI 분야에서 Spring AI를 활용한 새로운 시도들이 돋보입니다. Christian Tsolov는 Spring AI 2.0의 새로운 도구 호출 API(tool calling API)를 상세히 소개하였습니다. 또한 Craig Walls는 ElevenLabs의 음성 제어 기술을 접목한 Spring AI 레시피와 Embabel을 활용한 에이전트 AI(agentic AI) 구현법을 공유하였습니다. 더불어 Spring AI와 Binance API를 결합하여 AI 기반의 트레이딩 어시스턴트를 구축하는 흥미로운 개발 사례도 함께 소개되었습니다.\n\n그 외에도 Spring Modulith와 통합하여 사용할 수 있는 Spring Cloud Stream 외부화 모듈이 주목을 받았으며, Spring Boot 4.1의 구체적인 변경 사항과 특징은 공식 프로젝트 릴리스 하이라이트 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T10:45:50.658Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "/blog/price-the-work-not-the-workflow",
+    "title": "Price the Work, Not the Workflow",
+    "summary": "Agents can ship, preview, test, and retry in loops. Infrastructure pricing should charge for the work an app performs, not the workflow around it.",
+    "aiSummary": "Agents는 루프 내에서 배포, 미리보기, 테스트, 재시도를 반복하여 수행할 수 있습니다. 따라서 Infrastructure 요금제는 이와 같은 워크플로우 과정에 비용을 부과하는 대신, App이 실제로 수행한 작업 자체를 기준으로 비용을 청구해야 합니다.",
+    "url": "https://www.prisma.io/blog/price-the-work-not-the-workflow",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T10:45:50.658Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "/blog/search-prisma-docs-from-your-coding-agent",
+    "title": "Search the Prisma Docs Using Your Coding Agent",
+    "summary": "The Prisma MCP server now answers documentation questions in your editor. Ask about ORM, Postgres, or Compute and get a cited answer, no tab-switching, no extra setup.",
+    "aiSummary": "Prisma는 개발자가 코드 에디터 내에서 문서를 검색할 수 있도록 지원하는 Prisma MCP 서버를 출시했습니다. 이를 통해 개발자는 탭을 전환하거나 별도의 추가 설정을 할 필요 없이 에디터 안에서 ORM, Postgres, Compute에 대해 질문하고 출처가 포함된 정확한 답변을 바로 확인할 수 있습니다.",
+    "url": "https://www.prisma.io/blog/search-prisma-docs-from-your-coding-agent",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T10:45:50.658Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/omio",
+    "title": "How Omio is building the future of conversational travel",
+    "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+    "aiSummary": "Omio는 OpenAI의 기술을 도입하여 대화형 여행 경험을 제공하고 제품 개발 속도를 가속화하고 있습니다. 이를 통해 Omio는 AI 네이티브 기업으로의 전환을 추진하며 여행 업계의 미래를 선도해 나가고 있습니다.",
+    "url": "https://openai.com/index/omio",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T10:45:50.658Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "28b0196fbc8cdde62bdcc235123c0f1926871df6",
     "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
     "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control,",
@@ -7628,6 +7695,22 @@
       "Qwen",
       "LLM",
       "Alibaba"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/ai-adoption-security",
+    "title": "AI adoption in security: Top use cases and mistakes to avoid",
+    "summary": "Discover top AI use cases in cybersecurity and key pitfalls to avoid when adopting AI in your SOC to improve threat detection and response.",
+    "aiSummary": "사이버 보안 분야에서 AI를 도입할 때 참고해야 할 주요 활용 사례와 보안관제센터인 SOC에 AI를 적용할 때 피해야 할 핵심 실수들을 다룹니다. 이를 통해 보안 위협 탐지 및 대응 역량을 효과적으로 향상시키기 위해 고려해야 할 사항들을 소개합니다.",
+    "url": "https://www.elastic.co/blog/ai-adoption-security",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Security Team",
+    "pubDate": "Tue, 08 Jul 2025 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T10:45:50.658Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
