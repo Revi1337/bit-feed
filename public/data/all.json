@@ -1,5 +1,21 @@
 [
   {
+    "id": "28b0196fbc8cdde62bdcc235123c0f1926871df6",
+    "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+    "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control,",
+    "aiSummary": "AWS가 새로운 서버리스 컴퓨팅 프리미티브인 AWS Lambda MicroVMs를 출시했습니다. 이는 세션 간에 커널이나 리소스를 공유하지 않는 VM 수준의 격리된 샌드박스를 제공합니다. 인프라 관리 부담 없이 신속한 시작 및 재개, 완전한 수명 주기 제어, 최대 8시간 동안의 상태 보존 기능을 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Micah Walter",
+    "pubDate": "Mon, 22 Jun 2026 22:40:07 +0000",
+    "fetchedAt": "2026-06-23T01:26:46.391Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/python-udf-in-bigquery-now-generally-available/",
     "title": "Boost BigQuery with Python: Managed Python UDFs now generally available",
     "summary": "SQL is the industry standard for high-performance structured data analysis. However, expressing complex procedural logic, scientific computations, advanced string manipulations, or machine learning wo",
