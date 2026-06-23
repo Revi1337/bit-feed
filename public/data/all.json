@@ -1,5 +1,276 @@
 [
   {
+    "id": "https://openai.com/index/gpt-5-immunology-mystery",
+    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+    "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://openai.com/index/gpt-5-immunology-mystery",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Tue, 23 Jun 2026 17:00:00 GMT",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91616",
+    "title": "What is an SBOM (and Why Can’t You Ship Without One)?",
+    "summary": "In Omdia's 2026 software supply chain security report, 73% of organizations that generate SBOMs say they enable more efficient vulnerability mitigation, yet 86% still find the generation process chall",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://www.docker.com/blog/what-is-an-sbom/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "Tue, 23 Jun 2026 16:48:20 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-22-automatic-dependabot-access-to-github-hosted-registries",
+    "title": "Automatic Dependabot access to GitHub-hosted registries",
+    "summary": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings",
+    "aiSummary": "Dependabot이 personal access token 없이도 비공개 GitHub Packages 레지스트리에 자동으로 접근하여 패키지 정보를 읽을 수 있도록 기능이 업데이트되었습니다. 패키지 설정 메뉴 내 Manage Actions access를 통해 리포지토리에 권한을 부여하면 추가적인 토큰 설정 없이도 안전하고 간편하게 비공개 패키지를 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 23 Jun 2026 16:46:05 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/release/v22.23.1?1782233121150",
+    "title": "Node.js 22.23.1 (LTS)",
+    "summary": "Rafael Gonzaga2026-06-23, Version 22.23.1 'Jod' (LTS), @RafaelGSS (https://nodejs.org/en/blog/release/v22.23.1#2026-06-23-version-22231-jod-lts-rafaelgss)\nThis release includes a fix for an unexpected",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://nodejs.org/en/blog/release/v22.23.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "Tue, 23 Jun 2026 16:45:21 GMT",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+    "title": "Copilot CLI: New terminal interface is generally available",
+    "summary": "The redesigned terminal interface for GitHub Copilot CLI that we previewed at Microsoft Build 2026 is now generally available. You get a tabbed layout for working with GitHub directly from…\nThe post C",
+    "aiSummary": "Microsoft Build 2026에서 미리 선보였던 GitHub Copilot CLI의 새롭게 디자인된 터미널 인터페이스가 정식 출시되었습니다. 이 새로운 인터페이스는 탭 레이아웃을 제공하여 사용자가 터미널에서 직접 GitHub와 연동하여 더욱 편리하게 작업할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 23 Jun 2026 16:35:45 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/management-tools/query-logs-and-traces-with-sql-in-observability-analytics/",
+    "title": "Log Analytics is now Observability Analytics: Query logs and traces with SQL",
+    "summary": "To effectively operate and troubleshoot applications, developers and site reliability engineers (SREs) need to understand the full context of their system's behavior, typically as part of their loggin",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://cloud.google.com/blog/products/management-tools/query-logs-and-traces-with-sql-in-observability-analytics/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Joy Wang"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 23 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/verifiable-trust-in-the-ai-era-whats-new-in-confidential-computing/",
+    "title": "Verifiable, private AI: Google Cloud expands Confidential Computing frontiers",
+    "summary": "Protecting sensitive data used with AI is a critical part of our commitment to providing advanced and secure cloud infrastructure. Confidential Computing cryptographically protects data in use in hard",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/verifiable-trust-in-the-ai-era-whats-new-in-confidential-computing/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sam Lugani"
+      ],
+      "title": [
+        "Product Lead, Confidential Computing, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 23 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-19-deprecation-of-python-3-9-for-dependabot",
+    "title": "Deprecation of Python 3.9 for Dependabot",
+    "summary": "Dependabot no longer supports Python version 3.9, which has reached its end-of-life. If you continue to use Python 3.9, there’s a risk that Dependabot will not create pull requests to…\nThe post Deprec",
+    "aiSummary": "Dependabot이 공식 수명이 만료된 Python 3.9 버전에 대한 지원을 중단합니다. 사용자 개발 환경에서 Python 3.9 버전을 계속 사용할 경우 Dependabot이 정상적으로 pull requests를 생성하지 못할 위험이 있으므로 주의가 필요합니다.",
+    "url": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 23 Jun 2026 15:46:30 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://hacks.mozilla.org/?p=48374",
+    "title": "PACT: Anonymous Credentials for the Web",
+    "summary": "This is the technical companion to our update on Distilled, “Keeping the web open and private in the bot era.” Here we take a deeper look at the problem space, the design we’re proposing, and the prob",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "MDN Web Docs (Hacks)",
+    "author": "Dennis Jackson",
+    "pubDate": "Tue, 23 Jun 2026 15:29:52 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "MDN",
+      "Web Standards"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/telecommunications/open-models-global-networks-how-att-and-gsma-are-accelerating-innovation-with-gemma/",
+    "title": "Open models, global networks: How AT&T and GSMA are accelerating telecom innovation with Gemma",
+    "summary": "Telecommunications is an incredibly complex, highly specialized domain. Modern mobile networks are inherently multi-vendor, featuring diverse and often proprietary data structures. While AI has made m",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://cloud.google.com/blog/topics/telecommunications/open-models-global-networks-how-att-and-gsma-are-accelerating-innovation-with-gemma/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sridhar Gollapudi"
+      ],
+      "title": [
+        "Telco Market Lead, Global Telcos"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 23 Jun 2026 12:00:00 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/monitor-and-control-schedules-queues-and-errors-in-laravel-with-watchtower",
+    "title": "Monitor and Control Schedules, Queues, and Errors in Laravel with Watchtower",
+    "summary": "A Laravel package by Devifyo that combines scheduled tasks, queues, jobs, and exceptions into one production dashboard — with bulk retries, on-demand task runs, and error resolution built in.\nThe post",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://laravel-news.com/monitor-and-control-schedules-queues-and-errors-in-laravel-with-watchtower?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Tue, 23 Jun 2026 02:03:53 +0000",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+    "title": "Mitigated API authentication bypass for python.org download metadata",
+    "summary": "Vulnerability mitigated in python.org with follow-up third-party audit from Trail of Bits",
+    "aiSummary": "python.org의 다운로드 메타데이터와 관련된 API 인증 우회 취약점이 해결되었습니다. 이번 취약점 완화 조치와 함께 보안 전문 업체인 Trail of Bits를 통한 제3자 보안 감사가 후속으로 진행되었습니다.",
+    "url": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Seth Larson",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/06/python-3150-beta-3/",
+    "title": "Python 3.15.0 beta 3 is here!",
+    "summary": "The penultimate 3.15 beta is out!",
+    "aiSummary": "Python 3.15.0의 정식 출시를 앞두고 마지막에서 두 번째 베타 버전인 Python 3.15.0 beta 3가 공개되었습니다. 이번 버전은 향후 정식 릴리스 전 안정성을 점검하고 마무리 피드백을 수렴하는 단계입니다.",
+    "url": "https://blog.python.org/2026/06/python-3150-beta-3/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+    "title": "Self-Correcting Structured Output in Spring AI 2.0",
+    "summary": "Large language models are text-in, text-out systems — their interface is natural language.\n\nNatural language is a great interface for humans and a poor one for software. The moment downstream code nee",
+    "aiSummary": "AI 요약을 생성하는 중 오류가 발생했습니다.",
+    "url": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-23T17:23:27.775Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
     "title": "This Week in Spring - June 23rd, 2026",
     "summary": "Hi Spring fans! In this installment, we look at the wide and wonderful world of Spring, as usual, and there's a good amount to get to, fresh off the recent Spring Boot 4.1 generation release train, so",
