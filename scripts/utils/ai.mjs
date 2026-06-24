@@ -13,8 +13,8 @@ export async function generateAISummary(title, content) {
   const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
   // 9월 28일 이후 Google AI Pro 계정이 끝나기 때문에 다시 flash-lite 를 사용해야 함
-  // let model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
-  let model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+  let model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
+  // let model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
   const isFlash35 = model.model.includes("gemini-3.5-flash");
 
   if (isFlash35) {
