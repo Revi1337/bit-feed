@@ -120,9 +120,10 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
             const subjects = item.subject.split(',').map(s => s.trim()).filter(Boolean);
             itemCategories = itemCategories.concat(subjects);
           }
-          return itemCategories.some(cat =>
-            feed.allowedCategories.some(allowed => cat.toLowerCase() === allowed.toLowerCase())
-          );
+          return itemCategories.some(cat => {
+            const catStr = typeof cat === 'string' ? cat : String(cat._ || cat);
+            return feed.allowedCategories.some(allowed => catStr.toLowerCase() === allowed.toLowerCase());
+          });
         });
       }
       items = items.slice(0, MAX_ARTICLES_PER_SOURCE);
@@ -135,7 +136,8 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
         }
 
         let itemPubDate = item.pubDate || item.isoDate || runTime;
-        if (new Date(itemPubDate) > new Date(runTime)) {
+        let pubTime = new Date(itemPubDate).getTime();
+        if (isNaN(pubTime) || pubTime > new Date(runTime).getTime()) {
           itemPubDate = runTime;
         }
 

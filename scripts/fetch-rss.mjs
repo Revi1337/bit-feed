@@ -42,7 +42,11 @@ async function fetchAllFeeds() {
   await processAiSummaries(newLatestNews, tempPath);
 
   // 3. Cleanup and Save
-  newLatestNews.forEach(item => delete item.cleanContent);
+  newLatestNews.forEach(item => {
+    if (item.aiSummary && !item.aiSummary.includes("AI 요약을 생성하는 중 오류가 발생했습니다")) {
+      delete item.cleanContent;
+    }
+  });
 
   // Merge and sort ALL data
   const updatedAllNews = [...newLatestNews, ...existingNews];

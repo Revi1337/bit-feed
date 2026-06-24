@@ -35,7 +35,7 @@ async function fillMissing() {
     console.log('latest.json not found or invalid.');
   }
 
-  const hasError = (item) => item.aiSummary && item.aiSummary.includes("AI 요약을 생성하는 중 오류가 발생했습니다");
+  const hasError = (item) => !item.aiSummary || item.aiSummary.includes("AI 요약을 생성하는 중 오류가 발생했습니다");
 
   const missingItemsAll = allData.filter(hasError);
   

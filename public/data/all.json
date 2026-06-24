@@ -288,6 +288,22 @@
     ]
   },
   {
+    "id": "https://vite.dev/blog/announcing-vite8-1",
+    "title": "Announcing Vite 8.1",
+    "summary": "Vite 8.1 is out! ​ (https://vite.dev/blog/announcing-vite8-1#vite-8-1-is-out)June 23, 2026Vite 8 was released (https://vite.dev/blog/announcing-vite8) in March with a single unified bundler powered by",
+    "aiSummary": "Vite 8.1이 정식으로 출시되었습니다. 지난 3월 Rolldown 기반의 통합 번들러를 도입한 Vite 8은 현재 주간 다운로드 4천160만 회를 기록하며 빠르게 성장하고 있습니다. 이번 업데이트는 기존 버전의 업그레이드 과정에서 발생한 회귀 현상을 해결하는 한편, 새로운 기능을 추가하는 데 중점을 두었습니다.\n\n가장 주목할 만한 변화는 실험적인 번들 개발 모드인 Experimental Bundled Dev Mode의 도입입니다. 과거 풀 번들 모드로 불렸던 이 기능은 대규모 애플리케이션의 모듈 수 증가로 인한 성능 저하 문제를 해결하기 위해 설계되었습니다. 1만 개의 React 컴포넌트를 사용하는 환경에서 테스트한 결과, 기존의 언번들 방식 개발 서버 대비 시작 속도는 약 15배, 전체 페이지 재로딩 속도는 약 10배 향상되는 성과를 거두었습니다.\n\n실제 환경에서의 검증 결과 또한 고무적입니다. Linear 팀의 사례에서는 콜드 스타트 렌더링 속도가 최대 3배 향상되었으며, 전체 재로딩 속도는 40% 개선되었고 네트워크 요청은 10배가량 감소했습니다. 이러한 성능 향상에도 불구하고 HMR은 애플리케이션 크기에 상관없이 즉각적인 반응 속도를 유지합니다. \n\nVite 팀은 앞으로도 오픈소스 생태계 발전을 위해 더 많은 기여자의 참여를 독려하고 있으며, 관련 공식 문서와 가이드를 통해 구체적인 시작 방법 및 기여 방안을 안내하고 있습니다. 새로운 기능은 공식 홈페이지를 통해 확인할 수 있으며, 다양한 프레임워크 환경에서 직접 설치하여 체험해 볼 수 있습니다.",
+    "url": "https://vite.dev/blog/announcing-vite8-1",
+    "category": "프론트엔드",
+    "source": "Vite Blog",
+    "author": "Vite Team",
+    "pubDate": "2026-06-23T12:00:00.000Z",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Vite",
+      "Build"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/telecommunications/open-models-global-networks-how-att-and-gsma-are-accelerating-innovation-with-gemma/",
     "title": "Open models, global networks: How AT&T and GSMA are accelerating telecom innovation with Gemma",
     "summary": "Telecommunications is an incredibly complex, highly specialized domain. Modern mobile networks are inherently multi-vendor, featuring diverse and often proprietary data structures. While AI has made m",
@@ -5059,6 +5075,23 @@
     ]
   },
   {
+    "id": "https://redis.io/blog/redis-data-integration-in-redis-cloud-is-now-ga-in-aws/",
+    "title": "Redis Data Integration in Redis Cloud is now GA in AWS",
+    "summary": "Today, we’re announcing the general availability of Redis Data Integration (RDI) in Redis Cloud on AWS.\n\nRDI in Redis Cloud is our fully-managed service for moving operational and analytical data into",
+    "aiSummary": "Redis는 AWS 상의 Redis Cloud에서 Redis Data Integration 서비스를 정식 출시했습니다. 이 서비스는 운영 및 분석 데이터를 실시간에 가깝게 Redis로 이동시키고 지속적으로 동기화하는 완전 관리형 솔루션입니다.\n\nRedis Data Integration은 복잡한 데이터 파이프라인 구축 없이도 소스 데이터베이스의 데이터를 Redis로 간편하게 통합할 수 있도록 지원합니다. 이를 통해 사용자는 실시간 애플리케이션 개발에 집중할 수 있으며, 데이터 일관성을 유지하면서도 Redis의 고성능 데이터 처리 능력을 효율적으로 활용할 수 있습니다.\n\n이번 정식 출시를 통해 Redis Cloud 사용자는 데이터 통합 과정의 운영 부담을 줄이고 인프라 관리 효율성을 높일 수 있게 되었습니다. 본 서비스는 AWS 환경에서 Redis를 운영하는 기업들에게 보다 원활한 데이터 통합 환경을 제공할 것으로 기대됩니다.",
+    "url": "https://redis.io/blog/redis-data-integration-in-redis-cloud-is-now-ga-in-aws/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Pieter Cailliau, Mirko Ortensi",
+    "pubDate": "Mon, 08 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/06/08/java-vscode-extension-update/",
     "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
     "summary": "Oracle Java Platform Extension for Visual Studio Code version 26.0.0 is now live on Visual Studio Code Marketplace  and OpenVSX Registry.\n\t\t\t\tJava Visual Studio Plugin 26.0.0  is based on Apache NetBe",
@@ -5140,6 +5173,39 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+    "title": "The latest AI news we announced in May 2026",
+    "summary": "Here are Google’s latest AI updates from May 2026",
+    "aiSummary": "Google은 2026년 5월을 맞아 자사의 최신 AI 기술 업데이트 사항을 발표하였습니다. 이번 발표에는 Google의 AI 생태계를 확장하고 사용자 경험을 개선하기 위한 다양한 기술적 진보와 서비스 개선안이 포함되어 있습니다. 구체적인 세부 사항은 공식 채널을 통해 순차적으로 공개될 예정입니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Blog Team"
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Fri, 05 Jun 2026 14:45:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -5662,6 +5728,23 @@
     ]
   },
   {
+    "id": "https://redis.io/blog/diving-deep-into-rediss-new-array-data-type/",
+    "title": "Diving deep into Redis’s new array data type",
+    "summary": "The most popular data types in Redis are strings, lists, hashes, sets, and sorted sets. Each is purpose-built around a specific way of organizing data, enabling developers to solve a wide range of tec",
+    "aiSummary": "Redis가 기존 데이터 타입의 한계를 극복하기 위해 새로운 Array 데이터 타입을 도입했습니다. 기존의 String, List, Hash, Set, Sorted Set은 각각의 특수한 목적에 맞게 설계되었으나, 특정 데이터 구조를 효율적으로 처리하는 데에는 제약이 있었습니다.\n\n새롭게 추가된 Array 타입은 고정된 데이터 구조를 더 효율적으로 다룰 수 있도록 지원하며, 메모리 사용량 최적화와 성능 향상에 초점을 맞추고 있습니다. 특히 개발자들이 기존 데이터 구조로는 구현하기 어려웠던 복잡한 계층형 데이터나 시퀀스 데이터를 보다 직관적이고 빠르게 관리할 수 있게 합니다.\n\n이번 업데이트를 통해 Redis는 기존의 범용적인 데이터 저장소 역할을 넘어, 더 복잡한 애플리케이션 요구사항을 수용할 수 있는 고성능 데이터 플랫폼으로 진화하고 있습니다. 개발자들은 Array 타입을 활용하여 인덱스 기반의 빠른 접근과 메모리 밀도가 높은 데이터 저장 전략을 수립할 수 있게 되었습니다.",
+    "url": "https://redis.io/blog/diving-deep-into-rediss-new-array-data-type/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Ricardo Ferreira",
+    "pubDate": "Tue, 02 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
     "id": "https://blog.python.org/2026/06/python-3150-beta-2/",
     "title": "Python 3.15.0 beta 2 is here!",
     "summary": "The antepenultimate 3.15 beta is out!",
@@ -5741,6 +5824,39 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+    "title": "How we used Gemini to build Google I/O 2026",
+    "summary": "Learn how Googlers used AI to produce Google I/O 2026.",
+    "aiSummary": "Google의 개발자와 직원들이 Google I/O 2026 행사를 준비하고 제작하는 과정에서 Gemini 모델을 어떻게 활용했는지에 대한 사례를 소개합니다.\n\n이번 행사는 기획부터 운영에 이르는 전 과정에 AI 기술이 적극적으로 도입되었습니다. 특히 복잡한 워크플로우를 최적화하고 콘텐츠 생산 효율을 높이는 데 Gemini가 핵심적인 역할을 수행했습니다.\n\n기술적인 세부 사항과 더불어 Google 내부 팀이 실제 프로젝트에 AI를 통합하면서 얻은 통찰과 경험을 공유하고 있습니다. 이를 통해 향후 AI가 대규모 이벤트 기획 및 운영 방식에 어떠한 변화를 가져올 수 있는지 구체적인 방향성을 제시합니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Marvin Chow"
+      ],
+      "title": [
+        "VP"
+      ],
+      "department": [
+        "Marketing"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Mon, 01 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -5857,6 +5973,39 @@
     "fetchedAt": "2026-06-20T01:34:25.373Z",
     "tags": [
       "C++"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+    "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+    "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+    "aiSummary": "Google I/O 2026에서 발표된 Gemini Omni와 Gemini 3.5의 성능을 확인할 수 있는 9가지 시연 영상이 공개되었습니다. 이번 자료는 해당 모델들이 실제 환경에서 어떤 기능을 수행할 수 있는지 구체적인 활용 사례를 중심으로 보여줍니다. 최신 인공지능 모델인 Gemini Omni와 Gemini 3.5가 보유한 기술적 역량과 실질적인 데이터 처리 능력을 시각적으로 파악할 수 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Zahra Thompson"
+      ],
+      "title": [
+        "Contributing writer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Fri, 29 May 2026 17:30:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -6357,6 +6506,38 @@
     ]
   },
   {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60153",
+    "title": "Announcing Agent Governance Toolkit MCP Extensions for .NET",
+    "summary": "Announcing a Public Preview .NET package that adds policy enforcement, startup tool scanning, fallback governance, and response sanitization to MCP servers with a single builder extension.\nThe post An",
+    "aiSummary": "Microsoft는 .NET 환경에서 MCP 서버의 안전성과 제어력을 강화하기 위한 Agent Governance Toolkit MCP Extensions의 퍼블릭 프리뷰 버전을 공개했습니다.\n\n해당 패키지는 단일 빌더 확장 기능을 통해 MCP 서버에 정책 집행과 시작 시 도구 스캔 기능을 추가합니다. 또한 예기치 않은 상황에 대비한 폴백 거버넌스 및 응답 살균 기능을 제공하여 에이전트 시스템의 신뢰성을 높입니다. 이를 통해 개발자는 더 체계적이고 안전한 방식으로 MCP 기반 에이전트를 구축할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/announcing-agent-governance-toolkit-mcp-extensions-for-dotnet/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Jack Batzner",
+    "pubDate": "Thu, 21 May 2026 17:05:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60155",
+    "title": "Improving C# Memory Safety",
+    "summary": "The `unsafe` keyword is being redesigned to mark caller-facing contracts rather than just syntax. Safety obligations between callers and callees become visible and reviewable. The model is motivated b",
+    "aiSummary": ".NET 11 프리뷰 버전에서 C#의 unsafe 키워드에 대한 대대적인 설계 변경이 도입됩니다. 기존의 단순한 구문 표기 수단이었던 unsafe 키워드는 앞으로 호출자와 피호출자 사이의 안전성 의무를 명시하는 계약 형태로 재설계됩니다.\n\n이러한 변화는 최근 AI를 활용한 코드 생성 기술이 보편화됨에 따라 코드의 안전성 검토와 책임 소재를 명확히 하기 위해 추진되었습니다. 이를 통해 개발자는 코드 작성 시 발생하는 안전성 의무를 보다 직관적으로 확인하고 검토할 수 있게 됩니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Richard Lander",
+    "pubDate": "Thu, 21 May 2026 16:08:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
     "id": "https://deno.com/blog/clawpatrol",
     "title": "Claw Patrol: an open-source security firewall for agents",
     "summary": "At Deno, we run Deno Deploy, JSR, and a handful of other production services.\nWe’re increasingly using agents to help with operations: triage PagerDuty\nalerts, check dashboards, query logs, run kubect",
@@ -6489,6 +6670,22 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "Go"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=708621",
+    "title": "Built for Productivity: What the Data Finally Shows About Kotlin",
+    "summary": "Years of productivity-focused design are now visible in the data. Pragmatism has been central to Kotlin’s design from day one. The language prioritizes the developer’s convenience and productivity ove",
+    "aiSummary": "Kotlin은 설계 초기부터 학문적 완벽함이나 과도한 기능보다는 개발자의 편의성과 생산성을 최우선으로 고려해 왔습니다. 다년간의 데이터 분석 결과, 이러한 실용 중심의 설계 철학이 실제 개발 현장에서 유의미한 성과를 거두고 있음이 확인되었습니다.\n\n개발자들은 Kotlin을 사용할 때 언어 자체의 복잡성을 해결하는 시간보다 본래 구현하려는 비즈니스 로직과 서비스 기능 개발에 더 많은 시간을 할애할 수 있다고 평가합니다. 이러한 결과는 Kotlin이 개발 효율성을 높이고 생산성을 극대화하는 도구로서 현장에서 성공적으로 자리 잡았음을 방증합니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/05/built-for-productivity-what-the-data-shows-about-kotlin/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Alina Dolgikh",
+    "pubDate": "Wed, 20 May 2026 20:44:25 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Kotlin",
+      "Android"
     ]
   },
   {
@@ -6645,6 +6842,22 @@
     ]
   },
   {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60125",
+    "title": "NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports",
+    "summary": "Package pruning in .NET 10 removes platform-provided packages from your dependency graph. With transitive auditing enabled by default, projects with these defaults have 70% fewer transitive vulnerabil",
+    "aiSummary": ".NET 10에 도입된 NuGet Package Pruning 기능은 플랫폼에서 이미 제공하는 패키지를 의존성 그래프에서 제거하여 프로젝트 구성을 더욱 깔끔하게 정리해 줍니다.\n\n이와 함께 전이적 감사 기능이 기본값으로 활성화되면서, 기존 설정을 사용하던 프로젝트와 비교했을 때 전이적 취약점 보고 건수가 70%가량 감소하는 효과를 얻게 되었습니다.\n\n결과적으로 개발자는 불필요한 의존성을 줄이고 더욱 명확하며 실행 가능한 취약점 보고서를 통해 보안 관리에 집중할 수 있게 됩니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/nuget-package-pruning-in-dotnet-10/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Nikolche Kolev",
+    "pubDate": "Mon, 18 May 2026 17:00:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
     "id": "https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
     "title": "Project goals update — April 2026 (end of 2025H2)",
     "summary": "The 2025H2 Project Goal period has now concluded. Over these months, the Rust Project pursued 41 Project Goals, 13 of which were designated as Flagship Goals. This post contains curated updates on our",
@@ -6709,6 +6922,22 @@
     "tags": [
       "Kubernetes",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=707381",
+    "title": "Help Shape the Future of Kotlin in the Age of AI",
+    "summary": "AI is rapidly changing the way developers write, review, learn, and maintain code. Code completion, AI chat assistants, autonomous coding agents, and other tools are giving rise to new workflows almos",
+    "aiSummary": "AI가 코드 작성과 유지보수 등 개발 생태계를 빠르게 변화시키면서 코드 자동 완성, 챗 어시스턴트, 자율형 코딩 에이전트와 같은 다양한 도구가 새로운 워크플로우를 창출하고 있습니다.\n\n이러한 기술 발전 속에서 Kotlin 언어가 AI 도구들과 얼마나 효과적으로 호환되고 있는지 파악하는 것이 중요한 과제로 떠오르고 있습니다.\n\nKotlin 팀은 AI 시대에 맞춰 개발자들이 더 나은 경험을 할 수 있도록 AI 기반 도구들에 대한 Kotlin 개발자들의 실제 활용 현황과 요구사항을 수집하고자 합니다.\n\n개발자들의 피드백을 바탕으로 Kotlin의 향후 방향성을 설정하고 AI 환경에서의 개발 생산성을 극대화하기 위한 구체적인 전략을 수립할 계획입니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/05/help-shape-the-future-of-kotlin-in-the-age-of-ai/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Ekaterina Volodko",
+    "pubDate": "Fri, 15 May 2026 13:07:36 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Kotlin",
+      "Android"
     ]
   },
   {
@@ -7615,6 +7844,21 @@
     ]
   },
   {
+    "id": "https://medium.com/p/c2656249b799",
+    "title": "Security Advisory: Addressing Recent Vulnerabilities in Angular",
+    "summary": "Press enter or click to view image in full size3 min readFeb 27, 2026--We’ve released security updates to address two SSR vulnerabilities that we were made aware of and have since submitted committed ",
+    "aiSummary": "Angular 팀은 SSR 기능을 사용하는 개발자를 위해 두 가지 보안 취약점을 해결한 업데이트를 발표했습니다.\n\n첫 번째 취약점은 Angular SSR의 요청 처리 파이프라인에서 발견된 SSRF 및 Header Injection 문제입니다. 이는 내부 URL 재구성 로직이 사용자가 제어할 수 있는 Host 및 X-Forwarded 헤더를 검증 없이 신뢰하여 발생하며, 이로 인해 공격자가 애플리케이션의 기본 오리진을 임의로 조작할 수 있습니다.\n\n두 번째 취약점은 X-Forwarded-Prefix 헤더를 악용한 Open Redirect 문제입니다. Angular SSR이 URL 세그먼트를 정규화하는 과정에서 슬래시를 불완전하게 제거함에 따라, 공격자가 세 개 이상의 슬래시가 포함된 경로를 전달할 경우 악의적인 사이트로 리다이렉션되거나 캐시 응답이 오염될 위험이 있습니다.\n\n현재 SSR을 프로덕션 환경에 배포 중인 모든 개발자는 즉시 최신 패치 버전으로 업데이트할 것을 권장합니다. 업데이트가 어려운 경우에는 서버 측 미들웨어를 통해 헤더를 엄격하게 검증하거나, URL 생성 시 사용자 요청 헤더 대신 신뢰할 수 있는 변수를 사용하는 등의 우회 조치를 적용해야 합니다. 상세한 패치 버전 정보와 수정 방법은 GitHub 내 각 보안 권고 보고서를 통해 확인할 수 있습니다.",
+    "url": "https://blog.angular.dev/security-advisory-addressing-recent-vulnerabilities-in-angular-c2656249b799?source=rss----447683c3d9a3---4",
+    "category": "프론트엔드",
+    "source": "Angular Blog",
+    "author": "Angular",
+    "pubDate": "Fri, 27 Feb 2026 20:40:44 GMT",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "Angular"
+    ]
+  },
+  {
     "id": "tag:blog.golang.org,2013:blog.golang.org/allocation-optimizations",
     "title": "Allocating on the Stack",
     "summary": "The Go Blog\nAllocating on the Stack\nWe’re always looking for ways to make Go programs faster. In the last\n2 releases, we have concentrated on mitigating a particular source of\nslowness, heap allocatio",
@@ -7665,6 +7909,22 @@
     ]
   },
   {
+    "id": "https://hacks.mozilla.org/?p=48258",
+    "title": "Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148",
+    "summary": "Cross-site scripting (XSS) remains one of the most prevalent vulnerabilities on the web. The new standardized Sanitizer API provides a straightforward way for web developers to sanitize untrusted HTML",
+    "aiSummary": "웹 환경에서 여전히 빈번하게 발생하는 XSS 공격을 방지하기 위해 표준화된 Sanitizer API가 도입되었습니다. Firefox 148 버전은 브라우저 중 최초로 이 API를 지원하며, 이를 통해 개발자들은 신뢰할 수 없는 HTML 콘텐츠를 DOM에 삽입하기 전에 안전하게 정제할 수 있게 되었습니다. 기존의 innerHTML 대신 setHTML을 사용함으로써 웹 애플리케이션의 보안 수준을 한층 강화할 수 있습니다.",
+    "url": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "MDN Web Docs (Hacks)",
+    "author": "Tom Schuster",
+    "pubDate": "Tue, 24 Feb 2026 13:00:02 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "MDN",
+      "Web Standards"
+    ]
+  },
+  {
     "id": "https://react.dev/blog/2026/02/24/the-react-foundation",
     "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
     "summary": "The React Foundation has officially launched, hosted by the Linux Foundation.",
@@ -7711,6 +7971,22 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "Go"
+    ]
+  },
+  {
+    "id": "https://hacks.mozilla.org/?p=48246",
+    "title": "Launching Interop 2026",
+    "summary": "The Interop Project is a cross-browser initiative to improve web compatibility in areas that offer the most benefit to both users and developers. The group, including Apple, Google, Igalia, Microsoft,",
+    "aiSummary": "Interop 2026은 웹 개발자와 사용자 모두에게 혜택을 주는 웹 호환성 개선을 목표로 하는 교차 브라우저 협력 프로젝트입니다. Apple, Google, Igalia, Microsoft, Mozilla 등 주요 브라우저 엔진 개발사들이 참여하며 충분히 안정적인 웹 표준을 갖추고 테스트 제품군 범위가 우수한 기능들을 제안받아 선정합니다. 이 프로젝트는 웹 환경 전반의 호환성을 높여 더 나은 개발 생태계를 조성하는 것을 목적으로 합니다.",
+    "url": "https://hacks.mozilla.org/2026/02/launching-interop-2026/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "MDN Web Docs (Hacks)",
+    "author": "Jake Archibald",
+    "pubDate": "Thu, 12 Feb 2026 17:07:24 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "MDN",
+      "Web Standards"
     ]
   },
   {
@@ -8468,6 +8744,40 @@
     "tags": [
       "Babel",
       "Build"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=54025",
+    "title": "Catch the highlights from Azure Developers – Aspire Day 2024!",
+    "summary": "Watch the top sessions on demand for insights and practical guidance on building distributed applications with Aspire!\nThe post Catch the highlights from Azure Developers – Aspire Day 2024! appeared f",
+    "aiSummary": "Azure Developers Aspire Day 2024 행사에서 분산 애플리케이션을 구축하기 위한 주요 세션과 실무적인 가이드라인이 공개되었습니다. 이번 행사는 .NET 생태계에서 주목받고 있는 Aspire 기술을 활용하여 복잡한 시스템을 효율적으로 개발하고 운영하는 방법에 초점을 맞추었습니다. 관련 주요 세션 영상들은 현재 온디맨드 방식으로 다시 시청할 수 있으며 개발자들은 이를 통해 최신 기술 도입과 활용 방안을 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/azure-developers-dotnet-aspire-day-recap/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": "Mehul Harry",
+    "pubDate": "Mon, 14 Oct 2024 17:05:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=53452",
+    "title": "Enhance Your Cloud Development Skills at ‘Azure Developers – Aspire Day 2024’",
+    "summary": "Join us at the Azure Developers - Aspire Day 2024, a virtual event happening on September 18, 2024\nThe post Enhance Your Cloud Development Skills at ‘Azure Developers – Aspire Day 2024’ appeared first",
+    "aiSummary": "2024년 9월 18일에 온라인으로 개최되는 Azure Developers – Aspire Day 2024 행사가 예정되어 있습니다. 이번 행사는 클라우드 개발 역량을 강화하고자 하는 개발자들을 대상으로 진행됩니다. 상세 정보는 .NET Blog를 통해 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/enhance-your-cloud-development-skills-at-azure-developers-dotnet-aspire-day-2024/",
+    "category": "백엔드",
+    "source": "ASP.NET Core",
+    "author": "Mehul Harry",
+    "pubDate": "Tue, 03 Sep 2024 22:30:00 +0000",
+    "fetchedAt": "2026-06-24T05:35:40.854Z",
+    "tags": [
+      "ASP.NET",
+      "C#",
+      ".NET"
     ]
   },
   {
