@@ -4,7 +4,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 
 ## 핵심 기능
 
-- 자동화된 데이터 수집: 별도의 백엔드 서버 없이 주기적으로 72개의 공식 RSS 피드와 7개의 커스텀 크롤러를 통해 데이터를 수집하여 정적 JSON으로 저장합니다.
+- 자동화된 데이터 수집: 별도의 백엔드 서버 없이 주기적으로 73개의 공식 RSS 피드와 8개의 커스텀 크롤러를 통해 데이터를 수집하여 정적 JSON으로 저장합니다.
 - 아카이브 및 최신화 로직: 데이터를 latest.json(최근 7일 롤링 윈도우)과 all.json(전체 아카이브)으로 분리하여 프론트엔드 렌더링 성능과 데이터 파이프라인 효율을 극대화합니다.
 - AI 에이전트 핵심 요약 (Function Calling): Gemini API를 연동하여 장문의 기사 내용을 짧고 정중한 한국어 문장으로 실시간 요약합니다. 본문이 짧을 경우 자율적으로 원본 링크를 직접 크롤링하며, 503 등 서버 에러 시 Jitter가 포함된 Exponential Backoff(지수 백오프) 재시도 로직으로 중단 없는 요약을 보장합니다.
 - 다중 필터링 시스템: 카테고리, 출처, 태그, 날짜 등 복합적인 조건을 조합하여 원하는 뉴스만 정확하게 필터링할 수 있습니다.
@@ -32,10 +32,10 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 |        scripts/fetch-rss.mjs         | (메인 Orchestrator)
 +--------------------------------------+
            |  -- 사용 모듈 --
-           |  1) scripts/config/feeds.mjs     : 72개 RSS 피드 설정 로드
+           |  1) scripts/config/feeds.mjs     : 73개 RSS 피드 설정 로드
            |  2) scripts/config/scrapers.mjs  : CUSTOM_SCRAPERS 레지스트리 (OCP 기반 확장 포인트)
-           |  3) scripts/scrapers/*.mjs       : 플랫폼별 커스텀 스크래퍼 7개
-           |                                   (anthropic, deepseek, vite, babel, bun, cursor, sublime)
+           |  3) scripts/scrapers/*.mjs       : 플랫폼별 커스텀 스크래퍼 8개
+           |                                   (anthropic, deepseek, vite, babel, bun, cursor, sublime, antigravity)
            |  4) scripts/utils/scraper.mjs    : 공유 유틸리티 (HTML 파싱, gzip 폴백, createArticle)
            |  5) scripts/utils/ai.mjs         : Gemini 에이전트 요약 및 Exponential Backoff 재시도
            |  6) scripts/config/constants.mjs : 파이프라인 공통 상수
@@ -68,6 +68,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 
 *※ 예외 상황 시 누락된 요약본만 핀셋으로 복구하는 `scripts/sync/fill-missing.mjs` 독립 스크립트를 지원합니다.*
 *※ `scripts/sync/test-run.mjs`로 all.json/latest.json을 건드리지 않고 수집·요약 파이프라인을 안전하게 테스트할 수 있습니다.*
+*※ `scripts/sync/scraper-tester.mjs <이름>`으로 특정 스크래퍼 하나만 단독 실행하여 AI 요약까지 처리한 결과를 `scraper-{이름}.json`에 저장할 수 있습니다.*
 
 ## 새 커스텀 스크래퍼 추가 방법
 
@@ -114,6 +115,9 @@ node scripts/fetch-rss.mjs
 
 # 안전 테스트 (temp.json에만 저장, 프로덕션 데이터 미변경)
 node scripts/sync/test-run.mjs
+
+# 특정 스크래퍼 단독 실행 + AI 요약 (scraper-{이름}.json에 저장)
+node scripts/sync/scraper-tester.mjs antigravity
 
 # 누락된 AI 요약 복구
 node scripts/sync/fill-missing.mjs
