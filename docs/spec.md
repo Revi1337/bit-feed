@@ -4,7 +4,7 @@
 bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공지능, 보안)의 최신 소식과 릴리스 정보를 한 곳에서 모아볼 수 있는 서버리스 기반의 웹 애플리케이션입니다. 
 
 ## 2. Core Features
-- **자동화된 데이터 수집**: 72개의 공식 RSS 피드 및 7개의 커스텀 크롤러를 통해 데이터를 수집하여 정적 데이터(JSON)로 저장.
+- **자동화된 데이터 수집**: 73개의 공식 RSS 피드 및 8개의 커스텀 크롤러를 통해 데이터를 수집하여 정적 데이터(JSON)로 저장.
 - **아카이브 및 최신화 로직**: 데이터를 전체 누적 아카이브(`all.json`)로 병합 후 최근 7일치만 필터링하여 `latest.json`에 동기화하는 **롤링 윈도우(Rolling Window)** 아키텍처를 적용하여, 즉각적인 최신화를 보장하고 파이프라인 효율성을 극대화.
 - **AI 에이전트 기반 동적 요약 (Function Calling)**: 멀티 모델(Gemini 3.5 Flash / 3.1 Flash-Lite)을 연동하여 장문의 기사 내용을 2~3줄의 정중한 평문으로 실시간 요약(`aiSummary` 필드). 특히 본문이 지나치게 짧을 경우 에이전트가 `fetchUrlContent` 도구를 호출해 원본 링크를 직접 크롤링하는 자율성을 지닙니다.
 - **지수 백오프(Exponential Backoff) 기반 장애 복구**: 구글 API의 503 Service Unavailable 등 일시적인 통신 장애 발생 시, Jitter를 포함한 Exponential Backoff(2초 -> 4초 -> 8초) 재시도 로직을 가동하여 중단 없는 안정적인 요약본 생성을 보장합니다.
@@ -28,7 +28,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 
 ## 5. Data Specification
 - **데이터 출처 원칙**: 개인 블로그나 포괄적 매체는 제외하며, 반드시 각 언어/프레임워크 및 기업의 **공식 블로그 및 공식 문서**만을 데이터 소스로 취급.
-- **수집 방식**: RSS 엔드포인트가 있는 72개 피드는 `rss-parser`로 직접 파싱, RSS가 없는 7개 플랫폼(Anthropic, DeepSeek, Vite, Babel, Bun, Cursor, Sublime Text)은 JSDOM/Readability 기반 커스텀 크롤러로 수집.
+- **수집 방식**: RSS 엔드포인트가 있는 73개 피드는 `rss-parser`로 직접 파싱, RSS가 없는 8개 플랫폼(Anthropic, DeepSeek, Vite, Babel, Bun, Cursor, Sublime Text, Antigravity)은 JSDOM/Readability 또는 JS 번들 직접 파싱 기반 커스텀 크롤러로 수집.
 - **주요 카테고리 (총 5가지)**:
   - 프로그래밍 언어 (프론트엔드 및 백엔드를 구성하는 주요 언어: JavaScript, TypeScript, Java, Python, PHP, Go 등)
   - 프론트엔드 (각 언어에 맞는 주요 프레임워크 또는 라이브러리: React, Vue, Next.js, Nuxt, Svelte 등)
@@ -43,7 +43,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 - **`GET /api/feeds/latest`**: 최신(`latest.json`) 수집 기사 원본 배열 반환.
 - **`GET /api/feeds`**: 아카이브(`all.json`) 전체 기사를 대상으로 한 검색 및 필터링 기능 지원.
   - 파라미터: `page`, `limit`, `category`, `source`, `q` (검색어)
-- **`GET /api/feeds/sources`**: 데이터 내 고유 출처(sourceName) 목록 정렬 배열 반환.
+- **`GET /api/feeds/sources`**: 데이터 내 고유 출처(`source`) 목록 정렬 배열 반환.
 - **`GET /api/feeds/categories`**: 데이터 내 고유 카테고리(category) 목록 정렬 배열 반환.
 
 ## 7. Data Pipeline Architecture (Scripts)
@@ -51,19 +51,21 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 스크립트 파이프라인을 역할별로 완벽히 분리하고 OCP(Open/Closed Principle) 기반의 확장 구조를 적용하여 새 데이터 소스 추가 시 기존 파일을 수정하지 않아도 됩니다.
 
 ### 설정 모듈 (`scripts/config/`)
-- **`feeds.mjs`**: 72개의 RSS 피드 URL, 카테고리, 태그를 한곳에서 관리하는 중앙화 설정 모듈.
+- **`feeds.mjs`**: 73개의 RSS 피드 URL, 카테고리, 태그를 한곳에서 관리하는 중앙화 설정 모듈.
 - **`scrapers.mjs`**: OCP 기반 커스텀 스크래퍼 레지스트리. `CUSTOM_SCRAPERS` 배열에 함수를 등록하면 `fetch-rss.mjs`와 `test-run.mjs`에 자동 반영됨. 새 스크래퍼 추가 시 이 파일과 `scrapers/` 디렉토리만 수정.
 - **`constants.mjs`**: 파이프라인 전체에서 공유하는 상수 정의 (최대 기사 수, 요약 길이, AI 딜레이, 롤링 윈도우 기간 등).
 
 ### 커스텀 스크래퍼 (`scripts/scrapers/`)
 RSS 엔드포인트가 없는 플랫폼을 위한 개별 스크래퍼 파일. 각 파일은 `(existingMap, runTime) => Promise<Article[]>` 시그니처를 준수.
-- `anthropic.mjs`, `deepseek.mjs`, `vite.mjs`, `babel.mjs`, `bun.mjs`, `cursor.mjs`, `sublime.mjs`
+- `anthropic.mjs`, `deepseek.mjs`, `vite.mjs`, `babel.mjs`, `bun.mjs`, `cursor.mjs`, `sublime.mjs`, `antigravity.mjs`
+- `antigravity.mjs`는 Angular SPA(`antigravity.google/changelog`)의 배포된 JS 번들에서 고유 마커로 `changelogData`를 직접 추출하는 방식으로 동작. `engineSections`(인공지능)과 `ideSections`(IDE & 개발 도구)를 각 5개씩 독립 수집.
 
 ### 공유 유틸리티 (`scripts/utils/`)
 - **`scraper.mjs`**: 공유 유틸리티 모듈. `JSDOM`·`Readability` 기반 HTML 파싱, `stripHtmlAndPreserveLinks`, `fetchAndExtractArticle`, `fetchRssFeeds`(gzip 폴백 포함), `createArticle` 헬퍼 포함. RSS 파싱 실패 시 `Content-Encoding: gzip` 여부를 확인하여 fetch 기반으로 자동 재시도.
 - **`ai.mjs`**: Gemini API 연동 핵심 요약 모듈. `startChat` 기반 Function Calling 에이전트, 멀티 모델 분기, Exponential Backoff 재시도 로직 담당.
 
 ### 실행 스크립트
-- **`scripts/fetch-rss.mjs`**: 메인 Orchestrator. RSS 수집 + 커스텀 스크래핑을 병렬 실행하고 AI 요약 후 `all.json`·`latest.json` 저장.
+- **`scripts/fetch-rss.mjs`**: 메인 Orchestrator. RSS 수집 + 커스텀 스크래핑을 병렬 실행하고 AI 요약 후 `all.json`·`latest.json` 저장. 파이프라인 완료 후 `temp.json` 자동 삭제.
 - **`scripts/sync/fill-missing.mjs`**: `all.json`에서 `aiSummary`가 누락되거나 오류 상태인 기사만 선택적으로 재요약하는 복구 스크립트.
-- **`scripts/sync/test-run.mjs`**: `all.json`·`latest.json`을 건드리지 않고 `temp.json`에만 결과를 저장하는 안전 테스트 스크립트.
+- **`scripts/sync/test-run.mjs`**: 전체 파이프라인(RSS + 모든 스크래퍼)을 실행하되 `all.json`·`latest.json`을 건드리지 않고 `temp.json`에만 결과를 저장하는 안전 테스트 스크립트.
+- **`scripts/sync/scraper-tester.mjs`**: 특정 스크래퍼 하나만 단독 실행하여 AI 요약까지 처리 후 `public/data/scraper-{이름}.json`에 저장하는 범용 개발·디버깅 도구. (`node scripts/sync/scraper-tester.mjs <이름>`)

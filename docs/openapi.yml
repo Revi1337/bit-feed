@@ -92,22 +92,22 @@ components:
       properties:
         id:
           type: string
-          description: 기사 고유 식별자 (보통 원본 URL)
+          description: 기사 고유 식별자 (보통 원본 URL 또는 커스텀 스크래퍼가 생성한 고유 키)
         title:
           type: string
           description: 기사 제목
         summary:
           type: string
-          description: 기사 원문 요약 (HTML 또는 텍스트)
+          description: 기사 원문 앞부분 발췌 (최대 200자)
         aiSummary:
           type: string
-          description: Gemini를 통해 번역 및 요약된 한국어 핵심 3줄 요약
+          description: Gemini API를 통해 생성된 한국어 AI 요약. 분량에 따라 동적으로 길이 조절됨
         category:
           type: string
-          description: 기사가 속한 대분류 카테고리
-        sourceName:
+          description: 기사가 속한 대분류 카테고리 (예 인공지능, IDE & 개발 도구, 프론트엔드 등)
+        source:
           type: string
-          description: 기사 출처 (블로그 이름)
+          description: 기사 출처 (피드 이름 또는 스크래퍼 소스명)
         author:
           type: string
           description: 기사 작성자
@@ -115,7 +115,11 @@ components:
           type: string
           format: date-time
           description: 발행 일시 (ISO 8601 포맷)
-        link:
+        fetchedAt:
+          type: string
+          format: date-time
+          description: 파이프라인이 기사를 수집한 시각 (ISO 8601 포맷)
+        url:
           type: string
           description: 기사 원본 링크 URL
         tags:

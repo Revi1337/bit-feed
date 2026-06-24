@@ -109,3 +109,12 @@
 - [x] `test-run.mjs` 병렬화: 커스텀 스크래퍼 순차 실행 → `Promise.all` 병렬 실행으로 개선.
 - [x] `fetch-rss.mjs` 정리: 파이프라인 성공 후 `temp.json` 자동 삭제 추가.
 - [x] Phase 10 작업 내역 Git Commit (`git commit -m "refactor(scripts): 스크립트 파이프라인 구조 개선 및 확장성 확보"`)
+
+## Phase 11: New Scrapers & Developer Tooling (신규 스크래퍼 및 개발 도구)
+SPA 환경에서도 puppeteer 없이 데이터를 수집하는 방법론을 확립하고, 개발 생산성을 높이는 보조 도구를 추가합니다.
+
+- [x] `scripts/scrapers/antigravity.mjs` 신설: Angular SPA인 `antigravity.google/changelog`의 JS 번들에서 고유 마커(`{title:"Google Antigravity Changelog",buttons:[`)로 `changelogData`를 추출하는 스크래퍼 구현. `engineSections`(category: 인공지능)과 `ideSections`(category: IDE & 개발 도구)를 각각 최대 5개씩 독립 수집 후 `createArticle` 헬퍼로 조립.
+- [x] `scripts/config/scrapers.mjs`에 `scrapeAntigravityChangelog` 등록.
+- [x] `scripts/config/feeds.mjs`에 Antigravity CLI GitHub Releases 피드 추가 (`IDE & 개발 도구`) → 총 73개 RSS 피드.
+- [x] `scripts/sync/scraper-tester.mjs` 신설: 스크래퍼 이름을 CLI 인자로 받아 단독 실행 + AI 요약 처리 후 `public/data/scraper-{이름}.json`에 저장하는 범용 개발·디버깅 도구. (`node scripts/sync/scraper-tester.mjs antigravity`)
+- [x] Phase 11 작업 내역 Git Commit (`git commit -m "feat: add Antigravity changelog scraper and generalize scraper tester"`)
