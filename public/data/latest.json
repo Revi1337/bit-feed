@@ -791,6 +791,23 @@
     ]
   },
   {
+    "id": "antigravity-ide-2.1.1",
+    "title": "Antigravity 2.1.1: Model quota screen and agent security fixes",
+    "summary": "New model quota screen, agent permission and security fixes, and MCP stability improvements\n\nImprovements:\n- Quota screen redesign: clearer, unambiguous view into “used” versus “remaining” credits in ",
+    "aiSummary": "Antigravity 2.1.1 버전 업데이트를 통해 모델 할당량 화면이 개선되고 에이전트 보안 및 MCP 서버 안정성이 강화되었습니다.\n\n먼저 설정 내 모델 탭에 새로운 할당량 화면이 적용되어 사용된 크레딧과 남은 크레딧을 더욱 명확하게 확인할 수 있습니다.\n\n에이전트 보안 측면에서는 에이전트 보안 모드 변경 사항이 제대로 저장되지 않던 오류가 해결되었습니다. 또한 에이전트가 엄격 모드에서 접근할 때 .vscode와 .cache 경로를 민감한 경로로 인식하여 사용자에게 명시적 확인을 요구하도록 변경되었습니다.\n\nMCP 서버와 관련된 안정성도 향상되었습니다. 반응하지 않는 MCP 서버에 대한 복구 능력이 강화되었으며 Chrome DevTools MCP 서버를 사용할 때 브라우저 에이전트의 자가 문제 해결 기능이 개선되었습니다. 마지막으로 mcp_config.json 스키마가 기존 serverUrl 외에 url 필드도 허용하도록 호환성이 확장되었습니다.",
+    "url": "https://antigravity.google/changelog",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity Changelog",
+    "author": "Google",
+    "pubDate": "2026-06-21T15:00:00.000Z",
+    "fetchedAt": "2026-06-24T08:25:40.339Z",
+    "tags": [
+      "Antigravity",
+      "IDE",
+      "AI"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/06/21/better-tools-immutable-data/",
     "title": "Better Tools for Immutable Data",
     "summary": "We'll review new and upcoming Java features that improve the convenience, reliability, and performance of immutable data, including:\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tRecords, record patterns, and derived",
@@ -2107,70 +2124,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
-    "title": "How growing UK midsize businesses are building in the AI era",
-    "summary": "The UK’s 5-million-plus small and midsize businesses and enterprises (SMBs) are the backbone of our economy. Today, we’re seeing these critical businesses begin to put AI to work, to operate more effi",
-    "aiSummary": "영국의 중소기업들이 비즈니스 운영의 효율성을 높이고 생산성을 개선하기 위해 AI 기술을 적극적으로 도입하고 있습니다. Enterprise Nation과 Google이 공동으로 발표한 최근 조사에 따르면 영국 내 AI 도입 기업의 71%가 반복 업무 시간을 단축하고 있으며, 64%는 실질적인 생산성 향상을 경험하고 있다고 응답했습니다. 특히 Google Workspace와 Gemini를 사용하는 기업들은 주당 업무 시간 중 하루 분량에 해당하는 20%의 생산성 향상 효과를 얻고 있습니다.\n\n실제로 Google Cloud의 AI 플랫폼을 활용하는 영국 중소기업의 수는 매년 거의 두 배씩 증가하는 추세입니다. 기업들은 Gemini 모델을 기반으로 고객 지원 시스템 개선, 급여 및 회계 업무 자동화, 데이터 분석 대중화, 마케팅 디자인 제작, AI 에이전트 구축 등 다양한 영역에서 성과를 내고 있습니다.\n\n사례로 핀테크 기업 Neural Alpha는 비정형 보고서 분석에 Gemini를 활용하여 수개월 걸리던 연구 시간을 대폭 단축했습니다. 디지털 보안 업체 Sep 2는 Gemini Enterprise를 통해 24시간 보안 위협을 탐지하는 자율형 AI 에이전트를 운영 중이며, 브랜드 디자인 에이전시 Sunhouse는 사내 아카이브 자료 검색 효율을 높였습니다. 또한 B2B 이벤트 기업 Terrapinn은 NotebookLM, Looker, BigQuery를 통합하여 업무 워크플로우를 자동화하고 있고, 통신 업체 VoCoVo는 분산된 데이터를 실시간 정보로 전환하여 혁신에 집중하고 있습니다.\n\nGoogle Cloud는 영국 중소기업이 AI 시대를 대비할 수 있도록 다양한 무료 교육 자원을 제공합니다. 여기에는 새로운 SMB Learning Path와 에이전트 기반 AI를 위한 GEAR 프로그램이 포함되며, Google Cloud와 Google DeepMind 전문가들이 설계한 3,000개 이상의 AI 강좌와 실습 과정을 통해 조직의 AI 역량 강화를 지원합니다. 또한 기술 멘토링과 자격증 취득 과정을 통해 기업들이 AI 기반의 비즈니스 환경에 적응할 수 있도록 돕고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Maureen Costello"
-      ],
-      "title": [
-        "Vice President, UK, Ireland & Sub-Saharan Africa"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 17 Jun 2026 08:00:00 +0000",
-    "fetchedAt": "2026-06-17T11:59:21.703Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
-    "title": "From AI potential to agentic reality: Driving the UK’s next chapter",
-    "summary": "The United Kingdom, and London in particular, continues to be one of the great hubs for AI development in Europe and the world. We’re home to Google DeepMind, of course, as well as significant AI unic",
-    "aiSummary": "영국은 현재 생성형 AI를 넘어 스스로 추론하고 계획하며 다단계 워크플로우를 실행하는 에이전트형 엔터프라이즈 시대로 진입하고 있습니다. Google Cloud는 커스텀 실리콘과 frontier 모델, 그리고 대규모 인프라를 통합 제공하며 이러한 영국의 AI 경제 전환을 주도하고 있습니다.\n\n금융 분야에서는 HSBC와 다년간의 전략적 파트너십을 체결하여 초개인화된 자산 관리, 금융 범죄 예방, AI 기반 고객 서비스 혁신을 추진합니다. 또한, 스타트업 생태계 지원을 위해 Ineffable Intelligence와 협력하며, 강화 학습을 통한 슈퍼러너 모델 개발을 위해 대규모 GPU 클러스터를 구축하고 있습니다. 이외에도 Deloitte와 협력하여 AI Studio를 설립하고 전문 인력을 양성함으로써 기업들이 실험 단계를 넘어 실제 비즈니스에 AI를 대규모로 도입할 수 있도록 지원합니다.\n\n공공 부문에서는 MHCLG 및 DfT 등과 협력하여 행정 업무 효율을 대폭 개선하고 있으며, 영국 내 데이터 주권 강화를 위해 현지 데이터 처리 기능을 갖춘 Gemini 3.5 Flash 도입을 준비 중입니다. 또한, Google AI Threat Defense 플랫폼을 통해 보안 체계를 강화하고 있습니다.\n\n영국 전역의 기업들 또한 THG Ingenuity, Starling, Rightmove 등 다양한 분야에서 실질적인 성과를 거두고 있습니다. Google Cloud는 50억 파운드 규모의 영국 내 인프라 투자를 지속하고 있으며, 2026년 4분기에는 런던 Platform 37에 The Model Garden을 열어 AI 혁신을 위한 거점으로 활용할 계획입니다.\n\n결론적으로 성공적인 AI 전환을 위해서는 기술 도입뿐만 아니라 조직 문화의 재구성, 책임감 있는 보안 중심의 설계, 그리고 지속 가능한 탄소 중립 에너지 사용이라는 세 가지 핵심 전략이 필요합니다. Google Cloud는 영국이 실험 단계를 지나 산업 규모의 AI 생산 시대로 나아가는 과정에서 핵심 파트너로서의 역할을 지속할 것입니다.",
-    "url": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Maureen Costello"
-      ],
-      "title": [
-        "Vice President, UK, Ireland & Sub-Saharan Africa"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 17 Jun 2026 08:00:00 +0000",
-    "fetchedAt": "2026-06-17T11:59:21.703Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
