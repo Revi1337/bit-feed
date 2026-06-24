@@ -69,5 +69,6 @@ export const FEEDS = [
 
   // 8. IDE & 개발 도구
   { name: 'VS Code', url: 'https://code.visualstudio.com/feed.xml', category: 'IDE & 개발 도구', tags: ['VS Code', 'Editor'] },
-  { name: 'JetBrains Blog', url: 'https://blog.jetbrains.com/feed/', category: 'IDE & 개발 도구', tags: ['JetBrains', 'IDE'], allowedCategories: ['news', 'events', 'release'] }
+  { name: 'JetBrains Blog', url: 'https://blog.jetbrains.com/feed/', category: 'IDE & 개발 도구', tags: ['JetBrains', 'IDE'], allowedCategories: ['news', 'events', 'release'] },
+  { name: 'Antigravity CLI', url: 'https://github.com/google-antigravity/antigravity-cli/releases.atom', category: 'IDE & 개발 도구', tags: ['Antigravity', 'CLI', 'AI'] }
 ];
