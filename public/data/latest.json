@@ -1,5 +1,70 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_127",
+    "title": "Visual Studio Code 1.127",
+    "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.127 Insiders 버전이 공개되었습니다. 이번 업데이트의 상세 변경 사항과 새로운 기능에 대한 내용은 공식 웹사이트의 전체 기사를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_127",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-06-24T10:29:40.595Z",
+    "fetchedAt": "2026-06-24T10:29:40.595Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.0.11",
+    "title": "1.0.11",
+    "summary": "Added ctrl+c as an exit and interrupt key: the first press cancels active agent operations (like streaming responses), and a double-press triggers the exit flow. Also added a dynamic exit hint in the ",
+    "aiSummary": "agy 1.0.11 업데이트에서는 사용자 인터페이스와 제어 기능이 대폭 개선되었습니다. 먼저 ctrl+c 키에 인터럽트 및 종료 기능이 부여되었고 ctrl+d의 동작이 텍스트 유무에 따라 구분되도록 수정되었습니다. 또한 /resume 명령의 메타데이터 캐시와 병렬 로더를 도입하여 대규모 대화 기록 로딩 시 발생하는 지연 문제를 해결하였습니다.\n\n인증 측면에서는 USE_ADC 환경 변수를 통해 Google Cloud의 Application Default Credentials를 지원하여 인증 절차를 간소화하였습니다. 도구 확인을 위한 전용 전체 화면 모드인 AltScreen이 추가되어 ctrl+g로 명령과 권한을 관리할 수 있게 되었으며 AGY_CLI_CMD_OUTPUT_PERCENTAGE 환경 변수로 터미널 내 출력 높이를 유연하게 설정할 수 있습니다.\n\n입력 및 가독성 개선도 이루어졌습니다. ANSI 기반의 단어 단위 줄바꿈을 도입하여 텍스트 가독성을 높였고 /resume 검색 시 클립보드 붙여넣기 기능과 다중 행 입력기를 지원합니다. 키바인딩 시스템은 엄격한 유효성 검사를 통해 잘못된 설정을 방지하고 오류 알림을 개선하여 터미널 공간 활용도를 높였습니다. 그 외에도 VCS 커밋 기록 표시 오류 수정과 자동 설정 파일 생성 방지 등 시스템 전반의 안정성과 사용 편의성을 강화하는 다수의 수정 사항이 포함되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.0.11",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "yaoshengzhe",
+    "pubDate": "2026-06-24T05:30:00.000Z",
+    "fetchedAt": "2026-06-24T10:29:40.595Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=youtrack&p=711511",
+    "title": "YouTrack Helpdesk Now Includes Customer Groups",
+    "summary": "YouTrack 2026.2 introduces customer groups in YouTrack Helpdesk, helping B2B support teams tailor the support experience to different customers. Teams can manage tickets by company, team, or organizat",
+    "aiSummary": "YouTrack 2026.2 버전 업데이트를 통해 YouTrack Helpdesk에 고객 그룹 기능이 새롭게 도입되었습니다.\n\n이 기능은 B2B 지원 팀이 회사나 조직 단위로 티켓을 관리하고, 고객별로 최적화된 맞춤형 지원 경험을 제공할 수 있도록 돕습니다. 관리자는 고객 그룹별로 서로 다른 SLA 정책을 적용하거나, 특정 상담원을 그룹에 배정하고, 그룹 특성에 맞춘 전용 자동화 규칙을 설정할 수 있습니다.\n\n같은 그룹에 속한 여러 명의 리포터는 티켓을 공유하여 진행 상황을 함께 확인하고 의견을 나누며 협업할 수 있습니다. 이를 통해 고객사의 규모나 요구사항에 따라 보다 체계적이고 효율적인 고객 지원 프로세스를 구축할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/youtrack/2026/06/youtrack-helpdesk-now-includes-customer-groups/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Elena Pishkova",
+    "pubDate": "Wed, 24 Jun 2026 04:58:55 +0000",
+    "fetchedAt": "2026-06-24T10:29:40.595Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/24/spring-data-2025-0-13-released",
+    "title": "Spring Data 2025.0.13 released",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Broadcom은 Spring Data 2025.0.13 버전을 공식 발표하였습니다. 이번 릴리스는 기존 Spring 생태계의 안정성과 호환성을 유지하며 지속적인 업데이트를 제공하는 과정의 일환입니다. 해당 버전과 관련된 법적 고지 사항 및 상표권 정보는 Broadcom의 공식 가이드를 따르며 Apache, Java, Kubernetes, AWS 등 다양한 기술 스택과의 상호 운용성을 지원합니다. 사용자는 공식 문서를 통해 상세한 변경 사항과 업데이트 내용을 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/24/spring-data-2025-0-13-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "mp911de",
+    "pubDate": "Wed, 24 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-24T10:29:40.595Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "/blog/release/v24.18.0?1782256361150",
     "title": "Node.js 24.18.0 (LTS)",
     "summary": "Skip to content (https://nodejs.org/en/blog/release/v24.18.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Bl",
@@ -333,6 +398,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok",
+    "title": "GitHub Copilot app support for BYOK",
+    "summary": "The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM…\nThe pos",
+    "aiSummary": "GitHub Copilot 앱에서 이제 BYOK 기능을 지원합니다. 이를 통해 사용자는 OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM 등 자신이 선호하는 모델 제공업체를 직접 선택하여 에이전트 세션을 실행할 수 있습니다. 해당 업데이트는 개발자가 원하는 인공지능 모델을 유연하게 활용하여 작업 환경을 구성할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 23 Jun 2026 08:00:02 +0000",
+    "fetchedAt": "2026-06-24T10:29:40.595Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -931,6 +1012,23 @@
     "fetchedAt": "2026-06-19T11:44:07.799Z",
     "tags": [
       "Angular"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.0.10",
+    "title": "1.0.10",
+    "summary": "Improved compatibility with a broader set of ARM64 devices (e.g. raspberry pi 4b).\nAdded antigravity_guide builtin skill to provide instant, in-context reference guides for the Antigravity 2.0, CLI, I",
+    "aiSummary": "이번 1.0.10 업데이트를 통해 Raspberry Pi 4B를 포함한 ARM64 기기들과의 호환성이 크게 개선되었습니다. Antigravity 2.0과 관련된 가이드를 즉시 확인할 수 있는 antigravity_guide 기능이 추가되었고 커밋 기록 탐색 시 변경 사항이 즉각적으로 로드되도록 최적화되었습니다.\n\nGit 통합 기능이 강화되어 ASCII 노드 그래프 표시가 가능해졌으며 짧은 커밋 해시와 긴 해시를 접두사 비교를 통해 원활하게 매칭할 수 있게 되었습니다. 시스템 오류나 경고를 일반 명령 출력과 분리하여 보여주는 알림 유형이 도입되었고 /help 메뉴를 통해 CLI 로그 파일 경로를 쉽게 찾을 수 있도록 개선되었습니다.\n\nMarkdown 렌더링을 위해 glamour를 v2.0.1로 업그레이드하여 가독성을 높였으며 인증 과정에서 브라우저 로그인 창이 자동으로 실행되도록 수정되었습니다. 설정 업데이트 시 권한 설정이 유지되도록 개선되었고 정규식 메타문자 처리 강화로 권한 엔진의 오류를 해결하였습니다. 그 외에도 환경 플래그 구문 분석 수정 및 bash 모드 인수 처리 개선, 셸 기본값의 PowerShell 설정 등 전반적인 시스템 안정성이 향상되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.0.10",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "yaoshengzhe",
+    "pubDate": "2026-06-19T04:36:23.000Z",
+    "fetchedAt": "2026-06-24T10:29:40.595Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
     ]
   },
   {
@@ -2091,39 +2189,6 @@
     "tags": [
       "Django",
       "Python"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/ai-chemist-improves-reaction",
-    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-    "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-    "aiSummary": "OpenAI와 Molecule.one이 협력하여 GPT-4o 기반의 준자율적 AI 화학자를 활용해 의약 화학 분야의 핵심 약물 합성 반응을 개선하는 성과를 거두었습니다. 이번 연구는 AI가 복잡한 화학 실험 설계 및 최적화 과정에 자율적으로 참여하여 신약 개발 연구의 효율성과 정확도를 획기적으로 높일 수 있음을 입증합니다. 이를 통해 향후 의약 화학 연구 현장에서 AI 모델이 실험 수행 과정을 주도하며 난도가 높은 합성 반응을 해결하는 핵심적인 역할을 할 것으로 기대됩니다.",
-    "url": "https://openai.com/index/ai-chemist-improves-reaction",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Wed, 17 Jun 2026 10:00:00 GMT",
-    "fetchedAt": "2026-06-17T18:06:33.799Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=junie&p=713100",
-    "title": "Junie: The JetBrains AI Coding Agent Leaves Beta.",
-    "summary": "Junie started as an experiment. We asked, “What if an AI coding agent didn’t just guess at the details of your project, but actually used the same tools you do?” Over the last year, that experiment tu",
-    "aiSummary": "JetBrains가 개발한 AI 코딩 에이전트인 Junie가 베타 테스트를 마치고 정식 출시되었습니다.\n\nJunie는 단순히 프로젝트의 세부 사항을 추측하는 수준을 넘어 개발자가 사용하는 도구를 직접 활용하며 IDE와 터미널 환경에서 실질적인 작업을 수행하도록 설계되었습니다.\n\n지난 1년간의 실험적인 단계를 거쳐 완성된 Junie는 개발자의 일상적인 코딩 업무를 보조하며 생산성을 높이는 도구로 자리 잡았습니다.\n\n이번 정식 출시를 통해 JetBrains는 더욱 고도화된 AI 기반 개발 경험을 제공할 계획입니다.",
-    "url": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Dmitry Savelev",
-    "pubDate": "Wed, 17 Jun 2026 09:07:19 +0000",
-    "fetchedAt": "2026-06-17T15:23:48.005Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
     ]
   }
 ]
