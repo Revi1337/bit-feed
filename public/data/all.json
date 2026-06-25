@@ -1,5 +1,149 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+    "title": "npm adds preventive account protection for high-impact accounts",
+    "summary": "npm now adds a temporary, preventive safeguard for high-impact accounts—those responsible for the registry’s most widely used packages—whenever it detects a sensitive account change, strengthening pro",
+    "aiSummary": "npm은 registry에서 가장 널리 사용되는 패키지를 관리하는 고영향력 계정을 보호하기 위해 새로운 예방적 보안 조치를 도입합니다.\n\n이번 업데이트는 계정 탈취 공격을 방지하기 위한 것으로, 민감한 계정 설정 변경이 감지될 경우 해당 계정에 일시적인 보호 조치가 자동으로 적용됩니다.\n\n이는 오픈소스 생태계의 핵심적인 역할을 수행하는 패키지들이 공격으로부터 안전하게 유지될 수 있도록 보안 체계를 강화하려는 목적을 담고 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 25 Jun 2026 16:02:09 +0000",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.138.1",
+    "title": "0.138.1",
+    "summary": "Refactors\n♻️ Refactor Library Skills, make info easier to find for agents. PR #15841 by @tiangolo.\nInternal\n👷 Simplify pull request workflow triggers. PR #15836 by @tiangolo.\n👷 Update issue-manager ",
+    "aiSummary": "이번 0.138.1 업데이트에서는 에이전트가 정보를 더 쉽게 찾을 수 있도록 Library Skills 관련 코드 구조를 개선하였습니다.\n\n내부적으로는 풀 리퀘스트 워크플로우 트리거를 간소화하고 issue-manager를 0.7.1 버전으로 업데이트하는 등 관리 효율을 높였습니다. 또한 보안 강화를 위해 zizmor 워크플로우 검사를 업데이트하였으며 pydantic-settings 라이브러리를 2.14.2 버전으로 상향 조정하였습니다. 그 외에도 스폰서 목록에 TestMu를 재추가하는 등 전반적인 유지보수 작업을 수행하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.138.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-06-25T15:40:10.000Z",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+    "title": "Red Hat Enterprise Linux runner images are now in public preview",
+    "summary": "GitHub-hosted larger runners now support Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images in public preview, introduced in partnership with Red Hat. Organizations can use these RHEL images…\nThe po",
+    "aiSummary": "GitHub가 Red Hat과의 협업을 통해 GitHub-hosted larger runners에서 RHEL 9과 RHEL 10 이미지를 사용할 수 있도록 지원하며, 이를 퍼블릭 프리뷰 형태로 공개했습니다.\n\n이번 업데이트를 통해 기업 고객은 검증된 엔터프라이즈 환경인 RHEL 기반으로 워크플로우를 구성하고 실행할 수 있게 되었습니다.\n\n해당 기능을 활용함으로써 조직은 RHEL 생태계에 최적화된 빌드 및 배포 환경을 GitHub Actions 내에서 직접 구축하고 관리하는 것이 가능합니다.",
+    "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Thu, 25 Jun 2026 15:40:04 +0000",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=91643",
+    "title": "EU Cyber Resilience Act: Overview, Requirements, and Timelines",
+    "summary": "Learn what the EU Cyber Resilience Act requires, including SBOM mandates, vulnerability reporting, and compliance deadlines for container teams.",
+    "aiSummary": "EU Cyber Resilience Act는 디지털 요소가 포함된 제품의 보안을 강화하기 위해 제정된 유럽연합의 새로운 규정입니다. 이 법안은 제품 개발부터 폐기까지 전 과정에 걸쳐 엄격한 사이버 보안 기준을 준수할 것을 요구합니다.\n\n주요 요구 사항에는 소프트웨어 구성 요소를 명확히 파악할 수 있는 SBOM 제출 의무화가 포함됩니다. 또한 제품의 취약점이 발견될 경우 이를 즉시 보고하고 신속하게 대응해야 하는 관리 체계 구축이 필수적입니다.\n\n특히 컨테이너 기반 환경에서 소프트웨어를 운영하는 팀들은 해당 규정을 준수하기 위해 보안 강화와 투명성 확보에 집중해야 합니다. 규정 준수를 위한 구체적인 로드맵과 마감 기한이 정해져 있으므로 기술 팀은 기한 내에 적절한 보안 조치를 완료해야 합니다.",
+    "url": "https://www.docker.com/blog/eu-cyber-resilience-act-overview/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Dan Berezin Stelzer",
+    "pubDate": "Thu, 25 Jun 2026 15:36:43 +0000",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=ai&p=715203",
+    "title": "Codex is now the recommended agent in JetBrains IDEs",
+    "summary": "JetBrains AI supports multiple coding agents, including Junie, Codex, Claude Agent, and any ACP-compatible agent you bring yourself. Previously, AI users in JetBrains IDEs started in Chat mode and had",
+    "aiSummary": "JetBrains는 자사 IDE에서 활용할 수 있는 다양한 코딩 에이전트 중 Codex를 공식 권장 에이전트로 선정하였습니다.\n\n기존에는 사용자가 JetBrains AI의 Chat 모드에서 여러 에이전트 중 직접 하나를 선택해야 했으나, 최근 에이전트 모델의 기술적 성능이 크게 향상됨에 따라 사용자 경험을 최적화하기 위해 이와 같은 결정을 내렸습니다.\n\n현재 JetBrains AI는 Junie, Claude Agent 등 다양한 모델과 MCP 호환 에이전트를 지원하고 있습니다. 향후 사용자들은 더 편리하게 고성능 에이전트를 활용하여 코딩 효율을 높일 수 있을 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/ai/2026/06/codex-is-now-the-recommended-agent-in-jetbrains-ai/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Anna Maltseva",
+    "pubDate": "Thu, 25 Jun 2026 14:57:31 +0000",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
+    "title": "STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus",
+    "summary": "Written by: Jordan Jones\n\n\nIntroduction \nGoogle Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and de",
+    "aiSummary": "Google Threat Intelligence Group은 러시아 기반의 위협 행위자인 Turla가 최소 2022년 12월부터 우크라이나 정부 및 군사 기관, 이탈리아 외교 정책 관련 단체를 대상으로 배포 중인 .NET 기반 백도어 STOCKSTAY를 분석했습니다. 이 악성코드는 과거 Turla가 사용한 KAZUAR 툴킷과 코드 및 기능적으로 상당한 유사성을 보이며, 정보 수집을 목적으로 지속적인 사이버 간첩 활동에 활용되고 있습니다.\n\nSTOCKSTAY는 Windows Forms 프레임워크를 기반으로 작성된 다중 구성 요소 백도어로, websocket-sharp 라이브러리를 통해 C2 서버와 보안 WebSocket 통신을 수행합니다. 초기에는 주식 시장 데이터 조회 도구로 위장했으나, 2025년부터는 PDF 뷰어나 계산기 유틸리티 등으로 위장하는 방식을 사용합니다.\n\n주요 구성 요소는 다음과 같습니다. STOCKSTAY.STOCKBROKER는 프록시 기반의 터널링을 담당하며 C2와의 네트워크 통신을 전담합니다. STOCKSTAY.STOCKMARKET은 전체 생태계를 조율하는 오케스트레이터로, RSA 2048비트 암호화 키를 생성하고 암호화된 구성 파일을 관리합니다. STOCKSTAY.STOCKTRADER는 실제 백도어 기능을 수행하며 파일 및 레지스트리 조작, 프로세스 실행, 시스템 정보 수집, 화면 캡처 등 다양한 악성 명령을 실행합니다.\n\n또한, STOCKSTAY.MARKETMAKER라는 다운로더가 추가 페이로드를 설치하고 영속성을 확보하는 역할을 하며, 최근에는 Render와 같은 플랫폼을 활용한 C2 서버 컨트롤러가 관찰되었습니다. 이러한 인프라 구조는 기존 KAZUAR 툴킷의 다중 홉 C2 방식과 유사하며, 서버 측에서 메시지 복호화를 방지하여 운영자의 인프라 위치를 은닉하는 고도화된 전략을 취하고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Thu, 25 Jun 2026 14:00:00 +0000",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jun/25/how-the-django-software-foundation-became-a-cna/",
+    "title": "How the Django Software Foundation Became a CNA",
+    "summary": "Why the DSF pursued CNA status\nDjango has a long history of responsible security practices: a dedicated, private security mailing list, clear advisory policies, and predictable security releases. Even",
+    "aiSummary": "DSF는 Django의 보안 관리를 더욱 효율적으로 수행하기 위해 공식적인 CNA 자격을 획득하였습니다. 기존에는 보안 취약점 식별자인 CVE ID를 할당받기 위해 외부 기관에 의존해야 했으나, 이제는 직접 ID를 발급함으로써 행정적 지연을 줄이고 보안 대응의 독립성을 강화할 수 있게 되었습니다.\n\nCNA가 되기 위한 과정은 내부 검토와 MITRE와의 협업을 통해 약 4개월에 걸쳐 진행되었습니다. DSF는 기존의 성숙한 보안 프로세스를 문서화하고 MITRE의 요구사항에 맞춰 워크플로우를 정비하였습니다. 특히 Django 핵심 제품과 관련된 일부 생태계 프로젝트로 범위를 명확히 설정하고, 취약점 접수부터 CVE 할당 및 공지까지의 절차를 체계화하는 작업에 집중하였습니다.\n\n이후 MITRE에서 제공하는 CNA 교육과 실습 과정을 이수하며 공식적인 권한을 부여받았습니다. 이번 변화를 통해 Django 사용자와 기여자들에게 보안 프로세스상의 혼란은 없으며, 오히려 외부 의존성을 낮춘 더욱 신속한 보안 패치 배포가 가능해졌습니다.\n\n이번 경험을 바탕으로 DSF는 다른 프로젝트들에게도 이미 갖춰진 보안 절차를 공식화하는 것이 CNA 자격 획득의 핵심이며, 초기 단계에서 명확한 책임 범위를 설정하는 것이 중요하다고 조언합니다. 이 과정은 Natalia Bidart와 Jacob Walls를 비롯한 Django 팀의 주도로 성공적으로 마무리되었습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jun/25/how-the-django-software-foundation-became-a-cna/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Natalia Bidart and Jacob Walls",
+    "pubDate": "Thu, 25 Jun 2026 06:00:00 -0500",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://deno.com/blog/v2.9",
+    "title": "Deno 2.9",
+    "summary": "Deno 2.9 is here, headlined by deno desktop, a new way to build native desktop\napplications from the web stack you already know, with no Electron boilerplate\nand a single binary at the end. It’s also ",
+    "aiSummary": "Deno 2.9은 웹 기술을 활용하여 네이티브 데스크톱 애플리케이션을 간편하게 구축할 수 있는 deno desktop 기능을 새롭게 도입했습니다. 이 기능은 별도의 Electron 설정 없이도 단일 바이너리 형태로 애플리케이션을 배포할 수 있게 하며, 웹뷰를 기반으로 로직은 Deno에서 실행됩니다. 또한 macOS, Windows, Linux 등 다양한 플랫폼을 위한 교차 컴파일과 자동 업데이트 기능을 지원하여 데스크톱 개발 환경을 크게 개선했습니다.\n\n기존 Node.js 프로젝트의 마이그레이션 편의성도 대폭 강화되었습니다. Deno 2.9는 npm, pnpm, yarn, Bun의 락파일을 직접 읽어들여 별도의 변환 작업 없이 의존성을 그대로 유지하며 실행할 수 있습니다. 특히 pnpm-workspace.yaml 등 기존 모노레포 설정을 자동으로 인식하고 처리하여, 프로젝트 전환 시 발생하는 복잡한 과정을 최소화했습니다.\n\n성능 측면에서는 런타임 최적화를 통해 콜드 스타트 속도가 약 2배 향상되었으며, 메모리 사용량은 이전 버전 대비 최대 3배 이상 절감하는 성과를 거두었습니다. Deno.serve의 HTTP 처리량 역시 전반적으로 개선되었으며, crypto.subtle이나 console과 같은 핵심 경로를 Rust로 이전하여 안정성을 높였습니다.\n\n새로운 기능으로 CSS 모듈 임포트를 공식 지원하여 웹 표준 방식의 스타일 시트 사용이 가능해졌습니다. 또한 deno link와 deno unlink를 통한 로컬 패키지 관리, 프로젝트 의존성을 쉽게 확인하는 deno list 명령어가 추가되었으며, package.json을 우선적으로 사용하는 preferPackageJson 옵션을 통해 개발자의 기존 워크플로우를 더욱 존중하는 환경을 제공합니다.",
+    "url": "https://deno.com/blog/v2.9",
+    "category": "백엔드",
+    "source": "Deno Blog",
+    "author": "Bartek Iwańczuk",
+    "pubDate": "2026-06-25T09:00:00.000Z",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "Deno",
+      "TS"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=pycharm&p=715892",
     "title": "Explicit Lazy Imports Are Coming to Python 3.15",
     "summary": "A while ago at PyCon US 2026, I had the pleasure of listening to the Python Steering Council give updates about new features that are being added in Python 3.15. One that stood out was explicit lazy i",
@@ -13,6 +157,53 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/25/podcast-060/",
+    "title": "Episode 60 “How JEPs Drive Java's Evolution” [AtA]",
+    "summary": "Posted on June 25, 2026\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\tJDK Enhancement Proposals are OpenJDK's vehicle for documenting and communicating substantial changes of the Java language, its APIs, and the runtime but also th",
+    "aiSummary": "Inside Java Podcast의 Episode 60에서는 JEP(JDK Enhancement Proposals)가 Java 언어와 API, 런타임 그리고 프로젝트 전반의 변화를 관리하는 핵심 체계임을 설명합니다. JEP는 OpenJDK의 개발 과정에서 제안되는 중대한 변경 사항들을 명확하게 문서화하고 소통하는 통로 역할을 수행합니다.\n\nJavaOne 2026에서 진행된 이번 방송에는 JEP 프로세스의 관리자인 Alex Buckley가 출연하여 JEP의 체계적인 구조와 중요성을 상세히 다룹니다. JEP를 깊이 이해하는 것은 곧 Java의 미래 발전 방향을 파악하는 것과 직결됩니다. 관련 정보는 공식 OpenJDK 웹사이트의 JEP 개요와 JEP 2.0 명세 등을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/06/25/podcast-060/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Nicolai Parlog",
+    "pubDate": "2026-06-25T00:00:00.000Z",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/25/spring-boot-3-5-16-available-now",
+    "title": "Spring Boot 3.5.16 available now",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring Boot 3.5.16 버전이 새롭게 출시되었습니다. 이번 업데이트는 안정성을 개선하고 기존 프레임워크의 기능을 유지 보수하는 데 중점을 두고 있습니다. 개발자는 공식 배포 채널을 통해 최신 버전을 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/06/25/spring-boot-3-5-16-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "wilkinsona",
+    "pubDate": "Thu, 25 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgx-announces-support-for-eol-versions-of-postgresql-3334/",
+    "title": "PGX announces support for EOL versions of PostgreSQL\n",
+    "summary": "PGX is pleased to announce PGX Longevity, a service providing critical security patches and data integrity bug fixes for versions of PostgreSQL no longer receiving community releases, from 9.6 to 13 (",
+    "aiSummary": "PGX가 공식적으로 지원이 종료된 PostgreSQL 버전을 위한 유지보수 서비스인 PGX Longevity를 새롭게 발표했습니다.\n\n이 서비스는 커뮤니티 지원이 중단된 PostgreSQL 9.6 버전부터 13 버전까지를 대상으로 하며 오는 11월 마지막 릴리스 이후에는 14 버전까지 포함될 예정입니다. 다양한 사유로 인해 최신 버전으로 업그레이드하지 못하는 기업들을 위해 치명적인 보안 패치와 데이터 무결성 버그 수정 작업을 백패칭 방식으로 제공합니다.\n\nPGX Longevity는 인스턴스나 코어 단위가 아닌 고객사별 고정 가격 정책으로 운영되며 서비스 수준 협약인 SLA를 지원합니다. 또한 기존의 9.6에서 11 버전과 최근의 12에서 14 버전을 모두 포괄하며 PostgreSQL 업그레이드를 포함한 전반적인 기술 컨설팅 서비스도 함께 제공합니다.",
+    "url": "https://www.postgresql.org/about/news/pgx-announces-support-for-eol-versions-of-postgresql-3334/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Thu, 25 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-25T17:26:26.275Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
     ]
   },
   {
