@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=715892",
+    "title": "Explicit Lazy Imports Are Coming to Python 3.15",
+    "summary": "A while ago at PyCon US 2026, I had the pleasure of listening to the Python Steering Council give updates about new features that are being added in Python 3.15. One that stood out was explicit lazy i",
+    "aiSummary": "Python 3.15 버전에서 PEP 810을 통해 명시적 지연 임포트 기능인 Explicit Lazy Imports가 도입될 예정입니다.\n\n이 기능은 모듈을 처음으로 호출하는 시점까지 로딩을 미루는 방식을 채택하고 있습니다. 프로그램 시작 시점에 모든 모듈을 불러오지 않음으로써 전체적인 성능을 최적화하고 시작 시간을 단축하는 데 기여할 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/pycharm/2026/06/explicit-lazy-imports-are-coming-to-python-3-15/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Cheuk Ting Ho",
+    "pubDate": "Thu, 25 Jun 2026 08:21:55 +0000",
+    "fetchedAt": "2026-06-25T10:23:06.830Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/25/a-bootiful-podcast-francesco-ciulla",
+    "title": "A Bootiful Podcast: My friend Francesco Ciulla on developer advocacy and more",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "제시된 본문에는 기사의 핵심 내용이나 팟캐스트 관련 정보가 포함되어 있지 않으며, Broadcom의 저작권 정보 및 다양한 기술 관련 상표권 고지만 나열되어 있습니다. 따라서 해당 텍스트를 기반으로 한 별도의 뉴스 요약은 불가능합니다.",
+    "url": "https://spring.io/blog/2026/06/25/a-bootiful-podcast-francesco-ciulla",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Thu, 25 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-25T10:23:06.830Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "/blog/release/v26.4.0?1782344347849",
     "title": "Node.js 26.4.0 (Current)",
     "summary": "Antoine du Hamel2026-06-24, Version 26.4.0 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.4.0#2026-06-24-version-2640-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
@@ -1873,183 +1905,6 @@
       "OpenAI",
       "LLM",
       "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
-    "title": "Generated release notes credit you for Copilot pull requests",
-    "summary": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release…\nThe p",
-    "aiSummary": "GitHub에서 릴리스 노트를 자동으로 생성할 때 해당 릴리스에 포함된 Pull requests 목록이 함께 작성됩니다. 이제 이 과정에서 GitHub Copilot이 생성하는 릴리스 노트에 각 Pull requests를 제안하거나 기여한 사용자에 대한 정보가 포함됩니다. 이번 업데이트를 통해 오픈소스 프로젝트나 팀 단위의 협업 과정에서 개별 기여자의 활동 내역이 더욱 투명하게 기록되고 인정받을 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Thu, 18 Jun 2026 09:30:02 +0000",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/diagnose-rare-childhood-diseases",
-    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-    "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-    "aiSummary": "연구진이 희귀 유전 질환을 앓고 있는 아동들의 진단을 돕기 위해 OpenAI의 추론 모델을 활용했습니다.\n\n이 연구를 통해 기존의 진단 방법으로 해결되지 않았던 사례들 중에서 18건의 새로운 질환을 성공적으로 밝혀냈습니다. 이는 AI가 복잡한 유전적 데이터를 분석하여 의학적 난제를 해결하는 데 중요한 역할을 할 수 있음을 시사합니다.",
-    "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Thu, 18 Jun 2026 08:00:00 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
-    "title": "Agent Factory Recap:  100X engineering with AI agents in Google Antigravity 2.0",
-    "summary": "In this episode of the Agent Factory, I sat down with Rody Davis, one of Google’s top agentic engineers. We dive into the massive shift from traditional IDEs to agent-first platforms, the reality of c",
-    "aiSummary": "Agent Factory 에피소드에서는 Google의 엔지니어 Rody Davis와 함께 AI 에이전트 중심의 개발 환경으로의 전환과 100배 높은 생산성을 달성하는 전략을 논의합니다. Google Antigravity 2.0은 기존 IDE에서 벗어나 독립형 에이전트 관리자, CLI, SDK, 특화 IDE로 구성된 에이전트 우선 플랫폼으로 진화했습니다. 이는 개발자가 단일 작업 공간에 구속되지 않고 각기 다른 구조의 프로젝트를 유연하게 관리할 수 있도록 지원합니다.\n\nRody Davis는 엔지니어의 영향력을 확장하고 인지적 피로를 줄이기 위해 AI 에이전트를 활용하여 테스트 코드 작성, 프로토타입 개발, 반복적인 작업 등을 자동화합니다. 특히 기술 문서나 디자인 시스템을 압축된 정보로 전달하는 스킬 시스템을 통해 에이전트의 정확도와 속도를 높입니다. 또한 MCP 서버를 활용해 외부 도구와의 연동성을 극대화하며, 복잡한 아키텍처 대신 상태와 UI 및 데이터가 명확히 분리된 단순한 구조를 유지하여 에이전트의 작업을 효율적으로 제어하는 방식을 강조합니다.\n\n코드 리뷰 측면에서는 작업의 성격에 따라 전략을 달리합니다. 마케팅 사이트와 같은 결과물은 시각적 확인에 집중하지만 백엔드 로직은 API 계약과 스키마를 엄격히 검토하며, 개발자가 초기 패턴을 직접 작성해 에이전트가 이를 학습하도록 유도합니다. 또한 개발 효율을 높이기 위해 특정 작업에 최적화된 macOS Finder 확장 기능을 직접 제작하거나, Gemma 4를 활용해 오프라인에서 개인 웹사이트의 콘텐츠 추천 기능을 구현하는 등 능동적인 도구 활용 사례를 제시합니다.\n\n기술적 시연을 통해 Antigravity 2.0은 다중 에이전트를 병렬로 가동하여 DevOps와 QA 기능을 포함한 풀스택 애플리케이션을 단번에 구축하는 능력을 입증했습니다. 마지막으로 미래 기술 전망에 관해 Rody Davis는 2026년까지 비기술적 창업자가 Vibe Coding만으로 서비스를 출시할 수 있게 되겠으나, 코드베이스의 관리 상태가 AI 도입의 핵심 병목 현상이 될 것이라고 경고합니다. 결론적으로 에이전트 엔지니어링 시대에는 코드베이스를 정교하게 다듬는 아키텍처적 절제력과 에이전트를 조율하는 능력이 더욱 중요해집니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Shir Meir Lador"
-      ],
-      "title": [
-        "Head of AI Engineering, Google Cloud Developer Relations"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 18 Jun 2026 07:00:00 +0000",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/choice-compliance-and-collaboration-europes-path-to-open-digital-sovereignty/",
-    "title": "Choice, compliance, and collaboration: Europe’s path to open digital sovereignty",
-    "summary": "The European Commission’s Tech Sovereignty Package comes at a defining moment for the continent's digital future. European competitiveness and security are top of the agenda for European business, ins",
-    "aiSummary": "유럽연합의 Tech Sovereignty Package는 유럽의 디지털 경쟁력과 보안 강화를 목표로 하는 중요한 전략입니다. Google Cloud는 이러한 유럽의 목표를 지지하며, 개방성과 파트너십을 바탕으로 유럽의 디지털 주권을 실현하기 위한 구체적인 제언을 제시합니다.\n\n우선 Cloud and AI Development Act인 CADA 제안서 내의 Union Assurance Levels 규정이 지나치게 지리적 기준에 치중되어 혁신적인 글로벌 기업을 배제할 위험이 있다고 지적합니다. 대신 클라우드 보안을 위한 외부 키 관리 솔루션과 같은 기술적 통제 수단을 장려하고, Industrial Accelerator Act가 제시하는 균형 잡힌 모델을 CADA에도 적용할 것을 촉구합니다.\n\n또한 유럽의 디지털 생태계를 위해 벤더 종속성을 방지하고 상호 운용성을 강화해야 한다고 강조합니다. 이를 위해 인프라와 모델, 애플리케이션 전반에 걸친 개방성을 확보하고, 소프트웨어 라이선스 이동의 자유를 보장하며 클라우드 플랫폼 간의 공정한 가격 정책이 시행되어야 합니다.\n\n마지막으로 유럽의 AI 미래를 위해 물리적 컴퓨팅 인프라 투자가 필수적임을 강조합니다. 특히 데이터 센터의 구축 속도를 높이기 위한 신속한 인허가 절차와 지속 가능한 전력 공급 체계가 필요하며, 지리적 제한을 넘어선 효율적인 인프라 구축 지원이 뒷받침되어야 합니다. Google Cloud는 S3NS, Thales, T-Systems 등 유럽 내 파트너들과 협력하는 Made with Europe 전략을 통해 유럽의 규제 표준을 준수하면서도 글로벌 기술 혁신을 이어가겠다는 의지를 보입니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/choice-compliance-and-collaboration-europes-path-to-open-digital-sovereignty/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Giorgia Abeltino"
-      ],
-      "title": [
-        "Head of Government Affairs and Public Policy, Google Cloud, EMEA"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Thu, 18 Jun 2026 07:00:00 +0000",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.137.2",
-    "title": "0.137.2",
-    "summary": "Features\n✨ Add iter_route_contexts() for advanced use cases that used to use router.routes (e.g. Jupyverse). PR #15785 by @tiangolo.\nTranslations\n🌐 Fix broken Markdown in Korean custom response docs.",
-    "aiSummary": "이번 0.137.2 버전에서는 Jupyverse와 같은 고급 사용 사례를 지원하기 위해 iter_route_contexts() 기능이 새롭게 추가되었습니다.\n\n문서와 관련된 업데이트로는 한국어 커스텀 응답 문서 내 깨진 마크다운 형식을 수정하였으며, 한국어를 포함한 프랑스어, 중국어, 독일어, 우크라이나어, 터키어, 포르투갈어, 스페인어, 일본어, 러시아어 등 다국어 번역 데이터가 최신 상태로 갱신되었습니다.\n\n내부적으로는 BairesDev 스폰서 추가 및 관련 스크립트 개선이 이루어졌습니다. 또한 cryptography, aiohttp, starlette, python-multipart 등 주요 파이썬 패키지 및 개발 도구들에 대한 버전 업데이트가 진행되어 보안과 안정성을 강화했습니다. 그 외에 사용하지 않는 스크립트를 정리하고 문서 소스 검증을 위한 설정을 추가하는 등 코드 유지보수 작업이 포함되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.2",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-06-18T06:57:26.000Z",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "/blog/release/v26.3.1?1781757519606",
-    "title": "Node.js 26.3.1 (Current)",
-    "summary": "Antoine du Hamel2026-06-18, Version 26.3.1 (Current), @aduh95\nThis is a security release.\nNotable Changes\n\n(CVE-2026-48618) tls: normalize hostname for server identity checks (Matteo Collina) – High\n(",
-    "aiSummary": "Node.js 26.3.1 버전은 여러 보안 취약점을 해결하기 위한 보안 업데이트를 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다.\ntls 모듈에서 서버 신원 확인을 위한 호스트네임 정규화 오류와 SNI 컨텍스트 매칭 및 세션 재사용 관련 보안 문제를 수정하였습니다.\ncrypto 모듈에서는 WebCrypto cipher의 출력 길이를 제한하여 보안을 강화하였습니다.\nhttp2 모듈에서 무제한적인 메모리 증가를 방지하기 위해 originSet 크기를 제한하였고, http.Agent의 응답 큐 중독 문제를 해결하였습니다.\ndns와 net 모듈에서는 NUL 바이트가 포함된 호스트네임을 거부하도록 변경되었습니다.\n그 외에도 프록시 터널 에러 시 자격 증명 정보를 마스킹하고, 권한 모델 사용 시 process.chdir, FileHandle utimes, 파이프 열기 및 chmod 작업에 대한 보안 제어를 추가하였습니다.\n\n또한 이번 릴리스에는 OpenSSL 3.5.7 버전 업데이트와 llhttp 9.4.2 버전, undici 8.5.0 버전으로의 의존성 업데이트가 포함되어 있습니다. 시스템 안정성과 보안을 위해 관련 환경에서 사용하는 사용자들은 최신 버전으로 업데이트할 것을 권장합니다.",
-    "url": "https://nodejs.org/en/blog/release/v26.3.1",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "Thu, 18 Jun 2026 04:38:39 GMT",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "/blog/release/v24.17.0?1781757518484",
-    "title": "Node.js 24.17.0 (LTS)",
-    "summary": "Antoine du Hamel2026-06-18, Version 24.17.0 'Krypton' (LTS), @aduh95\nThis is a security release.\nNotable Changes\n\n(CVE-2026-48618) tls: normalize hostname for server identity checks (Matteo Collina) –",
-    "aiSummary": "Node.js 24.17.0 버전인 Krypton은 보안 강화를 목적으로 배포된 LTS 릴리스입니다. 이번 업데이트에는 TLS 호스트 이름 정규화, WebCrypto 암호 출력 길이 제한, HTTP/2 originSet 크기 제한 등 다수의 보안 취약점 해결 사항이 포함되어 있습니다.\n\n주요 수정 사항은 다음과 같습니다.\n\nTLS와 관련하여 서버 식별 확인을 위한 호스트 이름 정규화 기능이 추가되었고, 대소문자를 구분하던 SNI 컨텍스트 매칭 오류가 수정되었으며, 재사용 가능한 세션을 인증된 호스트에 바인딩하도록 조치되었습니다.\n\n암호화 및 네트워크 보안 측면에서는 WebCrypto 암호의 출력 길이를 적절히 제한하고, DNS 및 net 모듈에서 NUL 바이트가 포함된 호스트 이름을 거부하도록 변경했습니다. 또한 HTTP/2의 originSet 크기 제한을 통해 메모리 무한 증가 문제를 예방하고, http.Agent의 응답 큐 오염 현상을 해결했습니다.\n\n기타 개선 사항으로 터널 에러 발생 시 프록시 자격 증명을 마스킹하여 정보 노출을 방지했고, 퍼미션 모델 활성화 시 FileHandle utimes 사용을 비활성화하는 등 보안 설정을 강화했습니다. 또한 의존성 라이브러리인 OpenSSL을 3.5.7 버전으로, nghttp2를 1.69.0 버전으로 업데이트하여 전반적인 안정성과 보안성을 높였습니다. \n\n사용자는 Node.js 공식 홈페이지에서 각 운영체제별 설치 파일 및 바이너리를 다운로드하여 업데이트를 진행할 수 있습니다.",
-    "url": "https://nodejs.org/en/blog/release/v24.17.0",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "Thu, 18 Jun 2026 04:38:38 GMT",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "/blog/release/v22.23.0?1781757499322",
-    "title": "Node.js 22.23.0 (LTS)",
-    "summary": "Antoine du Hamel2026-06-18, Version 22.23.0 'Jod' (LTS), @aduh95\nThis is a security release.\nNotable Changes\n\n(CVE-2026-48618) tls: normalize hostname for server identity checks (Matteo Collina) – Hig",
-    "aiSummary": "Node.js 22.23.0 버전인 Jod이 LTS 릴리스로 공개되었습니다. 이번 업데이트는 주로 보안 취약점 해결에 집중한 보안 릴리스입니다.\n\n주요 변경 사항으로는 tls 모듈의 호스트명 정규화 처리, WebCrypto 암호 출력 길이 제한, dns와 net 모듈에서의 NUL 바이트 포함 호스트명 거부 등이 포함되었습니다. 또한 http2의 메모리 누수 방지를 위한 originSet 크기 제한, 프록시 인증 정보의 터널링 에러 로그 마스킹 처리, http.Agent의 응답 큐 중독 문제 해결 등 다수의 보안 관련 수정이 이루어졌습니다.\n\n이 외에도 nghttp2와 llhttp, undici, OpenSSL 3.5.7 등 의존성 패키지들의 업데이트가 진행되어 시스템의 전반적인 안정성과 보안성이 강화되었습니다. 상세한 기술 정보와 각 운영체제별 설치 파일 및 바이너리는 공식 Node.js 배포 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://nodejs.org/en/blog/release/v22.23.0",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "Thu, 18 Jun 2026 04:38:19 GMT",
-    "fetchedAt": "2026-06-18T11:33:41.315Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "/blog/vulnerability/june-2026-security-releases?1781755200000",
-    "title": "Thursday, June 18, 2026 Security Releases",
-    "summary": "The Node.js Project(UPDATE 2026-06-18) Security releases available\nUpdates are now available for the 26.x, 24.x, 22.x Node.js release lines for the\nfollowing issues.\nThis security release includes the",
-    "aiSummary": "Node.js 프로젝트는 2026년 6월 18일, 주요 보안 취약점을 해결하기 위한 업데이트를 발표했습니다. 이번 보안 업데이트는 Node.js 22.x, 24.x, 26.x 릴리스 라인에 공통적으로 적용되며, 의존성 패키지인 llhttp, nghttp2, openssl, undici의 버전 업데이트를 포함합니다.\n\n주요 취약점 내용은 다음과 같습니다.\n\nNode.js WebCrypto 구현상의 정수 오버플로로 인한 서비스 거부(DoS) 취약점(CVE-2026-48933)이 발견되었습니다. 또한, 유니코드 점 구분 기호 처리에 따른 TLS 와일드카드 인증 우회 문제(CVE-2026-48618)와 HTTP/2 클라이언트에서의 메모리 부족 오류(CVE-2026-48619) 등 다수의 보안 결함이 보고되었습니다.\n\n이외에도 ERR_PROXY_TUNNEL 오류 메시지를 통한 프록시 자격 증명 유출(CVE-2026-48615), 권한 모델 우회 문제(CVE-2026-48617, CVE-2026-48935, CVE-2026-48936), HTTP/2 세션 종료 오류(CVE-2026-48937), 대소문자 구분 문제로 인한 mTLS 권한 우회(CVE-2026-48928), C-문자열 절단으로 인한 호스트 이름 재바인딩(CVE-2026-48930), TLS 호스트 식별 우회(CVE-2026-48934), HTTP 응답 큐 오염(CVE-2026-48931) 등 다양한 보안 이슈가 해결되었습니다.\n\n이번 패치를 통해 최고 심각도 등급인 HIGH를 포함한 여러 보안 위협이 개선되었습니다. 각 릴리스 라인별 최신 버전은 Node.js 22.23.1, 24.17.1, 26.3.2입니다. 시스템 보안을 위해 사용 중인 환경을 해당 버전으로 즉시 업데이트할 것을 권장합니다.",
-    "url": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "Thu, 18 Jun 2026 04:00:00 GMT",
-    "fetchedAt": "2026-06-18T18:13:20.670Z",
-    "tags": [
-      "Node.js",
-      "JS"
     ]
   }
 ]

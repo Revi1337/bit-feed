@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=715892",
+    "title": "Explicit Lazy Imports Are Coming to Python 3.15",
+    "summary": "A while ago at PyCon US 2026, I had the pleasure of listening to the Python Steering Council give updates about new features that are being added in Python 3.15. One that stood out was explicit lazy i",
+    "aiSummary": "Python 3.15 버전에서 PEP 810을 통해 명시적 지연 임포트 기능인 Explicit Lazy Imports가 도입될 예정입니다.\n\n이 기능은 모듈을 처음으로 호출하는 시점까지 로딩을 미루는 방식을 채택하고 있습니다. 프로그램 시작 시점에 모든 모듈을 불러오지 않음으로써 전체적인 성능을 최적화하고 시작 시간을 단축하는 데 기여할 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/pycharm/2026/06/explicit-lazy-imports-are-coming-to-python-3-15/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Cheuk Ting Ho",
+    "pubDate": "Thu, 25 Jun 2026 08:21:55 +0000",
+    "fetchedAt": "2026-06-25T10:23:06.830Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/06/25/a-bootiful-podcast-francesco-ciulla",
+    "title": "A Bootiful Podcast: My friend Francesco Ciulla on developer advocacy and more",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "제시된 본문에는 기사의 핵심 내용이나 팟캐스트 관련 정보가 포함되어 있지 않으며, Broadcom의 저작권 정보 및 다양한 기술 관련 상표권 고지만 나열되어 있습니다. 따라서 해당 텍스트를 기반으로 한 별도의 뉴스 요약은 불가능합니다.",
+    "url": "https://spring.io/blog/2026/06/25/a-bootiful-podcast-francesco-ciulla",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "Thu, 25 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-25T10:23:06.830Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "/blog/release/v26.4.0?1782344347849",
     "title": "Node.js 26.4.0 (Current)",
     "summary": "Antoine du Hamel2026-06-24, Version 26.4.0 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.4.0#2026-06-24-version-2640-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
