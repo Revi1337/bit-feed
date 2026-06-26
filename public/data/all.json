@@ -1,5 +1,235 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+    "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+    "summary": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose",
+    "aiSummary": "Microsoft AI가 자체 개발한 코딩 모델인 MAI-Code-1-Flash가 GitHub Copilot Business와 GitHub Copilot Enterprise 사용자들을 대상으로 정식 출시되었습니다.\n\n이번 모델은 코딩 작업에 특화되어 설계되었으며 빠른 응답 속도와 효율적인 성능을 제공하도록 최적화되었습니다. 최근 다양한 Copilot 인터페이스 전반에 걸쳐 모델 적용 범위가 확대되고 있으며 이를 통해 개발자들은 더욱 민첩한 코딩 지원 환경을 경험할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 26 Jun 2026 16:35:06 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
+    "title": "From query to action: Introducing SQL alerting in Cloud Monitoring Observability Analytics",
+    "summary": "Traditional alerting systems often force a compromise: you can either alert immediately on simple, noisy log events, or monitor rigid, pre-configured metrics that fail when faced with data with many u",
+    "aiSummary": "Google Cloud는 Observability Analytics에서 SQL을 활용한 새로운 알림 기능을 프리뷰로 공개했습니다. 기존의 단순한 로그 이벤트나 미리 구성된 메트릭 모니터링 방식에서 벗어나, SQL을 사용해 로그와 트레이스를 복합적으로 분석하고 정교한 알림을 생성할 수 있게 되었습니다.\n\n이 기능은 Cloud Monitoring과 연동되어 사용자가 정의한 일정에 따라 SQL 쿼리를 실행합니다. 실행된 쿼리가 설정한 조건에 부합할 경우 인시던트가 생성되며, 이메일이나 Slack, PagerDuty 등 미리 지정된 채널로 알림이 발송됩니다. 모든 데이터 처리는 BigQuery를 기반으로 이루어지며, 비용은 표준 BigQuery 요금제에 따라 청구됩니다.\n\n알림 조건은 크게 두 가지 방식으로 설정할 수 있습니다. 쿼리 결과로 반환되는 행의 수를 기준으로 하는 Row count threshold 방식과 특정 컬럼의 값이 참인지 판별하는 Boolean 방식입니다. 이를 통해 사용자는 단순 임계값 모니터링을 넘어 특정 고객의 오류 급증이나 서비스 지연 시간의 이상 징후를 문맥에 맞게 감지할 수 있습니다.\n\nSQL 기반 알림을 사용하려면 먼저 로그 버킷을 Observability Analytics로 업그레이드하고 BigQuery 데이터셋을 연결해야 합니다. 또한 적절한 IAM 권한을 부여받아야 하며, Google Cloud 콘솔이나 API, Terraform을 통해 알림 정책을 설정할 수 있습니다. 해당 기능은 복잡한 데이터 관계를 심층적으로 분석해야 하는 인프라 엔지니어나 개발자에게 더욱 효율적인 모니터링 환경을 제공합니다.",
+    "url": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Joy Wang"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Fri, 26 Jun 2026 16:30:00 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
+    "title": "Terraform MCP server: Four real-world AI infrastructure patterns ",
+    "summary": "AI is rapidly becoming the new operational interface for infrastructure. What once required deep expertise in Terraform, cloud platforms, security policies, and operational workflows can now begin wit",
+    "aiSummary": "Terraform MCP server는 대규모 언어 모델인 LLM이 가진 비결정적 특성과 환각 문제를 해결하고 인프라 운영에 신뢰성을 부여하기 위해 설계된 기술입니다. 이 서버는 AI 에이전트가 Terraform 워크플로우, 모듈, 정책 및 구성 정보에 직접 접근하여 조직의 실제 표준을 바탕으로 의사결정을 내리도록 지원합니다. 이를 통해 기업은 인프라 관리의 효율성과 안전성을 동시에 확보할 수 있습니다.\n\n첫 번째 패턴은 플랫폼 엔지니어링을 위한 노코드 인프라 워크플로우입니다. 신규 엔지니어는 복잡한 Terraform 코드를 직접 수정하는 대신 AI 에이전트를 통해 승인된 노코드 모듈을 탐색하고 테스트합니다. AI는 모듈의 의도를 설명하고 입력값을 안내하며 tflint 등을 활용해 배포 결과를 검증함으로써 초보 엔지니어의 온보딩 부담을 줄이고 운영 표준을 준수하게 합니다.\n\n두 번째 패턴은 프라이빗 모듈 레지스트리를 활용한 셀프 서비스 인프라 구축입니다. AI 에이전트는 승인된 모듈 카탈로그에서 필요한 리소스를 찾아 구성하고 검증을 자동화합니다. 이를 통해 조직 전체에서 일관된 인프라 배포가 가능하며, 운영 중 발생하는 모듈 버전 업데이트나 공급자 업그레이드 시에도 AI가 변경 사항을 분석하고 호환성을 확인하여 운영 부하를 대폭 낮춰줍니다.\n\n세 번째 패턴은 Sentinel이나 OPA를 활용한 정책 강화 및 거버넌스 자동화입니다. AI는 인프라 변경이 조직의 보안 및 비용 정책을 위반할 경우 이를 즉시 탐지하고, 실패 원인을 분석하여 수정 가이드를 제시합니다. 정책 개발 단계부터 배포 과정까지 AI가 통합된 워크플로우를 제공함으로써 보안 팀의 거버넌스 관리 부담은 줄이고 개발 팀의 정책 준수 속도는 높이는 지능형 거버넌스 모델을 구축합니다.\n\n마지막 네 번째 패턴은 Terraform Stacks를 활용한 대규모 인프라 단순화입니다. 다수의 환경, 지역, 클라우드 제공자를 관리해야 하는 글로벌 기업 환경에서 Terraform Stacks와 MCP 서버를 결합하면 AI 에이전트가 개별 모듈이 아닌 전체 시스템 단위로 인프라를 이해하고 조정할 수 있습니다. 이는 랜딩 존이나 네트워크 보안 베이스라인과 같은 복잡한 인프라 오케스트레이션을 엔터프라이즈 규모에서 표준화하고 자동화하는 핵심 기반이 됩니다.",
+    "url": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "YuZhao Zhang",
+    "pubDate": "2026-06-26T16:00:00.000Z",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "/blog/next-16-3-ai-improvements",
+    "title": "Next.js 16.3: AI Improvements",
+    "summary": "Actionable errors with paste-ready fix prompts, first-party Skills for the dev loop and Cache Components, and tooling that keeps coding agents in sync with your project.",
+    "aiSummary": "Next.js 16.3 버전은 AI를 활용한 개발 경험 향상에 중점을 두고 있습니다. 개발자가 오류를 즉시 해결할 수 있도록 붙여넣기 가능한 수정 프롬프트를 제공하며, 개발 주기 내에서 활용 가능한 퍼스트 파티 Skills와 Cache Components 기능을 도입하였습니다. 또한 코딩 에이전트가 프로젝트와 지속적으로 동기화된 상태를 유지할 수 있도록 돕는 도구들을 포함하여 AI 기반의 효율적인 개발 환경을 지원합니다.",
+    "url": "https://nextjs.org/blog/next-16-3-ai-improvements",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Aurora Scharff"
+      ]
+    },
+    "pubDate": "Fri, 26 Jun 2026 15:00:00 GMT",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=platform&p=716667",
+    "title": "Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2",
+    "summary": "Language Server Protocol (LSP) solves a real problem: before, each IDE or editor had to implement support for a specific language separately. A language server puts that work in one place and exposes ",
+    "aiSummary": "IntelliJ IDEA 2026.2 버전부터 LSP Client API를 오픈소스로 공개합니다. \n\n기존에는 각 IDE나 에디터가 특정 프로그래밍 언어를 지원하기 위해 개별적인 구현이 필요했으나, LSP를 도입함으로써 언어 서버가 공통 프로토콜을 통해 코드 완성, 포매팅, 문서화 등의 기능을 통합 제공하게 되었습니다. \n\n이번 오픈소스 공개를 통해 개발자들은 IntelliJ 플랫폼 기반의 플러그인을 더욱 자유롭게 개발할 수 있게 되었으며, JetBrains는 커뮤니티와의 협력을 강화하여 더 폭넓은 언어 지원 생태계를 조성하고자 합니다. 이는 특정 도구에 종속되지 않는 표준화된 개발 환경 구축을 가속화할 전망입니다.",
+    "url": "https://blog.jetbrains.com/platform/2026/06/open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Jakub Chrzanowski",
+    "pubDate": "Fri, 26 Jun 2026 12:38:50 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/help-make-filament-faster",
+    "title": "Help make Filament faster!",
+    "summary": "Calling all Filament users – want to help make Filament faster? As of today, the team has launched some big performance upgrades across all of the first-party Filament packages into beta and they need",
+    "aiSummary": "Filament 개발팀은 모든 퍼스트 파티 패키지를 대상으로 대규모 성능 개선을 진행하고 이를 베타 버전으로 공개하였습니다. 현재 실제 애플리케이션 환경에서의 테스트를 통해 성능 향상 결과를 확인하고자 사용자들의 참여를 기다리고 있습니다. 이번 업데이트와 관련된 상세 내용은 공식 홈페이지의 안내를 통해 확인할 수 있습니다.",
+    "url": "https://laravel-news.com/help-make-filament-faster?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Alex Six",
+    "pubDate": "Fri, 26 Jun 2026 12:03:15 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+    "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+    "summary": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The…\nThe post ",
+    "aiSummary": "GitHub Desktop 3.6 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 GitHub Copilot과의 통합을 강화하여 커밋 메시지 작성과 병합 충돌 해결 과정을 더욱 효율적으로 개선한 점입니다.\n\n또한 개발자가 여러 브랜치를 동시에 작업할 수 있도록 지원하는 Git worktrees 기능을 도입하였습니다. 이를 통해 사용자는 여러 개의 디렉토리를 별도로 생성하지 않고도 같은 리포지토리 내에서 다른 브랜치를 동시에 다룰 수 있어 작업 흐름이 한층 유연해졌습니다.",
+    "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 26 Jun 2026 10:32:58 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+    "aiSummary": "OpenAI가 차세대 모델인 GPT-5.6 Sol을 공개했습니다.\n\n해당 모델은 코딩과 과학 연구, 그리고 사이버 보안 분야에서 이전보다 훨씬 강력한 성능을 발휘하도록 설계되었습니다.\n\n또한 OpenAI는 이번 모델에 자사가 보유한 기술 중 가장 고도화된 안전 체계를 결합하여 신뢰성을 높였습니다.",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Fri, 26 Jun 2026 10:00:00 GMT",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "/blog/prisma-postgres-on-stripe-projects",
+    "title": "Prisma Postgres on Stripe Projects",
+    "summary": "Add a Prisma Postgres database to your Stripe project with one command: spending limits out of the box, plan changes from the CLI you already use.",
+    "aiSummary": "Stripe 프로젝트에 Prisma Postgres 데이터베이스를 단 하나의 명령어로 추가할 수 있는 기능이 제공됩니다.\n\n이번 통합을 통해 사용자는 별도의 설정 없이 즉시 지출 한도를 적용할 수 있습니다. 또한 기존에 사용하던 CLI를 활용하여 간편하게 플랜을 변경하는 등 데이터베이스 관리 효율성을 높였습니다.",
+    "url": "https://www.prisma.io/blog/prisma-postgres-on-stripe-projects",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_qualstats-214-is-out-3327/",
+    "title": "pg_qualstats 2.1.4 is out!\n",
+    "summary": "Taipei, Taiwan - Sat 20 Jun\npg_qualstats 2.1.4\nThe PoWA team is pleased to announce the release of the version 2.1.4 of\npg_qualstats, a PostgreSQL\nextension keeping statistics on predicates found in W",
+    "aiSummary": "PoWA 팀이 PostgreSQL의 WHERE 구문 및 JOIN 절 내의 조건문에 대한 통계를 기록하는 확장 기능인 pg_qualstats의 2.1.4 버전을 새롭게 출시하였습니다.\n\n이번 업데이트의 주요 내용으로는 JOIN 문에서 joinqual 속성을 인식하도록 하는 버그 수정 작업이 포함되었습니다. 또한 PostgreSQL 19 버전에 대한 지원이 새롭게 추가되었으며 README.md 파일 내의 오타 수정 등 기타 개선 작업이 이루어졌습니다.\n\n오픈 소스 프로젝트인 pg_qualstats는 사용자들의 기여를 환영하며 상세한 정보는 공식 GitHub 저장소를 통해 확인할 수 있습니다. 관련 문서와 다운로드 및 버그 추적은 제공된 GitHub 링크를 통해 이용 가능합니다.",
+    "url": "https://www.postgresql.org/about/news/pg_qualstats-214-is-out-3327/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Fri, 26 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_stat_kcache-232-is-out-3328/",
+    "title": "pg_stat_kcache 2.3.2 is out!\n",
+    "summary": "Taipei, Taiwan - Sat 20 Jun\npg_stat_kcache 2.3.2\nThe PoWA team is pleased to announce the release of the version 2.3.2\nof pg_stat_kcache, an extension that gathers statistics about real reads and\nwrit",
+    "aiSummary": "PoWA 팀이 파일 시스템 계층의 실제 읽기 및 쓰기 작업과 CPU 사용량에 대한 통계를 수집하는 PostgreSQL 확장 기능인 pg_stat_kcache의 2.3.2 버전을 발표했습니다.\n\n이번 업데이트를 통해 최신 버전인 PostgreSQL 19와의 호환성을 확보하였으며, RHEL, Rocky, Alma 리눅스 배포판에서의 설치 명령 오류가 수정되었습니다.\n\n프로젝트는 오픈 소스로 운영되고 있으며, 버그 수정이나 기능 개선을 위한 사용자들의 기여는 GitHub 저장소를 통해 자유롭게 참여할 수 있습니다. 관련 상세 정보와 소스 코드는 공식 GitHub 저장소 및 문서 페이지에서 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_stat_kcache-232-is-out-3328/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Fri, 26 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgdayuk-2026-schedule-up-registration-open-3333/",
+    "title": "PGDay.UK 2026: Schedule up, registration open\n",
+    "summary": "PGDay UK is back on September 8 2026, held at the Cavendish Conference Centre in London, UK. \nOur schedule is up: https://pgday.uk/events/pgdayuk2026/schedule/. We have 7 great speakers with 7 great t",
+    "aiSummary": "PGDay.UK 2026 행사가 2026년 9월 8일 영국 런던의 Cavendish Conference Centre에서 개최됩니다.\n\n이번 행사에서는 7명의 연사가 발표하는 7개의 세션이 진행될 예정이며 상세 일정은 공식 홈페이지를 통해 확인할 수 있습니다.\n\n현재 참가 등록이 시작되었으며 2026년 7월 31일까지 또는 티켓 소진 시까지 얼리버드 티켓을 구매할 수 있습니다. 자세한 내용은 공식 등록 페이지에서 확인이 가능합니다.",
+    "url": "https://www.postgresql.org/about/news/pgdayuk-2026-schedule-up-registration-open-3333/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Fri, 26 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/06/26/iterating-faster-with-ts-7",
+    "title": "Iterating faster with TypeScript 7",
+    "summary": "How the VS Code and TypeScript teams collaborated to adopt TypeScript 7 and speed up VS Code development\nRead the full article",
+    "aiSummary": "VS Code 팀과 TypeScript 팀은 개발 속도 향상을 위해 협력하여 TypeScript 7을 도입하는 과정을 거쳤습니다. 이번 협업은 VS Code의 개발 환경을 개선하고 빌드 및 실행 효율을 높이는 데 초점을 맞추었습니다. 양 팀은 기술적 결합을 통해 최신 버전의 기능을 최적화하였으며 이를 통해 전반적인 개발 생산성을 크게 증대시켰습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/06/26/iterating-faster-with-ts-7",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "VS Code Team",
+    "pubDate": "2026-06-26T00:00:00.000Z",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/pgedge-announces-coldfront-for-postgresql-seamlessly-uniting-ai-analytical-and-oltp-workloads-3325/",
     "title": "pgEdge Announces ColdFront for PostgreSQL, Seamlessly Uniting AI, Analytical and OLTP Workloads\n",
     "summary": "Offers read and write access to hot and cold storage with no application code changes, delivering up to 90% savings in storage\nALEXANDRIA, Va., June 18, 2026 — pgEdge, the leading open source enterpri",
@@ -5028,6 +5258,22 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/agentic-compliance-skills",
+    "title": "Compliance work is overdue for a new approach",
+    "summary": "Elastic Security introduces agentic compliance in Agent Builder, starting with PCI DSS v4.0.1. Ask questions over live telemetry, inspect ES|QL evidence and scope claims, spot data gaps, and automate ",
+    "aiSummary": "Elastic Security는 Agent Builder를 통해 기존의 정적인 대시보드 방식을 넘어선 에이전트 기반의 컴플라이언스 관리 체계를 도입합니다. 이번 업데이트는 PCI DSS v4.0.1 표준을 시작으로 실시간 원격 측정 데이터를 활용한 질의응답 기능을 제공합니다.\n\n사용자는 ES|QL을 통해 증거를 직접 검토하고 적용 범위를 확인하며 데이터의 공백을 즉각적으로 찾아낼 수 있습니다. 또한 Workflows 기능을 통합하여 매일 수행해야 하는 반복적인 점검 작업을 자동화함으로써 컴플라이언스 업무의 효율성을 크게 높였습니다.",
+    "url": "https://www.elastic.co/blog/agentic-compliance-skills",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Smriti,Mia LaVada",
+    "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-26T17:12:27.470Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
