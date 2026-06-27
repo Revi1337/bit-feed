@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
+    "title": "Track total merges by adoption phase in enterprise and organization reports",
+    "summary": "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption…\nThe post Tra",
+    "aiSummary": "GitHub가 Copilot 사용량 메트릭 API에 도입했던 AI 도입 단계 코호트 기능을 기업 및 조직 보고서로 확장하여 적용합니다.\n\n이제 관리자는 조직 및 엔터프라이즈 보고서 내에서 각 AI 도입 단계별로 병합된 Pull Request의 총합을 확인할 수 있습니다. 이를 통해 기업은 AI 도구인 Copilot의 도입 수준이 실제 개발 생산성과 코드 병합 활동에 어떤 영향을 미치는지 보다 구체적으로 파악할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Fri, 26 Jun 2026 20:55:03 +0000",
+    "fetchedAt": "2026-06-27T01:26:03.996Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/securing-agentic-ai-whats-new-in-vpc-service-controls/",
+    "title": "Securing agentic AI with perimeter guardrails: What's new in VPC Service Controls",
+    "summary": "As enterprises scale autonomous AI agents into production, enabling safe innovation requires robust architectural guardrails. AI agents connect across tools and datasets, so it’s essential to establis",
+    "aiSummary": "Google Cloud는 기업이 자율형 AI 에이전트를 안전하게 배포하고 운영할 수 있도록 VPC Service Controls에 새로운 보안 기능을 추가했습니다. 이번 업데이트의 핵심은 에이전트의 작동 방식과 목적지에 따른 네트워크 수준의 방어 체계를 강화하는 것입니다.\n\n첫째, 에이전트 식별 기능을 강화했습니다. 이제 IAM principal을 사용하여 개별 에이전트나 에이전트 그룹인 principalSet을 VPC-SC의 경계 규칙에 직접 적용할 수 있습니다. 이를 통해 관리자는 에이전트 단위로 정밀한 접근 정책을 설정하고, 위협 발생 시 네트워크 경계에서 즉시 접근을 차단할 수 있습니다.\n\n둘째, MCP 속성을 활용한 도구 수준의 세밀한 제어를 도입했습니다. mcp.toolName이나 mcp.method와 같은 속성 기반의 조건부 규칙을 설정함으로써, 특정 도구의 읽기 권한은 허용하되 이메일 발송과 같은 특정 작업은 거부하는 식의 정교한 정책 수립이 가능해졌습니다.\n\n셋째, Gemini Enterprise Agent Platform과의 기본 통합을 제공합니다. 해당 플랫폼을 VPC-SC 경계 내의 보호 서비스로 추가하면 공용 인터넷 접근이 자동으로 차단되어 추가 설정 없이도 안전한 경계가 생성됩니다.\n\n이러한 VPC-SC의 기능은 IAM과 같은 기존의 인증 중심 보안을 보완하는 역할을 합니다. 특히 간접적인 프롬프트 주입 공격이나 도구 오남용, 내부자 위협 등 AI 에이전트 특유의 공격 시나리오에서, IAM 권한이 유효하더라도 데이터가 허가되지 않은 외부 경로로 유출되는 것을 네트워크 수준에서 원천 차단합니다. 결과적으로 기업은 자율형 에이전트 환경에서 혁신을 지속하면서도 데이터 유출을 방지하는 강력한 안전장치를 확보하게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/securing-agentic-ai-whats-new-in-vpc-service-controls/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Pratik Bhangale"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Fri, 26 Jun 2026 18:00:00 +0000",
+    "fetchedAt": "2026-06-27T01:26:03.996Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/",
+    "title": "Open source maintainership in the age of AI",
+    "summary": "AI has really changed the game around software development.\nMore people are leveraging AI than ever to contribute patches to projects they use.\nTo me, this is a good thing as more folks will contribut",
+    "aiSummary": "AI의 확산으로 소프트웨어 개발 환경이 변화함에 따라 Kubernetes 커뮤니티는 AI 도구를 활용한 코드 기여와 유지보수 체계를 정립하기 위한 정책을 마련했습니다. 핵심은 AI를 생산성 향상을 위한 도구로 수용하되, 코드 품질과 책임 소재를 명확히 하여 인간의 판단과 검증을 최우선으로 두는 것입니다.\n\n구체적인 AI 정책은 투명성과 인간의 책임을 강조합니다. 기여자는 Pull Request 작성 시 AI 활용 여부를 반드시 공개해야 하며, 기여 내용에 대한 최종적인 법적 및 기술적 책임은 전적으로 인간에게 있습니다. 따라서 AI를 공동 저자로 표기하는 행위는 금지되며, AI가 생성한 코드라도 기여자가 직접 원리를 이해하고 설명할 수 있어야 합니다. 만약 기여자가 AI가 작성한 코드에 대해 소통하거나 답변할 수 없는 경우 해당 요청은 거부됩니다.\n\n또한, 프로젝트 관리 측면에서 CNCF의 CLA 검증을 강화하여 AI 에이전트가 처리할 수 없는 라이선스 문제를 해결하고 있습니다. 기술적인 지원을 위해 커뮤니티는 GitHub Copilot과 같은 도구를 도입해 왔으며, 최근에는 CodeRabbit을 활용하여 자동화된 코드 검토와 품질 관리를 시도하고 있습니다. \n\nKubernetes 커뮤니티는 앞으로 AI를 통해 메인테이너의 업무 부담을 줄이고 테스트 실패 진단이나 운영 효율성을 높이는 방향으로 지속적인 탐색과 기술 도입을 이어갈 계획입니다. 이러한 접근 방식은 AI 기술을 무조건적으로 배척하기보다, 인간의 통제력을 유지하면서 오픈 소스 생태계의 지속 가능성을 확보하려는 성숙한 노력을 보여줍니다.",
+    "url": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "Fri, 26 Jun 2026 10:00:00 -0800",
+    "fetchedAt": "2026-06-27T01:26:03.996Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
     "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
     "summary": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose",
@@ -146,6 +210,23 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/prisma-compute-time-synchronization",
+    "title": "How Prisma Compute Keeps Time Accurate in Long-Running Applications",
+    "summary": "How Prisma Compute keeps wall-clock time accurate in long-running Firecracker microVMs, using the host-paired KVM PTP clock instead of an in-guest NTP daemon.",
+    "aiSummary": "Prisma Compute는 장시간 실행되는 Firecracker microVM 환경에서 벽시계 시간의 정확성을 유지하기 위해 기존의 게스트 내부 NTP 데몬을 사용하는 방식 대신 호스트와 페어링된 KVM PTP 클록을 활용합니다.\n\n이 방식은 가상 머신 내부에서 별도의 네트워크 기반 시간 동기화 서비스를 운영할 때 발생할 수 있는 오버헤드나 드리프트 문제를 효과적으로 해결합니다. 호스트 시스템의 고정밀 PTP 클록을 게스트와 직접 연결함으로써 장기 실행 애플리케이션에서도 일관된 시간 정보를 보장하며 시스템의 리소스 효율성을 높입니다.",
+    "url": "https://www.prisma.io/blog/prisma-compute-time-synchronization",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-27T01:26:03.996Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
