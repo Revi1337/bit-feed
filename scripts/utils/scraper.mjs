@@ -1,7 +1,7 @@
 import Parser from 'rss-parser';
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
-import { MAX_ARTICLES_PER_SOURCE, SUMMARY_LENGTH, CLEAN_CONTENT_LENGTH } from '../config/constants.mjs';
+import { MAX_ARTICLES_PER_SOURCE, SUMMARY_LENGTH, CLEAN_CONTENT_LENGTH, BLOCKED_KEYWORDS } from '../config/constants.mjs';
 
 const parser = new Parser({
   customFields: {
@@ -142,6 +142,13 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
         }
 
         const title = unescapeHtml(item.title || 'No Title');
+        const titleLower = title.toLowerCase();
+
+        if (BLOCKED_KEYWORDS.some(kw => titleLower.includes(kw))) {
+          console.log(`[INFO] Skipping noise article: "${title}"`);
+          continue;
+        }
+
         const rawContent = unescapeHtml(item.contentSnippet || item.content || '');
         const cleanContent = stripHtmlAndPreserveLinks(rawContent);
         let summary = cleanContent.slice(0, SUMMARY_LENGTH);
