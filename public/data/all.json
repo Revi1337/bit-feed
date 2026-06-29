@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/pgtt-v45-has-been-released-3330/",
+    "title": "pgtt v4.5 has been released\n",
+    "summary": "Bangkok, Thailand - June 21, 2026\nPostgreSQL Global Temporary Tables\npgtt is a PostgreSQL extension to create, manage and use DB2 or Oracle-style\nGlobal Temporary Tables. Once created the use is just ",
+    "aiSummary": "PostgreSQL에서 DB2나 Oracle 스타일의 Global Temporary Tables 기능을 구현해주는 확장 프로그램인 pgtt가 버전 4.5로 업데이트되었습니다.\n\n이번 릴리스는 유지보수를 위한 버전으로 PostgreSQL 19에 대한 지원이 추가되었으며 CREATE INDEX CONCURRENTLY 기능을 사용할 수 있게 되었습니다.\n\n기술적인 변경 사항으로는 전역 변수를 static으로 변경하여 Wmissing-variable-declarations 경고를 해결하였고 덤프를 통해 pgtt_schema.pg_global_temp_tables를 복원할 때 잘못된 Oid가 포함되던 문제를 수정하였습니다.\n\npgtt는 기존 애플리케이션 코드를 수정하지 않고도 Oracle의 GTT 동작을 PostgreSQL에서 그대로 재현할 수 있도록 지원하며 HexaCluster Corp의 Gilles Darold가 개발 및 유지보수를 맡고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgtt-v45-has-been-released-3330/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "Sun, 28 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-06-29T01:34:41.450Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://www.docker.com/?p=91879",
     "title": "What Does EU AI Act Compliance Require?",
     "summary": "Learn what EU AI Act compliance requires at each risk tier, key deadlines through 2027, and how engineering teams can operationalize AI governance.",
