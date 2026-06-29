@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.elastic.co/blog/metrics-pricing",
+    "title": "Updated metrics pricing for Elastic Observability: Best-in-class metrics, now cheaper too!",
+    "summary": "On Elastic Observability Serverless, metrics data stored in TSDS index mode is now priced at 25% of the standard Observability per-GB rate for both ingest and retention.",
+    "aiSummary": "Elastic Observability Serverless 환경에서 TSDS index 모드를 사용하여 저장하는 메트릭 데이터의 가격이 인하되었습니다. 해당 데이터의 수집 및 보관 비용이 기존 표준 Observability 요금의 25% 수준으로 적용됩니다. 이를 통해 사용자는 향상된 메트릭 성능을 보다 경제적인 비용으로 활용할 수 있게 되었습니다.",
+    "url": "https://www.elastic.co/blog/metrics-pricing",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Vinay Chandrasekhar",
+    "pubDate": "Mon, 29 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-29T12:13:07.782Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/pgtt-v45-has-been-released-3330/",
     "title": "pgtt v4.5 has been released\n",
     "summary": "Bangkok, Thailand - June 21, 2026\nPostgreSQL Global Temporary Tables\npgtt is a PostgreSQL extension to create, manage and use DB2 or Oracle-style\nGlobal Temporary Tables. Once created the use is just ",
@@ -9190,6 +9206,22 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "Svelte"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-cloud-hosted-fedramp-high-authorization",
+    "title": "Elastic Cloud Hosted achieves FedRAMP® High authorization",
+    "summary": "Elastic Cloud Hosted is now FedRAMP High authorized on AWS GovCloud (US), enabling US federal agencies to use Elastic for use cases involving sensitive controlled unclassified information.",
+    "aiSummary": "Elastic Cloud Hosted가 AWS GovCloud (US) 환경에서 FedRAMP High 인증을 획득하였습니다. 이번 인증을 통해 미국 연방 기관들은 민감한 통제 비공개 정보를 포함하는 업무에 Elastic 솔루션을 안전하게 활용할 수 있게 되었습니다. 이는 공공 부문에서 Elastic의 보안 및 규정 준수 역량을 입증하는 중요한 성과입니다.",
+    "url": "https://www.elastic.co/blog/elastic-cloud-hosted-fedramp-high-authorization",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Chris Townsend",
+    "pubDate": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-29T12:13:07.782Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {

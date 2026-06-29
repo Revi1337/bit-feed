@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.elastic.co/blog/metrics-pricing",
+    "title": "Updated metrics pricing for Elastic Observability: Best-in-class metrics, now cheaper too!",
+    "summary": "On Elastic Observability Serverless, metrics data stored in TSDS index mode is now priced at 25% of the standard Observability per-GB rate for both ingest and retention.",
+    "aiSummary": "Elastic Observability Serverless 환경에서 TSDS index 모드를 사용하여 저장하는 메트릭 데이터의 가격이 인하되었습니다. 해당 데이터의 수집 및 보관 비용이 기존 표준 Observability 요금의 25% 수준으로 적용됩니다. 이를 통해 사용자는 향상된 메트릭 성능을 보다 경제적인 비용으로 활용할 수 있게 되었습니다.",
+    "url": "https://www.elastic.co/blog/metrics-pricing",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Vinay Chandrasekhar",
+    "pubDate": "Mon, 29 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-29T12:13:07.782Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/pgtt-v45-has-been-released-3330/",
     "title": "pgtt v4.5 has been released\n",
     "summary": "Bangkok, Thailand - June 21, 2026\nPostgreSQL Global Temporary Tables\npgtt is a PostgreSQL extension to create, manage and use DB2 or Oracle-style\nGlobal Temporary Tables. Once created the use is just ",
@@ -1902,104 +1918,6 @@
     "author": "Eric L. Barnes",
     "pubDate": "Mon, 22 Jun 2026 13:21:53 +0000",
     "fetchedAt": "2026-06-22T18:54:58.481Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/patch-the-planet",
-    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-    "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-    "aiSummary": "OpenAI는 오픈소스 유지관리자들이 AI와 전문가의 검토를 통해 보안 취약점을 찾고 검증하며 수정할 수 있도록 돕는 Daybreak 이니셔티브인 Patch the Planet을 발표했습니다.",
-    "url": "https://openai.com/index/patch-the-planet",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Mon, 22 Jun 2026 10:00:00 GMT",
-    "fetchedAt": "2026-06-22T18:54:58.481Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/daybreak-securing-the-world",
-    "title": "Daybreak: Tools for securing every organization in the world",
-    "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-    "aiSummary": "OpenAI는 전 세계 모든 조직이 대규모로 보안 취약점을 발견하고 검증하며 해결할 수 있도록 지원하는 새로운 Daybreak 도구를 공개했습니다. 이 보안 도구 패키지에는 Codex Security와 GPT-5.5-Cyber 등이 포함되어 있어 조직의 안전한 보안 환경 구축을 돕습니다.",
-    "url": "https://openai.com/index/daybreak-securing-the-world",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "Mon, 22 Jun 2026 10:00:00 GMT",
-    "fetchedAt": "2026-06-22T18:54:58.481Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/",
-    "title": "The Starter Tier for Google AI Studio explained",
-    "summary": "You've got a working prototype in Google AI Studio. A React frontend, a Node.js backend, maybe a database. Now you want a live URL to share with your team, your users, or a friend who wants to try it.",
-    "aiSummary": "Google AI Studio에서 프로토타입을 빠르게 배포할 수 있도록 지원하는 Starter Tier가 도입되었습니다. 이 서비스는 신용카드 등록이나 청구 계정 설정 없이 Google 계정만으로 10분 만에 데이터베이스와 인증 기능이 결합된 프로토타입을 실제 작동하는 라이브 URL로 배포할 수 있게 해줍니다.\n\nStarter Tier는 Google이 백그라운드에서 프로젝트 생성, 리전 선택, API 활성화, 보안 정책 등을 완전 관리형으로 처리하는 서비스입니다. 복잡한 IAM 설정이나 API 관리가 필요 없는 간결한 구성이 특징이며, 개인 Google 계정 사용자를 대상으로 제공됩니다. 관리 콘솔 역시 로그 확인, 성능 지표 조회, 컨테이너 구성 등 프로토타입 검증에 꼭 필요한 기능만 모아둔 단순화된 화면을 제공합니다.\n\n이 서비스는 네 가지 핵심 제품이 사전에 연결된 스택 형태로 제공됩니다. 컴퓨팅 레이어인 Cloud Run은 계정당 최대 2개의 웹 애플리케이션을 지원하며 미사용 시 리소스를 자동으로 0까지 축소합니다. Firebase Authentication은 Google Sign-In을 사전 설정하여 사용자 로그인을 손쉽게 구현하도록 돕습니다. NoSQL 데이터베이스인 Cloud Firestore는 AI 에이전트가 보안 규칙과 연동 코드를 자동으로 작성해 줍니다. 마지막으로 관계형 데이터베이스가 필요한 경우를 위해 제공되는 Cloud SQL for PostgreSQL Developer edition은 즉각적인 프로비저닝을 지원하고 pgvector 플러그인을 기본 내장하여 RAG 애플리케이션 개발에 유용합니다.\n\n배포 과정은 매우 단순합니다. Google AI Studio의 Build Mode에서 원하는 앱을 자연어로 설명하면 에이전트가 코드를 작성하며, Firebase 설정을 거쳐 Publish 버튼을 누르면 배포가 완료됩니다. Dockerfile 작성이나 gcloud CLI 실행, YAML 파일 설정 없이 몇 초 만에 실제 접속 가능한 .run.app URL이 생성됩니다.\n\n기존 Google Cloud Free Trial과 달리 Starter Tier는 카드 정보를 요구하지 않으며 이용 기한에 제한이 없습니다. 다만 생성 가능한 앱이 최대 2개로 제한되고 리전이 하나로 고정되며 추가적인 API를 연동할 수 없다는 제약이 있습니다. 또한 Cloud Run의 임시 파일 시스템 특성상 컨테이너가 재시작되면 로컬에 저장된 파일이 모두 소멸되므로 지속성이 필요한 데이터는 반드시 Cloud Firestore나 Cloud SQL for PostgreSQL에 저장해야 합니다.\n\n프로토타입 단계를 넘어 본격적으로 서비스를 확장하려는 경우에는 마이그레이션이나 다운타임 없이 원클릭으로 청구 계정을 등록하여 프로덕션 등급으로 즉시 업그레이드할 수 있습니다. 기존에 사용하던 Cloud Run 서비스와 데이터베이스, URL이 그대로 유지되며, 업그레이드 이후에는 예산 알림 설정이나 Cloud Run 최대 인스턴스 제한 설정을 통해 갑작스러운 트래픽 증가로 인한 비용 과금을 방지하는 안전장치를 직접 구성할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Karl Weinmeister"
-      ],
-      "title": [
-        "Director, Developer Relations"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Mon, 22 Jun 2026 07:00:00 +0000",
-    "fetchedAt": "2026-06-22T18:54:58.481Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/privacy-filter-detect-pii-in-text-from-laravel",
-    "title": "Privacy Filter: Detect PII in Text from Laravel",
-    "summary": "A Laravel wrapper by DirectoryTree around the privacy-filter.cpp binary that detects private entities like names and emails in text, with confidence scores, byte offsets, and a test fake.\nThe post Pri",
-    "aiSummary": "DirectoryTree에서 텍스트 내의 이름이나 이메일 같은 개인 식별 정보(PII)를 감지할 수 있는 privacy-filter.cpp 바이너리 기반의 Laravel 래퍼 패키지를 출시했습니다. 이 패키지는 감지된 정보에 대한 신뢰도 점수와 바이트 오프셋을 제공하며, 원활한 테스트를 위한 test fake 기능도 함께 지원합니다.",
-    "url": "https://laravel-news.com/privacy-filter-detect-pii-in-text-from-laravel?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "Mon, 22 Jun 2026 04:15:49 +0000",
-    "fetchedAt": "2026-06-22T18:54:58.481Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations",
-    "title": "NationForge: A Self-Hosted Admin Panel for Civic Organizations",
-    "summary": "NationForge is an open-core Laravel 12 application that gives political movements, civic groups, and community organizations a self-hosted home for contacts, events, donations, and campaigns.\nThe post",
-    "aiSummary": "NationForge는 정치 운동, 시민 단체, 지역 사회 조직을 위한 오픈 코어 기반의 Laravel 12 애플리케이션입니다. 이 플랫폼은 연락처, 이벤트, 기부금, 캠페인 등을 자체적으로 호스팅하고 관리할 수 있는 관리자 패널 서비스를 제공합니다.",
-    "url": "https://laravel-news.com/nationforge-a-self-hosted-admin-panel-for-civic-organizations?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "Mon, 22 Jun 2026 04:14:20 +0000",
-    "fetchedAt": "2026-06-22T13:08:30.454Z",
     "tags": [
       "Laravel",
       "PHP"
