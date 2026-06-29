@@ -144,7 +144,7 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
         const title = unescapeHtml(item.title || 'No Title');
         const titleLower = title.toLowerCase();
 
-        if (BLOCKED_KEYWORDS.some(kw => titleLower.includes(kw))) {
+        if (BLOCKED_KEYWORDS.some(kw => kw instanceof RegExp ? kw.test(title) : titleLower.includes(kw))) {
           console.log(`[INFO] Skipping noise article: "${title}"`);
           continue;
         }

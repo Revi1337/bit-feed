@@ -8,7 +8,7 @@ export const LATEST_JSON_MAX_ITEMS = 50;
 
 export const BLOCKED_KEYWORDS = [
   'how to', 'tutorial', 'getting started', 'introduction to', 'a guide to',
-  'vs', 'comparison', 'best practices', 'tips and tricks',
+  /\bvs\b/, 'comparison', 'best practices', 'tips and tricks',
   'podcast', 'episode', 'interview', 'newsletter',
   'webinar', 'recap', 'case study', 'beginner', 'step by step',
   '하는 방법', '하는 법', '가이드', '소개', '튜토리얼', '비교', '시작하기', '팟캐스트', '인터뷰', '뉴스레터',
