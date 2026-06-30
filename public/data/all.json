@@ -1,5 +1,39 @@
 [
   {
+    "id": "https://supabase.com/blog/agentic-coding-on-supabase-with-opencode",
+    "title": "Agentic Coding on Supabase with OpenCode",
+    "summary": "OpenCode integrates with Supabase. Connect your agent to your database, Edge Functions, and logs. MCP setup is configured automatically.",
+    "aiSummary": "OpenCode가 Supabase와의 연동 기능을 새롭게 지원합니다. 이제 사용자는 본인의 AI 에이전트를 Supabase의 데이터베이스 및 Edge Functions, 로그 시스템에 직접 연결하여 활용할 수 있습니다. 특히 복잡한 설정 과정 없이 MCP 설정을 자동으로 구성해주어 개발 효율성을 높여줍니다.",
+    "url": "https://supabase.com/blog/agentic-coding-on-supabase-with-opencode",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "Tue, 30 Jun 2026 00:00:00 -0700",
+    "fetchedAt": "2026-06-30T10:41:54.673Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.0.14",
+    "title": "1.0.14",
+    "summary": "Allowed image pasting from the clipboard in local tmux sessions.\nRemoved the max limit for the /goal command, allowing goals to run indefinitely until completed or cancelled.\nEnabled \"always proceeds\"",
+    "aiSummary": "이번 1.0.14 업데이트를 통해 로컬 tmux 세션에서 클립보드 이미지를 붙여넣는 기능이 추가되었습니다.\n\ngoal 명령어에 설정되어 있던 최대 실행 제한이 제거되어 작업이 완료되거나 취소될 때까지 무한정 실행이 가능해졌습니다. 서브 에이전트에는 아티팩트를 자동으로 승인하는 always proceeds 모드가 도입되어 상위 에이전트가 차단된 상황에서도 작업이 멈추지 않도록 개선되었습니다.\n\n플러그인 가져오기 로직이 수정되어 전체 디렉토리를 복사하도록 변경됨에 따라 shared 디렉토리와 같은 비기술적 항목이 누락되는 문제가 해결되었습니다. 또한 CLI와 권한 관리자 사이의 MCP 구성 경로 불일치를 수정하여 커스텀 MCP 서버 로딩의 안정성을 확보하였습니다.\n\nTUI 레이아웃에서 발생하던 입력 상태 오류로 인한 경쟁 상태를 해결하였으며 대화 되감기 이후 인라인 뷰포트가 제대로 초기화되지 않던 버그도 함께 수정되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.0.14",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "yaoshengzhe",
+    "pubDate": "2026-06-30T02:28:33.000Z",
+    "fetchedAt": "2026-06-30T10:41:54.673Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/06/30/this-week-in-spring-june-30-2026",
     "title": "This Week in Spring  - June 30th, 2026 ",
     "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring, a weekly recap in which we review the latest and greatest in the wide and wonderful world of Spring. You probably already knew t",
