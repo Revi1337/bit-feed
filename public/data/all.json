@@ -1,5 +1,405 @@
 [
   {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-july-2026",
+    "title": "What’s new in Svelte: July 2026",
+    "summary": "This month brought a real shift in how SvelteKit projects are configured. You can now define your SvelteKit config directly inside vite.config.js and skip svelte.config.js entirely. We also got the fi",
+    "aiSummary": "2026년 7월 Svelte 업데이트의 핵심은 SvelteKit 설정 방식의 간소화와 Svelte 3를 대비한 사전 기능 도입입니다. 가장 큰 변화로 svelte.config.js 파일을 더 이상 사용할 필요 없이 vite.config.js 내부에서 직접 SvelteKit 설정을 정의할 수 있게 되었습니다. 또한 SvelteKit 3에서 $env/* 모듈을 대체할 명시적 환경 변수 기능이 실험적으로 추가되었으며, sv CLI를 포함한 도구 체인이 이를 지원하도록 업데이트되었습니다.\n\nSvelteKit 2.62.0부터 2.68.0 사이의 주요 업데이트 사항은 다음과 같습니다. 원격 함수 명령에서 File 객체를 직접 처리하여 FormData 수동 래핑이 필요 없어졌고, 원격 쿼리가 다른 쿼리를 갱신하여 데이터 무효화 처리가 간편해졌습니다. 또한 미리 렌더링된 .md 및 .mdx 파일의 압축 기능이 추가되었으며, 폼 제출 필드 값이 서버 액션 페이로드에 유지되도록 개선되었습니다.\n\nSvelte 언어 도구 및 CLI 환경도 대폭 강화되었습니다. sv CLI는 기본적으로 Vite 플러그인 기반 설정을 사용하며 새로운 {const ...} 선언 태그를 반영하도록 템플릿이 갱신되었습니다. Svelte 언어 서버와 svelte-check 또한 새로운 문법을 지원하며, svelte-check에는 대규모 코드베이스의 빠른 타입 체크를 위한 실험적인 tsgo 기능이 도입되었습니다.\n\n커뮤니티 생태계에서는 COLOR LAB, Cometline, Pixel Snapper 등 Svelte 기반의 다양한 프로젝트가 소개되었으며, 공식 사이트로는 Guild Wars 3 및 Obama Foundation 웹사이트가 주목받았습니다. 라이브러리 및 도구 분야에서는 Mochi와 같은 새로운 프레임워크부터 Svelte 5를 위한 FlareCharts, Svelte Video Editor 등 다양한 컴포넌트와 개발자 도구가 꾸준히 출시되고 있습니다.",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-july-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "2026-06-30T17:20:02.883Z",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
+    "title": "GitHub code coverage merge protection for pull requests",
+    "summary": "You can now use branch rulesets to block pull requests from merging when test coverage drops below thresholds you set. You can set a minimum coverage percentage, a maximum allowed…\nThe post GitHub cod",
+    "aiSummary": "GitHub은 Pull Request에 대한 새로운 코드 커버리지 병합 보호 기능을 도입했습니다. 이제 사용자는 브랜치 규칙 설정을 통해 테스트 커버리지가 특정 기준 미만으로 떨어질 경우 해당 Pull Request가 병합되지 않도록 차단할 수 있습니다. 이를 통해 프로젝트의 코드 품질을 유지하고 설정한 최소 커버리지 비율을 준수하도록 강제하는 것이 가능해집니다. 관련 설정에 관한 상세 내용은 GitHub 블로그의 해당 게시물을 통해 확인할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 16:42:21 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-26-open-source-license-compliance-is-in-public-preview",
+    "title": "Open source license compliance is in public preview",
+    "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is in public preview, lettin",
+    "aiSummary": "GitHub이 오픈소스 라이선스 규정 준수 기능을 퍼블릭 프리뷰 형태로 새롭게 공개하였습니다.\n\n이번 기능을 통해 기업은 의존성 패키지의 라이선스를 대규모로 관리할 수 있게 되었습니다. 사용자는 규칙 기반의 검사 시스템을 사용하여 중앙화된 정책을 설정하고, 기업의 규정에 부합하지 않는 오픈소스 라이선스를 자동으로 차단하는 것이 가능합니다. 이를 통해 소프트웨어 공급망의 보안성과 라이선스 리스크를 더욱 효율적으로 관리할 수 있을 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-06-30-open-source-license-compliance-is-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 16:30:17 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "summary": "Jun 30, 2026\n          \n          \n            \n          \n        \n      \n        \n          We’re making it easier to experiment and scale your ideas with Nano Banana 2 Lite, our fastest, most cost-",
+    "aiSummary": "Google DeepMind는 고속 이미지 생성 모델인 Nano Banana 2 Lite와 고품질 비디오 생성 및 편집 모델인 Gemini Omni Flash를 공개했습니다.\n\nNano Banana 2 Lite는 Nano Banana 제품군 중 가장 빠르고 비용 효율적인 모델로, 4초 이내의 빠른 생성 속도와 저렴한 비용을 강점으로 합니다. 이 모델은 실시간 프로토타이핑이나 대규모 이미지 작업이 필요한 개발자에게 최적화되어 있으며, 기존 Nano Banana 모델을 대체하여 성능을 향상할 수 있습니다. 현재 Google AI Studio, Gemini API, Gemini Enterprise Agent Platform 등을 통해 사용할 수 있습니다.\n\nGemini Omni Flash는 텍스트, 이미지, 비디오 입력을 기반으로 고품질 비디오 생성과 자연어 기반의 대화형 영상 편집을 지원합니다. 초당 0.10달러의 경쟁력 있는 가격으로 제공되며, 현재 Google AI Studio와 Gemini API를 통해 공개 미리보기 형태로 이용 가능합니다. 다만 현재 10초 분량의 영상 생성으로 제한되며, 캐릭터 일관성 유지와 같은 기능은 지속적으로 개선 중입니다.\n\n개발자들은 이 두 모델을 결합하여 강력한 멀티미디어 워크플로우를 구축할 수 있습니다. Nano Banana 2 Lite로 생성한 이미지를 Gemini Omni Flash의 참조 자료로 활용해 정교한 애니메이션 영상을 제작하거나, 이를 통해 전자상거래용 영상, 공간 디자인 시뮬레이션 등 다양한 창의적 경험을 구현할 수 있습니다. Google은 이러한 활용 사례를 체험할 수 있는 다양한 데모 앱을 함께 제공합니다.",
+    "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "Tue, 30 Jun 2026 16:02:40 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-18-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+    "title": "Copilot Agent is now available in JetBrains AI Assistant",
+    "summary": "Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair…\nTh",
+    "aiSummary": "JetBrains와 GitHub가 협력하여 JetBrains AI Assistant와 GitHub Copilot 간의 통합을 강화했습니다.\n\n이번 업데이트를 통해 개발자들은 JetBrains IDE 환경 내에서 GitHub Copilot의 기능을 더욱 긴밀하게 활용할 수 있게 되었습니다. 이는 수백만 명의 개발자가 사용하는 GitHub Copilot의 AI 페어 프로그래밍 경험을 JetBrains의 개발 도구 안으로 확장하여 생산성을 높이는 데 중점을 둡니다.\n\n앞으로 JetBrains 사용자는 외부 플러그인 전환 없이도 향상된 AI 지원을 경험하며 개발 워크플로우를 최적화할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 16:00:19 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/alloydb-omni-secure-hybrid-database-modernization-for-finance/",
+    "title": "Modernizing financial services with deployment freedom and transformational AI with AlloyDB Omni",
+    "summary": "The financial services industry (FSI) operates under a unique set of non-negotiable requirements: the need for strict regulatory compliance, sub-millisecond transactional speeds, and security that ver",
+    "aiSummary": "금융 서비스 산업은 엄격한 규제 준수, 초저지연 거래 속도, 강력한 보안을 요구하지만, 많은 기업이 노후화된 독점 데이터베이스와 복잡한 라이선스 문제로 기술 부채에 시달리고 있습니다. 특히 데이터 주권 관련 규제로 인해 퍼블릭 클라우드 도입이 제한되면서 현대적인 AI 도구 활용에 어려움을 겪는 경우가 많습니다.\n\nGoogle Cloud는 이러한 문제를 해결하기 위해 AlloyDB Omni를 제안합니다. 이 서비스는 PostgreSQL과 100% 호환되는 개방형 표준을 채택하여 특정 벤더에 종속되는 문제를 방지하고, 온프레미스나 에지, 하이브리드 클라우드 등 기업이 원하는 환경 어디에서나 데이터를 운영할 수 있는 배포 자유도를 제공합니다.\n\nAlloyDB Omni는 기존의 표준 PostgreSQL 대비 트랜잭션 처리 속도를 2배 이상 높였으며, 내장된 컬럼형 엔진을 통해 분석 쿼리 성능을 최대 100배까지 향상합니다. 이를 통해 기업은 별도의 데이터 웨어하우스로 데이터를 이동할 필요 없이 실시간 비즈니스 인텔리전스를 확보할 수 있습니다.\n\n또한, 통합된 AlloyDB AI 기능을 통해 민감한 금융 데이터를 외부로 반출하지 않고도 안전하게 생성형 AI 모델과 벡터 검색을 구현할 수 있습니다. 특히 ScaNN 인덱스는 기존 HNSW 인덱스보다 월등히 빠르고 효율적인 메모리 사용량을 보장합니다.\n\n보안과 규제 준수를 위해 Active Directory와의 통합 및 투명한 데이터 암호화 기능을 갖추고 있어 글로벌 금융 기관의 까다로운 감사 요구 사항을 충족합니다. Cynergy Bank와 Apex Fintech와 같은 실제 사례를 통해 알 수 있듯이, 기업들은 AlloyDB Omni를 통해 인프라를 현대화하고 AI 기반의 개인화 서비스와 고속 위험 평가 시스템을 성공적으로 구축하고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-secure-hybrid-database-modernization-for-finance/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sridhar Ranganathan"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/schrodinger-alphaevolve-molecular-discovery-accelerates-4x/",
+    "title": "How Schrödinger sped up molecular discovery by 4x with Alphaevolve",
+    "summary": "Computational chemistry researchers have traditionally faced a frustrating trade-off when simulating molecular interactions: use fast classical force fields that sacrifice precision or rely on accurat",
+    "aiSummary": "컴퓨테이션 화학 분야에서는 분자 상호작용 시뮬레이션 시 정확도가 높은 양자 역학 방식과 속도가 빠른 고전 역학 방식 사이의 상충 관계가 주요 과제였습니다. 이를 해결하기 위해 Schrödinger는 Google Cloud와 협력하여 Google DeepMind의 진화형 AI 코딩 에이전트인 AlphaEvolve를 도입했습니다.\n\nSchrödinger는 MLFF 학습 파이프라인에서 성능을 저해하던 핵심 알고리즘인 네이버 리스트 연산과 Ewald summation을 최적화 대상으로 선정했습니다. 특히 PyTorch 환경에서 느린 for-loop 방식으로 실행되던 Ewald summation 문제를 해결하는 것이 주된 목표였습니다.\n\nAlphaEvolve는 병렬 배치 행렬 곱셈을 활용하여 Ewald summation의 효율적인 구현을 반복적으로 생성하고 개선했습니다. 이 과정을 통해 기존 1% 미만이었던 알고리즘 성공률이 60% 이상으로 향상되었으며 성능 지표 또한 7.9에서 약 30으로 개선되는 성과를 거두었습니다.\n\n최종적으로 이번 최적화를 통해 MLFF 학습과 추론 속도가 4배 빨라졌습니다. 이러한 성능 향상은 신약 개발, 촉매 설계, 소재 개발 분야에서 연구 주기를 획기적으로 단축하여 분자 스크리닝 시간을 수개월에서 며칠 단위로 줄이는 효과를 가져왔습니다.\n\n향후 Schrödinger는 커스텀 GPU 커널에도 AlphaEvolve의 진화적 접근 방식을 적용하여 AI가 생성한 코드가 사람이 직접 작성한 구현보다 더 뛰어난 성능을 발휘할 수 있는지 지속적으로 검증할 계획입니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/schrodinger-alphaevolve-molecular-discovery-accelerates-4x/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Kartik Sanu"
+      ],
+      "title": [
+        "Program Manager, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-enterprise-agent-platform-remote-mcp-server/",
+    "title": "Build agents even faster with Gemini Enterprise Agent Platform’s fully-managed, remote MCP server",
+    "summary": "A couple of months ago, we announced that over 50 Google-managed MCP servers are available. \nToday, we’ll dive into how to use the Gemini Enterprise Agent Platform remote MCP server to securely connec",
+    "aiSummary": "Google이 Gemini Enterprise Agent Platform의 완전 관리형 원격 MCP 서버를 공개하였습니다. 이 서버는 Antigravity CLI나 Claude Code와 같은 외부 AI 에이전트 개발 도구와 Google Cloud 환경을 연결하는 다리 역할을 수행합니다.\n\n개발자들은 이 서비스를 통해 IDE 환경을 벗어나지 않고도 Model Garden의 모델을 호출하거나 프롬프트 템플릿을 관리하고, Notebook을 직접 제어하는 등 다양한 작업을 효율적으로 수행할 수 있습니다. \n\n이번 솔루션은 오픈 MCP 표준을 준수하여 특정 생태계에 종속되지 않으며, Agent Registry를 통한 중앙 집중식 자산 관리와 Cloud IAM을 통한 보안 정책 적용이 가능합니다. 따라서 IT 팀은 엄격한 거버넌스를 유지하면서도 개발자에게는 유연하고 빠른 통합 환경을 제공할 수 있습니다.\n\n사용을 시작하려면 Google Cloud 프로젝트에서 Gemini Enterprise Agent Platform API를 활성화한 뒤, 클라이언트 설정을 거쳐 제공되는 MCP 툴셋 엔드포인트를 연결하면 됩니다. 현재 생성형 AI, 예측, Notebook 실행, 모델 배포, 파인튜닝, 품질 평가 등 다양한 관리 도구들이 엔드포인트 형태로 지원됩니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-enterprise-agent-platform-remote-mcp-server/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Colby Hawker"
+      ],
+      "title": [
+        "Product Manager, Vertex AI"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available/",
+    "title": "Bringing speed and strong cost performance to the market with Gemini Omni Flash and Nano Banana 2 Lite",
+    "summary": "Great creative happens when your tools move at the speed of your ideas. To help you create rich, reliable experiences while reducing regeneration time and costs, we’re adding two new models to Gemini ",
+    "aiSummary": "Google이 Gemini Enterprise Agent Platform을 통해 새로운 모델인 Nano Banana 2 Lite와 Gemini Omni Flash를 공개하며 창작 도구의 속도와 비용 효율성을 대폭 강화합니다.\n\n먼저 정식 출시된 Nano Banana 2 Lite는 기존 Nano Banana 모델군 중 가장 빠르고 경제적인 이미지 생성 및 편집 모델입니다. 이 모델은 약 4초 만에 이미지를 생성할 수 있는 뛰어난 처리 속도를 자랑하며, 캐릭터 일관성 유지와 텍스트 렌더링 능력이 향상되어 광고 제작, 디자인 시안 작업, 이커머스 등 신속한 반복 작업이 필요한 환경에 최적화되어 있습니다.\n\n공개 프리미엄으로 선보인 Gemini Omni Flash는 고품질 영상 생성 및 대화형 편집에 특화된 모델입니다. 영상 내 인물 교체, 조명 및 각도 변경, 스타일 전송 등 복잡한 편집 작업을 자연어 명령만으로 수행할 수 있으며, 오디오와 비디오 트랙을 통합적으로 관리하여 일관성 있는 콘텐츠 제작을 지원합니다. 해당 모델은 초당 0.10달러의 비용으로 제공되어 영상 생성 및 편집 분야에서 우수한 가격 경쟁력을 갖추었습니다.\n\n두 모델 모두 안전성을 위해 C2PA 콘텐츠 자격 증명과 SynthID 워터마크 기술이 기본으로 적용되어 있습니다. Google은 Adobe, Invideo, WPP, Artlist, Figma, Manus AI 등 주요 기업들과 협력하여 이러한 모델을 현업의 크리에이티브 워크플로우에 통합하고 있으며, 개발자들은 Gemini Enterprise Agent Platform의 API를 통해 해당 기술을 애플리케이션에 직접 도입할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Cloud AI"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/management-tools/cloud-monitoring-adds-long-lookback-alert-policies-for-promql/",
+    "title": "Anomaly detection using dynamic thresholds and two-year-long alerts in Cloud Monitoring",
+    "summary": "Choosing the threshold of an alert policy can be a headache. You have to analyze historical data, aggregate it into semantically meaningful time series, and choose a threshold that matters. If the wor",
+    "aiSummary": "Cloud Monitoring에서 정적 임계값 설정의 한계를 극복하기 위해 PromQL 기반의 장기 이력 조회 및 동적 임계값 기능을 프리뷰로 도입하였습니다. 기존의 고정된 수치는 작업 부하의 변화나 시간대별 변동성을 반영하기 어려웠으나, 이번 업데이트를 통해 최대 2년치 데이터를 활용한 다각적인 분석이 가능해졌습니다.\n\n동적 임계값은 특정 메트릭의 과거 데이터를 기준으로 이상 징후를 판단합니다. 주요 알고리즘으로는 장기 데이터와의 이동 평균을 비교하는 방식, 데이터의 통계적 거리인 Z-score를 활용한 변동성 측정 방식, 그리고 특정 시간대나 요일의 패턴을 비교하는 계절성 분해 방식이 포함됩니다. 이를 통해 운영자는 복잡한 수동 설정 없이도 부하 변화에 유연하게 대응하는 알림 정책을 수립할 수 있습니다.\n\n특히 이러한 동적 임계값 활용은 이상 징후 탐지를 넘어 비용 통제에도 효과적입니다. 예를 들어 AI 토큰 사용량에 대한 이상 급증 알림을 설정하고, 이를 Pub/Sub 및 Cloud Run과 연동하여 특정 기준 초과 시 즉시 할당량을 낮추는 방식으로 리소스 과다 지출을 차단할 수 있습니다.\n\n현재 Google Cloud는 이러한 이상 탐지 기능을 제품화하고 AI 모델을 결합한 고도화를 추진하고 있습니다. 더욱 정교한 모니터링 체계를 구축하고자 하는 사용자는 프리뷰 파트너로 참여하여 해당 기술의 초기 경험을 공유할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/management-tools/cloud-monitoring-adds-long-lookback-alert-policies-for-promql/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Lee Yanco"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
+    "title": "Discover, govern, and scale Azure infrastructure in the AI era",
+    "summary": "Organizations are rapidly building AI applications, deploying AI agents, and scaling Azure environments faster than ever before. \n As AI initiatives accelerate and the volume of code expands, many org",
+    "aiSummary": "기업들이 AI 애플리케이션을 빠르게 도입하고 Azure 환경을 확장함에 따라 인프라 관리의 가시성을 잃는 사례가 증가하고 있습니다. 표준 워크웨이 외부에서 생성된 리소스나 관리되지 않는 환경은 인프라 드리프트 현상을 유발하며, 이는 결국 거버넌스, 보안, 운영상의 복잡한 문제로 이어집니다. 특히 AI 워크로드는 인프라의 변화 속도와 범위를 더욱 넓히므로, 일관된 운영 모델 없이는 조직이 자산 현황과 준수 여부를 파악하기 어렵게 만듭니다.\n\nTerraform은 이러한 문제를 해결하기 위해 Azure 환경 전반에서 관리되지 않는 리소스를 식별하는 쿼리 기능을 제공합니다. 이를 통해 기업은 섀도우 IT를 발견하고 클라우드 자산의 전체 목록을 구축하며, 발견된 비관리 리소스를 Terraform 기반의 버전 관리 워크플로우로 빠르게 통합할 수 있습니다.\n\n거버넌스 강화를 위해 Sentinel을 활용한 정책 기반 코드(Policy as Code)를 도입할 수 있습니다. 이를 통해 인프라 변경 사항을 배포하기 전에 보안, 비용 관리, 운영 표준 준수 여부를 실시간으로 평가하여 통제력을 확보합니다. 또한 HashiCorp Vault는 AI 워크로드에 필요한 머신 ID, 시크릿, API 자격 증명 등을 동적으로 관리하여 보안성을 높입니다.\n\n결론적으로, Terraform과 HashiCorp Vault를 유기적으로 활용하면 인프라의 발견부터 관리, 거버넌스까지 이어지는 지속 가능한 운영 체계를 구축할 수 있습니다. 이는 Azure 환경의 복잡성을 해결하고 AI 시대에 맞춰 더욱 안전하고 확장 가능한 인프라를 운영하는 핵심 전략이 됩니다.",
+    "url": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mike Doheny",
+    "pubDate": "2026-06-30T16:00:00.000Z",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
+    "aiSummary": "Nano Banana 2 Lite는 가장 빠르고 비용 효율적인 Gemini Image 모델로 사용자의 아이디어를 확장하는 데 최적화되어 있습니다. 고품질 영상 처리와 대화형 편집 기능을 지원하는 Gemini Omni Flash와 함께 활용하여 개발을 시작할 수 있습니다. 두 모델을 결합하면 더욱 효율적이고 강력한 서비스를 구현할 수 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Alisa Fortin"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        "Google DeepMind"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=50087",
+    "title": "Community Docker Images: keeping the operator open without a vendor registry lock-in",
+    "summary": "PostgreSQL community images address a real gap in how a Kubernetes database operator earns your trust. Running a database operator on Kubernetes means trusting two things: the code, and the container ",
+    "aiSummary": "Kubernetes에서 데이터베이스 Operator를 운영할 때 사용자는 소스 코드뿐만 아니라 해당 Operator가 참조하는 컨테이너 이미지의 출처와 보안을 신뢰해야 합니다. 기존에는 특정 벤더의 레지스트리에 종속되어 이미지 공급망에 대한 투명성을 확보하기 어려운 문제가 있었습니다.\n\nPercona는 이러한 벤더 종속성을 해결하고 사용자의 신뢰를 높이기 위해 PostgreSQL 커뮤니티용 Docker 이미지를 제공하기 시작했습니다. 이를 통해 사용자는 특정 기업의 레지스트리에 얽매이지 않고 오픈소스 생태계 내에서 검증된 컨테이너 이미지를 활용할 수 있습니다. 이는 오픈소스의 철학을 유지하면서도 데이터베이스 운영의 안전성과 유연성을 동시에 확보하기 위한 전략적 접근입니다.",
+    "url": "https://www.percona.com/blog/postgresql-community-images-operator/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Slava Sarzhan",
+    "pubDate": "Tue, 30 Jun 2026 14:09:35 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=715758",
+    "title": "Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain",
+    "summary": "Hi everyone! May and June brought so much Kotlin news that I needed a little extra space for this roundup. Kotlin turned 15, Kotlin 2.4.0 arrived with new capabilities for developers on every platform",
+    "aiSummary": "Kotlin이 출시 15주년을 맞이했습니다. 이번 업데이트를 통해 Kotlin 2.4.0 버전이 공개되었으며, 모든 플랫폼 환경의 개발자를 위한 새로운 기능과 성능 향상이 포함되었습니다.\n\n개발자들은 이번 변화를 통해 AI 에이전트와 AI 기반 애플리케이션을 구축하는 데 필요한 도구들을 더 효과적으로 활용할 수 있게 되었습니다. 또한 Kotlin Multiplatform을 위한 유용한 라이브러리들이 추가되어 개발 편의성이 한층 강화되었습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup-kotlin-turns-15-kotlin-2-4-0-and-the-kotlin-toolchain/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Viliam Sedliak",
+    "pubDate": "Tue, 30 Jun 2026 14:03:02 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=715758",
+    "title": "Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain",
+    "summary": "Hi everyone! May and June brought so much Kotlin news that I needed a little extra space for this roundup. Kotlin turned 15, Kotlin 2.4.0 arrived with new capabilities for developers on every platform",
+    "aiSummary": "Kotlin이 탄생 15주년을 맞이하였습니다.\n\nKotlin 2.4.0 버전이 공개되면서 모든 플랫폼의 개발자를 위한 새로운 기능들이 추가되었습니다.\n\n이번 업데이트를 통해 개발자들은 AI 에이전트와 AI 기반 애플리케이션을 구축하고 다양한 Kotlin Multiplatform 라이브러리를 탐색하며 실험할 수 있는 확장된 환경을 제공받게 됩니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup-kotlin-turns-15-kotlin-2-4-0-and-the-kotlin-toolchain/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Viliam Sedliak",
+    "pubDate": "Tue, 30 Jun 2026 14:03:02 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-26-dependabot-no-longer-infers-npmrc",
+    "title": "Dependabot no longer infers .npmrc",
+    "summary": "Dependabot will no longer attempt to infer .npmrc configuration for npm private registries. Previously, Dependabot tried to reconstruct .npmrc contents from lockfile resolved URLs, but incorrect lockf",
+    "aiSummary": "GitHub의 Dependabot이 앞으로는 npm 비공개 레지스트리를 위한 .npmrc 설정을 자동으로 추론하지 않기로 결정했습니다.\n\n기존에는 Dependabot이 lockfile에 포함된 URL 정보를 바탕으로 .npmrc의 내용을 재구성하는 방식을 취해왔으나, 부정확한 URL이나 lockfile 형식 문제로 인해 오류가 발생하는 경우가 많았습니다.\n\n이번 변경으로 인해 사용자는 비공개 레지스트리를 이용할 경우 환경 변수나 보안 설정 등을 통해 .npmrc 파일을 직접 제공해야 합니다. 이는 자동 추론 과정에서 발생하던 잠재적인 보안 위험과 설정 오류를 방지하기 위한 조치입니다.",
+    "url": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 13:53:48 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-23-cloud-data-retention-policy-for-closed-security-alerts",
+    "title": "Upcoming cloud data retention policy for closed security alerts",
+    "summary": "Starting August 25, 2026, GitHub will introduce a data retention policy for closed Dependabot security alerts. This policy gives you a clear commitment for how long your alert data stays…\nThe post Upc",
+    "aiSummary": "GitHub는 2026년 8월 25일부터 종료된 Dependabot 보안 알림에 대한 새로운 데이터 보존 정책을 시행합니다. 이번 정책은 사용자들에게 해당 보안 알림 데이터가 플랫폼 내에 얼마나 오랫동안 유지되는지에 대한 명확한 기준을 제공하기 위해 도입되었습니다. 따라서 관련 데이터를 관리하는 사용자들은 변경된 보존 기간을 미리 확인하고 업무에 대비해야 합니다.",
+    "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 13:24:21 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/06/30/ruby-3-4-10-released/",
+    "title": "Ruby 3.4.10 Released",
+    "summary": "Ruby 3.4.10 has been released.\nThis release is a regular stable package release contains the version update of bundled gem net-imap. The net-imap.gem update contains some security fixes. Please see th",
+    "aiSummary": "Ruby 3.4.10 버전이 새롭게 출시되었습니다. 이번 업데이트는 안정성 개선을 위한 정기 배포로, 번들로 포함된 net-imap 젬의 버전을 v0.5.15로 업데이트하여 관련 보안 취약점들을 해결하였습니다.\n\n자세한 변경 사항은 net-imap v0.5.15의 릴리스 노트를 통해 확인할 수 있으며, 프로젝트의 GitHub 릴리스 페이지에서도 추가 정보를 얻을 수 있습니다. 해당 배포판은 tar.gz, tar.xz, zip 형식으로 제공되며 각 형식에 대한 파일 크기 및 해시 값이 함께 공개되었습니다. 이번 릴리스에 기여해 준 모든 커미터와 개발자, 그리고 버그 리포트를 제공해 준 사용자들에게 감사를 표합니다.",
+    "url": "https://www.ruby-lang.org/en/news/2026/06/30/ruby-3-4-10-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "Tue, 30 Jun 2026 12:00:00 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jun/30/keeping-up-with-the-django-community/",
+    "title": "Keeping Up with the Django Community",
+    "summary": "The Django community runs on volunteer effort spread across several different groups of people. Most of it is public, but it isn't always easy to find.\nHere are the public places to find it:\nWeekly DS",
+    "aiSummary": "Django 커뮤니티는 여러 그룹의 자발적인 참여로 운영되며, 이와 관련된 공개 활동 정보는 DSF Board, Steering Council, 각종 Working Group의 포럼 스레드 및 GitHub 저장소 등 다양한 채널을 통해 확인할 수 있습니다.\n\n이 중 DSF Office Hours는 매주 수요일 오후 6시 UTC에 실시간으로 진행되는 공개 모임입니다. 이 세션은 일반적인 Django 코딩보다는 djangoproject.com 관리나 DSF 관련 업무 등 커뮤니티 운영과 직접적으로 관련된 사항을 논의하는 자리입니다.\n\n최근 열린 DSF Office Hours에서는 Executive Director 채용 및 모금 활동, 웹사이트 분석, 커뮤니티 업데이트, 신규 스폰서 모집을 위한 prospectus 논의, Google Summer of Code 워킹 그룹 운영 방안, 기여자 경험 개선 등 폭넓은 주제가 다루어졌습니다. \n\n해당 모임은 격식 없는 자유로운 분위기 속에서 진행되며, 관심 있는 누구나 DSF와 관련된 안건을 가지고 참여하여 커뮤니티 활동에 기여할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jun/30/keeping-up-with-the-django-community/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Tim Schilling",
+    "pubDate": "Tue, 30 Jun 2026 06:00:00 -0500",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
     "id": "https://supabase.com/blog/agentic-coding-on-supabase-with-opencode",
     "title": "Agentic Coding on Supabase with OpenCode",
     "summary": "OpenCode integrates with Supabase. Connect your agent to your database, Edge Functions, and logs. MCP setup is configured automatically.",
@@ -17,6 +417,22 @@
     ]
   },
   {
+    "id": "https://laravel-news.com/clonio-cli-clone-production-databases-with-anonymized-data",
+    "title": "Clonio CLI: Clone Production Databases With Anonymized Data",
+    "summary": "A PHP command-line tool that copies production databases into development, CI, and test environments while anonymizing PII and recording a signed audit trail.\nThe post Clonio CLI: Clone Production Dat",
+    "aiSummary": "Clonio CLI는 운영 환경의 데이터베이스를 개발, CI, 테스트 환경으로 안전하게 복제할 수 있도록 지원하는 PHP 기반의 커맨드 라인 도구입니다.\n\n이 도구는 데이터 복제 과정에서 개인식별정보(PII)를 자동으로 익명화하여 보안을 강화합니다. 또한 데이터베이스의 모든 작업 내용을 기록하는 서명된 감사 추적 기능을 제공하여 데이터 관리의 투명성을 높입니다. 개발자가 운영 데이터를 활용하면서도 보안 규정을 준수하며 안전하게 테스트 환경을 구축할 수 있도록 설계되었습니다.",
+    "url": "https://laravel-news.com/clonio-cli-clone-production-databases-with-anonymized-data?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Tue, 30 Jun 2026 03:15:23 +0000",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.0.14",
     "title": "1.0.14",
     "summary": "Allowed image pasting from the clipboard in local tmux sessions.\nRemoved the max limit for the /goal command, allowing goals to run indefinitely until completed or cancelled.\nEnabled \"always proceeds\"",
@@ -30,6 +446,53 @@
     "tags": [
       "Antigravity",
       "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
+    "title": "Announcing Rust 1.96.1",
+    "summary": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of ",
+    "aiSummary": "Rust 팀은 최신 포인트 릴리스인 Rust 1.96.1 버전을 공식 발표하였습니다. 기존 rustup 사용자는 명령어를 통해 간편하게 업데이트를 진행할 수 있습니다.\n\n이번 업데이트에는 Cargo의 HTTP 클라이언트에서 발생하던 재시도 및 타임아웃 누락 문제와 MIR 최적화 과정에서의 잘못된 컴파일 오류가 해결되었습니다. 또한 Cargo에 포함된 libssh2 라이브러리와 관련된 CVE-2025-15661, CVE-2026-55199, CVE-2026-55200 등 3가지 보안 취약점이 수정되었습니다. 이번 릴리스는 많은 기여자들의 협력을 통해 완성되었습니다.",
+    "url": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rust Release Team",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/whats-new-june-2026/",
+    "title": "What's new in Astro - June 2026",
+    "summary": "June 2026 - Astro 7, summer swag collection, Astro Germany meetup, and more!",
+    "aiSummary": "2026년 6월을 맞이하여 Astro 7 버전이 새롭게 공개되었습니다. 이번 업데이트와 함께 여름 시즌을 겨냥한 새로운 스웨그 컬렉션이 출시되었습니다. 또한 독일에서 개최되는 Astro Germany 밋업 소식을 포함한 다양한 커뮤니티 활동들이 진행될 예정입니다.",
+    "url": "https://astro.build/blog/whats-new-june-2026/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-genebench-pro",
+    "title": "Introducing GeneBench-Pro",
+    "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+    "aiSummary": "GeneBench-Pro는 유전체학, 생물학, 그리고 과학 연구 분야에서 AI의 성능을 평가하기 위해 새롭게 출시된 벤치마크 도구입니다. 이 시스템은 단순한 데이터를 넘어 복잡하고 실제적인 데이터셋을 활용하여 AI 모델의 전문적인 분석 능력을 정밀하게 측정하도록 설계되었습니다. 이를 통해 과학적 탐구 영역에서 AI의 기술적 완성도와 실용성을 검증하는 데 기여할 것으로 기대됩니다.",
+    "url": "https://openai.com/index/introducing-genebench-pro",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
       "AI"
     ]
   },
@@ -729,6 +1192,23 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/evaluating-object-storage-providers-for-prisma-compute",
+    "title": "Evaluating Object Storage Providers for Prisma Compute",
+    "summary": "We benchmarked Tigris and Cloudflare R2 from six Prisma Compute regions using a latency-sensitive virtual filesystem workload, with AWS S3 and S3 Express as a baseline.",
+    "aiSummary": "Prisma Compute는 지연 시간에 민감한 가상 파일 시스템 워크로드를 활용하여 주요 객체 스토리지 제공업체들의 성능을 평가하였습니다. 이번 벤치마크에서는 Tigris와 Cloudflare R2를 대상으로 총 6개의 Prisma Compute 리전에서 테스트를 진행하였습니다. 비교 분석을 위해 AWS S3와 S3 Express를 기준점으로 삼아 각 서비스의 처리 속도와 효율성을 검증하였습니다.",
+    "url": "https://www.prisma.io/blog/evaluating-object-storage-providers-for-prisma-compute",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
