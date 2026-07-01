@@ -1,5 +1,197 @@
 [
   {
+    "id": "25f64a6bf2f8d46827f51c3f9dcc34b99f7955fd",
+    "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
+    "summary": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turni",
+    "aiSummary": "Amazon EKS가 도입한 Kubernetes 버전 롤백 기능을 통해 사용자는 클러스터 업그레이드 실패 시 7일 이내에 이전 버전으로 간편하게 되돌릴 수 있게 되었습니다.\n\n이 기능은 기존의 업그레이드 과정에서 발생할 수 있는 오류에 대한 안전장치 역할을 합니다. 특히 클러스터를 새로 구축할 필요 없이 즉각적인 복구가 가능하므로 업그레이드 작업의 위험 부담을 크게 줄여줍니다. 결과적으로 Amazon EKS 환경에서의 Kubernetes 버전 관리를 더욱 안정적이고 효율적으로 운영할 수 있게 합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Micah Walter",
+    "pubDate": "Wed, 01 Jul 2026 17:20:30 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.139.0",
+    "title": "0.139.0",
+    "summary": "Features\n✨ Support dependencies in app.frontend(), e.g. for automatic cookie authentication for the frontend. PR #15908 by @tiangolo.\nTranslations\n🌐 Update translations for fr (update-outdated). PR #",
+    "aiSummary": "FastAPI 0.139.0 버전이 업데이트되었습니다.\n\n이번 업데이트의 주요 기능으로 app.frontend()에서 의존성을 지원하게 되어 프론트엔드에 대한 자동 쿠키 인증 등을 구현할 수 있게 되었습니다.\n\n이와 함께 프랑스어, 일본어, 중국어(번체 및 간체), 독일어, 스페인어, 터키어, 포르투갈어, 우크라이나어, 한국어, 러시아어를 포함한 다국어 번역 데이터가 최신 상태로 업데이트되었으며 누락된 번역 항목들도 대거 보완되었습니다.\n\n내부적으로는 FastAPI 기여자 및 전문가 목록이 갱신되었으며 GitHub 액션과 파이썬 패키지 그룹 등 의존성 라이브러리에 대한 버전 업데이트가 진행되어 전체적인 프로젝트 안정성을 강화했습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-01T16:35:19.000Z",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+    "title": "Browser tools for GitHub Copilot in VS Code are generally available",
+    "summary": "Browser tools for GitHub Copilot in VS Code are now generally available. Agents can now drive a real browser, navigate live web apps, and feed what they find back into…\nThe post Browser tools for GitH",
+    "aiSummary": "VS Code 내 GitHub Copilot을 위한 브라우저 도구가 정식 출시되었습니다. 이제 GitHub Copilot의 에이전트가 실제 브라우저를 직접 제어하고 실시간 웹 애플리케이션을 탐색할 수 있게 되었습니다. 에이전트는 웹 탐색 과정에서 확인한 정보를 수집하여 개발 작업에 반영할 수 있습니다. 이번 업데이트를 통해 AI가 웹 환경과 상호작용하며 더욱 복잡한 개발 과제를 수행하는 것이 가능해졌습니다.",
+    "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 01 Jul 2026 16:01:00 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/new-idc-study-how-mandiant-transforms-security-into-a-competitive-advantage/",
+    "title": "New IDC study: The business value of Mandiant Consulting",
+    "summary": "Security leaders are now expected to protect business growth and clearly articulate security value to their board of directors, in addition to managing risk. While translating technical defense into m",
+    "aiSummary": "IDC가 발표한 백서에 따르면 Mandiant Consulting을 도입한 기업들은 연평균 430만 달러의 이익과 268퍼센트의 3년 투자 대비 수익률을 달성했습니다. 해당 기업들은 평균 4.1개월 만에 초기 투자 비용을 회수했으며 보안을 단순한 기술적 방어를 넘어 비즈니스 성장을 견인하는 핵심 요소로 활용하고 있습니다.\n\nMandiant Consulting은 50만 시간 이상의 글로벌 사고 조사 경험을 바탕으로 실질적인 위협 인텔리전스를 제공합니다. 이를 통해 보안 인력 부족 문제를 겪는 기업들이 모든 위협에 대응하는 대신 특정 산업군을 노리는 고위험 위협에 집중하여 효율적으로 방어할 수 있도록 지원합니다. 실제로 한 소매업체는 Scattered Spider와 같은 특정 사이버 범죄 조직의 공격을 사전에 탐지하고 무력화하는 성과를 거두었습니다.\n\n또한 Mandiant는 Active Directory나 MFA와 같은 핵심 인프라에 대한 기술 감사를 수행하여 경영진에게 보안 체계의 신뢰성을 입증하는 외부 검증 역할을 합니다. 조사에 참여한 기업의 59퍼센트가 사이버 공격 대응 준비도가 향상되었다고 답했으며 45퍼센트는 전반적인 사이버 복원력이 개선되었다고 보고했습니다. 결과적으로 보안 분석 팀의 운영 효율성이 36퍼센트 향상되어 내부 인력이 보다 전략적이고 성장 지향적인 업무에 집중할 수 있는 환경이 조성되었습니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/new-idc-study-how-mandiant-transforms-security-into-a-competitive-advantage/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jurgen Kutscher"
+      ],
+      "title": [
+        "VP, Mandiant Consulting, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/",
+    "title": "Get started with the Claude apps gateway for Google Cloud",
+    "summary": "Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the",
+    "aiSummary": "Anthropic에서 개발한 Claude Code는 개별 개발자가 사용하기에는 편리하지만, 기업 환경에서 도입할 경우 자격 증명 관리, 보안, 비용 통제 등 운영상의 어려움이 존재합니다. 이를 해결하기 위해 출시된 Claude apps gateway는 로컬 클라이언트와 Google Cloud 사이에서 중재자 역할을 수행하는 셀프 호스팅 서비스입니다.\n\n이 게이트웨이를 도입하면 중앙 집중식 거버넌스를 통해 조직 내 보안과 효율성을 확보할 수 있습니다. 주요 기능으로는 Google Workspace 등 OIDC 기반 IdP를 연동하여 개발자 노트북에 민감한 API 키나 서비스 계정 정보를 저장하지 않는 안전한 인증 체계 구축이 가능합니다. 또한 서버 측에서 RBAC를 강제하고, 세션 기반의 투명한 로그 관리 및 계정별 사용량 제한을 통해 무분별한 비용 발생을 방지합니다.\n\n구조적으로는 Cloud Run 위에서 상태를 저장하지 않는 컨테이너 형태로 동작하며, Cloud SQL과 연동하여 세션 상태와 비용 데이터를 관리합니다. 설정 과정은 크게 GCP 기초 환경 구성, 게이트웨이 구성 파일 설정, Cloud Run 배포, 그리고 MDM을 통한 개발자 기기 연결 순으로 이루어집니다. \n\n결과적으로 이 솔루션을 통해 관리자는 ID 통합, 정책 관리, 원격 측정 데이터 수집, 비용 최적화 등을 효과적으로 수행할 수 있으며, 개발자는 별도의 복잡한 인증 절차 없이 안전한 환경에서 Claude Code를 활용할 수 있게 됩니다. 상세한 배포 가이드와 설정값은 Anthropic의 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Roy Arsan"
+      ],
+      "title": [
+        "Applied AI Engineer, Anthropic"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/looker-in-2026-gartner-analytics-and-bi-platforms-mq/",
+    "title": "Google named a Leader in 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms for third year in a row",
+    "summary": "For the third consecutive year, Google has been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms. This recognition comes on the heels of Go",
+    "aiSummary": "Google이 2026 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms 부문에서 3년 연속 리더로 선정되었습니다. 이번 선정은 기업이 데이터 분석을 넘어 능동적인 비즈니스 실행을 수행하는 에이전트 기반의 시스템으로 진화하고 있음을 반영합니다.\n\n핵심 동력은 데이터의 진실성을 보장하는 유니버설 시맨틱 레이어인 LookML과 Gemini의 심층적인 추론 능력입니다. LookML은 일관된 메트릭 관리를 통해 데이터 오류를 방지하고 기업이 신뢰할 수 있는 데이터 환경을 조성합니다. 여기에 결합된 Gemini 3는 복잡한 전략적 분석을 수행하고 분석 엔지니어링을 가속화하며 에이전트 기반의 비즈니스 인텔리전스를 실현합니다.\n\nGoogle은 이번 행사에서 Looker를 활용한 다양한 혁신 기술을 공개했습니다. Looker의 MCP를 통해 외부 플랫폼에서도 시맨틱 인텔리전스를 사용할 수 있도록 지원하며, Looker BI Agents를 통해 자연어로 복잡한 데이터 모델을 쿼리하고 자동화된 워크플로우를 실행할 수 있게 합니다. 또한 VS Code 확장 프로그램을 통해 자연어를 LookML로 변환하는 기능을 제공하여 개발자의 생산성을 높였습니다.\n\n이러한 솔루션들은 데이터 거버넌스와 AI의 추론 능력을 결합하여 환각 현상을 최소화하고 기업이 실질적인 비즈니스 가치를 창출하도록 지원합니다. Google은 클라우드 환경과 관계없이 개방적이고 확장 가능한 아키텍처를 통해 기업이 자율적인 에이전트 시스템을 안정적으로 운용할 수 있는 기반을 제공합니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/looker-in-2026-gartner-analytics-and-bi-platforms-mq/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sean Zinsmeister"
+      ],
+      "title": [
+        "Director of Product Management, Data Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/",
+    "title": "Google Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval",
+    "summary": "At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data pr",
+    "aiSummary": "Google Cloud가 네덜란드 정부의 전략적 공급업체 관리 기관인 SLM Rijk가 실시한 데이터 보호 영향 평가인 DPIA를 성공적으로 통과했습니다. 이번 평가는 Google Cloud가 네덜란드 공공 부문에서 요구하는 높은 수준의 데이터 보호 및 개인정보 처리 기준을 충족하고 있음을 공식적으로 확인해 주는 결과입니다.\n\n평가 결과에 따르면 권장 조치를 이행할 경우 높은 수준의 데이터 보호 위험이 존재하지 않는 것으로 나타났으며, 이를 통해 네덜란드 중앙 공공 기관들은 개인정보 보호에 대한 우려 없이 Google Cloud를 도입하고 디지털 전환을 추진할 수 있는 근거를 마련했습니다.\n\n이번 성과는 이전에 완료된 Google Workspace에 대한 DPIA 승인에 이은 것으로, Google Cloud는 유럽 지역 공공 기관이 보안과 규제 준수 요건을 충족하면서 혁신적인 클라우드 서비스를 활용할 수 있도록 지속적인 노력을 기울이고 있습니다. 앞으로도 Google Cloud는 개인정보 보호 강화 기술과 투명성 이니셔티브에 대한 투자를 확대하고 고객의 원활한 규제 준수를 지원할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Marc Crandall"
+      ],
+      "title": [
+        "Global Head of Privacy, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+    "title": "Copilot CLI auto model selection routes based on task",
+    "summary": "GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient…\nThe post Co",
+    "aiSummary": "GitHub Copilot CLI는 작업의 성격에 최적화된 모델을 자동으로 선택하여 연결하는 기능을 도입했습니다. 이번 업데이트는 모델의 활용도와 상태 지표를 실시간으로 분석하여 높은 품질과 신뢰성을 보장함과 동시에 토큰 효율성을 극대화하는 데 초점을 맞추고 있습니다. 이를 통해 사용자는 복잡한 설정 없이도 현재 수행 중인 작업에 가장 적합한 AI 모델을 자동으로 활용할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Wed, 01 Jul 2026 15:13:29 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_128",
     "title": "Visual Studio Code 1.128 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.128 (Insiders)\nRead the full article",
@@ -29,6 +221,38 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/whats-new-in-schema-proposals",
+    "title": "What’s new in Schema Proposals",
+    "summary": "Schema proposals (https://www.apollographql.com/docs/graphos/platform/schema-management/proposals) are how teams running Apollo GraphOS coordinate changes to their graph: a place to draft a schema cha",
+    "aiSummary": "Apollo GraphOS의 스키마 제안 기능이 대규모 업데이트를 통해 개발자 경험과 안정성을 대폭 강화합니다. 이번 개선은 작업 효율성 향상, 알림 기능 강화, API 신뢰성 제고, 시스템 기초 강화라는 네 가지 핵심 영역에 집중하고 있습니다.\n\n먼저 스키마 작성 및 검토 환경이 크게 개선되었습니다. 긴 변경 사항을 쉽게 탐색할 수 있는 변경 내역 탐색기(change navigator)가 추가되었고, 원본 소스에서 가져온 변경 사항과 사용자가 직접 작성한 내용을 명확하게 구분하여 가독성을 높였습니다. 댓글 작성 공간은 사용자 환경에 맞게 크기 조절이 가능해졌으며, 코드 충돌 발생 시 에디터를 벗어나지 않고도 즉시 충돌 지점을 확인하고 병합할 수 있는 기능을 제공합니다. 또한, 잘못된 diff 정보를 발견할 경우 한 번의 클릭으로 즉시 신고할 수 있는 보고 체계를 마련하여 정확도를 개선했습니다.\n\n웹훅 알림 시스템도 풍부한 데이터를 제공하도록 고도화되었습니다. 이벤트 페이로드에 작성자, 제안 제목, 관련 하위 그래프 등 상세 정보를 포함하고, 리뷰 제출 및 멘션 호출을 위한 새로운 이벤트 타입을 추가했습니다. Slack 채널과 직접 연동할 수 있는 기능도 추가되어 팀 간 협업이 더욱 수월해졌습니다.\n\nAPI 및 시스템 안정성 측면에서는 자동화 파이프라인과의 통합을 강화했습니다. Proposals API의 정합성과 coverage 탐지 로직을 최적화하여 신뢰성 있는 데이터를 제공하며, 불필요한 로그를 제거하고 시스템의 불확실성을 해소했습니다. 이러한 일련의 업데이트를 통해 Apollo GraphOS는 개발팀이 복잡한 스키마 변경 사항을 더욱 예측 가능하고 안정적으로 관리할 수 있는 견고한 플랫폼 인프라로 거듭납니다.",
+    "url": "https://www.apollographql.com/blog/whats-new-in-schema-proposals",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Ana De Magalhães",
+    "pubDate": "Wed, 01 Jul 2026 09:00:00 GMT",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-18-0",
+    "title": "Worker Metrics on the WorkerStopping Event in Laravel 13.18",
+    "summary": "Laravel 13.18.0 exposes jobs-processed counts on the WorkerStopping event, adds graceful shutdown to schedule:work, introduces priority-based dev command registration, and hardens the Number helpers a",
+    "aiSummary": "Laravel 13.18 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 WorkerStopping 이벤트에서 작업 처리 횟수인 jobs-processed 카운트를 확인할 수 있게 된 점입니다.\n\nschedule:work 명령어에 정상적인 종료 기능을 지원하여 중단 시 안정성을 높였으며 개발자 명령어 등록 시 우선순위를 설정하는 기능이 추가되었습니다. 또한 Number 헬퍼의 INF 및 NAN 처리를 강화하여 데이터 안정성을 개선하였습니다.",
+    "url": "https://laravel-news.com/laravel-13-18-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "Wed, 01 Jul 2026 02:33:37 +0000",
+    "fetchedAt": "2026-07-01T17:26:12.925Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -2150,184 +2374,6 @@
     "tags": [
       "Kubernetes",
       "Infra"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/hcp-vault-dedicated-introduces-cluster-disaster-recovery-public-preview",
-    "title": "HCP Vault Dedicated introduces cluster disaster recovery (public preview)",
-    "summary": "HCP Vault Dedicated is a fully managed secrets management solution that organizations rely on for authentication, dynamic secrets, and encryption workflows. As a core piece of security infrastructure,",
-    "aiSummary": "HashiCorp가 관리형 보안 솔루션인 HCP Vault Dedicated에 클러스터 수준의 재해 복구 기능을 퍼블릭 프리뷰 형태로 새롭게 추가합니다. 기존의 지역 단위 재해 복구가 클라우드 제공업체의 인프라 장애와 같은 대규모 사고에 대응했다면 이번에 도입된 클러스터 재해 복구 기능은 특정 클러스터 내부에서 발생하는 문제에 집중합니다.\n\n이 기능을 통해 기업들은 실제 장애가 발생하기 전 클러스터 수준의 장애 조치 테스트를 진행하고 복구 절차를 검증할 수 있습니다. 특히 보안 사고 발생 시 영향을 받는 클러스터를 신속하게 격리하고 보조 클러스터를 활성화함으로써 서비스 연속성을 확보하는 데 중점을 둡니다.\n\n현재 이 서비스는 프로덕션 티어 클러스터를 사용하는 고객을 대상으로 제공됩니다. 이용자는 HashiCorp 지원 팀에 티켓을 제출하여 장애 조치 및 복구 작업을 요청할 수 있으며 접수 후 16시간 이내에 온콜 팀의 기술 지원을 받아 복구 워크플로우를 검증받을 수 있습니다.\n\n이번 업데이트는 하이브리드 및 멀티 클라우드 환경에서 Vault를 핵심 제어 평면으로 사용하는 기업들에게 큰 이점을 제공합니다. 기업들은 인프라 계층의 지역적 장애와 애플리케이션 계층의 클러스터 장애를 모두 대비함으로써 더욱 견고한 보안 운영 체계를 구축할 수 있게 됩니다.",
-    "url": "https://www.hashicorp.com/blog/hcp-vault-dedicated-introduces-cluster-disaster-recovery-public-preview",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Isabela Palanca Aureus",
-    "pubDate": "2026-06-24T17:23:49.247Z",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/jun/24/django-61-beta-1-released/",
-    "title": "Django 6.1 beta 1 released",
-    "summary": "Django 6.1 beta 1 is now available. It represents the second\nstage in the 6.1 release cycle and is an opportunity to try out\nthe changes coming in Django 6.1.\nDjango 6.1 offers a harmonious mélange of",
-    "aiSummary": "Django 6.1 beta 1 버전이 공개되었습니다. 이번 릴리스는 Django 6.1 정식 출시를 앞두고 진행되는 두 번째 단계로 개발자들은 새로운 기능과 개선 사항을 미리 확인해 볼 수 있습니다.\n\n현재 베타 버전에서는 새로운 기능에 대한 버그 수정과 이전 버전 대비 발생한 회귀 문제 해결에 집중하고 있습니다. 번역 작업은 릴리스 후보 버전이 나올 시점의 스트링 프리즈 이후에 업데이트될 예정입니다.\n\n정식 버전은 약 한 달 뒤 릴리스 후보를 거쳐 8월 5일경 출시될 계획입니다. 커뮤니티의 조기 테스트 참여는 안정적인 정식 버전을 만드는 데 큰 도움이 됩니다.\n\n해당 패키지는 프로덕션 환경에서 사용하기에는 적합하지 않으나 새로운 기능 테스트나 버그 리포트를 원하는 경우 공식 다운로드 페이지나 PyPI를 통해 내려받을 수 있습니다. 상세한 변경 사항은 개발 중인 6.1 릴리스 노트를 통해 확인 가능합니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/jun/24/django-61-beta-1-released/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jacob Walls",
-    "pubDate": "Wed, 24 Jun 2026 12:00:00 -0500",
-    "fetchedAt": "2026-06-25T01:30:16.902Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/storage-data-transfer/backup-and-dr-service-adds-cross-region-backups/",
-    "title": "Enhanced data resilience with cross-region backups in Backup and DR Service",
-    "summary": "To maintain business continuity, you need a robust data-backup strategy. While multi-region backups offer the highest availability, many organizations want a more cost-effective way to protect their d",
-    "aiSummary": "Backup and DR Service에서 리전 간 백업 기능을 정식으로 출시했습니다. 기존의 다중 리전 백업 방식보다 비용 효율적이면서도 리전 단위 장애에 대비할 수 있는 유연한 데이터 보호 전략을 제공합니다.\n\n이번 업데이트를 통해 사용자는 원본 워크로드가 위치한 리전과 완전히 분리된 다른 리전을 백업 대상으로 선택할 수 있습니다. 이를 통해 GDPR과 같은 복잡한 데이터 주권 규정을 준수하면서도 특정 지리적 경계 내에 데이터를 안전하게 보관할 수 있습니다.\n\n현재 Compute Engine 인스턴스, Disks, Filestore를 우선 지원하며 향후 Cloud SQL과 AlloyDB로 지원 범위를 확대할 예정입니다. \n\n구현 방식은 매우 직관적입니다. 사용자는 원본 리전과 다른 지역에 Backup Vault를 생성하고, 기존 워크로드의 백업 계획에서 해당 Vault를 지정하기만 하면 됩니다. 이후 백업과 복구 과정은 자동화되어 시스템이 원본 리전 외부의 백업 저장소로 데이터를 직접 전송합니다.\n\n결과적으로 이번 기능은 기존 다중 리전 배포의 높은 비용 부담을 해소하는 동시에 데이터 복원력과 관리 자율성을 극대화합니다. 조직은 이를 활용해 특정 지역의 재해로부터 데이터를 보호하고 더욱 효율적인 재해 복구 전략을 수립할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/storage-data-transfer/backup-and-dr-service-adds-cross-region-backups/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Rushikesh Kure"
-      ],
-      "title": [
-        "Product Manager, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 24 Jun 2026 17:00:00 +0000",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-    "title": "Self-service credential revocation for incident response",
-    "summary": "For a timely response to security incidents involving compromised accounts or stolen credentials, GitHub Enterprise owners can now use new “break-glass” capabilities to instantly revoke all credential",
-    "aiSummary": "GitHub Enterprise 관리자는 보안 사고 발생 시 침해된 계정이나 탈취된 자격 증명을 신속하게 차단할 수 있는 새로운 긴급 대응 기능을 사용할 수 있습니다.\n\n이번 업데이트를 통해 관리자는 특정 계정의 모든 자격 증명을 즉시 취소하는 이른바 브레이크 글라스 기능을 활용할 수 있게 되었습니다. 이를 통해 보안 위협이 감지되었을 때 추가적인 피해를 방지하고 사고 대응 시간을 획기적으로 단축할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Wed, 24 Jun 2026 16:47:20 +0000",
-    "fetchedAt": "2026-06-25T01:30:16.902Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-    "title": "Introducing computer use in Gemini 3.5 Flash",
-    "summary": "Jun 24, 2026\n          \n          \n            \n          \n        \n      \n        \n          Computer use is now a built-in tool in Gemini 3.5 Flash to build agents\nthat can interact across platforms",
-    "aiSummary": "Google DeepMind는 Gemini 3.5 Flash 모델에 컴퓨터 사용 기능을 기본 도구로 통합했습니다. 과거 별도의 독립형 모델로 제공되던 것과 달리 이제는 주력 모델 내에서 직접 활용할 수 있게 되어, 개발자들은 브라우저와 모바일, 데스크톱 환경 전반에서 보고 추론하며 작업을 수행하는 에이전트를 더욱 효율적으로 구축할 수 있습니다.\n\n이번 업데이트를 통해 지속적인 소프트웨어 테스트나 복잡한 지식 작업 등 장기적인 엔터프라이즈 자동화 분야에서 성능이 크게 향상될 것으로 기대됩니다. Gemini 3.5 Flash는 기존의 함수 호출이나 Search 및 Maps 연동 기능과 결합하여 한층 더 강력한 에이전트 성능을 발휘합니다.\n\n보안 측면에서도 다양한 조치가 도입되었습니다. 프롬프트 주입 공격을 방지하기 위해 대상이 지정된 적대적 훈련을 수행하였으며, 기업용 안전장치 시스템을 통해 민감한 작업에 대한 사용자 확인 절차를 의무화하거나 간접적인 프롬프트 주입이 탐지될 경우 작업을 자동으로 중단할 수 있도록 지원합니다.\n\n개발자들은 이러한 기능과 더불어 안전한 샌드박스 환경 구축, 인간의 검증 과정 포함, 엄격한 접근 제어 등을 결합한 방어 전략을 권장받고 있습니다. 이미 많은 기업이 이 기능을 활용하여 자동화 솔루션의 가치를 창출하고 있습니다.",
-    "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "Wed, 24 Jun 2026 16:30:01 +0000",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-    "title": "Changes to model selection for Free and Student plans",
-    "summary": "Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing…\nThe post C",
-    "aiSummary": "GitHub의 Copilot Free 및 Student 플랜에서 모델 선택 방식이 변경됩니다. 기존의 수동 선택 옵션이 제거되고 Copilot auto 모델 선택 기능이 기본이자 유일한 방식으로 적용됩니다. 해당 기능은 각 작업의 특성에 맞춰 가장 적합한 모델을 동적으로 자동 선택하여 사용자에게 최적의 경험을 제공합니다.",
-    "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Wed, 24 Jun 2026 16:28:36 +0000",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-    "title": "Introducing computer use in Gemini 3.5 Flash",
-    "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
-    "aiSummary": "Google은 Gemini 3.5 Flash 모델에 컴퓨터를 직접 제어할 수 있는 새로운 도구인 computer use를 탑재하였습니다.\n\n이 기능은 AI가 화면을 인식하고 마우스 클릭이나 키보드 입력과 같은 인간의 동작을 모방하여 복잡한 컴퓨터 작업을 자동화할 수 있게 합니다.\n\n이를 통해 사용자는 특정 애플리케이션 내에서 데이터를 처리하거나 브라우저를 탐색하는 등의 반복적인 업무를 Gemini 3.5 Flash에게 위임하여 효율성을 높일 수 있습니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mateo Quiros"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        "Google DeepMind"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 24 Jun 2026 16:00:00 +0000",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-    "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
-    "summary": "Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan\n\n\nIntroduction \nIn early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining in",
-    "aiSummary": "Mandiant는 2026년 초 Cisco Catalyst SD-WAN Manager에서 발견된 제로데이 취약점 CVE-2026-20245를 악용한 공격 사례를 확인했습니다. 공격자는 서비스 제공업체의 SD-WAN 인프라에 침투하여 권한을 상승시키고 루트 수준의 접근 권한을 획득했습니다.\n\n공격자는 먼저 승인되지 않은 피어링 연결을 설정하여 초기 접근 권한을 얻은 뒤, 기본 관리자 계정의 비밀번호를 임의로 변경하여 시스템에 로그인했습니다. 이후 CVE-2026-20245 취약점을 통해 조작된 CSV 파일을 업로드하는 방식으로 루트 권한을 확보하고 troot라는 백도어 계정을 생성했습니다.\n\n침입 과정에서 공격자는 흔적을 지우기 위해 악성 파일을 삭제하고 시스템 설정을 원상복구하며 자체 검증 스크립트를 실행하는 등 고도화된 안티 포렌식 기법을 사용했습니다. 이는 보안 경계 외부의 네트워크 장비를 노리는 최근의 공격 트렌드를 잘 보여줍니다.\n\n이러한 위협에 대응하기 위해 조직은 CVE-2026-20245에 대한 보안 패치를 즉시 적용해야 합니다. 또한 관리자 계정의 비정상적인 비밀번호 변경 로그와 예상치 못한 IP를 통한 SSH 접근 기록을 면밀히 감시하고 Cisco에서 제공하는 최신 하드닝 가이드를 준수하여 보안 체계를 강화해야 합니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mandiant "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "Wed, 24 Jun 2026 11:00:00 +0000",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
