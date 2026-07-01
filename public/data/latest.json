@@ -1,5 +1,101 @@
 [
   {
+    "id": "e1fe2965259df670bd55dc1185e2f5c257298d4c",
+    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercia",
+    "aiSummary": "AWS는 클라우드 인프라 배포 속도를 최대 4배까지 향상할 수 있는 CloudFormation Express 모드를 출시했습니다.\n\n이번 신규 기능은 AI 에이전트와 개발자가 인프라 배포 결과를 수 초 내에 즉각적으로 확인하고 반복 작업을 더 빠르게 수행할 수 있도록 지원합니다.\n\n해당 기능은 모든 상용 AWS 리전에서 추가 비용 없이 즉시 이용할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "Tue, 30 Jun 2026 21:30:33 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "d668a838bb33c15b4742302284561effb3be54a0",
+    "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
+    "summary": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest mem",
+    "aiSummary": "AWS Graviton5 프로세서를 탑재한 Amazon EC2 C9g 및 C9gd 인스턴스가 정식 출시되었습니다.\n\n이번 신규 인스턴스는 기존 Graviton4 기반 인스턴스 대비 최대 25% 향상된 컴퓨팅 성능을 제공합니다. 또한 5배 더 커진 캐시 용량과 클라우드 내 모든 프로세서 인스턴스 중 가장 빠른 메모리 속도를 구현하였습니다. C9gd 인스턴스의 경우 로컬 NVMe 스토리지 옵션을 지원하여 데이터 처리 효율을 높였습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Sébastien Stormacq",
+    "pubDate": "Tue, 30 Jun 2026 20:56:44 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "eecd301bc56dd721583bbbd8024097ca3ad82fd6",
+    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
+    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get cen",
+    "aiSummary": "AWS Certificate Manager가 퍼블릭 TLS 인증서에 대한 ACME 프로토콜 지원을 시작합니다. 이번 업데이트를 통해 사용자는 ACMEv2 호환 클라이언트를 사용하여 모든 워크로드에서 인증서 발급 및 갱신 과정을 자동화할 수 있습니다.\n\n관리자는 IAM 기반의 접근 제어와 도메인 범위 지정을 통해 인증서를 중앙에서 효율적으로 관리할 수 있습니다. 이는 점차 짧아지는 인증서 유효 기간에 대응하여 운영상의 위험을 줄이고 관리 복잡성을 해소하는 데 도움을 줍니다.",
+    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Sébastien Stormacq",
+    "pubDate": "Tue, 30 Jun 2026 20:15:11 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
+    "title": "Conversational analytics in BigQuery brings trusted agentic reasoning to everyone",
+    "summary": "Businesses run on fast decisions, but the teams who hold the answers are often buried under a backlog of routine requests, leaving users waiting in line for insights they need now. Today, we are bring",
+    "aiSummary": "Google Cloud은 BigQuery 내에서 자연어 대화형 분석을 지원하는 Conversational Analytics 기능을 정식 출시하였습니다. 이 기능은 최신 Gemini 모델을 기반으로 하며, 사용자가 별도의 설정 없이 데이터와 직접 대화하여 복잡한 다단계 분석과 시각화 보고서를 생성할 수 있도록 지원합니다.\n\n데이터 전문가들은 프로젝트, 데이터셋, 테이블을 비롯해 Apache Iceberg, Databricks Unity, AWS Glue, SAP, Salesforce 등 다양한 외부 소스의 데이터를 통합하여 맞춤형 분석 에이전트를 구축할 수 있습니다. 구축된 에이전트는 BigQuery Studio, Data Canvas는 물론 Conversational Analytics API를 통해 Gemini Enterprise나 외부 애플리케이션으로도 배포가 가능합니다.\n\n신뢰성과 설명 가능성을 위해 모든 답변은 비즈니스 맥락에 기반하여 생성되며, 사용자는 에이전트의 추론 과정과 사용된 SQL, 데이터 출처를 즉시 검토할 수 있습니다. 또한 모호한 질문에는 추가 질문을 던지거나 장기 기억을 통해 문맥을 파악하는 등 지능적인 상호작용을 수행합니다.\n\n보안 및 거버넌스 측면에서는 기존 BigQuery의 권한 관리 모델을 그대로 계승합니다. Access Transparency, Customer-Managed Encryption Keys, VPC Service Controls 등을 지원하며 데이터 거주지 보호 기능도 포함되어 있어 기업 수준의 엄격한 보안 요건을 충족합니다.\n\n단순한 데이터 조회를 넘어 AI.KEY_DRIVERS, AI.FORECAST 등의 함수를 결합한 심층 분석이 가능하며, 구조화된 데이터와 PDF, 이미지 등의 비정형 데이터를 통합적으로 추론할 수 있습니다. 특히 Deep-dive 모드와 예약 기능을 통해 복잡한 다단계 조사 과정을 자동화하고 비즈니스 흐름을 지속적으로 모니터링하는 자율적인 에이전트 운영 환경을 제공합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Vasiya Krishnan"
+      ],
+      "title": [
+        "Product Lead"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 18:00:00 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+    "title": "Claude Sonnet 5 is generally available for GitHub Copilot",
+    "summary": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new So",
+    "aiSummary": "Anthropic의 최신 Sonnet급 모델인 Claude 3.5 Sonnet이 GitHub Copilot에서 정식으로 사용 가능해졌습니다. 이번 업데이트를 통해 개발자들은 일상적인 코딩 작업과 에이전트 기반 워크플로우에서 더욱 강력한 성능을 경험할 수 있게 되었습니다. GitHub Copilot 사용자들은 이제 기존 옵션에 더해 Claude 3.5 Sonnet을 선택하여 개발 생산성을 높일 수 있는 새로운 대안을 확보하게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 17:25:51 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://svelte.dev/blog/whats-new-in-svelte-july-2026",
     "title": "What’s new in Svelte: July 2026",
     "summary": "This month brought a real shift in how SvelteKit projects are configured. You can now define your SvelteKit config directly inside vite.config.js and skip svelte.config.js entirely. We also got the fi",
@@ -25,6 +121,22 @@
     "author": "Allison",
     "pubDate": "Tue, 30 Jun 2026 16:42:21 +0000",
     "fetchedAt": "2026-06-30T17:20:02.883Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
+    "title": "Releases: Sidebar navigation and per-asset download counts",
+    "summary": "You can now scan and navigate release pages more easily with a dedicated sidebar table of contents. We also updated release metadata placement for a more consistent layout so it’s…\nThe post Releases: ",
+    "aiSummary": "GitHub의 릴리스 페이지에 사이드바 형태의 목차 기능이 새롭게 추가되어 탐색과 페이지 스캔이 더욱 편리해졌습니다. 또한 릴리스 메타데이터의 배치 방식을 개선하여 레이아웃의 일관성을 높였고 각 에셋별 다운로드 횟수를 확인할 수 있는 기능도 업데이트되었습니다. 이러한 변화를 통해 사용자는 릴리스 페이지의 정보를 더욱 직관적이고 효율적으로 관리할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "Tue, 30 Jun 2026 16:36:06 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
     "tags": [
       "GitHub",
       "DevOps"
@@ -77,6 +189,38 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+    "title": "What Google Cloud announced in AI this month",
+    "summary": "Editor’s note: Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more.\n\n\nOur m",
+    "aiSummary": "Google Cloud는 최근 AI 구축, 확장 및 보안을 강화하기 위한 다양한 업데이트를 발표했습니다. 주요 내용으로 LLM과 위키 패턴을 결합하여 데이터를 표준화하는 Open Knowledge Format을 도입했으며, Apple의 Private Cloud Compute 시스템과 협력하여 보안성을 높였습니다. 또한 Anthropic의 Claude Fable 5 모델을 Google Cloud에서 사용할 수 있게 되었고, 리테일 분야를 위한 가상 쇼핑 경험인 Cloud Atelier를 선보였습니다.\n\n보안 측면에서는 자율적이고 선제적인 대응을 위해 Google AI Threat Defense를 강조하고 있으며, 내부 보안 운영에 AI 에이전트를 도입하여 코드 개발 생명주기 전반의 방어 체계를 강화했습니다. Mandiant의 리드팀과 함께 생성형 AI 애플리케이션의 보안 개발을 위한 가이드라인도 제시했습니다.\n\n과거 발표된 주요 기술과 플랫폼으로 Gemini Enterprise Agent Platform이 핵심적인 역할을 수행하고 있습니다. 해당 플랫폼은 에이전트의 설계, 배포, 관리 및 최적화를 지원하며, 특히 TPU 8t 및 8i와 같은 고성능 AI Hypercomputer 인프라와 결합하여 대규모 에이전트 작업을 효율적으로 처리합니다. 또한 Cross-Cloud Lakehouse를 통해 다양한 클라우드 환경의 데이터를 통합하고, 지능적인 Knowledge Catalog를 통해 에이전트가 비즈니스 맥락을 더 정확하게 이해하도록 돕습니다.\n\n더불어 Google Security Operations에서는 위협 탐지 및 대응을 자동화하는 에이전트 기능을 제공하며, MCP 서버를 통해 개발자가 직접 보안 에이전트를 구축할 수 있는 환경을 지원합니다. 이와 같은 일련의 업데이트는 사용자가 AI를 통해 업무 효율성을 100배 이상 극대화하고, 안전한 에이전트 기반의 기업 환경을 조성하는 데 초점을 맞추고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Andrea Sanin"
+      ],
+      "title": [
+        "AI Editor, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "Tue, 30 Jun 2026 16:00:00 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -400,6 +544,22 @@
     ]
   },
   {
+    "id": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
+    "title": "HCP Terraform Powered by Infragraph Limited Availability Launch ",
+    "summary": "Migrating to the cloud was supposed to make infrastructure easier to provision and manage. For many enterprises, the reality has become much more complicated. New pain points emerged that undermine th",
+    "aiSummary": "기업들이 하이브리드 및 멀티 클라우드 환경에서 겪는 인프라 데이터 분산과 관리 복잡성을 해결하기 위해 HashiCorp는 HCP Terraform powered by Infragraph의 제한적 출시를 발표했습니다. 이번 출시는 현재 미국 인스턴스를 사용하는 HCP Terraform Standard 및 Premium 고객을 대상으로 제공됩니다.\n\nInfragraph는 AWS, Microsoft Azure, GitHub, Terraform Enterprise 등을 연결하여 클라우드 인프라 자원 간의 관계와 상태를 통합된 그래프 형태로 시각화합니다. 이를 통해 사용자들은 파편화된 데이터를 하나로 모아 자원의 소유권 파악, 보안 취약점 식별, 그리고 리소스 의존성 분석을 실시간으로 수행할 수 있습니다.\n\n데이터 탐색을 위한 쿼리 인터페이스는 로우 코드 및 JSON 방식을 지원하며 향후 NL2Q 기능도 추가될 예정입니다. 사용자들은 이를 활용해 미관리 자원 탐지, 보안 규칙 감사, 변경 영향도 평가 등 복잡한 운영상의 질문에 즉각적으로 대응할 수 있습니다.\n\n또한 이번 릴리스에는 개선된 그래프 탐색기와 쿼리 빌더가 포함되었으며, 사용자 경험과 온보딩 프로세스, 역할 할당 기능도 강화되었습니다. 팀 단위의 협업을 위해 쿼리를 저장하고 공유하는 기능을 제공하여 플랫폼 팀과 DevOps, SecOps 팀이 일관된 데이터를 바탕으로 신속한 의사결정을 내릴 수 있도록 지원합니다.",
+    "url": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Tom O’Connell",
+    "pubDate": "2026-06-30T07:00:00.000Z",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://supabase.com/blog/agentic-coding-on-supabase-with-opencode",
     "title": "Agentic Coding on Supabase with OpenCode",
     "summary": "OpenCode integrates with Supabase. Connect your agent to your database, Edge Functions, and logs. MCP setup is configured automatically.",
@@ -447,6 +607,57 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/06/30/zgc-performance-decade/",
+    "title": "ZGC: A Decade of Redefining Java Performance",
+    "summary": "ZGC has evolved over the past decade from an experimental feature in JDK 11 to a robust, production-ready garbage collector powering critical online services worldwide.\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tZGC is a concurr",
+    "aiSummary": "ZGC는 JDK 11에서 실험적 기능으로 시작하여 지난 10년간 비약적인 발전을 거듭하며 오늘날 전 세계 주요 온라인 서비스의 핵심 성능을 뒷받침하는 안정적인 가비지 컬렉터로 자리 잡았습니다.\n\nZGC의 핵심은 애플리케이션 스레드와 병렬로 무거운 GC 작업을 수행하는 동시성 처리에 있으며 이를 통해 밀리초 미만의 매우 짧은 일시 정지 시간을 구현합니다. 이러한 기술적 특성 덕분에 응답 속도가 중요한 고성능 애플리케이션 환경에 최적화된 솔루션으로 평가받습니다.\n\n이번 JavaOne 2026 발표에서는 ZGC의 지난 역사와 내부 동작 메커니즘을 살펴보고 JDK 25 버전에서의 향상된 성능 지표를 분석합니다. 또한 향후 지속적인 성능 개선을 위한 미래 개발 로드맵도 함께 제시할 예정입니다. 보다 자세한 내용은 JavaOne 2026 재생 목록을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/06/30/zgc-performance-decade/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Stefan Johansson (alum)",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/claude-sonnet-5",
+    "title": "Introducing Claude Sonnet 5",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeProductIntroducing Claude Sonnet 5Jun 30, 2026Claude Sonnet 5 is built to be the most agentic Sonnet model yet. It can make plans, use tools like browsers a",
+    "aiSummary": "Anthropic은 가장 뛰어난 에이전트 성능을 발휘하도록 설계된 신규 모델 Claude Sonnet 5를 발표했습니다. 이 모델은 계획 수립, 브라우저 및 터미널과 같은 도구 사용, 자율적 실행 능력을 크게 향상하여 기존 Opus급 모델에 근접한 성능을 더 낮은 비용으로 제공합니다. 이전 세대인 Sonnet 4.6과 비교했을 때 추론, 코딩, 지식 작업 전반에서 상당한 개선을 이루었으며 특히 에이전트 환경에서의 안전성이 강화되었습니다.\n\nClaude Sonnet 5는 현재 모든 요금제에서 기본 모델로 제공되며 Claude Code와 Claude Platform에서도 사용할 수 있습니다. 가격 정책은 2026년 8월 31일까지는 입력 토큰당 2달러, 출력 토큰당 10달러의 도입 가격이 적용되며 이후에는 입력 3달러, 출력 15달러로 조정될 예정입니다. 개발자들은 Claude API를 통해 claude-sonnet-5를 호출할 수 있습니다.\n\n성능 평가 측면에서 BrowseComp와 OSWorld-Verified를 통해 검증한 결과, Claude Sonnet 5는 Sonnet 4.6 대비 확실한 성능 향상을 보였으며 Opus 4.8에 필적하는 효율성을 보여줍니다. 초기 테스트 파트너들은 이 모델이 복잡한 작업을 끝까지 완수하고 스스로 결과물을 검증하는 능력이 뛰어나다는 평가를 내렸으며, 특히 다단계 소프트웨어 엔지니어링 및 기술적 복잡도가 높은 워크플로우에서 매우 유용하다고 강조했습니다.",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "title": "Claude Science, an AI workbench for scientists",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsClaude Science, an AI workbench for scientists, is now availableJun 30, 2026Get started with Claude ScienceAI has the potential to dramatically",
+    "aiSummary": "Anthropic이 과학 연구를 가속화하기 위해 개발한 AI 워크벤치 Claude Science를 공개했습니다. 이 플랫폼은 연구자들이 흔히 사용하는 PubMed, Jupyter, R 등 파편화된 도구들을 단일 환경으로 통합하여 연구의 효율성을 높이는 데 초점을 맞춥니다.\n\nClaude Science는 유전체학, 단백질체학, 화학 정보학 등 다양한 과학 분야를 지원하는 60개 이상의 사전 구성된 기술과 커넥터를 제공합니다. 사용자는 일반적인 조정 에이전트와 대화하며 복잡한 연구 단계를 수행할 수 있고, 전문 에이전트를 추가하거나 협업하는 것도 가능합니다. 특히 모든 결과물에는 추적 가능한 이력이 포함되어 있어 연구 결과의 검증과 재현성을 보장하며, 오류 검사 에이전트가 인용과 계산 내용을 실시간으로 확인합니다.\n\n또한 3D 단백질 구조나 게놈 브라우저 트랙 등 시각적 과학 데이터를 기본적으로 렌더링하며, 도표와 원고를 생성할 때 이를 제작한 코드와 환경 정보까지 함께 제공합니다. 연구자는 생성된 결과물에 대해 직접 대화하며 수정을 요청할 수 있어 논문 출판 준비 과정을 간소화할 수 있습니다.\n\n이번 서비스는 macOS와 Linux 환경에서 로컬로 사용하거나 SSH 및 HPC 로그인 노드를 통해 원격으로 접속할 수 있습니다. 현재 Claude Pro, Max, Team, Enterprise 사용자를 대상으로 베타 버전으로 제공되며, 사용자 피드백을 바탕으로 플랫폼을 지속적으로 개선할 예정입니다.",
+    "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -866,6 +1077,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
+    "title": "Faster Gemma 4 on MLX with multi-token prediction",
+    "summary": "Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured usin",
+    "aiSummary": "Ollama 0.31 버전이 Apple Silicon 환경에서 MLX 프레임워크를 기반으로 Gemma 4 모델의 처리 속도를 크게 개선했습니다.\n\n이번 업데이트의 핵심은 멀티 토큰 예측인 MTP 기술의 적용입니다. 이를 통해 모델이 한 번에 여러 개의 토큰을 예측하여 추론 과정을 최적화합니다.\n\n실제 Aider polyglot 벤치마크 측정 결과, 코딩 에이전트 환경에서 기존 대비 최대 90퍼센트까지 성능이 향상되었습니다.",
+    "url": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "Mon, 29 Jun 2026 00:00:00 +0000",
+    "fetchedAt": "2026-07-01T01:36:06.322Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
@@ -2099,149 +2327,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees",
-    "title": "CEO Ash Kulkarni's organizational announcement to Elastic employees",
-    "summary": "Today, we announced an organizational change at Elastic.",
-    "aiSummary": "Elastic의 CEO인 Ash Kulkarni는 사내 구성원들을 대상으로 조직 개편을 단행한다고 공식 발표하였습니다. 이번 변화는 회사의 운영 효율성을 높이고 전략적 목표를 달성하기 위한 목적으로 시행됩니다. 구체적인 세부 사항은 내부 구성원들에게 공유되었으며, 향후 Elastic의 경영 체계와 업무 방식에 변화가 있을 것으로 전망됩니다.",
-    "url": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Ashutosh Kulkarni",
-    "pubDate": "Wed, 24 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-25T01:30:16.902Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-security-migration-with-underdefense",
-    "title": "How migrating to Elastic Security helped a digital safety software company cut incidents by 85% with UnderDefense",
-    "summary": "UnderDefense, an Elastic partner, migrated a two-person security team from a noisy legacy QRadar to Elastic Security on AWS, cutting incident volume 85%, reducing MTTR 61%, and delivering audit-ready ",
-    "aiSummary": "디지털 안전 소프트웨어 기업이 기존의 QRadar 보안 시스템을 AWS 기반의 Elastic Security로 성공적으로 이전하였습니다. \n\n이 과정에서 UnderDefense의 지원을 통해 2인 규모의 보안 팀이 겪던 과도한 알림 문제를 해결하였으며 보안 사고 발생 건수를 85퍼센트까지 낮추는 성과를 거두었습니다. \n\n또한 평균 대응 시간인 MTTR을 61퍼센트 단축하였고 25개의 맞춤형 대시보드를 구축하여 감사에 즉각 대응할 수 있는 데이터 보존 체계를 마련하였습니다.",
-    "url": "https://www.elastic.co/blog/elastic-security-migration-with-underdefense",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Emily Chioconi",
-    "pubDate": "Wed, 24 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/06/firestore-serialization-react",
-    "title": "Zero-flicker Firestore SSR with React",
-    "summary": "June 24, 2026  Server-Side Rendering (SSR) improves page load times. However, building highly interactive experiences in SSR frameworks can be difficult. This is especially true for Firestore, where f",
-    "aiSummary": "Firestore를 활용한 SSR 환경에서 데이터 로딩 시 발생하는 화면 깜빡임과 중복 읽기 문제를 해결하는 최적화 방법을 설명합니다.\n\nFirebase JS SDK는 서버에서 쿼리 결과를 직렬화하고 클라이언트에서 이를 재개하는 전용 API를 제공합니다. 서버 측에서 toJSON 메서드를 사용하여 스냅샷을 직렬화하면 이를 클라이언트 컴포넌트로 전달해 즉시 렌더링할 수 있습니다.\n\n클라이언트에서는 querySnapshotFromJSON을 통해 데이터를 복원하고, onSnapshotResume을 사용하여 실시간 업데이트를 원활하게 이어받을 수 있습니다. 이러한 로직은 커스텀 훅인 useSerializedQuery를 통해 간편하게 구현 가능합니다.\n\n다만, 직렬화된 스냅샷은 HTML 문서에 직접 포함되므로 데이터가 클 경우 페이지 크기가 비대해질 수 있습니다. 따라서 실시간 업데이트가 반드시 필요하지 않은 경우에는 일반적인 서버 컴포넌트 데이터 페칭을 사용하거나, 변경 빈도가 낮은 데이터에는 Firestore 번들을 활용하는 등 상황에 맞는 전략이 필요합니다.",
-    "url": "https://firebase.blog/posts/2026/06/firestore-serialization-react",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "Wed, 24 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-24T17:23:49.247Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/06/24/spring-data-2025-0-13-released",
-    "title": "Spring Data 2025.0.13 released",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Broadcom은 Spring Data 2025.0.13 버전을 공식 발표하였습니다. 이번 릴리스는 기존 Spring 생태계의 안정성과 호환성을 유지하며 지속적인 업데이트를 제공하는 과정의 일환입니다. 해당 버전과 관련된 법적 고지 사항 및 상표권 정보는 Broadcom의 공식 가이드를 따르며 Apache, Java, Kubernetes, AWS 등 다양한 기술 스택과의 상호 운용성을 지원합니다. 사용자는 공식 문서를 통해 상세한 변경 사항과 업데이트 내용을 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/06/24/spring-data-2025-0-13-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "mp911de",
-    "pubDate": "Wed, 24 Jun 2026 00:00:00 GMT",
-    "fetchedAt": "2026-06-24T10:29:40.595Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "/blog/release/v24.18.0?1782256361150",
-    "title": "Node.js 24.18.0 (LTS)",
-    "summary": "Skip to content (https://nodejs.org/en/blog/release/v24.18.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Bl",
-    "aiSummary": "Node.js가 2026년 6월 23일에 v24.18.0 LTS 버전인 Krypton을 출시했습니다. 이번 업데이트는 성능 최적화와 암호화 기능 강화, 그리고 개발 편의성을 높이기 위한 여러 가지 마이너 변경 사항을 포함하고 있습니다.\n\n가장 주목할 만한 변경 사항으로 Buffer 모듈의 Buffer.poolSize 기본값이 64 KiB로 상향 조정되어 메모리 풀 관리가 최적화되었습니다. 또한 http 모듈에서 유휴 상태의 에이전트 소켓에 스트림 리스너가 불필요하게 등록되는 현상을 방지하여 소켓 리소스를 더 효율적으로 관리할 수 있게 되었습니다. 이와 함께 개발자가 임의의 1xx 상태 코드를 전송할 수 있는 writeInformation 메서드가 http 모듈에 새롭게 추가되었습니다.\n\ncrypto 모듈 영역에서도 큰 개선이 이루어졌습니다. 루트 인증서가 NSS 3.123.1로 업데이트되었으며, Web Cryptography 알고리즘에 TurboSHAKE와 KangarooTwelve가 새로 도입되었습니다. 더불어 BoringSSL 환경을 사용할 때 ML-DSA 및 ML-KEM 알고리즘을 활용할 수 있도록 연동 작업이 수행되었고, ML-KEM과 SLH-DSA 키 유형에 대한 JWK 지원도 함께 포함되었습니다.\n\n기타 의존성 부분에서는 내장 패키지 관리자인 npm 버전이 11.16.0으로 업그레이드되었으며 SQLite 역시 3.53.1 버전으로 최신화되었습니다. 또한 보안 강화를 위한 실행 옵션인 --permission의 문서에서 --experimental 접두사가 제거되었습니다.",
-    "url": "https://nodejs.org/en/blog/release/v24.18.0",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "Tue, 23 Jun 2026 23:12:41 GMT",
-    "fetchedAt": "2026-06-24T00:16:15.543Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://isocpp.org//blog/2026/06/silent-foe-or-quiet-ally-brief-guide-to-alignment-in-cpp.-part-3-elizaveta",
-    "title": "Silent foe or quiet ally: Brief guide to alignment in C++. Part 3 -- Elizaveta Zhegalova",
-    "summary": "We continue our deep dive into memory mechanics. If you are just joining us, I recommend reviewing the foundations first. The first part covered the basics and the magic of simple data alignment, whil",
-    "aiSummary": "C++의 메모리 메커니즘을 다루는 이 기사는 데이터 정렬의 기초와 상속이 메모리 레이아웃에 미치는 영향을 설명한 이전 시리즈에 이은 세 번째 파트입니다. \n\n이번 파트에서는 프로세서가 객체의 함수를 호출할 때 특정 메모리 주소로 점프하는 원리와 바인딩에 대해 설명하기 시작합니다. 특히 Base 포인터를 사용하여 기본 클래스의 메서드 주소를 직접 선택하는 방식은 속도가 빠르고 효율적이지만 런타임에서 프로그램의 유연성을 떨어뜨리는 한계가 있습니다.",
-    "url": "https://isocpp.org//blog/2026/06/silent-foe-or-quiet-ally-brief-guide-to-alignment-in-cpp.-part-3-elizaveta",
-    "category": "프로그래밍 언어",
-    "source": "ISO C++",
-    "author": "Blog Staff",
-    "pubDate": "Tue, 23 Jun 2026 22:31:11 +0000",
-    "fetchedAt": "2026-06-24T00:16:15.543Z",
-    "tags": [
-      "C++"
-    ]
-  },
-  {
-    "id": "https://isocpp.org//blog/2026/06/cpp23-the-complete-guide-draft-ebook-is-out",
-    "title": "\"C++23 - The Complete Guide\" draft ebook is out -- Nicolai Josuttis",
-    "summary": "I am happy to announce that my new book in the \"The Complete Guide\" series is out now as a draft ebook\nC++23 - The Complete Guide\nwww.cppstd23.com. There you can also find several example programs dem",
-    "aiSummary": "Nicolai Josuttis가 저술한 신간 C++23 - The Complete Guide의 초안 전자책이 출시되었습니다. 이 책은 C++23의 새로운 기능들을 다루고 있으며, 공식 웹사이트를 통해 기능들을 시연하는 다양한 예제 프로그램도 함께 제공합니다. 현재 Leanpub에서 할인된 가격으로 구매할 수 있으며, 구매자에게는 무료 업데이트가 제공되어 향후 하드커버로 출간되기 전까지 저자에게 직접 피드백을 전달하고 최신 정보를 가장 먼저 확인할 수 있는 기회가 주어집니다.",
-    "url": "https://isocpp.org//blog/2026/06/cpp23-the-complete-guide-draft-ebook-is-out",
-    "category": "프로그래밍 언어",
-    "source": "ISO C++",
-    "author": "Nico Josuttis",
-    "pubDate": "Tue, 23 Jun 2026 22:29:19 +0000",
-    "fetchedAt": "2026-06-24T00:16:15.543Z",
-    "tags": [
-      "C++"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-    "title": "Secret scanning adds extended metadata for Replicate secrets",
-    "summary": "Secret scanning now includes extended metadata for Replicate secrets, providing richer context for leaked credentials. Extended metadata support This pattern now includes extended metadata when detect",
-    "aiSummary": "GitHub의 Secret scanning 기능이 Replicate secrets에 대한 extended metadata 지원을 추가했습니다. 이를 통해 유출된 credentials에 대해 보다 풍부한 맥락 정보를 제공받을 수 있게 되었습니다. 탐지 시 extended metadata가 함께 포함되어 제공되므로 유출된 정보에 대해 더욱 명확한 상황 파악이 가능합니다.",
-    "url": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Tue, 23 Jun 2026 19:50:00 +0000",
-    "fetchedAt": "2026-06-24T00:16:15.543Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-23-fetch-code-quality-findings-via-rest-api",
-    "title": "Fetch Code Quality findings via REST API",
-    "summary": "Repository-level REST APIs for Code Quality findings are now available in public preview, bringing API support closer to the functionality already available in the GitHub UI. Two new read-only endpoin",
-    "aiSummary": "GitHub에서 Code Quality 결과값을 리포지토리 수준에서 가져올 수 있는 REST API의 public preview 버전을 출시했습니다. 이번 업데이트를 통해 기존 GitHub UI에서 제공되던 기능과 유사한 수준의 API 지원이 가능해졌으며, 두 개의 새로운 읽기 전용 엔드포인트가 추가되었습니다.",
-    "url": "https://github.blog/changelog/2026-06-23-fetch-code-quality-findings-via-rest-api",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "Tue, 23 Jun 2026 18:38:41 +0000",
-    "fetchedAt": "2026-06-24T00:16:15.543Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
