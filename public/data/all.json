@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_128",
+    "title": "Visual Studio Code 1.128 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.128 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.128 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트에는 개발자 경험을 향상하기 위한 다양한 기능 개선과 버그 수정 사항이 포함되어 있습니다. 구체적인 변경 사항과 새로운 기능에 대한 상세 내용은 공식 홈페이지의 릴리즈 노트를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_128",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-07-01T10:51:10.569Z",
+    "fetchedAt": "2026-07-01T10:51:10.569Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=717450",
+    "title": "Kotlin Comes to BlueJ",
+    "summary": "Kotlin support is now available in BlueJ, one of the most established environments for teaching introductory object-oriented programming (OOP). This work is the result of a collaboration between JetBr",
+    "aiSummary": "초보자를 위한 객체 지향 프로그래밍 교육 환경으로 오랫동안 사용되어 온 BlueJ에서 이제 Kotlin을 지원합니다. 이번 업데이트는 JetBrains와 King’s College London의 BlueJ 팀이 협력하여 이루어낸 결과입니다. 프로그래밍 교육 분야에서 큰 영향력을 가진 Michael Kölling 교수와 Neil Brown 박사가 참여한 이번 프로젝트를 통해 학습자들은 BlueJ 환경에서 Kotlin 언어를 활용할 수 있게 되었습니다. 최신 버전의 BlueJ를 통해 해당 기능을 이용할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-comes-to-bluej/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "Wed, 01 Jul 2026 09:50:23 +0000",
+    "fetchedAt": "2026-07-01T10:51:10.569Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+    "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
+    "summary": "Elastic has been named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026 and identified as holding the largest market share among all 16 providers evaluated.",
+    "aiSummary": "Elastic이 Everest Group의 Enterprise Search Products PEAK Matrix Assessment 2026에서 리더 기업으로 선정되었습니다. 해당 평가에 참여한 16개 기업 중 Elastic은 가장 높은 시장 점유율을 기록하며 기술적 역량과 시장 내 영향력을 입증했습니다.",
+    "url": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Anish Mathur",
+    "pubDate": "Wed, 01 Jul 2026 00:00:00 GMT",
+    "fetchedAt": "2026-07-01T10:51:10.569Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "e1fe2965259df670bd55dc1185e2f5c257298d4c",
     "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
     "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercia",
@@ -607,6 +655,40 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/redeploying-fable-5",
+    "title": "Redeploying Claude Fable 5",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsRedeploying Fable 5Jun 30, 2026On Friday, June 12, the US government applied export controls to our newest models, Claude Fable 5 and Claude My",
+    "aiSummary": "미국 정부가 지난 6월 12일 Claude Fable 5와 Claude Mythos 5에 대해 실시했던 수출 통제 조치가 6월 30일부로 해제되었습니다. 이에 따라 7월 1일부터 Claude Platform, Claude.ai, Claude Code, Claude Cowork를 통해 전 세계 사용자에게 Fable 5가 다시 제공됩니다. Pro, Max, Team 및 일부 Enterprise 플랜 사용자는 7월 7일까지 주간 사용 한도의 50%까지 Fable 5를 이용할 수 있으며, 이후에는 사용량 기반 크레딧을 통해 서비스가 제공됩니다. AWS, Google Cloud, Microsoft Foundry에서의 서비스 재개도 순차적으로 진행될 예정입니다.\n\n이번 수출 통제는 Amazon 연구진이 Fable 5의 안전 장치를 우회하여 소프트웨어 취약점을 식별하고 이를 악용하는 코드를 생성할 수 있는 방법을 보고하면서 시작되었습니다. 그러나 조사 결과, Claude Opus 4.8, GPT-5.5, Kimi K2.7 등 다양한 모델들 또한 동일한 취약점을 식별하고 시연할 수 있음이 확인되었습니다. 보고된 기술이 Mythos 5 수준의 고유한 사이버 공격 역량을 노출한 것이 아니며, 기존 안전 장치가 지나치게 보수적으로 설정되어 발생한 경계 사례임을 확인했습니다.\n\nMythos 5의 경우, 6월 26일 미국 정부의 승인에 따라 일부 미국 내 조직에 한해 접근 권한이 복구되었습니다. 앞으로 정부 기관과의 지속적인 협력을 통해 Glasswing 프로그램에 참여하는 국내외 파트너들로 서비스 대상을 확대해 나갈 계획입니다.",
+    "url": "https://www.anthropic.com/news/redeploying-fable-5",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-01T10:51:10.569Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/team-marketplace-updates",
+    "title": "MCPs and Organizations in Team Marketplaces",
+    "summary": "Jun 30, 2026 · ChangelogMCPs and Organizations in Team MarketplacesWe've expanded team marketplaces to support Team MCPs and organization groups.\n#Team MCPs in team marketplaces\nAdmins can now configu",
+    "aiSummary": "팀 마켓플레이스 기능이 업데이트되어 Team MCP와 조직 그룹 지원이 강화되었습니다. \n\n관리자는 Team MCP 서버를 한 번만 설정하면 클라우드 에이전트, 에이전트 창, IDE, CLI 전반에 걸쳐 배포할 수 있습니다. 특히 관리자가 대시보드 내 통합 및 MCP 설정에서 Team MCP 서버를 구성하면, 팀원들이 복잡한 개별 설정 과정 없이도 검증된 통합 기능을 로컬 환경에 바로 설치하여 사용할 수 있습니다.\n\n또한 팀 마켓플레이스의 접근 제어 범위가 기존의 SCIM 디렉토리 그룹을 넘어 조직 그룹까지 확장되었습니다. 이제 대시보드의 플러그인 및 팀 마켓플레이스 메뉴를 통해 특정 조직 그룹에만 마켓플레이스 접근 권한을 제한할 수 있으며, 기존에 SCIM 그룹을 사용하던 환경은 설정이 그대로 유지됩니다. 이러한 기능들은 Cursor 대시보드에서 바로 활용할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/team-marketplace-updates",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-01T10:51:10.569Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -4601,6 +4683,24 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+    "title": "Anthropic opens Seoul office",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsAnthropic opens Seoul office and announces new partnerships across the Korean AI ecosystemJun 17, 2026We’ve just opened our Seoul office. Along",
+    "aiSummary": "Anthropic이 한국 AI 생태계와의 협력을 강화하기 위해 서울 사무소를 공식 개소했습니다. 이번 사무소 설립은 한국의 기업, 스타트업, 연구자들과의 파트너십을 공고히 하고 클라우드 생태계를 확장하기 위한 전략적 결정입니다.\n\nAnthropic은 과학기술정보통신부와 인공지능 안전 및 사이버 보안 분야 협력을 위한 업무협약(MOU)을 체결했습니다. 이를 통해 한국지능정보사회진흥원 산하 AI 안전 연구소와 함께 한국어 모델의 안전성을 평가하고, AI 관련 사이버 위협 정보 공유 및 안전한 AI 도입을 위해 긴밀히 협력할 예정입니다.\n\n국내 주요 기업들도 Claude 도입을 본격화하고 있습니다. NAVER는 전체 엔지니어링 조직에 Claude Code를 배포하여 생산성을 극대화하고 있으며, Nexon은 게임 개발 및 코드 검토 과정에 이를 활용하고 있습니다. 또한 LG CNS는 LG 그룹 전반으로 Claude 활용을 확대 중이며, Hanwha Solutions는 AWS Bedrock을 통해 데이터 보안 요구사항을 준수하며 글로벌 직원을 위한 업무 환경을 구축했습니다.\n\nSamsung SDS 역시 Samsung Electronics 임직원을 대상으로 Claude Cowork와 Claude Code를 배포하여 지식 업무 효율화와 에이전트 기반 워크플로우를 도입하고 있습니다. 이처럼 Channel Corp를 비롯한 국내 기술 기업들이 자사 서비스에 Claude를 내재화하며 혁신을 이어가고 있습니다.",
+    "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-06-17T00:00:00.000Z",
+    "fetchedAt": "2026-07-01T10:51:10.569Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
