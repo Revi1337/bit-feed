@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
+    "title": "Issue fields are now generally available",
+    "summary": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23.…\n",
+    "aiSummary": "GitHub의 Issue fields 기능이 모든 GitHub 조직을 대상으로 정식 출시되었습니다.\n\n이번 업데이트를 통해 Free, Team, Enterprise, 그리고 데이터 레지던시 계획이 포함된 GitHub Enterprise Cloud를 사용하는 모든 사용자가 해당 기능을 이용할 수 있게 되었습니다.\n\n또한, 이번 변경 사항은 향후 출시될 GitHub Enterprise Server 3.23 버전에도 포함될 예정입니다.",
+    "url": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-02T08:17:17.000Z",
+    "fetchedAt": "2026-07-02T10:16:32.546Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-01-secret-scanning-public-monitoring-for-enterprises",
+    "title": "Secret scanning public monitoring for enterprises",
+    "summary": "GitHub is committed to empowering the developer community by helping organizations recognize and address the risks of secret leaks wherever they happen. We believe every enterprise should know the mom",
+    "aiSummary": "GitHub는 개발자 커뮤니티의 보안 역량을 강화하기 위해 기업들이 퍼블릭 저장소에서 발생하는 시크릿 유출 위험을 즉각적으로 인지하고 대응할 수 있도록 지원하는 기능을 도입합니다. 이 서비스는 기업이 자사의 기밀 정보가 외부로 노출되는 순간을 실시간으로 파악하여 신속하게 보안 조치를 취할 수 있도록 돕는 데 목적이 있습니다. 이를 통해 GitHub는 기업들이 더욱 안전한 개발 환경을 구축하고 잠재적인 보안 사고를 사전에 예방할 수 있는 체계를 제공합니다.",
+    "url": "https://github.blog/changelog/2026-07-01-secret-scanning-public-monitoring-for-enterprises",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-02T00:37:55.000Z",
+    "fetchedAt": "2026-07-02T10:16:32.546Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.0.15",
     "title": "1.0.15",
     "summary": "Introduced a new interactive status indicator below the input box that displays active subagents and background tasks in real-time, making it easy to monitor and navigate parallel workflows at a glanc",
@@ -1089,6 +1121,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/how-xeito-builds-features-not-database-infrastructure-with-prisma",
+    "title": "How One Founder Builds a Live Sports Platform with Prisma",
+    "summary": "How Xeito uses Prisma ORM and Prisma Postgres to ship live scoring, leagues, payments, and player workflows without a database team.",
+    "aiSummary": "Xeito는 별도의 데이터베이스 전담 팀 없이 실시간 점수 집계, 리그 운영, 결제 처리, 선수 관리 워크플로우를 구축하기 위해 Prisma ORM과 Prisma Postgres를 도입하였습니다.\n\n해당 기술 스택을 활용함으로써 복잡한 데이터베이스 관리 부담을 줄이고 개발 생산성을 극대화하였습니다. 이를 통해 소규모 인원으로도 스포츠 플랫폼에 필요한 핵심 기능들을 신속하게 개발하고 배포하는 환경을 마련하였습니다.",
+    "url": "https://www.prisma.io/blog/how-xeito-builds-features-not-database-infrastructure-with-prisma",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-02T10:16:32.546Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
