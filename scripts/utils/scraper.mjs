@@ -140,6 +140,7 @@ export async function fetchRssFeeds(feeds, existingMap, runTime) {
         if (isNaN(pubTime) || pubTime > new Date(runTime).getTime()) {
           itemPubDate = runTime;
         }
+        itemPubDate = new Date(itemPubDate).toISOString();
 
         const title = unescapeHtml(item.title || 'No Title');
         const titleLower = title.toLowerCase();
