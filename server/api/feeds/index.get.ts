@@ -8,6 +8,8 @@ export default defineEventHandler(async (event) => {
   const category = query.category as string
   const source = query.source as string
   const q = query.q as string
+  const from = query.from as string
+  const to = query.to as string
 
   try {
     // Vite 빌드 시 JSON을 JS 번들에 직접 포함 (가장 빠르고 확실한 방법)
@@ -22,11 +24,19 @@ export default defineEventHandler(async (event) => {
     }
     if (q) {
       const keyword = q.toLowerCase()
-      allData = allData.filter(item => 
-        item.title?.toLowerCase().includes(keyword) || 
+      allData = allData.filter(item =>
+        item.title?.toLowerCase().includes(keyword) ||
         item.contentSnippet?.toLowerCase().includes(keyword) ||
         item.summary?.toLowerCase().includes(keyword)
       )
+    }
+    if (from) {
+      const fromTime = new Date(from).getTime()
+      allData = allData.filter(item => new Date(item.pubDate).getTime() >= fromTime)
+    }
+    if (to) {
+      const toTime = new Date(to).getTime()
+      allData = allData.filter(item => new Date(item.pubDate).getTime() <= toTime)
     }
 
     const total = allData.length
