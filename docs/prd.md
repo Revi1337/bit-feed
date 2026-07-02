@@ -118,3 +118,14 @@ SPA 환경에서도 puppeteer 없이 데이터를 수집하는 방법론을 확�
 - [x] `scripts/config/feeds.mjs`에 Antigravity CLI GitHub Releases 피드 추가 (`IDE & 개발 도구`) → 총 73개 RSS 피드.
 - [x] `scripts/sync/scraper-tester.mjs` 신설: 스크래퍼 이름을 CLI 인자로 받아 단독 실행 + AI 요약 처리 후 `public/data/scraper-{이름}.json`에 저장하는 범용 개발·디버깅 도구. (`node scripts/sync/scraper-tester.mjs antigravity`)
 - [x] Phase 11 작업 내역 Git Commit (`git commit -m "feat: add Antigravity changelog scraper and generalize scraper tester"`)
+
+## Phase 12: Data Quality & API Enhancement (데이터 품질 개선 및 API 고도화)
+수집 데이터의 품질을 높이고 Open API의 기능을 확장합니다.
+
+- [x] `BLOCKED_KEYWORDS` 도입: `constants.mjs`에 노이즈성 기사(팟캐스트, 튜토리얼, 비교글, 웨비나, 리캡, 케이스스터디 등) 제목 필터링 키워드 목록 추가. `'vs'`는 오탐지 방지를 위해 단어 경계 정규식(`/\bvs\b/`)으로 처리.
+- [x] `fetchRssFeeds()`에 BLOCKED_KEYWORDS 필터 적용: 제목 기반으로 노이즈 기사를 수집 단계에서 조기 차단.
+- [x] `all.json`·`latest.json` 기존 노이즈 데이터 15건 소급 제거.
+- [x] `pubDate` ISO8601 정규화: RSS 피드에서 오는 RFC2822 형식을 수집 시점에 `.toISOString()`으로 변환하여 전체 파이프라인에서 날짜 형식 통일. 기존 `all.json`·`latest.json` 전체 소급 정규화.
+- [x] `GET /api/feeds`에 `from`/`to` 파라미터 추가: pubDate 기반 기간 범위 조회 기능 제공.
+- [x] `GET /api` 엔드포인트 신설: `server/assets/openapi.yml`을 YAML 형식으로 반환하여 API 명세 직접 조회 가능. `openapi.yml`을 `docs/`에서 `server/assets/`로 이전하여 단일 파일로 관리.
+- [x] Phase 12 작업 내역 Git Commit

@@ -40,9 +40,10 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 ## 6. Open API (외부 연동)
 `bit-feed`는 수집된 데이터를 서드파티 서비스가 활용할 수 있도록 Nuxt Nitro 기반의 REST API를 제공합니다. 보안을 위해 CORS 미들웨어를 통해 `localhost`, `revi1337.com`, `*.revi1337.com` 출처의 요청만 허용합니다.
 
+- **`GET /api`**: `server/assets/openapi.yml`을 `application/yaml`로 반환. API 명세 직접 조회용.
 - **`GET /api/feeds/latest`**: 최신(`latest.json`) 수집 기사 원본 배열 반환.
 - **`GET /api/feeds`**: 아카이브(`all.json`) 전체 기사를 대상으로 한 검색 및 필터링 기능 지원.
-  - 파라미터: `page`, `limit`, `category`, `source`, `q` (검색어)
+  - 파라미터: `page`, `limit`, `category`, `source`, `q` (검색어), `from`/`to` (pubDate 기간 범위, ISO8601)
 - **`GET /api/feeds/sources`**: 데이터 내 고유 출처(`source`) 목록 정렬 배열 반환.
 - **`GET /api/feeds/categories`**: 데이터 내 고유 카테고리(category) 목록 정렬 배열 반환.
 
@@ -53,7 +54,7 @@ bit-feed는 IT 분야(프로그래밍 언어, 프론트엔드, 백엔드, 인공
 ### 설정 모듈 (`scripts/config/`)
 - **`feeds.mjs`**: 73개의 RSS 피드 URL, 카테고리, 태그를 한곳에서 관리하는 중앙화 설정 모듈.
 - **`scrapers.mjs`**: OCP 기반 커스텀 스크래퍼 레지스트리. `CUSTOM_SCRAPERS` 배열에 함수를 등록하면 `fetch-rss.mjs`와 `test-run.mjs`에 자동 반영됨. 새 스크래퍼 추가 시 이 파일과 `scrapers/` 디렉토리만 수정.
-- **`constants.mjs`**: 파이프라인 전체에서 공유하는 상수 정의 (최대 기사 수, 요약 길이, AI 딜레이, 롤링 윈도우 기간 등).
+- **`constants.mjs`**: 파이프라인 전체에서 공유하는 상수 정의 (최대 기사 수, 요약 길이, AI 딜레이, 롤링 윈도우 기간 등). `BLOCKED_KEYWORDS` 포함: 팟캐스트·튜토리얼·비교글 등 노이즈성 기사를 제목 기반으로 차단하는 키워드 목록. `'vs'`는 오탐지 방지를 위해 `/\bvs\b/` 정규식으로 처리.
 
 ### 커스텀 스크래퍼 (`scripts/scrapers/`)
 RSS 엔드포인트가 없는 플랫폼을 위한 개별 스크래퍼 파일. 각 파일은 `(existingMap, runTime) => Promise<Article[]>` 시그니처를 준수.
