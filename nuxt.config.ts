@@ -28,9 +28,9 @@ export default defineNuxtConfig({
       ]
     }
   },
-  nitro: {
-    vercel: {
-      regions: ['icn1'] // 서울 리전으로 설정하여 워싱턴 D.C. 라우팅 방지
-    }
-  }
+  // nitro: {
+  //   vercel: {
+  //     regions: ['icn1'] // 서울 리전으로 설정하여 워싱턴 D.C. 라우팅 방지, 우선순위에 밀려 vercel.json으로 대체
+  //   }
+  // }
 })

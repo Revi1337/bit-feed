@@ -4,11 +4,23 @@ info:
   description: IT 뉴스 통합 뷰어(bit-feed)의 최신 소식 및 아카이브 데이터 조회를 위한 RESTful API 명세서입니다.
   version: 1.0.0
 servers:
-  - url: 'https://bit-feed.com/api'
+  - url: 'https://feed.revi1337.com/api'
     description: Production Server
   - url: 'http://localhost:3000/api'
     description: Local Development Server
 paths:
+  /:
+    get:
+      summary: OpenAPI 명세 조회
+      description: bit-feed API의 OpenAPI 3.0 명세를 YAML 형식으로 반환합니다.
+      operationId: getOpenApi
+      responses:
+        '200':
+          description: OpenAPI 명세 반환
+          content:
+            application/yaml:
+              schema:
+                type: string
   /feeds/categories:
     get:
       summary: 카테고리 목록 조회
