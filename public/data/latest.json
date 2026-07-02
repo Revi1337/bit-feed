@@ -32,6 +32,37 @@
     ]
   },
   {
+    "id": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
+    "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
+    "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tThis session looks at recent improvements, including updates introduced in JDK 26, and",
+    "aiSummary": "최근 공개된 JDK 26을 중심으로 HotSpot JVM에서 제공하는 자동 벡터화와 Vector API의 개선 사항이 소개되었습니다. 이는 Java 개발자가 현대 CPU의 벡터 연산 능력을 최대로 활용하여 애플리케이션 성능을 극대화할 수 있는 방법을 다룹니다.\n\n자동 벡터화 부분에서는 스칼라 연산을 벡터로 묶는 SuperWord 알고리즘의 원리와 루프 형태인 fill, copy, map, reduce에 대한 개념을 설명합니다. 또한 메모리 성능에 영향을 주는 별칭 분석과 정렬 이슈를 포함하여 배열 및 MemorySegments를 활용한 Project Panama 기반의 벤치마크 결과를 공유합니다.\n\n자동 벡터화가 충분하지 않은 상황을 보완하기 위한 Vector API 활용법도 함께 제시합니다. 해당 API를 사용하여 복잡한 알고리즘인 필터링, 셔플, gather/scatter 연산을 구현하는 방법과 분기 예측 오류 및 지연 시간 등 성능 최적화 과정에서 주의해야 할 기술적 함정들을 다룹니다.",
+    "url": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Emanuel Peter",
+    "pubDate": "2026-07-02T00:00:00.000Z",
+    "fetchedAt": "2026-07-02T17:05:39.146Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/gigamon-partnership",
+    "title": "Seeing what others miss: A conversation with Gigamon COO Gareth Maclachlan",
+    "summary": "Gigamon COO Gareth Maclachlan explains how the Gigamon–Elastic partnership delivers deep  observability — enabling faster threat detection, Zero Trust enforcement, and AI traffic governance.",
+    "aiSummary": "Gigamon과 Elastic의 파트너십은 기업 환경에서 심층적인 가시성을 제공하는 것을 목표로 합니다.\n\n이 협력을 통해 기업은 네트워크 트래픽에 대한 분석 능력을 높여 사이버 위협을 더욱 신속하게 탐지할 수 있습니다. 또한 보안 환경을 강화하기 위한 Zero Trust 정책을 엄격하게 적용할 수 있으며 AI 모델이 처리하는 트래픽에 대한 효율적인 거버넌스 체계를 구축할 수 있습니다.\n\nGareth Maclachlan COO는 이러한 기술적 결합이 기존의 보안 솔루션이 놓치기 쉬운 영역까지 탐지하여 전반적인 IT 인프라의 안정성과 보안성을 크게 향상시킨다고 강조합니다.",
+    "url": "https://www.elastic.co/blog/gigamon-partnership",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Sunnie Weber",
+    "pubDate": "2026-07-02T00:00:00.000Z",
+    "fetchedAt": "2026-07-02T17:05:39.146Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.0.15",
     "title": "1.0.15",
     "summary": "Introduced a new interactive status indicator below the input box that displays active subagents and background tasks in real-time, making it easy to monitor and navigate parallel workflows at a glanc",
@@ -2312,150 +2343,6 @@
     "tags": [
       "MongoDB",
       "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
-    "title": "Actions steps can now be run in parallel",
-    "summary": "GitHub Actions now supports running steps concurrently using background. Previously, all steps in a workflow ran in sequence, with each step starting only after the previous step completed. Previously",
-    "aiSummary": "GitHub Actions가 워크플로우 내 단계들을 병렬로 실행할 수 있는 기능을 새롭게 지원합니다.\n\n기존에는 모든 단계가 이전 작업이 완료된 후에야 순차적으로 실행되는 방식이었으나, 이번 업데이트를 통해 background 설정을 활용하여 여러 단계를 동시에 진행할 수 있게 되었습니다.\n\n이를 통해 복잡한 워크플로우의 실행 시간을 단축하고 작업 효율성을 크게 향상할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-06-25T16:46:09.000Z",
-    "fetchedAt": "2026-06-26T01:33:37.974Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-    "title": "npm adds preventive account protection for high-impact accounts",
-    "summary": "npm now adds a temporary, preventive safeguard for high-impact accounts—those responsible for the registry’s most widely used packages—whenever it detects a sensitive account change, strengthening pro",
-    "aiSummary": "npm은 registry에서 가장 널리 사용되는 패키지를 관리하는 고영향력 계정을 보호하기 위해 새로운 예방적 보안 조치를 도입합니다.\n\n이번 업데이트는 계정 탈취 공격을 방지하기 위한 것으로, 민감한 계정 설정 변경이 감지될 경우 해당 계정에 일시적인 보호 조치가 자동으로 적용됩니다.\n\n이는 오픈소스 생태계의 핵심적인 역할을 수행하는 패키지들이 공격으로부터 안전하게 유지될 수 있도록 보안 체계를 강화하려는 목적을 담고 있습니다.",
-    "url": "https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-06-25T16:02:09.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.138.1",
-    "title": "0.138.1",
-    "summary": "Refactors\n♻️ Refactor Library Skills, make info easier to find for agents. PR #15841 by @tiangolo.\nInternal\n👷 Simplify pull request workflow triggers. PR #15836 by @tiangolo.\n👷 Update issue-manager ",
-    "aiSummary": "이번 0.138.1 업데이트에서는 에이전트가 정보를 더 쉽게 찾을 수 있도록 Library Skills 관련 코드 구조를 개선하였습니다.\n\n내부적으로는 풀 리퀘스트 워크플로우 트리거를 간소화하고 issue-manager를 0.7.1 버전으로 업데이트하는 등 관리 효율을 높였습니다. 또한 보안 강화를 위해 zizmor 워크플로우 검사를 업데이트하였으며 pydantic-settings 라이브러리를 2.14.2 버전으로 상향 조정하였습니다. 그 외에도 스폰서 목록에 TestMu를 재추가하는 등 전반적인 유지보수 작업을 수행하였습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.138.1",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-06-25T15:40:10.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
-    "title": "Red Hat Enterprise Linux runner images are now in public preview",
-    "summary": "GitHub-hosted larger runners now support Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images in public preview, introduced in partnership with Red Hat. Organizations can use these RHEL images…\nThe po",
-    "aiSummary": "GitHub가 Red Hat과의 협업을 통해 GitHub-hosted larger runners에서 RHEL 9과 RHEL 10 이미지를 사용할 수 있도록 지원하며, 이를 퍼블릭 프리뷰 형태로 공개했습니다.\n\n이번 업데이트를 통해 기업 고객은 검증된 엔터프라이즈 환경인 RHEL 기반으로 워크플로우를 구성하고 실행할 수 있게 되었습니다.\n\n해당 기능을 활용함으로써 조직은 RHEL 생태계에 최적화된 빌드 및 배포 환경을 GitHub Actions 내에서 직접 구축하고 관리하는 것이 가능합니다.",
-    "url": "https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-06-25T15:40:04.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=91643",
-    "title": "EU Cyber Resilience Act: Overview, Requirements, and Timelines",
-    "summary": "Learn what the EU Cyber Resilience Act requires, including SBOM mandates, vulnerability reporting, and compliance deadlines for container teams.",
-    "aiSummary": "EU Cyber Resilience Act는 디지털 요소가 포함된 제품의 보안을 강화하기 위해 제정된 유럽연합의 새로운 규정입니다. 이 법안은 제품 개발부터 폐기까지 전 과정에 걸쳐 엄격한 사이버 보안 기준을 준수할 것을 요구합니다.\n\n주요 요구 사항에는 소프트웨어 구성 요소를 명확히 파악할 수 있는 SBOM 제출 의무화가 포함됩니다. 또한 제품의 취약점이 발견될 경우 이를 즉시 보고하고 신속하게 대응해야 하는 관리 체계 구축이 필수적입니다.\n\n특히 컨테이너 기반 환경에서 소프트웨어를 운영하는 팀들은 해당 규정을 준수하기 위해 보안 강화와 투명성 확보에 집중해야 합니다. 규정 준수를 위한 구체적인 로드맵과 마감 기한이 정해져 있으므로 기술 팀은 기한 내에 적절한 보안 조치를 완료해야 합니다.",
-    "url": "https://www.docker.com/blog/eu-cyber-resilience-act-overview/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Dan Berezin Stelzer",
-    "pubDate": "2026-06-25T15:36:43.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=ai&p=715203",
-    "title": "Codex is now the recommended agent in JetBrains IDEs",
-    "summary": "JetBrains AI supports multiple coding agents, including Junie, Codex, Claude Agent, and any ACP-compatible agent you bring yourself. Previously, AI users in JetBrains IDEs started in Chat mode and had",
-    "aiSummary": "JetBrains는 자사 IDE에서 활용할 수 있는 다양한 코딩 에이전트 중 Codex를 공식 권장 에이전트로 선정하였습니다.\n\n기존에는 사용자가 JetBrains AI의 Chat 모드에서 여러 에이전트 중 직접 하나를 선택해야 했으나, 최근 에이전트 모델의 기술적 성능이 크게 향상됨에 따라 사용자 경험을 최적화하기 위해 이와 같은 결정을 내렸습니다.\n\n현재 JetBrains AI는 Junie, Claude Agent 등 다양한 모델과 MCP 호환 에이전트를 지원하고 있습니다. 향후 사용자들은 더 편리하게 고성능 에이전트를 활용하여 코딩 효율을 높일 수 있을 것으로 기대됩니다.",
-    "url": "https://blog.jetbrains.com/ai/2026/06/codex-is-now-the-recommended-agent-in-jetbrains-ai/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Anna Maltseva",
-    "pubDate": "2026-06-25T14:57:31.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
-    "title": "STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus",
-    "summary": "Written by: Jordan Jones\n\n\nIntroduction \nGoogle Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and de",
-    "aiSummary": "Google Threat Intelligence Group은 러시아 기반의 위협 행위자인 Turla가 최소 2022년 12월부터 우크라이나 정부 및 군사 기관, 이탈리아 외교 정책 관련 단체를 대상으로 배포 중인 .NET 기반 백도어 STOCKSTAY를 분석했습니다. 이 악성코드는 과거 Turla가 사용한 KAZUAR 툴킷과 코드 및 기능적으로 상당한 유사성을 보이며, 정보 수집을 목적으로 지속적인 사이버 간첩 활동에 활용되고 있습니다.\n\nSTOCKSTAY는 Windows Forms 프레임워크를 기반으로 작성된 다중 구성 요소 백도어로, websocket-sharp 라이브러리를 통해 C2 서버와 보안 WebSocket 통신을 수행합니다. 초기에는 주식 시장 데이터 조회 도구로 위장했으나, 2025년부터는 PDF 뷰어나 계산기 유틸리티 등으로 위장하는 방식을 사용합니다.\n\n주요 구성 요소는 다음과 같습니다. STOCKSTAY.STOCKBROKER는 프록시 기반의 터널링을 담당하며 C2와의 네트워크 통신을 전담합니다. STOCKSTAY.STOCKMARKET은 전체 생태계를 조율하는 오케스트레이터로, RSA 2048비트 암호화 키를 생성하고 암호화된 구성 파일을 관리합니다. STOCKSTAY.STOCKTRADER는 실제 백도어 기능을 수행하며 파일 및 레지스트리 조작, 프로세스 실행, 시스템 정보 수집, 화면 캡처 등 다양한 악성 명령을 실행합니다.\n\n또한, STOCKSTAY.MARKETMAKER라는 다운로더가 추가 페이로드를 설치하고 영속성을 확보하는 역할을 하며, 최근에는 Render와 같은 플랫폼을 활용한 C2 서버 컨트롤러가 관찰되었습니다. 이러한 인프라 구조는 기존 KAZUAR 툴킷의 다중 홉 C2 방식과 유사하며, 서버 측에서 메시지 복호화를 방지하여 운영자의 인프라 위치를 은닉하는 고도화된 전략을 취하고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-06-25T14:00:00.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/jun/25/how-the-django-software-foundation-became-a-cna/",
-    "title": "How the Django Software Foundation Became a CNA",
-    "summary": "Why the DSF pursued CNA status\nDjango has a long history of responsible security practices: a dedicated, private security mailing list, clear advisory policies, and predictable security releases. Even",
-    "aiSummary": "DSF는 Django의 보안 관리를 더욱 효율적으로 수행하기 위해 공식적인 CNA 자격을 획득하였습니다. 기존에는 보안 취약점 식별자인 CVE ID를 할당받기 위해 외부 기관에 의존해야 했으나, 이제는 직접 ID를 발급함으로써 행정적 지연을 줄이고 보안 대응의 독립성을 강화할 수 있게 되었습니다.\n\nCNA가 되기 위한 과정은 내부 검토와 MITRE와의 협업을 통해 약 4개월에 걸쳐 진행되었습니다. DSF는 기존의 성숙한 보안 프로세스를 문서화하고 MITRE의 요구사항에 맞춰 워크플로우를 정비하였습니다. 특히 Django 핵심 제품과 관련된 일부 생태계 프로젝트로 범위를 명확히 설정하고, 취약점 접수부터 CVE 할당 및 공지까지의 절차를 체계화하는 작업에 집중하였습니다.\n\n이후 MITRE에서 제공하는 CNA 교육과 실습 과정을 이수하며 공식적인 권한을 부여받았습니다. 이번 변화를 통해 Django 사용자와 기여자들에게 보안 프로세스상의 혼란은 없으며, 오히려 외부 의존성을 낮춘 더욱 신속한 보안 패치 배포가 가능해졌습니다.\n\n이번 경험을 바탕으로 DSF는 다른 프로젝트들에게도 이미 갖춰진 보안 절차를 공식화하는 것이 CNA 자격 획득의 핵심이며, 초기 단계에서 명확한 책임 범위를 설정하는 것이 중요하다고 조언합니다. 이 과정은 Natalia Bidart와 Jacob Walls를 비롯한 Django 팀의 주도로 성공적으로 마무리되었습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/jun/25/how-the-django-software-foundation-became-a-cna/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Natalia Bidart and Jacob Walls",
-    "pubDate": "2026-06-25T11:00:00.000Z",
-    "fetchedAt": "2026-06-25T17:26:26.275Z",
-    "tags": [
-      "Django",
-      "Python"
     ]
   }
 ]
