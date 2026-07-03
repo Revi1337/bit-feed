@@ -1,5 +1,134 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
+    "title": "Improved accuracy and coverage in Copilot usage metrics reports",
+    "summary": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…\nThe post Impro",
+    "aiSummary": "GitHub는 Copilot usage metrics API에 세 가지 주요 개선 사항을 적용하여 보고서의 정확성과 포괄성을 높였습니다.\n\n이번 업데이트를 통해 GitHub Copilot CLI에서 제안된 코드 라인 수를 정확하게 집계할 수 있게 되었습니다. 또한 기존에 보고 대상에서 제외되었던 특정 사용자 활동까지 데이터에 포함하여 전체적인 이용 현황을 더욱 상세하게 파악할 수 있도록 변경되었습니다. \n\n결과적으로 기업 및 관리자는 더욱 정밀해진 데이터를 바탕으로 조직 내 Copilot 도입 효과를 명확하게 분석하고 관리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-02T23:19:06.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+    "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+    "summary": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),…\nThe post Copilot CLI no lon",
+    "aiSummary": "GitHub Actions에서 GitHub Copilot CLI를 사용할 때 더 이상 개인 접근 토큰인 PAT를 생성하고 저장할 필요가 없습니다. 이제 내장된 GITHUB_TOKEN을 사용하여 편리하게 Copilot CLI를 실행할 수 있습니다. 이번 업데이트를 통해 보안성이 강화되었으며 워크플로우 설정 과정이 더욱 간소화되었습니다.",
+    "url": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-02T20:25:32.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.0.16",
+    "title": "1.0.16",
+    "summary": "Improved the /tasks detail panel to automatically scroll to the bottom as new background task logs stream in, and default to the latest output when opened while preserving scroll position if scrolled ",
+    "aiSummary": "이번 업데이트를 통해 tasks 상세 패널의 편의성이 향상되었습니다. 배경 작업 로그가 스트리밍될 때 자동으로 하단으로 스크롤되며, 패널을 열 때 기본적으로 최신 출력 내용을 보여주되 사용자가 수동으로 스크롤을 올렸을 경우에는 현재 위치를 유지하도록 개선되었습니다.\n\n모델 생성 과정에서의 안정성도 강화되었습니다. 일시적인 오류가 발생할 경우 클라이언트 측에서 자동으로 재시도하는 기능을 추가하여 연결 신뢰성을 높였습니다.\n\n버그 수정 사항으로는 동적으로 정의된 subagent의 문제를 해결했습니다. 정의 형식을 기존 JSON에서 Markdown으로 변경하여 subagent 호출 실패 문제를 방지했습니다. 또한 sleep 명령어와 같이 빈 출력을 생성하는 배경 작업이나 터미널 명령 실행 시 발생하던 충돌 현상을 수정했습니다.\n\n그 외에도 시스템 안정화를 위한 최적화가 이루어졌습니다. 배경 동기화를 위한 공유 SQLite 요약 저장소를 통합하고 CLI 종료 시 발생하는 goroutine 및 데이터베이스 연결 누수를 해결하여 리소스 낭비를 방지했습니다. 아울러 pre-tool hook에서 빈 문자열이 반환될 경우 발생하는 권한 관리자 오류를 안전하게 처리하도록 개선했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.0.16",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "yaoshengzhe",
+    "pubDate": "2026-07-02T18:37:15.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+    "title": "Copilot agent session streaming is now in public preview",
+    "summary": "GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data re",
+    "aiSummary": "GitHub Enterprise Cloud의 Enterprise Managed Users를 대상으로 Copilot agent session streaming 기능이 공개 프리뷰로 전환되었습니다.\n\n이제 github.com에서 실행되는 Cloud agents를 비롯하여 다양한 데이터 상주 배포 환경 등 모든 Copilot 클라이언트에서 agent 세션 데이터에 접근할 수 있게 되었습니다.\n\n해당 기능을 통해 개발자는 여러 Copilot 환경 전반에서 일관된 세션 데이터를 확인하고 활용할 수 있으며 이는 워크플로우의 가시성과 운영 효율성을 높이는 데 기여합니다.",
+    "url": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-02T18:05:05.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-06-26-cost-centers-now-support-included-usage-caps",
+    "title": "Cost centers now support AI credit pools",
+    "summary": "You can now cap how much of your enterprise’s monthly included AI credits a cost center can use. This is available through the REST API today. Management in the cost…\nThe post Cost centers now support",
+    "aiSummary": "GitHub는 기업용 Cost centers에서 AI 크레딧 사용량을 제한할 수 있는 기능을 새롭게 도입했습니다.\n\n이번 업데이트를 통해 기업 관리자는 특정 부서나 프로젝트별로 월간 AI 크레딧 사용 한도를 설정하여 비용을 보다 효율적으로 통제할 수 있게 되었습니다.\n\n해당 기능은 현재 REST API를 통해 즉시 이용 가능하며, 관리자는 이를 통해 조직 내 AI 자원 배분을 최적화할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-02T16:00:51.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://swift.org/blog/whats-new-in-swift-june-2026/",
+    "title": "What's new in Swift: June 2026 Edition",
+    "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community.\nJune was an exciting month for Swift, featuring announcements at WWDC and co",
+    "aiSummary": "2026년 6월은 WWDC26 개최와 함께 Swift 생태계에 중요한 전환점이 된 시기입니다. Apple은 운영체제의 핵심 커널 일부를 Swift로 재작성하고 있으며, 네트워크 스택의 QUIC 레이어를 Swift로 통합하여 오픈 소스로 공개했습니다. 또한 LLM 작업을 지원하는 Foundation Models 프레임워크 유틸리티를 출시하고, Mac에서 경량화된 리눅스 환경을 제공하는 오픈 소스 도구 Container Machine을 선보였습니다.\n\n기술적인 진보 외에도 개발자 커뮤니티의 활동이 활발했습니다. Swift Package Index가 Apple과 협력 체계를 구축했으며, TrueType 힌팅 인터프리터를 C에서 Swift로 재작성하여 성능을 13퍼센트 향상한 사례가 공유되었습니다. 또한 Swift 생태계 운영 그룹은 통일된 네트워크 스택을 구축하기 위한 Networking 워킹그룹을 신설했습니다.\n\n새로운 패키지로는 안드로이드 환경을 위한 OkHttp Swift 바인딩, 새로운 문서화 엔진인 Kiln, 브라우저에서 Swift를 실행하는 Elementary UI 등이 주목받았습니다.\n\nSwift Evolution 프로세스를 통해 언어 자체의 기능도 꾸준히 개선되고 있습니다. 비동기 작업의 시간 제한을 처리하는 withDeadline 제안이 현재 검토 중이며, 연산 프로퍼티에서 불필요한 복사를 방지하는 Yielding Accessors, 표준 라이브러리에 FilePath 추가, 그리고 고유 소유권을 보장하는 UniqueArray 도입 등 언어의 성능과 안전성을 높이는 다양한 변경 사항이 수용되었습니다.",
+    "url": "https://swift.org/blog/whats-new-in-swift-june-2026/",
+    "category": "프로그래밍 언어",
+    "source": "Swift Blog",
+    "author": "Mikaela Caron",
+    "pubDate": "2026-07-02T16:00:00.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "Swift",
+      "Apple"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
+    "title": "Google’s Continued Disruption of Malicious Residential Proxy Networks",
+    "summary": "Background\nToday, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPID",
+    "aiSummary": "Google은 FBI 및 Lumen을 비롯한 유관 기관과 협력하여 악성 주거용 프록시 네트워크인 NetNut을 성공적으로 해체했습니다. 이는 지난 1월 IPIDEA 네트워크를 무력화한 이후 Google이 추진해 온 악성 프록시 네트워크 근절 노력의 일환입니다.\n\nGoogle은 NetNut이 악성 소프트웨어의 명령 및 제어 서버로 활용하던 Google 계정과 서비스를 차단하였습니다. 또한 관련 SDK 및 백엔드 인프라에 대한 기술 정보를 수사 기관과 공유하고 Google Play Protect를 통해 해당 SDK가 포함된 애플리케이션을 탐지 및 제거하여 사용자 피해를 방지했습니다. 이번 조치로 인해 수백만 대의 기기가 프록시 네트워크에서 제외되는 성과를 거두었습니다.\n\nNetNut은 스마트 TV나 스트리밍 기기 등에 악성 SDK를 심어 약 200만 대 이상의 가정용 기기를 봇넷으로 활용해 왔습니다. 공격자들은 이렇게 탈취한 가정용 IP 주소를 통해 자신의 위치를 숨기고 악성 활동을 수행하며, 감염된 기기 내부의 사설 네트워크까지 위협하는 등 심각한 보안 문제를 야기했습니다. \n\nGoogle Threat Intelligence Group은 2026년 6월 기준 300여 개의 위협 클러스터가 사이버 범죄 및 첩보 활동을 위해 NetNut의 노드를 사용했음을 확인했습니다. 공격자들은 한 네트워크가 무력화되면 경쟁 업체의 용량을 구매하는 방식으로 대응하므로, Google은 향후에도 연결된 인프라를 지속적으로 추적하고 관련 생태계를 공조하여 대응할 계획입니다.\n\n일반 소비자는 인터넷 대역폭 공유 대가로 금전을 지급하겠다는 애플리케이션 사용을 자제하고 공식 앱 스토어를 이용해야 합니다. 또한 신뢰할 수 있는 제조사의 기기를 구매하고 Google Play Protect와 같은 보안 기능을 활성화하여 개인의 네트워크가 악성 프록시의 경로로 악용되지 않도록 주의해야 합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-02T14:00:00.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
     "title": "Issue fields are now generally available",
     "summary": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23.…\n",
@@ -29,6 +158,24 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak frameworkJul 2, 2026Claude Fable 5 has been re-deployed and is now available globa",
+    "aiSummary": "Anthropic이 자사의 AI 모델인 Fable 5를 전 세계에 재배포하며 사이버 보안 안전장치와 탈옥 대응 프레임워크에 대한 상세 내용을 공개했습니다.\n\n우선 Fable 5에 적용된 사이버 보안 안전장치인 안전 분류기는 위험하거나 잠재적 위협이 되는 사이버 보안 관련 사용을 감지하고 차단하는 역할을 수행합니다. Anthropic은 사이버 보안 기술의 이중 사용 특성을 고려하여 모든 관련 활동을 차단하기보다는, 위험도에 따라 사용 사례를 4가지 범주로 분류해 대응하는 방식을 채택했습니다. 이는 방어적인 목적의 코드 취약점 스캔 등은 허용하면서도 악의적인 공격은 방지하기 위함입니다.\n\n또한 Anthropic은 Glasswing 파트너들과 함께 AI 탈옥 심각성 프레임워크의 초기 초안을 제시했습니다. AI 탈옥은 모델의 안전장치를 우회하여 금지된 행동을 강제로 실행하게 만드는 행위를 의미하며, 현재 업계에는 탈옥의 심각성을 표준화하여 정의할 기준이 부재한 상황입니다. 이번에 공개된 프레임워크는 학계, 산업계, 정부 등이 탈옥 위험을 일관된 언어로 소통할 수 있는 기준을 마련하려는 목적을 가집니다.\n\n추가로 Anthropic은 보안 연구자들이 Fable 5에서 발견한 잠재적 탈옥 사례를 제보할 수 있는 HackerOne 프로그램을 시작했습니다. 이러한 협력적 노력을 통해 기술의 방어적 활용은 보장하고 오용은 최소화하는 표준을 구축해 나갈 계획입니다. 관련 의견이나 비판은 지정된 이메일 주소를 통해 공유할 수 있습니다.",
+    "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-02T00:00:00.000Z",
+    "fetchedAt": "2026-07-03T01:07:16.808Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
