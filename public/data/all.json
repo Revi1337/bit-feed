@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry’s most filmmaker-forward studi",
+    "aiSummary": "Google DeepMind와 영화 제작사 A24가 창작 환경의 기술적 발전을 도모하기 위한 최초의 연구 파트너십을 체결했습니다.\n\n이번 협력은 Google DeepMind의 혁신적인 기술을 A24의 영화 제작 과정에 직접 도입하여 아티스트들이 새로운 워크플로우와 제작 기법을 개발하도록 지원하는 데 목적을 두고 있습니다. 이를 통해 기술 개발 단계에서부터 창작자의 피드백을 반영하여 미래의 기술이 예술적 비전과 스토리텔링의 가능성을 확장하는 방향으로 설계되도록 할 계획입니다.\n\nGoogle은 이번 파트너십의 일환으로 A24에 대한 투자도 진행했습니다. 양사는 단순히 기술과 엔터테인먼트를 연결하는 것을 넘어 지속적인 연구와 협업을 통해 차세대 콘텐츠 제작의 기술적 지평을 넓혀갈 예정입니다. 구체적인 기술적 성과와 목표는 공동의 프로젝트 과정을 거치며 점진적으로 구체화될 것입니다.",
+    "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-07-03T14:25:43.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/7/3/this-week-in-rails",
+    "title": "ProxyLogger, MIME deprecations, and more fixes",
+    "summary": "Hi, it’s Emmanuel Hayford. Let’s explore this week’s changes in the Rails codebase.\nMake add_foreign_key(if_not_exists: true) reversible \nadd_foreign_key ..., if_not_exists: true produced remove_forei",
+    "aiSummary": "이번 주 Rails 코드베이스에는 마이그레이션, ActiveJob, 캐시, 데이터베이스 처리 등 다양한 영역에 걸쳐 개선 사항이 업데이트되었습니다.\n\n먼저 add_foreign_key에 if_not_exists 옵션을 사용할 때 마이그레이션 되돌리기 작업이 정상적으로 수행되지 않던 문제가 해결되었습니다. 이제는 반대 작업 시 if_exists 옵션으로 올바르게 변환되어 안정적인 롤백이 가능합니다.\n\nActiveJob의 retry_on 메서드에서는 wait 옵션에 Float 타입을 사용할 수 있게 변경되었습니다. 이전에는 값이 Integer로 변환되어 소수점이 잘리는 문제가 있었으나 이제는 정확한 시간 설정이 가능하며, 지원하지 않는 타입 전달 시 런타임이 아닌 잡 클래스 로딩 단계에서 오류를 발생시켜 문제를 사전에 방지합니다.\n\n새롭게 도입된 ActiveSupport::ProxyLogger는 표준 Logger 인터페이스를 대부분 지원하며 특정 레벨의 로그만 필터링하여 전달하는 기능을 제공합니다. 또한 Mime 관련 상수인 Mime::SET, Mime::LOOKUP, Mime::EXTENSION_LOOKUP은 더 이상 권장되지 않으며, Mime.symbols, Mime.extensions 등 명시적인 공개 메서드 사용이 권장됩니다.\n\nActiveSupport의 캐시 계측 기능도 개선되어 Cache#exist? 호출 시 전달되는 옵션이 알림 페이로드에 포함되도록 변경되었습니다. 이를 통해 캐시 확인 작업에서도 네임스페이스나 버전 정보 등을 일관되게 추적할 수 있습니다.\n\n데이터베이스 처리와 관련해서는 PostgreSQL의 timestamp 및 time 컬럼에 대해 기본 정밀도를 6으로 설정하도록 개선되었습니다. Active Record는 이제 SQL 문자열 파싱 대신 typmod 값을 직접 참조함으로써 데이터베이스의 실제 동작과 컬럼 메타데이터 간의 일관성을 확보하게 되었습니다. 마지막으로 Product Reviews 튜토리얼이 새롭게 추가되는 등 총 26명의 기여자가 이번 업데이트에 참여했습니다.",
+    "url": "https://rubyonrails.org/2026/7/3/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Emmanuel Hayford",
+    "pubDate": "2026-07-03T00:00:00.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
     "title": "Improved accuracy and coverage in Copilot usage metrics reports",
     "summary": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…\nThe post Impro",
@@ -29,6 +62,21 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-5",
+    "title": "PHP 8.5.8 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.8. This is a security release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.8 p",
+    "aiSummary": "PHP 개발팀은 보안 업데이트를 포함한 PHP 8.5.8 버전을 공식 발표했습니다. 이번 릴리스는 보안을 강화하기 위한 목적이 크므로 모든 PHP 8.5 사용자는 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지를 통해 제공되며 상세한 변경 사항은 공식 ChangeLog에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-5",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T19:55:50.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -62,6 +110,51 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-4",
+    "title": "PHP 8.4.23 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.23. This is a security release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.23",
+    "aiSummary": "PHP 개발팀이 보안 업데이트 버전인 PHP 8.4.23을 공식 출시했습니다.\n\n이번 릴리스는 보안 취약점을 해결하기 위한 목적의 업데이트입니다. 따라서 PHP 8.4 버전을 사용 중인 모든 사용자는 즉시 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있습니다. 변경된 사항에 대한 세부 내역은 공식 ChangeLog 문서를 통해 확인이 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-4",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T17:24:56.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-3",
+    "title": "PHP 8.6.0 Alpha 1 available for testing",
+    "summary": "The PHP team is pleased to announce the first testing release of PHP 8.6.0, Alpha 1. This starts the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source download",
+    "aiSummary": "PHP 개발팀이 PHP 8.6.0의 첫 번째 테스트 버전인 Alpha 1을 공개하며 공식적인 릴리스 주기를 시작했습니다.\n\n이번 버전은 초기 테스트 단계이므로 실제 프로덕션 환경에서 사용하는 것을 엄격히 금지합니다. 사용자는 소스 코드를 다운로드하여 새로운 기능을 테스트하고, 발견되는 문제점은 GitHub Issues를 통해 보고해야 합니다.\n\n새로운 기능과 변경 사항에 대한 세부 정보는 함께 제공되는 NEWS 및 UPGRADING 파일을 통해 확인할 수 있습니다. 다음 버전인 Alpha 2는 2026년 7월 16일로 예정되어 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-3",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T17:00:52.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-2",
+    "title": "PHP 8.3.32 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.3.32. This is a security release.\nAll PHP 8.3 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.3.32",
+    "aiSummary": "PHP 개발팀이 보안 업데이트 버전인 PHP 8.3.32를 공식 출시했습니다.\n\n이번 릴리스는 보안을 강화하기 위한 목적의 업데이트이므로 모든 PHP 8.3 사용자는 최신 버전으로 즉시 업그레이드할 것을 권장합니다.\n\n소스 코드 다운로드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며, 상세한 변경 사항은 제공된 ChangeLog를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T16:38:37.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -129,6 +222,21 @@
     ]
   },
   {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-1",
+    "title": "PHP 8.2.32 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.2.32. This is a security release.\nAll PHP 8.2 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.2.32",
+    "aiSummary": "PHP 개발팀이 보안 강화가 포함된 PHP 8.2.32 버전을 공식 출시했습니다.\n\n이번 업데이트는 보안 취약점을 해결하기 위한 중요한 릴리스이므로, 기존 PHP 8.2 사용자들은 최신 버전으로 즉시 업그레이드할 것을 권장합니다.\n\n소스 코드와 Windows용 바이너리 파일은 공식 웹사이트의 다운로드 페이지에서 확인할 수 있으며, 구체적인 변경 사항은 ChangeLog를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T12:03:54.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
     "title": "Issue fields are now generally available",
     "summary": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23.…\n",
@@ -142,6 +250,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/a-copypaste-detector-cli-for-php-85",
+    "title": "A Copy/Paste Detector CLI for PHP 8.5+",
+    "summary": "phpcpd-next is a maintained, dependency-free successor to Sebastian Bergmann's phpcpd that finds duplicated PHP code, including reordered and gapped clones.\nThe post A Copy/Paste Detector CLI for PHP ",
+    "aiSummary": "phpcpd-next는 Sebastian Bergmann이 개발한 기존 phpcpd 도구의 뒤를 잇는 새로운 CLI 도구입니다.\n\n이 도구는 PHP 8.5 이상의 환경을 지원하며 외부 의존성 없이 독립적으로 실행되는 것이 특징입니다.\n\n코드의 순서가 바뀌거나 중간 내용이 생략된 형태의 복제 코드까지도 정밀하게 탐지할 수 있는 성능을 갖추고 있습니다.",
+    "url": "https://laravel-news.com/a-copypaste-detector-cli-for-php-85?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-07-02T03:59:11.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -673,6 +797,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "/blog/claude-generated-50-websites-overnight-prisma-compute",
+    "title": "Claude Generated 50 Websites Overnight with Prisma Compute",
+    "summary": "Ali Fatemi gave Claude the Prisma docs and CLI, then used Prisma Compute to turn AI-generated websites into working URLs.",
+    "aiSummary": "Ali Fatemi는 Anthropic의 Claude에게 Prisma 문서와 CLI 정보를 제공한 뒤, Prisma Compute를 활용하여 AI가 생성한 50개의 웹사이트를 즉시 작동 가능한 URL로 배포하는 성과를 거두었습니다. 이 과정은 별도의 복잡한 개발 단계 없이 AI의 코드 생성 능력과 자동화된 인프라 배포 도구를 결합하여 대량의 웹 서비스를 신속하게 구축할 수 있음을 입증합니다.",
+    "url": "https://www.prisma.io/blog/claude-generated-50-websites-overnight-prisma-compute",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-07-01T00:00:00.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {

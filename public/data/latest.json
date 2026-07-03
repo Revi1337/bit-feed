@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry’s most filmmaker-forward studi",
+    "aiSummary": "Google DeepMind와 영화 제작사 A24가 창작 환경의 기술적 발전을 도모하기 위한 최초의 연구 파트너십을 체결했습니다.\n\n이번 협력은 Google DeepMind의 혁신적인 기술을 A24의 영화 제작 과정에 직접 도입하여 아티스트들이 새로운 워크플로우와 제작 기법을 개발하도록 지원하는 데 목적을 두고 있습니다. 이를 통해 기술 개발 단계에서부터 창작자의 피드백을 반영하여 미래의 기술이 예술적 비전과 스토리텔링의 가능성을 확장하는 방향으로 설계되도록 할 계획입니다.\n\nGoogle은 이번 파트너십의 일환으로 A24에 대한 투자도 진행했습니다. 양사는 단순히 기술과 엔터테인먼트를 연결하는 것을 넘어 지속적인 연구와 협업을 통해 차세대 콘텐츠 제작의 기술적 지평을 넓혀갈 예정입니다. 구체적인 기술적 성과와 목표는 공동의 프로젝트 과정을 거치며 점진적으로 구체화될 것입니다.",
+    "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-07-03T14:25:43.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/7/3/this-week-in-rails",
+    "title": "ProxyLogger, MIME deprecations, and more fixes",
+    "summary": "Hi, it’s Emmanuel Hayford. Let’s explore this week’s changes in the Rails codebase.\nMake add_foreign_key(if_not_exists: true) reversible \nadd_foreign_key ..., if_not_exists: true produced remove_forei",
+    "aiSummary": "이번 주 Rails 코드베이스에는 마이그레이션, ActiveJob, 캐시, 데이터베이스 처리 등 다양한 영역에 걸쳐 개선 사항이 업데이트되었습니다.\n\n먼저 add_foreign_key에 if_not_exists 옵션을 사용할 때 마이그레이션 되돌리기 작업이 정상적으로 수행되지 않던 문제가 해결되었습니다. 이제는 반대 작업 시 if_exists 옵션으로 올바르게 변환되어 안정적인 롤백이 가능합니다.\n\nActiveJob의 retry_on 메서드에서는 wait 옵션에 Float 타입을 사용할 수 있게 변경되었습니다. 이전에는 값이 Integer로 변환되어 소수점이 잘리는 문제가 있었으나 이제는 정확한 시간 설정이 가능하며, 지원하지 않는 타입 전달 시 런타임이 아닌 잡 클래스 로딩 단계에서 오류를 발생시켜 문제를 사전에 방지합니다.\n\n새롭게 도입된 ActiveSupport::ProxyLogger는 표준 Logger 인터페이스를 대부분 지원하며 특정 레벨의 로그만 필터링하여 전달하는 기능을 제공합니다. 또한 Mime 관련 상수인 Mime::SET, Mime::LOOKUP, Mime::EXTENSION_LOOKUP은 더 이상 권장되지 않으며, Mime.symbols, Mime.extensions 등 명시적인 공개 메서드 사용이 권장됩니다.\n\nActiveSupport의 캐시 계측 기능도 개선되어 Cache#exist? 호출 시 전달되는 옵션이 알림 페이로드에 포함되도록 변경되었습니다. 이를 통해 캐시 확인 작업에서도 네임스페이스나 버전 정보 등을 일관되게 추적할 수 있습니다.\n\n데이터베이스 처리와 관련해서는 PostgreSQL의 timestamp 및 time 컬럼에 대해 기본 정밀도를 6으로 설정하도록 개선되었습니다. Active Record는 이제 SQL 문자열 파싱 대신 typmod 값을 직접 참조함으로써 데이터베이스의 실제 동작과 컬럼 메타데이터 간의 일관성을 확보하게 되었습니다. 마지막으로 Product Reviews 튜토리얼이 새롭게 추가되는 등 총 26명의 기여자가 이번 업데이트에 참여했습니다.",
+    "url": "https://rubyonrails.org/2026/7/3/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Emmanuel Hayford",
+    "pubDate": "2026-07-03T00:00:00.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
     "title": "Improved accuracy and coverage in Copilot usage metrics reports",
     "summary": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…\nThe post Impro",
@@ -29,6 +62,21 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-5",
+    "title": "PHP 8.5.8 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.8. This is a security release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.8 p",
+    "aiSummary": "PHP 개발팀은 보안 업데이트를 포함한 PHP 8.5.8 버전을 공식 발표했습니다. 이번 릴리스는 보안을 강화하기 위한 목적이 크므로 모든 PHP 8.5 사용자는 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지를 통해 제공되며 상세한 변경 사항은 공식 ChangeLog에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-5",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T19:55:50.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -62,6 +110,51 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-4",
+    "title": "PHP 8.4.23 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.23. This is a security release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.23",
+    "aiSummary": "PHP 개발팀이 보안 업데이트 버전인 PHP 8.4.23을 공식 출시했습니다.\n\n이번 릴리스는 보안 취약점을 해결하기 위한 목적의 업데이트입니다. 따라서 PHP 8.4 버전을 사용 중인 모든 사용자는 즉시 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있습니다. 변경된 사항에 대한 세부 내역은 공식 ChangeLog 문서를 통해 확인이 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-4",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T17:24:56.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-3",
+    "title": "PHP 8.6.0 Alpha 1 available for testing",
+    "summary": "The PHP team is pleased to announce the first testing release of PHP 8.6.0, Alpha 1. This starts the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source download",
+    "aiSummary": "PHP 개발팀이 PHP 8.6.0의 첫 번째 테스트 버전인 Alpha 1을 공개하며 공식적인 릴리스 주기를 시작했습니다.\n\n이번 버전은 초기 테스트 단계이므로 실제 프로덕션 환경에서 사용하는 것을 엄격히 금지합니다. 사용자는 소스 코드를 다운로드하여 새로운 기능을 테스트하고, 발견되는 문제점은 GitHub Issues를 통해 보고해야 합니다.\n\n새로운 기능과 변경 사항에 대한 세부 정보는 함께 제공되는 NEWS 및 UPGRADING 파일을 통해 확인할 수 있습니다. 다음 버전인 Alpha 2는 2026년 7월 16일로 예정되어 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-3",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T17:00:52.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-2",
+    "title": "PHP 8.3.32 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.3.32. This is a security release.\nAll PHP 8.3 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.3.32",
+    "aiSummary": "PHP 개발팀이 보안 업데이트 버전인 PHP 8.3.32를 공식 출시했습니다.\n\n이번 릴리스는 보안을 강화하기 위한 목적의 업데이트이므로 모든 PHP 8.3 사용자는 최신 버전으로 즉시 업그레이드할 것을 권장합니다.\n\n소스 코드 다운로드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며, 상세한 변경 사항은 제공된 ChangeLog를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T16:38:37.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -129,6 +222,21 @@
     ]
   },
   {
+    "id": "https://www.php.net/archive/2026.php#2026-07-02-1",
+    "title": "PHP 8.2.32 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.2.32. This is a security release.\nAll PHP 8.2 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.2.32",
+    "aiSummary": "PHP 개발팀이 보안 강화가 포함된 PHP 8.2.32 버전을 공식 출시했습니다.\n\n이번 업데이트는 보안 취약점을 해결하기 위한 중요한 릴리스이므로, 기존 PHP 8.2 사용자들은 최신 버전으로 즉시 업그레이드할 것을 권장합니다.\n\n소스 코드와 Windows용 바이너리 파일은 공식 웹사이트의 다운로드 페이지에서 확인할 수 있으며, 구체적인 변경 사항은 ChangeLog를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-02-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-02T12:03:54.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
     "title": "Issue fields are now generally available",
     "summary": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23.…\n",
@@ -142,6 +250,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/a-copypaste-detector-cli-for-php-85",
+    "title": "A Copy/Paste Detector CLI for PHP 8.5+",
+    "summary": "phpcpd-next is a maintained, dependency-free successor to Sebastian Bergmann's phpcpd that finds duplicated PHP code, including reordered and gapped clones.\nThe post A Copy/Paste Detector CLI for PHP ",
+    "aiSummary": "phpcpd-next는 Sebastian Bergmann이 개발한 기존 phpcpd 도구의 뒤를 잇는 새로운 CLI 도구입니다.\n\n이 도구는 PHP 8.5 이상의 환경을 지원하며 외부 의존성 없이 독립적으로 실행되는 것이 특징입니다.\n\n코드의 순서가 바뀌거나 중간 내용이 생략된 형태의 복제 코드까지도 정밀하게 탐지할 수 있는 성능을 갖추고 있습니다.",
+    "url": "https://laravel-news.com/a-copypaste-detector-cli-for-php-85?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-07-02T03:59:11.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -673,6 +797,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "/blog/claude-generated-50-websites-overnight-prisma-compute",
+    "title": "Claude Generated 50 Websites Overnight with Prisma Compute",
+    "summary": "Ali Fatemi gave Claude the Prisma docs and CLI, then used Prisma Compute to turn AI-generated websites into working URLs.",
+    "aiSummary": "Ali Fatemi는 Anthropic의 Claude에게 Prisma 문서와 CLI 정보를 제공한 뒤, Prisma Compute를 활용하여 AI가 생성한 50개의 웹사이트를 즉시 작동 가능한 URL로 배포하는 성과를 거두었습니다. 이 과정은 별도의 복잡한 개발 단계 없이 AI의 코드 생성 능력과 자동화된 인프라 배포 도구를 결합하여 대량의 웹 서비스를 신속하게 구축할 수 있음을 입증합니다.",
+    "url": "https://www.prisma.io/blog/claude-generated-50-websites-overnight-prisma-compute",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-07-01T00:00:00.000Z",
+    "fetchedAt": "2026-07-03T16:49:09.204Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
@@ -2014,155 +2155,6 @@
     "tags": [
       "Kubernetes",
       "Infra"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
-    "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
-    "summary": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose",
-    "aiSummary": "Microsoft AI가 자체 개발한 코딩 모델인 MAI-Code-1-Flash가 GitHub Copilot Business와 GitHub Copilot Enterprise 사용자들을 대상으로 정식 출시되었습니다.\n\n이번 모델은 코딩 작업에 특화되어 설계되었으며 빠른 응답 속도와 효율적인 성능을 제공하도록 최적화되었습니다. 최근 다양한 Copilot 인터페이스 전반에 걸쳐 모델 적용 범위가 확대되고 있으며 이를 통해 개발자들은 더욱 민첩한 코딩 지원 환경을 경험할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-06-26T16:35:06.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
-    "title": "From query to action: Introducing SQL alerting in Cloud Monitoring Observability Analytics",
-    "summary": "Traditional alerting systems often force a compromise: you can either alert immediately on simple, noisy log events, or monitor rigid, pre-configured metrics that fail when faced with data with many u",
-    "aiSummary": "Google Cloud는 Observability Analytics에서 SQL을 활용한 새로운 알림 기능을 프리뷰로 공개했습니다. 기존의 단순한 로그 이벤트나 미리 구성된 메트릭 모니터링 방식에서 벗어나, SQL을 사용해 로그와 트레이스를 복합적으로 분석하고 정교한 알림을 생성할 수 있게 되었습니다.\n\n이 기능은 Cloud Monitoring과 연동되어 사용자가 정의한 일정에 따라 SQL 쿼리를 실행합니다. 실행된 쿼리가 설정한 조건에 부합할 경우 인시던트가 생성되며, 이메일이나 Slack, PagerDuty 등 미리 지정된 채널로 알림이 발송됩니다. 모든 데이터 처리는 BigQuery를 기반으로 이루어지며, 비용은 표준 BigQuery 요금제에 따라 청구됩니다.\n\n알림 조건은 크게 두 가지 방식으로 설정할 수 있습니다. 쿼리 결과로 반환되는 행의 수를 기준으로 하는 Row count threshold 방식과 특정 컬럼의 값이 참인지 판별하는 Boolean 방식입니다. 이를 통해 사용자는 단순 임계값 모니터링을 넘어 특정 고객의 오류 급증이나 서비스 지연 시간의 이상 징후를 문맥에 맞게 감지할 수 있습니다.\n\nSQL 기반 알림을 사용하려면 먼저 로그 버킷을 Observability Analytics로 업그레이드하고 BigQuery 데이터셋을 연결해야 합니다. 또한 적절한 IAM 권한을 부여받아야 하며, Google Cloud 콘솔이나 API, Terraform을 통해 알림 정책을 설정할 수 있습니다. 해당 기능은 복잡한 데이터 관계를 심층적으로 분석해야 하는 인프라 엔지니어나 개발자에게 더욱 효율적인 모니터링 환경을 제공합니다.",
-    "url": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Joy Wang"
-      ],
-      "title": [
-        "Senior Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-06-26T16:30:00.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
-    "title": "Terraform MCP server: Four real-world AI infrastructure patterns ",
-    "summary": "AI is rapidly becoming the new operational interface for infrastructure. What once required deep expertise in Terraform, cloud platforms, security policies, and operational workflows can now begin wit",
-    "aiSummary": "Terraform MCP server는 대규모 언어 모델인 LLM이 가진 비결정적 특성과 환각 문제를 해결하고 인프라 운영에 신뢰성을 부여하기 위해 설계된 기술입니다. 이 서버는 AI 에이전트가 Terraform 워크플로우, 모듈, 정책 및 구성 정보에 직접 접근하여 조직의 실제 표준을 바탕으로 의사결정을 내리도록 지원합니다. 이를 통해 기업은 인프라 관리의 효율성과 안전성을 동시에 확보할 수 있습니다.\n\n첫 번째 패턴은 플랫폼 엔지니어링을 위한 노코드 인프라 워크플로우입니다. 신규 엔지니어는 복잡한 Terraform 코드를 직접 수정하는 대신 AI 에이전트를 통해 승인된 노코드 모듈을 탐색하고 테스트합니다. AI는 모듈의 의도를 설명하고 입력값을 안내하며 tflint 등을 활용해 배포 결과를 검증함으로써 초보 엔지니어의 온보딩 부담을 줄이고 운영 표준을 준수하게 합니다.\n\n두 번째 패턴은 프라이빗 모듈 레지스트리를 활용한 셀프 서비스 인프라 구축입니다. AI 에이전트는 승인된 모듈 카탈로그에서 필요한 리소스를 찾아 구성하고 검증을 자동화합니다. 이를 통해 조직 전체에서 일관된 인프라 배포가 가능하며, 운영 중 발생하는 모듈 버전 업데이트나 공급자 업그레이드 시에도 AI가 변경 사항을 분석하고 호환성을 확인하여 운영 부하를 대폭 낮춰줍니다.\n\n세 번째 패턴은 Sentinel이나 OPA를 활용한 정책 강화 및 거버넌스 자동화입니다. AI는 인프라 변경이 조직의 보안 및 비용 정책을 위반할 경우 이를 즉시 탐지하고, 실패 원인을 분석하여 수정 가이드를 제시합니다. 정책 개발 단계부터 배포 과정까지 AI가 통합된 워크플로우를 제공함으로써 보안 팀의 거버넌스 관리 부담은 줄이고 개발 팀의 정책 준수 속도는 높이는 지능형 거버넌스 모델을 구축합니다.\n\n마지막 네 번째 패턴은 Terraform Stacks를 활용한 대규모 인프라 단순화입니다. 다수의 환경, 지역, 클라우드 제공자를 관리해야 하는 글로벌 기업 환경에서 Terraform Stacks와 MCP 서버를 결합하면 AI 에이전트가 개별 모듈이 아닌 전체 시스템 단위로 인프라를 이해하고 조정할 수 있습니다. 이는 랜딩 존이나 네트워크 보안 베이스라인과 같은 복잡한 인프라 오케스트레이션을 엔터프라이즈 규모에서 표준화하고 자동화하는 핵심 기반이 됩니다.",
-    "url": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "YuZhao Zhang",
-    "pubDate": "2026-06-26T16:00:00.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "/blog/next-16-3-ai-improvements",
-    "title": "Next.js 16.3: AI Improvements",
-    "summary": "Actionable errors with paste-ready fix prompts, first-party Skills for the dev loop and Cache Components, and tooling that keeps coding agents in sync with your project.",
-    "aiSummary": "Next.js 16.3 버전은 AI를 활용한 개발 경험 향상에 중점을 두고 있습니다. 개발자가 오류를 즉시 해결할 수 있도록 붙여넣기 가능한 수정 프롬프트를 제공하며, 개발 주기 내에서 활용 가능한 퍼스트 파티 Skills와 Cache Components 기능을 도입하였습니다. 또한 코딩 에이전트가 프로젝트와 지속적으로 동기화된 상태를 유지할 수 있도록 돕는 도구들을 포함하여 AI 기반의 효율적인 개발 환경을 지원합니다.",
-    "url": "https://nextjs.org/blog/next-16-3-ai-improvements",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": {
-      "name": [
-        "Aurora Scharff"
-      ]
-    },
-    "pubDate": "2026-06-26T15:00:00.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=platform&p=716667",
-    "title": "Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2",
-    "summary": "Language Server Protocol (LSP) solves a real problem: before, each IDE or editor had to implement support for a specific language separately. A language server puts that work in one place and exposes ",
-    "aiSummary": "IntelliJ IDEA 2026.2 버전부터 LSP Client API를 오픈소스로 공개합니다. \n\n기존에는 각 IDE나 에디터가 특정 프로그래밍 언어를 지원하기 위해 개별적인 구현이 필요했으나, LSP를 도입함으로써 언어 서버가 공통 프로토콜을 통해 코드 완성, 포매팅, 문서화 등의 기능을 통합 제공하게 되었습니다. \n\n이번 오픈소스 공개를 통해 개발자들은 IntelliJ 플랫폼 기반의 플러그인을 더욱 자유롭게 개발할 수 있게 되었으며, JetBrains는 커뮤니티와의 협력을 강화하여 더 폭넓은 언어 지원 생태계를 조성하고자 합니다. 이는 특정 도구에 종속되지 않는 표준화된 개발 환경 구축을 가속화할 전망입니다.",
-    "url": "https://blog.jetbrains.com/platform/2026/06/open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Jakub Chrzanowski",
-    "pubDate": "2026-06-26T12:38:50.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/help-make-filament-faster",
-    "title": "Help make Filament faster!",
-    "summary": "Calling all Filament users – want to help make Filament faster? As of today, the team has launched some big performance upgrades across all of the first-party Filament packages into beta and they need",
-    "aiSummary": "Filament 개발팀은 모든 퍼스트 파티 패키지를 대상으로 대규모 성능 개선을 진행하고 이를 베타 버전으로 공개하였습니다. 현재 실제 애플리케이션 환경에서의 테스트를 통해 성능 향상 결과를 확인하고자 사용자들의 참여를 기다리고 있습니다. 이번 업데이트와 관련된 상세 내용은 공식 홈페이지의 안내를 통해 확인할 수 있습니다.",
-    "url": "https://laravel-news.com/help-make-filament-faster?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Alex Six",
-    "pubDate": "2026-06-26T12:03:15.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-    "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-    "summary": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The…\nThe post ",
-    "aiSummary": "GitHub Desktop 3.6 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 GitHub Copilot과의 통합을 강화하여 커밋 메시지 작성과 병합 충돌 해결 과정을 더욱 효율적으로 개선한 점입니다.\n\n또한 개발자가 여러 브랜치를 동시에 작업할 수 있도록 지원하는 Git worktrees 기능을 도입하였습니다. 이를 통해 사용자는 여러 개의 디렉토리를 별도로 생성하지 않고도 같은 리포지토리 내에서 다른 브랜치를 동시에 다룰 수 있어 작업 흐름이 한층 유연해졌습니다.",
-    "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-06-26T10:32:58.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/previewing-gpt-5-6-sol",
-    "title": "Previewing GPT-5.6 Sol: a next-generation model",
-    "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-    "aiSummary": "OpenAI가 차세대 모델인 GPT-5.6 Sol을 공개했습니다.\n\n해당 모델은 코딩과 과학 연구, 그리고 사이버 보안 분야에서 이전보다 훨씬 강력한 성능을 발휘하도록 설계되었습니다.\n\n또한 OpenAI는 이번 모델에 자사가 보유한 기술 중 가장 고도화된 안전 체계를 결합하여 신뢰성을 높였습니다.",
-    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-06-26T10:00:00.000Z",
-    "fetchedAt": "2026-06-26T17:12:27.470Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
     ]
   }
 ]
