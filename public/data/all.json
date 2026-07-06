@@ -1,5 +1,149 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
+    "title": "Shift into high gear with agents: Securing the software-defined vehicle",
+    "summary": "The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle ",
+    "aiSummary": "자동차 산업이 소프트웨어 정의 차량인 SDV 시대로 전환됨에 따라 Google Cloud와 Valtech은 차세대 차량용 플랫폼인 Nexus SDV를 공동 개발하였습니다. Nexus SDV는 Android Automotive OS와 긴밀하게 통합된 오픈 소스 기반의 AI 플랫폼으로 최대 1억 대의 기기를 관리할 수 있는 확장성을 갖추고 있습니다.\n\nNexus AI는 Gemini 모델과 Gemini Enterprise Agent Platform을 활용하여 차량 내 데이터를 실시간으로 분석하고 자율적인 의사결정과 개인화된 운전자 지원을 제공하는 에이전트 역할을 수행합니다. 또한 Arm 기반 컴퓨팅과 Bigtable 스토리지를 사용하여 데이터 처리 비용을 절감하고 클라우드 네이티브 아키텍처를 통해 제조사의 운영 효율성을 극대화합니다.\n\n보안 측면에서는 Google Cloud의 제로 트러스트 아키텍처를 바탕으로 다층 방어 모델을 구현합니다. mTLS와 PKI를 통한 차량 인증, Keycloak을 활용한 신원 관리, Secret Manager를 통한 암호화 키 보호, 그리고 비공개 GKE 클러스터를 통한 네트워크 격리를 통해 엄격한 보안을 유지합니다. \n\n데이터 접근에 있어서는 Data API를 통해 직접적인 접근을 차단하고 추상화된 보안 게이트웨이를 거치게 함으로써 데이터 노출 위험을 최소화합니다. 또한 SAIF 가이드를 준수하여 데이터 프라이버시와 모델 거버넌스를 강화한 안전한 AI 환경을 제공합니다. \n\nNexus SDV는 이처럼 제조사가 복잡한 인프라 비용 부담 없이 안전하고 지능적인 차량 서비스를 빠르게 확장할 수 있도록 지원하는 개방형 프레임워크입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Florian Haubner"
+      ],
+      "title": [
+        "Industry Architect Lead Automotive EMEA"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-06T16:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "93f6e85a83e5307a20b77095977f07cd1f1ca301",
+    "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
+    "summary": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of",
+    "aiSummary": "AWS는 Amazon Bedrock을 통해 Anthropic의 최신 모델인 Claude 3.5 Sonnet을 지원합니다. 개발자와 기업들은 이제 AWS의 안전한 관리형 환경에서 최신 Claude 모델을 활용하여 다양한 AI 애플리케이션을 구축할 수 있습니다.\n\nAmazon WorkSpaces는 이제 AI 에이전트와 긴밀하게 통합되어 더욱 효율적인 작업 환경을 제공합니다. 이는 복잡한 워크플로우를 자동화하고 사용자의 생산성을 높이는 데 기여합니다.\n\n그 외에도 AWS는 전 세계 다양한 리전에서의 서비스 가용성 업데이트와 기능 향상을 발표했습니다. AWS는 지속적인 인프라 확장을 통해 고객들에게 더욱 안정적이고 확장 가능한 클라우드 서비스를 제공하는 데 집중하고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-07-06T15:46:43.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/07/06/spring-cloud-contract-transition-to-stubbornsh",
+    "title": "A New Home for Spring Cloud Contract: Transitioning to Stubborn.sh",
+    "summary": "For years, Spring Cloud Contract has been an important tool for developers building consumer-driven contracts and ensuring reliable microservices communication. Today, we are announcing an exciting tr",
+    "aiSummary": "마이크로서비스 간 신뢰성 있는 통신을 지원해 온 Spring Cloud Contract 프로젝트의 소유권과 유지보수 권한이 원작자 중 한 명인 Marcin Grzejszczak이 이끄는 Stubborn.sh로 이전됩니다.\n\n이번 결정에 따라 Spring Cloud Contract는 향후 모든 Spring Cloud 릴리스 트레인에서 제외되며, 기존 릴리스 트레인 내에서도 더 이상 업데이트나 유지보수가 제공되지 않습니다.\n\nSpring Cloud 팀은 프로젝트의 창시자이자 10년간 Spring 생태계에 기여해 온 Marcin Grzejszczak이 Stubborn.sh를 통해 프로젝트를 계속 발전시키는 것이 최선의 방향이라고 설명했습니다. 현재 Spring Cloud Contract를 사용 중인 개발자들은 지속적인 업데이트와 지원을 받기 위해 Stubborn.sh로의 마이그레이션을 준비해야 합니다.",
+    "url": "https://spring.io/blog/2026/07/06/spring-cloud-contract-transition-to-stubbornsh",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "jasonkonicki",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_ivm-115-released-3338/",
+    "title": "pg_ivm 1.15 released\n",
+    "summary": "IVM Development Group is pleased to announce the release of pg_ivm 1.15.\nChanges since the v1.14 release include:\nWhat's Changed\nNew features\nAdd IMMV metadata restore support for pg_dump and pg_upgra",
+    "aiSummary": "IVM Development Group에서 PostgreSQL용 확장 모듈인 pg_ivm의 1.15 버전을 출시하였습니다.\n\n이번 업데이트의 핵심은 pg_dump 및 pg_upgrade를 통한 IMMV 메타데이터 복구 지원입니다. 이전에는 데이터베이스 복구나 업그레이드 시 IMMV를 삭제하고 재생성해야 하는 번거로움이 있었으나, 새롭게 추가된 pg_ivm_dump_metadata 유틸리티와 restore_immv 함수를 통해 메타데이터를 보존하여 별도의 재작업 없이도 증분 유지 관리를 지속할 수 있게 되었습니다.\n\n버그 수정 사항으로는 동일한 테이블이 트리거에 의해 여러 번 수정될 때 발생하는 유지 관리 오류를 해결하여 데이터 불일치나 중복 키 위반 문제를 개선하였습니다. 또한 v1.14 버전에서 발생했던 외부 조인 뷰 유지 관리 중의 세그멘테이션 폴트 오류도 수정되었습니다.\n\npg_ivm은 구체화된 뷰를 처음부터 다시 계산하지 않고 변경된 부분만 즉시 반영하는 증분 뷰 유지 관리 기능을 제공하는 도구입니다. 상세한 소스 코드는 공식 GitHub 저장소에서 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_ivm-115-released-3338/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/all-44-talks-from-posette-an-event-for-postgres-2026-are-available-on-youtube-3336/",
+    "title": "All 44 talks from POSETTE: An Event for Postgres 2026 are available on YouTube\n",
+    "summary": "POSETTE: An Event for Postgres 2026, took place from 16–18 June 2026 as a free and virtual event, organized by Microsoft in partnership with AMD. Although the event has concluded, all the content rema",
+    "aiSummary": "Microsoft와 AMD가 공동 주최한 가상 컨퍼런스인 POSETTE: An Event for Postgres 2026의 전체 강연 영상 44편이 YouTube를 통해 공개되었습니다. 지난 6월 16일부터 18일까지 진행된 이번 행사에서는 Postgres의 핵심 기술과 생태계, Azure Database for PostgreSQL 등을 주제로 다양한 세션이 다루어졌습니다.\n\n모든 영상에는 16개 언어로 번역된 자막이 제공되어 접근성을 높였으며, 공식 YouTube 재생 목록을 통해 개별 강연은 물론 전체 라이브 스트림을 다시 시청할 수 있습니다. 또한 주최 측은 각 강연의 주제별 분류 가이드를 제공하여 시청자의 이해를 돕고 있습니다.\n\n행사 관련 정보와 연사들에 대한 상세 내용은 공식 홈페이지에서 확인할 수 있으며, 차기 행사인 POSETTE: An Event for Postgres 2027에 대한 준비도 시작되었습니다. 행사 소식은 뉴스레터나 LinkedIn, Bluesky, Mastodon, X/Twitter 등 다양한 공식 채널을 통해 받아볼 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/all-44-talks-from-posette-an-event-for-postgres-2026-are-available-on-youtube-3336/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/fix-your-data-foundation",
+    "title": "Shifting AI from activity to outcomes in the year ahead",
+    "summary": "New Elastic research reveals why many Australian businesses exceeded their AI budgets last year: it's a data foundation problem.  Discover how to shift focus from tokenmaxxing to real business ROI and",
+    "aiSummary": "Elastic의 최신 연구 결과에 따르면 작년 많은 호주 기업들이 AI 예산을 초과 지출한 주된 원인은 취약한 데이터 기반 때문인 것으로 나타났습니다.\n\n기업들이 성공적인 AI 도입을 위해서는 단순한 토큰 소비 중심의 활동에서 벗어나 실제 비즈니스 ROI를 창출하는 방향으로 전략을 전환해야 합니다.\n\n이를 위해 적절한 거버넌스를 구축하고 데이터 기반을 강화하는 것이 내년도 AI 운영의 핵심 과제가 될 전망입니다.",
+    "url": "https://www.elastic.co/blog/fix-your-data-foundation",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jeremy Pell",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/anyshift-partnership",
+    "title": "Q&A: How Elastic and Anyshift are bringing AI-powered context to incident response",
+    "summary": "Through a new integration with Elastic, Anyshift’s AI agent, Annie, can read from a customer’s Elasticsearch deployment to search logs, surface error and warning spikes, and correlate log evidence wit",
+    "aiSummary": "Elastic과 Anyshift의 협업을 통해 인프라 장애 대응 과정에 AI 기술이 도입됩니다. Anyshift의 AI 에이전트인 Annie는 Elastic의 Elasticsearch 데이터에 직접 접근하여 시스템 로그를 분석하고 오류나 경고 수치가 급증하는 지점을 신속하게 찾아냅니다. 또한 로그 데이터와 인프라 변경 이력을 상호 연관시켜 분석함으로써 문제의 근본 원인을 더욱 정확하게 파악할 수 있도록 지원합니다.",
+    "url": "https://www.elastic.co/blog/anyshift-partnership",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Sunnie Weber",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
+    "title": "How Prompt Tuning Improved GPT-5.5 in VS Code",
+    "summary": "See how VS Code and OpenAI tested GPT-5.5 system prompt changes in a two-week experiment, cutting tool calls and tail-end token usage while speeding up edits.\nRead the full article",
+    "aiSummary": "VS Code와 OpenAI는 2주간의 실험을 통해 GPT-5.5의 시스템 프롬프트 최적화가 성능에 미치는 영향을 분석했습니다.\n\n이번 프롬프트 튜닝 결과, 불필요한 툴 호출 빈도가 감소하였으며 토큰 사용량의 끝부분이 최적화되어 효율성이 개선되었습니다.\n\n또한 시스템 프롬프트 변경을 통해 코드 편집 속도를 향상시킴으로써 전반적인 응답성과 사용자 경험을 개선하는 성과를 거두었습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "VS Code Team",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/postgresql-jdbc-42712-security-release-3340/",
     "title": "PostgreSQL JDBC 42.7.12 Security Release\n",
     "summary": "Silent channel-binding authentication downgrade (CVE-2026-54291)\nchannelBinding=require connections can be silently downgraded from SCRAM-SHA-256-PLUS (with channel binding) to plain SCRAM-SHA-256 (wi",
@@ -110,6 +254,22 @@
       "DeepMind",
       "Gemini",
       "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/envkit-a-local-development-stack-for-laravel-on-windows-and-macos",
+    "title": "EnvKit: A Local Development Stack for Laravel on Windows and macOS",
+    "summary": "EnvKit is a free desktop app that bundles nginx or Apache, multiple PHP versions, databases, and trusted .test HTTPS into one control panel.\nThe post EnvKit: A Local Development Stack for Laravel on W",
+    "aiSummary": "EnvKit은 Windows와 macOS 환경에서 Laravel 개발을 효율적으로 지원하는 무료 데스크톱 애플리케이션입니다.\n\n이 도구는 nginx나 Apache 웹 서버를 비롯해 다양한 PHP 버전과 데이터베이스를 하나의 제어판에서 통합적으로 관리할 수 있는 기능을 제공합니다. 또한 신뢰할 수 있는 .test 도메인을 통한 HTTPS 환경을 손쉽게 구축할 수 있도록 지원하여 로컬 개발 환경 설정을 간소화합니다.",
+    "url": "https://laravel-news.com/envkit-a-local-development-stack-for-laravel-on-windows-and-macos?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-07-03T04:47:26.000Z",
+    "fetchedAt": "2026-07-06T17:56:37.543Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
