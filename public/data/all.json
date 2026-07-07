@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://spring.io/blog/2026/07/07/this-week-in-spring-july-07-2026",
+    "title": "This Week in Spring - July 7th, 2026",
+    "summary": "(https://spring.io/blog/2026/07/07/this-week-in-spring-july-07-2026#this-week-in-spring---july-7th-2026)This Week in Spring - July 7th, 2026\nHi, Spring fans! Welcome to another installment of This Wee",
+    "aiSummary": "Spring Initializr에 분산 작업 실행 엔진인 JobRunr가 새롭게 추가되었습니다. 이제 개발자들은 start.spring.io에서 더욱 편리하게 JobRunr를 프로젝트에 구성할 수 있습니다.\n\nSpring AI와 관련하여 여러 LLM을 연동하는 방법과 MCP 어노테이션 활용법, 그리고 Spring AI를 통한 지능형 Java 애플리케이션 개발을 소개하는 유익한 콘텐츠들이 공유되었습니다.\n\n기술적으로는 Spring Kafka 환경에서 Kafka Streams의 Dead-letter queue를 설정하는 방법과 Spring Data의 타입 안전한 속성 경로에 대한 정보가 포함되었습니다. 또한 Moritz Halbritter가 발표한 Spring Framework 7과 Spring Boot 4를 활용한 널 포인터 오류 식별 및 제거 기술에 관한 영상이 주목받고 있습니다.\n\nSpring Cloud Contract 프로젝트가 Stubborn.sh로 이전된다는 소식과 더불어, Spring AI 기여자인 Sebastien Deleuze와의 팟캐스트 인터뷰가 공개되었습니다. 마지막으로 Apache Kafka 개발사인 Confluent가 Spring Boot 사용자들을 위해 제공하는 가이드 등이 함께 다뤄졌습니다.",
+    "url": "https://spring.io/blog/2026/07/07/this-week-in-spring-july-07-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "fetchedAt": "2026-07-07T10:35:31.338Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
     "title": "Shift into high gear with agents: Securing the software-defined vehicle",
     "summary": "The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle ",
