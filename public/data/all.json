@@ -48,6 +48,41 @@
     ]
   },
   {
+    "id": "https://redis.io/blog/whats-new-in-two-june-2026-edition/",
+    "title": "What’s new in two: June 2026 edition",
+    "summary": "Welcome back to “What’s new in two,” your quick hit of Redis releases you might’ve missed over the last month. Summer might be here, but product releases apparently don't take vacations. We're coverin",
+    "aiSummary": "Redis는 2026년 6월 주요 제품 업데이트 소식을 전했습니다. 이번 업데이트에는 플랫폼의 전반적인 기능을 개선하고 사용자 편의성을 높이는 다양한 기술적 변경 사항들이 포함되었습니다.\n\n특히 개발자들이 Redis 환경을 더 효율적으로 운영할 수 있도록 지원하는 신규 기능들이 추가되었으며 기존 서비스의 안정성과 확장성을 강화하는 데 초점을 맞추었습니다. 구체적인 세부 사안들은 공식 릴리스 노트를 통해 확인할 수 있으며 전반적으로 고성능 데이터 처리를 위한 인프라 최적화 작업이 이루어졌습니다.",
+    "url": "https://redis.io/blog/whats-new-in-two-june-2026-edition/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Talon Miller",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-07T01:12:12.431Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+    "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeCase StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systemsJul 6, 2026Since 2025, the Government of ",
+    "aiSummary": "캐나다 Alberta 주 정부는 2025년부터 Claude Code를 도입하여 정부 시스템 전반의 사이버 보안 취약점을 탐색하고 보완하는 작업을 수행하고 있습니다. Alberta 주 기술혁신부는 약 1,280개의 애플리케이션과 3,400개의 코드 저장소를 관리하고 있으며, 기술 부채가 누적된 방대한 시스템을 효율적으로 개선하기 위해 Anthropic의 Claude Opus 및 Sonnet 모델을 활용했습니다.\n\n약 50개의 AI 에이전트가 병렬로 가동되어 466만 줄에 달하는 코드를 단 20시간 만에 스캔하였으며, 기존의 자동화된 보안 도구가 발견하지 못한 인프라 및 배포 프로세스의 허점과 문서화 오류를 성공적으로 찾아냈습니다. Claude Code는 2단계 루틴을 통해 알려진 취약점 패턴을 식별한 뒤 개발자가 직접 확인할 수 있도록 정확한 파일과 라인 정보를 제공하는 방식으로 운영되었습니다.\n\n이번 프로젝트는 복잡하고 노후화된 정부 시스템을 대규모로 현대화하고 보안성을 강화하는 데 있어 생성형 AI가 핵심적인 역할을 할 수 있음을 입증한 사례입니다. Nate Glubish 기술혁신부 장관은 전통적인 방식으로는 수년이 걸렸을 작업을 단 몇 시간 만에 완료함으로써 정부 데이터에 대한 시민들의 신뢰를 더욱 공고히 할 수 있게 되었다고 평가했습니다. 현재 Alberta 주 정부는 이러한 경험을 공유하기 위해 관련 기술 백서를 발간하여 다른 정부 기관들이 활용할 수 있도록 지원하고 있습니다.",
+    "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-07T01:12:12.431Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/07/06/spring-cloud-contract-transition-to-stubbornsh",
     "title": "A New Home for Spring Cloud Contract: Transitioning to Stubborn.sh",
     "summary": "For years, Spring Cloud Contract has been an important tool for developers building consumer-driven contracts and ensuring reliable microservices communication. Today, we are announcing an exciting tr",
