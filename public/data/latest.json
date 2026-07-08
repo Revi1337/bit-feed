@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
+    "title": "Per-user budgets for cost centers in the billing UI",
+    "summary": "Enterprise admins can now create cost center user-level budgets directly in the billing UI where you manage cost centers and budgets. This feature is available for GitHub Enterprise Cloud. This…\nThe p",
+    "aiSummary": "GitHub Enterprise Cloud 사용자를 위한 비용 관리 기능이 업데이트되었습니다.\n\n이제 엔터프라이즈 관리자는 빌링 UI 내의 비용 센터 및 예산 관리 메뉴에서 사용자별 예산을 직접 설정할 수 있습니다. 이를 통해 조직은 비용 센터 단위뿐만 아니라 개별 사용자 수준에서도 더욱 세밀한 비용 통제가 가능해집니다.",
+    "url": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-07T17:09:29.000Z",
+    "fetchedAt": "2026-07-08T00:16:28.141Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-07-secret-scanning-extended-metadata-and-multipart-validation",
     "title": "Secret scanning extended metadata and multipart validation",
     "summary": "To help you understand ownership and impact of a leaked secret, GitHub secret scanning surfaces enriched metadata for supported secret types. Extended metadata checks are now generally available, incl",
@@ -1408,119 +1424,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "/blog/claude-generated-50-websites-overnight-prisma-compute",
-    "title": "Claude Generated 50 Websites Overnight with Prisma Compute",
-    "summary": "Ali Fatemi gave Claude the Prisma docs and CLI, then used Prisma Compute to turn AI-generated websites into working URLs.",
-    "aiSummary": "Ali Fatemi는 Anthropic의 Claude에게 Prisma 문서와 CLI 정보를 제공한 뒤, Prisma Compute를 활용하여 AI가 생성한 50개의 웹사이트를 즉시 작동 가능한 URL로 배포하는 성과를 거두었습니다. 이 과정은 별도의 복잡한 개발 단계 없이 AI의 코드 생성 능력과 자동화된 인프라 배포 도구를 결합하여 대량의 웹 서비스를 신속하게 구축할 수 있음을 입증합니다.",
-    "url": "https://www.prisma.io/blog/claude-generated-50-websites-overnight-prisma-compute",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-07-01T00:00:00.000Z",
-    "fetchedAt": "2026-07-03T16:49:09.204Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
-    "title": "Elastic named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026",
-    "summary": "Elastic has been named a Leader in the Everest Group Enterprise Search Products PEAK Matrix® Assessment 2026 and identified as holding the largest market share among all 16 providers evaluated.",
-    "aiSummary": "Elastic이 Everest Group의 Enterprise Search Products PEAK Matrix Assessment 2026에서 리더 기업으로 선정되었습니다. 해당 평가에 참여한 16개 기업 중 Elastic은 가장 높은 시장 점유율을 기록하며 기술적 역량과 시장 내 영향력을 입증했습니다.",
-    "url": "https://www.elastic.co/blog/elastic-leader-everest-group-enterprise-search-peak-matrix-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Anish Mathur",
-    "pubDate": "2026-07-01T00:00:00.000Z",
-    "fetchedAt": "2026-07-01T10:51:10.569Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "e1fe2965259df670bd55dc1185e2f5c257298d4c",
-    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercia",
-    "aiSummary": "AWS는 클라우드 인프라 배포 속도를 최대 4배까지 향상할 수 있는 CloudFormation Express 모드를 출시했습니다.\n\n이번 신규 기능은 AI 에이전트와 개발자가 인프라 배포 결과를 수 초 내에 즉각적으로 확인하고 반복 작업을 더 빠르게 수행할 수 있도록 지원합니다.\n\n해당 기능은 모든 상용 AWS 리전에서 추가 비용 없이 즉시 이용할 수 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "2026-06-30T21:30:33.000Z",
-    "fetchedAt": "2026-07-01T01:36:06.322Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "d668a838bb33c15b4742302284561effb3be54a0",
-    "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
-    "summary": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest mem",
-    "aiSummary": "AWS Graviton5 프로세서를 탑재한 Amazon EC2 C9g 및 C9gd 인스턴스가 정식 출시되었습니다.\n\n이번 신규 인스턴스는 기존 Graviton4 기반 인스턴스 대비 최대 25% 향상된 컴퓨팅 성능을 제공합니다. 또한 5배 더 커진 캐시 용량과 클라우드 내 모든 프로세서 인스턴스 중 가장 빠른 메모리 속도를 구현하였습니다. C9gd 인스턴스의 경우 로컬 NVMe 스토리지 옵션을 지원하여 데이터 처리 효율을 높였습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Sébastien Stormacq",
-    "pubDate": "2026-06-30T20:56:44.000Z",
-    "fetchedAt": "2026-07-01T01:36:06.322Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "eecd301bc56dd721583bbbd8024097ca3ad82fd6",
-    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get cen",
-    "aiSummary": "AWS Certificate Manager가 퍼블릭 TLS 인증서에 대한 ACME 프로토콜 지원을 시작합니다. 이번 업데이트를 통해 사용자는 ACMEv2 호환 클라이언트를 사용하여 모든 워크로드에서 인증서 발급 및 갱신 과정을 자동화할 수 있습니다.\n\n관리자는 IAM 기반의 접근 제어와 도메인 범위 지정을 통해 인증서를 중앙에서 효율적으로 관리할 수 있습니다. 이는 점차 짧아지는 인증서 유효 기간에 대응하여 운영상의 위험을 줄이고 관리 복잡성을 해소하는 데 도움을 줍니다.",
-    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Sébastien Stormacq",
-    "pubDate": "2026-06-30T20:15:11.000Z",
-    "fetchedAt": "2026-07-01T01:36:06.322Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
-    "title": "Conversational analytics in BigQuery brings trusted agentic reasoning to everyone",
-    "summary": "Businesses run on fast decisions, but the teams who hold the answers are often buried under a backlog of routine requests, leaving users waiting in line for insights they need now. Today, we are bring",
-    "aiSummary": "Google Cloud은 BigQuery 내에서 자연어 대화형 분석을 지원하는 Conversational Analytics 기능을 정식 출시하였습니다. 이 기능은 최신 Gemini 모델을 기반으로 하며, 사용자가 별도의 설정 없이 데이터와 직접 대화하여 복잡한 다단계 분석과 시각화 보고서를 생성할 수 있도록 지원합니다.\n\n데이터 전문가들은 프로젝트, 데이터셋, 테이블을 비롯해 Apache Iceberg, Databricks Unity, AWS Glue, SAP, Salesforce 등 다양한 외부 소스의 데이터를 통합하여 맞춤형 분석 에이전트를 구축할 수 있습니다. 구축된 에이전트는 BigQuery Studio, Data Canvas는 물론 Conversational Analytics API를 통해 Gemini Enterprise나 외부 애플리케이션으로도 배포가 가능합니다.\n\n신뢰성과 설명 가능성을 위해 모든 답변은 비즈니스 맥락에 기반하여 생성되며, 사용자는 에이전트의 추론 과정과 사용된 SQL, 데이터 출처를 즉시 검토할 수 있습니다. 또한 모호한 질문에는 추가 질문을 던지거나 장기 기억을 통해 문맥을 파악하는 등 지능적인 상호작용을 수행합니다.\n\n보안 및 거버넌스 측면에서는 기존 BigQuery의 권한 관리 모델을 그대로 계승합니다. Access Transparency, Customer-Managed Encryption Keys, VPC Service Controls 등을 지원하며 데이터 거주지 보호 기능도 포함되어 있어 기업 수준의 엄격한 보안 요건을 충족합니다.\n\n단순한 데이터 조회를 넘어 AI.KEY_DRIVERS, AI.FORECAST 등의 함수를 결합한 심층 분석이 가능하며, 구조화된 데이터와 PDF, 이미지 등의 비정형 데이터를 통합적으로 추론할 수 있습니다. 특히 Deep-dive 모드와 예약 기능을 통해 복잡한 다단계 조사 과정을 자동화하고 비즈니스 흐름을 지속적으로 모니터링하는 자율적인 에이전트 운영 환경을 제공합니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Vasiya Krishnan"
-      ],
-      "title": [
-        "Product Lead"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-06-30T18:00:00.000Z",
-    "fetchedAt": "2026-07-01T01:36:06.322Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
