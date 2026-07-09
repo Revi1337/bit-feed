@@ -1,5 +1,22 @@
 [
   {
+    "id": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+    "title": "Searchable field-level encryption on Supabase with CipherStash",
+    "summary": "Add field-level encryption to your Supabase project with CipherStash. Searchable ciphertext, zero-knowledge key management, and no schema changes required.",
+    "aiSummary": "Supabase 프로젝트에 CipherStash를 도입하여 필드 단위 암호화를 적용할 수 있습니다. \n\n해당 솔루션은 데이터베이스 스키마를 변경할 필요가 없으며 제로 지식 키 관리 방식을 지원합니다. 특히 암호화된 상태에서도 검색이 가능한 암호문 기능을 제공하여 데이터 보안과 활용성을 동시에 보장합니다.",
+    "url": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-07-09T07:00:00.000Z",
+    "fetchedAt": "2026-07-09T10:34:28.848Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-07-innersource-security-advisories-are-generally-available",
     "title": "Innersource security advisories are generally available",
     "summary": "GitHub Advanced Security enterprise customers can now publish internal security advisories. Innersource advisories work similarly to GitHub’s open source advisories, but their visibility is restricted",
