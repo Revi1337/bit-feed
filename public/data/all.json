@@ -1,5 +1,133 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-07-innersource-security-advisories-are-generally-available",
+    "title": "Innersource security advisories are generally available",
+    "summary": "GitHub Advanced Security enterprise customers can now publish internal security advisories. Innersource advisories work similarly to GitHub’s open source advisories, but their visibility is restricted",
+    "aiSummary": "GitHub Advanced Security 엔터프라이즈 고객은 이제 내부 보안 권고 사항을 게시할 수 있습니다. \n\n이번에 도입된 Innersource 보안 권고 기능은 기존 GitHub 오픈소스 보안 권고와 유사한 방식으로 작동합니다. 다만 해당 정보는 조직 내 특정 리포지토리로 접근 권한이 제한된 사용자들에게만 공개된다는 차이점이 있습니다. \n\n기업들은 이 기능을 통해 내부 소프트웨어 프로젝트의 보안 취약점을 체계적으로 관리하고 공유함으로써 조직 내부의 보안 대응 능력을 강화할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-08T21:30:35.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+    "title": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
+    "summary": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configu",
+    "aiSummary": "GitHub는 기업이 GitHub Copilot의 OpenTelemetry 데이터를 전송할 위치를 중앙에서 직접 지정할 수 있는 기능을 새롭게 도입했습니다. \n\n기존에는 개별 개발자가 환경 변수인 OTEL_*을 직접 설정해야 했으나, 이제는 조직 차원에서 승인된 collector로 데이터가 자동 전송되도록 의무화할 수 있습니다. \n\n이번 기능은 VS Code 및 CLI 환경을 지원하며, 이를 통해 기업은 내부 보안 정책에 따라 관리되는 환경으로 원활하게 telemetry 데이터를 수집하고 제어할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-08T20:50:07.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
+    "title": "Deploy managed Copilot settings via MDM in VS Code and CLI",
+    "summary": "Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing se",
+    "aiSummary": "기업 관리자는 이제 기존의 서버 관리 방식 외에도 네이티브 MDM 및 파일 기반 구성을 통해 GitHub Copilot 설정을 각 기기에 직접 배포할 수 있습니다. \n\n이번 업데이트를 통해 VS Code 및 CLI 환경에서 GitHub Copilot의 설정을 더욱 유연하고 효율적으로 관리하는 것이 가능해졌습니다. 이는 기업 환경에서 일관된 정책 적용을 원하는 관리자들의 운영 편의성을 높여줍니다.",
+    "url": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-08T20:38:56.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/compute/c4n-network-and-storage-optimized-vms/",
+    "title": "C4N, now GA: Delivering cloud’s highest per vCPU network and block storage I/O for x86 workloads",
+    "summary": "As organizations scale modern workloads — from high-throughput databases and network/security appliances to real-time analytics and AI/ML inference — network and block storage performance can quickly ",
+    "aiSummary": "Google Cloud는 네트워크 및 블록 스토리지 성능을 최적화한 Compute Engine 인스턴스인 C4N을 정식 출시하였습니다. 이 인스턴스는 5세대 Intel Xeon Scalable 프로세서(Emerald Rapids)와 Google의 독자적인 Titanium 오프로드 아키텍처를 기반으로 설계되었습니다.\n\nC4N은 네트워크 트래픽과 스토리지 작업을 전용 하드웨어로 분산 처리하여 I/O 병목 현상을 해결합니다. 이를 통해 최대 400 Gbps의 네트워크 대역폭과 95 MPPS의 패킷 처리 성능을 제공하며, 타사의 동급 Intel 기반 인스턴스 대비 vCPU당 네트워크 대역폭은 약 33%, 패킷 처리 성능은 224% 향상된 수치를 기록합니다.\n\n스토리지 성능 면에서는 고성능 블록 스토리지인 Hyperdisk와 결합하여 최대 25 GiB/s의 스토리지 대역폭과 1M IOPS를 지원합니다. 이는 대규모 데이터베이스, 고성능 파일 시스템, 메모리 내 데이터베이스와 같은 I/O 집약적인 워크로드에 최적화되어 있습니다. 또한 별도의 추가 기능 설정 없이도 즉시 이러한 고성능을 활용할 수 있어 자원 과잉 프로비저닝을 방지하고 총소유비용을 절감하는 효과를 제공합니다.\n\nC4N은 2개에서 192개에 이르는 다양한 vCPU 구성과 최대 1.5 TB의 DDR5 메모리를 지원하며, 높은 CPU 성능, 표준형, 고메모리 구성 등 선택의 폭을 넓혔습니다. 현재 Compute Engine 및 GKE에서 사용 가능하며, 향후 더 많은 서비스에 대한 지원이 확대될 예정입니다.\n\n이 인스턴스는 특히 5G 코어 네트워크, 실시간 데이터 분석, AI/ML 추론, 가상 어플라이언스 운영 등 네트워크 성능이 중요한 워크로드에서 강력한 성능을 발휘합니다. 이미 Ericsson, Teradata, NetApp, Sycomp, ClipperDB Technologies 등 주요 기업들이 이를 도입하여 데이터 처리 효율성과 비용 대비 성능을 크게 개선한 사례를 확인하고 있습니다. 현재 특정 지역을 시작으로 정식 서비스가 제공되고 있으며, 온디맨드, Spot VM, 그리고 예약 인스턴스 등 다양한 방식으로 활용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/compute/c4n-network-and-storage-optimized-vms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Parinda Gandhi"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-08T20:00:00.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jul/08/last-call-2026-django-developer-survey/",
+    "title": "Last Call 2026 Django Developer Survey",
+    "summary": "Time is running out. This is the last call for the 2026 Django Developers Survey, which the Django Software Foundation is running in partnership with JetBrains.\nThe survey closes on July 13, 2026. It ",
+    "aiSummary": "Django Software Foundation이 JetBrains와 협력하여 진행 중인 2026 Django Developers Survey의 종료가 임박했습니다.\n\n설문 조사는 2026년 7월 13일에 마감되며 이번 조사는 Django의 활용 현황을 파악하고 향후 기술적 로드맵과 커뮤니티 정책을 수립하는 데 핵심적인 지표로 활용됩니다.\n\n현재까지 3,100명 이상의 개발자가 참여했으며 주최 측은 데이터의 신뢰도와 다양성을 높이기 위해 4,000명 이상의 응답을 목표로 하고 있습니다.\n\nDjango Steering Council, Django Fellows 등 관련 조직이 설계한 이번 설문은 커뮤니티의 요구사항을 수집하는 데 목적이 있습니다. 참여를 마친 뒤에는 각자의 소셜 미디어와 커뮤니티를 통해 설문 조사를 공유하여 보다 폭넓은 의견이 수렴될 수 있도록 독려하고 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jul/08/last-call-2026-django-developer-survey/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "2026-07-08T19:31:21.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+    "title": "GitHub Copilot in Visual Studio Code, June 2026 releases",
+    "summary": "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making…\nThe post",
+    "aiSummary": "VS Code v1.123부터 v1.127까지의 업데이트를 포함하는 2026년 6월과 7월 초 GitHub Copilot 업데이트 내역입니다.\n\n이번 릴리스는 개발자들이 매일 사용하는 GitHub Copilot의 경험을 더욱 개선하는 데 집중했습니다. 이를 통해 개발자는 더욱 효율적인 코딩 환경에서 생산성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-08T18:24:55.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes",
+    "title": "setup-java v5.5.0: signature verification, Kona JDK, and Maven fixes",
+    "summary": "The actions/setup-java v5.5.0 release adds cryptographic signature verification for downloaded JDKs, support for a new distribution, and several quality-of-life improvements for Maven users. Here’s wh",
+    "aiSummary": "GitHub의 setup-java v5.5.0 버전이 공개되었습니다. 이번 업데이트의 핵심은 다운로드한 JDK에 대한 암호화 서명 검증 기능이 추가되어 보안성이 강화된 점입니다.\n\n또한 새로운 배포판으로 Amazon Corretto를 기반으로 하는 Kona JDK에 대한 지원이 시작되었습니다. 이와 더불어 Maven 사용자를 위한 다양한 편의 기능 개선 사항이 포함되어 개발 환경의 효율성이 향상되었습니다.",
+    "url": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-08T17:05:06.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/ai-infrastructure/google-is-a-leader-in-gartner-magic-quadrant-for-ai-infra/",
     "title": "Google Cloud named Leader in the 2026 Gartner® Magic Quadrant™ for AI Infrastructure",
     "summary": "In the agentic era, AI is evolving from answering questions to reasoning and taking action. Companies who want to lead in this next phase of AI need computing infrastructure that’s designed and optimi",
@@ -144,6 +272,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "title": "Separating signal from noise in coding evaluations",
+    "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "aiSummary": "OpenAI가 발표한 새로운 분석 결과에 따르면 코딩 성능 평가 지표로 널리 사용되는 SWE-Bench Pro가 신뢰성과 정확성 측면에서 여러 문제점을 안고 있는 것으로 나타났습니다. 이번 분석은 현재의 AI 모델 평가 방식이 실제 성능을 객관적으로 측정하는 데 한계가 있음을 시사하며 코딩 벤치마크 시스템의 개선 필요성을 강조합니다. 따라서 AI 모델의 실질적인 코딩 역량을 더욱 정교하게 평가하기 위한 새로운 표준 정립이 요구됩니다.",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-07-08T13:00:00.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/laravel-13-19-0",
     "title": "HTTP Query Method Support in Laravel 13.19",
     "summary": "Laravel 13.19.0 adds an Http::query() client method and query/queryJson testing helpers for the HTTP QUERY verb, plus a reduceInto collection method, a counted string helper, and bulk SQS job dispatch",
@@ -173,6 +318,22 @@
     "tags": [
       "Node.js",
       "JS"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
+    "title": "Announcing etcd v3.7.0",
+    "summary": "This article is a mirror of the original announcement\nToday, SIG etcd is releasing etcd v3.7.0, the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ",
+    "aiSummary": "SIG etcd에서 분산 키-값 저장소이자 Kubernetes의 핵심 구성 요소인 etcd의 마이너 업데이트 버전인 v3.7.0을 발표하였습니다. 이번 릴리스는 대규모 결과 세트를 효율적으로 처리하는 RangeStream 기능 도입을 포함하여 성능 최적화, 레거시 코드 제거 및 프로토콜 버퍼 라이브러리 개편에 중점을 두었습니다.\n\n주요 변경 사항 및 개선 내용은 다음과 같습니다.\n\nRangeStream은 대규모 요청 결과를 한 번에 버퍼링하지 않고 청크 단위로 스트리밍하여 서버와 클라이언트의 메모리 사용량과 지연 시간을 효과적으로 개선합니다. 해당 기능은 향후 Kubernetes v1.37에서 EtcdRangeStream 기능 게이트를 통해 지원될 예정입니다.\n\n성능 향상 측면에서는 키만 검색하는 Range 요청을 메모리 인덱스에서 직접 처리하도록 최적화하여 불필요한 백엔드 읽기를 줄였습니다. 또한 LeaseRevoke 요청 우선순위 지정과 FastLeaseKeepAlive 도입을 통해 임대 관리의 안정성과 속도를 높였으며, 동시 감시 작업 시 find 연산의 성능을 개선하였습니다.\n\n기술적인 개편 사항으로 etcd는 레거시 v2store에 대한 의존성을 완전히 제거하고 v3store 기반으로만 부팅되도록 변경되었습니다. 또한 노후화된 protobuf 라이브러리를 google.golang.org/protobuf로 전면 교체하여 보안성과 유지보수성을 강화하고 CPU 효율성을 높였습니다. 추가로 Unix 소켓 지원이 추가되어 로컬 통신 환경에서의 활용도가 높아졌습니다.\n\n이번 릴리스에는 bbolt v1.5.1과 raft v3.7.0이 포함되었으며, 여러 기존 실험용 플래그와 레거시 v2 API 패키지들이 정리되었습니다. 사용자는 업그레이드 전 반드시 공식 가이드를 참조해야 하며, 특히 v2 관련 구성 요소를 제거하는 과정에서 발생할 수 있는 호환성 문제를 사전에 검토해야 합니다. 또한 공식 컨테이너 이미지는 멀티 아키텍처 환경으로만 배포됩니다.",
+    "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-07-08T12:00:00.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
     ]
   },
   {
@@ -287,6 +448,55 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/barman-3190-and-3191-released-3345/",
+    "title": "Barman 3.19.0 and 3.19.1 Released\n",
+    "summary": "We are pleased to announce the release of Barman 3.19.0 and 3.19.1, which shipped in quick succession on May 20 and May 26, 2026. This announcement covers both releases.\nBarman (Backup and Recovery Ma",
+    "aiSummary": "PostgreSQL 데이터베이스의 원격 백업 및 재해 복구를 지원하는 오픈소스 도구인 Barman이 3.19.0 버전과 3.19.1 버전을 연이어 출시하였습니다.\n\n이번 업데이트의 주요 기능으로는 클라우드 스토리지 복구 지원이 추가되었으며 백업 데이터의 내보내기와 가져오기를 수행할 수 있는 새로운 명령어가 도입되었습니다. \n\n3.19.0 버전과 3.19.1 버전은 공통적으로 각종 버그 수정과 시스템 개선 사항을 포함하고 있습니다. EnterpriseDB가 유지 관리하는 Barman은 GNU GPL 3 라이선스를 따르며 여러 원격 서버의 백업 카탈로그와 복구 단계를 중앙에서 관리할 수 있게 해줍니다.",
+    "url": "https://www.postgresql.org/about/news/barman-3190-and-3191-released-3345/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-08T00:00:00.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pglayers-postgresql-extensions-as-stackable-docker-layers-3344/",
+    "title": "pglayers: PostgreSQL extensions as stackable Docker layers\n",
+    "summary": "🚀 Announcing pglayers\nPre‑built PostgreSQL extensions as composable Docker image layers\nProject: https://github.com/pglayers/pglayers\n📌 What It Does\npglayers publishes 53 PostgreSQL extensions as mi",
+    "aiSummary": "pglayers는 PostgreSQL 확장을 컴파일이나 복잡한 설치 과정 없이 손쉽게 사용할 수 있도록 지원하는 컨테이너 이미지 프로젝트입니다. 이 프로젝트는 53개의 주요 PostgreSQL 확장을 최소 단위의 Docker 이미지 계층으로 제공하며, 사용자는 COPY --from 명령어를 통해 공식 postgres 이미지에 원하는 확장을 조합하여 즉시 사용할 수 있습니다.\n\n이미지는 공유 라이브러리, 제어 파일, SQL 스크립트 등을 포함하고 있어 apt-get 등의 추가 작업이 필요 없습니다. 특히 PostgreSQL 18부터 도입된 확장 경로 기능을 활용하면 라이브러리 간의 파일 충돌을 방지하고 배포 시점에 확장을 마운트하는 방식의 관리가 가능해집니다.\n\n현재 PostgreSQL 17부터 19 버전까지 지원하며 linux/amd64와 linux/arm64 아키텍처 모두에서 사용할 수 있습니다. 또한 53개 전체 확장이 포함된 통합 이미지와 Azure Database for PostgreSQL 환경에 맞춘 프로필도 제공합니다.\n\n제공되는 모든 확장은 PostgreSQL, MIT, Apache 2.0 등 허용적인 오픈소스 라이선스만을 따릅니다. 클라우드 네이티브 환경에서 PostgreSQL 구성을 단순화하려는 사용자들에게 유용한 도구가 될 것으로 보이며, 상세한 확장 목록과 기여 방법은 GitHub 저장소에서 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pglayers-postgresql-extensions-as-stackable-docker-layers-3344/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-08T00:00:00.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-live",
+    "title": "Introducing GPT-Live",
+    "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "aiSummary": "OpenAI가 자연스러운 인간과 AI 간의 상호작용을 지원하는 차세대 음성 모델인 GPT-Live를 새롭게 선보였습니다. 해당 모델은 현재 ChatGPT Voice 기능에 적용되어 보다 향상된 음성 대화 경험을 제공합니다.",
+    "url": "https://openai.com/index/introducing-gpt-live",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-07-08T00:00:00.000Z",
+    "fetchedAt": "2026-07-09T01:06:45.572Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
