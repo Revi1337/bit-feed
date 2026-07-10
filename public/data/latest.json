@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+    "title": "OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",
+    "summary": "OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s…\nThe post OpenAI’s GPT-5.6 So",
+    "aiSummary": "GitHub Copilot에 OpenAI의 최신 모델인 GPT-5.6 제품군이 새롭게 도입되었습니다.\n\n이번에 공개된 GPT-5.6은 Sol, Terra, Luna라는 세 가지 변형 모델로 구성되어 있으며 사용자는 각 작업의 성격과 복잡도에 맞춰 적절한 모델을 선택하여 활용할 수 있습니다. \n\n각 모델은 개발 환경에서 코드 생성 및 최적화를 보다 효율적으로 지원하도록 설계되었으며 이를 통해 사용자들은 더욱 정교한 AI 기반 코딩 환경을 경험할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-09T16:41:29.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview/",
     "title": "Safely run AI-generated code in Cloud Run sandboxes",
     "summary": "Here’s a question we hear often at Google Cloud: How do you safely run AI-generated code or untrusted binaries without putting your host application, data, and cloud credentials at risk? In other word",
@@ -96,6 +112,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+    "aiSummary": "Microsoft 365 Copilot에 새로운 모델인 GPT-5.6이 도입되어 전반적인 AI 성능이 강화되었습니다.\n\n이제 Word, Excel, PowerPoint, Chat, Cowork 등 주요 서비스에서 GPT-5.6을 활용하여 더욱 빠르고 높은 품질의 작업 결과물을 생성할 수 있게 되었습니다.\n\n이번 업데이트는 사용자의 업무 효율성을 높이고 생산성을 극대화하기 위한 목적으로 이루어졌습니다.",
+    "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-07-09T13:00:00.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://openai.com/index/gpt-5-6",
     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
     "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
@@ -176,6 +209,42 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/hard-questions",
+    "title": "Inviting hard questions",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsInviting hard questionsJul 9, 2026Who decides the rules for AI? Can AI give my children a better future? Does AI make the world a more dangerou",
+    "aiSummary": "Anthropic은 AI가 사회와 개인의 삶에 미칠 영향에 대해 대중이 가지는 기대와 우려를 경청하고 이를 책임 있게 해결하겠다는 의지를 표명했습니다. 많은 이들이 AI가 노동의 생산성을 높이고 과학적 난제를 해결할 잠재력을 긍정적으로 평가하는 반면, 일자리 감소나 인간의 주체성 상실과 같은 부작용에 대해서는 심각한 우려를 표하고 있습니다.\n\nPublic Benefit Corporation으로서 Anthropic은 AI의 위험을 완화하고 혜택을 극대화하기 위해 그간 AI 안전장치 투자, 모델 정렬 연구, 과학자를 위한 모델 무상 제공 등의 활동을 이어왔습니다. 특히 기술 개발의 공익성을 확보하기 위해 Anthropic Institute를 설립하고 Long-Term Benefit Trust를 통한 외부 감독을 수행해 왔습니다.\n\n이번에 새롭게 추진하는 이니셔티브를 통해 Anthropic은 AI가 사회, 직업, 가족, 과학 발전 등에 미치는 영향에 대한 대중의 가장 어려운 질문들을 직접 수렴합니다. Anthropic은 제기된 질문들에 대해 구체적인 대응 방안을 마련하고, 그 이행 과정을 투명하게 공개하며 목표 달성 과정에서 직면하는 한계까지도 솔직하게 공유할 계획입니다.",
+    "url": "https://www.anthropic.com/news/hard-questions",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/ust-claude",
+    "title": "UST is bringing Claude to physical AI",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeCase StudyUST is bringing Claude to physical AIJul 9, 2026Before a factory commits to manufacturing millions of chips, engineers stress-test the design in t",
+    "aiSummary": "기술 및 엔지니어링 서비스 기업인 UST가 물리적 AI 분야에 Anthropic의 Claude를 도입합니다. 물리적 AI란 반도체, 자동차, IoT 기기 등을 제조하는 과정의 장비와 엔지니어링 프로세스에 지능을 결합하는 것을 의미하며, UST는 자사의 전 세계 엔지니어 및 컨설턴트 2만 명을 대상으로 Claude 활용 교육을 진행할 예정입니다.\n\nUST는 자사의 하드웨어 및 실리콘 검증 플랫폼인 iDEC에 Claude Code를 추론 계층으로 통합합니다. 기존에는 엔지니어들이 직접 작성하던 테스트 스크립트를 Claude가 하드웨어 설계도와 핀 배치도를 분석하여 자동으로 생성하고 실행합니다. 또한 실제 장비에서 발생하는 데이터를 디지털 트윈과 실시간으로 비교하여 펌웨어 오류나 신호 무결성 문제를 조기에 감지합니다.\n\n이러한 도입을 통해 UST는 설계 단계에서 발생할 수 있는 결함을 더 빠르게 찾아내고 반도체 검증 속도를 높이는 것을 목표로 합니다. 실제로 기존 iDEC 플랫폼은 테스트 자동화를 통해 검증 주기를 50%에서 70%까지 단축한 성과를 보였으며, Claude의 도입으로 이러한 프로세스는 더욱 가속화될 전망입니다. 이는 복잡한 제조 공정에서 실수를 줄이고 하드웨어와 소프트웨어를 하나의 통합된 시스템으로 연결하는 데 중요한 역할을 합니다.",
+    "url": "https://www.anthropic.com/news/ust-claude",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -1466,102 +1535,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/7/3/this-week-in-rails",
-    "title": "ProxyLogger, MIME deprecations, and more fixes",
-    "summary": "Hi, it’s Emmanuel Hayford. Let’s explore this week’s changes in the Rails codebase.\nMake add_foreign_key(if_not_exists: true) reversible \nadd_foreign_key ..., if_not_exists: true produced remove_forei",
-    "aiSummary": "이번 주 Rails 코드베이스에는 마이그레이션, ActiveJob, 캐시, 데이터베이스 처리 등 다양한 영역에 걸쳐 개선 사항이 업데이트되었습니다.\n\n먼저 add_foreign_key에 if_not_exists 옵션을 사용할 때 마이그레이션 되돌리기 작업이 정상적으로 수행되지 않던 문제가 해결되었습니다. 이제는 반대 작업 시 if_exists 옵션으로 올바르게 변환되어 안정적인 롤백이 가능합니다.\n\nActiveJob의 retry_on 메서드에서는 wait 옵션에 Float 타입을 사용할 수 있게 변경되었습니다. 이전에는 값이 Integer로 변환되어 소수점이 잘리는 문제가 있었으나 이제는 정확한 시간 설정이 가능하며, 지원하지 않는 타입 전달 시 런타임이 아닌 잡 클래스 로딩 단계에서 오류를 발생시켜 문제를 사전에 방지합니다.\n\n새롭게 도입된 ActiveSupport::ProxyLogger는 표준 Logger 인터페이스를 대부분 지원하며 특정 레벨의 로그만 필터링하여 전달하는 기능을 제공합니다. 또한 Mime 관련 상수인 Mime::SET, Mime::LOOKUP, Mime::EXTENSION_LOOKUP은 더 이상 권장되지 않으며, Mime.symbols, Mime.extensions 등 명시적인 공개 메서드 사용이 권장됩니다.\n\nActiveSupport의 캐시 계측 기능도 개선되어 Cache#exist? 호출 시 전달되는 옵션이 알림 페이로드에 포함되도록 변경되었습니다. 이를 통해 캐시 확인 작업에서도 네임스페이스나 버전 정보 등을 일관되게 추적할 수 있습니다.\n\n데이터베이스 처리와 관련해서는 PostgreSQL의 timestamp 및 time 컬럼에 대해 기본 정밀도를 6으로 설정하도록 개선되었습니다. Active Record는 이제 SQL 문자열 파싱 대신 typmod 값을 직접 참조함으로써 데이터베이스의 실제 동작과 컬럼 메타데이터 간의 일관성을 확보하게 되었습니다. 마지막으로 Product Reviews 튜토리얼이 새롭게 추가되는 등 총 26명의 기여자가 이번 업데이트에 참여했습니다.",
-    "url": "https://rubyonrails.org/2026/7/3/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Emmanuel Hayford",
-    "pubDate": "2026-07-03T00:00:00.000Z",
-    "fetchedAt": "2026-07-03T16:49:09.204Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
-    "title": "Improved accuracy and coverage in Copilot usage metrics reports",
-    "summary": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…\nThe post Impro",
-    "aiSummary": "GitHub는 Copilot usage metrics API에 세 가지 주요 개선 사항을 적용하여 보고서의 정확성과 포괄성을 높였습니다.\n\n이번 업데이트를 통해 GitHub Copilot CLI에서 제안된 코드 라인 수를 정확하게 집계할 수 있게 되었습니다. 또한 기존에 보고 대상에서 제외되었던 특정 사용자 활동까지 데이터에 포함하여 전체적인 이용 현황을 더욱 상세하게 파악할 수 있도록 변경되었습니다. \n\n결과적으로 기업 및 관리자는 더욱 정밀해진 데이터를 바탕으로 조직 내 Copilot 도입 효과를 명확하게 분석하고 관리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-02T23:19:06.000Z",
-    "fetchedAt": "2026-07-03T01:07:16.808Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
-    "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
-    "summary": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),…\nThe post Copilot CLI no lon",
-    "aiSummary": "GitHub Actions에서 GitHub Copilot CLI를 사용할 때 더 이상 개인 접근 토큰인 PAT를 생성하고 저장할 필요가 없습니다. 이제 내장된 GITHUB_TOKEN을 사용하여 편리하게 Copilot CLI를 실행할 수 있습니다. 이번 업데이트를 통해 보안성이 강화되었으며 워크플로우 설정 과정이 더욱 간소화되었습니다.",
-    "url": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-02T20:25:32.000Z",
-    "fetchedAt": "2026-07-03T01:07:16.808Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-07-02-5",
-    "title": "PHP 8.5.8 Released!",
-    "summary": "The PHP development team announces the immediate availability of PHP 8.5.8. This is a security release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.8 p",
-    "aiSummary": "PHP 개발팀은 보안 업데이트를 포함한 PHP 8.5.8 버전을 공식 발표했습니다. 이번 릴리스는 보안을 강화하기 위한 목적이 크므로 모든 PHP 8.5 사용자는 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지를 통해 제공되며 상세한 변경 사항은 공식 ChangeLog에서 확인할 수 있습니다.",
-    "url": "https://www.php.net/index.php#2026-07-02-5",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-07-02T19:55:50.000Z",
-    "fetchedAt": "2026-07-03T16:49:09.204Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.0.16",
-    "title": "1.0.16",
-    "summary": "Improved the /tasks detail panel to automatically scroll to the bottom as new background task logs stream in, and default to the latest output when opened while preserving scroll position if scrolled ",
-    "aiSummary": "이번 업데이트를 통해 tasks 상세 패널의 편의성이 향상되었습니다. 배경 작업 로그가 스트리밍될 때 자동으로 하단으로 스크롤되며, 패널을 열 때 기본적으로 최신 출력 내용을 보여주되 사용자가 수동으로 스크롤을 올렸을 경우에는 현재 위치를 유지하도록 개선되었습니다.\n\n모델 생성 과정에서의 안정성도 강화되었습니다. 일시적인 오류가 발생할 경우 클라이언트 측에서 자동으로 재시도하는 기능을 추가하여 연결 신뢰성을 높였습니다.\n\n버그 수정 사항으로는 동적으로 정의된 subagent의 문제를 해결했습니다. 정의 형식을 기존 JSON에서 Markdown으로 변경하여 subagent 호출 실패 문제를 방지했습니다. 또한 sleep 명령어와 같이 빈 출력을 생성하는 배경 작업이나 터미널 명령 실행 시 발생하던 충돌 현상을 수정했습니다.\n\n그 외에도 시스템 안정화를 위한 최적화가 이루어졌습니다. 배경 동기화를 위한 공유 SQLite 요약 저장소를 통합하고 CLI 종료 시 발생하는 goroutine 및 데이터베이스 연결 누수를 해결하여 리소스 낭비를 방지했습니다. 아울러 pre-tool hook에서 빈 문자열이 반환될 경우 발생하는 권한 관리자 오류를 안전하게 처리하도록 개선했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.0.16",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "yaoshengzhe",
-    "pubDate": "2026-07-02T18:37:15.000Z",
-    "fetchedAt": "2026-07-03T01:07:16.808Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
-    "title": "Copilot agent session streaming is now in public preview",
-    "summary": "GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data re",
-    "aiSummary": "GitHub Enterprise Cloud의 Enterprise Managed Users를 대상으로 Copilot agent session streaming 기능이 공개 프리뷰로 전환되었습니다.\n\n이제 github.com에서 실행되는 Cloud agents를 비롯하여 다양한 데이터 상주 배포 환경 등 모든 Copilot 클라이언트에서 agent 세션 데이터에 접근할 수 있게 되었습니다.\n\n해당 기능을 통해 개발자는 여러 Copilot 환경 전반에서 일관된 세션 데이터를 확인하고 활용할 수 있으며 이는 워크플로우의 가시성과 운영 효율성을 높이는 데 기여합니다.",
-    "url": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-02T18:05:05.000Z",
-    "fetchedAt": "2026-07-03T01:07:16.808Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

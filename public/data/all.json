@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+    "title": "OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",
+    "summary": "OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s…\nThe post OpenAI’s GPT-5.6 So",
+    "aiSummary": "GitHub Copilot에 OpenAI의 최신 모델인 GPT-5.6 제품군이 새롭게 도입되었습니다.\n\n이번에 공개된 GPT-5.6은 Sol, Terra, Luna라는 세 가지 변형 모델로 구성되어 있으며 사용자는 각 작업의 성격과 복잡도에 맞춰 적절한 모델을 선택하여 활용할 수 있습니다. \n\n각 모델은 개발 환경에서 코드 생성 및 최적화를 보다 효율적으로 지원하도록 설계되었으며 이를 통해 사용자들은 더욱 정교한 AI 기반 코딩 환경을 경험할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-09T16:41:29.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview/",
     "title": "Safely run AI-generated code in Cloud Run sandboxes",
     "summary": "Here’s a question we hear often at Google Cloud: How do you safely run AI-generated code or untrusted binaries without putting your host application, data, and cloud credentials at risk? In other word",
@@ -96,6 +112,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+    "aiSummary": "Microsoft 365 Copilot에 새로운 모델인 GPT-5.6이 도입되어 전반적인 AI 성능이 강화되었습니다.\n\n이제 Word, Excel, PowerPoint, Chat, Cowork 등 주요 서비스에서 GPT-5.6을 활용하여 더욱 빠르고 높은 품질의 작업 결과물을 생성할 수 있게 되었습니다.\n\n이번 업데이트는 사용자의 업무 효율성을 높이고 생산성을 극대화하기 위한 목적으로 이루어졌습니다.",
+    "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-07-09T13:00:00.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://openai.com/index/gpt-5-6",
     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
     "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
@@ -176,6 +209,42 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/hard-questions",
+    "title": "Inviting hard questions",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsInviting hard questionsJul 9, 2026Who decides the rules for AI? Can AI give my children a better future? Does AI make the world a more dangerou",
+    "aiSummary": "Anthropic은 AI가 사회와 개인의 삶에 미칠 영향에 대해 대중이 가지는 기대와 우려를 경청하고 이를 책임 있게 해결하겠다는 의지를 표명했습니다. 많은 이들이 AI가 노동의 생산성을 높이고 과학적 난제를 해결할 잠재력을 긍정적으로 평가하는 반면, 일자리 감소나 인간의 주체성 상실과 같은 부작용에 대해서는 심각한 우려를 표하고 있습니다.\n\nPublic Benefit Corporation으로서 Anthropic은 AI의 위험을 완화하고 혜택을 극대화하기 위해 그간 AI 안전장치 투자, 모델 정렬 연구, 과학자를 위한 모델 무상 제공 등의 활동을 이어왔습니다. 특히 기술 개발의 공익성을 확보하기 위해 Anthropic Institute를 설립하고 Long-Term Benefit Trust를 통한 외부 감독을 수행해 왔습니다.\n\n이번에 새롭게 추진하는 이니셔티브를 통해 Anthropic은 AI가 사회, 직업, 가족, 과학 발전 등에 미치는 영향에 대한 대중의 가장 어려운 질문들을 직접 수렴합니다. Anthropic은 제기된 질문들에 대해 구체적인 대응 방안을 마련하고, 그 이행 과정을 투명하게 공개하며 목표 달성 과정에서 직면하는 한계까지도 솔직하게 공유할 계획입니다.",
+    "url": "https://www.anthropic.com/news/hard-questions",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/ust-claude",
+    "title": "UST is bringing Claude to physical AI",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeCase StudyUST is bringing Claude to physical AIJul 9, 2026Before a factory commits to manufacturing millions of chips, engineers stress-test the design in t",
+    "aiSummary": "기술 및 엔지니어링 서비스 기업인 UST가 물리적 AI 분야에 Anthropic의 Claude를 도입합니다. 물리적 AI란 반도체, 자동차, IoT 기기 등을 제조하는 과정의 장비와 엔지니어링 프로세스에 지능을 결합하는 것을 의미하며, UST는 자사의 전 세계 엔지니어 및 컨설턴트 2만 명을 대상으로 Claude 활용 교육을 진행할 예정입니다.\n\nUST는 자사의 하드웨어 및 실리콘 검증 플랫폼인 iDEC에 Claude Code를 추론 계층으로 통합합니다. 기존에는 엔지니어들이 직접 작성하던 테스트 스크립트를 Claude가 하드웨어 설계도와 핀 배치도를 분석하여 자동으로 생성하고 실행합니다. 또한 실제 장비에서 발생하는 데이터를 디지털 트윈과 실시간으로 비교하여 펌웨어 오류나 신호 무결성 문제를 조기에 감지합니다.\n\n이러한 도입을 통해 UST는 설계 단계에서 발생할 수 있는 결함을 더 빠르게 찾아내고 반도체 검증 속도를 높이는 것을 목표로 합니다. 실제로 기존 iDEC 플랫폼은 테스트 자동화를 통해 검증 주기를 50%에서 70%까지 단축한 성과를 보였으며, Claude의 도입으로 이러한 프로세스는 더욱 가속화될 전망입니다. 이는 복잡한 제조 공정에서 실수를 줄이고 하드웨어와 소프트웨어를 하나의 통합된 시스템으로 연결하는 데 중요한 역할을 합니다.",
+    "url": "https://www.anthropic.com/news/ust-claude",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "fetchedAt": "2026-07-10T01:03:32.166Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
