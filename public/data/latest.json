@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+    "title": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
+    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0,…\n",
+    "aiSummary": "GitHub의 정적 분석 엔진인 CodeQL이 2.26.0 버전으로 업데이트되었습니다. 이번 업데이트의 핵심은 Kotlin 2.4.0에 대한 공식 지원이 추가된 점입니다. 이로써 Kotlin 최신 버전을 사용하는 개발 프로젝트에서도 한층 강화된 보안 코드 분석을 수행할 수 있게 되었습니다.\n\n또한 이번 버전에는 AI 프롬프트 인젝션 탐지 기능이 새롭게 도입되었습니다. 이는 최근 생성형 AI를 활용한 애플리케이션 개발이 증가함에 따라 발생할 수 있는 보안 취약점을 사전에 식별하고 대응하기 위한 조치입니다. 개발자들은 이번 업데이트를 통해 AI 모델과 상호작용하는 코드의 안전성을 더욱 효과적으로 확보할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-10T20:40:56.000Z",
+    "fetchedAt": "2026-07-11T00:14:38.779Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types",
+    "title": "Clearer names for secret scanning detector types",
+    "summary": "To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change…\nThe post Clearer names for s",
+    "aiSummary": "GitHub가 secret scanning 기능의 탐지기 유형 명칭을 보다 직관적으로 변경합니다. 이번 변경은 각 탐지기가 비밀 정보를 찾아내는 방식과 원리를 사용자가 더 명확하게 이해할 수 있도록 돕기 위해 진행되었습니다. 명칭 변경은 탐지 기술의 기능을 보다 정확히 반영하는 방향으로 이루어지며, 이를 통해 보안 작업의 효율성과 투명성을 높일 예정입니다.",
+    "url": "https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-10T20:06:10.000Z",
+    "fetchedAt": "2026-07-11T00:14:38.779Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/contributing-to-uk-financial-sector-resilience-as-a-critical-third-party/",
     "title": "Contributing to U.K. financial sector resilience as a critical third party",
     "summary": "At Google Cloud, we take our role in the financial ecosystem very seriously. We firmly believe that operational resilience is essential to driving and sustaining responsible innovation.\nToday, we mark",
@@ -64,6 +96,22 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-07-10-per-user-states-for-multi-user-budgets-in-the-rest-api",
+    "title": "Per-user states for multi-user budgets in the REST API",
+    "summary": "You can now retrieve every user’s progress against a multi-user budget from a single REST API endpoint. This makes it much faster to find who is close to their limit…\nThe post Per-user states for mult",
+    "aiSummary": "GitHub의 REST API에 다중 사용자 예산 내 각 사용자의 상태를 조회할 수 있는 기능이 추가되었습니다.\n\n이제 단일 REST API 엔드포인트를 통해 다중 사용자 예산에 대한 모든 사용자의 진행률을 한 번에 확인할 수 있습니다. 이를 통해 예산 한도에 근접한 사용자를 더욱 신속하게 파악하고 관리하는 것이 가능해졌습니다.",
+    "url": "https://github.blog/changelog/2026-07-10-per-user-states-for-multi-user-budgets-in-the-rest-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-10T15:07:23.000Z",
+    "fetchedAt": "2026-07-11T00:14:38.779Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=50215",
     "title": "Running DuckDB as a MySQL 9.7 storage engine",
     "summary": "ducksdb-mysql-engine is an experimental build of MySQL 9.7 where a table you mark ENGINE=DuckDB answers analytical queries from DuckDB instead of InnoDB. Same server, same connection, no second copy o",
@@ -110,6 +158,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/side-chat",
+    "title": "Side Chats and Conversation Search",
+    "summary": "3.11 Jul 10, 2026 · ChangelogSide Chats and Conversation SearchThis release makes it easier to stay in flow with side chats that run alongside your main chat, the ability to search agent transcripts, ",
+    "aiSummary": "Cursor가 발표한 최신 업데이트를 통해 메인 대화 흐름을 방해하지 않고 별도의 질문이나 아이디어를 탐색할 수 있는 Side Chats 기능이 추가되었습니다. /side나 /btw 명령어를 통해 생성되는 이 기능은 메인 대화의 맥락을 유지하면서 독립적인 상담을 진행하고 필요 시 메인 스레드로 내용을 다시 가져올 수 있게 합니다.\n\n과거 대화 내용을 더욱 빠르게 찾을 수 있도록 개선된 대화 검색 기능도 도입되었습니다. Agents Window 내에서 커맨드 팔레트를 통해 전체 기록을 검색하거나 Cmd+F를 사용하여 특정 대화 내의 텍스트를 정밀하게 탐색할 수 있습니다. 이를 위해 로컬 검색 인덱스를 구축하여 대규모 대화 기록에서도 빠른 성능을 제공합니다.\n\n프로젝트 및 저장소 선택기인 Picker는 사용자 경험을 개선하는 방향으로 재설계되었습니다. 이제 사용자는 화면을 벗어나지 않고도 GitHub, GitLab, Azure DevOps 연동과 같은 작업을 수행할 수 있으며, 검색 범위를 로컬 컴퓨터나 클라우드 등 작업 환경에 맞춰 세분화할 수 있습니다. 또한 저장소 그룹화와 브랜치 탐색 기능이 강화되어 더욱 직관적인 작업 환경을 지원합니다.\n\nCloud agents를 위한 새로운 훅 기능이 추가되어 에이전트의 사고 과정, 프롬프트, 응답 및 서브 에이전트 실행을 세밀하게 관찰하고 제어할 수 있게 되었습니다. 이러한 개선 사항을 통해 사용자는 에이전트의 추론 과정을 더 잘 이해하고, 오류를 스스로 수정하는 루프를 구성하는 등 보다 정교한 개발 환경을 구축할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/side-chat",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "fetchedAt": "2026-07-11T00:14:38.779Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
