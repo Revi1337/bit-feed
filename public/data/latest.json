@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/",
+    "title": "powa-archivist 5.2.0 is out!\n",
+    "summary": "Tainan, Taiwan - Sun 12 Jul 2026\npowa-archivist 5.2.0\nThe PoWA team is pleased to announce the release of the version 5.2.0 of\npowa-archivist, the core\nextension of the PoWA project.\nPoWA (PostgreSQL ",
+    "aiSummary": "PostgreSQL 성능 분석 도구인 PoWA의 핵심 확장 기능 powa-archivist가 버전 5.2.0으로 업데이트되었습니다.\n\n이번 업데이트의 주요 변화는 PostgreSQL 19에 대한 지원이 추가된 점입니다. 이와 함께 새로운 통계 뷰인 pg_stat_recovery와 pg_stat_lock 기능을 활용할 수 있게 되어 더욱 정밀한 성능 모니터링이 가능합니다.\n\nPoWA는 PostgreSQL 인스턴스의 메트릭을 수집 및 집계하여 실시간 차트와 그래프로 시각화하며, 인덱스 최적화 제안 등을 통해 서버 성능 튜닝을 지원합니다. 상세한 정보는 공식 문서나 GitHub 저장소에서 확인할 수 있으며, 버그 수정 및 새로운 기능 제안을 위한 커뮤니티 기여를 장려하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-12T00:00:00.000Z",
+    "fetchedAt": "2026-07-12T16:16:34.206Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
     "title": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
     "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0,…\n",
@@ -1695,70 +1711,6 @@
     "author": "PostgreSQL News",
     "pubDate": "2026-07-06T00:00:00.000Z",
     "fetchedAt": "2026-07-06T11:46:00.327Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_dbms_errlog-v24-released-3331/",
-    "title": "pg_dbms_errlog v2.4 released\n",
-    "summary": "Bangkok, Thailand - June 23, 2026\nPostgreSQL DBMS_ERRLOG compatibility extension\nThe pg_dbms_errlog extension provides the infrastructure that enables you to create an error logging table so that DML ",
-    "aiSummary": "PostgreSQL용 확장 프로그램인 pg_dbms_errlog v2.3과 v2.4 버전이 새롭게 출시되었습니다. 이번 업데이트는 PostgreSQL 18 및 19 버전과의 호환성을 확보하고 기존의 주요 버그 2건을 수정하는 유지보수에 초점을 맞추었습니다.\n\npg_dbms_errlog는 DML 작업 중 오류가 발생해도 전체 작업이 중단되거나 롤백되지 않도록 오류 로그 테이블을 생성하는 기능을 제공합니다. 이를 위해 pg_statement_rollback 확장을 사용하거나 DML 스크립트 내에서 SAVEPOINT를 관리해야 합니다. 또한 동적 공유 메모리를 이용한 오류 큐잉과 백그라운드 워커를 통해 로그를 기록하며, 원활한 작동을 위해 max_worker_processes 설정값을 적절히 높여야 합니다.\n\n오류 로깅은 쿼리 단위 혹은 트랜잭션 종료 시점에 동기 방식으로 처리할 수 있습니다. 커밋된 트랜잭션의 오류만을 기록하기 위해서는 트랜잭션 단위의 기본 로깅 방식을 권장합니다. 동기 로깅을 비활성화할 경우 백그라운드 워커가 깨어나거나 dbms_errlog.publish_queue 함수가 호출될 때 로깅이 수행됩니다.\n\n본 프로젝트는 HexaCluster가 유지보수하고 Gilles Darold가 주도하여 개발한 오픈 소스로서 PostgreSQL 라이선스를 따릅니다. 상세 정보나 다운로드는 GitHub 공식 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg_dbms_errlog-v24-released-3331/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-05T00:00:00.000Z",
-    "fetchedAt": "2026-07-05T16:30:59.373Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg-cdc-frustratingly-simple-postgres-change-data-capture-to-aws-s3-3315/",
-    "title": "pg-cdc Frustratingly simple Postgres change data capture to AWS S3\n",
-    "summary": "Core Features\ngit Repo: https://github.com/burnside-project/pg-cdc \npg-cdc is not just replication. pg-cdc streams Postgres Write Ahead Logs(WAL) out of production Postgres into typed, immutable, time",
-    "aiSummary": "pg-cdc는 Postgres의 Write Ahead Logs를 스트리밍하여 AWS S3 상의 Apache Iceberg 테이블로 변환하는 도구입니다. 이 도구는 별도의 JVM 없이 단일 바이너리로 실행되며, 데이터베이스에 직접 접근하지 않고도 데이터를 안전하게 추출할 수 있는 환경을 제공합니다.\n\n생성된 데이터는 AWS Glue Catalog에 자동으로 등록되며, 모든 데이터 읽기 권한은 AWS Lake Formation을 통해 엄격하게 관리됩니다. 데이터베이스 연결 문자열이나 인증 정보가 필요 없으므로, 분석가나 AI 에이전트가 운영 중인 데이터베이스에 영향을 주지 않고 안전하게 데이터를 활용할 수 있습니다.\n\n또한 데이터는 불변의 Parquet 형식으로 저장되며, Apache Iceberg의 스냅샷 기능을 통해 별도의 데이터베이스 브랜칭 없이도 과거 데이터를 조회하는 타임 트래블 기능을 지원합니다. 데이터베이스로의 역방향 경로가 차단되어 있어 운영 환경의 데이터 무결성이 물리적으로 보장됩니다.",
-    "url": "https://www.postgresql.org/about/news/pg-cdc-frustratingly-simple-postgres-change-data-capture-to-aws-s3-3315/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-05T00:00:00.000Z",
-    "fetchedAt": "2026-07-05T16:30:59.373Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/credcheck-v50-has-been-released-3329/",
-    "title": "credcheck v5.0 has been released\n",
-    "summary": "Bangkok, Thailand - June 21, 2026\nPostgreSQL credcheck extension\nThe credcheck PostgreSQL extension provides few general credential checks, which will be evaluated during the user creation, during the",
-    "aiSummary": "HexaCluster가 개발한 PostgreSQL용 확장 프로그램인 credcheck v5.0이 새롭게 출시되었습니다. 이 도구는 사용자 생성, 비밀번호 변경, 사용자 이름 변경 과정에서 보안 정책을 강제하여 데이터베이스의 접근 제어를 강화하는 역할을 수행합니다. 주요 기능으로는 비밀번호 복잡성 검사, 만료일 설정, 비밀번호 재사용 정책 수립, 인증 실패 횟수 및 지연 시간 설정 등이 포함되어 있습니다.\n\n이번 v5.0 업데이트는 PostgreSQL v19와의 호환성을 확보하였으며, 비밀번호 이력 관리 기능을 복제 인식형으로 개선했습니다. 또한 사용자들이 보고한 기존 문제들을 수정하고 credcheck.disallow_change_password 및 credcheck.superuser_nocheck 설정에 대한 상세 정보를 추가했습니다. 특히 credcheck.superuser_nocheck가 활성화된 경우 슈퍼유저에 대한 CREATE 또는 ALTER ROLE 검사를 비활성화하도록 변경되었습니다. 해당 확장 프로그램을 업그레이드하기 위해서는 PostgreSQL의 재시작이 필요하며, 상세한 변경 사항은 공식 GitHub 저장소를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/credcheck-v50-has-been-released-3329/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-05T00:00:00.000Z",
-    "fetchedAt": "2026-07-05T16:30:59.373Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_dbms_lock-v20-has-been-released-3332/",
-    "title": "pg_dbms_lock v2.0 has been released\n",
-    "summary": "Bangkok, Thailand - June 17, 2026\nPostgreSQL DBMS_LOCK compatibility extension\nPostgreSQL extension to manages advisory locks in a way compatible to Oracle DBMS_LOCK package.\nThis extension uses Postg",
-    "aiSummary": "PostgreSQL에서 Oracle의 DBMS_LOCK 패키지 기능을 사용할 수 있도록 지원하는 확장 프로그램인 pg_dbms_lock v2.0이 출시되었습니다. 이번 업데이트는 PostgreSQL 19 버전에 대한 호환성을 확보하고, pg_background v2 이상의 API를 지원하는 유지보수 목적의 릴리스입니다. 단, 이전 버전인 pg_background 2.0 미만 버전과는 호환되지 않으므로 주의가 필요합니다.\n\n해당 확장은 PostgreSQL의 advisory lock을 활용하여 Oracle의 DBMS_LOCK과 유사한 잠금 모드, 타임아웃, 커밋 시 해제 설정을 구현합니다. 현재 ALLOCATE_UNIQUE, REQUEST, RELEASE, SLEEP과 같은 저장 프로시저를 지원하며, 이를 통해 외부 장치 제어, 병렬 애플리케이션 동기화, 트랜잭션 종료 감지 등 다양한 기능을 수행할 수 있습니다. 다만, DBMS_LOCK.CONVERT 함수와 일부 지원되지 않는 잠금 모드는 여전히 구현에서 제외되어 있습니다.\n\n본 프로젝트는 Gilles Darold가 Ora2Pg 개선의 일환으로 제작하였으며, 현재는 HexaCluster에 의해 유지보수되는 오픈 소스입니다. PostgreSQL 라이선스를 따르며 GitHub를 통해 소스 코드 다운로드 및 기능 개선 참여가 가능합니다.",
-    "url": "https://www.postgresql.org/about/news/pg_dbms_lock-v20-has-been-released-3332/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-05T00:00:00.000Z",
-    "fetchedAt": "2026-07-05T16:30:59.373Z",
     "tags": [
       "PostgreSQL",
       "SQL"

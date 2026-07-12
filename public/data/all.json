@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/",
+    "title": "powa-archivist 5.2.0 is out!\n",
+    "summary": "Tainan, Taiwan - Sun 12 Jul 2026\npowa-archivist 5.2.0\nThe PoWA team is pleased to announce the release of the version 5.2.0 of\npowa-archivist, the core\nextension of the PoWA project.\nPoWA (PostgreSQL ",
+    "aiSummary": "PostgreSQL 성능 분석 도구인 PoWA의 핵심 확장 기능 powa-archivist가 버전 5.2.0으로 업데이트되었습니다.\n\n이번 업데이트의 주요 변화는 PostgreSQL 19에 대한 지원이 추가된 점입니다. 이와 함께 새로운 통계 뷰인 pg_stat_recovery와 pg_stat_lock 기능을 활용할 수 있게 되어 더욱 정밀한 성능 모니터링이 가능합니다.\n\nPoWA는 PostgreSQL 인스턴스의 메트릭을 수집 및 집계하여 실시간 차트와 그래프로 시각화하며, 인덱스 최적화 제안 등을 통해 서버 성능 튜닝을 지원합니다. 상세한 정보는 공식 문서나 GitHub 저장소에서 확인할 수 있으며, 버그 수정 및 새로운 기능 제안을 위한 커뮤니티 기여를 장려하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-12T00:00:00.000Z",
+    "fetchedAt": "2026-07-12T16:16:34.206Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
     "title": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
     "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0,…\n",
