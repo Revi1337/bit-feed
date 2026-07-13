@@ -1,5 +1,197 @@
 [
   {
+    "id": "795943e111b58ed576073f2b1f72bcebff6b9306",
+    "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+    "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem wi",
+    "aiSummary": "AWS Builder Center가 출시 1주년을 맞이했습니다. 지난 2025년 7월 9일 출범한 이후, 단순한 커뮤니티 허브에서 샌드박스 환경과 워크숍, Spaces, Builders Library를 아우르는 종합 생태계로 성장했습니다.\n\nAWS Security Hub에서는 네트워크 스캐닝 기능을 새롭게 도입했습니다. 이를 통해 사용자는 네트워크 구성을 보다 체계적으로 점검하고 보안 태세를 강화할 수 있습니다.\n\nLoom for AWS 서비스가 추가되어 개발자와 운영팀의 생산성 향상을 돕습니다. 이번 업데이트는 AWS가 제공하는 도구와 플랫폼의 활용도를 높이고 사용자의 개발 경험을 개선하는 데 중점을 둡니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "2026-07-13T16:18:20.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
+    "title": "Key findings from the 2026 Public Sector M-Trends report and beyond",
+    "summary": "In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machi",
+    "aiSummary": "2026 Public Sector Threat Landscape: M-Trends and Beyond 보고서는 공공 부문의 보안 환경이 기존의 경계 방어 방식에서 벗어나 머신 스피드로 작동하는 위협에 대응하는 체계로 전환되어야 함을 강조합니다. Mandiant의 2025년 사고 조사 데이터를 분석한 결과, 초기 접근 브로커가 랜섬웨어 운영자에게 권한을 넘기는 시간이 불과 22초로 단축되어 인간의 대응 속도를 완전히 앞지른 것으로 나타났습니다.\n\n보고서는 공격자들이 활용하는 새로운 취약점 경계로 네 가지를 지목했습니다. 첫째, 국가 배후의 해킹 그룹이 5년 이상 탐지되지 않고 장기적으로 잠복하는 지속성 역설 문제입니다. 둘째, 가상화 관리 계층을 직접 공격하여 게스트 수준의 보안 도구를 우회하는 스냅샷 마운팅 기술입니다. 셋째, 서드파티 클라우드 도구의 연동을 통해 서비스 계정이나 OAuth 토큰과 같은 비인간 식별자(NHI)를 탈취하는 SaaS 도미노 현상입니다. 넷째, 정부 헬프 데스크를 겨냥해 비밀번호 재설정 등을 유도하는 비싱 공격의 급증입니다.\n\n이러한 위협에 대응하기 위해 공공 부문은 신뢰를 가정하지 않고 지속적으로 검증하는 보안 교리로의 전환이 필요합니다. Google은 이를 실현하기 위해 세 가지 핵심 역량을 제시합니다. Chrome Enterprise Premium을 통한 컨텍스트 인식 기반의 ID 중심 경계 구축, Google Security Operations와 Google Threat Intelligence를 통합하여 머신 스피드 탐지를 구현하는 에이전트 기반 방어 체계, 그리고 Security Command Center 및 Wiz와의 협력을 통한 가상화 계층의 인프라 강화입니다.\n\n특히 Google Security Operations에 새롭게 추가된 위협 사냥, 탐지 엔지니어링, 서드파티 컨텍스트 전용 AI 에이전트는 실시간 데이터 분석과 자동화를 통해 보안 운영의 효율성을 획기적으로 높여줍니다. 실제로 Pasco Sheriff’s Office와 State of Connecticut 등은 이러한 기술 도입을 통해 파편화된 보안 도구를 통합하고 포렌식 조사 시간을 획기적으로 단축하며 선제적인 보안 태세를 확립하는 성과를 거두었습니다.",
+    "url": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Fernando Tomlinson Jr."
+      ],
+      "title": [
+        "Head of Incident Response"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-13T16:00:00.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/",
+    "title": "Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs",
+    "summary": "How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow ",
+    "aiSummary": "보안 팀의 통제를 벗어난 쉐도우 AI 문제를 해결하기 위해 오픈 소스 프로젝트인 k8s-aibom이 공개되었습니다. 이 도구는 Kubernetes 클러스터 내에서 실행되는 AI 런타임과 프레임워크를 자동으로 탐지하여 표준화된 CycloneDX 1.6 기반의 ML-BOM을 생성하는 가벼운 비특권 컨트롤러입니다.\n\nk8s-aibom은 별도의 사이드카 삽입이나 eBPF 커널 모듈 설치, 개발자 파드 스펙 수정 없이 클러스터 API를 감시합니다. vLLM, Triton, Ollama와 같은 AI 서빙 엔진부터 LangChain, CrewAI와 같은 에이전트 프레임워크, Milvus나 pgvector 등 벡터 데이터베이스까지 폭넓은 AI 스택을 자동으로 식별합니다. 또한 GitOps 워크플로우에 최적화되어 있어 일관된 결과를 생성하며, 인프라 운영 팀의 개입 없이도 AI 워크로드의 상태를 실시간으로 파악할 수 있게 합니다.\n\n해당 컨트롤러는 관리자의 의도와 자동 탐지 결과를 구분하는 신뢰 모델을 제공합니다. 사용자가 설정에 명시한 것을 Declared, 패턴 매칭을 통해 추론된 것을 Inferred, 상세 정보 확인이 어려운 경우를 Unresolved로 분류하여 보안 감사 시 명확한 근거를 제시합니다. 생성된 기록은 서비스 계정 권한과 Google Cloud Storage의 불변 객체 정책을 통해 보호되므로 데이터 변조를 방지하고 신뢰성 높은 감사 로그를 확보할 수 있습니다.\n\n이를 통해 조직은 EU AI Act, NIST AI RMF, ISO/IEC 42001과 같은 글로벌 규제 프레임워크가 요구하는 추적성과 투명성 의무를 보다 효과적으로 준수할 수 있습니다. k8s-aibom은 개발자의 작업 흐름을 방해하지 않으면서도 클러스터 내부의 모든 AI 자산을 가시화하여 거버넌스 및 보안 운영의 공백을 메우는 핵심적인 도구가 될 것으로 보입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Glen Messenger"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-13T16:00:00.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
+    "title": "Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV",
+    "summary": "The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a",
+    "aiSummary": "자동차 산업이 하드웨어 중심에서 소프트웨어 정의 차량인 SDV로 전환됨에 따라, Google은 Android Automotive OS인 AAOS SDV와 Google Cloud를 결합한 포괄적인 AI 네이티브 모빌리티 솔루션을 제시합니다.\n\nAAOS SDV는 차량의 핵심 기능을 물리적 하드웨어와 분리하여 모듈형 서비스 지향 아키텍처를 구현합니다. 이를 통해 차량 내 다양한 서비스를 독립적으로 관리할 수 있으며, 개발 과정에서는 Android Cuttlefish 에뮬레이터를 통해 가상 디지털 트윈을 구축하여 효율적인 서비스 검증이 가능합니다. 특히 이 구조는 인포테인먼트 시스템이 꺼져 있을 때도 원격 모니터링 등의 기능을 저전력으로 유지할 수 있는 장점이 있습니다.\n\n데이터 인프라의 핵심인 Bigtable은 대규모 자동차 텔레메트리 데이터를 실시간으로 처리하며, 초저지연 성능과 확장성을 바탕으로 센서 데이터부터 복잡한 분석 자료까지 통합적으로 관리합니다. 또한, Continuous Materialized Views 기능을 활용해 주요 지표를 사전에 계산함으로써 연산 부하를 줄이고 실시간 이상 탐지를 지원합니다.\n\nValtech가 제공하는 Nexus SDV 플랫폼은 이러한 Google 기술을 기반으로 차량과 클라우드를 연결하는 엔드투엔드 시스템을 구축합니다. 이 플랫폼은 Gemini와 같은 AI 모델을 활용해 운전자의 의도를 파악하고 차량을 제어하는 에이전트 서비스를 구현하며, 예방 정비와 같은 시나리오에서 차량 상태를 사전에 진단하여 능동적인 대응을 가능하게 합니다.\n\n보안 측면에서도 mTLS, Private GKE, Secure AI Framework 등을 도입하여 Defense-in-Depth 모델을 준수합니다. 이러한 통합 아키텍처를 통해 자동차 제조사들은 인프라 구축의 복잡성을 해결하고, AI 기반의 혁신적인 사용자 경험과 브랜드 차별화에 집중할 수 있는 환경을 갖추게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Peter Ivanov"
+      ],
+      "title": [
+        "Managing Director, Valtech Mobility"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-13T16:00:00.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-13-separate-sso-and-organizations-pages-in-settings",
+    "title": "Separate SSO and Organizations pages in Settings",
+    "summary": "We’ve separated the combined SSO & Organizations page in your user settings into two distinct pages: SSO and Organizations. This update makes it easier to find and manage these settings…\nThe post Sepa",
+    "aiSummary": "GitHub의 사용자 설정 메뉴에서 기존에 통합되어 있던 SSO 및 Organizations 페이지가 각각 독립된 페이지로 분리되었습니다. 이번 업데이트를 통해 사용자들은 SSO 설정과 조직 관련 설정을 더욱 명확하게 구분하여 관리할 수 있게 되었습니다. 이를 통해 복잡한 설정 환경을 개선하고 각 항목에 대한 접근성과 관리 효율성을 높였습니다.",
+    "url": "https://github.blog/changelog/2026-07-13-separate-sso-and-organizations-pages-in-settings",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-13T15:57:56.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=720628",
+    "title": "What’s New in ReSharper 2026.2 for VS Code-compatible editors ",
+    "summary": "The last couple of months have been busy ones for ReSharper across VS Code and compatible editors. Between the 2026.1 and 2026.2 releases, we’ve been steadily sharpening the everyday .NET experience –",
+    "aiSummary": "ReSharper 2026.2 버전은 VS Code 및 호환 에디터를 사용하는 .NET 개발자를 위해 데이터 흐름 추적, 호출 체인 탐색, 프로젝트 구조 관리 등 전반적인 개발 생산성 향상에 초점을 맞추어 업데이트되었습니다.\n\n이번 릴리스는 지난 2026.1 버전 이후 개발자들이 일상적으로 수행하는 코드 분석과 탐색 작업을 더욱 효율적으로 지원하도록 개선되었습니다. 사용자는 향상된 도구를 통해 복잡한 프로젝트 내에서 데이터의 이동 경로를 명확히 파악하고 호출 관계를 쉽게 확인할 수 있습니다.\n\n또한 프로젝트 구조를 직관적으로 유지할 수 있는 기능들이 추가되어 코드베이스의 규모가 커지더라도 체계적인 관리가 가능해졌습니다. 이번 업데이트는 .NET 개발 환경에서의 사용자 경험을 최적화하고 코드 작성 및 디버깅 과정을 더욱 간소화하는 데 목적을 두고 있습니다.",
+    "url": "https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-2026-2/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Alexander Kurakin",
+    "pubDate": "2026-07-13T10:40:13.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=720482",
+    "title": "Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here",
+    "summary": "For over a year, the most consistent question from our users and community has been clear: When will the ReSharper extension support debugging? We heard you. And with the 2026.2 release, the first ver",
+    "aiSummary": "JetBrains는 사용자들의 지속적인 요청을 반영하여 2026.2 버전부터 VS Code와 Cursor 환경을 위한 ReSharper 확장 프로그램의 디버깅 기능을 공식적으로 지원합니다.\n\n이번에 새롭게 도입된 디버거는 JetBrains Rider의 핵심 디버깅 엔진을 기반으로 구축되었으며, VS Code 및 Cursor 사용자들이 해당 환경을 벗어나지 않고도 원활하게 .NET 코드를 디버깅할 수 있도록 최적화되었습니다.\n\n그동안 많은 사용자가 기다려온 기능인 만큼, 이번 업데이트를 통해 개발자들은 더욱 통합된 개발 경험을 누릴 수 있게 될 것입니다.",
+    "url": "https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-debugging/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Alexander Kurakin",
+    "pubDate": "2026-07-13T10:39:07.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
+    "title": "Preparing for the post-quantum era: Discover and prioritize now",
+    "summary": "When forming a post-quantum strategy, organizations should take a holistic approach and consider discovery, prioritization, and crypto agility first. A critical step toward successful migration to pos",
+    "aiSummary": "양자 컴퓨터의 발전은 수년 뒤의 일이지만, 암호화된 데이터를 미리 탈취해 나중에 복호화하는 HNDL 공격은 이미 즉각적인 보안 위협이 되고 있습니다. 따라서 기업은 현재 사용 중인 모든 암호화 자산을 식별하고, 해당 자산이 보호하는 정보의 중요도와 기밀 유지 기간을 고려하여 양자 보안 대응 전략을 수립해야 합니다.\n\n성공적인 PQC 전환을 위해서는 전체 인프라와 애플리케이션 내 RSA, ECC와 같은 양자 취약 알고리즘의 사용 현황을 파악하는 정밀한 발견 및 분석 과정이 선행되어야 합니다. 수동 방식은 한계가 있으므로 IBM Guardium Explorer와 같은 자동화 도구를 활용하여 암호화 자산의 의존성과 위험도를 가시화하는 것이 중요합니다.\n\n위험 기반의 우선순위 설정은 핵심입니다. 데이터의 민감도, 기밀 유지 기간, 양자 위험 노출 정도를 평가하여 높은 우선순위의 시스템부터 즉각적인 대응을 시작하고, 점진적인 로드맵을 구축해야 합니다.\n\nHashiCorp의 Vault는 이러한 여정에서 중앙 집중식 비밀 관리, 암호화 서비스, 머신 아이덴티티 관리를 통해 보안 운영을 효율화합니다. Vault는 NIST가 승인한 ML-DSA, SLH-DSA와 같은 포스트 양자 서명 알고리즘을 지원하며, 기존 보안 워크플로우를 대대적으로 재설계하지 않고도 하이브리드 및 멀티 클라우드 환경에서 암호화 민첩성을 확보할 수 있도록 돕습니다.\n\n결론적으로 양자 시대의 대비는 단순히 알고리즘을 교체하는 것이 아니라, 가시성 확보와 전략적 우선순위 결정을 통해 조직의 보안 체력을 높이는 과정입니다. 기업은 지금 즉시 자산 현황을 파악하고 장기적인 PQC 준비를 시작해야 미래의 데이터 유출과 컴플라이언스 위험으로부터 안전할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Rich DuBose",
+    "pubDate": "2026-07-13T07:00:00.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/uvora-a-macos-menu-bar-app-for-finding-laravel-projects",
+    "title": "Uvora: A macOS Menu Bar App for Finding Laravel Projects",
+    "summary": "Uvora is a free macOS menu bar app that indexes your Laravel projects locally and opens any of them from a single keyboard shortcut.\nThe post Uvora: A macOS Menu Bar App for Finding Laravel Projects a",
+    "aiSummary": "Uvora는 macOS 메뉴 바에서 작동하는 무료 애플리케이션으로 사용자의 로컬 환경에 저장된 Laravel 프로젝트를 빠르게 찾아줍니다. 단축키 하나만으로 원하는 프로젝트를 즉시 열 수 있어 개발 작업의 효율성을 높여줍니다. 개발자가 자신의 로컬 환경 내에서 여러 Laravel 프로젝트를 더 편리하게 관리하고 실행할 수 있도록 돕는 도구입니다.",
+    "url": "https://laravel-news.com/uvora-a-macos-menu-bar-app-for-finding-laravel-projects?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-07-13T04:31:15.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
     "title": "crates.io: development update",
     "summary": "Another six months have passed since our last development update, and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then.\n\nSou",
@@ -140,6 +332,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
+    "title": "Announcing the public beta of Vault Kubernetes key management ",
+    "summary": "Kubernetes has become the standard platform for running modern applications, but securing sensitive data inside Kubernetes remains a persistent challenge. \nApplications depend on secrets to function. ",
+    "aiSummary": "HashiCorp은 Kubernetes 환경에서 저장 데이터의 보안을 강화하기 위해 Vault Kubernetes key management의 퍼블릭 베타 버전을 발표하였습니다. 이 서비스는 Kubernetes의 KMS v2 호환 플러그인인 vault-kube-kms를 활용하여 Kubernetes API 서버가 etcd에 저장된 데이터를 암호화할 때 Vault Enterprise를 KMS 공급자로 사용할 수 있게 합니다.\n\n기존의 Kubernetes Secret은 base64로 인코딩되어 저장되는 경우가 많아 보안상 취약점이 존재했습니다. 새로운 기능은 봉투 암호화 패턴을 적용하여 Kubernetes가 데이터 암호화 키를 생성하고 관리하는 동안, 실제 보안을 책임지는 상위 수준의 키 암호화 키는 Vault가 중앙에서 통제하도록 분리합니다. 이를 통해 보안 팀은 키 관리와 정책 적용, 감사, 키 회전 등을 독립적으로 수행할 수 있습니다.\n\n이 모델은 보안과 성능을 모두 고려한 구조로 설계되었습니다. Kubernetes는 DEK를 사용하여 고성능 암호화 및 복호화 작업을 처리하고, Vault는 transit secrets engine을 통해 중요한 키 암호화 키를 보호합니다. 이러한 책임 분리는 제로 트러스트 아키텍처를 지향하는 조직에 필수적인 요소이며, 클러스터 내부의 키 관리 의존성을 낮추는 효과를 제공합니다.\n\n이번 베타 서비스는 Red Hat OpenShift를 포함한 엔터프라이즈 환경이나 규제 준수가 필요한 플랫폼, 다중 클러스터 운영 환경에서 큰 강점을 발휘합니다. 특히 자동화된 인프라와 AI 에이전트 등 비인간 식별 요소가 급증하는 환경에서 기계 중심의 상호작용을 안전하게 보호하는 토대가 될 것입니다. 사용자는 Kubernetes의 EncryptionConfig와 kube-apiserver 설정을 통해 해당 기능을 도입할 수 있으며, 현재 Vault Enterprise 사용자를 대상으로 제공됩니다.",
+    "url": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Rich DuBose",
+    "pubDate": "2026-07-10T14:00:00.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -400,6 +608,22 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
+    "title": "Building resiliency into Boundary session recording",
+    "summary": "In modern enterprise security, privileged access management (PAM) is a core compliance and cybersecurity mandate. At its center lies session recording — the continuous ingestion of an immutable, crypt",
+    "aiSummary": "HashiCorp Boundary의 세션 기록 기능은 현대 기업의 보안 및 규정 준수를 위한 핵심 요소로, SSH 및 RDP 프로토콜에 대해 단순한 화면 캡처가 아닌 정확한 바이트 스트림 단위의 기록을 제공합니다. 기록된 데이터는 BSR 형식으로 저장되며, 암호화 서명을 통해 데이터의 무결성을 보장하고 KMS를 통해 안전하게 관리됩니다.\n\n보안 환경에서 기록의 누락은 단순한 기술적 결함을 넘어 법적 책임, 운영상의 비용 증가, 그리고 규정 위반으로 이어지는 심각한 문제입니다. 네트워크 단절이나 디스크 용량 부족과 같은 예기치 못한 상황에서 기록이 유실될 경우 감사 추적의 사각지대가 발생하며, 이는 보안 사고 발생 시 정확한 원인 파악과 책임 소재 규명을 어렵게 만듭니다.\n\n이를 방지하기 위해 Boundary는 세션 기록의 회복 탄력성을 높이는 다양한 기술적 메커니즘을 적용하고 있습니다. 디스크 공간 부족에 대비하여 사전에 여유 공간을 확보하고 주기적인 모니터링을 수행하며, 세션 종료 후 원격 스토리지로 데이터를 자동으로 동기화하고 로컬 데이터를 삭제하는 방식을 사용합니다. 또한 원격 스토리지와의 연결 상태를 실시간으로 감시하고, 서비스 장애로 인해 중단된 기록이 발생할 경우 재시작 시 자동으로 데이터를 복구하여 업로드하는 자가 치유 워크플로우를 갖추고 있습니다.\n\n이러한 Boundary의 회복 탄력성 프레임워크는 제로 갭 보안을 지향하며, 보안 팀이 수동적인 데이터 복구 작업에서 벗어나 고도화된 위협 관리와 효율적인 감사 업무에 집중할 수 있도록 지원합니다. 향후 Boundary는 지원 범위를 Kubernetes, 데이터베이스, HTTP/HTTPS 등으로 확대하고 명령 인덱싱과 같은 고급 기능을 도입하여 보안 감사 수준을 지속적으로 강화할 계획입니다.",
+    "url": "https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Krishnan Ramachandran",
+    "pubDate": "2026-07-09T07:09:00.000Z",
+    "fetchedAt": "2026-07-13T17:25:35.772Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -1518,54 +1742,6 @@
     "tags": [
       "Spring",
       "Java"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
-    "title": "Shift into high gear with agents: Securing the software-defined vehicle",
-    "summary": "The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle ",
-    "aiSummary": "자동차 산업이 소프트웨어 정의 차량인 SDV 시대로 전환됨에 따라 Google Cloud와 Valtech은 차세대 차량용 플랫폼인 Nexus SDV를 공동 개발하였습니다. Nexus SDV는 Android Automotive OS와 긴밀하게 통합된 오픈 소스 기반의 AI 플랫폼으로 최대 1억 대의 기기를 관리할 수 있는 확장성을 갖추고 있습니다.\n\nNexus AI는 Gemini 모델과 Gemini Enterprise Agent Platform을 활용하여 차량 내 데이터를 실시간으로 분석하고 자율적인 의사결정과 개인화된 운전자 지원을 제공하는 에이전트 역할을 수행합니다. 또한 Arm 기반 컴퓨팅과 Bigtable 스토리지를 사용하여 데이터 처리 비용을 절감하고 클라우드 네이티브 아키텍처를 통해 제조사의 운영 효율성을 극대화합니다.\n\n보안 측면에서는 Google Cloud의 제로 트러스트 아키텍처를 바탕으로 다층 방어 모델을 구현합니다. mTLS와 PKI를 통한 차량 인증, Keycloak을 활용한 신원 관리, Secret Manager를 통한 암호화 키 보호, 그리고 비공개 GKE 클러스터를 통한 네트워크 격리를 통해 엄격한 보안을 유지합니다. \n\n데이터 접근에 있어서는 Data API를 통해 직접적인 접근을 차단하고 추상화된 보안 게이트웨이를 거치게 함으로써 데이터 노출 위험을 최소화합니다. 또한 SAIF 가이드를 준수하여 데이터 프라이버시와 모델 거버넌스를 강화한 안전한 AI 환경을 제공합니다. \n\nNexus SDV는 이처럼 제조사가 복잡한 인프라 비용 부담 없이 안전하고 지능적인 차량 서비스를 빠르게 확장할 수 있도록 지원하는 개방형 프레임워크입니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Florian Haubner"
-      ],
-      "title": [
-        "Industry Architect Lead Automotive EMEA"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-06T16:00:00.000Z",
-    "fetchedAt": "2026-07-06T17:56:37.543Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "93f6e85a83e5307a20b77095977f07cd1f1ca301",
-    "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
-    "summary": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of",
-    "aiSummary": "AWS는 Amazon Bedrock을 통해 Anthropic의 최신 모델인 Claude 3.5 Sonnet을 지원합니다. 개발자와 기업들은 이제 AWS의 안전한 관리형 환경에서 최신 Claude 모델을 활용하여 다양한 AI 애플리케이션을 구축할 수 있습니다.\n\nAmazon WorkSpaces는 이제 AI 에이전트와 긴밀하게 통합되어 더욱 효율적인 작업 환경을 제공합니다. 이는 복잡한 워크플로우를 자동화하고 사용자의 생산성을 높이는 데 기여합니다.\n\n그 외에도 AWS는 전 세계 다양한 리전에서의 서비스 가용성 업데이트와 기능 향상을 발표했습니다. AWS는 지속적인 인프라 확장을 통해 고객들에게 더욱 안정적이고 확장 가능한 클라우드 서비스를 제공하는 데 집중하고 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-07-06T15:46:43.000Z",
-    "fetchedAt": "2026-07-06T17:56:37.543Z",
-    "tags": [
-      "AWS",
-      "Cloud"
     ]
   }
 ]
