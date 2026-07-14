@@ -1,5 +1,85 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
+    "title": "Claude at scale on Google Cloud: Frontier AI, built for enterprise production",
+    "summary": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude",
+    "aiSummary": "Anthropic의 Claude 모델이 Google Cloud의 인프라와 통합되어 기업 환경에서 안정적으로 운영할 수 있는 환경을 제공합니다. 개발자는 복잡한 추론 인프라를 직접 구축할 필요 없이 Google Cloud의 관리형 서비스를 통해 Claude를 호출할 수 있으며 IAM, VPC, 모니터링 등 기존 Google Cloud의 보안 및 운영 도구를 그대로 활용합니다.\n\n글로벌 규모의 서비스 운영을 위해 지역별 엔드포인트와 다중 지역 엔드포인트를 지원하여 데이터 주권 요구사항을 충족하고 지연 시간을 최소화합니다. 또한 자동 장애 조치 기능을 통해 인프라 안정성을 높였으며 FedRAMP High 및 HIPAA와 같은 규제 준수 환경에서도 안전하게 AI 모델을 배포할 수 있습니다.\n\n성능과 비용 최적화를 위한 기술적 기능도 강화되었습니다. Claude가 가진 프롬프트 캐싱, 스트리밍, 적응형 사고 기능은 물론 Google Cloud의 배치 예측 및 전용 처리량 보장 기능을 통해 대규모 워크로드에서도 예측 가능한 성능을 제공합니다.\n\n마지막으로 Agent Platform을 활용하여 Claude 기반의 에이전트를 구축하고 배포할 수 있는 통합 워크플로우를 지원합니다. 개발자는 ADK를 사용하여 복잡한 작업을 수행하는 에이전트를 설계하고 A2A 프로토콜을 통해 다른 서비스 제공업체의 에이전트와 상호 운용하며 확장성 있는 AI 생태계를 구현할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Schneider Larbi"
+      ],
+      "title": [
+        "Sr Manager, Global Partner Technical Architecture, AI & SaaS ISVs"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-14T16:00:00.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=mps&p=710483",
+    "title": "MPS 2026.1 Has Been Released!",
+    "summary": "MPS now uses IntelliJ Platform 2026.1, JDK 25, and Kotlin 2.3. Build Language gains transitive dependencies, migrations are more reproducible, and Java stubs have received a substantial quality update",
+    "aiSummary": "JetBrains MPS 2026.1 버전이 새롭게 출시되었습니다. 이번 업데이트는 IntelliJ Platform 2026.1을 기반으로 하며 JDK 25와 Kotlin 2.3을 지원합니다.\n\n주요 변경 사항으로는 Build Language에 전이 의존성 기능이 추가되었으며 마이그레이션의 재현성이 향상되었습니다. 또한 Java stubs의 품질이 크게 개선되어 안정적인 개발 환경을 제공합니다.\n\n새롭게 번들로 제공되는 Projectional Agent Toolkit 플러그인을 통해 AI coding agent가 MPS 모델을 직접 읽고 쓸 수 있게 되었습니다. 이는 AI 기반의 최첨단 개발 방법론을 도입할 수 있는 새로운 기회를 열어줍니다.",
+    "url": "https://blog.jetbrains.com/mps/2026/07/mps-2026-1-released/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vaclav Pech",
+    "pubDate": "2026-07-14T13:21:12.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=92236",
+    "title": "AI Engineer World’s Fair 2026: The Runtime Is Where Agent Trust Is Won",
+    "summary": "We spent the week at AI Engineer World's Fair in San Francisco, on stage and on the floor. Here's what we heard, and where we think it lands for anyone building with agents.",
+    "aiSummary": "샌프란시스코에서 개최된 AI Engineer World's Fair 행사를 통해 AI 에이전트 개발 분야의 현재와 미래에 대한 중요한 흐름이 확인되었습니다. 이번 행사에서는 모델의 성능 못지않게 실제 운영 환경에서의 신뢰성 확보가 에이전트 구현의 핵심 과제로 부상했습니다.\n\n개발자들 사이에서는 에이전트가 복잡한 작업을 수행할 때 발생하는 불확실성을 제어하고, 시스템이 의도한 대로 동작하도록 보장하는 런타임 환경의 중요성이 강조되었습니다. 단순히 모델을 연결하는 단계를 넘어, 실제 서비스 환경에서 에이전트의 판단과 실행 과정을 모니터링하고 최적화하는 기술적 역량이 제품의 성공을 결정짓는 요소가 될 것입니다.\n\n결과적으로 AI 에이전트 시장은 실험적인 단계를 지나 견고한 인프라와 신뢰성 있는 실행 환경을 구축하는 방향으로 나아가고 있습니다. 에이전트 기반 서비스를 구축하는 개발자들은 앞으로 모델의 지능뿐만 아니라, 안정적인 운영을 뒷받침할 런타임 아키텍처에 집중해야 합니다.",
+    "url": "https://www.docker.com/blog/ai-engineer-worlds-fair-2026-the-runtime-is-where-agent-trust-is-won/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Aditya Tripathi",
+    "pubDate": "2026-07-14T13:00:00.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+    "title": "Security reviews now available in the GitHub Copilot app",
+    "summary": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same…\nThe post Sec",
+    "aiSummary": "GitHub Copilot 앱에서 작성 중인 코드에 대해 직접 보안 검토를 수행할 수 있는 기능이 공개 미리보기로 출시되었습니다.\n\n이번 업데이트를 통해 개발자는 별도의 도구 전환 없이 /security-review 슬래시 명령어를 사용하여 코드 변경 사항의 보안 취약점을 즉시 확인할 수 있습니다.\n\n기존 웹 환경에서 제공되던 보안 검토 기능을 모바일 앱 환경으로 확장함으로써 개발자의 작업 흐름을 효율화하고 코드 품질 유지에 도움을 줄 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-14T12:54:12.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.ruby-lang.org/en/news/2026/07/14/ruby-4-0-6-released/",
     "title": "Ruby 4.0.6 Released",
     "summary": "Ruby 4.0.6 has been released.\nThis is a routine update that includes bugfixes.\nPlease see the GitHub releases for further details.\nRelease Schedule\nWe intend to release the latest stable Ruby version ",
@@ -12,6 +92,40 @@
     "fetchedAt": "2026-07-14T09:20:36.658Z",
     "tags": [
       "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/space-cybersecurity",
+    "title": "Space is now critical infrastructure, but we're not securing it like it is",
+    "summary": "Space is the newest critical infrastructure domain, and while the adversaries already understand that, the defenders are catching up. Here's how Elastic can help.",
+    "aiSummary": "우주 공간이 현대 사회의 핵심 기반 시설로 자리 잡았으나, 이에 상응하는 보안 체계는 아직 미흡한 실정입니다. 적대적인 세력들은 이미 우주 자산의 중요성을 파악하고 위협을 가하고 있지만, 방어 측의 대응은 뒤처져 있는 상황입니다. Elastic은 이러한 우주 기반 시설의 보안 취약성을 해결하고 위협을 방어하는 데 필요한 기술적 솔루션을 제공하고자 합니다.",
+    "url": "https://www.elastic.co/blog/space-cybersecurity",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Marcial Villegas",
+    "pubDate": "2026-07-14T00:00:00.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/claude-for-teachers",
+    "title": "Introducing Claude for Teachers",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeProductIntroducing Claude for TeachersJul 14, 2026We&#x27;re introducing Claude for Teachers, providing verified K-12 educators in the US free access to pre",
+    "aiSummary": "Anthropic은 미국 내 K-12 교사들을 지원하기 위해 Claude for Teachers를 새롭게 출시했습니다. 이 서비스는 검증된 교사들에게 프리미엄 Claude 기능을 무료로 제공하며, 학습 과학에 기반한 교육 기술과 미국 50개 주 전체의 학업 표준에 맞춘 커리큘럼 자원을 연결해 줍니다.\n\n교사들은 Learning Commons를 통해 각 주의 학업 표준 및 세부 학습 역량을 파악하고, 이를 바탕으로 구조화된 수업 계획을 설계할 수 있습니다. 또한 OpenSciEd 및 Illustrative Mathematics의 IM v.360과 같은 신뢰할 수 있는 교육 자료를 연동하여 사용할 수 있습니다.\n\nClaude for Teachers는 Claude Code와 Cowork 기능을 포함하고 있어 교사가 반복적인 작업을 자동화하여 학생들과 소통하는 시간을 확보할 수 있도록 돕습니다. 특히 교사들의 업무 부담을 줄이고 교육의 질을 높이는 것을 목표로 하며, 교실 현장의 피드백을 반영하여 설계되었습니다.\n\n개인정보 보호와 관련하여 Claude for Teachers에서 처리되는 데이터는 모델 학습에 사용되지 않습니다. 또한 FERPA 규정을 준수하며 K-12 데이터 처리 부속서를 통해 학생 정보를 엄격히 보호합니다. 해당 서비스는 18세 이상의 검증된 교사들만을 대상으로 제공됩니다.",
+    "url": "https://www.anthropic.com/news/claude-for-teachers",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-14T00:00:00.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -109,6 +223,21 @@
     "tags": [
       "Kubernetes",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-13-1",
+    "title": "International PHP Conference Munich 2026",
+    "summary": "is the world's first PHP conference and has stood for more than two decades for top-notch\n        pragmatic expertise in PHP and web technologies. At the IPC, internationally renowned\n        experts ",
+    "aiSummary": "International PHP Conference Munich 2026은 20년 이상의 역사를 자랑하는 세계 최초의 PHP 컨퍼런스로서 PHP와 웹 기술 분야의 실무적 전문성을 공유하는 장입니다. 이번 행사는 2026년 10월 26일부터 30일까지 뮌헨의 Holiday Inn Munich City Centre와 온라인 환경에서 동시에 개최됩니다.\n\n이번 컨퍼런스는 50명 이상의 국제적인 연사가 참여하여 60개 이상의 베스트 프랙티스 세션을 진행하며 지식 교류를 극대화할 예정입니다. 주요 프로그램으로는 실습 중심의 PHPower 워크숍과 목요일 및 금요일에 걸쳐 진행되는 2일 집중 부트캠프가 포함되어 있습니다.\n\n또한 10월 27일과 28일에는 다채로운 기업들이 참여하는 전시회가 열리며 참가자 전원에게는 공식 수료증과 각종 개발자 굿즈가 제공됩니다. 식사와 다과를 포함한 올인원 서비스가 지원되며 업계 전문가 및 개발자들이 교류할 수 있는 독점 네트워킹 이벤트도 마련되어 있습니다. 보다 자세한 정보는 공식 웹사이트인 phpconference.com/munich/에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-07-13-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-13T17:01:37.000Z",
+    "fetchedAt": "2026-07-14T16:41:42.641Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
