@@ -1,5 +1,70 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-13-github-code-quality-license-estimate-in-public-preview",
+    "title": "GitHub Code Quality license estimate in public preview",
+    "summary": "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it…\nThe post GitHub Co",
+    "aiSummary": "GitHub은 기업 고객들이 GitHub Code Quality 사용에 따른 라이선스 비용을 사전에 예측할 수 있는 기능을 퍼블릭 프리뷰로 공개하였습니다.\n\n이 기능을 통해 기업 관리자는 엔터프라이즈 내에서 GitHub Code Quality를 사용하는 저장소별 활성 커미터 수를 실시간으로 확인할 수 있습니다. 이를 통해 정확한 라이선스 비용 규모를 미리 파악하고 효율적인 예산 계획을 수립하는 데 도움을 받을 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-13-github-code-quality-license-estimate-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-13T23:39:22.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.2",
+    "title": "1.1.2",
+    "summary": "Added an f (full diff) shortcut to the create-file tool review screen so new-file confirmations can open a full-screen diff view, matching the existing file-edit experience.\nAdded support for pasting ",
+    "aiSummary": "create-file 도구 검토 화면에 f 단축키를 추가하여 신규 파일 생성 시 전체 화면 diff 뷰를 확인할 수 있도록 개선하였습니다.\n\n프린트 모드에서 입력이 파이프라인으로 전달될 때 OAuth 인증 코드를 제어 터미널을 통해 입력받을 수 있게 하였으며, 헤드리스 실행 시 차단되는 대신 즉시 안내 메시지를 출력하도록 변경하였습니다.\n\n5000단계 이상의 대규모 대화에서 발생하는 성능 저하를 해결하기 위해 라인 수 계산 방식을 최적화하여 CPU 부하와 키 입력 지연 현상을 제거하였습니다.\n\n프린트 모드에서 모델을 찾을 수 없을 경우 기존의 자동 기본 모델 전환 대신 오류를 발생시키고 가용 모델 목록을 표시하도록 하였으며, 대화형 세션에서는 기존의 경고 표시 후 대체 모델 사용 방식을 유지하였습니다.\n\n중첩된 명령 대체 사용 시 허용 목록 검사가 정상적으로 작동하도록 수정하여 불필요한 확인 과정을 생략하였습니다.\n\n기본 키 바인딩이 업데이트될 때 사용자 설정을 보존하면서 새로운 설정을 동기화하도록 CLI 키 바인딩 파일 처리 방식을 개선하였습니다.\n\nCodeSearch와 같은 내장 도구의 헤더 문구가 깨지던 현상을 수정하고 도구 실행 요약을 가독성 있게 정리하였습니다.\n\nMCP 매니저의 도구 스키마 경로 해결 문제를 수정하고, 종료 시 MCP 서버 하위 프로세스가 제대로 정리되지 않던 결함을 보완하였습니다.\n\n하위 에이전트 상태 업데이트 시 데이터 경합과 복사 방지 위반 문제를 해결하여 병렬 처리 중 상태 정보가 왜곡되는 현상을 방지하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.2",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "yaoshengzhe",
+    "pubDate": "2026-07-13T23:26:02.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/jul/13/explore-the-djangocon-us-2026-speaker-lineup-and-r/",
+    "title": "Explore the DjangoCon US 2026 Speaker Lineup and Reserve Your Spot",
+    "summary": "DjangoCon US 2026 is just around the corner, and now is the perfect time to start planning your conference experience.\nOur speaker lineup is now available, featuring talks from Django contributors, ma",
+    "aiSummary": "오는 8월 24일부터 28일까지 시카고에서 개최되는 DjangoCon US 2026의 발표자 라인업이 공개되었습니다. 이번 행사에서는 Django 기여자, 유지보수 담당자, 교육자 등이 참여하여 웹 개발과 API를 비롯해 배포, 보안, 테스트, AI, 그리고 Django 생태계의 미래에 관한 다양한 주제를 다룰 예정입니다.\n\n참가자들은 발표 세션 외에도 튜토리얼, Open Spaces, 커뮤니티 스프린트, 네트워킹을 위한 소셜 이벤트 등 다채로운 프로그램에 참여할 수 있습니다. 현재 공식 웹사이트를 통해 사전 등록이 가능하며, 추후 전체 컨퍼런스 일정과 여행 정보 등 상세한 안내가 추가로 공유될 예정입니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jul/13/explore-the-djangocon-us-2026-speaker-lineup-and-r/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Aayush Gauba / DjangoCon US Organizers",
+    "pubDate": "2026-07-13T22:51:23.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "4208480ff12de823b05e88106fa2cdbe89cd4c2e",
+    "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+    "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that dist",
+    "aiSummary": "Amazon SQS가 출시 20주년을 맞이했습니다. 2006년 7월 13일 Amazon EC2 및 Amazon S3와 함께 Amazon의 초기 서비스 중 하나로 등장한 Amazon SQS는 분산 시스템의 구성 요소 간 메시지 전달을 위한 안정적인 방법을 제공하기 위해 개발되었습니다.\n\n서비스 간의 직접적인 호출로 발생하는 의존성 문제를 해결하고 시스템의 복잡성을 관리하는 역할을 수행해 왔습니다. 지난 20년간 Amazon SQS는 확장 가능한 아키텍처를 지원하며 데이터 전달의 신뢰성을 보장하는 핵심 인프라로 자리 잡았습니다. 오늘날에도 수많은 기업이 클라우드 네이티브 애플리케이션을 구축하는 과정에서 이 서비스를 활용하여 시스템 유연성을 확보하고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "2026-07-13T18:13:57.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "795943e111b58ed576073f2b1f72bcebff6b9306",
     "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
     "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem wi",
@@ -125,6 +190,26 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/next-security-release-program",
+    "title": "Next.js Security Release and Our Next Patch Release",
+    "summary": "Next.js is moving to a formal security release process",
+    "aiSummary": "Next.js는 앞으로 공식적인 보안 릴리스 절차를 도입하여 운영하기로 결정했습니다. 이는 프로젝트의 보안성을 강화하고 잠재적인 취약점에 더욱 신속하고 체계적으로 대응하기 위한 조치입니다. 이번 변경 사항과 함께 발표된 최신 패치 릴리스를 통해 사용자는 보다 안정적인 환경에서 Next.js를 사용할 수 있게 될 것입니다. 자세한 기술적 변경 사항과 적용 방법은 공식 배포 문서를 통해 확인할 수 있습니다.",
+    "url": "https://nextjs.org/blog/next-security-release-program",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Andrew Imm"
+      ]
+    },
+    "pubDate": "2026-07-13T12:00:00.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "Next.js",
+      "React"
     ]
   },
   {
@@ -13616,6 +13701,22 @@
     ]
   },
   {
+    "id": "https://code.visualstudio.com/updates/v1_105",
+    "title": "September 2025 (version 1.105)",
+    "summary": "Learn what is new in the Visual Studio Code September 2025 Release (1.105).\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.105 버전이 새롭게 출시되었습니다. 이번 업데이트에는 제품의 기능 향상과 사용자 경험 개선을 위한 다양한 변경 사항이 포함되어 있습니다. 자세한 업데이트 내용은 공식 웹사이트에서 제공되는 상세 문서를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_105",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2025-10-09T17:00:00.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://react.dev/blog/2025/10/07/react-compiler-1",
     "title": "React Compiler v1.0",
     "summary": "We are releasing the compiler's first stable release today.",
@@ -13686,6 +13787,54 @@
     ]
   },
   {
+    "id": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
+    "title": "Introducing auto model selection (preview)",
+    "summary": "Use auto model selection in VS Code to get faster responses, reduced rate limiting, and a 10% discount on premium requests for paid users.\nRead the full article",
+    "aiSummary": "VS Code에 도입된 자동 모델 선택 기능은 사용자의 요청을 분석하여 최적화된 모델을 자동으로 지정합니다.\n\n이 기능을 활용하면 더 빠른 응답 속도를 얻을 수 있으며, 모델 호출 제한을 완화할 수 있습니다.\n\n또한 유료 사용자는 해당 기능을 통해 프리미엄 요청 시 10퍼센트의 할인 혜택을 받을 수 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Isidor Nikolic",
+    "pubDate": "2025-09-15T00:00:00.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_104",
+    "title": "August 2025 (version 1.104)",
+    "summary": "Learn what is new in the Visual Studio Code August 2025 Release (1.104)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.104 버전이 새롭게 출시되었습니다. 이번 업데이트에는 제품의 기능 향상과 사용자 경험 개선을 위한 다양한 변경 사항이 포함되어 있습니다. 자세한 내용은 Visual Studio Code 공식 웹사이트에 게시된 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_104",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2025-09-11T17:00:00.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2025/08/27/vscode-dev-days",
+    "title": "VS Code Dev Days – Join an event near you to learn about AI-assisted development",
+    "summary": "Join a VS Code Dev Days event to learn about GitHub Copilot in VS Code\nRead the full article",
+    "aiSummary": "Microsoft가 주최하는 VS Code Dev Days 행사는 개발자들이 VS Code 환경에서 GitHub Copilot을 활용한 AI 보조 개발 기술을 습득할 수 있도록 지원합니다.\n\n참가자들은 이번 행사를 통해 최신 AI 도구를 실무에 효율적으로 적용하는 방법을 배우고 관련 개발 지식을 교류할 수 있습니다. 자세한 정보는 공식 홈페이지의 전체 기사를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2025/08/27/vscode-dev-days",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Katie Savage, Cynthia Zanoni",
+    "pubDate": "2025-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "deepseek-2025-08-21",
     "title": "DeepSeek Update: DeepSeek-V3.1",
     "summary": "Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1&#x27;s non-thinking mode, while deepseek-reasoner corresponds to its thinking m",
@@ -13719,6 +13868,22 @@
       "Qwen",
       "LLM",
       "Alibaba"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_103",
+    "title": "July 2025 (version 1.103)",
+    "summary": "Learn what is new in the Visual Studio Code July 2025 Release (1.103)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.103 버전이 2025년 7월에 새롭게 출시되었습니다. 이번 업데이트는 사용자 경험 개선과 기능 향상을 포함하고 있으며, 상세한 변경 사항과 새로운 기능에 대한 정보는 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_103",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2025-08-07T17:00:00.000Z",
+    "fetchedAt": "2026-07-14T00:12:07.695Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
