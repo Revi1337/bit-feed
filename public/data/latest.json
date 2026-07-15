@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+    "title": "Code scanning shows AI security detections on pull requests",
+    "summary": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detect",
+    "aiSummary": "GitHub는 코드 스캐닝 기능을 강화하여 AI 기반 보안 탐지 결과를 pull request 화면에서 직접 확인할 수 있도록 지원합니다.\n\n이번 업데이트를 통해 기존 CodeQL이 지원하지 않던 다양한 프로그래밍 언어와 프레임워크에 대해서도 취약점 탐지 범위를 확장하게 되었습니다.\n\n이를 통해 개발팀은 코드 병합 과정에서 보안 위협을 더욱 신속하고 효율적으로 식별하여 소프트웨어 공급망의 안전성을 높일 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-14T19:12:48.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60420",
+    "title": ".NET and .NET Framework July 2026 servicing releases updates",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for July 2026.\nThe post .NET and .NET Framework July 2026 servicing releases updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft는 2026년 7월 정기 업데이트를 통해 .NET 및 .NET Framework에 대한 최신 서비스 릴리스를 배포했습니다. 이번 업데이트는 해당 플랫폼의 보안 강화와 안정성 향상을 위해 마련되었으며 관련한 상세 정보는 공식 .NET Blog를 통해 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2026-servicing-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT), Tara Overfield",
+    "pubDate": "2026-07-14T18:55:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
+    "title": "Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software",
+    "summary": "For years, we’ve built with a clear priority: putting the practical needs of the enterprise first. Long before generative AI dominated the headlines, we were focused on building the global infrastruct",
+    "aiSummary": "Google이 IDC MarketScape의 Worldwide Foundation Model Software 2026 평가에서 리더 기업으로 선정되었습니다. Google은 수년간 기업의 실질적인 요구사항을 최우선으로 고려하며 안정성, 보안, 예측 가능성을 갖춘 인프라를 구축해 왔으며, 이러한 연구 성과를 현업 수준의 시스템으로 전환해 온 노력이 이번 평가에서 높은 점수를 받았습니다.\n\nGoogle은 Google DeepMind의 기초 연구와 자체적인 AI 인프라를 결합하여 기업용 통합 AI 스택인 Gemini Enterprise를 제공합니다. Gemini Enterprise는 비즈니스 워크플로우를 실행하는 자율형 에이전트를 개발 및 운영할 수 있는 Agent Platform과 일반 사용자를 위한 Gemini Enterprise 앱을 포함하는 포괄적인 시스템입니다.\n\n이 시스템은 복잡한 다단계 작업을 처리하기 위해 설계된 최신 모델인 Gemini 3.5 Flash를 기반으로 구동됩니다. 특히 모델과 하드웨어를 동시에 최적화하는 공동 설계를 통해 추론 능력을 극대화했습니다. 기업들은 Gemini Enterprise를 통해 기술적 위험 관리에 대한 부담을 줄이고, 보안과 거버넌스가 내재된 환경에서 에이전트 기반의 비즈니스 성과를 창출하는 데 집중할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Cloud AI"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-14T18:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60417",
+    "title": ".NET 11 Preview 6 is now available!",
+    "summary": "Find out about the new features in .NET 11 Preview 6 across runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, F#, and container images.\nThe post .NET 11 Preview 6 is now ava",
+    "aiSummary": "Microsoft는 .NET 11 Preview 6 버전을 공개했습니다. 이번 프리뷰 업데이트에는 runtime, SDK, 라이브러리를 비롯하여 ASP.NET Core와 .NET MAUI, C#, Entity Framework Core, F# 등 .NET 생태계 전반에 걸친 새로운 기능과 성능 개선 사항이 포함되어 있습니다. 또한 최신 container images에 대한 업데이트도 함께 제공하여 개발 환경의 최적화를 지원합니다. 개발자들은 공식 블로그를 통해 각 분야별 상세 변경 사항과 개선된 기능들을 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "2026-07-14T17:45:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown",
+    "title": "Dependabot version updates introduce default package cooldown",
+    "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the…\nThe post Dependabot version ",
+    "aiSummary": "GitHub의 Dependabot이 패키지 버전 업데이트를 수행할 때 새로운 릴리스가 레지스트리에 등록된 후 최소 3일이 지나야만 풀 리퀘스트를 생성하도록 변경되었습니다. \n\n이러한 쿨다운 정책은 패키지 배포 직후 발생할 수 있는 초기 버그나 불안정한 요소를 최소화하여 사용자가 더욱 안정적인 환경에서 의존성을 관리할 수 있도록 돕습니다. 기본적으로 설정된 이 3일의 대기 시간은 향후 Dependabot을 통해 관리되는 패키지 업데이트 과정에서 소프트웨어 공급망의 신뢰성을 높이는 역할을 수행합니다.",
+    "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-14T16:42:59.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
     "title": "Claude at scale on Google Cloud: Frontier AI, built for enterprise production",
     "summary": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude",
@@ -95,6 +191,38 @@
     ]
   },
   {
+    "id": "https://www.postgresql.org/about/news/odyssey-151-released-3348/",
+    "title": "Odyssey 1.5.1 released\n",
+    "summary": "We are excited to announce a new release of the Odyssey — advanced multi-threaded connection pooler for PostgreSQL and Apache Cloudberry.\nA lot of new small features have been implemented, alongside e",
+    "aiSummary": "PostgreSQL 및 Apache Cloudberry를 위한 다중 스레드 커넥션 풀러인 Odyssey의 최신 버전 1.5.1이 공개되었습니다. 이번 업데이트는 확장 프로토콜 지원 리팩토링을 통해 규격 위반 사항을 수정하고 파이프라이닝 성능을 전반적으로 개선하는 데 집중했습니다.\n\n새롭게 추가된 주요 기능으로는 단순 공유 풀 지원, 트랜잭션 풀링을 위한 pool_pin_on_listen 옵션, 부하 분산 개선, cpu_affinity 지원 등이 포함되었습니다. 또한 보안 및 모니터링 강화를 위해 aws-lc 빌드 지원과 SSLKEYLOGFILE 지원이 추가되었으며, 큐 대기 시간 지표 측정 기능과 Prometheus 메트릭 내보내기 기능도 향상되었습니다.\n\n버그 수정 측면에서는 풀 사이즈 재검증 로직 개선과 더불어 Extended 프로토콜에서의 Close, COPY, DEALLOCATE ALL 지원을 보완하였습니다. 특히 취소 연결 처리 과정에서의 경쟁 상태를 해결하는 등 안정성 관련 수정 사항들이 다수 반영되었습니다. 개발팀은 현재 추가적인 개선 사항을 담은 1.5.2 버전을 준비 중입니다.",
+    "url": "https://www.postgresql.org/about/news/odyssey-151-released-3348/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-14T00:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/higher-education-digital-transformation-do-more-with-less",
+    "title": "Universities do more with less — start with data",
+    "summary": "Higher education digital transformation starts with unified data, not more tools. Learn how to reduce costs, strengthen security, and scale.",
+    "aiSummary": "고등교육 기관의 디지털 전환은 단순히 새로운 도구를 늘리는 것이 아니라 통합된 데이터를 구축하는 것에서 시작합니다. 데이터를 일원화하면 시스템 운영 효율성을 높여 비용을 절감할 수 있을 뿐만 아니라 보안 체계를 강화하고 서비스의 확장성을 확보할 수 있습니다. 결과적으로 대학들은 자원을 더욱 효율적으로 활용하여 교육 및 연구 환경의 질적 개선을 도모할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/higher-education-digital-transformation-do-more-with-less",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Oksana Abramovych",
+    "pubDate": "2026-07-14T00:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/space-cybersecurity",
     "title": "Space is now critical infrastructure, but we're not securing it like it is",
     "summary": "Space is the newest critical infrastructure domain, and while the adversaries already understand that, the defenders are catching up. Here's how Elastic can help.",
@@ -126,6 +254,22 @@
       "Claude",
       "AI",
       "LLM"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-13-create-and-manage-secret-scanning-custom-patterns-via-rest-api",
+    "title": "Manage secret scanning custom patterns via REST API",
+    "summary": "Starting today, security teams can create, edit, and manage secret scanning custom patterns with the REST API. What’s new The following endpoints are generally available: GET .../secret-scanning/custo",
+    "aiSummary": "GitHub는 보안 팀이 REST API를 통해 secret scanning custom patterns를 생성하고 편집하며 관리할 수 있는 기능을 새롭게 제공합니다.\n\n이번 업데이트를 통해 사용자는 GET, POST, PATCH, DELETE 등 다양한 엔드포인트를 활용하여 보안 패턴을 효율적으로 관리할 수 있습니다. 이를 통해 보안 팀은 워크플로우 내에서 직접 비밀 탐지 규칙을 제어함으로써 더욱 자동화되고 일관된 보안 환경을 구축할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-13-create-and-manage-secret-scanning-custom-patterns-via-rest-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-13T23:59:13.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -467,6 +611,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "antigravity-engine-2.3.0",
+    "title": "Antigravity 2.3.0: Queued messages, plain text files support, and stability improvements",
+    "summary": "Added support for queued messages, settings to configure message execution, a send now option, plain text file attachments, and various bug fixes and improvements.\n\nImprovements:\n- Added support for q",
+    "aiSummary": "Antigravity 2.3.0 업데이트가 진행되었습니다. 이번 버전의 핵심은 메시지 대기열 기능 도입으로, 사용자는 메시지 실행 방식을 설정하거나 즉시 전송 옵션을 선택할 수 있습니다. 또한 일반 텍스트 파일(.txt) 첨부와 렌더링을 지원하여 협업 편의성을 높였습니다.\n\n성능 및 안정성 측면에서도 큰 개선이 있었습니다. 파일 감시와 초기화 순서를 최적화하여 앱 실행 속도를 향상시켰으며, 백엔드 과부하 발생 시 자동 재시도 기능을 추가하여 서비스 안정성을 강화했습니다. 팀 협업 시 헬퍼 에이전트가 응답을 대기하다 멈추는 문제를 해결하고, 대화 보관 시 백그라운드 작업이 불필요하게 유지되지 않도록 수정했습니다.\n\n사용자 경험 개선을 위해 UI 테마를 시스템 기본 설정과 동기화하도록 변경하였으며, 대화 내 사이드 질문 기능의 지속성과 시각적 피드백을 강화했습니다. 그 외에도 1,000줄 이상의 파일 diff 렌더링 오류 수정, 페이지 내 찾기 기능 개선, 명령 권한 프롬프트의 유연한 제어 등 전반적인 기능 오류를 해결하였습니다.",
+    "url": "https://antigravity.google/changelog",
+    "category": "인공지능",
+    "source": "Antigravity Changelog",
+    "author": "Google",
+    "pubDate": "2026-07-13T00:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "Antigravity",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -1539,167 +1700,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
-    "title": "Kimi K2.7 now available for Copilot Business and Enterprise",
-    "summary": "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise…\nThe post Kimi K2.7 n",
-    "aiSummary": "Moonshot AI가 개발한 Kimi K2.7 모델이 Copilot Business와 Copilot Enterprise 사용자에게 추가로 제공됩니다. \n\n앞서 2026년 7월 1일에 Copilot Pro, Pro+, Max 요금제를 대상으로 우선 공개된 바 있는 Kimi K2.7은 이번 업데이트를 통해 더 넓은 범위의 기업용 환경으로 서비스 영역이 확대되었습니다. 이를 통해 더 많은 기업 고객이 향상된 성능의 AI 모델을 업무에 활용할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-08T00:05:35.000Z",
-    "fetchedAt": "2026-07-08T09:42:18.204Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/barman-3190-and-3191-released-3345/",
-    "title": "Barman 3.19.0 and 3.19.1 Released\n",
-    "summary": "We are pleased to announce the release of Barman 3.19.0 and 3.19.1, which shipped in quick succession on May 20 and May 26, 2026. This announcement covers both releases.\nBarman (Backup and Recovery Ma",
-    "aiSummary": "PostgreSQL 데이터베이스의 원격 백업 및 재해 복구를 지원하는 오픈소스 도구인 Barman이 3.19.0 버전과 3.19.1 버전을 연이어 출시하였습니다.\n\n이번 업데이트의 주요 기능으로는 클라우드 스토리지 복구 지원이 추가되었으며 백업 데이터의 내보내기와 가져오기를 수행할 수 있는 새로운 명령어가 도입되었습니다. \n\n3.19.0 버전과 3.19.1 버전은 공통적으로 각종 버그 수정과 시스템 개선 사항을 포함하고 있습니다. EnterpriseDB가 유지 관리하는 Barman은 GNU GPL 3 라이선스를 따르며 여러 원격 서버의 백업 카탈로그와 복구 단계를 중앙에서 관리할 수 있게 해줍니다.",
-    "url": "https://www.postgresql.org/about/news/barman-3190-and-3191-released-3345/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pglayers-postgresql-extensions-as-stackable-docker-layers-3344/",
-    "title": "pglayers: PostgreSQL extensions as stackable Docker layers\n",
-    "summary": "🚀 Announcing pglayers\nPre‑built PostgreSQL extensions as composable Docker image layers\nProject: https://github.com/pglayers/pglayers\n📌 What It Does\npglayers publishes 53 PostgreSQL extensions as mi",
-    "aiSummary": "pglayers는 PostgreSQL 확장을 컴파일이나 복잡한 설치 과정 없이 손쉽게 사용할 수 있도록 지원하는 컨테이너 이미지 프로젝트입니다. 이 프로젝트는 53개의 주요 PostgreSQL 확장을 최소 단위의 Docker 이미지 계층으로 제공하며, 사용자는 COPY --from 명령어를 통해 공식 postgres 이미지에 원하는 확장을 조합하여 즉시 사용할 수 있습니다.\n\n이미지는 공유 라이브러리, 제어 파일, SQL 스크립트 등을 포함하고 있어 apt-get 등의 추가 작업이 필요 없습니다. 특히 PostgreSQL 18부터 도입된 확장 경로 기능을 활용하면 라이브러리 간의 파일 충돌을 방지하고 배포 시점에 확장을 마운트하는 방식의 관리가 가능해집니다.\n\n현재 PostgreSQL 17부터 19 버전까지 지원하며 linux/amd64와 linux/arm64 아키텍처 모두에서 사용할 수 있습니다. 또한 53개 전체 확장이 포함된 통합 이미지와 Azure Database for PostgreSQL 환경에 맞춘 프로필도 제공합니다.\n\n제공되는 모든 확장은 PostgreSQL, MIT, Apache 2.0 등 허용적인 오픈소스 라이선스만을 따릅니다. 클라우드 네이티브 환경에서 PostgreSQL 구성을 단순화하려는 사용자들에게 유용한 도구가 될 것으로 보이며, 상세한 확장 목록과 기여 방법은 GitHub 저장소에서 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pglayers-postgresql-extensions-as-stackable-docker-layers-3344/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/introducing-gpt-live",
-    "title": "Introducing GPT-Live",
-    "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-    "aiSummary": "OpenAI가 자연스러운 인간과 AI 간의 상호작용을 지원하는 차세대 음성 모델인 GPT-Live를 새롭게 선보였습니다. 해당 모델은 현재 ChatGPT Voice 기능에 적용되어 보다 향상된 음성 대화 경험을 제공합니다.",
-    "url": "https://openai.com/index/introducing-gpt-live",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/the-future-of-governing-ai-agents",
-    "title": "The future of governing AI agents",
-    "summary": "Autonomous security agents need governance built into the architecture across reasoning separation, continuous evaluation, progressive trust, and agent-specific telemetry at scale.",
-    "aiSummary": "자율적인 보안 AI 에이전트의 안전한 운영을 위해서는 설계 단계부터 강력한 거버넌스 체계를 통합해야 합니다.\n\n이를 위해 AI 모델의 추론 과정을 물리적으로 분리하는 아키텍처가 필요하며 지속적인 성능 평가를 통해 신뢰도를 점진적으로 확보하는 전략이 중요합니다.\n\n또한 대규모 환경에서 운영되는 각 에이전트의 특성에 최적화된 텔레메트리 데이터를 수집하고 분석하는 시스템을 구축하여 투명성과 제어 가능성을 동시에 확보해야 합니다.",
-    "url": "https://www.elastic.co/blog/the-future-of-governing-ai-agents",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Marcus Jeffes",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-08T16:53:38.177Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pdu-an-open-source-postgresql-data-unloader-for-full-database-offline-export-and-targeted-wal-recovery-3335/",
-    "title": "PDU: an open source PostgreSQL Data Unloader for full-database offline export and targeted WAL recovery\n",
-    "summary": "PDU helps recover offline PostgreSQL databases by reconstructing metadata, exporting tables, and reading WAL for targeted row recovery.\nWhen a PostgreSQL instance cannot be started, normal SQL tools a",
-    "aiSummary": "PDU는 PostgreSQL 인스턴스를 정상적으로 실행할 수 없는 상황에서 데이터 복구를 돕기 위해 설계된 오픈 소스 도구입니다. 이 도구는 원본 데이터 디렉토리를 수정하지 않은 상태에서 데이터 파일과 WAL을 직접 읽어들여 데이터베이스, 스키마, 테이블의 메타데이터를 오프라인 상태에서 재구성합니다.\n\n사용자는 명령어를 통해 특정 테이블이나 전체 데이터베이스를 CSV 형식으로 내보낼 수 있으며, 이를 통해 손상된 데이터를 추출하거나 새로운 인스턴스로 이관할 수 있습니다. 특히 실수로 발생한 DELETE나 UPDATE 작업에 대해서는 VACUUM 이후에 남은 잔여 데이터에 의존하지 않고, 레플리카나 WAL 아카이브에 기록된 데이터를 분석하여 삭제된 행이나 변경 이전의 행 버전을 복구할 수 있다는 점이 특징입니다.\n\n현재 PostgreSQL 14부터 18 버전까지 지원하며, 카탈로그 손상이나 데이터 파일 파손 시 긴급 복구 용도로 활용 가능합니다. 다만 PDU는 백업이나 PITR과 같은 표준적인 데이터 복구 방식을 대체하는 도구가 아니므로, 비상시 보조적인 수단으로만 사용해야 합니다.",
-    "url": "https://www.postgresql.org/about/news/pdu-an-open-source-postgresql-data-unloader-for-full-database-offline-export-and-targeted-wal-recovery-3335/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-08T09:42:18.204Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/autobase-290-released-3343/",
-    "title": "Autobase 2.9.0 released\n",
-    "summary": "Autobase 2.9 focuses on the next step in the platform's evolution: simplifying PostgreSQL infrastructure management after deployment.\nSee the full details in the release notes.\nHighlights\nPlatform use",
-    "aiSummary": "Autobase 2.9.0 버전은 배포 이후의 PostgreSQL 인프라 관리 효율성을 높이는 데 초점을 맞추어 출시되었습니다.\n\n가장 큰 변화는 플랫폼 사용자 계정 관리와 이메일 및 비밀번호 기반의 인증 시스템 도입입니다. 기존의 공유 액세스 토큰 방식에서 개별 사용자 계정 인증 방식으로 전환되었으며, Operations log에 변경 사항을 수행한 사용자가 기록되어 더욱 투명한 감사 추적이 가능해졌습니다.\n\n클러스터 운영 관리 측면에서도 기능이 강화되었습니다. UI를 통해 PostgreSQL 파라미터와 pg_hba.conf, 커넥션 풀 및 기타 클러스터 설정을 직접 관리할 수 있게 되어 일상적인 운영 작업이 한층 간편해졌습니다.\n\n또한 고급 사용자를 위한 Expert Mode에서는 빌트인 YAML 에디터를 제공합니다. 이를 통해 클러스터 설정을 직접 수정할 수 있으며, 변경 사항을 적용하기 전 diff 모드를 통해 수정 내용을 미리 검토할 수 있습니다.\n\nAutobase는 조직이 자체 인프라와 데이터를 완전히 통제하면서도 DBaaS와 유사한 관리형 PostgreSQL 운영 경험을 누릴 수 있도록 지원하는 내부 데이터베이스 플랫폼입니다.",
-    "url": "https://www.postgresql.org/about/news/autobase-290-released-3343/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-08T09:42:18.204Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/postgresql-odbc-version-rel-18_00_0002-released-3341/",
-    "title": "PostgreSQL ODBC Version REL-18_00_0002 Released\n",
-    "summary": "What's Changed\nuse openssl 3.5.5 by @davecramer in https://github.com/postgresql-interfaces/psqlodbc/pull/169\nFix SQLPrimaryKeys to exclude INCLUDE columns from results by @davecramer in https://githu",
-    "aiSummary": "PostgreSQL ODBC 드라이버의 새로운 버전인 REL-18_00_0002가 릴리스되었습니다. 이번 업데이트는 보안 강화와 안정성 개선에 중점을 두고 있습니다.\n\n보안 측면에서는 OpenSSL 3.5.5 버전 사용을 통해 라이브러리를 최신화하였으며, SQLPutData의 길이 유효성 검사 강화와 커서 이름 제한, 연결 문자열의 퍼센트 이스케이프 검증 등을 통해 잠재적인 취약점을 보완했습니다. 또한 로그 내 민감한 연결 파라미터를 마스킹 처리하여 정보 유출 방지 기능을 추가했습니다.\n\n안정성 개선을 위해 getPrecisionPart() 함수의 스택 버퍼 오버플로우 문제를 해결하고, SQLDisconnect 수행 중 발생할 수 있는 더블 프리 및 힙 손상 문제를 수정하였습니다. 이외에도 ARD 북마크 할당 실패 처리, UTF-16 서로게이트 쌍 검증, SQLSetDescRec 필드 값 전달 오류 수정 등 다양한 버그가 해결되었습니다.\n\nSQLPrimaryKeys 실행 시 INCLUDE 컬럼이 결과에서 제외되도록 수정되었으며, 버전 보고 기능 정비 및 쿼리별 롤백 시의 PGresults 정리 등 전반적인 기능 완성도가 향상되었습니다. 이번 버전에는 새로운 기여자 jarvis24young이 참여하였습니다.",
-    "url": "https://www.postgresql.org/about/news/postgresql-odbc-version-rel-18_00_0002-released-3341/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "fetchedAt": "2026-07-08T09:42:18.204Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
-    "title": "Per-user budgets for cost centers in the billing UI",
-    "summary": "Enterprise admins can now create cost center user-level budgets directly in the billing UI where you manage cost centers and budgets. This feature is available for GitHub Enterprise Cloud. This…\nThe p",
-    "aiSummary": "GitHub Enterprise Cloud 사용자를 위한 비용 관리 기능이 업데이트되었습니다.\n\n이제 엔터프라이즈 관리자는 빌링 UI 내의 비용 센터 및 예산 관리 메뉴에서 사용자별 예산을 직접 설정할 수 있습니다. 이를 통해 조직은 비용 센터 단위뿐만 아니라 개별 사용자 수준에서도 더욱 세밀한 비용 통제가 가능해집니다.",
-    "url": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-07T17:09:29.000Z",
-    "fetchedAt": "2026-07-08T00:16:28.141Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-07-secret-scanning-extended-metadata-and-multipart-validation",
-    "title": "Secret scanning extended metadata and multipart validation",
-    "summary": "To help you understand ownership and impact of a leaked secret, GitHub secret scanning surfaces enriched metadata for supported secret types. Extended metadata checks are now generally available, incl",
-    "aiSummary": "GitHub가 Secret scanning 기능에 확장된 메타데이터와 멀티파트 유효성 검사 기능을 도입하였습니다.\n\n이번 업데이트를 통해 개발자들은 유출된 Secret의 소유자와 해당 사고가 미칠 영향력을 보다 명확하게 파악할 수 있게 되었습니다.\n\n지원되는 Secret 유형에 대해 강화된 메타데이터를 제공하며, 이를 통해 보안 위협에 대한 대응 능력이 향상될 것으로 기대됩니다.\n\n기능은 현재 정식 버전으로 공개되어 사용 가능하며, 더욱 정밀한 보안 관리를 지원합니다.",
-    "url": "https://github.blog/changelog/2026-07-07-secret-scanning-extended-metadata-and-multipart-validation",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-07T16:43:04.000Z",
-    "fetchedAt": "2026-07-07T17:29:34.142Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

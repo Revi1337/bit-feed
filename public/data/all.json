@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+    "title": "Code scanning shows AI security detections on pull requests",
+    "summary": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detect",
+    "aiSummary": "GitHub는 코드 스캐닝 기능을 강화하여 AI 기반 보안 탐지 결과를 pull request 화면에서 직접 확인할 수 있도록 지원합니다.\n\n이번 업데이트를 통해 기존 CodeQL이 지원하지 않던 다양한 프로그래밍 언어와 프레임워크에 대해서도 취약점 탐지 범위를 확장하게 되었습니다.\n\n이를 통해 개발팀은 코드 병합 과정에서 보안 위협을 더욱 신속하고 효율적으로 식별하여 소프트웨어 공급망의 안전성을 높일 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-14T19:12:48.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60420",
+    "title": ".NET and .NET Framework July 2026 servicing releases updates",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for July 2026.\nThe post .NET and .NET Framework July 2026 servicing releases updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft는 2026년 7월 정기 업데이트를 통해 .NET 및 .NET Framework에 대한 최신 서비스 릴리스를 배포했습니다. 이번 업데이트는 해당 플랫폼의 보안 강화와 안정성 향상을 위해 마련되었으며 관련한 상세 정보는 공식 .NET Blog를 통해 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2026-servicing-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT), Tara Overfield",
+    "pubDate": "2026-07-14T18:55:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
+    "title": "Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software",
+    "summary": "For years, we’ve built with a clear priority: putting the practical needs of the enterprise first. Long before generative AI dominated the headlines, we were focused on building the global infrastruct",
+    "aiSummary": "Google이 IDC MarketScape의 Worldwide Foundation Model Software 2026 평가에서 리더 기업으로 선정되었습니다. Google은 수년간 기업의 실질적인 요구사항을 최우선으로 고려하며 안정성, 보안, 예측 가능성을 갖춘 인프라를 구축해 왔으며, 이러한 연구 성과를 현업 수준의 시스템으로 전환해 온 노력이 이번 평가에서 높은 점수를 받았습니다.\n\nGoogle은 Google DeepMind의 기초 연구와 자체적인 AI 인프라를 결합하여 기업용 통합 AI 스택인 Gemini Enterprise를 제공합니다. Gemini Enterprise는 비즈니스 워크플로우를 실행하는 자율형 에이전트를 개발 및 운영할 수 있는 Agent Platform과 일반 사용자를 위한 Gemini Enterprise 앱을 포함하는 포괄적인 시스템입니다.\n\n이 시스템은 복잡한 다단계 작업을 처리하기 위해 설계된 최신 모델인 Gemini 3.5 Flash를 기반으로 구동됩니다. 특히 모델과 하드웨어를 동시에 최적화하는 공동 설계를 통해 추론 능력을 극대화했습니다. 기업들은 Gemini Enterprise를 통해 기술적 위험 관리에 대한 부담을 줄이고, 보안과 거버넌스가 내재된 환경에서 에이전트 기반의 비즈니스 성과를 창출하는 데 집중할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Cloud AI"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-14T18:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60417",
+    "title": ".NET 11 Preview 6 is now available!",
+    "summary": "Find out about the new features in .NET 11 Preview 6 across runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, F#, and container images.\nThe post .NET 11 Preview 6 is now ava",
+    "aiSummary": "Microsoft는 .NET 11 Preview 6 버전을 공개했습니다. 이번 프리뷰 업데이트에는 runtime, SDK, 라이브러리를 비롯하여 ASP.NET Core와 .NET MAUI, C#, Entity Framework Core, F# 등 .NET 생태계 전반에 걸친 새로운 기능과 성능 개선 사항이 포함되어 있습니다. 또한 최신 container images에 대한 업데이트도 함께 제공하여 개발 환경의 최적화를 지원합니다. 개발자들은 공식 블로그를 통해 각 분야별 상세 변경 사항과 개선된 기능들을 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "2026-07-14T17:45:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown",
+    "title": "Dependabot version updates introduce default package cooldown",
+    "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the…\nThe post Dependabot version ",
+    "aiSummary": "GitHub의 Dependabot이 패키지 버전 업데이트를 수행할 때 새로운 릴리스가 레지스트리에 등록된 후 최소 3일이 지나야만 풀 리퀘스트를 생성하도록 변경되었습니다. \n\n이러한 쿨다운 정책은 패키지 배포 직후 발생할 수 있는 초기 버그나 불안정한 요소를 최소화하여 사용자가 더욱 안정적인 환경에서 의존성을 관리할 수 있도록 돕습니다. 기본적으로 설정된 이 3일의 대기 시간은 향후 Dependabot을 통해 관리되는 패키지 업데이트 과정에서 소프트웨어 공급망의 신뢰성을 높이는 역할을 수행합니다.",
+    "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-14T16:42:59.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
     "title": "Claude at scale on Google Cloud: Frontier AI, built for enterprise production",
     "summary": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude",
@@ -95,6 +191,38 @@
     ]
   },
   {
+    "id": "https://www.postgresql.org/about/news/odyssey-151-released-3348/",
+    "title": "Odyssey 1.5.1 released\n",
+    "summary": "We are excited to announce a new release of the Odyssey — advanced multi-threaded connection pooler for PostgreSQL and Apache Cloudberry.\nA lot of new small features have been implemented, alongside e",
+    "aiSummary": "PostgreSQL 및 Apache Cloudberry를 위한 다중 스레드 커넥션 풀러인 Odyssey의 최신 버전 1.5.1이 공개되었습니다. 이번 업데이트는 확장 프로토콜 지원 리팩토링을 통해 규격 위반 사항을 수정하고 파이프라이닝 성능을 전반적으로 개선하는 데 집중했습니다.\n\n새롭게 추가된 주요 기능으로는 단순 공유 풀 지원, 트랜잭션 풀링을 위한 pool_pin_on_listen 옵션, 부하 분산 개선, cpu_affinity 지원 등이 포함되었습니다. 또한 보안 및 모니터링 강화를 위해 aws-lc 빌드 지원과 SSLKEYLOGFILE 지원이 추가되었으며, 큐 대기 시간 지표 측정 기능과 Prometheus 메트릭 내보내기 기능도 향상되었습니다.\n\n버그 수정 측면에서는 풀 사이즈 재검증 로직 개선과 더불어 Extended 프로토콜에서의 Close, COPY, DEALLOCATE ALL 지원을 보완하였습니다. 특히 취소 연결 처리 과정에서의 경쟁 상태를 해결하는 등 안정성 관련 수정 사항들이 다수 반영되었습니다. 개발팀은 현재 추가적인 개선 사항을 담은 1.5.2 버전을 준비 중입니다.",
+    "url": "https://www.postgresql.org/about/news/odyssey-151-released-3348/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-07-14T00:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/higher-education-digital-transformation-do-more-with-less",
+    "title": "Universities do more with less — start with data",
+    "summary": "Higher education digital transformation starts with unified data, not more tools. Learn how to reduce costs, strengthen security, and scale.",
+    "aiSummary": "고등교육 기관의 디지털 전환은 단순히 새로운 도구를 늘리는 것이 아니라 통합된 데이터를 구축하는 것에서 시작합니다. 데이터를 일원화하면 시스템 운영 효율성을 높여 비용을 절감할 수 있을 뿐만 아니라 보안 체계를 강화하고 서비스의 확장성을 확보할 수 있습니다. 결과적으로 대학들은 자원을 더욱 효율적으로 활용하여 교육 및 연구 환경의 질적 개선을 도모할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/higher-education-digital-transformation-do-more-with-less",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Oksana Abramovych",
+    "pubDate": "2026-07-14T00:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/space-cybersecurity",
     "title": "Space is now critical infrastructure, but we're not securing it like it is",
     "summary": "Space is the newest critical infrastructure domain, and while the adversaries already understand that, the defenders are catching up. Here's how Elastic can help.",
@@ -126,6 +254,22 @@
       "Claude",
       "AI",
       "LLM"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-13-create-and-manage-secret-scanning-custom-patterns-via-rest-api",
+    "title": "Manage secret scanning custom patterns via REST API",
+    "summary": "Starting today, security teams can create, edit, and manage secret scanning custom patterns with the REST API. What’s new The following endpoints are generally available: GET .../secret-scanning/custo",
+    "aiSummary": "GitHub는 보안 팀이 REST API를 통해 secret scanning custom patterns를 생성하고 편집하며 관리할 수 있는 기능을 새롭게 제공합니다.\n\n이번 업데이트를 통해 사용자는 GET, POST, PATCH, DELETE 등 다양한 엔드포인트를 활용하여 보안 패턴을 효율적으로 관리할 수 있습니다. 이를 통해 보안 팀은 워크플로우 내에서 직접 비밀 탐지 규칙을 제어함으로써 더욱 자동화되고 일관된 보안 환경을 구축할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-13-create-and-manage-secret-scanning-custom-patterns-via-rest-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-13T23:59:13.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -467,6 +611,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "antigravity-engine-2.3.0",
+    "title": "Antigravity 2.3.0: Queued messages, plain text files support, and stability improvements",
+    "summary": "Added support for queued messages, settings to configure message execution, a send now option, plain text file attachments, and various bug fixes and improvements.\n\nImprovements:\n- Added support for q",
+    "aiSummary": "Antigravity 2.3.0 업데이트가 진행되었습니다. 이번 버전의 핵심은 메시지 대기열 기능 도입으로, 사용자는 메시지 실행 방식을 설정하거나 즉시 전송 옵션을 선택할 수 있습니다. 또한 일반 텍스트 파일(.txt) 첨부와 렌더링을 지원하여 협업 편의성을 높였습니다.\n\n성능 및 안정성 측면에서도 큰 개선이 있었습니다. 파일 감시와 초기화 순서를 최적화하여 앱 실행 속도를 향상시켰으며, 백엔드 과부하 발생 시 자동 재시도 기능을 추가하여 서비스 안정성을 강화했습니다. 팀 협업 시 헬퍼 에이전트가 응답을 대기하다 멈추는 문제를 해결하고, 대화 보관 시 백그라운드 작업이 불필요하게 유지되지 않도록 수정했습니다.\n\n사용자 경험 개선을 위해 UI 테마를 시스템 기본 설정과 동기화하도록 변경하였으며, 대화 내 사이드 질문 기능의 지속성과 시각적 피드백을 강화했습니다. 그 외에도 1,000줄 이상의 파일 diff 렌더링 오류 수정, 페이지 내 찾기 기능 개선, 명령 권한 프롬프트의 유연한 제어 등 전반적인 기능 오류를 해결하였습니다.",
+    "url": "https://antigravity.google/changelog",
+    "category": "인공지능",
+    "source": "Antigravity Changelog",
+    "author": "Google",
+    "pubDate": "2026-07-13T00:00:00.000Z",
+    "fetchedAt": "2026-07-15T00:10:12.264Z",
+    "tags": [
+      "Antigravity",
+      "AI",
+      "LLM"
     ]
   },
   {
