@@ -1,5 +1,53 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.139.1",
+    "title": "0.139.1",
+    "summary": "Fixes\n🐛 Fix frontend fallback support for doted paths like /users/john.doe. PR #16011 by @tiangolo.\nDocs\n📝 Fix topic repository list not being displayed and skip_users not being applied. PR #15995 b",
+    "aiSummary": "이번 업데이트 버전 0.139.1에서는 프론트엔드 경로 처리 문제 해결과 문서화 수정, 그리고 다국어 번역 업데이트가 주요하게 이루어졌습니다.\n\n상세 내용으로는 점이 포함된 경로에 대한 프론트엔드 폴백 지원을 개선하였으며, 문서 내 토픽 저장소 목록 표시 오류와 skip_users 적용 누락 문제를 수정하였습니다. 또한 한국어를 포함한 다수의 언어 번역을 최신화하고 일부 언어의 프롬프트를 개선하였습니다.\n\n내부적으로는 의존성 패키지와 github-actions 그룹의 버전을 업데이트하였으며, 프리커밋 훅 관리 자동화와 같은 워크플로우 효율화 작업을 수행하였습니다. 아울러 후원사 목록을 조정하고 관련 도구인 issue-manager 및 latest-changes 버전을 최신화하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-16T09:18:15.000Z",
+    "fetchedAt": "2026-07-16T09:32:56.880Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/07/16/ruby-3-3-12-released/",
+    "title": "Ruby 3.3.12 Released",
+    "summary": "Ruby 3.3.12 has been released.\nThis release includes security fixes.\nPlease check the topics below for details.\nCVE-2026-41316: ERB @_init deserialization guard bypass via def_module / def_method / de",
+    "aiSummary": "Ruby 3.3.12 버전이 보안 업데이트를 포함하여 새롭게 출시되었습니다.\n\n이번 업데이트의 주요 내용은 ERB 라이브러리의 @_init 역직렬화 가드 우회 문제를 해결하기 위해 기본 gem인 erb를 4.0.3.1 버전으로 업데이트한 것입니다.\n\n또한 번들 gem인 net-imap이 0.4.25 버전으로 업데이트되었습니다. 이를 통해 CVE-2026-42245부터 CVE-2026-42248까지를 포함한 총 8개의 보안 취약점이 해결되었습니다.\n\n사용자는 Ruby 공식 홈페이지에서 관련 소스 코드를 다운로드하여 설치할 수 있으며 상세한 정보는 GitHub 릴리스 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://www.ruby-lang.org/en/news/2026/07/16/ruby-3-3-12-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "2026-07-16T05:08:11.000Z",
+    "fetchedAt": "2026-07-16T09:32:56.880Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.3",
+    "title": "1.1.3",
+    "summary": "Added a /codesearch command (aliases /cs and /search) to interactively search code across your workspace, interpreting queries as regex by default with -F/--literal for exact matching and f:/file: glo",
+    "aiSummary": "이번 1.1.3 업데이트에서는 코드 검색 기능인 /codesearch 명령어가 추가되어 작업 공간 내에서 정규식 기반의 검색과 파일 경로 필터링을 지원합니다. no-flickering 모드에서의 텍스트 복사 동작이 개선되었으며, 컨텍스트 압축 지점을 시각적으로 표시하는 기능이 도입되었습니다.\n\n성능 개선 측면에서는 CLI 초기 실행 시 스킬을 비동기적으로 로드하여 대기 시간을 단축했고, 스킬이나 에이전트 관련 파일 시스템 검색을 최적화하여 입출력 부하를 줄였습니다. 또한, 입력을 통한 오류 처리 방식이 간소화되었고 인라인 코드 주변의 불필요한 여백이 제거되었습니다.\n\n안정성 강화와 관련해서는 다양한 오류가 수정되었습니다. 마크다운 내 수식과 코드 블록이 충돌하던 현상을 방지했으며, headless 모드에서 권한 확인이 필요한 도구 실행 시 발생하는 문제와 작업 공간 외부 파일 쓰기 승인 오류를 해결했습니다.\n\n대규모 대화 시 발생하던 CPU 부하를 최적화했고, Linux 환경에서 발생하는 키링 인증 문제와 MCP 서버 응답 대기 중 발생하는 무한 대기 현상을 개선했습니다. 이외에도 심볼릭 링크로 인한 중복 로딩 문제와 도구 호출 후 대화 기록이 손상되던 버그를 모두 수정했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.3",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-07-16T01:01:57.000Z",
+    "fetchedAt": "2026-07-16T09:32:56.880Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_130",
     "title": "Visual Studio Code 1.130 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article",
@@ -1352,71 +1400,6 @@
       "OpenAI",
       "LLM",
       "AI"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
-    "title": "Building resiliency into Boundary session recording",
-    "summary": "In modern enterprise security, privileged access management (PAM) is a core compliance and cybersecurity mandate. At its center lies session recording — the continuous ingestion of an immutable, crypt",
-    "aiSummary": "HashiCorp Boundary의 세션 기록 기능은 현대 기업의 보안 및 규정 준수를 위한 핵심 요소로, SSH 및 RDP 프로토콜에 대해 단순한 화면 캡처가 아닌 정확한 바이트 스트림 단위의 기록을 제공합니다. 기록된 데이터는 BSR 형식으로 저장되며, 암호화 서명을 통해 데이터의 무결성을 보장하고 KMS를 통해 안전하게 관리됩니다.\n\n보안 환경에서 기록의 누락은 단순한 기술적 결함을 넘어 법적 책임, 운영상의 비용 증가, 그리고 규정 위반으로 이어지는 심각한 문제입니다. 네트워크 단절이나 디스크 용량 부족과 같은 예기치 못한 상황에서 기록이 유실될 경우 감사 추적의 사각지대가 발생하며, 이는 보안 사고 발생 시 정확한 원인 파악과 책임 소재 규명을 어렵게 만듭니다.\n\n이를 방지하기 위해 Boundary는 세션 기록의 회복 탄력성을 높이는 다양한 기술적 메커니즘을 적용하고 있습니다. 디스크 공간 부족에 대비하여 사전에 여유 공간을 확보하고 주기적인 모니터링을 수행하며, 세션 종료 후 원격 스토리지로 데이터를 자동으로 동기화하고 로컬 데이터를 삭제하는 방식을 사용합니다. 또한 원격 스토리지와의 연결 상태를 실시간으로 감시하고, 서비스 장애로 인해 중단된 기록이 발생할 경우 재시작 시 자동으로 데이터를 복구하여 업로드하는 자가 치유 워크플로우를 갖추고 있습니다.\n\n이러한 Boundary의 회복 탄력성 프레임워크는 제로 갭 보안을 지향하며, 보안 팀이 수동적인 데이터 복구 작업에서 벗어나 고도화된 위협 관리와 효율적인 감사 업무에 집중할 수 있도록 지원합니다. 향후 Boundary는 지원 범위를 Kubernetes, 데이터베이스, HTTP/HTTPS 등으로 확대하고 명령 인덱싱과 같은 고급 기능을 도입하여 보안 감사 수준을 지속적으로 강화할 계획입니다.",
-    "url": "https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Krishnan Ramachandran",
-    "pubDate": "2026-07-09T07:09:00.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/autopilot-clusters-with-gke-managed-dranet-gpus-and-tpus/",
-    "title": "Autopilot Clusters with GKE managed DRANET: GPUs and TPUs",
-    "summary": "Google Kubernetes Engine (GKE) managed DRANET supports both GPUs and TPUs. There are several configurations to use this implementation, including standard cluster (where you have full control) and aut",
-    "aiSummary": "Google Kubernetes Engine(GKE)의 Autopilot 클러스터에서 GPU와 TPU를 지원하는 관리형 DRANET 설정 방법을 설명합니다. GKE Autopilot은 노드 관리, 확장, 보안 등 복잡한 설정을 자동으로 처리하는 관리형 서비스이며, 여기에 관리형 DRANET을 결합하면 TPU와 RDMA를 지원하는 네트워크 인터페이스를 Pod에 효율적으로 할당할 수 있습니다.\n\n설정 과정은 먼저 VPC 환경을 구축한 뒤 Autopilot 클러스터를 생성하는 것으로 시작합니다. 이후 가속기 유형에 맞춰 맞춤형 ComputeClass를 정의하고, GPU를 위한 RDMA 혹은 TPU를 위한 비RDMA 환경의 ResourceClaimTemplate을 생성해야 합니다.\n\n실제 워크로드를 배포할 때는 작성한 ComputeClass와 ResourceClaimTemplate을 참조하도록 설정합니다. GKE Autopilot은 이를 통해 필요한 노드 유형을 프로비저닝하고 DRANET 네트워킹을 구성하며, 리소스 클레임은 Pod와 노드 내 가속기를 직접 연결하는 가교 역할을 수행합니다. 이와 같은 메커니즘을 통해 복잡한 인프라 설정 과정 없이도 고성능 AI 컴퓨팅 환경을 구축할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/autopilot-clusters-with-gke-managed-dranet-gpus-and-tpus/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Ammett Williams"
-      ],
-      "title": [
-        "Developer Relations Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-09T07:00:00.000Z",
-    "fetchedAt": "2026-07-09T17:27:53.298Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
-    "title": "Searchable field-level encryption on Supabase with CipherStash",
-    "summary": "Add field-level encryption to your Supabase project with CipherStash. Searchable ciphertext, zero-knowledge key management, and no schema changes required.",
-    "aiSummary": "Supabase 프로젝트에 CipherStash를 도입하여 필드 단위 암호화를 적용할 수 있습니다. \n\n해당 솔루션은 데이터베이스 스키마를 변경할 필요가 없으며 제로 지식 키 관리 방식을 지원합니다. 특히 암호화된 상태에서도 검색이 가능한 암호문 기능을 제공하여 데이터 보안과 활용성을 동시에 보장합니다.",
-    "url": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-07-09T07:00:00.000Z",
-    "fetchedAt": "2026-07-09T10:34:28.848Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
     ]
   }
 ]
