@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_130",
+    "title": "Visual Studio Code 1.130 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.130 Insiders 버전이 새롭게 공개되었습니다. 이번 업데이트는 사용자 경험을 개선하고 개발 효율성을 높이기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 상세한 변경 사항과 새롭게 추가된 기능은 공식 웹사이트의 전체 게시글을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_130",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-07-16T00:14:35.688Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+    "title": "Improvements to secret scanning and public monitoring",
+    "summary": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub…\nT",
+    "aiSummary": "GitHub가 자사의 secret scanning 및 public monitoring 기능에 대한 개선 사항을 발표했습니다.\n\n우선 Resend가 새롭게 GitHub secret scanning 파트너로 합류하여 보안 범위를 확대했습니다. 또한 APIclub에서 제공하는 새로운 유형의 secret을 탐지할 수 있도록 기능을 강화하여 사용자의 보안 환경을 더욱 견고하게 보완했습니다.",
+    "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-15T22:38:16.000Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/networking/idc-on-the-right-networking-approach-for-agentic-ai/",
     "title": "IDC: Why the right networking approach is foundational to agentic AI",
     "summary": "Editor’s note: Today we hear from IDC on the results of its 2026 AI in Networking Special Report Survey exploring the enterprises' concerns about networking infrastructure to support the rise of agent",
@@ -173,6 +205,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/av-comparatives-business-security-test-2026",
+    "title": "Elastic leads the latest AV-Comparatives Malware Protection Test with a perfect score",
+    "summary": "AV-Comparatives published the 2026 Business Security Test, covering the March–June 2026 test period. Across 16 enterprise solutions tested on fully patched Windows 11, Elastic Security was the only ve",
+    "aiSummary": "AV-Comparatives가 발표한 2026 Business Security Test 결과에서 Elastic Security가 유일하게 100%의 악성코드 탐지율을 기록했습니다.\n\n이번 테스트는 2026년 3월부터 6월까지 Windows 11 환경에서 진행되었으며 총 16개의 엔터프라이즈 보안 솔루션을 대상으로 성능을 평가했습니다. Elastic Security는 해당 테스트에서 완벽한 점수를 획득하며 독보적인 보안 성능을 입증했습니다.",
+    "url": "https://www.elastic.co/blog/av-comparatives-business-security-test-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Roxana Gheorghe",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1369,287 +1417,6 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
-    ]
-  },
-  {
-    "id": "/blog/give-your-agent-a-database",
-    "title": "npx create-db: Instant Postgres for Your Coding Agent",
-    "summary": "npx create-db gives coding agents a temporary Postgres database in seconds, no sign-up. JSON output lets Cursor, Claude Code, and Codex test on real Postgres.",
-    "aiSummary": "npx create-db는 코딩 에이전트가 즉시 활용할 수 있는 임시 Postgres 데이터베이스를 별도의 가입 절차 없이 수 초 만에 생성해 주는 도구입니다.\n\n이 도구는 데이터베이스 상태를 JSON 형식으로 출력하여 Cursor, Claude Code, Codex와 같은 코딩 에이전트가 실제 Postgres 환경에서 코드를 테스트하고 데이터 작업을 수행할 수 있도록 지원합니다.\n\n별도의 복잡한 설정 과정 없이 즉각적인 데이터베이스 환경을 제공함으로써 개발자가 더욱 효율적으로 코딩 에이전트를 활용할 수 있는 환경을 조성합니다.",
-    "url": "https://www.prisma.io/blog/give-your-agent-a-database",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-10T17:13:53.818Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "/blog/serverless-postgres",
-    "title": "Serverless Postgres: How It Works and Who Offers It (2026)",
-    "summary": "Serverless Postgres separates compute from storage and bills for usage instead of provisioned servers. How scale-to-zero, cold starts, and the three pricing models compare across Neon, Prisma Postgres",
-    "aiSummary": "Serverless Postgres는 연산 자원과 저장소를 분리하여 설계된 아키텍처로, 서버를 미리 할당하는 대신 실제 사용량에 기반하여 비용을 청구합니다. 이 방식은 사용하지 않을 때 자원을 0으로 줄이는 스케일 투 제로 기능을 제공하지만, 다시 활성화될 때 지연 시간이 발생하는 콜드 스타트 문제를 동반합니다.\n\n현재 시장에서는 Neon, Prisma Postgres, Supabase, Aurora, PlanetScale 등 다양한 서비스가 이 기술을 채택하고 있습니다. 각 서비스는 제공하는 성능과 운영 방식에 따라 서로 다른 세 가지 가격 책정 모델을 운영하며, 사용자는 자신의 워크로드 특성에 맞춰 최적의 옵션을 선택할 수 있습니다.",
-    "url": "https://www.prisma.io/blog/serverless-postgres",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-10T17:13:53.818Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "/blog/typescript-7-native-compiler-faster-type-checking",
-    "title": "TypeScript 7 Native Compiler: 3x Faster Type Checks in a Real Monorepo",
-    "summary": "TypeScript 7 ships the compiler as a native Go port. We migrated a large TypeScript monorepo to it: whole-repo type checking went from ~74s to ~24s with no memory tuning. Here are the numbers, the exa",
-    "aiSummary": "TypeScript 7은 기존 컴파일러를 Go 언어로 포팅한 Native Compiler를 도입하여 성능을 크게 향상시켰습니다.\n\n실제 대규모 TypeScript 모노레포 환경에서 테스트한 결과, 별도의 메모리 최적화 없이도 전체 프로젝트의 타입 체킹 시간이 기존 74초에서 24초로 약 3배 단축되는 성과를 거두었습니다.\n\n이번 업데이트는 컴파일 속도 개선에 중점을 두고 있으며, 구체적인 벤치마크 수치와 설정 변경 방법, 그리고 도입 시 주의해야 할 기술적 제약 사항들이 공개되었습니다. 현재 대규모 프로젝트를 운영 중인 개발자들은 제공된 마이그레이션 가이드를 참고하여 전환을 고려할 수 있습니다.",
-    "url": "https://www.prisma.io/blog/typescript-7-native-compiler-faster-type-checking",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-10T17:13:53.818Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/hard-questions",
-    "title": "Inviting hard questions",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsInviting hard questionsJul 9, 2026Who decides the rules for AI? Can AI give my children a better future? Does AI make the world a more dangerou",
-    "aiSummary": "Anthropic은 AI가 사회와 개인의 삶에 미칠 영향에 대해 대중이 가지는 기대와 우려를 경청하고 이를 책임 있게 해결하겠다는 의지를 표명했습니다. 많은 이들이 AI가 노동의 생산성을 높이고 과학적 난제를 해결할 잠재력을 긍정적으로 평가하는 반면, 일자리 감소나 인간의 주체성 상실과 같은 부작용에 대해서는 심각한 우려를 표하고 있습니다.\n\nPublic Benefit Corporation으로서 Anthropic은 AI의 위험을 완화하고 혜택을 극대화하기 위해 그간 AI 안전장치 투자, 모델 정렬 연구, 과학자를 위한 모델 무상 제공 등의 활동을 이어왔습니다. 특히 기술 개발의 공익성을 확보하기 위해 Anthropic Institute를 설립하고 Long-Term Benefit Trust를 통한 외부 감독을 수행해 왔습니다.\n\n이번에 새롭게 추진하는 이니셔티브를 통해 Anthropic은 AI가 사회, 직업, 가족, 과학 발전 등에 미치는 영향에 대한 대중의 가장 어려운 질문들을 직접 수렴합니다. Anthropic은 제기된 질문들에 대해 구체적인 대응 방안을 마련하고, 그 이행 과정을 투명하게 공개하며 목표 달성 과정에서 직면하는 한계까지도 솔직하게 공유할 계획입니다.",
-    "url": "https://www.anthropic.com/news/hard-questions",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-10T01:03:32.166Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/ust-claude",
-    "title": "UST is bringing Claude to physical AI",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeCase StudyUST is bringing Claude to physical AIJul 9, 2026Before a factory commits to manufacturing millions of chips, engineers stress-test the design in t",
-    "aiSummary": "기술 및 엔지니어링 서비스 기업인 UST가 물리적 AI 분야에 Anthropic의 Claude를 도입합니다. 물리적 AI란 반도체, 자동차, IoT 기기 등을 제조하는 과정의 장비와 엔지니어링 프로세스에 지능을 결합하는 것을 의미하며, UST는 자사의 전 세계 엔지니어 및 컨설턴트 2만 명을 대상으로 Claude 활용 교육을 진행할 예정입니다.\n\nUST는 자사의 하드웨어 및 실리콘 검증 플랫폼인 iDEC에 Claude Code를 추론 계층으로 통합합니다. 기존에는 엔지니어들이 직접 작성하던 테스트 스크립트를 Claude가 하드웨어 설계도와 핀 배치도를 분석하여 자동으로 생성하고 실행합니다. 또한 실제 장비에서 발생하는 데이터를 디지털 트윈과 실시간으로 비교하여 펌웨어 오류나 신호 무결성 문제를 조기에 감지합니다.\n\n이러한 도입을 통해 UST는 설계 단계에서 발생할 수 있는 결함을 더 빠르게 찾아내고 반도체 검증 속도를 높이는 것을 목표로 합니다. 실제로 기존 iDEC 플랫폼은 테스트 자동화를 통해 검증 주기를 50%에서 70%까지 단축한 성과를 보였으며, Claude의 도입으로 이러한 프로세스는 더욱 가속화될 전망입니다. 이는 복잡한 제조 공정에서 실수를 줄이고 하드웨어와 소프트웨어를 하나의 통합된 시스템으로 연결하는 데 중요한 역할을 합니다.",
-    "url": "https://www.anthropic.com/news/ust-claude",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-10T01:03:32.166Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
-    "title": "Announcing Rust 1.97.0",
-    "summary": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust in",
-    "aiSummary": "Rust 1.97.0 버전이 정식 출시되었습니다. rustup update stable 명령어를 통해 업데이트할 수 있으며 주요 변경 사항은 다음과 같습니다.\n\n가장 먼저 Rust 고유의 심볼 매핑 방식인 Symbol mangling v0가 기본값으로 적용되었습니다. 기존 Itanium ABI 기반의 레거시 방식보다 제네릭 매개변수 처리와 일관성 측면에서 개선된 방식이며, 향후 레거시 방식은 완전히 제거될 예정입니다.\n\nCargo에는 경고 처리 제어 기능이 추가되었습니다. 이제 CARGO_BUILD_WARNINGS 환경 변수를 통해 경고를 허용하거나 차단할 수 있습니다. 이는 빌드 캐시를 무효화하지 않으므로 CI 환경이나 리팩토링 과정에서 유연하게 활용 가능합니다.\n\n또한 rustc 호출 시 링커 출력이 기본적으로 표시되도록 변경되었습니다. 기존에는 성공적인 링크 시 출력이 숨겨져 잠재적인 문제를 파악하기 어려웠으나, 이제는 linker_messages 린트를 통해 링커의 경고 메시지를 확인할 수 있습니다. 오탐지가 발생하는 경우 Cargo.toml 설정을 통해 해당 출력을 비활성화할 수 있습니다.\n\n이외에도 Default for RepeatN, Copy for ffi::FromBytesUntilNulError, 정수형의 비트 연산 관련 API 등 다수의 API가 안정화되었으며 char::is_control 함수가 const 환경에서 사용 가능해졌습니다. 상세한 내용은 공식 릴리즈 노트를 통해 확인할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rust Release Team",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-09T17:27:53.298Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/all-aboard-open-models",
-    "title": "Ollama: all aboard open models",
-    "summary": "Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.",
-    "aiSummary": "Ollama가 Benchmark, Theory Ventures, 8VC, Y Combinator 등 주요 투자사 및 엔젤 투자자들로부터 8,800만 달러 규모의 투자를 유치했습니다. 현재 Ollama는 890만 명의 개발자가 사용하는 오픈 모델 서비스로 자리 잡고 있습니다. 이번 대규모 투자 유치를 통해 서비스 성장과 기술 고도화에 더욱 박차를 가할 것으로 전망됩니다.",
-    "url": "https://ollama.com/blog/all-aboard-open-models",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-09T17:27:53.298Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/ben-bernanke",
-    "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust Jul 9, 2026Anthropic&#x27;s Long-Term Benefit Trust (LTBT) has appointed Dr. Ben ",
-    "aiSummary": "Anthropic는 전 연방준비제도 의장이자 노벨 경제학상 수상자인 Ben Bernanke를 Long-Term Benefit Trust의 새로운 멤버로 임명했습니다. \n\nLong-Term Benefit Trust는 Anthropic의 경영진이나 투자자로부터 독립적으로 운영되는 기구로, Anthropic이 인류의 장기적 이익을 위한 책임감 있는 AI 개발이라는 기업 사명을 준수하도록 감시하고 지원하는 역할을 수행합니다.\n\nBen Bernanke는 Brookings Institution의 Distinguished Fellow로서 경제적 위기 대응과 거시 경제 정책에 대한 깊은 통찰력을 보유하고 있으며, 이러한 전문성을 바탕으로 향후 AI 기술이 전 세계 노동 시장과 경제 전반에 미칠 영향을 예측하고 대응하는 과정에서 자문할 예정입니다. \n\nAnthropic은 공공 이익을 추구하는 Public Benefit Corporation으로서, Ben Bernanke의 합류를 통해 급변하는 기술 환경 속에서 상업적 성공과 사회적 책임을 균형 있게 유지하려는 기업 거버넌스를 더욱 강화할 계획입니다.",
-    "url": "https://www.anthropic.com/news/ben-bernanke",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "fetchedAt": "2026-07-09T17:27:53.298Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-07-innersource-security-advisories-are-generally-available",
-    "title": "Innersource security advisories are generally available",
-    "summary": "GitHub Advanced Security enterprise customers can now publish internal security advisories. Innersource advisories work similarly to GitHub’s open source advisories, but their visibility is restricted",
-    "aiSummary": "GitHub Advanced Security 엔터프라이즈 고객은 이제 내부 보안 권고 사항을 게시할 수 있습니다. \n\n이번에 도입된 Innersource 보안 권고 기능은 기존 GitHub 오픈소스 보안 권고와 유사한 방식으로 작동합니다. 다만 해당 정보는 조직 내 특정 리포지토리로 접근 권한이 제한된 사용자들에게만 공개된다는 차이점이 있습니다. \n\n기업들은 이 기능을 통해 내부 소프트웨어 프로젝트의 보안 취약점을 체계적으로 관리하고 공유함으로써 조직 내부의 보안 대응 능력을 강화할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-08T21:30:35.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-    "title": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
-    "summary": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configu",
-    "aiSummary": "GitHub는 기업이 GitHub Copilot의 OpenTelemetry 데이터를 전송할 위치를 중앙에서 직접 지정할 수 있는 기능을 새롭게 도입했습니다. \n\n기존에는 개별 개발자가 환경 변수인 OTEL_*을 직접 설정해야 했으나, 이제는 조직 차원에서 승인된 collector로 데이터가 자동 전송되도록 의무화할 수 있습니다. \n\n이번 기능은 VS Code 및 CLI 환경을 지원하며, 이를 통해 기업은 내부 보안 정책에 따라 관리되는 환경으로 원활하게 telemetry 데이터를 수집하고 제어할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-08T20:50:07.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
-    "title": "Deploy managed Copilot settings via MDM in VS Code and CLI",
-    "summary": "Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing se",
-    "aiSummary": "기업 관리자는 이제 기존의 서버 관리 방식 외에도 네이티브 MDM 및 파일 기반 구성을 통해 GitHub Copilot 설정을 각 기기에 직접 배포할 수 있습니다. \n\n이번 업데이트를 통해 VS Code 및 CLI 환경에서 GitHub Copilot의 설정을 더욱 유연하고 효율적으로 관리하는 것이 가능해졌습니다. 이는 기업 환경에서 일관된 정책 적용을 원하는 관리자들의 운영 편의성을 높여줍니다.",
-    "url": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-08T20:38:56.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/compute/c4n-network-and-storage-optimized-vms/",
-    "title": "C4N, now GA: Delivering cloud’s highest per vCPU network and block storage I/O for x86 workloads",
-    "summary": "As organizations scale modern workloads — from high-throughput databases and network/security appliances to real-time analytics and AI/ML inference — network and block storage performance can quickly ",
-    "aiSummary": "Google Cloud는 네트워크 및 블록 스토리지 성능을 최적화한 Compute Engine 인스턴스인 C4N을 정식 출시하였습니다. 이 인스턴스는 5세대 Intel Xeon Scalable 프로세서(Emerald Rapids)와 Google의 독자적인 Titanium 오프로드 아키텍처를 기반으로 설계되었습니다.\n\nC4N은 네트워크 트래픽과 스토리지 작업을 전용 하드웨어로 분산 처리하여 I/O 병목 현상을 해결합니다. 이를 통해 최대 400 Gbps의 네트워크 대역폭과 95 MPPS의 패킷 처리 성능을 제공하며, 타사의 동급 Intel 기반 인스턴스 대비 vCPU당 네트워크 대역폭은 약 33%, 패킷 처리 성능은 224% 향상된 수치를 기록합니다.\n\n스토리지 성능 면에서는 고성능 블록 스토리지인 Hyperdisk와 결합하여 최대 25 GiB/s의 스토리지 대역폭과 1M IOPS를 지원합니다. 이는 대규모 데이터베이스, 고성능 파일 시스템, 메모리 내 데이터베이스와 같은 I/O 집약적인 워크로드에 최적화되어 있습니다. 또한 별도의 추가 기능 설정 없이도 즉시 이러한 고성능을 활용할 수 있어 자원 과잉 프로비저닝을 방지하고 총소유비용을 절감하는 효과를 제공합니다.\n\nC4N은 2개에서 192개에 이르는 다양한 vCPU 구성과 최대 1.5 TB의 DDR5 메모리를 지원하며, 높은 CPU 성능, 표준형, 고메모리 구성 등 선택의 폭을 넓혔습니다. 현재 Compute Engine 및 GKE에서 사용 가능하며, 향후 더 많은 서비스에 대한 지원이 확대될 예정입니다.\n\n이 인스턴스는 특히 5G 코어 네트워크, 실시간 데이터 분석, AI/ML 추론, 가상 어플라이언스 운영 등 네트워크 성능이 중요한 워크로드에서 강력한 성능을 발휘합니다. 이미 Ericsson, Teradata, NetApp, Sycomp, ClipperDB Technologies 등 주요 기업들이 이를 도입하여 데이터 처리 효율성과 비용 대비 성능을 크게 개선한 사례를 확인하고 있습니다. 현재 특정 지역을 시작으로 정식 서비스가 제공되고 있으며, 온디맨드, Spot VM, 그리고 예약 인스턴스 등 다양한 방식으로 활용할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/compute/c4n-network-and-storage-optimized-vms/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Parinda Gandhi"
-      ],
-      "title": [
-        "Senior Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-08T20:00:00.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/jul/08/last-call-2026-django-developer-survey/",
-    "title": "Last Call 2026 Django Developer Survey",
-    "summary": "Time is running out. This is the last call for the 2026 Django Developers Survey, which the Django Software Foundation is running in partnership with JetBrains.\nThe survey closes on July 13, 2026. It ",
-    "aiSummary": "Django Software Foundation이 JetBrains와 협력하여 진행 중인 2026 Django Developers Survey의 종료가 임박했습니다.\n\n설문 조사는 2026년 7월 13일에 마감되며 이번 조사는 Django의 활용 현황을 파악하고 향후 기술적 로드맵과 커뮤니티 정책을 수립하는 데 핵심적인 지표로 활용됩니다.\n\n현재까지 3,100명 이상의 개발자가 참여했으며 주최 측은 데이터의 신뢰도와 다양성을 높이기 위해 4,000명 이상의 응답을 목표로 하고 있습니다.\n\nDjango Steering Council, Django Fellows 등 관련 조직이 설계한 이번 설문은 커뮤니티의 요구사항을 수집하는 데 목적이 있습니다. 참여를 마친 뒤에는 각자의 소셜 미디어와 커뮤니티를 통해 설문 조사를 공유하여 보다 폭넓은 의견이 수렴될 수 있도록 독려하고 있습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/jul/08/last-call-2026-django-developer-survey/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jeff Triplett",
-    "pubDate": "2026-07-08T19:31:21.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/ai-review-laravel-upgrade",
-    "title": "AI Review for Laravel Upgrades",
-    "summary": "Introducing a built-in AI Review of your Shift. Providing a second pass on your upgrade, guided by Shift's detailed comments combined with AI's context.\nThe post AI Review for Laravel Upgrades appeare",
-    "aiSummary": "Laravel Shift 서비스가 업그레이드 과정에서 AI Review 기능을 새롭게 도입합니다. 이 기능은 Shift가 제공하는 상세한 업그레이드 가이드와 AI의 문맥 파악 능력을 결합하여 코드 변경 사항을 검토합니다. 기존의 업그레이드 프로세스에 AI 기반의 추가적인 검증 단계를 더함으로써 개발자가 더욱 정확하고 효율적으로 Laravel 프로젝트를 최신 버전으로 전환할 수 있도록 지원합니다.",
-    "url": "https://laravel-news.com/ai-review-laravel-upgrade?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "JMac",
-    "pubDate": "2026-07-08T19:27:09.000Z",
-    "fetchedAt": "2026-07-09T17:27:53.298Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-    "title": "GitHub Copilot in Visual Studio Code, June 2026 releases",
-    "summary": "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making…\nThe post",
-    "aiSummary": "VS Code v1.123부터 v1.127까지의 업데이트를 포함하는 2026년 6월과 7월 초 GitHub Copilot 업데이트 내역입니다.\n\n이번 릴리스는 개발자들이 매일 사용하는 GitHub Copilot의 경험을 더욱 개선하는 데 집중했습니다. 이를 통해 개발자는 더욱 효율적인 코딩 환경에서 생산성을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-08T18:24:55.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes",
-    "title": "setup-java v5.5.0: signature verification, Kona JDK, and Maven fixes",
-    "summary": "The actions/setup-java v5.5.0 release adds cryptographic signature verification for downloaded JDKs, support for a new distribution, and several quality-of-life improvements for Maven users. Here’s wh",
-    "aiSummary": "GitHub의 setup-java v5.5.0 버전이 공개되었습니다. 이번 업데이트의 핵심은 다운로드한 JDK에 대한 암호화 서명 검증 기능이 추가되어 보안성이 강화된 점입니다.\n\n또한 새로운 배포판으로 Amazon Corretto를 기반으로 하는 Kona JDK에 대한 지원이 시작되었습니다. 이와 더불어 Maven 사용자를 위한 다양한 편의 기능 개선 사항이 포함되어 개발 환경의 효율성이 향상되었습니다.",
-    "url": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-08T17:05:06.000Z",
-    "fetchedAt": "2026-07-09T01:06:45.572Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

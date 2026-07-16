@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_130",
+    "title": "Visual Studio Code 1.130 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.130 Insiders 버전이 새롭게 공개되었습니다. 이번 업데이트는 사용자 경험을 개선하고 개발 효율성을 높이기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 상세한 변경 사항과 새롭게 추가된 기능은 공식 웹사이트의 전체 게시글을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_130",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-07-16T00:14:35.688Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+    "title": "Improvements to secret scanning and public monitoring",
+    "summary": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub…\nT",
+    "aiSummary": "GitHub가 자사의 secret scanning 및 public monitoring 기능에 대한 개선 사항을 발표했습니다.\n\n우선 Resend가 새롭게 GitHub secret scanning 파트너로 합류하여 보안 범위를 확대했습니다. 또한 APIclub에서 제공하는 새로운 유형의 secret을 탐지할 수 있도록 기능을 강화하여 사용자의 보안 환경을 더욱 견고하게 보완했습니다.",
+    "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-15T22:38:16.000Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/networking/idc-on-the-right-networking-approach-for-agentic-ai/",
     "title": "IDC: Why the right networking approach is foundational to agentic AI",
     "summary": "Editor’s note: Today we hear from IDC on the results of its 2026 AI in Networking Special Report Survey exploring the enterprises' concerns about networking infrastructure to support the rise of agent",
@@ -173,6 +205,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/av-comparatives-business-security-test-2026",
+    "title": "Elastic leads the latest AV-Comparatives Malware Protection Test with a perfect score",
+    "summary": "AV-Comparatives published the 2026 Business Security Test, covering the March–June 2026 test period. Across 16 enterprise solutions tested on fully patched Windows 11, Elastic Security was the only ve",
+    "aiSummary": "AV-Comparatives가 발표한 2026 Business Security Test 결과에서 Elastic Security가 유일하게 100%의 악성코드 탐지율을 기록했습니다.\n\n이번 테스트는 2026년 3월부터 6월까지 Windows 11 환경에서 진행되었으며 총 16개의 엔터프라이즈 보안 솔루션을 대상으로 성능을 평가했습니다. Elastic Security는 해당 테스트에서 완벽한 점수를 획득하며 독보적인 보안 성능을 입증했습니다.",
+    "url": "https://www.elastic.co/blog/av-comparatives-business-security-test-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Roxana Gheorghe",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -2102,6 +2150,21 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-07-1",
+    "title": "PHP Tek 2027",
+    "summary": "Join us for the 19th Annual Web Developer Conference, PHP Tek 2027, April 27-29 2026.\nPHP Tek combines leadership, expertise, and networking in one event. A relaxing atmosphere for tech leaders and de",
+    "aiSummary": "미국에서 가장 오랜 역사를 자랑하는 웹 개발자 컨퍼런스인 PHP Tek 2027이 오는 2026년 4월 27일부터 29일까지 개최됩니다.\n\n이번 행사는 기술 리더와 개발자들이 교류하며 전문성을 강화하고 실무적인 문제 해결 능력을 함양할 수 있도록 기획되었습니다. 3일간 진행되는 본 행사는 기조연설과 다양한 강연, 네트워킹 세션으로 구성됩니다.\n\n교육 과정은 총 3개의 트랙으로 나뉩니다. 두 개의 PHP 전문 트랙이 상시 운영되며, 나머지 하나의 트랙은 매일 주제를 달리하여 JS, Laravel, DevOps 관련 심도 있는 지식을 다룰 예정입니다. 상세 정보 확인 및 티켓 구매는 공식 웹사이트인 phptek.io에서 가능합니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-07-07-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-07T16:47:27.000Z",
+    "fetchedAt": "2026-07-16T00:14:35.688Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
