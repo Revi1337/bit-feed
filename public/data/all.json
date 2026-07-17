@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=722457",
+    "title": "Key Takeaways From PHPverse 2026",
+    "summary": "On June 9, PHPverse 2026 brought together PHP developers from different backgrounds to watch talks by domain experts, exchange opinions, and even try to catch a running elePHPant. The five-hour live s",
+    "aiSummary": "6월 9일 개최된 PHPverse 2026은 다양한 배경의 PHP 개발자들이 모여 전문가들의 강연을 듣고 의견을 교류하는 장으로 마련되었습니다.\n\n5시간 동안 진행된 이번 라이브 스트리밍은 총 15,000회의 조회수를 기록했으며, 피크 타임에는 2,600명 이상의 동시 접속자가 참여하고 10,206개의 라이브 채팅 댓글이 달리는 등 높은 관심을 받았습니다.",
+    "url": "https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Hanna Yakush",
+    "pubDate": "2026-07-17T07:57:46.000Z",
+    "fetchedAt": "2026-07-17T09:24:10.820Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
     "title": "Advanced search for Projects is generally available",
     "summary": "The filter bar in GitHub Projects views now supports advanced search, so you can build the exact view you need with logical AND and OR instead of maintaining a separate…\nThe post Advanced search for P",
