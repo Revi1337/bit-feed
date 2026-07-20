@@ -1,5 +1,165 @@
 [
   {
+    "id": "27dde8580d688a55e51f9a85a22645896b60028e",
+    "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
+    "summary": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that colle",
+    "aiSummary": "AWS는 한국의 클라우드 개발자 커뮤니티인 AWSKRUG 리더들과의 만남을 통해 아시아 태평양 지역 내 개발자 피드백을 수렴하는 소통의 장을 마련했습니다.\n\n이번 주 주요 업데이트로는 AWS Lambda 환경을 한 번의 클릭으로 설정할 수 있는 프롬프트 기능이 새롭게 도입되었습니다. 또한 Amazon Bedrock 서비스에 OpenAI의 최신 모델인 GPT-5.6이 추가되어 사용자들이 더욱 고도화된 생성형 AI 모델을 AWS 환경에서 활용할 수 있게 되었습니다. AWS는 이처럼 지속적인 기술 업데이트와 지역 커뮤니티와의 긴밀한 협력을 통해 사용자 경험을 개선해 나가고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-07-20T16:37:34.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-16-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+    "title": "Copilot users can now see AI credits used per billing cycle",
+    "summary": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage…\nThe post Copil",
+    "aiSummary": "GitHub Copilot Business 및 Copilot Enterprise 사용자는 이제 개별 예산 설정 여부와 관계없이 현재 결제 주기 동안 사용한 AI 크레딧 수량을 직접 확인할 수 있습니다. 해당 정보는 GitHub Copilot 사용량 페이지를 통해 간편하게 조회할 수 있습니다. 이번 업데이트를 통해 기업 고객은 더욱 투명하게 AI 서비스 이용 현황을 관리하고 비용을 효율적으로 추적할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-20T16:00:14.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/partners/panasonic-automotive-vskipgen-runs-on-axion-based-c4a-metal/",
+    "title": "Accelerating automotive innovation with C4A-metal and Panasonic Automotive vSkipGen",
+    "summary": "As the automotive landscape accelerates toward software-defined vehicles, Cockpit Domain Controllers (CDCs) are becoming the core of next-generation in-cabin experiences. The ability to rapidly develo",
+    "aiSummary": "소프트웨어 정의 차량 시대로의 전환이 가속화됨에 따라 Cockpit Domain Controllers 개발의 효율성이 핵심 과제로 떠오르고 있습니다. Google Cloud와 Panasonic Automotive는 하드웨어 제약 없이 차량용 소프트웨어를 개발하고 검증할 수 있도록 Arm 기반의 C4A-metal 인프라 위에서 vSkipGen 플랫폼을 지원합니다.\n\nC4A-metal은 Google Cloud의 고성능 Axion 아키텍처를 기반으로 하며 96개의 vCPU와 대용량 메모리, 100Gbps의 네트워크 대역폭을 제공하여 복잡한 가상화 작업에 최적화되어 있습니다. 이를 통해 개발 팀은 물리적 프로토타입 없이도 클라우드상에서 디지털 트윈 환경을 구축하고 고성능의 그래픽 성능을 구현할 수 있습니다.\n\nPanasonic Automotive의 vSkipGen은 Android Cuttlefish와 crosvm을 활용하여 물리적 하드웨어와 동일하게 동작하는 가상 환경을 제공합니다. 특히 Unified HMI 기술을 통해 HMI 렌더링을 하드웨어에서 분리하고 OpenGL ES 명령을 클라우드 GPU 자원으로 오프로드함으로써 저지연 WebRTC를 통해 고화질 화면을 실시간으로 스트리밍합니다.\n\n이러한 협업 모델은 제조사가 AAOS 기반 소프트웨어를 조기에 검증하고 자동화된 테스트 파이프라인을 구축하도록 돕습니다. 결과적으로 물리적 하드웨어 의존도를 낮춰 비용을 절감하고 개발 속도를 높이며 전 세계에 분산된 엔지니어링 팀 간의 효율적인 협업을 가능하게 합니다.",
+    "url": "https://cloud.google.com/blog/topics/partners/panasonic-automotive-vskipgen-runs-on-axion-based-c4a-metal/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Yarden Halperin"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-20T16:00:00.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/serverless/cloud-run-multi-region-services-enhanced-for-high-availability/",
+    "title": "Making highly available, multi-region Cloud Run services just got easier",
+    "summary": "Application downtime for mission-critical services can directly impact your reputation and bottom line. To avoid that, you need to be able to deploy regionally resilient workloads that detect and auto",
+    "aiSummary": "Google Cloud는 Cloud Run에서 멀티 리전 고가용성 서비스를 더욱 쉽게 구축할 수 있도록 새로운 기능들을 발표하였습니다. 이제 사용자는 단일 명령어로 여러 리전에 동일한 서비스 구성을 배포하고, Readiness probes와 Service health 기능을 통해 리전별 장애를 자동으로 감지하여 트래픽을 정상 리전으로 즉시 전환할 수 있습니다.\n\nReadiness probes는 컨테이너 인스턴스 수준에서 트래픽 수용 가능 여부를 확인하며, 이를 통해 서비스의 상태를 파악합니다. Service health는 이러한 인스턴스 단위의 건강 상태를 집계하여 리전 전체의 서비스 상태를 계산하며, 이 정보는 Serverless NEGs를 통해 Global Application Load Balancer 또는 Cross-regional Internal Application Load Balancer와 연동됩니다.\n\n이러한 자동 장애 조치 기능은 공용 인터넷 및 사설 네트워크 환경 모두에서 활용 가능하며, 서비스 중단을 최소화하는 데 기여합니다. 설계를 고려할 때 데이터베이스 계층의 지역적 중복성 확보, 지역 간 데이터 동기화 전략, 그리고 Firestore, Spanner, Cloud SQL과 같은 Google Cloud의 관리형 데이터 저장소를 활용한 데이터 거주지 요건 준수가 중요합니다.\n\n새롭게 강화된 Cloud Run의 고가용성 서비스는 모든 Cloud Run 리전에서 추가 비용 없이 제공되며, Readiness probes 실행에 필요한 표준 CPU 및 메모리 자원만 부담하면 됩니다.",
+    "url": "https://cloud.google.com/blog/products/serverless/cloud-run-multi-region-services-enhanced-for-high-availability/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shane Ouchi"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-20T16:00:00.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+    "title": "GitHub Code Quality is now generally available",
+    "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps…",
+    "aiSummary": "GitHub Code Quality 기능이 GitHub Enterprise Cloud와 GitHub Team 환경에서 정식 출시되었습니다. \n\nAI의 도입으로 소프트웨어 개발 속도와 코드 생산량이 급격히 증가함에 따라 발생하는 코드 품질 관리 문제를 해결하기 위해 도입되었습니다. 이 기능은 개발 과정에서 생성된 코드의 품질을 유지하고 일관성을 확보할 수 있도록 지원하며, 개발자가 더욱 안정적이고 효율적인 소프트웨어를 개발할 수 있는 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-20T13:01:24.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-installer-5-31-0",
+    "title": "Scaffold Packages with the `laravel package` Command in Laravel Installer v5.31.0",
+    "summary": "Laravel Installer v5.31.0 introduces a command to scaffold Laravel packages, along with environment variable propagation for node-less setups and automated PHP version matching for GitHub Actions.\nThe",
+    "aiSummary": "Laravel Installer v5.31.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Laravel 패키지를 간편하게 생성할 수 있는 새로운 명령어가 추가된 것입니다.\n\n또한 Node.js 환경이 없는 환경에서도 환경 변수를 원활하게 전파할 수 있는 기능이 도입되었습니다. 더불어 GitHub Actions에서 자동으로 PHP 버전을 일치시켜 주는 기능이 포함되어 개발 편의성이 향상되었습니다.",
+    "url": "https://laravel-news.com/laravel-installer-5-31-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-07-20T05:09:42.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/07/20/quality-heads-up/",
+    "title": "Quality Outreach Heads-up - JDK 27: Default G1 in All Environments",
+    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.java.net/display/quality/Quality+Outreach) is promoting the testing of FOSS projects with OpenJDK builds as a way to improve the overall quality of the ",
+    "aiSummary": "OpenJDK Quality Group은 JDK 27부터 모든 환경에서 기본 Garbage Collector를 G1으로 변경한다고 발표하였습니다. 기존에는 단일 CPU이거나 물리적 메모리가 1792 MB 미만인 제한된 환경에서 Serial GC가 자동으로 선택되었으나, 최근 G1의 성능 개선으로 인해 모든 환경에서 G1을 기본값으로 설정하게 되었습니다.\n\n이번 변경 사항은 Serial GC를 제거하는 것이 아니며, 명령어를 통해 특정 Garbage Collector를 직접 지정한 경우나 이미 충분한 자원이 확보된 환경에서 실행 중인 애플리케이션에는 영향을 주지 않습니다.\n\n제한된 환경에서 별도의 Garbage Collector를 지정하지 않고 실행하던 애플리케이션의 경우 G1으로의 자동 전환이 발생합니다. 해당 환경에서는 애플리케이션의 특성에 맞춰 여러 Garbage Collector를 벤치마킹하거나, 기존과 동일한 성능을 유지하고 싶다면 Serial GC를 수동으로 설정할 것을 권장합니다. 자세한 기술적 내용은 JEP 523을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/07/20/quality-heads-up/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Nicolai Parlog",
+    "pubDate": "2026-07-20T00:00:00.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "/blog/prisma-next-ltree-extension",
+    "title": "Extending Prisma Next with Typed Postgres ltree",
+    "summary": "Use PostgreSQL ltree in Prisma Next with prisma-ltree: typed path columns plus ancestor and descendant queries.",
+    "aiSummary": "Prisma Next 환경에서 PostgreSQL의 ltree 데이터 타입을 보다 효율적으로 활용할 수 있게 해주는 prisma-ltree 라이브러리가 공개되었습니다. \n\n이 라이브러리는 ltree를 사용하는 컬럼에 대해 강력한 타입 안정성을 제공하며 개발자가 보다 직관적으로 데이터를 다룰 수 있도록 지원합니다.\n\n특히 계층형 데이터를 다룰 때 필수적인 조상 노드와 자손 노드를 검색하는 쿼리를 간편하게 작성할 수 있도록 돕습니다. 이를 통해 복잡한 트리 구조를 가진 데이터를 Prisma 기반 프로젝트에서 더욱 편리하고 안전하게 관리할 수 있습니다.",
+    "url": "https://www.prisma.io/blog/prisma-next-ltree-extension",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-07-20T00:00:00.000Z",
+    "fetchedAt": "2026-07-20T16:48:43.957Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.4",
     "title": "1.1.4",
     "summary": "Changelog\nAdded support for stacking multiple leading slash commands in a single prompt, so a chain like /plan /grill-me  parses, activates, and renders every command in the order you typed them.\nImpr",
@@ -1631,283 +1791,6 @@
     "fetchedAt": "2026-07-14T16:41:42.641Z",
     "tags": [
       "PHP"
-    ]
-  },
-  {
-    "id": "795943e111b58ed576073f2b1f72bcebff6b9306",
-    "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-    "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem wi",
-    "aiSummary": "AWS Builder Center가 출시 1주년을 맞이했습니다. 지난 2025년 7월 9일 출범한 이후, 단순한 커뮤니티 허브에서 샌드박스 환경과 워크숍, Spaces, Builders Library를 아우르는 종합 생태계로 성장했습니다.\n\nAWS Security Hub에서는 네트워크 스캐닝 기능을 새롭게 도입했습니다. 이를 통해 사용자는 네트워크 구성을 보다 체계적으로 점검하고 보안 태세를 강화할 수 있습니다.\n\nLoom for AWS 서비스가 추가되어 개발자와 운영팀의 생산성 향상을 돕습니다. 이번 업데이트는 AWS가 제공하는 도구와 플랫폼의 활용도를 높이고 사용자의 개발 경험을 개선하는 데 중점을 둡니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Esra Kayabali",
-    "pubDate": "2026-07-13T16:18:20.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
-    "title": "Key findings from the 2026 Public Sector M-Trends report and beyond",
-    "summary": "In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machi",
-    "aiSummary": "2026 Public Sector Threat Landscape: M-Trends and Beyond 보고서는 공공 부문의 보안 환경이 기존의 경계 방어 방식에서 벗어나 머신 스피드로 작동하는 위협에 대응하는 체계로 전환되어야 함을 강조합니다. Mandiant의 2025년 사고 조사 데이터를 분석한 결과, 초기 접근 브로커가 랜섬웨어 운영자에게 권한을 넘기는 시간이 불과 22초로 단축되어 인간의 대응 속도를 완전히 앞지른 것으로 나타났습니다.\n\n보고서는 공격자들이 활용하는 새로운 취약점 경계로 네 가지를 지목했습니다. 첫째, 국가 배후의 해킹 그룹이 5년 이상 탐지되지 않고 장기적으로 잠복하는 지속성 역설 문제입니다. 둘째, 가상화 관리 계층을 직접 공격하여 게스트 수준의 보안 도구를 우회하는 스냅샷 마운팅 기술입니다. 셋째, 서드파티 클라우드 도구의 연동을 통해 서비스 계정이나 OAuth 토큰과 같은 비인간 식별자(NHI)를 탈취하는 SaaS 도미노 현상입니다. 넷째, 정부 헬프 데스크를 겨냥해 비밀번호 재설정 등을 유도하는 비싱 공격의 급증입니다.\n\n이러한 위협에 대응하기 위해 공공 부문은 신뢰를 가정하지 않고 지속적으로 검증하는 보안 교리로의 전환이 필요합니다. Google은 이를 실현하기 위해 세 가지 핵심 역량을 제시합니다. Chrome Enterprise Premium을 통한 컨텍스트 인식 기반의 ID 중심 경계 구축, Google Security Operations와 Google Threat Intelligence를 통합하여 머신 스피드 탐지를 구현하는 에이전트 기반 방어 체계, 그리고 Security Command Center 및 Wiz와의 협력을 통한 가상화 계층의 인프라 강화입니다.\n\n특히 Google Security Operations에 새롭게 추가된 위협 사냥, 탐지 엔지니어링, 서드파티 컨텍스트 전용 AI 에이전트는 실시간 데이터 분석과 자동화를 통해 보안 운영의 효율성을 획기적으로 높여줍니다. 실제로 Pasco Sheriff’s Office와 State of Connecticut 등은 이러한 기술 도입을 통해 파편화된 보안 도구를 통합하고 포렌식 조사 시간을 획기적으로 단축하며 선제적인 보안 태세를 확립하는 성과를 거두었습니다.",
-    "url": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Fernando Tomlinson Jr."
-      ],
-      "title": [
-        "Head of Incident Response"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-13T16:00:00.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/",
-    "title": "Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs",
-    "summary": "How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow ",
-    "aiSummary": "보안 팀의 통제를 벗어난 쉐도우 AI 문제를 해결하기 위해 오픈 소스 프로젝트인 k8s-aibom이 공개되었습니다. 이 도구는 Kubernetes 클러스터 내에서 실행되는 AI 런타임과 프레임워크를 자동으로 탐지하여 표준화된 CycloneDX 1.6 기반의 ML-BOM을 생성하는 가벼운 비특권 컨트롤러입니다.\n\nk8s-aibom은 별도의 사이드카 삽입이나 eBPF 커널 모듈 설치, 개발자 파드 스펙 수정 없이 클러스터 API를 감시합니다. vLLM, Triton, Ollama와 같은 AI 서빙 엔진부터 LangChain, CrewAI와 같은 에이전트 프레임워크, Milvus나 pgvector 등 벡터 데이터베이스까지 폭넓은 AI 스택을 자동으로 식별합니다. 또한 GitOps 워크플로우에 최적화되어 있어 일관된 결과를 생성하며, 인프라 운영 팀의 개입 없이도 AI 워크로드의 상태를 실시간으로 파악할 수 있게 합니다.\n\n해당 컨트롤러는 관리자의 의도와 자동 탐지 결과를 구분하는 신뢰 모델을 제공합니다. 사용자가 설정에 명시한 것을 Declared, 패턴 매칭을 통해 추론된 것을 Inferred, 상세 정보 확인이 어려운 경우를 Unresolved로 분류하여 보안 감사 시 명확한 근거를 제시합니다. 생성된 기록은 서비스 계정 권한과 Google Cloud Storage의 불변 객체 정책을 통해 보호되므로 데이터 변조를 방지하고 신뢰성 높은 감사 로그를 확보할 수 있습니다.\n\n이를 통해 조직은 EU AI Act, NIST AI RMF, ISO/IEC 42001과 같은 글로벌 규제 프레임워크가 요구하는 추적성과 투명성 의무를 보다 효과적으로 준수할 수 있습니다. k8s-aibom은 개발자의 작업 흐름을 방해하지 않으면서도 클러스터 내부의 모든 AI 자산을 가시화하여 거버넌스 및 보안 운영의 공백을 메우는 핵심적인 도구가 될 것으로 보입니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Glen Messenger"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-13T16:00:00.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
-    "title": "Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV",
-    "summary": "The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a",
-    "aiSummary": "자동차 산업이 하드웨어 중심에서 소프트웨어 정의 차량인 SDV로 전환됨에 따라, Google은 Android Automotive OS인 AAOS SDV와 Google Cloud를 결합한 포괄적인 AI 네이티브 모빌리티 솔루션을 제시합니다.\n\nAAOS SDV는 차량의 핵심 기능을 물리적 하드웨어와 분리하여 모듈형 서비스 지향 아키텍처를 구현합니다. 이를 통해 차량 내 다양한 서비스를 독립적으로 관리할 수 있으며, 개발 과정에서는 Android Cuttlefish 에뮬레이터를 통해 가상 디지털 트윈을 구축하여 효율적인 서비스 검증이 가능합니다. 특히 이 구조는 인포테인먼트 시스템이 꺼져 있을 때도 원격 모니터링 등의 기능을 저전력으로 유지할 수 있는 장점이 있습니다.\n\n데이터 인프라의 핵심인 Bigtable은 대규모 자동차 텔레메트리 데이터를 실시간으로 처리하며, 초저지연 성능과 확장성을 바탕으로 센서 데이터부터 복잡한 분석 자료까지 통합적으로 관리합니다. 또한, Continuous Materialized Views 기능을 활용해 주요 지표를 사전에 계산함으로써 연산 부하를 줄이고 실시간 이상 탐지를 지원합니다.\n\nValtech가 제공하는 Nexus SDV 플랫폼은 이러한 Google 기술을 기반으로 차량과 클라우드를 연결하는 엔드투엔드 시스템을 구축합니다. 이 플랫폼은 Gemini와 같은 AI 모델을 활용해 운전자의 의도를 파악하고 차량을 제어하는 에이전트 서비스를 구현하며, 예방 정비와 같은 시나리오에서 차량 상태를 사전에 진단하여 능동적인 대응을 가능하게 합니다.\n\n보안 측면에서도 mTLS, Private GKE, Secure AI Framework 등을 도입하여 Defense-in-Depth 모델을 준수합니다. 이러한 통합 아키텍처를 통해 자동차 제조사들은 인프라 구축의 복잡성을 해결하고, AI 기반의 혁신적인 사용자 경험과 브랜드 차별화에 집중할 수 있는 환경을 갖추게 됩니다.",
-    "url": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Peter Ivanov"
-      ],
-      "title": [
-        "Managing Director, Valtech Mobility"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-13T16:00:00.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-13-separate-sso-and-organizations-pages-in-settings",
-    "title": "Separate SSO and Organizations pages in Settings",
-    "summary": "We’ve separated the combined SSO & Organizations page in your user settings into two distinct pages: SSO and Organizations. This update makes it easier to find and manage these settings…\nThe post Sepa",
-    "aiSummary": "GitHub의 사용자 설정 메뉴에서 기존에 통합되어 있던 SSO 및 Organizations 페이지가 각각 독립된 페이지로 분리되었습니다. 이번 업데이트를 통해 사용자들은 SSO 설정과 조직 관련 설정을 더욱 명확하게 구분하여 관리할 수 있게 되었습니다. 이를 통해 복잡한 설정 환경을 개선하고 각 항목에 대한 접근성과 관리 효율성을 높였습니다.",
-    "url": "https://github.blog/changelog/2026-07-13-separate-sso-and-organizations-pages-in-settings",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-13T15:57:56.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-    "title": "Empowering India’s next generation of innovators with ATL Saathi",
-    "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-    "aiSummary": "Google과 AIM은 인도 내 로봇 공학 실험실 교육자를 지원하기 위해 Gemini 기반의 AI 도구인 ATL Saathi를 출시하였습니다. 해당 도구는 인도의 차세대 혁신가를 양성하는 교육 환경에서 교사들의 역량을 강화하는 역할을 수행합니다.",
-    "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-07-13T12:37:28.000Z",
-    "fetchedAt": "2026-07-14T09:20:36.658Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "/blog/next-security-release-program",
-    "title": "Next.js Security Release and Our Next Patch Release",
-    "summary": "Next.js is moving to a formal security release process",
-    "aiSummary": "Next.js는 앞으로 공식적인 보안 릴리스 절차를 도입하여 운영하기로 결정했습니다. 이는 프로젝트의 보안성을 강화하고 잠재적인 취약점에 더욱 신속하고 체계적으로 대응하기 위한 조치입니다. 이번 변경 사항과 함께 발표된 최신 패치 릴리스를 통해 사용자는 보다 안정적인 환경에서 Next.js를 사용할 수 있게 될 것입니다. 자세한 기술적 변경 사항과 적용 방법은 공식 배포 문서를 통해 확인할 수 있습니다.",
-    "url": "https://nextjs.org/blog/next-security-release-program",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": {
-      "name": [
-        "Andrew Imm"
-      ]
-    },
-    "pubDate": "2026-07-13T12:00:00.000Z",
-    "fetchedAt": "2026-07-14T00:12:07.695Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=720628",
-    "title": "What’s New in ReSharper 2026.2 for VS Code-compatible editors ",
-    "summary": "The last couple of months have been busy ones for ReSharper across VS Code and compatible editors. Between the 2026.1 and 2026.2 releases, we’ve been steadily sharpening the everyday .NET experience –",
-    "aiSummary": "ReSharper 2026.2 버전은 VS Code 및 호환 에디터를 사용하는 .NET 개발자를 위해 데이터 흐름 추적, 호출 체인 탐색, 프로젝트 구조 관리 등 전반적인 개발 생산성 향상에 초점을 맞추어 업데이트되었습니다.\n\n이번 릴리스는 지난 2026.1 버전 이후 개발자들이 일상적으로 수행하는 코드 분석과 탐색 작업을 더욱 효율적으로 지원하도록 개선되었습니다. 사용자는 향상된 도구를 통해 복잡한 프로젝트 내에서 데이터의 이동 경로를 명확히 파악하고 호출 관계를 쉽게 확인할 수 있습니다.\n\n또한 프로젝트 구조를 직관적으로 유지할 수 있는 기능들이 추가되어 코드베이스의 규모가 커지더라도 체계적인 관리가 가능해졌습니다. 이번 업데이트는 .NET 개발 환경에서의 사용자 경험을 최적화하고 코드 작성 및 디버깅 과정을 더욱 간소화하는 데 목적을 두고 있습니다.",
-    "url": "https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-2026-2/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Alexander Kurakin",
-    "pubDate": "2026-07-13T10:40:13.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=720482",
-    "title": "Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here",
-    "summary": "For over a year, the most consistent question from our users and community has been clear: When will the ReSharper extension support debugging? We heard you. And with the 2026.2 release, the first ver",
-    "aiSummary": "JetBrains는 사용자들의 지속적인 요청을 반영하여 2026.2 버전부터 VS Code와 Cursor 환경을 위한 ReSharper 확장 프로그램의 디버깅 기능을 공식적으로 지원합니다.\n\n이번에 새롭게 도입된 디버거는 JetBrains Rider의 핵심 디버깅 엔진을 기반으로 구축되었으며, VS Code 및 Cursor 사용자들이 해당 환경을 벗어나지 않고도 원활하게 .NET 코드를 디버깅할 수 있도록 최적화되었습니다.\n\n그동안 많은 사용자가 기다려온 기능인 만큼, 이번 업데이트를 통해 개발자들은 더욱 통합된 개발 경험을 누릴 수 있게 될 것입니다.",
-    "url": "https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-debugging/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Alexander Kurakin",
-    "pubDate": "2026-07-13T10:39:07.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
-    "title": "Preparing for the post-quantum era: Discover and prioritize now",
-    "summary": "When forming a post-quantum strategy, organizations should take a holistic approach and consider discovery, prioritization, and crypto agility first. A critical step toward successful migration to pos",
-    "aiSummary": "양자 컴퓨터의 발전은 수년 뒤의 일이지만, 암호화된 데이터를 미리 탈취해 나중에 복호화하는 HNDL 공격은 이미 즉각적인 보안 위협이 되고 있습니다. 따라서 기업은 현재 사용 중인 모든 암호화 자산을 식별하고, 해당 자산이 보호하는 정보의 중요도와 기밀 유지 기간을 고려하여 양자 보안 대응 전략을 수립해야 합니다.\n\n성공적인 PQC 전환을 위해서는 전체 인프라와 애플리케이션 내 RSA, ECC와 같은 양자 취약 알고리즘의 사용 현황을 파악하는 정밀한 발견 및 분석 과정이 선행되어야 합니다. 수동 방식은 한계가 있으므로 IBM Guardium Explorer와 같은 자동화 도구를 활용하여 암호화 자산의 의존성과 위험도를 가시화하는 것이 중요합니다.\n\n위험 기반의 우선순위 설정은 핵심입니다. 데이터의 민감도, 기밀 유지 기간, 양자 위험 노출 정도를 평가하여 높은 우선순위의 시스템부터 즉각적인 대응을 시작하고, 점진적인 로드맵을 구축해야 합니다.\n\nHashiCorp의 Vault는 이러한 여정에서 중앙 집중식 비밀 관리, 암호화 서비스, 머신 아이덴티티 관리를 통해 보안 운영을 효율화합니다. Vault는 NIST가 승인한 ML-DSA, SLH-DSA와 같은 포스트 양자 서명 알고리즘을 지원하며, 기존 보안 워크플로우를 대대적으로 재설계하지 않고도 하이브리드 및 멀티 클라우드 환경에서 암호화 민첩성을 확보할 수 있도록 돕습니다.\n\n결론적으로 양자 시대의 대비는 단순히 알고리즘을 교체하는 것이 아니라, 가시성 확보와 전략적 우선순위 결정을 통해 조직의 보안 체력을 높이는 과정입니다. 기업은 지금 즉시 자산 현황을 파악하고 장기적인 PQC 준비를 시작해야 미래의 데이터 유출과 컴플라이언스 위험으로부터 안전할 수 있습니다.",
-    "url": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Rich DuBose",
-    "pubDate": "2026-07-13T07:00:00.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/uvora-a-macos-menu-bar-app-for-finding-laravel-projects",
-    "title": "Uvora: A macOS Menu Bar App for Finding Laravel Projects",
-    "summary": "Uvora is a free macOS menu bar app that indexes your Laravel projects locally and opens any of them from a single keyboard shortcut.\nThe post Uvora: A macOS Menu Bar App for Finding Laravel Projects a",
-    "aiSummary": "Uvora는 macOS 메뉴 바에서 작동하는 무료 애플리케이션으로 사용자의 로컬 환경에 저장된 Laravel 프로젝트를 빠르게 찾아줍니다. 단축키 하나만으로 원하는 프로젝트를 즉시 열 수 있어 개발 작업의 효율성을 높여줍니다. 개발자가 자신의 로컬 환경 내에서 여러 Laravel 프로젝트를 더 편리하게 관리하고 실행할 수 있도록 돕는 도구입니다.",
-    "url": "https://laravel-news.com/uvora-a-macos-menu-bar-app-for-finding-laravel-projects?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-07-13T04:31:15.000Z",
-    "fetchedAt": "2026-07-13T17:25:35.772Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "antigravity-engine-2.3.0",
-    "title": "Antigravity 2.3.0: Queued messages, plain text files support, and stability improvements",
-    "summary": "Added support for queued messages, settings to configure message execution, a send now option, plain text file attachments, and various bug fixes and improvements.\n\nImprovements:\n- Added support for q",
-    "aiSummary": "Antigravity 2.3.0 업데이트가 진행되었습니다. 이번 버전의 핵심은 메시지 대기열 기능 도입으로, 사용자는 메시지 실행 방식을 설정하거나 즉시 전송 옵션을 선택할 수 있습니다. 또한 일반 텍스트 파일(.txt) 첨부와 렌더링을 지원하여 협업 편의성을 높였습니다.\n\n성능 및 안정성 측면에서도 큰 개선이 있었습니다. 파일 감시와 초기화 순서를 최적화하여 앱 실행 속도를 향상시켰으며, 백엔드 과부하 발생 시 자동 재시도 기능을 추가하여 서비스 안정성을 강화했습니다. 팀 협업 시 헬퍼 에이전트가 응답을 대기하다 멈추는 문제를 해결하고, 대화 보관 시 백그라운드 작업이 불필요하게 유지되지 않도록 수정했습니다.\n\n사용자 경험 개선을 위해 UI 테마를 시스템 기본 설정과 동기화하도록 변경하였으며, 대화 내 사이드 질문 기능의 지속성과 시각적 피드백을 강화했습니다. 그 외에도 1,000줄 이상의 파일 diff 렌더링 오류 수정, 페이지 내 찾기 기능 개선, 명령 권한 프롬프트의 유연한 제어 등 전반적인 기능 오류를 해결하였습니다.",
-    "url": "https://antigravity.google/changelog",
-    "category": "인공지능",
-    "source": "Antigravity Changelog",
-    "author": "Google",
-    "pubDate": "2026-07-13T00:00:00.000Z",
-    "fetchedAt": "2026-07-15T00:10:12.264Z",
-    "tags": [
-      "Antigravity",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
-    "title": "crates.io: development update",
-    "summary": "Another six months have passed since our last development update, and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then.\n\nSou",
-    "aiSummary": "crates.io 개발팀은 최근 6개월간의 주요 업데이트를 통해 사용자 경험과 플랫폼 성능을 대폭 개선했습니다.\n\n가장 눈에 띄는 변화는 소스 코드 뷰어의 도입입니다. 이제 사용자는 각 크레이트 페이지의 코드 탭을 통해 실제 배포된 패키지 파일을 브라우저에서 직접 확인할 수 있습니다. 이 기능은 파일 트리 탐색, 구문 강조, 코드 공유를 위한 URL 생성 기능을 제공하며, 향후 버전 간 차이점(diff)을 비교하는 기능도 추가될 예정입니다.\n\n계정 관리 시스템에도 큰 변화가 있습니다. 기존에는 GitHub 계정에 의존적인 인증 방식을 사용했으나, RFC #3946 채택에 따라 crates.io 고유의 사용자 이름을 도입하여 향후 다양한 인증 제공자를 지원할 수 있는 기반을 마련하고 있습니다.\n\n보안 및 사용성 측면에서는 RustSec 데이터베이스와의 연동을 강화했습니다. 유지보수가 중단된 크레이트에는 경고 배너를 표시하고, std::sync::LazyLock과 같이 표준 라이브러리로 대체 가능한 기능이 있는 경우 사용자에게 이를 안내하는 기능을 추가했습니다. 또한, 에러 페이지에 귀여운 Ferris 캐릭터 애니메이션을 적용하여 시각적 즐거움을 더했습니다.\n\n기술적으로는 프론트엔드 프레임워크를 Ember.js에서 Svelte로 성공적으로 이전하여 유지보수성과 개발 생산성을 높였습니다. 또한 검색 성능 최적화, 역의존성(reverse dependencies) 조회 속도 개선, CDN 캐시 전략 수정 등을 통해 서버 부하를 줄이고 응답 속도를 향상했습니다.\n\n내부 아키텍처 문서인 ARCHITECTURE.md를 전면 개편하여 시스템 운영 방식을 명확히 했으며, 웹 접근성 개선과 Git 인덱스 처리 방식 최적화 등 안정적인 서비스 운영을 위한 다방면의 기술적 업데이트를 진행했습니다.",
-    "url": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "Tobias Bieniek",
-    "pubDate": "2026-07-13T00:00:00.000Z",
-    "fetchedAt": "2026-07-13T10:37:22.278Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/",
-    "title": "powa-archivist 5.2.0 is out!\n",
-    "summary": "Tainan, Taiwan - Sun 12 Jul 2026\npowa-archivist 5.2.0\nThe PoWA team is pleased to announce the release of the version 5.2.0 of\npowa-archivist, the core\nextension of the PoWA project.\nPoWA (PostgreSQL ",
-    "aiSummary": "PostgreSQL 성능 분석 도구인 PoWA의 핵심 확장 기능 powa-archivist가 버전 5.2.0으로 업데이트되었습니다.\n\n이번 업데이트의 주요 변화는 PostgreSQL 19에 대한 지원이 추가된 점입니다. 이와 함께 새로운 통계 뷰인 pg_stat_recovery와 pg_stat_lock 기능을 활용할 수 있게 되어 더욱 정밀한 성능 모니터링이 가능합니다.\n\nPoWA는 PostgreSQL 인스턴스의 메트릭을 수집 및 집계하여 실시간 차트와 그래프로 시각화하며, 인덱스 최적화 제안 등을 통해 서버 성능 튜닝을 지원합니다. 상세한 정보는 공식 문서나 GitHub 저장소에서 확인할 수 있으며, 버그 수정 및 새로운 기능 제안을 위한 커뮤니티 기여를 장려하고 있습니다.",
-    "url": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-12T00:00:00.000Z",
-    "fetchedAt": "2026-07-12T16:16:34.206Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
     ]
   }
 ]
