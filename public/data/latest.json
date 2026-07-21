@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.5",
+    "title": "1.1.5",
+    "summary": "Added a /effort command to view and change the current model's reasoning effort, with a left/right timeline-gauge picker and a direct /effort  form so you can trade latency for depth on the fly.\nAdded",
+    "aiSummary": "새로운 업데이트인 1.1.5 버전에서는 모델의 추론 깊이와 응답 속도를 사용자가 직접 조절할 수 있는 기능을 추가하였습니다. /effort 명령어와 CLI 플래그를 통해 실시간으로 추론 강도를 설정할 수 있으며, 새롭게 디자인된 모델 선택기에서 모델 계층과 추론 강도를 직관적으로 그룹화하여 관리할 수 있습니다. 또한 세션 간 모델 고정을 위해 안정적인 모델 슬러그가 도입되었으며, 사용자 정의 에이전트 설정에서 특정 모델 티어를 선택할 수 있도록 개선하였습니다.\n\n시스템 안정성과 성능 측면에서도 다수의 개선이 이루어졌습니다. 설정 패널의 렌더링 방식이 최적화되어 짧은 터미널 환경에서도 정상적으로 출력되며, 백그라운드 작업의 생명 주기를 체계적으로 관리하여 오류 발생 시 전체 세션에 영향을 주지 않도록 하였습니다. 특히 불필요한 반복 작업을 줄여 응답성을 높였고, 종료 시 분석 데이터가 손실되지 않도록 보완하였습니다.\n\nMCP 관련 기능에서는 원격 서버 인증 중 발생하는 충돌 문제를 해결하였으며, MCP 도구 실행 결과에 포함된 리소스가 누락되지 않고 대화창에 정상적으로 표시되도록 수정하였습니다. 그 외에도 명령줄 인자 처리 과정의 권한 확인 오류, 특정 인코딩 문제로 인한 파일 검색 실패, 데이터 경쟁 상황 등을 해결하여 전반적인 도구의 안정성을 높였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.5",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-07-21T02:33:39.000Z",
+    "fetchedAt": "2026-07-21T09:45:43.923Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
     "title": "AI credit pools for cost centers in the billing UI",
     "summary": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the…\nThe post AI credit pools for co",
@@ -1600,21 +1617,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.ruby-lang.org/en/news/2026/07/14/ruby-4-0-6-released/",
-    "title": "Ruby 4.0.6 Released",
-    "summary": "Ruby 4.0.6 has been released.\nThis is a routine update that includes bugfixes.\nPlease see the GitHub releases for further details.\nRelease Schedule\nWe intend to release the latest stable Ruby version ",
-    "aiSummary": "Ruby 4.0.6 버전이 새롭게 출시되었습니다. 이번 업데이트는 버그 수정을 포함하는 정기적인 유지보수 업데이트입니다. 상세한 변경 사항은 GitHub 릴리스 페이지에서 확인할 수 있습니다.\n\nRuby 4.0 시리즈는 앞으로 2개월 주기의 정기적인 릴리스를 계획하고 있습니다. 이에 따라 차기 버전인 4.0.7은 9월에, 4.0.8은 11월에 출시될 예정입니다. 단, 사용자에게 큰 영향을 미치는 중대한 변경 사항이 발생할 경우 일정은 조정될 수 있습니다.\n\n이번 릴리스는 많은 기여자와 개발자, 그리고 버그 리포트를 제공해 준 사용자들의 협력을 통해 완성되었습니다. 최신 버전은 공식 홈페이지의 다운로드 링크를 통해 이용할 수 있으며, 배포 파일별 해시값 정보도 함께 제공됩니다.",
-    "url": "https://www.ruby-lang.org/en/news/2026/07/14/ruby-4-0-6-released/",
-    "category": "프로그래밍 언어",
-    "source": "Ruby News",
-    "author": "Ruby News",
-    "pubDate": "2026-07-14T01:41:20.000Z",
-    "fetchedAt": "2026-07-14T09:20:36.658Z",
-    "tags": [
-      "Ruby"
     ]
   }
 ]
