@@ -308,6 +308,24 @@
     ]
   },
   {
+    "id": "https://www.anthropic.com/news/donation-public-first-action",
+    "title": "Donating another $20 million to Public First Action",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsAnthropic is donating another $20 million to Public First ActionJul 21, 2026We&#x27;re contributing an additional $20 million to Public First A",
+    "aiSummary": "Anthropic은 AI 관련 정책 교육과 합리적인 안전장치 마련을 목적으로 활동하는 비정치적 단체 Public First Action에 2천만 달러를 추가로 기부했습니다. 이번 지원을 포함해 총 기부금은 4천만 달러에 달하며, 해당 기금은 오직 대중 교육 및 정책 수립 지원 용도로만 사용되고 특정 후보의 선거 운동에는 사용되지 않습니다.\n\nAnthropic은 Claude Mythos Preview 사례에서 볼 수 있듯 강력한 AI 모델의 성능이 빠르게 발전함에 따라 보안 위협 역시 증가하고 있다고 경고합니다. 이들은 AI 기술이 신약 개발이나 수명 연장 등 인류에 큰 혜택을 줄 수 있지만, 동시에 국가 주요 인프라를 위협할 잠재적 위험도 내포하고 있다고 강조합니다.\n\n따라서 정부가 AI 기술의 이점을 극대화하면서도 위험을 통제할 수 있도록 선제적인 조치를 취해야 한다고 주장합니다. 특히 Anthropic의 Advanced AI Framework를 통해 정부가 기업의 안전성 주장을 검증하고, 위험한 모델의 배포를 지연하거나 차단할 수 있는 법적 권한을 가져야 한다고 제안합니다. 이는 단순한 정보 공개를 넘어 위험 완화를 위한 실질적인 정책적 노력이 필요하다는 취지를 담고 있습니다.",
+    "url": "https://www.anthropic.com/news/donation-public-first-action",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-21T00:00:00.000Z",
+    "fetchedAt": "2026-07-22T09:43:33.059Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/07/21/this-week-in-spring-july-21-2026",
     "title": "This Week in Spring - July 21st, 2026",
     "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
@@ -1704,38 +1722,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=50225",
-    "title": "Inside MySQL 9.7 LTS Features",
-    "summary": "MySQL 9.7, a Long-Term Support (LTS) release, incorporates a variety of potential features spanning across multiple technical domains. This article covers some of the primary features introduced and e",
-    "aiSummary": "MySQL 8.0의 기술 지원 종료에 따라 새롭게 출시된 MySQL 9.7 LTS는 데이터베이스 환경의 안정성을 강화하는 데 초점을 맞춘 장기 지원 릴리스입니다.\n\n이번 버전은 다양한 기술적 영역을 아우르는 기능들을 대거 포함하여 데이터베이스 운영의 효율성과 안정성을 높이도록 설계되었습니다.\n\n기존 버전의 사용자들에게 향상된 신뢰성을 제공하는 것이 주요 목적이며 MySQL 데이터베이스 생태계에서 더욱 견고한 인프라를 구축할 수 있는 기반을 마련합니다.",
-    "url": "https://www.percona.com/blog/inside-mysql-9-7-lts-features/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Anil Joshi",
-    "pubDate": "2026-07-15T05:00:23.000Z",
-    "fetchedAt": "2026-07-15T09:24:59.780Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-20-0",
-    "title": "First-Party Image Processing in Laravel 13.20",
-    "summary": "Laravel 13.20.0 introduces an Image facade for resizing, converting, and storing images, along with a WithoutMiddleware controller attribute, a separate Redis session prefix, and quiet bulk increment ",
-    "aiSummary": "Laravel 13.20.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 이미지 크기 조절과 변환, 저장을 지원하는 Image facade가 도입된 점입니다.\n\n기능적인 측면에서는 컨트롤러에서 특정 미들웨어를 제외할 수 있는 WithoutMiddleware 속성이 추가되었습니다. 또한 Redis 세션에 별도의 접두사를 설정할 수 있는 기능이 포함되었으며 Eloquent의 bulk increment 작업 시 로그 출력을 방지하는 quiet 옵션이 제공됩니다.",
-    "url": "https://laravel-news.com/laravel-13-20-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-07-15T00:24:23.000Z",
-    "fetchedAt": "2026-07-15T16:48:07.134Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
