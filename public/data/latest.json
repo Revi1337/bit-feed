@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=air&p=724830",
+    "title": "What’s new: Air gets more agents, local models, and Java/Kotlin code intelligence",
+    "summary": "The new release of JetBrains Air brings support for GitHub Copilot, OpenCode, Pi, Cline, and other ACP-compatible agents. It also adds IntelliJ-powered navigation and diagnostics for Java and Kotlin a",
+    "aiSummary": "JetBrains Air의 신규 업데이트가 발표되었습니다. 이번 업데이트의 핵심은 GitHub Copilot, OpenCode, Pi, Cline 등 다양한 MCP 호환 에이전트를 지원하여 사용자가 원하는 에이전트를 직접 연결해 사용할 수 있게 된 점입니다.\n\nJava와 Kotlin 개발자를 위해 IntelliJ 기반의 정교한 코드 내비게이션과 진단 기능을 강화했습니다. 또한 Windows 작업을 Docker 컨테이너 내에서 수행할 수 있는 기능을 추가하여 개발 환경의 독립성을 높였습니다. \n\nMac, Linux, Windows 운영체제를 모두 지원하며 코딩 에이전트를 위한 별도의 작업 공간을 제공함으로써 개발 효율성을 개선했습니다.",
+    "url": "https://blog.jetbrains.com/air/2026/07/what-s-new-air-gets-more-agents-local-models-and-java-kotlin-code-intelligence/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vladimir Gromozdin",
+    "pubDate": "2026-07-21T16:56:49.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=ruby&p=721165",
+    "title": "RubyMine 2026.2: Agentic Debugging, Native GitHub Copilot Integration, Default Symbol-Based Code Insight, and More",
+    "summary": "RubyMine 2026.2 is out! RubyMine 2026.2 introduces agentic debugging, native GitHub Copilot integration, AI completion with third-party providers, and symbol-based code insight enabled by default. You",
+    "aiSummary": "JetBrains가 발표한 RubyMine 2026.2 버전은 개발 생산성 향상을 위한 다양한 AI 기능과 성능 개선을 포함하고 있습니다. 가장 주목할 만한 변화는 AI가 주도하는 에이전트 기반 디버깅 기능의 도입과 GitHub Copilot의 네이티브 통합입니다. 이를 통해 개발자는 IDE 환경 안에서 더욱 원활하게 AI 보조 도구를 활용할 수 있게 되었습니다.\n\n또한 이번 버전부터는 심볼 기반의 코드 인사이트가 기본 설정으로 활성화되어 더욱 정확한 코드 분석과 탐색을 지원합니다. 이와 더불어 외부 AI 제공업체와의 연동을 통한 AI 코드 완성 기능이 강화되었으며, Ruby 생태계 전반에 걸친 최적화와 함께 일상적인 개발 작업 흐름을 개선하는 다방면의 업데이트가 이루어졌습니다. 새로운 버전은 공식 웹사이트나 Toolbox App을 통해 내려받을 수 있습니다.",
+    "url": "https://blog.jetbrains.com/ruby/2026/07/rubymine-2026-2-agentic-debugging-native-github-copilot-integration-default-symbol-based-code-insight-and-more/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Alexey Varfolomeev",
+    "pubDate": "2026-07-21T16:05:46.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+    "title": "Autonomous infrastructure: Managing complexity in agentic workflows  ",
+    "summary": "As AI becomes embedded across the enterprise, infrastructure operations are entering a new era. Organizations are no longer simply automating repetitive tasks or accelerating existing workflows. Incre",
+    "aiSummary": "기업 내 AI 도입이 가속화되면서 인프라 운영 환경은 단순 자동화를 넘어 AI 에이전트가 리소스 프로비저닝이나 장애 대응 등 운영 업무를 직접 수행하는 자율적 인프라 시대로 변화하고 있습니다. 이러한 변화는 속도와 효율성을 높이지만, 기존의 수동적 운영 모델로는 기계 수준의 빠른 인프라 변경을 제어하기 어려운 근본적인 한계를 드러내고 있습니다.\n\n현재 기업들은 하이브리드 및 멀티 클라우드 환경의 복잡성, 파편화된 도구, 보안 설정 오류, 전문 인력 부족이라는 과제에 직면해 있습니다. AI 에이전트가 도입될 경우 이러한 문제가 해결되지 않은 상태에서는 운영 비용 증가와 거버넌스 공백, 비용 예측 불가능성 등의 리스크가 더욱 빠르게 확산될 위험이 있습니다.\n\n따라서 기업은 자율적 인프라를 안전하게 운영하기 위해 일관된 프레임워크를 구축해야 합니다. 여기에는 Infrastructure as code, 통합된 데이터 관리인 Source of truth, 정책 기반의 제어, 에이전트 워크플로우 지원, 셀프서비스, 가시성 및 관측성, 그리고 최적화를 포함한 7가지 핵심 역량이 필수적입니다.\n\n결국 이러한 역량을 하나로 통합하여 관리하는 Infrastructure Lifecycle Management는 AI 기반 운영 시대에 기업이 자율적 인프라를 효과적으로 확장하고 관리할 수 있도록 돕는 운영 모델로서 핵심적인 역할을 합니다. 기업은 이를 통해 개발자와 AI 에이전트 모두에게 안전하고 감사 가능한 운영 환경을 제공할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-07-21T16:00:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/databases/supercharge-pgvector-4x-faster-hnsw-with-alloydb/",
     "title": "Supercharging pgvector: 4x faster HNSW vector search with AlloyDB",
     "summary": "AlloyDB is a fully managed, PostgreSQL-compatible database service built for your most demanding enterprise workloads. It combines the best of open source PostgreSQL with Google’s advanced technology,",
@@ -159,6 +207,38 @@
     "tags": [
       "GraphQL",
       "Apollo"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/",
+    "title": "Generosity Under Conditions: Hardening Google Cloud Access Management",
+    "summary": "In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ",
+    "aiSummary": "Google Cloud의 IAM은 최소 권한 원칙인 PoLP를 준수하기 위해 리소스, 폴더, 프로젝트 단위의 허용 및 거부 정책을 활용합니다. 하지만 리소스가 여러 팀이나 워크로드에 공유되는 환경에서는 세밀한 제어가 어려울 수 있으며, 이를 해결하기 위해 IAM 조건을 사용하여 권한 범위를 정밀하게 조정하는 방법이 권장됩니다.\n\n관리자 권한을 제한하는 첫 번째 사례에서는 roles/iam.admin과 같은 포괄적인 권한이 부여된 경우, CEL 문법을 활용하여 특정 API나 작업으로 권한을 구체적으로 제한하는 방식을 설명합니다. 이를 통해 빌더 서비스 계정이 불필요하게 광범위한 접근 권한을 갖지 않도록 제어할 수 있습니다.\n\nMCP 서버 접근 제어와 관련된 두 번째 사례에서는 roles/mcp.toolUser를 사용할 때 프로젝트 내의 모든 MCP 서버에 접근하는 대신, 특정 서비스나 도구 수준으로 접근 범위를 좁히는 기법을 다룹니다. 조건식을 사용하면 리소스 서비스 속성이나 API 속성을 기반으로 매우 구체적인 접근 제어가 가능합니다.\n\n추가적인 보안 강화 방법으로 요청 시간이나 요일을 기반으로 한 접근 제한 설정이 있습니다. 예를 들어 특정 시간대와 평일에만 접근을 허용하도록 조건을 구성할 수 있습니다. \n\n마지막으로 IAM 조건은 Allow 정책에 대한 세밀한 제어를 제공하지만, 여기에 더해 Deny 정책을 조합하면 더욱 강력한 심층 방어 전략을 구축할 수 있습니다. 과도한 권한을 제거하고 최소 권한 원칙을 엄격하게 적용하기 위해서는 Deny 정책의 활용이 필수적입니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Leonid Yankulin"
+      ],
+      "title": [
+        "Senior Developer Relations Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-21T11:19:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -1656,183 +1736,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-    "title": "GitHub Copilot in Visual Studio — June update",
-    "summary": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the…\nThe post GitHub Copilot in Visual Stud",
-    "aiSummary": "GitHub Copilot의 6월 업데이트는 사용자 가시성과 신뢰성을 강화하는 데 초점을 맞추고 있습니다.\n\n사용자는 GitHub Copilot의 활용 현황을 더욱 명확하게 파악할 수 있게 되었습니다.\n\nMCP 서버를 위한 새로운 보안 계층이 도입되어 신뢰할 수 있는 개발 환경을 제공합니다.\n\nC++ 프로그래밍을 위한 GitHub Copilot의 첫 번째 활용 사례들이 이번 업데이트를 통해 새롭게 지원됩니다.",
-    "url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-15T00:01:24.000Z",
-    "fetchedAt": "2026-07-15T09:24:59.780Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/av-comparatives-business-security-test-2026",
-    "title": "Elastic leads the latest AV-Comparatives Malware Protection Test with a perfect score",
-    "summary": "AV-Comparatives published the 2026 Business Security Test, covering the March–June 2026 test period. Across 16 enterprise solutions tested on fully patched Windows 11, Elastic Security was the only ve",
-    "aiSummary": "AV-Comparatives가 발표한 2026 Business Security Test 결과에서 Elastic Security가 유일하게 100%의 악성코드 탐지율을 기록했습니다.\n\n이번 테스트는 2026년 3월부터 6월까지 Windows 11 환경에서 진행되었으며 총 16개의 엔터프라이즈 보안 솔루션을 대상으로 성능을 평가했습니다. Elastic Security는 해당 테스트에서 완벽한 점수를 획득하며 독보적인 보안 성능을 입증했습니다.",
-    "url": "https://www.elastic.co/blog/av-comparatives-business-security-test-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Roxana Gheorghe",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "fetchedAt": "2026-07-16T00:14:35.688Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/",
-    "title": "CEO Rowan Trollope’s organizational announcement to Redis employees",
-    "summary": "Today, we are announcing an organizational change at Redis, including a reduction of approximately 200 roles globally and a realignment of roles, teams, and priorities across the company.\n\nThis is a d",
-    "aiSummary": "Redis의 CEO인 Rowan Trollope는 전 세계적으로 약 200명의 인력을 감축하고 조직의 역할과 팀, 우선순위를 재조정하는 구조조정을 단행한다고 발표했습니다.\n\n이번 결정은 회사의 전략적 목표를 재정립하고 효율성을 높이기 위한 조치로, 영향을 받는 직원들에게는 깊은 유감을 표하며 이들의 기여에 대한 감사를 전했습니다.\n\nRedis는 이번 변화를 통해 핵심 사업에 집중하고 장기적인 성장을 위한 체질 개선을 도모할 계획입니다. 변화의 대상이 된 직원들에게는 각 지역의 규정에 따라 적절한 지원과 퇴직 패키지를 제공할 예정입니다.",
-    "url": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Rowan Trollope",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "fetchedAt": "2026-07-15T16:48:07.134Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026",
-    "title": "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms",
-    "summary": "Elastic was named a Leader in the Gartner® Magic Quadrant™ for Observability Platforms. In our opinion, Elastic Observability helps teams investigate faster with agentic AI with full context and reduc",
-    "aiSummary": "Elastic이 2026 Gartner Magic Quadrant for Observability Platforms 보고서에서 리더 기업으로 선정되었습니다. Elastic Observability는 에이전트형 AI를 통해 전체 맥락을 파악하여 문제 해결 속도를 높이고 효율적인 메트릭 및 로그 저장 방식을 도입함으로써 운영 비용을 절감하는 솔루션을 제공합니다. 이번 선정은 데이터 관측 가능성 분야에서 Elastic이 갖춘 기술적 역량과 시장 내 영향력을 인정받은 결과입니다.",
-    "url": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-observability-platforms-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Natalie Blake",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "fetchedAt": "2026-07-15T16:48:07.134Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-    "title": "GitHub Copilot for JetBrains expands BYOK capabilities",
-    "summary": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversationa",
-    "aiSummary": "GitHub Copilot for JetBrains가 모든 서비스 등급을 대상으로 BYOK 기능을 대폭 확장합니다. 이번 업데이트를 통해 사용자들은 더 넓은 범위의 모델 제공업체를 선택할 수 있으며 이를 통해 맞춤형 개발 환경을 더욱 유연하게 구성할 수 있습니다.\n\n또한 플러그인과 서비스 제공업체와의 통합 경험이 한층 강화되었으며 대화형 인터페이스의 기능 개선을 포함한 전반적인 사용자 경험 향상이 이루어졌습니다. 이러한 변화는 개발자가 본인의 작업 흐름에 최적화된 AI 모델을 직접 선택하여 활용할 수 있도록 지원하는 데 중점을 두고 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-14T23:37:29.000Z",
-    "fetchedAt": "2026-07-15T09:24:59.780Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-    "title": "Code scanning shows AI security detections on pull requests",
-    "summary": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detect",
-    "aiSummary": "GitHub는 코드 스캐닝 기능을 강화하여 AI 기반 보안 탐지 결과를 pull request 화면에서 직접 확인할 수 있도록 지원합니다.\n\n이번 업데이트를 통해 기존 CodeQL이 지원하지 않던 다양한 프로그래밍 언어와 프레임워크에 대해서도 취약점 탐지 범위를 확장하게 되었습니다.\n\n이를 통해 개발팀은 코드 병합 과정에서 보안 위협을 더욱 신속하고 효율적으로 식별하여 소프트웨어 공급망의 안전성을 높일 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-14T19:12:48.000Z",
-    "fetchedAt": "2026-07-15T00:10:12.264Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://devblogs.microsoft.com/dotnet/?p=60420",
-    "title": ".NET and .NET Framework July 2026 servicing releases updates",
-    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for July 2026.\nThe post .NET and .NET Framework July 2026 servicing releases updates appeared first on .NET Blog.",
-    "aiSummary": "Microsoft는 2026년 7월 정기 업데이트를 통해 .NET 및 .NET Framework에 대한 최신 서비스 릴리스를 배포했습니다. 이번 업데이트는 해당 플랫폼의 보안 강화와 안정성 향상을 위해 마련되었으며 관련한 상세 정보는 공식 .NET Blog를 통해 확인할 수 있습니다.",
-    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2026-servicing-updates/",
-    "category": "프로그래밍 언어",
-    "source": ".NET Blog",
-    "author": "Rahul Bhandari (MSFT), Tara Overfield",
-    "pubDate": "2026-07-14T18:55:00.000Z",
-    "fetchedAt": "2026-07-15T00:10:12.264Z",
-    "tags": [
-      "C#",
-      ".NET"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
-    "title": "Building a Custom Metrics Exporter for Kubernetes",
-    "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most\nreal-world scaling decisions depend on signals that live entirely outside\nthat narrow window: how many messages are waiting in a qu",
-    "aiSummary": "Kubernetes의 기본 메트릭인 CPU와 메모리 정보만으로는 복잡한 애플리케이션의 상태를 완전히 파악하기 어렵기 때문에, 외부 데이터나 큐 깊이, 작업 처리량 등을 모니터링하기 위한 커스텀 메트릭 익스포터 구축이 필요합니다. \n\n메트릭 익스포터는 애플리케이션 상태를 HTTP 서버의 /metrics 엔드포인트로 노출하는 역할을 하며, Prometheus가 이 엔드포인트를 주기적으로 수집하여 쿼리, 알림, 자동 스케일링에 활용할 수 있도록 합니다. 메트릭 데이터 모델은 누적되는 값인 Counter, 현재 상태를 나타내는 Gauge, 분포를 기록하는 Histogram으로 구분하여 정의합니다.\n\n개발 과정에서는 Go 언어의 prometheus 클라이언트 라이브러리를 주로 사용하며, 수집 루프를 통해 데이터를 업데이트하고 /metrics와 /healthz 경로를 제공하는 웹 서버를 구현합니다. 이후 멀티 스테이지 빌드 방식을 사용하여 가벼운 컨테이너 이미지를 생성하고, Deployment와 Service를 통해 클러스터 내에 배포합니다.\n\n최종적으로는 Prometheus Operator의 ServiceMonitor를 사용하거나 어노테이션 기반의 탐색 방식을 설정하여 Prometheus가 데이터를 성공적으로 수집하도록 연결합니다. 이렇게 구축된 커스텀 메트릭은 향후 HorizontalPodAutoscaler와 연동하여 더욱 정교하고 최적화된 오토스케일링을 구현하는 기반이 됩니다.",
-    "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-07-14T18:00:00.000Z",
-    "fetchedAt": "2026-07-15T09:24:59.780Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
-    "title": "Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software",
-    "summary": "For years, we’ve built with a clear priority: putting the practical needs of the enterprise first. Long before generative AI dominated the headlines, we were focused on building the global infrastruct",
-    "aiSummary": "Google이 IDC MarketScape의 Worldwide Foundation Model Software 2026 평가에서 리더 기업으로 선정되었습니다. Google은 수년간 기업의 실질적인 요구사항을 최우선으로 고려하며 안정성, 보안, 예측 가능성을 갖춘 인프라를 구축해 왔으며, 이러한 연구 성과를 현업 수준의 시스템으로 전환해 온 노력이 이번 평가에서 높은 점수를 받았습니다.\n\nGoogle은 Google DeepMind의 기초 연구와 자체적인 AI 인프라를 결합하여 기업용 통합 AI 스택인 Gemini Enterprise를 제공합니다. Gemini Enterprise는 비즈니스 워크플로우를 실행하는 자율형 에이전트를 개발 및 운영할 수 있는 Agent Platform과 일반 사용자를 위한 Gemini Enterprise 앱을 포함하는 포괄적인 시스템입니다.\n\n이 시스템은 복잡한 다단계 작업을 처리하기 위해 설계된 최신 모델인 Gemini 3.5 Flash를 기반으로 구동됩니다. 특히 모델과 하드웨어를 동시에 최적화하는 공동 설계를 통해 추론 능력을 극대화했습니다. 기업들은 Gemini Enterprise를 통해 기술적 위험 관리에 대한 부담을 줄이고, 보안과 거버넌스가 내재된 환경에서 에이전트 기반의 비즈니스 성과를 창출하는 데 집중할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Michael Gerstenhaber"
-      ],
-      "title": [
-        "VP, Product Management, Cloud AI"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-14T18:00:00.000Z",
-    "fetchedAt": "2026-07-15T00:10:12.264Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://devblogs.microsoft.com/dotnet/?p=60417",
-    "title": ".NET 11 Preview 6 is now available!",
-    "summary": "Find out about the new features in .NET 11 Preview 6 across runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, F#, and container images.\nThe post .NET 11 Preview 6 is now ava",
-    "aiSummary": "Microsoft는 .NET 11 Preview 6 버전을 공개했습니다. 이번 프리뷰 업데이트에는 runtime, SDK, 라이브러리를 비롯하여 ASP.NET Core와 .NET MAUI, C#, Entity Framework Core, F# 등 .NET 생태계 전반에 걸친 새로운 기능과 성능 개선 사항이 포함되어 있습니다. 또한 최신 container images에 대한 업데이트도 함께 제공하여 개발 환경의 최적화를 지원합니다. 개발자들은 공식 블로그를 통해 각 분야별 상세 변경 사항과 개선된 기능들을 확인할 수 있습니다.",
-    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6/",
-    "category": "프로그래밍 언어",
-    "source": ".NET Blog",
-    "author": ".NET Team",
-    "pubDate": "2026-07-14T17:45:00.000Z",
-    "fetchedAt": "2026-07-15T00:10:12.264Z",
-    "tags": [
-      "C#",
-      ".NET"
     ]
   }
 ]

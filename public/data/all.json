@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=air&p=724830",
+    "title": "What’s new: Air gets more agents, local models, and Java/Kotlin code intelligence",
+    "summary": "The new release of JetBrains Air brings support for GitHub Copilot, OpenCode, Pi, Cline, and other ACP-compatible agents. It also adds IntelliJ-powered navigation and diagnostics for Java and Kotlin a",
+    "aiSummary": "JetBrains Air의 신규 업데이트가 발표되었습니다. 이번 업데이트의 핵심은 GitHub Copilot, OpenCode, Pi, Cline 등 다양한 MCP 호환 에이전트를 지원하여 사용자가 원하는 에이전트를 직접 연결해 사용할 수 있게 된 점입니다.\n\nJava와 Kotlin 개발자를 위해 IntelliJ 기반의 정교한 코드 내비게이션과 진단 기능을 강화했습니다. 또한 Windows 작업을 Docker 컨테이너 내에서 수행할 수 있는 기능을 추가하여 개발 환경의 독립성을 높였습니다. \n\nMac, Linux, Windows 운영체제를 모두 지원하며 코딩 에이전트를 위한 별도의 작업 공간을 제공함으로써 개발 효율성을 개선했습니다.",
+    "url": "https://blog.jetbrains.com/air/2026/07/what-s-new-air-gets-more-agents-local-models-and-java-kotlin-code-intelligence/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vladimir Gromozdin",
+    "pubDate": "2026-07-21T16:56:49.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=ruby&p=721165",
+    "title": "RubyMine 2026.2: Agentic Debugging, Native GitHub Copilot Integration, Default Symbol-Based Code Insight, and More",
+    "summary": "RubyMine 2026.2 is out! RubyMine 2026.2 introduces agentic debugging, native GitHub Copilot integration, AI completion with third-party providers, and symbol-based code insight enabled by default. You",
+    "aiSummary": "JetBrains가 발표한 RubyMine 2026.2 버전은 개발 생산성 향상을 위한 다양한 AI 기능과 성능 개선을 포함하고 있습니다. 가장 주목할 만한 변화는 AI가 주도하는 에이전트 기반 디버깅 기능의 도입과 GitHub Copilot의 네이티브 통합입니다. 이를 통해 개발자는 IDE 환경 안에서 더욱 원활하게 AI 보조 도구를 활용할 수 있게 되었습니다.\n\n또한 이번 버전부터는 심볼 기반의 코드 인사이트가 기본 설정으로 활성화되어 더욱 정확한 코드 분석과 탐색을 지원합니다. 이와 더불어 외부 AI 제공업체와의 연동을 통한 AI 코드 완성 기능이 강화되었으며, Ruby 생태계 전반에 걸친 최적화와 함께 일상적인 개발 작업 흐름을 개선하는 다방면의 업데이트가 이루어졌습니다. 새로운 버전은 공식 웹사이트나 Toolbox App을 통해 내려받을 수 있습니다.",
+    "url": "https://blog.jetbrains.com/ruby/2026/07/rubymine-2026-2-agentic-debugging-native-github-copilot-integration-default-symbol-based-code-insight-and-more/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Alexey Varfolomeev",
+    "pubDate": "2026-07-21T16:05:46.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+    "title": "Autonomous infrastructure: Managing complexity in agentic workflows  ",
+    "summary": "As AI becomes embedded across the enterprise, infrastructure operations are entering a new era. Organizations are no longer simply automating repetitive tasks or accelerating existing workflows. Incre",
+    "aiSummary": "기업 내 AI 도입이 가속화되면서 인프라 운영 환경은 단순 자동화를 넘어 AI 에이전트가 리소스 프로비저닝이나 장애 대응 등 운영 업무를 직접 수행하는 자율적 인프라 시대로 변화하고 있습니다. 이러한 변화는 속도와 효율성을 높이지만, 기존의 수동적 운영 모델로는 기계 수준의 빠른 인프라 변경을 제어하기 어려운 근본적인 한계를 드러내고 있습니다.\n\n현재 기업들은 하이브리드 및 멀티 클라우드 환경의 복잡성, 파편화된 도구, 보안 설정 오류, 전문 인력 부족이라는 과제에 직면해 있습니다. AI 에이전트가 도입될 경우 이러한 문제가 해결되지 않은 상태에서는 운영 비용 증가와 거버넌스 공백, 비용 예측 불가능성 등의 리스크가 더욱 빠르게 확산될 위험이 있습니다.\n\n따라서 기업은 자율적 인프라를 안전하게 운영하기 위해 일관된 프레임워크를 구축해야 합니다. 여기에는 Infrastructure as code, 통합된 데이터 관리인 Source of truth, 정책 기반의 제어, 에이전트 워크플로우 지원, 셀프서비스, 가시성 및 관측성, 그리고 최적화를 포함한 7가지 핵심 역량이 필수적입니다.\n\n결국 이러한 역량을 하나로 통합하여 관리하는 Infrastructure Lifecycle Management는 AI 기반 운영 시대에 기업이 자율적 인프라를 효과적으로 확장하고 관리할 수 있도록 돕는 운영 모델로서 핵심적인 역할을 합니다. 기업은 이를 통해 개발자와 AI 에이전트 모두에게 안전하고 감사 가능한 운영 환경을 제공할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-07-21T16:00:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/databases/supercharge-pgvector-4x-faster-hnsw-with-alloydb/",
     "title": "Supercharging pgvector: 4x faster HNSW vector search with AlloyDB",
     "summary": "AlloyDB is a fully managed, PostgreSQL-compatible database service built for your most demanding enterprise workloads. It combines the best of open source PostgreSQL with Google’s advanced technology,",
@@ -159,6 +207,38 @@
     "tags": [
       "GraphQL",
       "Apollo"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/",
+    "title": "Generosity Under Conditions: Hardening Google Cloud Access Management",
+    "summary": "In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ",
+    "aiSummary": "Google Cloud의 IAM은 최소 권한 원칙인 PoLP를 준수하기 위해 리소스, 폴더, 프로젝트 단위의 허용 및 거부 정책을 활용합니다. 하지만 리소스가 여러 팀이나 워크로드에 공유되는 환경에서는 세밀한 제어가 어려울 수 있으며, 이를 해결하기 위해 IAM 조건을 사용하여 권한 범위를 정밀하게 조정하는 방법이 권장됩니다.\n\n관리자 권한을 제한하는 첫 번째 사례에서는 roles/iam.admin과 같은 포괄적인 권한이 부여된 경우, CEL 문법을 활용하여 특정 API나 작업으로 권한을 구체적으로 제한하는 방식을 설명합니다. 이를 통해 빌더 서비스 계정이 불필요하게 광범위한 접근 권한을 갖지 않도록 제어할 수 있습니다.\n\nMCP 서버 접근 제어와 관련된 두 번째 사례에서는 roles/mcp.toolUser를 사용할 때 프로젝트 내의 모든 MCP 서버에 접근하는 대신, 특정 서비스나 도구 수준으로 접근 범위를 좁히는 기법을 다룹니다. 조건식을 사용하면 리소스 서비스 속성이나 API 속성을 기반으로 매우 구체적인 접근 제어가 가능합니다.\n\n추가적인 보안 강화 방법으로 요청 시간이나 요일을 기반으로 한 접근 제한 설정이 있습니다. 예를 들어 특정 시간대와 평일에만 접근을 허용하도록 조건을 구성할 수 있습니다. \n\n마지막으로 IAM 조건은 Allow 정책에 대한 세밀한 제어를 제공하지만, 여기에 더해 Deny 정책을 조합하면 더욱 강력한 심층 방어 전략을 구축할 수 있습니다. 과도한 권한을 제거하고 최소 권한 원칙을 엄격하게 적용하기 위해서는 Deny 정책의 활용이 필수적입니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Leonid Yankulin"
+      ],
+      "title": [
+        "Senior Developer Relations Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-21T11:19:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -5722,6 +5802,38 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-3-7-released",
+    "title": "Elastic Stack 9.3.7 released",
+    "summary": "Version 9.3.7 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.3.7 over the previous versions 9.3.6\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.3.7 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.3.6에서 발견된 문제들을 해결하였으며 사용자들에게 최신 버전으로 업그레이드할 것을 권장합니다. 수정된 문제들에 대한 상세 내용과 각 제품별 변경 사항은 공식 릴리즈 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-3-7-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Nina Lee",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-18-released",
+    "title": "Elastic Stack 8.19.18 released",
+    "summary": "Version 8.19.18 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.18 over the previous versions 8.19.17\nFor details of the issues that have be",
+    "aiSummary": "Elastic Stack 8.19.18 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 8.19.17에서 발견된 문제들을 해결하였으며 보안과 안정성을 위해 최신 버전으로의 업그레이드를 권장합니다. 각 제품별로 변경된 상세 내용과 수정된 문제점들은 공식 배포 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-18-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Nina Lee",
+    "pubDate": "2026-06-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "/blog/how-xeito-builds-features-not-database-infrastructure-with-prisma",
     "title": "How One Founder Builds a Live Sports Platform with Prisma",
     "summary": "How Xeito uses Prisma ORM and Prisma Postgres to ship live scoring, leagues, payments, and player workflows without a database team.",
@@ -7939,6 +8051,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-3-6-released",
+    "title": "Elastic Stack 9.3.6 released ",
+    "summary": "Version 9.3.6 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.3.6 over the previous versions 9.3.5\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.3.6 버전이 오늘 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.3.5보다 개선된 성능과 안정성을 제공하므로 최신 버전으로 업그레이드할 것을 권장합니다. 수정된 문제 사항과 각 제품별 상세 변경 내역은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-3-6-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-06-23T00:00:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-17-released",
+    "title": "Elastic Stack 8.19.17 released",
+    "summary": "Version 8.19.17 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.17 over the previous version 8.19.16\nFor details of the issues that have bee",
+    "aiSummary": "Elastic Stack의 최신 버전인 8.19.17이 오늘 공식 발표되었습니다.\n\n이번 업데이트는 기존 8.19.16 버전보다 향상된 안정성을 제공하므로 최신 버전으로의 업그레이드를 권장합니다.\n\n수정된 문제점과 각 제품별 변경 사항에 대한 구체적인 내용은 공식 배포 노트인 release notes에서 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-17-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-06-23T00:00:00.000Z",
+    "fetchedAt": "2026-07-22T00:12:21.999Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
