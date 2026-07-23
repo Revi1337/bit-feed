@@ -1,5 +1,102 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud/",
+    "title": "Your AI agents are ready. Is your data?",
+    "summary": "What’s one of the biggest bottlenecks stopping organizations from scaling their AI initiatives? It isn’t the capabilities of today’s models — it’s their access to business context and semantic meaning",
+    "aiSummary": "기업이 AI 도입을 확장하는 데 있어 가장 큰 걸림돌은 모델의 성능 부족이 아니라 비즈니스 맥락과 의미론적 데이터에 대한 접근성 부족입니다. 에이전트 시대에는 단순한 데이터 저장을 넘어 데이터를 실시간으로 활성화하는 시스템으로 전환해야 하며 이를 위해 83%의 기업이 인프라 업그레이드를 필요로 하고 있습니다.\n\nGoogle Cloud는 이를 해결하기 위해 데이터, AI 모델, 운영 데이터베이스를 통합한 Agentic Data Cloud를 발표했습니다. 이 플랫폼은 칩부터 모델까지 AI 네이티브로 설계되어 에이전트의 부하를 처리하며 파편화된 레거시 시스템과의 통합 문제를 해결합니다. 특히 BigQuery와 Spanner를 Apache Spark 및 Apache Iceberg와 같은 오픈 표준으로 연결하여 데이터 이동 비용과 복잡성을 줄이고 에이전트가 로컬 환경처럼 데이터를 즉각적으로 활용하게 합니다.\n\n에이전트가 단순히 데이터를 조회하는 수준을 넘어 안전하고 정확한 업무를 수행하기 위해서는 비즈니스 로직과 맥락이 필요합니다. 이를 위해 Knowledge Catalog를 활용하여 비정형 데이터에서 의미를 추출하고 에이전트의 추론 능력을 강화합니다. 또한 ERP와 CRM을 포함한 데이터 시스템과의 실시간 연동을 통해 에이전트에게 장기 기억과 맥락을 제공합니다.\n\n결과적으로 AI 에이전트의 경쟁력은 가장 똑똑한 모델을 보유하는 것보다 에이전트에게 얼마나 안전하고 효율적으로 올바른 지식을 제공할 수 있는지에 달려 있습니다. 따라서 기업은 파편화된 인프라를 통합하고 데이터를 능동적으로 활성화할 수 있는 연결된 데이터 생태계를 구축해야 합니다.",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sirish Chandrasekaran"
+      ],
+      "title": [
+        "VP, Product Management, Data Analytics"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-23T16:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai/",
+    "title": "The Blueprint: How Voicify makes AI-enabled ordering a delight for customers",
+    "summary": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to",
+    "aiSummary": "Voicify는 레스토랑 및 헬스케어 분야의 전화 응대 문제를 해결하기 위해 Google Cloud의 기술을 도입하여 AI 기반 음성 지원 플랫폼을 고도화하고 있습니다. 초기 서비스 당시에는 높은 통화량 처리, 거래의 정확성, 응답 지연 시간, 보안 및 규정 준수라는 4가지 핵심 과제에 직면했으나, 이를 해결하기 위해 최적화된 아키텍처를 구축했습니다.\n\n핵심 솔루션으로 Gemini Enterprise Agent Platform 내의 Gemini Flash 모델을 활용하여 응답 속도를 개선하고, 이전 모델 대비 비용을 25퍼센트에서 30퍼센트까지 절감하는 성과를 거두었습니다. 특히 기존 Google AI Studio에서 Vertex AI로 전환함으로써 트래픽 급증 상황에서도 중단 없는 서비스를 제공하는 엔터프라이즈급 안정성을 확보했습니다.\n\n기술적인 세부 전략으로 복잡한 메뉴를 단일 프롬프트에 모두 담지 않고 대화 과정에서 필요한 정보를 점진적으로 수집하는 방식을 채택하여 처리 속도를 높였습니다. 또한 다중 클라우드 환경을 지원하고 HIPAA, SOC2, ISO27001 등 엄격한 보안 표준을 준수하는 아키텍처를 통해 데이터 무결성을 보장합니다.\n\n이러한 기술적 개선을 통해 레스토랑의 서비스 준비 기간을 기존 1~2주에서 1~2일로 획기적으로 단축했습니다. 향후 Voicify는 단순 주문 접수를 넘어 고객의 과거 주문 데이터와 상황을 파악하여 선제적으로 주문을 제안하는 능동적인 AI 비서로 진화하는 것을 목표로 합니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Nick Laidlaw"
+      ],
+      "title": [
+        "CTO & co-founder, Voicify"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-23T16:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-founders-summit-2026",
+    "title": "Laravel Announces the Founders Summit, a One-Day Event for Founders",
+    "summary": "Laravel is gauging interest in the Founders Summit, a one-day gathering in November 2026 for founders and leaders running businesses built on Laravel.\nThe post Laravel Announces the Founders Summit, a",
+    "aiSummary": "Laravel은 2026년 11월에 개최 예정인 Founders Summit에 대한 참여 의사를 조사하고 있습니다. 해당 행사는 Laravel을 기반으로 비즈니스를 운영하는 창업자와 리더들을 대상으로 하는 일일 행사입니다. 현재 Laravel 생태계 내 주요 이해관계자들의 관심을 파악하여 행사를 준비하고자 합니다.",
+    "url": "https://laravel-news.com/laravel-founders-summit-2026?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-07-23T15:07:03.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud",
+    "title": "Observability for every Supabase project with Grafana Cloud",
+    "summary": "Connect your Supabase project to Grafana Cloud in one click. A pre-built dashboard, alerting, and metrics: available on every plan, including free.",
+    "aiSummary": "Supabase 프로젝트를 Grafana Cloud에 클릭 한 번으로 간편하게 연결할 수 있는 기능이 제공됩니다.\n\n이번 업데이트를 통해 모든 Supabase 프로젝트는 플랜 종류와 관계없이 무료 버전을 포함하여 사전 구축된 대시보드와 알림 설정, 그리고 메트릭 모니터링 기능을 사용할 수 있습니다. 이를 통해 사용자는 자신의 프로젝트 상태를 더욱 효율적으로 관측하고 관리할 수 있게 됩니다.",
+    "url": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-07-23T07:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
     "title": "Django 6.1 release candidate 1 released",
     "summary": "Django 6.1 release candidate 1 is now available. It represents\nthe final opportunity for you to try out the version that\noffers a harmonious mélange of new features and usability improvements,\nbefore ",
@@ -1473,375 +1570,6 @@
     "tags": [
       "Terraform",
       "IaC"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/introducing-tfpolicy-a-declarative-policy-workflow-built-for-terraform",
-    "title": "Introducing tfpolicy: A declarative policy workflow built for Terraform ",
-    "summary": "As infrastructure estates continue to expand across hybrid cloud environments, platform teams are no longer managing individual resources in isolation. They're managing systems that span public cloud ",
-    "aiSummary": "HashiCorp는 하이브리드 클라우드와 복잡해지는 인프라 환경에서 더욱 효율적인 거버넌스를 지원하기 위해 새로운 정책 프레임워크인 tfpolicy를 HCP Terraform의 퍼블릭 베타 버전으로 공개했습니다.\n\ntfpolicy는 기존 인프라 관리 언어인 HCL을 기반으로 하는 선언적 정책 코드 프레임워크입니다. 이를 통해 플랫폼 팀은 별도의 복잡한 도구나 언어를 학습할 필요 없이 익숙한 Terraform 환경 내에서 정책을 정의하고 배포 전후로 거버넌스를 통합적으로 관리할 수 있습니다.\n\n주요 기능으로 개별 리소스뿐만 아니라 리소스 간의 관계를 분석하여 정책을 평가할 수 있으며 데이터 소스 조회를 통해 외부 컨텍스트를 거버넌스 결정에 활용할 수 있습니다. 또한 공급망 보안을 위해 승인되지 않은 프로바이더나 모듈의 다운로드를 사전에 차단하는 기능도 제공합니다.\n\n기존의 Sentinel이나 OPA와 같은 도구들이 가진 한계를 극복하기 위해 설계된 tfpolicy는 실제 인프라 상태를 바탕으로 정책을 검증하고 배포 이후에 생성된 공급자 계산 값까지 평가할 수 있습니다. 현재 사용자들은 HCP Terraform을 통해 해당 기능을 이용할 수 있으며 기존 Sentinel 정책을 변환하거나 작성을 돕는 tfpolicy 에이전트 스킬도 지원받을 수 있습니다.",
-    "url": "https://www.hashicorp.com/blog/introducing-tfpolicy-a-declarative-policy-workflow-built-for-terraform",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Mitchell Ross",
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "fetchedAt": "2026-07-21T16:50:22.781Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/",
-    "title": "Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage",
-    "summary": "Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an",
-    "aiSummary": "현대 사이버 보안 환경에서 공격자들이 인공지능을 활용해 공격 속도와 정교함을 높이는 가운데, 방어자들은 딥 콘텍스트를 활용하여 확실한 우위를 점할 수 있습니다. 과거 보안 데이터가 파편화되어 있던 것과 달리, 이제는 기업 내부 자산과 애플리케이션 동작에 대한 완전한 콘텍스트를 확보함으로써 공격보다 앞선 기계 속도의 방어가 가능해졌습니다.\n\nGoogle Cloud는 Gemini의 추론 능력, Wiz의 클라우드 콘텍스트, CodeMender의 코드 수정 기능, 그리고 Mandiant의 위협 인텔리전스를 통합한 Google AI Threat Defense 플랫폼을 통해 이를 지원합니다. 해당 프레임워크는 준비, 스캔 및 우선순위 지정, 수정, 모니터링의 4단계 과정을 거치며, 이를 도입한 Morgan Stanley는 위협 탐지 시간을 기존 대비 99.9% 단축하여 90초 이내에 대응하는 성과를 거두었습니다.\n\n인공지능을 활용한 방어는 자동화된 에이전트와 인간 전문가의 협업을 바탕으로 이루어집니다. 보안 팀은 에이전트를 통해 침투 테스트나 위협 조사 등을 수행하면서도 전략적인 관리 감독을 유지하여 속도와 안전성을 동시에 확보해야 합니다. 특히 최근 기업 내에서 허가되지 않은 AI 모델과 에이전트 사용으로 인한 내부 위협이 증가함에 따라, 모든 AI 인프라 구축 시 기획 단계부터 보안을 내재화하는 제로 트러스트 전략이 필수적입니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Francis deSouza"
-      ],
-      "title": [
-        "COO, Google Cloud and President, Security Products"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/what-we-learned-about-agent-teamwork/",
-    "title": "What 10 autonomous film crews taught us about agent teamwork",
-    "summary": "Can teams of AI agents collaborate to create a short film?\nAs part of an internal Google generative media hackathon, we put this question to the test – specifically, to uncover whether AI agents could",
-    "aiSummary": "Google은 내부 해커톤을 통해 AI 에이전트들이 협업하여 단편 영화를 제작할 수 있는지 검증하는 실험을 진행했습니다. 실험에는 Scion이라는 오픈 소스 오케스트레이션 프레임워크를 기반으로, 각기 다른 역할을 맡은 3개의 에이전트가 한 팀을 이루어 총 10개의 팀이 참여했습니다.\n\n팀 구성은 아이디어를 구상하는 Idea Person, 생성형 미디어 도구를 운영하는 Technical Lead, 영상의 흐름과 편집을 담당하는 Editor로 나뉘었으며, 팀 코치 에이전트가 중간 단계마다 검수하는 역할을 수행했습니다. 이들은 Gemini, Veo 3.1, Lyria 3 등의 모델을 활용해 캐릭터 일관성을 유지하고 영상을 생성했으며, 총 44분 분량의 영화 결과물을 만들어냈습니다.\n\n실험을 통해 도출된 핵심 교훈은 다음과 같습니다. 첫째, 에이전트 간 협업 시 메시지보다 공유 파일 시스템을 활용할 때 훨씬 안정적인 작업이 가능했습니다. 파일에 정보를 기록하면 에이전트가 재시작되더라도 작업의 맥락이 유지되었습니다. 둘째, AI 모델의 강점과 약점을 파악하여 스타일을 선택하는 것이 중요했습니다. 일관성 문제가 발생하기 쉬운 실사보다는 클레이메이션이나 실루엣 기법을 활용했을 때 더 나은 결과를 얻었습니다. 셋째, 모호한 지시어보다는 Hex 코드나 금지어 설정 등 구체적이고 기술적인 프롬프트가 훨씬 높은 품질의 결과물을 생성했습니다. 마지막으로, 중간 검수 단계에서 팀 코치가 개입하여 결과물을 확인하는 구조가 에이전트들의 독립적인 판단과 전체적인 프로젝트 완결성을 높이는 데 기여했습니다.\n\n결론적으로 이번 실험은 AI 에이전트들이 복잡한 도구 체인을 스스로 다루며 특정 단계의 책임을 분담하는 방식으로도 수준 높은 창작물 제작이 가능하다는 점을 시사합니다. Scion 프레임워크는 에이전트들이 컨테이너 환경에서 독립적으로 작업하면서도 공유 파일 시스템을 통해 서로의 진행 상황을 파악하고 오류를 복구할 수 있는 안정적인 환경을 제공했습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/what-we-learned-about-agent-teamwork/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Preston Holmes"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/bridge-sql-and-python-with-bigquery/",
-    "title": "Bridging the gap between SQL and Python with BigQuery and the %%bqsql magic",
-    "summary": "Data scientists and data engineers often find themselves caught between two worlds: SQL and Python. Some find SQL more intuitive, especially when combined with a powerful engine like BigQuery to proce",
-    "aiSummary": "데이터 분석가와 엔지니어는 데이터 처리를 위해 SQL과 Python을 혼용하며 발생하는 데이터 이동의 번거로움을 겪어왔습니다. Google Cloud는 이러한 문제를 해결하기 위해 Colab Enterprise에서 선보였던 SQL 셀 기능을 확장하여, 범용 오픈소스 환경에서도 사용할 수 있는 %%bqsql IPython 매직 명령어를 도입했습니다.\n\n%%bqsql을 활용하면 Jupyter, pandas, BigFrames 환경에서 Python과 SQL 코드 셀을 자유롭게 오가며 데이터 처리 워크플로우를 구성할 수 있습니다. 사용자는 로컬의 pandas DataFrame을 SQL 쿼리로 직접 참조하거나, SQL 쿼리 결과를 다시 Python 객체인 BigFrames DataFrame으로 받아 후속 작업에 활용하는 하이브리드 파이프라인을 구축할 수 있습니다.\n\n이 방식의 핵심적인 장점은 크게 세 가지입니다. 첫째, 복잡한 집계나 조인은 SQL로, 시각화나 통계 모델링은 Python으로 처리하는 등 각 언어의 강점을 최적화하여 선택할 수 있습니다. 둘째, 거대한 SQL 쿼리를 나누어 작성할 수 있어 코드의 가독성과 유지보수성이 향상됩니다. 셋째, 로컬의 작은 데이터셋으로 개발한 코드를 수정 없이 대규모 BigQuery 데이터 처리로 확장할 수 있습니다.\n\n환경 설정은 BigQuery 샌드박스 활성화와 bigframes 라이브러리 설치를 통해 간단히 시작할 수 있습니다. 특히 BigFrames DataFrame은 pandas API와 호환되므로, SQL을 통해 대규모 연산을 수행한 뒤 결과값만 시각화 라이브러리로 가져와 효율적으로 분석을 마칠 수 있습니다. 사용자는 필요에 따라 유료 계정을 연결하여 BigQuery Machine Learning과 같은 고급 기능을 연동할 수도 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/bridge-sql-and-python-with-bigquery/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Tim Swena"
-      ],
-      "title": [
-        "TL for BigQuery DataFrames"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/compute/lessons-in-accelerating-foundation-model-upgrades/",
-    "title": "Three lessons in accelerating foundation model upgrades",
-    "summary": "Have you run into problems migrating your products from one model to the next?\nUpgrading to the latest AI models is rarely simple. For engineering teams, model updates whether migrating to an entirely",
-    "aiSummary": "AI 모델의 빠른 발전 속도에 맞춰 기존 제품을 새로운 버전으로 업데이트하는 과정은 많은 시간과 비용이 소요되는 수동 작업인 경우가 많습니다. Google Cloud의 Applied ML 팀은 이러한 마이그레이션 과정을 수개월에서 수 시간으로 단축하기 위해 Gemini Enterprise Agent Platform과 Google Antigravity를 활용한 에이전트 기반 워크플로우를 구축했습니다.\n\n이들은 모델 업그레이드 체계를 구축하며 세 가지 핵심 교훈을 얻었습니다. 첫째는 실제 마이그레이션 문제 해결을 위해 엔지니어와 제품 팀이 긴밀히 협력하는 현장 중심의 발견 과정을 거쳐야 한다는 점입니다. 둘째는 기존의 경직된 자동화 방식으로는 다양한 데이터 형식과 예외 상황을 처리하기 어렵다는 점을 인식해야 합니다. 셋째는 특정 프로젝트의 요구사항에 따라 동적으로 대응할 수 있는 유연한 에이전트 아키텍처를 도입해야 한다는 점입니다.\n\n실제로 비디오 번역 및 더빙 서비스 팀은 이 에이전트 프레임워크를 활용하여 기존의 미세 조정 모델에서 벗어나 최신 파운데이션 모델로 성공적으로 전환했으며 프롬프트 최적화 과정을 자동화했습니다.\n\n기업이 이러한 마이그레이션 파이프라인을 구축하기 위해서는 수동 평가 대신 모델 기반의 Autoraters를 도입하여 품질 평가 속도를 높여야 합니다. 또한 Gemini Enterprise Agent Platform 내의 Agent Development Kit를 사용하여 에이전트를 생성하고 Google Antigravity로 코딩 및 오케스트레이션을 자동화하는 것이 효과적입니다. 이러한 방식으로 업무 프로세스를 전환하면 기술 부채를 줄이고 AI 기술의 발전 속도에 효율적으로 발맞출 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/compute/lessons-in-accelerating-foundation-model-upgrades/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Radhika Mani"
-      ],
-      "title": [
-        "Senior PM Agentic AI, AI and Infrastructure"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.139.2",
-    "title": "0.139.2",
-    "summary": "Fixes\n🐛 Refactor router route building to make it thread-safe, mainly relevant for tests running in parallel threads (uncommon). PR #16013 by @tiangolo.",
-    "aiSummary": "FastAPI의 버전 0.139.2 업데이트를 통해 라우터 경로 생성 로직이 리팩토링되었습니다. 이번 수정은 경로 생성 과정을 스레드 안전하게 개선하는 것에 중점을 두었으며, 특히 병렬 스레드 환경에서 테스트를 수행할 때 발생할 수 있는 문제를 해결합니다. 해당 변경 사항은 tiangolo에 의해 PR 16013을 통해 적용되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.2",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-07-16T15:05:47.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=clion&p=722716",
-    "title": "CLion 2026.2 Is Here",
-    "summary": "With a debugger skill for AI agents, debug profiles for simplified debugger configuration, and support for C++26 reflection. CLion 2026.2 is now available. This latest version of the JetBrains IDE for",
-    "aiSummary": "JetBrains의 C 및 C++ 통합 개발 환경인 CLion 2026.2 버전이 새롭게 출시되었습니다.\n\n이번 업데이트의 핵심은 AI 에이전트를 위한 디버거 기술이 도입되어 개발 효율성을 높였다는 점입니다. 또한 복잡한 디버거 설정을 간소화할 수 있는 디버그 프로필 기능이 추가되었습니다.\n\n이와 더불어 C++26 표준의 핵심 기능인 리플렉션에 대한 지원이 포함되어 최신 C++ 언어 명세에 대응하는 개발 환경을 제공합니다. 사용자는 Toolbox App을 이용하거나 공식 웹사이트의 링크를 통해 해당 버전을 내려받을 수 있습니다.",
-    "url": "https://blog.jetbrains.com/clion/2026/07/2026-2-release/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Oleg Zinovyev",
-    "pubDate": "2026-07-16T15:00:54.000Z",
-    "fetchedAt": "2026-07-17T00:16:29.080Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=webstorm&p=721589",
-    "title": "WebStorm 2026.2: TypeScript 7 Support, GitHub Copilot Integration, Agent Skills, and More",
-    "summary": "WebStorm 2026.2 is now available! If you work on a large TypeScript codebase, this release is a meaningful upgrade. TypeScript 7 support ships out of the box for projects already using it, delivering ",
-    "aiSummary": "WebStorm 2026.2 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 대규모 TypeScript 코드베이스를 다루는 개발자를 위한 TypeScript 7에 대한 기본 지원입니다. 이를 통해 전체 프로젝트를 마이그레이션하지 않고도 더욱 빠른 타입 체킹 성능을 경험할 수 있습니다.\n\nGitHub Copilot이 별도의 플러그인 설치나 복잡한 설정 없이 IDE 내부에 기본적으로 통합되었습니다. 이를 통해 코딩 생산성을 향상시키는 것은 물론, 새롭게 추가된 Agent Skills 기능을 활용하여 더욱 지능적이고 유기적인 개발 경험을 제공합니다. \n\n이번 릴리스는 개발 워크플로우를 최적화하고 최신 기술 환경에 대응하는 데 중점을 두었으며, 상세한 기능 개선 사항을 통해 전반적인 개발 효율성을 크게 개선하였습니다.",
-    "url": "https://blog.jetbrains.com/webstorm/2026/07/webstorm-2026-2/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Valeriya Masyachenko",
-    "pubDate": "2026-07-16T14:46:25.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=go&p=723210",
-    "title": "GoLand 2026.2 Is Now Available!",
-    "summary": "GoLand 2026.2 is all about helping you understand and improve your Go applications with less effort. This release introduces the new Go Optimization tool window, bringing profiling, escape analysis, a",
-    "aiSummary": "GoLand 2026.2 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 개발자가 Go 애플리케이션을 더 효율적으로 이해하고 개선할 수 있도록 돕는 것입니다.\n\n새롭게 도입된 Go Optimization 도구 창은 프로파일링, 이스케이프 분석, 구조체 최적화 기능을 하나의 워크플로우로 통합하여 제공합니다. 이를 통해 별도의 복잡한 설정 없이도 일반적인 Go 애플리케이션을 즉시 프로파일링할 수 있으며, 운영 환경의 프로필을 분석하고 CPU 및 메모리 사용량을 실시간으로 모니터링하는 것이 가능해졌습니다.\n\n개발 생산성 향상에 초점을 맞춘 이번 릴리스는 복잡한 성능 최적화 과정을 간소화하여 더 나은 품질의 코드를 작성할 수 있도록 지원합니다.",
-    "url": "https://blog.jetbrains.com/go/2026/07/16/goland-2026-2-is-now-available/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Artem Pronichev",
-    "pubDate": "2026-07-16T14:38:52.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
-    "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
-    "summary": "Written by: Jules Czarniak\n\n\nIntroduction \nAs highlighted in the Mandiant M-Trends 2026 report, the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a wee",
-    "aiSummary": "Mandiant의 보고서에 따르면 취약점 공격까지 소요되는 시간인 TTE가 7일 이내로 단축됨에 따라 보안 팀은 LLM 에이전트를 도입하여 자동화된 취약점 탐지 및 대응을 강화하고 있습니다. 그러나 권한을 가진 AI 에이전트를 적절한 통제 없이 배포하는 것은 새로운 아키텍처 위험을 초래할 수 있으므로, 보안 팀은 NIST RMF나 Google의 SAIF와 같은 산업 표준을 기반으로 운영 가드레일을 구축해야 합니다.\n\nAI 에이전트를 안전하게 운영하기 위한 핵심 보안 전략은 다음과 같습니다. 먼저, PII나 PHI 같은 민감 데이터 접근을 차단하고 합성 데이터를 사용하는 환경을 구축해야 합니다. 또한, 소스 코드 자체를 잠재적 위협으로 간주하여 입력값을 정제하고, 클라우드 제공업체와 제로 데이터 보존 계약을 체결하여 독점 코드 유출을 방지해야 합니다. 에이전트 워크로드는 반드시 격리된 샌드박스 환경에서 실행하고, 최소 권한 원칙을 적용한 머신 아이덴티티를 사용하며, 인간 컨트롤러에 의한 관리 체계를 유지해야 합니다.\n\n공급망 보안 측면에서 LangChain이나 AutoGen과 같은 오케스트레이션 프레임워크와 MCP 플러그인에 대한 검증이 필요합니다. 런타임 단계에서는 독성 흐름 분석을 통해 에이전트의 동작을 관찰하고 비인가 엔드포인트로의 데이터 유출을 감시해야 합니다. AI가 비즈니스 맥락을 완벽히 이해하지 못하는 한계를 극복하기 위해 PASTA와 같은 방법론을 활용한 인간 주도의 위협 모델링 역시 필수적으로 병행되어야 합니다.\n\n취약점 관리의 효율성을 높이기 위해 기업은 RBVM 방법론을 도입하여 취약점 심각도, 자산 맥락, 실제 위협 수준을 종합한 위험 점수를 산출해야 합니다. 이를 통해 보안 팀은 우선순위에 따른 자원 배분과 대응이 가능해집니다. 결과적으로 AI 기술의 속도와 엔터프라이즈 방어 역량 사이의 격차를 줄이기 위해서는 결정론적 통제 장치, 인간의 지능, 그리고 제로 트러스트 원칙이 결합된 전략적 접근이 요구됩니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mandiant "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-16T14:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-07-16-1",
-    "title": "PHP 8.6.0 Alpha 2 available for testing",
-    "summary": "The PHP team is pleased to announce the second testing release of PHP 8.6.0, Alpha 2. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source down",
-    "aiSummary": "PHP 개발팀이 PHP 8.6.0의 두 번째 테스트 버전인 Alpha 2를 공개했습니다. 이번 릴리스는 PHP 8.6 정식 출시를 향한 개발 주기의 일환으로 진행됩니다.\n\nPHP 공식 다운로드 페이지에서 소스 코드를 내려받을 수 있으며, 새로운 기능과 변경 사항은 배포 아카이브에 포함된 NEWS 및 UPGRADING 파일을 통해 확인할 수 있습니다.\n\n해당 버전은 초기 테스트를 목적으로 배포되었으므로 운영 환경에서의 사용은 권장하지 않습니다. 발견된 문제점은 GitHub Issues를 통해 보고하여 개선에 참여할 수 있습니다.\n\n다음 릴리스인 Alpha 3는 2026년 7월 30일로 예정되어 있습니다.",
-    "url": "https://www.php.net/index.php#2026-07-16-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-07-16T13:28:29.000Z",
-    "fetchedAt": "2026-07-17T00:16:29.080Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=92267",
-    "title": "The Developer Has Changed. So Should Developer Conferences",
-    "summary": "Discover why Docker is co-hosting WeAreDevelopers World Congress North America and how AI agents are transforming software development and developer communities.",
-    "aiSummary": "Docker가 WeAreDevelopers World Congress North America를 공동 개최하며 AI 에이전트가 소프트웨어 개발 및 개발자 커뮤니티의 환경을 어떻게 근본적으로 변화시키고 있는지 조명합니다.\n\n개발자 역할의 변화에 발맞추어 기술 컨퍼런스 역시 새로운 패러다임을 수용해야 할 시점임을 강조합니다. 특히 AI 에이전트의 등장이 개발 생산성과 업무 방식에 미치는 영향력을 분석하고 이러한 변화된 생태계에 적합한 지식 공유 및 커뮤니티 구축 방안을 제시합니다.",
-    "url": "https://www.docker.com/blog/docker-wearedevelopers-world-congress-north-america-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jin Kim",
-    "pubDate": "2026-07-16T13:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "title": "Our approach to bioresilience",
-    "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-    "aiSummary": "Google DeepMind와 Isomorphic Labs는 생물학적 탄력성 강화를 위한 인공지능 모델 활용 전략을 공동으로 발표했습니다. 두 조직은 생명 과학 분야의 복잡한 문제를 해결하기 위해 AI를 어떻게 안전하고 책임감 있게 적용할지에 대한 연구 방향성을 제시합니다. 향후 이들은 생물학적 위험을 최소화하면서도 혁신적인 발견을 촉진하기 위한 구체적인 방법론과 협력 체계를 지속적으로 발전시켜 나갈 계획입니다.",
-    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-07-16T09:30:42.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.139.1",
-    "title": "0.139.1",
-    "summary": "Fixes\n🐛 Fix frontend fallback support for doted paths like /users/john.doe. PR #16011 by @tiangolo.\nDocs\n📝 Fix topic repository list not being displayed and skip_users not being applied. PR #15995 b",
-    "aiSummary": "이번 업데이트 버전 0.139.1에서는 프론트엔드 경로 처리 문제 해결과 문서화 수정, 그리고 다국어 번역 업데이트가 주요하게 이루어졌습니다.\n\n상세 내용으로는 점이 포함된 경로에 대한 프론트엔드 폴백 지원을 개선하였으며, 문서 내 토픽 저장소 목록 표시 오류와 skip_users 적용 누락 문제를 수정하였습니다. 또한 한국어를 포함한 다수의 언어 번역을 최신화하고 일부 언어의 프롬프트를 개선하였습니다.\n\n내부적으로는 의존성 패키지와 github-actions 그룹의 버전을 업데이트하였으며, 프리커밋 훅 관리 자동화와 같은 워크플로우 효율화 작업을 수행하였습니다. 아울러 후원사 목록을 조정하고 관련 도구인 issue-manager 및 latest-changes 버전을 최신화하였습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.1",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-07-16T09:18:15.000Z",
-    "fetchedAt": "2026-07-16T09:32:56.880Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/unified-logs-open-beta",
-    "title": "Unified Logs is now in open beta",
-    "summary": "One searchable view for logs across every Supabase service, with live tail, filtering, and a timeline.",
-    "aiSummary": "Supabase가 모든 서비스의 로그를 하나의 검색 가능한 화면에서 통합하여 확인할 수 있는 Unified Logs 기능을 오픈 베타로 공개하였습니다.\n\n해당 기능을 통해 사용자는 실시간 로그 추적과 필터링 기능을 활용할 수 있으며 타임라인을 기반으로 전체 로그를 효율적으로 관리할 수 있게 됩니다.",
-    "url": "https://supabase.com/blog/unified-logs-open-beta",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-07-16T07:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://www.ruby-lang.org/en/news/2026/07/16/ruby-3-3-12-released/",
-    "title": "Ruby 3.3.12 Released",
-    "summary": "Ruby 3.3.12 has been released.\nThis release includes security fixes.\nPlease check the topics below for details.\nCVE-2026-41316: ERB @_init deserialization guard bypass via def_module / def_method / de",
-    "aiSummary": "Ruby 3.3.12 버전이 보안 업데이트를 포함하여 새롭게 출시되었습니다.\n\n이번 업데이트의 주요 내용은 ERB 라이브러리의 @_init 역직렬화 가드 우회 문제를 해결하기 위해 기본 gem인 erb를 4.0.3.1 버전으로 업데이트한 것입니다.\n\n또한 번들 gem인 net-imap이 0.4.25 버전으로 업데이트되었습니다. 이를 통해 CVE-2026-42245부터 CVE-2026-42248까지를 포함한 총 8개의 보안 취약점이 해결되었습니다.\n\n사용자는 Ruby 공식 홈페이지에서 관련 소스 코드를 다운로드하여 설치할 수 있으며 상세한 정보는 GitHub 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://www.ruby-lang.org/en/news/2026/07/16/ruby-3-3-12-released/",
-    "category": "프로그래밍 언어",
-    "source": "Ruby News",
-    "author": "Ruby News",
-    "pubDate": "2026-07-16T05:08:11.000Z",
-    "fetchedAt": "2026-07-16T09:32:56.880Z",
-    "tags": [
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/build-a-laravel-scout-search-endpoint-with-the-http-query-method",
-    "title": "Build a Laravel Scout Search Endpoint With the HTTP QUERY Method",
-    "summary": "Learn how to define a Laravel route that responds to the new HTTP QUERY method and use Laravel Scout's database driver to build a search API endpoint.\nThe post Build a Laravel Scout Search Endpoint Wi",
-    "aiSummary": "Laravel 애플리케이션에서 새로운 HTTP QUERY 메서드를 사용하여 검색 API 엔드포인트를 구축하는 방법을 설명합니다. \n\n이 과정에서는 Laravel 라우트를 정의하여 HTTP QUERY 요청에 응답하도록 설정하고, Laravel Scout의 데이터베이스 드라이버를 활용하여 효율적으로 검색 기능을 구현하는 기술적 접근 방식을 다룹니다. 이를 통해 기존의 GET이나 POST 방식이 아닌, 최신 HTTP 표준인 QUERY 메서드를 효과적으로 활용하는 방법을 습득할 수 있습니다.",
-    "url": "https://laravel-news.com/build-a-laravel-scout-search-endpoint-with-the-http-query-method?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-07-16T02:54:49.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.3",
-    "title": "1.1.3",
-    "summary": "Added a /codesearch command (aliases /cs and /search) to interactively search code across your workspace, interpreting queries as regex by default with -F/--literal for exact matching and f:/file: glo",
-    "aiSummary": "이번 1.1.3 업데이트에서는 코드 검색 기능인 /codesearch 명령어가 추가되어 작업 공간 내에서 정규식 기반의 검색과 파일 경로 필터링을 지원합니다. no-flickering 모드에서의 텍스트 복사 동작이 개선되었으며, 컨텍스트 압축 지점을 시각적으로 표시하는 기능이 도입되었습니다.\n\n성능 개선 측면에서는 CLI 초기 실행 시 스킬을 비동기적으로 로드하여 대기 시간을 단축했고, 스킬이나 에이전트 관련 파일 시스템 검색을 최적화하여 입출력 부하를 줄였습니다. 또한, 입력을 통한 오류 처리 방식이 간소화되었고 인라인 코드 주변의 불필요한 여백이 제거되었습니다.\n\n안정성 강화와 관련해서는 다양한 오류가 수정되었습니다. 마크다운 내 수식과 코드 블록이 충돌하던 현상을 방지했으며, headless 모드에서 권한 확인이 필요한 도구 실행 시 발생하는 문제와 작업 공간 외부 파일 쓰기 승인 오류를 해결했습니다.\n\n대규모 대화 시 발생하던 CPU 부하를 최적화했고, Linux 환경에서 발생하는 키링 인증 문제와 MCP 서버 응답 대기 중 발생하는 무한 대기 현상을 개선했습니다. 이외에도 심볼릭 링크로 인한 중복 로딩 문제와 도구 호출 후 대화 기록이 손상되던 버그를 모두 수정했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.3",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-07-16T01:01:57.000Z",
-    "fetchedAt": "2026-07-16T09:32:56.880Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

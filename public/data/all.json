@@ -1,5 +1,102 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud/",
+    "title": "Your AI agents are ready. Is your data?",
+    "summary": "What’s one of the biggest bottlenecks stopping organizations from scaling their AI initiatives? It isn’t the capabilities of today’s models — it’s their access to business context and semantic meaning",
+    "aiSummary": "기업이 AI 도입을 확장하는 데 있어 가장 큰 걸림돌은 모델의 성능 부족이 아니라 비즈니스 맥락과 의미론적 데이터에 대한 접근성 부족입니다. 에이전트 시대에는 단순한 데이터 저장을 넘어 데이터를 실시간으로 활성화하는 시스템으로 전환해야 하며 이를 위해 83%의 기업이 인프라 업그레이드를 필요로 하고 있습니다.\n\nGoogle Cloud는 이를 해결하기 위해 데이터, AI 모델, 운영 데이터베이스를 통합한 Agentic Data Cloud를 발표했습니다. 이 플랫폼은 칩부터 모델까지 AI 네이티브로 설계되어 에이전트의 부하를 처리하며 파편화된 레거시 시스템과의 통합 문제를 해결합니다. 특히 BigQuery와 Spanner를 Apache Spark 및 Apache Iceberg와 같은 오픈 표준으로 연결하여 데이터 이동 비용과 복잡성을 줄이고 에이전트가 로컬 환경처럼 데이터를 즉각적으로 활용하게 합니다.\n\n에이전트가 단순히 데이터를 조회하는 수준을 넘어 안전하고 정확한 업무를 수행하기 위해서는 비즈니스 로직과 맥락이 필요합니다. 이를 위해 Knowledge Catalog를 활용하여 비정형 데이터에서 의미를 추출하고 에이전트의 추론 능력을 강화합니다. 또한 ERP와 CRM을 포함한 데이터 시스템과의 실시간 연동을 통해 에이전트에게 장기 기억과 맥락을 제공합니다.\n\n결과적으로 AI 에이전트의 경쟁력은 가장 똑똑한 모델을 보유하는 것보다 에이전트에게 얼마나 안전하고 효율적으로 올바른 지식을 제공할 수 있는지에 달려 있습니다. 따라서 기업은 파편화된 인프라를 통합하고 데이터를 능동적으로 활성화할 수 있는 연결된 데이터 생태계를 구축해야 합니다.",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sirish Chandrasekaran"
+      ],
+      "title": [
+        "VP, Product Management, Data Analytics"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-23T16:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai/",
+    "title": "The Blueprint: How Voicify makes AI-enabled ordering a delight for customers",
+    "summary": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to",
+    "aiSummary": "Voicify는 레스토랑 및 헬스케어 분야의 전화 응대 문제를 해결하기 위해 Google Cloud의 기술을 도입하여 AI 기반 음성 지원 플랫폼을 고도화하고 있습니다. 초기 서비스 당시에는 높은 통화량 처리, 거래의 정확성, 응답 지연 시간, 보안 및 규정 준수라는 4가지 핵심 과제에 직면했으나, 이를 해결하기 위해 최적화된 아키텍처를 구축했습니다.\n\n핵심 솔루션으로 Gemini Enterprise Agent Platform 내의 Gemini Flash 모델을 활용하여 응답 속도를 개선하고, 이전 모델 대비 비용을 25퍼센트에서 30퍼센트까지 절감하는 성과를 거두었습니다. 특히 기존 Google AI Studio에서 Vertex AI로 전환함으로써 트래픽 급증 상황에서도 중단 없는 서비스를 제공하는 엔터프라이즈급 안정성을 확보했습니다.\n\n기술적인 세부 전략으로 복잡한 메뉴를 단일 프롬프트에 모두 담지 않고 대화 과정에서 필요한 정보를 점진적으로 수집하는 방식을 채택하여 처리 속도를 높였습니다. 또한 다중 클라우드 환경을 지원하고 HIPAA, SOC2, ISO27001 등 엄격한 보안 표준을 준수하는 아키텍처를 통해 데이터 무결성을 보장합니다.\n\n이러한 기술적 개선을 통해 레스토랑의 서비스 준비 기간을 기존 1~2주에서 1~2일로 획기적으로 단축했습니다. 향후 Voicify는 단순 주문 접수를 넘어 고객의 과거 주문 데이터와 상황을 파악하여 선제적으로 주문을 제안하는 능동적인 AI 비서로 진화하는 것을 목표로 합니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Nick Laidlaw"
+      ],
+      "title": [
+        "CTO & co-founder, Voicify"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-23T16:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-founders-summit-2026",
+    "title": "Laravel Announces the Founders Summit, a One-Day Event for Founders",
+    "summary": "Laravel is gauging interest in the Founders Summit, a one-day gathering in November 2026 for founders and leaders running businesses built on Laravel.\nThe post Laravel Announces the Founders Summit, a",
+    "aiSummary": "Laravel은 2026년 11월에 개최 예정인 Founders Summit에 대한 참여 의사를 조사하고 있습니다. 해당 행사는 Laravel을 기반으로 비즈니스를 운영하는 창업자와 리더들을 대상으로 하는 일일 행사입니다. 현재 Laravel 생태계 내 주요 이해관계자들의 관심을 파악하여 행사를 준비하고자 합니다.",
+    "url": "https://laravel-news.com/laravel-founders-summit-2026?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-07-23T15:07:03.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud",
+    "title": "Observability for every Supabase project with Grafana Cloud",
+    "summary": "Connect your Supabase project to Grafana Cloud in one click. A pre-built dashboard, alerting, and metrics: available on every plan, including free.",
+    "aiSummary": "Supabase 프로젝트를 Grafana Cloud에 클릭 한 번으로 간편하게 연결할 수 있는 기능이 제공됩니다.\n\n이번 업데이트를 통해 모든 Supabase 프로젝트는 플랜 종류와 관계없이 무료 버전을 포함하여 사전 구축된 대시보드와 알림 설정, 그리고 메트릭 모니터링 기능을 사용할 수 있습니다. 이를 통해 사용자는 자신의 프로젝트 상태를 더욱 효율적으로 관측하고 관리할 수 있게 됩니다.",
+    "url": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-07-23T07:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
     "title": "Django 6.1 release candidate 1 released",
     "summary": "Django 6.1 release candidate 1 is now available. It represents\nthe final opportunity for you to try out the version that\noffers a harmonious mélange of new features and usability improvements,\nbefore ",
@@ -17090,6 +17187,54 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/production-data-pre-production-environments-logstash",
+    "title": "Safely sample production data into pre-production environments with Logstash",
+    "summary": "Learn how to use Logstash to safely route a subset of production data to pre-production clusters by using efficient sampling techniques and by leveraging the UDP protocol’s fire-and-forget functionali",
+    "aiSummary": "Logstash를 활용하여 프로덕션 환경의 데이터를 사전 프로덕션 클러스터로 안전하게 전달하는 방법입니다. 데이터 샘플링 기술을 통해 프로덕션 데이터의 일부만을 효율적으로 추출하는 과정을 다룹니다.\n\n데이터 전송 시 UDP 프로토콜이 가진 fire-and-forget 특성을 활용하여 운영 시스템에 미치는 영향을 최소화합니다. 이러한 방식을 통해 프로덕션 환경의 실제 부하를 사전 프로덕션 환경에서 안전하게 테스트하고 검증할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/production-data-pre-production-environments-logstash",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Alexander Marquardt",
+    "pubDate": "2024-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-google-cloud",
+    "title": "Encryption at rest in Elastic Cloud: Bring your own key with Google Cloud",
+    "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using Google Cloud Key Management Service.",
+    "aiSummary": "Elastic Cloud 환경에서 Google Cloud Key Management Service를 활용하여 저장 데이터 암호화를 구현하는 단계별 절차를 안내합니다.\n\n사용자는 Bring Your Own Key 방식을 통해 자체 암호화 키를 직접 관리함으로써 데이터 보안을 강화할 수 있습니다. 해당 설정 과정을 따르면 Elastic Cloud 인프라 내 저장 데이터에 대한 보안 수준을 높이고 클라우드 환경에서의 데이터 보호 정책을 보다 효과적으로 준수할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-google-cloud",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jonathan Simon,Alex Chalkias",
+    "pubDate": "2024-09-25T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/user-account-security-mfa",
+    "title": "Secure your Elastic Cloud account with multifactor authentication (MFA)",
+    "summary": "Elastic Cloud now supports enhanced multifactor authentication (MFA) to protect user accounts and data. Learn about the importance of MFA for your organization and how to implement your MFA setup.",
+    "aiSummary": "Elastic Cloud는 사용자 계정과 데이터 보안을 강화하기 위해 다중 인증인 MFA 기능을 새롭게 지원합니다. 이번 업데이트를 통해 조직은 보안 수준을 한층 높일 수 있으며, 사용자는 제공된 가이드를 참고하여 직접 MFA 설정을 구성할 수 있습니다. 기업은 이를 도입함으로써 외부 위협으로부터 클라우드 환경을 더욱 안전하게 보호할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/user-account-security-mfa",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Alex Chalkias",
+    "pubDate": "2024-09-19T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://devblogs.microsoft.com/dotnet/?p=53452",
     "title": "Enhance Your Cloud Development Skills at ‘Azure Developers – Aspire Day 2024’",
     "summary": "Join us at the Azure Developers - Aspire Day 2024, a virtual event happening on September 18, 2024\nThe post Enhance Your Cloud Development Skills at ‘Azure Developers – Aspire Day 2024’ appeared first",
@@ -17123,6 +17268,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/elastic-cloud-azure-key-vault",
+    "title": "Encryption at rest in Elastic Cloud: Bring your own key with Azure Key Vault",
+    "summary": "Follow this step-by-step process to implement encryption at rest with Azure Key Vault keys and Elastic Cloud deployments to create a secure and compliant environment for your sensitive data.",
+    "aiSummary": "Elastic Cloud 환경에서 Azure Key Vault를 활용하여 저장 데이터에 대한 암호화인 Encryption at rest를 구현하는 방법이 공개되었습니다.\n\n사용자는 Bring your own key 방식을 통해 직접 관리하는 암호화 키를 Elastic Cloud 배포에 적용할 수 있습니다. 이를 통해 민감한 데이터를 더욱 안전하게 보호하고 규제 준수 요건을 충족하는 보안 환경을 구축할 수 있습니다. \n\n제시된 단계별 절차를 따르면 조직의 데이터 보안 수준을 높이고 Elastic Cloud 내에서 보다 신뢰성 있는 데이터 관리 체계를 확보할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-cloud-azure-key-vault",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Alex Chalkias,Greg Crist,Gheorghe Pucea",
+    "pubDate": "2024-08-20T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.sublimetext.com/blog/articles/sublime-text-4180",
     "title": "Sublime Text 4 Build 4180",
     "summary": "August 12, 2024\n\tby\n\t\n\tAll Posts\n\n\n\n\t\n\nSublime Text 4, build 4180 is out now with lots of improvements and fixes.\n\nDownload Sublime Text 4\n\nFull Changelog\n\n\nVarious syntax highlighting improvements\nNe",
@@ -17136,6 +17297,22 @@
     "tags": [
       "Sublime Text",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-aws-kms",
+    "title": "Encryption at rest in Elastic Cloud: Bring your own key with AWS KMS",
+    "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using AWS Key Management Service (KMS).",
+    "aiSummary": "Elastic Cloud 환경에서 저장 데이터의 보안을 강화하기 위해 AWS KMS를 활용한 데이터 암호화 설정 방법을 안내합니다.\n\n사용자는 Elastic Cloud 배포 과정에서 AWS KMS를 통해 직접 관리하는 키를 사용하여 저장 데이터 암호화를 구성할 수 있습니다. 이를 통해 클라우드 데이터 관리의 보안성과 제어권을 높일 수 있으며, AWS 환경 내에서 암호화 키를 체계적으로 관리하는 것이 가능합니다.\n\n해당 기능을 적용하기 위해서는 Elastic Cloud 콘솔의 보안 설정 단계에서 AWS KMS 정보를 연동해야 합니다. 이후 제공되는 단계별 가이드를 따라 정책을 설정하고 키를 적용하면 저장되는 모든 데이터가 지정된 키로 암호화됩니다. 이는 데이터 보호 규정을 준수하고 인프라 전반의 보안 수준을 한층 더 높이는 효과적인 방법입니다.",
+    "url": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-aws-kms",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jonathan Simon,Alex Chalkias,Udayasimha Theepireddy (Uday)",
+    "pubDate": "2024-08-01T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
