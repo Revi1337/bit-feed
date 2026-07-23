@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
+    "title": "Django 6.1 release candidate 1 released",
+    "summary": "Django 6.1 release candidate 1 is now available. It represents\nthe final opportunity for you to try out the version that\noffers a harmonious mélange of new features and usability improvements,\nbefore ",
+    "aiSummary": "Django 6.1의 첫 번째 출시 후보 버전인 Release Candidate 1이 공개되었습니다. 이번 버전은 정식 출시 전 새로운 기능과 사용성 개선 사항을 미리 확인해 볼 수 있는 마지막 기회입니다.\n\n현재 문자열 동결 단계에 진입함에 따라 번역가들의 참여를 요청하고 있으며 향후 2주 동안 치명적인 결함이 발견되지 않을 경우 8월 5일경 정식 버전이 출시될 예정입니다. 만약 일정 변경이 발생하면 Django 포럼을 통해 공지될 것입니다.\n\n사용자들은 Django 공식 다운로드 페이지나 PyPI를 통해 패키지를 내려받아 테스트에 참여할 수 있습니다. 발견된 버그는 Django 이슈 트래커에 보고해 주시기 바라며 이번 릴리스에 사용된 PGP 키 ID는 Jacob Walls 131403F4D16D8DC7입니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jacob Walls",
+    "pubDate": "2026-07-22T20:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_131",
+    "title": "Visual Studio Code 1.131 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.131 Insiders 버전이 공개되었습니다. 이번 업데이트는 안정성과 성능 향상에 초점을 맞추고 있으며 개발자가 더욱 효율적으로 코드를 작성할 수 있도록 돕는 다양한 기능 개선이 포함되어 있습니다. 자세한 변경 사항과 새롭게 추가된 기능은 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_131",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-07-22T17:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-21-new-copilot-usage-metrics-impact-dashboard",
     "title": "New Copilot usage metrics impact dashboard",
     "summary": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is…\nThe",
@@ -239,6 +271,40 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeEconomic ResearchA research agenda for the Economic Futures Research FundJul 22, 2026We’re sharing the research agenda for the Anthropic Economic Futures Re",
+    "aiSummary": "Anthropic이 AI가 경제에 미칠 영향을 대비하고 사회적 회복탄력성을 높이기 위해 2억 달러 규모의 Economic Futures Research Fund를 조성합니다. 이번 기금은 AI 도입으로 인한 경제적 변화 속에서 근로자와 기업, 정부가 효과적으로 대응할 수 있도록 정책적 대안과 실증적 근거를 마련하는 데 목적이 있습니다.\n\n기존의 Economic Futures 프로그램을 확장한 이번 계획은 단순히 소규모 연구를 지원하는 것을 넘어 대규모 무작위 통제 실험과 창의적이고 야심 찬 파일럿 프로젝트에 집중할 예정입니다. Anthropic은 AI가 경제 전반에 확산되는 속도가 매우 빠를 것으로 예상됨에 따라 기존 연구 방식보다 더 실질적이고 혁신적인 해결책을 빠르게 도출하고자 합니다.\n\n이를 위해 Anthropic은 효과적인 소규모 파일럿 프로그램을 운영할 수 있는 파트너와 협력하는 한편 외부 연구 기관들이 연구 결과를 공개적으로 공유하여 사회 전반의 대응 역량을 높이도록 장려할 방침입니다. 경제 전반의 유연성을 확보하고 AI 혜택을 폭넓게 공유하기 위한 혁신적인 제안이라면 형식에 구애받지 않고 적극적으로 지원할 계획입니다.",
+    "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/router",
+    "title": "Cursor Router",
+    "summary": "Jul 22, 2026 · ChangelogCursor RouterAuto mode is now powered by Cursor Router.\nCursor Router is our intelligent model router. It analyzes each request and sends it to the right model for the job. Fro",
+    "aiSummary": "Cursor는 사용자의 요청을 분석하여 적합한 모델로 연결해 주는 지능형 모델 라우터인 Cursor Router를 Auto 모드에 도입했습니다. 이 기능은 작업의 복잡도와 성격에 따라 최적의 모델을 자동으로 선택하며, 이를 통해 효율적인 리소스 배분을 지원합니다.\n\n사용자는 세 가지 최적화 모드 중 하나를 선택할 수 있습니다. 가장 강력한 성능을 제공하는 Intelligence 모드, 일상적인 업무에 적합한 성능과 효율의 조화를 추구하는 Balance 모드, 그리고 토큰 비용을 최소화하면서도 우수한 품질을 유지하는 Cost 모드로 구성됩니다. Balance와 Intelligence 모드는 라우팅된 모델의 요금 정책을 따릅니다.\n\n관리자 기능도 강화되었습니다. 관리자는 팀이나 그룹별로 라우터 활성화 여부를 결정하고, 사용 가능한 최적화 모드를 제한하거나 기본값을 설정할 수 있습니다. 또한 특정 모델을 허용하거나 차단하는 리스트 관리도 가능하며, 데스크톱, 웹, iOS, CLI, SDK 등 모든 플랫폼에서 사용할 수 있습니다.\n\n이번 업데이트를 통해 요청별 작업 유형과 복잡도를 기반으로 한 정밀한 분류가 가능해졌습니다. 표준화를 위한 강제 적용 옵션이 제공되며, 비용 효율적인 라우팅 옵션을 위해 Grok 4.5 모델이 추가되었습니다. 해당 기능은 Teams 플랜에 기본으로 적용되며 Enterprise 고객은 대시보드에서 직접 활성화할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/router",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1776,163 +1842,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_130",
-    "title": "Visual Studio Code 1.130 (Insiders)",
-    "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.130 Insiders 버전이 새롭게 공개되었습니다. 이번 업데이트는 사용자 경험을 개선하고 개발 효율성을 높이기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 상세한 변경 사항과 새롭게 추가된 기능은 공식 웹사이트의 전체 게시글을 통해 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_130",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-07-16T00:14:35.688Z",
-    "fetchedAt": "2026-07-16T00:14:35.688Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/07/16/the-java-documentary/",
-    "title": "The Java Story | The Official Documentary",
-    "summary": "From its humble beginnings as a project code-named \"Oak\" at Sun Microsystems to becoming a global standard for enterprise software and billions of devices, Java's journey is one of radical innovation,",
-    "aiSummary": "Sun Microsystems 시절 Oak라는 코드명으로 시작된 Java는 이후 기업용 소프트웨어와 수십억 개의 기기를 연결하는 세계적인 표준 언어로 성장하였습니다. 이 과정은 급진적인 기술 혁신과 전략적인 변화, 그리고 견고한 커뮤니티의 지지를 바탕으로 이루어졌습니다. 결과적으로 Java는 오늘날 IT 생태계의 핵심 기반이자 지속 가능한 플랫폼으로서 그 역사를 이어오고 있습니다.",
-    "url": "https://inside.java/2026/07/16/the-java-documentary/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Inside Java",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-18T09:04:00.708Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/axonius-integration",
-    "title": "Elastic and Axonius integrate to deliver unified asset intelligence for security teams",
-    "summary": "The Axonius integration brings normalized asset context into Elastic, so analysts can search, correlate, and investigate Axonius data alongside endpoint alerts, network telemetry, identity events, and",
-    "aiSummary": "Elastic과 Axonius가 협력하여 보안 팀을 위한 통합 자산 인텔리전스 솔루션을 제공합니다.\n\n이번 통합을 통해 Axonius의 정규화된 자산 정보가 Elastic 환경 내에서 활용 가능해집니다. 보안 분석가들은 이제 Elastic Security가 수집하는 엔드포인트 경고, 네트워크 원격 측정 데이터, 신원 이벤트 등과 함께 Axonius의 자산 데이터를 결합하여 더욱 심도 있는 검색과 상관관계 분석을 수행할 수 있습니다. 이를 통해 보안 위협 조사 과정에서 자산 가시성을 확보하고 대응 효율성을 높일 수 있습니다.",
-    "url": "https://www.elastic.co/blog/axonius-integration",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Chaison Griffin",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-17T00:16:29.080Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "antigravity-engine-2.3.1",
-    "title": "Antigravity 2.3.1: Startup stability fix",
-    "summary": "Fixes a bug where an empty or malformed configuration file caused AGY to fail to load on startup.\n\nImprovements:\nFixes:\nPatches:\n- Fixed a bug where an empty or malformed `config.json` configuration f",
-    "aiSummary": "Antigravity 2.3.1 버전 업데이트를 통해 시작 단계에서 발생하는 안정성 문제가 해결되었습니다.\n\n이번 업데이트의 핵심은 AGY 실행 시 설정 파일인 config.json이 비어 있거나 형식이 올바르지 않을 경우 프로그램이 정상적으로 로드되지 않던 버그를 수정한 것입니다. 해당 설정 파일은 ~/.gemini/config/ 경로에 위치하며 이번 패치를 통해 잘못된 파일 형식으로 인해 발생하는 구동 오류가 개선되었습니다.",
-    "url": "https://antigravity.google/changelog",
-    "category": "인공지능",
-    "source": "Antigravity Changelog",
-    "author": "Google",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-17T00:16:29.080Z",
-    "tags": [
-      "Antigravity",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
-    "title": "Announcing Rust 1.97.1",
-    "summary": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of ",
-    "aiSummary": "Rust 팀이 프로그래밍 언어 Rust의 새로운 포인트 릴리스인 1.97.1 버전을 발표했습니다. 기존에 rustup을 통해 Rust를 설치한 사용자라면 rustup update stable 명령어를 사용하여 간편하게 업데이트할 수 있습니다.\n\n이번 업데이트는 LLVM 최적화 과정에서 발생하던 컴파일 오류를 수정하는 데 초점을 맞췄습니다. Rust 1.97.0에서 도입된 IR 변경으로 인해 해당 오류가 발생할 가능성이 높아짐에 따라, 이를 방지하기 위한 수정 사항이 반영되었습니다. 해당 오류는 최소 Rust 1.87 버전부터 존재했던 문제로 파악되었습니다.\n\n안정적인 소프트웨어 개발 환경을 위해 Rust 팀은 사용자들이 rustup을 통해 릴리스를 최신 상태로 유지할 것을 권장합니다. 또한 향후 출시될 버전을 미리 테스트하고 버그를 제보하는 방식으로 프로젝트 기여에 참여할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rust Release Team",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/07/16/identify-jdk-value-classes-candidates/",
-    "title": "Identifying JDK Value Class Candidates",
-    "summary": "As long as value classes are a preview feature, they can’t generally be adopted in the JDK libraries (which are not compiled with `--enable-preview`). However, we felt it was important for this JEP to",
-    "aiSummary": "Value class 기능이 프리뷰 단계에 머물러 있는 동안에는 이를 정식 JDK 라이브러리에 적용하는 것에 한계가 있습니다. 그러나 JEP 측은 개발자들에게 즉각적으로 활용 가능한 일종의 스타터 키트를 제공하고 추후 발생할 마이그레이션 과제를 완화하고자 하는 목적으로 일부 후보 클래스를 선정했습니다. 이에 따라 프리뷰 기능을 활성화할 경우 JDK 내 특정 클래스들을 value class로 간주하여 테스트할 수 있도록 지원할 예정입니다.",
-    "url": "https://inside.java/2026/07/16/identify-jdk-value-classes-candidates/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Dan Smith",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://astro.build/blog/astro-710/",
-    "title": "Astro 7.1",
-    "summary": "Astro 7.1 is about more control: CSP, pagination, dev server, and content collections.",
-    "aiSummary": "Astro 7.1 버전이 새롭게 출시되었습니다. 이번 업데이트는 개발자에게 더욱 세밀한 제어 권한을 제공하는 데 중점을 두었습니다. 주요 개선 사항으로는 보안을 강화하기 위한 CSP 설정 기능과 데이터 처리 효율을 높이는 페이징 기능이 포함되었습니다. 또한 개발 서버의 안정성이 향상되었으며 콘텐츠 컬렉션 기능이 개선되어 더욱 유연한 웹 개발 환경을 지원합니다.",
-    "url": "https://astro.build/blog/astro-710/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/postgresql-19-beta-2-released-3350/",
-    "title": "PostgreSQL 19 Beta 2 Released!\n",
-    "summary": "The PostgreSQL Global Development Group announces that the second beta release of\nPostgreSQL 19 is now available for download.\nThis release contains PostgreSQL 19 feature previews ahead of general\nava",
-    "aiSummary": "PostgreSQL Global Development Group이 PostgreSQL 19의 두 번째 베타 버전인 PostgreSQL 19 Beta 2를 발표했습니다. 이번 릴리스는 정식 출시를 앞두고 새로운 기능을 미리 확인하고 테스트할 수 있도록 공개된 버전이며, 베타 기간 동안 세부 사항은 변경될 수 있습니다.\n\n이번 Beta 2에서는 베타 1 이후 발견된 여러 가지 문제들이 해결되었습니다. 파티션 테이블 대상의 vacuumdb 분석 오류 수정, 가상 생성 컬럼의 튜플 변형 최적화, pg_createsubscriber 관련 중복 발행 명칭 허용, 그리고 REPACK 워커의 비정상 종료 처리 등이 개선되었습니다. 또한 FOR PORTION OF 구문과 SQL/PGQ 속성 그래프 기능 등 주요 신규 기능에 대한 버그 수정과 안정성 강화가 포함되었습니다.\n\nPostgreSQL 측은 커뮤니티 사용자들에게 운영 환경이 아닌 테스트 환경에서 실제 워크로드를 수행해 볼 것을 강력히 권장하고 있습니다. 사용자들의 적극적인 피드백과 버그 제보는 안정적인 최종 버전을 완성하는 데 중요한 역할을 합니다. 업그레이드는 pg_upgrade나 pg_dump 및 pg_restore와 같은 메이저 버전 간 업그레이드 방식을 따라야 합니다.\n\n향후 PostgreSQL 19는 추가적인 베타와 릴리스 후보 단계를 거쳐 2026년 9월에서 10월 사이에 최종 정식 버전으로 출시될 예정입니다. 상세한 변경 사항과 오픈 이슈, 버그 리포트 양식은 공식 웹사이트를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/postgresql-19-beta-2-released-3350/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/aws-ai-security-distinction",
-    "title": "Elastic achieves the AWS AI Security Distinction, securing AI-specific risks",
-    "summary": "Elastic has achieved the AWS AI Security Distinction, awarded to partners with tech depth and real customer outcomes in AI and security. Elastic Security includes an AI agent, Elastic Workflows, LLM s",
-    "aiSummary": "Elastic이 AWS AI Security Distinction을 획득하였습니다. 이는 AI와 보안 분야에서 깊이 있는 기술력과 실제 고객 성과를 증명한 파트너에게 부여되는 인증입니다. Elastic Security는 현재 AI 에이전트, Elastic Workflows, LLM 보안 탐지 기능 및 에이전트 기반의 SOC 역량 등을 통합하여 제공하고 있습니다. 이번 인증을 통해 Elastic은 인공지능 관련 보안 위험을 효과적으로 관리하고 방어하는 솔루션으로서의 입지를 더욱 강화하게 되었습니다.",
-    "url": "https://www.elastic.co/blog/aws-ai-security-distinction",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Uday Theepireddy,Brian Bergholm,Jennifer Michel",
-    "pubDate": "2026-07-16T00:00:00.000Z",
-    "fetchedAt": "2026-07-16T16:46:43.492Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-    "title": "Improvements to secret scanning and public monitoring",
-    "summary": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub…\nT",
-    "aiSummary": "GitHub가 자사의 secret scanning 및 public monitoring 기능에 대한 개선 사항을 발표했습니다.\n\n우선 Resend가 새롭게 GitHub secret scanning 파트너로 합류하여 보안 범위를 확대했습니다. 또한 APIclub에서 제공하는 새로운 유형의 secret을 탐지할 수 있도록 기능을 강화하여 사용자의 보안 환경을 더욱 견고하게 보완했습니다.",
-    "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-15T22:38:16.000Z",
-    "fetchedAt": "2026-07-16T00:14:35.688Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

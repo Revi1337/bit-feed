@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
+    "title": "Django 6.1 release candidate 1 released",
+    "summary": "Django 6.1 release candidate 1 is now available. It represents\nthe final opportunity for you to try out the version that\noffers a harmonious mélange of new features and usability improvements,\nbefore ",
+    "aiSummary": "Django 6.1의 첫 번째 출시 후보 버전인 Release Candidate 1이 공개되었습니다. 이번 버전은 정식 출시 전 새로운 기능과 사용성 개선 사항을 미리 확인해 볼 수 있는 마지막 기회입니다.\n\n현재 문자열 동결 단계에 진입함에 따라 번역가들의 참여를 요청하고 있으며 향후 2주 동안 치명적인 결함이 발견되지 않을 경우 8월 5일경 정식 버전이 출시될 예정입니다. 만약 일정 변경이 발생하면 Django 포럼을 통해 공지될 것입니다.\n\n사용자들은 Django 공식 다운로드 페이지나 PyPI를 통해 패키지를 내려받아 테스트에 참여할 수 있습니다. 발견된 버그는 Django 이슈 트래커에 보고해 주시기 바라며 이번 릴리스에 사용된 PGP 키 ID는 Jacob Walls 131403F4D16D8DC7입니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jacob Walls",
+    "pubDate": "2026-07-22T20:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_131",
+    "title": "Visual Studio Code 1.131 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.131 Insiders 버전이 공개되었습니다. 이번 업데이트는 안정성과 성능 향상에 초점을 맞추고 있으며 개발자가 더욱 효율적으로 코드를 작성할 수 있도록 돕는 다양한 기능 개선이 포함되어 있습니다. 자세한 변경 사항과 새롭게 추가된 기능은 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_131",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-07-22T17:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-21-new-copilot-usage-metrics-impact-dashboard",
     "title": "New Copilot usage metrics impact dashboard",
     "summary": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is…\nThe",
@@ -239,6 +271,40 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeEconomic ResearchA research agenda for the Economic Futures Research FundJul 22, 2026We’re sharing the research agenda for the Anthropic Economic Futures Re",
+    "aiSummary": "Anthropic이 AI가 경제에 미칠 영향을 대비하고 사회적 회복탄력성을 높이기 위해 2억 달러 규모의 Economic Futures Research Fund를 조성합니다. 이번 기금은 AI 도입으로 인한 경제적 변화 속에서 근로자와 기업, 정부가 효과적으로 대응할 수 있도록 정책적 대안과 실증적 근거를 마련하는 데 목적이 있습니다.\n\n기존의 Economic Futures 프로그램을 확장한 이번 계획은 단순히 소규모 연구를 지원하는 것을 넘어 대규모 무작위 통제 실험과 창의적이고 야심 찬 파일럿 프로젝트에 집중할 예정입니다. Anthropic은 AI가 경제 전반에 확산되는 속도가 매우 빠를 것으로 예상됨에 따라 기존 연구 방식보다 더 실질적이고 혁신적인 해결책을 빠르게 도출하고자 합니다.\n\n이를 위해 Anthropic은 효과적인 소규모 파일럿 프로그램을 운영할 수 있는 파트너와 협력하는 한편 외부 연구 기관들이 연구 결과를 공개적으로 공유하여 사회 전반의 대응 역량을 높이도록 장려할 방침입니다. 경제 전반의 유연성을 확보하고 AI 혜택을 폭넓게 공유하기 위한 혁신적인 제안이라면 형식에 구애받지 않고 적극적으로 지원할 계획입니다.",
+    "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/router",
+    "title": "Cursor Router",
+    "summary": "Jul 22, 2026 · ChangelogCursor RouterAuto mode is now powered by Cursor Router.\nCursor Router is our intelligent model router. It analyzes each request and sends it to the right model for the job. Fro",
+    "aiSummary": "Cursor는 사용자의 요청을 분석하여 적합한 모델로 연결해 주는 지능형 모델 라우터인 Cursor Router를 Auto 모드에 도입했습니다. 이 기능은 작업의 복잡도와 성격에 따라 최적의 모델을 자동으로 선택하며, 이를 통해 효율적인 리소스 배분을 지원합니다.\n\n사용자는 세 가지 최적화 모드 중 하나를 선택할 수 있습니다. 가장 강력한 성능을 제공하는 Intelligence 모드, 일상적인 업무에 적합한 성능과 효율의 조화를 추구하는 Balance 모드, 그리고 토큰 비용을 최소화하면서도 우수한 품질을 유지하는 Cost 모드로 구성됩니다. Balance와 Intelligence 모드는 라우팅된 모델의 요금 정책을 따릅니다.\n\n관리자 기능도 강화되었습니다. 관리자는 팀이나 그룹별로 라우터 활성화 여부를 결정하고, 사용 가능한 최적화 모드를 제한하거나 기본값을 설정할 수 있습니다. 또한 특정 모델을 허용하거나 차단하는 리스트 관리도 가능하며, 데스크톱, 웹, iOS, CLI, SDK 등 모든 플랫폼에서 사용할 수 있습니다.\n\n이번 업데이트를 통해 요청별 작업 유형과 복잡도를 기반으로 한 정밀한 분류가 가능해졌습니다. 표준화를 위한 강제 적용 옵션이 제공되며, 비용 효율적인 라우팅 옵션을 위해 Grok 4.5 모델이 추가되었습니다. 해당 기능은 Teams 플랜에 기본으로 적용되며 Enterprise 고객은 대시보드에서 직접 활성화할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/router",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "fetchedAt": "2026-07-23T00:57:24.913Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
