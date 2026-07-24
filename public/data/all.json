@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=mps&p=725814",
+    "title": "New Bug-Fix Releases Are Available for MPS – 2025.3.1, 2025.2.3, and 2025.1.3",
+    "summary": "We’ve released updates for multiple major MPS versions that fix several additional issues. DOWNLOAD MPS What’s new Among the shared updates, two fixes backported from 2026.1 are worth highlighting: MP",
+    "aiSummary": "JetBrains가 MPS의 주요 버전인 2025.3.1, 2025.2.3, 2025.1.3에 대한 버그 수정 업데이트를 발표했습니다.\n\n이번 업데이트에는 2026.1 버전에서 백포트된 주요 개선 사항들이 포함되어 있습니다. 특히 inspector의 모든 에디터 셀에 read-only 속성을 적용하는 새로운 read-only-inspector 스타일이 추가되어 관련 작업을 더욱 정밀하게 제어할 수 있게 되었습니다.\n\n사용자들은 공식 웹사이트를 통해 최신 버전의 MPS를 다운로드하여 업데이트할 수 있습니다. 이번 배포는 기존 버전에서 발견된 다수의 이슈를 해결하여 시스템의 안정성을 높이는 데 중점을 두고 있습니다.",
+    "url": "https://blog.jetbrains.com/mps/2026/07/new_bugfix_releases_mps-2025-3-1/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vaclav Pech",
+    "pubDate": "2026-07-24T07:56:56.000Z",
+    "fetchedAt": "2026-07-24T09:39:49.045Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.6",
+    "title": "1.1.6",
+    "summary": "Custom Agents (Markdown Format). Added support for defining custom agents using Markdown files (agent.md) with YAML frontmatter and H1-delimited system prompts. Markdown agents support mainAgent, suba",
+    "aiSummary": "이번 1.1.6 업데이트에서는 Markdown 파일을 이용한 Custom Agents 정의 기능이 추가되었습니다. 이제 agent.md 파일을 통해 YAML frontmatter와 H1으로 구분된 시스템 프롬프트를 설정할 수 있으며, mainAgent나 subagent 등의 속성을 통해 에이전트 동작을 정밀하게 제어할 수 있습니다. 또한 동적으로 정의된 subagent 역시 Markdown 형식으로 기록되어 외부 빌드 환경에서도 정상적으로 동작합니다.\n\n기능 개선 측면에서는 /copy 명령어에 index 인자가 추가되어 특정 순번의 응답을 클립보드로 복사할 수 있게 되었고, /codesearch는 스트리밍 방식으로 결과를 실시간 출력하며 Esc 키를 통한 검색 취소가 가능해졌습니다. 시스템 임시 디렉토리에 대한 기본 읽기 권한이 부여되어 불필요한 권한 확인 절차가 생략되었으며, 플러그인 기능 검색 시 skills.json과 skills/ 디렉토리를 통합하여 사용자 편의성을 높였습니다. 또한 규칙과 경로를 정렬하여 프롬프트 캐시 효율을 개선했습니다.\n\n안정성 및 오류 수정 사항으로는 커스텀 에이전트와 기본 에이전트 간 전환 실패 문제, 샌드박스 권한 관련 충돌, 사이드카 파일의 JSON 형식 변형 문제를 해결했습니다. 터미널 그래픽 출력 시 발생하는 오류나 스트리밍 중 대화창 떨림 현상을 개선했으며, 자동 업데이트 과정의 중복 실행 방지와 인증 페이지 이후 화면 공백 현상 등을 수정하여 전체적인 CLI 사용 환경을 최적화했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.6",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-07-24T03:02:18.000Z",
+    "fetchedAt": "2026-07-24T09:39:49.045Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
     "title": "Copilot cloud agent for Linear is now generally available",
     "summary": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nThe post Copi",
@@ -17573,6 +17606,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/elastic-ai-assistant-amazon-bedrock-security-analysts",
+    "title": "How Elastic AI Assistant for Security and Amazon Bedrock can empower security analysts for enhanced performance",
+    "summary": "The Elastic AI Assistant for Security coupled with Anthropic’s Claude model via Amazon Bedrock can elevate a security team’s posture and eliminate mundane tasks.",
+    "aiSummary": "Elastic AI Assistant for Security와 Amazon Bedrock을 통해 제공되는 Anthropic의 Claude 모델을 연동하면 보안 팀의 전반적인 대응 능력을 강화할 수 있습니다. \n\n이 기술적 결합은 보안 분석가가 반복적이고 단순한 업무에서 벗어나 더욱 효율적으로 보안 위협을 관리하고 분석할 수 있도록 돕습니다. 결과적으로 보안 조직은 운영 부담을 줄이고 더욱 고도화된 보안 태세를 유지할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-ai-assistant-amazon-bedrock-security-analysts",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Udayasimha Theepireddy (Uday),James Spiteri,Ayan Ray",
+    "pubDate": "2024-01-25T08:00:00.000Z",
+    "fetchedAt": "2026-07-24T09:39:49.045Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://blog.vuejs.org/posts/vue-3-4",
     "title": "Announcing Vue 3.4",
     "summary": "Today we're excited to announce the release of Vue 3.4 \"🏀 Slam Dunk\"!\nThis release includes some substantial internal improvements - most notably a rewritten template parser that is 2x faster, and a ",
@@ -17637,6 +17686,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/generative-ai-using-elastic-amazon-sagemaker-jumpstart",
+    "title": "Generative AI using Elastic and Amazon SageMaker JumpStart",
+    "summary": "Learn how to build a GAI solution by exploring Amazon SageMaker JumpStart, Elastic, and Hugging Face open source LLMs using the sample implementation provided in this post and a data set relevant to y",
+    "aiSummary": "Amazon SageMaker JumpStart와 Elastic, 그리고 Hugging Face의 오픈 소스 LLM을 결합하여 생성형 AI 솔루션을 구축하는 방법을 소개합니다.\n\n제시된 예제 구현과 비즈니스 관련 데이터 세트를 활용하면 효율적으로 시스템을 개발할 수 있습니다. 이를 통해 기업은 특정 도메인에 최적화된 맞춤형 생성형 AI 서비스를 손쉽게 구축하고 운영할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/generative-ai-using-elastic-amazon-sagemaker-jumpstart",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Udayasimha Theepireddy (Uday),Ayan Ray",
+    "pubDate": "2023-07-25T00:00:00.000Z",
+    "fetchedAt": "2026-07-24T09:39:49.045Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://blog.vuejs.org/posts/vue-3-3",
     "title": "Announcing Vue 3.3",
     "summary": "Today we're excited to announce the release of Vue 3.3 \"Rurouni Kenshin\"!\nThis release is focused on developer experience improvements - in particular, SFC  usage with TypeScript. Together with the 1.",
@@ -17667,6 +17732,22 @@
     "tags": [
       "Flask",
       "Python"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/cluster-health-diagnosis-elasticsearch-health-api",
+    "title": "In search of a cluster health diagnosis: Introducing the Elasticsearch Health API",
+    "summary": "Is my Elasticsearch cluster healthy? How do I repair it? These are difficult questions to answer, but as part of Elasticsearch 8.7, we are releasing a new Health API to help identify and fix problems ",
+    "aiSummary": "Elasticsearch 8.7 버전부터 클러스터의 상태를 진단하고 문제를 해결하는 새로운 Health API가 도입됩니다.\n\n기존에는 Elasticsearch 클러스터의 상태를 점검하거나 오류를 복구하는 과정이 복잡하고 어려웠습니다. 이번에 출시된 Health API는 클러스터 운영자가 직면한 이러한 문제들을 효과적으로 식별하고 적절한 조치를 취할 수 있도록 지원합니다.",
+    "url": "https://www.elastic.co/blog/cluster-health-diagnosis-elasticsearch-health-api",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Andrei Dan",
+    "pubDate": "2023-03-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-24T09:39:49.045Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
