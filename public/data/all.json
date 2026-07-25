@@ -17896,6 +17896,38 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/streamline-kibana-dashboard-navigation-with-the-links-panel",
+    "title": "Streamline Kibana dashboard navigation with the Links panel",
+    "summary": "Find out how to better organize your Kibana dashboards and carry over your filters and queries when navigating between dashboards.",
+    "aiSummary": "Kibana 대시보드 내 Links 패널을 활용하면 대시보드 간의 이동 경로를 더욱 체계적으로 관리할 수 있습니다. 특히 대시보드 사이를 전환할 때 사용자가 설정한 필터와 쿼리 조건을 그대로 유지할 수 있어 작업의 연속성을 확보하는 데 유용합니다. 이를 통해 복잡한 데이터 시각화 환경에서 효율적인 내비게이션을 구축할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/streamline-kibana-dashboard-navigation-with-the-links-panel",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Teresa Alvarez Soler",
+    "pubDate": "2023-11-13T23:00:00.000Z",
+    "fetchedAt": "2026-07-25T16:15:20.775Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-11-0",
+    "title": "Elastic Stack 8.11: Introducing a new powerful query language, ES|QL",
+    "summary": "Elastic Stack 8.11 introduces an advanced query language known as ES|QL in the Discover application, making data exploration more straightforward and user friendly. The Elastic Learned Sparse EncodeR ",
+    "aiSummary": "Elastic Stack 8.11 버전에서 데이터 탐색 과정을 더욱 직관적이고 사용자 친화적으로 개선하기 위한 새로운 강력한 쿼리 언어인 ES|QL이 도입되었습니다. 해당 언어는 Discover 애플리케이션 내에서 활용 가능합니다.\n\n이와 함께 Elastic Learned Sparse EncodeR인 ELSER 모델이 정식 출시되어 누구나 범용적으로 사용할 수 있게 되었습니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-11-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Tyler Perkins,Ninoslav Miskovic,Gilad Gal,Teresa Alvarez Soler,Shani Sagiv,Jason Burns",
+    "pubDate": "2023-11-06T23:00:00.000Z",
+    "fetchedAt": "2026-07-25T16:15:20.775Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.sublimetext.com/blog/articles/sublime-text-4151",
     "title": "Sublime Text 4 Build 4151",
     "summary": "August 2, 2023\n\tby\n\t\n\tAll Posts\n\n\n\n\tFull Changelog\n\n\nVarious syntax highlighting improvements\nAdded \"fold_style\" setting for controlling syntax-based code folding\nLast tab in a group can now be select",
@@ -17909,6 +17941,22 @@
     "tags": [
       "Sublime Text",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-9-0",
+    "title": "Elastic Stack 8.9: Faster cross-cluster searches and aggregations on metrics",
+    "summary": "Elastic Stack 8.9 delivers significant speed-up of aggregations for metrics, faster and more reliable cross-cluster searches, and management of alert rules using Terraform.",
+    "aiSummary": "Elastic Stack 8.9 버전은 메트릭 데이터에 대한 집계 성능을 대폭 향상하고 교차 클러스터 검색의 속도와 안정성을 강화했습니다. 또한 Terraform을 활용하여 경고 규칙을 더욱 효율적으로 관리할 수 있는 기능을 새롭게 도입했습니다. 이번 업데이트를 통해 데이터 분석 처리 속도가 빨라지고 클러스터 간 데이터 활용의 편의성이 크게 개선되었습니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-9-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Tyler Perkins,Gilad Gal,Teresa Alvarez Soler,Shani Sagiv,Bernhard Suhm,George Kobar",
+    "pubDate": "2023-07-25T00:00:00.000Z",
+    "fetchedAt": "2026-07-25T16:15:20.775Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -17987,6 +18035,22 @@
     "author": "Israel Ogbole,Thomas Dullien,Sean Heelan",
     "pubDate": "2023-01-18T23:00:00.000Z",
     "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/the-evolution-of-discover-in-kibana",
+    "title": "The evolution of Discover in Kibana",
+    "summary": "Discover has been around for quite some time in Kibana. But recently, we've added a new document table, field statistics, and the ability to create threshold alert rules.",
+    "aiSummary": "Kibana의 핵심 기능인 Discover가 최근 업데이트를 통해 더욱 강력해졌습니다. 새로운 문서 테이블을 도입하여 데이터 시각화의 편의성을 높였으며, 필드 통계 기능을 추가하여 데이터 분석의 깊이를 더했습니다. 또한 임계값 알림 규칙을 생성하는 기능을 구현하여 사용자가 특정 데이터 변화에 신속하게 대응할 수 있는 환경을 마련했습니다. 이러한 변화는 사용자가 데이터 탐색 과정에서 보다 능동적으로 인사이트를 도출할 수 있도록 지원합니다.",
+    "url": "https://www.elastic.co/blog/the-evolution-of-discover-in-kibana",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Matthias Wilhelm",
+    "pubDate": "2022-10-12T00:00:00.000Z",
+    "fetchedAt": "2026-07-25T16:15:20.775Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
