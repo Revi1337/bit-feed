@@ -1,5 +1,53 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.0",
+    "title": "0.140.0",
+    "summary": "Refactors\n⚡️ Reduce memory usage in dependencies. PR #16049 by @tiangolo.\nDocs\n📝 Fix links in docs. PR #15967 by @YuriiMotov.\n📝 Add Library Skills documentation. PR #16041 by @tiangolo.\n📝 Update do",
+    "aiSummary": "FastAPI 버전 0.140.0 업데이트가 진행되었습니다.\n\n이번 업데이트에서는 의존성 패키지의 메모리 사용량을 최적화하는 리팩토링이 이루어졌습니다.\n\n문서화 부문에서는 문서 내 링크 오류를 수정하고 Library Skills 관련 문서를 새롭게 추가하였습니다. 또한 기본 프로젝트 관리 도구로 uv를 사용하도록 문서 가이드를 변경하였으며, FastAPI People 페이지 및 관련 페이지의 구조를 재편하였습니다.\n\n내부적으로는 CI 프로세스에 메모리 벤치마크 단계를 추가하였습니다. 아울러 FastAPI People 스폰서 명단을 최신화하였고, 데이터 생성에 사용되던 기존의 불필요한 스크립트를 제거하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-24T21:16:20.000Z",
+    "fetchedAt": "2026-07-25T00:57:40.528Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "/blog/announcements/new-api-docs-beta?1784919600000",
+    "title": "Check out the New Node.js API Documentation Preview",
+    "summary": "Guilherme AraújoWe've been rebuilding how Node.js generates and presents its API documentation, and a preview is now live at beta.docs.nodejs.org (https://beta.docs.nodejs.org/). Before it becomes the",
+    "aiSummary": "Node.js 프로젝트 팀이 API 문서 사이트를 전면 개편하고 베타 버전을 공개했습니다. 새로운 문서 사이트는 기존의 콘텐츠를 그대로 유지하면서 내비게이션, 레이아웃, 가독성을 개선하여 사용성을 높였습니다.\n\n이번 업데이트에서는 모든 페이지에서 사용할 수 있는 내장 검색 기능과 반응형 디자인이 도입되었으며, 모든 모듈을 확인할 수 있는 사이드바와 페이지별 목차를 고정하여 접근성을 강화했습니다. 특히 AI 도구가 API 정보를 원활하게 참조할 수 있도록 llms.txt 파일을 지원하며, 자바스크립트가 비활성화된 환경이나 오프라인에서도 문서를 열람할 수 있도록 설계했습니다.\n\n새로운 문서 사이트는 기존 레거시 생성기를 대체하기 위해 Node.js 팀이 직접 개발한 도구인 doc-kit를 사용하여 구축되었습니다. 현재 베타 단계에 있는 이 문서는 정식 도입 전 사용자들의 다양한 의견을 수렴하고 있으며, 개선 사항이나 버그 제보는 doc-kit 저장소의 이슈를 통해 전달할 수 있습니다.",
+    "url": "https://nodejs.org/en/blog/announcements/new-api-docs-beta",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-07-24T19:00:00.000Z",
+    "fetchedAt": "2026-07-25T00:57:40.528Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+    "title": "Claude Opus 5 is now available in GitHub Copilot",
+    "summary": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable",
+    "aiSummary": "Anthropic의 최신 모델인 Claude Opus 3.5가 이제 GitHub Copilot에서 사용 가능해졌습니다. 이번 업데이트를 통해 복잡하고 긴 호흡이 필요한 코딩 작업에서 더욱 정밀한 추론과 효율적인 도구 활용이 가능해졌습니다. 개발자들은 GitHub Copilot 환경 내에서 Anthropic의 고성능 모델을 활용하여 한층 더 안정적인 개발 경험을 할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-24T16:40:04.000Z",
+    "fetchedAt": "2026-07-25T00:57:40.528Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals/",
     "title": "Open Knowledge format v0.2 tackles agentic trust",
     "summary": "When we introduced the Open Knowledge Format (OKF) in June 2026, we asserted that the context that agents need (table schemas, metric definitions, runbooks) should live in a format, not in a proprieta",
@@ -126,6 +174,38 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/7/24/new-rails-reference-app-library",
+    "title": "New Rails reference app library published",
+    "summary": "Today we’re adding a new page to the Ruby on Rails website: Reference Apps. This is a small, hand-picked library of real, open-source Rails applications worth studying.\nDocumentation can only show you",
+    "aiSummary": "Ruby on Rails 공식 웹사이트에 실제 운영 중인 오픈소스 프로젝트를 학습할 수 있는 Reference Apps 라이브러리 페이지가 새롭게 추가되었습니다.\n\n문서만으로는 파악하기 어려운 프로덕션 수준의 애플리케이션 구조와 모델 설계, 컨트롤러 구현, Turbo Streams 활용 방식 등을 실제 소스 코드를 통해 직접 확인할 수 있도록 기획되었습니다. 이는 개발자뿐만 아니라 코딩 모델이 고품질의 결과물을 생성하도록 가이드를 제공하려는 목적도 포함하고 있습니다.\n\n현재는 37signals에서 개발한 Campfire, Writebook, Fizzy 등 세 가지 앱이 공개되어 있습니다. 이들은 Rails의 관례를 철저히 준수한 검증된 사례들로 구성되어 있습니다.\n\n향후 이 라이브러리는 무분별한 확장이 아닌 엄격한 선별 과정을 거쳐 천천히 유기적으로 성장할 예정입니다. Rails Foundation은 개발자들이 해당 자료를 통해 학습하고 향후 피드백을 제공해 줄 것을 권장하고 있습니다.",
+    "url": "https://rubyonrails.org/2026/7/24/new-rails-reference-app-library",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Amanda Perino",
+    "pubDate": "2026-07-24T00:00:00.000Z",
+    "fetchedAt": "2026-07-25T00:57:40.528Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/7/24/this-week-in-rails",
+    "title": "Happy Anniversary Rails!",
+    "summary": "Happy Friday, this is Greg, bringing you the latest news from the Rails world.\nA Rails anniversary!\nLearn from real, open-source Rails apps\nUpdate the JavaScript in Rails guide\nPreserve sub-second pre",
+    "aiSummary": "Rails가 기념일을 맞이하여 새로운 업데이트 소식을 전합니다. 이번 주에는 22명의 기여자가 참여하여 오픈소스 Rails 애플리케이션을 통한 학습 가이드와 JavaScript 업데이트 등 유용한 정보를 공유했습니다.\n\n기술적으로는 DateTime과 Time 객체 간의 연산 시 마이크로초 단위의 정밀도를 유지할 수 있도록 개선되었습니다. 기존에는 두 값을 실수형으로 변환하는 과정에서 정밀도 손실이 발생했으나, 이제는 정확한 유리수 타임스탬프를 기준으로 계산되도록 변경되었습니다.\n\n또한, RedisCacheStore의 DEFAULT_REDIS_OPTIONS 상수가 더 이상 redis-client 구현에서 사용되지 않으므로 향후 제거될 예정입니다. 이와 함께 Cookies::HTTP_HEADER 상수의 사용도 중단되었으며, 대신 Rack::SET_COOKIE를 사용하도록 권장됩니다. 해당 변경 사항에 대한 상세한 전체 목록은 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://rubyonrails.org/2026/7/24/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Greg",
+    "pubDate": "2026-07-24T00:00:00.000Z",
+    "fetchedAt": "2026-07-25T00:57:40.528Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
@@ -1412,117 +1492,6 @@
       "Prisma",
       "ORM",
       "Database"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.4",
-    "title": "1.1.4",
-    "summary": "Changelog\nAdded support for stacking multiple leading slash commands in a single prompt, so a chain like /plan /grill-me  parses, activates, and renders every command in the order you typed them.\nImpr",
-    "aiSummary": "이번 업데이트인 1.1.4 버전에서는 프롬프트 내에서 여러 슬래시 명령어를 동시에 사용하는 기능이 추가되어 순차적인 실행과 렌더링이 가능해졌습니다.\n\ndiff 뷰어의 스크롤 성능이 개선되어 줄바꿈이나 주석 확장 시에도 화면 흔들림 없이 안정적인 조회가 가능해졌습니다.\n\ncustom agent 설정에서 subagent: false로 지정된 에이전트가 목록에 노출되거나 호출되는 버그가 해결되었습니다.\n\nheadless 모드 실행 시 settings.json에 설정된 권한 및 보안 정책이 정상적으로 반영되도록 수정되었습니다.\n\nbtw 명령어 사용 시 대화 목록에 중복 항목이 생성되던 현상이 수정되었으며, Enter 키 매핑 설정이 프롬프트에서 정상적으로 동작하도록 변경되었습니다.\n\nCLI 환경에서 발생하는 권한 관련 오류 메시지가 모호한 문구 대신 실제 원인을 명확하게 표시하도록 개선되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.4",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "freddietang9876",
-    "pubDate": "2026-07-18T00:48:48.000Z",
-    "fetchedAt": "2026-07-18T09:04:00.708Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.python.org/2026/07/python-3150-beta-4/",
-    "title": "Python 3.15.0 beta 4 is here!",
-    "summary": "Here comes the final beta.\npython.org/downloads/release/python-3150b4 (https://www.python.org/downloads/release/python-3150b4/)\nThis is a beta preview of Python 3.15\nPython 3.15 is still in developmen",
-    "aiSummary": "Python 3.15.0b4가 출시되었습니다. 이번 버전은 3.15 시리즈의 마지막 베타 릴리스로, 이전 버전인 3.15.0b3 이후 약 298건의 버그 수정과 빌드 개선 사항이 포함되어 있습니다. 현재 Python 3.15는 개발 단계에 있으므로 프로덕션 환경에서의 사용은 권장하지 않으며, 개발자들은 서드 파티 프로젝트가 원활하게 작동하는지 테스트하고 문제를 보고할 것을 강력히 권장합니다. 2026년 8월 4일에 첫 번째 릴리스 후보인 3.15.0rc1이 출시될 예정입니다.\n\n주요 변경 사항 및 새로운 기능은 다음과 같습니다.\n\n성능 및 최적화 부문에서는 JIT 컴파일러의 대대적인 업그레이드를 통해 x86-64 Linux에서 약 8~9퍼센트, AArch64 macOS에서 12~13퍼센트의 성능 향상을 기록했습니다. 또한 Explicit lazy imports를 통해 시작 속도를 개선했고, Windows 64비트 바이너리에는 tail-calling 인터프리터가 적용되었습니다.\n\n언어 및 표준 라이브러리 부문에서는 frozendict와 sentinel 내장 타입이 추가되었으며, UTF-8이 기본 인코딩으로 설정되었습니다. 또한 더 나은 시스템 수준의 관찰 가능성을 위해 프레임 포인터가 기본적으로 활성화되었고, 언팩킹 기능을 컴프리헨션에서 사용할 수 있게 되었습니다.\n\n타입 시스템 및 개발 환경 부문에서는 TypedDict의 추가 항목에 대한 타입 지정, TypeForm을 통한 타입 형식 주석, 그리고 Disjoint bases 지원이 도입되었습니다. 프로파일링을 위해 전용 패키지와 Tachyon 샘플링 프로파일러가 추가되었으며, 오류 메시지의 가독성과 컬러 지원이 강화되었습니다.\n\n이 외에도 안정적인 ABI를 위한 지원 강화와 함께 일부 C API의 제거 및 변경이 이루어졌으며, 자세한 정보는 Python 공식 문서를 통해 확인할 수 있습니다. 개발팀은 이번 베타 기간 동안 최대한 많은 피드백을 확보하여 이후 코드 변경을 최소화하는 것을 목표로 하고 있습니다.",
-    "url": "https://blog.python.org/2026/07/python-3150-beta-4/",
-    "category": "프로그래밍 언어",
-    "source": "Python Insider",
-    "author": "Hugo van Kemenade",
-    "pubDate": "2026-07-18T00:00:00.000Z",
-    "fetchedAt": "2026-07-18T16:14:56.096Z",
-    "tags": [
-      "Python"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/07/18/the-java-documentary/",
-    "title": "The Java Story | The Official Documentary",
-    "summary": "From its humble beginnings as a project code-named \"Oak\" at Sun Microsystems to becoming a global standard for enterprise software and billions of devices, Java's journey is one of radical innovation,",
-    "aiSummary": "Sun Microsystems의 Oak라는 코드명으로 시작된 Java는 현재 엔터프라이즈 소프트웨어와 수십억 개의 기기를 구동하는 세계적인 표준 언어로 성장했습니다. 이 언어의 역사는 끊임없는 급진적 혁신과 전략적인 변화, 그리고 강력한 커뮤니티의 지지를 바탕으로 이루어졌습니다. Java는 탄생 이후 지금까지 기술적 발전과 생태계 확장을 거듭하며 IT 산업 전반에 걸쳐 핵심적인 역할을 수행하고 있습니다.",
-    "url": "https://inside.java/2026/07/18/the-java-documentary/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Inside Java",
-    "pubDate": "2026-07-18T00:00:00.000Z",
-    "fetchedAt": "2026-07-18T16:14:56.096Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-    "title": "Repository-level GitHub Copilot usage metrics generally available",
-    "summary": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code ",
-    "aiSummary": "GitHub가 Copilot 사용량 측정 지표 API의 기능을 확장하여 레포지토리 단위의 활동 내역을 확인할 수 있게 되었습니다.\n\n새로 추가된 두 개의 엔드포인트를 통해 Copilot coding agent와 Copilot code review에 대한 일일 레포지토리별 풀 리퀘스트 활동 데이터를 상세히 파악할 수 있습니다. 이를 통해 조직은 개발 팀의 GitHub Copilot 활용 현황을 더욱 정교하게 분석하고 관리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-17T22:05:18.000Z",
-    "fetchedAt": "2026-07-18T00:12:52.926Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-    "title": "GitHub Copilot app now available in the usage metrics API",
-    "summary": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the…\nT",
-    "aiSummary": "GitHub Copilot 사용량 측정 API가 업데이트되어 이제 GitHub Copilot 앱 사용 현황을 확인하는 것이 가능해졌습니다.\n\n이번 업데이트를 통해 기업 및 조직 관리자는 1일 및 28일 단위의 사용량 보고서에서 GitHub Copilot 앱의 활용 데이터를 상세히 파악할 수 있게 되었습니다. 이를 통해 관리자는 조직 내 AI 도구 도입 효과를 더욱 명확하게 측정하고 관리할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-17T22:05:11.000Z",
-    "fetchedAt": "2026-07-18T00:12:52.926Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-    "title": "Copilot code review: Customization and configurability improvements",
-    "summary": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation…\n",
-    "aiSummary": "GitHub의 Copilot code review 기능이 사용자 정의 및 구성 가능성을 대폭 강화하였습니다. 이제 해당 기능은 보안을 위한 방화벽 적용과 개별 실행 환경인 runner 구성을 지원하여 더욱 안정적인 코드 검토 환경을 제공합니다.\n\n또한 head branch에 포함된 사용자 지정 지침을 읽어오는 기능을 추가하여 사용자가 원하는 설정으로 보다 쉽게 테스트하고 검증할 수 있도록 개선되었습니다. 이러한 변화를 통해 개발자는 프로젝트 환경에 맞춰 Copilot을 세밀하게 조정하고 활용할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-17T21:08:30.000Z",
-    "fetchedAt": "2026-07-18T00:12:52.926Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-    "title": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-    "summary": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and…\nThe post GitHub Mobile: ",
-    "aiSummary": "GitHub Mobile 환경에서 Copilot을 활용한 코드 리뷰 기능이 업데이트되었습니다. 이제 사용자는 Pull Request에 작성된 Copilot의 코드 리뷰 코멘트에서 Fix with Copilot 버튼을 직접 선택하여 수정 작업을 진행할 수 있습니다. 해당 버튼은 Pull Request의 메인 뷰와 상세 화면에서 모두 사용할 수 있도록 지원됩니다. 이를 통해 개발자는 모바일 기기에서도 더욱 편리하게 Copilot의 클라우드 에이전트를 활용하여 즉각적인 코드 수정 및 개선이 가능해졌습니다.",
-    "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-17T19:47:45.000Z",
-    "fetchedAt": "2026-07-18T00:12:52.926Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
