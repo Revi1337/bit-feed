@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/07/25/design-java-mcp-tool/",
+    "title": "Pairing In-Process and Hosted Embeddings for Java MCP Tool Development",
+    "summary": "During Java for an AI World - JavaOne 2026 Keynote (https://www.youtube.com/watch?v=3fLCOqpIfI0), several speakers showed how innovations in the Java language and platform are relevant for AI, from li",
+    "aiSummary": "Java 기반의 MCP 서버에서 지원 요청의 긴급도를 자동으로 측정하는 시스템 설계와 구현 방식을 설명합니다. 핵심은 하나의 표준화된 MCP 인터페이스를 통해 시스템 내의 다른 컴포넌트가 긴급도 점수를 얻을 수 있도록 설계하는 것입니다.\n\n이 시스템은 Helidon 프레임워크를 활용하며, @Mcp.Tool 어노테이션을 사용하여 인터페이스를 선언하고 비즈니스 로직을 추상화합니다. 긴급도 계산은 학습된 모델을 통해 이루어지는데, 여기서 가장 중요한 원칙은 사용하는 임베딩 모델과 그에 맞춰 훈련된 스코어 파일이 완벽하게 호환되어야 한다는 점입니다.\n\n이를 위해 내부적으로 두 가지 추론 경로를 지원합니다. 첫째는 DJL과 MiniLM 모델을 사용하는 인프로세스 방식이며, 둘째는 OpenAI의 text-embedding-3-small 모델을 사용하는 외부 연동 방식입니다. 각 방식은 서로 다른 벡터 차원을 가지므로, 각 임베딩 모델별로 최적화된 DeepNetts 기반의 스코어 파일을 별도로 생성하고 관리합니다.\n\n개발 환경에서는 외부 의존성 없이 로컬에서 즉시 실행 가능한 인프로세스 모델을 사용하고, 운영 환경에서는 의미론적 정밀도가 높은 외부 공급자 모델을 선택하는 방식으로 유연한 대응이 가능합니다. 이처럼 MCP 인터페이스를 표준화함으로써 호출하는 클라이언트는 내부 구현 방식이나 모델 변경에 영향을 받지 않고 안정적인 긴급도 분석 서비스를 이용할 수 있습니다.",
+    "url": "https://inside.java/2026/07/25/design-java-mcp-tool/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ana-Maria Mihalceanu",
+    "pubDate": "2026-07-25T00:00:00.000Z",
+    "fetchedAt": "2026-07-25T09:15:06.859Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.140.0",
     "title": "0.140.0",
     "summary": "Refactors\n⚡️ Reduce memory usage in dependencies. PR #16049 by @tiangolo.\nDocs\n📝 Fix links in docs. PR #15967 by @YuriiMotov.\n📝 Add Library Skills documentation. PR #16041 by @tiangolo.\n📝 Update do",
