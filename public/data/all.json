@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.7",
+    "title": "1.1.7",
+    "summary": "Improved permission prompts for compound shell commands so the full command is shown when any part of it needs approval.\nFixed disabled plugins still running their hooks and contributing other customi",
+    "aiSummary": "복합 셸 명령어 실행 시 전체 명령어를 명확히 표시하도록 권한 승인 요청 메시지를 개선하였습니다.\n\n비활성화된 플러그인이 후속 작업을 계속 수행하여 파일 편집 도구에 문제를 일으키던 오류를 수정하였습니다.\n\nSalesforce나 Atlassian과 같이 표준 규격을 엄격히 준수하지 않는 제공자에 대해서도 MCP OAuth가 정상적으로 동작하도록 유효성 검사 절차를 유연하게 변경하고 refresh_token을 포함하였습니다.\n\n새로운 세션 시작 시 첫 번째 동작으로 /btw 명령어를 사용할 때 발생하던 대화 경로 오류를 해결하였습니다.\n\nWindows 환경에서 CJK 및 비 ASCII 문자를 복사할 때 클립보드 데이터가 손상되던 문제를 수정하였습니다.\n\n인쇄 모드에서 계정 자격 확인이 완료되기 전에 프롬프트가 전송되던 오류를 바로잡았습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.7",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-07-26T00:43:16.000Z",
+    "fetchedAt": "2026-07-26T01:01:46.581Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/07/25/design-java-mcp-tool/",
     "title": "Pairing In-Process and Hosted Embeddings for Java MCP Tool Development",
     "summary": "During Java for an AI World - JavaOne 2026 Keynote (https://www.youtube.com/watch?v=3fLCOqpIfI0), several speakers showed how innovations in the Java language and platform are relevant for AI, from li",
@@ -17697,6 +17714,22 @@
     "author": "Alex Chalkias",
     "pubDate": "2024-09-19T00:00:00.000Z",
     "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/retrieval-augmented-generation-explained",
+    "title": "The big ideas behind retrieval augmented generation",
+    "summary": "In this post, I focus on the big ideas behind vectors, chunking, and RAG. These complicated concepts are explained in detail through easy-to-understand analogies and examples for a less technical audi",
+    "aiSummary": "이 글은 비전문가를 대상으로 RAG 기술의 핵심 구성 요소인 벡터, 청킹, 그리고 RAG의 개념을 알기 쉬운 비유와 예시를 통해 설명합니다. \n\n시맨틱 검색을 이해하기 위한 기초 지식으로서 복잡한 기술적 원리를 누구나 직관적으로 파악할 수 있도록 풀어내고 있습니다. \n\n데이터를 조각 단위로 나누는 청킹과 정보를 벡터 형태로 변환하여 처리하는 방식 등 RAG를 이해하는 데 필요한 핵심 아이디어들을 체계적으로 다룹니다.",
+    "url": "https://www.elastic.co/blog/retrieval-augmented-generation-explained",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jessica Moszkowicz",
+    "pubDate": "2024-09-18T00:00:00.000Z",
+    "fetchedAt": "2026-07-26T01:01:46.581Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
