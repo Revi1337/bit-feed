@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
+    "title": "Elastic joins NVIDIA and industry leaders as inaugural member of the Open Secure AI Alliance for AI safety and security",
+    "summary": "NVIDIA, Elastic, and other industry leaders are founding members of an innovative movement building tools to advance open innovation, shared progress, and trust in AI.",
+    "aiSummary": "NVIDIA와 Elastic을 포함한 업계 선도 기업들이 AI의 안전성과 보안 강화를 위해 Open Secure AI Alliance를 창설하였습니다. 이 연합은 오픈 소스 혁신을 촉진하고 AI 기술에 대한 신뢰를 구축하며 공통의 기술적 진보를 이끌어낼 도구를 개발하는 것을 목표로 합니다. 참여 기업들은 기술 공유를 통해 안전한 AI 생태계를 조성하는 데 협력할 예정입니다.",
+    "url": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Brian Bergholm,Rachael Wade",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "fetchedAt": "2026-07-27T10:52:10.057Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.7",
     "title": "1.1.7",
     "summary": "Improved permission prompts for compound shell commands so the full command is shown when any part of it needs approval.\nFixed disabled plugins still running their hooks and contributing other customi",
@@ -1458,72 +1474,6 @@
     "tags": [
       "Next.js",
       "React"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-installer-5-31-0",
-    "title": "Scaffold Packages with the `laravel package` Command in Laravel Installer v5.31.0",
-    "summary": "Laravel Installer v5.31.0 introduces a command to scaffold Laravel packages, along with environment variable propagation for node-less setups and automated PHP version matching for GitHub Actions.\nThe",
-    "aiSummary": "Laravel Installer v5.31.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Laravel 패키지를 간편하게 생성할 수 있는 새로운 명령어가 추가된 것입니다.\n\n또한 Node.js 환경이 없는 환경에서도 환경 변수를 원활하게 전파할 수 있는 기능이 도입되었습니다. 더불어 GitHub Actions에서 자동으로 PHP 버전을 일치시켜 주는 기능이 포함되어 개발 편의성이 향상되었습니다.",
-    "url": "https://laravel-news.com/laravel-installer-5-31-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-07-20T05:09:42.000Z",
-    "fetchedAt": "2026-07-20T16:48:43.957Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/rare-disease-research-grants",
-    "title": "Apply for Anthropic’s AI for Science rare disease research grants",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsApply for Anthropic’s AI for Science rare disease research grantsJul 20, 2026Last spring, we announced Anthropic’s AI for Science program, an i",
-    "aiSummary": "Anthropic가 과학 연구를 가속화하기 위해 운영하는 AI for Science 프로그램의 일환으로 희귀 유전 질환 연구를 위한 새로운 지원 대상자를 모집합니다. 이번 프로그램은 희귀 질환 연구의 복잡성과 데이터 부족 문제를 AI를 통해 해결하고자 하며, 기초 연구와 초기 단계의 바이오테크 기업이라는 두 가지 트랙으로 운영됩니다.\n\n선정된 연구자들에게는 6개월 동안 최대 50,000달러 상당의 Claude 크레딧이 제공됩니다. 희귀 질환은 전 세계적으로 환자 수가 많음에도 불구하고 정보가 파편화되어 연구에 어려움이 많습니다. Anthropic은 AI가 질병 메커니즘을 모델링하고, 방대한 문헌을 종합하며, 제한된 데이터에서 패턴을 추출하는 데 기여할 수 있다고 판단하고 있습니다.\n\n이 프로그램의 목적은 연구자들 간의 협업 커뮤니티를 구축하여 연구 속도를 높이는 것입니다. 첫 번째 트랙은 임상 연구자, 환자 단체, 데이터 과학자 간의 협력을 촉진하여 기초 과학 발전과 질병 기전 발견을 목표로 하며, 이를 위해 Monarch Initiative와 같은 기관과 초기 협력을 진행하고 있습니다.",
-    "url": "https://www.anthropic.com/news/rare-disease-research-grants",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-07-20T00:00:00.000Z",
-    "fetchedAt": "2026-07-21T00:15:54.874Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/07/20/quality-heads-up/",
-    "title": "Quality Outreach Heads-up - JDK 27: Default G1 in All Environments",
-    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.java.net/display/quality/Quality+Outreach) is promoting the testing of FOSS projects with OpenJDK builds as a way to improve the overall quality of the ",
-    "aiSummary": "OpenJDK Quality Group은 JDK 27부터 모든 환경에서 기본 Garbage Collector를 G1으로 변경한다고 발표하였습니다. 기존에는 단일 CPU이거나 물리적 메모리가 1792 MB 미만인 제한된 환경에서 Serial GC가 자동으로 선택되었으나, 최근 G1의 성능 개선으로 인해 모든 환경에서 G1을 기본값으로 설정하게 되었습니다.\n\n이번 변경 사항은 Serial GC를 제거하는 것이 아니며, 명령어를 통해 특정 Garbage Collector를 직접 지정한 경우나 이미 충분한 자원이 확보된 환경에서 실행 중인 애플리케이션에는 영향을 주지 않습니다.\n\n제한된 환경에서 별도의 Garbage Collector를 지정하지 않고 실행하던 애플리케이션의 경우 G1으로의 자동 전환이 발생합니다. 해당 환경에서는 애플리케이션의 특성에 맞춰 여러 Garbage Collector를 벤치마킹하거나, 기존과 동일한 성능을 유지하고 싶다면 Serial GC를 수동으로 설정할 것을 권장합니다. 자세한 기술적 내용은 JEP 523을 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/07/20/quality-heads-up/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Nicolai Parlog",
-    "pubDate": "2026-07-20T00:00:00.000Z",
-    "fetchedAt": "2026-07-20T16:48:43.957Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "/blog/prisma-next-ltree-extension",
-    "title": "Extending Prisma Next with Typed Postgres ltree",
-    "summary": "Use PostgreSQL ltree in Prisma Next with prisma-ltree: typed path columns plus ancestor and descendant queries.",
-    "aiSummary": "Prisma Next 환경에서 PostgreSQL의 ltree 데이터 타입을 보다 효율적으로 활용할 수 있게 해주는 prisma-ltree 라이브러리가 공개되었습니다. \n\n이 라이브러리는 ltree를 사용하는 컬럼에 대해 강력한 타입 안정성을 제공하며 개발자가 보다 직관적으로 데이터를 다룰 수 있도록 지원합니다.\n\n특히 계층형 데이터를 다룰 때 필수적인 조상 노드와 자손 노드를 검색하는 쿼리를 간편하게 작성할 수 있도록 돕습니다. 이를 통해 복잡한 트리 구조를 가진 데이터를 Prisma 기반 프로젝트에서 더욱 편리하고 안전하게 관리할 수 있습니다.",
-    "url": "https://www.prisma.io/blog/prisma-next-ltree-extension",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-07-20T00:00:00.000Z",
-    "fetchedAt": "2026-07-20T16:48:43.957Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
     ]
   }
 ]

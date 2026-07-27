@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
+    "title": "Elastic joins NVIDIA and industry leaders as inaugural member of the Open Secure AI Alliance for AI safety and security",
+    "summary": "NVIDIA, Elastic, and other industry leaders are founding members of an innovative movement building tools to advance open innovation, shared progress, and trust in AI.",
+    "aiSummary": "NVIDIA와 Elastic을 포함한 업계 선도 기업들이 AI의 안전성과 보안 강화를 위해 Open Secure AI Alliance를 창설하였습니다. 이 연합은 오픈 소스 혁신을 촉진하고 AI 기술에 대한 신뢰를 구축하며 공통의 기술적 진보를 이끌어낼 도구를 개발하는 것을 목표로 합니다. 참여 기업들은 기술 공유를 통해 안전한 AI 생태계를 조성하는 데 협력할 예정입니다.",
+    "url": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Brian Bergholm,Rachael Wade",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "fetchedAt": "2026-07-27T10:52:10.057Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.7",
     "title": "1.1.7",
     "summary": "Improved permission prompts for compound shell commands so the full command is shown when any part of it needs approval.\nFixed disabled plugins still running their hooks and contributing other customi",
