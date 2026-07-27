@@ -1,5 +1,231 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.6",
+    "title": "0.140.6",
+    "summary": "Refactors\n⚡️ Avoid flattening dependencies for request parameters, mainly for OpenAPI. PR #16073 by @tiangolo.",
+    "aiSummary": "이번 업데이트를 통해 요청 파라미터에 대한 의존성 평탄화 과정을 제거하는 리팩토링이 진행되었습니다. 이는 주로 OpenAPI 규격과의 호환성을 개선하기 위한 조치이며 관련 변경 사항은 PR 16073을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.6",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-27T16:31:22.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/sap-google-cloud/sap-and-google-cloud-launch-bdc-connect-for-bigquery/",
+    "title": "Announcing general availability of SAP Business Data Cloud Connect for BigQuery",
+    "summary": "Traditional data replication techniques often struggle to deliver the data freshness that modern workflows require. To help organizations overcome this challenge, SAP and Google Cloud are announcing t",
+    "aiSummary": "SAP와 Google Cloud가 협력하여 SAP Business Data Cloud Connect for BigQuery의 정식 출시를 발표했습니다. 이번 서비스는 데이터 복제 없이 SAP의 데이터를 BigQuery에서 직접 활용할 수 있도록 지원하는 제로 카피 아키텍처를 기반으로 합니다.\n\n이를 통해 기업은 SAP의 비즈니스 데이터와 Google의 데이터 생태계를 통합하여 AI 모델과 에이전트가 실시간으로 문맥을 파악하고 복잡한 비즈니스 작업을 수행할 수 있는 환경을 구축할 수 있습니다. 데이터 파이프라인 구축 시간을 단축하고 데이터 사일로를 제거함으로써 의사결정의 속도를 높이고 운영 효율성을 개선합니다.\n\n특히 데이터 복제와 저장을 최소화하여 총소유비용을 절감하고 데이터 공유 비용을 없애 예측 가능한 비용 모델을 제공합니다. 또한 Gemini Enterprise 및 SAP Joule과 연동하여 자연어 기반의 정교한 데이터 분석과 자율 운영이 가능해집니다.\n\n현재 ElringKlinger를 비롯한 기업들이 공급망 관리와 생산 분석 분야에서 이 솔루션을 활용하고 있으며, Accenture, Deloitte, KPMG, PwC 등 주요 파트너사들도 이를 통해 지능형 에이전트와 자율 운영 시스템을 구축하고 있습니다. 본 서비스는 모든 Google Cloud 고객을 대상으로 전 세계에서 이용 가능하며 현재 Google Cloud 지역을 포함한 인프라를 지원하고 향후 Microsoft Azure 호스팅 환경으로도 지원 범위를 확대할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/sap-google-cloud/sap-and-google-cloud-launch-bdc-connect-for-bigquery/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Snehanshu Shah"
+      ],
+      "title": [
+        "Managing Director, Cortex GTM, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-27T16:30:00.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.5",
+    "title": "0.140.5",
+    "summary": "Refactors\n⚡️ Avoid flattening dependencies for body fields. PR #16071 by @tiangolo.",
+    "aiSummary": "FastAPI의 이번 업데이트에서는 본문 필드에 대한 의존성 평탄화 과정을 제거하는 리팩토링이 진행되었습니다. 이는 PR 16071을 통해 적용되었으며 @tiangolo가 주도하였습니다. 해당 변경 사항을 통해 의존성 처리 로직의 안정성과 최적화가 개선되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.5",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-27T16:02:33.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/cyber-snapshot-report-enterprise-resilience-key-to-toolchain-success/",
+    "title": "Cyber Snapshot Report: Go beyond the toolchain and build enterprise resilience",
+    "summary": "Even as machine-speed attacks dominate the headlines, Mandiant’s view from the frontline reveals that the vast majority of successful intrusions still stem from fundamental human and systemic failures",
+    "aiSummary": "Mandiant가 발표한 M-Trends 2026 보고서에 따르면 최근의 사이버 공격은 여전히 인간의 실수와 시스템의 취약점에서 비롯되는 경우가 많습니다. 특히 취약점 공격이 6년 연속 초기 침투 경로 1위를 차지하고 있으며 음성 피싱과 이전 침해 사례를 악용한 랜섬웨어가 큰 비중을 차지합니다. 이에 따라 기업은 공격을 100퍼센트 차단하려는 예방 중심 전략에서 벗어나 침해를 불가피한 상황으로 전제하고 대응하는 회복 탄력성 중심의 운영 모델로 전환해야 합니다.\n\n기술적 측면에서 기업은 랜섬웨어 공격자가 백업과 관리자 계정 저장소를 무력화하는 상황에 대비해야 합니다. 이를 위해 엄격한 자격 증명 분리와 물리적으로 격리된 복구 환경을 구축하여 침해 시 피해 범위를 최소화하는 아키텍처를 구현해야 합니다. 또한 임원진의 개인 기기나 가정용 네트워크와 같은 확장된 생태계를 보호하기 위해 디지털 자산 관리와 보안 프로그램을 결합하는 노력이 필요합니다.\n\n인적 측면에서는 실무자가 고압적인 사고 환경에서도 신속하게 대응할 수 있도록 몰입형 학습과 실습을 통한 집단적 숙련도를 높여야 합니다. 특히 최근 Google Threat Intelligence Group이 발견한 AI 기반의 제로데이 공격 사례처럼 위협이 고도화됨에 따라 단순한 기술적 방어책을 넘어 조직의 프로세스와 문화를 유기적으로 결합해야 합니다. 결론적으로 진정한 회복 탄력성은 기술 도구만으로 완성되지 않으며 잘 훈련된 팀과 견고한 아키텍처 그리고 지속적인 위협 인텔리전스를 바탕으로 한 전략적 통제 체계에서 비롯됩니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/cyber-snapshot-report-enterprise-resilience-key-to-toolchain-success/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ilan Lanz"
+      ],
+      "title": [
+        "Product Marketing Manager, Mandiant"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-27T16:00:00.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.4",
+    "title": "0.140.4",
+    "summary": "Refactors\n⚡️ Skip unused dependency repeat bookkeeping. PR #16069 by @tiangolo.",
+    "aiSummary": "사용하지 않는 의존성인 repeat bookkeeping을 제거하는 리팩토링이 진행되었습니다. 이번 변경 사항은 Pull Request #16069를 통해 반영되었으며 @tiangolo가 기여하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.4",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-27T15:46:29.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.3",
+    "title": "0.140.3",
+    "summary": "Refactors\n⚡️ Avoid repeated dependency flattening in OpenAPI. PR #16067 by @tiangolo.",
+    "aiSummary": "OpenAPI 처리 과정에서 반복적인 의존성 평탄화 작업을 생략하도록 개선하는 리팩토링이 진행되었습니다. 이번 업데이트는 해당 최적화를 통해 코드의 효율성을 높이기 위한 변경 사항을 포함하고 있습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.3",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-27T15:29:52.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "77c18d2b47b8dea484a97205ea56792640d7b37a",
+    "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
+    "summary": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on wor",
+    "aiSummary": "AWS가 그리스 아테네에 새로운 AWS Local Zone을 개설하여 해당 지역 고객들에게 더욱 낮은 지연 시간과 고성능의 인프라 환경을 제공합니다.\n\nAnthropic의 고성능 모델인 Claude 3.5 Opus가 Amazon Bedrock을 통해 공식 출시되어 더욱 정교한 추론 작업과 복잡한 문제 해결을 지원합니다.\n\nAWS Lambda의 Durable Execution 기능이 .NET 환경까지 확대 지원됩니다. 이를 통해 개발자는 장기 실행되는 워크플로우를 서버리스 환경에서 더욱 안정적이고 효율적으로 관리할 수 있습니다.\n\n이번 주 AWS는 지역별 기술 커뮤니티와 소통하며 인프라 확장과 AI 모델 통합, 개발자 생산성 도구 개선에 집중하고 있습니다. 각 업데이트는 클라우드 기반 애플리케이션의 성능 최적화와 현대화를 가속화하는 데 목적을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-07-27T14:54:41.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.2",
+    "title": "0.140.2",
+    "summary": "Refactors\n⚡️ Stop retaining flat dependency trees. PR #16065 by @tiangolo.\nInternal\n👷 Add new memory benchmark. PR #16064 by @tiangolo.",
+    "aiSummary": "FastAPI 버전 0.140.2 업데이트가 진행되었습니다.\n\n이번 업데이트에서는 평면 의존성 트리 유지를 중단하는 리팩토링이 포함되어 의존성 관리 구조가 변경되었습니다. 또한 내부적으로 성능 최적화를 위한 새로운 메모리 벤치마크 도구가 추가되었습니다. 해당 변경 사항은 주로 tiangolo에 의해 수행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.2",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-27T14:14:50.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/public-sector/modernizing-the-skies-noaa-google-cloud-collaborate-advance-weather-forecasting/",
+    "title": "Modernizing the skies: NOAA and Google Cloud collaborate to advance weather forecasting",
+    "summary": "The National Oceanic and Atmospheric Administration (NOAA) is embarking on a transformative journey to redefine how we understand and predict patterns in the Earth’s atmosphere that affect the weather",
+    "aiSummary": "NOAA가 차세대 기상 및 기후 예측 시스템인 WCOSS의 고성능 컴퓨팅 인프라 공급자로 Google Cloud를 선정했습니다. 이는 NOAA가 기존의 온프레미스 환경에서 클라우드 중심 인프라로 전환하는 중요한 분기점이며, 세계 최초로 운영되는 수치 기상 예측 센터 중 하나로서 클라우드 기술을 도입하게 되었다는 점에서 큰 의미가 있습니다.\n\n이번 프로젝트에는 5세대 AMD EPYC 프로세서를 탑재한 Google Cloud H4D VM이 컴퓨팅의 핵심 기반으로 활용됩니다. H4D VM은 대규모 기상 시뮬레이션을 수행하기 위한 고성능 컴퓨팅 파워와 저지연 네트워크 환경을 제공하며, 이를 통해 NOAA 소속 기상학자와 연구원들은 보다 유연하고 효율적인 모델링 작업을 수행할 수 있게 됩니다.\n\n양사는 이번 협력을 통해 기상 예측의 정확도를 높이고 공공 안전을 강화하는 것을 목표로 합니다. 특히 이번 결정은 과거 NOAA가 Google Workspace를 도입하거나 Google DeepMind의 WeatherNext 모델로 허리케인 경로를 예측하는 등 수년간 이어온 기술 협력의 연장선에 있습니다. 앞으로도 양측은 Gemini for Government와 같은 AI 기술을 활용하여 글로벌 기상 모델링 분야에서의 주도권을 확보해 나갈 계획입니다.",
+    "url": "https://cloud.google.com/blog/topics/public-sector/modernizing-the-skies-noaa-google-cloud-collaborate-advance-weather-forecasting/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Brent Mitchell"
+      ],
+      "title": [
+        "Vice President, Go-to-Market"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        "Google Public Sector"
+      ]
+    },
+    "pubDate": "2026-07-27T14:00:00.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/whats-new-in-graph-artifacts",
+    "title": "What’s new in Graph Artifacts",
+    "summary": "When we launched Graph Artifacts (https://www.apollographql.com/blog/introducing-graph-artifacts), we gave teams a way to pin their GraphOS Router (https://www.apollographql.com/graphos-router) to a s",
+    "aiSummary": "Apollo가 Graph Artifacts에 대한 태그 관리 기능을 대폭 강화하여 업데이트했습니다. 기존에는 Graph Artifacts를 사용하더라도 이를 관리하는 도구인 Rover와 Studio에서 태그를 직접 제어할 수 없어 팀들이 별도의 스크립트를 작성해야 하는 불편함이 있었습니다.\n\n이번 업데이트를 통해 Rover 0.41 버전부터 CLI 명령어를 사용하여 태그를 할당, 조회, 수정 및 삭제하는 작업이 가능해졌습니다. 이를 통해 배포 환경에서의 승격과 롤백 과정을 별도의 추가 개발 없이 단일 명령어로 처리할 수 있게 되었습니다.\n\nStudio의 Launches 페이지에서도 태그 정보를 시각적으로 확인할 수 있게 개선되었습니다. 특정 아티팩트가 현재 어떤 태그를 가리키는지 브라우저에서 즉시 파악할 수 있으며, 태그 관리를 위한 적절한 Rover 명령어를 바로 생성할 수도 있습니다.\n\n또한 OCI 표준을 준수하여 설계되었으므로, oras와 같은 외부 도구와도 원활하게 연동됩니다. Apollo에서 관리하는 태그는 시스템에 의해 자동으로 생성되는 불변의 태그와 사용자가 직접 관리하는 가변 태그로 나뉩니다. Router v2.11.0 이상의 버전을 사용하면 태그 변경 시 자동으로 핫 리로드가 이루어져 배포 운영의 효율성이 크게 향상되었습니다. \n\n사용자들은 Rover를 0.41 버전 이상으로 업데이트하고, 기존의 다이제스트 기반 참조 방식을 태그 기반으로 전환하여 더 체계적인 스키마 변경 관리를 시작할 수 있습니다.",
+    "url": "https://www.apollographql.com/blog/whats-new-in-graph-artifacts",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Zack Warnimont",
+    "pubDate": "2026-07-27T09:00:00.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/cognizant-anthropic",
+    "title": "Expanding our partnership with Cognizant | Anthropic",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsCognizant and Anthropic expand their partnership to bring Claude to enterprise clientsJul 27, 2026We&#x27;re expanding our partnership with Cog",
+    "aiSummary": "Anthropic와 Cognizant가 전략적 파트너십을 대폭 확대하며 기업용 AI 솔루션 도입을 가속화합니다. Cognizant는 제조, 생명과학, 보험 등 다양한 산업 분야에서 자사의 플랫폼과 시스템에 Claude를 더욱 깊이 통합할 예정입니다.\n\n이번 협력을 통해 Cognizant는 자사의 엔지니어링 플랫폼인 Flowsource를 비롯해 Neuro AI Engineering과 Neuro IT Ops에 Claude를 전면 도입합니다. 특히 Flowsource의 Spec-Driven Development 모듈에서는 Claude Code를 활용해 코딩 표준과 아키텍처 설계를 반영한 실무 자동화를 구현합니다.\n\n기술적 통합과 더불어 인력 양성에도 박차를 가합니다. Cognizant는 새로운 Frontier Certified 인력 모델을 구축하고 있으며, 이미 3만 명 이상의 직원이 Claude 관련 교육을 수료했습니다. 또한 Cognizant는 Claude Partner Network의 Global Premier Partner로서 단순한 실험을 넘어 실제 기업 환경에서 안정적인 생산성 향상을 이끌어내는 AI 구축 모델을 전 세계 고객에게 제공할 계획입니다.",
+    "url": "https://www.anthropic.com/news/cognizant-anthropic",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
     "title": "Elastic joins NVIDIA and industry leaders as inaugural member of the Open Secure AI Alliance for AI safety and security",
     "summary": "NVIDIA, Elastic, and other industry leaders are founding members of an innovative movement building tools to advance open innovation, shared progress, and trust in AI.",
@@ -967,6 +1193,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+    "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+    "aiSummary": "Google은 새로운 AI 모델 라인업으로 Gemini 3.6 Flash와 3.5 Flash-Lite, 그리고 3.5 Flash Cyber를 새롭게 발표하였습니다. 이번 업데이트는 Gemini 모델의 활용 범위를 넓히고 각기 다른 성능 요구 사항을 충족하기 위한 전략의 일환입니다. 각 모델은 향상된 효율성과 처리 능력을 바탕으로 다양한 사용자 환경과 기술적 목적에 맞게 설계되었습니다.",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-07-21T15:16:30.000Z",
+    "fetchedAt": "2026-07-27T17:13:49.441Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
