@@ -1,5 +1,54 @@
 [
   {
+    "id": "https://www.cursor.com/changelog/cursor-start",
+    "title": "Cursor Start",
+    "summary": "Jul 28, 2026 · ChangelogCursor StartWe're introducing Cursor Start, a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and",
+    "aiSummary": "Cursor는 인도 지역 개발자를 대상으로 하는 새로운 요금제인 Cursor Start를 출시했습니다. 월 649 루피로 책정된 이 요금제는 현지 결제 방식인 UPI를 지원하며, 7월 28일부터 기존 사용자와 신규 사용자 모두 이용 가능합니다.\n\n이번 요금제는 개발자가 매일 에이전트 기반의 개발 환경을 활용할 수 있도록 구성되었습니다. 여기에는 Grok 4.5 모델과 효율적인 코딩 모델인 Composer에 대한 충분한 액세스 권한이 포함되며, 작업 중에도 코드를 빌드하고 테스트 및 배포하는 상시 가동형 클라우드 에이전트 기능을 제공합니다.\n\n또한 모바일에서 에이전트를 제어할 수 있는 Cursor for iOS와 다양한 워크플로우 확장을 위한 플러그인, MCP 서버, 훅 및 스킬 사용을 지원합니다. 모든 요금은 세금을 포함한 금액으로 매월 자동 결제됩니다.",
+    "url": "https://www.cursor.com/changelog/cursor-start",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "fetchedAt": "2026-07-28T10:00:06.719Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+    "title": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+    "summary": "This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and…\nThe post GitHub",
+    "aiSummary": "GitHub Copilot for JetBrains 업데이트를 통해 워크플로우에 대한 제어권과 가시성이 강화되었습니다.\n\n사용자는 이제 MCP 서버와 Claude 에이전트 플로우 내의 커스텀 에이전트를 직접 연결할 수 있게 되었습니다. 또한 개선된 OpenTelemetry 구성을 통해 원격 측정 데이터를 더욱 정밀하게 조정하고 관리할 수 있습니다. \n\n이번 업데이트는 개발자가 자신의 개발 환경에서 AI 도구를 보다 유연하게 최적화하고 모델을 효율적으로 운용할 수 있도록 지원하는 데 중점을 두고 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-28T01:23:10.000Z",
+    "fetchedAt": "2026-07-28T10:00:06.719Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.8",
+    "title": "1.1.8",
+    "summary": "Print mode (-p / --print) now supports structured, machine-readable output via the --output-format flag (text (default), json, or stream-json), so headless runs in CI, eval harnesses, and scripts can ",
+    "aiSummary": "CLI 도구의 1.1.8 버전 업데이트를 통해 자동화 환경에서의 활용성이 크게 개선되었습니다. Print 모드에 --output-format 플래그가 추가되어 text, json, stream-json 형식으로 데이터를 출력할 수 있게 되었으며, 이를 통해 CI나 스크립트 환경에서 결과를 프로그래밍 방식으로 처리할 수 있습니다.\n\n특히 stream-json 형식을 도입하여 작업 결과를 모두 기다릴 필요 없이 init, step_update, result 이벤트 형태로 점진적인 진행 상황을 받아볼 수 있습니다. 또한 --json-schema 플래그로 출력 데이터의 구조를 강제할 수 있으며, tool_info와 subagent_info 정보를 포함하여 하위 에이전트 간의 작업 흐름을 명확하게 추적할 수 있도록 개선되었습니다.\n\n토큰 사용량 보고 항목에 cache_read_tokens가 추가되어 프롬프트 캐시 적중률을 상세히 파악할 수 있습니다. 사용성 측면에서는 TUI 모드에서 텍스트 선택 시 자동으로 클립보드에 복사되는 기능을 제어할 수 있는 copyOnSelect 설정이 추가되었습니다. 마지막으로 복합 명령어에 대한 권한 관리 기능이 향상되어 동일한 명령 체인을 허용 규칙으로 저장하면 재확인 과정 없이 즉시 실행할 수 있게 되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.8",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-07-28T00:59:10.000Z",
+    "fetchedAt": "2026-07-28T10:00:06.719Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
     "title": "Manage GitHub Copilot app access with a dedicated policy",
     "summary": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…\nThe post Manage GitHub Copilot app a",
@@ -285,6 +334,23 @@
     "tags": [
       "GraphQL",
       "Apollo"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/security-update-redis-response-to-the-kimi-k3-vulnerability-claims/",
+    "title": "Security update: Redis response to the Kimi K3 vulnerability claims",
+    "summary": "Last week, researchers posted on X that they had used the Kimi K3 AI model to identify vulnerabilities in Redis, including a claim involving 19 zero day vulnerabilities.\n\nWe became aware of this resea",
+    "aiSummary": "최근 X 플랫폼을 통해 Kimi K3 AI 모델을 활용하여 Redis의 19개 제로데이 취약점을 발견했다는 주장이 제기되었습니다.\n\nRedis 측은 해당 게시물을 인지한 직후 즉각적인 조사를 진행하였으며, 현재까지 제기된 취약점들이 실제 운영 환경에서 유효하다는 증거는 확인되지 않았습니다.\n\nRedis는 보안을 최우선 과제로 삼고 있으며, 외부 연구자들의 보고에 대해 지속적인 모니터링과 검증 작업을 수행하고 있습니다.\n\n이번 사안과 관련하여 실제 위협이 확인될 경우 적절한 보안 업데이트를 제공할 예정이며, 사용자들에게는 항상 최신 버전의 소프트웨어를 유지하고 공식 보안 가이드를 준수할 것을 권고합니다.",
+    "url": "https://redis.io/blog/security-update-redis-response-to-the-kimi-k3-vulnerability-claims/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Curtis Means",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "fetchedAt": "2026-07-28T10:00:06.719Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
