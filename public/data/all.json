@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+    "title": "Manage GitHub Copilot app access with a dedicated policy",
+    "summary": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…\nThe post Manage GitHub Copilot app a",
+    "aiSummary": "GitHub Copilot 앱에 대한 개별적인 정책 설정 기능이 도입되었습니다. 이를 통해 기업 및 조직 관리자는 엔터프라이즈와 조직 단위에서 GitHub Copilot 앱에 접근할 수 있는 사용자를 더욱 세밀하게 제어할 수 있게 되었습니다. 기존에는 GitHub Copilot의 접근 권한 관리가 통합적인 방식이었으나, 이제는 전용 정책을 통해 보안 및 관리 효율성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-27T20:43:37.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18178",
+    "title": "WebKit Features for Safari 26.6",
+    "summary": "Safari 26.6 is here. This release adds a small refinement to WebAssembly’s streaming compilation paths, and delivers eight bug fixes across CSS, service workers, networking, extensions, and WebRTC.\nTh",
+    "aiSummary": "Safari 26.6 버전은 WebAssembly의 스트리밍 컴파일 기능을 개선하고 웹 개발자가 겪을 수 있는 다양한 오류를 해결하는 데 중점을 두었습니다.\n\nWebAssembly 부문에서는 WebAssembly.compileStreaming() 및 WebAssembly.instantiateStreaming() 메서드에 compileOptions 매개변수가 추가되었습니다. 이를 통해 기존에 스트리밍 컴파일을 포기해야만 사용할 수 있었던 Wasm JS String Builtins 기능을 이제 스트리밍 방식에서도 제약 없이 활용할 수 있게 되었습니다.\n\n이번 업데이트에는 CSS, 네트워킹, Service Workers, Web Extensions, WebRTC 분야에서 총 8가지의 버그 수정 사항이 포함되었습니다.\n\nCSS 분야에서는 ic 단위의 페이지 줌 스케일링 오류, position-area와 고정 위치 요소 간의 폴백 문제, 그리고 iPad 환경에서 데스크톱 모드 이용 시 발생하는 폰트 속성 관련 줌 오류가 수정되었습니다.\n\n네트워킹 측면에서는 WKHTTPCookieStore를 통한 파티션 쿠키 삭제 불가 문제가 해결되었습니다. Service Workers와 관련해서는 메인 스크립트나 임포트된 스크립트가 누락된 등록 건이 자동으로 해제되지 않아 재등록을 방해하던 문제가 개선되었습니다.\n\n또한 Web Extensions 환경에서 발생하는 데이터베이스 파일 누적에 따른 성능 저하 현상을 수정하였고, WebRTC 분야에서는 macOS Sequoia 환경에서 iceTransportPolicy가 relay로 설정된 경우 ICE 후보 수집이 실패하던 문제를 해결하였습니다.\n\nSafari 26.6은 iOS, iPadOS, visionOS, macOS Tahoe, macOS Sequoia, macOS Sonoma 운영체제 업데이트를 통해 설치할 수 있습니다.",
+    "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-07-27T18:00:52.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.140.7",
+    "title": "0.140.7",
+    "summary": "Refactors\n⚡️ Avoid flattening dependencies for OpenAPI. PR #16076 by @tiangolo.\nInternal\n⬆️ Upgrade latest-changes to 0.7.1. PR #16077 by @tiangolo.\n👷 Add OpenAPI dependency benchmarks. PR #16075 by ",
+    "aiSummary": "FastAPI 버전 0.140.7 업데이트가 진행되었습니다.\n\n이번 업데이트에서는 OpenAPI 의존성 평탄화 과정을 회피하도록 리팩토링이 이루어졌습니다.\n\n내부적으로는 latest-changes를 0.7.1 버전으로 상향 조정하였으며, OpenAPI 의존성 성능을 측정하기 위한 벤치마크 테스트 환경이 추가되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.7",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-27T17:33:02.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-21-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+    "title": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+    "summary": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With…\nThe pos",
+    "aiSummary": "GitHub이 자사 플랫폼 전반에서 사용하던 기업용 중앙 관리 정책을 GitHub Copilot 앱과 Copilot cloud agent에도 동일하게 적용할 수 있도록 업데이트했습니다.\n\n이제 기업 관리자는 조직 내의 정책을 활용하여 GitHub Copilot 앱과 Copilot cloud agent의 동작을 더욱 세밀하고 일관되게 제어할 수 있습니다. 이를 통해 기업은 보안 및 규정 준수 기준을 엔터프라이즈 환경 전반으로 확대하고 중앙 집중식으로 효율적인 관리가 가능해집니다.",
+    "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-27T17:00:35.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.140.6",
     "title": "0.140.6",
     "summary": "Refactors\n⚡️ Avoid flattening dependencies for request parameters, mainly for OpenAPI. PR #16073 by @tiangolo.",
@@ -160,6 +224,22 @@
     ]
   },
   {
+    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=726564",
+    "title": "Critical Security Issue Affecting TeamCity On-Premises (CVE-2026-63077) – Update to 2025.11.7 or 2026.1.3 Now",
+    "summary": "Summary Details A critical security vulnerability has been identified in TeamCity On-Premises. If exploited, this flaw may enable an unauthenticated attacker with HTTP(S) access to a TeamCity server t",
+    "aiSummary": "TeamCity On-Premises에서 인증 우회 및 임의 OS 명령 실행이 가능한 심각한 보안 취약점인 CVE-2026-63077이 발견되었습니다.\n\nHTTP나 HTTPS를 통해 TeamCity 서버에 접근할 수 있는 권한 없는 공격자가 서버 프로세스 권한으로 임의의 명령을 실행할 수 있다는 점에서 위험성이 매우 높습니다. \n\n이번 취약점은 모든 TeamCity On-Premises 버전에 영향을 미치고 있습니다.\n\n사용자는 즉시 시스템을 보호하기 위해 TeamCity를 2025.11.7 또는 2026.1.3 버전으로 업데이트해야 합니다.",
+    "url": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Daniel Gallo",
+    "pubDate": "2026-07-27T14:09:14.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/public-sector/modernizing-the-skies-noaa-google-cloud-collaborate-advance-weather-forecasting/",
     "title": "Modernizing the skies: NOAA and Google Cloud collaborate to advance weather forecasting",
     "summary": "The National Oceanic and Atmospheric Administration (NOAA) is embarking on a transformative journey to redefine how we understand and predict patterns in the Earth’s atmosphere that affect the weather",
@@ -205,6 +285,40 @@
     "tags": [
       "GraphQL",
       "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/soc-platform-architecture-agentic-security",
+    "title": "From tool procurement to platform architecture: Rethinking the SOC for machine-speed threats",
+    "summary": "Fragmented SOCs can't keep pace with AI-driven attacks. See why security teams are moving from point tools to open, unified, agentic platforms in 2026.",
+    "aiSummary": "AI 기반의 공격이 급증하는 상황에서 기존의 파편화된 SOC 운영 방식은 더 이상 위협 대응 속도를 따라가지 못하고 있습니다. 2026년의 보안 팀들은 개별 도구를 단순히 도입하는 방식에서 벗어나 개방형 통합 플랫폼으로 전환하는 추세입니다. 특히 자율적인 에이전트 기능을 갖춘 플랫폼을 중심으로 아키텍처를 재설계함으로써 기계 수준의 속도로 발생하는 복잡한 공격에 능동적으로 대처하려 합니다. 이러한 변화는 보안 운영의 효율성을 극대화하고 파편화된 도구 운영의 한계를 극복하기 위한 필수적인 전략으로 자리 잡고 있습니다.",
+    "url": "https://www.elastic.co/blog/soc-platform-architecture-agentic-security",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Joe DeFever",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/position-open-weights-models",
+    "title": "Our position on open-weights models",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsOur position on open-weights modelsJul 27, 2026A post by Dario Amodei, Anthropic CEO Over the last few days there has been a lot of discussion ",
+    "aiSummary": "Anthropic의 CEO인 Dario Amodei는 최근 제기된 오픈 웨이트 모델에 대한 전면 금지 주장에 대해 Anthropic은 이를 옹호한 적이 없으며, 오히려 위험한 기능을 포함하지 않는 모델은 공공재로서 가치가 있다는 입장을 분명히 밝혔습니다.\n\n그는 단순히 오픈 웨이트 모델을 규제하는 것이 국가 안보 문제를 해결하지 못한다고 지적하며, 대신 강력한 연산 칩의 권위주의 국가 유입 차단, 산업적 규모의 모델 추출 방지, 그리고 충분한 능력을 갖춘 모든 모델에 대한 엄격한 사전 안전성 테스트 의무화라는 세 가지 핵심 대책을 제안합니다.\n\n특히 생물학 분야에서 모델의 기능이 악용될 경우 공격자가 방어자보다 압도적으로 유리해질 수 있다는 비대칭적 위험성을 경고합니다. 결론적으로 Anthropic은 특정 모델 형태를 금지하는 방식이 아닌, 모델의 능력치에 기반한 체계적인 안전 조치와 실증적인 테스트를 통해 AI 기술을 관리해야 한다는 입장을 견지하고 있습니다.",
+    "url": "https://www.anthropic.com/news/position-open-weights-models",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "fetchedAt": "2026-07-28T00:14:38.695Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
