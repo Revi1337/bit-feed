@@ -1,5 +1,230 @@
 [
   {
+    "id": "/blog/release/v24.18.1?1785341947684",
+    "title": "Node.js 24.18.1 (LTS)",
+    "summary": "Juan José2026-07-29, Version 24.18.1 'Krypton' (LTS), @juanarbol (https://nodejs.org/en/blog/release/v24.18.1#2026-07-29-version-24181-krypton-lts-juanarbol)\nThis is a security release.\nNotable Change",
+    "aiSummary": "Node.js 24.18.1 Krypton LTS 버전은 보안 업데이트를 포함한 릴리스입니다. 이번 업데이트에서는 다양한 보안 취약점을 해결하고 주요 의존성 패키지를 최신 버전으로 갱신하였습니다.\n\n주요 보안 조치 사항은 다음과 같습니다.\nhttp2 모듈에서 헤더 메모리 유지 처리와 리셋 스트림 지연 설정을 개선하여 취약점을 해결하였습니다.\npermission 모듈과 관련하여 radix split 노드 생성 방지 및 파일 시스템 권한 강제, 경로 체크 기능을 강화하였습니다.\nhttps 모듈의 PFX 객체 배열 에이전트 키 식별 및 세션 재사용 시 아이디어티티 검사 기능을 보완하였습니다.\nsqlite의 문장 재설정 시 반복자 무효화, dns 모듈의 대규모 응답 처리, zlib의 버퍼 범위 초과 쓰기 방지, http 요청의 최대 헤더 제한 등의 보안 패치가 포함되었습니다.\n\n또한, 업데이트된 의존성 항목으로는 llhttp 9.4.3 버전과 undici 7.29.0 버전이 적용되었습니다. \n\n이번 릴리스는 다양한 운영체제별 설치 파일과 바이너리 및 소스 코드를 제공하며, 자세한 기술 문서와 API 정보는 Node.js 공식 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v24.18.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-07-29T16:19:07.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+    "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+    "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’re rolling it out today in Googl",
+    "aiSummary": "Google이 새로운 음악 생성 모델인 Lyria 3.5를 자사의 서비스인 Google Flow Music을 통해 출시하였습니다. 이번 업데이트는 음악성, 가사 작성, 보컬 품질 및 창작 제어 기능 등 여러 방면에서 대폭 개선된 성능을 제공합니다.\n\nLyria 3.5는 더욱 자연스럽고 복잡한 선율을 생성할 수 있도록 음악성을 향상시켰으며, 사용자의 입력 의도를 더 정확하게 반영하여 구조적으로 완성도 높은 가사를 작성합니다. 또한 보컬의 발음과 감정 표현을 현실적으로 다듬어 더욱 풍부한 음악을 만들 수 있게 지원합니다.\n\n사용자는 이번 업데이트를 통해 출력되는 음악의 템포와 재생 시간을 더욱 세밀하고 쉽게 조절할 수 있게 되었습니다. 향상된 기능이 적용된 Lyria 3.5는 현재 Google Flow Music 웹사이트에서 바로 사용해 볼 수 있습니다.",
+    "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-07-29T16:02:10.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/",
+    "title": "What’s new in Gemini Enterprise Agent Platform",
+    "summary": "Since we launched Gemini Enterprise Agent Platform a few months ago, we’ve seen inspiring progress from businesses and builders alike. To stir up development, we’ve also shared 13 demos that can walk ",
+    "aiSummary": "Google Cloud는 Gemini Enterprise Agent Platform의 기능을 대폭 확장하며 기업들이 더욱 효율적이고 안전하게 AI 에이전트를 구축하고 운영할 수 있도록 지원합니다. 이번 업데이트의 핵심은 에이전트의 지속성 강화, 보안 및 거버넌스 체계 구축, 그리고 성능 모니터링 최적화입니다.\n\n에이전트의 운용 능력을 높이기 위해 도입된 Agent Memory Bank는 구조화된 스키마를 통해 대화 문맥과 사용자 정보를 장기간 유지하여 개인화된 경험을 제공하며, Agent Runtime은 최대 7일간 에이전트가 연속적으로 복잡한 업무를 수행할 수 있도록 지원합니다. 이를 통해 인간의 개입을 최소화하면서 장기적인 비즈니스 워크플로우를 자동화할 수 있습니다.\n\n보안과 거버넌스를 위해서는 세 가지 핵심 기능이 제공됩니다. Agent Identity는 최소 권한 원칙을 적용하여 에이전트의 접근 권한을 엄격하게 관리하고 토큰 탈취 위험을 방지합니다. Agent Gateway는 중앙 제어 지점으로서 정책 설정과 인라인 보호 기능을 제공하며, Agent Registry는 조직 내 모든 에이전트와 관련 자원을 통합 관리하여 중복 개발을 방지하고 가시성을 확보합니다.\n\n또한, 운영 중인 에이전트의 성능을 최적화하기 위해 실시간 평가와 관측성 도구가 강화되었습니다. Agent evaluation은 Google DeepMind와 협력한 지표를 포함하여 에이전트의 성능 저하를 능동적으로 탐지하며, Agent observability는 상세한 추적 기능을 통해 에이전트의 추론 과정과 도구 활용 방식을 가시화합니다.\n\n이와 함께 Google Cloud는 코드 보안을 자동화하는 관리형 에이전트인 CodeMender를 발표하여 능동적인 코드 수정과 제로데이 취약점 위험 감소를 지원합니다. 이러한 기능들은 AT&T, Best Buy, Commerzbank AG 등 다양한 글로벌 기업들이 신뢰성 있고 확장 가능한 AI 환경을 구축하는 데 핵심적인 역할을 하고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mike Clark"
+      ],
+      "title": [
+        "Director of Product Management, Gemini Enterprise Agent Platform"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-29T16:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/automate-agent-development-lifecycles-with-gemini-enterprise/",
+    "title": "Automate your agent development lifecycle using any coding agent",
+    "summary": "Welcome to our latest Gemini Enterprise Agent Platform deep dive, a practical walkthrough where we’ll teach you how to build real-world, production-ready agents starting from step 1. If you haven’t al",
+    "aiSummary": "이 기사는 Gemini Enterprise Agent Platform을 활용하여 코딩 에이전트 환경에서 아이디어 구상부터 배포, 운영, 보안, 평가에 이르는 전체 에이전트 개발 수명 주기를 자동화하는 방법을 설명합니다. 개발자는 개별 도구 간의 전환 없이 Agents CLI와 Developer Knowledge MCP를 사용하여 에이전트 개발의 모든 단계를 통합적으로 수행할 수 있습니다.\n\n핵심 사례인 Industry Watch 에이전트는 반도체 기업의 보도자료와 SEC 제출 문서를 실시간으로 비교 분석하여 정보의 격차를 찾아냅니다. 이 과정은 단순한 챗봇이 아닌 결정론적 도구와 모델을 결합한 아키텍처를 따르며, 이를 통해 모델의 환각 현상을 방지하고 데이터의 신뢰성을 확보합니다.\n\n개발 단계는 다음 여섯 단계로 구성됩니다. 첫째, 에이전트 플랫폼 기술을 습득하고 환경을 설정합니다. 둘째, 프롬프트를 통해 에이전트의 구조와 데이터를 처리할 Python 기반의 도구를 생성합니다. 셋째, 관리형 런타임에 배포하고 세션 기억 기능과 메모리 뱅크를 활용하여 상태 유지형 서비스로 전환합니다. 넷째, Agent Identity와 Model Armor를 적용하여 권한을 제한하고 프롬프트 주입 공격을 방어하는 보안 체계를 구축합니다. 다섯째, grounded evaluation을 통해 답변의 정확성과 근거를 자동 테스트합니다. 마지막으로, Gemini Enterprise 앱에 에이전트를 게시하여 비즈니스 사용자가 직접 활용할 수 있도록 합니다.\n\n이러한 방식은 개발자가 별도의 UI나 복잡한 도구 전환 없이 자연어 프롬프트만으로 실제 운영 가능한 수준의 기업용 에이전트를 구축하고 관리할 수 있게 지원합니다. 결과적으로 코딩 에이전트는 단순히 코드를 작성하는 도구를 넘어 에이전트 개발 수명 주기 전반을 제어하는 중심축으로 기능합니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/automate-agent-development-lifecycles-with-gemini-enterprise/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shubham Saboo"
+      ],
+      "title": [
+        "Senior AI Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-29T16:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/introducing-the-borderless-lakehouse/",
+    "title": "The borderless Lakehouse: Bring AWS, Databricks and Snowflake data to your AI agents",
+    "summary": "Today’s data lakehouse is no longer mere data repository, but increasingly a system of action, actively executing tasks via always-on, autonomous AI agents. Rather than waiting for static reports, the",
+    "aiSummary": "Google Cloud는 데이터 이동 없이 다양한 플랫폼에 분산된 데이터를 활용할 수 있도록 지원하는 borderless Lakehouse를 발표했습니다. 이번 업데이트는 Apache Iceberg를 기반으로 구축되었으며 AWS Glue, Databricks Unity, Snowflake Horizon과 같은 외부 카탈로그와의 연동을 통해 데이터 사일로를 제거하고 통합적인 데이터 분석 환경을 제공합니다.\n\n이 기술의 핵심은 데이터 복사본을 생성하지 않는 zero-copy 통합입니다. SAP, Salesforce, Workday와 같은 SaaS 애플리케이션 데이터를 BigQuery에서 직접 쿼리할 수 있으며, 이 과정에서 양방향 상호 운용성과 통합된 거버넌스 및 보안 정책이 적용됩니다. 이를 통해 기업은 물리적 위치에 구애받지 않고 일관된 보안 환경에서 데이터를 분석하고 활용할 수 있습니다.\n\n또한 Cross-Cloud Interconnects를 통해 AWS나 Azure에 저장된 데이터에 접근할 때 발생하는 높은 네트워크 비용과 지연 시간을 최소화합니다. 지능형 크로스 클라우드 캐싱 기술을 활용하여 원격 데이터를 효율적으로 관리하고, 대규모 데이터를 별도의 마이그레이션 없이도 고성능으로 처리할 수 있도록 설계되었습니다.\n\nAI 에이전트의 신뢰성을 높이기 위한 Knowledge Catalog도 도입되었습니다. 이는 다양한 클라우드 환경의 메타데이터를 통합하고 비즈니스 컨텍스트를 추출하여 AI 모델이 데이터의 의미를 명확하게 파악하도록 돕습니다. 이를 통해 AI 에이전트는 할루시네이션을 줄이고 보다 정확한 의사결정을 내릴 수 있습니다.\n\n마지막으로 Google Cloud는 Gemini Enterprise와 연동되는 Data Agent Kit를 제공합니다. 이를 통해 개발자는 MCP 도구를 사용하여 자연어로 데이터를 조회하는 커스텀 에이전트를 쉽게 구축할 수 있습니다. 이러한 통합적인 접근은 데이터 전송 비용과 토큰 소비를 대폭 절감하며, 데이터 관리 효율성을 극대화하여 기업의 생성형 AI 도입 비용 구조를 혁신합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/introducing-the-borderless-lakehouse/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sirish Chandrasekaran"
+      ],
+      "title": [
+        "VP, Product Management"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-29T16:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/looker-adds-agentic-workflows-for-data-monitoring-and-insights/",
+    "title": "Automate data monitoring and root-cause analysis with Looker Agentic Workflows",
+    "summary": "Traditional business intelligence alerts can only tell you that a metric changed, leaving data analysts to manually hunt through dashboards to figure out why. Today, we are introducing Looker Agentic ",
+    "aiSummary": "Google Cloud는 데이터 모니터링과 근본 원인 분석을 자동화하는 Looker Agentic Workflows를 프리뷰 버전으로 공개합니다. 기존 비즈니스 인텔리전스 도구들이 단순한 수치 변화만을 알렸던 것과 달리, 이 기능은 지능형 에이전트를 활용하여 데이터 분석 과정을 대폭 간소화합니다.\n\n사용자는 Conversational Analytics 인터페이스에서 자연어로 모니터링 규칙을 설정할 수 있습니다. 특정 지표의 변화 조건을 입력하면 에이전트가 이를 해석하여 워크플로우를 생성하며, 사용자가 이를 검토하고 승인하면 즉시 자동화가 시작됩니다.\n\n지표가 설정된 임계값을 초과할 경우, 에이전트는 즉시 데이터 모델을 대상으로 Key Driver Analysis를 수행합니다. 이를 통해 변화를 유발한 구체적인 요인을 파악하고 Slack이나 이메일을 통해 상세한 진단 보고서를 전달함으로써 분석가들의 수작업 부담을 최소화합니다.\n\n모든 알림에는 Conversational Analytics로 즉시 연결되는 링크가 포함되어 있어, 사용자는 진단 결과를 바탕으로 후속 질문을 던지거나 가설을 검증하는 심층 분석을 이어갈 수 있습니다. 또한 관리자는 중앙 집중식 인터페이스를 통해 조직 전반의 워크플로우를 검토하고 제어할 수 있어 엔터프라이즈 거버넌스를 유지합니다.\n\nLooker Agentic Workflows는 Looker 버전 26.08 이상에서 Gemini in Looker 설정을 통해 활성화할 수 있습니다. 권한을 가진 사용자라면 누구나 즉시 기능을 사용하여 데이터 모니터링 체계를 구축할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/looker-adds-agentic-workflows-for-data-monitoring-and-insights/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Indumathi Velusamy"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-29T16:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.141.0",
+    "title": "0.141.0",
+    "summary": "Features\n✨ Add app.frontend(check_dir=\"auto\"), to make local development more convenient with fastapi dev. PR #16102 by @tiangolo.",
+    "aiSummary": "FastAPI가 0.141.0 버전으로 업데이트되었습니다. 이번 업데이트를 통해 로컬 환경에서 개발 편의성을 높이기 위한 app.frontend 기능이 추가되었습니다. 해당 기능은 check_dir=\"auto\" 옵션을 지원하며 이를 통해 fastapi dev 명령어를 활용한 개발 과정이 더욱 원활해집니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.141.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-29T14:47:36.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.5.1?1785333819312",
+    "title": "Node.js 26.5.1 (Current)",
+    "summary": "Rafael Gonzaga2026-07-29, Version 26.5.1 (Current), @RafaelGSS (https://nodejs.org/en/blog/release/v26.5.1#2026-07-29-version-2651-current-rafaelgss)\nThis is a security release.\nNotable Changes (https",
+    "aiSummary": "Node.js 버전 26.5.1이 보안 릴리스로 배포되었습니다. 이번 업데이트는 다수의 CVE 취약점 해결을 포함하고 있으며, 보안 강화를 위한 여러 변경 사항이 적용되었습니다.\n\n주요 수정 사항은 다음과 같습니다.\n\nhttp2 모듈에서 스트림 범위를 다룰 때 발생하던 문제를 수정했습니다.\n권한 설정과 관련하여 radix split 노드 생성 오류를 방지하고, 파일 시스템 쓰기 권한 및 보고서 출력 경로에 대한 검사를 강화했습니다.\nhttps 모듈에서 PFX 객체 배열 에이전트 키를 명확히 구분하고, 세션 재사용 시 ID 확인 기능을 추가했습니다.\nsqlite 모듈에서 문 실행 재설정 시 태그 저장소 반복자를 무효화하도록 수정했습니다.\ndns 모듈에서 대용량 resolveAny 주소 응답 처리를 개선했습니다.\nzlib 모듈에서 버퍼 쓰기 범위를 벗어나는 오류 발생 시 예외를 던지도록 수정했습니다.\nhttp 모듈에서 헤더 최대 개수를 초과하는 요청을 차단하도록 정책을 강화했습니다.\n\n또한, 내장 종속성인 llhttp를 9.4.3으로, undici를 8.9.0으로 각각 업데이트하여 안정성을 높였습니다. 윈도우, macOS, 리눅스 및 AIX 등을 포함한 다양한 운영체제용 설치 파일과 바이너리가 공식 홈페이지를 통해 제공됩니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.5.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-07-29T14:03:39.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/release/v22.23.2?1785333695511",
+    "title": "Node.js 22.23.2 (LTS)",
+    "summary": "Marco Ippolito2026-07-29, Version 22.23.2 'Jod' (LTS), @marco-ippolito (https://nodejs.org/en/blog/release/v22.23.2#2026-07-29-version-22232-jod-lts-marco-ippolito)\nThis is a security release.\nNotable",
+    "aiSummary": "Node.js 22.23.2 LTS 버전은 보안 강화를 위한 업데이트로 다양한 취약점을 해결했습니다.\n\n주요 업데이트 내용으로는 http2 프로토콜에서 헤더 메모리 유지 방식 개선 및 RST 스트림 지연 처리, permission 기능에서 권한 부여 로직의 안전성 강화가 포함되었습니다. 또한 https 관련 ID 검증과 PFX 객체 처리, dns의 대용량 응답 처리, zlib의 버퍼 쓰기 제한 등 보안 이슈들에 대한 패치가 진행되었습니다.\n\n추가로 llhttp를 9.4.3 버전으로, undici를 6.28.0 버전으로 업데이트하여 라이브러리 차원의 안정성을 높였습니다. 이번 릴리스에는 운영체제별 다양한 설치 파일과 바이너리가 포함되어 있으며, 각 환경에 맞춰 업데이트를 진행할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/release/v22.23.2",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-07-29T14:01:35.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "title": "Default model enablement for Copilot Business and Enterprise",
+    "summary": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new m",
+    "aiSummary": "GitHub가 Copilot Business 및 Copilot Enterprise 요금제를 사용하는 고객을 대상으로 새로운 글로벌 기본 활성화 정책을 도입합니다.\n\n앞으로는 관리자가 새로운 Copilot 모델이 출시될 때마다 수동으로 기능을 설정할 필요가 없습니다. 정식 출시된 모든 모델은 자동으로 활성화되어 사용자가 즉시 최신 기술을 활용할 수 있도록 지원합니다.\n\n이번 업데이트는 관리자의 운영 부담을 줄이고 사용자들이 가장 최신의 AI 기능을 원활하게 이용할 수 있도록 하기 위한 목적입니다. 다만 관리자는 필요에 따라 정책 설정을 통해 특정 모델을 비활성화하는 등의 제어 권한을 유지할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-29T14:01:07.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_132",
     "title": "Visual Studio Code 1.132 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders)\nRead the full article",
@@ -13,6 +238,54 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+    "title": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.1, which improves framework coverage for ",
+    "aiSummary": "GitHub는 코드 보안 취약점을 탐지하고 수정하는 정적 분석 엔진인 CodeQL의 최신 버전 2.26.1을 출시했습니다. 이번 업데이트를 통해 Go 언어에 대한 프레임워크 지원 범위가 더욱 확대되었습니다. 또한 이번 버전에서는 코드 스캐닝의 전반적인 분석 정확도를 향상시켜 개발자가 보안 문제를 더욱 효율적으로 식별하고 대응할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-29T09:45:11.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/vulnerability/july-2026-security-releases?1785283200000",
+    "title": "Wednesday, July 29, 2026 Security Releases",
+    "summary": "The Node.js ProjectSecurity releases available (https://nodejs.org/en/blog/vulnerability/july-2026-security-releases#security-releases-available)\nUpdates are now available for the 26.x, 24.x, 22.x Nod",
+    "aiSummary": "Node.js 프로젝트는 2026년 7월 29일, 26.x, 24.x, 22.x 릴리스 라인에 대한 보안 업데이트를 발표했습니다. 이번 업데이트는 의존성 패키지인 undici와 llhttp의 업데이트를 포함하며, 다수의 취약점을 해결합니다.\n\n주요 고위험 취약점으로는 HTTP/2 처리 과정에서의 메모리 고갈 문제, nghttp2_session_mem_send() 호출 시 발생하는 힙 사용 후 해제(heap-use-after-free, CVE-2026-56848), 그리고 권한 모델(Permission Model)의 경로 매칭 오류로 인해 허용되지 않은 파일 시스템에 접근할 수 있는 결함(CVE-2026-58043)이 있습니다.\n\n중위험 및 저위험 취약점으로는 HTTPS Agent의 mTLS 식별자 재사용 문제(CVE-2026-56850), 세션 재사용 시 호스트네임 검증 누락(CVE-2026-58040), node:sqlite의 스테일 반복자 문제, dns.resolveAny()의 과도한 DNS 응답 처리 시 프로세스 중단, node:zlib 동기 API의 크래시 유발 결함(CVE-2026-58045) 등이 포함됩니다. 또한, 권한 모델 내에서 추적 이벤트나 프로세스 보고 기능이 허용된 경로 밖으로 파일을 작성할 수 있는 보안 결함과 HTTP 클라이언트의 요청 동기화 문제도 수정되었습니다.\n\n이번 보안 조치는 각각 Node.js v26.5.1, v24.18.1, v22.23.2 버전을 통해 적용되었습니다. 사용자는 시스템 보안을 위해 최신 릴리스 버전으로 즉시 업데이트할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-07-29T00:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/7/29/nominations-2026-rails-luminary",
+    "title": "Nominations open for the 2026 Rails Luminary Awards",
+    "summary": "Every year, Rails gets a little better. A little faster, a little safer, a little easier to work with. And none of that happens on its own.\nThe Rails Luminary Awards exist to celebrate those contribut",
+    "aiSummary": "Rails 커뮤니티의 발전에 크게 기여한 인물을 선정하는 2026 Rails Luminary Awards 후보 추천이 시작되었습니다. 이번 어워드는 버그 수정, 성능 향상, 신규 기능 추가 등 Rails 생태계를 위해 헌신한 기여자를 발굴하여 그 공로를 기념하기 위해 마련되었습니다.\n\n후보 추천은 8월 21일까지 진행되며 Rails Core 팀의 심사를 거쳐 최종 선정자에게는 트로피와 함께 1,000달러의 상금이 수여됩니다. 기업이나 단체는 후보 대상에서 제외되며 과거 수상자 또한 중복 선정이 불가능합니다. 본인 스스로를 추천할 수 없으며 제3자의 추천으로만 후보 등록이 가능합니다. 추천인의 개인정보는 엄격히 보호되며 동의 없이 공개되지 않습니다.",
+    "url": "https://rubyonrails.org/2026/7/29/nominations-2026-rails-luminary",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Amanda Perino",
+    "pubDate": "2026-07-29T00:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
@@ -17241,6 +17514,22 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/cursor",
+    "title": "Elastic and Cursor partner to accelerate context engineering with coding agents",
+    "summary": "Elastic and Cursor partner to bring Elasticsearch's retrieval, tools, and memory into Cursor's coding agents, giving developers a context engineering foundation that keeps AI grounded in their own dat",
+    "aiSummary": "Elastic과 Cursor가 파트너십을 체결하여 개발자들을 위한 컨텍스트 엔지니어링 기반을 강화합니다. 이번 협력을 통해 Elasticsearch의 검색 기능과 도구, 메모리 역량이 Cursor의 코딩 에이전트에 통합됩니다. 이를 통해 개발자들은 AI가 프로젝트의 방대한 데이터에 기반하여 보다 정확하고 관련성 높은 코드를 생성할 수 있는 환경을 구축하게 됩니다. 결과적으로 AI 코딩 에이전트가 개발자 개별 데이터를 더욱 효과적으로 이해하고 활용할 수 있도록 지원하는 것이 이번 협업의 핵심 목표입니다.",
+    "url": "https://www.elastic.co/blog/cursor",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Hemant Malik,Laurent Saint-Félix,Rithika Kancharla",
+    "pubDate": "2026-04-13T00:00:00.000Z",
+    "fetchedAt": "2026-07-29T16:42:18.536Z",
+    "tags": [
+      "ElasticSearch",
       "NoSQL"
     ]
   },
