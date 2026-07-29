@@ -1,5 +1,117 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+    "title": "GitHub Copilot app usage metrics now expand across report rollups",
+    "summary": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.…\nT",
+    "aiSummary": "GitHub Copilot의 애플리케이션 사용량 측정 지표가 더욱 광범위한 리포트 롤업 데이터를 지원하도록 확장되었습니다.\n\n이제 enterprise-user 및 organization-user 보고서 내에서 개별 Copilot 애플리케이션의 활동이 사용자별로 명확하게 귀속되어 상세히 확인 가능합니다. 이번 업데이트를 통해 기업 및 조직 관리자는 사용자가 어떤 환경에서 Copilot을 활용하고 있는지에 대한 가시성을 더욱 확보할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-28T23:35:01.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata",
+    "title": "npm publish-time malware scanning and dual-use metadata",
+    "summary": "As part of our ongoing supply-chain security work, npm is introducing automatic scanning of packages at publish time. This changelog covers what publishers can expect and a new metadata requirement…\nT",
+    "aiSummary": "npm은 소프트웨어 공급망 보안을 강화하기 위해 패키지 배포 시점에 악성 코드를 자동으로 탐지하는 스캐닝 기능을 도입합니다. 이번 업데이트를 통해 모든 신규 패키지 배포 과정에서 보안 검사가 수행되며, 패키지 게시자는 배포 단계에서 변화된 요구 사항을 준수해야 합니다. 특히 이번 변경 사항에는 이중 사용 메타데이터에 대한 새로운 규정이 포함되어 있어, 개발자들은 배포 환경에서의 기술적 준수 사항을 확인해야 합니다. 이러한 조치는 npm 생태계 전반의 보안 수준을 높이고 악성 패키지의 유입을 사전에 차단하기 위한 목적을 가집니다.",
+    "url": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-28T22:50:05.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+    "title": "Grok 4.5 is now available in GitHub Copilot",
+    "summary": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up…\nThe post Grok 4.5 i",
+    "aiSummary": "xAI의 최신 추론 모델인 Grok 4.5가 GitHub Copilot에 도입됩니다.\n\n해당 모델은 신속한 에이전트 기반 코딩과 복잡한 다단계 워크플로우를 처리할 수 있도록 설계되었습니다. 특히 방대한 컨텍스트 윈도우를 지원하여 개발자가 더욱 효율적으로 코드를 작성하고 기술적인 문제를 해결하는 데 도움을 줄 예정입니다.",
+    "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-28T19:10:45.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-google-data-cloud-in-q326/",
+    "title": "Bringing Conversational Analytics to your entire data ecosystem",
+    "summary": "Increasing the adoption of generative AI across the enterprise requires you to do more than deploy a generic chatbot with a custom wrapper. Interacting with business-critical databases demands absolut",
+    "aiSummary": "Google Cloud는 기업 내 생성형 AI 활용을 극대화하기 위해 Conversational Analytics 기능을 전사적 데이터 생태계로 확장하고 있습니다. 현재 BigQuery와 Looker의 Conversational Analytics가 정식 출시되었으며 AlloyDB, Cloud SQL, Spanner 등 데이터베이스를 위한 기능도 프리뷰로 제공됩니다. 이를 통해 사용자는 Google Cloud뿐만 아니라 멀티 클라우드 환경의 데이터까지 통합하여 질의할 수 있습니다.\n\n데이터 보안과 거버넌스를 위해 CMEK, Private IP, VPC 제어 기능을 제공하며 유럽 연합과 미국의 리전 내 데이터 거주지 보장과 HIPAA 준수를 지원합니다. 또한 역할 기반 접근 제어를 통해 행과 열 단위의 세밀한 데이터 권한 관리가 가능합니다. 관리자는 OpenTelemetry 표준을 통해 에이전트의 상태를 모니터링하고 쿼리 비용과 사용량을 효과적으로 관리할 수 있습니다.\n\n정확성을 높이기 위해 Knowledge Catalog, BigQuery Graph, Looker의 시맨틱 계층인 LookML을 활용하여 데이터의 문맥을 정의하고 할루시네이션을 최소화합니다. 특히 Agentic Workflows 기능을 통해 단순한 질의 응답을 넘어 데이터 이상 징후를 자동으로 탐지하고 능동적으로 인사이트를 보고하는 단계로 발전했습니다.\n\n개발자와 기업은 Conversational Analytics API와 다양한 언어의 SDK를 사용하여 업무 도구에 기능을 직접 통합할 수 있습니다. 또한 MCP와 ADK를 활용하면 Slack 챗봇이나 멀티 에이전트 시스템과 같은 맞춤형 애플리케이션 내에 지능형 데이터 분석 환경을 유연하게 구축할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-google-data-cloud-in-q326/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Richard Kuzma"
+      ],
+      "title": [
+        "Group Product Manager, Data Agents"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-28T17:30:00.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/future-proofing-data-integrity-quantum-safe-digital-signatures-in-cloud-kms/",
+    "title": "Future-proofing data integrity: Quantum-safe digital signatures in Cloud KMS",
+    "summary": "With cryptographically relevant quantum computers (CRQC) on the horizon, transitioning to quantum-safe digital signatures is critical to safeguarding long-term data integrity and authenticity. Organiz",
+    "aiSummary": "양자 컴퓨터의 발전으로 인해 데이터 무결성과 신뢰성을 장기간 보호하기 위한 양자 내성 암호 전환이 필수 과제로 떠오르고 있습니다. 이에 발맞추어 Google Cloud는 Cloud KMS를 통해 ML-DSA, SLH-DSA 등 양자 내성 디지털 서명 알고리즘과 ML-KEM 기반의 키 캡슐화 기능을 공식적으로 지원합니다.\n\nCloud KMS가 지원하는 알고리즘은 NIST 보안 등급에 따라 다양한 변형을 포함하며, 대규모 데이터를 효율적으로 처리하기 위해 외부 해싱 기능을 활용하는 external-µ 변형 등을 제공합니다. 기존의 HSM이나 키 관리 서비스는 처리 대역폭과 성능에 제약이 있어 대용량 데이터를 직접 서명하기 어려운 문제가 있습니다. 이를 해결하기 위해 사용자는 로컬에서 SHA2나 SHAKE와 같은 암호화 해시 함수로 데이터를 먼저 처리하여 작은 크기의 요약본을 생성하고, 이를 Cloud KMS에 전달함으로써 안전하고 성능 효율적인 서명 작업을 수행할 수 있습니다.\n\n특히 external-µ 방식은 pre-hash 워크플로우의 효율성과 순수 ML-DSA 검증기와의 호환성을 동시에 확보하며, 공개 키와 메시지 표현을 수학적으로 결합하여 공격자의 조작을 방지하는 비재서명 기능을 제공합니다. 개발자는 Cloud KMS API를 통해 이러한 알고리즘을 기존 서비스에 쉽게 통합할 수 있습니다. Google Cloud는 향후 NIST 표준 및 보안 지침 변화에 따라 서비스를 지속적으로 업데이트하여 기업의 양자 내성 암호 마이그레이션 전략을 적극 지원할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/future-proofing-data-integrity-quantum-safe-digital-signatures-in-cloud-kms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Matt Etemad"
+      ],
+      "title": [
+        "Software Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-07-28T17:00:00.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
     "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
     "summary": "See how Paul Windemuller, a Michigan dairy farmer, is changing the way he works by using AI agents built with Gemini 3.6 Flash.",
@@ -30,6 +142,22 @@
       "Google",
       "Gemini",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/terraform-azurerm-provider-50-now-generally-available",
+    "title": "Terraform AzureRM provider 5.0 now generally available ",
+    "summary": "The Terraform AzureRM provider serves as the bridge between Terraform configurations and Azure, giving teams a consistent, scalable, and secure way to define and manage Azure infrastructure as code. T",
+    "aiSummary": "Terraform AzureRM provider 5.0 버전이 정식 출시되었습니다. 이번 메이저 업데이트는 사용자에게 Azure 구독 관리 권한을 강화하고 인프라 배포 효율성을 높이는 데 중점을 두었습니다.\n\n가장 큰 변화는 Resource Provider 등록 방식의 변경입니다. 이전 버전에서는 초기화 시 약 60개의 레거시 Resource Provider를 자동으로 등록했으나, 5.0 버전에서는 기본적으로 등록을 수행하지 않습니다. 이를 통해 초기화 시간을 단축하고 불필요한 권한 요청을 방지하며 환경에 맞는 세밀한 제어가 가능해졌습니다.\n\n또한 Azure Preflight Validation 기능을 도입하여 terraform plan 단계에서 정책 위반이나 할당량 초과, 잘못된 속성 값 등을 사전에 확인할 수 있게 되었습니다. 다만 이 기능은 옵션 형태로 제공되며, 적용 시점에 확인해야 하는 값은 제외한 추가적인 검증 단계로 활용됩니다.\n\n이외에도 Azure Metadata Service를 통한 위치 및 이름 검증이 기본적으로 비활성화되었으며, 기존에 경고되었던 폐기된 리소스와 속성들이 대거 삭제되었습니다. App Service와 Function App 등은 최신 리소스로 완전히 대체되었고, 리소스 이름 대신 Azure 리소스 ID를 활용하도록 스키마 구조가 변경되었습니다.\n\n사용자는 이번 업그레이드에 앞서 공식 업그레이드 가이드를 검토하고 비운영 환경에서 충분한 테스트를 수행해야 합니다. 특히 사용 중인 리소스와 모듈에 대한 매핑 정보를 확인하여 변경 사항을 반영하는 작업이 필요합니다. 상세한 변경 내역은 Terraform Registry 및 AzureRM 5.0 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/terraform-azurerm-provider-50-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Tiberiu Radu",
+    "pubDate": "2026-07-28T16:00:00.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -271,6 +399,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/07/bringing-google-maps-friendly-meals",
+    "title": "Bringing Google Maps to Friendly Meals with Firebase AI Logic",
+    "summary": "July 28, 2026A couple of months ago, I shared how I used Firebase AI Logic to build a hands-free, real-time cooking assistant for the Friendly Meals Android app (https://firebase.blog/posts/2026/05/bu",
+    "aiSummary": "Friendly Meals 안드로이드 앱에 Firebase AI Logic을 활용하여 실시간 식재료 구매처를 찾아주는 위치 기반 AI 기능을 구현하는 방법이 소개되었습니다. 이 기능은 Google Maps와 연동된 Grounding 기술을 통해 Gemini 모델이 실시간 매장 운영 시간, 위치, 주차 정보 등 실제 데이터를 바탕으로 정확한 추천을 제공하도록 설계되었습니다.\n\n개발 과정에서는 Firebase 콘솔의 프롬프트 템플릿을 사용하여 앱 업데이트 없이도 AI 모델과 프롬프트 설정을 서버 측에서 유연하게 관리하며, 이를 통해 지적 재산을 보호하고 유지보수 효율성을 높였습니다. 안드로이드 클라이언트 측에서는 Kotlin으로 구현된 findStores 함수를 통해 사용자의 위도와 경도 정보를 모델에 전달하며, TemplateTool.googleMaps 도구를 활용해 지리적으로 개인화된 결과를 도출합니다.\n\n사용자의 현재 위치 정보를 정밀하게 추출하기 위해 구글의 FusedLocationProviderClient를 사용하며, 위치 권한 요청과 처리 과정을 거쳐 안정적인 데이터를 확보합니다. 마지막으로 운영 단계에서는 Firebase App Check를 적용하여 비정상적인 접근이나 데이터 오염을 방지하고 서비스의 보안성을 강화해야 합니다. 전체 구현 코드는 Friendly Meals의 GitHub 저장소를 통해 상세히 확인할 수 있습니다.",
+    "url": "https://firebase.blog/posts/2026/07/bringing-google-maps-friendly-meals",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-07-28T00:00:00.000Z",
+    "fetchedAt": "2026-07-29T00:13:36.841Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
