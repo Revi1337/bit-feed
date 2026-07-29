@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_132",
+    "title": "Visual Studio Code 1.132 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.132 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트에는 개발자의 생산성을 높이기 위한 다양한 기능 개선과 버그 수정 사항이 포함되어 있습니다. 사용자들은 공식 웹사이트에 게시된 상세 문서를 통해 이번 업데이트에서 추가된 구체적인 신규 기능과 변경 사항을 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_132",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-07-29T10:01:46.292Z",
+    "fetchedAt": "2026-07-29T10:01:46.292Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
     "title": "GitHub Copilot app usage metrics now expand across report rollups",
     "summary": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.…\nT",
@@ -1595,39 +1611,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
-    "title": "One service, many doors: Multi-port services in Consul ",
-    "summary": "Modern applications rarely expose just one port. A single service might serve user-facing API traffic on one port, publish metrics on another, and keep an admin or gRPC endpoint on a third. \nThat is o",
-    "aiSummary": "Consul 1.22 버전부터 단일 서비스가 여러 개의 이름이 지정된 포트를 등록하고 관리할 수 있는 멀티 포트 서비스 기능을 지원합니다. 기존에는 하나의 애플리케이션이 여러 포트를 사용할 경우 각각 별도의 서비스로 등록해야 했으나, 이제는 단일 서비스 아이덴티티를 유지하면서도 포트별로 구분하여 운영할 수 있게 되었습니다.\n\n이 모델은 하위 호환성을 완벽하게 보장합니다. 기본 포트를 지정하여 기존 클라이언트가 변경 없이 서비스를 이용할 수 있게 하면서, 포트 식별이 가능한 새로운 클라이언트는 서비스 이름과 포트 이름을 통해 필요한 엔드포인트에 직접 접근할 수 있습니다. 특히 Consul DNS는 포트 이름을 기반으로 SRV 레코드를 반환하며, HTTP API 역시 기존 필드와 새로운 멀티 포트 리스트를 모두 포함하여 기존 도구들과의 통합을 유지합니다.\n\nKubernetes 환경과의 연동도 더욱 자연스러워졌습니다. Kubernetes 서비스에 정의된 명명된 포트들을 Consul 카탈로그로 그대로 동기화하며, 별도의 설정 없이도 단일 서비스 내에서 포트 정보가 관리됩니다. 또한 Consul Enterprise 2.0.0부터 제공되는 멀티 포트 서비스 메시 라우팅 기능을 활용하면, 하나의 사이드카 프록시만으로도 다양한 포트의 트래픽을 보안적으로 올바르게 라우팅할 수 있습니다.\n\n운영 측면에서는 서비스 등록의 중복을 줄이고 명명 규칙을 단순화할 수 있다는 장점이 있습니다. 상태 점검은 서비스 인스턴스 단위로 이루어지지만, 각 포트에 대한 세밀한 접근 제어와 라우팅이 가능해짐으로써 애플리케이션의 실제 구조를 Consul 환경에 더욱 직관적으로 모델링할 수 있게 되었습니다. 앞으로 Consul은 API Gateway 및 클러스터 피어링 등 다양한 영역으로 이 멀티 포트 지원 모델을 확장해 나갈 예정입니다.",
-    "url": "https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Sanika Chavan",
-    "pubDate": "2026-07-22T07:09:00.000Z",
-    "fetchedAt": "2026-07-22T16:52:33.041Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/introducing-openai-presence",
-    "title": "Introducing OpenAI Presence",
-    "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-    "aiSummary": "OpenAI는 기업용 AI 에이전트 플랫폼인 OpenAI Presence를 새롭게 공개했습니다. 이 플랫폼은 고객 응대 및 사내 업무 자동화를 위해 신뢰할 수 있는 음성 및 채팅 기반 에이전트를 구축하고 배포할 수 있도록 지원합니다. 기업은 이를 통해 다양한 워크플로우에 최적화된 AI 솔루션을 효율적으로 운영할 수 있습니다.",
-    "url": "https://openai.com/index/introducing-openai-presence",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-07-22T05:30:00.000Z",
-    "fetchedAt": "2026-07-22T16:52:33.041Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
     ]
   }
 ]
