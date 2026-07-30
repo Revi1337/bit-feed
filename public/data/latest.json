@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/jul/29/dsf-member-of-the-month-katherine-michel/",
+    "title": "DSF member of the month - Katherine \"Kati\" Michel",
+    "summary": "For July 2026, we welcome Katherine \"Kati\" Michel as our DSF member of the month! ⭐\n\nKati is involved in the Django community for many years. She was a DEFNA Director for 8 years and DjangoCon US Webs",
+    "aiSummary": "Django Software Foundation은 2026년 7월의 회원으로 오랜 기간 Django 커뮤니티에서 활동해 온 Katherine Kati Michel을 선정했습니다. Kati는 2017년부터 DSF 멤버로 활동하며 8년간 DEFNA 이사로 재직했고, DjangoCon US의 웹사이트 의장 및 공동 의장을 역임하는 등 커뮤니티 성장에 크게 기여해 왔습니다. 현재는 JPMorganChase에서 소프트웨어 엔지니어로 재직하며 인프라 플랫폼 및 데이터베이스 부문에서 Django를 활용한 시스템을 개발하고 있습니다.\n\nKati는 Django의 강력한 ORM, 기본 제공되는 관리자 인터페이스, 보안성, 그리고 풍부한 라이브러리 생태계를 핵심 장점으로 꼽습니다. 특히 django-silk를 통한 성능 최적화와 htmx, django-template-partials를 활용한 효율적인 UI 구현을 선호하는 기술로 언급했습니다. 향후 Django가 FastAPI나 다양한 JavaScript 프레임워크와 경쟁하면서도 기존의 안정성을 유지하며 최신 트렌드인 AI, 비동기 워크플로우, 프론트엔드 프레임워크와의 통합을 더 쉽게 지원하는 가이드를 제공하기를 희망하고 있습니다.\n\nDjangoCon US의 역사에 대해서는 기술적 진보뿐만 아니라 다양성과 포용성이 비약적으로 개선된 점을 가장 긍정적인 변화로 평가했습니다. 특히 Djangonaut Space와 같은 멘토링 프로그램이 커뮤니티 내 기여자의 다양성을 넓히는 데 중요한 역할을 하고 있다고 강조했습니다. Kati는 기술 커뮤니티에서의 성장을 꿈꾸는 사람들에게 소규모 발표부터 시작해 점진적으로 기회를 넓혀 나갈 것을 조언하며, 완벽함보다는 지속적인 도전과 경험의 축적을 강조했습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/jul/29/dsf-member-of-the-month-katherine-michel/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Sarah Abderemane",
+    "pubDate": "2026-07-29T21:48:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18182",
+    "title": "Release Notes for Safari Technology Preview 249",
+    "summary": "Safari Technology Preview Release 249 is now available for download for macOS Golden Gate and macOS Tahoe.",
+    "aiSummary": "Safari Technology Preview 249 버전이 배포되었습니다. 이번 업데이트는 macOS Golden Gate와 macOS Tahoe 운영체제에서 다운로드하여 이용할 수 있습니다.",
+    "url": "https://webkit.org/blog/18182/release-notes-for-safari-technology-preview-249/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-07-29T21:46:12.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "title": "Copilot code review: Agent skills and MCP now generally available",
+    "summary": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabil",
+    "aiSummary": "GitHub의 Copilot 코드 리뷰 기능에서 Agent skills와 MCP 서버 지원이 공식적으로 정식 출시되었습니다.\n\n이번 업데이트를 통해 Copilot Pro, Pro+, Business, Enterprise 사용자는 누구나 해당 기능을 활용할 수 있게 되었습니다.\n\n공개 미리보기 단계를 거쳐 정식으로 배포된 이번 기능은 개발자가 AI 에이전트의 능력을 활용하여 코드 리뷰 효율을 높이고, MCP를 통해 외부 데이터와 서비스를 원활하게 연동할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-07-29T21:26:19.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/7/29/Rails-Versions-7-2-3-2-8-0-5-1-and-8-1-3-1-have-been-released",
+    "title": "Rails Versions 7.2.3.2, 8.0.5.1, and 8.1.3.1 have been released!",
+    "summary": "Hi friends!\nRails Versions 7.2.3.2, 8.0.5.1, and 8.1.3.1 have been released!\nThese are security patches addressing 1 security issues:\nA possible arbitrary file read and remote code execution in Active",
+    "aiSummary": "Rails 보안 업데이트 버전인 7.2.3.2, 8.0.5.1, 8.1.3.1이 배포되었습니다.\n\n이번 업데이트는 Active Storage의 변형 처리 과정에서 발생할 수 있는 임의 파일 읽기 및 원격 코드 실행 취약점인 CVE-2026-66066을 해결하기 위한 보안 패치입니다. 해당 취약점이 시스템에 심각한 영향을 줄 수 있으므로 개발자들에게 가능한 한 신속한 업데이트를 권장합니다.\n\n현재 지원이 종료된 구버전을 사용하는 사용자들은 최소 7.2 시리즈 이상으로 업그레이드할 것을 강력히 권고합니다. 상세한 버전 정보 및 배포된 각 젬에 대한 SHA-256 해시값은 Rails 공식 안내를 통해 확인할 수 있습니다.",
+    "url": "https://rubyonrails.org/2026/7/29/Rails-Versions-7-2-3-2-8-0-5-1-and-8-1-3-1-have-been-released",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "rafaelfranca",
+    "pubDate": "2026-07-29T19:00:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
+    "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
+    "summary": "Kubernetes has long been the default platform for distributed workloads, and writing your own\ncontroller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of\nco",
+    "aiSummary": "Kubernetes 환경에서 controller-runtime의 핵심은 로컬 메모리 캐시 구조에 있습니다. 개발자가 사용하는 r.Get이나 r.List 메서드는 API server에 직접 요청을 보내는 것이 아니라, Manager가 초기 List 작업 이후 watch를 통해 유지하는 로컬 캐시를 조회합니다. 이 설계 덕분에 읽기 작업은 매우 빠르고 API server에 부하를 주지 않지만, 쓰기 직후의 읽기에서 데이터 일관성이 보장되지 않는다는 특징을 가집니다.\n\n캐시의 내부 구조는 Reflector, DeltaFIFO, Indexer로 구성됩니다. Reflector는 API server와 연결을 유지하며 리소스 변경 사항을 감지하고, DeltaFIFO는 이 변경 이벤트를 순서대로 정렬하여 관리합니다. 이후 Indexer가 이를 메모리상의 Map 형태로 저장하며, 컨트롤러는 이를 통해 데이터를 빠르게 조회합니다.\n\n이 과정에서 발생한 이벤트는 컨트롤러의 workqueue로 전달됩니다. workqueue는 동일한 객체에 대한 여러 업데이트를 하나로 합치는 역할을 수행하며, 이로 인해 수많은 이벤트가 발생해도 Reconcile 루프는 효율적으로 동작합니다. 결과적으로 controller-runtime은 API server와의 통신을 최소화하면서도 일관된 상태를 유지하도록 설계된 구조이며, 개발자는 이러한 메커니즘을 이해해야 자원 소비와 성능 문제를 예방할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-07-29T18:00:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.141.1",
+    "title": "0.141.1",
+    "summary": "Fixes\n🐛 Fix support for background tasks and headers from dependencies in app.frontend(). PR #16105 by @tiangolo.\nDocs\n📝 Document FASTAPI_ENV in FastAPI CLI guide. PR #16104 by @tiangolo.",
+    "aiSummary": "FastAPI 버전 0.141.1 업데이트가 배포되었습니다. 이번 업데이트에는 app.frontend() 사용 시 의존성에서 발생하는 백그라운드 작업과 헤더 지원 문제를 해결하는 버그 수정이 포함되었습니다. 또한, FastAPI CLI 가이드에 FASTAPI_ENV 설정에 관한 문서화 내용이 추가되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.141.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-07-29T17:17:26.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "/blog/release/v24.18.1?1785341947684",
     "title": "Node.js 24.18.1 (LTS)",
     "summary": "Juan José2026-07-29, Version 24.18.1 'Krypton' (LTS), @juanarbol (https://nodejs.org/en/blog/release/v24.18.1#2026-07-29-version-24181-krypton-lts-juanarbol)\nThis is a security release.\nNotable Change",
@@ -161,6 +257,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+    "aiSummary": "GPT-4o 모델에서 두 가지 API 설정을 최적화함으로써 ARC-AGI-3 벤치마크 점수를 세 배 향상시킨 사례가 보고되었습니다.\n\n해당 방식은 추론 과정의 연속성을 유지하는 설정과 데이터 압축 기능을 활성화하는 설정을 활용합니다. 이를 통해 모델의 복잡한 문제 해결 능력이 크게 개선되었으며, 성능과 효율성이라는 두 가지 측면에서 모두 유의미한 결과를 도출하였습니다.\n\n결과적으로 모델의 추론 체계를 효율적으로 관리하는 환경 설정이 LLM의 문제 해결 성능을 극대화하는 핵심 요소임을 입증합니다.",
+    "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-07-29T15:00:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.141.0",
     "title": "0.141.0",
     "summary": "Features\n✨ Add app.frontend(check_dir=\"auto\"), to make local development more convenient with fastapi dev. PR #16102 by @tiangolo.",
@@ -190,6 +303,22 @@
     "tags": [
       "Node.js",
       "JS"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/what-we-think-the-2026-gartner-hype-cycle-gets-right-about-graphql",
+    "title": "What We Think the 2026 Gartner Hype Cycle Gets Right About GraphQL",
+    "summary": "GraphQL is in Gartner’s Trough of Disillusionment in the 2026 Gartner® Hype Cycle™ for APIs (https://www.apollographql.com/resources/gartner-hype-cycle-for-apis-2026). Good.\n\n\n\nThe trough is what happ",
+    "aiSummary": "2026 Gartner Hype Cycle for APIs에서 GraphQL이 환멸의 계곡 단계에 진입한 것은 오히려 기술이 성숙기에 접어들었음을 의미합니다. 과거의 기대치가 실질적인 운영 요구 사항과 만나는 이 시점에서 GraphQL은 단순히 유행하는 기술이 아니라 기업 규모의 인프라로서 실질적인 효용성을 증명해야 하는 단계에 놓여 있습니다.\n\nGartner는 GraphQL이 AI 및 에이전트 워크플로우에서의 채택률이 기대보다 낮다고 분석하지만, 이미 GraphQL을 도입한 기업들은 AI 에이전트를 실무에 적용할 준비가 훨씬 잘 되어 있습니다. American Airlines와 같은 사례를 보면 기존의 federated graph 아키텍처가 구축되어 있을 경우 새로운 AI 도입 시 별도의 인프라를 처음부터 설계할 필요가 없으며, Apollo의 MCP Server와 같은 도구를 활용해 기존의 보안, 거버넌스, 관측 가능성 기능을 그대로 에이전트 환경에 적용할 수 있습니다.\n\n단순한 AI 게이트웨이는 트래픽 관리나 보안 제어와 같은 관문 역할에는 유용하지만, 데이터의 의미론적 맥락을 이해하지 못한다는 한계가 있습니다. 반면 GraphQL은 기업 데이터를 통합적으로 모델링하고 거버넌스를 제공하므로, 에이전트가 시스템 전반에서 유기적으로 데이터를 탐색하고 작업을 수행하게 만드는 핵심 맥락 계층이 될 수 있습니다.\n\n결론적으로 GraphQL이 AI 에이전트 시장에서 초기 급성장세를 보이지 않더라도, 이는 채택 속도의 문제일 뿐 그 가치가 낮아진 것은 아닙니다. 잘 설계된 GraphQL 그래프는 에이전트 도입을 위한 견고한 토대가 되며, 성숙한 인프라를 보유한 기업은 그렇지 않은 곳보다 AI 전환 과정에서 확연한 우위를 점하게 됩니다.",
+    "url": "https://www.apollographql.com/blog/what-we-think-the-2026-gartner-hype-cycle-gets-right-about-graphql",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Jeff Auriemma",
+    "pubDate": "2026-07-29T14:02:52.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
     ]
   },
   {
@@ -254,6 +383,55 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/sign-in-with-chatgpt-beta",
+    "title": "Sign in with ChatGPT is in beta on Supabase",
+    "summary": "Use your ChatGPT account to sign in to Supabase, and connect Supabase inside ChatGPT and Codex.",
+    "aiSummary": "Supabase가 ChatGPT 계정을 이용한 간편 로그인 기능을 베타 서비스로 공개하였습니다. 이제 사용자는 본인의 ChatGPT 계정을 통해 Supabase에 직접 로그인할 수 있습니다. 또한 Supabase를 ChatGPT 및 Codex와 연동하여 개발 워크플로우를 더욱 효율적으로 연결할 수 있게 되었습니다.",
+    "url": "https://supabase.com/blog/sign-in-with-chatgpt-beta",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-07-29T07:00:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
+    "title": "MAI-Code-1-Flash: early results from real developer workflows",
+    "summary": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in",
+    "aiSummary": "GitHub이 일상적인 개발 작업의 효율성을 높이기 위해 개발한 경량 코딩 모델인 MAI-Code-1-Flash에 관한 초기 분석 결과를 발표했습니다. \n\n이 모델은 개발자가 매일 수행하는 빠르고 반복적인 작업에 최적화되어 설계되었습니다. 이번 자료는 실제 개발자들의 워크플로우 내에서 해당 모델이 어떠한 성능과 효용을 보여주고 있는지에 대한 데이터 기반의 통찰을 담고 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Faith Xu",
+    "pubDate": "2026-07-29T00:00:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/ipad",
+    "title": "Cursor, now on iPad",
+    "summary": "Jul 29, 2026 · ChangelogCursor, now on iPadCursor for iPad is now available on all paid plans.\nNew to both iPhone and iPad: an inbox to stay organized, and a review experience that covers the full PR.",
+    "aiSummary": "AI 기반 코드 에디터인 Cursor가 iPad 버전을 공식 출시하며 유료 플랜 사용자들에게 서비스를 제공합니다. iPad의 넓은 화면을 활용하기 위해 사이드바 채팅을 고정하여 여러 에이전트를 동시에 모니터링할 수 있도록 레이아웃을 최적화했으며, 화면 분할을 통해 코드 리뷰와 채팅을 동시에 수행하고 파일 차이점을 전체 화면으로 확인할 수 있습니다.\n\n이미지 첨부 및 특정 지점 주석 달기 기능이 강화되었으며 Apple Pencil을 사용한 직접적인 이미지 드로잉도 지원합니다. 또한 iPhone과 iPad 모두에서 PR 전체 내용을 검토하고 관리할 수 있는 환경을 갖추어 코멘트 확인, 검토자 변경, PR 승인 등 통합적인 워크플로우를 제공합니다.\n\n새롭게 추가된 Inbox 기능은 진행 중인 작업과 주의가 필요한 항목, 리뷰가 필요한 PR을 체계적으로 관리하도록 돕습니다. 이 외에도 Bitbucket 및 Azure DevOps SCM 지원, 여러 개의 PR을 동시에 처리하는 멀티 PR 세션 기능, 앱 내에서 소속 팀을 간편하게 전환하는 기능 등이 추가되어 모바일 환경에서의 개발 생산성을 크게 높였습니다.",
+    "url": "https://www.cursor.com/changelog/ipad",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-07-29T00:00:00.000Z",
+    "fetchedAt": "2026-07-30T00:15:44.038Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1626,71 +1804,6 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/health-in-chatgpt",
-    "title": "Launching Health in ChatGPT ",
-    "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-    "aiSummary": "ChatGPT에 Health 기능이 새롭게 도입되었습니다.\n\n이 기능을 통해 미국 내 이용자는 자신의 의료 기록과 Apple Health 데이터를 ChatGPT에 안전하게 연결할 수 있습니다. 사용자는 연동된 정보를 바탕으로 개인화된 건강 통찰을 얻고 자신의 상태를 더욱 깊이 있게 이해할 수 있게 됩니다.",
-    "url": "https://openai.com/index/health-in-chatgpt",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "fetchedAt": "2026-07-24T00:14:55.741Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
-    "title": "Django 6.1 release candidate 1 released",
-    "summary": "Django 6.1 release candidate 1 is now available. It represents\nthe final opportunity for you to try out the version that\noffers a harmonious mélange of new features and usability improvements,\nbefore ",
-    "aiSummary": "Django 6.1의 첫 번째 출시 후보 버전인 Release Candidate 1이 공개되었습니다. 이번 버전은 정식 출시 전 새로운 기능과 사용성 개선 사항을 미리 확인해 볼 수 있는 마지막 기회입니다.\n\n현재 문자열 동결 단계에 진입함에 따라 번역가들의 참여를 요청하고 있으며 향후 2주 동안 치명적인 결함이 발견되지 않을 경우 8월 5일경 정식 버전이 출시될 예정입니다. 만약 일정 변경이 발생하면 Django 포럼을 통해 공지될 것입니다.\n\n사용자들은 Django 공식 다운로드 페이지나 PyPI를 통해 패키지를 내려받아 테스트에 참여할 수 있습니다. 발견된 버그는 Django 이슈 트래커에 보고해 주시기 바라며 이번 릴리스에 사용된 PGP 키 ID는 Jacob Walls 131403F4D16D8DC7입니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/jul/22/django-61-rc-1-released/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jacob Walls",
-    "pubDate": "2026-07-22T20:00:00.000Z",
-    "fetchedAt": "2026-07-23T00:57:24.913Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
-    "title": "Terraform introduces workspaces and Stacks restore, and more",
-    "summary": "Over the past quarter, the HashiCorp Terraform engineering team has introduced new capabilities that make infrastructure management more resilient, scalable, and easier to operate. These updates help ",
-    "aiSummary": "HashiCorp는 최근 HCP Terraform과 Terraform Enterprise의 안정성과 운영 효율성을 높이기 위한 여러 업데이트를 발표했습니다. 주요 내용은 다음과 같습니다.\n\n가장 눈에 띄는 변화는 Workspaces와 Stacks의 복구 기능이 정식 버전으로 출시된 점입니다. 이제 삭제된 Workspaces와 Stacks를 최대 30일 동안 복구할 수 있으며, 이전의 런 기록과 상태 설정 등을 단 한 번의 클릭으로 되돌릴 수 있어 운영상 발생할 수 있는 데이터 손실 위험을 크게 줄였습니다.\n\nStacks에 대한 Monorepo 지원도 정식으로 제공됩니다. 이제 하나의 VCS 저장소 내에서 여러 Stacks를 관리할 수 있으며, 작업 디렉토리 설정과 파일 변경에 기반한 트리거 패턴 기능을 통해 불필요한 연산을 최소화하고 효율적인 인프라 관리가 가능해졌습니다.\n\n또한 기존 Workspaces를 Stacks로 전환하기 위한 가이드 CLI 마이그레이션 도구가 공개 베타 버전으로 제공됩니다. 이는 단계별로 검증하며 마이그레이션을 진행할 수 있도록 설계되어, 기업이 더욱 안전하고 체계적으로 Stacks 환경으로 이전할 수 있도록 지원합니다.\n\n레지스트리 태깅 기능 또한 정식 출시되었습니다. 이제 프로젝트별로 적합한 아티팩트를 쉽게 식별할 수 있는 프로젝트 레지스트리 뷰를 제공하여 사용자의 혼선을 줄였습니다.\n\n마지막으로 정책 우회 권한에 대한 세분화가 이루어졌습니다. 기존에는 조직 전체 단위로만 정책 우회 권한을 부여할 수 있었으나, 이제는 프로젝트나 개별 Workspaces 수준에서 권한을 할당할 수 있게 되어 최소 권한 원칙을 준수하는 보안 모델을 더욱 강화할 수 있게 되었습니다.",
-    "url": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Yushuo Huang",
-    "pubDate": "2026-07-22T17:00:00.000Z",
-    "fetchedAt": "2026-07-24T00:14:55.741Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_131",
-    "title": "Visual Studio Code 1.131 (Insiders)",
-    "summary": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.131 Insiders 버전이 공개되었습니다. 이번 업데이트는 안정성과 성능 향상에 초점을 맞추고 있으며 개발자가 더욱 효율적으로 코드를 작성할 수 있도록 돕는 다양한 기능 개선이 포함되어 있습니다. 자세한 변경 사항과 새롭게 추가된 기능은 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_131",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-07-22T17:00:00.000Z",
-    "fetchedAt": "2026-07-23T00:57:24.913Z",
-    "tags": [
-      "VS Code",
-      "Editor"
     ]
   }
 ]
