@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/07/30/under-the-hat-empowering-gpu-acceleration-for-java/",
+    "title": "Under the HAT: Empowering GPU Acceleration for Java",
+    "summary": "Heterogenous Accelerator Toolkit (HAT) is a novel parallel programming framework designed to accelerate Java parallel workloads on heterogeneous hardware, including Graphics Processing Units (GPUs). H",
+    "aiSummary": "HAT은 Java 환경에서 GPU와 같은 이기종 하드웨어를 활용해 병렬 연산 성능을 높이기 위해 개발된 새로운 병렬 프로그래밍 프레임워크입니다.\n\n이 도구는 OpenJDK의 Babylon 프로젝트에서 도입한 코드 리플렉션 API를 활용하여 Java 코드를 CUDA나 OpenCL과 같은 외부 언어로 변환하는 작업을 수행합니다.\n\n또한 HAT은 생성된 코드의 실행은 물론 데이터 처리와 마이그레이션을 자동으로 관리하는 런타임 시스템을 지원합니다. 개발자들은 HAT API를 통해 데이터 병렬 작업 부하를 GPU로 효율적으로 분산함으로써 Java 애플리케이션의 성능을 크게 향상할 수 있습니다.",
+    "url": "https://inside.java/2026/07/30/under-the-hat-empowering-gpu-acceleration-for-java/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Juan Fumero",
+    "pubDate": "2026-07-30T00:00:00.000Z",
+    "fetchedAt": "2026-07-30T09:55:32.912Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/jul/29/dsf-member-of-the-month-katherine-michel/",
     "title": "DSF member of the month - Katherine \"Kati\" Michel",
     "summary": "For July 2026, we welcome Katherine \"Kati\" Michel as our DSF member of the month! ⭐\n\nKati is involved in the Django community for many years. She was a DEFNA Director for 8 years and DjangoCon US Webs",
@@ -1787,23 +1802,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud",
-    "title": "Observability for every Supabase project with Grafana Cloud",
-    "summary": "Connect your Supabase project to Grafana Cloud in one click. A pre-built dashboard, alerting, and metrics: available on every plan, including free.",
-    "aiSummary": "Supabase 프로젝트를 Grafana Cloud에 클릭 한 번으로 간편하게 연결할 수 있는 기능이 제공됩니다.\n\n이번 업데이트를 통해 모든 Supabase 프로젝트는 플랜 종류와 관계없이 무료 버전을 포함하여 사전 구축된 대시보드와 알림 설정, 그리고 메트릭 모니터링 기능을 사용할 수 있습니다. 이를 통해 사용자는 자신의 프로젝트 상태를 더욱 효율적으로 관측하고 관리할 수 있게 됩니다.",
-    "url": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-07-23T07:00:00.000Z",
-    "fetchedAt": "2026-07-23T16:51:43.375Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
     ]
   }
 ]
