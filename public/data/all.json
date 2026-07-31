@@ -1,5 +1,39 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.9",
+    "title": "1.1.9",
+    "summary": "Added slash-command and skill expansion to print mode, so a headless run such as -p \"/my-skill review this diff\" now resolves and applies the skill instead of sending it as literal text, with --disabl",
+    "aiSummary": "이번 업데이트는 기능 확장과 사용자 경험 개선을 중심으로 다양한 수정 사항을 포함합니다.\n\n먼저 print 모드에 slash-command와 skill 확장을 추가하여 스크립트 실행 시 명령어가 텍스트가 아닌 실제 기능으로 즉시 해석되도록 변경하였으며 disable-slash-commands 옵션을 통해 이를 제어할 수 있게 했습니다. 대화형 시작 과정에서는 MCP 서버가 지연될 경우 에이전트의 첫 번째 턴이 멈추지 않도록 백그라운드 로딩 방식을 도입하여 효율성을 높였습니다.\n\n보안 및 권한 체계도 강화되었습니다. 한번 승인된 패턴은 대화가 유지되는 동안 기억되어 중복 질문을 방지하며 시스템 임시 디렉토리 접근 권한을 읽기뿐만 아니라 쓰기까지 확대하여 파일 생성 시 발생하는 불필요한 알림을 제거했습니다.\n\n이 외에도 지속적인 턴을 방지하는 stop hooks 설정 오류 수정, PostToolUse hooks의 비정상적인 호출 문제 해결, slash-command 인식 오류 및 편집기 내 붙여넣기 방식 개선 등 전반적인 시스템 안정성을 높이는 다수의 버그 수정이 이루어졌습니다. 또한 artifact viewer의 문법 강조 기능 복구와 MCP 서버 연결 끊김 시 재인증 문제 등 사용자 인터페이스와 네트워크 관련 사소한 결함들도 함께 해결되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.9",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-07-31T05:12:14.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "deepseek-2026-07-31",
+    "title": "DeepSeek Update: DeepSeek-V4-Flash Update",
+    "summary": "The official release of the DeepSeek-V4-Flash API is now in public beta. The API calling method remains unchanged — simply set the model name to deepseek-v4-flash to use the latest version.",
+    "aiSummary": "DeepSeek-V4-Flash API가 퍼블릭 베타 버전으로 공식 출시되었습니다. 기존의 API 호출 방식은 그대로 유지되며 모델 명칭을 deepseek-v4-flash로 설정하여 간편하게 최신 버전을 사용할 수 있습니다.",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-07-31",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-07-31T00:00:00.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.docker.com/?p=92620",
     "title": "The Future of Agentic AI Depends on Openness and Trust. That’s Why Docker Is Joining Nvidia’s Open Secure AI Alliance.",
     "summary": "Docker joins NVIDIA's Open Secure AI Alliance to help build the security, governance, and trust frameworks that agentic AI systems demand.",
@@ -178,6 +212,21 @@
     ]
   },
   {
+    "id": "https://www.php.net/archive/2026.php#2026-07-30-5",
+    "title": "PHP 8.4.24 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.24. This is a security release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.24",
+    "aiSummary": "PHP 개발팀은 보안 업데이트를 포함한 PHP 8.4.24 버전을 공식 출시했습니다.\n\n이번 버전은 보안 관련 수정 사항이 포함된 릴리스이므로 모든 PHP 8.4 버전 사용자는 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드와 Windows용 바이너리 파일은 공식 다운로드 페이지를 통해 제공되며, 자세한 변경 사항은 해당 ChangeLog 페이지에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-30-5",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-30T14:55:16.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-07-29-limit-remote-control-to-managed-devices",
     "title": "Limit remote control to managed devices",
     "summary": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is p",
@@ -191,6 +240,21 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-30-4",
+    "title": "PHP 8.3.33 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.3.33. This is a security release.\nAll PHP 8.3 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.3.33",
+    "aiSummary": "PHP 개발팀이 보안 업데이트를 포함한 PHP 8.3.33 버전을 정식으로 출시했습니다.\n\n이번 버전은 보안 개선을 목적으로 배포되었으므로 기존 PHP 8.3 사용자는 즉시 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지를 통해 내려받을 수 있으며 상세한 변경 사항은 공식 Changelog에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-30-4",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-30T14:48:58.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -223,6 +287,51 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-30-3",
+    "title": "PHP 8.6.0 Alpha 3 available for testing",
+    "summary": "The PHP team is pleased to announce the second testing release of PHP 8.6.0, Alpha 3. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source down",
+    "aiSummary": "PHP 개발팀이 PHP 8.6.0의 세 번째 테스트 버전인 Alpha 3를 공개했습니다. 이번 릴리스는 PHP 8.6 버전 출시를 위한 전체 과정의 일환으로 진행됩니다.\n\n해당 버전은 초기 테스트 단계이므로 실제 서비스 환경인 Production 환경에서 사용하는 것은 권장하지 않습니다. 소스 코드는 공식 다운로드 페이지에서 확인할 수 있으며 새로운 기능이나 변경 사항은 NEWS 및 UPGRADING 파일을 통해 확인이 가능합니다.\n\n사용자는 이번 버전을 철저히 테스트한 후 발견된 문제를 GitHub Issues를 통해 보고할 수 있습니다. 다음 릴리스인 Beta 1은 2026년 8월 13일에 출시될 예정입니다.",
+    "url": "https://www.php.net/index.php#2026-07-30-3",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-30T13:24:32.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-30-2",
+    "title": "PHP 8.5.9 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.9. This is a security release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.9 p",
+    "aiSummary": "PHP 개발팀이 보안 업데이트 버전인 PHP 8.5.9를 공식 발표했습니다. 이번 릴리스는 보안 강화를 목적으로 하며 모든 기존 PHP 8.5 사용자들은 즉시 최신 버전으로 업데이트할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 PHP 공식 다운로드 페이지를 통해 이용할 수 있습니다. 상세한 변경 사항은 제공된 ChangeLog 문서에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-07-30-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-30T11:38:53.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-07-30-1",
+    "title": "PHP 8.2.33 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.2.33. This is a security release.\nAll PHP 8.2 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.2.33",
+    "aiSummary": "PHP 개발팀은 보안 업데이트를 포함한 최신 버전인 PHP 8.2.33을 공식 발표하였습니다.\n\n이번 릴리스는 보안 취약점을 해결하기 위한 중요한 업데이트이므로 모든 PHP 8.2 사용자는 최신 버전으로 업그레이드할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며 상세한 변경 사항은 ChangeLog를 통해 확인이 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-07-30-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-07-30T11:00:24.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -1306,6 +1415,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/object-store-buckets",
+    "title": "Prisma Object Store Buckets: S3-Compatible File Storage",
+    "summary": "Object Store buckets add S3-compatible file storage to every Prisma project. Two Management API calls take an agent from nothing to reading and writing files.",
+    "aiSummary": "Prisma Object Store는 모든 Prisma 프로젝트에 S3와 호환되는 파일 저장 기능을 제공합니다. 관리형 API 호출 두 번만으로 별도의 설정 없이 즉시 파일 읽기 및 쓰기 기능을 구현할 수 있는 환경을 구축합니다.",
+    "url": "https://www.prisma.io/blog/object-store-buckets",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-07-28T00:00:00.000Z",
+    "fetchedAt": "2026-07-31T10:01:41.826Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
