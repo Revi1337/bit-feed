@@ -210,6 +210,22 @@
     ]
   },
   {
+    "id": "https://rubyonrails.org/2026/7/31/this-week-in-rails",
+    "title": "Faster i18n loading, thread-safe routes, and more!",
+    "summary": "Hi, it’s Vipul. Let’s explore this week’s\nchanges in the Rails codebase.\nNominations are open for the 2026 Rails Luminary Awards\nRails versions 7.2.3.2, 8.0.5.1, and 8.1.3.1 have been released\nStop fi",
+    "aiSummary": "Rails의 최신 업데이트를 통해 i18n 경로 초기화 과정에서 필터링을 중단하여 로딩 속도를 개선하고, 라우트 로딩 과정의 스레드 안전성을 확보하여 동시성 환경에서의 안정성을 높였습니다.\n\nHTTP 인증 시 scheme을 정규화된 심볼로 전달할 수 있도록 변경하고, join table 헬퍼에서 table_name을 명시적인 키워드 인자로 사용하도록 개선했습니다. 또한 insert 메서드의 returning 옵션이 단일 컬럼명을 지원하도록 변경되어 데이터 접근 방식이 간결해졌습니다.\n\nRactor 환경과의 호환성을 강화하기 위해 thread_mattr의 읽기 및 쓰기 작업과 컨트롤러 미들웨어를 Ractor 안전하게 구성했습니다.\n\n코드 유지보수를 위해 TransactionState 관련 술어 메서드와 insert 메서드의 위치 인자, to_sql의 binds 인자 등을 비권장 처리했습니다. SQL 로그와 EXPLAIN 출력 시 캐스팅된 바인드 값에 대해 파라미터 마커를 표시하도록 하여 가독성을 높였으며, 내부적으로는 Arel과 원시 SQL 처리를 통합하기 위해 파라미터 이름을 arel_or_sql로 통일하고 RETURNING 처리를 QueryIntent 기반으로 리팩토링했습니다.\n\n이번 릴리스에는 총 25명의 기여자가 참여하였으며, Rails 7.2.3.2, 8.0.5.1, 8.1.3.1 버전이 새롭게 배포되었습니다.",
+    "url": "https://rubyonrails.org/2026/7/31/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "vipulnsward",
+    "pubDate": "2026-07-31T00:00:00.000Z",
+    "fetchedAt": "2026-08-01T09:27:59.331Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/plruby-3349/",
     "title": "plRuby\n",
     "summary": "PL/Ruby is a procedural-language handler that lets you write database functions\nin Ruby, stored and executed inside PostgreSQL. You get the expressiveness\nof Ruby and its standard library with the ful",
