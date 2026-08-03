@@ -1142,6 +1142,22 @@
     ]
   },
   {
+    "id": "https://blog.jetbrains.com/?post_type=qodana&p=726686",
+    "title": "Qodana 2026.2: More Security, Better Coverage, Less Configuration",
+    "summary": "Qodana 2026.2 makes it easier for development teams to act on code quality, security, and compliance findings throughout the development workflow. This release introduces clearer code coverage insight",
+    "aiSummary": "JetBrains의 코드 품질 분석 도구인 Qodana 2026.2가 출시되었습니다. 이번 업데이트는 개발 워크플로우 전반에서 코드 품질과 보안, 컴플라이언스 문제를 더욱 효율적으로 관리할 수 있도록 설계되었습니다.\n\n가장 주요한 변화는 Pull Request 단계에서 코드 커버리지에 대한 가시성을 높인 점입니다. 개발자는 IDE 내에서 커버되지 않은 새로운 코드 라인을 즉시 확인할 수 있으며, 프로젝트의 일반적인 위치에 저장된 커버리지 리포트를 자동으로 감지하는 기능이 추가되어 초기 설정 과정이 대폭 간소화되었습니다.\n\n이러한 개선 사항들은 개발 팀이 복잡한 설정 없이도 코드 상태를 명확히 파악하고 보안 취약점에 더 빠르게 대응할 수 있도록 돕습니다. Qodana 2026.2는 개발 생산성을 향상시키고 소프트웨어 품질 유지에 필요한 노력을 줄이는 데 초점을 맞추고 있습니다.",
+    "url": "https://blog.jetbrains.com/qodana/2026/07/qodana-2026-2-more-security-better-coverage-less-configuration/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Kerry Beetge",
+    "pubDate": "2026-07-29T13:47:03.000Z",
+    "fetchedAt": "2026-08-03T10:52:46.900Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_132",
     "title": "Visual Studio Code 1.132 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders)\nRead the full article",
@@ -2072,124 +2088,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/whats-new-in-graph-artifacts",
-    "title": "What’s new in Graph Artifacts",
-    "summary": "When we launched Graph Artifacts (https://www.apollographql.com/blog/introducing-graph-artifacts), we gave teams a way to pin their GraphOS Router (https://www.apollographql.com/graphos-router) to a s",
-    "aiSummary": "Apollo가 Graph Artifacts에 대한 태그 관리 기능을 대폭 강화하여 업데이트했습니다. 기존에는 Graph Artifacts를 사용하더라도 이를 관리하는 도구인 Rover와 Studio에서 태그를 직접 제어할 수 없어 팀들이 별도의 스크립트를 작성해야 하는 불편함이 있었습니다.\n\n이번 업데이트를 통해 Rover 0.41 버전부터 CLI 명령어를 사용하여 태그를 할당, 조회, 수정 및 삭제하는 작업이 가능해졌습니다. 이를 통해 배포 환경에서의 승격과 롤백 과정을 별도의 추가 개발 없이 단일 명령어로 처리할 수 있게 되었습니다.\n\nStudio의 Launches 페이지에서도 태그 정보를 시각적으로 확인할 수 있게 개선되었습니다. 특정 아티팩트가 현재 어떤 태그를 가리키는지 브라우저에서 즉시 파악할 수 있으며, 태그 관리를 위한 적절한 Rover 명령어를 바로 생성할 수도 있습니다.\n\n또한 OCI 표준을 준수하여 설계되었으므로, oras와 같은 외부 도구와도 원활하게 연동됩니다. Apollo에서 관리하는 태그는 시스템에 의해 자동으로 생성되는 불변의 태그와 사용자가 직접 관리하는 가변 태그로 나뉩니다. Router v2.11.0 이상의 버전을 사용하면 태그 변경 시 자동으로 핫 리로드가 이루어져 배포 운영의 효율성이 크게 향상되었습니다. \n\n사용자들은 Rover를 0.41 버전 이상으로 업데이트하고, 기존의 다이제스트 기반 참조 방식을 태그 기반으로 전환하여 더 체계적인 스키마 변경 관리를 시작할 수 있습니다.",
-    "url": "https://www.apollographql.com/blog/whats-new-in-graph-artifacts",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Zack Warnimont",
-    "pubDate": "2026-07-27T09:00:00.000Z",
-    "fetchedAt": "2026-07-27T17:13:49.441Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/security-update-redis-response-to-the-kimi-k3-vulnerability-claims/",
-    "title": "Security update: Redis response to the Kimi K3 vulnerability claims",
-    "summary": "Last week, researchers posted on X that they had used the Kimi K3 AI model to identify vulnerabilities in Redis, including a claim involving 19 zero day vulnerabilities.\n\nWe became aware of this resea",
-    "aiSummary": "최근 X 플랫폼을 통해 Kimi K3 AI 모델을 활용하여 Redis의 19개 제로데이 취약점을 발견했다는 주장이 제기되었습니다.\n\nRedis 측은 해당 게시물을 인지한 직후 즉각적인 조사를 진행하였으며, 현재까지 제기된 취약점들이 실제 운영 환경에서 유효하다는 증거는 확인되지 않았습니다.\n\nRedis는 보안을 최우선 과제로 삼고 있으며, 외부 연구자들의 보고에 대해 지속적인 모니터링과 검증 작업을 수행하고 있습니다.\n\n이번 사안과 관련하여 실제 위협이 확인될 경우 적절한 보안 업데이트를 제공할 예정이며, 사용자들에게는 항상 최신 버전의 소프트웨어를 유지하고 공식 보안 가이드를 준수할 것을 권고합니다.",
-    "url": "https://redis.io/blog/security-update-redis-response-to-the-kimi-k3-vulnerability-claims/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Curtis Means",
-    "pubDate": "2026-07-27T00:00:00.000Z",
-    "fetchedAt": "2026-07-28T10:00:06.719Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/soc-platform-architecture-agentic-security",
-    "title": "From tool procurement to platform architecture: Rethinking the SOC for machine-speed threats",
-    "summary": "Fragmented SOCs can't keep pace with AI-driven attacks. See why security teams are moving from point tools to open, unified, agentic platforms in 2026.",
-    "aiSummary": "AI 기반의 공격이 급증하는 상황에서 기존의 파편화된 SOC 운영 방식은 더 이상 위협 대응 속도를 따라가지 못하고 있습니다. 2026년의 보안 팀들은 개별 도구를 단순히 도입하는 방식에서 벗어나 개방형 통합 플랫폼으로 전환하는 추세입니다. 특히 자율적인 에이전트 기능을 갖춘 플랫폼을 중심으로 아키텍처를 재설계함으로써 기계 수준의 속도로 발생하는 복잡한 공격에 능동적으로 대처하려 합니다. 이러한 변화는 보안 운영의 효율성을 극대화하고 파편화된 도구 운영의 한계를 극복하기 위한 필수적인 전략으로 자리 잡고 있습니다.",
-    "url": "https://www.elastic.co/blog/soc-platform-architecture-agentic-security",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Joe DeFever",
-    "pubDate": "2026-07-27T00:00:00.000Z",
-    "fetchedAt": "2026-07-28T00:14:38.695Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/position-open-weights-models",
-    "title": "Our position on open-weights models",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsOur position on open-weights modelsJul 27, 2026A post by Dario Amodei, Anthropic CEO Over the last few days there has been a lot of discussion ",
-    "aiSummary": "Anthropic의 CEO인 Dario Amodei는 최근 제기된 오픈 웨이트 모델에 대한 전면 금지 주장에 대해 Anthropic은 이를 옹호한 적이 없으며, 오히려 위험한 기능을 포함하지 않는 모델은 공공재로서 가치가 있다는 입장을 분명히 밝혔습니다.\n\n그는 단순히 오픈 웨이트 모델을 규제하는 것이 국가 안보 문제를 해결하지 못한다고 지적하며, 대신 강력한 연산 칩의 권위주의 국가 유입 차단, 산업적 규모의 모델 추출 방지, 그리고 충분한 능력을 갖춘 모든 모델에 대한 엄격한 사전 안전성 테스트 의무화라는 세 가지 핵심 대책을 제안합니다.\n\n특히 생물학 분야에서 모델의 기능이 악용될 경우 공격자가 방어자보다 압도적으로 유리해질 수 있다는 비대칭적 위험성을 경고합니다. 결론적으로 Anthropic은 특정 모델 형태를 금지하는 방식이 아닌, 모델의 능력치에 기반한 체계적인 안전 조치와 실증적인 테스트를 통해 AI 기술을 관리해야 한다는 입장을 견지하고 있습니다.",
-    "url": "https://www.anthropic.com/news/position-open-weights-models",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-07-27T00:00:00.000Z",
-    "fetchedAt": "2026-07-28T00:14:38.695Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/cognizant-anthropic",
-    "title": "Expanding our partnership with Cognizant | Anthropic",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsCognizant and Anthropic expand their partnership to bring Claude to enterprise clientsJul 27, 2026We&#x27;re expanding our partnership with Cog",
-    "aiSummary": "Anthropic와 Cognizant가 전략적 파트너십을 대폭 확대하며 기업용 AI 솔루션 도입을 가속화합니다. Cognizant는 제조, 생명과학, 보험 등 다양한 산업 분야에서 자사의 플랫폼과 시스템에 Claude를 더욱 깊이 통합할 예정입니다.\n\n이번 협력을 통해 Cognizant는 자사의 엔지니어링 플랫폼인 Flowsource를 비롯해 Neuro AI Engineering과 Neuro IT Ops에 Claude를 전면 도입합니다. 특히 Flowsource의 Spec-Driven Development 모듈에서는 Claude Code를 활용해 코딩 표준과 아키텍처 설계를 반영한 실무 자동화를 구현합니다.\n\n기술적 통합과 더불어 인력 양성에도 박차를 가합니다. Cognizant는 새로운 Frontier Certified 인력 모델을 구축하고 있으며, 이미 3만 명 이상의 직원이 Claude 관련 교육을 수료했습니다. 또한 Cognizant는 Claude Partner Network의 Global Premier Partner로서 단순한 실험을 넘어 실제 기업 환경에서 안정적인 생산성 향상을 이끌어내는 AI 구축 모델을 전 세계 고객에게 제공할 계획입니다.",
-    "url": "https://www.anthropic.com/news/cognizant-anthropic",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-07-27T00:00:00.000Z",
-    "fetchedAt": "2026-07-27T17:13:49.441Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
-    "title": "Elastic joins NVIDIA and industry leaders as inaugural member of the Open Secure AI Alliance for AI safety and security",
-    "summary": "NVIDIA, Elastic, and other industry leaders are founding members of an innovative movement building tools to advance open innovation, shared progress, and trust in AI.",
-    "aiSummary": "NVIDIA와 Elastic을 포함한 업계 선도 기업들이 AI의 안전성과 보안 강화를 위해 Open Secure AI Alliance를 창설하였습니다. 이 연합은 오픈 소스 혁신을 촉진하고 AI 기술에 대한 신뢰를 구축하며 공통의 기술적 진보를 이끌어낼 도구를 개발하는 것을 목표로 합니다. 참여 기업들은 기술 공유를 통해 안전한 AI 생태계를 조성하는 데 협력할 예정입니다.",
-    "url": "https://www.elastic.co/blog/elastic-nvidia-inaugural-partner-osaia",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Brian Bergholm,Rachael Wade",
-    "pubDate": "2026-07-27T00:00:00.000Z",
-    "fetchedAt": "2026-07-27T10:52:10.057Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.7",
-    "title": "1.1.7",
-    "summary": "Improved permission prompts for compound shell commands so the full command is shown when any part of it needs approval.\nFixed disabled plugins still running their hooks and contributing other customi",
-    "aiSummary": "복합 셸 명령어 실행 시 전체 명령어를 명확히 표시하도록 권한 승인 요청 메시지를 개선하였습니다.\n\n비활성화된 플러그인이 후속 작업을 계속 수행하여 파일 편집 도구에 문제를 일으키던 오류를 수정하였습니다.\n\nSalesforce나 Atlassian과 같이 표준 규격을 엄격히 준수하지 않는 제공자에 대해서도 MCP OAuth가 정상적으로 동작하도록 유효성 검사 절차를 유연하게 변경하고 refresh_token을 포함하였습니다.\n\n새로운 세션 시작 시 첫 번째 동작으로 /btw 명령어를 사용할 때 발생하던 대화 경로 오류를 해결하였습니다.\n\nWindows 환경에서 CJK 및 비 ASCII 문자를 복사할 때 클립보드 데이터가 손상되던 문제를 수정하였습니다.\n\n인쇄 모드에서 계정 자격 확인이 완료되기 전에 프롬프트가 전송되던 오류를 바로잡았습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.7",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-07-26T00:43:16.000Z",
-    "fetchedAt": "2026-07-26T01:01:46.581Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]
