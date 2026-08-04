@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+    "title": "Enterprise team specialization for managed settings",
+    "summary": "Enterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configu",
+    "aiSummary": "GitHub Enterprise 관리자는 이제 Enterprise 팀별로 세분화된 설정 파일을 적용하여 관리형 설정을 맞춤화할 수 있습니다. 이를 통해 대규모 조직은 모든 구성 변경 사항을 중앙 관리자에게 의존하거나 일괄적인 설정에 얽매이지 않고도 유연하게 거버넌스를 확장할 수 있습니다. 팀 단위의 정밀한 제어가 가능해짐에 따라 조직 운영의 효율성과 보안 관리의 민첩성이 동시에 향상될 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-03T22:55:29.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60516",
+    "title": "Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime",
+    "summary": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain.\nThe post Strengthening NuGet Supply Chain Se",
+    "aiSummary": "NuGet은 공급망 보안을 강화하기 위해 API 키의 최대 유효 기간을 30일로 단축합니다. 이러한 정책 변경은 오는 8월 17일부터 적용됩니다. 이번 조치를 통해 NuGet 생태계의 보안 무결성이 크게 향상될 것으로 기대됩니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "2026-08-03T18:10:00.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+    "title": "Triage role can bypass issue creation restrictions",
+    "summary": "If your repository restricts issue creation to collaborators only, users with the triage role can now create issues. Previously, the restricted setting only allowed users with write access to create…\n",
+    "aiSummary": "GitHub 저장소의 이슈 생성 권한이 협력자로 제한된 경우, 기존에는 쓰기 권한을 가진 사용자만 이슈를 생성할 수 있었습니다. 이제는 Triage 권한을 보유한 사용자도 이슈를 생성할 수 있도록 기능이 변경되었습니다. 이번 업데이트를 통해 Triage 권한을 가진 사용자들은 더욱 유연하게 프로젝트의 이슈 관리 업무를 수행할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-03T17:04:32.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/next-16-3",
+    "title": "Next.js 16.3",
+    "summary": "Next.js 16.3 introduces Instant Navigations, a suite of tools for single-page-app responsiveness, plus a faster dev server, faster builds, and improved tooling for AI agents.",
+    "aiSummary": "Next.js 16.3 버전은 싱글 페이지 애플리케이션의 반응성을 극대화하기 위한 도구 모음인 Instant Navigations 기능을 새롭게 도입하였습니다.\n\n이번 업데이트를 통해 개발 서버와 빌드 속도가 대폭 향상되었으며 AI agents를 위한 도구 지원 역시 강화되었습니다. 개발 효율성과 성능 최적화에 중점을 둔 개선 사항들이 포함되어 있습니다.",
+    "url": "https://nextjs.org/blog/next-16-3",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": "Next.js Blog",
+    "pubDate": "2026-08-03T17:00:00.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/infrastructure-modernization/mainframe-migration-and-modernization-with-ai/",
     "title": "Real-world mainframe modernization with AI: A safe, scalable path from mainframe to cloud",
     "summary": "For too long, enterprises with legacy mainframe estates have been faced with a high-stakes dilemma: continue maintaining their mainframes, essentially kicking the modernization can down the road (they",
@@ -29,6 +93,38 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+    "title": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+    "summary": "Migrations from gitlab.com and GitLab Self-Managed to GitHub Enterprise Cloud with GitHub Enterprise Importer (GEI) are now generally available. You can now self-serve these migrations using GEI and t",
+    "aiSummary": "GitLab.com 및 GitLab Self-Managed 환경에서 GitHub Enterprise Cloud로 저장소를 이전할 수 있는 GitHub Enterprise Importer 기능이 정식으로 출시되었습니다. 이제 사용자는 GitHub Enterprise Importer와 GitHub CLI를 활용하여 직접 마이그레이션을 수행할 수 있습니다. 이번 업데이트를 통해 기업 환경에서의 코드 관리 및 워크플로우 통합 편의성이 크게 향상되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-03T16:33:13.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+    "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
+    "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\nGateway API has become the standard for modern, role-oriented",
+    "aiSummary": "Kubernetes SIG Network은 Gateway API v1.6.0 버전을 새롭게 출시하였습니다. 이번 업데이트의 핵심은 그동안 실험 단계였던 TCPRoute와 UDPRoute가 표준인 v1 API로 승격되어 L4 계층의 트래픽 라우팅을 안정적으로 지원하게 된 점입니다. 이를 통해 데이터베이스, DNS, 게이밍 등 L7 인지가 필요 없는 다양한 프로토콜 환경에서 Gateway API를 표준적인 방식으로 활용할 수 있게 되었습니다.\n\n새롭게 도입된 XBackend 리소스는 서비스 설정을 더욱 유연하게 확장하기 위한 목적으로 설계되었습니다. XBackend는 기존 Service 리소스의 한계를 보완하여 외부 호스트명으로의 연결과 같은 기능을 제공하며, 이를 통해 클러스터 외부 서비스로의 이그레스 구성 등이 보다 용이해질 전망입니다. 다만 XBackend는 현재 실험적인 단계이므로 프로덕션 환경에서의 사용 시 주의가 필요합니다.\n\n또한 이번 버전부터 실험적인 API 리소스와 표준 리소스 간의 경계를 명확히 하기 위해 관리 체계가 변경되었습니다. 앞으로 새로운 실험적 리소스는 gateway.networking.x-k8s.io라는 별도의 그룹으로 분류되며, 리소스 명칭 앞에 X 접두사가 붙게 됩니다. 이 리소스들이 추후 표준으로 승격될 때 X 접두사를 제거하고 표준 그룹으로 이동하는 방식으로 운영될 예정입니다.\n\nGateway API v1.6.0은 GKE Gateway, NGINX Gateway Fabric, Traefik Proxy 등 다양한 구현체에서 이미 지원되고 있으며, 사용자는 공식 문서와 릴리즈 노트를 통해 상세한 마이그레이션 및 적용 가이드를 확인할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-08-03T16:00:00.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
     ]
   },
   {
@@ -222,6 +318,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/google-workspace-plugins",
+    "title": "Google Workspace Plugins",
+    "summary": "Aug 3, 2026 · ChangelogGoogle Workspace PluginsCursor can now read, write, and act across your Google Workspace.\nNew plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, an",
+    "aiSummary": "Cursor가 Google Workspace와 연동되는 새로운 플러그인을 공개했습니다. 이제 개발자들은 Cursor를 벗어나지 않고도 Gmail, Google Drive, Calendar, Docs, Sheets, Chat에 직접 접근하여 정보를 검색하거나 파일을 생성 및 수정하고, 일정과 메시지를 관리할 수 있습니다.\n\nGoogle Drive 플러그인을 통해 파일을 탐색하고 내용을 다운로드하거나 정리할 수 있으며, Gmail과 Google Chat을 활용하여 메일 작성, 전송 및 메시지 소통이 가능합니다. 또한 Google Docs와 Sheets를 통해 문서와 스프레드시트를 직접 편집하고, Google Calendar로 일정을 확인하거나 새로운 이벤트를 생성하는 등 생산적인 작업 환경을 구축할 수 있습니다.\n\n해당 플러그인들은 Cursor Marketplace 또는 설정 페이지를 통해 설치할 수 있으며, 관련 상세 정보는 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/google-workspace-plugins",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-08-03T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1960,135 +2072,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "/blog/object-store-buckets",
-    "title": "Prisma Object Store Buckets: S3-Compatible File Storage",
-    "summary": "Object Store buckets add S3-compatible file storage to every Prisma project. Two Management API calls take an agent from nothing to reading and writing files.",
-    "aiSummary": "Prisma Object Store는 모든 Prisma 프로젝트에 S3와 호환되는 파일 저장 기능을 제공합니다. 관리형 API 호출 두 번만으로 별도의 설정 없이 즉시 파일 읽기 및 쓰기 기능을 구현할 수 있는 환경을 구축합니다.",
-    "url": "https://www.prisma.io/blog/object-store-buckets",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-07-28T00:00:00.000Z",
-    "fetchedAt": "2026-07-31T10:01:41.826Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/07/bringing-google-maps-friendly-meals",
-    "title": "Bringing Google Maps to Friendly Meals with Firebase AI Logic",
-    "summary": "July 28, 2026A couple of months ago, I shared how I used Firebase AI Logic to build a hands-free, real-time cooking assistant for the Friendly Meals Android app (https://firebase.blog/posts/2026/05/bu",
-    "aiSummary": "Friendly Meals 안드로이드 앱에 Firebase AI Logic을 활용하여 실시간 식재료 구매처를 찾아주는 위치 기반 AI 기능을 구현하는 방법이 소개되었습니다. 이 기능은 Google Maps와 연동된 Grounding 기술을 통해 Gemini 모델이 실시간 매장 운영 시간, 위치, 주차 정보 등 실제 데이터를 바탕으로 정확한 추천을 제공하도록 설계되었습니다.\n\n개발 과정에서는 Firebase 콘솔의 프롬프트 템플릿을 사용하여 앱 업데이트 없이도 AI 모델과 프롬프트 설정을 서버 측에서 유연하게 관리하며, 이를 통해 지적 재산을 보호하고 유지보수 효율성을 높였습니다. 안드로이드 클라이언트 측에서는 Kotlin으로 구현된 findStores 함수를 통해 사용자의 위도와 경도 정보를 모델에 전달하며, TemplateTool.googleMaps 도구를 활용해 지리적으로 개인화된 결과를 도출합니다.\n\n사용자의 현재 위치 정보를 정밀하게 추출하기 위해 구글의 FusedLocationProviderClient를 사용하며, 위치 권한 요청과 처리 과정을 거쳐 안정적인 데이터를 확보합니다. 마지막으로 운영 단계에서는 Firebase App Check를 적용하여 비정상적인 접근이나 데이터 오염을 방지하고 서비스의 보안성을 강화해야 합니다. 전체 구현 코드는 Friendly Meals의 GitHub 저장소를 통해 상세히 확인할 수 있습니다.",
-    "url": "https://firebase.blog/posts/2026/07/bringing-google-maps-friendly-meals",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "2026-07-28T00:00:00.000Z",
-    "fetchedAt": "2026-07-29T00:13:36.841Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/07/28/quality-heads-up/",
-    "title": "Quality Outreach Heads-up - JDK 28: jlink cacerts plugin",
-    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.java.net/display/quality/Quality+Outreach) is promoting the testing of FOSS projects with OpenJDK builds as a way to improve the overall quality of the ",
-    "aiSummary": "OpenJDK Quality Group은 FOSS 프로젝트의 품질 향상을 위해 최신 OpenJDK 빌드에 대한 테스트를 권장하고 있습니다.\n\n이번 JDK 28 업데이트를 통해 jlink 도구에 새로운 cacerts 플러그인이 추가되었습니다. 이 기능을 활용하면 사용자가 사용자 정의 런타임 이미지를 생성할 때, 해당 애플리케이션에 필요한 특정 CA 인증서만을 선택적으로 포함시킬 수 있습니다.\n\n사용자는 jlink 명령어를 실행할 때 콤마로 구분된 cacerts 키스토어 별칭을 옵션으로 지정하여 필요한 인증서만 구성된 최적화된 런타임을 구축할 수 있습니다. 자세한 기술적 사양과 구현 내용은 JDK-8377102 이슈 트래커를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/07/28/quality-heads-up/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Billy Korando",
-    "pubDate": "2026-07-28T00:00:00.000Z",
-    "fetchedAt": "2026-07-28T16:54:22.648Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/07/28/this-week-in-spring-july-28-2026",
-    "title": "This Week in Spring - July 28th, 2026",
-    "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring! The title says in Spring, but here in the northern hemisphere, it's clearly the middle of summer. Hot! I'm sitting here on my lap",
-    "aiSummary": "Spring Tools 개발 환경을 향상하는 새로운 MCP 서버가 공개되었으며 Visual Studio Code 및 Eclipse에서 더욱 지능적인 개발 경험을 제공합니다. \n\nJetBrains와 협력하여 Spring 개발자를 위한 IntelliJ IDEA의 새로운 기능을 소개하는 웨비나와 인터뷰가 진행되었습니다. \n\nTanzu는 SLSA Level 3를 준수하는 종속성 제공을 통해 보안을 강화했습니다. \n\nSpring AI 관련 기술 콘텐츠가 다수 공개되었습니다. Craig Walls는 Spring AI Alibaba 워크플로우 그래프 시각화 방법과 ChatMemory 및 JDBC를 활용한 영속화 기법, ChatMemory를 영속화하는 세 가지 새로운 방안을 상세히 설명했습니다. 또한 Spring AI와 간편하게 통합 가능한 새로운 인메모리 벡터 검색 엔진 프로젝트가 제안되었습니다. \n\nSpring Boot 4.1의 Spring Batch 기능 업데이트를 통해 MongoDB 기반 리포지토리 지원이 추가되었으며, 이와 관련된 기술 영상과 Hibernate 기반의 Spring Boot 기초 강의가 공유되었습니다. \n\n마지막으로 A Bootiful Podcast를 통해 다가오는 Java 27의 최신 동향을 다루는 등 Spring 생태계 전반의 풍성한 업데이트 소식이 전해졌습니다.",
-    "url": "https://spring.io/blog/2026/07/28/this-week-in-spring-july-28-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-07-28T00:00:00.000Z",
-    "fetchedAt": "2026-07-28T16:54:22.648Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-cloud-now-available-madrid-tokyo-sweden-sao-paulo",
-    "title": "Elastic Cloud Serverless: Ongoing multicontinent expansion",
-    "summary": "Elastic announces the availability of Elastic Cloud Serverless in two additional Azure regions and two additional Google Cloud regions. Elastic meets customers where their data is — all around the glo",
-    "aiSummary": "Elastic이 Elastic Cloud Serverless 서비스의 지원 범위를 확대합니다. 현재 Azure의 2개 리전과 Google Cloud의 2개 리전에 서비스를 추가로 도입하여 운영을 시작했습니다. 이번 확장을 통해 Elastic은 고객이 위치한 전 세계 다양한 데이터 환경에 맞춰 보다 유연한 서버리스 인프라를 제공할 수 있게 되었습니다.",
-    "url": "https://www.elastic.co/blog/elastic-cloud-now-available-madrid-tokyo-sweden-sao-paulo",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Brian Bergholm",
-    "pubDate": "2026-07-28T00:00:00.000Z",
-    "fetchedAt": "2026-07-28T16:54:22.648Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
-    "title": "Manage GitHub Copilot app access with a dedicated policy",
-    "summary": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…\nThe post Manage GitHub Copilot app a",
-    "aiSummary": "GitHub Copilot 앱에 대한 개별적인 정책 설정 기능이 도입되었습니다. 이를 통해 기업 및 조직 관리자는 엔터프라이즈와 조직 단위에서 GitHub Copilot 앱에 접근할 수 있는 사용자를 더욱 세밀하게 제어할 수 있게 되었습니다. 기존에는 GitHub Copilot의 접근 권한 관리가 통합적인 방식이었으나, 이제는 전용 정책을 통해 보안 및 관리 효율성을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-27T20:43:37.000Z",
-    "fetchedAt": "2026-07-28T00:14:38.695Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://webkit.org/?p=18178",
-    "title": "WebKit Features for Safari 26.6",
-    "summary": "Safari 26.6 is here. This release adds a small refinement to WebAssembly’s streaming compilation paths, and delivers eight bug fixes across CSS, service workers, networking, extensions, and WebRTC.\nTh",
-    "aiSummary": "Safari 26.6 버전은 WebAssembly의 스트리밍 컴파일 기능을 개선하고 웹 개발자가 겪을 수 있는 다양한 오류를 해결하는 데 중점을 두었습니다.\n\nWebAssembly 부문에서는 WebAssembly.compileStreaming() 및 WebAssembly.instantiateStreaming() 메서드에 compileOptions 매개변수가 추가되었습니다. 이를 통해 기존에 스트리밍 컴파일을 포기해야만 사용할 수 있었던 Wasm JS String Builtins 기능을 이제 스트리밍 방식에서도 제약 없이 활용할 수 있게 되었습니다.\n\n이번 업데이트에는 CSS, 네트워킹, Service Workers, Web Extensions, WebRTC 분야에서 총 8가지의 버그 수정 사항이 포함되었습니다.\n\nCSS 분야에서는 ic 단위의 페이지 줌 스케일링 오류, position-area와 고정 위치 요소 간의 폴백 문제, 그리고 iPad 환경에서 데스크톱 모드 이용 시 발생하는 폰트 속성 관련 줌 오류가 수정되었습니다.\n\n네트워킹 측면에서는 WKHTTPCookieStore를 통한 파티션 쿠키 삭제 불가 문제가 해결되었습니다. Service Workers와 관련해서는 메인 스크립트나 임포트된 스크립트가 누락된 등록 건이 자동으로 해제되지 않아 재등록을 방해하던 문제가 개선되었습니다.\n\n또한 Web Extensions 환경에서 발생하는 데이터베이스 파일 누적에 따른 성능 저하 현상을 수정하였고, WebRTC 분야에서는 macOS Sequoia 환경에서 iceTransportPolicy가 relay로 설정된 경우 ICE 후보 수집이 실패하던 문제를 해결하였습니다.\n\nSafari 26.6은 iOS, iPadOS, visionOS, macOS Tahoe, macOS Sequoia, macOS Sonoma 운영체제 업데이트를 통해 설치할 수 있습니다.",
-    "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
-    "category": "웹 생태계 & 브라우저",
-    "source": "WebKit Blog",
-    "author": "WebKit Blog",
-    "pubDate": "2026-07-27T18:00:52.000Z",
-    "fetchedAt": "2026-07-28T00:14:38.695Z",
-    "tags": [
-      "WebKit",
-      "Safari"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.140.7",
-    "title": "0.140.7",
-    "summary": "Refactors\n⚡️ Avoid flattening dependencies for OpenAPI. PR #16076 by @tiangolo.\nInternal\n⬆️ Upgrade latest-changes to 0.7.1. PR #16077 by @tiangolo.\n👷 Add OpenAPI dependency benchmarks. PR #16075 by ",
-    "aiSummary": "FastAPI 버전 0.140.7 업데이트가 진행되었습니다.\n\n이번 업데이트에서는 OpenAPI 의존성 평탄화 과정을 회피하도록 리팩토링이 이루어졌습니다.\n\n내부적으로는 latest-changes를 0.7.1 버전으로 상향 조정하였으며, OpenAPI 의존성 성능을 측정하기 위한 벤치마크 테스트 환경이 추가되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.7",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-07-27T17:33:02.000Z",
-    "fetchedAt": "2026-07-28T00:14:38.695Z",
-    "tags": [
-      "FastAPI",
-      "Python"
     ]
   }
 ]
