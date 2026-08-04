@@ -1,5 +1,310 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents/",
+    "title": "Introducing Database Operations Agents: The future of autonomous database management",
+    "summary": "As part of the Agentic Data Cloud launch at Google Cloud Next ‘26, we announced two AI-powered database agents to simplify database management. These include the Database Onboarding Agent for Day 0 op",
+    "aiSummary": "Google Cloud는 Google Cloud Next ‘26에서 데이터베이스 관리의 복잡성을 줄이고 효율성을 높이기 위해 Agentic Data Cloud의 일환으로 두 가지 AI 기반 데이터베이스 에이전트를 발표했습니다.\n\n첫 번째인 Database Onboarding Agent는 초기 구축 단계인 Day 0 작업을 지원합니다. 사용자가 자연어로 애플리케이션 요구 사항을 설명하면, 에이전트가 IOPS, 지연 시간, 복제 지연 등 기술적 지표를 분석하여 최적의 Google Cloud 관리형 데이터베이스 서비스를 추천하고, 설정 및 배포를 위한 명령어까지 생성해 줍니다.\n\n두 번째인 Database Observability Agent는 Day 1 및 Day 2 운영을 담당하며 모니터링, 문제 해결, 지속적인 유지 관리를 자동화합니다. Gemini의 추론 능력을 활용해 Database Insights, Cloud Monitoring, Cloud Logging 등 다양한 소스의 원격 측정 데이터를 통합 분석하며, 성능 병목 현상이나 잠금 경합 같은 복잡한 문제를 신속하게 진단합니다. 특히 단순 진단을 넘어 구체적인 해결책을 제시하며, 사용자의 승인을 거쳐 인덱스 추가와 같은 최적화 작업을 직접 수행할 수도 있습니다.\n\n이러한 에이전트들은 Google Cloud 콘솔, CLI, Chat은 물론 MCP 서버를 통해 사용자가 선호하는 IDE 등 다양한 환경과 통합됩니다. 이를 통해 SRE, DevOps 엔지니어, 개발자들은 가상 DBA의 도움을 받는 것처럼 데이터베이스 생명 주기 전반을 효율적으로 관리할 수 있습니다. 현재 해당 서비스는 AlloyDB, Bigtable, Cloud SQL, Firestore, Memorystore, Spanner 등 다양한 Google Cloud 데이터베이스 환경에서 Gemini Cloud Assist를 통해 이용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Niranjan Shivprasad"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-04T16:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/retail/how-target-rebuilt-retail-discovery-with-spanner-graph/",
+    "title": "How Target is enhancing retail discovery and cutting database maintenance by 50% with Spanner Graph",
+    "summary": "In today’s retail environment, shoppers expect highly personalized product discovery experiences and conversational assistance that feels genuine, natural, and genuinely helpful. Today, successful pro",
+    "aiSummary": "Target은 고객에게 더욱 개인화된 쇼핑 경험과 자연스러운 대화형 지원을 제공하기 위해 기존의 파편화된 데이터 아키텍처를 Spanner Graph 기반의 통합 플랫폼으로 전환했습니다. 기존에는 Elasticsearch와 NoSQL 데이터베이스를 분리하여 운영함에 따라 데이터 동기화 문제와 높은 운영 부담, 그리고 복잡한 쿼리 처리의 한계가 존재했습니다.\n\nTarget은 Spanner Graph를 도입하여 제품 카탈로그, 그래프 관계, 벡터 임베딩을 하나의 엔진 내에서 통합 관리하는 기업용 온톨로지를 구축했습니다. 이를 통해 트랜잭션 데이터와 의미론적 지능을 결합한 통합 데이터 플랫폼을 완성하였으며, GraphRAG 아키텍처를 구현하여 LLM이 더욱 정확한 문맥을 파악하고 정교한 쇼핑 추천을 수행할 수 있도록 지원합니다.\n\n전환 과정에서는 가동 중단 없는 점진적 마이그레이션 방식을 채택하여 스키마 매핑, 데이터 통합, 카나리 배포 단계를 거쳐 안전하게 기존 레거시 시스템을 대체했습니다. 이 과정에서 Spanner의 자동 스케일링 기능을 활용해 블랙 프라이데이와 같은 대규모 트래픽 급증 상황에서도 안정적인 성능을 확보했습니다.\n\n결과적으로 Target은 여러 데이터베이스를 관리하던 운영 복잡성을 제거하여 인프라 유지보수 시간을 50% 절감하는 성과를 거두었습니다. 또한 SQL과 GQL을 결합하여 복잡한 데이터를 단일 쿼리로 처리할 수 있게 됨으로써 개발 생산성을 높이고 고객 대상 AI 기능 출시 속도를 크게 가속화했습니다.",
+    "url": "https://cloud.google.com/blog/topics/retail/how-target-rebuilt-retail-discovery-with-spanner-graph/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sayanti Dey"
+      ],
+      "title": [
+        "Principal Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-04T16:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/automating-postgres-translations-with-database-migration-service/",
+    "title": "Multiple result sets: How Database Migration Service automates SQL server to PostgreSQL translation",
+    "summary": "In the Medium blog post, \"From MARS to SETOF REFCURSOR: Migrating Multi-Result Stored Procedures to PostgreSQL,\" we explored the fundamental architectural differences between SQL Server and PostgreSQL",
+    "aiSummary": "Google Cloud의 DMS(Database Migration Service)는 SQL Server에서 PostgreSQL로의 데이터베이스 마이그레이션 시 발생하는 다중 결과 집합 처리 문제를 자동화하는 솔루션을 제공합니다. SQL Server는 단일 실행 경로를 통해 여러 테이블 데이터를 스트리밍할 수 있지만, PostgreSQL은 명시적인 커서 조작이 필요하므로 DMS는 구조적 차이를 해결하기 위한 변환 논리를 적용합니다.\n\nDMS는 저장 프로시저가 반환하는 결과 집합의 수와 스칼라 반환 값의 유무를 분석하여 변환 방식을 결정합니다. 결과 집합이 하나이거나 스칼라 값만 있는 경우에는 표준 PostgreSQL PROCEDURE를 사용하고, 다중 결과 집합이나 복합적인 반환 구조를 가질 경우 SETOF refcursor를 지원하는 PL/pgSQL FUNCTION으로 변환합니다. 이때 스칼라 값은 별도의 return_value 커서로 분리하여 데이터 무결성을 유지합니다.\n\n이 과정에서 DMS는 프로시저 본문의 정적 분석뿐만 아니라, 조건부 SELECT 문이나 재귀 호출까지 고려한 호출 네트워크를 구성합니다. 이후 DFS(Depth First Search) 알고리즘을 사용하여 전체 호출 계층 구조의 결과 집합 수를 계산하고 이를 상위 프로시저로 전파함으로써 복잡한 프로시저 로직을 정확하게 PostgreSQL로 마이그레이션합니다.\n\n사용자는 마이그레이션된 코드를 실행할 때 PostgreSQL의 커서 수명 주기 특성에 따라 BEGIN과 COMMIT 블록 내에서 FETCH 명령어를 사용하여 데이터를 순차적으로 인출해야 합니다. 이러한 자동화된 아키텍처는 수동 재작성의 번거로움을 줄여주지만, 데이터 접근 계층이나 QA 단계에서는 변환된 커서 기반의 데이터 인출 방식에 맞게 애플리케이션 로직을 조정해야 합니다.",
+    "url": "https://cloud.google.com/blog/products/databases/automating-postgres-translations-with-database-migration-service/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Assaf Fraenkel"
+      ],
+      "title": [
+        "SQL Server Blackbelt"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-04T16:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/financial-services/unlocking-agility-in-banking-with-an-api-ready-ecosystem-at-deutsche-bank/",
+    "title": "How Deutsche Bank unlocked agility with an API-ready ecosystem",
+    "summary": "When people think about digital transformation in banking, they often focus on the visible results: mobile apps and new digital services. But there's an invisible infrastructure making all these servi",
+    "aiSummary": "Deutsche Bank은 모놀리식 시스템에서 벗어나 민첩하고 확장 가능한 디지털 뱅킹 인프라를 구축하기 위해 Google Cloud의 Apigee를 도입했습니다. 이 플랫폼은 단순한 기술적 연결을 넘어 은행의 신경계 역할을 수행하며 현대적인 금융 서비스의 핵심 기반이 되었습니다.\n\nDeutsche Bank가 Apigee를 통해 확보한 핵심 역량은 크게 네 가지입니다. 첫째, 통합 거버넌스를 통해 API 카탈로그를 중앙에서 관리함으로써 개발 효율성을 높이고 표준화된 정책을 자동 적용합니다. 둘째, 최소 권한 원칙에 기반한 OAuth2와 API 키 관리로 강력한 보안 체계를 구현하여 데이터 접근을 정밀하게 통제합니다. 셋째, 로드 밸런싱과 자동 확장 기능을 통해 대규모 트래픽 환경에서도 중단 없는 고성능 금융 서비스를 보장합니다. 넷째, 실시간 트래픽 및 오류 분석 대시보드를 통해 서비스 상태에 대한 가시성을 확보함으로써 데이터 중심의 의사결정을 지원합니다.\n\n은행은 이러한 API 우선 전략이 단순한 현대화를 넘어 미래의 AI 기반 금융 시대를 준비하는 필수 과정이라고 강조합니다. 특히 MCP 및 A2A와 같은 차세대 통합 표준을 수용할 수 있는 유연한 구조를 갖추었으며, 모든 기능을 API화하여 외부 핀테크 파트너 및 지능형 에이전트와 원활하게 연결하는 생태계를 지향합니다.\n\n결론적으로 Deutsche Bank는 인프라에 대한 전략적 투자를 통해 기술 변화에 빠르게 대응할 수 있는 기반을 마련했습니다. 이들은 우수한 문서화, 철저한 보안 통제, 관찰 가능성의 확보가 디지털 전환의 핵심 성공 요인이라고 평가합니다.",
+    "url": "https://cloud.google.com/blog/topics/financial-services/unlocking-agility-in-banking-with-an-api-ready-ecosystem-at-deutsche-bank/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Stefan Mesquita"
+      ],
+      "title": [
+        "API strategy & Integration, Deutsche Bank"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-04T16:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=92640",
+    "title": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
+    "summary": "77% of organizations experienced a software supply chain incident in the past year. Explore Omdia's latest research on top risks, security gaps, and why developers are your first line of defense.",
+    "aiSummary": "지난 1년간 전 세계 기업 중 77퍼센트가 소프트웨어 공급망 보안 사고를 경험한 것으로 나타났습니다. Omdia의 최신 연구 보고서는 현재 기업들이 직면한 주요 보안 위협과 취약점을 분석하고 있습니다. 이러한 상황에서 개발자들이 외부 공격으로부터 조직을 보호하는 최일선 방어 체계로서 왜 중요한 역할을 수행하는지 강조하고 있습니다.",
+    "url": "https://www.docker.com/blog/software-supply-chain-security-omdia-2026-report/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jin Kim",
+    "pubDate": "2026-08-04T15:10:16.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+    "title": "The latest AI news we announced in July 2026",
+    "summary": "Here are Google’s latest AI updates from July 2026",
+    "aiSummary": "Google은 2026년 7월 자사의 AI 기술과 관련한 최신 업데이트를 발표하였습니다. 이번 발표에는 Google의 AI 생태계 전반을 아우르는 기능 향상과 새로운 기술적 시도가 포함되어 있습니다. 상세한 업데이트 내역을 통해 인공지능 분야에서의 Google의 기술적 진보를 확인할 수 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "News from Google Team"
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-04T13:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-07-21-customize-dependabot-pull-request-branch-names",
+    "title": "Customize Dependabot pull request branch names",
+    "summary": "You can now customize the branch names Dependabot creates for pull requests. New pull-request-branch-name options in .github/dependabot.yml let you set a prefix and maximum length, choose segment and ",
+    "aiSummary": "GitHub에서 제공하는 Dependabot 기능이 업데이트되어 사용자가 풀 리퀘스트 브랜치 명칭을 직접 설정할 수 있게 되었습니다.\n\n이제 .github/dependabot.yml 파일 내에 새롭게 추가된 pull-request-branch-name 옵션을 활용하여 브랜치 이름의 접두사 설정이나 최대 길이 제한을 지정할 수 있습니다. 또한 세그먼트와 단어 구분 기호를 선택하는 기능도 지원하여 프로젝트의 관리 체계에 맞춰 유연하게 브랜치 명명 규칙을 커스터마이징할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-04T12:57:18.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+    "title": "Code coverage automatic enablement in Code Quality settings",
+    "summary": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.…\nThe",
+    "aiSummary": "GitHub는 코드 커버리지 설정 과정을 보다 신속하고 간편하게 개선하기 위해 새로운 기능을 도입하였습니다.\n\n사용자는 이제 리포지토리의 Code Quality 설정 메뉴에서 AI를 활용하여 코드 커버리지 워크플로우를 자동으로 생성하는 옵션을 확인할 수 있습니다. 이를 통해 개발자는 복잡한 설정 과정 없이 효율적으로 코드 커버리지를 관리하고 프로젝트의 품질을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-04T12:36:32.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-summit-2026-turn-your-api-platform-into-your-ai-platform",
+    "title": "Apollo Summit 2026: Turn Your API Platform Into Your AI Platform",
+    "summary": "August 4, 2026\nApollo’s annual conference, and the world’s largest GraphQL event, returns to San Francisco in October. Apollo Summit 2026 (http://www.apollosummit.dev/) runs October 6 to 8, 2026, at T",
+    "aiSummary": "Apollo Summit 2026이 오는 10월 6일부터 8일까지 샌프란시스코의 The Midway에서 개최됩니다. 이번 행사는 세계 최대 규모의 GraphQL 컨퍼런스로서, 기존 API 플랫폼을 AI 에이전트와 애플리케이션을 위한 강력한 기반으로 전환하는 전략과 기술을 집중적으로 다룹니다.\n\n행사에서는 단순히 API를 애플리케이션 연결 도구로 사용하는 것을 넘어, AI 에이전트가 시스템에 안전하고 효율적으로 접근할 수 있도록 하는 그래프 기반의 인프라 구축 방안을 공유합니다. Block, Brex, Starbucks 등 유수의 기업 엔지니어들이 연사로 참여하여 기존 REST API와 복잡한 시스템을 어떻게 정교한 그래프 스키마로 통합하고, AI가 이를 문맥으로 활용하도록 만드는지에 대한 실제 사례를 발표합니다.\n\n주요 프로그램은 에이전트 인프라 설계, 거버넌스와 보안 정책, 에이전트 환경에서의 API 접근 제어, 그리고 GraphQL과 GraphOS의 최신 기술 활용법 등 4가지 핵심 주제로 구성됩니다. 특히 Apollo Federation, Apollo Router 최적화, 그리고 Apollo MCP Server와 같은 최신 기술을 통해 속도와 보안이라는 두 마리 토끼를 잡는 아키텍처 패턴을 학습할 수 있습니다.\n\n참가자들은 기술 강연과 실습 워크숍을 통해 대규모 시스템에서 AI 에이전트의 권한을 관리하고, 토큰 비용을 최적화하며, API를 발견 가능한 상태로 유지하는 구체적인 방법을 습득하게 됩니다. 플랫폼 엔지니어와 AI 인프라 담당자들에게는 실무적인 해결책을 모색하고 업계 전문가들과 교류할 수 있는 기회가 될 것입니다.",
+    "url": "https://www.apollographql.com/blog/apollo-summit-2026-turn-your-api-platform-into-your-ai-platform",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Eric Holzhauer",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/",
+    "title": "Django security releases issued: 6.0.8 and 5.2.17",
+    "summary": "In accordance with our security release policy,\nthe Django team is issuing releases for\nDjango 6.0.8 and\nDjango 5.2.17.\nThese releases address the security issues detailed below. We encourage all\nuser",
+    "aiSummary": "Django 팀이 보안 정책에 따라 Django 6.0.8 및 5.2.17 버전을 발표했습니다. 이번 업데이트는 총 4가지 보안 취약점을 해결하며 모든 사용자는 최대한 빠르게 업그레이드할 것을 권장합니다.\n\n첫 번째는 CVE-2026-15307로 분류된 공간 룩업 관련 취약점입니다. 기존에 GDALRaster가 dict 및 특정 str 형태의 값을 허용하면서 서버 측 파일 쓰기나 원격 코드 실행, 네트워크 요청 위조가 가능한 문제가 발견되었습니다. 이를 해결하기 위해 해당 입력 타입들을 금지하는 변경 사항이 적용되었으며 이는 하위 호환성을 해치는 변화입니다. 심각도는 높음으로 평가되었습니다.\n\n두 번째는 CVE-2026-15337로 분류된 check_for_language 함수에서의 서비스 거부 취약점입니다. 매우 긴 언어 코드를 대량으로 입력할 경우 캐시 메모리가 과도하게 소모되는 문제가 있어, 500자 이상의 언어 코드를 차단하도록 수정되었습니다. 심각도는 낮음입니다.\n\n세 번째는 CVE-2026-15830으로 분류된 중첩된 GEOMETRYCOLLECTION 객체를 통한 서비스 거부 취약점입니다. 과도하게 중첩된 구조가 segmentation fault를 유발할 수 있어, WKT와 WKB 형식에 대해 최대 198개로 제한을 두는 조치가 추가되었습니다. 심각도는 보통입니다.\n\n마지막으로 CVE-2026-15920은 관리자 페이지의 URLField에서 발생하는 크로스 사이트 스크립팅 취약점입니다. URLValidator를 통해 안전한 URL인지 검증하도록 개선하여, 검증에 실패한 값은 링크로 렌더링되지 않고 일반 텍스트로 표시됩니다. 심각도는 보통입니다.\n\n이번 패치는 Django 메인 브랜치를 비롯해 6.1, 6.0, 5.2 버전들에 모두 적용되었으며 해당 버전의 사용자는 즉시 업데이트를 수행해야 합니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Natalia Bidart",
+    "pubDate": "2026-08-04T11:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+    "title": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.2, which adds support for Swift 6.3.3…\nTh",
+    "aiSummary": "GitHub의 코드 스캔 기능을 지원하는 정적 분석 엔진인 CodeQL이 2.26.2 버전으로 업데이트되었습니다. 이번 업데이트를 통해 최신 언어 버전인 Swift 6.3.3과 Kotlin 2.4.10에 대한 분석 지원이 추가되었습니다. 이를 통해 개발자들은 더욱 정밀하게 보안 취약점을 탐지하고 수정할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-04T10:57:39.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/chrome-enterprise/future-mode-part-2-the-foundation-for-securing-agentic-browsing/",
+    "title": "Future Mode Part 2: The foundation for securing agentic browsing",
+    "summary": "Editor's Note: Our Future Mode series will give businesses insight into how Chrome Enterprise is approaching AI in the browser. Stay tuned for more blogs in this series.\nFuture Mode Part 2: The founda",
+    "aiSummary": "Google은 AI 에이전트가 브라우저 내에서 다양한 업무를 자동 수행하는 시대에 맞춰 Chrome Enterprise의 보안 체계를 강화하고 있습니다. 현대의 업무 환경에서 브라우저는 사용자의 데이터와 맥락을 가장 잘 이해하는 공간이기에 AI 에이전트의 효율적인 활동 무대가 됩니다. Google은 사용자와 에이전트 모두에게 안전한 환경을 제공하고자 데이터 보호와 생산성을 동시에 고려한 전략을 추진합니다.\n\nChrome Enterprise Premium은 데이터 유출 방지 기술인 DLP를 브라우저 워크스페이스에 직접 적용하여 에이전트의 데이터 흐름을 실시간으로 감시합니다. 이를 통해 민감한 정보가 외부 LLM으로 전송되는 것을 차단하고 조직의 데이터 거버넌스 정책을 에이전트 활동에도 동일하게 적용합니다. 특히 사용자가 접근 권한이 없는 데이터는 에이전트 또한 접근할 수 없도록 제어하여 보안의 일관성을 유지합니다.\n\nGoogle은 에이전트 보안을 위해 세 가지 핵심 아키텍처를 도입했습니다. 첫째, Google DeepMind의 CaMeL 연구에서 영감을 받은 User Alignment Critic 시스템을 통해 에이전트의 작업이 사용자의 원래 의도와 일치하는지 검증하고 프롬프트 인젝션 공격 등을 차단합니다. 둘째, Site Isolation 기술을 확장하여 에이전트의 활동 범위를 작업과 관련된 사이트로만 엄격히 제한합니다. 셋째, 중요한 거래나 계약 시에는 반드시 인간의 승인을 거치도록 설계하여 투명성을 확보하고 작업 로그를 통해 모든 과정을 사용자가 확인하게 합니다.\n\n향후 Google은 자동화된 머신러닝 레드팀 시스템을 운영하고 취약점 보상 프로그램인 VRP의 범위를 에이전트 기능까지 확대할 계획입니다. 이를 통해 Chrome Enterprise는 기업이 보안 위협 없이 AI 생산성을 극대화할 수 있는 안전한 기반을 지속적으로 제공할 것입니다.",
+    "url": "https://cloud.google.com/blog/products/chrome-enterprise/future-mode-part-2-the-foundation-for-securing-agentic-browsing/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mark Berschadski"
+      ],
+      "title": [
+        "Director, Product Management"
+      ],
+      "department": [
+        "Chrome Enterprise"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-04T10:50:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=727805",
+    "title": "IntelliJ IDEA Goes LSP: Java and Kotlin Intelligence Comes to VS Code, Cursor, and Agentic Flows",
+    "summary": "It’s no secret that agentic development is changing how developers build software. As agents take on more and more of the implementation work, developers spend less and less time manually editing code",
+    "aiSummary": "JetBrains가 개발자 도구 생태계 확장을 위해 IntelliJ IDEA의 강력한 분석 엔진을 LSP(Language Server Protocol) 형태로 제공하기 시작했습니다. 그동안 고유한 환경에서만 작동하던 IntelliJ의 정교한 Java 및 Kotlin 코드 분석 기능을 이제 VS Code, Cursor 등 다양한 에디터와 IDE에서 활용할 수 있게 되었습니다.\n\n이번 변화는 AI 에이전트가 코드를 직접 구현하는 비중이 높아짐에 따라 개발자가 수동으로 작성하는 코드의 양이 줄어드는 최신 개발 흐름을 반영한 것입니다. 개발자들은 이제 가벼운 에디터 환경에서도 IntelliJ 수준의 정확한 코드 내비게이션, 참조 찾기 등의 기능을 사용할 수 있어 작업의 효율성을 크게 높일 수 있습니다.\n\n특히 AI가 주도하는 Agentic Flow 환경에서 이러한 범용적인 연결성은 핵심적인 역할을 합니다. 특정 IDE에 종속되지 않고도 고품질의 언어 분석 결과를 도출할 수 있게 됨으로써, 개발 생산성 도구의 상호운용성이 한층 강화될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Marco Behler",
+    "pubDate": "2026-08-04T10:48:16.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=kotlin&p=727205",
     "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
     "summary": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also dem",
@@ -29,6 +334,87 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/08/python-3150-rc1/",
+    "title": "Python 3.15.0 candidate 1 is here!",
+    "summary": "It’s the first 3.15 release candidate!\npython.org/downloads/release/python-3150rc1 (https://www.python.org/downloads/release/python-3150rc1/)\nThis is a candidate preview of Python 3.15\nThis release, 3",
+    "aiSummary": "Python 3.15의 첫 번째 릴리스 후보 버전인 Python 3.15.0rc1이 공개되었습니다. 이번 릴리스는 총 두 번의 릴리스 후보 단계 중 첫 번째 단계로, 향후에는 버그 수정 외의 코드 변경은 엄격히 제한되며 ABI 변경 사항도 더 이상 없습니다. 다음 버전인 Python 3.15.0rc2는 2026년 9월 1일에 예정되어 있습니다.\n\n개발진은 서드파티 프로젝트 유지보수 담당자들에게 Python 3.15와의 호환성을 미리 점검하고 PyPI에 휠 파일을 게시하여 최종 릴리스에 대비할 것을 권장합니다. 다만, 이번 버전은 최종 릴리스에 가깝지만 프리뷰 단계이므로 프로덕션 환경에서 사용하는 것은 권장하지 않습니다.\n\n이번 Python 3.15 시리즈에는 다음과 같은 주요 변화가 포함되어 있습니다.\n\n성능 및 최적화 부문에서는 JIT 컴파일러가 대폭 개선되어 x86-64 Linux에서 약 8~9%, AArch64 macOS에서 12~13%의 성능 향상을 보입니다. 또한 윈도우 64비트 바이너리에는 테일 콜 인터프리터가 적용되었으며, macOS 바이너리에는 프리 스레딩 지원이 기본적으로 포함되었습니다.\n\n언어 및 API 부문에서는 PEP 810을 통한 명시적 지연 임포트가 도입되어 시작 속도가 빨라졌으며, frozendict 및 sentinel과 같은 새로운 빌트인 타입이 추가되었습니다. 또한 기본 인코딩이 UTF-8로 설정되었고, 컴프리헨션 내 언패킹 지원, 프로파일링을 위한 새로운 전용 패키지 도입, 타입 시스템 개선 등 다양한 기능이 반영되었습니다.\n\n이 외에도 시스템 레벨 관측 가능성을 높이기 위해 프레임 포인터가 기본적으로 활성화되었고, 더 상세한 오류 메시지와 향상된 컬러 출력 기능을 제공합니다. 상세한 변경 사항은 Python 공식 문서의 What is new in Python 3.15 페이지에서 확인할 수 있습니다.",
+    "url": "https://blog.python.org/2026/08/python-3150-rc1/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+    "title": "Enabling the next iteration of the borrow checker on nightly",
+    "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next",
+    "aiSummary": "Rust 언어의 새로운 borrow checker 반복 모델인 Polonius Alpha가 Nightly 버전에서 활성화되었습니다. 이는 기존 NLL 방식이 가진 한계를 극복하기 위해 도입되었으며, 올해 말 정식 안정화를 목표로 하고 있습니다.\n\nPolonius Alpha의 핵심 개선 사항은 flow-sensitive borrow checking을 지원한다는 점입니다. 기존 NLL은 flow-insensitive 방식으로 인해 특정 상황에서 실제로는 수명이 다한 borrow를 함수 전체의 수명으로 잘못 인식하는 경우가 있었으나, Polonius Alpha는 이를 정밀하게 분석하여 이전에는 컴파일되지 않던 코드를 성공적으로 처리할 수 있게 합니다.\n\n현재 Polonius Alpha는 기존 NLL과 비교했을 때 대부분의 인기 있는 crate에서 유의미한 성능 저하 없이 작동하고 있습니다. 일부 복잡한 코드에서 2~3배 정도의 성능 회귀 사례가 보고되기도 했으나, 팀은 이를 수용 가능한 수준으로 판단하고 있으며 안정화 전까지 추가적인 최적화 작업을 진행할 예정입니다.\n\n현재 사용자는 Rust Nightly 환경에서 해당 기능을 테스트할 수 있습니다. 만약 Polonius Alpha 사용을 원치 않을 경우 rustflags 설정을 통해 기능을 끌 수 있습니다. 향후 몇 달간의 피드백 수렴과 성능 개선 작업을 거친 뒤, 연내에 정식 안정화를 추진할 계획입니다.",
+    "url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Jack Huey",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/whats-new-elastic-9-5-0",
+    "title": "Elastic 9.5: Columnar, VectorDB index mode & auto-calibration, and AI-driven alert triage",
+    "summary": "Today, we are pleased to announce the GA of Elastic 9.5 as the latest version of the Elasticsearch Platform. This release includes a range of new features, including Columnar Mode, VectorDB index mode",
+    "aiSummary": "Elastic 9.5 버전이 정식 출시되었습니다. 이번 업데이트는 Elasticsearch 플랫폼의 성능과 활용도를 높이는 다양한 기능을 포함하고 있습니다.\n\n데이터 처리 효율을 최적화하는 Columnar Mode가 새롭게 도입되었으며 효율적인 벡터 검색을 지원하는 VectorDB index mode가 추가되었습니다. 또한 AI 기반의 경보 분류 기능과 Agent Builder 관련 개선 사항이 포함되어 플랫폼의 지능형 관리 기능이 한층 강화되었습니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elastic-9-5-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Sarah Leslie",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "title": "New ways to learn and teach with ChatGPT Work and Codex",
+    "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+    "aiSummary": "ChatGPT Work 및 Codex를 위한 새로운 교육용 플러그인이 출시되었습니다. 이 도구들은 K-12 교사, 대학 교육자, 그리고 학생들이 학습과 교육은 물론 연구 및 개발 활동을 원활하게 수행할 수 있도록 지원합니다. 사용자는 이 플러그인을 활용해 보다 효율적인 교육 환경을 조성하고 창의적인 프로젝트를 구축할 수 있습니다.",
+    "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/tino-cuellar",
+    "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsMariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs OfficerAug 4, 2026Mariano-Florentino (Tino) Cuéllar will join Anthr",
+    "aiSummary": "Mariano-Florentino (Tino) Cuéllar가 Anthropic의 첫 번째 Chief Global Affairs Officer로 합류합니다. 그는 앞으로 Anthropic의 정책, 전략적 국제 협력, 그리고 전 세계 정부 관계 업무를 총괄하게 됩니다.\n\nTino Cuéllar는 Carnegie Endowment for International Peace의 회장을 역임했으며, 이전에는 California 대법원 판사로 재직하며 기술, 개인정보 보호, 국제 협약 분야에서 전문성을 쌓았습니다. 또한 Stanford 대학교에서 Freeman Spogli Institute for International Studies와 Stanford Cyber Initiative의 책임자를 맡았으며, 백악관 및 연방 기관에서 활동한 경험이 있는 공공 정책 전문가입니다.\n\n그는 2026년 1월부터 Anthropic의 Long-Term Benefit Trust 이사로 활동해 왔으나, 회사 합류를 위해 해당 직위에서 사임하였습니다. Anthropic 측은 그가 공공 기관이 변화에 대응하도록 도운 경험과 공동선을 향한 헌신을 높이 평가하며, 향후 AI 거버넌스와 글로벌 정책 수립에 큰 역할을 할 것으로 기대하고 있습니다.",
+    "url": "https://www.anthropic.com/news/tino-cuellar",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -333,6 +719,39 @@
     "tags": [
       "Antigravity",
       "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+    "title": "Inside our 353,000-person vibe coding course",
+    "summary": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
+    "aiSummary": "Kaggle과 Google이 협력하여 진행한 AI Agents Intensive 과정은 353,000명의 참가자를 대상으로 인공지능 에이전트를 구축하고 배포하는 방법을 교육했습니다. 이번 교육은 참가자들이 차세대 AI 기술을 직접 개발하고 실무에 적용할 수 있도록 설계된 무료 프로그램입니다. 코딩 지식을 넘어 AI 모델의 의도를 파악하고 구현하는 이른바 바이브 코딩을 통해 수많은 학습자가 AI 기술의 최전선을 경험했습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Anant Nawalgaria"
+      ],
+      "title": [
+        "Group AI Product Manager, Founder of GenAI intensive"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-03T15:00:00.000Z",
+    "fetchedAt": "2026-08-04T17:09:19.424Z",
+    "tags": [
+      "Google",
+      "Gemini",
       "AI"
     ]
   },
