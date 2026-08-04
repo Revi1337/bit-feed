@@ -1,5 +1,117 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=727205",
+    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
+    "summary": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also dem",
+    "aiSummary": "Kotlin이 15주년을 맞이함과 동시에 2.4.10 버전을 공식 출시했습니다. 이번 업데이트를 통해 Kotlin은 교육용 통합 개발 환경인 BlueJ에서 지원되기 시작했으며, AI 코딩 에이전트를 위한 첫 번째 공개 벤치마크 테스트를 도입했습니다. 또한 개발자들은 RevenueCat Shipaton 2026에 참여하여 Kotlin Multiplatform 기반의 애플리케이션을 개발하고 Ship Kotlin Everywhere Award에 도전할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Kodee",
+    "pubDate": "2026-08-04T08:14:27.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=727205",
+    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
+    "summary": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also dem",
+    "aiSummary": "Kotlin의 탄생 15주년을 맞이하여 다양한 업데이트와 소식이 발표되었습니다. Kotlin 2.4.10 버전이 공식 출시되었으며, 이제 교육용 통합 개발 환경인 BlueJ에서도 Kotlin을 사용할 수 있게 되었습니다.\n\nAI 코딩 에이전트를 위한 Kotlin 최초의 공개 벤치마크가 도입되어 개발 환경의 기술적 진보가 이루어졌습니다. 또한 RevenueCat Shipaton 2026 행사가 개최되며, 개발자들은 Kotlin Multiplatform 앱을 구축하여 Ship Kotlin Everywhere Award 수상을 목표로 경쟁할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Kodee",
+    "pubDate": "2026-08-04T08:14:27.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/announcing-e-maj-500-3353/",
+    "title": "Announcing E-Maj 5.0.0.\n",
+    "summary": "We are very glad to announce the E-Maj 5.0.0 version.\nAmong improvements, this major version:\nAllows non-superuser roles to install and use E-Maj in a database, the usable features depending on the pr",
+    "aiSummary": "PostgreSQL 확장 기능인 E-Maj 5.0.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 슈퍼유저가 아닌 사용자도 권한에 따라 데이터베이스 내에서 E-Maj를 설치하고 활용할 수 있게 된 점입니다.\n\n관리 스크립트의 멱등성 보장과 E-Maj 매개변수 관리가 이전보다 용이해졌으며 PostgreSQL 19 버전과의 호환성을 확보했습니다. 또한 Emaj_web 클라이언트가 개선되어 이러한 새로운 기능들을 더욱 효과적으로 사용할 수 있게 되었습니다.\n\nE-Maj 5.0.0은 PostgreSQL 14부터 19 버전까지 지원하며 Emaj_web 5.0.0은 E-Maj 확장 기능 3.0부터 5.0 버전과 호환됩니다. 상세한 내용은 공식 문서에서 확인할 수 있으며 핵심 확장 기능은 pgxn.org나 github.org를 통해 내려받을 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/announcing-e-maj-500-3353/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgbackrest-2590-released-3355/",
+    "title": "pgBackRest 2.59.0 Released\n",
+    "summary": "July 30, 2026: The pgBackRest community is pleased to announce the release of pgBackRest 2.59.0, the latest version of the reliable, easy-to-use backup and restore solution that can seamlessly scale u",
+    "aiSummary": "PostgreSQL의 안정적인 백업 및 복구 솔루션인 pgBackRest가 2.59.0 버전으로 업데이트되었습니다. 이번 버전은 PostgreSQL 19에 대한 공식 지원을 포함하며 사용자의 인프라 관리 효율성을 높이는 다양한 기능 개선이 이루어졌습니다.\n\n주요 기능으로 WAL 아카이브 정리를 위한 archive-expire-before 옵션이 추가되었고 S3 Outposts 지원 및 S3 프로세스 인증 기능이 도입되었습니다. 또한 manifest 빌드 속도 향상을 위한 사용자 및 그룹 캐싱 기능이 포함되었으며 SFTP 연결 유지 개선, Azure 스토리지 일괄 삭제, systemd notify 통합 등 성능과 운영 편의성을 높이는 업데이트가 다수 반영되었습니다.\n\n보안 강화를 위해 root 계정으로 실행 시 오류를 발생시키도록 변경되었으며 allow-root 옵션을 통해서만 실행을 허용합니다. 추가로 libsystemd에 대한 선택적 의존성이 추가되었으며 배포판 패키징을 간소화하기 위한 새로운 tarball 배포 형식이 도입되었습니다. 자세한 변경 사항은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgbackrest-2590-released-3355/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgadmin-4-v917-released-3356/",
+    "title": "pgAdmin 4 v9.17 Released\n",
+    "summary": "The pgAdmin Development Team is pleased to announce the release of pgAdmin 4 version 9.17. This release of pgAdmin 4 includes 28 bug fixes and new features, including fixes for seven security vulnerab",
+    "aiSummary": "pgAdmin 개발팀이 PostgreSQL 관리 도구인 pgAdmin 4의 최신 버전인 v9.17을 공개했습니다. 이번 업데이트에는 총 28가지의 버그 수정과 새로운 기능들이 포함되어 있으며, 특히 보안 취약점 7건에 대한 패치가 이루어져 사용자들의 주의가 필요합니다.\n\n새로운 기능으로는 HTTP 액세스 로그에 인증된 사용자 정보 기록, Helm chart 내 Gateway API HTTPRoute 템플릿 지원, 데이터 조회 시 행 제한 설정 기능, 그리고 Geometry Viewer 내 커스텀 XYZ 타일 공급자 지원이 추가되었습니다.\n\n보안 측면에서는 도구 권한 우회 문제와 MASTER_PASSWORD_HOOK 기능에서의 OS 명령어 주입 취약점, AI Assistant의 읽기 전용 가드 우회 문제, 그리고 특정 상황에서의 SQL 주입 취약점 등이 해결되었습니다. 또한 다른 사용자의 데이터베이스 자격 증명이 부적절하게 공유되는 문제와 Import/Export 도구 내의 보안 결함도 함께 수정되었습니다.\n\n이외에도 SERIAL 및 identity 컬럼의 SQL 생성 오류 수정, PostgreSQL 19 환경에서의 UI 개선, OS 키링 장애 대응, OAuth2 설정 경고 표시 등 안정성 향상을 위한 다수의 버그 수정과 코드 정비가 진행되었습니다. Windows, macOS용 설치 파일을 비롯해 Docker, RPM, DEB 패키지 등 다양한 형태로 다운로드가 가능합니다.",
+    "url": "https://www.postgresql.org/about/news/pgadmin-4-v917-released-3356/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/azure-private-link-elastic-cloud-serverless",
+    "title": "Azure Private Link for Elastic Cloud Serverless is now generally available",
+    "summary": "Azure Private Link for Elastic Cloud Serverless is generally available. Your traffic stays inside Azure's private backbone — no public internet exposure required.",
+    "aiSummary": "Elastic Cloud Serverless를 위한 Azure Private Link가 정식 출시되었습니다. 이제 해당 서비스를 이용하면 모든 데이터 트래픽이 Azure 내부의 프라이빗 백본망을 통해서만 전송됩니다. 이로써 공용 인터넷에 노출될 위험 없이 더욱 안전하고 폐쇄적인 네트워크 환경에서 Elastic Cloud Serverless를 운영할 수 있게 됩니다.",
+    "url": "https://www.elastic.co/blog/azure-private-link-elastic-cloud-serverless",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Alex Chalkias,Jordi Mon Companys",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+    "title": "Customize the reasoning level for Copilot cloud agent",
+    "summary": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the…\nThe post Customize the reasoning level ",
+    "aiSummary": "GitHub Copilot 클라우드 에이전트에 작업을 위임할 때 해당 기능을 지원하는 모델의 추론 수준을 직접 설정할 수 있게 되었습니다.\n\n이를 통해 사용자는 작업의 복잡도에 맞춰 모델이 문제를 해결하는 과정의 깊이를 조절할 수 있습니다. 결과적으로 상황에 따라 필요한 정밀도와 속도를 선택하여 작업 효율성을 최적화할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-03T23:27:35.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
     "title": "Enterprise team specialization for managed settings",
     "summary": "Enterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configu",
@@ -10,6 +122,22 @@
     "author": "Allison",
     "pubDate": "2026-08-03T22:55:29.000Z",
     "fetchedAt": "2026-08-04T00:57:14.606Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+    "title": "Trigger Copilot automations with comments",
+    "summary": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull…\nThe post Trig",
+    "aiSummary": "GitHub는 이슈나 풀 리퀘스트에 댓글이 작성될 때 Copilot 클라우드 에이전트 자동화가 실행되도록 하는 새로운 기능을 도입했습니다.\n\n사용자는 특정 댓글이 등록되는 것을 트리거로 설정하여 문서 생성과 같은 반복적인 작업을 자동으로 수행할 수 있습니다. 이를 통해 개발자는 워크플로우를 더욱 효율적으로 관리하고 생산성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-03T19:14:58.000Z",
+    "fetchedAt": "2026-08-04T10:04:06.233Z",
     "tags": [
       "GitHub",
       "DevOps"
