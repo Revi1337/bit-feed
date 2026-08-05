@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_133",
+    "title": "Visual Studio Code 1.133 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.133 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트에는 개발자 경험을 향상하기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 사용자는 공식 웹사이트를 통해 업데이트의 상세 내용을 확인하고 새로운 기능을 미리 경험해 볼 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_133",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-08-05T10:01:51.848Z",
+    "fetchedAt": "2026-08-05T10:01:51.848Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
     "title": "Customize code scanning default setup at scale",
     "summary": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for…\nT",
@@ -2134,87 +2150,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_132",
-    "title": "Visual Studio Code 1.132 (Insiders)",
-    "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders)\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.132 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트에는 개발자의 생산성을 높이기 위한 다양한 기능 개선과 버그 수정 사항이 포함되어 있습니다. 사용자들은 공식 웹사이트에 게시된 상세 문서를 통해 이번 업데이트에서 추가된 구체적인 신규 기능과 변경 사항을 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_132",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-07-29T10:01:46.292Z",
-    "fetchedAt": "2026-07-29T10:01:46.292Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
-    "title": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
-    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.1, which improves framework coverage for ",
-    "aiSummary": "GitHub는 코드 보안 취약점을 탐지하고 수정하는 정적 분석 엔진인 CodeQL의 최신 버전 2.26.1을 출시했습니다. 이번 업데이트를 통해 Go 언어에 대한 프레임워크 지원 범위가 더욱 확대되었습니다. 또한 이번 버전에서는 코드 스캐닝의 전반적인 분석 정확도를 향상시켜 개발자가 보안 문제를 더욱 효율적으로 식별하고 대응할 수 있도록 지원합니다.",
-    "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-29T09:45:11.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/sign-in-with-chatgpt-beta",
-    "title": "Sign in with ChatGPT is in beta on Supabase",
-    "summary": "Use your ChatGPT account to sign in to Supabase, and connect Supabase inside ChatGPT and Codex.",
-    "aiSummary": "Supabase가 ChatGPT 계정을 이용한 간편 로그인 기능을 베타 서비스로 공개하였습니다. 이제 사용자는 본인의 ChatGPT 계정을 통해 Supabase에 직접 로그인할 수 있습니다. 또한 Supabase를 ChatGPT 및 Codex와 연동하여 개발 워크플로우를 더욱 효율적으로 연결할 수 있게 되었습니다.",
-    "url": "https://supabase.com/blog/sign-in-with-chatgpt-beta",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-07-29T07:00:00.000Z",
-    "fetchedAt": "2026-07-30T00:15:44.038Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/pest-5",
-    "title": "Pest 5 Released With Test Impact Analysis, Agent Verification, and Evals",
-    "summary": "Nuno Maduro announced Pest 5 at Laracon US 2026. The PHP testing framework adds test impact analysis, an agent plugin, evals, PHPStan, and Rector support.\nThe post Pest 5 Released With Test Impact Ana",
-    "aiSummary": "Nuno Maduro가 Laracon US 2026을 통해 PHP 테스트 프레임워크인 Pest 5를 공식 발표하였습니다.\n\n이번 업데이트의 핵심 기능은 변경된 코드와 관련된 테스트만 선별적으로 수행하는 Test Impact Analysis의 도입입니다. 또한 AI 기반의 Agent plugin을 통해 자동화된 테스트 검증을 지원하며 Evals 기능이 새롭게 추가되었습니다.\n\n이와 함께 개발 환경의 품질을 높이기 위해 PHPStan 및 Rector와의 공식적인 통합 지원을 시작하였습니다. 이번 릴리스는 PHP 생태계 내에서 테스트 자동화와 효율성을 한층 강화하는 데 중점을 두었습니다.",
-    "url": "https://laravel-news.com/pest-5?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-07-29T03:47:15.000Z",
-    "fetchedAt": "2026-07-31T00:59:31.358Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/blade-formatting-in-laravel-pint",
-    "title": "Blade Formatting in Laravel Pint",
-    "summary": "Pint 1.30.0 adds a --blade flag that formats .blade.php files through Prettier, alongside fixes for --diff, --quiet, and a new in key for pint.json.\nThe post Blade Formatting in Laravel Pint appeared ",
-    "aiSummary": "Laravel Pint 1.30.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Prettier를 통해 .blade.php 파일을 포맷팅할 수 있는 --blade 플래그가 추가된 것입니다. 또한 --diff 및 --quiet 옵션에 대한 수정 사항이 반영되었으며 pint.json 파일 내에 in 키가 새롭게 도입되었습니다.",
-    "url": "https://laravel-news.com/blade-formatting-in-laravel-pint?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-07-29T03:42:54.000Z",
-    "fetchedAt": "2026-07-31T00:59:31.358Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_133",
+    "title": "Visual Studio Code 1.133 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.133 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트에는 개발자 경험을 향상하기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 사용자는 공식 웹사이트를 통해 업데이트의 상세 내용을 확인하고 새로운 기능을 미리 경험해 볼 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_133",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-08-05T10:01:51.848Z",
+    "fetchedAt": "2026-08-05T10:01:51.848Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
     "title": "Customize code scanning default setup at scale",
     "summary": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for…\nT",
