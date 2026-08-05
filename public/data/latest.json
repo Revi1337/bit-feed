@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
+    "title": "Customize code scanning default setup at scale",
+    "summary": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for…\nT",
+    "aiSummary": "GitHub는 사용자가 코드 스캔 기본 설정을 대규모로 맞춤화할 수 있도록 새로운 기능인 github-codeql-config-file 저장소 속성을 도입했습니다.\n\n이번 업데이트를 통해 사용자는 CodeQL이 코드를 분석하는 방식을 보다 세밀하게 제어할 수 있는 독자적인 구성 파일을 적용할 수 있게 되었습니다.\n\n이를 통해 여러 저장소에 걸쳐 일관된 보안 분석 정책을 효율적으로 관리하고 적용하는 것이 가능해집니다.",
+    "url": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-04T19:15:23.000Z",
+    "fetchedAt": "2026-08-05T00:51:09.539Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-zed-extension",
+    "title": "Official Laravel Zed Extension: LSP for PHP & Blade",
+    "summary": "The official Laravel extension for Zed wires up Laravel LSP, giving you completions, hovers, diagnostics, and code actions in PHP and Blade files.\nThe post Official Laravel Zed Extension: LSP for PHP ",
+    "aiSummary": "Laravel 공식 확장 프로그램이 Zed 에디터용으로 출시되었습니다. 이 확장 프로그램은 Laravel LSP를 연동하여 PHP 및 Blade 파일에서 코드 자동 완성, 호버, 진단, 코드 액션 기능을 제공합니다. 이를 통해 개발자는 Zed 환경에서 더욱 효율적인 Laravel 개발 작업을 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-zed-extension?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-08-04T17:17:30.000Z",
+    "fetchedAt": "2026-08-05T00:51:09.539Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents/",
     "title": "Introducing Database Operations Agents: The future of autonomous database management",
     "summary": "As part of the Agentic Data Cloud launch at Google Cloud Next ‘26, we announced two AI-powered database agents to simplify database management. These include the Database Onboarding Agent for Day 0 op",
@@ -334,6 +366,53 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
+    "title": "Enabling the next iteration of the borrow checker on nightly",
+    "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next",
+    "aiSummary": "Rust 개발팀은 차세대 borrow checker인 Polonius Alpha를 nightly 버전에 도입합니다. 이는 수개월 내로 예정된 정식 안정화 버전을 앞두고 최종적인 테스트를 진행하기 위한 단계입니다.\n\nPolonius Alpha의 핵심은 기존 NLL의 한계를 극복한 흐름 민감형 분석을 제공하는 것입니다. 이를 통해 기존 NLL에서는 컴파일되지 않던 복잡한 생명 주기 관계를 포함한 코드를 허용할 수 있게 됩니다. 특히 개발자들이 자주 겪는 HashMap의 가변 참조 문제와 같이, borrow checker가 함수의 흐름을 인지하지 못해 발생하는 불필요한 제약을 해결합니다.\n\n현재 Polonius Alpha의 성능은 전반적으로 수용 가능한 수준입니다. 가장 인기 있는 1만 개의 crate를 대상으로 테스트한 결과, 대부분에서 유의미한 성능 저하는 발생하지 않았습니다. 일부 crate에서 2배에서 3배 수준의 성능 하락 사례가 확인되었으나, 이는 전체적으로 드물고 최소화된 수준입니다. 개발팀은 이러한 성능 이슈를 추가로 보완할 계획입니다.\n\n사용자는 nightly 버전에서 Polonius Alpha를 테스트할 수 있으며, 만약 비활성화가 필요한 경우 rustflags 설정을 통해 기존 NLL 방식을 유지할 수 있습니다. 개발팀은 올해 말까지 커뮤니티의 피드백을 수렴하고 성능 최적화를 마친 뒤 Polonius Alpha를 정식으로 안정화할 예정입니다.",
+    "url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Jack Huey",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T00:51:09.539Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/08/04/this-week-in-spring-august-4-2026",
+    "title": "This Week in Spring - August 4th, 2026",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "제공된 내용은 Broadcom 및 Spring 생태계와 관련된 법적 고지 사항과 상표권 안내를 담고 있습니다. 본문에는 실제 기술적인 업데이트나 주간 뉴스 내용이 포함되어 있지 않으며, 문서에 언급된 다양한 오픈소스 기술 및 기업명에 대한 상표권 소유 관계를 명시하는 것에 국한되어 있습니다.",
+    "url": "https://spring.io/blog/2026/08/04/this-week-in-spring-august-4-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T00:51:09.539Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/ai-consolidation",
+    "title": "AI consolidation: Why platforms will win and portfolios will break",
+    "summary": "Our partners are proof that getting this architecture right drives real success. By building on Elastic’s unified platform rather than a fragmented portfolio, they bypass the friction of integrating d",
+    "aiSummary": "Elastic의 통합 플랫폼을 기반으로 구축하는 것이 분산된 도구들로 구성된 포트폴리오를 사용하는 것보다 비즈니스 성공에 훨씬 더 효과적입니다.\n\n개별적인 도구들을 각각 통합할 때 발생하는 기술적 마찰을 제거함으로써 운영 효율성을 극대화할 수 있기 때문입니다.\n\n파트너들의 사례를 통해 입증된 바와 같이 아키텍처를 올바르게 설계하는 것이 실제 성과로 직결되는 핵심 요소입니다.",
+    "url": "https://www.elastic.co/blog/ai-consolidation",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jesse Sladek",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T00:51:09.539Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1057,6 +1136,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/consul-cyberark-wim-external-ca-for-the-service-mesh",
+    "title": "Consul + CyberArk WIM: External CA for the service mesh",
+    "summary": "Every service in a Consul service mesh gets a short-lived TLS certificate that proves its identity. By default, Consul runs its own certificate authority to issue those certificates. That is convenien",
+    "aiSummary": "Consul Enterprise 2.0.0 버전부터 CyberArk Workload Identity Manager(이전 명칭 Venafi Firefly)를 외부 인증 기관으로 연동하는 기능을 지원합니다. 기존에는 Consul이 자체적으로 인증 기관 역할을 수행했으나, 이번 업데이트를 통해 보안 팀이 관리하는 외부 PKI 인프라를 서비스 메시의 신뢰 기반(Trust Anchor)으로 활용할 수 있게 되었습니다.\n\n이번 연동의 핵심은 역할 분담입니다. CyberArk는 HSM으로 보호되는 루트 인증서와 PKI 계층 구조를 관리하고, CyberArk WIM은 중간 인증 기관으로서 단기 워크로드 인증서를 발급합니다. Consul은 인증서 서명 요청(CSR)을 처리하고, 발급된 리프 인증서와 전체 체인을 메시 내의 모든 프록시와 에이전트에 자동으로 배포 및 갱신합니다.\n\n주요 장점은 보안 거버넌스 강화와 운영 효율성입니다. 보안 팀은 CyberArk Control Plane을 통해 메시에서 발행되는 모든 인증서에 대한 정책을 중앙에서 통제하고 감사할 수 있습니다. 또한, CyberArk WIM의 중간 인증서가 교체될 때도 Consul이 이를 자동으로 감지하여 대응하므로 서비스 중단 없이 신뢰 연속성을 유지할 수 있습니다.\n\n멀티 데이터센터 환경에서는 클러스터 피어링을 통해 각 데이터센터가 동일한 CyberArk 루트를 참조하도록 구성할 수 있습니다. 이를 통해 서로 다른 지역의 데이터센터 간에도 별도의 교차 서명 없이 공통의 신뢰 기반 내에서 상호 mTLS 인증이 가능합니다. 이 기능은 이미 CyberArk나 Venafi를 표준 PKI로 사용 중이거나, 보안 및 규정 준수 요구사항으로 인해 Consul 내부 인증 기관이 아닌 관리형 CA를 사용해야 하는 조직에 최적화된 솔루션입니다.",
+    "url": "https://www.hashicorp.com/blog/consul-cyberark-wim-external-ca-for-the-service-mesh",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mridul Gupta",
+    "pubDate": "2026-07-31T07:00:00.000Z",
+    "fetchedAt": "2026-08-05T00:51:09.539Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -2120,166 +2215,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
-    "title": "MAI-Code-1-Flash: early results from real developer workflows",
-    "summary": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in",
-    "aiSummary": "GitHub이 일상적인 개발 작업의 효율성을 높이기 위해 개발한 경량 코딩 모델인 MAI-Code-1-Flash에 관한 초기 분석 결과를 발표했습니다. \n\n이 모델은 개발자가 매일 수행하는 빠르고 반복적인 작업에 최적화되어 설계되었습니다. 이번 자료는 실제 개발자들의 워크플로우 내에서 해당 모델이 어떠한 성능과 효용을 보여주고 있는지에 대한 데이터 기반의 통찰을 담고 있습니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Faith Xu",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "fetchedAt": "2026-07-30T00:15:44.038Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/ipad",
-    "title": "Cursor, now on iPad",
-    "summary": "Jul 29, 2026 · ChangelogCursor, now on iPadCursor for iPad is now available on all paid plans.\nNew to both iPhone and iPad: an inbox to stay organized, and a review experience that covers the full PR.",
-    "aiSummary": "AI 기반 코드 에디터인 Cursor가 iPad 버전을 공식 출시하며 유료 플랜 사용자들에게 서비스를 제공합니다. iPad의 넓은 화면을 활용하기 위해 사이드바 채팅을 고정하여 여러 에이전트를 동시에 모니터링할 수 있도록 레이아웃을 최적화했으며, 화면 분할을 통해 코드 리뷰와 채팅을 동시에 수행하고 파일 차이점을 전체 화면으로 확인할 수 있습니다.\n\n이미지 첨부 및 특정 지점 주석 달기 기능이 강화되었으며 Apple Pencil을 사용한 직접적인 이미지 드로잉도 지원합니다. 또한 iPhone과 iPad 모두에서 PR 전체 내용을 검토하고 관리할 수 있는 환경을 갖추어 코멘트 확인, 검토자 변경, PR 승인 등 통합적인 워크플로우를 제공합니다.\n\n새롭게 추가된 Inbox 기능은 진행 중인 작업과 주의가 필요한 항목, 리뷰가 필요한 PR을 체계적으로 관리하도록 돕습니다. 이 외에도 Bitbucket 및 Azure DevOps SCM 지원, 여러 개의 PR을 동시에 처리하는 멀티 PR 세션 기능, 앱 내에서 소속 팀을 간편하게 전환하는 기능 등이 추가되어 모바일 환경에서의 개발 생산성을 크게 높였습니다.",
-    "url": "https://www.cursor.com/changelog/ipad",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "fetchedAt": "2026-07-30T00:15:44.038Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "/blog/vulnerability/july-2026-security-releases?1785283200000",
-    "title": "Wednesday, July 29, 2026 Security Releases",
-    "summary": "The Node.js ProjectSecurity releases available (https://nodejs.org/en/blog/vulnerability/july-2026-security-releases#security-releases-available)\nUpdates are now available for the 26.x, 24.x, 22.x Nod",
-    "aiSummary": "Node.js 프로젝트는 2026년 7월 29일, 26.x, 24.x, 22.x 릴리스 라인에 대한 보안 업데이트를 발표했습니다. 이번 업데이트는 의존성 패키지인 undici와 llhttp의 업데이트를 포함하며, 다수의 취약점을 해결합니다.\n\n주요 고위험 취약점으로는 HTTP/2 처리 과정에서의 메모리 고갈 문제, nghttp2_session_mem_send() 호출 시 발생하는 힙 사용 후 해제(heap-use-after-free, CVE-2026-56848), 그리고 권한 모델(Permission Model)의 경로 매칭 오류로 인해 허용되지 않은 파일 시스템에 접근할 수 있는 결함(CVE-2026-58043)이 있습니다.\n\n중위험 및 저위험 취약점으로는 HTTPS Agent의 mTLS 식별자 재사용 문제(CVE-2026-56850), 세션 재사용 시 호스트네임 검증 누락(CVE-2026-58040), node:sqlite의 스테일 반복자 문제, dns.resolveAny()의 과도한 DNS 응답 처리 시 프로세스 중단, node:zlib 동기 API의 크래시 유발 결함(CVE-2026-58045) 등이 포함됩니다. 또한, 권한 모델 내에서 추적 이벤트나 프로세스 보고 기능이 허용된 경로 밖으로 파일을 작성할 수 있는 보안 결함과 HTTP 클라이언트의 요청 동기화 문제도 수정되었습니다.\n\n이번 보안 조치는 각각 Node.js v26.5.1, v24.18.1, v22.23.2 버전을 통해 적용되었습니다. 사용자는 시스템 보안을 위해 최신 릴리스 버전으로 즉시 업데이트할 것을 권장합니다.",
-    "url": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/7/29/nominations-2026-rails-luminary",
-    "title": "Nominations open for the 2026 Rails Luminary Awards",
-    "summary": "Every year, Rails gets a little better. A little faster, a little safer, a little easier to work with. And none of that happens on its own.\nThe Rails Luminary Awards exist to celebrate those contribut",
-    "aiSummary": "Rails 커뮤니티의 발전에 크게 기여한 인물을 선정하는 2026 Rails Luminary Awards 후보 추천이 시작되었습니다. 이번 어워드는 버그 수정, 성능 향상, 신규 기능 추가 등 Rails 생태계를 위해 헌신한 기여자를 발굴하여 그 공로를 기념하기 위해 마련되었습니다.\n\n후보 추천은 8월 21일까지 진행되며 Rails Core 팀의 심사를 거쳐 최종 선정자에게는 트로피와 함께 1,000달러의 상금이 수여됩니다. 기업이나 단체는 후보 대상에서 제외되며 과거 수상자 또한 중복 선정이 불가능합니다. 본인 스스로를 추천할 수 없으며 제3자의 추천으로만 후보 등록이 가능합니다. 추천인의 개인정보는 엄격히 보호되며 동의 없이 공개되지 않습니다.",
-    "url": "https://rubyonrails.org/2026/7/29/nominations-2026-rails-luminary",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Amanda Perino",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
-    "title": "GitHub Copilot app usage metrics now expand across report rollups",
-    "summary": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.…\nT",
-    "aiSummary": "GitHub Copilot의 애플리케이션 사용량 측정 지표가 더욱 광범위한 리포트 롤업 데이터를 지원하도록 확장되었습니다.\n\n이제 enterprise-user 및 organization-user 보고서 내에서 개별 Copilot 애플리케이션의 활동이 사용자별로 명확하게 귀속되어 상세히 확인 가능합니다. 이번 업데이트를 통해 기업 및 조직 관리자는 사용자가 어떤 환경에서 Copilot을 활용하고 있는지에 대한 가시성을 더욱 확보할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-28T23:35:01.000Z",
-    "fetchedAt": "2026-07-29T00:13:36.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata",
-    "title": "npm publish-time malware scanning and dual-use metadata",
-    "summary": "As part of our ongoing supply-chain security work, npm is introducing automatic scanning of packages at publish time. This changelog covers what publishers can expect and a new metadata requirement…\nT",
-    "aiSummary": "npm은 소프트웨어 공급망 보안을 강화하기 위해 패키지 배포 시점에 악성 코드를 자동으로 탐지하는 스캐닝 기능을 도입합니다. 이번 업데이트를 통해 모든 신규 패키지 배포 과정에서 보안 검사가 수행되며, 패키지 게시자는 배포 단계에서 변화된 요구 사항을 준수해야 합니다. 특히 이번 변경 사항에는 이중 사용 메타데이터에 대한 새로운 규정이 포함되어 있어, 개발자들은 배포 환경에서의 기술적 준수 사항을 확인해야 합니다. 이러한 조치는 npm 생태계 전반의 보안 수준을 높이고 악성 패키지의 유입을 사전에 차단하기 위한 목적을 가집니다.",
-    "url": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-28T22:50:05.000Z",
-    "fetchedAt": "2026-07-29T00:13:36.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/inertia-devtools-is-now-on-the-chrome-web-store",
-    "title": "Inertia DevTools Is Now on the Chrome Web Store",
-    "summary": "Inertia DevTools, the official Chrome DevTools panel for inspecting Inertia.js visits, props, and route metadata, is now listed on the Chrome Web Store instead of requiring an unpacked install from Gi",
-    "aiSummary": "Inertia.js의 방문 기록과 props, 그리고 라우트 메타데이터를 검사할 수 있는 공식 도구인 Inertia DevTools가 Chrome Web Store에 정식으로 등록되었습니다. 기존에는 GitHub에서 파일을 직접 다운로드하여 압축을 푸는 방식으로 설치해야 했으나, 이제는 웹 스토어를 통해 더욱 간편하게 설치하고 사용할 수 있게 되었습니다.",
-    "url": "https://laravel-news.com/inertia-devtools-is-now-on-the-chrome-web-store?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-07-28T22:13:24.000Z",
-    "fetchedAt": "2026-07-31T00:59:31.358Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
-    "title": "Grok 4.5 is now available in GitHub Copilot",
-    "summary": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up…\nThe post Grok 4.5 i",
-    "aiSummary": "xAI의 최신 추론 모델인 Grok 4.5가 GitHub Copilot에 도입됩니다.\n\n해당 모델은 신속한 에이전트 기반 코딩과 복잡한 다단계 워크플로우를 처리할 수 있도록 설계되었습니다. 특히 방대한 컨텍스트 윈도우를 지원하여 개발자가 더욱 효율적으로 코드를 작성하고 기술적인 문제를 해결하는 데 도움을 줄 예정입니다.",
-    "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-28T19:10:45.000Z",
-    "fetchedAt": "2026-07-29T00:13:36.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-google-data-cloud-in-q326/",
-    "title": "Bringing Conversational Analytics to your entire data ecosystem",
-    "summary": "Increasing the adoption of generative AI across the enterprise requires you to do more than deploy a generic chatbot with a custom wrapper. Interacting with business-critical databases demands absolut",
-    "aiSummary": "Google Cloud는 기업 내 생성형 AI 활용을 극대화하기 위해 Conversational Analytics 기능을 전사적 데이터 생태계로 확장하고 있습니다. 현재 BigQuery와 Looker의 Conversational Analytics가 정식 출시되었으며 AlloyDB, Cloud SQL, Spanner 등 데이터베이스를 위한 기능도 프리뷰로 제공됩니다. 이를 통해 사용자는 Google Cloud뿐만 아니라 멀티 클라우드 환경의 데이터까지 통합하여 질의할 수 있습니다.\n\n데이터 보안과 거버넌스를 위해 CMEK, Private IP, VPC 제어 기능을 제공하며 유럽 연합과 미국의 리전 내 데이터 거주지 보장과 HIPAA 준수를 지원합니다. 또한 역할 기반 접근 제어를 통해 행과 열 단위의 세밀한 데이터 권한 관리가 가능합니다. 관리자는 OpenTelemetry 표준을 통해 에이전트의 상태를 모니터링하고 쿼리 비용과 사용량을 효과적으로 관리할 수 있습니다.\n\n정확성을 높이기 위해 Knowledge Catalog, BigQuery Graph, Looker의 시맨틱 계층인 LookML을 활용하여 데이터의 문맥을 정의하고 할루시네이션을 최소화합니다. 특히 Agentic Workflows 기능을 통해 단순한 질의 응답을 넘어 데이터 이상 징후를 자동으로 탐지하고 능동적으로 인사이트를 보고하는 단계로 발전했습니다.\n\n개발자와 기업은 Conversational Analytics API와 다양한 언어의 SDK를 사용하여 업무 도구에 기능을 직접 통합할 수 있습니다. 또한 MCP와 ADK를 활용하면 Slack 챗봇이나 멀티 에이전트 시스템과 같은 맞춤형 애플리케이션 내에 지능형 데이터 분석 환경을 유연하게 구축할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-google-data-cloud-in-q326/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Richard Kuzma"
-      ],
-      "title": [
-        "Group Product Manager, Data Agents"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-28T17:30:00.000Z",
-    "fetchedAt": "2026-07-29T00:13:36.841Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
