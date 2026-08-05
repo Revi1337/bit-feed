@@ -1,5 +1,181 @@
 [
   {
+    "id": "/blog/release/v26.7.0?1785947155911",
+    "title": "Node.js 26.7.0 (Current)",
+    "summary": "Skip to content (https://nodejs.org/en/blog/release/v26.7.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Blo",
+    "aiSummary": "Node.js 26.7.0 버전이 새롭게 릴리즈되었습니다. 이번 업데이트는 보안 강화, 성능 개선, 그리고 개발 생산성 향상을 위한 다양한 변경 사항을 포함하고 있습니다.\n\n주요 변경 사항으로는 crypto 모듈에서 STORE 로더를 통한 개인 키 로딩 지원이 추가되었으며, 보안 유지를 위해 루트 인증서가 NSS 3.125 버전으로 업데이트되었습니다. 또한 Perfetto 지원이 새롭게 도입되었으며, ModuleHooks에 Symbol.dispose 구현이 추가되어 더욱 효율적인 리소스 관리가 가능해졌습니다. 테스트 환경 개선을 위해 test_runner에 --test-coverage-include-all 옵션이 추가되었습니다.\n\n주요 의존성 업데이트도 함께 진행되었습니다. npm은 11.19.0으로 업그레이드되었으며, ngtcp2, nghttp3, simdjson, acorn, zlib, sqlite, ada 등 다양한 내부 라이브러리가 최신 버전으로 갱신되어 전반적인 시스템 안정성을 높였습니다. \n\n또한 FFI 관련 기능의 안정성 확보와 더불어, http 및 fs 모듈의 잠재적인 오류를 수정하고 동작을 최적화했습니다. 문서 전반에 걸쳐 상세한 설명이 보완되었고, 기술적 우선순위와 기여 가이드라인이 명확히 정리되었습니다. 이번 릴리즈는 안정적이고 고성능의 런타임 환경을 제공하는 데 중점을 두고 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.7.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-08-05T16:25:55.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
+    "title": "Solving the \"Noisy Neighbor\": How Sharded Architecture Protects Multi-Tenant Platforms",
+    "summary": "Whether you are a multi-tenant SaaS provider, a large enterprise managing internal data platforms, or a company handling mixed-workload data processing, managing a shared infrastructure environment me",
+    "aiSummary": "멀티 테넌트 SaaS 환경이나 데이터 플랫폼에서 발생하는 Noisy Neighbor 문제는 하나의 테넌트가 시스템 자원을 독점하여 전체 플랫폼의 성능 저하와 SLA 위반을 초래하는 치명적인 장애 요소입니다. 기존의 모놀리식 아키텍처는 데이터 처리를 단일 스트림으로 통합하기 때문에 특정 데이터베이스 장애가 시스템 전체로 전파되는 100%의 폭발 반경을 가집니다.\n\n이를 해결하기 위해 제시되는 Sharded Hub-and-Spoke 아키텍처는 처리 프로세스를 중앙 라우터인 Hub와 독립적인 실행 단위인 Spokes로 분리합니다. Hub는 유입되는 데이터를 식별하여 개별 버퍼로 분산하며, Pub/Sub와 같은 중간 버퍼를 활용해 하류단의 병목 현상이 상류단으로 전이되는 것을 방지합니다. Spokes는 테넌트 우선순위나 비즈니스 도메인별로 세분화된 독립적 파이프라인으로 구성되어 특정 테넌트의 부하가 전체 서비스에 영향을 미치지 않도록 격리합니다.\n\n이러한 구조로 전환하면 장애의 영향 범위를 5% 미만으로 크게 축소할 수 있으며, 각 테넌트 부하에 맞춰 자원을 독립적으로 확장하고 개별 도메인별로 유연하게 유지보수를 수행할 수 있습니다. \n\n성공적인 구현을 위해서는 실패한 레코드를 별도로 처리하는 Dead Letter Queues, 데이터베이스 연결 고갈을 방지하기 위한 엄격한 Connection Pooling, 그리고 쓰기 부하를 줄이기 위한 Asynchronous I/O 전략이 병행되어야 합니다. 결론적으로 Sharded 아키텍처는 고립된 실행 환경을 제공함으로써 엄격한 SLA를 유지하고 플랫폼의 운영 안정성을 극대화합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sri Harshini Donthineni"
+      ],
+      "title": [
+        "Cloud Data Engineer, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-05T16:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
+    "title": "Scaling agentic AI: How UiPath built its high-performance GPU platform on AI Hypercomputer",
+    "summary": "As a market leader in enterprise agentic automation and business orchestration, UiPath is helping to pioneer an industry shift toward agentic AI. With it, the company is deploying autonomous agents to",
+    "aiSummary": "UiPath는 엔터프라이즈 에이전트 AI로의 전환을 가속화하는 과정에서 발생하는 방대한 컴퓨팅 자원 수요와 복잡한 인프라 문제를 해결하기 위해 Google Cloud 기반의 고성능 GPU 플랫폼을 구축하였습니다. 기존의 개별 클러스터 방식으로는 불규칙한 워크로드와 GPU 공급 부족, 높은 운영 비용 문제를 해결하기 어렵다는 판단하에 공유 GPU 플릿 아키텍처를 도입하였습니다.\n\n이 공유 플릿 모델은 머신러닝 서비스 플랫폼이 워크로드를 관리하며, 실시간 추론이 집중되는 주간에는 유연하게 자원을 배분하고, 야간이나 비어있는 시간에는 배치 학습이나 대규모 모델 훈련을 수행하도록 설계되었습니다. 이를 위해 UiPath는 Google Cloud의 AI Hypercomputer 아키텍처와 Dynamic Workload Scheduler를 활용하여 훈련과 추론 작업을 효율적으로 조정하고 있으며, 고성능이 필요한 훈련에는 A3 VM 인스턴스를, 비용 효율적인 추론에는 G4 VM 인스턴스를 배치하여 자원 최적화를 실현했습니다.\n\n또한 UiPath는 LLAMA 및 Qwen 아키텍처 기반의 모델을 통해 지능형 문서 처리인 IDP와 컴퓨터 비전 기능을 강화하고 있습니다. 이러한 인프라 혁신을 통해 Omega Healthcare나 Thermo Fisher Scientific과 같은 고객사들은 대규모 문서 처리 작업에서 높은 정확도와 처리 속도 향상을 경험하고 있습니다.\n\n결과적으로 UiPath는 자원을 제품별로 고정하지 않고 공유 자원화하여 수요 변화에 따른 유휴 자원 낭비를 줄였으며, 예측 가능한 용량 계획을 통해 운영 효율성을 크게 높였습니다. 이번 사례는 대규모 엔터프라이즈 AI 환경에서 하드웨어와 소프트웨어의 긴밀한 통합이 어떻게 성능 개선과 비용 절감을 동시에 달성할 수 있는지 보여주는 모범적인 사례입니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Abhijeet Rajwade"
+      ],
+      "title": [
+        "Senior Customer Engineer, AI Infrastructure"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-05T16:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
+    "title": "HCP Terraform is the control plane for AI-driven infrastructure",
+    "summary": "AI-driven infrastructure is broader than generating configuration. It is a growing set of workflows across the whole lifecycle: application teams composing infrastructure from approved patterns in nat",
+    "aiSummary": "AI 기반 인프라 운영 환경이 확장되면서 인프라 구성 자동화의 병목 현상은 작성 단계에서 검증 및 승인 단계로 이동했습니다. HCP Terraform은 이러한 AI 에이전트가 생성한 인프라 변경 사항을 제어하고 관리하는 통제 평면 역할을 수행합니다. AI 에이전트는 빠른 속도로 인프라를 구성하고 수정할 수 있지만, 적절한 안전장치가 없을 경우 환각 현상, 무분별한 접근 권한 부여, 검증되지 않은 변경 사항 반영 등의 위험을 초래할 수 있습니다.\n\nHCP Terraform은 이러한 위험을 방지하기 위해 5가지 계층의 방어 체계를 제공합니다. 첫째, Provenance를 통해 에이전트가 승인된 Private Registry 모듈과 조직 표준을 기반으로 작업하도록 제한합니다. 둘째, Policy as code와 실행 태스크를 활용해 모든 변경 사항을 강제로 검증합니다. 셋째, 프로젝트 단위의 Identity를 적용하고 동적 자격 증명을 사용하여 에이전트의 권한을 최소화합니다. 넷째, 프로젝트와 워크스페이스를 격리하여 잠재적 오류의 영향을 최소화합니다. 마지막으로, Run history를 통해 모든 변경 이력과 승인 기록을 증거로 보존합니다.\n\n이러한 운영 모델에서 AI 에이전트는 인프라를 제안하는 역할을 담당하며, 최종 결정과 실행은 HCP Terraform의 제어 하에 이루어집니다. 이를 통해 플랫폼 팀은 검증된 모듈을 신속하게 배포하고, 애플리케이션 팀은 표준화된 인프라를 안전하게 셀프 서비스할 수 있습니다. 결론적으로 AI 에이전트의 도입이 거버넌스의 약화를 의미하는 것이 아니라, 오히려 기존의 통제 방식을 더욱 강화하고 체계화하는 과정으로 활용되어야 한다는 점을 강조합니다.",
+    "url": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Simon Lynch",
+    "pubDate": "2026-08-05T16:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "13572f01241ca7108f49e50344decc868ddde5d7",
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+    "aiSummary": "Amazon DynamoDB가 규모와 관계없이 실시간 벡터 검색을 지원하는 기능을 새롭게 도입했습니다. 이번 업데이트를 통해 수조 개의 벡터 데이터까지도 단일 자릿수 밀리초 단위의 지연 시간과 99퍼센트 이상의 재현율로 검색할 수 있게 되었습니다. 별도의 인프라 관리 없이 운영 가능한 완전 관리형 서비스로 제공되어 개발자의 편의성을 크게 높였습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "2026-08-05T14:45:10.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=go&p=728730",
+    "title": "Go 1.27 Release Party – Free Online Event With the Go Team",
+    "summary": "Join us on August 25 at 4:00 pm UTC for a free online event for Go developers, where we will discuss Go 1.27. Instead of reading the release notes on your own, we’d like to invite you to experience th",
+    "aiSummary": "Go 개발자들을 위한 Go 1.27 릴리즈 파티 온라인 행사가 오는 8월 25일 오후 4시 UTC에 개최됩니다. 이번 행사는 단순히 릴리즈 노트를 읽는 방식에서 벗어나 개발자 커뮤니티가 함께 모여 Go 1.27의 주요 변경 사항과 기능을 경험하고 소통하는 자리로 마련되었습니다. 참가를 희망하는 개발자라면 누구나 무료로 참여할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dominika Stankiewicz",
+    "pubDate": "2026-08-05T13:50:30.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
+    "title": "Unlocking the future of shared storage: Filestore on Colossus",
+    "summary": "Today,  enterprise storage must be as agile, elastic, and responsive as the workloads it supports. Filestore, Google Cloud’s first-party, secure, scalable NFS file service, can service a wide-range of",
+    "aiSummary": "Google Cloud는 자사의 NFS 파일 서비스인 Filestore의 백엔드 저장소 계층을 Google의 분산 저장 시스템인 Colossus 기반으로 개편했습니다. 이번 업데이트를 통해 Filestore는 YouTube나 Gmail 등 대규모 서비스를 지탱하는 인프라 기술을 활용하게 되어 확장성과 운영 효율성이 크게 향상되었습니다.\n\n가장 중요한 변화는 저장 용량과 성능의 분리입니다. 사용자는 워크로드 요구 사항에 맞춰 IOPS를 독립적으로 설정할 수 있어 리소스 과잉 할당 없이 비용을 최적화할 수 있습니다. 이러한 기능은 GKE 환경에서 특히 유용하며 Filestore CSI 드라이버와 결합하여 컨테이너화된 환경에 고성능 영구 스토리지를 제공합니다. 또한 Filestore multishares for GKE 기능을 통해 하나의 인스턴스를 소규모 단위로 분할함으로써 수천 개의 컨테이너가 효율적으로 자원을 공유할 수 있도록 지원합니다.\n\n특히 이번 개선은 다수의 자율 AI 에이전트가 협업하는 에이전트 스웜 환경에서 강력한 성능을 발휘합니다. NFS 프로토콜과 파일 잠금 기능을 통해 여러 에이전트가 동일한 데이터셋에 안전하게 접근하고 일관성을 유지할 수 있어 복잡한 작업 수행이 가능해졌습니다.\n\n운영 측면에서는 Custom Performance 설정을 통한 실시간 IOPS 조정과 무중단 용량 변경이 가능해졌으며 장애 복구 속도 또한 개선되었습니다. Google Cloud IAM, UIDs/GIDs, IP ACL 등과 연동된 강력한 보안 체계도 함께 제공하여 엔터프라이즈급의 안정적인 데이터 환경을 구축합니다.",
+    "url": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jerome McFarland"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-05T13:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=728863",
+    "title": "Java Annotated Monthly – August 2026 ",
+    "summary": "July gave the tech world plenty to talk about, from fresh releases and useful tutorials to Kotlin updates, AI experiments, and new ideas across the wider ecosystem. We packed the best of it into one i",
+    "aiSummary": "Java Annotated Monthly 8월호에서는 7월 한 달간 IT 생태계에서 주목받은 주요 소식들을 정리하여 제공합니다. 이번 호에서는 최신 소프트웨어 릴리스와 유용한 튜토리얼을 비롯해 Kotlin 업데이트 소식, AI 기술을 활용한 다양한 실험적 시도와 새로운 아이디어들을 다룹니다. 또한 생태계 전반에 걸친 기술적 변화와 동향을 요약하여 전달함으로써 독자들이 복잡한 정보 속에서 핵심 내용을 효율적으로 파악할 수 있도록 돕습니다. 특별히 Donald Raab의 기고를 포함하여 Java 개발자들에게 가치 있는 인사이트를 제공하는 데 집중하였습니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/08/java-annotated-monthly-august-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Irina Mariasova",
+    "pubDate": "2026-08-05T12:30:38.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_133",
     "title": "Visual Studio Code 1.133 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article",
@@ -13,6 +189,69 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/postgres-changes-filters-and-column-selection",
+    "title": "Postgres Changes gets AND filters, new operators, and column selection",
+    "summary": "Postgres Changes subscriptions can now combine filters with AND, match on more operators, and select only the columns you need in the payload.",
+    "aiSummary": "Postgres Changes 구독 기능이 강화되어 이제 필터링 설정 시 AND 조건을 결합하여 사용할 수 있습니다. 또한 더 다양한 연산자를 활용한 데이터 매칭이 가능해졌으며 페이로드에서 필요한 컬럼만을 선택적으로 가져올 수 있게 되었습니다. 이러한 개선을 통해 데이터 처리의 유연성이 높아지고 전송되는 데이터 양을 효율적으로 최적화할 수 있습니다.",
+    "url": "https://supabase.com/blog/postgres-changes-filters-and-column-selection",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-08-05T07:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/08/python-3147-31315/",
+    "title": "Python 3.14.7 and 3.13.15 are now available!",
+    "summary": "A pair of bug fix releases await your upgrade.",
+    "aiSummary": "Python 3.14.7 및 3.13.15 버전이 새롭게 출시되었습니다. 이번 업데이트는 기존 버전에서 발견된 오류를 해결하기 위한 버그 수정 릴리스입니다. 안정적인 개발 환경을 위해 최신 버전으로 업그레이드할 것을 권장합니다.",
+    "url": "https://blog.python.org/2026/08/python-3147-31315/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Thomas Wouters",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/05/java-vscode-extension-update/",
+    "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
+    "summary": "Inside Java (https://inside.java/)News and views from members of the Java team at Oracle",
+    "aiSummary": "Oracle이 Visual Studio Code용 Java 플랫폼 확장 프로그램인 Oracle Java Platform Extension 버전 26.0.1을 공개하였습니다. 이번 업데이트는 Java 개발 환경의 생산성을 높이고 Visual Studio Code 상에서의 개발 경험을 개선하는 데 초점을 맞추고 있습니다. 상세한 변경 사항과 설치 방법은 Oracle의 공식 Java 커뮤니티 사이트인 Inside Java를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/08/05/java-vscode-extension-update/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Arvind Aprameya",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-24-0",
+    "title": "Image Dominant Color and HEIC Support in Laravel 13.24",
+    "summary": "Laravel 13.24 adds dominant color detection and HEIC support to the image API, a modelKeys() query builder method, and an array_keys validation rule.\nThe post Image Dominant Color and HEIC Support in ",
+    "aiSummary": "Laravel 13.24 업데이트를 통해 이미지 API 기능이 대폭 강화되었습니다. 이미지 내 주요 색상을 추출하는 Dominant Color 감지 기능과 HEIC 형식에 대한 지원이 새롭게 추가되었습니다.\n\n쿼리 빌더에는 모델 키를 효율적으로 처리하기 위한 modelKeys() 메서드가 도입되었으며, 유효성 검사 규칙에는 array_keys가 추가되어 데이터 처리의 편의성이 향상되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-24-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-04T22:38:46.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {

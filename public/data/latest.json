@@ -1,5 +1,181 @@
 [
   {
+    "id": "/blog/release/v26.7.0?1785947155911",
+    "title": "Node.js 26.7.0 (Current)",
+    "summary": "Skip to content (https://nodejs.org/en/blog/release/v26.7.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Blo",
+    "aiSummary": "Node.js 26.7.0 버전이 새롭게 릴리즈되었습니다. 이번 업데이트는 보안 강화, 성능 개선, 그리고 개발 생산성 향상을 위한 다양한 변경 사항을 포함하고 있습니다.\n\n주요 변경 사항으로는 crypto 모듈에서 STORE 로더를 통한 개인 키 로딩 지원이 추가되었으며, 보안 유지를 위해 루트 인증서가 NSS 3.125 버전으로 업데이트되었습니다. 또한 Perfetto 지원이 새롭게 도입되었으며, ModuleHooks에 Symbol.dispose 구현이 추가되어 더욱 효율적인 리소스 관리가 가능해졌습니다. 테스트 환경 개선을 위해 test_runner에 --test-coverage-include-all 옵션이 추가되었습니다.\n\n주요 의존성 업데이트도 함께 진행되었습니다. npm은 11.19.0으로 업그레이드되었으며, ngtcp2, nghttp3, simdjson, acorn, zlib, sqlite, ada 등 다양한 내부 라이브러리가 최신 버전으로 갱신되어 전반적인 시스템 안정성을 높였습니다. \n\n또한 FFI 관련 기능의 안정성 확보와 더불어, http 및 fs 모듈의 잠재적인 오류를 수정하고 동작을 최적화했습니다. 문서 전반에 걸쳐 상세한 설명이 보완되었고, 기술적 우선순위와 기여 가이드라인이 명확히 정리되었습니다. 이번 릴리즈는 안정적이고 고성능의 런타임 환경을 제공하는 데 중점을 두고 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.7.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-08-05T16:25:55.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
+    "title": "Solving the \"Noisy Neighbor\": How Sharded Architecture Protects Multi-Tenant Platforms",
+    "summary": "Whether you are a multi-tenant SaaS provider, a large enterprise managing internal data platforms, or a company handling mixed-workload data processing, managing a shared infrastructure environment me",
+    "aiSummary": "멀티 테넌트 SaaS 환경이나 데이터 플랫폼에서 발생하는 Noisy Neighbor 문제는 하나의 테넌트가 시스템 자원을 독점하여 전체 플랫폼의 성능 저하와 SLA 위반을 초래하는 치명적인 장애 요소입니다. 기존의 모놀리식 아키텍처는 데이터 처리를 단일 스트림으로 통합하기 때문에 특정 데이터베이스 장애가 시스템 전체로 전파되는 100%의 폭발 반경을 가집니다.\n\n이를 해결하기 위해 제시되는 Sharded Hub-and-Spoke 아키텍처는 처리 프로세스를 중앙 라우터인 Hub와 독립적인 실행 단위인 Spokes로 분리합니다. Hub는 유입되는 데이터를 식별하여 개별 버퍼로 분산하며, Pub/Sub와 같은 중간 버퍼를 활용해 하류단의 병목 현상이 상류단으로 전이되는 것을 방지합니다. Spokes는 테넌트 우선순위나 비즈니스 도메인별로 세분화된 독립적 파이프라인으로 구성되어 특정 테넌트의 부하가 전체 서비스에 영향을 미치지 않도록 격리합니다.\n\n이러한 구조로 전환하면 장애의 영향 범위를 5% 미만으로 크게 축소할 수 있으며, 각 테넌트 부하에 맞춰 자원을 독립적으로 확장하고 개별 도메인별로 유연하게 유지보수를 수행할 수 있습니다. \n\n성공적인 구현을 위해서는 실패한 레코드를 별도로 처리하는 Dead Letter Queues, 데이터베이스 연결 고갈을 방지하기 위한 엄격한 Connection Pooling, 그리고 쓰기 부하를 줄이기 위한 Asynchronous I/O 전략이 병행되어야 합니다. 결론적으로 Sharded 아키텍처는 고립된 실행 환경을 제공함으로써 엄격한 SLA를 유지하고 플랫폼의 운영 안정성을 극대화합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sri Harshini Donthineni"
+      ],
+      "title": [
+        "Cloud Data Engineer, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-05T16:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
+    "title": "Scaling agentic AI: How UiPath built its high-performance GPU platform on AI Hypercomputer",
+    "summary": "As a market leader in enterprise agentic automation and business orchestration, UiPath is helping to pioneer an industry shift toward agentic AI. With it, the company is deploying autonomous agents to",
+    "aiSummary": "UiPath는 엔터프라이즈 에이전트 AI로의 전환을 가속화하는 과정에서 발생하는 방대한 컴퓨팅 자원 수요와 복잡한 인프라 문제를 해결하기 위해 Google Cloud 기반의 고성능 GPU 플랫폼을 구축하였습니다. 기존의 개별 클러스터 방식으로는 불규칙한 워크로드와 GPU 공급 부족, 높은 운영 비용 문제를 해결하기 어렵다는 판단하에 공유 GPU 플릿 아키텍처를 도입하였습니다.\n\n이 공유 플릿 모델은 머신러닝 서비스 플랫폼이 워크로드를 관리하며, 실시간 추론이 집중되는 주간에는 유연하게 자원을 배분하고, 야간이나 비어있는 시간에는 배치 학습이나 대규모 모델 훈련을 수행하도록 설계되었습니다. 이를 위해 UiPath는 Google Cloud의 AI Hypercomputer 아키텍처와 Dynamic Workload Scheduler를 활용하여 훈련과 추론 작업을 효율적으로 조정하고 있으며, 고성능이 필요한 훈련에는 A3 VM 인스턴스를, 비용 효율적인 추론에는 G4 VM 인스턴스를 배치하여 자원 최적화를 실현했습니다.\n\n또한 UiPath는 LLAMA 및 Qwen 아키텍처 기반의 모델을 통해 지능형 문서 처리인 IDP와 컴퓨터 비전 기능을 강화하고 있습니다. 이러한 인프라 혁신을 통해 Omega Healthcare나 Thermo Fisher Scientific과 같은 고객사들은 대규모 문서 처리 작업에서 높은 정확도와 처리 속도 향상을 경험하고 있습니다.\n\n결과적으로 UiPath는 자원을 제품별로 고정하지 않고 공유 자원화하여 수요 변화에 따른 유휴 자원 낭비를 줄였으며, 예측 가능한 용량 계획을 통해 운영 효율성을 크게 높였습니다. 이번 사례는 대규모 엔터프라이즈 AI 환경에서 하드웨어와 소프트웨어의 긴밀한 통합이 어떻게 성능 개선과 비용 절감을 동시에 달성할 수 있는지 보여주는 모범적인 사례입니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Abhijeet Rajwade"
+      ],
+      "title": [
+        "Senior Customer Engineer, AI Infrastructure"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-05T16:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
+    "title": "HCP Terraform is the control plane for AI-driven infrastructure",
+    "summary": "AI-driven infrastructure is broader than generating configuration. It is a growing set of workflows across the whole lifecycle: application teams composing infrastructure from approved patterns in nat",
+    "aiSummary": "AI 기반 인프라 운영 환경이 확장되면서 인프라 구성 자동화의 병목 현상은 작성 단계에서 검증 및 승인 단계로 이동했습니다. HCP Terraform은 이러한 AI 에이전트가 생성한 인프라 변경 사항을 제어하고 관리하는 통제 평면 역할을 수행합니다. AI 에이전트는 빠른 속도로 인프라를 구성하고 수정할 수 있지만, 적절한 안전장치가 없을 경우 환각 현상, 무분별한 접근 권한 부여, 검증되지 않은 변경 사항 반영 등의 위험을 초래할 수 있습니다.\n\nHCP Terraform은 이러한 위험을 방지하기 위해 5가지 계층의 방어 체계를 제공합니다. 첫째, Provenance를 통해 에이전트가 승인된 Private Registry 모듈과 조직 표준을 기반으로 작업하도록 제한합니다. 둘째, Policy as code와 실행 태스크를 활용해 모든 변경 사항을 강제로 검증합니다. 셋째, 프로젝트 단위의 Identity를 적용하고 동적 자격 증명을 사용하여 에이전트의 권한을 최소화합니다. 넷째, 프로젝트와 워크스페이스를 격리하여 잠재적 오류의 영향을 최소화합니다. 마지막으로, Run history를 통해 모든 변경 이력과 승인 기록을 증거로 보존합니다.\n\n이러한 운영 모델에서 AI 에이전트는 인프라를 제안하는 역할을 담당하며, 최종 결정과 실행은 HCP Terraform의 제어 하에 이루어집니다. 이를 통해 플랫폼 팀은 검증된 모듈을 신속하게 배포하고, 애플리케이션 팀은 표준화된 인프라를 안전하게 셀프 서비스할 수 있습니다. 결론적으로 AI 에이전트의 도입이 거버넌스의 약화를 의미하는 것이 아니라, 오히려 기존의 통제 방식을 더욱 강화하고 체계화하는 과정으로 활용되어야 한다는 점을 강조합니다.",
+    "url": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Simon Lynch",
+    "pubDate": "2026-08-05T16:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "13572f01241ca7108f49e50344decc868ddde5d7",
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+    "aiSummary": "Amazon DynamoDB가 규모와 관계없이 실시간 벡터 검색을 지원하는 기능을 새롭게 도입했습니다. 이번 업데이트를 통해 수조 개의 벡터 데이터까지도 단일 자릿수 밀리초 단위의 지연 시간과 99퍼센트 이상의 재현율로 검색할 수 있게 되었습니다. 별도의 인프라 관리 없이 운영 가능한 완전 관리형 서비스로 제공되어 개발자의 편의성을 크게 높였습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "2026-08-05T14:45:10.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=go&p=728730",
+    "title": "Go 1.27 Release Party – Free Online Event With the Go Team",
+    "summary": "Join us on August 25 at 4:00 pm UTC for a free online event for Go developers, where we will discuss Go 1.27. Instead of reading the release notes on your own, we’d like to invite you to experience th",
+    "aiSummary": "Go 개발자들을 위한 Go 1.27 릴리즈 파티 온라인 행사가 오는 8월 25일 오후 4시 UTC에 개최됩니다. 이번 행사는 단순히 릴리즈 노트를 읽는 방식에서 벗어나 개발자 커뮤니티가 함께 모여 Go 1.27의 주요 변경 사항과 기능을 경험하고 소통하는 자리로 마련되었습니다. 참가를 희망하는 개발자라면 누구나 무료로 참여할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dominika Stankiewicz",
+    "pubDate": "2026-08-05T13:50:30.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
+    "title": "Unlocking the future of shared storage: Filestore on Colossus",
+    "summary": "Today,  enterprise storage must be as agile, elastic, and responsive as the workloads it supports. Filestore, Google Cloud’s first-party, secure, scalable NFS file service, can service a wide-range of",
+    "aiSummary": "Google Cloud는 자사의 NFS 파일 서비스인 Filestore의 백엔드 저장소 계층을 Google의 분산 저장 시스템인 Colossus 기반으로 개편했습니다. 이번 업데이트를 통해 Filestore는 YouTube나 Gmail 등 대규모 서비스를 지탱하는 인프라 기술을 활용하게 되어 확장성과 운영 효율성이 크게 향상되었습니다.\n\n가장 중요한 변화는 저장 용량과 성능의 분리입니다. 사용자는 워크로드 요구 사항에 맞춰 IOPS를 독립적으로 설정할 수 있어 리소스 과잉 할당 없이 비용을 최적화할 수 있습니다. 이러한 기능은 GKE 환경에서 특히 유용하며 Filestore CSI 드라이버와 결합하여 컨테이너화된 환경에 고성능 영구 스토리지를 제공합니다. 또한 Filestore multishares for GKE 기능을 통해 하나의 인스턴스를 소규모 단위로 분할함으로써 수천 개의 컨테이너가 효율적으로 자원을 공유할 수 있도록 지원합니다.\n\n특히 이번 개선은 다수의 자율 AI 에이전트가 협업하는 에이전트 스웜 환경에서 강력한 성능을 발휘합니다. NFS 프로토콜과 파일 잠금 기능을 통해 여러 에이전트가 동일한 데이터셋에 안전하게 접근하고 일관성을 유지할 수 있어 복잡한 작업 수행이 가능해졌습니다.\n\n운영 측면에서는 Custom Performance 설정을 통한 실시간 IOPS 조정과 무중단 용량 변경이 가능해졌으며 장애 복구 속도 또한 개선되었습니다. Google Cloud IAM, UIDs/GIDs, IP ACL 등과 연동된 강력한 보안 체계도 함께 제공하여 엔터프라이즈급의 안정적인 데이터 환경을 구축합니다.",
+    "url": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jerome McFarland"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-05T13:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=728863",
+    "title": "Java Annotated Monthly – August 2026 ",
+    "summary": "July gave the tech world plenty to talk about, from fresh releases and useful tutorials to Kotlin updates, AI experiments, and new ideas across the wider ecosystem. We packed the best of it into one i",
+    "aiSummary": "Java Annotated Monthly 8월호에서는 7월 한 달간 IT 생태계에서 주목받은 주요 소식들을 정리하여 제공합니다. 이번 호에서는 최신 소프트웨어 릴리스와 유용한 튜토리얼을 비롯해 Kotlin 업데이트 소식, AI 기술을 활용한 다양한 실험적 시도와 새로운 아이디어들을 다룹니다. 또한 생태계 전반에 걸친 기술적 변화와 동향을 요약하여 전달함으로써 독자들이 복잡한 정보 속에서 핵심 내용을 효율적으로 파악할 수 있도록 돕습니다. 특별히 Donald Raab의 기고를 포함하여 Java 개발자들에게 가치 있는 인사이트를 제공하는 데 집중하였습니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/08/java-annotated-monthly-august-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Irina Mariasova",
+    "pubDate": "2026-08-05T12:30:38.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_133",
     "title": "Visual Studio Code 1.133 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article",
@@ -13,6 +189,69 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/postgres-changes-filters-and-column-selection",
+    "title": "Postgres Changes gets AND filters, new operators, and column selection",
+    "summary": "Postgres Changes subscriptions can now combine filters with AND, match on more operators, and select only the columns you need in the payload.",
+    "aiSummary": "Postgres Changes 구독 기능이 강화되어 이제 필터링 설정 시 AND 조건을 결합하여 사용할 수 있습니다. 또한 더 다양한 연산자를 활용한 데이터 매칭이 가능해졌으며 페이로드에서 필요한 컬럼만을 선택적으로 가져올 수 있게 되었습니다. 이러한 개선을 통해 데이터 처리의 유연성이 높아지고 전송되는 데이터 양을 효율적으로 최적화할 수 있습니다.",
+    "url": "https://supabase.com/blog/postgres-changes-filters-and-column-selection",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-08-05T07:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/08/python-3147-31315/",
+    "title": "Python 3.14.7 and 3.13.15 are now available!",
+    "summary": "A pair of bug fix releases await your upgrade.",
+    "aiSummary": "Python 3.14.7 및 3.13.15 버전이 새롭게 출시되었습니다. 이번 업데이트는 기존 버전에서 발견된 오류를 해결하기 위한 버그 수정 릴리스입니다. 안정적인 개발 환경을 위해 최신 버전으로 업그레이드할 것을 권장합니다.",
+    "url": "https://blog.python.org/2026/08/python-3147-31315/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Thomas Wouters",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/05/java-vscode-extension-update/",
+    "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
+    "summary": "Inside Java (https://inside.java/)News and views from members of the Java team at Oracle",
+    "aiSummary": "Oracle이 Visual Studio Code용 Java 플랫폼 확장 프로그램인 Oracle Java Platform Extension 버전 26.0.1을 공개하였습니다. 이번 업데이트는 Java 개발 환경의 생산성을 높이고 Visual Studio Code 상에서의 개발 경험을 개선하는 데 초점을 맞추고 있습니다. 상세한 변경 사항과 설치 방법은 Oracle의 공식 Java 커뮤니티 사이트인 Inside Java를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/08/05/java-vscode-extension-update/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Arvind Aprameya",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-24-0",
+    "title": "Image Dominant Color and HEIC Support in Laravel 13.24",
+    "summary": "Laravel 13.24 adds dominant color detection and HEIC support to the image API, a modelKeys() query builder method, and an array_keys validation rule.\nThe post Image Dominant Color and HEIC Support in ",
+    "aiSummary": "Laravel 13.24 업데이트를 통해 이미지 API 기능이 대폭 강화되었습니다. 이미지 내 주요 색상을 추출하는 Dominant Color 감지 기능과 HEIC 형식에 대한 지원이 새롭게 추가되었습니다.\n\n쿼리 빌더에는 모델 키를 효율적으로 처리하기 위한 modelKeys() 메서드가 도입되었으며, 유효성 검사 규칙에는 array_keys가 추가되어 데이터 처리의 편의성이 향상되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-24-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-04T22:38:46.000Z",
+    "fetchedAt": "2026-08-05T16:56:00.042Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -1876,280 +2115,6 @@
     "tags": [
       "FastAPI",
       "Python"
-    ]
-  },
-  {
-    "id": "/blog/release/v24.18.1?1785341947684",
-    "title": "Node.js 24.18.1 (LTS)",
-    "summary": "Juan José2026-07-29, Version 24.18.1 'Krypton' (LTS), @juanarbol (https://nodejs.org/en/blog/release/v24.18.1#2026-07-29-version-24181-krypton-lts-juanarbol)\nThis is a security release.\nNotable Change",
-    "aiSummary": "Node.js 24.18.1 Krypton LTS 버전은 보안 업데이트를 포함한 릴리스입니다. 이번 업데이트에서는 다양한 보안 취약점을 해결하고 주요 의존성 패키지를 최신 버전으로 갱신하였습니다.\n\n주요 보안 조치 사항은 다음과 같습니다.\nhttp2 모듈에서 헤더 메모리 유지 처리와 리셋 스트림 지연 설정을 개선하여 취약점을 해결하였습니다.\npermission 모듈과 관련하여 radix split 노드 생성 방지 및 파일 시스템 권한 강제, 경로 체크 기능을 강화하였습니다.\nhttps 모듈의 PFX 객체 배열 에이전트 키 식별 및 세션 재사용 시 아이디어티티 검사 기능을 보완하였습니다.\nsqlite의 문장 재설정 시 반복자 무효화, dns 모듈의 대규모 응답 처리, zlib의 버퍼 범위 초과 쓰기 방지, http 요청의 최대 헤더 제한 등의 보안 패치가 포함되었습니다.\n\n또한, 업데이트된 의존성 항목으로는 llhttp 9.4.3 버전과 undici 7.29.0 버전이 적용되었습니다. \n\n이번 릴리스는 다양한 운영체제별 설치 파일과 바이너리 및 소스 코드를 제공하며, 자세한 기술 문서와 API 정보는 Node.js 공식 웹사이트를 통해 확인할 수 있습니다.",
-    "url": "https://nodejs.org/en/blog/release/v24.18.1",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-07-29T16:19:07.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-    "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-    "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’re rolling it out today in Googl",
-    "aiSummary": "Google이 새로운 음악 생성 모델인 Lyria 3.5를 자사의 서비스인 Google Flow Music을 통해 출시하였습니다. 이번 업데이트는 음악성, 가사 작성, 보컬 품질 및 창작 제어 기능 등 여러 방면에서 대폭 개선된 성능을 제공합니다.\n\nLyria 3.5는 더욱 자연스럽고 복잡한 선율을 생성할 수 있도록 음악성을 향상시켰으며, 사용자의 입력 의도를 더 정확하게 반영하여 구조적으로 완성도 높은 가사를 작성합니다. 또한 보컬의 발음과 감정 표현을 현실적으로 다듬어 더욱 풍부한 음악을 만들 수 있게 지원합니다.\n\n사용자는 이번 업데이트를 통해 출력되는 음악의 템포와 재생 시간을 더욱 세밀하고 쉽게 조절할 수 있게 되었습니다. 향상된 기능이 적용된 Lyria 3.5는 현재 Google Flow Music 웹사이트에서 바로 사용해 볼 수 있습니다.",
-    "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-07-29T16:02:10.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/",
-    "title": "What’s new in Gemini Enterprise Agent Platform",
-    "summary": "Since we launched Gemini Enterprise Agent Platform a few months ago, we’ve seen inspiring progress from businesses and builders alike. To stir up development, we’ve also shared 13 demos that can walk ",
-    "aiSummary": "Google Cloud는 Gemini Enterprise Agent Platform의 기능을 대폭 확장하며 기업들이 더욱 효율적이고 안전하게 AI 에이전트를 구축하고 운영할 수 있도록 지원합니다. 이번 업데이트의 핵심은 에이전트의 지속성 강화, 보안 및 거버넌스 체계 구축, 그리고 성능 모니터링 최적화입니다.\n\n에이전트의 운용 능력을 높이기 위해 도입된 Agent Memory Bank는 구조화된 스키마를 통해 대화 문맥과 사용자 정보를 장기간 유지하여 개인화된 경험을 제공하며, Agent Runtime은 최대 7일간 에이전트가 연속적으로 복잡한 업무를 수행할 수 있도록 지원합니다. 이를 통해 인간의 개입을 최소화하면서 장기적인 비즈니스 워크플로우를 자동화할 수 있습니다.\n\n보안과 거버넌스를 위해서는 세 가지 핵심 기능이 제공됩니다. Agent Identity는 최소 권한 원칙을 적용하여 에이전트의 접근 권한을 엄격하게 관리하고 토큰 탈취 위험을 방지합니다. Agent Gateway는 중앙 제어 지점으로서 정책 설정과 인라인 보호 기능을 제공하며, Agent Registry는 조직 내 모든 에이전트와 관련 자원을 통합 관리하여 중복 개발을 방지하고 가시성을 확보합니다.\n\n또한, 운영 중인 에이전트의 성능을 최적화하기 위해 실시간 평가와 관측성 도구가 강화되었습니다. Agent evaluation은 Google DeepMind와 협력한 지표를 포함하여 에이전트의 성능 저하를 능동적으로 탐지하며, Agent observability는 상세한 추적 기능을 통해 에이전트의 추론 과정과 도구 활용 방식을 가시화합니다.\n\n이와 함께 Google Cloud는 코드 보안을 자동화하는 관리형 에이전트인 CodeMender를 발표하여 능동적인 코드 수정과 제로데이 취약점 위험 감소를 지원합니다. 이러한 기능들은 AT&T, Best Buy, Commerzbank AG 등 다양한 글로벌 기업들이 신뢰성 있고 확장 가능한 AI 환경을 구축하는 데 핵심적인 역할을 하고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mike Clark"
-      ],
-      "title": [
-        "Director of Product Management, Gemini Enterprise Agent Platform"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-29T16:00:00.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/automate-agent-development-lifecycles-with-gemini-enterprise/",
-    "title": "Automate your agent development lifecycle using any coding agent",
-    "summary": "Welcome to our latest Gemini Enterprise Agent Platform deep dive, a practical walkthrough where we’ll teach you how to build real-world, production-ready agents starting from step 1. If you haven’t al",
-    "aiSummary": "이 기사는 Gemini Enterprise Agent Platform을 활용하여 코딩 에이전트 환경에서 아이디어 구상부터 배포, 운영, 보안, 평가에 이르는 전체 에이전트 개발 수명 주기를 자동화하는 방법을 설명합니다. 개발자는 개별 도구 간의 전환 없이 Agents CLI와 Developer Knowledge MCP를 사용하여 에이전트 개발의 모든 단계를 통합적으로 수행할 수 있습니다.\n\n핵심 사례인 Industry Watch 에이전트는 반도체 기업의 보도자료와 SEC 제출 문서를 실시간으로 비교 분석하여 정보의 격차를 찾아냅니다. 이 과정은 단순한 챗봇이 아닌 결정론적 도구와 모델을 결합한 아키텍처를 따르며, 이를 통해 모델의 환각 현상을 방지하고 데이터의 신뢰성을 확보합니다.\n\n개발 단계는 다음 여섯 단계로 구성됩니다. 첫째, 에이전트 플랫폼 기술을 습득하고 환경을 설정합니다. 둘째, 프롬프트를 통해 에이전트의 구조와 데이터를 처리할 Python 기반의 도구를 생성합니다. 셋째, 관리형 런타임에 배포하고 세션 기억 기능과 메모리 뱅크를 활용하여 상태 유지형 서비스로 전환합니다. 넷째, Agent Identity와 Model Armor를 적용하여 권한을 제한하고 프롬프트 주입 공격을 방어하는 보안 체계를 구축합니다. 다섯째, grounded evaluation을 통해 답변의 정확성과 근거를 자동 테스트합니다. 마지막으로, Gemini Enterprise 앱에 에이전트를 게시하여 비즈니스 사용자가 직접 활용할 수 있도록 합니다.\n\n이러한 방식은 개발자가 별도의 UI나 복잡한 도구 전환 없이 자연어 프롬프트만으로 실제 운영 가능한 수준의 기업용 에이전트를 구축하고 관리할 수 있게 지원합니다. 결과적으로 코딩 에이전트는 단순히 코드를 작성하는 도구를 넘어 에이전트 개발 수명 주기 전반을 제어하는 중심축으로 기능합니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/automate-agent-development-lifecycles-with-gemini-enterprise/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Shubham Saboo"
-      ],
-      "title": [
-        "Senior AI Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-29T16:00:00.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/introducing-the-borderless-lakehouse/",
-    "title": "The borderless Lakehouse: Bring AWS, Databricks and Snowflake data to your AI agents",
-    "summary": "Today’s data lakehouse is no longer mere data repository, but increasingly a system of action, actively executing tasks via always-on, autonomous AI agents. Rather than waiting for static reports, the",
-    "aiSummary": "Google Cloud는 데이터 이동 없이 다양한 플랫폼에 분산된 데이터를 활용할 수 있도록 지원하는 borderless Lakehouse를 발표했습니다. 이번 업데이트는 Apache Iceberg를 기반으로 구축되었으며 AWS Glue, Databricks Unity, Snowflake Horizon과 같은 외부 카탈로그와의 연동을 통해 데이터 사일로를 제거하고 통합적인 데이터 분석 환경을 제공합니다.\n\n이 기술의 핵심은 데이터 복사본을 생성하지 않는 zero-copy 통합입니다. SAP, Salesforce, Workday와 같은 SaaS 애플리케이션 데이터를 BigQuery에서 직접 쿼리할 수 있으며, 이 과정에서 양방향 상호 운용성과 통합된 거버넌스 및 보안 정책이 적용됩니다. 이를 통해 기업은 물리적 위치에 구애받지 않고 일관된 보안 환경에서 데이터를 분석하고 활용할 수 있습니다.\n\n또한 Cross-Cloud Interconnects를 통해 AWS나 Azure에 저장된 데이터에 접근할 때 발생하는 높은 네트워크 비용과 지연 시간을 최소화합니다. 지능형 크로스 클라우드 캐싱 기술을 활용하여 원격 데이터를 효율적으로 관리하고, 대규모 데이터를 별도의 마이그레이션 없이도 고성능으로 처리할 수 있도록 설계되었습니다.\n\nAI 에이전트의 신뢰성을 높이기 위한 Knowledge Catalog도 도입되었습니다. 이는 다양한 클라우드 환경의 메타데이터를 통합하고 비즈니스 컨텍스트를 추출하여 AI 모델이 데이터의 의미를 명확하게 파악하도록 돕습니다. 이를 통해 AI 에이전트는 할루시네이션을 줄이고 보다 정확한 의사결정을 내릴 수 있습니다.\n\n마지막으로 Google Cloud는 Gemini Enterprise와 연동되는 Data Agent Kit를 제공합니다. 이를 통해 개발자는 MCP 도구를 사용하여 자연어로 데이터를 조회하는 커스텀 에이전트를 쉽게 구축할 수 있습니다. 이러한 통합적인 접근은 데이터 전송 비용과 토큰 소비를 대폭 절감하며, 데이터 관리 효율성을 극대화하여 기업의 생성형 AI 도입 비용 구조를 혁신합니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/introducing-the-borderless-lakehouse/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sirish Chandrasekaran"
-      ],
-      "title": [
-        "VP, Product Management"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-29T16:00:00.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/business-intelligence/looker-adds-agentic-workflows-for-data-monitoring-and-insights/",
-    "title": "Automate data monitoring and root-cause analysis with Looker Agentic Workflows",
-    "summary": "Traditional business intelligence alerts can only tell you that a metric changed, leaving data analysts to manually hunt through dashboards to figure out why. Today, we are introducing Looker Agentic ",
-    "aiSummary": "Google Cloud는 데이터 모니터링과 근본 원인 분석을 자동화하는 Looker Agentic Workflows를 프리뷰 버전으로 공개합니다. 기존 비즈니스 인텔리전스 도구들이 단순한 수치 변화만을 알렸던 것과 달리, 이 기능은 지능형 에이전트를 활용하여 데이터 분석 과정을 대폭 간소화합니다.\n\n사용자는 Conversational Analytics 인터페이스에서 자연어로 모니터링 규칙을 설정할 수 있습니다. 특정 지표의 변화 조건을 입력하면 에이전트가 이를 해석하여 워크플로우를 생성하며, 사용자가 이를 검토하고 승인하면 즉시 자동화가 시작됩니다.\n\n지표가 설정된 임계값을 초과할 경우, 에이전트는 즉시 데이터 모델을 대상으로 Key Driver Analysis를 수행합니다. 이를 통해 변화를 유발한 구체적인 요인을 파악하고 Slack이나 이메일을 통해 상세한 진단 보고서를 전달함으로써 분석가들의 수작업 부담을 최소화합니다.\n\n모든 알림에는 Conversational Analytics로 즉시 연결되는 링크가 포함되어 있어, 사용자는 진단 결과를 바탕으로 후속 질문을 던지거나 가설을 검증하는 심층 분석을 이어갈 수 있습니다. 또한 관리자는 중앙 집중식 인터페이스를 통해 조직 전반의 워크플로우를 검토하고 제어할 수 있어 엔터프라이즈 거버넌스를 유지합니다.\n\nLooker Agentic Workflows는 Looker 버전 26.08 이상에서 Gemini in Looker 설정을 통해 활성화할 수 있습니다. 권한을 가진 사용자라면 누구나 즉시 기능을 사용하여 데이터 모니터링 체계를 구축할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/business-intelligence/looker-adds-agentic-workflows-for-data-monitoring-and-insights/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Indumathi Velusamy"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-29T16:00:00.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-    "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-    "aiSummary": "GPT-4o 모델에서 두 가지 API 설정을 최적화함으로써 ARC-AGI-3 벤치마크 점수를 세 배 향상시킨 사례가 보고되었습니다.\n\n해당 방식은 추론 과정의 연속성을 유지하는 설정과 데이터 압축 기능을 활성화하는 설정을 활용합니다. 이를 통해 모델의 복잡한 문제 해결 능력이 크게 개선되었으며, 성능과 효율성이라는 두 가지 측면에서 모두 유의미한 결과를 도출하였습니다.\n\n결과적으로 모델의 추론 체계를 효율적으로 관리하는 환경 설정이 LLM의 문제 해결 성능을 극대화하는 핵심 요소임을 입증합니다.",
-    "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-07-29T15:00:00.000Z",
-    "fetchedAt": "2026-07-30T00:15:44.038Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.141.0",
-    "title": "0.141.0",
-    "summary": "Features\n✨ Add app.frontend(check_dir=\"auto\"), to make local development more convenient with fastapi dev. PR #16102 by @tiangolo.",
-    "aiSummary": "FastAPI가 0.141.0 버전으로 업데이트되었습니다. 이번 업데이트를 통해 로컬 환경에서 개발 편의성을 높이기 위한 app.frontend 기능이 추가되었습니다. 해당 기능은 check_dir=\"auto\" 옵션을 지원하며 이를 통해 fastapi dev 명령어를 활용한 개발 과정이 더욱 원활해집니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.141.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-07-29T14:47:36.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "/blog/release/v26.5.1?1785333819312",
-    "title": "Node.js 26.5.1 (Current)",
-    "summary": "Rafael Gonzaga2026-07-29, Version 26.5.1 (Current), @RafaelGSS (https://nodejs.org/en/blog/release/v26.5.1#2026-07-29-version-2651-current-rafaelgss)\nThis is a security release.\nNotable Changes (https",
-    "aiSummary": "Node.js 버전 26.5.1이 보안 릴리스로 배포되었습니다. 이번 업데이트는 다수의 CVE 취약점 해결을 포함하고 있으며, 보안 강화를 위한 여러 변경 사항이 적용되었습니다.\n\n주요 수정 사항은 다음과 같습니다.\n\nhttp2 모듈에서 스트림 범위를 다룰 때 발생하던 문제를 수정했습니다.\n권한 설정과 관련하여 radix split 노드 생성 오류를 방지하고, 파일 시스템 쓰기 권한 및 보고서 출력 경로에 대한 검사를 강화했습니다.\nhttps 모듈에서 PFX 객체 배열 에이전트 키를 명확히 구분하고, 세션 재사용 시 ID 확인 기능을 추가했습니다.\nsqlite 모듈에서 문 실행 재설정 시 태그 저장소 반복자를 무효화하도록 수정했습니다.\ndns 모듈에서 대용량 resolveAny 주소 응답 처리를 개선했습니다.\nzlib 모듈에서 버퍼 쓰기 범위를 벗어나는 오류 발생 시 예외를 던지도록 수정했습니다.\nhttp 모듈에서 헤더 최대 개수를 초과하는 요청을 차단하도록 정책을 강화했습니다.\n\n또한, 내장 종속성인 llhttp를 9.4.3으로, undici를 8.9.0으로 각각 업데이트하여 안정성을 높였습니다. 윈도우, macOS, 리눅스 및 AIX 등을 포함한 다양한 운영체제용 설치 파일과 바이너리가 공식 홈페이지를 통해 제공됩니다.",
-    "url": "https://nodejs.org/en/blog/release/v26.5.1",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-07-29T14:03:39.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/what-we-think-the-2026-gartner-hype-cycle-gets-right-about-graphql",
-    "title": "What We Think the 2026 Gartner Hype Cycle Gets Right About GraphQL",
-    "summary": "GraphQL is in Gartner’s Trough of Disillusionment in the 2026 Gartner® Hype Cycle™ for APIs (https://www.apollographql.com/resources/gartner-hype-cycle-for-apis-2026). Good.\n\n\n\nThe trough is what happ",
-    "aiSummary": "2026 Gartner Hype Cycle for APIs에서 GraphQL이 환멸의 계곡 단계에 진입한 것은 오히려 기술이 성숙기에 접어들었음을 의미합니다. 과거의 기대치가 실질적인 운영 요구 사항과 만나는 이 시점에서 GraphQL은 단순히 유행하는 기술이 아니라 기업 규모의 인프라로서 실질적인 효용성을 증명해야 하는 단계에 놓여 있습니다.\n\nGartner는 GraphQL이 AI 및 에이전트 워크플로우에서의 채택률이 기대보다 낮다고 분석하지만, 이미 GraphQL을 도입한 기업들은 AI 에이전트를 실무에 적용할 준비가 훨씬 잘 되어 있습니다. American Airlines와 같은 사례를 보면 기존의 federated graph 아키텍처가 구축되어 있을 경우 새로운 AI 도입 시 별도의 인프라를 처음부터 설계할 필요가 없으며, Apollo의 MCP Server와 같은 도구를 활용해 기존의 보안, 거버넌스, 관측 가능성 기능을 그대로 에이전트 환경에 적용할 수 있습니다.\n\n단순한 AI 게이트웨이는 트래픽 관리나 보안 제어와 같은 관문 역할에는 유용하지만, 데이터의 의미론적 맥락을 이해하지 못한다는 한계가 있습니다. 반면 GraphQL은 기업 데이터를 통합적으로 모델링하고 거버넌스를 제공하므로, 에이전트가 시스템 전반에서 유기적으로 데이터를 탐색하고 작업을 수행하게 만드는 핵심 맥락 계층이 될 수 있습니다.\n\n결론적으로 GraphQL이 AI 에이전트 시장에서 초기 급성장세를 보이지 않더라도, 이는 채택 속도의 문제일 뿐 그 가치가 낮아진 것은 아닙니다. 잘 설계된 GraphQL 그래프는 에이전트 도입을 위한 견고한 토대가 되며, 성숙한 인프라를 보유한 기업은 그렇지 않은 곳보다 AI 전환 과정에서 확연한 우위를 점하게 됩니다.",
-    "url": "https://www.apollographql.com/blog/what-we-think-the-2026-gartner-hype-cycle-gets-right-about-graphql",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Jeff Auriemma",
-    "pubDate": "2026-07-29T14:02:52.000Z",
-    "fetchedAt": "2026-07-30T00:15:44.038Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "/blog/release/v22.23.2?1785333695511",
-    "title": "Node.js 22.23.2 (LTS)",
-    "summary": "Marco Ippolito2026-07-29, Version 22.23.2 'Jod' (LTS), @marco-ippolito (https://nodejs.org/en/blog/release/v22.23.2#2026-07-29-version-22232-jod-lts-marco-ippolito)\nThis is a security release.\nNotable",
-    "aiSummary": "Node.js 22.23.2 LTS 버전은 보안 강화를 위한 업데이트로 다양한 취약점을 해결했습니다.\n\n주요 업데이트 내용으로는 http2 프로토콜에서 헤더 메모리 유지 방식 개선 및 RST 스트림 지연 처리, permission 기능에서 권한 부여 로직의 안전성 강화가 포함되었습니다. 또한 https 관련 ID 검증과 PFX 객체 처리, dns의 대용량 응답 처리, zlib의 버퍼 쓰기 제한 등 보안 이슈들에 대한 패치가 진행되었습니다.\n\n추가로 llhttp를 9.4.3 버전으로, undici를 6.28.0 버전으로 업데이트하여 라이브러리 차원의 안정성을 높였습니다. 이번 릴리스에는 운영체제별 다양한 설치 파일과 바이너리가 포함되어 있으며, 각 환경에 맞춰 업데이트를 진행할 것을 권장합니다.",
-    "url": "https://nodejs.org/en/blog/release/v22.23.2",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-07-29T14:01:35.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
-    "title": "Default model enablement for Copilot Business and Enterprise",
-    "summary": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new m",
-    "aiSummary": "GitHub가 Copilot Business 및 Copilot Enterprise 요금제를 사용하는 고객을 대상으로 새로운 글로벌 기본 활성화 정책을 도입합니다.\n\n앞으로는 관리자가 새로운 Copilot 모델이 출시될 때마다 수동으로 기능을 설정할 필요가 없습니다. 정식 출시된 모든 모델은 자동으로 활성화되어 사용자가 즉시 최신 기술을 활용할 수 있도록 지원합니다.\n\n이번 업데이트는 관리자의 운영 부담을 줄이고 사용자들이 가장 최신의 AI 기능을 원활하게 이용할 수 있도록 하기 위한 목적입니다. 다만 관리자는 필요에 따라 정책 설정을 통해 특정 모델을 비활성화하는 등의 제어 권한을 유지할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-07-29T14:01:07.000Z",
-    "fetchedAt": "2026-07-29T16:42:18.536Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=qodana&p=726686",
-    "title": "Qodana 2026.2: More Security, Better Coverage, Less Configuration",
-    "summary": "Qodana 2026.2 makes it easier for development teams to act on code quality, security, and compliance findings throughout the development workflow. This release introduces clearer code coverage insight",
-    "aiSummary": "JetBrains의 코드 품질 분석 도구인 Qodana 2026.2가 출시되었습니다. 이번 업데이트는 개발 워크플로우 전반에서 코드 품질과 보안, 컴플라이언스 문제를 더욱 효율적으로 관리할 수 있도록 설계되었습니다.\n\n가장 주요한 변화는 Pull Request 단계에서 코드 커버리지에 대한 가시성을 높인 점입니다. 개발자는 IDE 내에서 커버되지 않은 새로운 코드 라인을 즉시 확인할 수 있으며, 프로젝트의 일반적인 위치에 저장된 커버리지 리포트를 자동으로 감지하는 기능이 추가되어 초기 설정 과정이 대폭 간소화되었습니다.\n\n이러한 개선 사항들은 개발 팀이 복잡한 설정 없이도 코드 상태를 명확히 파악하고 보안 취약점에 더 빠르게 대응할 수 있도록 돕습니다. Qodana 2026.2는 개발 생산성을 향상시키고 소프트웨어 품질 유지에 필요한 노력을 줄이는 데 초점을 맞추고 있습니다.",
-    "url": "https://blog.jetbrains.com/qodana/2026/07/qodana-2026-2-more-security-better-coverage-less-configuration/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Kerry Beetge",
-    "pubDate": "2026-07-29T13:47:03.000Z",
-    "fetchedAt": "2026-08-03T10:52:46.900Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
     ]
   }
 ]
