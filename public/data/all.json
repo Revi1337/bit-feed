@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/05/django-61-released/",
+    "title": "Django 6.1 released",
+    "summary": "The Django team is happy to announce the release of Django 6.1.\nThe release notes\noffer a harmonious mélange of new features and usability improvements. A few highlights are:\nModel field fetch modes f",
+    "aiSummary": "Django 6.1 버전이 새롭게 출시되었습니다. 이번 업데이트는 사용자 편의성과 기능을 대폭 개선한 것이 특징입니다.\n\n주요 변경 사항으로는 모델 필드에 대한 온디맨드 페칭을 구성할 수 있는 모델 필드 페치 모드가 추가되었으며, ForeignKey.on_delete에 데이터베이스 수준의 삭제 옵션이 도입되었습니다. 또한 이메일 설정 방식을 사전 기반으로 변경하여 유연성을 높였습니다. \n\nDjango 6.1은 공식 다운로드 페이지 또는 PyPI를 통해 설치할 수 있습니다. \n\n한편 이번 6.1 출시와 함께 Django 6.0은 메인스트림 지원이 종료되었습니다. 6.0 버전의 경우 2027년 4월까지 보안 및 데이터 손실 관련 수정 사항만 지원될 예정이므로, 보안 문제에 대응하기 위해 Django 6.1로의 조속한 업그레이드를 권장합니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/05/django-61-released/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jacob Walls",
+    "pubDate": "2026-08-05T19:30:00.000Z",
+    "fetchedAt": "2026-08-06T00:14:09.738Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
     "id": "/blog/release/v26.7.0?1785947155911",
     "title": "Node.js 26.7.0 (Current)",
     "summary": "Skip to content (https://nodejs.org/en/blog/release/v26.7.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Blo",
