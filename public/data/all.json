@@ -1,5 +1,40 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.11",
+    "title": "1.1.11",
+    "summary": "Added a Vim editing mode, off by default and switched on from /settings under Editor Mode, bringing modal editing to the prompt with Normal, Insert, Visual and Visual Line modes, a mode badge in the s",
+    "aiSummary": "이번 1.1.11 업데이트의 핵심은 편집기 내 Vim 모드 도입과 주요 명령어 및 시스템 안정성 개선입니다.\n\n편집기 모드 설정에서 선택적으로 활성화할 수 있는 Vim 모드가 추가되었습니다. 이를 통해 Normal, Insert, Visual, Visual Line 모드를 지원하며 h/j/k/l 이동, 다양한 텍스트 객체 조작, d/c/y 연산자 등을 사용할 수 있게 되었습니다. 또한 Vim 모드 상태에서 프롬프트를 즉시 제출하거나 줄바꿈을 처리할 수 있는 옵션이 포함되었으며, keybindings.json을 통한 키 매핑도 지원합니다.\n\n명령줄 인터페이스 및 자동화 기능이 개선되었습니다. 프린트 모드에서 비대화형 slash commands를 실행할 때 쿼터 소모 없이 탭으로 구분된 기록이나 JSON 형식으로 출력을 받을 수 있게 되었으며, 대화형 전용 명령어의 오작동 방지를 위한 명시적 거부 로직이 적용되었습니다.\n\n플러그인 및 시스템 관리 측면에서는 config.json을 통한 플러그인 활성화 관리 방식을 개선하여 사용자 설정 유지 기능을 강화했습니다. 또한 서버에서 제공하는 재시도 대기 시간을 준수하도록 하여 모델 호출 안정성을 높였고, 권한 문제 발생 시 명확한 오류 메시지와 문제 해결 링크를 제공합니다.\n\n보안 및 버그 수정도 대거 포함되었습니다. 권한 승인 모드에서의 자동 승인 오류, MCP 서버 인증 우회 문제, 그리고 특정 상황에서 발생하는 잘못된 크레딧 부족 오류 등이 수정되었습니다. 이외에도 코드 파일의 긴 줄 바꿈 처리 개선과 프롬프트 히스토리 저장 방식의 정확도 향상 등 전반적인 사용자 경험이 개선되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.11",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-07T02:35:23.000Z",
+    "fetchedAt": "2026-08-07T08:32:40.549Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+    "title": "Improving Fable 5 Safeguards",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeProductAnnouncementsImproving Fable 5&#x27;s biology safeguardsAug 7, 2026We’re making updates to Claude Fable 5’s biology safeguards in a way that substant",
+    "aiSummary": "Anthropic은 Fable 5 모델의 생물학 분야 안전 가드레일을 업데이트하여 오탐지율을 대폭 개선하였습니다. 이번 조치로 일상적인 건강 정보나 교육적 목적의 생물학 질문 시 모델이 하위 버전으로 전환되는 폴백 현상이 약 85퍼센트 감소하였습니다.\n\n사용자들은 이제 임상 업무를 포함한 더 넓은 범위의 생물학적 작업에서 Fable 5의 향상된 지원을 받을 수 있게 되었습니다. 다만 바이러스학이나 독성학, 분자 설계와 같은 이중 용도 영역에서는 여전히 안전을 위해 Opus 5 모델로 전환되는 정책이 유지됩니다.\n\nAnthropic은 생물학적 연구와 신약 개발 분야에서 인공지능의 긍정적인 잠재력을 높게 평가하고 있습니다. 하지만 Fable 5가 생물 무기 제조 등 악의적인 용도로 오용될 가능성 또한 인지하고 있으며, 이를 방지하기 위해 신뢰할 수 있는 접근 경로를 마련하고 책임감 있는 기술 발전을 지속하겠다는 입장입니다.",
+    "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T08:32:40.549Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "7bc89749c1b638955cb1927019d33a1150693c0f",
     "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
     "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days",
