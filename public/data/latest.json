@@ -1,5 +1,183 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
+    "title": "How Google Cloud detects, contains, and protects against emerging threats",
+    "summary": "At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and",
+    "aiSummary": "Google Cloud는 고객의 데이터를 보호하고 비즈니스 시스템의 안정성을 유지하기 위해 공유 운명 모델을 기반으로 한 통합 보안 전략을 수행하고 있습니다. 주요 위협 요소로는 AI 워크로드 악용, 불법 가상화폐 채굴, 유출된 자격 증명을 통한 공급망 공격, 그리고 계정 탈취가 있습니다. Google Cloud는 이러한 위협을 탐지하기 위해 인프라 원격 측정 데이터를 분석하고 이상 징후를 추적하며, 위협이 발견될 경우 업무 연속성을 저해하지 않으면서도 정밀하게 차단하는 맞춤형 완화 전략을 적용합니다.\n\n기술적인 대응 체계로서 Google Cloud는 비정상적인 트래픽을 선별적으로 제한하는 세밀한 스로틀링, 복합 워크로드에 대한 협업 기반의 검사, 그리고 특정 ID나 리소스를 격리하는 국소적 조치를 시행합니다. 또한 보안 이벤트 발생 시 가시성을 높이기 위해 Cloud Abuse Event Logging, Cloud Audit Logging, 자동화된 알림 시스템 등을 제공하여 고객이 즉각적으로 대응할 수 있도록 지원합니다.\n\n고객의 보안을 강화하기 위해 Google Cloud는 다음과 같은 모범 사례를 권장합니다. 모든 사용자 계정에 다중 인증과 Device Bound Session Credentials를 적용하여 계정 탈취를 방지해야 합니다. 또한 API 키나 자격 증명을 소스 코드에 포함하지 말고 인증 키 없는 방식을 활용하며, Identity and Access Management와 VPC Service Controls를 통해 최소 권한 원칙을 엄격히 준수해야 합니다. 정기적인 리소스 점검과 비용 모니터링, 그리고 필수 연락처 업데이트를 통해 공격 표면을 최소화하고 보안 환경을 지속적으로 관리하는 것이 무엇보다 중요합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "David Byrd"
+      ],
+      "title": [
+        "Director, Security & Assured, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-07T16:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/",
+    "title": "GOL! How TelevisaUnivision streamed the FIFA World Cup to millions with Google Cloud",
+    "summary": "Live sports broadcasting represents the ultimate stress test for digital media infrastructure, where operational success or failure is measured in milliseconds and observed live by millions of viewers",
+    "aiSummary": "TelevisaUnivision은 2026 FIFA World Cup 중계 당시 수많은 시청자가 몰리는 대규모 트래픽 환경에서 완벽한 스트리밍 서비스를 제공하기 위해 Google Cloud와 전략적 협업을 진행했습니다. 방송 지연이나 중단은 시청자의 만족도와 브랜드 이미지에 치명적인 영향을 미칠 수 있기에, 양사는 안정적인 운영을 최우선 과제로 삼았습니다.\n\n기술적 측면에서 TelevisaUnivision은 Google Cloud의 Media CDN을 도입하여 복잡한 라틴 아메리카의 네트워크 환경을 성공적으로 극복했습니다. Media CDN은 주요 지역 ISP망 깊숙한 곳에 캐시 노드를 배치하고 주요 통신사와 직접 피어링을 체결하여 트래픽 병목 현상을 방지했습니다. 또한 Memorystore for Valkey 9.0을 활용한 서버리스 마이크로서비스 아키텍처를 통해 인증 및 권한 확인 단계에서 1밀리초 미만의 응답 속도를 확보하며 급격한 트래픽 증가에도 유연하게 대응했습니다.\n\n운영 측면에서는 양사의 엔지니어가 104개 경기 전 과정에서 24시간 통합 상황실을 공동 운영하는 긴밀한 협업 모델을 구축했습니다. 사전에 철저한 스트레스 테스트와 장애 복구 시뮬레이션을 수행했으며, 실제 경기 중에도 실시간 모니터링을 통해 네트워크 상황에 따라 트래픽 경로를 즉각적으로 조정했습니다.\n\n이러한 협력의 결과로 TelevisaUnivision은 39일간의 대회 기간 동안 100퍼센트의 플랫폼 가용성을 유지하며 누적 6억 7천 5백만 뷰라는 기록적인 시청 기록을 달성했습니다. 이번 사례는 고도의 기술적 아키텍처와 운영상의 긴밀한 결합이 글로벌 스포츠 이벤트 중계의 표준을 어떻게 혁신할 수 있는지를 보여주는 성공적인 사례로 평가됩니다.",
+    "url": "https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Alexandro David Campos Vega"
+      ],
+      "title": [
+        "SVP Product and Engineering, TelevisaUnivision"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-07T16:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
+    "title": "Unifying Structured and Unstructured Data Insights with BQ Search Innovations",
+    "summary": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidde",
+    "aiSummary": "BigQuery는 비정형 데이터를 효율적으로 관리하고 분석하기 위해 새로운 기능들을 발표하며 데이터 플랫폼으로서의 역량을 강화하고 있습니다. 이번 업데이트의 핵심은 비정형 데이터를 처리하는 인프라를 간소화하고 검색 정확도를 높이는 데 있습니다.\n\n먼저 자율 임베딩 생성 기능이 정식 버전으로 출시되었습니다. 이 기능은 사용자가 별도의 복잡한 데이터 파이프라인을 구축할 필요 없이 스키마 내에 컬럼만 정의하면 BigQuery가 자동으로 벡터 임베딩을 생성 및 관리해 주는 방식입니다. 이를 통해 데이터가 변경될 때마다 임베딩이 자동으로 동기화되며 이미지 데이터를 활용한 멀티모달 검색까지 지원하게 되었습니다.\n\n또한 AI.SEARCH 함수가 정식 버전으로 전환되었습니다. 자연어 기반의 검색을 수행할 때 벡터 임베딩 생성 과정을 검색 경로에서 제외하여 성능을 대폭 최적화했으며 기존 대비 최대 133배 향상된 슬롯 효율성을 제공합니다. 이를 통해 사용자 중심의 대화형 분석 환경을 더욱 빠르고 저렴하게 구축할 수 있습니다.\n\n데이터 검색의 정확도를 보완하기 위해 하이브리드 검색 기능을 공개 프리뷰로 제공합니다. 이는 의미론적인 벡터 검색과 특정 키워드를 찾는 어휘 검색을 결합한 방식으로 복잡한 전문 용어나 고유 명사 검색 시 발생할 수 있는 오류를 줄여줍니다. BM25 알고리즘과 Reciprocal Rank Fusion을 활용하여 검색 정밀도를 높였으며 결과적으로 LLM의 환각 현상을 방지하는 데 도움을 줍니다.\n\nBigQuery는 이러한 기술들을 바탕으로 데이터 접근부터 처리, 검색, 관계 파악, 분석 결과 도출까지 이어지는 엔드투엔드 비정형 데이터 분석 플랫폼을 지향합니다. 사용자는 별도의 외부 데이터베이스나 복잡한 머신러닝 파이프라인 구축 없이도 BigQuery 내부에서 통합된 워크플로우를 통해 비정형 데이터로부터 통찰을 얻을 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Joe Malone"
+      ],
+      "title": [
+        "Product Manager, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-07T16:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
+    "title": "See what 5 builders are making with Gemini Omni",
+    "summary": "Gemini Omni makes creating videos as easy as having a conversation. Here’s how five people use it to edit videos and visualize ideas.",
+    "aiSummary": "Gemini Omni는 사용자와의 대화를 통해 영상 제작 과정을 획기적으로 간소화하는 도구입니다. 이 기술을 활용하는 5명의 제작자는 대화형 인터페이스를 통해 복잡한 편집 작업을 수행하거나 자신의 아이디어를 즉각적으로 시각화하는 방식으로 창작 효율을 높이고 있습니다. 이를 통해 일반 사용자도 전문적인 영상 제작 과정을 보다 직관적이고 빠르게 처리할 수 있게 됩니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Lindsey Lanquist"
+      ],
+      "title": [
+        "Contributor"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-07T14:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=729295",
+    "title": "CVE-2026-63077: Additional Guidance Following Reports of Active Exploitation",
+    "summary": "This post is a follow-up to our July 27, 2026, announcement about CVE-2026-63077. Summary What has changed since our initial announcement Since our initial announcement on July 27, 2026, we have recei",
+    "aiSummary": "CVE-2026-63077 취약점과 관련하여 지난 2026년 7월 27일 최초 공지 이후 추가적인 보안 지침이 발표되었습니다.\n\n최근 패치가 적용되지 않은 TeamCity 서버를 대상으로 하는 실제 공격 사례와 시도가 확인되었습니다. 이에 따라 관리자는 즉시 최신 보안 패치를 적용하여 서버를 보호해야 합니다.\n\n해당 보안팀은 관련 보고를 받기 전부터 이미 조사에 착수하였으며, 사용자는 보안 업데이트를 최우선으로 수행할 것을 권고합니다. 상세한 대응 가이드와 기술적 세부 사항은 공식 보안 공지를 통해 확인하시기 바랍니다.",
+    "url": "https://blog.jetbrains.com/teamcity/2026/08/cve-2026-63077-update/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Daniel Gallo",
+    "pubDate": "2026-08-07T13:22:49.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=51348",
+    "title": "The DuckDB MySQL engine at 500 GB",
+    "summary": "We ran DuckDB MySQL storage engine at scale factor 500. It is around 500 GB of raw TPC-H, three billion lineitem rows  on an 80-core server with 187 GB of RAM. Three engines on the same box: InnoDB, o",
+    "aiSummary": "Percona가 500 GB 규모의 TPC-H 데이터셋과 30억 개의 lineitem 행을 활용하여 DuckDB MySQL 스토리지 엔진의 성능을 테스트했습니다. 테스트는 80코어 CPU와 187 GB RAM을 탑재한 서버 환경에서 진행되었으며, 기존 InnoDB 엔진, 새롭게 개발된 MySQL+DuckDB 엔진, 그리고 참조 모델인 순수 DuckDB 엔진을 비교하였습니다.\n\n성능 측정 결과 InnoDB 엔진은 18번 쿼리를 완료하는 데 상당한 시간이 소요되는 등 대규모 데이터 처리에서 한계를 보였습니다. 반면 DuckDB MySQL 엔진은 대용량 데이터 환경에서도 향상된 분석 성능을 제공하며 기존 MySQL 인프라와 DuckDB의 효율적인 결합 가능성을 입증했습니다. 이번 결과는 데이터베이스 관리 시스템의 확장성과 분석 쿼리 속도 최적화 측면에서 중요한 의미를 가집니다.",
+    "url": "https://www.percona.com/blog/the-duckdb-mysql-engine-at-500-gb/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Evgeniy Patlan",
+    "pubDate": "2026-08-07T12:09:29.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/supabase-is-now-a-connector-on-perplexity-computer",
+    "title": "Supabase is now a connector on Perplexity Computer",
+    "summary": "Supabase is now a connector on Perplexity Computer. Query your Postgres data, look up users, and invoke Edge Functions from a Perplexity chat.",
+    "aiSummary": "Supabase가 Perplexity Computer의 공식 커넥터로 추가되었습니다. 이제 사용자는 Perplexity 채팅창을 통해 직접 Postgres 데이터를 조회하거나 특정 사용자를 검색할 수 있습니다. 또한 채팅 환경 내에서 Edge Functions를 호출하여 더욱 효율적인 데이터 상호작용이 가능해졌습니다.",
+    "url": "https://supabase.com/blog/supabase-is-now-a-connector-on-perplexity-computer",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-08-07T07:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.11",
     "title": "1.1.11",
     "summary": "Added a Vim editing mode, off by default and switched on from /settings under Editor Mode, bringing modal editing to the prompt with Normal, Insert, Visual and Visual Line modes, a mode badge in the s",
@@ -14,6 +192,85 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/07/post-quantum-cryptography-in-long-term-support-jdk-releases/",
+    "title": "Post-Quantum Cryptography in Long-Term Support JDK Releases",
+    "summary": "Oracle is executing on a strategy to make post-quantum cryptography (PQC) broadly available across the Java ecosystem with a roadmap that brings standardized PQC algorithms and PQC-enabled TLS to curr",
+    "aiSummary": "Oracle은 양자 컴퓨터의 위협으로부터 보안을 강화하기 위해 현재 지원 중인 Long-Term Support(LTS) JDK 릴리스에 양자 내성 암호(PQC)를 도입하는 전략을 실행합니다.\n\n이번 로드맵을 통해 표준화된 PQC 알고리즘과 PQC가 적용된 TLS 기능을 제공함으로써 개발자와 기업이 새로운 보안 환경에 적응하는 과정에서 겪는 어려움을 줄이고자 합니다.\n\n이러한 조치는 Java 생태계 전반에 걸쳐 PQC를 광범위하게 활용할 수 있도록 하여 미래의 양자 컴퓨팅 기술에 대비한 보안 체계를 마련하는 데 목적이 있습니다.",
+    "url": "https://inside.java/2026/08/07/post-quantum-cryptography-in-long-term-support-jdk-releases/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Aurelio García-Ribeyro",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/7/rails-world-2026-matz-agenda",
+    "title": "Rails World 2026 update: Matz is coming to Austin",
+    "summary": "Hi everyone!\nRails World 2026 is just 47 days away, and we have a few fun updates for you. If you haven’t already, you can grab your ticket here.\nNow for the updates:\nMatz is coming\nBig news first: Ma",
+    "aiSummary": "Rails World 2026 개최가 47일 앞으로 다가온 가운데 Ruby의 창시자인 Matz와 DHH가 무대에 올라 Ruby와 Rails, 그리고 AI와 프로그래밍의 미래에 대해 논의하는 대담이 예정되어 있습니다. 이번 행사의 전체 일정은 이미 공개되었으며 모든 세션은 녹화되어 행사 종료 후 2주 이내에 제공될 예정입니다.\n\n참가자들을 위한 전용 앱이 곧 출시되어 일정 관리와 네트워킹을 지원할 예정이며 Sorcer와 Judoscale의 후원으로 5분에서 10분 분량의 Lightning Talks 세션도 다시 진행됩니다. 발표를 희망하는 참가자는 안내된 링크를 통해 신청할 수 있습니다.\n\n이번 행사의 Platinum 스폰서로는 4년 연속 참여하는 AppSignal과 새롭게 합류한 Procore가 참여합니다. Procore는 Rails at Scale Summit 개최와 폐막 파티 공동 후원을 통해 행사를 지원합니다. 이외에도 Pair programming, 보드게임의 밤, 라이브 공연, 텍사스 스타일의 로데오 체험 등 다양한 부대 행사가 마련되어 있습니다.",
+    "url": "https://rubyonrails.org/2026/8/7/rails-world-2026-matz-agenda",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Amanda Perino",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/7/this-week-in-rails",
+    "title": "`alias_attribute` is back, pluck on unsaved records, and more!",
+    "summary": "Some things that should have worked all along finally do… like alias_attribute in associations, pluck on unsaved records, search_field with autosave: true. The rest of the week went into sharper SQL l",
+    "aiSummary": "Rails의 최신 업데이트를 통해 그동안 제기되었던 기능적 제약들이 상당 부분 해소되었습니다. 우선 Association에서 alias_attribute가 다시 지원되며, 저장되지 않은 레코드에 대해서도 pluck 메서드를 정상적으로 사용할 수 있게 되었습니다. 또한 autosave: true 옵션을 사용할 때 발생하던 search_field의 NameError 문제도 해결되었습니다.\n\n데이터베이스 및 쿼리 관련 개선 사항으로는 Active Record 타입에 대한 쿼리 술어 훅이 추가되어 UUID 처리나 대소문자 무시 검색 등 사용자 정의 로직 구현이 용이해졌습니다. SQL 로그와 EXPLAIN 출력에서 캐스팅된 바인드 값에 위치 파라미터 마커가 표시되도록 변경되었고, 쿼리 로그 태그와 함께 준비된 문(prepared statements)을 사용할 수 있게 되었습니다.\n\n작업 처리와 관련해서는 작업이 중단되었다가 재개될 때 Date, Time, GlobalID 커서의 타입이 손실되던 문제가 수정되었습니다. 또한 Ractor 호환성을 높이기 위해 Mime::Type 레지스트리와 Action View 의존성 추적 레지스트리가 Ractor 공유 가능하도록 변경되었으며, 애플리케이션 초기화 이후의 관련 등록 작업은 더 이상 권장되지 않습니다.\n\n기타 마이그레이션 도구인 CommandRecorder의 내부 메서드들이 비공개로 전환되었으며, write_attribute를 통한 ID 설정 및 insert, update, delete 메서드에서의 바인드 전달 방식 등이 새롭게 폐기 대상(deprecated)으로 지정되었습니다. 이번 업데이트는 28명의 기여자에 의해 진행되었습니다.",
+    "url": "https://rubyonrails.org/2026/8/7/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Emmanuel Hayford",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgres-summit-us-2026-schedule-is-now-live-3359/",
+    "title": "Postgres Summit US 2026 Schedule is now live!\n",
+    "summary": "Hi all,\nThe talk schedule for Postgres Summit US 2026 is now published. Browse it here: Talk Schedule\nThe summit runs September 30 through October 2, 2026 at Convene, 555 Broadway, New York, NY, organ",
+    "aiSummary": "Postgres Summit US 2026의 전체 강연 일정이 공식 발표되었습니다. 이번 행사는 2026년 9월 30일부터 10월 2일까지 미국 뉴욕의 Convene 555 Broadway에서 개최됩니다. \n\n해당 행사는 United States PostgreSQL Association인 PgUS가 주최하며 공식 웹사이트를 통해 개별 세션 확인 및 참가 등록이 가능합니다. 관심 있는 분들은 사이트를 방문하여 자세한 일정을 확인하시기 바랍니다.",
+    "url": "https://www.postgresql.org/about/news/postgres-summit-us-2026-schedule-is-now-live-3359/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/autobase-210-released-3357/",
+    "title": "Autobase 2.10 released\n",
+    "summary": "Autobase 2.10 expands day-to-day PostgreSQL operations with new cluster management capabilities.\nAdministrators can now perform common cluster actions directly from the Console UI, configure advanced ",
+    "aiSummary": "Autobase 2.10 버전이 출시되면서 PostgreSQL 클러스터 관리 기능이 대폭 강화되었습니다. 관리자는 이제 Console UI를 통해 스위치오버, 페일오버, 복제본 재설치, 클러스터 삭제 등 주요 작업을 직접 수행할 수 있습니다.\n\n새롭게 추가된 System 탭을 통해 지역 설정, 호스트 매핑, DNS 및 NTP 서버, 커널 파라미터 등 고급 시스템 구성을 관리할 수 있습니다. 또한 별도의 네트워크 볼륨 없이 로컬 디스크에 데이터를 배포할 수 있는 기능을 지원하여 인프라 구성의 유연성을 높였습니다.\n\n자동화 측면에서는 Patroni 클러스터 운영 및 노드 수명 주기 관리를 지원하는 새로운 Ansible 플레이북 세트가 추가되었습니다. Autobase는 자체 인프라 내에서 DBaaS와 같은 관리형 데이터베이스 환경을 구축할 수 있도록 지원하는 PostgreSQL 전용 내부 데이터베이스 플랫폼입니다.",
+    "url": "https://www.postgresql.org/about/news/autobase-210-released-3357/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
     ]
   },
   {
@@ -32,6 +289,22 @@
       "Claude",
       "AI",
       "LLM"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-06-set-pull-request-limits-at-the-organization-level",
+    "title": "Set pull request limits at the organization level",
+    "summary": "You can now set pull request limits at the organization level. Pull request limits let you define how many open pull requests a user without write access can have at…\nThe post Set pull request limits ",
+    "aiSummary": "GitHub에서 조직 수준의 Pull request 제한을 설정할 수 있는 기능을 도입했습니다.\n\n이번 업데이트를 통해 쓰기 권한이 없는 사용자가 동시에 열어둘 수 있는 Pull request의 개수를 조직 전체 단위에서 관리할 수 있게 되었습니다.\n\n해당 기능을 활용하면 조직 내의 무분별한 기여를 효율적으로 제어하고 저장소의 관리 체계를 더욱 체계적으로 유지할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-06-set-pull-request-limits-at-the-organization-level",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-06T23:46:17.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -329,6 +602,23 @@
     ]
   },
   {
+    "id": "/blog/prisma-schema-as-llm-context",
+    "title": "Prisma Schema as LLM Context: Why Agents Read It Best",
+    "summary": "Your data model in one declarative file. We measure what a Prisma schema costs an AI coding agent in tokens and type-check time, and what it buys.",
+    "aiSummary": "Prisma Schema는 데이터 모델을 단일 선언적 파일로 관리하는 강력한 도구입니다. AI 코딩 에이전트가 이를 읽을 때 소모되는 토큰 비용과 타입 체크에 소요되는 시간을 측정하여 효율성을 분석합니다. 이 과정에서 Prisma Schema가 AI 에이전트에게 제공하는 문맥적 가치와 이점을 중점적으로 다룹니다.",
+    "url": "https://www.prisma.io/blog/prisma-schema-as-llm-context",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-08-06T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
     "id": "https://astro.build/blog/astro-720/",
     "title": "Astro 7.2",
     "summary": "Astro 7.2 adds experimental incremental static builds, an option to opt out of session support, background mode for astro preview, and relative logger entrypoints.",
@@ -387,6 +677,38 @@
     "author": "Paul Redmond",
     "pubDate": "2026-08-05T23:31:43.000Z",
     "fetchedAt": "2026-08-07T01:44:56.709Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-array-keys-validation-rule",
+    "title": "Reject Unexpected Array Keys with Laravel Validation",
+    "summary": "Laravel 13.24 adds an array_keys validation rule that rejects arrays containing keys you did not allow, with a message naming the offending keys.\nThe post Reject Unexpected Array Keys with Laravel Val",
+    "aiSummary": "Laravel 13.24 버전에서는 배열의 유효성을 검사할 때 허용되지 않은 키가 포함된 경우 이를 거부하는 array_keys 검증 규칙이 새롭게 추가되었습니다. 해당 규칙을 적용하면 정의되지 않은 키가 감지되었을 때 오류 메시지를 통해 어떤 키가 문제가 되었는지 정확하게 명시해 줍니다. 이를 통해 개발자는 데이터 입력 단계에서 불필요하거나 의도치 않은 배열 요소를 더욱 엄격하게 통제할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-array-keys-validation-rule?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-05T22:20:05.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-heic-image-uploads",
+    "title": "Validate and Convert HEIC Images in Laravel",
+    "summary": "Laravel 13.24 accepts HEIC and AVIF uploads in the image API and validation rules. Here's how to take iPhone photos and serve them as WebP or AVIF.\nThe post Validate and Convert HEIC Images in Laravel",
+    "aiSummary": "Laravel 13.24 버전부터 이미지 API와 유효성 검사 규칙에서 HEIC 및 AVIF 형식의 파일 업로드를 공식적으로 지원합니다. 이를 통해 iPhone으로 촬영한 HEIC 형식의 사진을 애플리케이션으로 수신한 뒤, 웹에서 널리 쓰이는 WebP나 AVIF 형식으로 변환하여 서비스할 수 있게 되었습니다.",
+    "url": "https://laravel-news.com/laravel-heic-image-uploads?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-05T22:11:46.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
     "tags": [
       "Laravel",
       "PHP"
@@ -1627,6 +1949,23 @@
     ]
   },
   {
+    "id": "/blog/infraslopture-and-other-paradoxes",
+    "title": "Infraslopture and Other Paradoxes",
+    "summary": "How we're combining untrustable agents and production infrastructure without burning down our servers",
+    "aiSummary": "최근 기술 생태계에서는 신뢰할 수 없는 AI 에이전트와 안정성이 필수적인 프로덕션 인프라를 결합하려는 시도가 활발하게 이루어지고 있습니다. 이 과정에서 발생하는 보안 및 안정성 문제를 해결하기 위해 시스템의 설계 방식과 운영 전략을 재검토해야 한다는 주장이 제기됩니다.\n\n핵심적인 과제는 예측 불가능한 행동을 할 수 있는 에이전트로부터 핵심 서버와 데이터를 어떻게 보호할 것인가에 있습니다. 이를 위해 샌드박스 환경 구축이나 엄격한 권한 제어와 같은 안전장치를 마련하는 것이 필수적입니다.\n\n결론적으로 신뢰도가 검증되지 않은 에이전트를 프로덕션 환경에 통합하는 것은 위험을 동반하지만, 적절한 격리 기술과 인프라 구조를 갖춘다면 기술적 혁신을 이룰 수 있습니다. 인프라의 안정성을 저해하지 않으면서 새로운 자동화 도구들을 안전하게 도입하기 위한 공학적 접근 방식을 지속적으로 고민해야 합니다.",
+    "url": "https://www.prisma.io/blog/infraslopture-and-other-paradoxes",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-08-03T00:00:00.000Z",
+    "fetchedAt": "2026-08-07T16:12:23.895Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
     "id": "https://www.cursor.com/changelog/google-workspace-plugins",
     "title": "Google Workspace Plugins",
     "summary": "Aug 3, 2026 · ChangelogGoogle Workspace PluginsCursor can now read, write, and act across your Google Workspace.\nNew plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, an",
@@ -1704,118 +2043,6 @@
     "tags": [
       "Docker",
       "Infra"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
-    "title": "Kubernetes v1.37 Sneak Peek",
-    "summary": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall\nhealth. This bl",
-    "aiSummary": "Kubernetes v1.37 버전 출시를 앞두고 프로젝트의 안정성과 효율성을 위해 주요 기능의 변경, 중단 및 개선 사항이 발표되었습니다.\n\n주요 변경 사항 및 중단 예고는 다음과 같습니다.\nkubectl run 명령어에서 지원하던 --filename 또는 -f 플래그가 삭제될 예정입니다.\nKubelet의 경우, Static Pod가 Secrets나 ConfigMaps를 참조하던 버그가 수정되어 이제 해당 리소스를 직접 참조할 수 없게 되었습니다.\nkube-proxy의 ipvs 모드에 대한 지원이 단계적으로 중단됩니다. v1.40부터 기본값이 비활성화되며 v1.43에서 완전히 제거될 예정입니다.\ncgroup v1에 대한 지원은 점진적으로 종료되고 있으며, cgroup v2 기반의 환경으로 전환이 권장됩니다.\nSELinuxMount 기능은 GA로 전환되어 기본적으로 활성화됩니다. 다만, 기존의 재귀적 방식이 필요한 워크로드를 위해 별도의 정책 설정이 제공됩니다.\n\n새롭게 도입되거나 개선되는 주요 기능은 다음과 같습니다.\nMetrics API가 출시 약 9년 만에 GA 단계로 격상되어 안정적인 CPU 및 메모리 사용량 정보를 제공합니다.\nKubelet의 UserNS(Rootless Mode)가 베타 단계로 진입하여, 호스트 권한을 최소화함으로써 보안성을 높이고 격리 수준을 강화합니다.\nVolume Health Monitor 기능이 다시 알파 단계로 도입되어 CSI 드라이버가 스토리지 장애를 보고하고 이를 상태 값으로 확인할 수 있도록 개선되었습니다.\n\nKubernetes v1.37의 공식 출시 예정일은 2026년 8월 26일입니다. 사용자는 자신의 환경이 변경 사항에 영향을 받지 않는지 미리 확인하고 필요한 설정을 조정해야 합니다.",
-    "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-07-31T16:00:00.000Z",
-    "fetchedAt": "2026-08-01T00:15:12.614Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
-    "title": "What’s new in AI infrastructure and orchestration this month",
-    "summary": "At Google, AI is a soup-to-nuts endeavor. Obviously, we make leading AI models like Gemini and Nano Banana. We incorporate AI into the tools you use every day (think Gmail, BigQuery, AlloyDB, Google C",
-    "aiSummary": "구글은 AI가 추론과 행동을 수행하는 에이전트 시대로 진화함에 따라 이에 최적화된 인프라와 오케스트레이션 기술을 지속적으로 강화하고 있습니다. 이번 업데이트는 고성능 컴퓨팅 환경 구축과 운영 효율성 개선에 초점을 맞추고 있습니다.\n\n주요 인프라 및 도구 업데이트 내용은 다음과 같습니다.\nGoogle Cloud Managed Lustre가 정식 출시되어 최대 8 PB의 저장 용량과 다양한 처리량 등급을 제공합니다. 또한 네트워크와 블록 스토리지 성능을 최적화한 C4N VM 시리즈가 정식 출시되어 데이터 전송 병목 현상을 해결합니다. GKE Dataplane V2는 최대 15,000 노드까지 확장이 가능해졌으며 llm-d의 협업형 타임 슬라이싱 기능을 통해 강화 학습 작업의 하드웨어 가동률을 대폭 높였습니다. 보안 측면에서는 오픈소스 프로젝트인 k8s-aibom을 통해 AI 공급망 모니터링을 지원합니다.\n\n가이드 및 심층 기술 정보는 다음과 같습니다.\nMoonshot AI의 Kimi K3 모델에 대한 Day 0 지원이 시작되었으며 GKE에서 TPU와 GPU를 활용한 배포 가이드가 제공됩니다. 특히 Mistral 3 대규모 모델 추론을 Ironwood TPU v7x에서 최적화하여 성능을 1.5배 향상한 사례를 통해 하이브리드 샤딩과 비동기 스케줄링의 중요성을 강조했습니다. 개발자들은 새롭게 공개된 TPU Developer Hub와 OpenTelemetry 기반의 TPU AI 텔레메트리 수집기를 통해 모델 성능을 정밀하게 분석할 수 있습니다.\n\n연구 및 시장 평가 내용은 다음과 같습니다.\n구글은 가트너의 AI 인프라 부문 매직 쿼드런트에서 실행 능력과 비전 완성도 부문 리더로 선정되었습니다. 최신 보고서에 따르면 기업의 83%가 에이전트 기반 AI를 위해 인프라 업그레이드가 필요하다고 답했습니다. 또한 GKE Inference Gateway는 접두사 캐싱 기술을 통해 타사 서비스 대비 처리량은 높이고 대기 시간은 줄이는 성능 우위를 입증했습니다.\n\n그 외에도 GKE Agent Sandbox 정식 출시, 온디바이스 AI 벤치마킹을 위한 Google AI Edge Portal 업데이트, Confidential Computing의 G4 머신 시리즈 적용 등 전방위적인 기술 개선이 이루어졌습니다. Pager Health나 Trustpilot과 같은 고객사들이 이러한 인프라를 활용해 실제 서비스 효율을 높이고 있는 사례들도 보고되었습니다.",
-    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Alex Barrett"
-      ],
-      "title": [
-        "Editor, Google Cloud blog"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-31T16:00:00.000Z",
-    "fetchedAt": "2026-07-31T17:00:01.768Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=727590",
-    "title": "Know Kotlin? Ship It Everywhere and Win at Shipaton 2026",
-    "summary": "Somewhere in your notes there’s an app idea waiting for a free weekend that never comes. Consider this its official deadline: RevenueCat Shipaton 2026, the world’s biggest mobile hackathon, runs Augus",
-    "aiSummary": "RevenueCat이 주최하는 세계 최대 규모의 모바일 해커톤인 Shipaton 2026이 8월 1일부터 9월 30일까지 개최됩니다.\n\n평소 개발을 미뤄왔던 아이디어를 실현할 공식적인 기회이며, Kotlin 언어에 능숙한 개발자라면 누구나 참여하여 자신의 앱을 앱스토어에 출시할 수 있습니다.\n\n이번 행사는 혁신적인 모바일 서비스 개발을 장려하기 위해 마련되었으며, 참여자들은 정해진 기간 내에 완성도 높은 프로젝트를 선보여야 합니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/07/know-kotlin-ship-it-everywhere-and-win-at-shipaton-2026/",
-    "category": "프로그래밍 언어",
-    "source": "Kotlin Blog",
-    "author": "Ekaterina Petrova",
-    "pubDate": "2026-07-31T13:49:33.000Z",
-    "fetchedAt": "2026-07-31T17:00:01.768Z",
-    "tags": [
-      "Kotlin",
-      "Android"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=727590",
-    "title": "Know Kotlin? Ship It Everywhere and Win at Shipaton 2026",
-    "summary": "Somewhere in your notes there’s an app idea waiting for a free weekend that never comes. Consider this its official deadline: RevenueCat Shipaton 2026, the world’s biggest mobile hackathon, runs Augus",
-    "aiSummary": "RevenueCat이 주최하는 세계 최대 규모의 모바일 해커톤인 Shipaton 2026이 8월 1일부터 9월 30일까지 개최됩니다.\n\n평소 개발을 미뤄왔던 앱 아이디어를 실현할 수 있는 공식적인 기한을 제공하며 Kotlin을 활용할 수 있는 개발자라면 누구나 참여가 가능합니다. 이번 행사는 개인의 아이디어를 App Store에 출시할 수 있는 실질적인 계기가 될 것입니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/07/know-kotlin-ship-it-everywhere-and-win-at-shipaton-2026/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Ekaterina Petrova",
-    "pubDate": "2026-07-31T13:49:33.000Z",
-    "fetchedAt": "2026-07-31T17:00:01.768Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-baseline/",
-    "title": "Cloud CISO Perspectives: Why AI Threat Defense is the new boardroom baseline",
-    "summary": "Welcome to the second Cloud CISO Perspectives for July 2026. Today, Chris Betz, CISO, Google Cloud, and Alicja Cade, Senior Director, Office of the CISO, Google Cloud, explain what boards of directors",
-    "aiSummary": "구글 클라우드의 CISO인 Chris Betz와 Alicja Cade는 AI 시대의 보안을 단순한 운영 비용이 아닌 비즈니스 민첩성을 확보하기 위한 핵심 동력으로 정의합니다. 현대의 모든 비즈니스 이니셔티브가 사실상 AI 이니셔티브인 만큼, 기업의 이사회는 보안 거버넌스를 재정립하여 AI 속도에 대응하는 방어 체계를 구축해야 합니다. 구글은 이를 위해 수동적인 대응에서 벗어나 자동화된 지속적 방어 역량을 갖춘 AI Threat Defense를 제시하며, 이사회가 리더십 팀에 요구해야 할 5가지 전략적 질문을 제안합니다.\n\n첫째, 비즈니스 활성화 측면에서 보안 현대화 투자가 엔지니어링 생산성과 제품 출시 속도에 어떻게 기여하는지 확인해야 합니다. 둘째, 복구 주기 관리와 관련하여 AI 기반의 위협에 대응할 때 리스크와 수익성 사이의 균형을 유지하는 계획을 요구해야 합니다. 셋째, 단편적인 도구 도입을 지양하고 보안 플랫폼 통합을 통해 가시성 격차를 줄이고 운영 효율성을 높여야 합니다. 넷째, 기업 내부의 비즈니스 맥락을 활용하여 보안 알림의 피로도를 낮추고 실제 위험 요인에 우선순위를 두는 방식을 정착시켜야 합니다. 마지막으로, AI 안전 및 정책과 관련하여 내부 AI 파이프라인 보안과 섀도우 AI 모니터링을 위한 명확한 거버넌스 프레임워크를 마련해야 합니다.\n\n이러한 전략적 접근은 단순한 감시를 넘어 조직이 AI 혁신을 가속화하고 경쟁 우위를 확보할 수 있도록 돕는 기반이 됩니다. 이사회는 플랫폼 중심의 맥락 기반 보안 체계를 지원함으로써 기업의 장기적인 회복탄력성을 강화하고 안전한 성장을 도모해야 합니다. 또한 본 기사는 소프트웨어 취약점을 탐지하는 CodeMender, 위협 행위자 명명 시스템 통일, 클라우드 워크로드 탐지 기술 등 최신 보안 업데이트와 함께 기업이 실무적으로 활용할 수 있는 다양한 리소스를 제공합니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-baseline/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Chris Betz"
-      ],
-      "title": [
-        "CISO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-07-31T13:00:00.000Z",
-    "fetchedAt": "2026-07-31T17:00:01.768Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
