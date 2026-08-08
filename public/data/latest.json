@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+    "title": "GitHub Copilot weekly releases — August 3",
+    "summary": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot…\nThe post Git",
+    "aiSummary": "이번 GitHub Copilot 업데이트는 데스크톱 앱과 CLI, 그리고 VS Code 환경 전반에 걸쳐 사용자의 업무 효율성을 높이는 데 초점을 맞추고 있습니다.\n\n새로운 기능을 통해 사용자는 중단했던 작업을 신속하게 재개하고 프로젝트를 체계적으로 정리할 수 있습니다. 또한 코드 변경 사항을 검토하거나 작업 도중 필요한 질문을 던질 때 문맥을 잃지 않고 원활하게 소통할 수 있도록 지원합니다.\n\n전반적인 업데이트는 개발자가 흐름을 유지하며 더 직관적으로 개발 환경을 관리할 수 있도록 돕는 데 목적을 두고 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-07T23:16:02.000Z",
+    "fetchedAt": "2026-08-08T08:04:06.092Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
     "title": "Enterprises can now install third-party GitHub Apps",
     "summary": "Enterprise owners can now install public GitHub Apps created outside their enterprise on their enterprise account. This allows third-party integrators to build apps for enterprise management scenarios",
@@ -2107,21 +2123,6 @@
     "tags": [
       "Cursor",
       "Editor"
-    ]
-  },
-  {
-    "id": "https://svelte.dev/blog/whats-new-in-svelte-august-2026",
-    "title": "What’s new in Svelte: August 2026",
-    "summary": "The biggest news this month is the first @next releases of SvelteKit 3. Thirteen preview versions shipped in July: previewing new $app/manifest and $app/service-worker modules, improved API availabili",
-    "aiSummary": "SvelteKit 3의 첫 프리뷰 버전이 공개되었습니다. 이번 업데이트는 13개의 프리뷰 버전을 통해 $app/manifest 및 $app/service-worker 모듈 도입, API 접근성 개선, 타입 체킹 강화 등을 포함하고 있습니다. 주요 변경 사항으로는 goto 함수 내의 얕은 라우팅 내장, reset 옵션을 통한 설정 통합, error 및 refreshAll 함수와 관련된 명명 규칙 변경 등이 있습니다. 또한 프로덕션 빌드에서의 소스맵 지원과 폼 필드 유효성 검사 도구 추가 등 개발자 경험을 향상하기 위한 다양한 기능이 포함되었습니다.\n\nSvelte CLI 및 언어 도구 분야에서도 큰 변화가 있었습니다. sv 도구는 패키지 매니저 감지 기능을 강화하였으며, 언어 서버는 lodash 의존성을 제거하여 설치 용량 감소와 시작 속도 개선을 이뤄냈습니다. 특히 +error.svelte 페이지에서 별도의 설정 없이도 페이지와 에러 타입을 자동으로 인식할 수 있게 되어 생산성이 높아졌습니다. Svelte Inspector에는 컴포넌트 스택을 확인할 수 있는 메뉴가 추가되어 컴포넌트 간 이동이 한층 편리해졌습니다.\n\n커뮤니티와 생태계 측면에서는 Rust로 Svelte 컴파일러를 재구현한 rsvelte 프로젝트가 주목받고 있으며, LayerChart 2.0과 같은 새로운 라이브러리 및 도구들이 활발히 출시되고 있습니다. 오는 11월 19일부터 20일까지는 Svelte Summit Ljubljana 2026이 개최될 예정입니다. 이 외에도 다양한 오픈소스 프로젝트와 학습 자료가 공유되며 Svelte 생태계의 지속적인 성장을 보여주고 있습니다.",
-    "url": "https://svelte.dev/blog/whats-new-in-svelte-august-2026",
-    "category": "프론트엔드",
-    "source": "Svelte Blog",
-    "author": "Dani Sandoval",
-    "pubDate": "2026-08-01T00:00:00.000Z",
-    "fetchedAt": "2026-08-01T00:15:12.614Z",
-    "tags": [
-      "Svelte"
     ]
   }
 ]

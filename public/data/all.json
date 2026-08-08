@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+    "title": "GitHub Copilot weekly releases — August 3",
+    "summary": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot…\nThe post Git",
+    "aiSummary": "이번 GitHub Copilot 업데이트는 데스크톱 앱과 CLI, 그리고 VS Code 환경 전반에 걸쳐 사용자의 업무 효율성을 높이는 데 초점을 맞추고 있습니다.\n\n새로운 기능을 통해 사용자는 중단했던 작업을 신속하게 재개하고 프로젝트를 체계적으로 정리할 수 있습니다. 또한 코드 변경 사항을 검토하거나 작업 도중 필요한 질문을 던질 때 문맥을 잃지 않고 원활하게 소통할 수 있도록 지원합니다.\n\n전반적인 업데이트는 개발자가 흐름을 유지하며 더 직관적으로 개발 환경을 관리할 수 있도록 돕는 데 목적을 두고 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-07T23:16:02.000Z",
+    "fetchedAt": "2026-08-08T08:04:06.092Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
     "title": "Enterprises can now install third-party GitHub Apps",
     "summary": "Enterprise owners can now install public GitHub Apps created outside their enterprise on their enterprise account. This allows third-party integrators to build apps for enterprise management scenarios",
