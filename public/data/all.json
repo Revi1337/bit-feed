@@ -1,5 +1,247 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
+    "title": "How WPP operationalizes platform and data engineering for AI marketing",
+    "summary": "Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and op",
+    "aiSummary": "WPP는 시장의 변동성과 파편화된 데이터 문제를 해결하고 AI 마케팅 시스템인 WPP Open의 효율성을 높이기 위해 Google Cloud와 협력하여 통합 데이터 플랫폼을 구축하였습니다. \n\n이를 위해 WPP는 수백 개의 글로벌 에이전시에 분산되어 있던 데이터를 BigQuery와 Google Cloud Storage를 활용하여 중앙 집중식으로 관리합니다. 데이터 엔지니어링 과정에서는 Managed Service for Apache Spark와 Kubeflow를 활용한 서버리스 아키텍처를 도입하여 클러스터 관리 부담을 줄이고 데이터 변환 로직에 집중하고 있습니다. 또한 정교한 IAM 제어를 통해 보안을 유지하며 데이터를 표준화된 SCDs 형태로 정규화하여 AI 모델의 신뢰성을 확보하였습니다.\n\n플랫폼 엔지니어링 측면에서는 재사용 가능한 GitLab CI/CD 템플릿을 도입하여 애플리케이션 배포와 인프라 관리를 자동화하였습니다. 특히 빌드 한 번으로 여러 환경에 배포하는 제로 리빌드 방식을 통해 환경 일관성을 유지하고, Wiz를 통한 보안 스캔과 Identity-Aware Proxy를 활용한 제로 트러스트 보안 체계를 구현하였습니다.\n\n이러한 인프라 현대화를 통해 WPP는 전략 수립 및 제작 시간을 4주에서 3시간으로 단축하였으며 생산성 70퍼센트 향상, 콘텐츠 생산량 33배 증가, 캠페인 투자 대비 수익 2.8배 증가라는 실질적인 성과를 거두었습니다.",
+    "url": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Utkarsh Bhardwaj"
+      ],
+      "title": [
+        "Technical Solutions Consultant"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
+    "title": "How Malachyte solves retail’s cold-start problem with managed real-time AI",
+    "summary": "What’s the best way to recommend products to little-known users? \nWe’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachy",
+    "aiSummary": "Malachyte는 LLM의 핵심 기술인 어텐션 메커니즘을 이커머스 개인화 추천에 도입하여 이커머스 업계의 고질적인 난제인 콜드스타트 문제를 해결하고 있습니다. 기존의 사용자 프로필이나 인구 통계학적 데이터에 의존하던 방식에서 벗어나 사용자의 실시간 행동 순서를 시퀀스로 파악함으로써 새로운 방문자에게도 즉각적이고 정확한 맞춤형 경험을 제공합니다.\n\n사용자가 사이트에 접속하면 클릭이나 검색과 같은 모든 상호작용은 실시간으로 사용자 벡터를 갱신하는 재료가 됩니다. LLM이 문장에서 단어의 순서를 통해 의미를 파악하듯 Malachyte는 사용자의 행동 시퀀스를 분석하여 다음에 구매할 가능성이 높은 상품을 예측합니다. 이 과정은 100밀리초 이내에 처리되어 지연 없는 개인화 환경을 구현합니다.\n\n기술적 기반으로는 Google Cloud의 인프라를 적극적으로 활용합니다. Managed Service for Apache Kafka를 통해 행동 이벤트를 실시간으로 스트리밍하고 Bigtable을 사용하여 사용자 벡터를 즉시 업데이트합니다. 또한 Cloud Pub/Sub를 통해 상품 카탈로그와 같은 외부 데이터를 지속적으로 동기화하며 GKE와 GCE를 통해 모델 추론과 서비스를 운영합니다.\n\n이러한 데이터 협력 모델은 개별 소매업체들이 모은 익명화된 데이터를 통해 전체 모델의 성능을 상향 평준화합니다. 결과적으로 소매업체들은 복잡한 데이터 수집이나 제3자 쿠키에 의존하지 않고도 매출을 크게 향상시킬 수 있으며 사용자에게는 강화된 개인정보 보호와 향상된 쇼핑 경험을 동시에 제공할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sidd Motwani"
+      ],
+      "title": [
+        "CEO, Malachyte"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
+    "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
+    "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI pla",
+    "aiSummary": "Google이 The Forrester Wave: AI Platforms, Q3 2026 보고서에서 리더로 선정되었습니다. 이번 평가에서 Google은 특히 전략 부문에서 최고 점수를 획득하며 AI 플랫폼 분야의 경쟁력을 입증했습니다.\n\nGoogle Cloud가 제공하는 Gemini Enterprise는 기업이 복잡한 에이전트 워크플로우를 구축하고 운영할 수 있도록 돕는 통합 플랫폼입니다. 이 플랫폼은 비즈니스 사용자, 개발자, IT 리더 간의 사일로를 제거하고 공유된 맥락을 제공함으로써 조직 전체가 AI를 효과적으로 활용할 수 있는 기반을 마련합니다.\n\nGemini Enterprise Agent Platform은 기술 팀이 프로덕션급 에이전트를 안전하고 비용 효율적으로 구축하고 배포할 수 있도록 지원합니다. 개발자는 코딩 환경과 로우코드 및 노코드 도구를 자유롭게 선택하여 작업할 수 있으며 200개 이상의 네이티브 및 타사 모델을 활용할 수 있습니다. 또한 텍스트, 코드, 오디오, 이미지, 비디오를 아우르는 멀티모달 설계가 적용되어 엔터프라이즈 데이터를 바탕으로 한 맥락적 비즈니스 경험을 생성합니다.\n\n보안과 신뢰성 측면에서는 거버넌스, 보안, 관측성을 기본적으로 제공합니다. 내장된 가드레일, 실시간 비용 및 토큰 사용량 추적, Knowledge Catalog와 같은 기능을 통해 기업은 AI 도입 시 필요한 통제권을 확보하고 에이전트의 정확도를 높일 수 있습니다. \n\n현재 Mars, Kohl's, TELUS와 같은 기업들이 Gemini Enterprise를 통해 마케팅 캠페인 가속화, 데이터 분석의 대화형 전환, 에이전트 데이터 클라우드 구축 등 실질적인 비즈니스 가치를 창출하고 있습니다. Google은 앞으로도 오픈하고 확장 가능한 AI 플랫폼을 통해 기업이 에이전트 시대에 걸맞은 소프트웨어를 자신 있게 구축할 수 있도록 지원할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jamie de Guerre"
+      ],
+      "title": [
+        "Senior Director, Outbound Product Management"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+    "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
+    "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and s",
+    "aiSummary": "GKE에서 도입한 ClusterNetworkPolicy는 멀티 테넌트 Kubernetes 환경에서 개발자의 자율성과 보안 팀의 중앙 집중식 제어 사이의 균형을 맞추기 위해 설계된 클러스터 단위의 네트워크 보안 표준입니다. 기존의 네임스페이스 기반 NetworkPolicy가 가진 정책 충돌과 관리의 복잡성을 해결하기 위해 도입되었으며, Kubernetes SIG-Policy Working Group과 협력하여 개발되었습니다.\n\n핵심 기능인 계층형 정책 시스템은 Admin tier, Network policy tier, Baseline tier 순으로 명확한 우선순위를 제공합니다. 가장 높은 우선순위를 가진 Admin tier는 보안 준수 사항을 강제하고, 중간 tier는 개발자가 애플리케이션 수준의 정책을 관리하며, 마지막 Baseline tier는 클러스터의 기본 동작을 정의합니다. 특히 Admin tier의 Pass 액션을 통해 보안 팀이 글로벌 규칙을 먼저 검사한 뒤 결정을 개발자 정책으로 위임할 수 있어 관리와 자율성의 조화를 가능하게 합니다.\n\n이를 통해 민감한 워크로드를 격리하거나 핵심 서비스를 보호하고 외부로 나가는 트래픽을 제어하는 등 복잡한 보안 요구사항을 효과적으로 구현할 수 있습니다. GKE는 해당 기능을 독자적인 방식이 아닌 오픈소스 표준 API로 구현하여 환경 간의 이식성을 보장합니다. ClusterNetworkPolicy는 현재 GKE 버전 1.36 이후부터 미리보기 형태로 제공되며, 이를 통해 관리자는 강력한 보안 가드레일을 유지하면서도 개발 팀에 필요한 운영 유연성을 제공할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Srini Jasti"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "23fc16a0c48a8aaf8de130ae8e5719b50ba6f960",
+    "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+    "summary": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only",
+    "aiSummary": "AWS Heroes Summit이 성공적으로 개최되어 전 세계의 AI, 서버리스, 컨테이너 분야 전문가들이 모여 기술 협업과 피드백을 공유하는 시간을 가졌습니다.\n\nAmazon Bedrock에 웹 검색 기능이 새롭게 추가되어 생성형 AI 애플리케이션이 실시간 외부 데이터를 활용할 수 있게 되었습니다.\n\n이 외에도 AWS는 개발자 경험을 개선하기 위한 다양한 기술 업데이트와 새로운 지원 프로그램을 발표하며 생태계 확장에 주력하고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-08-10T15:45:03.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "title": "Copilot on web expands conversation controls",
+    "summary": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat…\nThe post Copilot o",
+    "aiSummary": "GitHub는 웹상에서 제공되는 Copilot Chat의 사용자 편의성을 높이기 위해 대화 제어 기능을 대폭 개선했습니다. 이번 업데이트를 통해 사용자는 채팅 창에서 최근 진행한 대화 내역에 더 쉽고 빠르게 접근할 수 있게 되었습니다. 또한 필요에 따라 채팅 창을 최소화할 수 있는 기능이 추가되어 작업 공간을 더욱 효율적으로 활용할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-10T14:27:04.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/artisan-dev-command",
+    "title": "Laravel artisan dev: Run Server, Queue, Logs, and Vite",
+    "summary": "Laravel 13.16 added php artisan dev to run your server, queue worker, logs, and Vite together, with the process list configured in PHP instead of composer.json.\nThe post Laravel artisan dev: Run Serve",
+    "aiSummary": "Laravel 13.16 버전부터 새로운 php artisan dev 명령어가 추가되었습니다. 이 명령어를 사용하면 웹 서버, Queue 워커, 로그, Vite 프로세스를 하나의 명령으로 동시에 실행할 수 있습니다. 기존과 달리 프로세스 목록을 composer.json 파일이 아닌 PHP 파일 내에서 설정하도록 변경되어 개발 환경 운영의 편의성이 향상되었습니다.",
+    "url": "https://laravel-news.com/artisan-dev-command?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-10T12:55:03.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=webstorm&p=729991",
+    "title": "Chrome DevTools Connect for WebStorm: Your AI agent can now interact with the browser",
+    "summary": "Frontend development has historically meant working in three separate environments: a design tool for specs and prototypes, the IDE for coding, and a browser to check if everything works. A few days a",
+    "aiSummary": "JetBrains는 웹 개발자가 브라우저와 IDE 사이를 오가며 발생하는 작업 전환을 줄이기 위해 WebStorm용 Chrome DevTools Connect 플러그인을 새롭게 공개하였습니다. 이 플러그인을 활용하면 AI 에이전트가 브라우저와 직접 상호작용하여 개발자의 작업을 지원할 수 있게 됩니다.\n\n이 기술은 기존의 Figma Connect for WebStorm에 이어 개발 환경을 통합하려는 시도의 일환입니다. AI 에이전트는 이 플러그인을 통해 브라우저 내의 DOM 구조를 파악하고 시각적 상태를 확인하며 코드를 수정하는 등의 작업을 수행합니다. 이를 통해 개발자는 브라우저를 수동으로 확인하는 번거로움 없이 코드 기반의 개발 흐름을 유지하며 생산성을 높일 수 있습니다.\n\n이번 업데이트는 복잡한 프런트엔드 개발 환경을 IDE 내부로 통합하여 개발 경험을 개선하는 데 중점을 두고 있습니다. 특히 AI 에이전트가 브라우저라는 외부 환경을 제어할 수 있게 됨으로써, 코드 작성부터 테스트 및 디버깅에 이르는 전체 과정이 더욱 긴밀하게 연결될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/webstorm/2026/08/chrome-connect-webstorm/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Valeriya Masyachenko",
+    "pubDate": "2026-08-10T12:05:17.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.29",
+    "title": "v11.1.29",
+    "summary": "What's Changed\nfix(core): stop import lookup after first direct export match by @malekelkssas in #17141\nchore: update multerExceptions constant by @bo0tzz in #17328\nfix(microservices): correct pub/sub",
+    "aiSummary": "NestJS 프레임워크의 v11.1.29 버전 업데이트가 진행되었습니다. 이번 업데이트는 주로 코어 시스템과 마이크로서비스 모듈의 버그 수정 및 신규 기능 추가를 포함합니다.\n\n코어 모듈에서는 내보내기 항목 검색 로직을 최적화하고, 미들웨어 오버랩 정규식에서 g 플래그를 제거하였으며, 타겟 카운트가 0일 때 배리어 처리를 즉시 해결하도록 개선하였습니다. 또한, SSE 통신을 위한 주석 지원 기능을 추가하고 재시도 필드값이 0일 때 직렬화가 정상적으로 이루어지도록 수정하였습니다.\n\n마이크로서비스 관련해서는 Redis 리스너의 Pub/Sub 클라이언트 타입을 수정하였으며, gRPC 클라이언트 종료 시 발생할 수 있는 오류 대응을 강화하였습니다. 공통 모듈에서는 파일 형식 검증기에 오버라이드 마임타입 옵션을 추가하고 파이프 옵션을 검증기 옵션에서 제외하였습니다. 그 외 Express 환경에서 발생하는 Multer 필드 중첩 오류 매핑 등 안정성 향상을 위한 여러 수정 사항이 반영되었습니다.\n\n이번 릴리스에는 10명의 새로운 기여자가 참여하였으며, 상세한 변경 사항은 제공된 전체 변경 이력 링크를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.29",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-10T09:40:32.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
+    "title": "Django is moving to an annual release cycle",
+    "summary": "Django's Steering Council has accepted the Django Enhancement Proposal DEP\n20 to move Django to an annual release cycle. From January 2028, Django\nwill make one feature release a year, giving every fe",
+    "aiSummary": "Django Steering Council은 DEP 20을 승인하여 2028년 1월부터 Django의 릴리스 주기를 매년 1회로 변경합니다. 앞으로 모든 기능 릴리스는 연도를 따르는 버전 명칭(예: Django 2028, Django 2029)을 사용하게 됩니다.\n\n이번 변경의 핵심은 Python의 연간 릴리스 주기와의 일치입니다. 새로운 체계에서는 Django의 각 버전이 출시 시점에 최신 Python 3개 버전을 지원하며, 해당 지원 기간은 Python의 수명 주기와 보조를 맞추게 됩니다.\n\n또한 기존의 LTS 구분은 폐지되며 모든 기능 릴리스가 3년간의 지원을 보장받게 됩니다. 이를 통해 사용자는 매년 순차적인 업그레이드가 가능해져 이전의 LTS 방식이 가진 부담을 줄이고 더 예측 가능한 개발 환경을 제공받을 것입니다. \n\nAPI 안정성 및 삭제 정책은 기존과 동일하게 유지되며, 2028년 이전까지는 기존 지원 계획이 그대로 적용됩니다. Django 6.2 LTS까지는 기존 일정대로 진행된 후, 2028년부터 새로운 연간 릴리스 체계가 본격적으로 도입됩니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Carlton Gibson",
+    "pubDate": "2026-08-10T09:00:49.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/muse-glimmer",
+    "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
+    "summary": "Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local co",
+    "aiSummary": "Meta Superintelligence Labs에서 첫 번째 오픈 모델인 Muse Glimmer를 공개했습니다.\n\nMuse Glimmer는 30B 파라미터 규모의 멀티모달 모델이며 Apache 2.0 라이선스로 배포됩니다. 이 모델은 주로 로컬 코딩 에이전트 환경에서 활용하기 위해 설계되었습니다.\n\n특히 Ollama의 MLX 엔진을 통해 가속화된 성능을 제공하며 새롭게 추가된 네이티브 DFlash 기술과 이미지 입력 기능을 지원합니다.",
+    "url": "https://ollama.com/blog/muse-glimmer",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-08-10T00:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
     "title": "GitHub Copilot weekly releases — August 3",
     "summary": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot…\nThe post Git",

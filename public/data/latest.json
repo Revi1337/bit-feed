@@ -1,5 +1,247 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
+    "title": "How WPP operationalizes platform and data engineering for AI marketing",
+    "summary": "Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and op",
+    "aiSummary": "WPP는 시장의 변동성과 파편화된 데이터 문제를 해결하고 AI 마케팅 시스템인 WPP Open의 효율성을 높이기 위해 Google Cloud와 협력하여 통합 데이터 플랫폼을 구축하였습니다. \n\n이를 위해 WPP는 수백 개의 글로벌 에이전시에 분산되어 있던 데이터를 BigQuery와 Google Cloud Storage를 활용하여 중앙 집중식으로 관리합니다. 데이터 엔지니어링 과정에서는 Managed Service for Apache Spark와 Kubeflow를 활용한 서버리스 아키텍처를 도입하여 클러스터 관리 부담을 줄이고 데이터 변환 로직에 집중하고 있습니다. 또한 정교한 IAM 제어를 통해 보안을 유지하며 데이터를 표준화된 SCDs 형태로 정규화하여 AI 모델의 신뢰성을 확보하였습니다.\n\n플랫폼 엔지니어링 측면에서는 재사용 가능한 GitLab CI/CD 템플릿을 도입하여 애플리케이션 배포와 인프라 관리를 자동화하였습니다. 특히 빌드 한 번으로 여러 환경에 배포하는 제로 리빌드 방식을 통해 환경 일관성을 유지하고, Wiz를 통한 보안 스캔과 Identity-Aware Proxy를 활용한 제로 트러스트 보안 체계를 구현하였습니다.\n\n이러한 인프라 현대화를 통해 WPP는 전략 수립 및 제작 시간을 4주에서 3시간으로 단축하였으며 생산성 70퍼센트 향상, 콘텐츠 생산량 33배 증가, 캠페인 투자 대비 수익 2.8배 증가라는 실질적인 성과를 거두었습니다.",
+    "url": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Utkarsh Bhardwaj"
+      ],
+      "title": [
+        "Technical Solutions Consultant"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
+    "title": "How Malachyte solves retail’s cold-start problem with managed real-time AI",
+    "summary": "What’s the best way to recommend products to little-known users? \nWe’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachy",
+    "aiSummary": "Malachyte는 LLM의 핵심 기술인 어텐션 메커니즘을 이커머스 개인화 추천에 도입하여 이커머스 업계의 고질적인 난제인 콜드스타트 문제를 해결하고 있습니다. 기존의 사용자 프로필이나 인구 통계학적 데이터에 의존하던 방식에서 벗어나 사용자의 실시간 행동 순서를 시퀀스로 파악함으로써 새로운 방문자에게도 즉각적이고 정확한 맞춤형 경험을 제공합니다.\n\n사용자가 사이트에 접속하면 클릭이나 검색과 같은 모든 상호작용은 실시간으로 사용자 벡터를 갱신하는 재료가 됩니다. LLM이 문장에서 단어의 순서를 통해 의미를 파악하듯 Malachyte는 사용자의 행동 시퀀스를 분석하여 다음에 구매할 가능성이 높은 상품을 예측합니다. 이 과정은 100밀리초 이내에 처리되어 지연 없는 개인화 환경을 구현합니다.\n\n기술적 기반으로는 Google Cloud의 인프라를 적극적으로 활용합니다. Managed Service for Apache Kafka를 통해 행동 이벤트를 실시간으로 스트리밍하고 Bigtable을 사용하여 사용자 벡터를 즉시 업데이트합니다. 또한 Cloud Pub/Sub를 통해 상품 카탈로그와 같은 외부 데이터를 지속적으로 동기화하며 GKE와 GCE를 통해 모델 추론과 서비스를 운영합니다.\n\n이러한 데이터 협력 모델은 개별 소매업체들이 모은 익명화된 데이터를 통해 전체 모델의 성능을 상향 평준화합니다. 결과적으로 소매업체들은 복잡한 데이터 수집이나 제3자 쿠키에 의존하지 않고도 매출을 크게 향상시킬 수 있으며 사용자에게는 강화된 개인정보 보호와 향상된 쇼핑 경험을 동시에 제공할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sidd Motwani"
+      ],
+      "title": [
+        "CEO, Malachyte"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
+    "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
+    "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI pla",
+    "aiSummary": "Google이 The Forrester Wave: AI Platforms, Q3 2026 보고서에서 리더로 선정되었습니다. 이번 평가에서 Google은 특히 전략 부문에서 최고 점수를 획득하며 AI 플랫폼 분야의 경쟁력을 입증했습니다.\n\nGoogle Cloud가 제공하는 Gemini Enterprise는 기업이 복잡한 에이전트 워크플로우를 구축하고 운영할 수 있도록 돕는 통합 플랫폼입니다. 이 플랫폼은 비즈니스 사용자, 개발자, IT 리더 간의 사일로를 제거하고 공유된 맥락을 제공함으로써 조직 전체가 AI를 효과적으로 활용할 수 있는 기반을 마련합니다.\n\nGemini Enterprise Agent Platform은 기술 팀이 프로덕션급 에이전트를 안전하고 비용 효율적으로 구축하고 배포할 수 있도록 지원합니다. 개발자는 코딩 환경과 로우코드 및 노코드 도구를 자유롭게 선택하여 작업할 수 있으며 200개 이상의 네이티브 및 타사 모델을 활용할 수 있습니다. 또한 텍스트, 코드, 오디오, 이미지, 비디오를 아우르는 멀티모달 설계가 적용되어 엔터프라이즈 데이터를 바탕으로 한 맥락적 비즈니스 경험을 생성합니다.\n\n보안과 신뢰성 측면에서는 거버넌스, 보안, 관측성을 기본적으로 제공합니다. 내장된 가드레일, 실시간 비용 및 토큰 사용량 추적, Knowledge Catalog와 같은 기능을 통해 기업은 AI 도입 시 필요한 통제권을 확보하고 에이전트의 정확도를 높일 수 있습니다. \n\n현재 Mars, Kohl's, TELUS와 같은 기업들이 Gemini Enterprise를 통해 마케팅 캠페인 가속화, 데이터 분석의 대화형 전환, 에이전트 데이터 클라우드 구축 등 실질적인 비즈니스 가치를 창출하고 있습니다. Google은 앞으로도 오픈하고 확장 가능한 AI 플랫폼을 통해 기업이 에이전트 시대에 걸맞은 소프트웨어를 자신 있게 구축할 수 있도록 지원할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jamie de Guerre"
+      ],
+      "title": [
+        "Senior Director, Outbound Product Management"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+    "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
+    "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and s",
+    "aiSummary": "GKE에서 도입한 ClusterNetworkPolicy는 멀티 테넌트 Kubernetes 환경에서 개발자의 자율성과 보안 팀의 중앙 집중식 제어 사이의 균형을 맞추기 위해 설계된 클러스터 단위의 네트워크 보안 표준입니다. 기존의 네임스페이스 기반 NetworkPolicy가 가진 정책 충돌과 관리의 복잡성을 해결하기 위해 도입되었으며, Kubernetes SIG-Policy Working Group과 협력하여 개발되었습니다.\n\n핵심 기능인 계층형 정책 시스템은 Admin tier, Network policy tier, Baseline tier 순으로 명확한 우선순위를 제공합니다. 가장 높은 우선순위를 가진 Admin tier는 보안 준수 사항을 강제하고, 중간 tier는 개발자가 애플리케이션 수준의 정책을 관리하며, 마지막 Baseline tier는 클러스터의 기본 동작을 정의합니다. 특히 Admin tier의 Pass 액션을 통해 보안 팀이 글로벌 규칙을 먼저 검사한 뒤 결정을 개발자 정책으로 위임할 수 있어 관리와 자율성의 조화를 가능하게 합니다.\n\n이를 통해 민감한 워크로드를 격리하거나 핵심 서비스를 보호하고 외부로 나가는 트래픽을 제어하는 등 복잡한 보안 요구사항을 효과적으로 구현할 수 있습니다. GKE는 해당 기능을 독자적인 방식이 아닌 오픈소스 표준 API로 구현하여 환경 간의 이식성을 보장합니다. ClusterNetworkPolicy는 현재 GKE 버전 1.36 이후부터 미리보기 형태로 제공되며, 이를 통해 관리자는 강력한 보안 가드레일을 유지하면서도 개발 팀에 필요한 운영 유연성을 제공할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Srini Jasti"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "23fc16a0c48a8aaf8de130ae8e5719b50ba6f960",
+    "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+    "summary": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only",
+    "aiSummary": "AWS Heroes Summit이 성공적으로 개최되어 전 세계의 AI, 서버리스, 컨테이너 분야 전문가들이 모여 기술 협업과 피드백을 공유하는 시간을 가졌습니다.\n\nAmazon Bedrock에 웹 검색 기능이 새롭게 추가되어 생성형 AI 애플리케이션이 실시간 외부 데이터를 활용할 수 있게 되었습니다.\n\n이 외에도 AWS는 개발자 경험을 개선하기 위한 다양한 기술 업데이트와 새로운 지원 프로그램을 발표하며 생태계 확장에 주력하고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-08-10T15:45:03.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "title": "Copilot on web expands conversation controls",
+    "summary": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat…\nThe post Copilot o",
+    "aiSummary": "GitHub는 웹상에서 제공되는 Copilot Chat의 사용자 편의성을 높이기 위해 대화 제어 기능을 대폭 개선했습니다. 이번 업데이트를 통해 사용자는 채팅 창에서 최근 진행한 대화 내역에 더 쉽고 빠르게 접근할 수 있게 되었습니다. 또한 필요에 따라 채팅 창을 최소화할 수 있는 기능이 추가되어 작업 공간을 더욱 효율적으로 활용할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-10T14:27:04.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/artisan-dev-command",
+    "title": "Laravel artisan dev: Run Server, Queue, Logs, and Vite",
+    "summary": "Laravel 13.16 added php artisan dev to run your server, queue worker, logs, and Vite together, with the process list configured in PHP instead of composer.json.\nThe post Laravel artisan dev: Run Serve",
+    "aiSummary": "Laravel 13.16 버전부터 새로운 php artisan dev 명령어가 추가되었습니다. 이 명령어를 사용하면 웹 서버, Queue 워커, 로그, Vite 프로세스를 하나의 명령으로 동시에 실행할 수 있습니다. 기존과 달리 프로세스 목록을 composer.json 파일이 아닌 PHP 파일 내에서 설정하도록 변경되어 개발 환경 운영의 편의성이 향상되었습니다.",
+    "url": "https://laravel-news.com/artisan-dev-command?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-10T12:55:03.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=webstorm&p=729991",
+    "title": "Chrome DevTools Connect for WebStorm: Your AI agent can now interact with the browser",
+    "summary": "Frontend development has historically meant working in three separate environments: a design tool for specs and prototypes, the IDE for coding, and a browser to check if everything works. A few days a",
+    "aiSummary": "JetBrains는 웹 개발자가 브라우저와 IDE 사이를 오가며 발생하는 작업 전환을 줄이기 위해 WebStorm용 Chrome DevTools Connect 플러그인을 새롭게 공개하였습니다. 이 플러그인을 활용하면 AI 에이전트가 브라우저와 직접 상호작용하여 개발자의 작업을 지원할 수 있게 됩니다.\n\n이 기술은 기존의 Figma Connect for WebStorm에 이어 개발 환경을 통합하려는 시도의 일환입니다. AI 에이전트는 이 플러그인을 통해 브라우저 내의 DOM 구조를 파악하고 시각적 상태를 확인하며 코드를 수정하는 등의 작업을 수행합니다. 이를 통해 개발자는 브라우저를 수동으로 확인하는 번거로움 없이 코드 기반의 개발 흐름을 유지하며 생산성을 높일 수 있습니다.\n\n이번 업데이트는 복잡한 프런트엔드 개발 환경을 IDE 내부로 통합하여 개발 경험을 개선하는 데 중점을 두고 있습니다. 특히 AI 에이전트가 브라우저라는 외부 환경을 제어할 수 있게 됨으로써, 코드 작성부터 테스트 및 디버깅에 이르는 전체 과정이 더욱 긴밀하게 연결될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/webstorm/2026/08/chrome-connect-webstorm/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Valeriya Masyachenko",
+    "pubDate": "2026-08-10T12:05:17.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.1.29",
+    "title": "v11.1.29",
+    "summary": "What's Changed\nfix(core): stop import lookup after first direct export match by @malekelkssas in #17141\nchore: update multerExceptions constant by @bo0tzz in #17328\nfix(microservices): correct pub/sub",
+    "aiSummary": "NestJS 프레임워크의 v11.1.29 버전 업데이트가 진행되었습니다. 이번 업데이트는 주로 코어 시스템과 마이크로서비스 모듈의 버그 수정 및 신규 기능 추가를 포함합니다.\n\n코어 모듈에서는 내보내기 항목 검색 로직을 최적화하고, 미들웨어 오버랩 정규식에서 g 플래그를 제거하였으며, 타겟 카운트가 0일 때 배리어 처리를 즉시 해결하도록 개선하였습니다. 또한, SSE 통신을 위한 주석 지원 기능을 추가하고 재시도 필드값이 0일 때 직렬화가 정상적으로 이루어지도록 수정하였습니다.\n\n마이크로서비스 관련해서는 Redis 리스너의 Pub/Sub 클라이언트 타입을 수정하였으며, gRPC 클라이언트 종료 시 발생할 수 있는 오류 대응을 강화하였습니다. 공통 모듈에서는 파일 형식 검증기에 오버라이드 마임타입 옵션을 추가하고 파이프 옵션을 검증기 옵션에서 제외하였습니다. 그 외 Express 환경에서 발생하는 Multer 필드 중첩 오류 매핑 등 안정성 향상을 위한 여러 수정 사항이 반영되었습니다.\n\n이번 릴리스에는 10명의 새로운 기여자가 참여하였으며, 상세한 변경 사항은 제공된 전체 변경 이력 링크를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.29",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-10T09:40:32.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
+    "title": "Django is moving to an annual release cycle",
+    "summary": "Django's Steering Council has accepted the Django Enhancement Proposal DEP\n20 to move Django to an annual release cycle. From January 2028, Django\nwill make one feature release a year, giving every fe",
+    "aiSummary": "Django Steering Council은 DEP 20을 승인하여 2028년 1월부터 Django의 릴리스 주기를 매년 1회로 변경합니다. 앞으로 모든 기능 릴리스는 연도를 따르는 버전 명칭(예: Django 2028, Django 2029)을 사용하게 됩니다.\n\n이번 변경의 핵심은 Python의 연간 릴리스 주기와의 일치입니다. 새로운 체계에서는 Django의 각 버전이 출시 시점에 최신 Python 3개 버전을 지원하며, 해당 지원 기간은 Python의 수명 주기와 보조를 맞추게 됩니다.\n\n또한 기존의 LTS 구분은 폐지되며 모든 기능 릴리스가 3년간의 지원을 보장받게 됩니다. 이를 통해 사용자는 매년 순차적인 업그레이드가 가능해져 이전의 LTS 방식이 가진 부담을 줄이고 더 예측 가능한 개발 환경을 제공받을 것입니다. \n\nAPI 안정성 및 삭제 정책은 기존과 동일하게 유지되며, 2028년 이전까지는 기존 지원 계획이 그대로 적용됩니다. Django 6.2 LTS까지는 기존 일정대로 진행된 후, 2028년부터 새로운 연간 릴리스 체계가 본격적으로 도입됩니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Carlton Gibson",
+    "pubDate": "2026-08-10T09:00:49.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/muse-glimmer",
+    "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
+    "summary": "Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local co",
+    "aiSummary": "Meta Superintelligence Labs에서 첫 번째 오픈 모델인 Muse Glimmer를 공개했습니다.\n\nMuse Glimmer는 30B 파라미터 규모의 멀티모달 모델이며 Apache 2.0 라이선스로 배포됩니다. 이 모델은 주로 로컬 코딩 에이전트 환경에서 활용하기 위해 설계되었습니다.\n\n특히 Ollama의 MLX 엔진을 통해 가속화된 성능을 제공하며 새롭게 추가된 네이티브 DFlash 기술과 이미지 입력 기능을 지원합니다.",
+    "url": "https://ollama.com/blog/muse-glimmer",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-08-10T00:00:00.000Z",
+    "fetchedAt": "2026-08-10T16:12:39.379Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
     "title": "GitHub Copilot weekly releases — August 3",
     "summary": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot…\nThe post Git",
@@ -1848,281 +2090,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
-    "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
-    "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\nGateway API has become the standard for modern, role-oriented",
-    "aiSummary": "Kubernetes SIG Network은 Gateway API v1.6.0 버전을 새롭게 출시하였습니다. 이번 업데이트의 핵심은 그동안 실험 단계였던 TCPRoute와 UDPRoute가 표준인 v1 API로 승격되어 L4 계층의 트래픽 라우팅을 안정적으로 지원하게 된 점입니다. 이를 통해 데이터베이스, DNS, 게이밍 등 L7 인지가 필요 없는 다양한 프로토콜 환경에서 Gateway API를 표준적인 방식으로 활용할 수 있게 되었습니다.\n\n새롭게 도입된 XBackend 리소스는 서비스 설정을 더욱 유연하게 확장하기 위한 목적으로 설계되었습니다. XBackend는 기존 Service 리소스의 한계를 보완하여 외부 호스트명으로의 연결과 같은 기능을 제공하며, 이를 통해 클러스터 외부 서비스로의 이그레스 구성 등이 보다 용이해질 전망입니다. 다만 XBackend는 현재 실험적인 단계이므로 프로덕션 환경에서의 사용 시 주의가 필요합니다.\n\n또한 이번 버전부터 실험적인 API 리소스와 표준 리소스 간의 경계를 명확히 하기 위해 관리 체계가 변경되었습니다. 앞으로 새로운 실험적 리소스는 gateway.networking.x-k8s.io라는 별도의 그룹으로 분류되며, 리소스 명칭 앞에 X 접두사가 붙게 됩니다. 이 리소스들이 추후 표준으로 승격될 때 X 접두사를 제거하고 표준 그룹으로 이동하는 방식으로 운영될 예정입니다.\n\nGateway API v1.6.0은 GKE Gateway, NGINX Gateway Fabric, Traefik Proxy 등 다양한 구현체에서 이미 지원되고 있으며, 사용자는 공식 문서와 릴리즈 노트를 통해 상세한 마이그레이션 및 적용 가이드를 확인할 수 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-08-03T16:00:00.000Z",
-    "fetchedAt": "2026-08-04T00:57:14.606Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/sap-google-cloud/cortex-framework-v7-power-ai-agents-with-sap-data-faster/",
-    "title": "Cortex Framework v7 is GA: Build agentic workflows without disrupting SAP operations",
-    "summary": "Businesses want to quickly and safely deploy AI agents to drive revenue, mitigate risk, and optimize capital, all without disrupting mission-critical ERP systems. And to power AI agents, you need more",
-    "aiSummary": "Google Cloud는 기업이 SAP ERP 운영에 지장을 주지 않으면서 AI 에이전트를 원활하게 구축하고 활용할 수 있도록 지원하는 Cortex Framework v7을 공식 출시했습니다. 이번 업데이트는 복잡한 SAP 데이터를 AI가 이해할 수 있는 의미론적 데이터 제품으로 변환하여 Gemini Enterprise Agent Platform에 정확한 비즈니스 맥락을 제공하는 데 중점을 둡니다.\n\nCortex Framework v7의 주요 특징은 다음과 같습니다.\n\n첫째, AI 에이전트 준비 상태를 최적화합니다. 원시 SAP 테이블을 명확한 비즈니스 용어로 변환하고 메타데이터를 포함함으로써 에이전트가 추론과 실행을 효과적으로 수행하도록 돕습니다. 또한 자연어를 사용해 맞춤형 데이터 제품을 생성하는 에이전트 빌더 기능을 통해 데이터 엔지니어의 작업 효율을 높였습니다.\n\n둘째, Dataform을 활용한 모듈식 배포를 지원합니다. 버전 관리가 가능한 SQL과 종속성 관리 기능을 제공하여 SAP ECC, SAP S/4HANA 등 복잡한 다중 시스템 환경에서도 데이터를 유연하게 통합합니다. 이를 통해 표준 모델을 유지하면서도 사용자 정의 필드나 로직을 안전하게 추가할 수 있습니다.\n\n셋째, 비용 효율적인 확장성을 제공합니다. BigQuery의 증분 로딩과 비파괴적 스키마 업데이트를 기본값으로 설정하여 불필요한 컴퓨팅 자원 소모를 최소화합니다. 또한 SAP Business Data Cloud Connect for BigQuery와의 연동을 강화하여 SAP ERP와 SAP BDC 데이터를 결합한 통합 분석 환경을 제공합니다.\n\n이번 v7 버전은 기업이 방대한 SAP 데이터를 전략적 자산으로 활용하여 데이터 기반의 의사결정과 AI 도입 속도를 가속화할 수 있도록 지원합니다.",
-    "url": "https://cloud.google.com/blog/products/sap-google-cloud/cortex-framework-v7-power-ai-agents-with-sap-data-faster/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Snehanshu Shah"
-      ],
-      "title": [
-        "Managing Director, Cortex Framework GTM, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-03T16:00:00.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/unify-public-and-private-data-with-data-commons-on-spanner-graph/",
-    "title": "Unifying public and private data: Scale knowledge graphs with Data Commons on Spanner",
-    "summary": "To make informed decisions, businesses often need to connect their internal data with public reference data, to create a knowledge graph that connects real-world things and their relationships. Howeve",
-    "aiSummary": "Google은 기업이 내부 데이터를 공공 참조 데이터와 결합하여 고도의 지식 그래프를 구축할 수 있도록 지원하는 Data Commons on Spanner의 정식 출시와 Data Commons Platform의 프리뷰 버전을 발표했습니다. 이 플랫폼은 유엔, 세계은행 등 100개 이상의 기관에서 제공하는 4,000억 개 이상의 공공 데이터 포인트를 Schema.org 표준으로 통합하여 사용자가 비즈니스 의사결정에 활용할 수 있도록 돕습니다.\n\n기존의 Bigtable 기반 캐싱 전략에서 벗어나 Spanner Graph를 도입함으로써 네이티브 그래프 모델을 구축했습니다. 이를 통해 SQL 인터페이스의 편의성과 ISO/IEC 39075 GQL의 강력한 그래프 쿼리 성능을 동시에 확보했습니다. 특히 다중 엔티티 스키마를 사용하여 복잡한 사전 계산 없이도 실시간으로 동적인 그래프 탐색이 가능하며, 이는 GraphRAG 워크플로우를 구현하는 데 핵심적인 역할을 합니다.\n\n이번 업데이트에는 SDMX 3.0 기술 표준에 대한 지원이 추가되어 Tableau, Flourish 등 외부 데이터 시각화 도구와 원활한 통합을 지원합니다. 또한 조직은 자체적인 비공개 Data Commons Platform 인스턴스를 구축하여 데이터 통제권을 유지하면서도 Google의 공공 데이터와 자사 내부 데이터를 결합한 하이브리드 지식 그래프를 운용할 수 있습니다. \n\nSpanner의 확장성과 트랜잭션 일관성을 활용한 이 플랫폼은 운영 분석 효율을 높이고 데이터 중복 없이 다양한 도메인의 정보를 연결합니다. 기업은 이를 통해 거시 경제 지표와 자사 매출 데이터를 상호 비교하는 등 데이터 기반의 통찰력을 한층 더 깊이 있게 확보할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/databases/unify-public-and-private-data-with-data-commons-on-spanner-graph/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Randeep Toor"
-      ],
-      "title": [
-        "Senior Technical Program Manager, Data Commons"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-03T16:00:00.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.10",
-    "title": "1.1.10",
-    "summary": "Added Business sign-in for Gemini Enterprise accounts, so you can authenticate with a Google Cloud project under Google Cloud terms, use a license seat allocated or auto-assigned from your organizatio",
-    "aiSummary": "Gemini Enterprise 계정 사용자를 위해 Google Cloud 프로젝트 인증과 라이선스 할당 및 관리자 제어 기능을 추가하여 기업 환경의 보안과 관리 효율성을 강화했습니다. 외부 인증 공급자를 이용하는 기업을 위해 Workforce Identity Federation을 통한 SSO 로그인 옵션을 제공하며 Agent Platform 사용을 위한 Application Default Credentials 인증도 지원합니다.\n\n동일한 장치에서 여러 CLI 인스턴스가 같은 대화를 열 경우 발생하는 데이터 충돌을 방지하기 위해 알림 배너를 도입하였으며 터미널 샌드박스의 Git 저장소 접근 권한을 읽기 전용으로 제한하여 보안을 개선했습니다. 또한 hooks.json의 실행 순서를 조정하여 PostInvocation 및 Stop 훅이 정상적으로 동작하도록 수정하였고 스케줄 도구의 데이터 형식 처리와 모델 및 노력 설정 관련 오류를 해결하여 사용 안정성을 높였습니다.\n\n서브 에이전트 종료 시 하위 작업이 계속 실행되던 문제와 특정 상황에서 발생하는 교착 상태를 수정하여 프로세스 관리의 정확성을 확보했습니다. 인터페이스 측면에서는 다중 선택 프롬프트의 키보드 조작성과 입력창 제안 기능의 사용성을 개선하였으며 모델 선택기 UI의 완성도를 높였습니다. MCP 서버의 백그라운드 작업 처리 방식과 아티팩트 뷰어의 텍스트 잘림 현상 및 샌드박스의 네트워크 로그 기록 등 기술적 오류들을 대거 해결하여 전반적인 시스템 신뢰성을 향상시켰습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.10",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-03T15:45:42.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-    "title": "Inside our 353,000-person vibe coding course",
-    "summary": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
-    "aiSummary": "Kaggle과 Google이 협력하여 진행한 AI Agents Intensive 과정은 353,000명의 참가자를 대상으로 인공지능 에이전트를 구축하고 배포하는 방법을 교육했습니다. 이번 교육은 참가자들이 차세대 AI 기술을 직접 개발하고 실무에 적용할 수 있도록 설계된 무료 프로그램입니다. 코딩 지식을 넘어 AI 모델의 의도를 파악하고 구현하는 이른바 바이브 코딩을 통해 수많은 학습자가 AI 기술의 최전선을 경험했습니다.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Anant Nawalgaria"
-      ],
-      "title": [
-        "Group AI Product Manager, Founder of GenAI intensive"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-03T15:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "/blog/release/v26.6.0?1785765089084",
-    "title": "Node.js 26.6.0 (Current)",
-    "summary": "Antoine du Hamel2026-08-03, Version 26.6.0 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.6.0#2026-08-03-version-2660-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
-    "aiSummary": "Node.js 버전 26.6.0이 새롭게 릴리즈되었습니다. 이번 업데이트는 주요 기능 추가와 함께 성능 개선 및 버그 수정이 광범위하게 포함되었습니다.\n\n주요 변경 사항으로는 ffi 모듈에 getCurrentEventLoop 기능이 추가되었으며, test_runner 환경에서 context.log()와 test:log 이벤트를 지원하여 테스트 로깅 기능을 강화했습니다. 또한 test_runner는 이제 이벤트 스트림에서 entryFile 정보를 제공합니다.\n\n성능 최적화 및 버그 수정과 관련하여, 이벤트 모듈에서 once()와 removeListener()가 최적화되었으며, 맵 객체에서 null 키를 사용할 때 발생하는 TypeError 문제를 해결하였습니다. 버퍼 처리 시 발생하는 메모리 누수 방지, 파일 시스템 관련 glob 패턴 캐시 적용, 그리고 HTTP2 성능 향상 작업 등이 이루어졌습니다.\n\n외부 의존성 항목들도 대거 업데이트되었습니다. npm이 11.18.0으로 업그레이드되었으며, V8 엔진, ngtcp2, libffi, zlib, c-ares 등 주요 라이브러리의 최신 버전이 적용되었습니다. 또한 시간대 데이터베이스가 2026c로 갱신되었습니다.\n\nCLI 측면에서는 node --help 출력 방식이 util.styleText를 통해 개선되었으며, 보안 및 암호화 관련하여 RSA 키 처리 및 OpenSSL/BoringSSL 백엔드 분리 작업 등이 포함되었습니다. 이 외에도 수많은 문서 오류 수정과 기여 지침 업데이트가 함께 진행되었습니다.",
-    "url": "https://nodejs.org/en/blog/release/v26.6.0",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-08-03T13:51:29.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/phpstorm-20262-released",
-    "title": "PhpStorm 2026.2 Released",
-    "summary": "JetBrains has released PhpStorm 2026.2 with a new Laravel tool window, a FileReference attribute for PHP, PHP 8.5 pipe operator support, and an agent skills manager.\nThe post PhpStorm 2026.2 Released ",
-    "aiSummary": "JetBrains가 PhpStorm 2026.2 버전을 새롭게 출시했습니다. 이번 업데이트에는 Laravel 개발을 효율적으로 지원하는 새로운 Laravel 툴 윈도우가 추가되었습니다.\n\n주요 기능으로 PHP 코드 내에서 파일 참조를 쉽게 관리할 수 있는 FileReference 속성이 도입되었으며 PHP 8.5 버전의 핵심 기능인 파이프 연산자에 대한 지원이 포함되었습니다. 또한 AI 기반 개발 환경을 위한 에이전트 스킬 매니저가 추가되어 개발자의 생산성을 높여줍니다.",
-    "url": "https://laravel-news.com/phpstorm-20262-released?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-08-03T13:50:35.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "/blog/release/v24.19.0?1785764979301",
-    "title": "Node.js 24.19.0 (LTS)",
-    "summary": "Antoine du Hamel2026-08-03, Version 24.19.0 'Krypton' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v24.19.0#2026-08-03-version-24190-krypton-lts-aduh95)\nNotable Changes (https://nodejs.org/en/bl",
-    "aiSummary": "Node.js 24.19.0 버전인 Krypton이 장기 지원 버전으로 출시되었습니다. 이번 업데이트는 다양한 핵심 모듈의 기능 개선과 성능 최적화, 그리고 의존성 업데이트를 포함하고 있습니다.\n\n주요 변경 사항으로는 Buffer 모듈에 blob.textStream() 기능이 추가되었고, OpenSSL 빌드 설정이 수정되어 압축 기능을 지원합니다. 또한 HTTP 헤더 유효성 검사를 위한 httpValidation 옵션이 추가되었으며, net 모듈의 setKeepAlive 메서드에서 TCP_KEEPINTVL 및 TCP_KEEPCNT 설정을 지원합니다. \n\n스트림 처리를 위해 ReadableStreamTee가 공개되었고, TLS 모듈에서는 인증서 압축 옵션 추가 및 협상된 TLS 그룹 보고 기능이 포함되었습니다. ESM 모듈에는 실험적인 기능으로 --experimental-import-text 플래그가 도입되었으며, fs 모듈에서는 호출자가 제공하는 readFile 버퍼를 지원합니다.\n\n디버거 모드에서는 probe 모드 관련 기능이 강화되었으며, dgram 모듈에는 동기식 연결과 바인딩을 위한 connectSync 및 bindSync 메서드가 추가되었습니다. 또한 성능 향상을 위해 buffer의 isUtf8 및 isAscii에 대한 고속 API가 도입되었습니다.\n\n내부 의존성 업데이트도 폭넓게 이루어졌습니다. npm이 11.17.0으로 업그레이드되었으며, SQLite, V8, zlib, c-ares 및 googletest 등 주요 라이브러리들이 최신 버전으로 갱신되었습니다. 이 외에도 다양한 빌드 환경 최적화와 암호화 관련 로직 개선, 문서화 보완이 함께 진행되었습니다.",
-    "url": "https://nodejs.org/en/blog/release/v24.19.0",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-08-03T13:49:39.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=92667",
-    "title": "Empty sandboxes break developer experience",
-    "summary": "Learn how Docker Sandbox kits turn empty sandboxes into productive development environments with repeatable tooling, credentials, and configuration.",
-    "aiSummary": "비어 있는 개발 환경인 샌드박스는 개발자의 생산성을 저하시키는 원인이 됩니다. Docker Sandbox kits는 이러한 문제를 해결하기 위해 반복 가능한 도구와 인증 정보, 그리고 최적화된 구성을 자동으로 설정하여 비어 있는 샌드박스를 즉시 업무에 투입 가능한 생산적인 개발 환경으로 전환해 줍니다. 이를 통해 개발자는 번거로운 환경 설정 과정을 생략하고 핵심적인 개발 작업에만 집중할 수 있습니다.",
-    "url": "https://www.docker.com/blog/empty-sandboxes-break-developer-experience/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jennifer Kohl",
-    "pubDate": "2026-08-03T13:00:00.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=92655",
-    "title": "Docker AI Governance: Audit Logs, Now Where Your Security Team Already Works",
-    "summary": "Now in Docker AI Governance: a single searchable record of every policy decision your agents trigger, streamed to the SIEM your security team already runs, so you can show what your agents did and wha",
-    "aiSummary": "Docker가 AI 거버넌스 기능을 강화하며 에이전트의 모든 정책 결정 과정을 기록하는 감사 로그 스트리밍 기능을 도입합니다. 이제 기업 내 AI 에이전트가 수행한 작업과 보안 정책에 의해 차단된 활동 내역을 보안 팀이 기존에 사용 중인 SIEM으로 직접 전송할 수 있습니다. 이를 통해 보안 담당자는 별도의 도구 전환 없이 운영 환경에서 AI 에이전트의 행위를 투명하게 추적하고 관리할 수 있게 됩니다.",
-    "url": "https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Srini Sekaran",
-    "pubDate": "2026-08-03T13:00:00.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills/",
-    "title": "Behind the scenes: How we build, test, and scale Google Agent Skills",
-    "summary": "AI agents are only as good as the instructions and context you give them. When we launched Google Agent Skills, our goal was simple: encode Google Cloud domain knowledge into structured, open-source i",
-    "aiSummary": "Google Agent Skills 프로젝트는 Google Cloud의 도메인 지식을 구조화된 오픈소스 명령어 형태로 제공하여 AI 코딩 에이전트의 정확성과 안전성을 높이기 위해 시작되었습니다. 프로젝트 초기 커뮤니티로부터 높은 관심을 받으며 확장되었으나, 여러 팀의 기여로 인해 발생하는 품질 저하 문제를 해결하기 위한 엄격한 관리 체계가 요구되었습니다.\n\n이를 위해 모든 기술(skill)은 표준화된 저장소 레이아웃을 따르며, 아키텍처 측면에서는 인증과 보안이 내장된 원격 MCP 도구 활용을 우선시합니다. 또한 내부 검증을 마친 후 자동화된 내보내기 규칙을 통해 GitHub에 공개하는 방식을 채택하고 있습니다.\n\n품질 유지를 위한 자동화 시스템으로는 CI/CD 파이프라인을 통한 린터, 링크 검사, AI 기반 체크리스트가 활용됩니다. 특히 기술의 신뢰성을 보장하기 위해 제출 시점의 평가와 매주 수행되는 지속적인 평가를 병행합니다. 평가 과정에서는 에이전트의 정확도와 효율성을 다각도로 분석하며, 이를 통해 기술의 성능 향상 여부를 검증합니다.\n\nGoogle은 기술을 일회성 문서가 아닌 지속적인 관리가 필요한 제품으로 정의하고, 저장소 관리자와 기술 소유자에게 명확한 책임 범위를 부여합니다. 또한 저자들이 효율적으로 기술과 평가 도구를 제작할 수 있도록 전용 내부 도구와 에이전트 워크플로우를 제공하며, 내부 팀을 위한 DevRel Skills를 통해 업무 효율성 또한 높이고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Remigiusz Samborski"
-      ],
-      "title": [
-        "Lead Developer Relations Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-03T11:23:00.000Z",
-    "fetchedAt": "2026-08-03T17:21:55.419Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "/blog/infraslopture-and-other-paradoxes",
-    "title": "Infraslopture and Other Paradoxes",
-    "summary": "How we're combining untrustable agents and production infrastructure without burning down our servers",
-    "aiSummary": "최근 기술 생태계에서는 신뢰할 수 없는 AI 에이전트와 안정성이 필수적인 프로덕션 인프라를 결합하려는 시도가 활발하게 이루어지고 있습니다. 이 과정에서 발생하는 보안 및 안정성 문제를 해결하기 위해 시스템의 설계 방식과 운영 전략을 재검토해야 한다는 주장이 제기됩니다.\n\n핵심적인 과제는 예측 불가능한 행동을 할 수 있는 에이전트로부터 핵심 서버와 데이터를 어떻게 보호할 것인가에 있습니다. 이를 위해 샌드박스 환경 구축이나 엄격한 권한 제어와 같은 안전장치를 마련하는 것이 필수적입니다.\n\n결론적으로 신뢰도가 검증되지 않은 에이전트를 프로덕션 환경에 통합하는 것은 위험을 동반하지만, 적절한 격리 기술과 인프라 구조를 갖춘다면 기술적 혁신을 이룰 수 있습니다. 인프라의 안정성을 저해하지 않으면서 새로운 자동화 도구들을 안전하게 도입하기 위한 공학적 접근 방식을 지속적으로 고민해야 합니다.",
-    "url": "https://www.prisma.io/blog/infraslopture-and-other-paradoxes",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-08-03T00:00:00.000Z",
-    "fetchedAt": "2026-08-07T16:12:23.895Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/google-workspace-plugins",
-    "title": "Google Workspace Plugins",
-    "summary": "Aug 3, 2026 · ChangelogGoogle Workspace PluginsCursor can now read, write, and act across your Google Workspace.\nNew plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, an",
-    "aiSummary": "Cursor가 Google Workspace와 연동되는 새로운 플러그인을 공개했습니다. 이제 개발자들은 Cursor를 벗어나지 않고도 Gmail, Google Drive, Calendar, Docs, Sheets, Chat에 직접 접근하여 정보를 검색하거나 파일을 생성 및 수정하고, 일정과 메시지를 관리할 수 있습니다.\n\nGoogle Drive 플러그인을 통해 파일을 탐색하고 내용을 다운로드하거나 정리할 수 있으며, Gmail과 Google Chat을 활용하여 메일 작성, 전송 및 메시지 소통이 가능합니다. 또한 Google Docs와 Sheets를 통해 문서와 스프레드시트를 직접 편집하고, Google Calendar로 일정을 확인하거나 새로운 이벤트를 생성하는 등 생산적인 작업 환경을 구축할 수 있습니다.\n\n해당 플러그인들은 Cursor Marketplace 또는 설정 페이지를 통해 설치할 수 있으며, 관련 상세 정보는 공식 문서를 통해 확인할 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/google-workspace-plugins",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-08-03T00:00:00.000Z",
-    "fetchedAt": "2026-08-04T00:57:14.606Z",
-    "tags": [
-      "Cursor",
-      "Editor"
     ]
   }
 ]
