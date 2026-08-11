@@ -1,5 +1,165 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/",
+    "title": "PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap",
+    "summary": "Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing",
+    "aiSummary": "Google Cloud는 미래의 양자 컴퓨터 위협에 대비하여 2029년까지 인프라와 서비스를 양자 내성 암호인 PQC로 완전히 전환하겠다는 로드맵을 발표했습니다. 이번 전략은 SNDL 위험 완화, 데이터 무결성 및 위변조 방지, 암호화 민첩성 확보라는 세 가지 핵심 영역을 중심으로 진행됩니다.\n\nSNDL 위험 완화 분야에서는 현재 암호화된 데이터를 미래의 양자 컴퓨터가 해독하는 것을 방지하기 위해 2027년까지 관련 조치를 완료할 계획입니다. 이미 API 엔드포인트와 로드밸런서에 NIST 표준인 ML-KEM 기반의 하이브리드 키 교환 방식을 도입하였으며, 향후 데이터 파이프라인과 관리자 경로 보호를 강화할 예정입니다.\n\n데이터 무결성 및 위변조 방지 분야는 2028년까지 소프트웨어 공급망 보호와 양자 내성 인증서 체계 구축을 목표로 합니다. 여기에는 ML-DSA나 SLH-DSA와 같은 양자 내성 알고리즘을 사용한 디지털 서명 및 인증서 구현이 포함되며, 이를 통해 서비스 계정 키와 토큰의 보안성을 높일 것입니다.\n\n기반 기술 및 키 관리 분야에서는 2028년까지 클라우드 KMS에 PQC 알고리즘을 완전히 통합하고 하드웨어 기반의 보안을 강화합니다. 특히 하드웨어 보안 모듈인 Cloud HSM과 컨피덴셜 컴퓨팅 인프라를 양자 내성 기술로 업그레이드하여 기업의 키 주권을 보장하고자 합니다.\n\nGoogle Cloud는 이러한 전환이 공동의 책임임을 강조하며 고객들에게 인벤토리 식별, 소프트웨어 업데이트, 그리고 양자 내성 API를 활용한 사전 검증을 권고하고 있습니다. 또한 인프라 전반의 양자 내성 확보를 위해 Caliptra, OpenTitan과 같은 오픈 소스 실리콘 신뢰점 기술을 적극 활용할 방침입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jai Haridas"
+      ],
+      "title": [
+        "VP/GM, Regulated and Sovereign Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-11T16:00:00.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
+    "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
+    "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, an",
+    "aiSummary": "Google은 기업용 AI 도구인 Gemini Enterprise에 Looker의 시맨틱 레이어를 통합하여 데이터 분석의 신뢰성과 정확성을 대폭 강화합니다. 대규모 언어 모델인 LLM이 정형 데이터 분석 과정에서 겪는 추측성 쿼리 및 환각 현상을 Looker의 체계화된 비즈니스 로직으로 해결하며, 이를 통해 사용자는 신뢰할 수 있는 정확한 비즈니스 지표를 자연어로 확인할 수 있습니다.\n\n이번 통합은 A2A 프로토콜을 기반으로 하며, 데이터의 보안과 거버넌스를 엄격하게 유지합니다. 별도의 데이터 저장이나 복제 없이 실시간 패스스루 아키텍처를 사용하여 기업의 보안 정책을 그대로 따릅니다. 사용자는 일회성 OAuth 인증을 통해 자신의 권한 범위 내에서만 데이터에 접근할 수 있으며, Looker에 설정된 행 및 열 수준의 액세스 제어와 마스킹 규칙이 Gemini Enterprise 환경에서도 동일하게 적용됩니다.\n\n기술적으로는 단순한 텍스트 응답을 넘어선 인터랙티브 차트 시각화 기능을 지원하여 데이터 이해도를 높입니다. 또한 Deep Research Agent를 비롯한 다양한 외부 에이전트와의 상호운용성을 확보하여 복잡한 다중 에이전트 오케스트레이션이 가능합니다. 결과적으로 기업은 정형 데이터와 비정형 데이터를 하나의 대화형 인터페이스에서 안전하고 직관적으로 탐색할 수 있는 데이터 기반의 업무 환경을 구축할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Tarunima Tripathi"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-11T16:00:00.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
+    "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
+    "summary": "Imagine this scenario: Your team decides to migrate a core application from an existing commercial database like Oracle or SQL Server to open source PostgreSQL or a fully managed service such as Alloy",
+    "aiSummary": "데이터베이스 현대화 과정에서 발생하는 가장 큰 병목 현상은 Oracle이나 SQL Server의 복잡한 저장 프로시저, 트리거, 사용자 정의 함수를 PostgreSQL이나 AlloyDB로 전환하는 작업입니다. 기존의 수동 방식은 숙련된 인력이 수개월에 걸쳐 코드를 재작성해야 했기에 비용과 오류 위험이 높았습니다.\n\nGoogle Cloud의 Database Migration Service는 Gemini를 통합하여 이러한 코드 변환 과정을 자동화합니다. 이 서비스는 단순히 코드 조각을 변환하는 수준을 넘어, 전체 데이터베이스 스키마와 테이블 관계, 객체 간 의존성을 분석하여 문맥을 파악한 정확한 결과물을 제공합니다.\n\n사용자는 Google Cloud 콘솔 내에서 원본 코드와 변환된 PL/pgSQL 코드를 나란히 비교하며 검토할 수 있으며, Gemini가 제공하는 인라인 설명을 통해 코드 구조의 차이점과 변환 근거를 즉시 확인 가능합니다. 또한 데이터베이스 팀은 수정 및 검증 과정을 거쳐 직접 대상 데이터베이스에 코드를 배포할 수 있습니다.\n\n보안 측면에서도 Gemini in Database Migration Service는 모든 변환 작업이 사용자의 Google Cloud 프로젝트 경계와 IAM 거버넌스 내에서 실행되도록 보장하여 기업의 비즈니스 로직과 지적 재산을 보호합니다.\n\n결과적으로 이 기술을 활용하면 수개월이 소요되던 레거시 데이터베이스 로직 변환을 며칠 단위로 단축할 수 있습니다. 이를 통해 데이터베이스 관리자와 개발자는 수동 작업 부담에서 벗어나 성능 테스트나 애플리케이션 현대화와 같은 고부가가치 업무에 집중할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Tanya Sharma"
+      ],
+      "title": [
+        "Strategic Cloud Engineer, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-11T16:00:00.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+    "title": "Per-model token breakdown in the usage report",
+    "summary": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache…\nThe post Per-model token breakdown i",
+    "aiSummary": "GitHub의 사용량 보고서에서 이제 각 모델별로 상세한 토큰 사용 내역을 확인할 수 있습니다. 이번 업데이트를 통해 사용자는 AI 크레딧이 소모된 내역을 모델 단위로 구분하여 상세히 살펴볼 수 있게 되었습니다. 사용량 보고서 페이지에서는 모델별로 입력 토큰과 출력 토큰뿐만 아니라 캐시 토큰까지 포함된 세부 정보를 제공합니다. 이를 통해 개발자는 프로젝트 내에서 활용되는 다양한 AI 모델의 리소스 소비 현황을 더욱 명확하게 파악하고 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-11T14:41:52.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/double-php-testing-library",
+    "title": "Mock PHP Classes in Tests With the Double Library",
+    "summary": "Double is a PHP mocking library from Jason McCreary with one API for mocks, spies, and partials, plus failure messages that show the actual call log.\nThe post Mock PHP Classes in Tests With the Double",
+    "aiSummary": "Double은 Jason McCreary가 개발한 PHP 테스트용 모킹 라이브러리입니다. 이 라이브러리는 Mocks, Spies, Partials를 단일 API로 통합하여 제공하며, 테스트 실패 시 실제 호출 기록을 보여주는 명확한 오류 메시지 기능을 지원합니다. 개발자는 이를 통해 PHP 클래스 테스트를 보다 효율적으로 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/double-php-testing-library?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-11T12:03:13.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+    "title": "Expanding connectivity in the Americas: Introducing Alisios, Canoa, and OlaLuz subsea cables",
+    "summary": "The global digital economy relies on robust, resilient, and highly secure infrastructure to support everything from daily internet use to telehealth and scientific research breakthroughs. Today, Googl",
+    "aiSummary": "Google이 미주 지역의 네트워크 인프라를 확장하기 위해 새로운 해저 케이블 시스템인 Alisios, Canoa, OlaLuz를 도입합니다. 이 프로젝트는 기존의 Curie, Nuvem, Sol 시스템 및 Firmina 케이블의 신규 지선과 함께 Americas Connect라는 통합 네트워크를 형성합니다.\n\nAlisios는 도미니카 공화국, 파나마, 칠레를 연결하며 미주 지역 내 데이터 흐름을 최적화하는 역할을 합니다. Canoa는 도미니카 공화국과 버뮤다를 연결하여 기존의 Nuvem 및 Sol 케이블과 결합함으로써 라틴 아메리카와 카리브해 지역에서 유럽 및 북미로 이어지는 안정적인 연결성을 제공합니다. OlaLuz는 도미니카 공화국과 미국 플로리다를 직접 연결하여 미국 동부 해안과 카리브해 사이의 네트워크 용량과 복원력을 강화합니다.\n\n또한 Firmina 해저 케이블에 도미니카 공화국으로 연결되는 새로운 지선을 추가하여 인프라의 범위를 더욱 넓혔습니다. 이번 투자를 통해 Google은 태평양 연안, 카리브해, 대서양 전역에 걸친 해저 케이블 고리를 구축함으로써 Google Cloud 리전 간의 연결 속도와 안정성을 대폭 향상할 계획입니다.\n\n이번 Americas Connect 전략은 도미니카 공화국, 파나마, 버뮤다, 칠레 등 주요 거점 국가들의 정부로부터 디지털 격차 해소와 지역 경제 활성화를 위한 핵심 인프라로 높게 평가받고 있습니다. Google은 앞으로도 전략적인 분기 유닛 배치를 통해 변화하는 지역적 요구와 기회에 유연하게 대응하며, 더욱 개방적이고 견고한 글로벌 클라우드 네트워크 환경을 조성할 방침입니다.",
+    "url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Brian Quigley"
+      ],
+      "title": [
+        "VP, Global Network Infrastructure, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-11T10:00:00.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.12",
     "title": "1.1.12",
     "summary": "Added a heading outline to the artifact viewer, opened with t, so a long markdown document's structure is visible at a glance and you can jump straight to a section instead of scrolling.\nAdded non-int",
@@ -14,6 +174,40 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/08/eval-driven-development-agent-skills",
+    "title": "Eval-driven development: How we build better agent skills for Firebase",
+    "summary": "How we build better agent skills for Firebase",
+    "aiSummary": "Firebase는 AI 에이전트의 기술을 향상하기 위해 Eval-driven development 방식을 도입하고 있습니다. 이 접근법은 모델의 성능을 체계적으로 평가하고 그 결과를 바탕으로 에이전트의 행동을 개선하는 개발 과정을 핵심으로 합니다.\n\nFirebase 팀은 특정 작업에 대한 에이전트의 성공률을 측정하기 위해 다양한 테스트 케이스 세트를 구축했습니다. 각 단계마다 모델의 응답을 평가하고, 성능 지표를 분석하여 기술적 결함을 파악한 뒤 프롬프트 최적화나 도구 사용 방식 개선을 진행합니다.\n\n이 과정은 단순히 직관에 의존하는 것이 아니라 데이터 기반의 정량적 평가를 통해 반복적인 개선을 가능하게 합니다. 궁극적으로 Firebase는 이러한 평가 체계를 통해 에이전트의 안정성과 정확성을 높이고 사용자에게 더 높은 품질의 개발 지원 경험을 제공하고자 합니다.",
+    "url": "https://firebase.blog/posts/2026/08/eval-driven-development-agent-skills",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/nemotron-3-5-lightning",
+    "title": "NVIDIA Nemotron 3.5 Lightning",
+    "summary": "NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through m",
+    "aiSummary": "NVIDIA Nemotron 3.5 Lightning 모델이 Ollama를 통해 공개되었습니다. 해당 모델은 300억 개의 파라미터 중 30억 개가 활성화되는 구조를 갖추고 있으며, 개인 하드웨어 환경에서 구동하는 에이전트에 최적화되어 있습니다.\n\n지속적인 실행을 통해 맥락을 파악하고 도구를 호출하며 다단계 작업을 수행하도록 설계되었습니다. 이를 통해 사용자는 자신의 장비에서 직접 지능형 에이전트 기능을 활용할 수 있습니다.",
+    "url": "https://ollama.com/blog/nemotron-3-5-lightning",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-11T16:14:07.723Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
@@ -1515,311 +1709,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents/",
-    "title": "Introducing Database Operations Agents: The future of autonomous database management",
-    "summary": "As part of the Agentic Data Cloud launch at Google Cloud Next ‘26, we announced two AI-powered database agents to simplify database management. These include the Database Onboarding Agent for Day 0 op",
-    "aiSummary": "Google Cloud는 Google Cloud Next ‘26에서 데이터베이스 관리의 복잡성을 줄이고 효율성을 높이기 위해 Agentic Data Cloud의 일환으로 두 가지 AI 기반 데이터베이스 에이전트를 발표했습니다.\n\n첫 번째인 Database Onboarding Agent는 초기 구축 단계인 Day 0 작업을 지원합니다. 사용자가 자연어로 애플리케이션 요구 사항을 설명하면, 에이전트가 IOPS, 지연 시간, 복제 지연 등 기술적 지표를 분석하여 최적의 Google Cloud 관리형 데이터베이스 서비스를 추천하고, 설정 및 배포를 위한 명령어까지 생성해 줍니다.\n\n두 번째인 Database Observability Agent는 Day 1 및 Day 2 운영을 담당하며 모니터링, 문제 해결, 지속적인 유지 관리를 자동화합니다. Gemini의 추론 능력을 활용해 Database Insights, Cloud Monitoring, Cloud Logging 등 다양한 소스의 원격 측정 데이터를 통합 분석하며, 성능 병목 현상이나 잠금 경합 같은 복잡한 문제를 신속하게 진단합니다. 특히 단순 진단을 넘어 구체적인 해결책을 제시하며, 사용자의 승인을 거쳐 인덱스 추가와 같은 최적화 작업을 직접 수행할 수도 있습니다.\n\n이러한 에이전트들은 Google Cloud 콘솔, CLI, Chat은 물론 MCP 서버를 통해 사용자가 선호하는 IDE 등 다양한 환경과 통합됩니다. 이를 통해 SRE, DevOps 엔지니어, 개발자들은 가상 DBA의 도움을 받는 것처럼 데이터베이스 생명 주기 전반을 효율적으로 관리할 수 있습니다. 현재 해당 서비스는 AlloyDB, Bigtable, Cloud SQL, Firestore, Memorystore, Spanner 등 다양한 Google Cloud 데이터베이스 환경에서 Gemini Cloud Assist를 통해 이용할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Niranjan Shivprasad"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-04T16:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/retail/how-target-rebuilt-retail-discovery-with-spanner-graph/",
-    "title": "How Target is enhancing retail discovery and cutting database maintenance by 50% with Spanner Graph",
-    "summary": "In today’s retail environment, shoppers expect highly personalized product discovery experiences and conversational assistance that feels genuine, natural, and genuinely helpful. Today, successful pro",
-    "aiSummary": "Target은 고객에게 더욱 개인화된 쇼핑 경험과 자연스러운 대화형 지원을 제공하기 위해 기존의 파편화된 데이터 아키텍처를 Spanner Graph 기반의 통합 플랫폼으로 전환했습니다. 기존에는 Elasticsearch와 NoSQL 데이터베이스를 분리하여 운영함에 따라 데이터 동기화 문제와 높은 운영 부담, 그리고 복잡한 쿼리 처리의 한계가 존재했습니다.\n\nTarget은 Spanner Graph를 도입하여 제품 카탈로그, 그래프 관계, 벡터 임베딩을 하나의 엔진 내에서 통합 관리하는 기업용 온톨로지를 구축했습니다. 이를 통해 트랜잭션 데이터와 의미론적 지능을 결합한 통합 데이터 플랫폼을 완성하였으며, GraphRAG 아키텍처를 구현하여 LLM이 더욱 정확한 문맥을 파악하고 정교한 쇼핑 추천을 수행할 수 있도록 지원합니다.\n\n전환 과정에서는 가동 중단 없는 점진적 마이그레이션 방식을 채택하여 스키마 매핑, 데이터 통합, 카나리 배포 단계를 거쳐 안전하게 기존 레거시 시스템을 대체했습니다. 이 과정에서 Spanner의 자동 스케일링 기능을 활용해 블랙 프라이데이와 같은 대규모 트래픽 급증 상황에서도 안정적인 성능을 확보했습니다.\n\n결과적으로 Target은 여러 데이터베이스를 관리하던 운영 복잡성을 제거하여 인프라 유지보수 시간을 50% 절감하는 성과를 거두었습니다. 또한 SQL과 GQL을 결합하여 복잡한 데이터를 단일 쿼리로 처리할 수 있게 됨으로써 개발 생산성을 높이고 고객 대상 AI 기능 출시 속도를 크게 가속화했습니다.",
-    "url": "https://cloud.google.com/blog/topics/retail/how-target-rebuilt-retail-discovery-with-spanner-graph/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sayanti Dey"
-      ],
-      "title": [
-        "Principal Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-04T16:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/automating-postgres-translations-with-database-migration-service/",
-    "title": "Multiple result sets: How Database Migration Service automates SQL server to PostgreSQL translation",
-    "summary": "In the Medium blog post, \"From MARS to SETOF REFCURSOR: Migrating Multi-Result Stored Procedures to PostgreSQL,\" we explored the fundamental architectural differences between SQL Server and PostgreSQL",
-    "aiSummary": "Google Cloud의 DMS(Database Migration Service)는 SQL Server에서 PostgreSQL로의 데이터베이스 마이그레이션 시 발생하는 다중 결과 집합 처리 문제를 자동화하는 솔루션을 제공합니다. SQL Server는 단일 실행 경로를 통해 여러 테이블 데이터를 스트리밍할 수 있지만, PostgreSQL은 명시적인 커서 조작이 필요하므로 DMS는 구조적 차이를 해결하기 위한 변환 논리를 적용합니다.\n\nDMS는 저장 프로시저가 반환하는 결과 집합의 수와 스칼라 반환 값의 유무를 분석하여 변환 방식을 결정합니다. 결과 집합이 하나이거나 스칼라 값만 있는 경우에는 표준 PostgreSQL PROCEDURE를 사용하고, 다중 결과 집합이나 복합적인 반환 구조를 가질 경우 SETOF refcursor를 지원하는 PL/pgSQL FUNCTION으로 변환합니다. 이때 스칼라 값은 별도의 return_value 커서로 분리하여 데이터 무결성을 유지합니다.\n\n이 과정에서 DMS는 프로시저 본문의 정적 분석뿐만 아니라, 조건부 SELECT 문이나 재귀 호출까지 고려한 호출 네트워크를 구성합니다. 이후 DFS(Depth First Search) 알고리즘을 사용하여 전체 호출 계층 구조의 결과 집합 수를 계산하고 이를 상위 프로시저로 전파함으로써 복잡한 프로시저 로직을 정확하게 PostgreSQL로 마이그레이션합니다.\n\n사용자는 마이그레이션된 코드를 실행할 때 PostgreSQL의 커서 수명 주기 특성에 따라 BEGIN과 COMMIT 블록 내에서 FETCH 명령어를 사용하여 데이터를 순차적으로 인출해야 합니다. 이러한 자동화된 아키텍처는 수동 재작성의 번거로움을 줄여주지만, 데이터 접근 계층이나 QA 단계에서는 변환된 커서 기반의 데이터 인출 방식에 맞게 애플리케이션 로직을 조정해야 합니다.",
-    "url": "https://cloud.google.com/blog/products/databases/automating-postgres-translations-with-database-migration-service/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Assaf Fraenkel"
-      ],
-      "title": [
-        "SQL Server Blackbelt"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-04T16:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/financial-services/unlocking-agility-in-banking-with-an-api-ready-ecosystem-at-deutsche-bank/",
-    "title": "How Deutsche Bank unlocked agility with an API-ready ecosystem",
-    "summary": "When people think about digital transformation in banking, they often focus on the visible results: mobile apps and new digital services. But there's an invisible infrastructure making all these servi",
-    "aiSummary": "Deutsche Bank은 모놀리식 시스템에서 벗어나 민첩하고 확장 가능한 디지털 뱅킹 인프라를 구축하기 위해 Google Cloud의 Apigee를 도입했습니다. 이 플랫폼은 단순한 기술적 연결을 넘어 은행의 신경계 역할을 수행하며 현대적인 금융 서비스의 핵심 기반이 되었습니다.\n\nDeutsche Bank가 Apigee를 통해 확보한 핵심 역량은 크게 네 가지입니다. 첫째, 통합 거버넌스를 통해 API 카탈로그를 중앙에서 관리함으로써 개발 효율성을 높이고 표준화된 정책을 자동 적용합니다. 둘째, 최소 권한 원칙에 기반한 OAuth2와 API 키 관리로 강력한 보안 체계를 구현하여 데이터 접근을 정밀하게 통제합니다. 셋째, 로드 밸런싱과 자동 확장 기능을 통해 대규모 트래픽 환경에서도 중단 없는 고성능 금융 서비스를 보장합니다. 넷째, 실시간 트래픽 및 오류 분석 대시보드를 통해 서비스 상태에 대한 가시성을 확보함으로써 데이터 중심의 의사결정을 지원합니다.\n\n은행은 이러한 API 우선 전략이 단순한 현대화를 넘어 미래의 AI 기반 금융 시대를 준비하는 필수 과정이라고 강조합니다. 특히 MCP 및 A2A와 같은 차세대 통합 표준을 수용할 수 있는 유연한 구조를 갖추었으며, 모든 기능을 API화하여 외부 핀테크 파트너 및 지능형 에이전트와 원활하게 연결하는 생태계를 지향합니다.\n\n결론적으로 Deutsche Bank는 인프라에 대한 전략적 투자를 통해 기술 변화에 빠르게 대응할 수 있는 기반을 마련했습니다. 이들은 우수한 문서화, 철저한 보안 통제, 관찰 가능성의 확보가 디지털 전환의 핵심 성공 요인이라고 평가합니다.",
-    "url": "https://cloud.google.com/blog/topics/financial-services/unlocking-agility-in-banking-with-an-api-ready-ecosystem-at-deutsche-bank/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Stefan Mesquita"
-      ],
-      "title": [
-        "API strategy & Integration, Deutsche Bank"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-04T16:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=92640",
-    "title": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
-    "summary": "77% of organizations experienced a software supply chain incident in the past year. Explore Omdia's latest research on top risks, security gaps, and why developers are your first line of defense.",
-    "aiSummary": "지난 1년간 전 세계 기업 중 77퍼센트가 소프트웨어 공급망 보안 사고를 경험한 것으로 나타났습니다. Omdia의 최신 연구 보고서는 현재 기업들이 직면한 주요 보안 위협과 취약점을 분석하고 있습니다. 이러한 상황에서 개발자들이 외부 공격으로부터 조직을 보호하는 최일선 방어 체계로서 왜 중요한 역할을 수행하는지 강조하고 있습니다.",
-    "url": "https://www.docker.com/blog/software-supply-chain-security-omdia-2026-report/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jin Kim",
-    "pubDate": "2026-08-04T15:10:16.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-    "title": "The latest AI news we announced in July 2026",
-    "summary": "Here are Google’s latest AI updates from July 2026",
-    "aiSummary": "Google은 2026년 7월 자사의 AI 기술과 관련한 최신 업데이트를 발표하였습니다. 이번 발표에는 Google의 AI 생태계 전반을 아우르는 기능 향상과 새로운 기술적 시도가 포함되어 있습니다. 상세한 업데이트 내역을 통해 인공지능 분야에서의 Google의 기술적 진보를 확인할 수 있습니다.",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "News from Google Team"
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-07-21-customize-dependabot-pull-request-branch-names",
-    "title": "Customize Dependabot pull request branch names",
-    "summary": "You can now customize the branch names Dependabot creates for pull requests. New pull-request-branch-name options in .github/dependabot.yml let you set a prefix and maximum length, choose segment and ",
-    "aiSummary": "GitHub에서 제공하는 Dependabot 기능이 업데이트되어 사용자가 풀 리퀘스트 브랜치 명칭을 직접 설정할 수 있게 되었습니다.\n\n이제 .github/dependabot.yml 파일 내에 새롭게 추가된 pull-request-branch-name 옵션을 활용하여 브랜치 이름의 접두사 설정이나 최대 길이 제한을 지정할 수 있습니다. 또한 세그먼트와 단어 구분 기호를 선택하는 기능도 지원하여 프로젝트의 관리 체계에 맞춰 유연하게 브랜치 명명 규칙을 커스터마이징할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-04T12:57:18.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-    "title": "Code coverage automatic enablement in Code Quality settings",
-    "summary": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.…\nThe",
-    "aiSummary": "GitHub는 코드 커버리지 설정 과정을 보다 신속하고 간편하게 개선하기 위해 새로운 기능을 도입하였습니다.\n\n사용자는 이제 리포지토리의 Code Quality 설정 메뉴에서 AI를 활용하여 코드 커버리지 워크플로우를 자동으로 생성하는 옵션을 확인할 수 있습니다. 이를 통해 개발자는 복잡한 설정 과정 없이 효율적으로 코드 커버리지를 관리하고 프로젝트의 품질을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-04T12:36:32.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/apollo-summit-2026-turn-your-api-platform-into-your-ai-platform",
-    "title": "Apollo Summit 2026: Turn Your API Platform Into Your AI Platform",
-    "summary": "August 4, 2026\nApollo’s annual conference, and the world’s largest GraphQL event, returns to San Francisco in October. Apollo Summit 2026 (http://www.apollosummit.dev/) runs October 6 to 8, 2026, at T",
-    "aiSummary": "Apollo Summit 2026이 오는 10월 6일부터 8일까지 샌프란시스코의 The Midway에서 개최됩니다. 이번 행사는 세계 최대 규모의 GraphQL 컨퍼런스로서, 기존 API 플랫폼을 AI 에이전트와 애플리케이션을 위한 강력한 기반으로 전환하는 전략과 기술을 집중적으로 다룹니다.\n\n행사에서는 단순히 API를 애플리케이션 연결 도구로 사용하는 것을 넘어, AI 에이전트가 시스템에 안전하고 효율적으로 접근할 수 있도록 하는 그래프 기반의 인프라 구축 방안을 공유합니다. Block, Brex, Starbucks 등 유수의 기업 엔지니어들이 연사로 참여하여 기존 REST API와 복잡한 시스템을 어떻게 정교한 그래프 스키마로 통합하고, AI가 이를 문맥으로 활용하도록 만드는지에 대한 실제 사례를 발표합니다.\n\n주요 프로그램은 에이전트 인프라 설계, 거버넌스와 보안 정책, 에이전트 환경에서의 API 접근 제어, 그리고 GraphQL과 GraphOS의 최신 기술 활용법 등 4가지 핵심 주제로 구성됩니다. 특히 Apollo Federation, Apollo Router 최적화, 그리고 Apollo MCP Server와 같은 최신 기술을 통해 속도와 보안이라는 두 마리 토끼를 잡는 아키텍처 패턴을 학습할 수 있습니다.\n\n참가자들은 기술 강연과 실습 워크숍을 통해 대규모 시스템에서 AI 에이전트의 권한을 관리하고, 토큰 비용을 최적화하며, API를 발견 가능한 상태로 유지하는 구체적인 방법을 습득하게 됩니다. 플랫폼 엔지니어와 AI 인프라 담당자들에게는 실무적인 해결책을 모색하고 업계 전문가들과 교류할 수 있는 기회가 될 것입니다.",
-    "url": "https://www.apollographql.com/blog/apollo-summit-2026-turn-your-api-platform-into-your-ai-platform",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Eric Holzhauer",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/",
-    "title": "Django security releases issued: 6.0.8 and 5.2.17",
-    "summary": "In accordance with our security release policy,\nthe Django team is issuing releases for\nDjango 6.0.8 and\nDjango 5.2.17.\nThese releases address the security issues detailed below. We encourage all\nuser",
-    "aiSummary": "Django 팀이 보안 정책에 따라 Django 6.0.8 및 5.2.17 버전을 발표했습니다. 이번 업데이트는 총 4가지 보안 취약점을 해결하며 모든 사용자는 최대한 빠르게 업그레이드할 것을 권장합니다.\n\n첫 번째는 CVE-2026-15307로 분류된 공간 룩업 관련 취약점입니다. 기존에 GDALRaster가 dict 및 특정 str 형태의 값을 허용하면서 서버 측 파일 쓰기나 원격 코드 실행, 네트워크 요청 위조가 가능한 문제가 발견되었습니다. 이를 해결하기 위해 해당 입력 타입들을 금지하는 변경 사항이 적용되었으며 이는 하위 호환성을 해치는 변화입니다. 심각도는 높음으로 평가되었습니다.\n\n두 번째는 CVE-2026-15337로 분류된 check_for_language 함수에서의 서비스 거부 취약점입니다. 매우 긴 언어 코드를 대량으로 입력할 경우 캐시 메모리가 과도하게 소모되는 문제가 있어, 500자 이상의 언어 코드를 차단하도록 수정되었습니다. 심각도는 낮음입니다.\n\n세 번째는 CVE-2026-15830으로 분류된 중첩된 GEOMETRYCOLLECTION 객체를 통한 서비스 거부 취약점입니다. 과도하게 중첩된 구조가 segmentation fault를 유발할 수 있어, WKT와 WKB 형식에 대해 최대 198개로 제한을 두는 조치가 추가되었습니다. 심각도는 보통입니다.\n\n마지막으로 CVE-2026-15920은 관리자 페이지의 URLField에서 발생하는 크로스 사이트 스크립팅 취약점입니다. URLValidator를 통해 안전한 URL인지 검증하도록 개선하여, 검증에 실패한 값은 링크로 렌더링되지 않고 일반 텍스트로 표시됩니다. 심각도는 보통입니다.\n\n이번 패치는 Django 메인 브랜치를 비롯해 6.1, 6.0, 5.2 버전들에 모두 적용되었으며 해당 버전의 사용자는 즉시 업데이트를 수행해야 합니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Natalia Bidart",
-    "pubDate": "2026-08-04T11:00:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
-    "title": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
-    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.2, which adds support for Swift 6.3.3…\nTh",
-    "aiSummary": "GitHub의 코드 스캔 기능을 지원하는 정적 분석 엔진인 CodeQL이 2.26.2 버전으로 업데이트되었습니다. 이번 업데이트를 통해 최신 언어 버전인 Swift 6.3.3과 Kotlin 2.4.10에 대한 분석 지원이 추가되었습니다. 이를 통해 개발자들은 더욱 정밀하게 보안 취약점을 탐지하고 수정할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-04T10:57:39.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/chrome-enterprise/future-mode-part-2-the-foundation-for-securing-agentic-browsing/",
-    "title": "Future Mode Part 2: The foundation for securing agentic browsing",
-    "summary": "Editor's Note: Our Future Mode series will give businesses insight into how Chrome Enterprise is approaching AI in the browser. Stay tuned for more blogs in this series.\nFuture Mode Part 2: The founda",
-    "aiSummary": "Google은 AI 에이전트가 브라우저 내에서 다양한 업무를 자동 수행하는 시대에 맞춰 Chrome Enterprise의 보안 체계를 강화하고 있습니다. 현대의 업무 환경에서 브라우저는 사용자의 데이터와 맥락을 가장 잘 이해하는 공간이기에 AI 에이전트의 효율적인 활동 무대가 됩니다. Google은 사용자와 에이전트 모두에게 안전한 환경을 제공하고자 데이터 보호와 생산성을 동시에 고려한 전략을 추진합니다.\n\nChrome Enterprise Premium은 데이터 유출 방지 기술인 DLP를 브라우저 워크스페이스에 직접 적용하여 에이전트의 데이터 흐름을 실시간으로 감시합니다. 이를 통해 민감한 정보가 외부 LLM으로 전송되는 것을 차단하고 조직의 데이터 거버넌스 정책을 에이전트 활동에도 동일하게 적용합니다. 특히 사용자가 접근 권한이 없는 데이터는 에이전트 또한 접근할 수 없도록 제어하여 보안의 일관성을 유지합니다.\n\nGoogle은 에이전트 보안을 위해 세 가지 핵심 아키텍처를 도입했습니다. 첫째, Google DeepMind의 CaMeL 연구에서 영감을 받은 User Alignment Critic 시스템을 통해 에이전트의 작업이 사용자의 원래 의도와 일치하는지 검증하고 프롬프트 인젝션 공격 등을 차단합니다. 둘째, Site Isolation 기술을 확장하여 에이전트의 활동 범위를 작업과 관련된 사이트로만 엄격히 제한합니다. 셋째, 중요한 거래나 계약 시에는 반드시 인간의 승인을 거치도록 설계하여 투명성을 확보하고 작업 로그를 통해 모든 과정을 사용자가 확인하게 합니다.\n\n향후 Google은 자동화된 머신러닝 레드팀 시스템을 운영하고 취약점 보상 프로그램인 VRP의 범위를 에이전트 기능까지 확대할 계획입니다. 이를 통해 Chrome Enterprise는 기업이 보안 위협 없이 AI 생산성을 극대화할 수 있는 안전한 기반을 지속적으로 제공할 것입니다.",
-    "url": "https://cloud.google.com/blog/products/chrome-enterprise/future-mode-part-2-the-foundation-for-securing-agentic-browsing/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mark Berschadski"
-      ],
-      "title": [
-        "Director, Product Management"
-      ],
-      "department": [
-        "Chrome Enterprise"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-04T10:50:00.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=idea&p=727805",
-    "title": "IntelliJ IDEA Goes LSP: Java and Kotlin Intelligence Comes to VS Code, Cursor, and Agentic Flows",
-    "summary": "It’s no secret that agentic development is changing how developers build software. As agents take on more and more of the implementation work, developers spend less and less time manually editing code",
-    "aiSummary": "JetBrains가 개발자 도구 생태계 확장을 위해 IntelliJ IDEA의 강력한 분석 엔진을 LSP(Language Server Protocol) 형태로 제공하기 시작했습니다. 그동안 고유한 환경에서만 작동하던 IntelliJ의 정교한 Java 및 Kotlin 코드 분석 기능을 이제 VS Code, Cursor 등 다양한 에디터와 IDE에서 활용할 수 있게 되었습니다.\n\n이번 변화는 AI 에이전트가 코드를 직접 구현하는 비중이 높아짐에 따라 개발자가 수동으로 작성하는 코드의 양이 줄어드는 최신 개발 흐름을 반영한 것입니다. 개발자들은 이제 가벼운 에디터 환경에서도 IntelliJ 수준의 정확한 코드 내비게이션, 참조 찾기 등의 기능을 사용할 수 있어 작업의 효율성을 크게 높일 수 있습니다.\n\n특히 AI가 주도하는 Agentic Flow 환경에서 이러한 범용적인 연결성은 핵심적인 역할을 합니다. 특정 IDE에 종속되지 않고도 고품질의 언어 분석 결과를 도출할 수 있게 됨으로써, 개발 생산성 도구의 상호운용성이 한층 강화될 것으로 기대됩니다.",
-    "url": "https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Marco Behler",
-    "pubDate": "2026-08-04T10:48:16.000Z",
-    "fetchedAt": "2026-08-04T17:09:19.424Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
     ]
   }
 ]
