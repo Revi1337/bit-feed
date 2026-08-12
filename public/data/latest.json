@@ -1,5 +1,85 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_134",
+    "title": "Visual Studio Code 1.134 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.134 Insiders 버전의 새로운 기능과 변경 사항이 공개되었습니다. 이번 업데이트는 제품의 전반적인 개선과 사용자 편의성을 높이기 위한 기능들을 포함하고 있습니다. 상세한 업데이트 내용과 기술적인 변화는 Visual Studio Code 공식 웹사이트의 전체 아티클을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_134",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-08-12T16:13:59.158Z",
+    "fetchedAt": "2026-08-12T16:13:59.158Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "title": "Putting sign language AI into users’ hands",
+    "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+    "aiSummary": "청각 장애인과 난청 사용자를 지원하기 위한 획기적인 모델인 SL2T가 새롭게 공개되었습니다. 해당 기술은 수어를 텍스트로 변환하는 기능을 제공하여 언어 장벽을 허물고 사용자들의 의사소통을 돕습니다. 이번 모델은 수어 사용자들이 일상에서 더욱 편리하게 디지털 기기를 활용할 수 있도록 설계되었습니다.",
+    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-08-12T14:01:59.000Z",
+    "fetchedAt": "2026-08-12T16:13:59.158Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/12/java-mcp-migration/",
+    "title": "Evolving a Java MCP Server During MCP Specification Upgrades",
+    "summary": "As a framework, library, or protocol gains adoption, edge cases reveal ambiguities, interoperability gaps, and implementation challenges that earlier versions did not anticipate. The Model Context Pro",
+    "aiSummary": "2026년 7월 28일에 발표된 MCP 사양은 프로토콜의 핵심을 상태 비저장 HTTP 기반으로 전환하고, 헤더 중심의 명시적 통신과 서버 발견 기능 등을 강화하여 상호 운용성을 높이는 것을 목표로 합니다. 이번 변경으로 기존의 세션 기반 상태 관리 방식은 애플리케이션 모델 계층으로 이동해야 하며, 클라이언트는 초기화 핸드셰이크 대신 서버 발견 메커니즘을 사용하게 됩니다.\n\n자바 환경의 개발자들은 기존 운영 환경과의 호환성을 유지하면서 새로운 사양을 도입해야 하는 과제에 직면합니다. 이를 해결하기 위해 기존의 안정적인 서비스 경로를 그대로 유지하면서, 새로운 사양을 사용하는 요청만을 별도로 처리하는 어댑터 계층을 웹 서버 라우팅 단계에 추가하는 방식이 권장됩니다.\n\n구체적으로 Helidon과 같은 프레임워크를 사용하는 서버에서는 HttpFeature를 활용하여 요청 헤더인 MCP-Protocol-Version을 확인합니다. 2026 사양 버전이 포함된 요청은 별도의 StatelessMcpProtocolHandler가 처리하도록 라우팅하고, 그렇지 않은 기존 방식의 요청은 이전과 동일한 경로로 처리하게 함으로써 하위 호환성을 확보할 수 있습니다.\n\n이러한 접근법은 서버의 핵심 비즈니스 로직을 변경하지 않고도 점진적으로 새로운 프로토콜 사양을 적용할 수 있게 해줍니다. 향후 프레임워크 수준에서 새로운 사양에 대한 네이티브 지원이 완성되면, 중간에 삽입했던 임시 어댑터 계층을 제거함으로써 코드의 복잡도를 낮추고 최신 표준으로의 전환을 자연스럽게 완료할 수 있습니다.",
+    "url": "https://inside.java/2026/08/12/java-mcp-migration/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ana-Maria Mihalceanu",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T16:13:59.158Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/synchdb-14-released-oracle-container-database-support-and-tls-secured-fdw-snapshots-3362/",
+    "title": "SynchDB 1.4 Released - Oracle Container Database Support and TLS-Secured FDW Snapshots\n",
+    "summary": "Dear Community Members,\nWe are excited to announce the release of SynchDB 1.4, a PostgreSQL extension for real-time replication from heterogeneous source databases into PostgreSQL/IvorySQL.\nThis relea",
+    "aiSummary": "SynchDB 1.4 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Oracle Container Database 지원을 전반적인 복제 경로로 확대한 것입니다. 이제 Debezium 엔진, oracle_fdw, Openlog Replicator를 통한 복제 시 CDB 및 PDB 환경을 모두 지원하며 Oracle 23ai를 대상으로 테스트를 마쳤습니다.\n\n보안 측면에서도 강화된 기능을 제공합니다. 새로 추가된 synchdb_add_fdw_conninfo 함수를 통해 MySQL과 PostgreSQL 소스에는 TLS를, Oracle과 OLR 소스에는 Oracle Wallet을 사용하여 초기 스냅샷 연결을 암호화할 수 있게 되었습니다.\n\n운영 편의성도 향상되었습니다. synchdb_set_dbz_loglevel 함수를 도입하여 커넥터를 재시작하지 않고도 Debezium 엔진의 로그 레벨을 실시간으로 조정할 수 있게 되었으며, 내장된 Debezium 엔진을 3.5.2.Final 버전으로 업데이트하여 최신 보안 패치와 기능을 반영했습니다.\n\n마지막으로 장시간 복제 부하 시 발생하던 충돌 문제와 데이터 형식 변환기 오류 등 다수의 안정성 문제를 해결했습니다. 또한 IvorySQL의 내장 Oracle 파서와의 충돌을 방지하고 커넥터가 모든 데이터베이스에서 자동으로 시작되도록 개선하여 전반적인 운영 안정성을 높였습니다.",
+    "url": "https://www.postgresql.org/about/news/synchdb-14-released-oracle-container-database-support-and-tls-secured-fdw-snapshots-3362/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T16:13:59.158Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/plx-write-postgresql-functions-in-the-language-you-already-know-3358/",
+    "title": "plx : Write PostgreSQL functions in the language you already know.\n",
+    "summary": "What plx is\nplx is a PostgreSQL extension that lets you write stored functions and triggers\nin the dialect you already know (the current set is listed below). When you run CREATE FUNCTION,\nplx transpi",
+    "aiSummary": "plx는 PostgreSQL 사용자가 기존에 익숙한 프로그래밍 언어로 저장 함수와 트리거를 작성할 수 있도록 지원하는 확장 기능입니다. Ruby, PHP, JavaScript, Python, COBOL, Oracle PL/SQL, TypeScript, Transact-SQL, Go 등 다양한 언어 문법을 지원하며, 사용자가 작성한 코드를 CREATE FUNCTION 시점에 PostgreSQL의 기본 언어인 plpgsql로 변환하여 저장합니다.\n\n이 방식은 별도의 언어 런타임을 데이터베이스 백엔드에 로드하지 않기 때문에, plpython3u와 같이 외부 인터프리터를 사용하는 기존 방식의 단점인 보안 위험이나 성능 오버헤드 문제를 해결합니다. 변환된 plpgsql 코드는 pg_proc.prosrc에 직접 저장되어 사용자가 언제든지 내용을 검토하거나 수정할 수 있으며, 실제 실행 시에는 표준 plpgsql 인터프리터가 동작하므로 안정성과 성능이 보장됩니다.\n\nplx의 주요 목적은 개발자가 익숙하지 않은 plpgsql 문법을 학습하지 않고도 데이터베이스 계층에서 효율적으로 로직을 구현하도록 돕는 것입니다. 컴파일 과정이 함수 생성 시점에 한 번만 발생하여 실행 시점의 추가 비용이 없으며, 데이터베이스 기반의 비즈니스 로직 최적화를 고려하는 개발자나 팀에게 실용적인 도구가 될 것입니다.",
+    "url": "https://www.postgresql.org/about/news/plx-write-postgresql-functions-in-the-language-you-already-know-3358/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T16:13:59.158Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/dasha-performance-dashboard-3360/",
     "title": "Dasha - performance dashboard\n",
     "summary": "Dasha is an open source performance dashboard for PostgreSQL fleets. It connects to your clusters\nwith a read-only role, shows what the databases are doing right now, and explains what to do about\nit.",
@@ -29,6 +109,22 @@
     "tags": [
       "PostgreSQL",
       "SQL"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-25-0",
+    "title": "Pause All Queues and a New artisan dev UI in Laravel 13.25",
+    "summary": "Laravel 13.25 adds queue:pause --all across every connection, runs artisan dev in a tabbed terminal UI, and returns images straight from routes.\nThe post Pause All Queues and a New artisan dev UI in L",
+    "aiSummary": "Laravel 13.25 버전이 새롭게 업데이트되었습니다. 이번 업데이트의 핵심 기능은 모든 연결에 걸쳐 큐를 일시 중지할 수 있는 queue:pause --all 명령어가 추가된 점입니다.\n\n개발 편의성을 높이기 위해 artisan dev 명령어가 탭 기반의 터미널 UI 환경을 지원하도록 개선되었습니다. 또한 라우트에서 이미지를 직접 반환하는 기능이 포함되어 개발자가 더 효율적으로 작업할 수 있도록 지원합니다.",
+    "url": "https://laravel-news.com/laravel-13-25-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-11T22:49:40.000Z",
+    "fetchedAt": "2026-08-12T16:13:59.158Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -1598,198 +1694,6 @@
     "tags": [
       "Node.js",
       "JS"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
-    "title": "Solving the \"Noisy Neighbor\": How Sharded Architecture Protects Multi-Tenant Platforms",
-    "summary": "Whether you are a multi-tenant SaaS provider, a large enterprise managing internal data platforms, or a company handling mixed-workload data processing, managing a shared infrastructure environment me",
-    "aiSummary": "멀티 테넌트 SaaS 환경이나 데이터 플랫폼에서 발생하는 Noisy Neighbor 문제는 하나의 테넌트가 시스템 자원을 독점하여 전체 플랫폼의 성능 저하와 SLA 위반을 초래하는 치명적인 장애 요소입니다. 기존의 모놀리식 아키텍처는 데이터 처리를 단일 스트림으로 통합하기 때문에 특정 데이터베이스 장애가 시스템 전체로 전파되는 100%의 폭발 반경을 가집니다.\n\n이를 해결하기 위해 제시되는 Sharded Hub-and-Spoke 아키텍처는 처리 프로세스를 중앙 라우터인 Hub와 독립적인 실행 단위인 Spokes로 분리합니다. Hub는 유입되는 데이터를 식별하여 개별 버퍼로 분산하며, Pub/Sub와 같은 중간 버퍼를 활용해 하류단의 병목 현상이 상류단으로 전이되는 것을 방지합니다. Spokes는 테넌트 우선순위나 비즈니스 도메인별로 세분화된 독립적 파이프라인으로 구성되어 특정 테넌트의 부하가 전체 서비스에 영향을 미치지 않도록 격리합니다.\n\n이러한 구조로 전환하면 장애의 영향 범위를 5% 미만으로 크게 축소할 수 있으며, 각 테넌트 부하에 맞춰 자원을 독립적으로 확장하고 개별 도메인별로 유연하게 유지보수를 수행할 수 있습니다. \n\n성공적인 구현을 위해서는 실패한 레코드를 별도로 처리하는 Dead Letter Queues, 데이터베이스 연결 고갈을 방지하기 위한 엄격한 Connection Pooling, 그리고 쓰기 부하를 줄이기 위한 Asynchronous I/O 전략이 병행되어야 합니다. 결론적으로 Sharded 아키텍처는 고립된 실행 환경을 제공함으로써 엄격한 SLA를 유지하고 플랫폼의 운영 안정성을 극대화합니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sri Harshini Donthineni"
-      ],
-      "title": [
-        "Cloud Data Engineer, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-05T16:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
-    "title": "Scaling agentic AI: How UiPath built its high-performance GPU platform on AI Hypercomputer",
-    "summary": "As a market leader in enterprise agentic automation and business orchestration, UiPath is helping to pioneer an industry shift toward agentic AI. With it, the company is deploying autonomous agents to",
-    "aiSummary": "UiPath는 엔터프라이즈 에이전트 AI로의 전환을 가속화하는 과정에서 발생하는 방대한 컴퓨팅 자원 수요와 복잡한 인프라 문제를 해결하기 위해 Google Cloud 기반의 고성능 GPU 플랫폼을 구축하였습니다. 기존의 개별 클러스터 방식으로는 불규칙한 워크로드와 GPU 공급 부족, 높은 운영 비용 문제를 해결하기 어렵다는 판단하에 공유 GPU 플릿 아키텍처를 도입하였습니다.\n\n이 공유 플릿 모델은 머신러닝 서비스 플랫폼이 워크로드를 관리하며, 실시간 추론이 집중되는 주간에는 유연하게 자원을 배분하고, 야간이나 비어있는 시간에는 배치 학습이나 대규모 모델 훈련을 수행하도록 설계되었습니다. 이를 위해 UiPath는 Google Cloud의 AI Hypercomputer 아키텍처와 Dynamic Workload Scheduler를 활용하여 훈련과 추론 작업을 효율적으로 조정하고 있으며, 고성능이 필요한 훈련에는 A3 VM 인스턴스를, 비용 효율적인 추론에는 G4 VM 인스턴스를 배치하여 자원 최적화를 실현했습니다.\n\n또한 UiPath는 LLAMA 및 Qwen 아키텍처 기반의 모델을 통해 지능형 문서 처리인 IDP와 컴퓨터 비전 기능을 강화하고 있습니다. 이러한 인프라 혁신을 통해 Omega Healthcare나 Thermo Fisher Scientific과 같은 고객사들은 대규모 문서 처리 작업에서 높은 정확도와 처리 속도 향상을 경험하고 있습니다.\n\n결과적으로 UiPath는 자원을 제품별로 고정하지 않고 공유 자원화하여 수요 변화에 따른 유휴 자원 낭비를 줄였으며, 예측 가능한 용량 계획을 통해 운영 효율성을 크게 높였습니다. 이번 사례는 대규모 엔터프라이즈 AI 환경에서 하드웨어와 소프트웨어의 긴밀한 통합이 어떻게 성능 개선과 비용 절감을 동시에 달성할 수 있는지 보여주는 모범적인 사례입니다.",
-    "url": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Abhijeet Rajwade"
-      ],
-      "title": [
-        "Senior Customer Engineer, AI Infrastructure"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-05T16:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
-    "title": "HCP Terraform is the control plane for AI-driven infrastructure",
-    "summary": "AI-driven infrastructure is broader than generating configuration. It is a growing set of workflows across the whole lifecycle: application teams composing infrastructure from approved patterns in nat",
-    "aiSummary": "AI 기반 인프라 운영 환경이 확장되면서 인프라 구성 자동화의 병목 현상은 작성 단계에서 검증 및 승인 단계로 이동했습니다. HCP Terraform은 이러한 AI 에이전트가 생성한 인프라 변경 사항을 제어하고 관리하는 통제 평면 역할을 수행합니다. AI 에이전트는 빠른 속도로 인프라를 구성하고 수정할 수 있지만, 적절한 안전장치가 없을 경우 환각 현상, 무분별한 접근 권한 부여, 검증되지 않은 변경 사항 반영 등의 위험을 초래할 수 있습니다.\n\nHCP Terraform은 이러한 위험을 방지하기 위해 5가지 계층의 방어 체계를 제공합니다. 첫째, Provenance를 통해 에이전트가 승인된 Private Registry 모듈과 조직 표준을 기반으로 작업하도록 제한합니다. 둘째, Policy as code와 실행 태스크를 활용해 모든 변경 사항을 강제로 검증합니다. 셋째, 프로젝트 단위의 Identity를 적용하고 동적 자격 증명을 사용하여 에이전트의 권한을 최소화합니다. 넷째, 프로젝트와 워크스페이스를 격리하여 잠재적 오류의 영향을 최소화합니다. 마지막으로, Run history를 통해 모든 변경 이력과 승인 기록을 증거로 보존합니다.\n\n이러한 운영 모델에서 AI 에이전트는 인프라를 제안하는 역할을 담당하며, 최종 결정과 실행은 HCP Terraform의 제어 하에 이루어집니다. 이를 통해 플랫폼 팀은 검증된 모듈을 신속하게 배포하고, 애플리케이션 팀은 표준화된 인프라를 안전하게 셀프 서비스할 수 있습니다. 결론적으로 AI 에이전트의 도입이 거버넌스의 약화를 의미하는 것이 아니라, 오히려 기존의 통제 방식을 더욱 강화하고 체계화하는 과정으로 활용되어야 한다는 점을 강조합니다.",
-    "url": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Simon Lynch",
-    "pubDate": "2026-08-05T16:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-boost-project-rules",
-    "title": "Laravel Boost Project Rules: Teach Agents Your Conventions",
-    "summary": "Laravel Boost project rules store your app's conventions in .ai/rules, scoped by file globs, so an agent only reads the instructions that apply.\nThe post Laravel Boost Project Rules: Teach Agents Your",
-    "aiSummary": "Laravel Boost Project Rules는 개발자가 자신의 애플리케이션 코딩 규칙을 .ai/rules 디렉토리에 정의하여 AI 에이전트에게 학습시키는 기능을 제공합니다.\n\n이 도구는 파일 패턴을 기반으로 규칙을 적용하는 범위를 설정할 수 있어, AI 에이전트가 특정 파일이나 상황에 필요한 지침만을 선택적으로 읽도록 지원합니다. 이를 통해 프로젝트 전반에 걸쳐 일관된 코드 품질을 유지하고 에이전트의 작업 정확도를 향상시킬 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-boost-project-rules?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-08-05T15:24:34.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "13572f01241ca7108f49e50344decc868ddde5d7",
-    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
-    "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
-    "aiSummary": "Amazon DynamoDB가 규모와 관계없이 실시간 벡터 검색을 지원하는 기능을 새롭게 도입했습니다. 이번 업데이트를 통해 수조 개의 벡터 데이터까지도 단일 자릿수 밀리초 단위의 지연 시간과 99퍼센트 이상의 재현율로 검색할 수 있게 되었습니다. 별도의 인프라 관리 없이 운영 가능한 완전 관리형 서비스로 제공되어 개발자의 편의성을 크게 높였습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Esra Kayabali",
-    "pubDate": "2026-08-05T14:45:10.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=go&p=728730",
-    "title": "Go 1.27 Release Party – Free Online Event With the Go Team",
-    "summary": "Join us on August 25 at 4:00 pm UTC for a free online event for Go developers, where we will discuss Go 1.27. Instead of reading the release notes on your own, we’d like to invite you to experience th",
-    "aiSummary": "Go 개발자들을 위한 Go 1.27 릴리즈 파티 온라인 행사가 오는 8월 25일 오후 4시 UTC에 개최됩니다. 이번 행사는 단순히 릴리즈 노트를 읽는 방식에서 벗어나 개발자 커뮤니티가 함께 모여 Go 1.27의 주요 변경 사항과 기능을 경험하고 소통하는 자리로 마련되었습니다. 참가를 희망하는 개발자라면 누구나 무료로 참여할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Dominika Stankiewicz",
-    "pubDate": "2026-08-05T13:50:30.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
-    "title": "Unlocking the future of shared storage: Filestore on Colossus",
-    "summary": "Today,  enterprise storage must be as agile, elastic, and responsive as the workloads it supports. Filestore, Google Cloud’s first-party, secure, scalable NFS file service, can service a wide-range of",
-    "aiSummary": "Google Cloud는 자사의 NFS 파일 서비스인 Filestore의 백엔드 저장소 계층을 Google의 분산 저장 시스템인 Colossus 기반으로 개편했습니다. 이번 업데이트를 통해 Filestore는 YouTube나 Gmail 등 대규모 서비스를 지탱하는 인프라 기술을 활용하게 되어 확장성과 운영 효율성이 크게 향상되었습니다.\n\n가장 중요한 변화는 저장 용량과 성능의 분리입니다. 사용자는 워크로드 요구 사항에 맞춰 IOPS를 독립적으로 설정할 수 있어 리소스 과잉 할당 없이 비용을 최적화할 수 있습니다. 이러한 기능은 GKE 환경에서 특히 유용하며 Filestore CSI 드라이버와 결합하여 컨테이너화된 환경에 고성능 영구 스토리지를 제공합니다. 또한 Filestore multishares for GKE 기능을 통해 하나의 인스턴스를 소규모 단위로 분할함으로써 수천 개의 컨테이너가 효율적으로 자원을 공유할 수 있도록 지원합니다.\n\n특히 이번 개선은 다수의 자율 AI 에이전트가 협업하는 에이전트 스웜 환경에서 강력한 성능을 발휘합니다. NFS 프로토콜과 파일 잠금 기능을 통해 여러 에이전트가 동일한 데이터셋에 안전하게 접근하고 일관성을 유지할 수 있어 복잡한 작업 수행이 가능해졌습니다.\n\n운영 측면에서는 Custom Performance 설정을 통한 실시간 IOPS 조정과 무중단 용량 변경이 가능해졌으며 장애 복구 속도 또한 개선되었습니다. Google Cloud IAM, UIDs/GIDs, IP ACL 등과 연동된 강력한 보안 체계도 함께 제공하여 엔터프라이즈급의 안정적인 데이터 환경을 구축합니다.",
-    "url": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jerome McFarland"
-      ],
-      "title": [
-        "Product Manager, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-05T13:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=idea&p=728863",
-    "title": "Java Annotated Monthly – August 2026 ",
-    "summary": "July gave the tech world plenty to talk about, from fresh releases and useful tutorials to Kotlin updates, AI experiments, and new ideas across the wider ecosystem. We packed the best of it into one i",
-    "aiSummary": "Java Annotated Monthly 8월호에서는 7월 한 달간 IT 생태계에서 주목받은 주요 소식들을 정리하여 제공합니다. 이번 호에서는 최신 소프트웨어 릴리스와 유용한 튜토리얼을 비롯해 Kotlin 업데이트 소식, AI 기술을 활용한 다양한 실험적 시도와 새로운 아이디어들을 다룹니다. 또한 생태계 전반에 걸친 기술적 변화와 동향을 요약하여 전달함으로써 독자들이 복잡한 정보 속에서 핵심 내용을 효율적으로 파악할 수 있도록 돕습니다. 특별히 Donald Raab의 기고를 포함하여 Java 개발자들에게 가치 있는 인사이트를 제공하는 데 집중하였습니다.",
-    "url": "https://blog.jetbrains.com/idea/2026/08/java-annotated-monthly-august-2026/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Irina Mariasova",
-    "pubDate": "2026-08-05T12:30:38.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_133",
-    "title": "Visual Studio Code 1.133 (Insiders)",
-    "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.133 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트에는 개발자 경험을 향상하기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 사용자는 공식 웹사이트를 통해 업데이트의 상세 내용을 확인하고 새로운 기능을 미리 경험해 볼 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_133",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-08-05T10:01:51.848Z",
-    "fetchedAt": "2026-08-05T10:01:51.848Z",
-    "tags": [
-      "VS Code",
-      "Editor"
     ]
   }
 ]
