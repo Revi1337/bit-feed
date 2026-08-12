@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/dasha-performance-dashboard-3360/",
+    "title": "Dasha - performance dashboard\n",
+    "summary": "Dasha is an open source performance dashboard for PostgreSQL fleets. It connects to your clusters\nwith a read-only role, shows what the databases are doing right now, and explains what to do about\nit.",
+    "aiSummary": "Dasha는 PostgreSQL 클러스터군을 효율적으로 관리하고 모니터링하기 위한 오픈 소스 성능 대시보드입니다. 데이터베이스 호스트에 별도의 에이전트나 확장 프로그램을 설치할 필요 없이 읽기 전용 권한으로 연결하여 운영 상태를 실시간으로 분석합니다. 단일 인스턴스로 다수의 클러스터와 복제본을 통합 관리하며, 개별 호스트의 데이터를 종합하여 인덱스 활용도나 작업 부하를 정확하게 파악합니다.\n\n주요 기능으로 인스턴스의 건강 상태를 100점 만점으로 수치화하여 우선순위에 따른 개선 권안을 제시하는 Health Score가 있습니다. 또한 실행 시간과 WAL 기반의 쿼리 분석, 성능 저하 시점을 기록하는 자동 스냅샷, 인덱스 비대화 및 중복을 감지하는 인덱스 분석 기능을 제공합니다. 테이블 관리 및 유지보수 상태 파악, 잠금 및 대기 이벤트 추적, 세밀한 접근 제어 관리도 지원합니다.\n\n특히 Dasha는 MCP connector를 통해 26개의 도구와 지식 베이스를 AI 어시스턴트에게 제공함으로써 인공지능을 활용한 데이터베이스 진단을 가능하게 합니다. PostgreSQL 14 버전 이상을 지원하며 pg_stat_statements 등을 활용하여 상세한 성능 지표를 분석합니다. 프로젝트는 GNU General Public License v3.0을 따르며 GitHub를 통해 공개되어 있습니다.",
+    "url": "https://www.postgresql.org/about/news/dasha-performance-dashboard-3360/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T08:43:24.057Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/new-modern-jdbc-driver-for-postgresql-3354/",
+    "title": "New Modern JDBC Driver for PostgreSQL\n",
+    "summary": "Sehrope Sarkini along with Claude has written a new JDBC driver from scratch. It's currently in pre-release. Here's an excerpt from his blog \nPostgreSQL-first.\nThe native API is designed around Postgr",
+    "aiSummary": "Sehrope Sarkini가 Claude의 도움을 받아 PostgreSQL 전용의 새로운 JDBC 드라이버를 새롭게 개발하여 프리릴리스 버전으로 공개했습니다.\n\n이 드라이버는 범용적인 데이터베이스 지원을 위한 하향 평준화 방식이 아니라 PostgreSQL의 네이티브 프로토콜과 기능을 직접적으로 활용하도록 설계되었습니다. JDBC를 기초 계층이 아닌 상위 인터페이스 계층으로 정의하여, JDBC의 제약이 코어 로직에 영향을 주지 않도록 구조화한 점이 특징입니다.\n\nJava 21의 Virtual Threads를 활용하여 별도의 비동기 API나 이벤트 루프 없이도 수천 개의 커넥션을 효율적으로 관리할 수 있습니다. 특히 I/O 작업 시 캐리어 스레드를 고정하지 않는 차단 방식의 코드를 작성함으로써 복잡한 콜백 구조 없이도 높은 성능과 직관적인 개발 경험을 제공합니다.\n\n기본적으로 스트리밍 방식을 채택하여 전체 결과 집합을 메모리에 버퍼링하지 않습니다. 쿼리 결과는 풀 커서 방식으로 필요한 만큼만 데이터를 읽어 들여 메모리 효율성을 극대화하며, 데이터 처리를 위한 다양한 어댑터들을 상위 계층에서 지원합니다.",
+    "url": "https://www.postgresql.org/about/news/new-modern-jdbc-driver-for-postgresql-3354/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T08:43:24.057Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
     "title": "GitHub Enterprise Server 3.22 release candidate",
     "summary": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to…\nT",
@@ -1758,23 +1790,6 @@
     "tags": [
       "VS Code",
       "Editor"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/postgres-changes-filters-and-column-selection",
-    "title": "Postgres Changes gets AND filters, new operators, and column selection",
-    "summary": "Postgres Changes subscriptions can now combine filters with AND, match on more operators, and select only the columns you need in the payload.",
-    "aiSummary": "Postgres Changes 구독 기능이 강화되어 이제 필터링 설정 시 AND 조건을 결합하여 사용할 수 있습니다. 또한 더 다양한 연산자를 활용한 데이터 매칭이 가능해졌으며 페이로드에서 필요한 컬럼만을 선택적으로 가져올 수 있게 되었습니다. 이러한 개선을 통해 데이터 처리의 유연성이 높아지고 전송되는 데이터 양을 효율적으로 최적화할 수 있습니다.",
-    "url": "https://supabase.com/blog/postgres-changes-filters-and-column-selection",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-08-05T07:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
     ]
   }
 ]
