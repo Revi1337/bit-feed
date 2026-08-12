@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
+    "title": "GitHub Enterprise Server 3.22 release candidate",
+    "summary": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to…\nT",
+    "aiSummary": "GitHub Enterprise Server 3.22 릴리스 후보 버전이 공개되었습니다. 이번 업데이트는 플랫폼 전반에 걸쳐 새로운 기능과 향상된 관리 도구를 제공합니다. 특히 관리자는 Copilot CLI를 구성하여 개발 환경의 생산성을 높일 수 있습니다. 해당 버전은 기업 사용자를 위한 플랫폼 안정성과 보안, 그리고 운영 효율성을 강화하는 데 초점을 맞추고 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-11T20:26:26.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+    "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+    "summary": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across ",
+    "aiSummary": "GitHub Copilot for JetBrains 업데이트를 통해 영구적인 메모리 기능과 로컬 모델 접근성, 그리고 향상된 엔터프라이즈 제어 기능이 도입되었습니다. 이번 업데이트는 일상적인 채팅 워크플로우를 개선하고 MCP 서버와 관련된 신뢰성 문제를 해결하는 데 중점을 두었습니다. 특히 Ollama를 활용한 로컬 모델 지원이 강화되어 개발자들이 더욱 유연한 환경에서 GitHub Copilot을 활용할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-11T20:15:55.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets",
+    "title": "Automatically migrate branch protection rules to repository rulesets",
+    "summary": "You can now convert your existing branch protection rules to repository rulesets directly from your repository settings. This helps you migrate to GitHub’s more flexible and scalable policy framework ",
+    "aiSummary": "GitHub가 기존의 branch protection rules를 repository rulesets로 직접 전환할 수 있는 기능을 새롭게 제공합니다. \n\n사용자는 리포지토리 설정 페이지에서 기존에 설정된 branch protection rules를 클릭 한 번으로 repository rulesets로 변환하여 마이그레이션할 수 있습니다. \n\n이번 업데이트는 GitHub의 보다 유연하고 확장 가능한 정책 프레임워크를 활용할 수 있도록 지원하며, 더욱 체계적이고 효율적인 리포지토리 관리를 가능하게 합니다.",
+    "url": "https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-11T19:03:57.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-7/",
+    "title": ".NET 11 Preview 7 is now available!",
+    "summary": "Find out about the new features in .NET 11 Preview 7 across libraries, runtime, SDK, C#, ASP.NET Core, .NET MAUI, Entity Framework Core, F#, and Windows Forms.\nThe post .NET 11 Preview 7 is now availa",
+    "aiSummary": "Microsoft가 .NET 11 Preview 7 버전을 공식 발표했습니다. 이번 업데이트에는 라이브러리, 런타임, SDK를 비롯하여 C#, ASP.NET Core, .NET MAUI, Entity Framework Core, F#, Windows Forms 등 .NET 생태계 전반에 걸친 새로운 기능과 개선 사항이 포함되어 있습니다. 개발자들은 해당 업데이트를 통해 플랫폼 전반의 성능 향상과 더불어 더욱 정교해진 개발 환경을 경험할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-7/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "2026-08-11T18:30:00.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60569",
+    "title": ".NET and .NET Framework August 2026 servicing releases updates",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for August 2026.\nThe post .NET and .NET Framework August 2026 servicing releases updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft는 2026년 8월을 기준으로 .NET 및 .NET Framework에 대한 최신 서비스 업데이트를 발표했습니다. 이번 업데이트는 제품의 안정성과 보안을 강화하기 위한 정기적인 유지보수 차원에서 진행되었습니다. 상세한 수정 사항과 적용 방법은 공식 .NET Blog를 통해 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-august-2026-servicing-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT), Tara Overfield",
+    "pubDate": "2026-08-11T18:28:00.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+    "title": "MAI-Code-1.1-Flash available in GitHub Copilot",
+    "summary": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers i",
+    "aiSummary": "Microsoft가 자사의 최신 경량 코딩 모델인 MAI-Code-1.1-Flash를 GitHub Copilot에 공식 도입합니다.\n\n이번 모델은 기존 MAI-Code-1-Flash를 기반으로 성능을 개선했으며, 특히 이미지 이해를 위한 네이티브 비전 기능을 새롭게 탑재하였습니다. 이를 통해 개발자는 코드 생성뿐만 아니라 이미지 데이터 분석을 포함한 더욱 폭넓은 코딩 지원을 경험할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-11T18:13:56.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/",
     "title": "PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap",
     "summary": "Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing",
@@ -128,6 +224,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "title": "Daybreak models are now available on AWS",
+    "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+    "aiSummary": "OpenAI와 AWS가 협력하여 기업의 보안 워크플로우를 지원하기 위한 Daybreak 사이버 보안 기능을 Amazon Bedrock에서 제공하기 시작했습니다. 이번 통합을 통해 기업들은 더욱 강화된 보안 역량을 AWS 클라우드 환경에서 손쉽게 활용할 수 있게 되었습니다.",
+    "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-11T10:00:00.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
     "title": "Expanding connectivity in the Americas: Introducing Alisios, Canoa, and OlaLuz subsea cables",
     "summary": "The global digital economy relies on robust, resilient, and highly secure infrastructure to support everything from daily internet use to telehealth and scientific research breakthroughs. Today, Googl",
@@ -174,6 +287,37 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/11/efficient-java-apps-profiling-troubleshooting/",
+    "title": "The Power of JDK Flight Recorder: Efficient Profiling and Troubleshooting for Java Applications",
+    "summary": "Do you want to understand what's really happening inside your Java application? Are you looking to profile application behavior, analyze performance bottlenecks, or diagnose production issues with min",
+    "aiSummary": "JDK Flight Recorder는 OpenJDK에 내장된 강력하고 가벼운 이벤트 기록 프레임워크로 시스템 부하를 최소화하면서 Java 애플리케이션의 내부 동작을 관찰할 수 있게 해줍니다.\n\n이 도구는 애플리케이션의 성능 병목 현상을 분석하고 메모리 누수나 스레드 문제 등을 진단하는 데 효과적입니다. 상시 운영이 가능한 관찰 능력을 통해 생산 환경에서의 복잡한 이슈를 해결하는 데 최적화되어 있습니다.\n\n사용자는 풍부한 원격 측정 데이터를 수집하고 분석하는 과정을 통해 Java 애플리케이션의 효율성을 극대화할 수 있습니다. 자세한 실무 활용 사례와 구체적인 분석 방법은 JavaOne 2026 재생 목록을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/08/11/efficient-java-apps-profiling-troubleshooting/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Mikael Vidstedt",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/08/11/this-week-in-spring-august-11-2026",
+    "title": "This Week in Spring - August 11th, 2026",
+    "summary": "Hi, Spring fans! Welcome back to another lively edition of This Week in Spring! So much is always happening in the Spring world, and that’s part of what makes it so fun to follow. One of my favorite t",
+    "aiSummary": "Spring 생태계의 최신 소식을 담은 이번 주간 리포트에서는 다양한 기술 업데이트와 커뮤니티 활동을 다룹니다.\n\n분산 작업 스케줄링 엔진인 JobRunr에 관한 영상 가이드가 공개되었으며, A Bootiful Podcast에서는 Tanzu의 Gregory Green이 출연하여 RabbitMQ, Valkey, GemFire, Data Flow 등에 관한 심도 있는 대화를 나누었습니다.\n\nAI 분야에서는 Spring AI AgentCore 2.1.0 버전이 출시되었고, 이를 활용한 에이전트 배포 영상 및 대화형 에이전트 구현을 위한 Craig Walls의 게시물이 공유되었습니다. 또한, Broadcom의 Open Secure AI Alliance 합류 소식과 Amazon의 James Ward가 제시한 Spring AI 기반의 토큰 소비 최적화 기술이 주목받고 있습니다.\n\n개발 프레임워크와 관련하여 Sebastien Deleuze의 인터뷰 영상이 소개되었으며, Java 24 프로젝트에서 가상 스레드 도입이 가져오는 기술적 영향에 관한 논의가 다루어졌습니다. 이 외에도 Spring 프레임워크의 역사를 다룬 학습 영상 등 개발자에게 유익한 콘텐츠들이 다수 포함되었습니다.",
+    "url": "https://spring.io/blog/2026/08/11/this-week-in-spring-august-11-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-12T00:03:44.350Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -1631,84 +1775,6 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
-    ]
-  },
-  {
-    "id": "https://blog.python.org/2026/08/python-3147-31315/",
-    "title": "Python 3.14.7 and 3.13.15 are now available!",
-    "summary": "A pair of bug fix releases await your upgrade.",
-    "aiSummary": "Python 3.14.7 및 3.13.15 버전이 새롭게 출시되었습니다. 이번 업데이트는 기존 버전에서 발견된 오류를 해결하기 위한 버그 수정 릴리스입니다. 안정적인 개발 환경을 위해 최신 버전으로 업그레이드할 것을 권장합니다.",
-    "url": "https://blog.python.org/2026/08/python-3147-31315/",
-    "category": "프로그래밍 언어",
-    "source": "Python Insider",
-    "author": "Thomas Wouters",
-    "pubDate": "2026-08-05T00:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "Python"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/08/05/java-vscode-extension-update/",
-    "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
-    "summary": "Inside Java (https://inside.java/)News and views from members of the Java team at Oracle",
-    "aiSummary": "Oracle이 Visual Studio Code용 Java 플랫폼 확장 프로그램인 Oracle Java Platform Extension 버전 26.0.1을 공개하였습니다. 이번 업데이트는 Java 개발 환경의 생산성을 높이고 Visual Studio Code 상에서의 개발 경험을 개선하는 데 초점을 맞추고 있습니다. 상세한 변경 사항과 설치 방법은 Oracle의 공식 Java 커뮤니티 사이트인 Inside Java를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/08/05/java-vscode-extension-update/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Arvind Aprameya",
-    "pubDate": "2026-08-05T00:00:00.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-24-0",
-    "title": "Image Dominant Color and HEIC Support in Laravel 13.24",
-    "summary": "Laravel 13.24 adds dominant color detection and HEIC support to the image API, a modelKeys() query builder method, and an array_keys validation rule.\nThe post Image Dominant Color and HEIC Support in ",
-    "aiSummary": "Laravel 13.24 업데이트를 통해 이미지 API 기능이 대폭 강화되었습니다. 이미지 내 주요 색상을 추출하는 Dominant Color 감지 기능과 HEIC 형식에 대한 지원이 새롭게 추가되었습니다.\n\n쿼리 빌더에는 모델 키를 효율적으로 처리하기 위한 modelKeys() 메서드가 도입되었으며, 유효성 검사 규칙에는 array_keys가 추가되어 데이터 처리의 편의성이 향상되었습니다.",
-    "url": "https://laravel-news.com/laravel-13-24-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-04T22:38:46.000Z",
-    "fetchedAt": "2026-08-05T16:56:00.042Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
-    "title": "Customize code scanning default setup at scale",
-    "summary": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for…\nT",
-    "aiSummary": "GitHub는 사용자가 코드 스캔 기본 설정을 대규모로 맞춤화할 수 있도록 새로운 기능인 github-codeql-config-file 저장소 속성을 도입했습니다.\n\n이번 업데이트를 통해 사용자는 CodeQL이 코드를 분석하는 방식을 보다 세밀하게 제어할 수 있는 독자적인 구성 파일을 적용할 수 있게 되었습니다.\n\n이를 통해 여러 저장소에 걸쳐 일관된 보안 분석 정책을 효율적으로 관리하고 적용하는 것이 가능해집니다.",
-    "url": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-04T19:15:23.000Z",
-    "fetchedAt": "2026-08-05T00:51:09.539Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-zed-extension",
-    "title": "Official Laravel Zed Extension: LSP for PHP & Blade",
-    "summary": "The official Laravel extension for Zed wires up Laravel LSP, giving you completions, hovers, diagnostics, and code actions in PHP and Blade files.\nThe post Official Laravel Zed Extension: LSP for PHP ",
-    "aiSummary": "Laravel 공식 확장 프로그램이 Zed 에디터용으로 출시되었습니다. 이 확장 프로그램은 Laravel LSP를 연동하여 PHP 및 Blade 파일에서 코드 자동 완성, 호버, 진단, 코드 액션 기능을 제공합니다. 이를 통해 개발자는 Zed 환경에서 더욱 효율적인 Laravel 개발 작업을 수행할 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-zed-extension?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-08-04T17:17:30.000Z",
-    "fetchedAt": "2026-08-05T00:51:09.539Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
