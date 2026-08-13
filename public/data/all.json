@@ -113,6 +113,21 @@
     ]
   },
   {
+    "id": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+    "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+    "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
+    "aiSummary": "Python 3.12.14, 3.11.16, 3.10.21 버전이 보안 업데이트를 위해 새롭게 출시되었습니다. 이번 업데이트는 기존 버전들의 보안 취약점을 해결하기 위한 목적으로 진행되었습니다. 사용자는 각 운영체제와 환경에 맞춰 해당 버전으로 업그레이드할 것을 권장합니다.",
+    "url": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Thomas Wouters",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T08:47:18.622Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/08/12/java-mcp-migration/",
     "title": "Evolving a Java MCP Server During MCP Specification Upgrades",
     "summary": "As a framework, library, or protocol gains adoption, edge cases reveal ambiguities, interoperability gaps, and implementation challenges that earlier versions did not anticipate. The Model Context Pro",
