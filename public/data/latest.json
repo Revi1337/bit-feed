@@ -1,5 +1,119 @@
 [
   {
+    "id": "https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
+    "title": "Packer v1.16.0 brings verifiable provenance to machine images",
+    "summary": "Today we're announcing the release of Packer v1.16.0, which introduces native support for generating, signing, and verifying SLSA provenance attestations for every image Packer builds. Machine images ",
+    "aiSummary": "Packer v1.16.0이 출시되며 머신 이미지에 대한 검증 가능한 출처 정보를 생성, 서명 및 확인할 수 있는 기본 지원이 추가되었습니다. 이번 업데이트의 핵심은 SLSA 프레임워크를 기반으로 이미지 빌드 과정의 무결성을 보장하는 것으로, 별도의 외부 도구 없이도 암호화된 출처 정보를 기록할 수 있습니다.\n\n새롭게 도입된 provenance 포스트 프로세서를 사용하면 빌드된 이미지의 출처, 사용된 Git 커밋, 빌드 타임스탬프 등의 정보를 담은 서명된 JSON 파일을 생성할 수 있습니다. 서명 방식은 none, key, kms, keyless 모드 중 운영 환경에 맞게 선택할 수 있으며, 특히 GitHub Actions와 같은 CI 환경에서 유용한 keyless 방식을 지원하여 정적 자격 증명 관리의 부담을 줄였습니다.\n\npacker verify-attestation 명령어를 활용하면 배포 파이프라인 단계에서 이미지의 유효성을 검증할 수 있습니다. 이를 통해 허가되지 않은 빌드 이미지를 차단하거나 보안 사고 발생 시 대응력을 높이고, SOC 2나 FedRAMP와 같은 규제 준수 및 감사 증빙 자료로 활용할 수 있습니다.\n\n이 외에도 HCL2 템플릿 작성을 간소화하는 여러 기능이 함께 포함되었습니다. provisioner 설정에 continue_on_error를 추가하여 특정 작업 실패 시에도 빌드를 중단하지 않고 계속 진행할 수 있게 되었으며, 객체 타입 변수에서 optional 설정을 지원하여 템플릿의 유연성을 높였습니다. 또한 rfc3339_parse 및 unix_timestamp_parse 함수를 도입하여 빌드 시점의 타임스탬프 처리가 더욱 간편해졌습니다. 이번 v1.16.0의 신규 기능들은 선택적으로 적용 가능하며 기존 템플릿과의 하위 호환성을 보장합니다.",
+    "url": "https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Tanmay Jain",
+    "pubDate": "2026-08-13T16:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
+    "title": "Omni experts share what excites them most about the model.",
+    "summary": "We interviewed some of the experts behind Gemini Omni to hear what excites them most about the model.",
+    "aiSummary": "Gemini Omni를 개발한 전문가들이 직접 해당 모델의 핵심적인 강점과 기대되는 부분에 대해 인터뷰를 진행하였습니다. 연구진은 Gemini Omni가 보유한 고도의 멀티모달 처리 능력과 이를 통해 구현되는 혁신적인 사용자 경험에 큰 기대감을 나타냈습니다. 전문가들은 모델이 실시간으로 다양한 형태의 데이터를 통합하고 이해하는 방식이 향후 AI 기술의 활용 범위를 크게 확장할 것이라고 강조하였습니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Lindsey Lanquist"
+      ],
+      "title": [
+        "Contributor"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-13T13:30:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=730368",
+    "title": "Hybrid and Local AI course at DeepLearning.AI",
+    "summary": "Open weight models are having a moment, driven by control, choice, and cost. Hybrid and local AI are now getting serious looks, so JetBrains teamed up with DeepLearning.AI on a free AI Coding Workflow",
+    "aiSummary": "JetBrains와 DeepLearning.AI가 협력하여 무료 온라인 강의인 AI Coding Workflows: Hybrid to Local을 공개했습니다.\n\n최근 제어 권한과 선택권, 비용 효율성을 중시하는 오픈 웨이트 모델에 대한 관심이 높아짐에 따라 해당 강의는 하이브리드 및 로컬 AI 환경 구축에 필요한 핵심 개념과 다양한 선택지를 다룹니다.\n\n수강생들은 PyCharm 및 해당 플랫폼이 제공하는 AI 기능을 활용하여 로컬 환경에서 효율적으로 코딩 워크플로우를 구성하는 방법을 실습할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/pycharm/2026/08/hybrid-and-local-ai-course-at-deeplearning-ai/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Paul Everitt",
+    "pubDate": "2026-08-13T10:01:32.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
+    "title": "PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!\n",
+    "summary": "The PostgreSQL Global Development Group has released an update to all\nsupported versions of PostgreSQL, including 18.6, 17.11, 16.15, 15.19, and 14.24,\nas well as the third beta release of PostgreSQL ",
+    "aiSummary": "PostgreSQL Global Development Group은 PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 버전의 업데이트와 PostgreSQL 19 Beta 3를 공개하였습니다. 이번 업데이트를 통해 28개의 보안 취약점과 110개 이상의 버그가 수정되었습니다.\n\n보안 업데이트에서는 임의 코드 실행이나 버퍼 오버플로우를 유발할 수 있는 다수의 CVE 항목들이 조치되었습니다. 특히 Parallel GIN index, btree_gist, ltree와 관련된 기능 수정 사항이 포함되어 있으며, 업데이트 이후 일부 인덱스의 재작성(REINDEX)이나 reltuples 값 확인 등의 추가 작업이 필요할 수 있습니다. \n\nPostgreSQL 14 버전은 2026년 11월 12일 부로 지원이 종료될 예정이므로, 해당 버전을 운영 중인 사용자는 상위 버전으로의 업그레이드를 계획해야 합니다.\n\nPostgreSQL 19 Beta 3는 주요 기능들에 대한 검증을 위해 공개되었으며, 운영 환경보다는 테스트 환경에서의 사용이 권장됩니다. 이번 베타 3에는 GROUP BY ALL 기능의 되돌리기, FOR PORTION OF 구문 수정, 논리적 복제 시퀀스 동기화 개선 등이 포함되었습니다. \n\n모든 업데이트는 누적 방식이므로 별도의 데이터 덤프나 pg_upgrade 없이 바이너리 교체만으로 적용이 가능합니다. 상세한 변경 사항과 주의 사항은 공식 릴리스 노트를 반드시 확인하시기 바랍니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/defence-cyber-certification",
+    "title": "Elastic achieves Defence Cyber Certification Level 0 in the UK",
+    "summary": "Elastic has achieved Defence Cyber Certification (DCC) Level 0 — the UK Ministry of Defence's baseline cyber assurance standard for the defence supply chain. Here's what it means and why it matters.",
+    "aiSummary": "Elastic이 영국 국방부의 방산 공급망을 위한 기본 사이버 보안 표준인 Defence Cyber Certification Level 0을 획득했습니다. 이번 인증 획득은 Elastic의 보안 체계가 영국 국방 분야에서 요구하는 엄격한 사이버 보안 기준을 충족했음을 의미합니다. 이를 통해 Elastic은 영국 국방 관련 공급망 내에서 신뢰할 수 있는 기술 파트너로서의 입지를 더욱 공고히 하게 되었습니다.",
+    "url": "https://www.elastic.co/blog/defence-cyber-certification",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Christine Bocci,Ryan Kam",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "deepseek-2026-08-13",
+    "title": "DeepSeek Update: DeepSeek-V4-Pro Update",
+    "summary": "The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version.",
+    "aiSummary": "DeepSeek-V4-Pro의 GA 버전이 공식적으로 출시되어 현재 앱, 웹, 그리고 API를 통해 사용할 수 있습니다. 기존 API 호출 방식은 그대로 유지되며, 모델 이름을 deepseek-v4-pro로 설정하기만 하면 최신 버전을 바로 이용할 수 있습니다.",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-08-13",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
     "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
     "summary": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…\nThe post Agent Plugins 1",
@@ -1398,252 +1512,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/privacy-first-medical-ai-with-medperf-and-google-cloud/",
-    "title": "Advancing brain tumor research with privacy-first AI",
-    "summary": "The intersection of medicine and AI has led to remarkable innovations. However, developers now face the thorny challenge of building robust medical AI tools that have been tested and evaluated on dive",
-    "aiSummary": "Google Cloud와 MLCommons는 의료 AI 모델의 성능을 검증하는 과정에서 환자의 개인정보를 보호하기 위한 협력을 진행하고 있습니다. 이 협력의 핵심은 Confidential Computing 기술을 활용해 하드웨어 수준에서 격리된 신뢰 실행 환경인 TEE 내에서 모델을 평가하는 것입니다.\n\nMedPerf 플랫폼은 Google Cloud의 Confidential Space를 통해 병원이나 연구 기관, 그리고 Google 측에서도 모델 코드나 환자 데이터에 접근할 수 없도록 보안 환경을 구축합니다. 특히 연산 집약적인 의료 AI 벤치마킹을 위해 NVIDIA H100 GPU가 탑재된 Google Cloud A3 머신 시리즈를 도입했으며 이를 통해 GPU 가속 환경에서도 데이터와 모델 가중치를 안전하게 보호합니다.\n\n이 기술은 현재 Federated Tumor Segmentation initiative를 통해 뇌종양 연구에 실질적으로 적용되고 있습니다. 희귀 질환인 뇌종양의 경우 단일 병원의 데이터만으로는 모델의 정밀도를 확보하기 어려운데 본 기술을 활용하면 다양한 의료 기관의 분산된 데이터를 안전하게 결합하여 모델의 성능 격차를 식별하고 실제 임상 환경에서의 신뢰도를 검증할 수 있습니다.\n\n결과적으로 이번 협업은 의료 AI 개발 과정에서 프라이버시를 우선시하는 설계를 도입함으로써 보안과 성능을 모두 확보하는 모델 구축의 표준을 제시하고 있습니다. 앞으로도 의료 분야에서 데이터 공유와 모델 평가가 더욱 안전하고 원활하게 이루어질 수 있는 기반이 마련될 것으로 기대합니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/privacy-first-medical-ai-with-medperf-and-google-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Rene Kolga"
-      ],
-      "title": [
-        "Sr. Cloud Security Product Manager, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-06T16:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/",
-    "title": "Your agentic summer: No-cost lessons from Google experts to build and scale agents",
-    "summary": "I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? \nThe answer isn't theoretical — it's hands-on. Whether it’s designing ",
-    "aiSummary": "Google은 개발자와 IT 전문가들이 AI 에이전트를 실무 환경에 배포하고 확장할 수 있도록 지원하는 GEAR 프로그램을 무료로 공개합니다. 이번 프로그램은 이론을 넘어 실제 비즈니스에 적용 가능한 자율형 에이전트 구축 역량을 강화하는 데 초점을 맞추고 있습니다.\n\n교육 과정은 총 12단계로 구성되어 있으며 AI 에이전트의 기초부터 의사결정 모델, 기업용 사례 분석, 인간 중심의 AI 설계 전략을 다룹니다. 또한 Gemini Enterprise 환경에서 다중 에이전트 워크플로우를 관리하고 ADK를 활용하여 고도화된 에이전트를 엔지니어링하는 실무 기술도 포함합니다. 특히 MCP를 통한 외부 시스템 연동, 에이전트의 메모리 및 상태 관리, 그리고 AgentOps를 통한 보안 및 모니터링 구축과 같은 심화 기술까지 폭넓게 학습할 수 있습니다.\n\n학습자는 과정 수료 후 총 3개의 skill badge를 획득하여 전문성을 입증할 수 있으며 Gemini 3.5와 Google Cloud 기반의 All Things Agentic Hackathon에도 참여 가능합니다. 해당 해커톤은 2026년 8월 3일부터 31일까지 진행되며 총 18만 달러 규모의 상금과 크레딧이 제공됩니다. Google은 고성능 다중 에이전트 시스템 구축과 기업용 에이전트의 보안 및 거버넌스를 다루는 최신 학습 경로를 추가하여 개발자들이 실질적인 AI 경쟁력을 갖추도록 돕습니다.",
-    "url": "https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Gary Eimerman"
-      ],
-      "title": [
-        "Managing Director, Google Cloud Learning"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-06T16:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/hybrid-cloud/state-of-ai-infrastructure-report-on-hybrid-cloud-and-gdc/",
-    "title": "Digital sovereignty in the age of AI: You don’t have to choose between control and innovation",
-    "summary": "For enterprises and governments with strict compliance and sovereignty requirements, keeping sensitive data on-premises often means missing out on the latest AI. These organizations are managing three",
-    "aiSummary": "기업과 정부 기관은 데이터 주권, 규제 준수, 경제적 자립, 지정학적 위험 등 민감한 데이터 관리에 따른 심각한 고민을 안고 있습니다. 많은 IT 리더들이 데이터 거주지와 로컬 보안 규정을 우선순위로 두고 있으나, 기존의 온프레미스 환경은 최신 AI 기술을 도입하는 데 제약이 따랐습니다.\n\n이러한 문제를 해결하기 위해 현재 52% 이상의 조직이 퍼블릭 클라우드의 강력한 연산 능력과 로컬 환경의 보안성을 결합한 하이브리드 클라우드 전략을 채택하고 있습니다. \n\nGoogle Cloud는 이를 지원하기 위해 Google Distributed Cloud(GDC)를 제공합니다. GDC는 인터넷 연결이 완전히 차단된 에어갭 환경과 기존 하드웨어에서 운영 가능한 커넥티드 환경 등 두 가지 모델을 통해 기업이 자체 데이터 센터 내에서 Gemini나 오픈 모델을 활용할 수 있도록 지원합니다. 결과적으로 기업들은 데이터를 외부로 반출하지 않고도 최신 AI 인프라와 에이전트를 구축하여 데이터 통제권과 혁신이라는 두 가지 목표를 동시에 달성할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/hybrid-cloud/state-of-ai-infrastructure-report-on-hybrid-cloud-and-gdc/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Ankur Mehrotra"
-      ],
-      "title": [
-        "VP/GM, Distributed & Sovereign Cloud, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-06T16:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
-    "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
-    "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and",
-    "aiSummary": "현대 데이터 환경에서 AI 에이전트 기반 워크로드가 급증함에 따라 기존의 수동적인 쿼리 성능 최적화 방식은 한계에 직면했습니다. 이에 BigQuery는 사람과 에이전트 모두에게 최적의 가격 대비 성능을 제공하기 위해 자율 쿼리 처리 능력을 강화하고 있습니다. 2025년 기준 BigQuery는 최대 35퍼센트의 성능 향상과 40퍼센트의 비용 절감을 달성했습니다.\n\n핵심 혁신 기술 중 하나인 History-Based Optimizations는 과거 쿼리 실행 기록을 학습하여 최적의 실행 계획을 자동으로 적용하는 시스템입니다. 이는 별도의 코드 수정 없이도 작동하며, 성능 향상이 확실한 경우에만 적용하는 안전 장치를 갖추고 있어 회귀 현상을 방지합니다. 또한 잘못된 최적화 판단 시 즉각적으로 이를 철회하는 자가 교정 기능을 포함하고 있습니다.\n\n실행 계층에서는 BigQuery Advanced Runtime이 도입되어 수동 개입 없이 물리적 실행 경로를 최적화합니다. 향상된 벡터화 기술은 SIMD 명령어를 활용하여 복잡한 계산을 가속화하며, 짧은 쿼리 최적화 기능을 통해 대규모 병렬 처리 환경 내에서도 높은 동시성을 요구하는 작업의 지연 시간을 획기적으로 줄였습니다. 이러한 성능 개선은 Apache Iceberg와 같은 오픈 테이블 형식을 사용할 때도 동일하게 적용됩니다.\n\n추가로 도입된 Fluid Scaling은 초 단위의 컴퓨팅 자원 결제를 지원하여 실제 사용한 만큼만 비용을 지불하는 효율적인 오토스케일링을 구현했습니다. 이를 통해 사용자들은 인프라 관리나 쿼리 튜닝에 자원을 낭비하는 대신, 고도화된 AI 에이전트 기반 애플리케이션 개발과 같은 비즈니스 목표에 집중할 수 있게 됩니다. BigQuery는 데이터 웨어하우스를 넘어 Agentic AI 시대를 뒷받침하는 핵심 자율 처리 엔진으로 진화하고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Joe Yong"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-06T16:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-    "summary": "August 6, 2026 ScienceWeatherNext teamWeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.Predicting how dangerous cyclones develop",
-    "aiSummary": "Google DeepMind와 Google Research가 공동 개발한 AI 모델인 WeatherNext가 사이클론 예측 분야에서 획기적인 성능 향상을 달성했습니다. 본 모델은 사이클론의 이동 경로, 강도, 풍속 구조를 정밀하게 예측하며, 기존 모델 대비 약 24시간 더 빠른 예보 시간을 제공합니다. 이는 지난 20년간의 기상학적 발전 속도를 고려할 때 약 10년 치의 기술 진보에 해당하는 성과입니다.\n\nWeatherNext는 전 지구적 기상 패턴을 분석하는 모델과 국지적인 열역학적 물리 과정을 통합하여 단일 모델로서 예측 정확도를 극대화했습니다. 특히 FGNs(Functional Generative Networks)를 활용하여 1,000개의 기상 시나리오를 생성하고, 이를 통해 급격한 태풍 발달과 같은 희귀하고 위험한 상황까지 효과적으로 예측합니다. 주목할 점은 기존의 초고해상도 모델과 달리 훨씬 낮은 해상도 데이터만으로도 고성능을 구현했다는 것이며, 이를 통해 TPU 환경에서 1분 이내에 15일 치 예보를 산출할 수 있습니다.\n\n이미 2025년 허리케인 시즌 당시 NHC와 협력하여 허리케인 Melissa의 상륙을 정확히 예측하며 실질적인 안전 확보에 기여한 바 있습니다. Google은 기술의 투명성과 기상학 연구 발전을 위해 WeatherNext 2, WeatherNext 2-mini, WeatherNext Cyclones의 코드와 모델 가중치를 GitHub를 통해 오픈 소스로 공개했습니다. 또한 Weather Lab을 통해 전 세계 사용자가 전 지구적 기상 예보와 사이클론 경로를 시각적으로 확인할 수 있도록 지원하며, 향후 전 세계 기상 기관 및 연구자들과 함께 더욱 회복력 있는 기후 대응 생태계를 구축해 나갈 계획입니다.",
-    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-08-06T15:06:15.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/aug/06/call-for-applicants-for-a-django-executive-directo/",
-    "title": "Call for applicants for a Django Executive Director",
-    "summary": "The Django Software Foundation is announcing a call for an Executive Director. The Executive Director is the operational leader of the Django Software Foundation, a paid position reporting to the Boar",
-    "aiSummary": "Django Software Foundation이 재단의 운영을 총괄하고 전략적 방향을 제시할 초대 Executive Director를 공개 채용합니다. 해당 직책은 이사회와 직원, 커뮤니티 및 스폰서 사이의 가교 역할을 수행하며, 연간 모금액을 현재 30만 달러에서 50만 달러 규모로 성장시키는 등 재단의 재정적 기반을 다지는 핵심 임무를 맡게 됩니다.\n\n주요 업무는 기금 모금 및 파트너십 개발, 비영리 재단 운영 관리, 법률 및 상표권 관련 대응, 커뮤니티 아웃리치, 그리고 Django Fellows와 같은 조직 내 유급 유지보수 인력 관리 등을 포함합니다. 비영리 단체 운영 경험과 기금 모금 역량이 필수적이며, 기술적 지식이 필수는 아니지만 오픈소스 생태계에 대한 이해도가 있으면 우대합니다.\n\n채용 형태는 미국 기반의 원격 근무이며, 근무 시간은 후보자의 상황에 따라 파트타임 혹은 풀타임으로 협의 가능합니다. 급여는 기본급 9만에서 12만 달러 수준에 모금 목표 달성 시 최대 6만 달러의 보너스가 추가로 지급됩니다. 지원은 2026년 9월 14일까지 이메일을 통해 가능하며, 이력서와 함께 재단 운영에 대한 본인의 비전을 담은 문서를 제출해야 합니다. 최종 합격자는 2026년 11월 1일경 업무를 시작할 예정입니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/aug/06/call-for-applicants-for-a-django-executive-directo/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Abigail Afi Gbadago, Jeff Triplett, and the DSF Board",
-    "pubDate": "2026-08-06T14:45:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
-    "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
-    "summary": "Written by: Tyler McLellan, Austin Larsen\n\n\nIntroduction\nGoogle Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the",
-    "aiSummary": "Google Threat Intelligence Group은 UNC6671이라는 위협 행위자가 BlackFile이라는 브랜드를 은퇴시킨 이후에도 Redact, Pink, Helix, Falcon이라는 다수의 브랜드를 앞세워 데이터 탈취와 금품 갈취를 지속하고 있음을 확인했습니다. 이들은 기업 임직원을 대상으로 개인 휴대전화를 통해 IT 기술 지원팀을 사칭하는 보이스피싱을 시도하며, AiTM 인프라를 활용해 로그인 정보와 MFA 토큰을 가로채는 방식을 사용합니다.\n\n조사 결과, 서로 다른 브랜드로 보이는 이들 조직이 사실상 동일한 인프라와 피싱 템플릿을 공유하고 있음이 밝혀졌습니다. UNC6671은 타겟 조직의 이름이 포함된 서브도메인을 생성하여 더욱 정교한 피싱 환경을 구축하며, 최근에는 기술 및 접객 산업을 넘어 금융, 사모펀드, 법률 서비스 분야와 같이 기밀 데이터 가치가 높은 조직들을 집중적으로 공략하고 있습니다. 공격의 속도 또한 이전보다 빨라져 평균 1.6일마다 새로운 도메인을 생성하는 등 활발한 움직임을 보이고 있습니다.\n\n공격자들은 침투 후 보안 경고나 암호 재설정 알림을 삭제하여 감시를 회피하고 있으며, 피해 기업과의 협상을 통해 상당한 금액의 비트코인을 갈취하고 있습니다. 이와 같은 위협을 방어하기 위해 FIDO2 기반의 피싱 방지용 MFA 도입, 모든 SaaS 및 클라우드 애플리케이션의 SSO 통합, 세션 제어 강화, 회사 관리 장치 사용 의무화, 그리고 IDP 로그 모니터링을 통한 이상 징후 조기 탐지 등이 필수적입니다. 특히 인증 과정에서 발생한 비정상적인 실패 패턴이나 스크립트 라이브러리를 이용한 대량 데이터 접근 시도를 면밀히 감시하는 것이 중요합니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-06T14:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "/blog/making-v0-navigations-instant",
-    "title": "Making navigations instant in v0",
-    "summary": "The case study behind Instant Navigations in Next.js 16.3, and how we made v0's navigations instant using tests and a coding agent.",
-    "aiSummary": "Next.js 16.3 버전에서 도입된 Instant Navigations의 사례 연구를 통해 v0 서비스의 페이지 이동 속도를 즉각적인 수준으로 개선한 과정을 설명합니다. \n\nv0 개발팀은 사용자 경험을 최적화하기 위해 자동화된 테스트 환경을 구축하고 코딩 에이전트를 적극적으로 활용했습니다. 이를 통해 복잡한 웹 애플리케이션 내비게이션 환경에서 지연 시간을 최소화하고 마치 즉각적인 응답이 이루어지는 듯한 사용자 인터페이스 환경을 구현해 냈습니다. \n\n이러한 기술적 시도는 코딩 에이전트와 테스트 중심 개발이 어떻게 실제 서비스의 성능 최적화에 기여할 수 있는지를 잘 보여주는 사례입니다.",
-    "url": "https://nextjs.org/blog/making-v0-navigations-instant",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": {
-      "name": [
-        "Jude Gao"
-      ]
-    },
-    "pubDate": "2026-08-06T13:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=webstorm&p=727949",
-    "title": "Figma Connect for WebStorm: Stage One of a Better Design-to-Code Experience",
-    "summary": "Where time actually goes in design-to-code Every design implementation starts the same way: find the Figma tab, find the right frame, screenshot it, paste it somewhere, switch back to the terminal. By",
-    "aiSummary": "디자인에서 코드로의 전환 과정에서 발생하는 반복적이고 소모적인 작업을 줄이기 위해 Figma Connect for WebStorm이 출시되었습니다. 기존에는 개발자가 Figma 탭을 확인하고 스크린샷을 찍거나 정보를 복사하는 등 불필요한 과정에 많은 시간을 할애해야 했습니다.\n\n이번에 공개된 도구는 개발자가 사용하는 IDE인 WebStorm 내에서 직접 Figma 디자인 요소를 확인하고 작업할 수 있도록 지원합니다. 이를 통해 컨텍스트 전환을 최소화하고 디자인 구현 과정의 생산성을 높이는 것을 목표로 합니다.\n\n이번 단계는 디자인과 개발 사이의 간극을 좁히기 위한 첫 번째 시도이며 향후 더 긴밀한 통합 경험을 제공할 예정입니다. 개발자는 이제 도구 간의 이동 없이 효율적으로 코드를 작성하고 디자인 의도를 정확하게 구현할 수 있게 됩니다.",
-    "url": "https://blog.jetbrains.com/webstorm/2026/08/figma-connect-webstorm/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Valeriya Masyachenko",
-    "pubDate": "2026-08-06T10:43:04.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-    "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-    "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-    "aiSummary": "ChatGPT는 정확도와 일관성을 대폭 개선한 GPT-5.6 Sol 모델을 새롭게 선보였습니다. 이와 함께 무료 사용자들에게도 GPT-5.6 Luna 모델에 대한 접근 권한을 확대하여 누구나 제한 없이 일상적인 대화를 나눌 수 있도록 지원합니다.",
-    "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-08-06T10:00:00.000Z",
-    "fetchedAt": "2026-08-07T01:44:56.709Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
     ]
   }
 ]

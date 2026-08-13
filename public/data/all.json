@@ -1,5 +1,119 @@
 [
   {
+    "id": "https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
+    "title": "Packer v1.16.0 brings verifiable provenance to machine images",
+    "summary": "Today we're announcing the release of Packer v1.16.0, which introduces native support for generating, signing, and verifying SLSA provenance attestations for every image Packer builds. Machine images ",
+    "aiSummary": "Packer v1.16.0이 출시되며 머신 이미지에 대한 검증 가능한 출처 정보를 생성, 서명 및 확인할 수 있는 기본 지원이 추가되었습니다. 이번 업데이트의 핵심은 SLSA 프레임워크를 기반으로 이미지 빌드 과정의 무결성을 보장하는 것으로, 별도의 외부 도구 없이도 암호화된 출처 정보를 기록할 수 있습니다.\n\n새롭게 도입된 provenance 포스트 프로세서를 사용하면 빌드된 이미지의 출처, 사용된 Git 커밋, 빌드 타임스탬프 등의 정보를 담은 서명된 JSON 파일을 생성할 수 있습니다. 서명 방식은 none, key, kms, keyless 모드 중 운영 환경에 맞게 선택할 수 있으며, 특히 GitHub Actions와 같은 CI 환경에서 유용한 keyless 방식을 지원하여 정적 자격 증명 관리의 부담을 줄였습니다.\n\npacker verify-attestation 명령어를 활용하면 배포 파이프라인 단계에서 이미지의 유효성을 검증할 수 있습니다. 이를 통해 허가되지 않은 빌드 이미지를 차단하거나 보안 사고 발생 시 대응력을 높이고, SOC 2나 FedRAMP와 같은 규제 준수 및 감사 증빙 자료로 활용할 수 있습니다.\n\n이 외에도 HCL2 템플릿 작성을 간소화하는 여러 기능이 함께 포함되었습니다. provisioner 설정에 continue_on_error를 추가하여 특정 작업 실패 시에도 빌드를 중단하지 않고 계속 진행할 수 있게 되었으며, 객체 타입 변수에서 optional 설정을 지원하여 템플릿의 유연성을 높였습니다. 또한 rfc3339_parse 및 unix_timestamp_parse 함수를 도입하여 빌드 시점의 타임스탬프 처리가 더욱 간편해졌습니다. 이번 v1.16.0의 신규 기능들은 선택적으로 적용 가능하며 기존 템플릿과의 하위 호환성을 보장합니다.",
+    "url": "https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Tanmay Jain",
+    "pubDate": "2026-08-13T16:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
+    "title": "Omni experts share what excites them most about the model.",
+    "summary": "We interviewed some of the experts behind Gemini Omni to hear what excites them most about the model.",
+    "aiSummary": "Gemini Omni를 개발한 전문가들이 직접 해당 모델의 핵심적인 강점과 기대되는 부분에 대해 인터뷰를 진행하였습니다. 연구진은 Gemini Omni가 보유한 고도의 멀티모달 처리 능력과 이를 통해 구현되는 혁신적인 사용자 경험에 큰 기대감을 나타냈습니다. 전문가들은 모델이 실시간으로 다양한 형태의 데이터를 통합하고 이해하는 방식이 향후 AI 기술의 활용 범위를 크게 확장할 것이라고 강조하였습니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Lindsey Lanquist"
+      ],
+      "title": [
+        "Contributor"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-13T13:30:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=730368",
+    "title": "Hybrid and Local AI course at DeepLearning.AI",
+    "summary": "Open weight models are having a moment, driven by control, choice, and cost. Hybrid and local AI are now getting serious looks, so JetBrains teamed up with DeepLearning.AI on a free AI Coding Workflow",
+    "aiSummary": "JetBrains와 DeepLearning.AI가 협력하여 무료 온라인 강의인 AI Coding Workflows: Hybrid to Local을 공개했습니다.\n\n최근 제어 권한과 선택권, 비용 효율성을 중시하는 오픈 웨이트 모델에 대한 관심이 높아짐에 따라 해당 강의는 하이브리드 및 로컬 AI 환경 구축에 필요한 핵심 개념과 다양한 선택지를 다룹니다.\n\n수강생들은 PyCharm 및 해당 플랫폼이 제공하는 AI 기능을 활용하여 로컬 환경에서 효율적으로 코딩 워크플로우를 구성하는 방법을 실습할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/pycharm/2026/08/hybrid-and-local-ai-course-at-deeplearning-ai/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Paul Everitt",
+    "pubDate": "2026-08-13T10:01:32.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
+    "title": "PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!\n",
+    "summary": "The PostgreSQL Global Development Group has released an update to all\nsupported versions of PostgreSQL, including 18.6, 17.11, 16.15, 15.19, and 14.24,\nas well as the third beta release of PostgreSQL ",
+    "aiSummary": "PostgreSQL Global Development Group은 PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 버전의 업데이트와 PostgreSQL 19 Beta 3를 공개하였습니다. 이번 업데이트를 통해 28개의 보안 취약점과 110개 이상의 버그가 수정되었습니다.\n\n보안 업데이트에서는 임의 코드 실행이나 버퍼 오버플로우를 유발할 수 있는 다수의 CVE 항목들이 조치되었습니다. 특히 Parallel GIN index, btree_gist, ltree와 관련된 기능 수정 사항이 포함되어 있으며, 업데이트 이후 일부 인덱스의 재작성(REINDEX)이나 reltuples 값 확인 등의 추가 작업이 필요할 수 있습니다. \n\nPostgreSQL 14 버전은 2026년 11월 12일 부로 지원이 종료될 예정이므로, 해당 버전을 운영 중인 사용자는 상위 버전으로의 업그레이드를 계획해야 합니다.\n\nPostgreSQL 19 Beta 3는 주요 기능들에 대한 검증을 위해 공개되었으며, 운영 환경보다는 테스트 환경에서의 사용이 권장됩니다. 이번 베타 3에는 GROUP BY ALL 기능의 되돌리기, FOR PORTION OF 구문 수정, 논리적 복제 시퀀스 동기화 개선 등이 포함되었습니다. \n\n모든 업데이트는 누적 방식이므로 별도의 데이터 덤프나 pg_upgrade 없이 바이너리 교체만으로 적용이 가능합니다. 상세한 변경 사항과 주의 사항은 공식 릴리스 노트를 반드시 확인하시기 바랍니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/defence-cyber-certification",
+    "title": "Elastic achieves Defence Cyber Certification Level 0 in the UK",
+    "summary": "Elastic has achieved Defence Cyber Certification (DCC) Level 0 — the UK Ministry of Defence's baseline cyber assurance standard for the defence supply chain. Here's what it means and why it matters.",
+    "aiSummary": "Elastic이 영국 국방부의 방산 공급망을 위한 기본 사이버 보안 표준인 Defence Cyber Certification Level 0을 획득했습니다. 이번 인증 획득은 Elastic의 보안 체계가 영국 국방 분야에서 요구하는 엄격한 사이버 보안 기준을 충족했음을 의미합니다. 이를 통해 Elastic은 영국 국방 관련 공급망 내에서 신뢰할 수 있는 기술 파트너로서의 입지를 더욱 공고히 하게 되었습니다.",
+    "url": "https://www.elastic.co/blog/defence-cyber-certification",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Christine Bocci,Ryan Kam",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "deepseek-2026-08-13",
+    "title": "DeepSeek Update: DeepSeek-V4-Pro Update",
+    "summary": "The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version.",
+    "aiSummary": "DeepSeek-V4-Pro의 GA 버전이 공식적으로 출시되어 현재 앱, 웹, 그리고 API를 통해 사용할 수 있습니다. 기존 API 호출 방식은 그대로 유지되며, 모델 이름을 deepseek-v4-pro로 설정하기만 하면 최신 버전을 바로 이용할 수 있습니다.",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-08-13",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-13T16:14:04.385Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
     "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
     "summary": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…\nThe post Agent Plugins 1",
