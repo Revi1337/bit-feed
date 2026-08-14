@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.13",
+    "title": "1.1.13",
+    "summary": "Added support for GEMINI_API_KEY, so the CLI can run against the Gemini API directly without signing in. Set modelProvider: \"gemini\" in settings.json, export GEMINI_API_KEY, and point GOOGLE_GEMINI_BA",
+    "aiSummary": "버전 1.1.13 업데이트를 통해 Gemini API 키를 직접 설정하여 별도의 로그인 없이 CLI 환경에서 Gemini API를 사용할 수 있는 기능이 추가되었습니다. 설정 파일에서 모델 제공자를 gemini로 지정하고 환경 변수를 통해 키를 관리할 수 있습니다.\n\n검색 기능과 관련하여 ripgrep 실행이 제한될 경우 로컬 검색으로 전환하는 기능을 보강하고, 임베디드 ripgrep 바이너리 저장 경로를 사용자 캐시 디렉토리로 변경하여 보안과 안정성을 높였습니다. 또한 아티팩트 목록의 스크롤 성능을 개선하기 위해 파일 미리보기 라인 수를 캐싱하고, 대규모 대화 로딩 시 단계 헤더를 배치 단위로 불러오도록 최적화했습니다.\n\n커스텀 에이전트와 관련해서는 manage_task 기능을 통해 에이전트가 자신의 백그라운드 작업을 관리할 수 있도록 지원하며, 검색 도구 사용 시 쿼리 실시간 표시와 같은 사용자 경험 개선 사항이 포함되었습니다.\n\n주요 버그 수정으로는 Cloud Shell 환경의 시작 배너 표시 오류, /resume 픽업 내 대화 목록 사라짐 문제, 긴 대화의 기록이 유실되는 트레이젝토리 절삭 오류 등을 해결했습니다. 또한 아티팩트 목록의 CJK 및 이모지 문자 렌더링 오류를 개선하고, subagent 정의 시 경로 보안을 강화하는 등 전반적인 시스템 안정성을 높였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.13",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-14T02:26:19.000Z",
+    "fetchedAt": "2026-08-14T08:40:30.528Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/14/java-exhaustiveness-guide/",
+    "title": "Preparing for Change: Safe Switching over Sealed APIs",
+    "summary": "An exhaustive switch on a sealed type covers the permitted subtypes the compiler knows about; it does not cover future additions, which can cause MatchException at run time. API authors should documen",
+    "aiSummary": "Sealed type에 대한 exhaustive switch는 컴파일러가 인식하는 허용된 서브타입만을 다루므로 추후 추가되는 타입에 대해서는 런타임에 MatchException이 발생할 가능성이 있습니다. 따라서 API 작성자는 Sealed type의 향후 확장 방향을 문서화하여 클라이언트가 미래의 변경 사항을 적절히 처리할 수 있도록 안내해야 합니다. 일반적으로 Sealed type을 다룰 때 default 구문을 사용하는 것은 권장되지 않으며, 변경 가능성을 고려한 전략적인 접근이 필요합니다.",
+    "url": "https://inside.java/2026/08/14/java-exhaustiveness-guide/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Angelos Bimpoudis",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T08:40:30.528Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
     "title": "License data quality improvements",
     "summary": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses",
@@ -9842,6 +9874,23 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-in-rust",
+    "title": "Rewriting Bun in Rust",
+    "summary": "Disclosure: Bun was acquired by Anthropic in December 2025. I and others on the Bun team work at Anthropic. I used a pre-release version of Claude Fable 5 for much of the Rust rewrite.Bun started as a",
+    "aiSummary": "Bun이 개발 과정에서 겪은 안정성 문제를 해결하기 위해 기존 Zig 기반의 코드를 Rust로 재작성하고 있습니다. 2025년 12월 Anthropic에 인수된 Bun 팀은 개발 생산성을 높이기 위해 Claude Fable 5 모델을 활용하여 이 방대한 작업을 진행 중입니다.\n\n초기 Bun은 Zig를 사용하여 JavaScript, TypeScript, CSS 트랜스파일러, 번들러, npm 호환 패키지 관리자 등 매우 광범위한 기능을 1년 만에 구현했습니다. Zig는 Bun의 빠른 성장을 가능하게 한 핵심 동력이었으며, 현재 Bun은 월간 2,200만 회 이상의 다운로드를 기록하고 Claude Code, Vercel 등 주요 서비스에서 널리 사용되고 있습니다.\n\n그러나 방대한 범위의 기능을 단일 프로젝트에서 유지 관리하는 과정에서 심각한 기술적 부채와 안정성 문제가 발생했습니다. 특히 node:zlib, node:http2, UDPSocket 등의 모듈에서 heap-use-after-free, 메모리 누수, 버퍼 오버플로우와 같은 복잡한 메모리 오류들이 지속적으로 발견되었습니다. 이러한 저수준 메모리 관리의 난점을 해소하고 시스템의 안정성을 확보하는 것이 이번 Rust 전환의 핵심 목적입니다.",
+    "url": "https://bun.sh/blog/bun-in-rust",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-07-08T16:00:00.000Z",
+    "fetchedAt": "2026-08-14T08:40:30.528Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
     ]
   },
   {

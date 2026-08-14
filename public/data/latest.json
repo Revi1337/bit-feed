@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.13",
+    "title": "1.1.13",
+    "summary": "Added support for GEMINI_API_KEY, so the CLI can run against the Gemini API directly without signing in. Set modelProvider: \"gemini\" in settings.json, export GEMINI_API_KEY, and point GOOGLE_GEMINI_BA",
+    "aiSummary": "버전 1.1.13 업데이트를 통해 Gemini API 키를 직접 설정하여 별도의 로그인 없이 CLI 환경에서 Gemini API를 사용할 수 있는 기능이 추가되었습니다. 설정 파일에서 모델 제공자를 gemini로 지정하고 환경 변수를 통해 키를 관리할 수 있습니다.\n\n검색 기능과 관련하여 ripgrep 실행이 제한될 경우 로컬 검색으로 전환하는 기능을 보강하고, 임베디드 ripgrep 바이너리 저장 경로를 사용자 캐시 디렉토리로 변경하여 보안과 안정성을 높였습니다. 또한 아티팩트 목록의 스크롤 성능을 개선하기 위해 파일 미리보기 라인 수를 캐싱하고, 대규모 대화 로딩 시 단계 헤더를 배치 단위로 불러오도록 최적화했습니다.\n\n커스텀 에이전트와 관련해서는 manage_task 기능을 통해 에이전트가 자신의 백그라운드 작업을 관리할 수 있도록 지원하며, 검색 도구 사용 시 쿼리 실시간 표시와 같은 사용자 경험 개선 사항이 포함되었습니다.\n\n주요 버그 수정으로는 Cloud Shell 환경의 시작 배너 표시 오류, /resume 픽업 내 대화 목록 사라짐 문제, 긴 대화의 기록이 유실되는 트레이젝토리 절삭 오류 등을 해결했습니다. 또한 아티팩트 목록의 CJK 및 이모지 문자 렌더링 오류를 개선하고, subagent 정의 시 경로 보안을 강화하는 등 전반적인 시스템 안정성을 높였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.13",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-14T02:26:19.000Z",
+    "fetchedAt": "2026-08-14T08:40:30.528Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/14/java-exhaustiveness-guide/",
+    "title": "Preparing for Change: Safe Switching over Sealed APIs",
+    "summary": "An exhaustive switch on a sealed type covers the permitted subtypes the compiler knows about; it does not cover future additions, which can cause MatchException at run time. API authors should documen",
+    "aiSummary": "Sealed type에 대한 exhaustive switch는 컴파일러가 인식하는 허용된 서브타입만을 다루므로 추후 추가되는 타입에 대해서는 런타임에 MatchException이 발생할 가능성이 있습니다. 따라서 API 작성자는 Sealed type의 향후 확장 방향을 문서화하여 클라이언트가 미래의 변경 사항을 적절히 처리할 수 있도록 안내해야 합니다. 일반적으로 Sealed type을 다룰 때 default 구문을 사용하는 것은 권장되지 않으며, 변경 가능성을 고려한 전략적인 접근이 필요합니다.",
+    "url": "https://inside.java/2026/08/14/java-exhaustiveness-guide/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Angelos Bimpoudis",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T08:40:30.528Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
     "title": "License data quality improvements",
     "summary": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses",
@@ -1558,40 +1590,6 @@
     "tags": [
       "MySQL",
       "Database"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/supabase-is-now-a-connector-on-perplexity-computer",
-    "title": "Supabase is now a connector on Perplexity Computer",
-    "summary": "Supabase is now a connector on Perplexity Computer. Query your Postgres data, look up users, and invoke Edge Functions from a Perplexity chat.",
-    "aiSummary": "Supabase가 Perplexity Computer의 공식 커넥터로 추가되었습니다. 이제 사용자는 Perplexity 채팅창을 통해 직접 Postgres 데이터를 조회하거나 특정 사용자를 검색할 수 있습니다. 또한 채팅 환경 내에서 Edge Functions를 호출하여 더욱 효율적인 데이터 상호작용이 가능해졌습니다.",
-    "url": "https://supabase.com/blog/supabase-is-now-a-connector-on-perplexity-computer",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-08-07T07:00:00.000Z",
-    "fetchedAt": "2026-08-07T16:12:23.895Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.11",
-    "title": "1.1.11",
-    "summary": "Added a Vim editing mode, off by default and switched on from /settings under Editor Mode, bringing modal editing to the prompt with Normal, Insert, Visual and Visual Line modes, a mode badge in the s",
-    "aiSummary": "이번 1.1.11 업데이트의 핵심은 편집기 내 Vim 모드 도입과 주요 명령어 및 시스템 안정성 개선입니다.\n\n편집기 모드 설정에서 선택적으로 활성화할 수 있는 Vim 모드가 추가되었습니다. 이를 통해 Normal, Insert, Visual, Visual Line 모드를 지원하며 h/j/k/l 이동, 다양한 텍스트 객체 조작, d/c/y 연산자 등을 사용할 수 있게 되었습니다. 또한 Vim 모드 상태에서 프롬프트를 즉시 제출하거나 줄바꿈을 처리할 수 있는 옵션이 포함되었으며, keybindings.json을 통한 키 매핑도 지원합니다.\n\n명령줄 인터페이스 및 자동화 기능이 개선되었습니다. 프린트 모드에서 비대화형 slash commands를 실행할 때 쿼터 소모 없이 탭으로 구분된 기록이나 JSON 형식으로 출력을 받을 수 있게 되었으며, 대화형 전용 명령어의 오작동 방지를 위한 명시적 거부 로직이 적용되었습니다.\n\n플러그인 및 시스템 관리 측면에서는 config.json을 통한 플러그인 활성화 관리 방식을 개선하여 사용자 설정 유지 기능을 강화했습니다. 또한 서버에서 제공하는 재시도 대기 시간을 준수하도록 하여 모델 호출 안정성을 높였고, 권한 문제 발생 시 명확한 오류 메시지와 문제 해결 링크를 제공합니다.\n\n보안 및 버그 수정도 대거 포함되었습니다. 권한 승인 모드에서의 자동 승인 오류, MCP 서버 인증 우회 문제, 그리고 특정 상황에서 발생하는 잘못된 크레딧 부족 오류 등이 수정되었습니다. 이외에도 코드 파일의 긴 줄 바꿈 처리 개선과 프롬프트 히스토리 저장 방식의 정확도 향상 등 전반적인 사용자 경험이 개선되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.11",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-07T02:35:23.000Z",
-    "fetchedAt": "2026-08-07T08:32:40.549Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]
