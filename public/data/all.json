@@ -1,5 +1,54 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.1",
+    "title": "v11.2.1",
+    "summary": "What's Changed\nfix(core): early-return SSE abort issue by @kamilmysliwiec\nFull Changelog: v11.2.0...v11.2.1",
+    "aiSummary": "NestJS 버전 11.2.1이 릴리즈되었습니다. 이번 업데이트는 코어 모듈에서 발생하던 SSE abort와 관련된 조기 반환 문제를 수정하였습니다. 상세한 변경 사항은 제공된 전체 변경 로그 링크를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.1",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-14T17:53:21.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/where-apollo-mcp-server-stands-on-the-owasp-mcp-top-10",
+    "title": "Where Apollo MCP Server Stands on the OWASP MCP Top 10",
+    "summary": "OWASP’s MCP Top 10 (https://owasp.org/www-project-mcp-top-10/) catalogs what can go wrong when an agent calls a tool over Model Context Protocol. This article evaluates one deployed server, Apollo MCP",
+    "aiSummary": "OWASP가 제시한 MCP Top 10 보안 위험 요소를 기준으로 Apollo MCP Server의 보안 아키텍처를 분석한 결과입니다. Apollo MCP Server는 설계 단계에서 Command Injection(MCP05)과 같은 일부 위험을 완화하지만, 대다수의 보안은 서버의 자동 방어보다는 사용자의 설정과 운영 정책에 의존하는 공유 책임 모델을 따르고 있습니다.\n\n아키텍처 자체적으로 대응하는 영역은 주로 도구 실행과 관련된 보안입니다. Apollo MCP Server는 GraphQL 조작을 기반으로 하며 셸 실행 경로를 원천 차단하여 Command Injection(MCP05)을 방어합니다. 도구 실행은 타입 체크가 완료된 스키마를 따르며 mutation_mode 설정을 통해 ad-hoc 작업의 범위를 제한할 수 있습니다. 또한 허용된 작업 범위 내에서만 도구를 호출하도록 제한함으로써 Intent Flow Subversion(MCP06)의 피해 범위를 최소화합니다.\n\n반면, 인증 및 권한 부여(MCP07)와 범위 제한(MCP02)은 사용자의 설정이 필수적입니다. HTTP 환경에서 인증 블록을 구성하면 OAuth 기반의 검증이 가능하지만, 기본값으로 설정된 stdio 모드에서는 인증 기능이 동작하지 않습니다. 또한 토큰 전달(Token Passthrough) 설정의 경우, 편의성과 보안 사이의 트레이드오프가 존재하므로 upstream 서비스의 특성에 맞춰 신중하게 off 설정을 고려해야 합니다.\n\n데이터 노출 및 공급망 보안은 운영자의 지속적인 관리가 필요한 부분입니다. Audit 및 Telemetry(MCP08) 기능은 상세한 로깅을 제공하지만, 민감한 데이터가 로그에 남지 않도록 omitted_attributes 설정을 통한 비식별화가 병행되어야 합니다. 또한 공급망 공격(MCP04) 방지를 위해 바이너리 서명 및 이미지 검증이 필요하며, 도구 정의가 변경될 때마다 이전 스냅샷과 비교하는 검토 프로세스가 수반되어야 Tool Poisoning(MCP03)을 방지할 수 있습니다.\n\nShadow MCP Servers(MCP09)나 Context Injection(MCP10)과 같은 문제는 서버 단의 해결이 불가능하며, 배포 토폴로지 및 자산 관리 정책을 통해 해결해야 합니다. 결론적으로 Apollo MCP Server는 보안을 위한 강력한 설정값들을 제공하지만, 이를 어떻게 조합하고 모니터링할지에 대한 운영자의 책임과 명확한 정책 수립이 보안 완성도를 결정합니다.",
+    "url": "https://www.apollographql.com/blog/where-apollo-mcp-server-stands-on-the-owasp-mcp-top-10",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Camille Lawrence",
+    "pubDate": "2026-08-14T17:11:10.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+    "title": "Grok 4.6 is now available in GitHub Copilot",
+    "summary": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed…\nThe post Gro",
+    "aiSummary": "xAI의 최신 추론 모델인 Grok 4.6이 GitHub Copilot에 도입됩니다.\n\n해당 모델은 에이전트 기반의 코딩과 복잡한 다단계 워크플로우를 처리하는 데 최적화되어 있습니다. 내부 테스트 결과, Grok 4.6은 이전 모델 대비 향상된 성능을 바탕으로 개발자의 생산성을 높이는 데 기여할 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-14T16:17:46.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731283",
     "title": "Exploring Compose HTML for Server Side Rendering",
     "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without ",
@@ -49,6 +98,22 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+    "title": "GitHub Copilot weekly releases — August 10",
+    "summary": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general…\n",
+    "aiSummary": "이번 업데이트를 통해 GitHub Copilot은 새로운 모델 도입과 휴대용 플러그인 지원을 강화하여 사용 편의성을 높였습니다. 특히 다양한 편집기와 커맨드 라인, 그리고 전용 앱 전반에서 에이전트 워크플로우를 더욱 매끄럽게 처리할 수 있도록 기능이 개선되었습니다. 이를 통해 개발자는 개발 환경 전반에서 더욱 유연하고 효율적인 AI 지원을 경험할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-14T03:15:56.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.13",
     "title": "1.1.13",
     "summary": "Added support for GEMINI_API_KEY, so the CLI can run against the Gemini API directly without signing in. Set modelProvider: \"gemini\" in settings.json, export GEMINI_API_KEY, and point GOOGLE_GEMINI_BA",
@@ -63,6 +128,24 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/claude-text-watermark",
+    "title": "How Claude's text watermarking works",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsHow Claude’s text watermark worksAug 14, 2026Future Claude models will generate text that contains a watermark. This is a way of determining th",
+    "aiSummary": "Anthropic은 EU AI Act 준수를 위해 향후 Claude 모델이 생성하는 텍스트에 워터마크를 삽입할 예정입니다. 이 워터마크 기술은 텍스트 생성 과정에서 발생하는 언어 모델의 확률적 선택 방식을 활용합니다.\n\nLLM은 문장을 생성할 때 의미상 차이가 거의 없는 단어들을 무작위로 선택하는데, 워터마킹은 이 선택 과정에서 임의의 난수 생성기 대신 특정 키와 이전 단어들을 기반으로 단어를 선택하도록 유도합니다. 이를 통해 사람에게는 보이지 않지만, 전용 키를 가진 검증 도구는 텍스트 내에 숨겨진 패턴을 찾아내어 해당 내용이 Claude에 의해 작성되었을 확률을 판별할 수 있습니다.\n\n이 기술은 Claude가 선택할 법한 적절한 단어들 사이에서만 이루어지며, 모델의 문장 의미나 창의성, 가독성에는 영향을 미치지 않습니다. 즉, 워터마크가 적용된 텍스트와 그렇지 않은 텍스트는 일반 사용자가 구별할 수 없으며, 출력물의 품질 저하 없이 AI 생성 콘텐츠의 출처를 식별할 수 있는 기능을 제공합니다.",
+    "url": "https://www.anthropic.com/news/claude-text-watermark",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -962,6 +1045,54 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-5-1-released",
+    "title": "Elastic Stack 9.5.1 released",
+    "summary": "Version 9.5.1 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.1 over the previous versions 9.5.0\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.5.1 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.0에서 발생했던 문제들을 수정하고 개선한 사항을 포함하고 있습니다. 안정적인 서비스 운영을 위해 모든 사용자는 최신 버전인 9.5.1로 업그레이드할 것을 권장합니다. 각 제품별 상세 변경 사항 및 수정된 이슈 항목은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-5-1-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-4-5-released",
+    "title": "Elastic Stack 9.4.5 released",
+    "summary": "Version 9.4.5 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.5 over the previous versions 9.4.4\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.4.5 버전이 오늘 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.4.4보다 개선된 안정성을 제공하므로 사용자는 최신 버전으로 업그레이드하는 것을 권장합니다. 수정된 문제들에 대한 상세한 내용과 각 제품별 변경 사항은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-4-5-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-20-released",
+    "title": "Elastic Stack 8.19.20 released",
+    "summary": "Version 8.19.20 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.20 over the previous version 8.19.19\nFor details of the issues that have bee",
+    "aiSummary": "Elastic Stack 8.19.20 버전이 새롭게 출시되었습니다. 이전 버전인 8.19.19에서 발생한 문제들이 해결되었으므로 최신 버전으로 업그레이드하는 것을 권장합니다. 각 제품별 상세 변경 사항과 수정된 이슈에 관한 자세한 내용은 릴리스 노트를 확인해주시기 바랍니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-20-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T23:42:22.629Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
