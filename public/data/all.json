@@ -1,5 +1,135 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+    "title": "License data quality improvements",
+    "summary": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses",
+    "aiSummary": "GitHub는 소프트웨어 구성 요소의 라이선스 정보를 더 정확하게 식별하기 위해 npmjs.org와 PyPI와 같은 패키지 레지스트리를 의존성 그래프 분석에 활용하기 시작했습니다.\n\n이번 개선을 통해 사용자는 프로젝트 내 라이브러리들의 라이선스 상태를 보다 완벽하고 신뢰할 수 있는 데이터로 확인할 수 있게 됩니다. 이는 오픈소스 생태계의 규정 준수를 강화하고 개발자가 소프트웨어 구성 요소의 법적 요구 사항을 더 명확하게 파악하도록 돕습니다.",
+    "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-13T19:14:12.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+    "title": "Block users from comments in personal repositories",
+    "summary": "You can now block or unblock users directly from comments on pull requests and issues in repositories owned by personal GitHub accounts. To block or unblock a user: Open the…\nThe post Block users from",
+    "aiSummary": "GitHub 개인 계정이 소유한 저장소의 Pull Request와 이슈 댓글창에서 특정 사용자를 직접 차단하거나 차단 해제하는 기능이 추가되었습니다. 이제 별도의 설정 페이지로 이동할 필요 없이 댓글 화면에서 즉시 사용자를 차단하여 관리할 수 있습니다. 이를 통해 GitHub 개인 사용자들은 커뮤니티 활동 관리를 더욱 효율적이고 편리하게 수행할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-13T19:02:46.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=51771",
+    "title": "Replicating from InnoDB into a DuckDB storage engine",
+    "summary": "Our first post showed MySQL 9.7 with one change: mark a table ENGINE=DuckDB and its analytical queries run in DuckDB instead of InnoDB. The question we kept getting after that was about replication. C",
+    "aiSummary": "Percona는 MySQL 9.7 환경에서 기존 InnoDB 테이블을 DuckDB 스토리지 엔진으로 변경하여 분석 쿼리 성능을 최적화하는 기술을 공개했습니다.\n\n많은 사용자가 쓰기 작업을 처리하는 InnoDB Primary 서버와 대규모 분석 테이블을 DuckDB로 처리하는 Replica 서버를 조합하여 운영할 수 있는지에 대해 지속적으로 문의하고 있습니다.\n\n이 기술의 핵심은 MySQL의 복제 메커니즘을 활용하여 InnoDB 기반의 데이터를 DuckDB 스토리지 엔진으로 동기화하는 구조를 구현하는 것입니다. 이를 통해 실시간 쓰기 작업은 InnoDB에서 수행하고, 복잡한 분석 쿼리는 DuckDB를 통해 효율적으로 처리하는 하이브리드 아키텍처를 구성할 수 있습니다.",
+    "url": "https://www.percona.com/blog/replicating-from-innodb-into-a-duckdb-storage-engine/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Evgeniy Patlan",
+    "pubDate": "2026-08-13T17:23:27.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+    "title": "Introducing Gemini 3.7 Flash",
+    "summary": "Aug 13, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Our most intelligent workhorse model yet f",
+    "aiSummary": "Google이 코딩 및 에이전트 작업에 특화된 새로운 모델인 Gemini 3.7 Flash를 공개했습니다. 이번 모델은 Gemini 3.6 Flash 출시 3주 만에 선보이는 모델로, 개발자 피드백과 알고리즘 혁신을 반영하여 성능을 대폭 강화했습니다.\n\n코딩 영역에서 Gemini 3.7 Flash는 디버깅과 이슈 해결 능력이 향상되었으며, FrontierCode 1.1 Main과 DeepSWE v1.1과 같은 평가 지표에서 이전 모델 대비 높은 코드 정확도를 기록했습니다. 또한 웹 개발 분야에서도 UI 디자인을 정확하게 반영하며 더 기능적인 레이아웃과 앱을 생성하는 등 WebDev Arena에서 더 높은 성과를 거두었습니다.\n\n금융, 법률, 생명과학과 같은 지식 집약적 분야에서도 추론 및 정확도가 향상되었습니다. 복잡한 문서를 처리하는 GDP.pdf 벤치마크와 실제 비즈니스 워크플로우를 테스트하는 AutomationBench에서 우수한 점수를 기록하며 실질적인 업무 자동화 능력을 입증했습니다.\n\n개발자 경험 측면에서도 복잡한 다단계 계획 수립과 도구 사용 능력이 향상되어 더 효율적인 워크플로우를 제공합니다. 가격은 연말까지 100만 토큰당 입력 0.75달러, 출력 3.75달러로 책정되어 기존 3.6 Flash 가격 대비 절반 수준으로 제공됩니다.\n\n또한 Google AI Pro 및 Ultra 구독자를 위한 개인 AI 에이전트 서비스인 Gemini Spark에도 Gemini 3.7 Flash가 적용되었습니다. 이를 통해 Gemini Spark는 Google Workspace 앱과의 연동성이 강화되었으며, 파일 통합이나 이메일 작성 등 복잡한 다중 기술 워크플로우에서 더욱 정교하고 효율적인 업무 수행이 가능해졌습니다.",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-08-13T17:04:18.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/",
+    "title": "Using BigQuery Graphs with measures for trusted agentic workloads",
+    "summary": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly r",
+    "aiSummary": "기업이 단순한 챗봇을 넘어 자율적인 Agentic 워크로드를 도입할 때 발생하는 가장 큰 문제는 원시 데이터 테이블만으로는 복잡한 비즈니스 맥락을 파악하기 어렵다는 점입니다. BigQuery Graph는 데이터를 정적인 테이블 형태가 아닌 현실 세계의 상호 연결된 엔티티로 표현함으로써 이러한 한계를 극복합니다.\n\n이번에 새롭게 추가된 BigQuery Graph의 Measures 기능은 데이터의 거버넌스 지표와 관계형 매핑을 통합하여 AI 에이전트가 데이터 간의 복잡한 연결 고리를 정확하게 추론할 수 있도록 돕습니다. 기존의 SQL 조인 방식은 그래프 탐색 과정에서 데이터 중복 계산 문제를 유발했으나, BigQuery Graph는 DDL 내에 MEASURE를 직접 정의하고 GRAPH_EXPAND 함수와 AGG 집계기를 사용하여 그래프 구조를 먼저 분석한 뒤 지표를 계산함으로써 정확성을 보장합니다.\n\n개발자와 비즈니스 사용자의 편의성을 높이기 위해 BigQuery Studio 내에 다양한 도구도 제공합니다. 시각적 그래프 모델러를 활용하면 복잡한 코드 작성 없이 드래그 앤 드롭 방식으로 그래프를 구축할 수 있으며, Conversational Analytics와의 통합을 통해 사용자가 자연어로 질문해도 모델이 그래프 구조를 기반으로 정확한 쿼리를 생성하여 환각 현상을 방지합니다.\n\n또한 Looker와의 통합을 통해 비즈니스 로직을 데이터 레이어에서 일관되게 관리할 수 있습니다. LookML을 BigQuery Graph와 연동하여 데이터베이스 관리 모델이나 Looker 관리 모델 형태로 그래프 스키마를 정의할 수 있고, Git 기반의 버전 관리 및 CI 기능을 활용해 기업 수준의 DevOps 워크플로우를 구축할 수 있습니다. 이를 통해 핵심 KPI의 일관성을 유지하며 신뢰할 수 있는 데이터 기반의 의사결정이 가능해집니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Deepak Dayama"
+      ],
+      "title": [
+        "Group Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-13T17:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "title": "Introducing Gemini 3.7 Flash",
+    "summary": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents.",
+    "aiSummary": "Google이 코딩 및 에이전트 작업에 최적화된 새로운 고성능 모델인 Gemini 3.7 Flash를 발표했습니다.\n\n이 모델은 기존 대비 뛰어난 지능과 효율성을 갖추어 복잡한 프로그래밍 과제와 자율적인 에이전트 구동에 특화된 성능을 제공합니다. 특히 실무 현장에서 즉각적인 활용이 가능한 범용적인 작업 능력을 강화한 것이 핵심입니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Tulsee Doshi"
+      ],
+      "title": [
+        "Senior Director"
+      ],
+      "department": [
+        "Product Management, on behalf of the Gemini team"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-13T17:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
     "title": "Packer v1.16.0 brings verifiable provenance to machine images",
     "summary": "Today we're announcing the release of Packer v1.16.0, which introduces native support for generating, signing, and verifying SLSA provenance attestations for every image Packer builds. Machine images ",
@@ -13,6 +143,37 @@
     "tags": [
       "Terraform",
       "IaC"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-08-13-1",
+    "title": "PHP 8.6.0 Beta 1 is available for testing",
+    "summary": "The PHP team is pleased to announce the first beta release of PHP 8.6.0, Beta 1. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source downloads",
+    "aiSummary": "PHP 팀이 PHP 8.6.0의 첫 번째 베타 버전인 Beta 1을 출시했습니다. 이번 릴리스는 PHP 8.6 개발 주기의 일환으로 진행되며 공식 다운로드 페이지를 통해 소스 코드를 내려받을 수 있습니다.\n\n해당 버전은 초기 테스트용이므로 운영 환경에 절대 사용해서는 안 됩니다. 개발팀은 사용자가 이번 버전을 충분히 테스트하고 발견된 문제는 GitHub를 통해 보고해 줄 것을 당부하고 있습니다.\n\n새로운 기능과 변경 사항에 대한 자세한 정보는 뉴스 및 업그레이드 문서에서 확인할 수 있습니다. 다음 릴리스인 Beta 2는 2026년 8월 27일로 예정되어 있습니다.",
+    "url": "https://www.php.net/index.php#2026-08-13-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-13T14:33:26.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+    "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
+    "summary": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic…\nThe post Gemini 3.7",
+    "aiSummary": "Google의 최신 AI 모델인 Gemini 3.7 Flash가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n이번 업데이트를 통해 웹 및 앱 개발 과정에서 한층 강화된 성능과 에이전트 기반 작업 처리 능력을 경험할 수 있습니다. 초기 테스트 결과에 따르면 이전 모델 대비 개발 생산성과 복잡한 코딩 작업에 대한 대응력이 크게 개선되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-13T14:00:53.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -62,6 +223,70 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/previewing-ultrafast",
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "aiSummary": "OpenAI가 자사의 API 서비스인 Ultrafast를 새롭게 공개했습니다. 이 서비스는 GPT-5.6 Sol 모델을 기존보다 최대 14배 빠른 속도로 구동할 수 있도록 지원합니다. Cerebras의 기술을 기반으로 하며 초당 최대 750개의 출력 토큰을 생성하는 성능을 제공합니다.",
+    "url": "https://openai.com/index/previewing-ultrafast",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-13T10:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/sveltekit-3-release-candidate",
+    "title": "The SvelteKit 3 Release Candidate is here",
+    "summary": "SvelteKit 3 is now in the Release Candidate phase. If all goes well — meaning that people like you try it out and find that it works as expected — we will follow it up with a stable release in the nea",
+    "aiSummary": "SvelteKit 3이 공식적인 릴리스 후보 단계에 진입했습니다. 이번 버전은 코드베이스 정리와 향후 발전을 위한 기반을 마련하는 데 중점을 두었으며, 안정적인 정식 출시를 앞두고 있습니다. 기존 SvelteKit 2 프로젝트를 마이그레이션하려면 sv migrate 도구를 사용하며, 새로운 프로젝트는 sv create 명령어로 시작할 수 있습니다.\n\n주요 변경 사항은 다음과 같습니다. 우선 설정 파일이 기존 svelte.config.js에서 vite.config.ts로 통합되어 Vite 플러그인과의 연동이 더욱 효율적으로 개선되었습니다. 또한 기존의 $lib 별칭은 Vite와 TypeScript에서 기본 지원하는 서브패스 임포트 방식인 #lib로 변경되었습니다. TypeScript 설정 역시 $app/tsconfig를 확장하는 방식으로 단순화되어 개발자가 관리해야 할 설정 부담이 줄었습니다.\n\n서비스 워커 관련 기능도 개선되었습니다. 이제 $service-worker 모듈 대신 $app/env, $app/paths, $app/manifest 등의 모듈을 통해 표준적인 방식으로 데이터를 가져올 수 있습니다. 환경 변수 처리 기능도 한층 강력해져 src/env.ts를 통해 명시적인 정의와 보안 검증, 타입 안전성을 보장합니다.\n\n에러 처리 기능은 Svelte 5 도입을 통해 대폭 강화되었습니다. 렌더링 단계에서도 에러 경계가 작동하며 모든 에러가 일관된 로직을 거치게 되었습니다. 라우팅 측면에서는 goto 함수에 shallow: true 옵션을 추가하여 얕은 라우팅을 지원하며, Vite 8을 필수 요구 사항으로 설정하여 Rolldown을 통한 빌드 속도 향상을 꾀했습니다.\n\n마지막으로, 클라이언트와 서버 간 통신을 위한 새로운 방식인 리모트 함수가 실험적 기능으로 추가되었습니다. SvelteKit 3는 개발자의 피드백을 수렴하여 더욱 견고한 정식 버전을 선보일 예정이며, 자세한 마이그레이션 가이드는 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://svelte.dev/blog/sveltekit-3-release-candidate",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "The Svelte team",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/13/agents-on-rails-the-first-benchmark-report",
+    "title": "Agents on Rails: the first benchmark report",
+    "summary": "TL;DR\nWe ran 8 models against 21 atomic Rails tasks, 3 runs each. Every task runs against Writebook: a bug report, a security finding, a feature request, each written the way you’d actually file it. R",
+    "aiSummary": "Agents on Rails 벤치마크 보고서는 8개의 주요 언어 모델을 대상으로 21개의 원자적 Rails 작업 수행 능력을 평가한 결과를 공개합니다. 이번 평가는 실제 환경과 유사한 버그 리포트, 보안 과제, 기능 요청 등을 포함하여 각 모델의 정확도, 비용, 속도를 측정했습니다.\n\n정확도 면에서는 Claude Opus 5가 92%의 성공률로 가장 우수한 성적을 거두었습니다. 비용 효율성 측면에서는 GPT-5.6 Luna가 단 91센트로 전체 작업을 수행하며 가장 경제적인 선택지로 확인되었습니다. 모델별 성능을 종합적으로 고려했을 때 가장 균형 잡힌 모델로는 84%의 성공률과 52센트의 비용이 소요되는 GPT-5.6 Sol이 선정되었습니다.\n\n이번 평가의 핵심 지표 중 하나는 모델의 Rails API 활용 능력입니다. 많은 모델이 내장된 Rails API를 사용하는 대신 직접 코드를 작성하는 경향을 보였으나, API를 적극적으로 활용한 경우 성공률이 92%로 더 높게 나타났습니다. 특히 DeepSeek V4 Flash와 Claude Fable 5 사이에서 확인된 것처럼, Rails 프레임워크에 대한 이해도가 모델의 전체적인 성능 차이를 결정짓는 주요 요소임이 증명되었습니다.\n\n추가 실험 결과, GPT-5.6 Luna와 같은 모델은 추론 설정을 조정함으로써 성능을 대폭 향상할 수 있음이 확인되었습니다. 반면 Claude Fable 5는 보안 관련 작업에서 거부 반응을 보이는 등 특정 업무 수행 시 주의가 필요했습니다. \n\n전체 21개 작업 중 6개는 모든 모델이 완벽하게 해결했으나, GDPR 관련 작업이나 복잡한 이미지 처리와 같은 난도 높은 과제들은 모델 간의 성능 차이를 뚜렷하게 구분 짓는 기준이 되었습니다. 평가에 사용된 도구와 데이터셋은 추후 깃허브를 통해 오픈 소스로 공개될 예정입니다.",
+    "url": "https://rubyonrails.org/2026/8/13/agents-on-rails-the-first-benchmark-report",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Svyatoslav Kryukov, Artur Petrov",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/08-13-26",
+    "title": "Cloud Agents Start 3x Faster with Builds",
+    "summary": "Aug 13, 2026 · ChangelogCloud Agents Start 3x Faster with BuildsAgents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already ",
+    "aiSummary": "Cursor가 Cloud Agents의 시작 속도를 기존 대비 3배 이상 향상시키는 Builds 기능을 새롭게 도입했습니다. 이 기능은 개발 환경을 백그라운드에서 미리 준비하고 복제해 두는 방식으로, 사용자가 에이전트를 실행할 때 저장소 복제나 의존성 설치 과정을 거치지 않고 즉시 작업을 시작할 수 있도록 지원합니다.\n\n내부적으로는 환경 부팅 속도가 10배 향상되었으며, 첫 토큰 생성까지 걸리는 시간 또한 3배 빨라졌습니다. 개발자는 설치 명령어를 통해 미리 환경을 구성해둘 수 있으며, 에이전트 실행 시 필요한 서비스만 세션 내에서 새롭게 설정하게 됩니다.\n\n안정성 측면에서도 개선이 이루어졌습니다. 커밋 오류나 의존성 문제로 환경 구축이 실패할 경우, 시스템은 가장 마지막으로 성공한 빌드를 유지하여 에이전트 작업이 중단되지 않도록 보호합니다. 이와 동시에 사용자에게 오류 내용을 알리고 배경에서 디버깅을 진행할 수 있게 합니다.\n\n사용자는 Cloud Agents 대시보드의 Builds 탭을 통해 빌드 상태, 로그, 커밋 SHA 정보를 확인하고 관리할 수 있습니다. 신규 환경은 자동으로 이 기능이 적용되며, 기존 환경은 대시보드에서 수동으로 활성화하거나 설정 에이전트를 통해 마이그레이션을 진행할 수 있습니다. 또한 빌드 수동 트리거 및 새로고침 주기 설정 등 세밀한 제어 기능도 함께 제공됩니다.",
+    "url": "https://www.cursor.com/changelog/08-13-26",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -224,6 +449,22 @@
       "DeepMind",
       "Gemini",
       "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/12/llm-benchmarking-project",
+    "title": "Agents on Rails: The LLM Benchmark Project",
+    "summary": "Today we’re sharing the first results of Agents on Rails, a new, ongoing initiative to measure how well today’s leading agentic coding tools (both frontier and open-weight) actually perform on Ruby on",
+    "aiSummary": "Rails Foundation은 Ruby on Rails 코드베이스에서 AI 코딩 에이전트의 성능을 객관적으로 측정하기 위한 프로젝트인 Agents on Rails를 시작했습니다. 이 프로젝트는 Rails 환경에서 다양한 모델들이 보여주는 정확도, 처리 속도, 토큰 비용, 그리고 최신 Rails API 활용 능력을 검증하여 개발 팀에 실질적인 가이드를 제공하는 것을 목적으로 합니다.\n\n이번 프로젝트는 Evil Martians와 협업하여 단계적으로 진행됩니다. 현재 공개된 1단계에서는 개별 API와 연동되는 소규모의 원자적 작업을 수행하여 8개의 frontier 및 open-weight 모델을 비교 분석했습니다. 이후 이어질 2단계에서는 실제 프로덕션 환경과 유사하게 복잡한 다단계 작업을 수행하며 에이전트의 능력을 더욱 심도 있게 검증할 예정입니다.\n\nRails Foundation은 이번 벤치마크에 사용된 방법론과 데이터셋을 모두 공개하며, 향후 프로젝트에 사용된 도구인 lemans까지 오픈소스로 전환할 계획입니다. 이를 통해 Rails 커뮤니티가 새로운 모델이 출시될 때마다 성능과 비용 효율성을 즉각적으로 확인하고 최적의 모델을 선택할 수 있도록 지원하고자 합니다.",
+    "url": "https://rubyonrails.org/2026/8/12/llm-benchmarking-project",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Rails Foundation",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T00:02:27.951Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
