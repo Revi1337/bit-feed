@@ -1,5 +1,54 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731283",
+    "title": "Exploring Compose HTML for Server Side Rendering",
+    "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without ",
+    "aiSummary": "최근 웹 개발 업계에서는 React의 Server Components, HTMX의 하이퍼미디어 방식, Phoenix LiveView의 서버 중심 UI 업데이트 등 서버 사이드 렌더링을 재조명하는 흐름이 거세지고 있습니다. 이러한 흐름 속에서 JVM 생태계는 상대적으로 소외되어 있었으나 Compose를 활용한 새로운 접근이 가능성을 제시하고 있습니다.\n\nCompose HTML을 활용하면 안드로이드와 데스크톱에서 검증된 Compose의 선언적 UI 모델을 웹 환경의 서버 사이드 렌더링에 적용할 수 있습니다. 이는 기존의 클라이언트 프레임워크에 의존하던 방식에서 벗어나 서버에서 UI를 직접 렌더링함으로써 JVM 기반 개발자들에게도 효율적인 웹 개발 환경을 제공할 수 있는 혁신적인 시도입니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Frederik Pietzko",
+    "pubDate": "2026-08-14T12:15:09.000Z",
+    "fetchedAt": "2026-08-14T16:09:35.847Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731283",
+    "title": "Exploring Compose HTML for Server Side Rendering",
+    "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without ",
+    "aiSummary": "최근 웹 개발 생태계에서는 React Server Components, HTMX, Phoenix LiveView 등이 등장하며 서버 측에서 UI를 렌더링하는 방식이 다시 주목받고 있습니다. 하지만 JVM 환경은 이러한 흐름에서 다소 소외되어 있으며, 이에 대한 대안으로 Compose HTML을 활용한 서버 사이드 렌더링 방식이 논의되고 있습니다.\n\n이 기술은 Jetpack Compose의 선언적 UI 프레임워크를 브라우저 환경인 HTML과 결합하여 서버에서 UI를 구성하는 것을 목표로 합니다. 그동안 JVM 생태계가 클라이언트 프레임워크 없이도 인터랙티브한 UI를 구현하려는 최신 트렌드에 대응하기 위해, Compose의 강력한 추상화 능력을 서버 측 웹 개발에 어떻게 접목할 수 있을지 가능성을 탐색합니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Frederik Pietzko",
+    "pubDate": "2026-08-14T12:15:09.000Z",
+    "fetchedAt": "2026-08-14T16:09:35.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.0",
+    "title": "v11.2.0",
+    "summary": "What's Changed\nfix(core): share existing singleton providers with lazily loaded modules by @shariyerShazan in #17430\nfix(common): match string file types containing regex metacharacters by @Jaybhade i",
+    "aiSummary": "이번 v11.2.0 업데이트는 주로 프레임워크의 핵심 코어 및 Fastify 관련 버그 수정과 새로운 기능 추가를 포함합니다.\n\n핵심 기능으로는 RFC 10008을 준수하는 QUERY HTTP 메서드 지원이 추가되었으며, 이를 위한 e2e 통합 테스트가 함께 도입되었습니다. 또한, core 모듈에 SSE signal 기능이 새롭게 추가되었습니다.\n\n버그 수정의 경우, 싱글톤 제공자를 지연 로딩 모듈과 공유하는 과정에서의 오류와 파일 형식 매칭 시 정규식 특수 문자 처리 문제를 해결했습니다. 레거시 라우트 컨버터에서의 와일드카드 세그먼트 처리 로직과 ParseEnumPipe의 숫자 enum 검증 방식도 개선되었습니다.\n\nFastify 플랫폼과 관련해서는 전역 접두사에서 제외된 라우트에서의 미들웨어 실행 문제와 상속된 미들웨어의 이중 접두사 문제를 수정하였습니다. 이외에도 지연 모듈의 사전 등록된 동적 임포트 스캔 기능이 보완되었으며, 의존성 라이브러리인 Fastify 버전이 v5.12.0으로 업데이트되었습니다. 이번 버전에는 다수의 신규 기여자가 참여하여 개발 생태계가 더욱 확장되었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.0",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-14T12:13:12.000Z",
+    "fetchedAt": "2026-08-14T16:09:35.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.13",
     "title": "1.1.13",
     "summary": "Added support for GEMINI_API_KEY, so the CLI can run against the Gemini API directly without signing in. Set modelProvider: \"gemini\" in settings.json, export GEMINI_API_KEY, and point GOOGLE_GEMINI_BA",
@@ -14,6 +63,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/14/this-week-in-rails",
+    "title": "Agents on Rails, query method and more",
+    "summary": "Hi, Wojtek here. Let’s explore this week’s news in the Rails.\nAgents on Rails\nannouncement and the first benchmark report.\nAdd support for the HTTP QUERY method\nQUERY is a safe and idempotent HTTP met",
+    "aiSummary": "Rails 프레임워크의 최신 업데이트 소식과 주요 개선 사항입니다.\n\n우선 새로운 기능으로 Agents on Rails의 발표와 벤치마크 보고서가 공개되었습니다. HTTP 통신에서는 대규모 또는 구조화된 쿼리 전달을 위해 안전하고 멱등성을 가진 QUERY 메서드 지원이 추가되었습니다. 또한 bin/rails console 실행 시 IRB 기반의 시작 배너를 표시하고 팁을 노출하는 기능이 도입되었습니다.\n\nActiveStorage 영역에서는 비디오 미리보기를 위한 ffmpeg 및 ffprobe의 입력 인자 구성이 가능해졌으며 variant_processor를 커스텀 클래스로 설정할 수 있게 되었습니다. 데이터베이스 스키마와 관련해서는 indexes 및 제약 조건 메서드들이 여러 테이블을 동시에 조회할 수 있도록 개선되었습니다.\n\nActiveRecord 및 기타 내부 로직도 다수 업데이트되었습니다. LengthValidator의 nil 값 처리 충돌 문제가 해결되었고 find_by_sql 등에 배열 형태 인자를 위한 바인드 매개변수가 적용되었습니다. 연결 어댑터에서 create 별칭은 비권장 처리되었으며 미들웨어 인자 구조에서 키워드 인자가 분리되었습니다. \n\n설정 및 호환성 측면에서는 ActionView::Base를 통한 ERB 옵션 설정이 가능해졌고 MySQL sql_mode 기본값에 TRADITIONAL이 추가되었습니다. 또한 ActiveSupport::ProxyLogger의 특정 패턴 메시지 무시 기능 추가, 새로운 타임존 매핑 지원, ActiveRecord::Migration의 명령어 구조 변경, 그리고 normalizes가 타입 검증보다 우선 실행되도록 조정되어 유효성 검사 로직의 안정성이 강화되었습니다.",
+    "url": "https://rubyonrails.org/2026/8/14/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Wojtek",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "fetchedAt": "2026-08-14T16:09:35.847Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
