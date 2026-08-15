@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+    "title": "Multiple redirect URIs and token refresh for OAuth apps",
+    "summary": "We’ve released multiple updates to the OAuth app and GitHub App platforms to support more secure app development: OAuth apps can opt in to expiring access tokens and refresh tokens.…\nThe post Multiple",
+    "aiSummary": "GitHub가 보안 강화를 위해 OAuth 앱과 GitHub App 플랫폼에 대한 업데이트를 실시했습니다.\n\n이제 OAuth 앱은 액세스 토큰과 리프레시 토큰의 만료 기능을 선택적으로 적용할 수 있게 되어, 보안 관리가 더욱 유연해졌습니다.\n\n또한 여러 개의 리디렉션 URI를 설정할 수 있도록 지원하여 개발자가 더 안전하고 효율적으로 앱을 운영할 수 있는 환경을 마련했습니다. 이러한 변화는 플랫폼의 전반적인 보안 수준을 높이고 개발자에게 향상된 인증 경험을 제공하는 데 목적이 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-14T22:43:44.000Z",
+    "fetchedAt": "2026-08-15T07:48:03.202Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v11.2.1",
     "title": "v11.2.1",
     "summary": "What's Changed\nfix(core): early-return SSE abort issue by @kamilmysliwiec\nFull Changelog: v11.2.0...v11.2.1",
