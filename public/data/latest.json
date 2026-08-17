@@ -1,5 +1,21 @@
 [
   {
+    "id": "e0eaa8dc02bf3dada9e373bdf284e82bd4d4e86c",
+    "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
+    "summary": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day ",
+    "aiSummary": "AWS는 최근 한국에서 개최된 Open Source Summit Korea 2026 및 MCP DevSummit Seoul 2026에 참여하여 OpenSearch와 Valkey 커뮤니티 개발자들과 교류하고 기술 협력을 도모했습니다. 이번 행사에서 AWS는 리눅스 재단 산하 오픈소스 프로젝트의 발전과 기술 공유를 위한 지원을 강화했습니다.\n\nAWS Weekly Roundup에서는 주요 업데이트로 EC2 애플리케이션 상태 점검 기능 개선과 IAM Role Manager의 기능 향상이 발표되었습니다. 또한 AWS Bedrock 플랫폼을 통해 OpenAI의 새로운 모델인 Daybreak를 사용할 수 있게 되었다는 점이 핵심 내용입니다. 이러한 업데이트는 개발자들이 클라우드 인프라를 보다 효율적으로 운영하고 최신 AI 기술을 Bedrock 환경에서 원활하게 통합할 수 있도록 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-08-17T16:02:36.000Z",
+    "fetchedAt": "2026-08-17T23:41:50.447Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731768",
     "title": "Klibs.io Grows to 4,200+ KMP Projects With Smarter Discovery and New AI Integrations",
     "summary": "Explore a growing Kotlin Multiplatform catalog in your browser, or bring up-to-date library data directly into your AI development workflow through the klibs.io MCP server. When we introduced klibs.io",
@@ -77,6 +93,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/17/agents-on-rails-grok-4-6-glm-5-3-gemini-3-7-flash-and-opus-4-8",
+    "title": "Agents on Rails: Grok 4.6, GLM 5.3, Gemini 3.7 Flash, and Opus 4.8",
+    "summary": "Last week we launched Agents on Rails and published the first benchmark report. The response was immediate: suggestions, questions, model requests, and more than a few “but have you tried…” messages. ",
+    "aiSummary": "Agents on Rails 벤치마크가 Grok 4.6, GLM 5.3, Gemini 3.7 Flash, Claude Opus 4.8 등 4종의 신규 모델을 추가하여 업데이트되었습니다. 벤치마크 결과, 신규 모델 중에서는 Grok 4.6이 63회 중 52회를 성공하며 가장 우수한 성능을 보였고, GLM 5.3과 Claude Opus 4.8은 각각 50회를, Gemini 3.7 Flash는 45회를 기록했습니다. 전체 리더보드에서는 여전히 Claude Opus 5가 58회 성공으로 선두를 유지하고 있습니다.\n\n이번 업데이트에서는 단순 점수뿐만 아니라 모델별 작업 방식에 대한 분석도 포함되었습니다. 예를 들어 GPT-5.6 Sol은 테스트 주도 개발을 선호하고, GLM 5.3은 테스트 수행 빈도가 매우 높으며, Gemini 3.7 Flash는 코드의 간결함을 유지하는 등 모델마다 뚜렷한 행동 패턴을 보였습니다. 또한 특정 모델이 실패할 경우 접근하는 방식에도 차이가 있어 GPT-5.6 시리즈는 정확한 위치를 찾으나 수정 방식이 틀리는 경우가 많은 반면, Claude Fable 5는 수정 대상 파일을 제대로 찾지 못하는 경향이 관찰되었습니다.\n\n벤치마크 운영진은 모든 실습 데이터를 rails/ai-evals를 통해 공개하였으며, 사용자들이 직접 상세한 작업 기록과 로그를 확인할 수 있도록 했습니다. 다만 에이전트 환경 내 비밀 키가 유출될 위험이 있음을 경고하며, 샌드박스 환경 구축 시 보안에 유의해야 한다는 점을 강조했습니다. 현재 데이터는 792개의 전체 실행 사례를 포함하고 있으며, 향후 더 많은 모델과 작업 환경에 대한 추가 업데이트가 예정되어 있습니다.",
+    "url": "https://rubyonrails.org/2026/8/17/agents-on-rails-grok-4-6-glm-5-3-gemini-3-7-flash-and-opus-4-8",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Svyatoslav Kryukov, Artur Petrov",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "fetchedAt": "2026-08-17T23:41:50.447Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/origin-code-hosting",
+    "title": "Origin Code Hosting",
+    "summary": "Aug 17, 2026 · ChangelogOrigin Code HostingCursor can now host your code.\nOrigin begins rolling out today in early beta on all paid plans. We're starting with the essentials, designed for agent scale:",
+    "aiSummary": "Cursor가 코드 호스팅 서비스인 Origin을 유료 플랜 사용자를 대상으로 조기 베타 출시합니다. Origin은 리포지토리 생성, 코드 탐색, 풀 리퀘스트 관리 및 GitHub 동기화 기능을 제공하며 에이전트 환경에 최적화된 설계를 갖추고 있습니다.\n\n사용자는 새로운 리포지토리를 직접 생성하거나 기존 GitHub 리포지토리를 연동할 수 있습니다. GitHub 연동 리포지토리는 실시간으로 동기화되며 원본의 소스 권한을 유지합니다. 특히 풀 리퀘스트 기능은 GitHub와 양방향으로 연동되어 커서 내에서 코드 리뷰, 댓글 작성, 머지 작업이 가능합니다.\n\n이번 업데이트의 핵심은 에이전트와 코드, 풀 리퀘스트가 통합된 환경을 제공한다는 점입니다. Cursor 에이전트는 코드베이스를 이해하고 질문에 답변하거나 직접 변경 사항을 적용하고 브랜치를 푸시할 수 있습니다.\n\n또한 Vercel, Depot, Buildkite와 같은 외부 서비스와의 연동을 지원하여 배포와 CI 워크플로우를 자동화하는 앱 생태계를 구축하고 있습니다. Vercel 연결 시 풀 리퀘스트별 프리뷰 배포가 가능하며 통합된 설정 페이지를 통해 리포지토리 접근 권한과 연결된 앱을 관리할 수 있습니다. 해당 기능은 기업용 관리자가 차단한 경우를 제외한 모든 유료 플랜 사용자에게 순차적으로 배포됩니다.",
+    "url": "https://www.cursor.com/changelog/origin-code-hosting",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "fetchedAt": "2026-08-17T23:41:50.447Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1270,182 +1318,6 @@
       "Ollama",
       "LLM",
       "Local AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-developer-device-platform-on-google-cloud/",
-    "title": "Introducing the Developer Device Platform for agentic mobile app development",
-    "summary": "Most enterprises connect with their customers through a device. Whether it’s using a mobile app to order a product, contact customer service, view content, or manage their account, the customer experi",
-    "aiSummary": "Google Cloud가 모바일 앱 개발 환경의 효율성을 높이기 위해 Developer Device Platform(DDP)의 공개 프리뷰를 발표했습니다. DDP는 기존 Firebase Test Lab을 발전시킨 완전 관리형 클라우드 플랫폼으로, 개발자가 다양한 물리적 장치와 가상 에뮬레이터에 즉각적으로 접근하여 앱을 빌드하고 테스트할 수 있도록 지원합니다.\n\n주요 기능은 크게 두 가지로 나뉩니다. 첫째, Device Streaming API를 통해 개발자가 원격으로 실제 장치나 에뮬레이터에 접속하여 실시간으로 상호작용하고 성능을 모니터링하며 디버깅을 수행할 수 있습니다. 둘째, Device Run API를 활용하여 CI/CD 파이프라인 내에서 수백 대의 기기에 동시에 병렬 테스트를 진행하고 특정 장치별 문제를 신속하게 파악할 수 있습니다.\n\n특히 DDP는 에이전트 기반 개발을 지원하도록 설계된 최초의 플랫폼입니다. 개발자는 선호하는 AI 코딩 에이전트를 연결하여 복잡한 사용자 여정을 수행하거나 시각적 오류를 탐지하고, 하드웨어 특성에 맞춰 코드를 최적화하는 등의 작업을 자동화할 수 있습니다. 또한 스마트 샤딩과 자동 재시도 기능을 통해 테스트 시간을 단축하고 오류 해결 과정을 효율화합니다.\n\n본 서비스는 8월 12일부터 모든 Google Cloud 사용자에게 공개 프리뷰 형태로 제공되며, 사용한 시간만큼 비용을 지불하는 종량제 모델로 운영됩니다. 이를 통해 개발자는 장치 파편화 문제를 극복하고 최신 모바일 기술 및 온디바이스 AI 환경에 빠르게 대응할 수 있게 될 전망입니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-developer-device-platform-on-google-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Derek Bekebrede"
-      ],
-      "title": [
-        "Product Manager, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-10T22:00:00.000Z",
-    "fetchedAt": "2026-08-10T23:55:25.241Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=729813",
-    "title": "JetBrains .NET Day Online 2026: Save the Date and Submit a Talk",
-    "summary": "A free, online event for the .NET community. JetBrains .NET Day Online 2026 takes place on Wednesday, October 7. Expect a day of practical talks, live demos, and real-world lessons from community spea",
-    "aiSummary": "JetBrains .NET Day Online 2026 행사가 2026년 10월 7일 수요일에 온라인으로 개최됩니다.\n\n이번 행사는 커뮤니티 연사와 JetBrains .NET 팀이 참여하여 실무 중심의 기술 강연과 라이브 데모를 선보이는 무료 이벤트입니다. 지난번과 달리 올해는 행사 기간이 이틀에서 하루로 조정되었으며 현재 연사 발표를 위한 세션 신청을 받고 있습니다.",
-    "url": "https://blog.jetbrains.com/dotnet/2026/08/10/jetbrains-dotnet-day-online-2026-save-the-date-and-submit-a-talk/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Mehul Harry",
-    "pubDate": "2026-08-10T16:59:28.000Z",
-    "fetchedAt": "2026-08-10T23:55:25.241Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
-    "title": "How WPP operationalizes platform and data engineering for AI marketing",
-    "summary": "Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and op",
-    "aiSummary": "WPP는 시장의 변동성과 파편화된 데이터 문제를 해결하고 AI 마케팅 시스템인 WPP Open의 효율성을 높이기 위해 Google Cloud와 협력하여 통합 데이터 플랫폼을 구축하였습니다. \n\n이를 위해 WPP는 수백 개의 글로벌 에이전시에 분산되어 있던 데이터를 BigQuery와 Google Cloud Storage를 활용하여 중앙 집중식으로 관리합니다. 데이터 엔지니어링 과정에서는 Managed Service for Apache Spark와 Kubeflow를 활용한 서버리스 아키텍처를 도입하여 클러스터 관리 부담을 줄이고 데이터 변환 로직에 집중하고 있습니다. 또한 정교한 IAM 제어를 통해 보안을 유지하며 데이터를 표준화된 SCDs 형태로 정규화하여 AI 모델의 신뢰성을 확보하였습니다.\n\n플랫폼 엔지니어링 측면에서는 재사용 가능한 GitLab CI/CD 템플릿을 도입하여 애플리케이션 배포와 인프라 관리를 자동화하였습니다. 특히 빌드 한 번으로 여러 환경에 배포하는 제로 리빌드 방식을 통해 환경 일관성을 유지하고, Wiz를 통한 보안 스캔과 Identity-Aware Proxy를 활용한 제로 트러스트 보안 체계를 구현하였습니다.\n\n이러한 인프라 현대화를 통해 WPP는 전략 수립 및 제작 시간을 4주에서 3시간으로 단축하였으며 생산성 70퍼센트 향상, 콘텐츠 생산량 33배 증가, 캠페인 투자 대비 수익 2.8배 증가라는 실질적인 성과를 거두었습니다.",
-    "url": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Utkarsh Bhardwaj"
-      ],
-      "title": [
-        "Technical Solutions Consultant"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-10T16:00:00.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
-    "title": "How Malachyte solves retail’s cold-start problem with managed real-time AI",
-    "summary": "What’s the best way to recommend products to little-known users? \nWe’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachy",
-    "aiSummary": "Malachyte는 LLM의 핵심 기술인 어텐션 메커니즘을 이커머스 개인화 추천에 도입하여 이커머스 업계의 고질적인 난제인 콜드스타트 문제를 해결하고 있습니다. 기존의 사용자 프로필이나 인구 통계학적 데이터에 의존하던 방식에서 벗어나 사용자의 실시간 행동 순서를 시퀀스로 파악함으로써 새로운 방문자에게도 즉각적이고 정확한 맞춤형 경험을 제공합니다.\n\n사용자가 사이트에 접속하면 클릭이나 검색과 같은 모든 상호작용은 실시간으로 사용자 벡터를 갱신하는 재료가 됩니다. LLM이 문장에서 단어의 순서를 통해 의미를 파악하듯 Malachyte는 사용자의 행동 시퀀스를 분석하여 다음에 구매할 가능성이 높은 상품을 예측합니다. 이 과정은 100밀리초 이내에 처리되어 지연 없는 개인화 환경을 구현합니다.\n\n기술적 기반으로는 Google Cloud의 인프라를 적극적으로 활용합니다. Managed Service for Apache Kafka를 통해 행동 이벤트를 실시간으로 스트리밍하고 Bigtable을 사용하여 사용자 벡터를 즉시 업데이트합니다. 또한 Cloud Pub/Sub를 통해 상품 카탈로그와 같은 외부 데이터를 지속적으로 동기화하며 GKE와 GCE를 통해 모델 추론과 서비스를 운영합니다.\n\n이러한 데이터 협력 모델은 개별 소매업체들이 모은 익명화된 데이터를 통해 전체 모델의 성능을 상향 평준화합니다. 결과적으로 소매업체들은 복잡한 데이터 수집이나 제3자 쿠키에 의존하지 않고도 매출을 크게 향상시킬 수 있으며 사용자에게는 강화된 개인정보 보호와 향상된 쇼핑 경험을 동시에 제공할 수 있게 됩니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sidd Motwani"
-      ],
-      "title": [
-        "CEO, Malachyte"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-10T16:00:00.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
-    "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
-    "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI pla",
-    "aiSummary": "Google이 The Forrester Wave: AI Platforms, Q3 2026 보고서에서 리더로 선정되었습니다. 이번 평가에서 Google은 특히 전략 부문에서 최고 점수를 획득하며 AI 플랫폼 분야의 경쟁력을 입증했습니다.\n\nGoogle Cloud가 제공하는 Gemini Enterprise는 기업이 복잡한 에이전트 워크플로우를 구축하고 운영할 수 있도록 돕는 통합 플랫폼입니다. 이 플랫폼은 비즈니스 사용자, 개발자, IT 리더 간의 사일로를 제거하고 공유된 맥락을 제공함으로써 조직 전체가 AI를 효과적으로 활용할 수 있는 기반을 마련합니다.\n\nGemini Enterprise Agent Platform은 기술 팀이 프로덕션급 에이전트를 안전하고 비용 효율적으로 구축하고 배포할 수 있도록 지원합니다. 개발자는 코딩 환경과 로우코드 및 노코드 도구를 자유롭게 선택하여 작업할 수 있으며 200개 이상의 네이티브 및 타사 모델을 활용할 수 있습니다. 또한 텍스트, 코드, 오디오, 이미지, 비디오를 아우르는 멀티모달 설계가 적용되어 엔터프라이즈 데이터를 바탕으로 한 맥락적 비즈니스 경험을 생성합니다.\n\n보안과 신뢰성 측면에서는 거버넌스, 보안, 관측성을 기본적으로 제공합니다. 내장된 가드레일, 실시간 비용 및 토큰 사용량 추적, Knowledge Catalog와 같은 기능을 통해 기업은 AI 도입 시 필요한 통제권을 확보하고 에이전트의 정확도를 높일 수 있습니다. \n\n현재 Mars, Kohl's, TELUS와 같은 기업들이 Gemini Enterprise를 통해 마케팅 캠페인 가속화, 데이터 분석의 대화형 전환, 에이전트 데이터 클라우드 구축 등 실질적인 비즈니스 가치를 창출하고 있습니다. Google은 앞으로도 오픈하고 확장 가능한 AI 플랫폼을 통해 기업이 에이전트 시대에 걸맞은 소프트웨어를 자신 있게 구축할 수 있도록 지원할 예정입니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jamie de Guerre"
-      ],
-      "title": [
-        "Senior Director, Outbound Product Management"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-10T16:00:00.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
-    "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
-    "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and s",
-    "aiSummary": "GKE에서 도입한 ClusterNetworkPolicy는 멀티 테넌트 Kubernetes 환경에서 개발자의 자율성과 보안 팀의 중앙 집중식 제어 사이의 균형을 맞추기 위해 설계된 클러스터 단위의 네트워크 보안 표준입니다. 기존의 네임스페이스 기반 NetworkPolicy가 가진 정책 충돌과 관리의 복잡성을 해결하기 위해 도입되었으며, Kubernetes SIG-Policy Working Group과 협력하여 개발되었습니다.\n\n핵심 기능인 계층형 정책 시스템은 Admin tier, Network policy tier, Baseline tier 순으로 명확한 우선순위를 제공합니다. 가장 높은 우선순위를 가진 Admin tier는 보안 준수 사항을 강제하고, 중간 tier는 개발자가 애플리케이션 수준의 정책을 관리하며, 마지막 Baseline tier는 클러스터의 기본 동작을 정의합니다. 특히 Admin tier의 Pass 액션을 통해 보안 팀이 글로벌 규칙을 먼저 검사한 뒤 결정을 개발자 정책으로 위임할 수 있어 관리와 자율성의 조화를 가능하게 합니다.\n\n이를 통해 민감한 워크로드를 격리하거나 핵심 서비스를 보호하고 외부로 나가는 트래픽을 제어하는 등 복잡한 보안 요구사항을 효과적으로 구현할 수 있습니다. GKE는 해당 기능을 독자적인 방식이 아닌 오픈소스 표준 API로 구현하여 환경 간의 이식성을 보장합니다. ClusterNetworkPolicy는 현재 GKE 버전 1.36 이후부터 미리보기 형태로 제공되며, 이를 통해 관리자는 강력한 보안 가드레일을 유지하면서도 개발 팀에 필요한 운영 유연성을 제공할 수 있게 됩니다.",
-    "url": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Srini Jasti"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-10T16:00:00.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
