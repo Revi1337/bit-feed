@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731768",
+    "title": "Klibs.io Grows to 4,200+ KMP Projects With Smarter Discovery and New AI Integrations",
+    "summary": "Explore a growing Kotlin Multiplatform catalog in your browser, or bring up-to-date library data directly into your AI development workflow through the klibs.io MCP server. When we introduced klibs.io",
+    "aiSummary": "Klibs.io가 4,200개 이상의 Kotlin Multiplatform 프로젝트를 보유한 플랫폼으로 성장하며 더욱 스마트한 라이브러리 탐색 기능과 새로운 AI 통합 기능을 선보였습니다. 사용자는 웹 브라우저를 통해 방대한 Kotlin Multiplatform 라이브러리 카탈로그를 손쉽게 탐색할 수 있습니다.\n\n특히 이번 업데이트의 핵심은 klibs.io MCP 서버를 통해 최신 라이브러리 데이터를 AI 개발 워크플로우에 직접 연동할 수 있게 된 점입니다. 2024년 12월 출시 이후, 사용자의 특정 요구 사항과 타겟 플랫폼에 최적화된 Kotlin Multiplatform 라이브러리를 효율적으로 찾을 수 있도록 지원하는 것을 목표로 서비스를 확장하고 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/klibsio-grows-to-4200-kmp-projects-with-smarter-discovery-and-new-ai-integrations/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Viliam Sedliak",
+    "pubDate": "2026-08-17T13:12:57.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731768",
+    "title": "Klibs.io Grows to 4,200+ KMP Projects With Smarter Discovery and New AI Integrations",
+    "summary": "Explore a growing Kotlin Multiplatform catalog in your browser, or bring up-to-date library data directly into your AI development workflow through the klibs.io MCP server. When we introduced klibs.io",
+    "aiSummary": "Klibs.io는 Kotlin Multiplatform 생태계 내 프로젝트 수가 4,200개를 돌파하며 지속적인 성장세를 보이고 있습니다. 이번 업데이트를 통해 사용자는 웹 브라우저를 통해 더 정교해진 검색 기능으로 필요한 라이브러리를 효율적으로 탐색할 수 있습니다.\n\n또한 새롭게 도입된 klibs.io MCP 서버를 통해 개발자는 AI 개발 워크플로우 안에서 최신 라이브러리 데이터를 즉시 활용할 수 있습니다. 2024년 12월 출시 이후 Klibs.io는 개발자의 요구 사항과 타겟 플랫폼에 최적화된 라이브러리를 신속하게 찾을 수 있도록 지원하며 Kotlin Multiplatform 환경을 개선하고 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/klibsio-grows-to-4200-kmp-projects-with-smarter-discovery-and-new-ai-integrations/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Viliam Sedliak",
+    "pubDate": "2026-08-17T13:12:57.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=92719",
+    "title": "Make zero CVEs your new default",
+    "summary": "Somewhere in the past year, supply-chain attacks stopped being isolated incidents. The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targe",
+    "aiSummary": "최근 공급망 공격이 더 이상 산발적인 사건이 아닌 위협 환경의 영구적인 변화로 자리 잡고 있습니다. 특히 Trivy나 KICS와 같이 업계가 신뢰하는 보안 도구들까지 공격 대상이 되면서 보안 체계의 근본적인 전환이 요구되고 있습니다.\n\nDocker의 CISO인 Mark Lechner는 이러한 현상을 위협 환경의 영구적인 변화라고 진단했습니다. 이에 따라 소프트웨어 개발 생태계에서는 취약점을 방치하는 기존 방식에서 벗어나 제로 CVE를 기본 원칙으로 삼는 새로운 보안 기준이 필요합니다. 개발 단계부터 보안을 강화하고 공급망의 무결성을 확보하는 것이 현재 IT 업계의 필수적인 과제입니다.",
+    "url": "https://www.docker.com/blog/make-zero-cves-your-new-default/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Vishrut Iyengar",
+    "pubDate": "2026-08-17T13:00:00.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=junie&p=731719",
+    "title": "Junie’s New Default Runs on Gemini 3.7 Flash, at 40% Off Base Pricing ",
+    "summary": "Google’s most capable Flash model for coding, with a limited time discount. Most of the coding you do in a day doesn’t need a flagship model. It needs a good one that won’t have drained your budget by",
+    "aiSummary": "Junie가 서비스의 기본 모델을 Google의 Gemini 3.7 Flash로 변경하였습니다. 해당 모델은 코딩 작업에 최적화된 성능을 제공하면서도 효율적인 비용을 유지하도록 설계되었습니다.\n\n대부분의 일상적인 코딩 작업은 최상위 모델만큼의 연산 능력이 필요하지 않다는 판단하에, Junie는 비용 부담을 줄이면서도 우수한 결과물을 도출할 수 있는 Gemini 3.7 Flash를 채택했습니다. 현재 사용자는 Junie 환경 내에서 이 모델을 즉시 이용할 수 있습니다.\n\n이번 업데이트의 일환으로 제한된 기간 동안 기존 기본 가격에서 40퍼센트 할인된 비용으로 서비스를 제공합니다. 이는 개발자가 예산 소모에 대한 걱정 없이 효율적으로 코딩 업무를 수행할 수 있도록 돕기 위한 전략입니다.",
+    "url": "https://blog.jetbrains.com/junie/2026/08/junie-gemini-3-7-flash/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitry Savelev",
+    "pubDate": "2026-08-17T10:04:21.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/nativephp-v4-supernative",
+    "title": "NativePHP v4: Build Native iOS and Android UI in Blade",
+    "summary": "NativePHP v4 renders Blade components as real SwiftUI and Jetpack Compose views with no web view. Here is what SuperNative changes, plus how to upgrade.\nThe post NativePHP v4: Build Native iOS and And",
+    "aiSummary": "NativePHP v4가 새롭게 공개되었습니다. 이번 업데이트의 핵심은 웹 뷰를 전혀 사용하지 않고 Blade 컴포넌트를 실제 SwiftUI 및 Jetpack Compose 뷰로 직접 렌더링하는 것입니다.\n\n기존의 방식과 달리 네이티브 플랫폼의 성능과 UI를 온전히 활용할 수 있도록 SuperNative 기술이 도입되었습니다. 이를 통해 개발자는 Laravel 생태계의 Blade 문법을 유지하면서도 고성능의 iOS 및 Android 애플리케이션을 구축할 수 있게 되었습니다. 이번 버전으로의 업그레이드를 통해 더욱 향상된 네이티브 개발 경험을 제공합니다.",
+    "url": "https://laravel-news.com/nativephp-v4-supernative?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-17T03:33:05.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/powa-archivist-530-is-out-3366/",
+    "title": "powa-archivist 5.3.0 is out!\n",
+    "summary": "Tainan, Taiwan - Sun 16 Aug 2026\npowa-archivist 5.3.0\nThe PoWA team is pleased to announce the release of the version 5.3.0 of\npowa-archivist, the core\nextension of the PoWA project.\nPoWA (PostgreSQL ",
+    "aiSummary": "PoWA 프로젝트의 핵심 확장 기능인 powa-archivist 5.3.0 버전이 새롭게 출시되었습니다.\n\n이번 업데이트의 주요 변경 사항으로는 PostgreSQL 19 베타 2 버전에서 변경된 pg_stat_lock.wait_time 데이터 타입을 지원함으로써 pg19 호환성을 개선하였습니다.\n\nPoWA는 PostgreSQL의 성능을 분석하고 실시간 차트와 그래프를 통해 서버 모니터링 및 튜닝을 돕는 도구로, 쿼리별 인덱스 제안 등 다양한 성능 최적화 기능을 제공합니다.\n\npowa-archivist는 오픈 소스 프로젝트로 운영되며 상세한 정보와 소스 코드는 공식 GitHub 저장소와 문서를 통해 확인할 수 있습니다. 사용자들은 이슈 보고나 패치 제출 등을 통해 프로젝트에 기여할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/powa-archivist-530-is-out-3366/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
     "title": "Multiple redirect URIs and token refresh for OAuth apps",
     "summary": "We’ve released multiple updates to the OAuth app and GitHub App platforms to support more secure app development: OAuth apps can opt in to expiring access tokens and refresh tokens.…\nThe post Multiple",

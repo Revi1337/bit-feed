@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731768",
+    "title": "Klibs.io Grows to 4,200+ KMP Projects With Smarter Discovery and New AI Integrations",
+    "summary": "Explore a growing Kotlin Multiplatform catalog in your browser, or bring up-to-date library data directly into your AI development workflow through the klibs.io MCP server. When we introduced klibs.io",
+    "aiSummary": "Klibs.io가 4,200개 이상의 Kotlin Multiplatform 프로젝트를 보유한 플랫폼으로 성장하며 더욱 스마트한 라이브러리 탐색 기능과 새로운 AI 통합 기능을 선보였습니다. 사용자는 웹 브라우저를 통해 방대한 Kotlin Multiplatform 라이브러리 카탈로그를 손쉽게 탐색할 수 있습니다.\n\n특히 이번 업데이트의 핵심은 klibs.io MCP 서버를 통해 최신 라이브러리 데이터를 AI 개발 워크플로우에 직접 연동할 수 있게 된 점입니다. 2024년 12월 출시 이후, 사용자의 특정 요구 사항과 타겟 플랫폼에 최적화된 Kotlin Multiplatform 라이브러리를 효율적으로 찾을 수 있도록 지원하는 것을 목표로 서비스를 확장하고 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/klibsio-grows-to-4200-kmp-projects-with-smarter-discovery-and-new-ai-integrations/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Viliam Sedliak",
+    "pubDate": "2026-08-17T13:12:57.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731768",
+    "title": "Klibs.io Grows to 4,200+ KMP Projects With Smarter Discovery and New AI Integrations",
+    "summary": "Explore a growing Kotlin Multiplatform catalog in your browser, or bring up-to-date library data directly into your AI development workflow through the klibs.io MCP server. When we introduced klibs.io",
+    "aiSummary": "Klibs.io는 Kotlin Multiplatform 생태계 내 프로젝트 수가 4,200개를 돌파하며 지속적인 성장세를 보이고 있습니다. 이번 업데이트를 통해 사용자는 웹 브라우저를 통해 더 정교해진 검색 기능으로 필요한 라이브러리를 효율적으로 탐색할 수 있습니다.\n\n또한 새롭게 도입된 klibs.io MCP 서버를 통해 개발자는 AI 개발 워크플로우 안에서 최신 라이브러리 데이터를 즉시 활용할 수 있습니다. 2024년 12월 출시 이후 Klibs.io는 개발자의 요구 사항과 타겟 플랫폼에 최적화된 라이브러리를 신속하게 찾을 수 있도록 지원하며 Kotlin Multiplatform 환경을 개선하고 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/klibsio-grows-to-4200-kmp-projects-with-smarter-discovery-and-new-ai-integrations/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Viliam Sedliak",
+    "pubDate": "2026-08-17T13:12:57.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=92719",
+    "title": "Make zero CVEs your new default",
+    "summary": "Somewhere in the past year, supply-chain attacks stopped being isolated incidents. The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targe",
+    "aiSummary": "최근 공급망 공격이 더 이상 산발적인 사건이 아닌 위협 환경의 영구적인 변화로 자리 잡고 있습니다. 특히 Trivy나 KICS와 같이 업계가 신뢰하는 보안 도구들까지 공격 대상이 되면서 보안 체계의 근본적인 전환이 요구되고 있습니다.\n\nDocker의 CISO인 Mark Lechner는 이러한 현상을 위협 환경의 영구적인 변화라고 진단했습니다. 이에 따라 소프트웨어 개발 생태계에서는 취약점을 방치하는 기존 방식에서 벗어나 제로 CVE를 기본 원칙으로 삼는 새로운 보안 기준이 필요합니다. 개발 단계부터 보안을 강화하고 공급망의 무결성을 확보하는 것이 현재 IT 업계의 필수적인 과제입니다.",
+    "url": "https://www.docker.com/blog/make-zero-cves-your-new-default/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Vishrut Iyengar",
+    "pubDate": "2026-08-17T13:00:00.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=junie&p=731719",
+    "title": "Junie’s New Default Runs on Gemini 3.7 Flash, at 40% Off Base Pricing ",
+    "summary": "Google’s most capable Flash model for coding, with a limited time discount. Most of the coding you do in a day doesn’t need a flagship model. It needs a good one that won’t have drained your budget by",
+    "aiSummary": "Junie가 서비스의 기본 모델을 Google의 Gemini 3.7 Flash로 변경하였습니다. 해당 모델은 코딩 작업에 최적화된 성능을 제공하면서도 효율적인 비용을 유지하도록 설계되었습니다.\n\n대부분의 일상적인 코딩 작업은 최상위 모델만큼의 연산 능력이 필요하지 않다는 판단하에, Junie는 비용 부담을 줄이면서도 우수한 결과물을 도출할 수 있는 Gemini 3.7 Flash를 채택했습니다. 현재 사용자는 Junie 환경 내에서 이 모델을 즉시 이용할 수 있습니다.\n\n이번 업데이트의 일환으로 제한된 기간 동안 기존 기본 가격에서 40퍼센트 할인된 비용으로 서비스를 제공합니다. 이는 개발자가 예산 소모에 대한 걱정 없이 효율적으로 코딩 업무를 수행할 수 있도록 돕기 위한 전략입니다.",
+    "url": "https://blog.jetbrains.com/junie/2026/08/junie-gemini-3-7-flash/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitry Savelev",
+    "pubDate": "2026-08-17T10:04:21.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/nativephp-v4-supernative",
+    "title": "NativePHP v4: Build Native iOS and Android UI in Blade",
+    "summary": "NativePHP v4 renders Blade components as real SwiftUI and Jetpack Compose views with no web view. Here is what SuperNative changes, plus how to upgrade.\nThe post NativePHP v4: Build Native iOS and And",
+    "aiSummary": "NativePHP v4가 새롭게 공개되었습니다. 이번 업데이트의 핵심은 웹 뷰를 전혀 사용하지 않고 Blade 컴포넌트를 실제 SwiftUI 및 Jetpack Compose 뷰로 직접 렌더링하는 것입니다.\n\n기존의 방식과 달리 네이티브 플랫폼의 성능과 UI를 온전히 활용할 수 있도록 SuperNative 기술이 도입되었습니다. 이를 통해 개발자는 Laravel 생태계의 Blade 문법을 유지하면서도 고성능의 iOS 및 Android 애플리케이션을 구축할 수 있게 되었습니다. 이번 버전으로의 업그레이드를 통해 더욱 향상된 네이티브 개발 경험을 제공합니다.",
+    "url": "https://laravel-news.com/nativephp-v4-supernative?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-17T03:33:05.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/powa-archivist-530-is-out-3366/",
+    "title": "powa-archivist 5.3.0 is out!\n",
+    "summary": "Tainan, Taiwan - Sun 16 Aug 2026\npowa-archivist 5.3.0\nThe PoWA team is pleased to announce the release of the version 5.3.0 of\npowa-archivist, the core\nextension of the PoWA project.\nPoWA (PostgreSQL ",
+    "aiSummary": "PoWA 프로젝트의 핵심 확장 기능인 powa-archivist 5.3.0 버전이 새롭게 출시되었습니다.\n\n이번 업데이트의 주요 변경 사항으로는 PostgreSQL 19 베타 2 버전에서 변경된 pg_stat_lock.wait_time 데이터 타입을 지원함으로써 pg19 호환성을 개선하였습니다.\n\nPoWA는 PostgreSQL의 성능을 분석하고 실시간 차트와 그래프를 통해 서버 모니터링 및 튜닝을 돕는 도구로, 쿼리별 인덱스 제안 등 다양한 성능 최적화 기능을 제공합니다.\n\npowa-archivist는 오픈 소스 프로젝트로 운영되며 상세한 정보와 소스 코드는 공식 GitHub 저장소와 문서를 통해 확인할 수 있습니다. 사용자들은 이슈 보고나 패치 제출 등을 통해 프로젝트에 기여할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/powa-archivist-530-is-out-3366/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "fetchedAt": "2026-08-17T15:45:29.385Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
     "title": "Multiple redirect URIs and token refresh for OAuth apps",
     "summary": "We’ve released multiple updates to the OAuth app and GitHub App platforms to support more secure app development: OAuth apps can opt in to expiring access tokens and refresh tokens.…\nThe post Multiple",
@@ -1350,153 +1446,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "23fc16a0c48a8aaf8de130ae8e5719b50ba6f960",
-    "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
-    "summary": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only",
-    "aiSummary": "AWS Heroes Summit이 성공적으로 개최되어 전 세계의 AI, 서버리스, 컨테이너 분야 전문가들이 모여 기술 협업과 피드백을 공유하는 시간을 가졌습니다.\n\nAmazon Bedrock에 웹 검색 기능이 새롭게 추가되어 생성형 AI 애플리케이션이 실시간 외부 데이터를 활용할 수 있게 되었습니다.\n\n이 외에도 AWS는 개발자 경험을 개선하기 위한 다양한 기술 업데이트와 새로운 지원 프로그램을 발표하며 생태계 확장에 주력하고 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "2026-08-10T15:45:03.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-    "title": "Copilot on web expands conversation controls",
-    "summary": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat…\nThe post Copilot o",
-    "aiSummary": "GitHub는 웹상에서 제공되는 Copilot Chat의 사용자 편의성을 높이기 위해 대화 제어 기능을 대폭 개선했습니다. 이번 업데이트를 통해 사용자는 채팅 창에서 최근 진행한 대화 내역에 더 쉽고 빠르게 접근할 수 있게 되었습니다. 또한 필요에 따라 채팅 창을 최소화할 수 있는 기능이 추가되어 작업 공간을 더욱 효율적으로 활용할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-10T14:27:04.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-05-github-billing-in-india-now-supports-automatic-recurring-payments",
-    "title": "GitHub billing in India now supports automatic recurring payments",
-    "summary": "Customers in India can now use eligible saved credit cards for automatic recurring payments on monthly and annual GitHub bills. This update uses a payment mandate, also known in the…\nThe post GitHub b",
-    "aiSummary": "인도의 GitHub 사용자는 이제 월간 및 연간 결제 시 저장된 신용카드를 활용해 자동 정기 결제를 이용할 수 있습니다. 이번 업데이트는 결제 위임 방식을 도입하여 사용자들의 결제 편의성을 크게 개선했습니다. 해당 기능을 통해 인도 내 고객들은 더욱 간편하게 GitHub 구독 서비스를 관리하고 결제를 자동화할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-08-10-github-billing-in-india-now-supports-automatic-recurring-payments",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-10T14:00:58.000Z",
-    "fetchedAt": "2026-08-10T23:55:25.241Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/artisan-dev-command",
-    "title": "Laravel artisan dev: Run Server, Queue, Logs, and Vite",
-    "summary": "Laravel 13.16 added php artisan dev to run your server, queue worker, logs, and Vite together, with the process list configured in PHP instead of composer.json.\nThe post Laravel artisan dev: Run Serve",
-    "aiSummary": "Laravel 13.16 버전부터 새로운 php artisan dev 명령어가 추가되었습니다. 이 명령어를 사용하면 웹 서버, Queue 워커, 로그, Vite 프로세스를 하나의 명령으로 동시에 실행할 수 있습니다. 기존과 달리 프로세스 목록을 composer.json 파일이 아닌 PHP 파일 내에서 설정하도록 변경되어 개발 환경 운영의 편의성이 향상되었습니다.",
-    "url": "https://laravel-news.com/artisan-dev-command?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-10T12:55:03.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=webstorm&p=729991",
-    "title": "Chrome DevTools Connect for WebStorm: Your AI agent can now interact with the browser",
-    "summary": "Frontend development has historically meant working in three separate environments: a design tool for specs and prototypes, the IDE for coding, and a browser to check if everything works. A few days a",
-    "aiSummary": "JetBrains는 웹 개발자가 브라우저와 IDE 사이를 오가며 발생하는 작업 전환을 줄이기 위해 WebStorm용 Chrome DevTools Connect 플러그인을 새롭게 공개하였습니다. 이 플러그인을 활용하면 AI 에이전트가 브라우저와 직접 상호작용하여 개발자의 작업을 지원할 수 있게 됩니다.\n\n이 기술은 기존의 Figma Connect for WebStorm에 이어 개발 환경을 통합하려는 시도의 일환입니다. AI 에이전트는 이 플러그인을 통해 브라우저 내의 DOM 구조를 파악하고 시각적 상태를 확인하며 코드를 수정하는 등의 작업을 수행합니다. 이를 통해 개발자는 브라우저를 수동으로 확인하는 번거로움 없이 코드 기반의 개발 흐름을 유지하며 생산성을 높일 수 있습니다.\n\n이번 업데이트는 복잡한 프런트엔드 개발 환경을 IDE 내부로 통합하여 개발 경험을 개선하는 데 중점을 두고 있습니다. 특히 AI 에이전트가 브라우저라는 외부 환경을 제어할 수 있게 됨으로써, 코드 작성부터 테스트 및 디버깅에 이르는 전체 과정이 더욱 긴밀하게 연결될 것으로 기대됩니다.",
-    "url": "https://blog.jetbrains.com/webstorm/2026/08/chrome-connect-webstorm/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Valeriya Masyachenko",
-    "pubDate": "2026-08-10T12:05:17.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.1.29",
-    "title": "v11.1.29",
-    "summary": "What's Changed\nfix(core): stop import lookup after first direct export match by @malekelkssas in #17141\nchore: update multerExceptions constant by @bo0tzz in #17328\nfix(microservices): correct pub/sub",
-    "aiSummary": "NestJS 프레임워크의 v11.1.29 버전 업데이트가 진행되었습니다. 이번 업데이트는 주로 코어 시스템과 마이크로서비스 모듈의 버그 수정 및 신규 기능 추가를 포함합니다.\n\n코어 모듈에서는 내보내기 항목 검색 로직을 최적화하고, 미들웨어 오버랩 정규식에서 g 플래그를 제거하였으며, 타겟 카운트가 0일 때 배리어 처리를 즉시 해결하도록 개선하였습니다. 또한, SSE 통신을 위한 주석 지원 기능을 추가하고 재시도 필드값이 0일 때 직렬화가 정상적으로 이루어지도록 수정하였습니다.\n\n마이크로서비스 관련해서는 Redis 리스너의 Pub/Sub 클라이언트 타입을 수정하였으며, gRPC 클라이언트 종료 시 발생할 수 있는 오류 대응을 강화하였습니다. 공통 모듈에서는 파일 형식 검증기에 오버라이드 마임타입 옵션을 추가하고 파이프 옵션을 검증기 옵션에서 제외하였습니다. 그 외 Express 환경에서 발생하는 Multer 필드 중첩 오류 매핑 등 안정성 향상을 위한 여러 수정 사항이 반영되었습니다.\n\n이번 릴리스에는 10명의 새로운 기여자가 참여하였으며, 상세한 변경 사항은 제공된 전체 변경 이력 링크를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.29",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-08-10T09:40:32.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
-    "title": "Django is moving to an annual release cycle",
-    "summary": "Django's Steering Council has accepted the Django Enhancement Proposal DEP\n20 to move Django to an annual release cycle. From January 2028, Django\nwill make one feature release a year, giving every fe",
-    "aiSummary": "Django Steering Council은 DEP 20을 승인하여 2028년 1월부터 Django의 릴리스 주기를 매년 1회로 변경합니다. 앞으로 모든 기능 릴리스는 연도를 따르는 버전 명칭(예: Django 2028, Django 2029)을 사용하게 됩니다.\n\n이번 변경의 핵심은 Python의 연간 릴리스 주기와의 일치입니다. 새로운 체계에서는 Django의 각 버전이 출시 시점에 최신 Python 3개 버전을 지원하며, 해당 지원 기간은 Python의 수명 주기와 보조를 맞추게 됩니다.\n\n또한 기존의 LTS 구분은 폐지되며 모든 기능 릴리스가 3년간의 지원을 보장받게 됩니다. 이를 통해 사용자는 매년 순차적인 업그레이드가 가능해져 이전의 LTS 방식이 가진 부담을 줄이고 더 예측 가능한 개발 환경을 제공받을 것입니다. \n\nAPI 안정성 및 삭제 정책은 기존과 동일하게 유지되며, 2028년 이전까지는 기존 지원 계획이 그대로 적용됩니다. Django 6.2 LTS까지는 기존 일정대로 진행된 후, 2028년부터 새로운 연간 릴리스 체계가 본격적으로 도입됩니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Carlton Gibson",
-    "pubDate": "2026-08-10T09:00:49.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/premium-seats-chatgpt-business",
-    "title": "Premium seats are coming to ChatGPT Business",
-    "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-    "aiSummary": "OpenAI가 ChatGPT Business 플랜에 프리미엄 좌석 옵션을 새롭게 도입합니다. 8월 20일까지 가입하는 기업 고객에게는 100달러 상당의 워크스페이스 크레딧을 제공합니다. 해당 옵션을 통해 팀의 고난도 업무를 효율적으로 처리할 수 있도록 더 높은 사용량을 보장받을 수 있습니다.",
-    "url": "https://openai.com/index/premium-seats-chatgpt-business",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-08-10T00:00:00.000Z",
-    "fetchedAt": "2026-08-10T23:55:25.241Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/muse-glimmer",
-    "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
-    "summary": "Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local co",
-    "aiSummary": "Meta Superintelligence Labs에서 첫 번째 오픈 모델인 Muse Glimmer를 공개했습니다.\n\nMuse Glimmer는 30B 파라미터 규모의 멀티모달 모델이며 Apache 2.0 라이선스로 배포됩니다. 이 모델은 주로 로컬 코딩 에이전트 환경에서 활용하기 위해 설계되었습니다.\n\n특히 Ollama의 MLX 엔진을 통해 가속화된 성능을 제공하며 새롭게 추가된 네이티브 DFlash 기술과 이미지 입력 기능을 지원합니다.",
-    "url": "https://ollama.com/blog/muse-glimmer",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "2026-08-10T00:00:00.000Z",
-    "fetchedAt": "2026-08-10T16:12:39.379Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
     ]
   }
 ]
