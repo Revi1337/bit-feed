@@ -1,5 +1,102 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/financial-services/building-operational-resilience-with-agentic-ai-in-financial-services/",
+    "title": "Building operational resilience with agentic AI in financial services",
+    "summary": "For financial institutions, operational resilience has long been embedded in regulatory and supervisory expectations — to say nothing of the high expectations of consumers. With the implementation of ",
+    "aiSummary": "금융권의 운영 복원력 요구 사항이 유럽연합의 DORA 도입 등으로 인해 더욱 엄격해짐에 따라 Deutsche Bank는 Google Cloud와 협력하여 AI 기반의 에이전트형 복원력 플랫폼을 개발했습니다. 기존의 수동 방식이었던 규제 대응 및 모의 훈련 과정을 실제 운영 데이터를 기반으로 한 상황 인식형 시뮬레이션으로 전환하여 규제 당국이 요구하는 수준의 증거 자료를 자동으로 생성할 수 있게 되었습니다.\n\n해당 플랫폼은 아키텍처, 데이터 흐름, 로그, 사건 이력 등 기업 내부의 방대한 운영 컨텍스트를 활용하여 실제 시스템 종속성과 장애 패턴을 반영한 정교한 시나리오를 구성합니다. 또한 통제와 유연성을 동시에 확보하기 위해 이중 오케스트레이션 아키텍처를 도입했습니다. 감사 가능성이 중요한 시나리오 생성에는 LangGraph를 활용하여 결정론적이고 추적 가능한 프로세스를 구축했으며, 즉각적인 대응과 조사가 필요한 상황에는 Google ADK를 사용하여 에이전트 기반의 적응형 분석을 수행합니다.\n\n이 플랫폼은 Gemini Enterprise Agent Platform, Cloud Run, Cloud SQL 등 Google Cloud의 도구들을 활용하여 대규모 환경에서도 일관된 복원력 모델을 유지합니다. 이를 통해 Deutsche Bank는 일회성 테스트가 아닌 연속적인 인텔리전스 모델로 운영 방식을 혁신하고 있으며, 실제 발생한 사건을 기반으로 한 근본 원인 분석과 미래 시나리오 테스트를 연결하는 선순환 체계를 구축하고 있습니다. 이러한 기술적 전환은 복잡한 분산 환경에서 운영 복원력을 확보해야 하는 금융 기관들에게 확장 가능하고 규제에 최적화된 새로운 표준을 제시합니다.",
+    "url": "https://cloud.google.com/blog/topics/financial-services/building-operational-resilience-with-agentic-ai-in-financial-services/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Pankaj Ojha"
+      ],
+      "title": [
+        "Director, Agentic Resilience Platform (ARP), Deutsche Bank"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-18T14:00:00.000Z",
+    "fetchedAt": "2026-08-18T15:52:00.347Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
+    "title": "Staying Ahead of Adversarial AI Through Agentic Source Code Review",
+    "summary": "Written by: Alex Tselevich, Michael Maturi\n\nIntroduction\nAdversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders ",
+    "aiSummary": "Mandiant는 공격자의 AI 활용에 대응하기 위해 AI 기반 소스 코드 분석 프레임워크인 AVDH(Agentic Vulnerability Discovery Harness)를 개발하여 활용하고 있습니다. 이 시스템은 다중 에이전트를 조직화하여 취약점 탐지 과정을 자동화하고, 인간 전문가의 지식을 파이프라인에 결합함으로써 수만 줄의 코드에서 신속하고 정확하게 보안 결함을 찾아냅니다.\n\nAVDH는 구글의 ADK와 Gemini 모델을 기반으로 하며, 다음과 같은 단계적 절차를 통해 분석을 수행합니다. 먼저 코드베이스의 목적을 파악하고 위협 모델을 구축하여 분석 범위를 설정합니다. 이후 병렬 처리 에이전트를 통해 애플리케이션 진입점을 식별하고, 코드의 제어 흐름과 데이터 흐름을 추적하여 잠재적인 취약점 가설을 생성합니다. 생성된 가설은 복수의 검증 에이전트를 거쳐 최종적으로 분석되며, 마지막 단계에서는 보안 전문가가 직접 결과물을 검토하고 검증합니다.\n\n이 과정에서 Mandiant가 보유한 수십 년간의 현장 경험과 전문 지식을 규칙 시스템 형태로 파이프라인에 주입하여 분석의 정밀도를 높였습니다. 특히 외부 데이터 오염을 방지하기 위해 독자적으로 구축한 합성 코드베이스를 활용하여 시스템 성능을 벤치마킹하고 모델의 학습 효과를 검증합니다.\n\n실제 현업에서 AVDH는 수천만 줄의 코드를 분석하여 수많은 취약점을 식별해 냈으며, 침해 사고 대응 및 레드팀 운영 과정에서 기존 수동 분석 대비 획기적인 시간 단축과 성과를 입증했습니다. Mandiant는 이러한 구조적 접근 방식이 단순한 스캐닝 도구를 넘어 방어자가 공격자보다 한발 앞서 나갈 수 있도록 돕는 핵심적인 전략이 될 수 있다고 설명합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-18T14:00:00.000Z",
+    "fetchedAt": "2026-08-18T15:52:00.347Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "5bd92664f8ba6ec61ac2d68e8b4b52a7f2988613",
+    "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+    "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, s",
+    "aiSummary": "AWS가 베를린, 하이데라바드, 상파울루에 AWS Builder Lofts를 새롭게 조성합니다. 이곳은 개발자와 학생, 기술 전문가들이 자유롭게 방문하여 무료 워크숍과 네트워킹 이벤트에 참여할 수 있는 상설 커뮤니티 공간으로 운영됩니다. 또한 기술 역량 강화를 위한 피치 나이트를 비롯해 콘텐츠 제작 공간과 협업 및 공유 오피스 공간이 제공되며 다양한 기술 관련 행사를 개최할 수 있는 인프라를 갖출 예정입니다.",
+    "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-08-18T13:58:41.000Z",
+    "fetchedAt": "2026-08-18T15:52:00.347Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-for-teens",
+    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+    "aiSummary": "OpenAI가 청소년들이 AI를 학습과 비판적 사고의 도구로 활용할 수 있도록 돕는 ChatGPT for Teens를 새롭게 선보입니다. 해당 서비스는 청소년 사용자를 위해 더 강화된 보호 기능과 건강한 이용을 장려하는 설정을 포함하고 있습니다. 또한 부모가 자녀의 AI 사용을 관리하고 감독할 수 있는 추가적인 제어 옵션이 함께 제공됩니다.",
+    "url": "https://openai.com/index/chatgpt-for-teens",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-18T11:00:00.000Z",
+    "fetchedAt": "2026-08-18T15:52:00.347Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.14",
     "title": "1.1.14",
     "summary": "Added a faster return path for enterprise sign-in, so a returning user is offered a single Continue with ... option naming the method they last used.\nAdded support for OAuth client ID metadata documen",
@@ -94,6 +191,22 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/frankenphp-https-ip-address",
+    "title": "Let's Encrypt HTTPS on an IP Address With FrankenPHP",
+    "summary": "serversideup/php v4.6.0-beta1 adds CADDY_ACME_PROFILE, so a FrankenPHP container can get a Let's Encrypt certificate for a raw IP address.\nThe post Let's Encrypt HTTPS on an IP Address With FrankenPHP",
+    "aiSummary": "serversideup/php v4.6.0-beta1 버전이 출시되면서 CADDY_ACME_PROFILE 설정이 새롭게 추가되었습니다.\n\n이 기능을 활용하면 FrankenPHP 컨테이너를 사용할 때 도메인 없이 IP 주소만으로도 Let's Encrypt 인증서를 발급받아 HTTPS 연결을 설정할 수 있습니다.",
+    "url": "https://laravel-news.com/frankenphp-https-ip-address?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-17T03:34:12.000Z",
+    "fetchedAt": "2026-08-18T15:52:00.347Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -1120,87 +1233,6 @@
       ]
     },
     "pubDate": "2026-08-11T16:00:00.000Z",
-    "fetchedAt": "2026-08-11T16:14:07.723Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
-    "title": "Per-model token breakdown in the usage report",
-    "summary": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache…\nThe post Per-model token breakdown i",
-    "aiSummary": "GitHub의 사용량 보고서에서 이제 각 모델별로 상세한 토큰 사용 내역을 확인할 수 있습니다. 이번 업데이트를 통해 사용자는 AI 크레딧이 소모된 내역을 모델 단위로 구분하여 상세히 살펴볼 수 있게 되었습니다. 사용량 보고서 페이지에서는 모델별로 입력 토큰과 출력 토큰뿐만 아니라 캐시 토큰까지 포함된 세부 정보를 제공합니다. 이를 통해 개발자는 프로젝트 내에서 활용되는 다양한 AI 모델의 리소스 소비 현황을 더욱 명확하게 파악하고 관리할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-11T14:41:52.000Z",
-    "fetchedAt": "2026-08-11T16:14:07.723Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/double-php-testing-library",
-    "title": "Mock PHP Classes in Tests With the Double Library",
-    "summary": "Double is a PHP mocking library from Jason McCreary with one API for mocks, spies, and partials, plus failure messages that show the actual call log.\nThe post Mock PHP Classes in Tests With the Double",
-    "aiSummary": "Double은 Jason McCreary가 개발한 PHP 테스트용 모킹 라이브러리입니다. 이 라이브러리는 Mocks, Spies, Partials를 단일 API로 통합하여 제공하며, 테스트 실패 시 실제 호출 기록을 보여주는 명확한 오류 메시지 기능을 지원합니다. 개발자는 이를 통해 PHP 클래스 테스트를 보다 효율적으로 수행할 수 있습니다.",
-    "url": "https://laravel-news.com/double-php-testing-library?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-11T12:03:13.000Z",
-    "fetchedAt": "2026-08-11T16:14:07.723Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-    "title": "Daybreak models are now available on AWS",
-    "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-    "aiSummary": "OpenAI와 AWS가 협력하여 기업의 보안 워크플로우를 지원하기 위한 Daybreak 사이버 보안 기능을 Amazon Bedrock에서 제공하기 시작했습니다. 이번 통합을 통해 기업들은 더욱 강화된 보안 역량을 AWS 클라우드 환경에서 손쉽게 활용할 수 있게 되었습니다.",
-    "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-08-11T10:00:00.000Z",
-    "fetchedAt": "2026-08-12T00:03:44.350Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
-    "title": "Expanding connectivity in the Americas: Introducing Alisios, Canoa, and OlaLuz subsea cables",
-    "summary": "The global digital economy relies on robust, resilient, and highly secure infrastructure to support everything from daily internet use to telehealth and scientific research breakthroughs. Today, Googl",
-    "aiSummary": "Google이 미주 지역의 네트워크 인프라를 확장하기 위해 새로운 해저 케이블 시스템인 Alisios, Canoa, OlaLuz를 도입합니다. 이 프로젝트는 기존의 Curie, Nuvem, Sol 시스템 및 Firmina 케이블의 신규 지선과 함께 Americas Connect라는 통합 네트워크를 형성합니다.\n\nAlisios는 도미니카 공화국, 파나마, 칠레를 연결하며 미주 지역 내 데이터 흐름을 최적화하는 역할을 합니다. Canoa는 도미니카 공화국과 버뮤다를 연결하여 기존의 Nuvem 및 Sol 케이블과 결합함으로써 라틴 아메리카와 카리브해 지역에서 유럽 및 북미로 이어지는 안정적인 연결성을 제공합니다. OlaLuz는 도미니카 공화국과 미국 플로리다를 직접 연결하여 미국 동부 해안과 카리브해 사이의 네트워크 용량과 복원력을 강화합니다.\n\n또한 Firmina 해저 케이블에 도미니카 공화국으로 연결되는 새로운 지선을 추가하여 인프라의 범위를 더욱 넓혔습니다. 이번 투자를 통해 Google은 태평양 연안, 카리브해, 대서양 전역에 걸친 해저 케이블 고리를 구축함으로써 Google Cloud 리전 간의 연결 속도와 안정성을 대폭 향상할 계획입니다.\n\n이번 Americas Connect 전략은 도미니카 공화국, 파나마, 버뮤다, 칠레 등 주요 거점 국가들의 정부로부터 디지털 격차 해소와 지역 경제 활성화를 위한 핵심 인프라로 높게 평가받고 있습니다. Google은 앞으로도 전략적인 분기 유닛 배치를 통해 변화하는 지역적 요구와 기회에 유연하게 대응하며, 더욱 개방적이고 견고한 글로벌 클라우드 네트워크 환경을 조성할 방침입니다.",
-    "url": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Brian Quigley"
-      ],
-      "title": [
-        "VP, Global Network Infrastructure, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-11T10:00:00.000Z",
     "fetchedAt": "2026-08-11T16:14:07.723Z",
     "tags": [
       "GCP",
