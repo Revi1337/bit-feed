@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_135",
+    "title": "Visual Studio Code 1.135 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.135 Insiders 버전이 공개되었습니다. 이번 업데이트에서는 새롭게 추가된 기능과 개선 사항들을 확인할 수 있으며 사용자는 공식 문서를 통해 상세한 변경 내역을 살펴볼 수 있습니다. 현재 해당 버전은 테스트 단계에 있으며 점진적으로 기능을 안정화하고 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_135",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-08-19T15:51:51.787Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+    "title": "Track organization code quality trends",
+    "summary": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see…\nTh",
+    "aiSummary": "GitHub의 조직 수준 코드 품질 대시보드에 코드 품질의 변화 추이를 확인할 수 있는 Trends 탭이 새롭게 추가되었습니다. 이를 통해 사용자는 특정 시점의 단편적인 데이터가 아닌 리포지토리 전반에 걸친 코드 품질 변화 흐름을 장기적으로 파악할 수 있습니다. 해당 업데이트는 조직 내 소프트웨어 품질 관리와 개선 과정을 체계적으로 추적하는 데 도움을 줍니다.",
+    "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-19T12:56:57.000Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=51958",
+    "title": "Stop guessing at gcache: inspect Galera/PXC write sets with gcache-inspector",
+    "summary": "The common practice is to size the Galera Cache based on write volume measured during peak load, but often it is more of a guesswork. The writeset cache capacity planning is crucial to shorten the mai",
+    "aiSummary": "Galera Cluster나 PXC 환경에서 운영되는 gcache는 적절한 크기를 설정하는 것이 중요하지만, 기존에는 주로 피크 부하를 기준으로 추측에 의존하여 설정하는 경우가 많았습니다. gcache의 용량 계획이 부실할 경우 유지보수 시간이 길어지거나 클러스터 운영 중 불필요한 상태 전송이 발생하여 성능 저하를 초래할 수 있습니다.\n\n이러한 문제를 해결하기 위해 Percona는 gcache-inspector라는 도구를 소개합니다. 이 도구는 Galera나 PXC의 writeset을 직접 검사하여 시스템 상태를 정확하게 파악할 수 있도록 돕습니다. gcache-inspector를 활용하면 추측에 기반한 설정을 지양하고 데이터에 근거한 정밀한 캐시 관리가 가능해지며, 결과적으로 클러스터의 안정성과 유지보수 효율성을 높일 수 있습니다.",
+    "url": "https://www.percona.com/blog/stop-guessing-at-gcache-inspect-galera-pxc-write-sets-with-gcache-inspector/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Przemysław Malkowski",
+    "pubDate": "2026-08-19T08:23:50.000Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.15",
     "title": "1.1.15",
     "summary": "Added --input-format stream-json to print mode, which reads newline-delimited JSON prompts from stdin and runs one turn per message in a single conversation, so a driver can keep a session open.\nAdded",
@@ -17,6 +65,22 @@
     ]
   },
   {
+    "id": "https://www.postgresql.org/about/news/loongson-loong64-packages-on-aptpostgresqlorg-3351/",
+    "title": "Loongson loong64 packages on apt.postgresql.org\n",
+    "summary": "We have a new architecture on apt.postgresql.org: Loongson loong64,\na Chinese processor architecture.\nThe build host for the architecture is running on a Loongson 3B6000\nboard provided by the loongfan",
+    "aiSummary": "PostgreSQL 공식 패키지 저장소인 apt.postgresql.org에 중국의 프로세서 아키텍처인 Loongson loong64가 새롭게 추가되었습니다.\n\n이번 빌드 환경은 loongfans.cn 커뮤니티에서 제공한 Loongson 3B6000 보드를 기반으로 구축되었습니다. \n\n현재 PostgreSQL 패키지의 부트스트래핑 작업은 완료되어 사용 가능한 상태입니다. 다만 postgis, pgrouting, mobilitydb, pgsql-ogr-fdw를 포함한 GIS 관련 패키지 스택은 차기 postgis 릴리스를 기다리고 있어 이번 지원 대상에서 제외되었습니다.",
+    "url": "https://www.postgresql.org/about/news/loongson-loong64-packages-on-aptpostgresqlorg-3351/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
     "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
     "summary": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls fo",
@@ -30,6 +94,38 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-26-0",
+    "title": "Read-Through Disks and Debounced Listeners in Laravel 13.26",
+    "summary": "Laravel 13.26 adds a read-through filesystem driver, debounced queued event listeners, Queue::forward() routing, and new process testing helpers.\nThe post Read-Through Disks and Debounced Listeners in",
+    "aiSummary": "Laravel 13.26 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 파일 시스템의 데이터 접근 효율을 높이는 Read-Through 디스크 드라이버와 이벤트 처리의 부하를 줄여주는 Debounced queued event listeners 기능이 추가되었습니다.\n\n또한 큐 작업의 유연한 라우팅을 지원하는 Queue::forward 메서드가 도입되었으며, 프로세스 테스트를 더욱 간편하게 수행할 수 있는 새로운 헬퍼 기능들도 함께 제공됩니다.",
+    "url": "https://laravel-news.com/laravel-13-26-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-18T22:53:28.000Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-read-through-filesystem",
+    "title": "Laravel Read-Through Filesystem: Lazy Storage Migration",
+    "summary": "Laravel's read-through filesystem driver layers a primary disk over a fallback and copies files on first read, so you can switch storage without a bulk sync.\nThe post Laravel Read-Through Filesystem: ",
+    "aiSummary": "Laravel의 Read-Through Filesystem 드라이버는 기본 디스크를 폴백 스토리지 위에 계층화하여 작동합니다.\n\n이 기술은 파일이 처음 읽히는 시점에 데이터를 복사하는 방식을 채택합니다. 따라서 대규모 데이터 동기화 작업 없이도 스토리지 환경을 원활하게 전환할 수 있는 효율적인 마이그레이션 방법을 제공합니다.",
+    "url": "https://laravel-news.com/laravel-read-through-filesystem?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-18T22:44:29.000Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -292,6 +388,21 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-08-18-1",
+    "title": "LonghornPHP 2026",
+    "summary": "Longhorn PHP is back for 2026! The schedule is now live, and tickets are on sale! The conference will be held in Austin, Texas, and will start with an optional tutorial day on Thursday, October 15, fo",
+    "aiSummary": "PHP 개발자를 위한 기술 컨퍼런스인 LonghornPHP 2026이 개최됩니다. 이번 행사는 미국 텍사스주 Austin에서 열리며 10월 15일 목요일의 선택적 튜토리얼 세션을 시작으로 10월 16일 금요일에는 본격적인 강연과 키노트 및 오픈 스페이스가 진행됩니다. 현재 전체 일정은 공식 홈페이지를 통해 확인할 수 있으며 9월 16일까지는 얼리버드 가격으로 티켓을 예매할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-08-18-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-18T10:14:50.000Z",
+    "fetchedAt": "2026-08-19T15:51:51.787Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -1181,23 +1292,6 @@
     "tags": [
       "VS Code",
       "Editor"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-    "title": "Putting sign language AI into users’ hands",
-    "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-    "aiSummary": "청각 장애인과 난청 사용자를 지원하기 위한 획기적인 모델인 SL2T가 새롭게 공개되었습니다. 해당 기술은 수어를 텍스트로 변환하는 기능을 제공하여 언어 장벽을 허물고 사용자들의 의사소통을 돕습니다. 이번 모델은 수어 사용자들이 일상에서 더욱 편리하게 디지털 기기를 활용할 수 있도록 설계되었습니다.",
-    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-08-12T14:01:59.000Z",
-    "fetchedAt": "2026-08-12T16:13:59.158Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
     ]
   }
 ]
