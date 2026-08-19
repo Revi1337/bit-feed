@@ -1,5 +1,55 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.15",
+    "title": "1.1.15",
+    "summary": "Added --input-format stream-json to print mode, which reads newline-delimited JSON prompts from stdin and runs one turn per message in a single conversation, so a driver can keep a session open.\nAdded",
+    "aiSummary": "이번 업데이트를 통해 CLI 도구의 편의성과 안정성이 크게 향상되었습니다. \n\n먼저 print 모드에 stream-json 입력 형식이 추가되어 표준 입력을 통해 개행으로 구분된 JSON 프롬프트를 처리할 수 있게 되었으며, 이를 통해 드라이버가 세션을 유지하며 대화를 이어갈 수 있습니다. 에이전트 설정 측면에서는 markdown 에이전트 전면에 rules 키를 추가하여 특정 규칙 파일을 직접 지정하거나 플러그인을 통해 규칙 파일을 선언할 수 있도록 개선되었습니다. 또한 에이전트가 실행 중인 도구 호출 이름을 스피너 라인에 구체적으로 표시하여 가시성을 높였습니다.\n\n시스템 안정성 관련 수정 사항으로는 LD_PRELOAD를 사용하는 환경에서 CLI가 초기화되지 않던 문제를 해결하였고, 시스템 키링에서 자격 증명을 복원할 때 발생하던 리소스 부족 오류와 계정 정보 누락 현상을 바로잡았습니다. 엔터프라이즈 사용자가 ADC를 사용할 때 발생하는 잘못된 크레딧 부족 알림 문제도 해결되었습니다.\n\n사용자 인터페이스와 데이터 처리 방식도 개선되었습니다. 모델 선택창이 터미널 높이에 따라 스크롤되도록 변경되었고 비 ASCII 문자가 포함된 모델명을 표시할 때 발생하는 정렬 오류가 수정되었습니다. 또한 스트리밍 출력 중 비 ASCII 문자가 깨지는 현상과 아티팩트 디렉토리 하위 파일이 목록에 나타나지 않던 오류가 해결되었습니다. 마지막으로 .wav 파일 등 미디어 타입 처리 과정에서 비표준 MIME 타입을 정규화하도록 하여 미디어 인식 기능을 강화했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.15",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-19T04:11:33.000Z",
+    "fetchedAt": "2026-08-19T07:57:43.460Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+    "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+    "summary": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls fo",
+    "aiSummary": "GitHub Copilot for JetBrains가 엔터프라이즈 관리형 설정을 새롭게 지원합니다. 이번 업데이트를 통해 관리자는 플러그인 거버넌스, MCP 서버 접근, OpenTelemetry 설정 및 권한 모드와 같은 기능들을 조직 전체에 일관되게 적용할 수 있게 되었습니다. 이를 통해 엔터프라이즈 규모의 환경에서 보안 정책과 운영 기준을 더욱 체계적으로 제어할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-18T23:33:07.000Z",
+    "fetchedAt": "2026-08-19T07:57:43.460Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "title": "ChatGPT Ads expands across Europe",
+    "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+    "aiSummary": "OpenAI가 자사의 광고 서비스인 ChatGPT Ads를 유럽 내 31개 국가로 확대합니다. 이를 통해 광고주들은 사용자가 정보를 탐색하고 여러 선택지를 비교하며 최종 의사결정을 내리는 과정에서 더욱 효과적으로 도달할 수 있게 됩니다. 해당 서비스는 사용자의 구매 여정 전반에 걸쳐 맞춤형 광고를 노출함으로써 브랜드 인지도를 높이고 고객 전환을 유도하는 전략을 지원합니다.",
+    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-18T22:00:00.000Z",
+    "fetchedAt": "2026-08-19T07:57:43.460Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
     "title": "Credential revocation and deauthorization by token type",
     "summary": "Building on our self-service credential revocation experiences for incident response, you can now take token-type and user-specific actions to deauthorize and revoke user credentials during a security",
