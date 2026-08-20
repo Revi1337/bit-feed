@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.16",
+    "title": "1.1.16",
+    "summary": "Added mcp subcommands (add, remove, list, enable, disable) for managing MCP servers in your user-level mcp_config.json without hand-editing it, covering both stdio and HTTP servers through --type, --e",
+    "aiSummary": "버전 1.1.16 업데이트를 통해 MCP 서버를 직접 편집할 필요 없이 명령어로 관리할 수 있는 하위 명령어 기능이 추가되었습니다. 이제 stdio 및 HTTP 서버 유형에 맞춰 추가, 제거, 목록 확인, 활성화 및 비활성화를 간편하게 수행할 수 있습니다.\n\n파일 경로 자동 완성 기능도 개선되었습니다. 대규모 작업 공간에서 ripgrep을 활용해 검색 속도를 높였으며, 디렉토리명보다 검색어와 일치하는 파일명을 우선적으로 표시하도록 순위를 조정하였습니다. 또한 .antigravityignore에 명시된 파일이 검색 결과에 포함되던 문제를 해결하였습니다.\n\nGemini API 키 사용 시 Gemini 3.6 Flash 및 Gemini 3.7 Flash 모델에 대한 /effort 조정 기능을 지원합니다. 이로써 모든 로그인 경로에서 일관된 모델 제어가 가능해졌습니다.\n\n터미널 환경과 관련된 여러 편의성 및 오류 수정도 이루어졌습니다. OSC 8 하이퍼링크를 지원하지 않는 터미널에서 발생하는 이스케이프 시퀀스 출력 문제를 해결하였고, Kitty 키보드 프로토콜 미지원 환경에서 프롬프트에 불필요한 문자가 입력되던 현상을 수정하였습니다.\n\nMCP 기능의 신뢰성도 강화되었습니다. 이제 read_resource를 통해 대용량 PDF나 오디오 등 비이미지 바이너리 콘텐츠를 처리할 수 있게 되었으며, /mcp 패널에서 서버 상태를 변경할 때 기존 설정값이 손실되지 않도록 보완하였습니다.\n\n기타 주요 수정 사항으로 Workforce Identity Federation 로그인 시 주기적으로 로그아웃되는 현상을 해결하였으며, /skills 내장 플래그의 정확성 개선, /btw 명령어의 오류 메시지 명확화, 그리고 백그라운드 작업 완료 후 상태 표시가 사라지지 않던 문제를 수정하였습니다. settings.json 파일이 손상되었을 때 무조건 초기화되던 방식도 파일을 보호하는 방향으로 변경되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.16",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-20T04:42:06.000Z",
+    "fetchedAt": "2026-08-20T08:01:03.875Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
     "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
     "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which ",

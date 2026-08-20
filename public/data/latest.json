@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.16",
+    "title": "1.1.16",
+    "summary": "Added mcp subcommands (add, remove, list, enable, disable) for managing MCP servers in your user-level mcp_config.json without hand-editing it, covering both stdio and HTTP servers through --type, --e",
+    "aiSummary": "버전 1.1.16 업데이트를 통해 MCP 서버를 직접 편집할 필요 없이 명령어로 관리할 수 있는 하위 명령어 기능이 추가되었습니다. 이제 stdio 및 HTTP 서버 유형에 맞춰 추가, 제거, 목록 확인, 활성화 및 비활성화를 간편하게 수행할 수 있습니다.\n\n파일 경로 자동 완성 기능도 개선되었습니다. 대규모 작업 공간에서 ripgrep을 활용해 검색 속도를 높였으며, 디렉토리명보다 검색어와 일치하는 파일명을 우선적으로 표시하도록 순위를 조정하였습니다. 또한 .antigravityignore에 명시된 파일이 검색 결과에 포함되던 문제를 해결하였습니다.\n\nGemini API 키 사용 시 Gemini 3.6 Flash 및 Gemini 3.7 Flash 모델에 대한 /effort 조정 기능을 지원합니다. 이로써 모든 로그인 경로에서 일관된 모델 제어가 가능해졌습니다.\n\n터미널 환경과 관련된 여러 편의성 및 오류 수정도 이루어졌습니다. OSC 8 하이퍼링크를 지원하지 않는 터미널에서 발생하는 이스케이프 시퀀스 출력 문제를 해결하였고, Kitty 키보드 프로토콜 미지원 환경에서 프롬프트에 불필요한 문자가 입력되던 현상을 수정하였습니다.\n\nMCP 기능의 신뢰성도 강화되었습니다. 이제 read_resource를 통해 대용량 PDF나 오디오 등 비이미지 바이너리 콘텐츠를 처리할 수 있게 되었으며, /mcp 패널에서 서버 상태를 변경할 때 기존 설정값이 손실되지 않도록 보완하였습니다.\n\n기타 주요 수정 사항으로 Workforce Identity Federation 로그인 시 주기적으로 로그아웃되는 현상을 해결하였으며, /skills 내장 플래그의 정확성 개선, /btw 명령어의 오류 메시지 명확화, 그리고 백그라운드 작업 완료 후 상태 표시가 사라지지 않던 문제를 수정하였습니다. settings.json 파일이 손상되었을 때 무조건 초기화되던 방식도 파일을 보호하는 방향으로 변경되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.16",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-20T04:42:06.000Z",
+    "fetchedAt": "2026-08-20T08:01:03.875Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
     "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
     "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which ",
@@ -1241,102 +1258,6 @@
     "fetchedAt": "2026-08-14T00:02:27.951Z",
     "tags": [
       "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://svelte.dev/blog/sveltekit-3-release-candidate",
-    "title": "The SvelteKit 3 Release Candidate is here",
-    "summary": "SvelteKit 3 is now in the Release Candidate phase. If all goes well — meaning that people like you try it out and find that it works as expected — we will follow it up with a stable release in the nea",
-    "aiSummary": "SvelteKit 3이 공식적인 릴리스 후보 단계에 진입했습니다. 이번 버전은 코드베이스 정리와 향후 발전을 위한 기반을 마련하는 데 중점을 두었으며, 안정적인 정식 출시를 앞두고 있습니다. 기존 SvelteKit 2 프로젝트를 마이그레이션하려면 sv migrate 도구를 사용하며, 새로운 프로젝트는 sv create 명령어로 시작할 수 있습니다.\n\n주요 변경 사항은 다음과 같습니다. 우선 설정 파일이 기존 svelte.config.js에서 vite.config.ts로 통합되어 Vite 플러그인과의 연동이 더욱 효율적으로 개선되었습니다. 또한 기존의 $lib 별칭은 Vite와 TypeScript에서 기본 지원하는 서브패스 임포트 방식인 #lib로 변경되었습니다. TypeScript 설정 역시 $app/tsconfig를 확장하는 방식으로 단순화되어 개발자가 관리해야 할 설정 부담이 줄었습니다.\n\n서비스 워커 관련 기능도 개선되었습니다. 이제 $service-worker 모듈 대신 $app/env, $app/paths, $app/manifest 등의 모듈을 통해 표준적인 방식으로 데이터를 가져올 수 있습니다. 환경 변수 처리 기능도 한층 강력해져 src/env.ts를 통해 명시적인 정의와 보안 검증, 타입 안전성을 보장합니다.\n\n에러 처리 기능은 Svelte 5 도입을 통해 대폭 강화되었습니다. 렌더링 단계에서도 에러 경계가 작동하며 모든 에러가 일관된 로직을 거치게 되었습니다. 라우팅 측면에서는 goto 함수에 shallow: true 옵션을 추가하여 얕은 라우팅을 지원하며, Vite 8을 필수 요구 사항으로 설정하여 Rolldown을 통한 빌드 속도 향상을 꾀했습니다.\n\n마지막으로, 클라이언트와 서버 간 통신을 위한 새로운 방식인 리모트 함수가 실험적 기능으로 추가되었습니다. SvelteKit 3는 개발자의 피드백을 수렴하여 더욱 견고한 정식 버전을 선보일 예정이며, 자세한 마이그레이션 가이드는 공식 문서를 통해 확인할 수 있습니다.",
-    "url": "https://svelte.dev/blog/sveltekit-3-release-candidate",
-    "category": "프론트엔드",
-    "source": "Svelte Blog",
-    "author": "The Svelte team",
-    "pubDate": "2026-08-13T00:00:00.000Z",
-    "fetchedAt": "2026-08-14T00:02:27.951Z",
-    "tags": [
-      "Svelte"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/8/13/agents-on-rails-the-first-benchmark-report",
-    "title": "Agents on Rails: the first benchmark report",
-    "summary": "TL;DR\nWe ran 8 models against 21 atomic Rails tasks, 3 runs each. Every task runs against Writebook: a bug report, a security finding, a feature request, each written the way you’d actually file it. R",
-    "aiSummary": "Agents on Rails 벤치마크 보고서는 8개의 주요 언어 모델을 대상으로 21개의 원자적 Rails 작업 수행 능력을 평가한 결과를 공개합니다. 이번 평가는 실제 환경과 유사한 버그 리포트, 보안 과제, 기능 요청 등을 포함하여 각 모델의 정확도, 비용, 속도를 측정했습니다.\n\n정확도 면에서는 Claude Opus 5가 92%의 성공률로 가장 우수한 성적을 거두었습니다. 비용 효율성 측면에서는 GPT-5.6 Luna가 단 91센트로 전체 작업을 수행하며 가장 경제적인 선택지로 확인되었습니다. 모델별 성능을 종합적으로 고려했을 때 가장 균형 잡힌 모델로는 84%의 성공률과 52센트의 비용이 소요되는 GPT-5.6 Sol이 선정되었습니다.\n\n이번 평가의 핵심 지표 중 하나는 모델의 Rails API 활용 능력입니다. 많은 모델이 내장된 Rails API를 사용하는 대신 직접 코드를 작성하는 경향을 보였으나, API를 적극적으로 활용한 경우 성공률이 92%로 더 높게 나타났습니다. 특히 DeepSeek V4 Flash와 Claude Fable 5 사이에서 확인된 것처럼, Rails 프레임워크에 대한 이해도가 모델의 전체적인 성능 차이를 결정짓는 주요 요소임이 증명되었습니다.\n\n추가 실험 결과, GPT-5.6 Luna와 같은 모델은 추론 설정을 조정함으로써 성능을 대폭 향상할 수 있음이 확인되었습니다. 반면 Claude Fable 5는 보안 관련 작업에서 거부 반응을 보이는 등 특정 업무 수행 시 주의가 필요했습니다. \n\n전체 21개 작업 중 6개는 모든 모델이 완벽하게 해결했으나, GDPR 관련 작업이나 복잡한 이미지 처리와 같은 난도 높은 과제들은 모델 간의 성능 차이를 뚜렷하게 구분 짓는 기준이 되었습니다. 평가에 사용된 도구와 데이터셋은 추후 깃허브를 통해 오픈 소스로 공개될 예정입니다.",
-    "url": "https://rubyonrails.org/2026/8/13/agents-on-rails-the-first-benchmark-report",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Svyatoslav Kryukov, Artur Petrov",
-    "pubDate": "2026-08-13T00:00:00.000Z",
-    "fetchedAt": "2026-08-14T00:02:27.951Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/08-13-26",
-    "title": "Cloud Agents Start 3x Faster with Builds",
-    "summary": "Aug 13, 2026 · ChangelogCloud Agents Start 3x Faster with BuildsAgents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already ",
-    "aiSummary": "Cursor가 Cloud Agents의 시작 속도를 기존 대비 3배 이상 향상시키는 Builds 기능을 새롭게 도입했습니다. 이 기능은 개발 환경을 백그라운드에서 미리 준비하고 복제해 두는 방식으로, 사용자가 에이전트를 실행할 때 저장소 복제나 의존성 설치 과정을 거치지 않고 즉시 작업을 시작할 수 있도록 지원합니다.\n\n내부적으로는 환경 부팅 속도가 10배 향상되었으며, 첫 토큰 생성까지 걸리는 시간 또한 3배 빨라졌습니다. 개발자는 설치 명령어를 통해 미리 환경을 구성해둘 수 있으며, 에이전트 실행 시 필요한 서비스만 세션 내에서 새롭게 설정하게 됩니다.\n\n안정성 측면에서도 개선이 이루어졌습니다. 커밋 오류나 의존성 문제로 환경 구축이 실패할 경우, 시스템은 가장 마지막으로 성공한 빌드를 유지하여 에이전트 작업이 중단되지 않도록 보호합니다. 이와 동시에 사용자에게 오류 내용을 알리고 배경에서 디버깅을 진행할 수 있게 합니다.\n\n사용자는 Cloud Agents 대시보드의 Builds 탭을 통해 빌드 상태, 로그, 커밋 SHA 정보를 확인하고 관리할 수 있습니다. 신규 환경은 자동으로 이 기능이 적용되며, 기존 환경은 대시보드에서 수동으로 활성화하거나 설정 에이전트를 통해 마이그레이션을 진행할 수 있습니다. 또한 빌드 수동 트리거 및 새로고침 주기 설정 등 세밀한 제어 기능도 함께 제공됩니다.",
-    "url": "https://www.cursor.com/changelog/08-13-26",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-08-13T00:00:00.000Z",
-    "fetchedAt": "2026-08-14T00:02:27.951Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
-    "title": "PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!\n",
-    "summary": "The PostgreSQL Global Development Group has released an update to all\nsupported versions of PostgreSQL, including 18.6, 17.11, 16.15, 15.19, and 14.24,\nas well as the third beta release of PostgreSQL ",
-    "aiSummary": "PostgreSQL Global Development Group은 PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 버전의 업데이트와 PostgreSQL 19 Beta 3를 공개하였습니다. 이번 업데이트를 통해 28개의 보안 취약점과 110개 이상의 버그가 수정되었습니다.\n\n보안 업데이트에서는 임의 코드 실행이나 버퍼 오버플로우를 유발할 수 있는 다수의 CVE 항목들이 조치되었습니다. 특히 Parallel GIN index, btree_gist, ltree와 관련된 기능 수정 사항이 포함되어 있으며, 업데이트 이후 일부 인덱스의 재작성(REINDEX)이나 reltuples 값 확인 등의 추가 작업이 필요할 수 있습니다. \n\nPostgreSQL 14 버전은 2026년 11월 12일 부로 지원이 종료될 예정이므로, 해당 버전을 운영 중인 사용자는 상위 버전으로의 업그레이드를 계획해야 합니다.\n\nPostgreSQL 19 Beta 3는 주요 기능들에 대한 검증을 위해 공개되었으며, 운영 환경보다는 테스트 환경에서의 사용이 권장됩니다. 이번 베타 3에는 GROUP BY ALL 기능의 되돌리기, FOR PORTION OF 구문 수정, 논리적 복제 시퀀스 동기화 개선 등이 포함되었습니다. \n\n모든 업데이트는 누적 방식이므로 별도의 데이터 덤프나 pg_upgrade 없이 바이너리 교체만으로 적용이 가능합니다. 상세한 변경 사항과 주의 사항은 공식 릴리스 노트를 반드시 확인하시기 바랍니다.",
-    "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-08-13T00:00:00.000Z",
-    "fetchedAt": "2026-08-13T16:14:04.385Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/defence-cyber-certification",
-    "title": "Elastic achieves Defence Cyber Certification Level 0 in the UK",
-    "summary": "Elastic has achieved Defence Cyber Certification (DCC) Level 0 — the UK Ministry of Defence's baseline cyber assurance standard for the defence supply chain. Here's what it means and why it matters.",
-    "aiSummary": "Elastic이 영국 국방부의 방산 공급망을 위한 기본 사이버 보안 표준인 Defence Cyber Certification Level 0을 획득했습니다. 이번 인증 획득은 Elastic의 보안 체계가 영국 국방 분야에서 요구하는 엄격한 사이버 보안 기준을 충족했음을 의미합니다. 이를 통해 Elastic은 영국 국방 관련 공급망 내에서 신뢰할 수 있는 기술 파트너로서의 입지를 더욱 공고히 하게 되었습니다.",
-    "url": "https://www.elastic.co/blog/defence-cyber-certification",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Christine Bocci,Ryan Kam",
-    "pubDate": "2026-08-13T00:00:00.000Z",
-    "fetchedAt": "2026-08-13T16:14:04.385Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "deepseek-2026-08-13",
-    "title": "DeepSeek Update: DeepSeek-V4-Pro Update",
-    "summary": "The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version.",
-    "aiSummary": "DeepSeek-V4-Pro의 GA 버전이 공식적으로 출시되어 현재 앱, 웹, 그리고 API를 통해 사용할 수 있습니다. 기존 API 호출 방식은 그대로 유지되며, 모델 이름을 deepseek-v4-pro로 설정하기만 하면 최신 버전을 바로 이용할 수 있습니다.",
-    "url": "https://api-docs.deepseek.com/updates#date-2026-08-13",
-    "category": "인공지능",
-    "source": "DeepSeek",
-    "author": "DeepSeek AI",
-    "pubDate": "2026-08-13T00:00:00.000Z",
-    "fetchedAt": "2026-08-13T16:14:04.385Z",
-    "tags": [
-      "DeepSeek",
       "LLM",
       "AI"
     ]
