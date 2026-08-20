@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+    "title": "Code scanning adds a mitigated alert dismissal reason",
+    "summary": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network…\nThe post Code scannin",
+    "aiSummary": "GitHub의 코드 스캐닝 기능에 취약점 경고를 해제하는 새로운 사유인 Mitigated가 추가되었습니다. 해당 기능은 코드 내에 취약점이 남아있더라도 Web Application Firewall이나 네트워크 보안 설정 등 외부 통제 수단을 통해 방어가 이루어지고 있는 경우에 사용할 수 있습니다. 이를 통해 개발자는 보안 경고를 보다 상황에 맞게 관리하고 운영 효율을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-20T15:14:31.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+    "title": "Separate GitHub Actions path for GitHub Code Quality",
+    "summary": "A dedicated workflow path for code quality CodeQL actions workflows is now generally available. Your workflow run history and your Actions usage reports now tell GitHub Code Quality runs apart…\nThe po",
+    "aiSummary": "GitHub가 CodeQL 워크플로우를 위한 전용 실행 경로를 정식으로 도입하였습니다. \n\n이제 GitHub Actions 내에서 CodeQL 기반의 코드 품질 검사가 수행될 때, 이를 일반적인 워크플로우와 구분하여 실행합니다. 이를 통해 워크플로우 실행 기록과 Actions 사용량 보고서에서 CodeQL 관련 데이터를 별도로 확인할 수 있게 되었습니다. 이러한 변경 사항은 개발자가 코드 품질 분석과 관련된 리소스 사용 현황을 더욱 명확하게 파악하고 관리할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-20T14:29:27.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+    "title": "Track GitHub Code Quality enablement changes in the audit log",
+    "summary": "GitHub Code Quality now writes an audit log event whenever someone enables, disables, or changes its settings on a repository. Three new events give you that history: repo.code_quality_enabled records",
+    "aiSummary": "GitHub는 리포지토리의 Code Quality 설정이 변경될 때 이를 감사 로그에 기록하는 기능을 추가하였습니다.\n\n이제 사용자가 Code Quality 기능을 활성화하거나 비활성화하고, 관련 설정을 변경할 때마다 해당 이력이 감사 로그를 통해 남게 됩니다.\n\n이를 위해 repo.code_quality_enabled, repo.code_quality_disabled, repo.code_quality_configuration_changed라는 세 가지 새로운 이벤트가 도입되었습니다. 이러한 변화는 리포지토리 관리자에게 코드 품질 관련 설정 변경 이력을 투명하게 추적하고 관리할 수 있는 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-20T14:28:41.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
+    "title": "Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia",
+    "summary": "Written by: Gabby Roncone, Wesley Shields\nOverview \nGoogle Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authenticati",
+    "aiSummary": "Google Threat Intelligence Group은 러시아와 연관된 것으로 의심되는 세 가지 사이버 첩보 그룹인 UNC6293, UNC7005, UNC5976이 유럽 및 미국의 학계, 방위 산업, 정부 관계자 등을 대상으로 정교한 피싱 공격을 수행하고 있다고 보고했습니다. 이들은 공통적으로 합법적인 인증 흐름을 악용하여 계정 정보를 탈취하는 방식을 사용하며, 사용자들에게 신뢰할 수 있는 기관이나 회의로 위장하여 접근하는 방식을 취합니다.\n\nUNC6293은 주로 ICE RELIC(구 APT29)의 하위 그룹으로 분류되며, 미국 국무부 관계자를 사칭하여 앱 비밀번호 피싱을 시도하거나 OAuth 기반의 인증 코드를 탈취하는 공격을 지속하고 있습니다. 특히 이들은 특정 컨퍼런스나 외교적 이슈를 주제로 소규모의 타겟에게 정밀한 피싱 메일을 발송하는 전략을 구사합니다.\n\nUNC7005는 상대적으로 운영 보안 수준이 낮고 악성코드를 결합하는 특성을 보입니다. 이들은 Microsoft 및 WhatsApp의 기기 연동 기능을 악용하는 피싱 페이지를 운영하며, 특히 WhatsApp 기기 연동을 유도한 뒤 타겟의 오디오와 비디오를 몰래 녹화하거나 악성 스크립트를 실행하는 수법을 사용합니다. 또한 최근에는 특정 정상 회담을 위장한 웹 페이지를 통해 VIDAR와 같은 인포스틸러 악성코드를 배포하는 등 공격 범위를 넓히고 있습니다.\n\n이러한 그룹들은 자동화된 분석 도구를 회피하기 위한 시스템 지문 수집 및 탐지 우회 코드를 피싱 페이지 내에 포함하는 등 점점 더 고도화된 기술을 도입하고 있습니다. Google Threat Intelligence Group은 사용자들이 평소 익숙한 인증 절차라 하더라도 출처가 불분명한 요청에 대해서는 경각심을 가질 필요가 있음을 강조합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-20T14:00:00.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=go&p=731330",
+    "title": "Ready for Go 1.27 on Day One",
+    "summary": "Go 1.27 is here, and the release notes have plenty to explore. Language updates include generic methods, promoted field names in struct composite literals, and improved function type inference. Beyond",
+    "aiSummary": "Go 1.27 버전이 새롭게 출시되면서 다양한 언어적 개선과 도구 업데이트가 포함되었습니다.\n\n언어 측면에서는 제네릭 메서드 지원이 추가되었으며 구조체 복합 리터럴에서의 프로모션 필드 명칭 사용과 함수 타입 추론 기능이 한층 강화되었습니다.\n\n개발 도구 면에서는 go fix를 위한 새로운 현대화 도구가 도입되었고 고루틴 누수를 탐지할 수 있는 프로파일링 기능이 추가되어 전반적인 디버깅 효율성을 높였습니다.",
+    "url": "https://blog.jetbrains.com/go/2026/08/20/ready-for-go-1-27-on-day-one/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Artem Pronichev",
+    "pubDate": "2026-08-20T10:19:21.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.16",
     "title": "1.1.16",
     "summary": "Added mcp subcommands (add, remove, list, enable, disable) for managing MCP servers in your user-level mcp_config.json without hand-editing it, covering both stdio and HTTP servers through --type, --e",
@@ -14,6 +110,70 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/bun-v1.4",
+    "title": "Bun 1.4",
+    "summary": "Bun is the complete toolkit for building and testing full-stack JavaScript and TypeScript applications. If you're new to Bun, you can learn more from the Bun 1.0 blog post.curlcurl -fsSL https://bun.s",
+    "aiSummary": "JavaScript 및 TypeScript 애플리케이션 개발을 위한 툴킷인 Bun이 버전 1.4로 업데이트되었습니다. 이번 업데이트의 가장 큰 변화는 기존 Zig 언어로 작성되었던 Bun의 핵심 코드를 Rust로 전면 재작성했다는 점입니다.\n\n성능 측면에서는 유휴 CPU 사용량을 5배 줄이고 메모리 사용량을 최대 35퍼센트까지 개선했으며, Linux 환경에서의 구동 속도를 50퍼센트 향상시켰습니다. 또한 2,900개 이상의 이슈를 해결하며 전반적인 안정성을 크게 높였습니다.\n\nNode.js 호환성 역시 대폭 강화되었습니다. Node.js 테스트 스위트에서 1,517개의 테스트를 추가로 통과하며 호환성을 확보했고, node:http, node:fs, node:cluster 등 주요 모듈의 통과율이 97퍼센트에서 100퍼센트 수준에 도달했습니다.\n\n새로운 기능과 도구들도 대거 추가되었습니다. Bun.Image, Bun.WebView, Bun.markdown, Bun.cron(), Bun.Terminal 등 다양한 내장 API가 도입되었으며, 병렬 실행을 위한 bun run --parallel 및 bun test --parallel 명령어가 추가되었습니다. 더불어 의존성 관리를 위한 bun audit fix, bun dedupe, bun prune 기능도 제공합니다.\n\n이번 버전은 Next.js 16, Playwright v1.4.0, vitest v1.4.0 등 최신 프레임워크와 라이브러리에 대한 지원을 강화했습니다. 특히 Next.js 16에서 Turbopack 및 React Compiler와 함께 원활하게 작동하며, Datadog의 dd-trace와 OpenTelemetry를 통한 모니터링 환경을 완벽하게 지원합니다. Nuxt dev, testcontainers, gRPC 등 실무에서 자주 사용되는 패키지들과의 호환성도 한층 더 개선되었습니다.",
+    "url": "https://bun.sh/blog/bun-v1.4",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-08-20T00:53:44.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+    "title": "Supply chain attack on arrayref",
+    "summary": "What happened\nOn 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious.\nThe Rust Security Response Team verified this to be the case: the crate had a build script that was do",
+    "aiSummary": "Rust 생태계의 crates.io 저장소에서 악성 코드가 포함된 공급망 공격이 발생하여 보안 팀이 대응에 나섰습니다. 공격자는 proc-macro1을 비롯한 여러 패키지에 악성 페이로드를 다운로드하는 빌드 스크립트를 삽입하였으며, 유명 라이브러리인 arrayref의 계정을 탈취하여 악성 버전을 배포하는 방식으로 공격을 전개했습니다.\n\nRust Security Response Team은 즉시 문제가 된 패키지들을 삭제하고 arrayref를 비롯한 연관 패키지들의 악성 버전을 제거하는 조치를 완료했습니다. 해당 공격은 arrayref 개발자의 컴퓨터나 자격 증명이 침해되어 발생한 것으로 추정되며, 현재 해당 개발자 계정은 추가 피해 방지를 위해 잠긴 상태입니다.\n\n사용자들은 로컬 환경에 악성 패키지가 포함되지 않았는지 확인해야 합니다. 특히 append-only-vec 0.1.9, arrayref 0.3.10, internment 0.8.7 버전과 proc-macro1, proc-macro-en, aovine, arone, aronenao, tinymember 패키지를 사용했는지 여부를 cargo 레지스트리 경로를 통해 점검할 것을 권장합니다. 이번 위협은 Nextron Systems GmbH의 연구팀에 의해 최초 발견되어 신속하게 차단되었습니다.",
+    "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Manish Goregaokar",
+    "pubDate": "2026-08-20T00:00:00.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/the-search-multiplier",
+    "title": "The search multiplier: Driving revenue, productivity, and AI at scale",
+    "summary": "An independent IDC study found organizations deploying the Elasticsearch Platform for enterprise search and agentic AI deliver AI products faster, drive higher revenue, boost productivity, and strengt",
+    "aiSummary": "IDC가 실시한 독립적인 연구 결과에 따르면 기업이 Elasticsearch Platform을 도입하여 엔터프라이즈 검색 및 Agentic AI를 구현할 경우 비즈니스 전반에서 실질적인 성과를 거두는 것으로 나타났습니다.\n\n해당 플랫폼을 사용하는 기업들은 AI 제품의 출시 속도를 높이고 매출 증대와 생산성 향상을 경험하고 있습니다. 또한 운영 효율성을 강화하여 비즈니스 전반의 회복 탄력성을 크게 높이는 효과를 확인했습니다.",
+    "url": "https://www.elastic.co/blog/the-search-multiplier",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Nicole Volk",
+    "pubDate": "2026-08-20T00:00:00.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-queue-forward",
+    "title": "Queue::forward(): Reroute Laravel Queues in One Place",
+    "summary": "Queue::forward() in Laravel 13.26 reroutes queued jobs to another queue or connection from a service provider, with no changes to job classes.\nThe post Queue::forward(): Reroute Laravel Queues in One ",
+    "aiSummary": "Laravel 13.26 버전에서 새롭게 도입된 Queue::forward() 기능은 기존 작업 클래스를 수정하지 않고도 서비스 제공자 설정을 통해 대기열 작업을 다른 큐나 연결로 유연하게 재라우팅할 수 있게 합니다. 이 기능을 활용하면 코드 변경 없이 중앙화된 지점에서 작업의 처리 경로를 효율적으로 관리할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-queue-forward?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-19T22:48:56.000Z",
+    "fetchedAt": "2026-08-20T15:53:32.405Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -1163,103 +1323,6 @@
     "tags": [
       "Terraform",
       "IaC"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-08-13-1",
-    "title": "PHP 8.6.0 Beta 1 is available for testing",
-    "summary": "The PHP team is pleased to announce the first beta release of PHP 8.6.0, Beta 1. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source downloads",
-    "aiSummary": "PHP 팀이 PHP 8.6.0의 첫 번째 베타 버전인 Beta 1을 출시했습니다. 이번 릴리스는 PHP 8.6 개발 주기의 일환으로 진행되며 공식 다운로드 페이지를 통해 소스 코드를 내려받을 수 있습니다.\n\n해당 버전은 초기 테스트용이므로 운영 환경에 절대 사용해서는 안 됩니다. 개발팀은 사용자가 이번 버전을 충분히 테스트하고 발견된 문제는 GitHub를 통해 보고해 줄 것을 당부하고 있습니다.\n\n새로운 기능과 변경 사항에 대한 자세한 정보는 뉴스 및 업그레이드 문서에서 확인할 수 있습니다. 다음 릴리스인 Beta 2는 2026년 8월 27일로 예정되어 있습니다.",
-    "url": "https://www.php.net/index.php#2026-08-13-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-08-13T14:33:26.000Z",
-    "fetchedAt": "2026-08-14T00:02:27.951Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-    "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
-    "summary": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic…\nThe post Gemini 3.7",
-    "aiSummary": "Google의 최신 AI 모델인 Gemini 3.7 Flash가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n이번 업데이트를 통해 웹 및 앱 개발 과정에서 한층 강화된 성능과 에이전트 기반 작업 처리 능력을 경험할 수 있습니다. 초기 테스트 결과에 따르면 이전 모델 대비 개발 생산성과 복잡한 코딩 작업에 대한 대응력이 크게 개선되었습니다.",
-    "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-13T14:00:53.000Z",
-    "fetchedAt": "2026-08-14T00:02:27.951Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
-    "title": "Omni experts share what excites them most about the model.",
-    "summary": "We interviewed some of the experts behind Gemini Omni to hear what excites them most about the model.",
-    "aiSummary": "Gemini Omni를 개발한 전문가들이 직접 해당 모델의 핵심적인 강점과 기대되는 부분에 대해 인터뷰를 진행하였습니다. 연구진은 Gemini Omni가 보유한 고도의 멀티모달 처리 능력과 이를 통해 구현되는 혁신적인 사용자 경험에 큰 기대감을 나타냈습니다. 전문가들은 모델이 실시간으로 다양한 형태의 데이터를 통합하고 이해하는 방식이 향후 AI 기술의 활용 범위를 크게 확장할 것이라고 강조하였습니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Lindsey Lanquist"
-      ],
-      "title": [
-        "Contributor"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-13T13:30:00.000Z",
-    "fetchedAt": "2026-08-13T16:14:04.385Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=730368",
-    "title": "Hybrid and Local AI course at DeepLearning.AI",
-    "summary": "Open weight models are having a moment, driven by control, choice, and cost. Hybrid and local AI are now getting serious looks, so JetBrains teamed up with DeepLearning.AI on a free AI Coding Workflow",
-    "aiSummary": "JetBrains와 DeepLearning.AI가 협력하여 무료 온라인 강의인 AI Coding Workflows: Hybrid to Local을 공개했습니다.\n\n최근 제어 권한과 선택권, 비용 효율성을 중시하는 오픈 웨이트 모델에 대한 관심이 높아짐에 따라 해당 강의는 하이브리드 및 로컬 AI 환경 구축에 필요한 핵심 개념과 다양한 선택지를 다룹니다.\n\n수강생들은 PyCharm 및 해당 플랫폼이 제공하는 AI 기능을 활용하여 로컬 환경에서 효율적으로 코딩 워크플로우를 구성하는 방법을 실습할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/pycharm/2026/08/hybrid-and-local-ai-course-at-deeplearning-ai/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Paul Everitt",
-    "pubDate": "2026-08-13T10:01:32.000Z",
-    "fetchedAt": "2026-08-13T16:14:04.385Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/previewing-ultrafast",
-    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-    "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-    "aiSummary": "OpenAI가 자사의 API 서비스인 Ultrafast를 새롭게 공개했습니다. 이 서비스는 GPT-5.6 Sol 모델을 기존보다 최대 14배 빠른 속도로 구동할 수 있도록 지원합니다. Cerebras의 기술을 기반으로 하며 초당 최대 750개의 출력 토큰을 생성하는 성능을 제공합니다.",
-    "url": "https://openai.com/index/previewing-ultrafast",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-08-13T10:00:00.000Z",
-    "fetchedAt": "2026-08-14T00:02:27.951Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
     ]
   }
 ]
