@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+    "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+    "aiSummary": "Google DeepMind는 15년간 축적해 온 게임 분야 AI 연구 성과를 바탕으로 게임 스튜디오들과 협력하여 혁신적인 AI 게임 플레이를 프로토타입으로 개발하고 있습니다.\n\n이번 협업은 과거 Atari 게임부터 EVE Online에 이르기까지 DeepMind가 수행해 온 AI 학습 및 강화학습 연구를 실제 게임 환경에 적용하려는 시도입니다. 이를 통해 단순한 연산을 넘어 복잡하고 역동적인 게임 환경에서 지능적으로 상호작용하는 차세대 AI 플레이 경험을 창출하는 것을 목표로 합니다.",
+    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-08-21T11:59:48.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-debounced-queued-listeners",
+    "title": "Debounced Queued Event Listeners in Laravel",
+    "summary": "Laravel's DebounceFor attribute now works on queued event listeners, collapsing bursts of the same event into one handler run with debounceId and maxWait.\nThe post Debounced Queued Event Listeners in ",
+    "aiSummary": "Laravel의 DebounceFor 속성이 이제 대기열에 추가된 이벤트 리스너에서도 작동합니다. 이를 통해 동일한 이벤트가 짧은 시간에 반복적으로 발생할 경우 debounceId와 maxWait 설정을 기반으로 여러 실행 요청을 하나의 핸들러 실행으로 통합할 수 있게 되었습니다. 이러한 기능 개선은 불필요한 이벤트 처리를 방지하여 시스템 효율성을 높여줍니다.",
+    "url": "https://laravel-news.com/laravel-debounced-queued-listeners?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-21T02:56:03.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/aug/20/dsf-membership-open-space-at-djangocon-us/",
     "title": "DSF Membership Open Space at DjangoCon US",
     "summary": "If you are at DjangoCon US this year, join us for 45 minutes to talk about the Django Software Foundation.\nWhat: Django Software Foundation Membership Open Space\nWhen: Wednesday, August 26th, 1:00 pm ",
@@ -13,6 +46,54 @@
     "tags": [
       "Django",
       "Python"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+    "title": "Enabling the next-generation trait solver on nightly",
+    "summary": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize i",
+    "aiSummary": "Rust 언어의 개발팀은 약 4년간의 개발 끝에 차세대 트레이트 솔버를 Rust nightly 버전에 기본값으로 도입하였습니다. 이는 Rust 컴파일러 역사상 가장 큰 규모의 변경 사항으로, 기존의 복잡한 where-clause 처리 방식과 연관 타입 정규화 방식을 완전히 대체합니다. 이번 업데이트를 통해 200개 이상의 GitHub 이슈가 해결되었으며, 향후 Type Alias Impl Trait 및 Return Type Notation과 같은 기능의 안정화와 타입 시스템의 미비점 보완을 위한 기반을 마련하였습니다.\n\n기술적인 핵심 변화로는 opaque 타입 처리 방식의 개선과 고차 타입 내 연관 타입의 핸들링 방식 변경이 있습니다. 특히 고차 타입에서 바운드 변수를 참조하는 연관 타입 처리 방식이 개선되면서, bevy와 minijinja와 같은 주요 프로젝트에서 발생하던 잘못된 타입 추론 문제가 해결되었습니다. 또한 기존의 트레이트 솔버에서 비효율적이었던 컴파일 시간 문제를 개선하여, 일부 트레이트 집약적인 프로젝트의 경우 컴파일 속도가 이전 대비 8배 이상 빨라지는 등 성능 면에서 비약적인 향상을 보였습니다.\n\n현재 이 기능은 Rust nightly 채널에서 기본으로 활성화되어 있으며, 사용자는 rustup update nightly를 통해 최신 버전을 테스트할 수 있습니다. 만약 이전 버전의 동작을 유지해야 하는 경우에는 -Znext-solver=coherence 플래그를 사용하여 새로운 솔버를 비활성화할 수 있습니다. 개발팀은 현재 발생할 수 있는 잠재적인 문제와 오류 메시지의 품질 등을 점검하고 있으며, 안정화 과정에서 발생하는 버그나 성능 회귀 현상을 발견할 경우 GitHub 이슈를 통해 제보해 줄 것을 당부하고 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "lcnr",
+    "pubDate": "2026-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now",
+    "title": "Spring AI 2.0.1 Available Now",
+    "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.0.1 has been released and is now available from Maven Central!\nRelease notes (https://github.co",
+    "aiSummary": "Spring AI 2.0.1 버전이 Maven Central을 통해 배포되었습니다. 이번 릴리스는 Spring AI 2.0.0 GA 이후 첫 번째 유지보수 업데이트로, 80개 이상의 이슈 해결과 요청 사항을 반영한 대규모 업데이트입니다. 특히 다양한 보안 취약점(CVE)이 수정되어 시스템 안정성이 대폭 강화되었습니다.\n\n주요 변경 사항 및 업데이트 내용은 다음과 같습니다.\n\n보안 및 안정성 강화 측면에서는 PDF Document Reader, RedisChatMemoryRepository, DefaultToolCallingManager 등에서 발견된 여러 CVE 취약점들을 해결하였습니다. 또한 스트리밍 응답 처리 최적화, 툴 호출 실패 시 예외 처리 개선, 그리고 다양한 벡터 데이터베이스(Milvus, OpenSearch, PgVectorStore, Couchbase)와의 연동 호환성 및 안정성을 개선하였습니다.\n\n신규 기능 및 개선 사항으로는 ToolCallingAdvisor에 툴 호출 횟수 제한 설정이 추가되었으며, OpenAiAudioSpeechModel의 오디오 스트리밍 지원, Google GenAI의 툴 선택 및 이미지 생성 지원이 포함되었습니다. 또한 PagePdfDocumentReader의 페이지 범위 지정 기능과 AWS 리전 결정 규칙 개선 등이 적용되었습니다.\n\n마이그레이션 시 주의할 점도 있습니다. 일부 Mistral AI 채팅 모델이 폐기되었으며, Redis 채팅 메모리 모듈의 식별자 변경, OpenAI 툴 호출 strict 모드의 기본값 변경(false로 전환), 미디어 빌더의 타입 기반 데이터 오버로드 사용 등이 포함되어 있어 업그레이드 노트를 반드시 확인해야 합니다.\n\n그 외에도 MCP 애노테이션의 GraalVM 네이티브 이미지 호환성 향상, 의존성 라이브러리(Milvus, Pinecone, Qdrant 등) 버전 업데이트가 이루어졌으며, 전체적인 빌드 및 문서 체계가 더욱 정교해졌습니다. 상세한 내용은 제공된 공식 릴리스 노트와 업그레이드 가이드를 참고하시기 바랍니다.",
+    "url": "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "tzolov",
+    "pubDate": "2026-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "deepseek-2026-08-21",
+    "title": "DeepSeek Update: DeepSeek-V4-Flash-Vision-Exp Release",
+    "summary": "Today, the new multimodal vision understanding model DeepSeek-V4-Flash-Vision-Exp is now available on the DeepSeek API platform. This is an experimental model that can be accessed by setting model=&#x",
+    "aiSummary": "DeepSeek가 새로운 멀티모달 시각 이해 모델인 DeepSeek-V4-Flash-Vision-Exp를 공개했습니다. 현재 해당 모델은 DeepSeek API 플랫폼을 통해 실험적 형태로 제공되고 있습니다. 이용자들은 API 요청 시 모델명을 deepseek-v4-flash-vision-exp로 설정하여 접근할 수 있습니다.",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-08-21",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -44,6 +125,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-ai-sdk-0-11",
+    "title": "Agent Run Observability in Laravel AI SDK 0.11",
+    "summary": "Laravel AI SDK 0.11 adds run-level events for agent steps and tool calls, hosted tool search for OpenAI and Anthropic, and wider provider failover.\nThe post Agent Run Observability in Laravel AI SDK 0",
+    "aiSummary": "Laravel AI SDK 0.11 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 에이전트 단계와 도구 호출 과정에 대한 런 레벨 이벤트 관측 기능을 추가하여 개발자가 AI의 실행 과정을 더욱 세밀하게 추적할 수 있게 된 점입니다.\n\n또한 OpenAI와 Anthropic을 위한 호스팅된 도구 검색 기능을 도입하여 편의성을 높였습니다. 더불어 다양한 AI 서비스 제공업체 간의 장애 조치 지원 범위를 넓혀 시스템의 안정성과 유연성을 강화했습니다.",
+    "url": "https://laravel-news.com/laravel-ai-sdk-0-11?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-20T23:05:54.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -435,6 +532,22 @@
       "Bun",
       "Runtime",
       "Build Tool"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now",
+    "title": "Spring Batch 6.0.5 and 6.1.0-M1 available now",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring Batch 6.0.5 버전과 6.1.0-M1 마일스톤 버전이 새롭게 출시되었습니다. 이번 업데이트는 안정성 개선과 새로운 기능 도입을 포함하며 개발자들이 Spring Batch 프레임워크를 더욱 효율적으로 활용할 수 있도록 지원합니다. 자세한 변경 사항과 설치 방법은 공식 Spring IO 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "fmbenhassine",
+    "pubDate": "2026-08-20T00:00:00.000Z",
+    "fetchedAt": "2026-08-21T15:53:30.218Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -1513,55 +1626,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731283",
-    "title": "Exploring Compose HTML for Server Side Rendering",
-    "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without ",
-    "aiSummary": "최근 웹 개발 업계에서는 React의 Server Components, HTMX의 하이퍼미디어 방식, Phoenix LiveView의 서버 중심 UI 업데이트 등 서버 사이드 렌더링을 재조명하는 흐름이 거세지고 있습니다. 이러한 흐름 속에서 JVM 생태계는 상대적으로 소외되어 있었으나 Compose를 활용한 새로운 접근이 가능성을 제시하고 있습니다.\n\nCompose HTML을 활용하면 안드로이드와 데스크톱에서 검증된 Compose의 선언적 UI 모델을 웹 환경의 서버 사이드 렌더링에 적용할 수 있습니다. 이는 기존의 클라이언트 프레임워크에 의존하던 방식에서 벗어나 서버에서 UI를 직접 렌더링함으로써 JVM 기반 개발자들에게도 효율적인 웹 개발 환경을 제공할 수 있는 혁신적인 시도입니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
-    "category": "프로그래밍 언어",
-    "source": "Kotlin Blog",
-    "author": "Frederik Pietzko",
-    "pubDate": "2026-08-14T12:15:09.000Z",
-    "fetchedAt": "2026-08-14T16:09:35.847Z",
-    "tags": [
-      "Kotlin",
-      "Android"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=731283",
-    "title": "Exploring Compose HTML for Server Side Rendering",
-    "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without ",
-    "aiSummary": "최근 웹 개발 생태계에서는 React Server Components, HTMX, Phoenix LiveView 등이 등장하며 서버 측에서 UI를 렌더링하는 방식이 다시 주목받고 있습니다. 하지만 JVM 환경은 이러한 흐름에서 다소 소외되어 있으며, 이에 대한 대안으로 Compose HTML을 활용한 서버 사이드 렌더링 방식이 논의되고 있습니다.\n\n이 기술은 Jetpack Compose의 선언적 UI 프레임워크를 브라우저 환경인 HTML과 결합하여 서버에서 UI를 구성하는 것을 목표로 합니다. 그동안 JVM 생태계가 클라이언트 프레임워크 없이도 인터랙티브한 UI를 구현하려는 최신 트렌드에 대응하기 위해, Compose의 강력한 추상화 능력을 서버 측 웹 개발에 어떻게 접목할 수 있을지 가능성을 탐색합니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Frederik Pietzko",
-    "pubDate": "2026-08-14T12:15:09.000Z",
-    "fetchedAt": "2026-08-14T16:09:35.847Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.2.0",
-    "title": "v11.2.0",
-    "summary": "What's Changed\nfix(core): share existing singleton providers with lazily loaded modules by @shariyerShazan in #17430\nfix(common): match string file types containing regex metacharacters by @Jaybhade i",
-    "aiSummary": "이번 v11.2.0 업데이트는 주로 프레임워크의 핵심 코어 및 Fastify 관련 버그 수정과 새로운 기능 추가를 포함합니다.\n\n핵심 기능으로는 RFC 10008을 준수하는 QUERY HTTP 메서드 지원이 추가되었으며, 이를 위한 e2e 통합 테스트가 함께 도입되었습니다. 또한, core 모듈에 SSE signal 기능이 새롭게 추가되었습니다.\n\n버그 수정의 경우, 싱글톤 제공자를 지연 로딩 모듈과 공유하는 과정에서의 오류와 파일 형식 매칭 시 정규식 특수 문자 처리 문제를 해결했습니다. 레거시 라우트 컨버터에서의 와일드카드 세그먼트 처리 로직과 ParseEnumPipe의 숫자 enum 검증 방식도 개선되었습니다.\n\nFastify 플랫폼과 관련해서는 전역 접두사에서 제외된 라우트에서의 미들웨어 실행 문제와 상속된 미들웨어의 이중 접두사 문제를 수정하였습니다. 이외에도 지연 모듈의 사전 등록된 동적 임포트 스캔 기능이 보완되었으며, 의존성 라이브러리인 Fastify 버전이 v5.12.0으로 업데이트되었습니다. 이번 버전에는 다수의 신규 기여자가 참여하여 개발 생태계가 더욱 확장되었습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.0",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-08-14T12:13:12.000Z",
-    "fetchedAt": "2026-08-14T16:09:35.847Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
     ]
   }
 ]
