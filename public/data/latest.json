@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.19",
+    "title": "1.1.19",
+    "summary": "Fixed --remote-control refusing to start whenever port was taken, so it now takes a free port from the operating system.\nAdded the AGY_CLI_HIDE_LOGO environment variable for narrow terminals, screen r",
+    "aiSummary": "AGY CLI 1.1.19 버전 업데이트가 진행되었습니다.\n\n이번 업데이트에서는 remote-control 기능 실행 시 포트가 이미 사용 중일 경우 시작되지 않던 문제를 수정하여 운영체제로부터 사용 가능한 포트를 자동으로 할당받도록 개선하였습니다.\n\n좁은 터미널 환경이나 스크린 리더 사용 및 화면 녹화 시 로고 아트가 방해되는 문제를 해결하기 위해 AGY_CLI_HIDE_LOGO 환경 변수를 추가하였습니다. 이를 설정하면 로고 아트만 숨겨지고 버전 및 계정 정보는 그대로 유지됩니다.\n\n또한 렌더러의 dirty-rectangle 및 diffing 최적화 기능을 우회할 수 있도록 AGY_CLI_DISABLE_ESCAPE_SEQUENCE_OPTIMIZATIONS 환경 변수를 새롭게 도입하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.19",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-22T23:30:31.000Z",
+    "fetchedAt": "2026-08-22T23:40:25.558Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.18",
     "title": "1.1.18",
     "summary": "Added support for passing a project name to --project, which previously accepted only a project ID and failed on anything else.\nAdded item.rename and item.delete keybindings for the conversation picke",
