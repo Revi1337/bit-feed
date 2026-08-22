@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.18",
+    "title": "1.1.18",
+    "summary": "Added support for passing a project name to --project, which previously accepted only a project ID and failed on anything else.\nAdded item.rename and item.delete keybindings for the conversation picke",
+    "aiSummary": "이번 업데이트에서는 프로젝트 식별자만 가능했던 --project 옵션에 프로젝트 이름을 입력할 수 있도록 기능을 확장했습니다. 대화 선택기에서 이름 변경 및 삭제 작업을 위한 item.rename과 item.delete 키 바인딩을 추가하여 펑션 키가 없는 환경에서도 f2와 f4를 재설정할 수 있게 개선했습니다. @ 파일 경로 완성 기능에는 오타가 발생해도 파일을 검색할 수 있는 오타 허용 방식을 도입했으나, 정확하게 일치하는 결과가 항상 우선순위를 갖도록 설계했습니다.\n\n오디오 파일 첨부 기능은 wav, mp3, m4a, aac, flac, opus 등 Gemini 모델이 지원하는 표준 형식들을 모두 인식하도록 개선되었습니다. Windows 환경에서는 키 입력 시 불필요한 이벤트 처리를 제거하여 렌더링 부하를 줄이고 반응 속도를 높였습니다. 아티팩트 뷰어 하단부 레이아웃을 조정하여 문서 탐색을 위한 단축키들을 그룹화했습니다.\n\n오류 수정 사항으로는 print 모드에서 에이전트 스트림이 중단될 경우 정상 종료로 처리되던 문제를 수정하여 에러를 명확히 출력하도록 변경했습니다. 프롬프트 플래그 사용 시 인자가 잘못 전달되던 오류를 수정했고, 긴 답변이 출력될 때 UI가 화면 밖으로 밀려나던 문제를 방지하기 위해 터미널 높이에 맞춰 스크롤이 가능하도록 조치했습니다. 그 외에도 /resume 명령의 위치 오류, 파일 링크 이후 텍스트 스타일 소실 문제, 그리고 특정 터미널 환경에서 입력 모드 재설정 시 발생하는 잔여 문자 출력 문제를 해결했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.18",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-22T01:47:03.000Z",
+    "fetchedAt": "2026-08-22T07:50:06.054Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "3e7f6047f5812686137b8832bd55b853dd906a34",
     "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
     "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
@@ -207,6 +224,22 @@
     "tags": [
       "Django",
       "Python"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/21/this-week-in-rails",
+    "title": "Banner or no banner, that’s the question",
+    "summary": "Hi, it’s Claudio Baccigalupo. Let’s explore this week’s changes in the Rails codebase.\nAdd –no-banner to bin/rails console\nbin/rails console --no-banner will remove it for you.\nAdd support for the HTT",
+    "aiSummary": "이번 주 Rails 코드베이스에는 개발 편의성과 시스템 안정성을 높이는 다양한 업데이트가 포함되었습니다.\n\n먼저 bin/rails console 실행 시 배너 출력을 제어할 수 있도록 no-banner 옵션이 추가되었습니다. HTTP QUERY 메서드 지원이 추가되었으며 file_field_tag의 accept 속성이 올바르게 쉼표로 구분되도록 수정되었습니다.\n\n데이터베이스와 Active Record 관련 변경 사항도 다수 존재합니다. Relation#update 메서드는 이제 스코프를 엄격하게 준수하여 범위를 벗어난 업데이트 시 RecordNotFound 오류를 발생시키는 방식으로 변경되었습니다. 또한 여러 테이블의 컬럼 정보를 한 번의 쿼리로 조회할 수 있게 개선되어 스키마 캐시 덤프 성능이 향상되었습니다.\n\n멀티스레딩 환경을 위한 Ractor 안전성 강화 작업이 진행되었으며 ActiveModel::Type::Binary::Data의 as_json 동작이 개선되었습니다. Rails.app.executor에는 식별을 돕기 위한 임시 이름이 부여되었습니다.\n\n기타 주요 변경 사항으로는 ActiveRecord::Relation#uniq! 메서드의 폐기, 내부 쿼리 시 all_queries 기본 스코프 적용, Controller의 default_url_options 고정 등이 있습니다. 또한 Active Record의 불필요한 워크아웃 코드가 제거되었고 Time.rfc3339 메서드가 Z 입력에 대해 올바른 UTC 객체를 반환하도록 수정되었습니다. 이번 업데이트에는 총 22명의 기여자가 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/8/21/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Claudio Baccigalupo",
+    "pubDate": "2026-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-08-22T07:50:06.054Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
