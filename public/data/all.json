@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/24/coc-block-tackle/",
+    "title": "The Block and Tackle of Django's Code of Conduct Working Group",
+    "summary": "In early 2026, Django's Code of Conduct Working Group adopted Contributor Covenant 3.0 as Django's Code of Conduct. I talked about why at DjangoCon US 2026 (slides here). That talk was mostly the stor",
+    "aiSummary": "Django의 Code of Conduct Working Group은 2026년 초 Contributor Covenant 3.0을 도입하며, 투명하고 체계적인 거버넌스 운영을 위해 기술적, 절차적 매커니즘을 정립했습니다. 이 그룹은 DSF 이사회와 협력하면서도 독립적으로 운영되며, 코드 변경이나 징계 등 핵심적인 사안에 대해서만 이사회의 승인을 거치도록 설계되었습니다.\n\n변경 절차는 GitHub의 CODEOWNERS 파일을 통해 강제됩니다. 일반 문서 변경은 워킹 그룹의 합의만으로 가능하지만, CODE_OF_CONDUCT.md 파일은 이사회의 승인이 반드시 필요하도록 자동화되어 있습니다. 또한 모든 변경 사항은 30일간의 공개 의견 수렴 기간을 거쳐야 하며, GitHub Actions를 활용하여 변경 이력을 투명하게 기록하고 관리합니다.\n\n보고 처리와 기록 관리 역시 매우 체계적입니다. 모든 사건은 랜덤 코드 네임을 사용하여 실명 노출을 방지하며, 세 가지 수준으로 분리된 스프레드시트를 통해 보안과 통계 분석을 병행합니다. 개인 식별 키가 포함된 문서는 접근 권한을 엄격히 제한하고, 통계 자료만 외부로 공개하는 방식을 채택합니다.\n\n이러한 운영 방식은 단순히 규칙을 정하는 것에 그치지 않고, 시스템화된 도구와 투명한 기록을 통해 커뮤니티의 신뢰를 기술적으로 검증 가능한 형태로 전환했습니다. Django 측은 이 모든 과정과 템플릿을 공개하여, 다른 오픈소스 프로젝트가 유사한 거버넌스 체계를 구축할 수 있도록 지원하고 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/24/coc-block-tackle/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Dan Ryan, Code of Conduct WG Chair",
+    "pubDate": "2026-08-24T14:00:00.000Z",
+    "fetchedAt": "2026-08-24T15:59:49.635Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.19",
     "title": "1.1.19",
     "summary": "Fixed --remote-control refusing to start whenever port was taken, so it now takes a free port from the operating system.\nAdded the AGY_CLI_HIDE_LOGO environment variable for narrow terminals, screen r",
@@ -31,6 +47,38 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-ai-agent-run-events",
+    "title": "Laravel AI: Trace Agent Runs With Lifecycle Events",
+    "summary": "Laravel AI 0.11 gives every agent run one invocation ID plus step and tool events with wall timings, so you can trace, log, and time a run end to end.\nThe post Laravel AI: Trace Agent Runs With Lifecy",
+    "aiSummary": "Laravel AI 0.11 버전 업데이트를 통해 에이전트 실행 과정에 대한 추적 기능이 강화되었습니다.\n\n이번 업데이트는 모든 에이전트 실행 시 고유한 invocation ID를 부여하며, 단계별 및 도구별 이벤트에 대한 실행 시간 정보를 제공합니다. 이를 통해 개발자는 에이전트의 전체 실행 과정을 추적하고 기록하며 소요 시간을 측정할 수 있게 되었습니다.",
+    "url": "https://laravel-news.com/laravel-ai-agent-run-events?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-21T18:56:17.000Z",
+    "fetchedAt": "2026-08-24T15:59:49.635Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-ai-raw-http-response",
+    "title": "Laravel AI: Get Raw HTTP Responses and Rate Limits",
+    "summary": "The Laravel AI SDK exposes the provider's underlying HTTP response on $response->raw, so you can read rate limit headers, request ids, and payload fields.\nThe post Laravel AI: Get Raw HTTP Responses a",
+    "aiSummary": "Laravel AI SDK가 업데이트를 통해 제공자의 원본 HTTP 응답에 접근할 수 있는 기능을 추가했습니다.\n\n개발자는 이제 응답 객체의 raw 속성을 통해 API로부터 전달받은 헤더 정보를 직접 확인할 수 있습니다. 이를 활용하면 사용자는 서비스의 레이트 리밋 정보나 요청 아이디, 그리고 상세 페이로드 필드 등을 코드 내에서 직접 읽고 처리하는 것이 가능해집니다.",
+    "url": "https://laravel-news.com/laravel-ai-raw-http-response?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-21T18:56:05.000Z",
+    "fetchedAt": "2026-08-24T15:59:49.635Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
