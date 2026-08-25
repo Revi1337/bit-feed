@@ -1,5 +1,70 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.2",
+    "title": "v11.2.2",
+    "summary": "What's changed\nfix(core): ObserveInstrument breaks app startup with @nestjs/core@11.2.x #17554 by @kamilmysliwiec\nfix(core): Bootstrap crashes with nestjs-cls proxy providers (ProxyProviderNotResolved",
+    "aiSummary": "NestJS v11.2.2 버전이 새롭게 배포되었습니다. 이번 업데이트는 주로 애플리케이션 실행 단계에서 발생하던 치명적인 오류들을 수정하는 데 집중했습니다.\n\n구체적으로는 @nestjs/core@11.2.x 버전에서 ObserveInstrument 기능 사용 시 애플리케이션 시작이 중단되는 문제를 해결했습니다. 또한 nestjs-cls 프록시 제공자를 사용할 때 CLS_REQ 관련 ProxyProviderNotResolvedException 오류로 인해 부트스트랩 과정에서 발생하는 충돌 현상을 개선했습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.2",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-25T07:59:18.000Z",
+    "fetchedAt": "2026-08-25T08:03:37.555Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.20",
+    "title": "1.1.20",
+    "summary": "Added skill icon and visual branding support across the CLI, displaying emoji icons declared under metadata.icon in SKILL.md frontmatter across the /skills catalog list view, detail inspection headers",
+    "aiSummary": "CLI 환경에서 SKILL.md 파일의 metadata.icon에 정의된 이모지를 카탈로그 목록과 상세 보기, 명령어 자동 완성 창에 표시하도록 하여 시각적 브랜딩을 강화했습니다. 이때 터미널 레이아웃이 깨지지 않도록 멀티바이트 유니코드 너비를 정확히 계산합니다.\n\n파일 경로 자동 완성 기능을 개선하여 빈 디렉토리도 ripgrep 검색 결과에 포함시켰으며, 워크스페이스 내 파일 읽기 권한을 기본적으로 승인하도록 변경하여 반복적인 승인 절차를 줄였습니다. 단, 파일 수정이나 외부 접근에 대해서는 기존처럼 확인 절차를 유지합니다.\n\nGit 저장소 검사 시 하위 모듈의 재귀적 스캔을 건너뛰어 대규모 저장소에서의 상태 확인 지연을 해결했습니다. 또한 print 모드 사용 시 도구 실행 오류가 치명적인 실패로 간주되던 문제를 수정하여 비대화형 환경에서의 종료 코드가 정상적으로 작동하도록 개선했습니다.\n\n설정 파일인 settings.json 처리 방식도 개선하여 구문 오류 발생 시 기존 설정이 삭제되지 않고 보존되도록 변경했습니다. 이외에도 내장된 사용자 정의 항목이 목록에 표시되지 않던 문제를 해결하고, CJK 입력 시 발생하는 글자 간격 문제와 비활성 상태에서의 불필요한 CPU 점유를 유발하던 애니메이션 루프 오류를 수정했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.20",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-25T02:58:33.000Z",
+    "fetchedAt": "2026-08-25T08:03:37.555Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/08/25/jipher-cryptography-for-java/",
+    "title": "Announcing Oracle Jipher 10.37: FIPS 140-3 Cryptography for Java",
+    "summary": "Oracle Jipher 10 packages a FIPS 140-3 validated OpenSSL cryptographic module, making cryptographic services available through the standard Java Cryptography Architecture (JCA) framework.\n\t\t\t\t\n\t\t\t\n\t\t\t",
+    "aiSummary": "Oracle Jipher 10.37 버전이 새롭게 발표되었습니다. 이번 업데이트의 핵심은 FIPS 140-3 인증을 완료한 OpenSSL 암호화 모듈을 Java Cryptography Architecture 프레임워크를 통해 제공하는 것입니다. 이를 통해 Java 개발자는 표준화된 환경에서 강화된 보안 규격의 암호화 서비스를 손쉽게 활용할 수 있게 되었습니다.",
+    "url": "https://inside.java/2026/08/25/jipher-cryptography-for-java/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Poonam Parhar",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T08:03:37.555Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_statviz-12-released-with-postgresql-19-support-and-new-features-3369/",
+    "title": "pg_statviz 1.2 released with PostgreSQL 19 support and new features\n",
+    "summary": "Just in time for the PostgreSQL 19 betas, I'm excited to announce release 1.2 of pg_statviz, the minimalist extension and utility pair for time series analysis and visualization of PostgreSQL internal",
+    "aiSummary": "PostgreSQL 내부 통계의 시계열 분석 및 시각화를 지원하는 pg_statviz 1.2 버전이 공개되었습니다. 이번 업데이트는 곧 출시될 PostgreSQL 19 베타 버전에 대한 지원을 포함하며, wal_fpi_bytes 카운터 수집과 I_O 워커 및 autovacuum 설정 추적 기능이 추가되었습니다.\n\n신규 기능인 차단 잠금 분석 모듈은 pg_blocking_pids를 활용하여 하드 충돌뿐만 아니라 소프트 블록 세션까지 정밀하게 탐지합니다. 해당 모듈은 차단 세션 수와 잠금 유형을 기록하며, 세션 수와 관계없이 가벼운 저장 용량을 유지하는 것이 특징입니다.\n\nAI 관련 기능도 강화되었습니다. OpenAI API를 지원하는 새로운 제공자가 추가되어 사용자가 OPENAI_BASE_URL 및 OPENAI_MODEL 환경 변수를 통해 엔드포인트와 모델을 유연하게 선택할 수 있게 되었습니다. 또한 기본 AI 모델이 claude-sonnet-5와 gemini-3.7-flash로 업데이트되었습니다.\n\npg_statviz는 외부 에이전트 없이 데이터베이스 내부에서 작동하는 최소주의적 설계 철학을 유지합니다. 별도의 모듈 로드 없이 SQL과 PL/pgSQL로만 구성되어 설치가 간편하며, AI 기능은 사용자가 선택적으로 활성화할 수 있습니다. 관련 소프트웨어는 PostgreSQL 저장소, PGXN, PyPi를 통해 설치할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_statviz-12-released-with-postgresql-19-support-and-new-features-3369/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T08:03:37.555Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "2c1999b3f40dcbf5fbc95e907da3c6141bbc8c45",
     "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
     "summary": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always ",
@@ -159,6 +224,23 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/efficient-bulk-hash-insertion-with-redis-810s-himport/",
+    "title": "Efficient Bulk Hash Insertion with Redis 8.10’s HIMPORT",
+    "summary": "I’m not a Ruby developer, and my code samples might make that clear. However, there are two reasons I’m using Ruby for the examples in this article:\n\nA new release of redis-rb.\n\nIts support for a new ",
+    "aiSummary": "Redis 8.10 버전에서 새롭게 도입된 HIMPORT 명령어를 통해 대량의 해시 데이터를 효율적으로 삽입하는 방법이 소개되었습니다. 기존의 방식이 파이프라인을 사용하더라도 네트워크 오버헤드로 인한 성능 한계가 있었던 반면, HIMPORT는 서버 측에서 대량의 필드와 값을 한 번에 처리하여 데이터 적재 속도를 크게 향상시킵니다.\n\n해당 기능을 활용하기 위해서는 업데이트된 redis-rb 클라이언트 라이브러리가 필요하며, 개발자는 이를 통해 복잡한 루프나 다수의 개별 명령어를 실행할 필요 없이 간결한 코드로 대규모 해시 데이터를 효율적으로 관리할 수 있게 됩니다. 이는 Redis 기반의 시스템에서 대용량 데이터 마이그레이션이나 초기 상태 구성 작업의 성능을 최적화하는 데 매우 유용합니다.",
+    "url": "https://redis.io/blog/efficient-bulk-hash-insertion-with-redis-810s-himport/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "David Maier",
+    "pubDate": "2026-08-24T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T08:03:37.555Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -1755,104 +1837,6 @@
     "fetchedAt": "2026-08-19T15:51:51.787Z",
     "tags": [
       "PHP"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/connect-client-traces-to-your-logs",
-    "title": "Connect client traces to your logs",
-    "summary": "supabase-js now propagates W3C Trace Context to Supabase, so a client trace and the matching Supabase log share one trace_id.",
-    "aiSummary": "supabase-js 라이브러리가 W3C Trace Context를 Supabase로 전달하도록 업데이트되었습니다. 이제 클라이언트에서 발생하는 추적 정보와 Supabase의 로그가 동일한 trace_id를 공유하게 됩니다. 이를 통해 클라이언트 요청부터 Supabase 서버 측 로그까지 전체 흐름을 일관되게 추적하고 분석하는 것이 가능해졌습니다.",
-    "url": "https://supabase.com/blog/connect-client-traces-to-your-logs",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-08-18T07:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.14",
-    "title": "1.1.14",
-    "summary": "Added a faster return path for enterprise sign-in, so a returning user is offered a single Continue with ... option naming the method they last used.\nAdded support for OAuth client ID metadata documen",
-    "aiSummary": "이번 업데이트 버전 1.1.14에서는 엔터프라이즈 로그인 과정에서 기존 사용자가 마지막으로 사용한 인증 수단을 바로 안내하는 빠른 경로를 추가하여 편의성을 개선했습니다. MCP 서버 연결 시 OAuth 클라이언트 ID 메타데이터 문서를 지원하여 수동 설정의 번거로움을 줄였으며, context 및 usage 패널의 크기와 스크롤 기능을 터미널 환경에 맞게 최적화했습니다. 마크다운 기반 에이전트의 설정을 inheritCustomizations 단일 스위치로 통합하여 사용자 정의 기능 상속을 명확히 했고, 작업 공간 외부 접근 권한은 읽기 전용으로 제한하여 보안을 강화했습니다.\n\n안정성 측면에서는 언어 서버 오류 시 CLI가 성공으로 오인하고 종료되던 문제를 수정하여 오류 메시지를 출력하도록 변경했습니다. 또한 OSC 8 하이퍼링크를 지원하지 않는 터미널 환경에서 링크가 깨지는 현상을 방지하고, 경로 제안 팝업 로딩 중 Enter 키가 무시되던 입력 오류를 해결했습니다. 아울러 이전 아티팩트 상태 오류와 MCP 설정 파일의 일부 오류가 전체 서버 로딩을 방해하던 문제를 수정했습니다. 이외에도 inherit_user 설정 시 기본 기능이 사라지던 버그, 대화 히스토리 처리 시 발생하는 SQL 변수 오류, 대화 제목이 잘못 변경되던 현상, 그리고 붙여넣기 시 문장 단위로 자동 전송되던 문제 등을 전반적으로 개선하였습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.14",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-18T04:32:25.000Z",
-    "fetchedAt": "2026-08-18T07:57:53.349Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/18/this-week-in-spring-august-18-2026",
-    "title": "This Week in Spring - August 18th, 2026",
-    "summary": "Hi, Spring fans! Welcome back to another edition of This Week in Spring.\n\nIn my latest video, I dive into how to bake multitenancy into a system using Spring Security, OAuth, and a fantastic third-par",
-    "aiSummary": "2026년 8월 18일자 This Week in Spring 소식입니다.\n\nSpring Security와 OAuth를 활용해 시스템에 멀티테넌시를 구현하는 방법이 소개되었으며, 이와 관련된 Arconia 프로젝트의 새로운 릴리스가 공개되었습니다. Spring AI와 관련해서는 Java 개발자를 위한 에이전트 구축 가이드가 공유되었고, Craig Walls가 작성한 ReAct 기반 에이전트 및 LangGraph4j를 이용한 그래프 기반 에이전트 워크플로우 구현법이 다루어졌습니다.\n\n커뮤니티 활동으로는 JPA 엔티티에서 직접 REST API를 생성하는 Spring FlashAPI와 Spring Boot UI 프로젝트가 주목받고 있습니다. 또한, Spring AI 기반의 에이전트 워크플로우 엔진인 Embabel 1.5.0 버전이 출시되었으며, Presidio와 OpenNLP를 활용해 개인정보를 보호하는 spring-ai-privacy-guardrails 프로젝트가 눈길을 끕니다.\n\n그 외에도 JSpecify를 사용한 Spring의 Null-safety 구현 전략이 공유되었으며, A Bootiful Podcast를 통해 엔터프라이즈 환경에서 AI 도입의 현실과 위험성에 대한 논의가 이루어졌습니다. 추가로 분산 작업 및 스케줄링 엔진인 JobRunr의 최신 릴리스에 대한 상세 영상도 함께 공개되었습니다.",
-    "url": "https://spring.io/blog/2026/08/18/this-week-in-spring-august-18-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/8/18/on-rails-joanna-wang-sixfold",
-    "title": "On Rails — Joanna Wang: Code Is Cheap Now; Developers Still Valuable",
-    "summary": "Joanna Wang is a senior software engineer at Sixfold (https://www.sixfold.ai/), where the team builds AI underwriting tools that help insurance companies gather data and assess risk. She came to Ruby ",
-    "aiSummary": "Sixfold의 시니어 소프트웨어 엔지니어인 Joanna Wang이 출연하여 소프트웨어 개발 환경의 변화와 실무적 경험을 공유합니다. AI의 발전으로 코드 작성 자체는 저렴해졌지만, 여전히 숙련된 개발자의 가치는 높다는 점을 강조합니다.\n\n기술적인 측면에서 Joanna Wang은 기존에 구축했던 상태 머신과 콜백 기반의 오케스트레이션 시스템이 복잡성으로 인해 유지보수가 어려워진 과정을 설명합니다. 이를 해결하기 위해 Hatchet을 도입하며 겪은 변화와 더 이상 유지보수되지 않는 라이브러리를 사용할 때의 장단점을 다룹니다.\n\n팀이 완전한 에이전트 시스템으로 전환했을 때 발생한 상황도 논의합니다. 특히 AI 에이전트가 Rails의 내부 동작을 추적해 주는 기능을 활용함으로써 Rails 특유의 복잡한 추상화 기술인 Rails magic을 이해하는 과정이 훨씬 수월해졌음을 강조합니다.",
-    "url": "https://rubyonrails.org/2026/8/18/on-rails-joanna-wang-sixfold",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Rails Foundation",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/context-engineering-agentic-ai",
-    "title": "From retrieval to agents: 5 takeaways on production architecture for AI agents",
-    "summary": "As enterprises transition from search-driven experiences to agentic AI, requirements are shifting. Learn how context engineering and retrieval layers are now more critical for building trustworthy, pr",
-    "aiSummary": "기업들이 단순한 검색 기반의 AI 경험에서 에이전트 기반의 AI로 전환함에 따라 기술적 요구 사항이 변화하고 있습니다. 성공적인 AI 에이전트 구축을 위해서는 맥락을 정교하게 다루는 컨텍스트 엔지니어링과 안정적인 검색 계층을 확보하는 것이 무엇보다 중요합니다. 신뢰할 수 있고 실무에 즉시 투입 가능한 수준의 AI 에이전트를 구현하기 위해서는 이러한 기반 아키텍처의 고도화가 필수적인 과제로 떠오르고 있습니다.",
-    "url": "https://www.elastic.co/blog/context-engineering-agentic-ai",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Sri Desikan",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/agentic-treasury",
-    "title": "Agentic treasury runs on searchable, observable context",
-    "summary": "Agentic treasury requires more than AI. It needs searchable context, observable systems, and trusted data to reduce decision latency and support confident, governed action.",
-    "aiSummary": "Agentic treasury를 성공적으로 구현하기 위해서는 단순한 AI 도입을 넘어선 종합적인 데이터 환경이 필요합니다.\n\n핵심 요건은 AI가 정보를 즉각적으로 파악할 수 있는 검색 가능한 컨텍스트와 시스템의 상태를 투명하게 모니터링할 수 있는 관측 가능성입니다.\n\n또한 신뢰할 수 있는 데이터 기반의 운영을 통해 의사결정의 지연 시간을 줄이고, 기업의 거버넌스 원칙 내에서 확신을 가지고 자금 관리 업무를 수행하는 것이 중요합니다.",
-    "url": "https://www.elastic.co/blog/agentic-treasury",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Karen Mcdermott",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
     ]
   }
 ]
