@@ -1,5 +1,153 @@
 [
   {
+    "id": "https://www.docker.com/?p=93146",
+    "title": "Moving from Minimus to Docker Hardened Images",
+    "summary": "The Minimus registry goes offline on October 22. Here is the migration path, the free help Docker is offering, and where to start.",
+    "aiSummary": "Minimus 레지스트리가 10월 22일부로 운영을 종료합니다. 이에 따라 기존 사용자는 Docker Hardened Images로 전환해야 합니다.\n\nDocker는 이번 마이그레이션을 지원하기 위해 무료 기술 지원을 제공하며 관련 가이드를 통해 전환 절차를 안내하고 있습니다. 사용자들은 서비스 중단 전까지 안내된 마이그레이션 경로를 확인하고 조속히 이전을 시작해야 합니다.",
+    "url": "https://www.docker.com/blog/moving-from-minimus-to-docker-hardened-images/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Vishrut Iyengar",
+    "pubDate": "2026-08-25T22:27:06.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+    "title": "GitHub Copilot app Customize tab is generally available",
+    "summary": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP…\nThe post GitHub Copilot ap",
+    "aiSummary": "GitHub Copilot 앱에 새롭게 추가된 Customize 탭이 정식 출시되었습니다. 이번 업데이트를 통해 사용자는 팀에서 기존에 활용하던 도구와 지식, 워크플로우를 GitHub Copilot에 직접 통합하여 생산성을 높일 수 있습니다. 특히 MCP 기술을 도입하여 외부 시스템과의 연동성을 강화한 것이 특징입니다. 이를 통해 개발자는 자신만의 작업 환경에 최적화된 맞춤형 AI 보조 도구를 더욱 효과적으로 구성할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-25T20:05:26.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/25/pycharm-django-fall-fundraiser/",
+    "title": "PyCharm & Django Fall Fundraiser",
+    "summary": "We are back with our friends at JetBrains for the second of the two \"Buy PyCharm, Support Django\" fundraisers we run together each year. Our spring campaign was the first. It remains one of the most i",
+    "aiSummary": "Django Software Foundation이 JetBrains와 협력하여 두 번째 PyCharm 연례 모금 행사를 진행합니다. 2026년 9월 7일까지 제공되는 특별 캠페인 링크를 통해 PyCharm 신규 라이선스를 구매하거나 기존 라이선스를 갱신하면 30퍼센트 할인 혜택을 받을 수 있으며, JetBrains는 할인된 금액만큼을 Django Software Foundation에 기부합니다.\n\n이번 모금은 Django Executive Director 채용을 포함하여 Django Fellows 지원, Django Girls 운영, 국제 컨퍼런스 개최, Djangonaut Space를 통한 신규 기여자 육성 등 핵심 프로젝트를 추진하기 위해 기획되었습니다. 특히 재단은 연간 30만 달러 수준의 모금액을 50만 달러까지 늘려 상근 Executive Director 직책을 안정적으로 유지하는 것을 목표로 하고 있습니다.\n\n참여를 원하는 사용자는 캠페인 링크를 통한 라이선스 구매 외에도 Django Software Foundation 웹사이트, GitHub Sponsors, Benevity 프로그램을 통해 직접 기부할 수 있으며, 기업 후원을 원하는 경우 별도의 기업 스폰서 양식을 이용할 수 있습니다. JetBrains는 이번 캠페인뿐만 아니라 매년 Django 및 Python 개발자 설문조사를 실시하는 등 Django 생태계의 지속적인 성장을 위해 다방면으로 기여하고 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/25/pycharm-django-fall-fundraiser/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "2026-08-25T19:45:00.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+    "title": "Block users directly from security advisories",
+    "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nThe pos",
+    "aiSummary": "GitHub는 공용 저장소의 보안 권고 페이지에서 사용자를 직접 차단할 수 있는 기능을 새롭게 추가하였습니다.\n\n해당 기능은 조직 또는 개인 계정이 소유한 공용 저장소에서 활용할 수 있으며 기존의 관리 및 검토 과정을 더욱 간소화하는 역할을 합니다. 이를 통해 보안 관리자는 불필요한 사용자를 보다 빠르고 효율적으로 제어할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-25T18:38:57.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/august-2026-security-release",
+    "title": "August 2026 Security Release",
+    "summary": "The August 2026 security release for Next.js is now available",
+    "aiSummary": "Next.js의 2026년 8월 보안 업데이트가 발표되었습니다. 해당 업데이트에는 보안 강화를 위한 패치가 포함되어 있으므로 관련 서비스를 운영하는 사용자들은 신속하게 적용해야 합니다.",
+    "url": "https://nextjs.org/blog/august-2026-security-release",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Josh Story"
+      ]
+    },
+    "pubDate": "2026-08-25T18:00:00.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+    "title": "Push rules in rulesets now support path exceptions",
+    "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nThe post Push rules",
+    "aiSummary": "GitHub의 rulesets 내 push rules 기능에 경로 예외 설정이 추가되었습니다. 이제 특정 파일 경로를 제외한 나머지 범위에만 규칙을 적용할 수 있도록 더욱 세밀한 구성이 가능해졌습니다. 이러한 경로 예외 설정은 현재 공개 베타 형태로 제공됩니다.",
+    "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-25T17:40:15.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "0d62c0134c150af14fc409516cdf59aff26dc9e1",
+    "title": "Happy 20th Birthday, Amazon EC2",
+    "summary": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 i",
+    "aiSummary": "Amazon EC2가 출시 20주년을 맞이했습니다. AWS는 지난 20년간 범용 및 AI 워크로드를 위한 자체 커스텀 실리콘을 개발하고 EC2의 폼팩터와 배포 모델을 지속적으로 확장하며 클라우드 컴퓨팅의 한계를 꾸준히 넓혀왔습니다. 이는 2006년 당시 고객들이 상상하지 못했던 수준의 혁신을 이루어낸 성과입니다.",
+    "url": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-08-25T16:11:02.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/gvisor-sandboxes-for-ray-clusters-on-gke/",
+    "title": "Bringing gVisor sandboxes to distributed Ray clusters",
+    "summary": "The reinforcement learning (RL) ecosystem is rapidly adopting Ray as the unified compute runtime for complex post-training workflows. Across Google Cloud, we see customers using Ray for workloads rang",
+    "aiSummary": "Google Cloud와 Anyscale이 협력하여 분산 Ray 클러스터 내에서 안전하고 격리된 환경을 실행할 수 있는 gVisor 기반의 샌드박스 라이브러리를 발표했습니다. 최근 강화 학습과 에이전트 기반 모델의 활용이 늘어남에 따라 생성된 코드를 안전하게 실행하는 격리 환경의 중요성이 커졌으며, 이를 Ray의 기존 프로그래밍 모델에 자연스럽게 통합하는 것이 이번 업데이트의 핵심입니다.\n\n새로운 샌드박스 기능은 Ray Actor를 통해 구현됩니다. Ray 스케줄러가 샌드박스의 리소스를 할당하고 수명 주기를 관리하며, gVisor가 해당 노드에서 독립적인 실행 환경을 제공하는 방식입니다. 이를 통해 개발자는 Ray 2.58 버전부터 기존의 Ray API를 사용하여 OCI 호환 이미지를 기반으로 샌드박스를 생성하거나 리소스 제한, 파일 작업, 상태 확인 등의 기능을 동일한 패턴으로 수행할 수 있습니다.\n\ngVisor를 샌드박스 런타임으로 선택한 이유는 리눅스 시스템 호출 인터페이스의 상당 부분을 사용자 공간에서 구현하여 호스트 커널과의 격리 수준을 높였기 때문입니다. 또한 Docker 데몬에 의존하지 않으면서도 낮은 메모리 오버헤드와 빠른 시작 속도를 제공하여 에이전트 워크로드에 최적화된 경량 격리 환경을 구축할 수 있게 합니다.\n\n향후 Ray의 업데이트를 통해 Agent Substrate나 Kata Containers 등 다양한 샌드박스 런타임에 대한 지원이 추가될 예정입니다. 현재 사용자들은 Google Cloud의 GKE 환경에서 해당 샌드박스 기능을 직접 테스트하고 피드백을 제공할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gvisor-sandboxes-for-ray-clusters-on-gke/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Andrew Sy Kim"
+      ],
+      "title": [
+        "Staff Software Engineer, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-25T16:00:00.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "/blog/nextjs-security-release-august-2026-update",
     "title": "Update: August Next.js Security Release",
     "summary": "Next.js is moving the August security release forward to August 25, 2026.",
@@ -132,6 +280,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
+    "title": "This Week in Spring - August 25th, 2026",
+    "summary": "Hi, Spring fans! Welcome back to another installment of This Week in Spring. It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZ",
+    "aiSummary": "Spring 개발자 커뮤니티의 최신 소식을 전하는 2026년 8월 25일 주간 뉴스입니다. 이번 주에는 Spring AI와 관련된 다양한 리소스가 주목받고 있습니다. Craig Walls는 HyDE 기법을 활용한 RAG 성능 향상 방안과 ReACT 패러다임에 관한 유용한 가이드를 공유하였으며, Java 개발자를 위한 Spring Boot 기반의 생성형 AI 애플리케이션 구축 튜토리얼도 함께 소개되었습니다.\n\n주요 소프트웨어 업데이트로는 Spring AI 2.0.1 버전이 출시되었으며, Spring Boot 4.2.0-M1, 4.1.1, 4.0.8 버전이 각각 릴리스되었습니다. 이와 더불어 Spring Integration 7.2.0-M1, Spring AMQP 4.2.0-M1, Spring Batch 6.0.5 및 6.1.0-M1, Spring Data 2026.1.0-M1 시리즈와 Spring Cloud 2025.1.3 버전 등 전반적인 생태계의 대규모 업데이트가 진행되었습니다.\n\n기술적인 통찰을 제공하는 콘텐츠도 다수 포함되었습니다. RabbitMQ와 Kafka의 비교 자료와 더불어 Wimdeblauwe가 집필하고 Phil Webb이 서문을 작성한 Spring Boot 스타터 제작 관련 신간 도서가 소개되었으며, 직접 플랫폼을 구축할 때 발생하는 실제 비용에 대한 심도 있는 분석글이 눈길을 끕니다. 마지막으로 Julien Dubois가 개발한 BootUI 1.14.0 버전의 업데이트 소식과 A Bootiful Podcast를 통해 JRuby 리드인 Charles Nutter와 진행한 인터뷰가 공개되었습니다.",
+    "url": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T23:43:43.480Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -1648,87 +1812,6 @@
     "tags": [
       "PostgreSQL",
       "SQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-    "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
-    "summary": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls fo",
-    "aiSummary": "GitHub Copilot for JetBrains가 엔터프라이즈 관리형 설정을 새롭게 지원합니다. 이번 업데이트를 통해 관리자는 플러그인 거버넌스, MCP 서버 접근, OpenTelemetry 설정 및 권한 모드와 같은 기능들을 조직 전체에 일관되게 적용할 수 있게 되었습니다. 이를 통해 엔터프라이즈 규모의 환경에서 보안 정책과 운영 기준을 더욱 체계적으로 제어할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-18T23:33:07.000Z",
-    "fetchedAt": "2026-08-19T07:57:43.460Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-26-0",
-    "title": "Read-Through Disks and Debounced Listeners in Laravel 13.26",
-    "summary": "Laravel 13.26 adds a read-through filesystem driver, debounced queued event listeners, Queue::forward() routing, and new process testing helpers.\nThe post Read-Through Disks and Debounced Listeners in",
-    "aiSummary": "Laravel 13.26 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 파일 시스템의 데이터 접근 효율을 높이는 Read-Through 디스크 드라이버와 이벤트 처리의 부하를 줄여주는 Debounced queued event listeners 기능이 추가되었습니다.\n\n또한 큐 작업의 유연한 라우팅을 지원하는 Queue::forward 메서드가 도입되었으며, 프로세스 테스트를 더욱 간편하게 수행할 수 있는 새로운 헬퍼 기능들도 함께 제공됩니다.",
-    "url": "https://laravel-news.com/laravel-13-26-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-18T22:53:28.000Z",
-    "fetchedAt": "2026-08-19T15:51:51.787Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-read-through-filesystem",
-    "title": "Laravel Read-Through Filesystem: Lazy Storage Migration",
-    "summary": "Laravel's read-through filesystem driver layers a primary disk over a fallback and copies files on first read, so you can switch storage without a bulk sync.\nThe post Laravel Read-Through Filesystem: ",
-    "aiSummary": "Laravel의 Read-Through Filesystem 드라이버는 기본 디스크를 폴백 스토리지 위에 계층화하여 작동합니다.\n\n이 기술은 파일이 처음 읽히는 시점에 데이터를 복사하는 방식을 채택합니다. 따라서 대규모 데이터 동기화 작업 없이도 스토리지 환경을 원활하게 전환할 수 있는 효율적인 마이그레이션 방법을 제공합니다.",
-    "url": "https://laravel-news.com/laravel-read-through-filesystem?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-18T22:44:29.000Z",
-    "fetchedAt": "2026-08-19T15:51:51.787Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-    "title": "ChatGPT Ads expands across Europe",
-    "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-    "aiSummary": "OpenAI가 자사의 광고 서비스인 ChatGPT Ads를 유럽 내 31개 국가로 확대합니다. 이를 통해 광고주들은 사용자가 정보를 탐색하고 여러 선택지를 비교하며 최종 의사결정을 내리는 과정에서 더욱 효과적으로 도달할 수 있게 됩니다. 해당 서비스는 사용자의 구매 여정 전반에 걸쳐 맞춤형 광고를 노출함으로써 브랜드 인지도를 높이고 고객 전환을 유도하는 전략을 지원합니다.",
-    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-08-18T22:00:00.000Z",
-    "fetchedAt": "2026-08-19T07:57:43.460Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
-    "title": "Credential revocation and deauthorization by token type",
-    "summary": "Building on our self-service credential revocation experiences for incident response, you can now take token-type and user-specific actions to deauthorize and revoke user credentials during a security",
-    "aiSummary": "GitHub는 보안 사고 발생 시 대응력을 높이기 위해 토큰 유형 및 사용자별로 자격 증명을 취소하거나 권한을 해제할 수 있는 기능을 새롭게 도입하였습니다.\n\n기존의 셀프 서비스 기반 자격 증명 취소 경험을 바탕으로 설계된 이번 업데이트를 통해 보안 관리자는 사고 발생 상황에서 특정 토큰 유형이나 특정 사용자를 지정하여 더욱 정밀하고 신속하게 대응할 수 있게 되었습니다.\n\n이번 개선 사항은 전체적인 접근 권한을 일괄적으로 제한하는 대신 사고의 영향 범위에 맞춘 세분화된 제어를 가능하게 함으로써 조직의 보안 운영 효율성을 향상시킵니다.",
-    "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-18T21:57:30.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
