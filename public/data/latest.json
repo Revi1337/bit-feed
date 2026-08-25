@@ -1,5 +1,106 @@
 [
   {
+    "id": "/blog/nextjs-security-release-august-2026-update",
+    "title": "Update: August Next.js Security Release",
+    "summary": "Next.js is moving the August security release forward to August 25, 2026.",
+    "aiSummary": "Next.js가 8월로 예정된 보안 업데이트 일정을 2026년 8월 25일로 앞당겨 진행합니다. 관련 사용자들은 해당 일정을 확인하여 보안 대응을 준비하시기 바랍니다.",
+    "url": "https://nextjs.org/blog/nextjs-security-release-august-2026-update",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Josh Story"
+      ]
+    },
+    "pubDate": "2026-08-25T15:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/",
+    "title": "Now introducing Gemini Enterprise for Financial Services",
+    "summary": "Protecting capital in today's markets requires immense speed and precision. A financial analyst preparing a deal memo works across licensed market data, internal models, and confidential client files.",
+    "aiSummary": "Google은 자본 시장 및 기업 금융 분야의 워크플로우에 특화된 Gemini Enterprise for Financial Services를 출시합니다. 이 솔루션은 금융 기관이 요구하는 높은 수준의 보안과 데이터 정확성, 그리고 실무 적용 가능성을 충족하기 위해 네 가지 핵심 요소를 기반으로 설계되었습니다.\n\n첫째, 금융 업무에 최적화된 재사용 가능한 기술을 통해 특정 데이터 추출이나 보고서 작성 등 기관 고유의 방법론을 AI 에이전트에 학습시킬 수 있습니다. 둘째, MCP를 활용하여 기존 금융 플랫폼 및 라이선스 데이터 소스와 안전하게 연결함으로써 데이터 보안 권한을 엄격히 유지합니다. 셋째, Financial Research 에이전트를 포함한 실무형 에이전트들이 복잡한 조사 업무를 수행하며, 모든 과정에서 신뢰 점수와 데이터 근거를 제시하여 투명성을 확보합니다. 넷째, Accenture, Deloitte, KPMG 등 글로벌 시스템 통합 업체 및 다양한 핀테크 파트너들과의 개방형 생태계를 통해 특정 업체에 종속되지 않는 유연한 맞춤형 환경을 제공합니다.\n\n이 플랫폼은 신용 위험 평가, 포트폴리오 모니터링, KYC 연구, 채권 발행 업무 등 금융권의 핵심 워크플로우를 혁신하도록 지원합니다. 또한 Google Workspace 및 Microsoft 365와의 연동은 물론, Daloopa, FactSet, S&P Global, Moody’s 등 주요 금융 데이터 공급업체들과의 원활한 통합을 보장합니다.\n\n모든 데이터는 조직 내부 환경에서만 관리되며, 고객의 데이터가 Google의 모델 학습에 사용되지 않도록 철저히 격리됩니다. Deutsche Bank 등 주요 금융 기관과의 협력을 통해 개발된 이 솔루션은 현재 프리뷰 형태로 제공되며, 향후 의료, 생명과학 등 다양한 전문 서비스 분야로 확장될 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Thomas Kurian"
+      ],
+      "title": [
+        "CEO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/",
+    "title": "Now introducing Gemini Enterprise for Legal",
+    "summary": "Few professions are as exacting as the practice of law. A team reviewing a contract or building a case works inside strictly privileged information, firm-specific playbooks, and a body of law that cha",
+    "aiSummary": "Google Cloud은 법률 업무의 특수성을 고려하여 전문화된 AI 솔루션인 Gemini Enterprise for Legal을 발표하였습니다. 이 플랫폼은 단순한 정보 검색을 넘어 실제 실무를 수행하는 에이전트 중심의 환경을 제공하며, 법률 전문가들이 요구하는 엄격한 보안과 기밀 유지 규정을 충족하도록 설계되었습니다.\n\n핵심 구성 요소는 다음과 같습니다. 첫째, 법률 전문가가 설계한 목적형 기술을 통해 계약서 검토, 규제 준수 검토, 법률 리서치 등의 업무를 자동화합니다. 둘째, MCP 커넥터를 활용하여 기존의 문서 관리 시스템 및 데이터 저장소와 안전하게 연동하며, 조직의 기존 접근 권한과 보안 정책을 그대로 상속받습니다. 셋째, 특정 업무를 완수하는 에이전트를 통해 워크플로우를 처리하며, 마지막으로 다양한 파트너와 협력하는 개방형 생태계를 구축하여 특정 기업에 종속되지 않는 유연한 확장을 지원합니다.\n\n특히 이 솔루션은 규제 변화를 추적하는 법률 모니터링, 데이터 주체 권리 요청 대응, 계약서 작성 및 수정, 문서 익명화 등 높은 정확도가 요구되는 업무에서 뛰어난 효율을 제공합니다. 클리앙 고틀립, 프레시필즈, 베일, 윌리엄스 앤 코놀리 등 글로벌 주요 로펌들과 협력하여 현장 검증을 거쳤으며, 사용되는 모든 데이터와 모델 출력값은 조직 내부에서만 엄격히 관리됩니다. 고객의 데이터는 Google의 모델 학습에 사용되지 않으며, Google Cloud 인프라를 기반으로 강력한 데이터 격리와 개인정보 보호를 보장합니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Thomas Kurian"
+      ],
+      "title": [
+        "CEO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.3",
+    "title": "v11.2.3",
+    "summary": "What's Changed\nfix(core): circular durable providers issue by @kamilmysliwiec in #17563\nFull Changelog: v11.2.2...v11.2.3",
+    "aiSummary": "NestJS 프레임워크의 v11.2.3 업데이트가 진행되었습니다. 이번 업데이트에서는 핵심 모듈인 core에서 발생하던 순환 의존성 문제인 circular durable providers 이슈가 수정되었습니다. 해당 개선 사항은 @kamilmysliwiec에 의해 반영되었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.3",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-25T10:59:41.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v11.2.2",
     "title": "v11.2.2",
     "summary": "What's changed\nfix(core): ObserveInstrument breaks app startup with @nestjs/core@11.2.x #17554 by @kamilmysliwiec\nfix(core): Bootstrap crashes with nestjs-cls proxy providers (ProxyProviderNotResolved",
@@ -31,6 +132,41 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/building-the-stack-for-the-next-million-products",
+    "title": "Prisma Is Building the Stack for the Next Million Products",
+    "summary": "Prisma is building a software factory: one environment where a builder describes what they want and an agent builds it, runs it, inspects it, fixes it, and keeps going. Prisma ORM, Prisma Postgres, an",
+    "aiSummary": "Prisma는 개발자가 원하는 결과물을 기술하면 에이전트가 이를 직접 구축하고 실행하며 검사 및 수정하는 자동화된 소프트웨어 팩토리 환경을 구축하고 있습니다.\n\n이 시스템은 Prisma ORM, Prisma Postgres, Prisma Compute를 하나의 루프로 통합하여 개발 전 과정을 유기적으로 연결합니다. 이를 통해 개발자가 복잡한 수동 작업을 줄이고 아이디어를 제품으로 구현하는 효율적인 워크플로우를 제공하는 것이 핵심 목표입니다.",
+    "url": "https://www.prisma.io/blog/building-the-stack-for-the-next-million-products",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/wellbeing-research-grants",
+    "title": "Funding better evaluations of AI’s impact on wellbeing",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsFunding better evaluations of AI’s impact on wellbeingAug 25, 2026We’re launching a $5 million grant program to fund independent research into ",
+    "aiSummary": "Anthropic가 AI가 사용자 웰빙에 미치는 영향을 독립적으로 연구할 수 있도록 500만 달러 규모의 지원 프로그램을 시작합니다. 이번 프로그램은 연구자들에게 자금 지원은 물론 자사 모델에 대한 접근 권한과 기술적 지원을 제공하며, 결과물은 오픈소스 프로젝트로 공개되어 누구나 활용할 수 있게 합니다.\n\nAI 시스템이 일상 업무와 학습은 물론 정서적 교류의 대상으로 자리 잡으면서 사용자의 정신 건강에 미치는 영향력이 커지고 있습니다. 하지만 사용자가 위기 상황에서 AI에 의존하거나 모델과 깊은 관계를 맺을 때 적절한 대응 방식을 정의하는 것은 매우 복잡한 과제입니다. 특히 사용자의 맥락에 따라 같은 정보라도 유해할 수 있다는 점에서 단순한 정확도 측정 이상의 정교한 평가 기준이 필요합니다.\n\nAnthropic은 임상의, 심리학자, 방법론 전문가 등 외부 전문가들의 참여를 유도하여 이 분야의 평가 체계와 벤치마크를 발전시키고자 합니다. 선발된 연구자들은 독립적으로 연구를 수행하며, Anthropic의 Safeguards 팀이 제시하는 가이드를 바탕으로 웰빙 평가의 엄격함을 확보하게 됩니다. 지원 신청은 9월 21일까지 진행되며, 선정된 연구자들은 자신의 연구를 통해 AI 산업 전반이 사용자 웰빙을 측정하고 보호하는 수준을 높이는 데 기여하게 될 것입니다.",
+    "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -1593,250 +1729,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "/blog/building-app-like-experiences-with-nextjs-16-3",
-    "title": "Building App-like Experiences with Next.js 16.3",
-    "summary": "Build app-like experiences with Instant Navigations, server-rendered data, optimistic updates, and live client state in Next.js 16.3.",
-    "aiSummary": "Next.js 16.3 버전은 사용자가 마치 네이티브 앱을 사용하는 것과 같은 매끄러운 경험을 제공하는 데 초점을 맞추고 있습니다.\n\n이번 업데이트를 통해 개발자는 Instant Navigations 기능을 활용하여 즉각적인 페이지 전환을 구현할 수 있습니다. 또한 서버에서 렌더링된 데이터를 효율적으로 처리하고 Optimistic Updates를 통해 사용자 인터랙션에 즉각적으로 반응하는 UI를 구축할 수 있습니다. \n\n여기에 실시간 클라이언트 상태 관리 기능을 더해 더욱 고도화된 웹 애플리케이션 개발 환경을 지원합니다.",
-    "url": "https://nextjs.org/blog/building-app-like-experiences-with-nextjs-16-3",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": {
-      "name": [
-        "Aurora Scharff"
-      ]
-    },
-    "pubDate": "2026-08-18T16:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/governance-on-autopilot-automate-data-governance-with-lineage/",
-    "title": "Governance on autopilot, minus the turbulence",
-    "summary": "Every data team knows the moment. Someone opens a table, sees a column called cust_seg_flg, and has to go ask around to find out what it means, whether it's safe to use, and whether anyone has already",
-    "aiSummary": "대부분의 기업 데이터 환경에서는 데이터가 복잡한 파이프라인을 거치며 이동하는 동안 데이터의 의미와 보안 정보 등 핵심 문맥이 유실되는 거버넌스 부채 문제가 발생합니다. 이를 해결하기 위해 제안된 Governance Agent는 수동으로 수행하던 메타데이터 관리를 자동화하여 데이터가 흐르는 과정에서 관련 정보가 자동으로 전파되도록 설계되었습니다.\n\n이 시스템은 Google Cloud Knowledge Catalog, BigQuery, 그리고 컬럼 수준의 계보 정보를 결합하여 운영됩니다. 핵심 기능은 네 가지입니다. 첫째, 상위 테이블의 설명을 분석하여 하위 뷰에 자동으로 적용하되 SQL 변환 로직까지 반영합니다. 둘째, 의미론적 유사성을 활용해 비즈니스 용어집과 컬럼을 매핑합니다. 셋째, 상위 데이터의 PII 태그를 추적하여 하위 데이터의 민감도를 자동으로 식별하고 마스킹 정책을 제안합니다. 마지막으로 데이터 품질 및 계보 정보를 기반으로 신뢰도 점수를 산출합니다.\n\n이 기술은 무분별한 추론을 지양하며 신뢰도가 높은 경우에만 자동화를 수행합니다. 계보 정보가 불분명한 경우에는 PDF나 설계 문서와 같은 외부 자료를 기반으로 하는 접지 기술을 사용하며, 그럼에도 불확실할 경우 인위적인 추측 대신 모른다는 답변을 내놓도록 설계되어 안전성을 확보했습니다. 또한 정교한 Lineage API를 통해 자동화된 작업 결과와 AI가 추론한 결과를 구분하여 기록함으로써 감사 가능성을 높였습니다.\n\n해당 시스템은 대시보드와 CLI를 모두 지원하여 데이터 관리자가 업무의 95퍼센트에 달하는 반복적인 태깅 작업에서 벗어나, 예외 처리나 비즈니스 정의와 같은 핵심적인 5퍼센트의 판단 업무에 집중할 수 있도록 돕습니다. VodafoneThree UK Datahub의 사례에 따르면 이러한 접근 방식은 카탈로그 관리 업무량을 최대 75퍼센트까지 절감하고 데이터의 신뢰도와 AI 활용 준비도를 크게 향상시키는 성과를 거두었습니다. 결국 이 기술의 목표는 거버넌스를 사후 처리가 아닌 데이터 흐름과 함께 움직이는 능동적인 과정으로 전환하는 것입니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/governance-on-autopilot-automate-data-governance-with-lineage/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sai Charan Tej Kommuri"
-      ],
-      "title": [
-        "Product Manager, Data Analytics"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-18T16:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/cost-effective-genai-workflows-in-google-dataflow/",
-    "title": "Building cost-effective, high-throughput gen AI workflows in Google Dataflow",
-    "summary": "Real-time streaming pipelines are the operational backbone of modern enterprises, continuously processing everything from customer support interactions to transaction logs. Traditionally, streaming DA",
-    "aiSummary": "Google Dataflow와 Apache Beam을 활용하여 비용 효율적이고 확장 가능한 하이브리드 스트리밍 파이프라인을 구축하는 방법을 설명합니다. 기존의 정적인 스트리밍 방식에 GenAI 에이전트를 결합하면 데이터 내용에 따라 실시간으로 적응하는 동적인 워크플로우를 구현할 수 있습니다.\n\n핵심 설계 전략은 모든 이벤트를 고성능 LLM에 전달하지 않고, 앞단에서 경량화된 CPU 기반 머신러닝 모델을 사용하여 데이터를 먼저 필터링하는 것입니다. 구체적으로는 Hugging Face의 경량 모델을 통해 감성 분석 등을 수행한 뒤, 중요도가 높은 일부 데이터에 대해서만 ADK를 활용하여 Gemini와 같은 고급 모델을 호출하는 방식입니다.\n\n이러한 사전 필터링 구조는 다음과 같은 세 가지 주요 이점을 제공합니다. 첫째, 전체 토큰 비용을 절감하여 운영 효율성을 극대화합니다. 둘째, 대부분의 데이터를 로컬 CPU로 빠르게 처리함으로써 시스템의 지연 시간을 최소화하고 높은 처리량을 유지합니다. 셋째, 복잡한 조건 분기를 정적 DAG에 하드코딩할 필요 없이 에이전트가 런타임에 동적으로 의사결정을 수행하므로 파이프라인 관리가 용이해집니다.\n\n결론적으로 이 방식은 고속 스트리밍 데이터 처리와 무거운 GenAI 추론 사이의 간극을 효과적으로 해결합니다. IT 운영, 금융 사기 탐지, 산업용 IoT 등 실시간 대용량 데이터를 다루는 모든 분야에서 루틴한 작업은 자동화하고 복잡한 상황에만 AI가 개입하도록 함으로써 최적화된 아키텍처를 구축할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/cost-effective-genai-workflows-in-google-dataflow/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Reza Rokni"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-18T16:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/partners/box-ai-agents-gemini-embeddings-multimodal-enterprise-ai/",
-    "title": "How Box is unlocking multimodal enterprise agents with Gemini Embeddings 2",
-    "summary": "Enterprise content management is experiencing its biggest architectural shift since the cloud migration era. \nFor years, enterprises have stored trillions of gigabytes of critical data in Box: financi",
-    "aiSummary": "Box가 Google Cloud의 Gemini Multimodal Embeddings 2를 도입하여 기업용 콘텐츠 관리 플랫폼에 고도화된 멀티모달 에이전트 기능을 통합합니다. 기존의 텍스트 기반 RAG는 문서 내의 복잡한 표, 차트, 이미지 등 공간적 정보를 이해하는 데 한계가 있었으나, 이번 협력을 통해 텍스트와 시각적 요소를 동일한 의미 공간 내에서 통합적으로 처리할 수 있게 되었습니다.\n\nGemini Multimodal Embeddings 2는 텍스트, 이미지, PDF, 스프레드시트 등 다양한 형식을 결합하여 문서의 구조와 시각적 계층을 유지한 채 인덱싱을 수행합니다. 이를 통해 사용자는 자연어 질문만으로 방대한 자료 속에서 특정 차트나 이미지를 정확히 찾아낼 수 있으며, 서로 다른 형식의 문서 간 데이터를 교차 검증하는 것이 가능해집니다.\n\n이 기술이 적용된 3가지 핵심 설계 패턴은 다음과 같습니다.\n\n첫째, 재무 및 분석 보고 분야입니다. 복잡한 표와 차트의 물리적 구조를 인식하여 열 제목과 데이터 간의 관계를 정확히 파악하고, 작성된 요약문과 시각적 트렌드 사이의 불일치를 탐지합니다.\n\n둘째, 의료 및 임상 의사결정 지원 분야입니다. 물리적 증상 사진, 병리 슬라이드, 위험 매트릭스 등 다양한 형태의 임상 데이터를 통합 분석하여 정밀한 이상 징후 파악과 빠른 진단을 돕습니다.\n\n셋째, 문서 간 교차 합성 및 데이터 조정 분야입니다. 서로 다른 포맷의 파일들을 동시에 분석하여 정보의 일관성을 검증하고, 문서 간에 발생하는 데이터 상충이나 누락된 조항을 자동으로 식별합니다.\n\nBox는 이번 통합을 통해 단순한 문서 저장소를 넘어 AI 에이전트가 보안과 규정을 준수하며 능동적으로 데이터를 추론하고 협업할 수 있는 지능형 콘텐츠 관리 플랫폼으로 진화하고자 합니다. 기업들은 이를 통해 데이터의 파편화 문제를 해결하고 비즈니스 효율성을 극대화할 수 있을 것으로 기대됩니다.",
-    "url": "https://cloud.google.com/blog/topics/partners/box-ai-agents-gemini-embeddings-multimodal-enterprise-ai/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sandhya Patil"
-      ],
-      "title": [
-        "Agentic Product Consulting Lead, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-18T16:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=92915",
-    "title": "17,600 Actions: Agent Security Is a Systems Problem",
-    "summary": "The OpenAI/Hugging Face incident exposed a new challenge for AI agent security. 17,600 attacker actions show why AI agent security can’t rely on human review. Explore the controls needed to constrain,",
-    "aiSummary": "최근 OpenAI와 Hugging Face에서 발생한 보안 사고는 AI 에이전트 보안이 직면한 새로운 위협을 드러냈습니다. 공격자가 단시간에 17,600회의 행동을 수행한 사례는 기존의 인간 검토 방식으로는 AI 에이전트의 보안을 확보하는 것이 불가능함을 증명합니다.\n\n따라서 AI 에이전트의 안전한 운용을 위해서는 시스템적 접근이 필수적입니다. 공격자의 무차별적인 행동을 실시간으로 차단하기 위해 에이전트의 권한을 제어하고, 활동을 면밀히 관찰하며, 전체적인 거버넌스를 강화하는 다각적인 통제 수단을 마련해야 합니다. 결국 AI 에이전트 보안은 인간의 사후 검토가 아닌, 기술적 설계를 통한 자동화된 관리 체계의 문제로 전환되어야 합니다.",
-    "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jin Kim",
-    "pubDate": "2026-08-18T16:00:00.000Z",
-    "fetchedAt": "2026-08-18T23:41:25.230Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/financial-services/building-operational-resilience-with-agentic-ai-in-financial-services/",
-    "title": "Building operational resilience with agentic AI in financial services",
-    "summary": "For financial institutions, operational resilience has long been embedded in regulatory and supervisory expectations — to say nothing of the high expectations of consumers. With the implementation of ",
-    "aiSummary": "금융권의 운영 복원력 요구 사항이 유럽연합의 DORA 도입 등으로 인해 더욱 엄격해짐에 따라 Deutsche Bank는 Google Cloud와 협력하여 AI 기반의 에이전트형 복원력 플랫폼을 개발했습니다. 기존의 수동 방식이었던 규제 대응 및 모의 훈련 과정을 실제 운영 데이터를 기반으로 한 상황 인식형 시뮬레이션으로 전환하여 규제 당국이 요구하는 수준의 증거 자료를 자동으로 생성할 수 있게 되었습니다.\n\n해당 플랫폼은 아키텍처, 데이터 흐름, 로그, 사건 이력 등 기업 내부의 방대한 운영 컨텍스트를 활용하여 실제 시스템 종속성과 장애 패턴을 반영한 정교한 시나리오를 구성합니다. 또한 통제와 유연성을 동시에 확보하기 위해 이중 오케스트레이션 아키텍처를 도입했습니다. 감사 가능성이 중요한 시나리오 생성에는 LangGraph를 활용하여 결정론적이고 추적 가능한 프로세스를 구축했으며, 즉각적인 대응과 조사가 필요한 상황에는 Google ADK를 사용하여 에이전트 기반의 적응형 분석을 수행합니다.\n\n이 플랫폼은 Gemini Enterprise Agent Platform, Cloud Run, Cloud SQL 등 Google Cloud의 도구들을 활용하여 대규모 환경에서도 일관된 복원력 모델을 유지합니다. 이를 통해 Deutsche Bank는 일회성 테스트가 아닌 연속적인 인텔리전스 모델로 운영 방식을 혁신하고 있으며, 실제 발생한 사건을 기반으로 한 근본 원인 분석과 미래 시나리오 테스트를 연결하는 선순환 체계를 구축하고 있습니다. 이러한 기술적 전환은 복잡한 분산 환경에서 운영 복원력을 확보해야 하는 금융 기관들에게 확장 가능하고 규제에 최적화된 새로운 표준을 제시합니다.",
-    "url": "https://cloud.google.com/blog/topics/financial-services/building-operational-resilience-with-agentic-ai-in-financial-services/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Pankaj Ojha"
-      ],
-      "title": [
-        "Director, Agentic Resilience Platform (ARP), Deutsche Bank"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-18T14:00:00.000Z",
-    "fetchedAt": "2026-08-18T15:52:00.347Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
-    "title": "Staying Ahead of Adversarial AI Through Agentic Source Code Review",
-    "summary": "Written by: Alex Tselevich, Michael Maturi\n\nIntroduction\nAdversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders ",
-    "aiSummary": "Mandiant는 공격자의 AI 활용에 대응하기 위해 AI 기반 소스 코드 분석 프레임워크인 AVDH(Agentic Vulnerability Discovery Harness)를 개발하여 활용하고 있습니다. 이 시스템은 다중 에이전트를 조직화하여 취약점 탐지 과정을 자동화하고, 인간 전문가의 지식을 파이프라인에 결합함으로써 수만 줄의 코드에서 신속하고 정확하게 보안 결함을 찾아냅니다.\n\nAVDH는 구글의 ADK와 Gemini 모델을 기반으로 하며, 다음과 같은 단계적 절차를 통해 분석을 수행합니다. 먼저 코드베이스의 목적을 파악하고 위협 모델을 구축하여 분석 범위를 설정합니다. 이후 병렬 처리 에이전트를 통해 애플리케이션 진입점을 식별하고, 코드의 제어 흐름과 데이터 흐름을 추적하여 잠재적인 취약점 가설을 생성합니다. 생성된 가설은 복수의 검증 에이전트를 거쳐 최종적으로 분석되며, 마지막 단계에서는 보안 전문가가 직접 결과물을 검토하고 검증합니다.\n\n이 과정에서 Mandiant가 보유한 수십 년간의 현장 경험과 전문 지식을 규칙 시스템 형태로 파이프라인에 주입하여 분석의 정밀도를 높였습니다. 특히 외부 데이터 오염을 방지하기 위해 독자적으로 구축한 합성 코드베이스를 활용하여 시스템 성능을 벤치마킹하고 모델의 학습 효과를 검증합니다.\n\n실제 현업에서 AVDH는 수천만 줄의 코드를 분석하여 수많은 취약점을 식별해 냈으며, 침해 사고 대응 및 레드팀 운영 과정에서 기존 수동 분석 대비 획기적인 시간 단축과 성과를 입증했습니다. Mandiant는 이러한 구조적 접근 방식이 단순한 스캐닝 도구를 넘어 방어자가 공격자보다 한발 앞서 나갈 수 있도록 돕는 핵심적인 전략이 될 수 있다고 설명합니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-18T14:00:00.000Z",
-    "fetchedAt": "2026-08-18T15:52:00.347Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "5bd92664f8ba6ec61ac2d68e8b4b52a7f2988613",
-    "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
-    "summary": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, s",
-    "aiSummary": "AWS가 베를린, 하이데라바드, 상파울루에 AWS Builder Lofts를 새롭게 조성합니다. 이곳은 개발자와 학생, 기술 전문가들이 자유롭게 방문하여 무료 워크숍과 네트워킹 이벤트에 참여할 수 있는 상설 커뮤니티 공간으로 운영됩니다. 또한 기술 역량 강화를 위한 피치 나이트를 비롯해 콘텐츠 제작 공간과 협업 및 공유 오피스 공간이 제공되며 다양한 기술 관련 행사를 개최할 수 있는 인프라를 갖출 예정입니다.",
-    "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "2026-08-18T13:58:41.000Z",
-    "fetchedAt": "2026-08-18T15:52:00.347Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/chatgpt-for-teens",
-    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-    "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-    "aiSummary": "OpenAI가 청소년들이 AI를 학습과 비판적 사고의 도구로 활용할 수 있도록 돕는 ChatGPT for Teens를 새롭게 선보입니다. 해당 서비스는 청소년 사용자를 위해 더 강화된 보호 기능과 건강한 이용을 장려하는 설정을 포함하고 있습니다. 또한 부모가 자녀의 AI 사용을 관리하고 감독할 수 있는 추가적인 제어 옵션이 함께 제공됩니다.",
-    "url": "https://openai.com/index/chatgpt-for-teens",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-08-18T11:00:00.000Z",
-    "fetchedAt": "2026-08-18T15:52:00.347Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-08-18-1",
-    "title": "LonghornPHP 2026",
-    "summary": "Longhorn PHP is back for 2026! The schedule is now live, and tickets are on sale! The conference will be held in Austin, Texas, and will start with an optional tutorial day on Thursday, October 15, fo",
-    "aiSummary": "PHP 개발자를 위한 기술 컨퍼런스인 LonghornPHP 2026이 개최됩니다. 이번 행사는 미국 텍사스주 Austin에서 열리며 10월 15일 목요일의 선택적 튜토리얼 세션을 시작으로 10월 16일 금요일에는 본격적인 강연과 키노트 및 오픈 스페이스가 진행됩니다. 현재 전체 일정은 공식 홈페이지를 통해 확인할 수 있으며 9월 16일까지는 얼리버드 가격으로 티켓을 예매할 수 있습니다.",
-    "url": "https://www.php.net/conferences/index.php#2026-08-18-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-08-18T10:14:50.000Z",
-    "fetchedAt": "2026-08-19T15:51:51.787Z",
-    "tags": [
-      "PHP"
     ]
   }
 ]

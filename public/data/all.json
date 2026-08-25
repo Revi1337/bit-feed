@@ -1,5 +1,106 @@
 [
   {
+    "id": "/blog/nextjs-security-release-august-2026-update",
+    "title": "Update: August Next.js Security Release",
+    "summary": "Next.js is moving the August security release forward to August 25, 2026.",
+    "aiSummary": "Next.js가 8월로 예정된 보안 업데이트 일정을 2026년 8월 25일로 앞당겨 진행합니다. 관련 사용자들은 해당 일정을 확인하여 보안 대응을 준비하시기 바랍니다.",
+    "url": "https://nextjs.org/blog/nextjs-security-release-august-2026-update",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Josh Story"
+      ]
+    },
+    "pubDate": "2026-08-25T15:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/",
+    "title": "Now introducing Gemini Enterprise for Financial Services",
+    "summary": "Protecting capital in today's markets requires immense speed and precision. A financial analyst preparing a deal memo works across licensed market data, internal models, and confidential client files.",
+    "aiSummary": "Google은 자본 시장 및 기업 금융 분야의 워크플로우에 특화된 Gemini Enterprise for Financial Services를 출시합니다. 이 솔루션은 금융 기관이 요구하는 높은 수준의 보안과 데이터 정확성, 그리고 실무 적용 가능성을 충족하기 위해 네 가지 핵심 요소를 기반으로 설계되었습니다.\n\n첫째, 금융 업무에 최적화된 재사용 가능한 기술을 통해 특정 데이터 추출이나 보고서 작성 등 기관 고유의 방법론을 AI 에이전트에 학습시킬 수 있습니다. 둘째, MCP를 활용하여 기존 금융 플랫폼 및 라이선스 데이터 소스와 안전하게 연결함으로써 데이터 보안 권한을 엄격히 유지합니다. 셋째, Financial Research 에이전트를 포함한 실무형 에이전트들이 복잡한 조사 업무를 수행하며, 모든 과정에서 신뢰 점수와 데이터 근거를 제시하여 투명성을 확보합니다. 넷째, Accenture, Deloitte, KPMG 등 글로벌 시스템 통합 업체 및 다양한 핀테크 파트너들과의 개방형 생태계를 통해 특정 업체에 종속되지 않는 유연한 맞춤형 환경을 제공합니다.\n\n이 플랫폼은 신용 위험 평가, 포트폴리오 모니터링, KYC 연구, 채권 발행 업무 등 금융권의 핵심 워크플로우를 혁신하도록 지원합니다. 또한 Google Workspace 및 Microsoft 365와의 연동은 물론, Daloopa, FactSet, S&P Global, Moody’s 등 주요 금융 데이터 공급업체들과의 원활한 통합을 보장합니다.\n\n모든 데이터는 조직 내부 환경에서만 관리되며, 고객의 데이터가 Google의 모델 학습에 사용되지 않도록 철저히 격리됩니다. Deutsche Bank 등 주요 금융 기관과의 협력을 통해 개발된 이 솔루션은 현재 프리뷰 형태로 제공되며, 향후 의료, 생명과학 등 다양한 전문 서비스 분야로 확장될 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Thomas Kurian"
+      ],
+      "title": [
+        "CEO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/",
+    "title": "Now introducing Gemini Enterprise for Legal",
+    "summary": "Few professions are as exacting as the practice of law. A team reviewing a contract or building a case works inside strictly privileged information, firm-specific playbooks, and a body of law that cha",
+    "aiSummary": "Google Cloud은 법률 업무의 특수성을 고려하여 전문화된 AI 솔루션인 Gemini Enterprise for Legal을 발표하였습니다. 이 플랫폼은 단순한 정보 검색을 넘어 실제 실무를 수행하는 에이전트 중심의 환경을 제공하며, 법률 전문가들이 요구하는 엄격한 보안과 기밀 유지 규정을 충족하도록 설계되었습니다.\n\n핵심 구성 요소는 다음과 같습니다. 첫째, 법률 전문가가 설계한 목적형 기술을 통해 계약서 검토, 규제 준수 검토, 법률 리서치 등의 업무를 자동화합니다. 둘째, MCP 커넥터를 활용하여 기존의 문서 관리 시스템 및 데이터 저장소와 안전하게 연동하며, 조직의 기존 접근 권한과 보안 정책을 그대로 상속받습니다. 셋째, 특정 업무를 완수하는 에이전트를 통해 워크플로우를 처리하며, 마지막으로 다양한 파트너와 협력하는 개방형 생태계를 구축하여 특정 기업에 종속되지 않는 유연한 확장을 지원합니다.\n\n특히 이 솔루션은 규제 변화를 추적하는 법률 모니터링, 데이터 주체 권리 요청 대응, 계약서 작성 및 수정, 문서 익명화 등 높은 정확도가 요구되는 업무에서 뛰어난 효율을 제공합니다. 클리앙 고틀립, 프레시필즈, 베일, 윌리엄스 앤 코놀리 등 글로벌 주요 로펌들과 협력하여 현장 검증을 거쳤으며, 사용되는 모든 데이터와 모델 출력값은 조직 내부에서만 엄격히 관리됩니다. 고객의 데이터는 Google의 모델 학습에 사용되지 않으며, Google Cloud 인프라를 기반으로 강력한 데이터 격리와 개인정보 보호를 보장합니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Thomas Kurian"
+      ],
+      "title": [
+        "CEO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.3",
+    "title": "v11.2.3",
+    "summary": "What's Changed\nfix(core): circular durable providers issue by @kamilmysliwiec in #17563\nFull Changelog: v11.2.2...v11.2.3",
+    "aiSummary": "NestJS 프레임워크의 v11.2.3 업데이트가 진행되었습니다. 이번 업데이트에서는 핵심 모듈인 core에서 발생하던 순환 의존성 문제인 circular durable providers 이슈가 수정되었습니다. 해당 개선 사항은 @kamilmysliwiec에 의해 반영되었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.3",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-25T10:59:41.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v11.2.2",
     "title": "v11.2.2",
     "summary": "What's changed\nfix(core): ObserveInstrument breaks app startup with @nestjs/core@11.2.x #17554 by @kamilmysliwiec\nfix(core): Bootstrap crashes with nestjs-cls proxy providers (ProxyProviderNotResolved",
@@ -31,6 +132,41 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/building-the-stack-for-the-next-million-products",
+    "title": "Prisma Is Building the Stack for the Next Million Products",
+    "summary": "Prisma is building a software factory: one environment where a builder describes what they want and an agent builds it, runs it, inspects it, fixes it, and keeps going. Prisma ORM, Prisma Postgres, an",
+    "aiSummary": "Prisma는 개발자가 원하는 결과물을 기술하면 에이전트가 이를 직접 구축하고 실행하며 검사 및 수정하는 자동화된 소프트웨어 팩토리 환경을 구축하고 있습니다.\n\n이 시스템은 Prisma ORM, Prisma Postgres, Prisma Compute를 하나의 루프로 통합하여 개발 전 과정을 유기적으로 연결합니다. 이를 통해 개발자가 복잡한 수동 작업을 줄이고 아이디어를 제품으로 구현하는 효율적인 워크플로우를 제공하는 것이 핵심 목표입니다.",
+    "url": "https://www.prisma.io/blog/building-the-stack-for-the-next-million-products",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/wellbeing-research-grants",
+    "title": "Funding better evaluations of AI’s impact on wellbeing",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsFunding better evaluations of AI’s impact on wellbeingAug 25, 2026We’re launching a $5 million grant program to fund independent research into ",
+    "aiSummary": "Anthropic가 AI가 사용자 웰빙에 미치는 영향을 독립적으로 연구할 수 있도록 500만 달러 규모의 지원 프로그램을 시작합니다. 이번 프로그램은 연구자들에게 자금 지원은 물론 자사 모델에 대한 접근 권한과 기술적 지원을 제공하며, 결과물은 오픈소스 프로젝트로 공개되어 누구나 활용할 수 있게 합니다.\n\nAI 시스템이 일상 업무와 학습은 물론 정서적 교류의 대상으로 자리 잡으면서 사용자의 정신 건강에 미치는 영향력이 커지고 있습니다. 하지만 사용자가 위기 상황에서 AI에 의존하거나 모델과 깊은 관계를 맺을 때 적절한 대응 방식을 정의하는 것은 매우 복잡한 과제입니다. 특히 사용자의 맥락에 따라 같은 정보라도 유해할 수 있다는 점에서 단순한 정확도 측정 이상의 정교한 평가 기준이 필요합니다.\n\nAnthropic은 임상의, 심리학자, 방법론 전문가 등 외부 전문가들의 참여를 유도하여 이 분야의 평가 체계와 벤치마크를 발전시키고자 합니다. 선발된 연구자들은 독립적으로 연구를 수행하며, Anthropic의 Safeguards 팀이 제시하는 가이드를 바탕으로 웰빙 평가의 엄격함을 확보하게 됩니다. 지원 신청은 9월 21일까지 진행되며, 선정된 연구자들은 자신의 연구를 통해 AI 산업 전반이 사용자 웰빙을 측정하고 보호하는 수준을 높이는 데 기여하게 될 것입니다.",
+    "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-25T16:04:25.530Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
