@@ -1,5 +1,38 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.21",
+    "title": "1.1.21",
+    "summary": "Added /voice dictation, which transcribes speech straight into the prompt; press f5 or run /voice to start and stop it, and use the mic-serve subcommand to forward a local microphone to a CLI running ",
+    "aiSummary": "이번 업데이트에서는 음성 받아쓰기 기능인 /voice가 추가되어 f5 키나 명령어를 통해 음성을 프롬프트로 즉시 변환할 수 있게 되었습니다. mic-serve 하위 명령어를 사용하면 SSH로 연결된 다른 기기에서 로컬 마이크를 원격으로 제어하는 것도 가능합니다.\n\n사용자 편의를 위해 현재 세션의 비용을 실시간으로 확인할 수 있는 cost 필드가 상태 라인 데이터 모델에 추가되었습니다. 또한 코드 검색 기능을 위해 내장된 ripgrep 바이너리를 직접 실행하도록 변경하여 검색 속도와 환경 호환성을 크게 개선했습니다.\n\n권한 관리와 관련해서는 always-proceed 모드가 MCP 도구 호출과 페이지 읽기까지 자동 승인하도록 확장되었습니다. 스크립트 실행기인 npm, yarn, pnpm, cargo 등에서 특정 스크립트 이름만 승인하도록 정교화되어 보안성을 높였으며, 대화 생성 시 제목을 자동으로 생성하여 관리 효율을 개선했습니다.\n\n오류 수정 및 안정화 작업도 진행되었습니다. CJK 문자나 이모지 등 비 ASCII 문자가 포함된 파일의 편집 오류를 수정하였으며, 유니코드 처리 과정에서 발생하는 세션 정지 현상을 해결했습니다. 또한 파일 쓰기 완료 후 발생하는 오류 보고 문제와 설정 경로 간의 충돌 문제를 수정하여 안정적인 운영 환경을 구축했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.21",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-26T02:21:12.000Z",
+    "fetchedAt": "2026-08-26T08:04:35.839Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elasticon-mumbai-2026",
+    "title": "Forging India's Digital Future: Elastic{ON} Comes to Mumbai",
+    "summary": "Join us at Elastic{ON} Mumbai to explore search, full-stack observability, and security, and how Elastic acts as the context engine that grounds agentic AI in your enterprise data, transforming regula",
+    "aiSummary": "Elastic이 인도 뭄바이에서 Elastic{ON} 행사를 개최합니다. 이번 행사에서는 서치, 풀스택 옵저버빌리티, 보안 분야의 최신 기술을 중점적으로 다룰 예정입니다. 특히 Elastic이 엔터프라이즈 데이터를 기반으로 에이전틱 AI의 맥락을 제공하는 엔진으로서 어떻게 활용될 수 있는지와 규제 준수 및 데이터를 비즈니스의 AI 경쟁력으로 전환하는 방안을 공유합니다.",
+    "url": "https://www.elastic.co/blog/elasticon-mumbai-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Atul Ahuja",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-08-26T08:04:35.839Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.docker.com/?p=93146",
     "title": "Moving from Minimus to Docker Hardened Images",
     "summary": "The Minimus registry goes offline on October 22. Here is the migration path, the free help Docker is offering, and where to start.",
@@ -13,6 +46,22 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
+    "title": "Rule insights dashboard generally available",
+    "summary": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository…\nTh",
+    "aiSummary": "GitHub의 Rule insights dashboard가 repository 및 organization 수준에서 정식으로 출시되었습니다. 해당 기능은 GitHub가 사용자의 repository 내 규칙을 어떻게 평가하고 적용하는지에 대한 전반적인 상태를 시각화하여 제공합니다. 이를 통해 사용자는 규칙 적용 현황을 직관적으로 파악하고 효율적으로 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-25T20:05:35.000Z",
+    "fetchedAt": "2026-08-26T08:04:35.839Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -280,6 +329,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/claude-desktop",
+    "title": "Claude Desktop support with Ollama",
+    "summary": "Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.",
+    "aiSummary": "Claude Desktop이 외부 게이트웨이 제공업체로 Ollama를 공식 지원하기 시작했습니다. 이를 통해 사용자는 Claude Desktop 환경 내에서 Ollama를 통해 구동되는 다양한 오픈 소스 모델들을 직접 연동하여 활용할 수 있게 되었습니다. 사용자는 설정을 통해 Claude 인터페이스에서 직접 오픈 모델을 선택하여 사용할 수 있어 유연한 AI 환경 구축이 가능해집니다.",
+    "url": "https://ollama.com/blog/claude-desktop",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-08-25T00:00:00.000Z",
+    "fetchedAt": "2026-08-26T08:04:35.839Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
