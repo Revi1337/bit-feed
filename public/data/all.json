@@ -1,5 +1,277 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_136",
+    "title": "Visual Studio Code 1.136 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.136 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트를 통해 추가된 신규 기능과 개선 사항에 대한 상세 정보는 공식 웹사이트의 전체 게시글을 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_136",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-08-26T16:35:18.101Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/introducing-google-cloud-fault-injection-testing-in-preview/",
+    "title": "Simplify your resilience testing strategy with Google Cloud Fault Injection Testing",
+    "summary": "When databases fail and network paths falter, you still need your mission-critical cloud services to stay online. Yet guaranteeing high availability has become increasingly difficult because of the co",
+    "aiSummary": "Google Cloud는 분산 시스템의 복잡성으로 인해 고가용성 유지가 어려워진 환경을 개선하고자 새로운 서비스인 Google Cloud Fault Injection Testing을 공개 프리뷰 버전으로 출시했습니다. 이 서비스는 개발자와 아키텍트가 클라우드 환경에 의도적으로 장애를 발생시켜 서비스의 회복 탄력성을 사전에 검증할 수 있도록 돕습니다.\n\n클라우드 기반 환경에서는 인프라에 대한 직접적인 접근이 제한적이기 때문에 자체적인 장애 복구 테스트 도구가 필수적입니다. 이를 도입하지 않을 경우 브랜드 신뢰도 하락, 규제 준수 위반에 따른 벌금, 마이그레이션 지연 등 다양한 리스크에 노출될 수 있습니다.\n\nGoogle Cloud Fault Injection Testing은 실험 템플릿을 기반으로 작동하며 현재 Cloud SQL의 장애 조치 테스트와 Layer 7 로드 밸런서를 활용한 애플리케이션 트래픽 성능 저하 테스트를 지원합니다. 테스트 실행 전에는 권한과 영향을 받는 리소스를 확인하는 자동화된 드라이 런 과정을 거치며 실험 중 문제가 발생하면 즉시 중단 및 복구할 수 있는 안전장치를 제공합니다.\n\n현재 해당 서비스는 Google Cloud 콘솔, gcloud CLI, REST API를 통해 이용할 수 있으며 프리뷰 단계에서는 비운영 환경에서 테스트를 수행할 것을 권장합니다. 이미 KeyBank와 같은 기업들이 도입하여 지역별 장애 상황 등을 시뮬레이션하며 시스템 안정성을 확보하고 있습니다. 상세한 도입 방법은 Google Cloud 계정 팀을 통해 확인할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/networking/introducing-google-cloud-fault-injection-testing-in-preview/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Toby Owen"
+      ],
+      "title": [
+        "Group Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-26T16:00:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/scale-okf-bundles-across-an-organization-with-knowledge-catalog/",
+    "title": "Using OKF with Knowledge Catalog to serve context for agents",
+    "summary": "We continue to iterate on the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. But a big question remains: How can you sha",
+    "aiSummary": "OKF v0.2는 LLM이 사용하는 컨텍스트 정보를 이식 가능하고 상호 운용이 가능한 형식으로 정의합니다. 하지만 OKF 번들을 조직 전체에서 공유하고 관리하는 과정에는 별도의 저장소 관리나 보안 정책 적용 등의 어려움이 따릅니다. 이를 해결하기 위해 Google Cloud의 Knowledge Catalog를 활용하여 OKF 번들을 통합 관리하는 방법이 제시되었습니다.\n\nKnowledge Catalog는 BigQuery, Cloud Storage 등 조직 내 자산과 함께 OKF 번들을 관리할 수 있는 중앙 엔진 역할을 합니다. 사용자는 제공된 샘플 코드와 kcmd CLI 도구를 사용하여 OKF 번들을 Knowledge Catalog의 Entry 형태로 등록할 수 있습니다. 이 과정에서 각 개념은 Entry로, OKF의 구조적 신뢰 지표는 AspectType으로 매핑됩니다.\n\n이 방식을 도입하면 조직 내 자산과 동일한 검색 및 권한 관리 체계를 적용할 수 있습니다. Knowledge Catalog의 searchEntries API를 통해 조직 전체에서 OKF 번들을 검색할 수 있으며, IAM 컨트롤을 통해 데이터와 동일한 보안 수준에서 접근을 제어합니다. 또한 에이전트는 LookupContext와 entries.get을 활용하여 별도의 파싱 없이 구조화된 컨텍스트와 메타데이터를 즉시 조회할 수 있습니다.\n\n데이터 팀은 OKF 번들을 CI 작업과 연동하여 커밋 시 자동으로 반영할 수 있으며, 이를 통해 에이전트가 항상 최신 상태의 신뢰할 수 있는 컨텍스트를 활용하도록 보장합니다. 결과적으로 OKF가 정의하는 신뢰 기반의 컨텍스트 형식과 Knowledge Catalog의 강력한 거버넌스 기능이 결합되어, 기업 내 에이전트 서비스의 확장성과 관리 효율성을 크게 향상시킵니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/scale-okf-bundles-across-an-organization-with-knowledge-catalog/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Firat Elbey"
+      ],
+      "title": [
+        "Group Product Manager, Data Analytics"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-26T16:00:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/uber-de-risks-hybrid-ai-with-cloud-interconnect/",
+    "title": "How Uber improves network reliability while unblocking cloud migration",
+    "summary": "Uber has a lot in common with the cities it serves. Both are always changing and growing, both must carefully manage the resulting traffic to prevent congestion and sprawl.\nUber has continuously evolv",
+    "aiSummary": "Uber는 클라우드 마이그레이션 과정에서 발생할 수 있는 네트워크 혼잡 문제를 해결하고 서비스 안정성을 높이기 위해 Google Cloud Interconnect의 애플리케이션 인식 기능을 도입했습니다. 기존의 방식인 단순한 대역폭 과잉 공급은 비용 효율성이 낮고 급증하는 AI 데이터 전송량을 감당하기 어렵다는 한계가 있었습니다.\n\nUber가 채택한 애플리케이션 인식 기능은 트래픽을 중요도에 따라 6가지 계층으로 분류하고 우선순위를 지정하는 방식을 사용합니다. 이를 통해 비즈니스 핵심 애플리케이션의 트래픽을 보호하고 지연 시간을 일관되게 관리하며 네트워크 대역폭을 효율적으로 활용하는 것이 가능해졌습니다.\n\n이번 기술 도입을 통해 Uber는 대규모 워크로드를 Google Cloud로 원활하게 이전하면서도 서비스 중단 위험을 최소화했습니다. 또한 예상치 못한 네트워크 혼잡 상황에서도 핵심 서비스의 연속성을 보장할 수 있게 되었으며 네트워크 인프라 운영 비용을 절감하는 성과를 거두었습니다. 결과적으로 Uber는 이번 사례를 통해 하이브리드 및 멀티클라우드 환경에서 대규모 데이터 처리가 필요한 기업들을 위한 네트워크 안정성 확보의 청사진을 제시했습니다.",
+    "url": "https://cloud.google.com/blog/products/networking/uber-de-risks-hybrid-ai-with-cloud-interconnect/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jean He"
+      ],
+      "title": [
+        "Distinguished Engineer, Uber"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-26T16:00:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/typephp-compile-php-native-binaries",
+    "title": "Compile PHP to Native Binaries with TypePHP",
+    "summary": "TypePHP is Swoole's open source AOT compiler that turns PHP source into native binaries, PHP extensions, or shared libraries.\nThe post Compile PHP to Native Binaries with TypePHP appeared first on Lar",
+    "aiSummary": "TypePHP는 Swoole에서 공개한 오픈소스 AOT 컴파일러입니다. 이 도구를 사용하면 PHP 소스 코드를 네이티브 바이너리나 PHP 확장 또는 공유 라이브러리 형태로 변환할 수 있습니다. 이를 통해 PHP 애플리케이션의 성능과 배포 효율성을 향상하는 것이 가능합니다.",
+    "url": "https://laravel-news.com/typephp-compile-php-native-binaries?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-08-26T14:58:07.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=52341",
+    "title": "Migrating Postgres: Solving A Puzzle That Shouldn’t Be Hard",
+    "summary": "These days there’s been a lot of talk about Postgres having an impact on “everything”. Whether it’s replacing legacy systems, creating a new greenfield project or even implementing it as a back-end to",
+    "aiSummary": "최근 Postgres는 레거시 시스템 대체부터 최신 에이전트 AI의 백엔드 구현에 이르기까지 다양한 분야에서 핵심적인 역할을 수행하며 혁신의 상징으로 자리 잡았습니다. 이러한 위상에도 불구하고 데이터베이스 마이그레이션 작업은 여전히 예상보다 복잡하고 해결하기 어려운 과제로 남아 있습니다. 본문은 Postgres 환경에서 마이그레이션을 수행할 때 직면하는 기술적 난관들을 조명하고, 왜 단순해 보이는 이 과정이 실제로는 복잡한 퍼즐처럼 느껴지는지에 대해 논의합니다. Percona는 이러한 마이그레이션 과정의 어려움을 분석하고 이를 효율적으로 해결하기 위한 통찰을 제공합니다.",
+    "url": "https://www.percona.com/blog/migrating-postgres-solving-a-puzzle-that-shouldnt-be-hard/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Robert Bernier",
+    "pubDate": "2026-08-26T14:07:50.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/state-of-laravel-2026-survey",
+    "title": "State of Laravel 2026 Survey Is Now Open",
+    "summary": "The State of Laravel 2026 survey is open. Tobias Petry's annual survey asks about your stack, tooling, deployments, and how you use AI.\nThe post State of Laravel 2026 Survey Is Now Open appeared first",
+    "aiSummary": "Tobias Petry가 주관하는 연례 설문조사인 State of Laravel 2026이 시작되었습니다.\n\n이번 설문조사는 개발자들이 사용하는 기술 스택과 도구, 배포 환경은 물론 최근 주목받는 AI 활용 현황까지 폭넓은 분야의 데이터를 수집합니다. \n\n해당 설문은 전 세계 Laravel 커뮤니티의 기술적 동향과 변화를 파악하기 위한 목적으로 진행됩니다.",
+    "url": "https://laravel-news.com/state-of-laravel-2026-survey?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-08-26T14:04:25.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/best-practices-for-dynamic-capacity-management/",
+    "title": "Infrastructure for the AI era: Dynamic capacity management for agents",
+    "summary": "The internet connected billions of people and mobile devices, putting computers in every hand. Now, we’re in the middle of the next big technology shift, deploying millions of autonomous AI agents to ",
+    "aiSummary": "AI 시대를 맞아 수많은 자율형 AI 에이전트가 도입되면서 인프라 관리의 중요성이 커지고 있습니다. AI 워크로드는 리소스 소모가 크고 변동성이 높아 기존 방식으로는 비용 효율성과 운영 안정성을 확보하기 어렵습니다. 이에 따라 구글 클라우드는 예측 가능한 비용과 성능을 보장하기 위한 동적 용량 관리 전략을 제시합니다.\n\n첫째, Dynamic Workload Scheduler를 활용해 예측 가능한 이벤트에 대비합니다. 중요도가 높은 작업은 캘린더 모드를 통해 미리 리소스를 예약하여 가용성을 확보하고, 배치 처리나 모델 학습 등 지연 허용도가 높은 작업은 플렉스-스타트 모드를 사용하여 가용 리소스가 확보될 때 즉시 처리하도록 하여 비용 효율성을 극대화합니다.\n\n둘째, 모든 애플리케이션에 대한 하드웨어 폴백 플랜을 수립하여 서비스 연속성을 유지합니다. Google Compute Engine의 관리형 인스턴스 그룹을 사용하면 특정 머신 타입이 부족할 경우 사전에 정의된 대체 구성으로 자동 전환됩니다. 또한 GKE의 Custom ComputeClasses를 이용하면 다양한 머신 패밀리와 사이즈, 구역을 아우르는 다차원적 폴백 리스트를 설계하여 인프라 가용성을 더욱 높일 수 있습니다.\n\n셋째, GKE의 동적 리소스 할당 기능을 통해 하드웨어 활용도를 최적화합니다. 특정 GPU나 TPU 전체를 할당받는 대신 필요한 메모리와 코어 수만큼 정밀하게 리소스를 분할하여 사용함으로써 낭비를 줄이고 자원 효율을 높입니다.\n\n이러한 전략을 실현하기 위해 기업은 우선 현재 워크로드의 구성을 진단하여 특정 환경에 종속된 앱을 식별하고 대체 하드웨어 구성을 마련해야 합니다. 또한 컴퓨팅 유연성에 기반한 할인 모델인 CUD를 활용해 비용을 절감하고, 구글 클라우드 계정 팀과의 협력을 통해 자동화된 폴백 리스트를 구성하는 것이 권장됩니다. 결과적으로 인프라 관리의 자동화와 유연한 리소스 배분은 AI 에이전트 확장 과정에서 발생하는 예산 낭비를 막고 기술 부채를 줄이는 핵심 요소가 될 것입니다.",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/best-practices-for-dynamic-capacity-management/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Drew Bradstock"
+      ],
+      "title": [
+        "Sr. Director, Product, Orchestration & Kubernetes"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-26T13:30:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud/",
+    "title": "FinOps for the AI era: New flexible billing and cost controls for agents",
+    "summary": "As AI takes on more complex work, business leaders face a new challenge: enabling rapid innovation using agents while protecting their margins and budgets. To get a real return on AI, financial operat",
+    "aiSummary": "Google은 AI 에이전트 도입이 증가함에 따라 기업들이 혁신을 저해하지 않으면서도 예산을 효율적으로 관리할 수 있도록 Gemini Enterprise를 위한 새로운 FinOps 기능과 결제 모델을 발표했습니다.\n\n핵심 요약은 다음과 같습니다.\n\n첫째, 결제 모델의 유연성을 강화했습니다. 기존의 사용자 단위 구독 방식에 더해 실제 사용량만큼 비용을 지불하는 종량제 모델을 도입하여, 사용량이 변동적인 팀에서도 최적화된 비용 지출이 가능해졌습니다. 또한 향후 도입될 Deferred execution pricing을 통해 오프-피크 시간에 작업을 예약 실행함으로써 추론 비용을 최대 절반까지 절감할 수 있습니다.\n\n둘째, 개발자 도구의 통합 관리 기능을 제공합니다. Google Antigravity와 Android Studio 내 AI 기능을 Gemini Enterprise 구독에 포함하고, 프로젝트 전반에서 할당량을 공유하는 통합 풀링 시스템을 적용하여 라이선스 관리의 복잡성을 줄였습니다.\n\n셋째, Gemini Enterprise Flexible Savings Plans(FSP)를 통해 비용 효율성을 높였습니다. 1년 또는 3년 약정을 선택할 경우 각각 10%, 20%의 토큰 비용 할인 혜택을 제공하며, 기업의 기존 Google Cloud EA와 연동하여 별도의 관리 부담 없이 통합된 예산 관리가 가능합니다.\n\n넷째, Google Cloud Billing Console을 통해 강력한 비용 통제 도구를 제공합니다. 이상 징후 탐지, 프로젝트별 예산 상한선 설정, 자동 알림 기능을 통해 예기치 못한 비용 급증을 예방할 수 있습니다. 특히 예산 소진 시 작업을 일시 중단하거나, 필요에 따라 종량제로 전환하는 등 유연한 정책 설정이 가능합니다. \n\n이러한 도구들은 기업이 AI 에이전트를 활용한 개발 생산성을 극대화하는 동시에, 중앙화된 거버넌스를 통해 재무적 통제권을 유지할 수 있도록 지원합니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Gemini Enterprise"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-26T13:30:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=734018",
+    "title": "Compose Multiplatform 1.12.0 Released",
+    "summary": "Compose Multiplatform 1.12.0 is out! This version brings new tooling for AI assistants, improvements to web resource management, and finer control over desktop window states. Here are the highlights o",
+    "aiSummary": "Compose Multiplatform 1.12.0 버전이 공식 출시되었습니다. 이번 업데이트는 AI 어시스턴트를 위한 새로운 도구 기능을 제공하며 웹 리소스 관리 방식 개선과 데스크톱 윈도우 상태에 대한 더욱 정밀한 제어 기능을 포함하고 있습니다. 상세한 변경 사항은 Compose Multiplatform 1.12.0의 새로운 기능 페이지나 GitHub 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/08/compose-multiplatform-1-12-0/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Elvira Mustafina",
+    "pubDate": "2026-08-26T13:28:41.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-13-github-apps-can-now-access-enterprise-billing-data",
+    "title": "GitHub Apps can now access enterprise billing data",
+    "summary": "Enterprise owners can now grant a GitHub App access to enterprise billing data. When you create or configure a GitHub App, you can select the enterprise billing permission and choose…\nThe post GitHub ",
+    "aiSummary": "Enterprise 소유자는 이제 GitHub App에 엔터프라이즈 결제 데이터에 접근할 수 있는 권한을 부여할 수 있습니다. 사용자는 GitHub App을 생성하거나 구성하는 과정에서 엔터프라이즈 결제 권한을 직접 선택하여 설정할 수 있습니다. 이번 업데이트를 통해 기업 환경에서의 비용 관리 및 결제 데이터 연동 작업이 더욱 효율적으로 개선되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-26T12:18:59.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-27-0",
+    "title": "Query Binding Masking and whereBinary() in Laravel 13.27",
+    "summary": "Laravel 13.27 masks query bindings in exception messages, adds whereBinary() for case-sensitive lookups, refreshForUpdate(), and a Cloud facade.\nThe post Query Binding Masking and whereBinary() in Lar",
+    "aiSummary": "Laravel 13.27 버전이 새롭게 출시되면서 보안과 데이터베이스 처리 기능이 강화되었습니다.\n\n이번 업데이트에서는 예외 메시지 내의 쿼리 바인딩을 마스킹하여 보안성을 높였습니다.\n\n또한 대소문자를 구분하는 조회를 위해 whereBinary() 메서드가 추가되었으며, 데이터베이스 레코드의 상태를 갱신하기 위한 refreshForUpdate() 기능이 도입되었습니다.\n\n클라우드 관련 작업을 지원하기 위한 Cloud facade도 새롭게 포함되어 개발 편의성이 향상되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-27-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-26T02:48:16.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.21",
     "title": "1.1.21",
     "summary": "Added /voice dictation, which transcribes speech straight into the prompt; press f5 or run /voice to start and stop it, and use the mic-serve subcommand to forward a local microphone to a CLI running ",
@@ -14,6 +286,69 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-ai-tool-search",
+    "title": "Laravel AI: Load Tools On Demand With ToolSearch",
+    "summary": "Laravel AI 0.11 adds a ToolSearch wrapper that defers tool definitions so OpenAI and Anthropic load them on demand instead of on every request.\nThe post Laravel AI: Load Tools On Demand With ToolSearc",
+    "aiSummary": "Laravel AI 0.11 버전 업데이트를 통해 ToolSearch 래퍼 기능이 새롭게 추가되었습니다.\n\n이 기능은 도구 정의를 지연 처리하여 OpenAI와 Anthropic이 매 요청마다 도구를 로드하는 대신 필요할 때만 호출하도록 최적화합니다. 이를 통해 애플리케이션의 효율성을 높이고 불필요한 리소스 소모를 줄일 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-ai-tool-search?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-08-26T01:32:51.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+    "title": "Announcing our first Maintainers in Residence",
+    "summary": "We are very happy to announce the Rust Project's first round of Maintainers in Residence:\nGen Li (@rami3l), Chris Denton (@ChrisDenton), Alejandra González (@blyxyas), León Liehr (@fmease), and Mainta",
+    "aiSummary": "Rust Project가 Rust 생태계의 지속 가능한 발전을 위해 재정적 지원을 제공하는 첫 번째 Maintainers in Residence 프로그램을 시작하고 총 6명의 기여자를 선정했습니다. 이번 프로그램은 Google, AWS, OpenAI를 비롯한 여러 기업과 개인 후원자가 참여한 Rust Foundation Maintainers Fund를 통해 운영되며, 선정된 기여자들은 향후 최소 12개월 동안 재정 지원을 받으며 Rust 프로젝트의 핵심 영역을 유지 보수하게 됩니다.\n\n선정된 인원은 전일제 MiR인 Gen Li를 포함하여, 파트타임 MiR인 Chris Denton, Alejandra González, León Liehr와 Maintainer Grant 수혜자인 Jonas Böttiger, Jason Newcomb입니다. 이들은 Rustup, 표준 라이브러리, 컴파일러, Clippy, rustdoc 등 Rust 프로젝트의 주요 구성 요소에서 코드 리뷰, 기능 구현, 버그 수정 및 신규 기여자 멘토링과 같은 핵심적인 역할을 수행할 예정입니다.\n\nRust Foundation은 이번 선정을 위해 각 팀의 유지 보수 기준점과 인력 부족 정도를 체계적으로 분석하여 최우선 지원 대상 팀을 선정했습니다. 이번 프로젝트는 일회성 지원에 그치지 않고 장기적이고 안정적인 유지 보수 환경을 구축하는 것을 목표로 하며, 향후 더 많은 기여자를 지원하기 위해 후원 확대와 프로그램 운영을 지속할 계획입니다.",
+    "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Lori Lorusso, Jakub Beránek",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/08/26/spring-modulith-2-2-m1-2-1-1-2-0-8-and-1-4-13-released",
+    "title": "Spring Modulith 2.2 M1, 2.1.1, 2.0.8, and 1.4.13 released",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring Modulith의 새로운 버전인 2.2 M1과 2.1.1, 2.0.8, 1.4.13이 각각 릴리스되었습니다. 이번 업데이트는 해당 프로젝트의 안정성 유지와 기능 개선을 목표로 합니다. 각 버전은 기존 환경에서의 운영 편의성을 높이고 최신 요구사항을 반영하기 위해 배포되었습니다. 구체적인 변경 사항이나 기술적 세부 정보는 Spring 프로젝트 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/08/26/spring-modulith-2-2-m1-2-1-1-2-0-8-and-1-4-13-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "odrotbohm",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/08/26/agent-host-architecture",
+    "title": "Introducing the Agent Host for persistent, portable agent sessions",
+    "summary": "Explore how the VS Code Agent Host and AHP support multiple agent harnesses with durable, synchronized local and remote sessions.\nRead the full article",
+    "aiSummary": "VS Code Agent Host와 AHP는 여러 에이전트 하네스를 지원하며 지속 가능하고 동기화된 로컬 및 원격 세션을 제공합니다. 이 시스템은 사용자가 에이전트와의 작업 환경을 다양한 환경에서 일관성 있게 유지하고 전환할 수 있도록 돕습니다. 이를 통해 개발자는 더욱 효율적인 에이전트 기반의 워크플로우를 구축할 수 있습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/08/26/agent-host-architecture",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Rob Lourens, Connor Peet, Brigit Murtaugh",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -295,6 +630,21 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-08-25-1",
+    "title": "Last Call for the State of PHP Survey",
+    "summary": "The  is still open, but not for much longer. It asks how PHP is working for you: what you build with, what is painful, and what you think PHP should focus on next. It takes around 15 minutes.\nState of",
+    "aiSummary": "The PHP Foundation이 JetBrains의 PhpStorm과 협력하여 진행 중인 State of PHP 설문 조사가 곧 마감됩니다.\n\n이번 설문은 개발자가 PHP를 활용하는 방식과 현재 겪고 있는 어려움, 그리고 향후 PHP가 집중해야 할 과제 등에 대한 의견을 수렴합니다. 참여 시간은 약 15분이 소요됩니다.\n\n조사 결과는 올해 말 State of PHP 2026 보고서 형태로 발행될 예정입니다. 또한 익명화된 원본 데이터셋도 함께 공개되어 커뮤니티 누구나 직접 데이터를 확인하거나 추가적인 분석을 수행할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-08-25-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-25T08:38:33.000Z",
+    "fetchedAt": "2026-08-26T16:35:18.101Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
