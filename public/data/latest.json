@@ -1,5 +1,151 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.22",
+    "title": "1.1.22",
+    "summary": "Added a /model  argument that switches to a model by name, slug or label and saves it as your default in one step, with the rest of the first matching name offered as ghost text while you type; /model",
+    "aiSummary": "이번 업데이트를 통해 /model 명령어를 입력할 때 이름이나 슬러그, 라벨을 사용하여 모델을 즉시 전환하고 기본값으로 저장할 수 있게 되었습니다. 입력 시 자동 완성 기능을 지원하며 명령어를 단독으로 사용할 경우 모델 선택기가 열립니다. /effort 힌트 기능은 고정된 선택지 대신 사용자가 직접 입력한 내용을 기반으로 완성하도록 개선되었습니다.\n\n대량의 파일을 생성하는 대화에서 파일 시스템 이벤트를 하나로 묶어 처리함으로써 아티팩트 관리 효율성을 높였습니다. 또한 Gemini 3.1 Pro와 Gemini 3.5 Flash 모델 사용 시 Gemini API 키 인증을 통한 추론 강도 선택 오류를 수정하였습니다.\n\n성능 및 안정성 측면에서는 작업 패널이 열려 있을 때 발생하는 CPU 점유율 과다 문제를 해결하여 리소스 사용량을 대폭 최적화하였습니다. 서브 에이전트의 타이머가 멈추는 현상이나 부모 에이전트와의 설정 불일치 문제를 해결하였고 HTTP 502 오류 발생 시 즉시 종료되지 않고 재시도하도록 개선되었습니다.\n\n운영체제 관련 개선으로 Windows 환경에서 파일 삭제 시 발생하는 공유 위반 문제를 재시도 로직으로 보완하였으며 migrate-workflows 기술 사용 시 Windows 경로 형식을 올바르게 인식하도록 수정하였습니다. 이외에도 헤드리스 데몬 시작 시 출력되던 불필요한 브라우저 접속 안내 문구를 삭제하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.22",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-08-27T04:03:28.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+    "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+    "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically che",
+    "aiSummary": "GitHub의 엔터프라이즈 관리 설정에서 플러그인 마켓플레이스에 대한 자동 업데이트 기능이 지원됩니다.\n\n엔터프라이즈 관리 설정 내 extraKnownMarketplaces 항목에서 autoUpdate 값을 true로 설정하면 특정 플러그인 마켓플레이스에 대해 자동 업데이트를 활성화할 수 있습니다. 해당 설정을 적용한 이후에는 지원되는 클라이언트가 주기적으로 마켓플레이스를 확인하여 플러그인을 자동으로 업데이트합니다.",
+    "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-27T01:52:19.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/08/27/multiple-vulnerabilities-in-resolv/",
+    "title": "Security advisories: CVE-2026-80212 and CVE-2026-80213",
+    "summary": "Two vulnerabilities have been discovered in the resolv gem bundled with Ruby. They have been assigned the CVE identifiers CVE-2026-80212 and CVE-2026-80213. We recommend upgrading the resolv gem.\nCVE-",
+    "aiSummary": "Ruby 언어의 resolv gem에서 두 가지 보안 취약점인 CVE-2026-80212와 CVE-2026-80213이 발견되었습니다.\n\nCVE-2026-80212는 악의적인 DNS 응답을 통해 메모리 고갈을 유발하는 문제입니다. 공격자가 제어하는 네임 서버를 통해 라이브러리가 응답을 영구적으로 유지하게 만듦으로써 반복적인 조회 시 메모리 부족 현상을 일으키고 결과적으로 서비스 중단을 초래합니다.\n\nCVE-2026-80213은 호스트네임 검증을 우회하는 취약점입니다. 애플리케이션의 허용 목록이나 SSRF 필터를 통과한 후 실제 네트워크 연결 과정에서 검증된 도메인과 다른 도메인을 조회하게 만들어 승인되지 않은 호스트로 연결될 수 있습니다. 이 문제는 255 옥텟 이상의 긴 도메인 이름을 사용하는 경우 발생합니다.\n\n영향을 받는 버전은 resolv gem 0.4.0부터 0.7.1까지, 그리고 0.3.1 이하 버전입니다. Ruby 4.0과 3.4는 각각 0.7.0과 0.7.1 버전을, Ruby 3.3은 0.3.1 버전을 포함하고 있으므로 주의가 필요합니다. 다만 운영체제 리졸버를 사용하는 일반적인 소켓 연결인 Net::HTTP 등은 직접적으로 영향을 받지 않습니다.\n\n대응 방안으로 resolv gem을 0.7.2 버전 또는 Ruby 3.3 사용자의 경우 0.3.2 버전으로 업데이트할 것을 권장합니다. 지원이 종료된 Ruby 3.2 버전 사용자는 resolv 0.7.2를 별도로 설치하여 보안 조치를 취해야 합니다. 코드 내에서 Resolv를 직접 호출하거나 resolv-replace를 사용하는 경우, 혹은 이를 사용하는 의존성 패키지를 사용하는지 면밀히 확인해야 합니다.",
+    "url": "https://www.ruby-lang.org/en/news/2026/08/27/multiple-vulnerabilities-in-resolv/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "2026-08-27T00:00:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.8.1?1787782296332",
+    "title": "Node.js 26.8.1 (Current)",
+    "summary": "Antoine du Hamel2026-08-26, Version 26.8.1 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.8.1#2026-08-26-version-2681-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
+    "aiSummary": "Node.js 버전 26.8.1이 새롭게 릴리즈되었습니다. 이번 업데이트는 기존에 node --version 명령어를 실행할 때 알파 버전으로 잘못 표시되던 문제를 해결하기 위한 긴급 수정 릴리즈입니다. 해당 오류를 수정한 커밋 외에도 추가적으로 tools/nix/list-requisites.sh 파일과 관련된 소소한 도구 개선이 포함되었습니다. Windows와 macOS, Linux를 포함한 다양한 운영체제별 설치 파일 및 바이너리가 공식 배포되었으며 상세한 기술 문서는 Node.js 공식 웹사이트에서 확인할 수 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.8.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-08-26T22:11:36.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
+    "title": "Global model policy generally available",
+    "summary": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of ",
+    "aiSummary": "GitHub는 Copilot Business와 Copilot Enterprise 플랜을 사용하는 고객을 대상으로 기본 모델 정책을 공식적으로 적용합니다. 이는 지난 7월 발표된 사항의 후속 조치로 오늘부터 단계적으로 정책 시행이 시작됩니다. 해당 정책을 통해 기업 사용자는 GitHub Copilot 모델 이용에 있어 보다 일관된 관리와 제어가 가능해집니다.",
+    "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-26T22:08:38.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18194",
+    "title": "Release Notes for Safari Technology Preview 251",
+    "summary": "Safari Technology Preview Release 251 is now available for download for macOS Golden Gate and macOS Tahoe.",
+    "aiSummary": "Safari Technology Preview 251 버전이 공개되었습니다. 이번 업데이트는 macOS Golden Gate 및 macOS Tahoe 운영 체제에서 다운로드하여 사용할 수 있습니다.",
+    "url": "https://webkit.org/blog/18194/release-notes-for-safari-technology-preview-251/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-08-26T21:36:31.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+    "aiSummary": "Gemini 3.5 Transcribe를 통해 더욱 지능적인 음성-텍스트 변환 기능을 활용할 수 있게 되었습니다. 해당 모델은 기존보다 향상된 정확도와 문맥 이해도를 바탕으로 음성 데이터를 텍스트로 변환하는 서비스를 제공합니다.",
+    "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-08-26T17:01:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+    "aiSummary": "Gemini 3.5 Transcribe를 통해 더욱 지능적인 음성-텍스트 변환 기능을 활용할 수 있게 되었습니다. 해당 모델은 기존보다 고도화된 방식으로 음성 데이터를 분석하여 정확도 높은 기록을 지원합니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Diego Melendo Casado"
+      ],
+      "title": [
+        "Senior Director, Engineering, Gemini Audio"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-26T17:00:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_136",
     "title": "Visual Studio Code 1.136 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders)\nRead the full article",
@@ -125,6 +271,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.8.0?1787754588258",
+    "title": "Node.js 26.8.0 (Current)",
+    "summary": "Antoine du Hamel2026-08-26, Version 26.8.0 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.8.0#2026-08-26-version-2680-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
+    "aiSummary": "Node.js 26.8.0 버전이 새롭게 릴리즈되었습니다. 이번 업데이트는 보안 강화, 기능 개선 및 성능 최적화를 포함하며 주요 내용은 다음과 같습니다.\n\n보안 및 암호화 부문에서는 NSS 3.126 기반의 루트 인증서 업데이트가 이루어졌으며 Cipher 및 Decipher API에서 SIV와 GCM-SIV 모드가 활성화되었습니다. 또한 RSA-OAEP를 위한 mgf1Hash 기능이 추가되었고 FIPS 모드 관련 로직이 개선되었습니다.\n\n성능 및 기능 측면에서는 diagnostics_channel의 TracingChannel이 안정화 버전으로 승격되었습니다. 히스토그램 구현 개선과 함께 통계적 가설 검정 기능이 perf_hooks에 추가되었으며 net.BlockList의 성능이 향상되었습니다. REPL 모드에는 기본적인 구문 강조 기능이 도입되었고 sqlite 모듈에는 StatementSync 프로토타입의 close와 Symbol.dispose 메서드가 추가되었습니다. 또한 MIMEType.parse 기능에 예외를 던지지 않는 옵션이 포함되었고 zlib 모듈에 ZipEntry, ZipFile, ZipBuffer가 새롭게 도입되었습니다.\n\n기타 빌드 및 의존성 관리 부문에서는 zlib, simdjson, googletest, libuv, perfetto, undici, libffi 등의 주요 종속성 라이브러리가 최신 버전으로 업데이트되었습니다. 다양한 빌드 스크립트 수정과 문서화 오류 수정 등이 함께 진행되었으며 특히 Windows 환경에서의 PGO 워크로드 스크립트 추가와 Power 9 및 z14 아키텍처에 대한 빌드 지원이 강화되었습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.8.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-08-26T14:29:48.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/release/v24.20.0?1787754582505",
+    "title": "Node.js 24.20.0 (LTS)",
+    "summary": "Antoine du Hamel2026-08-26, Version 24.20.0 'Krypton' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v24.20.0#2026-08-26-version-24200-krypton-lts-aduh95)\nNotable Changes (https://nodejs.org/en/bl",
+    "aiSummary": "Node.js 24.20.0 버전 Krypton LTS가 새롭게 릴리스되었습니다. 이번 업데이트는 다수의 기능 개선과 보안 및 종속성 최적화에 중점을 두고 있습니다.\n\n핵심적인 기능 변경 사항으로 AsyncLocalStorage에 using 스코프 지원이 추가되었고, Buffer 객체에 end 매개변수가 도입되었습니다. 보안 강화를 위해 NSS 3.125로 루트 인증서가 업데이트되었으며, 새로운 권한 관리 기능인 permission.drop과 --permission-audit 옵션이 추가되었습니다.\n\n개발 환경과 관련해서는 Loader 구현에 패키지 맵이 적용되었고, stream/iter 구현이 추가되었습니다. 테스트 러너는 context.log 메서드와 test:log 이벤트를 지원하며, WebAssembly에서는 JSPI가 활성화되었습니다.\n\n또한, 이번 업데이트에서는 다양한 내부 종속성 라이브러리가 최신 버전으로 업데이트되었습니다. V8 엔진의 최신 패치 적용을 비롯하여 npm 11.19.0, ngtcp2 1.25.0, nghttp3 1.18.0, zlib 1.3.2.1, sqlite 3.53.4 등 주요 라이브러리의 버전이 상향되었습니다. 이와 더불어 crypto 관련 예외 처리 강화와 RISC-V 아키텍처를 위한 OpenSSL 어셈블리 지원 등 전반적인 시스템 안정성 개선 작업이 포함되었습니다.",
+    "url": "https://nodejs.org/en/blog/release/v24.20.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-08-26T14:29:42.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Node.js",
+      "JS"
     ]
   },
   {
@@ -256,6 +434,40 @@
     ]
   },
   {
+    "id": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+    "aiSummary": "OpenAI가 미국 내 55개 교육청을 대상으로 ChatGPT for Teachers 서비스 확대를 발표했습니다.\n\n이번 확장으로 10만 명 이상의 교직원이 보안이 강화된 AI 도구와 전문적인 교육 및 지원을 추가로 제공받게 됩니다. 이를 통해 교육 현장에서의 AI 활용 능력을 높이고 행정 효율성을 개선하는 데 기여할 예정입니다.",
+    "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-26T10:00:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/learning-never-stops",
+    "title": "Learning never stops: How AI makes learning continuous",
+    "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+    "aiSummary": "OpenAI가 발표한 최신 보고서는 학생들이나 교육자들이 ChatGPT를 활용하여 교실 밖에서도 끊김 없이 학습을 이어가는 방식에 대해 다루고 있습니다. 이 기술은 학습자들이 정규 교육 과정의 한계를 넘어 개인화된 지원을 받을 수 있도록 도우며 교육 환경의 연속성을 강화하는 역할을 합니다. 인공지능이 어떻게 학습의 장벽을 허물고 학습 경험을 확장하는지에 대한 구체적인 사례를 제시합니다.",
+    "url": "https://openai.com/index/learning-never-stops",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-08-26T10:00:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/laravel-13-27-0",
     "title": "Query Binding Masking and whereBinary() in Laravel 13.27",
     "summary": "Laravel 13.27 masks query bindings in exception messages, adds whereBinary() for case-sensitive lookups, refreshForUpdate(), and a Cloud facade.\nThe post Query Binding Masking and whereBinary() in Lar",
@@ -302,6 +514,37 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/generic-methods",
+    "title": "Generic Methods",
+    "summary": "The Go Blog\nGeneric Methods\nGenerics was a profound change for Go—it fundamentally expanded the kinds of\nprograms that gophers could write by adding type parameters to the language.\nOne could now expr",
+    "aiSummary": "Go 1.27 버전에서는 그동안 제네릭 도입 이후에도 제한되었던 구체 타입(concrete type)에 대한 제네릭 메서드 지원이 새롭게 추가되었습니다. 이는 코드의 가독성과 조직화 측면에서 큰 개선을 가져왔으며, 특히 메서드 체이닝을 통한 데이터 처리나 변환 작업을 더욱 직관적으로 수행할 수 있게 합니다.\n\n과거 Go 1.18에서 제네릭 함수를 통해 수행하던 작업들은 패키지 범위의 함수를 사용해야 했기에 코드가 복잡해지는 단점이 있었습니다. 이제는 구조체 내부에 제네릭 메서드를 정의함으로써 관련 기능을 로컬 범위 내에서 캡슐화하고, 왼쪽에서 오른쪽으로 이어지는 자연스러운 호출 방식을 활용할 수 있게 되었습니다.\n\n다만, 이번 업데이트는 구체 타입의 메서드에만 적용되며 인터페이스의 제네릭 메서드는 여전히 지원되지 않습니다. 이는 제네릭 인터페이스 메서드를 구현할 경우, 컴파일 단계에서 발생할 수 있는 코드 생성의 효율성 문제와 호출 타겟 추론의 복잡성 때문입니다. 인터페이스 값은 런타임에 다양한 타입을 담을 수 있는데, 제네릭 메서드를 사용할 경우 호출 가능한 모든 타입 조합을 사전에 생성해야 하는 실무적인 어려움이 존재하기 때문입니다.\n\n결론적으로 이번 Go 1.27의 변화는 인터페이스 구현과는 별개로 코드 구조를 효율적으로 개선하고자 하는 커뮤니티의 요구를 반영한 결과입니다. 개발자들은 이제 더 간결하고 표현력이 풍부한 방식으로 코드를 작성할 수 있게 되었습니다.",
+    "url": "https://go.dev/blog/generic-methods",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Mark Freeman",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+    "title": "Kubernetes v1.37: Garhwal",
+    "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor\nSimilar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha fea",
+    "aiSummary": "Kubernetes v1.37은 Garhwal이라는 코드명으로 출시되었으며 총 67개의 개선 사항을 포함합니다. 이번 업데이트를 통해 16개의 기능이 Stable 단계로 격상되었고, 23개의 기능이 Beta, 27개의 기능이 Alpha 단계로 진입하였습니다.\n\n핵심적인 업데이트 내용은 다음과 같습니다.\n\n먼저 안정성 및 운영 측면에서 Resilient watchcache initialization이 Stable로 전환되어 API 서버 시작 및 복구 시 etcd에 가해지는 부하를 효과적으로 제어합니다. 또한 HorizontalPodAutoscaler의 scale to zero 기능이 Beta로 격상되어 유휴 상태인 워크로드를 0개의 Pod로 축소함으로써 비용 효율성을 높일 수 있게 되었습니다. 더불어 매니페스트 기반의 Admission control 구성을 지원하여 API 서버 시작 시점부터 정책을 적용할 수 있는 기반을 마련하였습니다.\n\n기술적인 고도화 측면에서는 다음 항목들이 Stable로 승격되었습니다.\n\nKYAML은 공식적으로 Stable이 되어 kubectl 지원이 강화되었습니다. metrics.k8s.io API는 9년 만에 Beta를 벗어나 정식 API로 자리 잡았습니다. SELinuxMount 및 SELinuxChangePolicy 지원으로 보안 설정이 강화되었으며, DRA를 통한 리소스 관리 기능이 대폭 보강되어 장치 상태 보고, 확장 리소스 요청, 장치 taint 및 tolerations, 표준 NUMA 노드 속성 정의 등이 포함되었습니다.\n\n또한 Node declared features가 Stable로 전환되어 컨트롤 플레인이 노드별 지원 기능을 더 명확히 파악할 수 있게 되었으며, Storage version migrator가 공식 포함되어 API 업그레이드나 암호화 설정 변경 시 데이터를 효율적으로 마이그레이션할 수 있게 되었습니다. 마지막으로 Pod certificates와 Cluster Trust Bundles가 Stable로 승격되어 Pod 단위의 인증서 배포와 신뢰 범위 관리가 한층 체계화되었습니다.\n\n이외에도 Pod 수준의 checkpoint 및 restore 기능이 Alpha로 도입되어 CRI 레벨에서 Pod 상태를 저장하고 복구할 수 있는 새로운 가능성을 제시합니다. 이번 v1.37 릴리스는 대규모 클러스터의 안정적인 운영과 장치 관리의 표준화를 중심으로 쿠버네티스 생태계를 한 단계 발전시켰습니다.",
+    "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "fetchedAt": "2026-08-27T04:33:50.777Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
     ]
   },
   {
@@ -1765,277 +2008,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://bun.sh/blog/bun-v1.4",
-    "title": "Bun 1.4",
-    "summary": "Bun is the complete toolkit for building and testing full-stack JavaScript and TypeScript applications. If you're new to Bun, you can learn more from the Bun 1.0 blog post.curlcurl -fsSL https://bun.s",
-    "aiSummary": "JavaScript 및 TypeScript 애플리케이션 개발을 위한 툴킷인 Bun이 버전 1.4로 업데이트되었습니다. 이번 업데이트의 가장 큰 변화는 기존 Zig 언어로 작성되었던 Bun의 핵심 코드를 Rust로 전면 재작성했다는 점입니다.\n\n성능 측면에서는 유휴 CPU 사용량을 5배 줄이고 메모리 사용량을 최대 35퍼센트까지 개선했으며, Linux 환경에서의 구동 속도를 50퍼센트 향상시켰습니다. 또한 2,900개 이상의 이슈를 해결하며 전반적인 안정성을 크게 높였습니다.\n\nNode.js 호환성 역시 대폭 강화되었습니다. Node.js 테스트 스위트에서 1,517개의 테스트를 추가로 통과하며 호환성을 확보했고, node:http, node:fs, node:cluster 등 주요 모듈의 통과율이 97퍼센트에서 100퍼센트 수준에 도달했습니다.\n\n새로운 기능과 도구들도 대거 추가되었습니다. Bun.Image, Bun.WebView, Bun.markdown, Bun.cron(), Bun.Terminal 등 다양한 내장 API가 도입되었으며, 병렬 실행을 위한 bun run --parallel 및 bun test --parallel 명령어가 추가되었습니다. 더불어 의존성 관리를 위한 bun audit fix, bun dedupe, bun prune 기능도 제공합니다.\n\n이번 버전은 Next.js 16, Playwright v1.4.0, vitest v1.4.0 등 최신 프레임워크와 라이브러리에 대한 지원을 강화했습니다. 특히 Next.js 16에서 Turbopack 및 React Compiler와 함께 원활하게 작동하며, Datadog의 dd-trace와 OpenTelemetry를 통한 모니터링 환경을 완벽하게 지원합니다. Nuxt dev, testcontainers, gRPC 등 실무에서 자주 사용되는 패키지들과의 호환성도 한층 더 개선되었습니다.",
-    "url": "https://bun.sh/blog/bun-v1.4",
-    "category": "웹 생태계 & 브라우저",
-    "source": "Bun Blog",
-    "author": "Bun Team",
-    "pubDate": "2026-08-20T00:53:44.000Z",
-    "fetchedAt": "2026-08-20T15:53:32.405Z",
-    "tags": [
-      "Bun",
-      "Runtime",
-      "Build Tool"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now",
-    "title": "Spring Batch 6.0.5 and 6.1.0-M1 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Batch 6.0.5 버전과 6.1.0-M1 마일스톤 버전이 새롭게 출시되었습니다. 이번 업데이트는 안정성 개선과 새로운 기능 도입을 포함하며 개발자들이 Spring Batch 프레임워크를 더욱 효율적으로 활용할 수 있도록 지원합니다. 자세한 변경 사항과 설치 방법은 공식 Spring IO 웹사이트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "fmbenhassine",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-boot-4-1-1-available-now",
-    "title": "Spring Boot 4.1.1 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Boot 4.1.1 버전이 새롭게 출시되었습니다. 해당 업데이트는 Broadcom의 공식 웹사이트를 통해 확인할 수 있으며, 관련 라이선스 및 상표권 정보가 포함되어 있습니다. 상세한 업데이트 내용과 변경 사항은 Spring 공식 커뮤니티와 공식 문서를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-boot-4-1-1-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "philwebb",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-boot-4-2-0-M1-available-now",
-    "title": "Spring Boot 4.2.0-M1 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Boot 4.2.0-M1 버전이 새롭게 공개되었습니다. 해당 릴리스는 Spring Framework와 관련 생태계의 최신 업데이트를 반영하며 프로젝트의 지속적인 개선을 목표로 합니다.\n\n사용자는 공식 Spring.io 웹사이트와 배포 저장소를 통해 관련 기술 문서와 업데이트 사항을 확인할 수 있습니다. 이번 마일스톤 버전은 최신 Java 환경과의 호환성 강화와 안정적인 개발 경험 제공에 초점을 맞추고 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-boot-4-2-0-M1-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "philwebb",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-cloud-2025-1-3-has-been-released",
-    "title": "Spring Cloud 2025.1.3 (aka Oakwood) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.3 (https://cloud.spring.io/) Release Train is available today. The release can b",
-    "aiSummary": "Spring Cloud 2025.1.3 버전인 Oakwood가 공식 출시되었습니다. 이번 업데이트는 Spring Boot 4.0.8 버전을 기반으로 하며 다수의 보안 취약점 해결과 기능 개선을 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다.\n\nSpring Cloud Commons는 CVE-2026-59284 보안 취약점을 해결하고 Bouncycastle 라이브러리를 1.85.2 버전으로 업그레이드했습니다. 또한 설정 속성 재설정 로직과 빈 생성 관련 최적화가 이루어졌습니다.\n\nSpring Cloud Config는 CVE-2026-47836, CVE-2026-47837, CVE-2026-47894, CVE-2026-59315 등 총 4건의 보안 취약점을 패치했으며 AWS S3 버킷 내 와일드카드를 포함한 Git 스타일의 searchPaths 기능을 지원합니다.\n\nSpring Cloud Function은 SSRF 및 임의 파일 읽기 취약점을 포함한 총 6건의 CVE 보안 문제를 해결했고, AWS와 Azure 환경에서 민감한 데이터가 로그에 기록될 수 있는 잠재적 문제를 개선했습니다.\n\nSpring Cloud Gateway는 gRPC 사용 시 발생할 수 있는 SSRF 및 네이티브 파일 접근 취약점인 CVE-2026-47879를 해결하고 MVC 환경에서의 재시도 백오프 기능을 추가했습니다.\n\nSpring Cloud Stream 또한 5건의 보안 패치를 통해 민감 데이터 로그 출력, 동적 대상 캐시 바인딩, Avro 콘텐츠 타입 캐싱 문제 및 역직렬화 보안 문제를 해결했습니다.\n\n이외에도 Spring Cloud Circuitbreaker, Consul, Build 등 다수 모듈의 업데이트가 진행되었습니다. 자세한 내용은 Maven Central 저장소나 공식 GitHub의 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-cloud-2025-1-3-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-boot-4-0-8-available-now",
-    "title": "Spring Boot 4.0.8 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Boot 4.0.8 버전이 새롭게 출시되었습니다. 해당 업데이트는 소프트웨어 개발 프레임워크인 Spring Boot의 유지보수 및 개선을 포함하고 있습니다. 개발자들은 이번 릴리스를 통해 안정화된 기능을 활용할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-boot-4-0-8-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "philwebb",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
-    "title": "Announcing Rust 1.98.0",
-    "summary": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust in",
-    "aiSummary": "Rust 팀은 프로그래밍 언어 Rust의 새로운 버전인 1.98.0을 공식 발표했습니다. 기존 사용자는 rustup update stable 명령어를 통해 업데이트할 수 있으며, 신규 사용자는 공식 웹사이트에서 rustup을 설치하여 사용할 수 있습니다.\n\n이번 1.98.0 버전의 주요 변경 사항은 다음과 같습니다.\n\n우선 f32 및 f64 부동 소수점 타입에 대수적 연산 메서드인 algebraic_add, algebraic_sub, algebraic_mul, algebraic_div, algebraic_rem이 추가되었습니다. 이 메서드들은 부동 소수점의 대수적 속성을 활용하여 컴파일러가 연산 순서를 최적화하거나 루프 벡터화를 효율적으로 수행할 수 있도록 돕습니다. 비록 연산 순서가 바뀔 수 있어 비결정적인 결과를 낼 수 있으나, 정의되지 않은 동작을 유발하지는 않습니다.\n\n또한 모든 기본 정수 타입에 format_into 메서드가 도입되었습니다. 이는 기존의 write! 매크로보다 성능이 뛰어나며, 별도의 외부 의존성 없이도 신속하게 정수를 문자열로 변환할 수 있는 표준적인 방법을 제공합니다.\n\nManuallyDrop과 Box 간의 상호작용과 관련된 정의되지 않은 동작 문제도 해결되었습니다. Rust 1.96.0에서 수정된 사항에 대해 문서화가 보완되었으며, 해당 코드가 미래에도 안전하게 유지될 것임을 보장합니다.\n\n그 외에도 str::substr_range, [T]::subslice_range, NonZero 기반의 from_str_radix, UTF-16 엔디안 처리를 위한 String 메서드 등 다양한 API가 안정화되었습니다. 상세한 전체 변경 내역은 공식 릴리스 노트와 Rust, Cargo, Clippy 문서를 통해 확인할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rust Release Team",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-amqp-4-2-0-m1-available",
-    "title": "Spring AMQP 4.2.0-M1 Available",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring AMQP 4.2.0-M1 버전이 새롭게 출시되었습니다. 해당 업데이트는 Broadcom의 공식 지원 아래 제공되며 Spring 생태계 전반의 기술적 요구사항과 보안 및 상표 정책을 준수합니다.\n\n이번 마일스톤 릴리스는 개발자들이 안정적으로 애플리케이션을 구축할 수 있도록 다양한 환경과의 호환성을 고려하여 설계되었습니다. 자세한 변경 사항과 기능 개선은 Spring 공식 웹사이트의 기술 문서를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-amqp-4-2-0-m1-available",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "cppwfs",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/20/spring-integration-7-2-0-m1-released",
-    "title": "Spring Integration 7.2.0-M1 Available",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Integration 7.2.0-M1 버전이 새롭게 출시되었습니다. 이번 업데이트는 해당 소프트웨어의 지속적인 개발 과정에서 나온 마일스톤 릴리스입니다. 사용자는 공식적인 법적 고지와 상표권 안내 사항을 준수하며 본 버전을 활용할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/08/20/spring-integration-7-2-0-m1-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "cppwfs",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/libredb-studio-an-open-source-self-hosted-sql-ide-for-postgresql-in-the-browser-3368/",
-    "title": "LibreDB Studio: an open source, self-hosted SQL IDE for PostgreSQL in the browser\n",
-    "summary": "LibreDB Studio is an MIT-licensed, self-hosted SQL IDE for PostgreSQL that runs in the browser and deploys as a container or Helm chart.\nIt is deployed next to the database it manages, as a container,",
-    "aiSummary": "LibreDB Studio는 웹 브라우저에서 실행되며 컨테이너, Helm 차트, npm 패키지로 배포 가능한 오픈 소스 PostgreSQL용 SQL IDE입니다. 개별 개발자의 PC에 설치하는 대신 데이터베이스와 인접한 환경에 배포하는 방식을 취하며, node-postgres를 기반으로 PostgreSQL을 주요 구현 대상으로 합니다.\n\n연결 관리 측면에서는 풀링된 연결을 사용하며, 트랜잭션의 경우 자동 롤백 타임아웃과 pg_cancel_backend를 활용한 쿼리 취소 기능을 제공합니다. 수백 개의 테이블이 존재하는 대규모 환경에서도 원활한 성능을 유지하도록 스키마 정보를 단계적으로 렌더링하며, 시스템 모니터링은 pg_stat_* 뷰를 통해 이루어지되 권한이 없는 경우 접근 가능한 정보 위주로 표시되도록 설계되었습니다.\n\n쿼리 어시스턴트는 모델이 아닌 실제 데이터베이스 스키마에 제약받아 작동하며, 존재하지 않는 객체를 참조하지 않도록 보장합니다. 읽기 전용 쿼리는 BEGIN READ ONLY 모드로 안전하게 실행됩니다. 보안을 위해 로컬 계정이나 OIDC 기반 인증을 지원하며, 모든 API 경로에 역할 기반 접근 제어인 RBAC를 적용했습니다. 현재 0.12.0 버전이 공개되어 있으며, 상세 정보는 GitHub 저장소와 공식 홈페이지를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/libredb-studio-an-open-source-self-hosted-sql-ide-for-postgresql-in-the-browser-3368/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/whats-new-elastic-cloud-on-kubernetes-3-5",
-    "title": "What's new in ECK 3.5",
-    "summary": "ECK 3.5 brings dynamic namespace management via label selectors, pause orchestration for safe maintenance windows, mutual TLS across all stack components, simplified resource specs, and a reduced oper",
-    "aiSummary": "ECK 3.5 버전은 라벨 셀렉터를 활용한 동적 네임스페이스 관리 기능을 도입하여 운영 편의성을 높였습니다. \n\n유지보수 작업을 안전하게 수행할 수 있도록 오케스트레이션 일시 정지 기능을 추가하였으며 스택 내 모든 구성 요소에 대해 상호 TLS 통신을 지원하여 보안을 강화했습니다. \n\n리소스 명세 방식을 간소화하고 Operator의 메모리 점유율을 최적화하여 전반적인 시스템 효율성을 개선했습니다.",
-    "url": "https://www.elastic.co/blog/whats-new-elastic-cloud-on-kubernetes-3-5",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Kostas Stamatakis",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-9-5-2-released",
-    "title": "Elastic Stack 9.5.2 released ",
-    "summary": "Version 9.5.2 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.2 over the previous versions 9.5.1\nFor details of the issues that have been fix",
-    "aiSummary": "Elastic Stack 9.5.2 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.1보다 개선된 환경을 제공하므로 최신 버전으로의 업그레이드를 권장합니다. 수정된 문제와 제품별 변경 사항에 대한 구체적인 정보는 공식 릴리스 노트를 통해 확인하실 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-9-5-2-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Navya Uppalapati",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-    "title": "Supply chain attack on arrayref",
-    "summary": "What happened\nOn 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious.\nThe Rust Security Response Team verified this to be the case: the crate had a build script that was do",
-    "aiSummary": "Rust 생태계의 crates.io 저장소에서 악성 코드가 포함된 공급망 공격이 발생하여 보안 팀이 대응에 나섰습니다. 공격자는 proc-macro1을 비롯한 여러 패키지에 악성 페이로드를 다운로드하는 빌드 스크립트를 삽입하였으며, 유명 라이브러리인 arrayref의 계정을 탈취하여 악성 버전을 배포하는 방식으로 공격을 전개했습니다.\n\nRust Security Response Team은 즉시 문제가 된 패키지들을 삭제하고 arrayref를 비롯한 연관 패키지들의 악성 버전을 제거하는 조치를 완료했습니다. 해당 공격은 arrayref 개발자의 컴퓨터나 자격 증명이 침해되어 발생한 것으로 추정되며, 현재 해당 개발자 계정은 추가 피해 방지를 위해 잠긴 상태입니다.\n\n사용자들은 로컬 환경에 악성 패키지가 포함되지 않았는지 확인해야 합니다. 특히 append-only-vec 0.1.9, arrayref 0.3.10, internment 0.8.7 버전과 proc-macro1, proc-macro-en, aovine, arone, aronenao, tinymember 패키지를 사용했는지 여부를 cargo 레지스트리 경로를 통해 점검할 것을 권장합니다. 이번 위협은 Nextron Systems GmbH의 연구팀에 의해 최초 발견되어 신속하게 차단되었습니다.",
-    "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "Manish Goregaokar",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T15:53:32.405Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/the-search-multiplier",
-    "title": "The search multiplier: Driving revenue, productivity, and AI at scale",
-    "summary": "An independent IDC study found organizations deploying the Elasticsearch Platform for enterprise search and agentic AI deliver AI products faster, drive higher revenue, boost productivity, and strengt",
-    "aiSummary": "IDC가 실시한 독립적인 연구 결과에 따르면 기업이 Elasticsearch Platform을 도입하여 엔터프라이즈 검색 및 Agentic AI를 구현할 경우 비즈니스 전반에서 실질적인 성과를 거두는 것으로 나타났습니다.\n\n해당 플랫폼을 사용하는 기업들은 AI 제품의 출시 속도를 높이고 매출 증대와 생산성 향상을 경험하고 있습니다. 또한 운영 효율성을 강화하여 비즈니스 전반의 회복 탄력성을 크게 높이는 효과를 확인했습니다.",
-    "url": "https://www.elastic.co/blog/the-search-multiplier",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Nicole Volk",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "fetchedAt": "2026-08-20T15:53:32.405Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-queue-forward",
-    "title": "Queue::forward(): Reroute Laravel Queues in One Place",
-    "summary": "Queue::forward() in Laravel 13.26 reroutes queued jobs to another queue or connection from a service provider, with no changes to job classes.\nThe post Queue::forward(): Reroute Laravel Queues in One ",
-    "aiSummary": "Laravel 13.26 버전에서 새롭게 도입된 Queue::forward() 기능은 기존 작업 클래스를 수정하지 않고도 서비스 제공자 설정을 통해 대기열 작업을 다른 큐나 연결로 유연하게 재라우팅할 수 있게 합니다. 이 기능을 활용하면 코드 변경 없이 중앙화된 지점에서 작업의 처리 경로를 효율적으로 관리할 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-queue-forward?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-19T22:48:56.000Z",
-    "fetchedAt": "2026-08-20T15:53:32.405Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-    "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-    "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which ",
-    "aiSummary": "GitHub은 정적 분석 엔진인 CodeQL의 최신 버전인 2.26.3을 출시했습니다. 이번 업데이트를 통해 JavaScript, TypeScript, Vue에 대한 소스 모델링 지원이 추가되었습니다. 또한 GitHub Actions와 관련된 여러 쿼리의 정확성을 개선하여 보안 분석 능력을 한층 강화했습니다. 이를 통해 개발자는 코드 스캐닝 과정에서 보다 정밀한 취약점 탐지 결과를 얻을 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-19T21:09:30.000Z",
-    "fetchedAt": "2026-08-19T23:42:07.209Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=air&p=732481",
-    "title": "New in Air: Claude Subscriptions, Multiproject View, and Improved Markdown",
-    "summary": "You can now use Air with your existing Claude Pro, Max, or Team subscription. Usage counts against your subscription quota – there’s no need to purchase API credits and no per-token Console billing. L",
-    "aiSummary": "Air가 사용자의 기존 Claude Pro, Max, 또는 Team 구독과 연동하는 기능을 새롭게 지원합니다. 이제 별도의 API 크레딧 구매나 토큰 단위의 과금 없이 기존 구독 요금제의 할당량을 사용하여 서비스를 이용할 수 있습니다. 로그인은 Anthropic의 공식 인증 방식을 통해 진행되며, Air는 사용자의 자격 증명을 저장하거나 확인하지 않으므로 보안이 유지됩니다.\n\n또한 이번 업데이트를 통해 여러 프로젝트를 한눈에 확인할 수 있는 Multiproject View 기능이 추가되었습니다. 이와 함께 Markdown 렌더링 품질이 향상되어 더욱 가독성 높은 인터페이스를 제공합니다. 이러한 변화는 사용자들의 가장 많은 요청을 반영하여 구현되었습니다.",
-    "url": "https://blog.jetbrains.com/air/2026/08/new-in-air-claude-subscriptions-multiproject-view-and-improved-markdown/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Vladimir Gromozdin",
-    "pubDate": "2026-08-19T17:35:10.000Z",
-    "fetchedAt": "2026-08-19T23:42:07.209Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
     ]
   }
 ]
