@@ -1,5 +1,234 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
+    "title": "Close all open contributions authored by a blocked user",
+    "summary": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,…\nThe post Close a",
+    "aiSummary": "GitHub는 개인 계정이나 조직에서 특정 사용자를 차단할 때 해당 사용자가 작성한 모든 열려 있는 issue, discussion, pull request를 자동으로 닫을 수 있는 기능을 새롭게 도입했습니다.\n\n사용자는 차단 과정에서 제공되는 옵션을 선택하여 해당 사용자의 기여 내역을 일괄적으로 정리할 수 있습니다. 이를 통해 차단된 사용자와 관련된 오픈 프로젝트 항목들을 효율적으로 관리하고 원치 않는 상호작용을 즉각적으로 차단할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-27T16:30:52.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "title": "Gemini Omni 1.1 Flash lets you build with more control",
+    "summary": "Aug 27, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Omni now delivers studio-quality video pro",
+    "aiSummary": "Google DeepMind는 개발자들을 위한 새로운 생성형 비디오 기능이 포함된 Gemini Omni 1.1 Flash를 공개하였습니다. 이번 업데이트는 Gemini API와 Google AI Studio를 통해 전문적인 영상 제작 및 미디어 편집 환경에 최적화된 도구들을 제공합니다.\n\n주요 기능인 Scene extension은 이전보다 향상된 10초 분량의 문맥 분석을 통해 자연스러운 영상 연결을 지원하며, 최대 40초까지 끊김 없는 스토리텔링을 가능하게 합니다. 또한, 사용자가 영상의 시작 프레임과 종료 프레임을 직접 지정하여 카메라 워크나 장면 전환을 정밀하게 제어할 수 있는 기능이 추가되었습니다.\n\n개발 효율성을 위한 개선 사항으로는 360p 해상도에서의 빠른 프로토타이핑 기능이 있습니다. 이는 기존 720p 대비 생성 속도를 최대 60% 향상하고 비용을 절감하여 작업 반복 속도를 높여줍니다. 최종 결과물은 1080p 또는 4K 고해상도 업스케일링을 통해 전문적인 영상 품질을 확보할 수 있습니다.\n\n입력 측면에서는 최대 3초 분량의 비디오 레퍼런스를 활용할 수 있어, 캐릭터의 일관성을 유지하거나 특정 동작을 참조하여 영상 콘텐츠를 제작하는 것이 한층 수월해졌습니다. 이러한 기능들은 사용자가 생성형 비디오 워크플로우를 더욱 효과적으로 통제하고 실제 상용 서비스에 즉시 배포할 수 있도록 돕습니다.",
+    "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-08-27T16:11:32.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
+    "title": "Reimagining work: How Pythian’s internal AI playbook delivers customer ROI",
+    "summary": "When Pythian rolled out Google Cloud’s Gemini Enterprise across our 500-person company in 27 countries, the goal was simple: use our own company as a proving ground to discover how enterprise AI actua",
+    "aiSummary": "Pythian은 전 세계 500명의 임직원을 대상으로 Google Cloud의 Gemini Enterprise를 도입하여 기업형 AI가 어떻게 실질적인 투자 대비 효율을 창출하는지 검증했습니다. 기존 기업들이 단순히 도구를 배포하고 사소한 효율성에만 집중하다가 프로젝트가 실패하는 문제점을 발견하고, 이를 해결하기 위해 전략부터 운영까지 포괄하는 Pythian AI Operating Model을 구축했습니다.\n\n해당 모델은 Field CTO 전략, 도구 플랫폼 배포, 이중 COE 실행, 그리고 XOps라는 4가지 핵심 축으로 구성됩니다. Field CTO는 기술 리더십을 통해 고수익 창출이 가능한 16개의 에이전트 패턴을 우선순위화하며, 도구 배포 단계에서는 CRM이나 ERP와 모델을 연동하여 기업 내부 데이터 환경에 최적화합니다.\n\n실행 조직인 이중 COE는 인적 생산성 향상을 위한 노코드 에이전트 전담팀과 공정 생산성을 위한 커스텀 AI 에이전트 개발팀으로 나뉩니다. 또한 AI 도입의 80%를 차지하는 유지보수를 위해 XOps를 도입하여 모델의 정확도와 데이터 드리프트를 지속적으로 모니터링합니다.\n\n이러한 체계적인 접근을 통해 Pythian은 데이터베이스 사고 대응 시간을 80% 단축하고 사용자 참여도를 3배 높이는 성과를 거두었습니다. 이외에도 IT 지원 자동화를 통해 연간 100만 시간 이상의 운영 시간을 절감하거나, 공급망 예측 주기를 수주 단위에서 수일 단위로 단축하는 등 구조적인 워크플로우 혁신을 실현하고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Paul Lewis"
+      ],
+      "title": [
+        "Field CTO, Pythian"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-27T16:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
+    "title": "Deploy personal AI agents with Cloud Run instances",
+    "summary": "Need a low-cost, high-performance way to run long-lived, stateful workloads such as AI agents? Today, we introduced Cloud Run instances, which let you do just that.  \nConsider AI agents such as OpenCl",
+    "aiSummary": "Google Cloud는 AI 에이전트와 같이 장기 실행이 필요하고 상태를 유지해야 하는 워크로드를 저비용 고성능으로 운영할 수 있는 Cloud Run instances를 발표했습니다. 기존의 Cloud Run services는 요청이 없을 때 0으로 스케일링되는 구조여서 지속적인 실행이 필요한 개인용 AI 에이전트 운용에는 적합하지 않았으며, 전용 VM을 사용하는 방식은 관리 부담과 비용 측면에서 비효율적이었습니다.\n\nCloud Run instances는 이러한 문제를 해결하기 위해 오토스케일링 없이 단일 인스턴스만 실행하며, 최대 7일간의 연속 실행과 자동 재시작 정책을 지원합니다. 모든 인스턴스에는 업데이트나 재시작 시에도 변하지 않는 HTTPS URL이 할당되며, 사용하지 않을 때는 인스턴스를 중지했다가 필요할 때 다시 시작할 수 있습니다. 1 vCPU와 1 GiB 메모리 기준으로 30일간 연속 실행 시 약 5.70달러의 저렴한 비용으로 운영이 가능합니다.\n\n이 서비스는 OpenClaw와 같은 개인용 AI 에이전트를 상시 구동하는 데 최적화되어 있으며, 복잡한 인프라 설정 없이 명령 한 번으로 배포할 수 있습니다. 이미 OffDeal과 같은 기업이 이를 활용해 콜드 스타트를 88퍼센트 줄이는 등 가시적인 성과를 거두고 있습니다. 현재 프리뷰 버전으로 제공 중이며, 향후 Cloud Run instances와 Cloud Run services 모두에 대해 SSH 접속 기능을 추가할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ryan Pei"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-27T16:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
+    "title": "Stream HCP Vault Dedicated audit logs to Microsoft Sentinel",
+    "summary": "HashiCorp Vault sits at the center of your organization's secrets, which makes its audit log some of the most valuable security telemetry you have. With a small set of documented exceptions, Vault aud",
+    "aiSummary": "HCP Vault Dedicated 환경에서는 네이티브 Microsoft Sentinel 커넥터를 제공하지 않지만, 범용 HTTP Sink와 Terraform을 활용하여 감사 로그를 Microsoft Sentinel로 전송하는 통합 파이프라인을 구축할 수 있습니다. 이를 통해 보안 분석가는 복잡한 원본 JSON을 직접 파싱할 필요 없이 정규화된 필드 기반으로 쿼리하고, 다른 보안 텔레메트리와 상관 분석을 수행하여 위협 탐지 및 대응 능력을 향상할 수 있습니다.\n\n해당 통합 아키텍처는 HCP Vault Dedicated에서 발생한 감사 이벤트를 HTTPS를 통해 Azure 측 엔드포인트로 전송하는 방식으로 동작합니다. 데이터 흐름은 HCP Vault Dedicated에서 시작하여 Azure Function App 또는 Azure Logic Apps로 전달된 후, Azure Monitor Logs Ingestion API를 거쳐 Log Analytics의 사용자 정의 테이블인 HCPVaultAudit_CL에 저장되며, 최종적으로 Microsoft Sentinel에서 활용됩니다.\n\n제공되는 Terraform 저장소는 리소스 그룹, Log Analytics 작업 공간, 데이터 수집 규칙, 그리고 관리 ID가 적용된 수집 엔드포인트 등을 자동으로 배포하여 구축 과정의 오류를 최소화합니다. 사용자는 사전 구성 스크립트를 통해 환경을 설정하고 Terraform 명령어로 인프라를 배포한 뒤, 마지막으로 HCP 포털에서 해당 엔드포인트 URL을 Generic HTTP Sink로 등록하여 연동을 완료합니다.\n\n본 통합 모델은 관리형 인프라 구조를 유지하여 별도의 로그 포워더나 집계 계층을 유지 보수할 필요가 없다는 장점이 있습니다. 다만 원활한 운영을 위해서는 HCP Vault Dedicated 클러스터에서 Azure 엔드포인트로의 네트워크 경로가 사전에 확보되어야 하며, 보안을 위해 토큰 및 인증 정보를 안전하게 관리해야 합니다. 또한, 배포 시 선택하는 엔드포인트 유형에 따라 Function App은 배치 처리 방식의 성능 이점이 있고, Logic App은 리소스 할당량 제한 상황에서의 유연한 대안이 됩니다.",
+    "url": "https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Abhijeet Lokhande",
+    "pubDate": "2026-08-27T16:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "title": "Gemini Omni 1.1 Flash lets you build with more control",
+    "summary": "Gemini Omni 1.1 Flash brings a new suite of creative controls and generative video capabilities to developers.",
+    "aiSummary": "Google의 Gemini Omni 1.1 Flash 모델이 새롭게 공개되었습니다. 이번 업데이트를 통해 개발자들은 더욱 정교한 창의적 제어 기능을 활용할 수 있게 되었습니다. 또한 생성형 비디오 기능을 포함한 다양한 성능 개선이 이루어져 개발 환경의 효율성이 향상될 것으로 기대됩니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Anish Nangia"
+      ],
+      "title": [
+        "Product Manager, Google DeepMind"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-27T16:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=52515",
+    "title": "Benchmarking vector indexes",
+    "summary": "Nearly every database has vector search now, and every one of them has a blog post with a big number in it. Almost none of those numbers can be checked, because the thing that makes them meaningful is",
+    "aiSummary": "최근 대부분의 데이터베이스가 벡터 검색 기능을 탑재하면서 각 사마다 우수한 성능을 입증하는 수치를 내세우고 있습니다. 하지만 이러한 수치들은 측정 기준과 환경이 누락되어 있어 실제 성능을 객관적으로 검증하기 어려운 경우가 많습니다.\n\n이러한 문제를 해결하기 위해 Percona는 사용자가 직접 원하는 검색 엔진을 선택하고 검증할 수 있는 오픈소스 도구인 vector-bench를 개발했습니다. 이는 모호한 성능 지표를 걷어내고 데이터베이스 엔진별 실질적인 벡터 검색 성능을 명확하게 비교할 수 있는 환경을 제공합니다.",
+    "url": "https://www.percona.com/blog/benchmarking-vector-indexes/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Evgeniy Patlan",
+    "pubDate": "2026-08-27T13:35:32.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "title": "Piloting the world's first double-blind AI evaluations",
+    "summary": "Piloting the world's first double-blind AI evaluations",
+    "aiSummary": "AI 모델의 성능을 객관적으로 측정하기 위한 세계 최초의 이중맹검 평가 시스템이 도입됩니다. 이 방식은 평가자와 개발자 모두가 어떤 모델이 테스트 중인지 알 수 없도록 설계하여 인적 편향을 제거하고 데이터의 신뢰성을 확보하는 것을 목표로 합니다. AI 모델 평가의 투명성과 공정성을 높이기 위해 도입된 이번 시도는 향후 다양한 모델 간의 성능 비교를 더욱 엄격하고 과학적으로 진행하는 기준이 될 것으로 전망됩니다.",
+    "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-08-27T12:59:16.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.0.0",
+    "title": "v12.0.0",
+    "summary": "NestJS v12.0.0\nNestJS 12 is centered around ESM-ready packages, first-class Standard Schema support for validation and serialization, a rebuilt CLI, and native observability through the new @nestjs/ob",
+    "aiSummary": "NestJS v12.0.0은 ESM 중심의 패키지 전환과 Standard Schema에 대한 완벽한 지원을 핵심으로 하며, 재설계된 CLI와 네이티브 관측 가능성 기능을 제공합니다. 기존 CommonJS 애플리케이션은 별도의 수정 없이도 계속 운영할 수 있으며, 마이그레이션은 선택 사항입니다.\n\n주요 변경 사항 및 기능은 다음과 같습니다.\n\nESM 전환 및 요구 사항\n모든 핵심 NestJS 패키지가 ESM으로 제공됩니다. Node.js v20.19 이상 또는 v22.12 이상 환경이 필수적으로 요구되며, NestJS는 최신 Node.js의 require(esm) 기능을 통해 기존 환경과의 호환성을 유지합니다.\n\nStandard Schema 지원\n유효성 검사 및 직렬화를 위해 Zod, Valibot, ArkType 등과 같은 Standard Schema 호환 라이브러리를 직접 사용할 수 있습니다. 경로 매개변수 데코레이터와 StandardSchemaValidationPipe 및 StandardSchemaSerializerInterceptor를 통해 간편하게 검증 및 변환을 수행할 수 있습니다. 기존의 class-validator 방식도 계속 지원됩니다.\n\n네이티브 관측 가능성 (@nestjs/observe)\n별도의 APM 에이전트 없이 애플리케이션 생명주기에 통합되는 @nestjs/observe SDK가 추가되었습니다. HTTP, GraphQL, gRPC 등 다양한 트랜스포트를 자동으로 계측하여 컨트롤러 및 프로바이더 단위의 상세한 메트릭과 에러 추적을 제공합니다.\n\nCLI 및 빌드 도구 고도화\nCLI는 ESM으로 재구축되었으며 Vitest를 테스트 환경으로 도입했습니다. 새로운 nest upgrade 명령어를 통해 v11에서 v12로의 자동 마이그레이션을 지원합니다. 또한 Rspack이 모노레포의 새로운 기본 번들러로 채택되었으며, 기존 Webpack 관련 설정은 단계적으로 폐기됩니다. 프로젝트 생성 시 ESLint 대신 oxlint가 기본 린터로 제공됩니다.\n\n추가 개선 사항\n경로 충돌 진단 기능이 강화되어 명시적인 설정으로 중복 및 경로 모호성 문제를 감지할 수 있습니다. 에러 처리를 위해 머신 리딩이 가능한 에러 코드 체계가 도입되었으며, ConsoleLogger는 객체 데이터를 구조화된 로그 파라미터로 기본 처리합니다. 이외에도 Kafka 패턴의 정규식 지원, gRPC 예외 필터 개선, WebSocket 연결 종료 사유 핸들링 등 다양한 기능이 보강되었습니다.\n\n업그레이드 시 주의사항\n@nestjs/cli를 최신 버전으로 업데이트한 후 nest upgrade 명령어를 실행하는 것을 권장합니다. NATS v3 전환, GraphQL 구독 라이브러리 변경(subscriptions-transport-ws에서 graphql-ws로), 생명주기 훅 호출 방식 변경 등 일부 파괴적인 변경 사항이 포함되어 있으므로 마이그레이션 가이드를 참고하여 프로젝트 설정을 검토해야 합니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.0.0",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-27T12:23:49.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=clion&p=734488",
+    "title": "The CLion Roadmap: What’s Coming Between Now and Late 2026",
+    "summary": "This blog post covers the updates we plan to introduce over the next four months in the upcoming minor releases (2026.2.x) and the next stable release (2026.3). After reviewing your feedback and our s",
+    "aiSummary": "JetBrains는 2026년 하반기까지 적용될 CLion의 주요 개발 로드맵을 공개했습니다. 이번 계획은 향후 4개월간의 마이너 업데이트인 2026.2.x 버전과 차기 안정화 버전인 2026.3을 중심으로 진행됩니다.\n\n핵심 개발 방향은 크게 세 가지 분야에 집중됩니다. 우선 사용자의 생산성을 높이기 위해 AI를 활용한 Agentic workflow를 개선할 예정입니다. 또한 Embedded development를 위한 지원을 강화하고, 디버깅 과정의 효율성을 높이기 위한 디버거 성능 개선 작업이 포함됩니다. \n\n이번 로드맵은 그간 수렴된 사용자 피드백과 회사의 전략적 목표를 결합하여 설정되었습니다. 개발팀은 이를 통해 더욱 강력하고 편리한 통합 개발 환경을 제공하는 데 주력할 예정입니다.",
+    "url": "https://blog.jetbrains.com/clion/2026/08/roadmap/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Oleg Zinovyev",
+    "pubDate": "2026-08-27T11:49:51.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.0.1",
+    "title": "v12.0.1",
+    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
+    "aiSummary": "GitHub의 v12.0.1 버전이 업데이트되었습니다. 해당 업데이트는 플랫폼의 안정성 개선과 버그 수정 등을 포함하고 있으며 GitHub 서비스를 이용하는 개발자들에게 더욱 원활한 운영 환경을 제공합니다. 자세한 변경 사항이나 기술적 세부 정보는 GitHub 공식 릴리스 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.0.1",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-08-27T07:26:56.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.22",
     "title": "1.1.22",
     "summary": "Added a /model  argument that switches to a model by name, slug or label and saves it as your default in one step, with the rest of the first matching name offered as ghost text while you type; /model",
@@ -30,6 +259,56 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/smart-city-it-ot-data-convergence-security",
+    "title": "How can agencies unify smart city data to improve public services?",
+    "summary": "Learn how can smart cities unify operational data, improve visibility, detect anomalies, and secure connected infrastructure.",
+    "aiSummary": "스마트 시티는 운영 데이터를 통합하여 도시 전반의 가시성을 높이고 공공 서비스를 개선하는 방향으로 나아가고 있습니다. \n\n다양한 경로에서 발생하는 데이터를 통합 관리함으로써 도시 운영 체계의 비효율성을 줄이고 시스템상의 이상 징후를 신속하게 탐지할 수 있습니다. \n\n또한 연결된 도시 인프라의 보안을 강화하여 데이터 중심의 안전하고 지능적인 공공 서비스를 제공하는 것이 핵심입니다.",
+    "url": "https://www.elastic.co/blog/smart-city-it-ot-data-convergence-security",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Brixton Pizzuti",
+    "pubDate": "2026-08-27T00:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "title": "Previewing the Model Hardware Standard",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBeneficial DeploymentsPreviewing the Model Hardware StandardAug 27, 2026We’re opening a research preview of the Model Hardware Standard (MHS), ",
+    "aiSummary": "Anthropic은 AI 에이전트가 물리적 기기를 안전하게 제어할 수 있도록 돕는 공통 규격인 Model Hardware Standard를 공개하고 연구용 프리뷰를 시작합니다. 그동안 실험실이나 제조 현장의 장비들은 서로 다른 통신 방식을 사용하여 통합에 긴 시간이 소요되었으나 MHS는 이를 표준화된 드라이버를 통해 수 분 내로 단축합니다.\n\n이 표준은 프로그래밍 가능한 인터페이스를 가진 모든 기기에 적용 가능하며 특정 모델에 종속되지 않는 개방형 구조를 갖추고 있습니다. MHS는 읽기나 쓰기 같은 단순한 명령 체계를 사용하여 기기와 AI 간의 데이터를 매끄럽게 교환하고 AI 에이전트가 생소한 기기라도 즉각적으로 그 특성을 파악하여 운용할 수 있도록 지원합니다.\n\nAnthropic은 HHMI Janelia Research Campus와 협력하여 이 기술을 개발했으며 현재 과학 연구소 및 제조 기업들과 협력하여 안전성 평가와 모범 사례를 구축하고 있습니다. 향후 해당 표준을 오픈 소스로 전환하여 AI가 실험 자동화나 정밀 제조와 같은 복잡한 물리적 환경에서 보다 자율적으로 업무를 수행할 수 있는 생태계를 조성할 계획입니다. 또한 이 표준은 Model Context Protocol과 같은 기존 통신 규약을 활용하여 확장성을 확보하고 있습니다.",
+    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-27T00:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/start-from-scratch",
+    "title": "Start from scratch, without a repo",
+    "summary": "Aug 27, 2026 · ChangelogStart from scratch, without a repoCloud Agents no longer require a connected GitHub or other third-party SCM provider to get started. Prompt from the get-go, then save your wor",
+    "aiSummary": "Cursor의 Cloud Agents 기능이 업데이트되어 외부 SCM 연동 없이도 즉시 작업을 시작할 수 있게 되었습니다. 사용자는 리포지토리 선택 창에서 Start from scratch를 선택하여 바로 프롬프트를 입력할 수 있으며, 작업 과정에서 Cursor Origin 리포지토리가 자동으로 생성됩니다.\n\n작업 결과물은 언제든지 Create repo 버튼을 통해 명명된 정식 리포지토리로 저장할 수 있으며, 프로젝트의 공개 범위를 private 또는 internal로 설정하여 관리할 수 있습니다. 생성된 리포지토리는 Codebase 탭에서 확인하고 추가적인 개발을 이어갈 수 있습니다.\n\n또한 브라우저 내에서 Cloud Agents의 라이브 환경을 직접 미리 볼 수 있는 기능이 추가되어 디자인 모드 등의 도구를 즉시 활용할 수 있습니다. Vercel 계정을 연동하면 빌드한 결과물을 라이브 URL로 즉시 배포하는 것도 가능합니다.",
+    "url": "https://www.cursor.com/changelog/start-from-scratch",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-08-27T00:00:00.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -93,6 +372,22 @@
     "tags": [
       "WebKit",
       "Safari"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-where-binary",
+    "title": "whereBinary(): Case-Sensitive MySQL Queries in Laravel",
+    "summary": "Laravel 13.27 adds whereBinary() to the query builder for byte-exact, case-sensitive comparisons on MySQL and MariaDB without dropping into whereRaw().\nThe post whereBinary(): Case-Sensitive MySQL Que",
+    "aiSummary": "Laravel 13.27 버전이 업데이트되면서 쿼리 빌더에 whereBinary 메서드가 새롭게 추가되었습니다.\n\n이 기능을 활용하면 MySQL 및 MariaDB 환경에서 whereRaw 메서드를 직접 사용하지 않고도 바이트 단위로 일치하는 대소문자 구분 비교 쿼리를 간편하게 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-where-binary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-26T21:25:13.000Z",
+    "fetchedAt": "2026-08-27T18:20:02.697Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
