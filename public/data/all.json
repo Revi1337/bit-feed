@@ -1,5 +1,133 @@
 [
   {
+    "id": "https://laravel-news.com/laravel-starter-kits-vite-plus",
+    "title": "Laravel Starter Kits Now Ship with Vite+",
+    "summary": "Every Laravel starter kit now builds with Vite+, trading ESLint and Prettier for a single vp check across React, Vue, Svelte, and Livewire.\nThe post Laravel Starter Kits Now Ship with Vite+ appeared f",
+    "aiSummary": "모든 Laravel 스타터 키트가 이제 Vite+를 기본 빌드 도구로 제공합니다.\n\n이번 업데이트를 통해 기존에 사용되던 ESLint와 Prettier가 제거되었습니다. 대신 React, Vue, Svelte, Livewire 등 다양한 환경에서 통합적인 정적 분석 및 빌드 환경을 구축하는 vp check 방식으로 전환되었습니다.",
+    "url": "https://laravel-news.com/laravel-starter-kits-vite-plus?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-28T16:45:20.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
+    "title": "Relaunching HashiCorp Validated Designs with improved usability",
+    "summary": "HashiCorp Validated Designs (HVDs) provide prescriptive, enterprise-focused guidance for deploying, operating, and using HashiCorp products in production. They are designed to go beyond feature docume",
+    "aiSummary": "HashiCorp가 기업 고객의 프로덕션 환경 구축과 운영을 지원하는 HashiCorp Validated Designs를 전면 개편하여 developer.hashicorp.com을 통해 새롭게 공개했습니다. 이번 개편은 기존의 복잡했던 탐색 구조를 개선하고 사용자 중심의 가이드 제공에 초점을 맞추었습니다.\n\n새로운 구조는 클라우드 성숙도 모델 대신 제품의 생명 주기와 수행 작업, 그리고 담당 팀을 기준으로 재편되었습니다. 구체적으로는 시스템 구축을 위한 Installation guide, 일상적인 운영과 관리를 위한 Administration guide, 그리고 제품의 실무 활용을 다루는 User guide로 분류하여 사용자가 필요한 정보를 직관적으로 찾을 수 있도록 했습니다.\n\n또한 검색 기능과 접근성도 대폭 강화되었습니다. developer.hashicorp.com의 메인 탐색 메뉴에 HVD를 추가하고 사이트 내 검색 및 외부 검색 엔진 인덱싱을 지원하여 사용자가 문제 해결에 필요한 가이드를 더 쉽게 발견할 수 있게 했습니다. 제품 문서와 튜토리얼에서도 관련 HVD로 직접 연결이 가능해져 기술 리소스 간의 통합성이 높아졌습니다.\n\n이번 개편은 기존의 검증된 가이드 내용은 유지하면서 정보 구조를 최적화하여 기업 팀이 더 빠르게 구현 패턴을 습득하고 운영 효율성을 높일 수 있도록 돕는 데 목적이 있습니다.",
+    "url": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Dan Brown",
+    "pubDate": "2026-08-28T16:00:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/28/django-developers-survey-2026-results/",
+    "title": "Django Developers Survey 2026 results",
+    "summary": "The results from the 2026 Django Developers Survey are now available. This is the fifth annual report conducted from May to July 2026 by the Django Software Foundation in collaboration with JetBrains ",
+    "aiSummary": "Django Software Foundation이 JetBrains PyCharm과 협력하여 진행한 5번째 연례 Django Developers Survey 2026 결과가 발표되었습니다. 2026년 5월부터 7월까지 수행된 이번 조사는 전체 보고서와 인포그래픽, 주요 트렌드를 분석한 블로그 게시물인 The State of Django 2026: Boring is so back을 통해 상세 내용을 공개합니다.\n\n해당 보고서는 Django 생태계의 현재를 심층적으로 다루고 있으며, Django 6.1 버전과 HTMX를 비롯하여 비동기 처리, AI 통합, 배포, 테스트 및 Python 도구 활용 등 개발자가 주목해야 할 핵심적인 기술 동향을 포함하고 있습니다. 또한 Django Chat 팟캐스트의 특별 여름 에피소드를 통해서도 이번 설문 조사 결과와 실무에 적용 가능한 다양한 아이디어를 확인할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/28/django-developers-survey-2026-results/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "2026-08-28T14:55:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-27-upcoming-changes-to-github-copilot-policies-and-billing",
+    "title": "Upcoming changes to GitHub Copilot policies and billing",
+    "summary": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
+    "aiSummary": "GitHub가 일관된 Copilot 서비스 경험을 제공하기 위해 정책 및 과금 방식에 대한 세 가지 변경 사항을 발표했습니다. 이번 업데이트는 사용자들의 서비스 이용 환경에 영향을 미칠 수 있는 내용을 포함하고 있으므로 해당 공지 사항을 상세히 확인해야 합니다. 상세한 정책 변화와 청구 관련 정보는 GitHub 블로그의 공식 게시물을 통해 확인할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-28T11:37:19.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=734588",
+    "title": "Security Incident Affecting JetBrains Cadence",
+    "summary": "We are investigating a security incident affecting JetBrains Cadence. Cadence is a JetBrains-hosted service that integrates with PyCharm through an optional plugin, and lets you run your projects on c",
+    "aiSummary": "JetBrains는 자사가 운영하는 클라우드 연동 서비스인 JetBrains Cadence에서 보안 사고가 발생했음을 확인하고 조사에 착수했습니다.\n\n이번 사고는 PyCharm 플러그인을 통해 클라우드 리소스를 활용하는 JetBrains Cadence 서비스에 대한 무단 접근이 발생한 건입니다. 이 과정에서 해당 서비스를 이용하는 고객들의 데이터가 노출된 것으로 밝혀졌습니다.\n\nJetBrains 측은 현재 사고 영향을 받은 고객들에게 개별적으로 연락을 취하고 있으며, 보안 강화를 위한 후속 조치를 진행하고 있습니다.",
+    "url": "https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Daniel Gallo",
+    "pubDate": "2026-08-28T09:50:14.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-refresh-for-update",
+    "title": "Pessimistic Locking in Laravel Eloquent with refreshForUpdate()",
+    "summary": "Laravel 13.27 adds refreshForUpdate() to Eloquent, reloading a model under lockForUpdate() so you can take a pessimistic lock without requerying by key.\nThe post Pessimistic Locking in Laravel Eloquen",
+    "aiSummary": "Laravel 13.27 버전에서 Eloquent 모델을 위한 refreshForUpdate() 메서드가 새롭게 도입되었습니다.\n\n이 기능을 사용하면 모델을 lockForUpdate() 상태로 즉시 재로드할 수 있어, 기본 키를 이용해 데이터를 다시 조회하는 과정 없이도 비관적 잠금을 적용할 수 있습니다. 이를 통해 개발자는 데이터 정합성을 유지하면서도 더욱 효율적으로 데이터베이스 잠금 처리를 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-refresh-for-update?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-28T01:55:47.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/28/this-week-in-rails",
+    "title": "This Week in Rails: August 28, 2026",
+    "summary": "Hi, it’s Greg. Let’s explore this week’s changes in the Rails codebase.\nAgents on Rails: lemans goes open source\nActionpack ractorize\nMake ActionDispatch::ParamBuilder.default ractor safe by using sin",
+    "aiSummary": "이번 주 Rails 코드베이스에서는 Ractor 호환성 향상과 보안 강화, 그리고 새로운 기능 추가가 진행되었습니다.\n\nActionPack은 Ractor 안전성을 확보하기 위해 ActionDispatch 내의 여러 요소를 개선했습니다. ParamBuilder와 Request 내 LOCALHOST 정규식, 그리고 Response의 기본 헤더와 문자셋 설정이 Ractor에 안전하도록 수정되었으며, 일부 부분 이름과 reset_primary_key 기능도 호환성을 확보했습니다.\n\nActiveRecord 설정 부분에서는 파편화되어 있던 스키마 무시 설정을 config.active_record.schema_ignored_tables로 통합했습니다. 기존의 설정들은 더 이상 사용되지 않으며, 새로운 설정으로 위임되는 방식으로 변경되어 단일 설정 경로를 갖추게 되었습니다.\n\n보안 측면에서는 Attachment#to_markdown 메서드의 캡션 이스케이프 처리를 강화하여 크로스 사이트 스크립팅 취약점을 예방했습니다. \n\n새로운 기능으로 HTML과 ERB를 동시에 이해하는 HTML 인식 엔진인 Herb가 도입되었습니다. Herb는 Prism 파서를 활용하여 HTML과 Ruby 문법을 단일 구문 트리로 파싱하며, 템플릿 컴파일 시 HTML 의미론을 파악하여 올바른 마크업과 Ruby 코드 생성을 보장합니다.\n\n마지막으로 I18n의 translate 메서드에서 scope 옵션에 마침표를 사용한 상대 경로 해석이 가능해졌습니다. 이를 통해 컨트롤러와 액션 위치를 기준으로 유연한 번역 키 참조가 가능해졌습니다. 해당 주간에는 25명의 기여자가 Rails 프로젝트에 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/8/28/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Greg",
+    "pubDate": "2026-08-28T00:00:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-mask-query-bindings",
+    "title": "Mask Query Bindings in Laravel Exception Messages",
+    "summary": "Laravel 13.27 adds a per-connection option that keeps query bindings out of QueryException messages, so customer data stops reaching logs and APM tools.\nThe post Mask Query Bindings in Laravel Excepti",
+    "aiSummary": "Laravel 13.27 버전에서 데이터베이스 연결별로 쿼리 바인딩 정보를 QueryException 메시지에서 제외할 수 있는 옵션이 새롭게 추가되었습니다. 이를 통해 고객의 민감한 데이터가 로그나 APM 도구로 유출되는 것을 방지하여 보안성을 강화할 수 있게 되었습니다.",
+    "url": "https://laravel-news.com/laravel-mask-query-bindings?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-27T23:33:55.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
     "title": "Better label management on issues is generally available",
     "summary": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right…\nThe post Better label",
@@ -25604,6 +25732,22 @@
     "fetchedAt": "2026-06-13T19:19:32.218Z",
     "tags": [
       "Angular"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/cross-project-search-serverless-tech-preview",
+    "title": "Introducing cross-project search in Elastic Cloud Serverless",
+    "summary": "Discover cross-project search (CPS) for Elastic Cloud Serverless. Search across all your workloads from a single pane of glass, and instantly query distributed projects as one without moving your unde",
+    "aiSummary": "Elastic Cloud Serverless에서 새롭게 선보이는 Cross-project search 기능은 분산된 여러 프로젝트의 데이터를 통합적으로 검색할 수 있는 환경을 제공합니다. 사용자는 데이터를 물리적으로 이동시킬 필요 없이 단일 인터페이스를 통해 모든 워크로드를 즉시 쿼리할 수 있습니다. 이를 통해 관리의 복잡성을 줄이고 여러 프로젝트에 걸친 데이터 분석 효율을 크게 높일 수 있습니다.",
+    "url": "https://www.elastic.co/blog/cross-project-search-serverless-tech-preview",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Najwa Harif,Hubert Grzesiek",
+    "pubDate": "2026-04-20T00:00:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {

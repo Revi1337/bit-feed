@@ -1,5 +1,133 @@
 [
   {
+    "id": "https://laravel-news.com/laravel-starter-kits-vite-plus",
+    "title": "Laravel Starter Kits Now Ship with Vite+",
+    "summary": "Every Laravel starter kit now builds with Vite+, trading ESLint and Prettier for a single vp check across React, Vue, Svelte, and Livewire.\nThe post Laravel Starter Kits Now Ship with Vite+ appeared f",
+    "aiSummary": "모든 Laravel 스타터 키트가 이제 Vite+를 기본 빌드 도구로 제공합니다.\n\n이번 업데이트를 통해 기존에 사용되던 ESLint와 Prettier가 제거되었습니다. 대신 React, Vue, Svelte, Livewire 등 다양한 환경에서 통합적인 정적 분석 및 빌드 환경을 구축하는 vp check 방식으로 전환되었습니다.",
+    "url": "https://laravel-news.com/laravel-starter-kits-vite-plus?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-28T16:45:20.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
+    "title": "Relaunching HashiCorp Validated Designs with improved usability",
+    "summary": "HashiCorp Validated Designs (HVDs) provide prescriptive, enterprise-focused guidance for deploying, operating, and using HashiCorp products in production. They are designed to go beyond feature docume",
+    "aiSummary": "HashiCorp가 기업 고객의 프로덕션 환경 구축과 운영을 지원하는 HashiCorp Validated Designs를 전면 개편하여 developer.hashicorp.com을 통해 새롭게 공개했습니다. 이번 개편은 기존의 복잡했던 탐색 구조를 개선하고 사용자 중심의 가이드 제공에 초점을 맞추었습니다.\n\n새로운 구조는 클라우드 성숙도 모델 대신 제품의 생명 주기와 수행 작업, 그리고 담당 팀을 기준으로 재편되었습니다. 구체적으로는 시스템 구축을 위한 Installation guide, 일상적인 운영과 관리를 위한 Administration guide, 그리고 제품의 실무 활용을 다루는 User guide로 분류하여 사용자가 필요한 정보를 직관적으로 찾을 수 있도록 했습니다.\n\n또한 검색 기능과 접근성도 대폭 강화되었습니다. developer.hashicorp.com의 메인 탐색 메뉴에 HVD를 추가하고 사이트 내 검색 및 외부 검색 엔진 인덱싱을 지원하여 사용자가 문제 해결에 필요한 가이드를 더 쉽게 발견할 수 있게 했습니다. 제품 문서와 튜토리얼에서도 관련 HVD로 직접 연결이 가능해져 기술 리소스 간의 통합성이 높아졌습니다.\n\n이번 개편은 기존의 검증된 가이드 내용은 유지하면서 정보 구조를 최적화하여 기업 팀이 더 빠르게 구현 패턴을 습득하고 운영 효율성을 높일 수 있도록 돕는 데 목적이 있습니다.",
+    "url": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Dan Brown",
+    "pubDate": "2026-08-28T16:00:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/aug/28/django-developers-survey-2026-results/",
+    "title": "Django Developers Survey 2026 results",
+    "summary": "The results from the 2026 Django Developers Survey are now available. This is the fifth annual report conducted from May to July 2026 by the Django Software Foundation in collaboration with JetBrains ",
+    "aiSummary": "Django Software Foundation이 JetBrains PyCharm과 협력하여 진행한 5번째 연례 Django Developers Survey 2026 결과가 발표되었습니다. 2026년 5월부터 7월까지 수행된 이번 조사는 전체 보고서와 인포그래픽, 주요 트렌드를 분석한 블로그 게시물인 The State of Django 2026: Boring is so back을 통해 상세 내용을 공개합니다.\n\n해당 보고서는 Django 생태계의 현재를 심층적으로 다루고 있으며, Django 6.1 버전과 HTMX를 비롯하여 비동기 처리, AI 통합, 배포, 테스트 및 Python 도구 활용 등 개발자가 주목해야 할 핵심적인 기술 동향을 포함하고 있습니다. 또한 Django Chat 팟캐스트의 특별 여름 에피소드를 통해서도 이번 설문 조사 결과와 실무에 적용 가능한 다양한 아이디어를 확인할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/aug/28/django-developers-survey-2026-results/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett",
+    "pubDate": "2026-08-28T14:55:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-27-upcoming-changes-to-github-copilot-policies-and-billing",
+    "title": "Upcoming changes to GitHub Copilot policies and billing",
+    "summary": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
+    "aiSummary": "GitHub가 일관된 Copilot 서비스 경험을 제공하기 위해 정책 및 과금 방식에 대한 세 가지 변경 사항을 발표했습니다. 이번 업데이트는 사용자들의 서비스 이용 환경에 영향을 미칠 수 있는 내용을 포함하고 있으므로 해당 공지 사항을 상세히 확인해야 합니다. 상세한 정책 변화와 청구 관련 정보는 GitHub 블로그의 공식 게시물을 통해 확인할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-28T11:37:19.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=734588",
+    "title": "Security Incident Affecting JetBrains Cadence",
+    "summary": "We are investigating a security incident affecting JetBrains Cadence. Cadence is a JetBrains-hosted service that integrates with PyCharm through an optional plugin, and lets you run your projects on c",
+    "aiSummary": "JetBrains는 자사가 운영하는 클라우드 연동 서비스인 JetBrains Cadence에서 보안 사고가 발생했음을 확인하고 조사에 착수했습니다.\n\n이번 사고는 PyCharm 플러그인을 통해 클라우드 리소스를 활용하는 JetBrains Cadence 서비스에 대한 무단 접근이 발생한 건입니다. 이 과정에서 해당 서비스를 이용하는 고객들의 데이터가 노출된 것으로 밝혀졌습니다.\n\nJetBrains 측은 현재 사고 영향을 받은 고객들에게 개별적으로 연락을 취하고 있으며, 보안 강화를 위한 후속 조치를 진행하고 있습니다.",
+    "url": "https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Daniel Gallo",
+    "pubDate": "2026-08-28T09:50:14.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-refresh-for-update",
+    "title": "Pessimistic Locking in Laravel Eloquent with refreshForUpdate()",
+    "summary": "Laravel 13.27 adds refreshForUpdate() to Eloquent, reloading a model under lockForUpdate() so you can take a pessimistic lock without requerying by key.\nThe post Pessimistic Locking in Laravel Eloquen",
+    "aiSummary": "Laravel 13.27 버전에서 Eloquent 모델을 위한 refreshForUpdate() 메서드가 새롭게 도입되었습니다.\n\n이 기능을 사용하면 모델을 lockForUpdate() 상태로 즉시 재로드할 수 있어, 기본 키를 이용해 데이터를 다시 조회하는 과정 없이도 비관적 잠금을 적용할 수 있습니다. 이를 통해 개발자는 데이터 정합성을 유지하면서도 더욱 효율적으로 데이터베이스 잠금 처리를 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-refresh-for-update?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-28T01:55:47.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/8/28/this-week-in-rails",
+    "title": "This Week in Rails: August 28, 2026",
+    "summary": "Hi, it’s Greg. Let’s explore this week’s changes in the Rails codebase.\nAgents on Rails: lemans goes open source\nActionpack ractorize\nMake ActionDispatch::ParamBuilder.default ractor safe by using sin",
+    "aiSummary": "이번 주 Rails 코드베이스에서는 Ractor 호환성 향상과 보안 강화, 그리고 새로운 기능 추가가 진행되었습니다.\n\nActionPack은 Ractor 안전성을 확보하기 위해 ActionDispatch 내의 여러 요소를 개선했습니다. ParamBuilder와 Request 내 LOCALHOST 정규식, 그리고 Response의 기본 헤더와 문자셋 설정이 Ractor에 안전하도록 수정되었으며, 일부 부분 이름과 reset_primary_key 기능도 호환성을 확보했습니다.\n\nActiveRecord 설정 부분에서는 파편화되어 있던 스키마 무시 설정을 config.active_record.schema_ignored_tables로 통합했습니다. 기존의 설정들은 더 이상 사용되지 않으며, 새로운 설정으로 위임되는 방식으로 변경되어 단일 설정 경로를 갖추게 되었습니다.\n\n보안 측면에서는 Attachment#to_markdown 메서드의 캡션 이스케이프 처리를 강화하여 크로스 사이트 스크립팅 취약점을 예방했습니다. \n\n새로운 기능으로 HTML과 ERB를 동시에 이해하는 HTML 인식 엔진인 Herb가 도입되었습니다. Herb는 Prism 파서를 활용하여 HTML과 Ruby 문법을 단일 구문 트리로 파싱하며, 템플릿 컴파일 시 HTML 의미론을 파악하여 올바른 마크업과 Ruby 코드 생성을 보장합니다.\n\n마지막으로 I18n의 translate 메서드에서 scope 옵션에 마침표를 사용한 상대 경로 해석이 가능해졌습니다. 이를 통해 컨트롤러와 액션 위치를 기준으로 유연한 번역 키 참조가 가능해졌습니다. 해당 주간에는 25명의 기여자가 Rails 프로젝트에 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/8/28/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Greg",
+    "pubDate": "2026-08-28T00:00:00.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-mask-query-bindings",
+    "title": "Mask Query Bindings in Laravel Exception Messages",
+    "summary": "Laravel 13.27 adds a per-connection option that keeps query bindings out of QueryException messages, so customer data stops reaching logs and APM tools.\nThe post Mask Query Bindings in Laravel Excepti",
+    "aiSummary": "Laravel 13.27 버전에서 데이터베이스 연결별로 쿼리 바인딩 정보를 QueryException 메시지에서 제외할 수 있는 옵션이 새롭게 추가되었습니다. 이를 통해 고객의 민감한 데이터가 로그나 APM 도구로 유출되는 것을 방지하여 보안성을 강화할 수 있게 되었습니다.",
+    "url": "https://laravel-news.com/laravel-mask-query-bindings?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-08-27T23:33:55.000Z",
+    "fetchedAt": "2026-08-28T19:29:18.016Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
     "title": "Better label management on issues is generally available",
     "summary": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right…\nThe post Better label",
@@ -1625,216 +1753,6 @@
     "tags": [
       "Antigravity",
       "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-ai-agent-run-events",
-    "title": "Laravel AI: Trace Agent Runs With Lifecycle Events",
-    "summary": "Laravel AI 0.11 gives every agent run one invocation ID plus step and tool events with wall timings, so you can trace, log, and time a run end to end.\nThe post Laravel AI: Trace Agent Runs With Lifecy",
-    "aiSummary": "Laravel AI 0.11 버전 업데이트를 통해 에이전트 실행 과정에 대한 추적 기능이 강화되었습니다.\n\n이번 업데이트는 모든 에이전트 실행 시 고유한 invocation ID를 부여하며, 단계별 및 도구별 이벤트에 대한 실행 시간 정보를 제공합니다. 이를 통해 개발자는 에이전트의 전체 실행 과정을 추적하고 기록하며 소요 시간을 측정할 수 있게 되었습니다.",
-    "url": "https://laravel-news.com/laravel-ai-agent-run-events?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-08-21T18:56:17.000Z",
-    "fetchedAt": "2026-08-24T15:59:49.635Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-ai-raw-http-response",
-    "title": "Laravel AI: Get Raw HTTP Responses and Rate Limits",
-    "summary": "The Laravel AI SDK exposes the provider's underlying HTTP response on $response->raw, so you can read rate limit headers, request ids, and payload fields.\nThe post Laravel AI: Get Raw HTTP Responses a",
-    "aiSummary": "Laravel AI SDK가 업데이트를 통해 제공자의 원본 HTTP 응답에 접근할 수 있는 기능을 추가했습니다.\n\n개발자는 이제 응답 객체의 raw 속성을 통해 API로부터 전달받은 헤더 정보를 직접 확인할 수 있습니다. 이를 활용하면 사용자는 서비스의 레이트 리밋 정보나 요청 아이디, 그리고 상세 페이로드 필드 등을 코드 내에서 직접 읽고 처리하는 것이 가능해집니다.",
-    "url": "https://laravel-news.com/laravel-ai-raw-http-response?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-08-21T18:56:05.000Z",
-    "fetchedAt": "2026-08-24T15:59:49.635Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "3e7f6047f5812686137b8832bd55b853dd906a34",
-    "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-    "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
-    "aiSummary": "AWS Glue 6.0이 새롭게 출시되었습니다. 이번 업데이트는 Apache Spark 4.1, Python 3.12, Scala 2.13을 기반으로 하는 완전히 현대화된 런타임을 제공합니다. 이를 통해 기존 AWS Glue 버전 대비 가격이 30퍼센트 저렴해졌으며 Apache Iceberg v3에 대한 완벽한 지원을 포함합니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "2026-08-21T18:53:26.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
-    "title": "Better tools for managing blocked users",
-    "summary": "Managing blocked users is now faster and clearer for personal accounts and organizations. With this update, you can: Search by username, full name, or email. Sort and paginate long lists.…\nThe post Be",
-    "aiSummary": "GitHub의 차단된 사용자 관리 기능이 개인 계정과 조직을 위해 더 빠르고 명확하게 개선되었습니다. 이번 업데이트를 통해 사용자 이름, 전체 이름, 이메일을 통한 검색 기능을 제공하며 차단된 사용자 목록이 긴 경우 정렬 및 페이지 나누기 기능을 지원합니다. 이를 통해 이전보다 효율적으로 사용자 차단 상태를 관리할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-21T17:28:36.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-    "title": "The new GitHub Copilot experience in Slack",
-    "summary": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to…\nThe post The new GitHub",
-    "aiSummary": "GitHub Copilot의 에이전트 기능이 Slack에 통합되어 공개 프리뷰로 제공됩니다.\n\n사용자는 Slack 내에서 @GitHub를 호출하여 GitHub Copilot CLI와 GitHub Copilot 앱의 다양한 기능을 직접 활용할 수 있습니다. 이를 통해 개발자는 개발 환경을 전환하지 않고도 Slack 안에서 코딩 관련 작업을 효율적으로 처리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-21T16:07:15.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-    "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
-    "summary": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot…\nThe post Share",
-    "aiSummary": "Microsoft Teams 내의 대화 내용을 GitHub Copilot을 활용한 협업형 에이전트 세션으로 전환하는 기능이 도입되었습니다. 사용자는 Microsoft Teams의 채널이나 대화창에서 @GitHub를 멘션하는 것만으로 손쉽게 GitHub Copilot 에이전트를 호출할 수 있습니다. 이를 통해 팀원들은 실시간으로 공유되는 에이전트의 작업 과정을 확인하고, 함께 의사결정에 참여하거나 작업 방향을 직접 제어할 수 있습니다. 결과적으로 개발 팀은 플랫폼을 전환할 필요 없이 Microsoft Teams 환경 안에서 긴밀한 협업을 통해 더욱 효율적으로 작업할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-21T16:03:36.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/",
-    "title": "Cloud CISO Perspectives: Sticking to security fundamentals in the AI era",
-    "summary": "Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals.\nAs with all Cloud CISO Per",
-    "aiSummary": "Google Cloud의 CISO인 Chris Betz는 AI 시대가 도래함에 따라 보안의 기본 원칙을 준수하는 것이 그 어느 때보다 중요하다고 강조합니다. AI가 공격자의 능력을 가속화하고 위협의 속도를 높이는 상황에서, 전통적인 보안 기본기가 구식이라는 인식은 위험한 오해입니다. 오히려 MFA, Zero Trust 프레임워크, 지속적인 시스템 패치, 종합적인 탐지 및 대응과 같은 보안 기초를 더욱 강화하고 계층화된 방어 체계를 구축하는 것이 필수적입니다.\n\nAI는 취약점 관리 분야에서도 혁신을 가져왔습니다. 방대한 양의 취약점을 빠르게 발견하는 것뿐만 아니라, 가장 치명적인 위험을 우선순위에 두고 스마트한 완화 조치를 취하는 대응 속도가 중요해졌습니다. Google Cloud는 AI를 활용하여 소프트웨어 개발 수명 주기 전반을 자동화하고, 위협 모델링 데이터를 통합하여 동적인 제품 보안 검토 파이프라인을 운영하고 있습니다.\n\n현대의 CISO는 단순히 기술적인 역량을 넘어 전략적인 비즈니스 리더로서 역할을 수행해야 합니다. AI 도입에 따른 보안 복잡성을 관리하면서 조직의 성장을 보호하고, 보안의 기본 원칙과 비즈니스 목표를 일치시키는 능력이 요구됩니다.\n\n추가적으로 본문은 Wiz와의 협력을 통한 AI 위협 대응, Google Cloud의 PQC 로드맵, 공급망 공격 완화 가이드, 그리고 에이전트 기반 소스 코드 검토 아키텍처인 AVDH와 같은 최신 보안 전략들을 소개하며 기술적 방어의 중요성을 거듭 강조합니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Chris Betz"
-      ],
-      "title": [
-        "CISO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-21T16:00:00.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/how-agents-can-delegate-better/",
-    "title": "How agents can delegate better",
-    "summary": "In any organizational behavior class, students will learn that effective delegation is among the most important skills for a seasoned leader. Getting meaningful work done involves careful coordination",
-    "aiSummary": "Google Cloud는 기업용 워크플로우에서 AI 에이전트가 복잡한 작업을 효율적으로 수행하도록 만들기 위해 Google DeepMind의 Intelligent AI Delegation 연구를 기반으로 한 4가지 핵심 원칙을 제시합니다.\n\n첫 번째 원칙은 위임된 작업의 검증 가능성입니다. 에이전트는 작업을 신뢰할 수 있고 검증 가능한 단위로 분해하는 Contract-first decomposition 방식을 채택해야 합니다. 모든 것을 자동화할 수는 없으므로 사람이 개입하여 전문가적 판단으로 결과를 확인하는 지점을 명확히 파악하는 것이 중요합니다.\n\n두 번째 원칙은 비용 효율성입니다. 모든 작업에 강력한 추론 모델을 사용하는 대신 작업의 난이도에 맞춰 적절한 모델을 선택하는 모델 라우팅이 필요합니다. 이를 통해 기업은 성능을 유지하면서도 불필요한 비용 지출을 최소화할 수 있습니다.\n\n세 번째 원칙은 민감 데이터 보호입니다. 에이전트는 작업 수행에 필요한 최소한의 정보만 하위 에이전트에 전달해야 합니다. 데이터 보안과 성능 유지를 위해 Zero-knowledge proofs와 같은 고급 암호화 기술을 활용하여 데이터를 노출하지 않고도 작업의 정확성을 증명하는 방식이 권장됩니다.\n\n네 번째 원칙은 무관심 지대 경계입니다. 현재의 AI는 요청을 비판 없이 수용하는 경향이 있어 다단계 위임 시 잠재적인 위험이 발생할 수 있습니다. 따라서 에이전트는 모호한 요청에 대해 상위 에이전트에게 재확인을 요청하거나 인간의 개입을 끌어내는 동적 인지 마찰 기능을 갖추어 책임 있는 행위자로 동작해야 합니다.\n\nGoogle Cloud는 이러한 원칙을 통해 에이전트가 인간 전문가와 자연스럽게 협업하고 조직의 비즈니스 가치를 극대화할 수 있는 미래를 지향합니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/how-agents-can-delegate-better/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Nenad Tomasev"
-      ],
-      "title": [
-        "Research Scientist, Google DeepMind"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-21T16:00:00.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
-    "title": "What does “full-stack” AI actually mean?",
-    "summary": "A Google DeepMind engineer breaks full-stack development into five simple layers and explains how it affects everyday users.",
-    "aiSummary": "Google DeepMind의 엔지니어는 full-stack AI를 5개의 계층으로 구분하여 설명하며 이것이 일반 사용자에게 미치는 영향을 분석합니다.\n\n첫 번째 계층은 인프라 단계로 컴퓨팅 자원과 하드웨어 인프라를 포함합니다. 두 번째 계층은 기반 모델로 대규모 데이터로 학습된 파운데이션 모델을 의미합니다. 세 번째 계층은 모델 튜닝 및 최적화 단계로 특정 작업에 적합하도록 모델을 다듬는 과정을 다룹니다. 네 번째 계층은 애플리케이션 및 인터페이스 단계로 사용자가 직접 상호작용하는 소프트웨어 환경을 구축합니다. 마지막 다섯 번째 계층은 배포 및 운영 단계로 시스템의 안정성과 지속적인 성능을 관리합니다.\n\n이러한 5단계 구조는 AI 서비스가 단지 알고리즘의 문제가 아니라 하드웨어부터 사용자 경험까지 유기적으로 연결된 통합 시스템임을 시사합니다. 따라서 full-stack AI에 대한 이해는 사용자가 인공지능 기술의 발전 방향과 서비스의 완성도를 파악하는 데 중요한 지표가 됩니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Lindsey Lanquist"
-      ],
-      "title": [
-        "Contributor"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-21T16:00:00.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-    "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-    "aiSummary": "Google DeepMind는 15년간 축적해 온 게임 분야 AI 연구 성과를 바탕으로 게임 스튜디오들과 협력하여 혁신적인 AI 게임 플레이를 프로토타입으로 개발하고 있습니다.\n\n이번 협업은 과거 Atari 게임부터 EVE Online에 이르기까지 DeepMind가 수행해 온 AI 학습 및 강화학습 연구를 실제 게임 환경에 적용하려는 시도입니다. 이를 통해 단순한 연산을 넘어 복잡하고 역동적인 게임 환경에서 지능적으로 상호작용하는 차세대 AI 플레이 경험을 창출하는 것을 목표로 합니다.",
-    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-08-21T11:59:48.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
       "AI"
     ]
   }
