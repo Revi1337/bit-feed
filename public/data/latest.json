@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
+    "title": "Better label management on issues is generally available",
+    "summary": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right…\nThe post Better label",
+    "aiSummary": "GitHub가 이슈 라벨 관리를 효율적으로 개선할 수 있는 새로운 기능을 정식 출시했습니다. 리포지토리에 라벨이 방대하게 쌓여 있는 경우에도 필요한 라벨을 더욱 쉽고 빠르게 찾을 수 있도록 돕는 기능이 추가되었습니다. 특히 Suggested Labels 기능을 통해 상황에 최적화된 라벨을 제안받을 수 있어 업무 생산성을 높일 수 있습니다. 이번 업데이트는 복잡한 라벨 목록을 체계적으로 정리하고 검색하는 과정을 간소화하여 사용자 경험을 개선합니다.",
+    "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-27T23:33:22.000Z",
+    "fetchedAt": "2026-08-28T06:57:48.827Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+    "title": "Copilot code review: Resolution reasons and expanded capabilities",
+    "summary": "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large…\nThe p",
+    "aiSummary": "GitHub Copilot의 코드 리뷰 기능이 업데이트되어 기존에 지원하지 않던 두 가지 유형의 풀 리퀘스트에 대한 리뷰가 가능해졌습니다. 여기에는 Copilot cloud agent를 포함한 봇이 작성한 자동 풀 리퀘스트와 매우 큰 규모의 풀 리퀘스트가 포함됩니다. 이번 개선을 통해 개발자는 더 넓은 범위의 코드 변화를 자동으로 검토받을 수 있게 되었습니다. \n\n또한 코드 리뷰 과정에서 생성된 해결 사유가 더욱 명확하게 제공되도록 기능이 확장되었습니다. 이러한 업데이트는 개발자가 코드의 품질을 유지하고 복잡한 변경 사항을 효율적으로 관리하도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-27T22:46:04.000Z",
+    "fetchedAt": "2026-08-28T06:57:48.827Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+    "title": "Kubernetes v1.37: Metrics API graduates to stable",
+    "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-base",
+    "aiSummary": "Kubernetes v1.37 버전에서 metrics.k8s.io API가 v1 버전으로 정식 승격되었습니다. 이 API는 노드와 Pod의 CPU 및 메모리 사용량을 제공하며 kubectl top 명령어와 리소스 메트릭 기반의 자동 확장을 지원하는 핵심 기능입니다.\n\n이번 v1 승격은 API 버전 명칭의 변경일 뿐, 기존 v1beta1과 비교하여 리소스 타입이나 필드 구성, 수집 데이터 값 등 기능적인 측면에서의 변화는 없습니다. 수년간 프로덕션 환경에서 검증된 API를 안정적으로 제공하기 위한 조치입니다.\n\n사용자는 별도의 기능 게이트를 활성화할 필요가 없으며, 사용 중인 메트릭 구현체(metrics-server 등)가 v1.metrics.k8s.io API를 제공하고 관련 APIService를 등록하도록 구성하면 됩니다.\n\n하위 호환성을 위해 v1beta1도 여전히 사용 가능합니다. kubectl top 명령어는 v1 버전을 우선 사용하되 지원하지 않는 환경에서는 자동으로 v1beta1로 전환하며, HPA 컨트롤러는 향후 업데이트를 통해 v1 지원을 확대할 예정입니다. 운영자는 클러스터가 제공하는 API 버전을 확인하여 점진적으로 v1 환경으로 전환할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-08-27T18:30:00.000Z",
+    "fetchedAt": "2026-08-28T06:57:48.827Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
     "title": "Close all open contributions authored by a blocked user",
     "summary": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,…\nThe post Close a",
@@ -259,6 +307,24 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/expanding-support-for-scientists",
+    "title": "Expanding our support for scientists",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncements Expanding our support for scientistsAug 27, 2026As Claude becomes increasingly capable at scientific research, we are focusing on building pro",
+    "aiSummary": "Anthropic은 과학 연구를 가속화하기 위해 연구 커뮤니티 지원을 대폭 확대합니다. 우선 전 세계 과학자를 대상으로 1년간 Claude 구독 서비스를 무료 또는 할인된 가격으로 제공하는 Claude team plan을 시작하며, 초기 1만 석을 시작으로 향후 지원 규모를 늘려갈 예정입니다.\n\nAI for Science 프로그램 역시 생명과학 분야에 국한되었던 지원 범위를 물리, 수학 등 다양한 과학 분야로 확장합니다. 이를 통해 리만 가설 연구나 단백질 설계와 같은 고도의 연산이 필요한 연구 과제에 최대 5만 달러 상당의 크레딧을 제공합니다. 혜택을 받기 위해서는 학계나 비영리 연구 기관의 책임 연구자 인증이 필요합니다.\n\n안전한 기술 활용을 위한 통제 정책도 병행됩니다. Claude Fable 모델의 경우 잠재적 위험성을 고려하여 전문 생물학 및 약물 개발 관련 질의가 제한됩니다. 대신 미국 정부와의 협력을 통해 생명과학 전문가들이 전문 연구용 Mythos 모델을 활용할 수 있도록 하는 별도의 접근 프로그램을 마련하고 있으며, 현재 초기 참가자 등록을 마친 상태입니다.\n\n추가로 AI 에이전트가 물리적 장치를 안전하게 제어하기 위한 사양인 Model Hardware Standard를 공개하고, 일부 연구소와 제조사를 대상으로 프리뷰를 진행합니다. 이러한 일련의 조치를 통해 연구자들이 AI를 활용하여 과학적 발견을 획기적으로 앞당길 수 있도록 지원할 계획입니다.",
+    "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-08-27T00:00:00.000Z",
+    "fetchedAt": "2026-08-28T06:57:48.827Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -1770,198 +1836,6 @@
       "DeepMind",
       "Gemini",
       "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-debounced-queued-listeners",
-    "title": "Debounced Queued Event Listeners in Laravel",
-    "summary": "Laravel's DebounceFor attribute now works on queued event listeners, collapsing bursts of the same event into one handler run with debounceId and maxWait.\nThe post Debounced Queued Event Listeners in ",
-    "aiSummary": "Laravel의 DebounceFor 속성이 이제 대기열에 추가된 이벤트 리스너에서도 작동합니다. 이를 통해 동일한 이벤트가 짧은 시간에 반복적으로 발생할 경우 debounceId와 maxWait 설정을 기반으로 여러 실행 요청을 하나의 핸들러 실행으로 통합할 수 있게 되었습니다. 이러한 기능 개선은 불필요한 이벤트 처리를 방지하여 시스템 효율성을 높여줍니다.",
-    "url": "https://laravel-news.com/laravel-debounced-queued-listeners?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-21T02:56:03.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/aug/20/dsf-membership-open-space-at-djangocon-us/",
-    "title": "DSF Membership Open Space at DjangoCon US",
-    "summary": "If you are at DjangoCon US this year, join us for 45 minutes to talk about the Django Software Foundation.\nWhat: Django Software Foundation Membership Open Space\nWhen: Wednesday, August 26th, 1:00 pm ",
-    "aiSummary": "DjangoCon US 행사 기간인 8월 26일 수요일 오후 1시부터 45분간 voco Chicago Downtown의 Wolf Point Ballroom에서 Django Software Foundation Membership Open Space가 개최됩니다. 이번 행사는 강연이 아닌 자유로운 대화의 장으로 마련되었으며 Jeff Triplett, Abigail Afi Gbadago, Paolo Melchiorre 등 DSF 이사진과 Django Fellows를 포함한 주요 관계자들이 참석합니다.\n\n주요 논의 주제는 50만 달러 규모의 2026년 모금 목표와 자금 운용 현황, 신규 Executive Director 채용 공고, 개인 회원 가입 및 투표 절차 안내 등입니다. 또한 워킹 그룹 참여 방법과 기술적 거버넌스를 재정의하는 DEP 19, 연간 1회 기능 릴리스로의 전환을 다루는 DEP 20에 대한 최신 정보가 공유될 예정입니다.\n\n이번 세션은 코드 관련 기술적 이슈가 아닌 재단 운영과 정책 결정 과정에 집중할 계획입니다. 별도의 참가 신청이나 회원 인증은 필요하지 않으며 Django를 사용하는 모든 참석자가 자유롭게 의견을 나누고 질문할 수 있습니다. 현장 참석이 어려운 경우 DSF 공식 홈페이지나 Django Forum을 통해 문의 사항을 남길 수 있습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/aug/20/dsf-membership-open-space-at-djangocon-us/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jeff Triplett",
-    "pubDate": "2026-08-21T02:11:52.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/8/21/this-week-in-rails",
-    "title": "Banner or no banner, that’s the question",
-    "summary": "Hi, it’s Claudio Baccigalupo. Let’s explore this week’s changes in the Rails codebase.\nAdd –no-banner to bin/rails console\nbin/rails console --no-banner will remove it for you.\nAdd support for the HTT",
-    "aiSummary": "이번 주 Rails 코드베이스에는 개발 편의성과 시스템 안정성을 높이는 다양한 업데이트가 포함되었습니다.\n\n먼저 bin/rails console 실행 시 배너 출력을 제어할 수 있도록 no-banner 옵션이 추가되었습니다. HTTP QUERY 메서드 지원이 추가되었으며 file_field_tag의 accept 속성이 올바르게 쉼표로 구분되도록 수정되었습니다.\n\n데이터베이스와 Active Record 관련 변경 사항도 다수 존재합니다. Relation#update 메서드는 이제 스코프를 엄격하게 준수하여 범위를 벗어난 업데이트 시 RecordNotFound 오류를 발생시키는 방식으로 변경되었습니다. 또한 여러 테이블의 컬럼 정보를 한 번의 쿼리로 조회할 수 있게 개선되어 스키마 캐시 덤프 성능이 향상되었습니다.\n\n멀티스레딩 환경을 위한 Ractor 안전성 강화 작업이 진행되었으며 ActiveModel::Type::Binary::Data의 as_json 동작이 개선되었습니다. Rails.app.executor에는 식별을 돕기 위한 임시 이름이 부여되었습니다.\n\n기타 주요 변경 사항으로는 ActiveRecord::Relation#uniq! 메서드의 폐기, 내부 쿼리 시 all_queries 기본 스코프 적용, Controller의 default_url_options 고정 등이 있습니다. 또한 Active Record의 불필요한 워크아웃 코드가 제거되었고 Time.rfc3339 메서드가 Z 입력에 대해 올바른 UTC 객체를 반환하도록 수정되었습니다. 이번 업데이트에는 총 22명의 기여자가 참여하였습니다.",
-    "url": "https://rubyonrails.org/2026/8/21/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Claudio Baccigalupo",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "fetchedAt": "2026-08-22T07:50:06.054Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/sled-agentic-ai-cybersecurity",
-    "title": "How SLED can win the cybersecurity race with agentic AI",
-    "summary": "AI-accelerated attacks are outpacing SLED security teams. Learn how state, local, and education organizations are closing the gap by fixing their data foundation first.",
-    "aiSummary": "AI 기반의 공격이 급증하면서 이를 방어해야 하는 SLED 조직의 보안 역량이 한계에 직면하고 있습니다. 이에 대응하기 위해 SLED 기관들은 단순히 기술을 도입하는 것에 그치지 않고 데이터 기반을 우선적으로 정비하는 전략을 취하고 있습니다. 보안 시스템이 에이전트형 AI를 효과적으로 활용하기 위해서는 무엇보다 잘 정리된 데이터 토대가 필수적이기 때문입니다. 이러한 데이터 체계의 선제적 구축은 SLED 조직이 진화하는 사이버 위협을 효과적으로 차단하고 보안 격차를 좁히는 핵심 동력이 될 전망입니다.",
-    "url": "https://www.elastic.co/blog/sled-agentic-ai-cybersecurity",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Bobby Suber",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T23:43:14.223Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-    "title": "Enabling the next-generation trait solver on nightly",
-    "summary": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize i",
-    "aiSummary": "Rust 언어의 개발팀은 약 4년간의 개발 끝에 차세대 트레이트 솔버를 Rust nightly 버전에 기본값으로 도입하였습니다. 이는 Rust 컴파일러 역사상 가장 큰 규모의 변경 사항으로, 기존의 복잡한 where-clause 처리 방식과 연관 타입 정규화 방식을 완전히 대체합니다. 이번 업데이트를 통해 200개 이상의 GitHub 이슈가 해결되었으며, 향후 Type Alias Impl Trait 및 Return Type Notation과 같은 기능의 안정화와 타입 시스템의 미비점 보완을 위한 기반을 마련하였습니다.\n\n기술적인 핵심 변화로는 opaque 타입 처리 방식의 개선과 고차 타입 내 연관 타입의 핸들링 방식 변경이 있습니다. 특히 고차 타입에서 바운드 변수를 참조하는 연관 타입 처리 방식이 개선되면서, bevy와 minijinja와 같은 주요 프로젝트에서 발생하던 잘못된 타입 추론 문제가 해결되었습니다. 또한 기존의 트레이트 솔버에서 비효율적이었던 컴파일 시간 문제를 개선하여, 일부 트레이트 집약적인 프로젝트의 경우 컴파일 속도가 이전 대비 8배 이상 빨라지는 등 성능 면에서 비약적인 향상을 보였습니다.\n\n현재 이 기능은 Rust nightly 채널에서 기본으로 활성화되어 있으며, 사용자는 rustup update nightly를 통해 최신 버전을 테스트할 수 있습니다. 만약 이전 버전의 동작을 유지해야 하는 경우에는 -Znext-solver=coherence 플래그를 사용하여 새로운 솔버를 비활성화할 수 있습니다. 개발팀은 현재 발생할 수 있는 잠재적인 문제와 오류 메시지의 품질 등을 점검하고 있으며, 안정화 과정에서 발생하는 버그나 성능 회귀 현상을 발견할 경우 GitHub 이슈를 통해 제보해 줄 것을 당부하고 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "lcnr",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now",
-    "title": "Spring AI 2.0.1 Available Now",
-    "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.0.1 has been released and is now available from Maven Central!\nRelease notes (https://github.co",
-    "aiSummary": "Spring AI 2.0.1 버전이 Maven Central을 통해 배포되었습니다. 이번 릴리스는 Spring AI 2.0.0 GA 이후 첫 번째 유지보수 업데이트로, 80개 이상의 이슈 해결과 요청 사항을 반영한 대규모 업데이트입니다. 특히 다양한 보안 취약점(CVE)이 수정되어 시스템 안정성이 대폭 강화되었습니다.\n\n주요 변경 사항 및 업데이트 내용은 다음과 같습니다.\n\n보안 및 안정성 강화 측면에서는 PDF Document Reader, RedisChatMemoryRepository, DefaultToolCallingManager 등에서 발견된 여러 CVE 취약점들을 해결하였습니다. 또한 스트리밍 응답 처리 최적화, 툴 호출 실패 시 예외 처리 개선, 그리고 다양한 벡터 데이터베이스(Milvus, OpenSearch, PgVectorStore, Couchbase)와의 연동 호환성 및 안정성을 개선하였습니다.\n\n신규 기능 및 개선 사항으로는 ToolCallingAdvisor에 툴 호출 횟수 제한 설정이 추가되었으며, OpenAiAudioSpeechModel의 오디오 스트리밍 지원, Google GenAI의 툴 선택 및 이미지 생성 지원이 포함되었습니다. 또한 PagePdfDocumentReader의 페이지 범위 지정 기능과 AWS 리전 결정 규칙 개선 등이 적용되었습니다.\n\n마이그레이션 시 주의할 점도 있습니다. 일부 Mistral AI 채팅 모델이 폐기되었으며, Redis 채팅 메모리 모듈의 식별자 변경, OpenAI 툴 호출 strict 모드의 기본값 변경(false로 전환), 미디어 빌더의 타입 기반 데이터 오버로드 사용 등이 포함되어 있어 업그레이드 노트를 반드시 확인해야 합니다.\n\n그 외에도 MCP 애노테이션의 GraalVM 네이티브 이미지 호환성 향상, 의존성 라이브러리(Milvus, Pinecone, Qdrant 등) 버전 업데이트가 이루어졌으며, 전체적인 빌드 및 문서 체계가 더욱 정교해졌습니다. 상세한 내용은 제공된 공식 릴리스 노트와 업그레이드 가이드를 참고하시기 바랍니다.",
-    "url": "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "tzolov",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "deepseek-2026-08-21",
-    "title": "DeepSeek Update: DeepSeek-V4-Flash-Vision-Exp Release",
-    "summary": "Today, the new multimodal vision understanding model DeepSeek-V4-Flash-Vision-Exp is now available on the DeepSeek API platform. This is an experimental model that can be accessed by setting model=&#x",
-    "aiSummary": "DeepSeek가 새로운 멀티모달 시각 이해 모델인 DeepSeek-V4-Flash-Vision-Exp를 공개했습니다. 현재 해당 모델은 DeepSeek API 플랫폼을 통해 실험적 형태로 제공되고 있습니다. 이용자들은 API 요청 시 모델명을 deepseek-v4-flash-vision-exp로 설정하여 접근할 수 있습니다.",
-    "url": "https://api-docs.deepseek.com/updates#date-2026-08-21",
-    "category": "인공지능",
-    "source": "DeepSeek",
-    "author": "DeepSeek AI",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "DeepSeek",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/08/21/quality-heads-up/",
-    "title": "Quality Outreach Heads-up - JDK 28: Named Group Information Captured in the TLSHandshake JFR Event",
-    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.java.net/display/quality/Quality+Outreach) is promoting the testing of FOSS projects with OpenJDK builds as a way to improve the overall quality of the ",
-    "aiSummary": "OpenJDK Quality Group은 JDK 28 릴리스의 품질 향상을 위해 오픈 소스 프로젝트들의 적극적인 테스트 참여를 독려하고 있습니다. 이번 업데이트의 핵심은 JDK Flight Recorder의 jdk.TLSHandshake 이벤트에 관한 개선 사항입니다.\n\nJDK 28부터는 TLS 핸드셰이크 과정에서 클라이언트와 서버가 협상한 Named Group 정보가 jdk.TLSHandshake 이벤트에 기록됩니다. 이를 통해 키 교환 시 사용된 알고리즘을 상세히 확인할 수 있게 되었습니다.\n\n해당 기능을 사용하기 위해서는 JFR 구성 파일이나 명령줄 옵션을 통해 jdk.TLSHandshake 이벤트를 명시적으로 활성화해야 합니다. 이후 jfr print 명령어를 사용하여 X25519MLKEM768과 같은 협상된 키 교환 그룹 정보를 포함한 보안 세부 사항을 직접 관찰할 수 있습니다.\n\nOpenJDK 개발팀은 사용자들에게 JDK 28 얼리 액세스 빌드를 다운로드하여 새로운 기능을 테스트해 보고, 그 결과를 security-dev 메일링 리스트를 통해 공유해 줄 것을 요청하고 있습니다.",
-    "url": "https://inside.java/2026/08/21/quality-heads-up/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Ana-Maria Mihalceanu",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-    "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-    "summary": "Pinning saved views to the repository issues sidebar You can now pin saved views⁠ to the repository issues sidebar, making the views you use most just one click away, even…\nThe post Pinning saved view",
-    "aiSummary": "GitHub의 Repository Issues 사이드바에 사용자가 지정한 Saved views를 고정할 수 있는 기능이 정식으로 출시되었습니다.\n\n이 기능을 통해 자주 확인하는 이슈 목록을 사이드바에 바로 배치하여 클릭 한 번으로 빠르게 접근할 수 있게 되었습니다.\n\n사용자는 자신의 작업 방식에 맞춰 중요한 뷰를 상단에 고정함으로써 업무 효율성을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-20T23:29:34.000Z",
-    "fetchedAt": "2026-08-21T08:01:22.429Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-ai-sdk-0-11",
-    "title": "Agent Run Observability in Laravel AI SDK 0.11",
-    "summary": "Laravel AI SDK 0.11 adds run-level events for agent steps and tool calls, hosted tool search for OpenAI and Anthropic, and wider provider failover.\nThe post Agent Run Observability in Laravel AI SDK 0",
-    "aiSummary": "Laravel AI SDK 0.11 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 에이전트 단계와 도구 호출 과정에 대한 런 레벨 이벤트 관측 기능을 추가하여 개발자가 AI의 실행 과정을 더욱 세밀하게 추적할 수 있게 된 점입니다.\n\n또한 OpenAI와 Anthropic을 위한 호스팅된 도구 검색 기능을 도입하여 편의성을 높였습니다. 더불어 다양한 AI 서비스 제공업체 간의 장애 조치 지원 범위를 넓혀 시스템의 안정성과 유연성을 강화했습니다.",
-    "url": "https://laravel-news.com/laravel-ai-sdk-0-11?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-08-20T23:05:54.000Z",
-    "fetchedAt": "2026-08-21T15:53:30.218Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.17",
-    "title": "1.1.17",
-    "summary": "Improved the agent execution harness by consolidating onto a single execution path, giving more consistent tool, hook, and prompt behavior.\nFixed /teamwork-preview and some other slash commands disapp",
-    "aiSummary": "Agent execution harness의 실행 경로를 단일화하여 도구와 훅 및 프롬프트 동작의 일관성을 강화하였습니다.\n\n일부 사용자에게서 발생하던 teamwork-preview를 포함한 슬래시 명령어 미표시 문제를 해결하였습니다.\n\nVim insert 모드에서 엔터 키를 입력할 때 백그라운드 작업이나 서브 에이전트가 정상적으로 열리지 않던 오류를 수정하였습니다.\n\nOgg 오디오 및 비디오 파일인 .ogg, .opus, .ogv 형식이 application/ogg로 전송될 때 모델이 이를 거부하던 문제를 해결하여 파일 첨부 기능을 개선하였습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.17",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-20T22:13:58.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/statamic-mailables-viewer",
-    "title": "Statamic Mailables Viewer Previews Laravel Emails in the Control Panel",
-    "summary": "Statamic Mailables Viewer discovers Laravel mailables and adds live previews, editable sample data, responsive views, and test sending to the Control Panel.\nThe post Statamic Mailables Viewer Previews",
-    "aiSummary": "Statamic Mailables Viewer는 Laravel 기반 프로젝트의 Mailables를 자동으로 탐색하여 Statamic Control Panel 내에서 직접 확인할 수 있도록 지원합니다.\n\n사용자는 이 기능을 통해 이메일의 실시간 미리보기를 확인하고 샘플 데이터를 수정하거나 반응형 레이아웃을 테스트할 수 있습니다. 또한 이메일 발송 테스트 기능을 제공하여 개발 과정에서의 생산성을 높여줍니다.",
-    "url": "https://laravel-news.com/statamic-mailables-viewer?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-08-20T19:09:40.000Z",
-    "fetchedAt": "2026-08-20T23:45:02.114Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
