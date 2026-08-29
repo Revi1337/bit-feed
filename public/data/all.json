@@ -225,6 +225,21 @@
     ]
   },
   {
+    "id": "https://www.php.net/archive/2026.php#2026-08-27-3",
+    "title": "PHP 8.5.10 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.10. This is a bug fix release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.10 ",
+    "aiSummary": "PHP 개발팀이 버그 수정 버전인 PHP 8.5.10을 새롭게 발표했습니다.\n\n모든 PHP 8.5 버전 사용자는 이번 업데이트를 통해 최신 환경으로 전환할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 내려받을 수 있으며, 상세한 변경 사항은 ChangeLog를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-08-27-3",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-27T22:44:37.000Z",
+    "fetchedAt": "2026-08-29T13:12:56.573Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
     "title": "Kubernetes v1.37: Metrics API graduates to stable",
     "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-base",
@@ -387,6 +402,21 @@
     ]
   },
   {
+    "id": "https://www.php.net/archive/2026.php#2026-08-27-2",
+    "title": "PHP 8.4.25 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.25. This is a bug fix release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.25 ",
+    "aiSummary": "PHP 개발팀이 버그 수정 버전인 PHP 8.4.25를 정식으로 배포했습니다. \n\n기존 PHP 8.4 사용자들은 안정적인 서비스를 위해 최신 버전으로 업데이트할 것을 권장합니다. 소스 코드와 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며, 상세한 변경 사항은 ChangeLog를 통해 확인 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-08-27-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-27T14:59:19.000Z",
+    "fetchedAt": "2026-08-29T13:12:56.573Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=52515",
     "title": "Benchmarking vector indexes",
     "summary": "Nearly every database has vector search now, and every one of them has a blog post with a big number in it. Almost none of those numbers can be checked, because the thing that makes them meaningful is",
@@ -450,6 +480,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-08-27-1",
+    "title": "PHP 8.6.0 Beta 2 available for testing",
+    "summary": "The PHP team is pleased to announce a new beta release of PHP 8.6.0, Beta 2. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source downloads of ",
+    "aiSummary": "PHP 개발 팀이 PHP 8.6.0의 두 번째 베타 버전인 Beta 2를 출시했습니다. 이번 릴리스는 PHP 8.6 정식 버전을 향한 개발 과정의 일부이며 PHP Wiki를 통해 전체적인 개발 일정을 확인할 수 있습니다.\n\n소스 코드는 공식 다운로드 페이지에서 내려받을 수 있으며 발견된 문제는 GitHub를 통해 보고할 수 있습니다. 다만 이번 버전은 초기 테스트를 위한 릴리스이므로 실제 운영 환경에서는 사용하지 말 것을 권장합니다.\n\n상세한 변경 사항과 새로운 기능에 대한 정보는 NEWS 및 UPGRADING 파일을 참조해야 합니다. 다음 버전인 Beta 3는 2026년 9월 10일에 출시될 예정입니다.",
+    "url": "https://www.php.net/index.php#2026-08-27-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-27T10:55:50.000Z",
+    "fetchedAt": "2026-08-29T13:12:56.573Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
