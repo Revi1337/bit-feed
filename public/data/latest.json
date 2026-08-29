@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+    "title": "GitHub Copilot in Visual Studio — August update",
+    "summary": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s…\nThe post GitHu",
+    "aiSummary": "GitHub Copilot의 8월 Visual Studio 업데이트가 발표되었습니다. 이번 업데이트를 통해 사용자는 GitHub Copilot이 추론하는 방식과 사용하는 모델을 더욱 세밀하게 제어할 수 있게 되었습니다.\n\n또한 팀 단위의 협업 효율을 높이기 위해 특화된 에이전트를 공유하는 기능이 개선되었으며 코드 리뷰 요청 시점에 대한 설정도 강화되었습니다. 개발자는 본인의 작업 환경에 맞춰 GitHub Copilot의 동작을 최적화하고 생산성을 높일 수 있는 다양한 선택권을 갖게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-28T20:24:20.000Z",
+    "fetchedAt": "2026-08-29T04:11:58.442Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+    "title": "GitHub Copilot weekly releases — August 24",
+    "summary": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in…\nThe post GitHub Copilot we",
+    "aiSummary": "이번 GitHub Copilot 주간 업데이트를 통해 사용자들은 Slack 및 Teams에서의 팀 세션 기능을 비롯해 앱과 CLI, IDE 전반에 걸친 맞춤형 설정 제어 권한을 강화하게 되었습니다. 개발 환경에 따라 Copilot의 작동 방식을 더욱 세밀하게 조정할 수 있게 되었으며 이를 통해 사용자 편의성과 생산성을 동시에 향상시켰습니다.",
+    "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-28T20:13:22.000Z",
+    "fetchedAt": "2026-08-29T04:11:58.442Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+    "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+    "summary": "Pod Certificate / Cluster Trust Bundles Blog Post\nKubernetes brings a wealth of features that make it easy to run your production\nworkloads securely and reliably. While aspects like scheduling, health",
+    "aiSummary": "Kubernetes v1.37에서 Pod Certificates와 Cluster Trust Bundles 기능이 정식 버전으로 출시되었습니다. 기존 서비스 인증의 중심이었던 서비스 계정 JWT는 편리하지만 베어러 토큰이라는 보안상 한계가 존재했습니다. 이를 보완하기 위해 도입된 Pod Certificates는 TLS 및 mTLS 통신을 위한 X.509 인증서 발급 과정을 Kubernetes 핵심 기능으로 통합하여 보안성을 강화합니다.\n\n이번 업데이트의 핵심은 Kubelet을 통해 인증서 발급과 갱신 과정을 자동화하고 애플리케이션이 안전하게 통신할 수 있는 환경을 제공하는 것입니다. 주요 구성 요소로는 인증서를 요청하는 애플리케이션, 요청을 처리하고 상태를 관리하는 Kubelet, 그리고 인증서를 실제 발행하는 Signer Controller가 있습니다.\n\n이 시스템은 개인 키가 워크로드 외부로 유출되지 않도록 설계되었으며, 자동 갱신 기능을 내장하여 보안 수준을 유지합니다. 현재는 초기 단계로 사용자가 직접 서드파티 Signer를 설치하여 활용할 수 있으며, 향후 Kubernetes 내부에서 DNS 서비스 인증서 및 SPIFFE 클라이언트 인증서 등을 제공하는 표준 공급자가 추가될 것으로 예상됩니다. 애플리케이션 개발자는 정기적인 파일 업데이트를 감지하여 인증서를 최신 상태로 유지함으로써 더욱 안전하고 유연한 워크로드 인증 체계를 구축할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-08-28T18:30:00.000Z",
+    "fetchedAt": "2026-08-29T04:11:58.442Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/laravel-starter-kits-vite-plus",
     "title": "Laravel Starter Kits Now Ship with Vite+",
     "summary": "Every Laravel starter kit now builds with Vite+, trading ESLint and Prettier for a single vp check across React, Vue, Svelte, and Livewire.\nThe post Laravel Starter Kits Now Ship with Vite+ appeared f",
@@ -93,6 +141,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/security-advisory-cve-2026-81934/",
+    "title": "Security Advisory: CVE-2026-81934",
+    "summary": "What happened?\n\nRedis identified and remediated a use-after-free vulnerability in TLS pending-data processing. Under specific conditions, an authenticated attacker could trigger the flaw and potential",
+    "aiSummary": "Redis가 TLS pending-data 처리 과정에서 발생하는 use-after-free 취약점인 CVE-2026-81934를 식별하여 해결했습니다.\n\n특정 조건 하에서 인증된 공격자가 해당 결함을 유발할 경우 원격 코드 실행이 가능할 수 있는 위험이 존재합니다.\n\nRedis는 이번 보안 문제를 해결하기 위한 패치를 제공하고 있으며 사용자는 즉시 최신 버전으로 업데이트하여 잠재적인 보안 위협에 대비해야 합니다.",
+    "url": "https://redis.io/blog/security-advisory-cve-2026-81934/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Riaz Lakhani",
+    "pubDate": "2026-08-28T00:00:00.000Z",
+    "fetchedAt": "2026-08-29T04:11:58.442Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -1733,23 +1798,6 @@
     "author": "haofan",
     "pubDate": "2026-08-22T23:30:31.000Z",
     "fetchedAt": "2026-08-22T23:40:25.558Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.18",
-    "title": "1.1.18",
-    "summary": "Added support for passing a project name to --project, which previously accepted only a project ID and failed on anything else.\nAdded item.rename and item.delete keybindings for the conversation picke",
-    "aiSummary": "이번 업데이트에서는 프로젝트 식별자만 가능했던 --project 옵션에 프로젝트 이름을 입력할 수 있도록 기능을 확장했습니다. 대화 선택기에서 이름 변경 및 삭제 작업을 위한 item.rename과 item.delete 키 바인딩을 추가하여 펑션 키가 없는 환경에서도 f2와 f4를 재설정할 수 있게 개선했습니다. @ 파일 경로 완성 기능에는 오타가 발생해도 파일을 검색할 수 있는 오타 허용 방식을 도입했으나, 정확하게 일치하는 결과가 항상 우선순위를 갖도록 설계했습니다.\n\n오디오 파일 첨부 기능은 wav, mp3, m4a, aac, flac, opus 등 Gemini 모델이 지원하는 표준 형식들을 모두 인식하도록 개선되었습니다. Windows 환경에서는 키 입력 시 불필요한 이벤트 처리를 제거하여 렌더링 부하를 줄이고 반응 속도를 높였습니다. 아티팩트 뷰어 하단부 레이아웃을 조정하여 문서 탐색을 위한 단축키들을 그룹화했습니다.\n\n오류 수정 사항으로는 print 모드에서 에이전트 스트림이 중단될 경우 정상 종료로 처리되던 문제를 수정하여 에러를 명확히 출력하도록 변경했습니다. 프롬프트 플래그 사용 시 인자가 잘못 전달되던 오류를 수정했고, 긴 답변이 출력될 때 UI가 화면 밖으로 밀려나던 문제를 방지하기 위해 터미널 높이에 맞춰 스크롤이 가능하도록 조치했습니다. 그 외에도 /resume 명령의 위치 오류, 파일 링크 이후 텍스트 스타일 소실 문제, 그리고 특정 터미널 환경에서 입력 모드 재설정 시 발생하는 잔여 문자 출력 문제를 해결했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.18",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-22T01:47:03.000Z",
-    "fetchedAt": "2026-08-22T07:50:06.054Z",
     "tags": [
       "Antigravity",
       "CLI",
