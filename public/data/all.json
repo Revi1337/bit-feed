@@ -1,5 +1,100 @@
 [
   {
+    "id": "https://svelte.dev/blog/whats-new-in-svelte-september-2026",
+    "title": "What’s new in Svelte: September 2026",
+    "summary": "This month, Svelte 5.57 shipped with new SvelteMap methods and a few quality-of-life additions while SvelteKit 3 got closer to the finish line with its Release Candidate.\nThe sv CLI also got a new ai-",
+    "aiSummary": "Svelte 5.57 버전이 출시되어 SvelteMap의 새로운 메서드 추가 및 다양한 사용자 편의 기능이 개선되었습니다. 주요 변경 사항으로는 getOrInsert와 getOrInsertComputed 메서드가 추가되었고, createContext에 컨텍스트 존재 여부를 확인할 수 있는 has 함수가 도입되었으며, select 요소의 폼 초기화 시 기본값 지원 등이 포함되었습니다.\n\nSvelteKit 3는 출시 후보 버전(RC) 단계에 진입하며 정식 출시를 앞두고 있습니다. 향상된 페이지 간 폼 액션 처리, Vite 플러그인의 단계별 실행, 테스트 및 스토리 파일에 대한 라우팅 제외 처리, 개발 서버 로깅 개선 등 다양한 기능이 반영되었습니다. 또한 defineParams가 위치를 변경하고 +server.js 파일에서 QUERY 메서드를 지원하는 등 세부적인 구조 개선이 이루어졌습니다.\n\nSvelte CLI 및 언어 도구 관련 업데이트도 진행되었습니다. 기존 MCP 애드온은 Claude Code나 개별 도구 설정을 지원하는 포괄적인 ai-tools 애드온으로 교체되었으며, sv migrate를 통해 SvelteKit 3로의 마이그레이션을 자동화하는 작업 기반 도구가 제공됩니다. 이와 함께 Vite 플러그인, svelte-check, svelte2tsx 등도 SvelteKit 3 환경을 지원하도록 업데이트되었습니다.\n\n생태계 전반에서는 EdenText, Kraa.io, Note by Note 등 Svelte를 활용한 다양한 신규 프로젝트가 소개되었습니다. 기술 라이브러리 측면에서는 SSR 아일랜드를 구현하는 ogygia, TanStack Table v9의 Svelte 네이티브 어댑터, 그리고 다양한 UI 컴포넌트 라이브러리가 새롭게 주목받고 있습니다.",
+    "url": "https://svelte.dev/blog/whats-new-in-svelte-september-2026",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Dani Sandoval",
+    "pubDate": "2026-08-31T20:53:24.350Z",
+    "fetchedAt": "2026-08-31T20:53:24.350Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "691506bc5e95268a961b15cf0a07d63a6837a457",
+    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+    "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time a",
+    "aiSummary": "Amazon EC2 R9g 및 R9gd 인스턴스가 AWS Graviton5 프로세서를 탑재하여 정식 출시되었습니다. 이번 신규 인스턴스는 이전 세대인 R8g 대비 최대 25퍼센트 향상된 컴퓨팅 성능을 제공합니다. 데이터베이스, 인메모리 캐시, 실시간 분석과 같은 고성능 워크로드 처리에 최적화된 환경을 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-08-31T19:53:34.000Z",
+    "fetchedAt": "2026-08-31T20:53:24.350Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era/",
+    "title": "Cloud CISO Perspectives: Tips on securing the water sector in the AI era",
+    "summary": "Welcome to the second Cloud CISO Perspectives for August 2026. Today, Chris Sistrunk and Stephanie Kiel detail the critical issues facing the water sector, and actionable steps that OT operators can t",
+    "aiSummary": "Google Cloud의 보안 전문가들은 AI 시대에 더욱 공격적이고 위협적으로 변하고 있는 수자원 분야의 사이버 보안 강화 방안을 제시합니다. 최근 수자원 시설의 인터넷 연결 PLC를 겨냥한 공격이 증가함에 따라, 단순히 규정 준수에 머무르지 않는 위협 중심의 전략적 대응이 요구됩니다.\n\n수자원 시설 운영자는 자산 인벤토리 구축과 노출된 접근 지점의 보안 강화, 3-2-1 백업 원칙 준수, 네트워크 분할 및 다중 인증 도입 등 기본적인 보안 위생을 최우선으로 관리해야 합니다. 또한 비상 대응 계획에 사이버 보안을 통합하고, 서드파티 및 벤더의 원격 연결에 대한 엄격한 접근 제어와 로깅을 수행해야 합니다.\n\nMandiant의 OT 보안 이론인 Theory of 99에 따르면 침해 사고의 99%는 범용 컴퓨터 워크스테이션과 서버에서 발생하므로, AI 기술을 활용해 이 중간 인프라를 선제적으로 방어함으로써 물리적 운영 과정을 보호하는 것이 핵심입니다.\n\nIT와 OT 리더는 통합된 거버넌스 프레임워크를 구축하여 물리적 시스템의 회복 탄력성을 높여야 합니다. AI는 보안 팀의 결정을 지원하고 자동화를 통해 방어 효율을 높이는 힘을 배가하는 도구로 활용하되, 최종적인 의사 결정에는 반드시 인간의 감독이 유지되어야 합니다. 수자원 보안은 단순한 기술적 과제를 넘어 공공 안전의 필수 영역이므로, 공공기관과 민간 조직의 긴밀한 협력을 통한 실질적인 대응 강화가 필요합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Chris Sistrunk"
+      ],
+      "title": [
+        "Practice Leader, OT, Mandiant Consulting"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-31T16:00:00.000Z",
+    "fetchedAt": "2026-08-31T20:53:24.350Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/build-data-pipelines-in-less-time-with-data-agent-kit/",
+    "title": "From weeks to minutes: The new agentic era of data pipelines",
+    "summary": "Data pipelines are the backbone of the modern enterprise, yet a barrier to entry exists for orchestrating them, making this critical capability unavailable to many data professionals. Following our an",
+    "aiSummary": "Google Cloud는 복잡한 데이터 파이프라인 구축 과정을 간소화하고 자동화하는 Orchestration Pipelines 프레임워크와 이를 지원하는 Data Agent Kit를 공개했습니다. 이 도구는 데이터 엔지니어링 및 데이터 과학 작업을 VS Code와 같은 개발 환경에 직접 통합하여 생산성을 획기적으로 향상합니다.\n\nData Agent Kit는 자연어를 사용해 Apache Airflow DAG를 생성, 배포, 수정할 수 있는 기능을 제공합니다. 사용자는 복잡한 Python 코드를 작성하는 대신 선언적인 YAML DSL을 활용하여 파이프라인 로직을 정의할 수 있습니다. 이를 통해 분석가부터 ML 엔지니어까지 누구나 MLOps 워크플로우를 효율적으로 관리할 수 있습니다.\n\n특히 이 시스템은 모델 학습, 추론, 자동 평가 및 재학습으로 이어지는 전체 MLOps 루프를 단 몇 분 만에 구축할 수 있도록 지원합니다. 또한 GitHub Actions와 연동된 CI/CD 파이프라인을 자동 생성하여 안정적인 배포를 돕습니다.\n\n운영 단계에서는 IDE 내에서 실시간 모니터링을 수행하며, 파이프라인 장애 발생 시 에이전트가 직접 로그를 분석하여 근본 원인을 파악하고 해결책을 제시하는 지능형 문제 해결 기능을 갖추고 있습니다. 결과적으로 이러한 에이전트 기반 접근 방식은 기존에 수주가 걸리던 플랫폼 엔지니어링 작업을 단시간에 처리할 수 있도록 하여 기업의 데이터 가치 창출 속도를 가속화합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/build-data-pipelines-in-less-time-with-data-agent-kit/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Piotr Wieczorek"
+      ],
+      "title": [
+        "Lead Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-08-31T16:00:00.000Z",
+    "fetchedAt": "2026-08-31T20:53:24.350Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "3418fcf622154fda93d6ae0475d0ab9d6ec4180f",
     "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
     "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open sour",
@@ -29,6 +124,22 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+    "title": "GitHub Copilot in VS Code, August 2026 releases",
+    "summary": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Ho",
+    "aiSummary": "VS Code의 2026년 8월 업데이트인 v1.132부터 v1.135 버전은 GitHub Copilot의 사용성을 대폭 개선했습니다. 이번 업데이트를 통해 사용자는 에이전트 세션을 더욱 효율적으로 구성할 수 있으며 변경 사항 검토와 긴 대화 흐름 탐색이 한층 간편해졌습니다. 특히 새롭게 도입된 Agent Host 기능은 개발자가 AI 도구와 상호작용하는 환경을 최적화하여 생산성을 높이는 데 중점을 둡니다.",
+    "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-31T08:39:54.000Z",
+    "fetchedAt": "2026-08-31T20:53:24.350Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
