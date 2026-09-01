@@ -1,5 +1,100 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
+    "summary": "Introduction \nBeginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) track",
+    "aiSummary": "Mandiant는 2024년부터 브라질의 금융 서비스, 유통, 이커머스 조직을 표적으로 삼아 결제 시스템과 은행 소프트웨어를 조작하는 위협 행위자 BREEZE COMET을 추적하고 있습니다. 이들은 과거 UNC5669로 불렸으며, 금융권의 핵심 인프라인 Pix, STR, Boleto 시스템 등에 접근하여 부정 송금을 실행하는 것을 주된 목적으로 합니다.\n\nBREEZE COMET은 피싱, RMM 도구 악용, 신뢰받는 정부 웹사이트 침해 등을 통해 초기 거점을 확보합니다. 이후 REALBREEZE와 같은 맞춤형 도구를 활용해 Active Directory와 CI/CD 환경 내 자격 증명을 탈취하고, 내부 망을 이동하며 권한을 상승시킵니다. 특히 Rust 기반의 COBALTSPIN과 같은 경량 네트워크 터널링 도구를 사용하여 내부 방화벽을 우회하고 금융 API 인프라에 대한 지속적인 접근 권한을 유지합니다.\n\n공격의 지속성을 위해 이들은 LIGHTPAINT, MILDFROST, KICKPLATE, BOATBEAM 등 다양한 언어로 작성된 백도어를 배포하며, Windows Defender와 같은 보안 솔루션을 강제로 비활성화하는 치밀함을 보입니다. 주목할 점은 이들이 생성형 AI를 활용해 정찰 스크립트 작성, 자격 증명 검증, 배포 자동화 등을 수행하며 공격의 속도와 정교함을 획기적으로 높였다는 점입니다.\n\n실제 공격 사례에서 이들은 침투 후 24~48시간 이내에 수백 건의 부정 거래를 실행한 뒤, 증거 인멸을 위해 로그를 삭제하는 대담한 행보를 보였습니다. 이러한 위협에 대응하기 위해 Mandiant는 애플리케이션 제어 정책 강화, 네트워크 접근 제어(NAC) 도입, 다중 인증(MFA) 의무화, 그리고 아웃바운드 트래픽에 대한 심층 패킷 검사(DPI)를 통한 철저한 방어 체계 구축을 권고합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-01T12:37:51.264Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=734817",
+    "title": "Authenticating TeamCity Builds to External Services With OIDC",
+    "summary": "Static credentials in CI/CD environments are a significant source of security risks and operational overhead. They can be accidentally leaked through logs and build artifacts. And you can never be sur",
+    "aiSummary": "CI/CD 환경에서 사용하는 정적 자격 증명은 로그나 빌드 아티팩트에 노출될 위험이 크며 관리와 주기적인 교체 측면에서 운영 부담을 가중시킵니다. 이러한 보안 취약점을 해결하기 위해 TeamCity는 OIDC 기반의 인증 방식을 도입했습니다.\n\nOIDC를 활용하면 빌드 프로세스 중에 외부 서비스에 접근할 때 영구적인 비밀번호나 키를 저장할 필요가 없습니다. 대신 TeamCity 서버가 발급한 단기 유효 토큰을 통해 외부 클라우드 제공업체나 서비스로부터 권한을 확인받게 됩니다. 이 과정은 별도의 자격 증명 관리가 필요 없으므로 보안 수준을 획기적으로 높여줍니다.\n\nTeamCity에서 OIDC를 설정하면 보안 사고를 예방하고 관리 업무를 자동화할 수 있습니다. 이는 개발 워크플로우 전반에 걸쳐 신뢰할 수 있는 인증 체계를 구축하는 중요한 단계입니다.",
+    "url": "https://blog.jetbrains.com/teamcity/2026/09/authenticating-teamcity-builds-with-oidc/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Igor Brovtsin",
+    "pubDate": "2026-09-01T06:58:08.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.23",
+    "title": "1.1.23",
+    "summary": "Improved /model  autocompletion to accept the proposed model name ghost text with Tab.\nReduced subagent streaming overhead by sending subagent trajectory metadata once per subtrajectory instead of wit",
+    "aiSummary": "모델 자동 완성 기능이 개선되어 Tab 키를 눌러 제안된 모델명을 적용할 수 있게 되었습니다.\n\n하위 에이전트의 스트리밍 효율화를 위해 데이터 전송 방식을 단계별 전송에서 하위 궤적당 한 번의 메타데이터 전송으로 변경하였습니다.\n\nCLI 환경에서 명령어가 표준 입력 파이프 문제로 멈추거나 프롬프트 훅으로 인해 충돌하던 현상을 수정하였습니다. Gemini 모델의 도구 호출 기록 복원 시 ID 누락 문제와 MCP 도구 호출 시 권한 알림의 제목이 비정상적으로 표시되던 오류를 해결하였습니다.\n\n인증 세션과 관련된 다양한 문제도 개선되었습니다. Google Cloud 인증 중단 시 발생하는 오류를 수정하고 토큰 만료 5분 전에 미리 갱신하여 인증 오류를 방지하였습니다. 또한 로그인 직후 입력한 프롬프트가 계정 확인 절차로 인해 유실되지 않도록 대기열 기능을 추가하였습니다.\n\n그 외에도 입력 창의 텍스트 잔류 현상, 하위 에이전트의 MCP 도구 인식 실패, 특정 상태에서 작업이 종료되지 않는 UI 버그, Windows 환경의 MCP JSON 설정 파일 파싱 오류 등을 해결하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.23",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-01T04:47:56.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/09/python-3150-rc2/",
+    "title": "Python 3.15.0 candidate 2 is here!",
+    "summary": "Last chance to test before the big day!",
+    "aiSummary": "Python 3.15.0 candidate 2 버전이 공개되었습니다. 이번 배포는 정식 버전 출시를 앞두고 최종적인 테스트를 수행할 수 있는 마지막 기회입니다. 사용자는 새로운 버전을 설치하여 안정성을 검증하고 문제가 없는지 확인할 수 있습니다.",
+    "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+    "title": "Announcing rustup 1.29.1",
+    "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient",
+    "aiSummary": "Rust프로그래밍 언어의 설치 및 관리 도구인 rustup이 버전 1.29.1로 업데이트되었습니다. 이번 업데이트는 작업 효율성과 편의성을 높이는 데 중점을 두고 있습니다.\n\n주요 개선 사항으로 rustup update와 rustup component add 실행 시 동시성 처리를 도입하여 업데이트와 설치 속도를 향상했습니다. 또한 rustup doc 명령에 로컬 HTTP를 통해 문서를 제공하는 --serve 옵션이 추가되었고, aarch64-pc-windows-gnullvm 호스트 플랫폼에 대한 공식 지원이 시작되었습니다.\n\n운영체제별 변경 사항으로는 64비트 Windows 환경에서 i686-pc-windows 계열 도구 체인 설치 시 --force-non-host 옵션이 필요해졌으며, rustup-init 설치 취소 시 불필요한 파일이 남지 않도록 개선되었습니다. 프로젝트 내부적으로는 기존의 target triple 용어가 target tuple로 변경되었으나 CLI 사용법에는 변화가 없습니다.\n\n사용자는 rustup self update 또는 rustup update 명령을 통해 최신 버전으로 업그레이드할 수 있습니다. 일부 안티멀웨어 소프트웨어가 새로운 릴리스의 파일을 차단할 수 있으나, 이는 시간이 지나면 자동으로 해결될 것으로 예상됩니다.",
+    "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rustup Team",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/",
     "title": "BigQuery Graph is now GA: the knowledge foundation for the agentic era",
     "summary": "Many of the questions that matter in enterprise data aren't just about individual rows — they're about how things connect: how two accounts are linked, what path a payment took, what context grounds a",
@@ -205,6 +300,23 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/08/optimize-remote-config-usage",
+    "title": "3 ways to optimize Firebase Remote Config fetch usage",
+    "summary": "Reduce network fetches, battery consumption and usage costs",
+    "aiSummary": "Firebase Remote Config의 네트워크 호출을 최적화하여 배터리 소모와 사용 비용을 절감하는 세 가지 주요 전략이 있습니다.\n\n첫째, Fetch 인터벌을 적절히 설정하여 불필요한 네트워크 요청을 방지해야 합니다. 앱의 실시간성이 크게 중요하지 않다면 기본 설정보다 더 긴 간격을 적용하는 것이 효율적입니다.\n\n둘째, 로컬 캐시를 적극적으로 활용해야 합니다. 서버로부터 데이터를 가져오는 fetch 작업을 최소화하고, 초기 로드 시에는 캐시된 데이터를 우선적으로 사용하는 방식을 권장합니다.\n\n셋째, Firebase의 실시간 원격 구성인 Realtime Remote Config 기능을 상황에 맞춰 선택적으로 사용해야 합니다. 데이터 변경이 빈번하게 필요한 경우에만 이 기능을 활성화하여 네트워크 자원을 효율적으로 관리하는 것이 중요합니다.",
+    "url": "https://firebase.blog/posts/2026/08/optimize-remote-config-usage",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-08-31T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
@@ -1665,136 +1777,6 @@
     "tags": [
       "Next.js",
       "React"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/",
-    "title": "Now introducing Gemini Enterprise for Financial Services",
-    "summary": "Protecting capital in today's markets requires immense speed and precision. A financial analyst preparing a deal memo works across licensed market data, internal models, and confidential client files.",
-    "aiSummary": "Google은 자본 시장 및 기업 금융 분야의 워크플로우에 특화된 Gemini Enterprise for Financial Services를 출시합니다. 이 솔루션은 금융 기관이 요구하는 높은 수준의 보안과 데이터 정확성, 그리고 실무 적용 가능성을 충족하기 위해 네 가지 핵심 요소를 기반으로 설계되었습니다.\n\n첫째, 금융 업무에 최적화된 재사용 가능한 기술을 통해 특정 데이터 추출이나 보고서 작성 등 기관 고유의 방법론을 AI 에이전트에 학습시킬 수 있습니다. 둘째, MCP를 활용하여 기존 금융 플랫폼 및 라이선스 데이터 소스와 안전하게 연결함으로써 데이터 보안 권한을 엄격히 유지합니다. 셋째, Financial Research 에이전트를 포함한 실무형 에이전트들이 복잡한 조사 업무를 수행하며, 모든 과정에서 신뢰 점수와 데이터 근거를 제시하여 투명성을 확보합니다. 넷째, Accenture, Deloitte, KPMG 등 글로벌 시스템 통합 업체 및 다양한 핀테크 파트너들과의 개방형 생태계를 통해 특정 업체에 종속되지 않는 유연한 맞춤형 환경을 제공합니다.\n\n이 플랫폼은 신용 위험 평가, 포트폴리오 모니터링, KYC 연구, 채권 발행 업무 등 금융권의 핵심 워크플로우를 혁신하도록 지원합니다. 또한 Google Workspace 및 Microsoft 365와의 연동은 물론, Daloopa, FactSet, S&P Global, Moody’s 등 주요 금융 데이터 공급업체들과의 원활한 통합을 보장합니다.\n\n모든 데이터는 조직 내부 환경에서만 관리되며, 고객의 데이터가 Google의 모델 학습에 사용되지 않도록 철저히 격리됩니다. Deutsche Bank 등 주요 금융 기관과의 협력을 통해 개발된 이 솔루션은 현재 프리뷰 형태로 제공되며, 향후 의료, 생명과학 등 다양한 전문 서비스 분야로 확장될 예정입니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Thomas Kurian"
-      ],
-      "title": [
-        "CEO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "fetchedAt": "2026-08-25T16:04:25.530Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/",
-    "title": "Now introducing Gemini Enterprise for Legal",
-    "summary": "Few professions are as exacting as the practice of law. A team reviewing a contract or building a case works inside strictly privileged information, firm-specific playbooks, and a body of law that cha",
-    "aiSummary": "Google Cloud은 법률 업무의 특수성을 고려하여 전문화된 AI 솔루션인 Gemini Enterprise for Legal을 발표하였습니다. 이 플랫폼은 단순한 정보 검색을 넘어 실제 실무를 수행하는 에이전트 중심의 환경을 제공하며, 법률 전문가들이 요구하는 엄격한 보안과 기밀 유지 규정을 충족하도록 설계되었습니다.\n\n핵심 구성 요소는 다음과 같습니다. 첫째, 법률 전문가가 설계한 목적형 기술을 통해 계약서 검토, 규제 준수 검토, 법률 리서치 등의 업무를 자동화합니다. 둘째, MCP 커넥터를 활용하여 기존의 문서 관리 시스템 및 데이터 저장소와 안전하게 연동하며, 조직의 기존 접근 권한과 보안 정책을 그대로 상속받습니다. 셋째, 특정 업무를 완수하는 에이전트를 통해 워크플로우를 처리하며, 마지막으로 다양한 파트너와 협력하는 개방형 생태계를 구축하여 특정 기업에 종속되지 않는 유연한 확장을 지원합니다.\n\n특히 이 솔루션은 규제 변화를 추적하는 법률 모니터링, 데이터 주체 권리 요청 대응, 계약서 작성 및 수정, 문서 익명화 등 높은 정확도가 요구되는 업무에서 뛰어난 효율을 제공합니다. 클리앙 고틀립, 프레시필즈, 베일, 윌리엄스 앤 코놀리 등 글로벌 주요 로펌들과 협력하여 현장 검증을 거쳤으며, 사용되는 모든 데이터와 모델 출력값은 조직 내부에서만 엄격히 관리됩니다. 고객의 데이터는 Google의 모델 학습에 사용되지 않으며, Google Cloud 인프라를 기반으로 강력한 데이터 격리와 개인정보 보호를 보장합니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Thomas Kurian"
-      ],
-      "title": [
-        "CEO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "fetchedAt": "2026-08-25T16:04:25.530Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.2.3",
-    "title": "v11.2.3",
-    "summary": "What's Changed\nfix(core): circular durable providers issue by @kamilmysliwiec in #17563\nFull Changelog: v11.2.2...v11.2.3",
-    "aiSummary": "NestJS 프레임워크의 v11.2.3 업데이트가 진행되었습니다. 이번 업데이트에서는 핵심 모듈인 core에서 발생하던 순환 의존성 문제인 circular durable providers 이슈가 수정되었습니다. 해당 개선 사항은 @kamilmysliwiec에 의해 반영되었습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.3",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-08-25T10:59:41.000Z",
-    "fetchedAt": "2026-08-25T16:04:25.530Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-08-25-1",
-    "title": "Last Call for the State of PHP Survey",
-    "summary": "The  is still open, but not for much longer. It asks how PHP is working for you: what you build with, what is painful, and what you think PHP should focus on next. It takes around 15 minutes.\nState of",
-    "aiSummary": "The PHP Foundation이 JetBrains의 PhpStorm과 협력하여 진행 중인 State of PHP 설문 조사가 곧 마감됩니다.\n\n이번 설문은 개발자가 PHP를 활용하는 방식과 현재 겪고 있는 어려움, 그리고 향후 PHP가 집중해야 할 과제 등에 대한 의견을 수렴합니다. 참여 시간은 약 15분이 소요됩니다.\n\n조사 결과는 올해 말 State of PHP 2026 보고서 형태로 발행될 예정입니다. 또한 익명화된 원본 데이터셋도 함께 공개되어 커뮤니티 누구나 직접 데이터를 확인하거나 추가적인 분석을 수행할 수 있습니다.",
-    "url": "https://www.php.net/index.php#2026-08-25-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-08-25T08:38:33.000Z",
-    "fetchedAt": "2026-08-26T16:35:18.101Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.2.2",
-    "title": "v11.2.2",
-    "summary": "What's changed\nfix(core): ObserveInstrument breaks app startup with @nestjs/core@11.2.x #17554 by @kamilmysliwiec\nfix(core): Bootstrap crashes with nestjs-cls proxy providers (ProxyProviderNotResolved",
-    "aiSummary": "NestJS v11.2.2 버전이 새롭게 배포되었습니다. 이번 업데이트는 주로 애플리케이션 실행 단계에서 발생하던 치명적인 오류들을 수정하는 데 집중했습니다.\n\n구체적으로는 @nestjs/core@11.2.x 버전에서 ObserveInstrument 기능 사용 시 애플리케이션 시작이 중단되는 문제를 해결했습니다. 또한 nestjs-cls 프록시 제공자를 사용할 때 CLS_REQ 관련 ProxyProviderNotResolvedException 오류로 인해 부트스트랩 과정에서 발생하는 충돌 현상을 개선했습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.2",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-08-25T07:59:18.000Z",
-    "fetchedAt": "2026-08-25T08:03:37.555Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.20",
-    "title": "1.1.20",
-    "summary": "Added skill icon and visual branding support across the CLI, displaying emoji icons declared under metadata.icon in SKILL.md frontmatter across the /skills catalog list view, detail inspection headers",
-    "aiSummary": "CLI 환경에서 SKILL.md 파일의 metadata.icon에 정의된 이모지를 카탈로그 목록과 상세 보기, 명령어 자동 완성 창에 표시하도록 하여 시각적 브랜딩을 강화했습니다. 이때 터미널 레이아웃이 깨지지 않도록 멀티바이트 유니코드 너비를 정확히 계산합니다.\n\n파일 경로 자동 완성 기능을 개선하여 빈 디렉토리도 ripgrep 검색 결과에 포함시켰으며, 워크스페이스 내 파일 읽기 권한을 기본적으로 승인하도록 변경하여 반복적인 승인 절차를 줄였습니다. 단, 파일 수정이나 외부 접근에 대해서는 기존처럼 확인 절차를 유지합니다.\n\nGit 저장소 검사 시 하위 모듈의 재귀적 스캔을 건너뛰어 대규모 저장소에서의 상태 확인 지연을 해결했습니다. 또한 print 모드 사용 시 도구 실행 오류가 치명적인 실패로 간주되던 문제를 수정하여 비대화형 환경에서의 종료 코드가 정상적으로 작동하도록 개선했습니다.\n\n설정 파일인 settings.json 처리 방식도 개선하여 구문 오류 발생 시 기존 설정이 삭제되지 않고 보존되도록 변경했습니다. 이외에도 내장된 사용자 정의 항목이 목록에 표시되지 않던 문제를 해결하고, CJK 입력 시 발생하는 글자 간격 문제와 비활성 상태에서의 불필요한 CPU 점유를 유발하던 애니메이션 루프 오류를 수정했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.20",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-25T02:58:33.000Z",
-    "fetchedAt": "2026-08-25T08:03:37.555Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

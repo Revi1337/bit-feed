@@ -1,5 +1,100 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
+    "summary": "Introduction \nBeginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) track",
+    "aiSummary": "Mandiant는 2024년부터 브라질의 금융 서비스, 유통, 이커머스 조직을 표적으로 삼아 결제 시스템과 은행 소프트웨어를 조작하는 위협 행위자 BREEZE COMET을 추적하고 있습니다. 이들은 과거 UNC5669로 불렸으며, 금융권의 핵심 인프라인 Pix, STR, Boleto 시스템 등에 접근하여 부정 송금을 실행하는 것을 주된 목적으로 합니다.\n\nBREEZE COMET은 피싱, RMM 도구 악용, 신뢰받는 정부 웹사이트 침해 등을 통해 초기 거점을 확보합니다. 이후 REALBREEZE와 같은 맞춤형 도구를 활용해 Active Directory와 CI/CD 환경 내 자격 증명을 탈취하고, 내부 망을 이동하며 권한을 상승시킵니다. 특히 Rust 기반의 COBALTSPIN과 같은 경량 네트워크 터널링 도구를 사용하여 내부 방화벽을 우회하고 금융 API 인프라에 대한 지속적인 접근 권한을 유지합니다.\n\n공격의 지속성을 위해 이들은 LIGHTPAINT, MILDFROST, KICKPLATE, BOATBEAM 등 다양한 언어로 작성된 백도어를 배포하며, Windows Defender와 같은 보안 솔루션을 강제로 비활성화하는 치밀함을 보입니다. 주목할 점은 이들이 생성형 AI를 활용해 정찰 스크립트 작성, 자격 증명 검증, 배포 자동화 등을 수행하며 공격의 속도와 정교함을 획기적으로 높였다는 점입니다.\n\n실제 공격 사례에서 이들은 침투 후 24~48시간 이내에 수백 건의 부정 거래를 실행한 뒤, 증거 인멸을 위해 로그를 삭제하는 대담한 행보를 보였습니다. 이러한 위협에 대응하기 위해 Mandiant는 애플리케이션 제어 정책 강화, 네트워크 접근 제어(NAC) 도입, 다중 인증(MFA) 의무화, 그리고 아웃바운드 트래픽에 대한 심층 패킷 검사(DPI)를 통한 철저한 방어 체계 구축을 권고합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-01T12:37:51.264Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=734817",
+    "title": "Authenticating TeamCity Builds to External Services With OIDC",
+    "summary": "Static credentials in CI/CD environments are a significant source of security risks and operational overhead. They can be accidentally leaked through logs and build artifacts. And you can never be sur",
+    "aiSummary": "CI/CD 환경에서 사용하는 정적 자격 증명은 로그나 빌드 아티팩트에 노출될 위험이 크며 관리와 주기적인 교체 측면에서 운영 부담을 가중시킵니다. 이러한 보안 취약점을 해결하기 위해 TeamCity는 OIDC 기반의 인증 방식을 도입했습니다.\n\nOIDC를 활용하면 빌드 프로세스 중에 외부 서비스에 접근할 때 영구적인 비밀번호나 키를 저장할 필요가 없습니다. 대신 TeamCity 서버가 발급한 단기 유효 토큰을 통해 외부 클라우드 제공업체나 서비스로부터 권한을 확인받게 됩니다. 이 과정은 별도의 자격 증명 관리가 필요 없으므로 보안 수준을 획기적으로 높여줍니다.\n\nTeamCity에서 OIDC를 설정하면 보안 사고를 예방하고 관리 업무를 자동화할 수 있습니다. 이는 개발 워크플로우 전반에 걸쳐 신뢰할 수 있는 인증 체계를 구축하는 중요한 단계입니다.",
+    "url": "https://blog.jetbrains.com/teamcity/2026/09/authenticating-teamcity-builds-with-oidc/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Igor Brovtsin",
+    "pubDate": "2026-09-01T06:58:08.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.23",
+    "title": "1.1.23",
+    "summary": "Improved /model  autocompletion to accept the proposed model name ghost text with Tab.\nReduced subagent streaming overhead by sending subagent trajectory metadata once per subtrajectory instead of wit",
+    "aiSummary": "모델 자동 완성 기능이 개선되어 Tab 키를 눌러 제안된 모델명을 적용할 수 있게 되었습니다.\n\n하위 에이전트의 스트리밍 효율화를 위해 데이터 전송 방식을 단계별 전송에서 하위 궤적당 한 번의 메타데이터 전송으로 변경하였습니다.\n\nCLI 환경에서 명령어가 표준 입력 파이프 문제로 멈추거나 프롬프트 훅으로 인해 충돌하던 현상을 수정하였습니다. Gemini 모델의 도구 호출 기록 복원 시 ID 누락 문제와 MCP 도구 호출 시 권한 알림의 제목이 비정상적으로 표시되던 오류를 해결하였습니다.\n\n인증 세션과 관련된 다양한 문제도 개선되었습니다. Google Cloud 인증 중단 시 발생하는 오류를 수정하고 토큰 만료 5분 전에 미리 갱신하여 인증 오류를 방지하였습니다. 또한 로그인 직후 입력한 프롬프트가 계정 확인 절차로 인해 유실되지 않도록 대기열 기능을 추가하였습니다.\n\n그 외에도 입력 창의 텍스트 잔류 현상, 하위 에이전트의 MCP 도구 인식 실패, 특정 상태에서 작업이 종료되지 않는 UI 버그, Windows 환경의 MCP JSON 설정 파일 파싱 오류 등을 해결하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.23",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-01T04:47:56.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/09/python-3150-rc2/",
+    "title": "Python 3.15.0 candidate 2 is here!",
+    "summary": "Last chance to test before the big day!",
+    "aiSummary": "Python 3.15.0 candidate 2 버전이 공개되었습니다. 이번 배포는 정식 버전 출시를 앞두고 최종적인 테스트를 수행할 수 있는 마지막 기회입니다. 사용자는 새로운 버전을 설치하여 안정성을 검증하고 문제가 없는지 확인할 수 있습니다.",
+    "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+    "title": "Announcing rustup 1.29.1",
+    "summary": "The rustup team is happy to announce the release of rustup version 1.29.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient",
+    "aiSummary": "Rust프로그래밍 언어의 설치 및 관리 도구인 rustup이 버전 1.29.1로 업데이트되었습니다. 이번 업데이트는 작업 효율성과 편의성을 높이는 데 중점을 두고 있습니다.\n\n주요 개선 사항으로 rustup update와 rustup component add 실행 시 동시성 처리를 도입하여 업데이트와 설치 속도를 향상했습니다. 또한 rustup doc 명령에 로컬 HTTP를 통해 문서를 제공하는 --serve 옵션이 추가되었고, aarch64-pc-windows-gnullvm 호스트 플랫폼에 대한 공식 지원이 시작되었습니다.\n\n운영체제별 변경 사항으로는 64비트 Windows 환경에서 i686-pc-windows 계열 도구 체인 설치 시 --force-non-host 옵션이 필요해졌으며, rustup-init 설치 취소 시 불필요한 파일이 남지 않도록 개선되었습니다. 프로젝트 내부적으로는 기존의 target triple 용어가 target tuple로 변경되었으나 CLI 사용법에는 변화가 없습니다.\n\n사용자는 rustup self update 또는 rustup update 명령을 통해 최신 버전으로 업그레이드할 수 있습니다. 일부 안티멀웨어 소프트웨어가 새로운 릴리스의 파일을 차단할 수 있으나, 이는 시간이 지나면 자동으로 해결될 것으로 예상됩니다.",
+    "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rustup Team",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/",
     "title": "BigQuery Graph is now GA: the knowledge foundation for the agentic era",
     "summary": "Many of the questions that matter in enterprise data aren't just about individual rows — they're about how things connect: how two accounts are linked, what path a payment took, what context grounds a",
@@ -205,6 +300,23 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/08/optimize-remote-config-usage",
+    "title": "3 ways to optimize Firebase Remote Config fetch usage",
+    "summary": "Reduce network fetches, battery consumption and usage costs",
+    "aiSummary": "Firebase Remote Config의 네트워크 호출을 최적화하여 배터리 소모와 사용 비용을 절감하는 세 가지 주요 전략이 있습니다.\n\n첫째, Fetch 인터벌을 적절히 설정하여 불필요한 네트워크 요청을 방지해야 합니다. 앱의 실시간성이 크게 중요하지 않다면 기본 설정보다 더 긴 간격을 적용하는 것이 효율적입니다.\n\n둘째, 로컬 캐시를 적극적으로 활용해야 합니다. 서버로부터 데이터를 가져오는 fetch 작업을 최소화하고, 초기 로드 시에는 캐시된 데이터를 우선적으로 사용하는 방식을 권장합니다.\n\n셋째, Firebase의 실시간 원격 구성인 Realtime Remote Config 기능을 상황에 맞춰 선택적으로 사용해야 합니다. 데이터 변경이 빈번하게 필요한 경우에만 이 기능을 활성화하여 네트워크 자원을 효율적으로 관리하는 것이 중요합니다.",
+    "url": "https://firebase.blog/posts/2026/08/optimize-remote-config-usage",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-08-31T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T12:37:51.264Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
