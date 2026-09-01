@@ -1,5 +1,183 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/sep/01/djangonaut-space-session-7-accepting-applications/",
+    "title": "Djangonaut Space - Session 7 Accepting Applications",
+    "summary": "We are thrilled to announce that Djangonaut Space, a mentorship program for contributing to Django, is open for applicants for our next cohort! 🚀\nSession 7 launches October 12th, 2026. We are current",
+    "aiSummary": "Django 기여자를 위한 멘토링 프로그램인 Djangonaut Space가 7번째 세션 참여자를 모집합니다. 이번 세션은 2026년 10월 12일에 시작되며, 지원 마감일은 2026년 9월 6일입니다.\n\nDjangonaut Space는 8주간 운영되는 무료 그룹 멘토링 프로그램으로, 참가자들이 Django 코드 기여 역량을 강화하고 향후 리더십 역할을 수행할 수 있도록 돕는 것을 목표로 합니다. 참가자들은 반구조화된 학습 환경에서 스스로 속도를 조절하며 프로젝트에 참여하게 됩니다.\n\n이 프로그램은 Django 코어 프레임워크를 탐색하고 적절한 이슈를 해결하며 Pull Request를 제출하는 과정을 체계적으로 지도합니다. 또한 Discord 커뮤니티를 통한 네트워킹과 Django Fellows 및 베테랑 메인테이너들의 전문적인 조언을 제공합니다. 다양한 배경의 개발자들이 함께 성장하고 기여 문화를 경험할 수 있는 포용적인 환경을 조성하는 데 중점을 두고 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/sep/01/djangonaut-space-session-7-accepting-applications/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Djangonaut Space Mission Control",
+    "pubDate": "2026-09-01T17:13:15.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "title": "Introducing agentic video understanding with Gemini",
+    "summary": "Sep 01, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Our new agentic feature for video analysis",
+    "aiSummary": "Google DeepMind는 Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash-Lite 모델에 적용되는 새로운 agentic video understanding 기능을 발표했습니다. 이 기술은 기존의 고정된 프레임 단위 처리 방식에서 벗어나, Gemini 모델이 스스로 영상의 필요한 부분만을 능동적으로 탐색하고 분석하는 agentic 루프 방식을 도입한 것이 핵심입니다.\n\n이를 통해 분석 정확도는 최대 7퍼센트 향상되면서도 토큰 소비량은 최대 88퍼센트, 비용은 최대 66퍼센트까지 절감하는 뛰어난 효율성을 제공합니다. 특히 장시간 영상 분석에서 데이터 누락 없이 정밀한 결과를 도출할 수 있다는 점이 큰 강점입니다.\n\n주요 활용 사례로는 초 단위 순간 검색, 긴 영상에서의 핵심 내용 추출, 이상 현상 탐지, 객체 및 동작의 정확한 추적 등이 포함됩니다. 해당 기능은 Google AI Studio와 Gemini Enterprise Agent Platform의 Gemini API를 통해 즉시 사용할 수 있으며, 향후 Gemini 앱과 YouTube의 Ask YouTube 기능에도 확대 적용될 예정입니다.",
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-09-01T17:08:51.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+    "title": "Introducing agentic video understanding with Gemini",
+    "summary": "We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.",
+    "aiSummary": "Google은 최신 Gemini 모델 전반에 걸쳐 에이전트 기반의 영상 이해 기능을 새롭게 도입합니다. 이번 업데이트를 통해 영상 분석의 정확도가 한층 향상되었으며 동시에 처리 비용과 토큰 사용량을 효율적으로 절감할 수 있게 되었습니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Rohan Doshi"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        "Google DeepMind"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-01T17:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+    "title": "Block users from discussion comments in personal repositories",
+    "summary": "You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull ",
+    "aiSummary": "GitHub가 개인 계정 저장소의 토론 댓글에서도 사용자를 직접 차단하거나 차단 해제할 수 있는 기능을 추가했습니다. 기존에 이슈나 풀 리퀘스트에서만 제공되던 문맥 내 차단 제어 기능을 토론 영역까지 확장한 것입니다. 이제 사용자들은 저장소 관리 페이지로 이동할 필요 없이 댓글 화면에서 즉시 부적절한 참여자를 관리할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-01T16:30:01.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/",
+    "title": "How Blackline simplifies perimeter policy intelligence with VPC Service Controls",
+    "summary": "Establishing network-level perimeters with VPC Service Controls (VPC-SC) is a critical step that can help you protect your cloud environment against data exfiltration, compromised accounts, and inside",
+    "aiSummary": "Google Cloud는 VPC Service Controls의 운영 효율성을 높이기 위해 새로운 정책 인텔리전스 기능인 Violation Analyzer와 Violation Dashboard를 발표했습니다. 이 도구들은 클라우드 환경에서 데이터 유출 방지와 보안 경계 관리를 수행하는 기업들이 보안 위협에 더욱 신속하게 대응할 수 있도록 지원합니다.\n\nBlackLine은 해당 솔루션을 도입하여 복잡한 보안 경계를 효과적으로 관리하고 있습니다. 기존에는 보안 위반 사항을 조사하기 위해 Cloud Logging에서 직접 SQL 쿼리를 작성해야 했으나, 이제는 Violation Analyzer를 통해 고유 ID나 토큰만으로도 API 요청 실패 원인, 관련 주체, 타겟 리소스 등을 상세히 파악할 수 있게 되었습니다. 이를 통해 문제 해결까지 걸리는 시간인 MTTR을 크게 단축했습니다.\n\n새롭게 추가된 Violation Dashboard는 조직 전체의 보안 경계 위반 사례를 한눈에 시각화하여 모니터링할 수 있도록 돕습니다. 특정 프로젝트나 ID별로 필터링이 가능하여 액세스 거부 사례의 추세를 확인하기 용이합니다.\n\n이러한 기능들은 초기 단계의 보안 경계 테스트부터 실시간 모니터링, 상세 원인 조사, 그리고 정책 수정에 이르는 전체 운영 수명 주기를 단순화합니다. 관리자들은 수동으로 로그를 분석하는 번거로움 없이 직관적인 보고서를 바탕으로 최소 권한 원칙을 준수하는 보안 환경을 효율적으로 구축하고 유지할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Pratik Bhangale"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-01T16:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/tabfm-adds-predictive-ml-to-bigquery/",
+    "title": "Introducing TabFM in BigQuery: Predictive analytics reimagined",
+    "summary": "Historically, enterprise predictive analytics tasks such as predicting churn, purchase intent, or fraud scoring have meant building custom models using libraries like XGBoost, Random Forest, or Deep N",
+    "aiSummary": "Google은 기업용 예측 분석의 복잡성을 해결하기 위해 BigQuery 내에서 사전 학습된 파운데이션 모델인 TabFM을 새롭게 발표했습니다. 그동안 기업에서 이탈 예측이나 구매 의도 파악 등을 위해 수행하던 모델 학습, 튜닝, 배포의 복잡한 과정을 제거하고, SQL 구문 하나로 즉각적인 예측 결과를 도출할 수 있게 지원합니다.\n\nTabFM은 Google Research에서 개발한 모델로, ICL 기술을 활용하여 별도의 학습 과정 없이 데이터만 입력하면 즉시 결과를 얻는 제로샷 예측을 제공합니다. 사용자는 AI.PREDICT와 AI.EVALUATE와 같은 내장 SQL 함수를 통해 복잡한 피처 엔지니어링 과정 없이도 즉시 분류 및 회귀 분석을 수행할 수 있습니다. 결측값 처리나 범주형 인코딩 등도 자동으로 처리되므로 데이터 과학 전문 지식이 부족한 사용자도 높은 수준의 예측 정확도를 확보할 수 있습니다.\n\n또한 BigQuery의 분산 추론 아키텍처를 활용하여 수백만 건의 데이터를 단 몇 분 만에 처리하는 확장성을 갖추고 있습니다. 기존의 XGBoost와 같은 전통적인 머신러닝 모델이 대규모 데이터셋과 세밀한 하이퍼파라미터 튜닝이 필요할 때 적합하다면, TabFM은 신속한 분석이 필요한 중소 규모 데이터나 빈번하게 데이터가 변경되는 환경, 혹은 에이전트 기반 애플리케이션에 매우 효과적입니다. 현재 TabFM은 BigQuery에서 프리뷰 버전으로 이용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/tabfm-adds-predictive-ml-to-bigquery/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Vaibhav Sethi"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-01T16:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/secure-mainframe-access-with-hashicorp-boundary",
+    "title": "Secure mainframe access with HashiCorp Boundary",
+    "summary": "Mainframes remain the backbone of many of the world’s critical systems, processing millions of transactions per second while delivering near-continuous availability. From powering Wall Street transact",
+    "aiSummary": "많은 기업의 핵심 시스템인 메인프레임은 오늘날까지도 방대한 트랜잭션을 처리하며 중추적인 역할을 수행하고 있습니다. 그러나 여전히 HTTP(S), SSH, TN3270과 같은 전통적인 프로토콜을 사용하고 있어 보안, 거버넌스, 감사 측면에서 취약점이 발생합니다. 특히 정적 자격 증명 사용, 파편화된 감사 기록, 과도한 권한 부여 등은 운영 복잡성을 높이고 공격자에게 이동 경로를 제공하는 원인이 됩니다.\n\nHashiCorp Boundary는 이러한 문제를 해결하기 위해 아이덴티티 기반의 권한 접근 관리 플랫폼으로서 메인프레임 접속 방식을 현대화합니다. Boundary는 사용자 ID와 사전 정의된 정책을 결합하여 HMC, SSH, TN3270 등 다양한 접근 경로를 안전하게 중개합니다. 특히 HashiCorp Vault와 통합될 경우, 접근 시점에만 유효한 자격 증명을 생성하여 주입함으로써 정적 자격 증명에 대한 의존도를 제거하고 보안성을 크게 강화합니다.\n\n구체적인 구축 방식으로는 메인프레임과 인접한 네트워크에 Boundary 워커를 배치하는 형태를 사용합니다. 이를 통해 사용자는 직접적인 네트워크 노출 없이 일관된 인증 체계를 거쳐 시스템에 접근하게 되며, 모든 세션 기록과 접근 로그가 중앙에서 관리됩니다.\n\n결과적으로 HashiCorp Boundary는 기존의 메인프레임 운영 환경을 완전히 변경하지 않으면서도, 제로 트러스트 원칙을 적용하고 중앙 집중식 가시성을 확보할 수 있는 제어 계층을 제공합니다. 이는 상시 권한을 축소하고 실시간 감사 기능을 강화하고자 하는 조직에게 효과적인 보안 솔루션이 됩니다.",
+    "url": "https://www.hashicorp.com/blog/secure-mainframe-access-with-hashicorp-boundary",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Midhun Joy",
+    "pubDate": "2026-09-01T16:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
+    "title": "HashiCorp Vault agentic IAM is now generally available",
+    "summary": "In June, we announced the public preview of native AI agent support in HashiCorp Vault. We are excited to make these new native agentic IAM capabilities generally available in Vault Enterprise 2.1.  \n",
+    "aiSummary": "HashiCorp은 Vault Enterprise 2.1 버전을 통해 AI 에이전트를 위한 네이티브 IAM 기능을 정식 출시했습니다. 이번 업데이트는 기업이 AI 워크플로우를 도입할 때 에이전트의 신원을 안전하게 관리하고, 정책 기반의 비밀 정보 접근 제어 및 감사 체계를 구축할 수 있도록 지원합니다.\n\nVault UI에는 에이전트의 신원, 인증 활동, 정책 및 네임스페이스 정보를 한눈에 파악할 수 있는 Agent Registry가 새롭게 추가되었습니다. 이를 통해 관리자는 에이전트 등록과 설정을 중앙에서 효율적으로 제어할 수 있으며, API나 CLI, Terraform Vault Provider를 통한 선언적 관리도 가능합니다.\n\n보안 강화를 위해 Vault는 IETF RFC 9396 표준인 RAR을 기본적으로 적용합니다. 이를 통해 광범위한 권한 대신 요청별로 세밀한 권한 범위를 설정할 수 있으며, 에이전트가 요청을 보낼 때마다 OAuth JWT를 검증하여 일시적인 토큰 메타데이터를 생성합니다. 모든 인증 요청과 응답은 감사 로그에 기록되어 보안 추적성을 보장합니다.\n\n또한, 대리인 역할을 수행하는 에이전트 워크플로우를 위해 사용자 신원과 에이전트 권한을 결합한 다중 검증 체계를 제공합니다. 사용자의 권한과 에이전트의 허용 정책, 그리고 상세 권한 요구사항의 교집합 내에서만 접근이 허용되도록 설계되어 보안성을 높였습니다.\n\nHashiCorp은 IBM Verify, Auth0, PingFederate, Microsoft Entra, Okta 등 다양한 신원 공급자와의 통합을 검증했습니다. 이번 정식 출시를 통해 기업은 기존의 보안 운영 모델을 AI 에이전트 환경으로 확장하여, 개발 속도를 저해하지 않으면서도 에이전트 기반의 워크플로우를 안전하게 확장할 수 있게 되었습니다.",
+    "url": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Claudia Cornali-Motta",
+    "pubDate": "2026-09-01T16:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
     "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
     "summary": "Introduction \nBeginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) track",
@@ -29,6 +207,39 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=733975",
+    "title": "The Grails Plugin Has a New Home: Apache Grails",
+    "summary": "The Grails plugin for IntelliJ IDEA (which provides framework-aware coding assistance, GSP tooling, and GORM integration) has moved to the Apache Grails project. The Apache Software Foundation (ASF), ",
+    "aiSummary": "IntelliJ IDEA용 Grails 플러그인이 Apache Grails 프로젝트의 공식 관리 하에 새롭게 이전되었습니다. 기존에 JetBrains가 관리하던 해당 플러그인의 소스 코드는 이제 Apache Software Foundation으로 이관되었으며, 이를 위한 새로운 GitHub 저장소가 생성되었습니다. 이번 변화를 통해 프레임워크 인식 코딩 지원과 GSP 도구, GORM 통합 등 핵심 기능을 포함한 플러그인 개발 및 유지보수가 Apache Grails 프로젝트 차원에서 통합적으로 이루어지게 됩니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/09/the-grails-plugin-has-a-new-home-apache-grails/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Andrey Belyaev",
+    "pubDate": "2026-09-01T12:02:33.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+    "aiSummary": "OpenAI가 ChatGPT를 통해 의료기관이 EHR 및 다양한 산업 데이터를 안전하게 연동할 수 있는 기능을 제공하기 시작했습니다. 이를 통해 임상의들은 환자 정보를 더욱 종합적으로 파악하고 관련 의학 연구 자료를 신속하게 확인하는 등 의료 현장에서의 데이터 활용도를 높일 수 있게 되었습니다. 의료 정보의 보안을 유지하면서도 기술적 지원을 통해 진료의 효율성과 정확성을 개선하려는 목적을 담고 있습니다.",
+    "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -62,6 +273,73 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026",
+    "title": "This Week in Spring - September 1st, 2026",
+    "summary": "Hi, Spring fans! Welcome to another exciting installment of This Week in Spring! I'm writing this from lovely Oslo, Norway, for the joyous JavaZone conference. Next, I'm going to Amsterdam for the int",
+    "aiSummary": "이번 주 Spring 소식은 다양한 커뮤니티 콘텐츠와 기술 업데이트를 포함하고 있습니다.\n\nSpring 학습 로드맵을 정리한 가이드 차트가 공유되었으며 Apache Kafka와 RabbitMQ의 비교 분석 자료가 공개되었습니다. Spring Modulith 버전 2.2.M1, 2.1.1, 2.0.8, 1.4.13이 새롭게 출시되었습니다.\n\nSpring Security와 OAuth, Arconia를 활용한 멀티테넌트 시스템 구축 시리즈가 이어졌으며 A Bootiful Podcast에서는 Joe Grandja와 함께 Spring Security 및 OAuth에 관한 심도 있는 대화를 나누었습니다.\n\nSpring AI와 관련된 풍성한 기술 정보가 다수 업데이트되었습니다. Yuriy Bezsonov의 Spring AI 기반 에이전트 구축 세션에 대한 후기가 공유되었고 Baeldung은 Spring AI에서 Anthropic의 Claude 모델을 사용하는 방법을 안내했습니다. 또한 Craig Walls가 제공하는 Spring AI 레시피 시리즈를 통해 도구 재사용, 하이브리드 검색을 통한 RAG 성능 개선, 리랭킹, 그리고 가상 문서 임베딩 활용법 등 최신 AI 개발 기술들이 자세히 소개되었습니다.",
+    "url": "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/defending-against-ai-fueled-social-engineering",
+    "title": "Defending against AI-fueled social engineering",
+    "summary": "AI is supercharging social engineering. Learn how SOC teams can detect deepfakes, spear phishing, and smishing before they cause real damage.",
+    "aiSummary": "AI 기술의 발전으로 인해 Deepfake, spear phishing, smishing과 같은 사회 공학적 해킹 공격이 더욱 정교해지고 위험해지고 있습니다.\n\n기업의 SOC 팀은 이러한 AI 기반의 위협을 사전에 탐지하고 피해를 최소화하기 위한 방어 전략을 수립해야 합니다. 특히 진화하는 공격 방식에 대응하기 위해 최신 보안 기술을 도입하고 임직원의 보안 인식을 강화하는 종합적인 대응 체계 구축이 필수적입니다.",
+    "url": "https://www.elastic.co/blog/defending-against-ai-fueled-social-engineering",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Joe DeFever",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/09/secure-shopping-cart-firebase",
+    "title": "Authentication made easy: Building a secure e-commerce shopping cart with Firebase",
+    "summary": "September 1, 2026\nAuthentication can be hard enough on its own. But building an e-commerce experience where shoppers can add to cart before signing up, and then transition to a permanent account witho",
+    "aiSummary": "전자상거래 웹사이트에서 비회원 상태의 장바구니 데이터를 유지하고, 이후 회원 전환 시 데이터를 안전하게 병합하는 것은 복잡한 과제입니다. Firebase Authentication과 Cloud Firestore를 활용하면 이러한 문제를 효과적으로 해결할 수 있습니다.\n\nFirebase Anonymous Authentication을 사용하면 첫 방문 즉시 사용자에게 고유한 식별자를 부여할 수 있습니다. 이를 통해 사용자는 로그인을 강요받지 않고도 장바구니 기능을 실시간으로 이용할 수 있으며, 서버 측에서 복잡한 임시 세션 테이블을 관리할 필요가 없습니다.\n\n데이터 보안을 위해 Cloud Firestore의 보안 규칙을 엄격하게 설정해야 합니다. 장바구니 데이터는 사용자별 하위 컬렉션으로 분리하고, 사용자 본인만 접근 가능하도록 제한합니다. 특히 수량과 같은 필드만 업데이트를 허용하고, 가격이나 역할 등 핵심 정보는 클라이언트가 직접 수정할 수 없도록 설계하여 데이터 변조를 방지합니다.\n\n비회원이 회원가입을 하거나 기존 계정으로 로그인할 때의 데이터 이관 과정도 중요합니다. 신규 가입 시에는 linkWithCredential을 사용하여 기존 익명 식별자를 그대로 유지할 수 있으며, 이미 계정이 존재하는 경우에는 클라이언트 측에서 병합 로직을 수행하여 안전하게 데이터를 통합합니다.\n\n결제와 같은 민감한 작업은 클라이언트가 아닌 신뢰할 수 있는 백엔드인 Cloud Run이나 Firebase Callable Functions에서 수행해야 합니다. 서버 측에서 가격을 검증하고 주문을 확정함으로써 무결성을 보장하며, 이때 관리자 권한인 IAM을 활용하여 Firestore에 기록을 저장합니다.\n\n결론적으로, 사용자 경험을 위한 클라이언트 레이어와 데이터 무결성을 담당하는 보안 규칙, 그리고 결제 처리를 위한 서버 레이어를 명확히 분리하는 것이 안전하고 확장성 있는 전자상거래 시스템을 구축하는 핵심입니다.",
+    "url": "https://firebase.blog/posts/2026/09/secure-shopping-cart-firebase",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsDeveloping Enterprise Frontier Safeguards with our customersSep 1, 2026Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution ",
+    "aiSummary": "Anthropic은 기업 고객을 위한 새로운 보안 솔루션인 Enterprise Frontier Safeguards를 발표했습니다. 이 솔루션은 고객이 직접 제어하는 클라우드 인프라에 데이터를 저장함으로써 높은 수준의 프라이버시를 보장함과 동시에, AI 오남용을 탐지할 수 있는 최첨단 안전 장치를 제공합니다.\n\n최근 고도화된 사이버 공격과 AI 에이전트의 자율적 오작동 사례가 증가함에 따라, 단순한 실시간 데이터 분석만으로는 복합적인 위협을 탐지하기 어렵게 되었습니다. Anthropic은 잠재적 위협을 효과적으로 식별하기 위해서는 일정 기간 데이터를 유지하며 다중 세션과 계정 간의 활동을 상관 분석하는 과정이 필수적이라고 판단했습니다.\n\n하지만 규제 산업에 종사하는 기업들은 보안을 위한 데이터 보존 정책을 도입하는 데 어려움을 겪어왔습니다. 이에 따라 Anthropic은 Amazon Web Services, Google Cloud, Microsoft Azure 등 주요 클라우드 파트너 및 금융, 의료, 제조 등 다양한 산업군의 100여 개 기업과 협력하여 프라이버시 보호와 보안 모니터링이라는 두 가지 가치를 모두 충족하는 EFS를 개발했습니다.\n\nEFS는 올가을부터 순차적으로 배포될 예정이며, Claude Code, Claude Enterprise, Claude Platform을 비롯해 Amazon Bedrock, Google Agent Platform, Microsoft Foundry 등 주요 플랫폼에서 지원됩니다. EFS가 완전히 도입되기 전까지는 Claude Fable 5와 Fable 5.1 사용 시 Zero Data Retention 정책이 적용될 예정입니다. Anthropic은 기업 데이터가 모델 학습에 사용되지 않는다는 원칙을 재확인하며, 이번 솔루션이 안전하고 책임 있는 AI 운영 환경을 조성하는 데 중요한 역할을 할 것으로 기대합니다.",
+    "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -124,6 +402,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "title": "Copilot model access update for GitHub Team plans",
+    "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is…\nThe post Copilot model acce",
+    "aiSummary": "GitHub은 둘 이상의 조직에 소속된 Copilot 사용자의 모델 접근 권한 결정 방식을 변경하였습니다. 이번 업데이트는 청구 및 거버넌스 체계를 일관성 있게 유지하기 위한 조치입니다. 이제 사용자가 속한 여러 조직 중 가장 높은 권한의 모델 설정이 적용되는 것이 아니라, 사용 중인 특정 조직의 정책에 따라 모델 접근 권한이 결정됩니다. 이를 통해 기업 관리자는 소속된 조직별로 보다 명확하고 통제된 방식으로 Copilot 모델 환경을 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-08-31T21:58:46.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -267,6 +561,21 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-08-31-1",
+    "title": "Forum PHP 2026 - Paris (France)",
+    "summary": "Join the biggest PHP event organized by the French PHP user group, organized for the third time in Disneyland Paris, at the Hotel New York - The Art of Marvel! During two days, on October 8th and 9th,",
+    "aiSummary": "프랑스 PHP 사용자 그룹이 주관하는 대규모 행사인 Forum PHP 2026이 2026년 10월 8일부터 9일까지 이틀간 프랑스 파리의 디즈니랜드 내 Hotel New York - The Art of Marvel에서 개최됩니다. 700명 이상의 참가자가 모이는 이번 행사는 PHP 개발자와 관련 기업들이 지식을 공유하고 네트워킹을 할 수 있는 기회를 제공합니다. 더 자세한 정보는 공식 웹사이트인 Afup.org를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#22026-08-31-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-08-31T11:42:50.000Z",
+    "fetchedAt": "2026-09-01T18:38:42.063Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
