@@ -1,5 +1,69 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.24",
+    "title": "1.1.24",
+    "summary": "Improved /mcp panel navigation so up and down arrow keys strictly navigate between MCP servers and plugins, left and right arrow keys cycle available actions, and Esc exits action mode or the panel.\nF",
+    "aiSummary": "이번 1.1.24 업데이트를 통해 MCP 패널의 내비게이션 기능이 개선되었습니다. 위아래 화살표 키로 MCP 서버와 플러그인 사이를 엄격하게 이동할 수 있으며 좌우 화살표 키로 사용 가능한 동작을 전환하고 Esc 키로 동작 모드나 패널을 종료하도록 변경되었습니다.\n\n/agents 선택기에서 동일한 이름의 에이전트가 여러 설정 소스나 플러그인에서 중복으로 나타나던 오류를 해결하였습니다. 또한 접근할 수 없거나 삭제된 작업 디렉터리에서 도구 초기화 및 에이전트 시작이 실패하던 문제를 메모리 내 매개변수 스키마에 절대 URI 스키마를 사용하여 수정하였습니다.\n\n표준 출력이나 표준 오류가 파이프된 헤드리스 CLI 호출 시 종료가 지연되던 문제는 FD_CLOEXEC 설정을 통해 하위 프로세스가 호출자의 파이프를 유지하지 않도록 개선하였습니다. mcp_config.json 파일 내 주석이나 끝에 붙은 쉼표 등으로 인해 설정 구문 분석이 실패하던 현상도 해결되었습니다.\n\n마지막으로 대화 삭제 시 로컬 저장소에 고아 주석 파일이 쌓이던 문제를 수정하였고 활성화된 /goal이 포함된 대화에서 /btw를 통한 부가 질문이 강제로 실행되거나 의도치 않은 도구 호출을 유발하던 버그를 바로잡았습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.24",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-02T02:38:25.000Z",
+    "fetchedAt": "2026-09-02T12:09:53.910Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/starlight-042/",
+    "title": "Starlight 0.42",
+    "summary": "Less JavaScript, and more JavaScript, all in one release.",
+    "aiSummary": "Starlight 0.42 버전이 출시되었습니다. 이번 업데이트는 불필요한 JavaScript 사용을 줄여 효율성을 높이는 동시에 필요한 영역에서는 JavaScript 기능을 더욱 강화하는 방향으로 진행되었습니다. 성능 최적화와 기능 확장을 동시에 달성한 것이 이번 릴리스의 핵심입니다.",
+    "url": "https://astro.build/blog/starlight-042/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "fetchedAt": "2026-09-02T12:09:53.910Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-4-6-released",
+    "title": "Elastic Stack 9.4.6 released",
+    "summary": "Version 9.4.6 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.6 over the previous versions 9.4.5\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.4.6 버전이 오늘 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.4.5에서 발견된 문제들을 해결하고 전반적인 제품의 변경 사항을 포함하고 있습니다.\n\n특히 이번 9.4.6 버전에는 잠재적인 보안 취약점에 대한 수정 사항이 포함되어 있으므로 기존 버전을 사용 중인 사용자들은 최신 버전으로 업그레이드할 것을 권장합니다. 상세한 수정 내역과 전체 변경 목록은 공식 릴리스 노트를 통해 확인할 수 있으며 보안과 관련된 구체적인 내용은 별도의 보안 공지에서 확인이 가능합니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-4-6-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Julien Mailleret",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "fetchedAt": "2026-09-02T12:09:53.910Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-21-released",
+    "title": "Elastic Stack 8.19.21 released",
+    "summary": "Version 8.19.21 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.21 over the previous versions 8.19.21\nFor details of the issues that have be",
+    "aiSummary": "Elastic Stack 8.19.21 버전이 새롭게 공개되었습니다. 이번 릴리스에는 잠재적인 보안 취약점에 대한 수정 사항이 포함되어 있으므로 이전 버전에서 최신 버전으로 업그레이드할 것을 권장합니다. 각 제품별 상세 변경 사항 및 해결된 문제에 대한 구체적인 내용은 공식 릴리스 노트를 확인해야 합니다. 보안 관련 세부 사항은 별도로 게시된 보안 공지문을 통해 확인하시기 바랍니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-21-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Julien Mailleret",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "fetchedAt": "2026-09-02T12:09:53.910Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
     "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
     "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC",
