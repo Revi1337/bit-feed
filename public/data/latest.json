@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+    "title": "Enterprise-managed settings support any default model",
+    "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.…\nThe",
+    "aiSummary": "GitHub Copilot의 엔터프라이즈 관리 설정에서 새로운 대화에 사용할 기본 모델을 직접 지정할 수 있게 되었습니다. 이제 기업 관리자는 조직의 업무 흐름에 가장 적합한 모델을 기본값으로 설정하여 구성원들이 일관된 환경에서 개발을 진행하도록 지원할 수 있습니다. 이번 업데이트를 통해 기업은 구성원들의 업무 효율성을 높이고 프로젝트 특성에 맞춘 최적화된 AI 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-02T18:51:12.000Z",
+    "fetchedAt": "2026-09-03T01:12:44.567Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_137",
     "title": "Visual Studio Code 1.137 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code Insiders.\nRead the full article",
@@ -16,6 +32,54 @@
     ]
   },
   {
+    "id": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+    "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+    "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down\nto zero replicas. This feature is now Beta and enabled by default. A\nHorizontalPodAutoscaler\n(HPA) that uses a suitab",
+    "aiSummary": "Kubernetes v1.37 버전이 업데이트되면서 HPA를 통해 워크로드를 0개의 복제본으로 자동 스케일링하는 기능이 베타 단계로 진입하여 기본적으로 활성화되었습니다. 기존에는 별도의 추가 기능이나 알파 기능 게이트를 사용해야 했으나, 이제는 핵심 기능으로서 객체 메트릭이나 외부 메트릭을 기반으로 워크로드를 0으로 축소했다가 메트릭 변화에 따라 다시 실행할 수 있게 되었습니다.\n\n이 기능은 큐 소비자나 배치 처리기와 같이 유휴 상태에서 리소스를 점유하는 워크로드에 특히 유용하며, 특히 CPU나 GPU와 같은 고비용 리소스를 사용하는 환경에서 비용 절감 효과가 큽니다. 다만, 워크로드가 0개일 때는 다시 시작하기 위한 콜드 스타트 시간이 발생하므로 지연 시간이 허용되는 작업에 적합합니다. 또한 HTTP와 같이 요청 기반으로 동작하는 워크로드의 경우 별도의 버퍼링 계층이 필요합니다.\n\n스케일링 동작을 위해서는 CPU나 메모리 대신 큐 길이와 같이 독립적으로 존재하는 객체 또는 외부 메트릭을 사용해야 합니다. Kubernetes는 이를 위해 Prometheus Adapter와 같은 메트릭 어댑터를 사용하여 메트릭을 외부 메트릭 API로 노출합니다. HPA 설정 시 minReplicas를 0으로 지정하면 설정된 메트릭 값에 따라 워크로드가 자동으로 관리됩니다.\n\n제어 루프는 ScaledToZero 상태 조건을 사용하여 자동 스케일링에 의한 0 복제본 상태와 운영자에 의한 수동 일시 중지 상태를 명확하게 구분합니다. 이 기능을 사용하기 위해서는 minReplicas를 0으로 설정함과 동시에 최소 하나 이상의 객체 또는 외부 메트릭을 반드시 지정해야 하며, 리소스 메트릭만으로는 구성할 수 없습니다. 업그레이드나 롤백 시에는 구성 요소 간의 버전 호환성을 확인하고, 기능을 비활성화하기 전에 모든 관련 HPA의 최소 복제본 수를 1 이상으로 조정해야 합니다.",
+    "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-02T18:30:00.000Z",
+    "fetchedAt": "2026-09-03T01:12:44.567Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/statamic-sidecar",
+    "title": "Sidecar Brings Statamic's Control Panel to Your Existing Markdown Sites",
+    "summary": "Sidecar lets you manage markdown documentation and static sites from LaraDocs, Jigsaw, VitePress, and HydePHP directly inside the Statamic Control Panel\nThe post Sidecar Brings Statamic's Control Pane",
+    "aiSummary": "Sidecar는 LaraDocs, Jigsaw, VitePress, HydePHP와 같이 기존에 운영 중인 Markdown 기반 정적 사이트를 Statamic Control Panel에서 직접 관리할 수 있도록 지원하는 새로운 도구입니다.\n\n이 도구를 사용하면 별도의 복잡한 설정 없이도 기존의 정적 사이트 운영 체제에 Statamic의 강력한 콘텐츠 관리 기능을 통합하여 활용할 수 있습니다. 결과적으로 개발자와 콘텐츠 관리자는 익숙한 환경인 Statamic Control Panel 내에서 효율적으로 문서와 정적 사이트를 관리하고 편집하는 것이 가능해집니다.",
+    "url": "https://laravel-news.com/statamic-sidecar?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-09-02T18:15:31.000Z",
+    "fetchedAt": "2026-09-03T01:12:44.567Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+    "title": "Content exclusions generally available in Copilot app and CLI",
+    "summary": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helpin",
+    "aiSummary": "GitHub Copilot 앱과 Copilot CLI에서 기업, 조직, 저장소 관리자가 설정한 콘텐츠 제외 정책이 정식으로 적용됩니다.\n\n이제 관리자가 특정 파일을 제외 대상으로 설정하면 GitHub Copilot은 해당 파일을 AI 모델의 문맥으로 활용하지 않습니다. 이를 통해 민감한 데이터를 보호하고 조직의 보안 정책을 더욱 엄격하게 준수할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-02T18:14:23.000Z",
+    "fetchedAt": "2026-09-03T01:12:44.567Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/sep/02/bugfix-releases/",
     "title": "Django bugfix release issued: 6.1.1",
     "summary": "Today we've issued the\n6.1.1\nbugfix release.\nThe release package and checksums are available from\nour downloads page, as well as from the Python Package Index.\nThe PGP key ID used for this release is ",
@@ -29,6 +93,22 @@
     "tags": [
       "Django",
       "Python"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-graphos-and-apollo-mcp-server-named-2026-api-award-winners",
+    "title": "Apollo GraphOS and Apollo MCP Server Named 2026 API Award Winners",
+    "summary": "September 2, 2026\nApollo GraphOS and Apollo MCP Server were named winners in the 2026 API Awards (https://apiworld.co/awards/), presented at API World 2026 (https://apiworld.co/) this week in Santa Cl",
+    "aiSummary": "Apollo GraphOS와 Apollo MCP Server가 2026 API Awards에서 각각 Best Innovation in API Orchestration과 Best Innovation in AI API 부문을 수상했습니다.\n\n이번 시상은 API 산업의 혁신과 기술 발전에 기여한 제품을 선정하는 DevNetwork API Advisory Board의 평가를 통해 이루어졌습니다. API가 AI 기반 애플리케이션과 자율 에이전트의 핵심 인프라로 진화함에 따라, 해당 제품들이 업계 생태계 확장에 기여한 점을 인정받았습니다.\n\nApollo GraphOS는 기업 내 API를 통합하고 관리하는 플랫폼으로서의 우수성을 입증했습니다. 또한 Apollo MCP Server는 Model Context Protocol을 활용하여 기존 GraphQL API를 AI 에이전트가 직접 호출할 수 있는 도구로 변환함으로써, 기업이 실시간 운영 데이터를 안전하고 체계적으로 활용하도록 돕는 혁신성을 보여주었습니다.\n\n한편, Apollo는 오는 10월 6일부터 8일까지 샌프란시스코에서 열리는 Apollo Summit 2026을 통해 이러한 기술의 실제 적용 사례와 향후 전략을 공유할 예정입니다. 이번 행사는 SF Tech Week의 일환으로 진행되며, 다양한 기업 관계자들이 참석하여 AI 에이전트 구축과 관련한 인사이트를 나눌 계획입니다.",
+    "url": "https://www.apollographql.com/blog/apollo-graphos-and-apollo-mcp-server-named-2026-api-award-winners",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Jennifer Tyrseck",
+    "pubDate": "2026-09-02T16:44:59.000Z",
+    "fetchedAt": "2026-09-03T01:12:44.567Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
     ]
   },
   {
@@ -226,6 +306,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/self-hosted-machines",
+    "title": "Self-hosted machines",
+    "summary": "Sep 2, 2026 · ChangelogSelf-hosted machinesCursor supports self-hosted machines, which let you keep tool execution entirely in your own network.\nYour codebase, build outputs, and secrets all stay on i",
+    "aiSummary": "Cursor가 사용자의 네트워크 내에서 도구 실행이 가능한 Self-hosted machines 기능을 지원합니다. 이를 통해 코드베이스, 빌드 결과물, 비밀값 등 중요 데이터가 외부로 유출되지 않고 내부 인프라에서 안전하게 유지됩니다.\n\n개인 워크플로우를 위한 단일 머신 연결 외에도 팀 단위의 작업을 위한 Team pools 기능을 제공합니다. 요청량에 따라 워커 수를 유동적으로 조절하는 오토스케일링을 지원하며, 유휴 상태인 머신은 최대 절전 모드로 전환하여 비용을 효율적으로 관리할 수 있습니다. 또한 특정 저장소에 구애받지 않고 풀 이름을 지정하여 유연하게 자원을 할당할 수 있습니다.\n\n기존에 사용 중인 AWS Lambda, Coder, Cloudflare, Daytona, Modal, Namespace, Vercel, E2B와 같은 다양한 클라우드 샌드박스 환경에서 에이전트를 실행할 수 있습니다.\n\n리눅스와 Mac 환경에서는 컴퓨터 제어 기능이 지원됩니다. 적절한 데스크톱 패키지를 설치하면 에이전트가 화면을 보고 마우스 클릭이나 키보드 입력 등을 직접 수행할 수 있으며, 사용자는 Cursor를 통해 에이전트의 작동 과정을 지켜보거나 즉시 제어권을 뺏어올 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/self-hosted-machines",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "fetchedAt": "2026-09-03T01:12:44.567Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1708,153 +1804,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/expanding-support-for-scientists",
-    "title": "Expanding our support for scientists",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncements Expanding our support for scientistsAug 27, 2026As Claude becomes increasingly capable at scientific research, we are focusing on building pro",
-    "aiSummary": "Anthropic은 과학 연구를 가속화하기 위해 연구 커뮤니티 지원을 대폭 확대합니다. 우선 전 세계 과학자를 대상으로 1년간 Claude 구독 서비스를 무료 또는 할인된 가격으로 제공하는 Claude team plan을 시작하며, 초기 1만 석을 시작으로 향후 지원 규모를 늘려갈 예정입니다.\n\nAI for Science 프로그램 역시 생명과학 분야에 국한되었던 지원 범위를 물리, 수학 등 다양한 과학 분야로 확장합니다. 이를 통해 리만 가설 연구나 단백질 설계와 같은 고도의 연산이 필요한 연구 과제에 최대 5만 달러 상당의 크레딧을 제공합니다. 혜택을 받기 위해서는 학계나 비영리 연구 기관의 책임 연구자 인증이 필요합니다.\n\n안전한 기술 활용을 위한 통제 정책도 병행됩니다. Claude Fable 모델의 경우 잠재적 위험성을 고려하여 전문 생물학 및 약물 개발 관련 질의가 제한됩니다. 대신 미국 정부와의 협력을 통해 생명과학 전문가들이 전문 연구용 Mythos 모델을 활용할 수 있도록 하는 별도의 접근 프로그램을 마련하고 있으며, 현재 초기 참가자 등록을 마친 상태입니다.\n\n추가로 AI 에이전트가 물리적 장치를 안전하게 제어하기 위한 사양인 Model Hardware Standard를 공개하고, 일부 연구소와 제조사를 대상으로 프리뷰를 진행합니다. 이러한 일련의 조치를 통해 연구자들이 AI를 활용하여 과학적 발견을 획기적으로 앞당길 수 있도록 지원할 계획입니다.",
-    "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "fetchedAt": "2026-08-28T06:57:48.827Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/smart-city-it-ot-data-convergence-security",
-    "title": "How can agencies unify smart city data to improve public services?",
-    "summary": "Learn how can smart cities unify operational data, improve visibility, detect anomalies, and secure connected infrastructure.",
-    "aiSummary": "스마트 시티는 운영 데이터를 통합하여 도시 전반의 가시성을 높이고 공공 서비스를 개선하는 방향으로 나아가고 있습니다. \n\n다양한 경로에서 발생하는 데이터를 통합 관리함으로써 도시 운영 체계의 비효율성을 줄이고 시스템상의 이상 징후를 신속하게 탐지할 수 있습니다. \n\n또한 연결된 도시 인프라의 보안을 강화하여 데이터 중심의 안전하고 지능적인 공공 서비스를 제공하는 것이 핵심입니다.",
-    "url": "https://www.elastic.co/blog/smart-city-it-ot-data-convergence-security",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Brixton Pizzuti",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-    "title": "Previewing the Model Hardware Standard",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBeneficial DeploymentsPreviewing the Model Hardware StandardAug 27, 2026We’re opening a research preview of the Model Hardware Standard (MHS), ",
-    "aiSummary": "Anthropic은 AI 에이전트가 물리적 기기를 안전하게 제어할 수 있도록 돕는 공통 규격인 Model Hardware Standard를 공개하고 연구용 프리뷰를 시작합니다. 그동안 실험실이나 제조 현장의 장비들은 서로 다른 통신 방식을 사용하여 통합에 긴 시간이 소요되었으나 MHS는 이를 표준화된 드라이버를 통해 수 분 내로 단축합니다.\n\n이 표준은 프로그래밍 가능한 인터페이스를 가진 모든 기기에 적용 가능하며 특정 모델에 종속되지 않는 개방형 구조를 갖추고 있습니다. MHS는 읽기나 쓰기 같은 단순한 명령 체계를 사용하여 기기와 AI 간의 데이터를 매끄럽게 교환하고 AI 에이전트가 생소한 기기라도 즉각적으로 그 특성을 파악하여 운용할 수 있도록 지원합니다.\n\nAnthropic은 HHMI Janelia Research Campus와 협력하여 이 기술을 개발했으며 현재 과학 연구소 및 제조 기업들과 협력하여 안전성 평가와 모범 사례를 구축하고 있습니다. 향후 해당 표준을 오픈 소스로 전환하여 AI가 실험 자동화나 정밀 제조와 같은 복잡한 물리적 환경에서 보다 자율적으로 업무를 수행할 수 있는 생태계를 조성할 계획입니다. 또한 이 표준은 Model Context Protocol과 같은 기존 통신 규약을 활용하여 확장성을 확보하고 있습니다.",
-    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/start-from-scratch",
-    "title": "Start from scratch, without a repo",
-    "summary": "Aug 27, 2026 · ChangelogStart from scratch, without a repoCloud Agents no longer require a connected GitHub or other third-party SCM provider to get started. Prompt from the get-go, then save your wor",
-    "aiSummary": "Cursor의 Cloud Agents 기능이 업데이트되어 외부 SCM 연동 없이도 즉시 작업을 시작할 수 있게 되었습니다. 사용자는 리포지토리 선택 창에서 Start from scratch를 선택하여 바로 프롬프트를 입력할 수 있으며, 작업 과정에서 Cursor Origin 리포지토리가 자동으로 생성됩니다.\n\n작업 결과물은 언제든지 Create repo 버튼을 통해 명명된 정식 리포지토리로 저장할 수 있으며, 프로젝트의 공개 범위를 private 또는 internal로 설정하여 관리할 수 있습니다. 생성된 리포지토리는 Codebase 탭에서 확인하고 추가적인 개발을 이어갈 수 있습니다.\n\n또한 브라우저 내에서 Cloud Agents의 라이브 환경을 직접 미리 볼 수 있는 기능이 추가되어 디자인 모드 등의 도구를 즉시 활용할 수 있습니다. Vercel 계정을 연동하면 빌드한 결과물을 라이브 URL로 즉시 배포하는 것도 가능합니다.",
-    "url": "https://www.cursor.com/changelog/start-from-scratch",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.ruby-lang.org/en/news/2026/08/27/multiple-vulnerabilities-in-resolv/",
-    "title": "Security advisories: CVE-2026-80212 and CVE-2026-80213",
-    "summary": "Two vulnerabilities have been discovered in the resolv gem bundled with Ruby. They have been assigned the CVE identifiers CVE-2026-80212 and CVE-2026-80213. We recommend upgrading the resolv gem.\nCVE-",
-    "aiSummary": "Ruby 언어의 resolv gem에서 두 가지 보안 취약점인 CVE-2026-80212와 CVE-2026-80213이 발견되었습니다.\n\nCVE-2026-80212는 악의적인 DNS 응답을 통해 메모리 고갈을 유발하는 문제입니다. 공격자가 제어하는 네임 서버를 통해 라이브러리가 응답을 영구적으로 유지하게 만듦으로써 반복적인 조회 시 메모리 부족 현상을 일으키고 결과적으로 서비스 중단을 초래합니다.\n\nCVE-2026-80213은 호스트네임 검증을 우회하는 취약점입니다. 애플리케이션의 허용 목록이나 SSRF 필터를 통과한 후 실제 네트워크 연결 과정에서 검증된 도메인과 다른 도메인을 조회하게 만들어 승인되지 않은 호스트로 연결될 수 있습니다. 이 문제는 255 옥텟 이상의 긴 도메인 이름을 사용하는 경우 발생합니다.\n\n영향을 받는 버전은 resolv gem 0.4.0부터 0.7.1까지, 그리고 0.3.1 이하 버전입니다. Ruby 4.0과 3.4는 각각 0.7.0과 0.7.1 버전을, Ruby 3.3은 0.3.1 버전을 포함하고 있으므로 주의가 필요합니다. 다만 운영체제 리졸버를 사용하는 일반적인 소켓 연결인 Net::HTTP 등은 직접적으로 영향을 받지 않습니다.\n\n대응 방안으로 resolv gem을 0.7.2 버전 또는 Ruby 3.3 사용자의 경우 0.3.2 버전으로 업데이트할 것을 권장합니다. 지원이 종료된 Ruby 3.2 버전 사용자는 resolv 0.7.2를 별도로 설치하여 보안 조치를 취해야 합니다. 코드 내에서 Resolv를 직접 호출하거나 resolv-replace를 사용하는 경우, 혹은 이를 사용하는 의존성 패키지를 사용하는지 면밀히 확인해야 합니다.",
-    "url": "https://www.ruby-lang.org/en/news/2026/08/27/multiple-vulnerabilities-in-resolv/",
-    "category": "프로그래밍 언어",
-    "source": "Ruby News",
-    "author": "Ruby News",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "fetchedAt": "2026-08-27T04:33:50.777Z",
-    "tags": [
-      "Ruby"
-    ]
-  },
-  {
-    "id": "/blog/release/v26.8.1?1787782296332",
-    "title": "Node.js 26.8.1 (Current)",
-    "summary": "Antoine du Hamel2026-08-26, Version 26.8.1 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.8.1#2026-08-26-version-2681-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
-    "aiSummary": "Node.js 버전 26.8.1이 새롭게 릴리즈되었습니다. 이번 업데이트는 기존에 node --version 명령어를 실행할 때 알파 버전으로 잘못 표시되던 문제를 해결하기 위한 긴급 수정 릴리즈입니다. 해당 오류를 수정한 커밋 외에도 추가적으로 tools/nix/list-requisites.sh 파일과 관련된 소소한 도구 개선이 포함되었습니다. Windows와 macOS, Linux를 포함한 다양한 운영체제별 설치 파일 및 바이너리가 공식 배포되었으며 상세한 기술 문서는 Node.js 공식 웹사이트에서 확인할 수 있습니다.",
-    "url": "https://nodejs.org/en/blog/release/v26.8.1",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-08-26T22:11:36.000Z",
-    "fetchedAt": "2026-08-27T04:33:50.777Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
-    "title": "Global model policy generally available",
-    "summary": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of ",
-    "aiSummary": "GitHub는 Copilot Business와 Copilot Enterprise 플랜을 사용하는 고객을 대상으로 기본 모델 정책을 공식적으로 적용합니다. 이는 지난 7월 발표된 사항의 후속 조치로 오늘부터 단계적으로 정책 시행이 시작됩니다. 해당 정책을 통해 기업 사용자는 GitHub Copilot 모델 이용에 있어 보다 일관된 관리와 제어가 가능해집니다.",
-    "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-26T22:08:38.000Z",
-    "fetchedAt": "2026-08-27T04:33:50.777Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://webkit.org/?p=18194",
-    "title": "Release Notes for Safari Technology Preview 251",
-    "summary": "Safari Technology Preview Release 251 is now available for download for macOS Golden Gate and macOS Tahoe.",
-    "aiSummary": "Safari Technology Preview 251 버전이 공개되었습니다. 이번 업데이트는 macOS Golden Gate 및 macOS Tahoe 운영 체제에서 다운로드하여 사용할 수 있습니다.",
-    "url": "https://webkit.org/blog/18194/release-notes-for-safari-technology-preview-251/",
-    "category": "웹 생태계 & 브라우저",
-    "source": "WebKit Blog",
-    "author": "WebKit Blog",
-    "pubDate": "2026-08-26T21:36:31.000Z",
-    "fetchedAt": "2026-08-27T04:33:50.777Z",
-    "tags": [
-      "WebKit",
-      "Safari"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-where-binary",
-    "title": "whereBinary(): Case-Sensitive MySQL Queries in Laravel",
-    "summary": "Laravel 13.27 adds whereBinary() to the query builder for byte-exact, case-sensitive comparisons on MySQL and MariaDB without dropping into whereRaw().\nThe post whereBinary(): Case-Sensitive MySQL Que",
-    "aiSummary": "Laravel 13.27 버전이 업데이트되면서 쿼리 빌더에 whereBinary 메서드가 새롭게 추가되었습니다.\n\n이 기능을 활용하면 MySQL 및 MariaDB 환경에서 whereRaw 메서드를 직접 사용하지 않고도 바이트 단위로 일치하는 대소문자 구분 비교 쿼리를 간편하게 수행할 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-where-binary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-26T21:25:13.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
