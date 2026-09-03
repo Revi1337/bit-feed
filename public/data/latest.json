@@ -1,5 +1,138 @@
 [
   {
+    "id": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
+    "title": "Kubernetes v1.37: DRA Updates",
+    "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building towar",
+    "aiSummary": "Kubernetes 1.37 버전은 DRA(Dynamic Resource Allocation) 기능을 대폭 강화하며 관련 기술들을 안정화 단계로 격상했습니다.\n\n가장 주목할 점은 DRA Extended Resource 지원이 정식 버전인 GA로 전환된 것입니다. 이를 통해 기존의 확장 리소스 API를 사용하는 워크로드들이 별도의 디바이스 플러그인 없이도 DRA 드라이버를 통해 리소스를 할당받을 수 있게 되었으며, 클러스터 관리자는 기존 애플리케이션의 수정 없이 점진적인 DRA 도입이 가능합니다. 또한 ResourceClaim에 네트워크 인터페이스 정보가 포함되어 가시성이 향상되었으며, 노드 테인트와 톨러레이션 모델을 차용한 DRA 디바이스 테인트 기능이 정식으로 안정화되어 디바이스 유지보수가 더욱 용이해졌습니다. NUMA 노드 속성 표준화 역시 안정화되어 서로 다른 드라이버 간 리소스 비교가 규격화되었습니다.\n\n베타 단계로 격상된 주요 기능으로는 워크로드 및 PodGroup이 ResourceClaim을 직접 참조할 수 있는 기능이 있으며, KubeVirt VM 환경에서 디바이스 정보를 주입하기 위한 DRA Device Attributes Downward API가 포함되었습니다.\n\n알파 단계에서 새롭게 도입되거나 개선된 기능들은 다음과 같습니다. \n우선 CEL 표현식을 통해 서로 다른 벤더의 디바이스 속성 이름을 매칭하거나 사용자 정의 규칙으로 디바이스를 조합할 수 있는 Derived Attributes 기능이 추가되었습니다. \n또한 리소스 할당 시 스케줄러와 kubelet이 DRA 관리 리소스를 일반 리소스처럼 취급하는 노드 할당 가능 리소스 요청 기능과, 대규모 클러스터에서 스케줄링 처리량을 두 배 가까이 향상시키는 PreQueueingHint 확장 포인트가 도입되었습니다. \n이외에도 디바이스 호환성 그룹, 분수 단위 용량 지원, 리소스 가용성 가시성 개선 등 다양한 기능이 알파 또는 베타 단계로 제공되어 사용자에게 더 정교한 리소스 제어 환경을 제공합니다.",
+    "url": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-03T18:30:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=93273",
+    "title": "YOLO Mode: Agent Autonomy Without the Guardrails",
+    "summary": "YOLO mode lets an AI agent run without asking permission. Learn what it is, why it's risky, and how to run it safely.",
+    "aiSummary": "YOLO mode는 AI 에이전트가 사용자의 개별적인 승인 절차 없이 자율적으로 작업을 수행하도록 허용하는 모드입니다.\n\n이 모드는 반복적인 확인 과정을 생략하여 업무 처리 효율성을 높일 수 있다는 장점이 있지만, 시스템 제어권이 에이전트에게 온전히 넘어가는 만큼 예기치 못한 명령 실행이나 데이터 오류 등 높은 보안 위험을 동반합니다.\n\n따라서 YOLO mode를 도입할 때는 에이전트가 접근할 수 있는 권한을 최소한으로 제한하고, 실행 로그를 상시 모니터링하며, 위험한 명령어를 사전에 차단하는 등 안전한 운용 환경을 구축하는 것이 필수적입니다.",
+    "url": "https://www.docker.com/blog/what-is-yolo-mode/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Srini Sekaran",
+    "pubDate": "2026-09-03T18:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "/blog/turbopack-chunking",
+    "title": "How Turbopack chunks your JavaScript",
+    "summary": "Turbopack’s chunking speeds up page loads and enables sharing code across pages.\nWe shipped new experimental features to improve chunking in Next.js 16.3.",
+    "aiSummary": "Turbopack은 자바스크립트 코드의 청킹 기능을 최적화하여 페이지 로드 속도를 향상하고 페이지 간 코드 공유를 효율적으로 지원합니다. Next.js 16.3 버전에는 이러한 청킹 성능을 개선하기 위한 새로운 실험적 기능들이 추가되었습니다.",
+    "url": "https://nextjs.org/blog/turbopack-chunking",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Sam Poder"
+      ]
+    },
+    "pubDate": "2026-09-03T16:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/the-common-security-controls-behind-indias-regulatory-wave",
+    "title": "The common security controls behind India's regulatory wave ",
+    "summary": "India’s security and privacy rulebook has changed quickly. But beneath the new layers of requirements, a common control set is emerging: encryption, tokenization and masking, least-privilege access, a",
+    "aiSummary": "인도에서는 DPDP, SEBI CSCRF, CERT-In, RBI 등 다양한 규제 프레임워크가 빠르게 도입되면서 기업들에게 강력한 보안 준수 의무를 부과하고 있습니다. 이러한 규제들이 복잡해 보이지만, 핵심적으로 요구하는 기술적 통제 사항은 데이터 암호화, 토큰화 및 마스킹, 최소 권한 접근 제어, 감사 로그 기록 및 보관, 그리고 데이터 현지화라는 다섯 가지 공통 요소로 귀결됩니다.\n\nHashiCorp의 Vault는 이러한 보안 요구사항을 효과적으로 해결하기 위한 플랫폼으로 활용될 수 있습니다. Vault는 전송 중이거나 저장된 데이터의 암호화를 수행하고, 토큰화와 마스킹을 통해 민감 정보를 보호하며, 동적 비밀 관리와 세밀한 정책 설정을 통해 최소 권한 접근 원칙을 구현합니다. 또한 모든 상호작용을 감사 로그로 기록하여 규제기관이 요구하는 가시성을 제공하며, 하드웨어 보안 모듈과의 통합을 통해 강력한 보안 표준을 지원합니다.\n\n특히 API 키 관리와 같은 실무 환경에서 Vault는 비밀 정보를 코드에서 분리하고, 자동화된 키 교체 및 접근 제어를 수행하여 보안 사고 위험을 줄입니다. 최근 급부상하는 AI 에이전트 환경에서도 이러한 보안 통제는 필수적입니다. AI 에이전트를 인간과 동일한 독립적 식별자로 취급하고, HashiCorp의 Vault와 IBM Verify를 결합하여 에이전트의 작업 권한을 제어하며 모든 행동을 추적함으로써 기존 보안 체계를 확장할 수 있습니다.\n\n추가적으로 HashiCorp의 Boundary는 네트워크 경로에 대한 ID 기반 접근 제어를 수행하여 운영자가 비밀번호 노출 없이 인프라에 접속하도록 돕고, Consul은 서비스 메시를 통해 서비스 간 통신 시 상호 TLS 암호화를 강제합니다. 결론적으로 기업들은 개별 규제에 맞춰 대응책을 분리하기보다, 데이터의 생성부터 삭제까지 전 과정을 관리하는 공통의 보안 통제 프레임을 구축함으로써 여러 규제 요구사항을 동시에 효율적으로 해결할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/the-common-security-controls-behind-indias-regulatory-wave",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Abhijeet Lokhande",
+    "pubDate": "2026-09-03T16:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laracon-archive",
+    "title": "The Laracon Archive",
+    "summary": "The Laracon Archive - an archive of 626 talks, 287 speakers, 5 Laracons, over the entire 14 years\nThe post The Laracon Archive appeared first on Laravel News.\nJoin the Laravel Newsletter to get Larave",
+    "aiSummary": "The Laracon Archive는 지난 14년간 개최된 5번의 Laracon 컨퍼런스에서 발표된 626개의 강연과 287명 연사들의 기록을 모아놓은 아카이브입니다. Laravel 생태계의 방대한 기술적 자산을 한곳에서 확인할 수 있는 자료입니다. 상세한 내용은 Laravel News를 통해 제공됩니다.",
+    "url": "https://laravel-news.com/laracon-archive?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-09-03T15:06:21.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "summary": "Sep 03, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Our flagship AI weather forecasting model ",
+    "aiSummary": "Google DeepMind와 Google Research는 최신 AI 기상 예측 모델인 WeatherNext 3를 발표했습니다. 이 모델은 기존 모델보다 공간 해상도를 약 5배 높이고 예측 주기를 1시간 단위로 단축하여 기상 변화를 더욱 정밀하게 포착합니다. 특히 실시간 위성 데이터를 직접 학습하고 지상 관측 데이터를 통합함으로써, 물리 기반 시뮬레이션의 지연 시간 문제를 해결하고 급격한 기상 변화에 대한 대응 능력을 크게 향상했습니다.\n\nWeatherNext 3는 최대 5km의 고해상도 격자에서 기온과 습도 등을 시각화하며, 강수 예측 정확도 또한 기존 대비 최대 60%까지 개선했습니다. 또한 풍력 터빈 높이의 풍속이나 태양광 발전 효율을 위한 일사량 예측 등 청정 에너지 생산을 지원하는 특화 변수들을 포함하고 있습니다. 이러한 기술적 도약은 그동안 고성능 컴퓨팅 비용 문제로 고해상도 예측이 어려웠던 라틴 아메리카, 아프리카, 아시아 태평양 지역을 포함한 전 세계 사용자들에게 큰 혜택을 제공할 것으로 기대됩니다.\n\n해당 모델은 오늘부터 Google Search, Gemini, Google Maps, Google Maps Platform, Cloud 등 Google의 주요 서비스 전반에 통합됩니다. 이를 통해 전 세계 사용자는 향상된 기상 정보를 실시간으로 확인할 수 있으며, 개발자와 기업은 BigQuery나 Earth Engine을 통해 해당 데이터를 활용하거나 Google Cloud Storage에서 직접 다운로드할 수 있습니다.",
+    "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-09-03T15:02:08.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+    "title": "Reopening Copilot Business and Enterprise signups",
+    "summary": "We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started…\nThe post ",
+    "aiSummary": "GitHub는 그동안 중단되었던 Copilot Business와 Copilot Enterprise의 신규 가입 절차를 다시 진행합니다. 신용카드나 PayPal을 통해 결제하는 고객을 대상으로 향후 몇 주에 걸쳐 점진적으로 가입 허용 범위를 확대할 예정입니다. 그동안 서비스 이용을 대기하던 고객들은 곧 순차적으로 가입이 가능해질 전망입니다.",
+    "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-03T14:40:43.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
+    "title": "CodeQL 2.26.4 improves GitHub actions security detections",
+    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,…\nThe p",
+    "aiSummary": "GitHub에서 정적 분석 엔진인 CodeQL의 최신 버전인 2.26.4를 새롭게 출시했습니다. 이번 업데이트를 통해 Go 1.27 버전에 대한 지원이 추가되었습니다. 또한 GitHub Actions와 관련된 보안 탐지 기능을 강화하여 코드 스캔 과정에서 발생할 수 있는 보안 취약점을 더욱 효과적으로 찾아내고 수정할 수 있도록 개선되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-03T14:04:59.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=kotlin&p=736282",
     "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
     "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, an",
@@ -32,6 +165,38 @@
     ]
   },
   {
+    "id": "https://cloud.google.com/blog/products/compute/google-named-a-leader-in-2026-gartner-magic-quadrant-for-scps/",
+    "title": "Google named a Leader in 2026 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services",
+    "summary": "For the ninth consecutive year, Gartner® has named Google a Leader in the Gartner Magic Quadrant™ for Strategic Cloud Platform Services, positioned furthest for Completeness of Vision. \n\n\n\n\n\n\n\n\n  \n   ",
+    "aiSummary": "Google Cloud가 2026 Gartner Magic Quadrant for Strategic Cloud Platform Services 부문에서 9년 연속 리더로 선정되었습니다. 이번 평가에서 Google Cloud는 비전 완성도 측면에서 가장 높은 평가를 받았으며, 급변하는 에이전트 시대를 맞아 기업의 인프라와 데이터를 효율적으로 연결하는 핵심 플랫폼으로 인정받았습니다.\n\nGoogle Cloud가 강조하는 성공 요인은 크게 세 가지입니다. 첫째는 하드웨어와 소프트웨어가 통합된 AI 기술 스택입니다. 자체 실리콘인 TPU와 Google Axion 프로세서부터 Gemini 모델, GKE에 이르기까지 수직적으로 통합된 설계를 제공하면서도 특정 벤더에 종속되지 않는 오픈 소스 환경을 지향합니다. 이를 통해 기업들은 성능과 비용 효율성을 동시에 확보한 AI Hypercomputer 환경을 구축할 수 있습니다.\n\n둘째는 확장성과 경제성을 갖춘 동적 인프라입니다. Google Cloud는 GKE를 활용해 기업의 레거시 시스템을 현대화하고, 다양한 연산 리소스 조합을 통해 워크로드에 최적화된 환경을 제공합니다. 특히 Dynamic Workload Scheduler와 같은 도구로 리소스 활용도를 극대화하고 운영 효율을 높여, 폭발적으로 증가하는 AI 수요에 유연하게 대응합니다.\n\n셋째는 강력한 디지털 주권 보장입니다. 기업이 클라우드 기능을 활용하면서도 데이터의 위치와 통제권을 온전히 가질 수 있도록 지원합니다. Google Cloud Data Boundary를 통해 데이터 처리에 대한 엄격한 지리적 통제를 가능하게 하며, 현지 파트너와의 협력을 통한 로컬 규제 준수, 그리고 인터넷 연결 없이 운영되는 GDC의 에어갭 모드 등을 통해 높은 보안 수준을 요구하는 정부나 국방, 규제 산업군에 맞춤형 솔루션을 제공합니다.\n\nGoogle Cloud는 이러한 전략을 바탕으로 고객이 복잡한 규제 환경이나 대규모 인프라 운영 속에서도 AI 에이전트를 성공적으로 도입하고 확장할 수 있도록 돕고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/compute/google-named-a-leader-in-2026-gartner-magic-quadrant-for-scps/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Brad Calder"
+      ],
+      "title": [
+        "VP & GM, Google Cloud Platform"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-03T07:30:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.25",
     "title": "1.1.25",
     "summary": "Added an opt-in workspace-grouped view to the /resume conversation picker, allowing users to toggle between a flat list and conversations grouped by directory with Ctrl+F.\nAdded Gemini 3.8 Flash to th",
@@ -46,6 +211,100 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
+    "title": "Announcing Rust 1.98.1",
+    "summary": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of ",
+    "aiSummary": "Rust 팀이 최신 포인트 릴리스인 Rust 1.98.1을 발표했습니다. rustup을 사용하는 기존 사용자는 rustup update stable 명령어를 통해 간단하게 업데이트할 수 있습니다.\n\n이번 1.98.1 버전은 Rust 1.98.0에서 발견된 vtable 생성 시의 컴파일 오류를 수정했습니다. 이전 버전에서는 특정 상황에서 rustc가 함수 포인터가 위치해야 할 자리에 null 포인터를 포함한 트레이트 객체 vtable을 잘못 생성하는 문제가 있었습니다. 이는 정의되지 않은 동작을 유발하여 세그멘테이션 오류나 예기치 않은 시스템 영향을 줄 수 있는 위험이 있어 이를 해결하는 데 초점을 맞췄습니다.\n\n향후 출시될 버전을 미리 테스트하고자 하는 사용자는 beta 또는 nightly 채널을 사용하여 버그를 제보함으로써 개발 과정에 참여할 수 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rust Release Team",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://astro.build/blog/astro-730/",
+    "title": "Astro 7.3",
+    "summary": "Astro 7.3 adds an --ignore-lock flag for astro preview, passes Astro's runtime logger into custom image services and cache providers, and ships a finalize() helper for Cloudflare custom worker entrypo",
+    "aiSummary": "Astro 7.3 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 astro preview 실행 시 특정 설정을 무시할 수 있는 --ignore-lock 플래그가 추가되었습니다.\n\n또한 Astro의 런타임 로거를 커스텀 이미지 서비스 및 캐시 제공자에 전달할 수 있도록 개선되었습니다. 더불어 Cloudflare 커스텀 워커 엔트리포인트를 위한 finalize() 헬퍼 기능이 새롭게 포함되었습니다.",
+    "url": "https://astro.build/blog/astro-730/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/security-attack-hiding-in-observability-data",
+    "title": "The security attack that hid inside your observability data",
+    "summary": "Your ops team sees a CPU spike. Your security team sees nothing. The cryptominer runs for six hours. Avoid duplication of cost and time and see how a unified observability and security platform with g",
+    "aiSummary": "운영팀에서 CPU 급증 현상을 감지하더라도 보안팀은 이를 식별하지 못해 암호화폐 채굴 악성코드가 수 시간 동안 방치되는 보안 공백 사례가 발생하고 있습니다.\n\n이러한 문제는 운영과 보안 데이터가 분절되어 발생하는 비효율적인 대응에서 비롯됩니다. 이를 해결하기 위해 운영과 보안을 단일 플랫폼으로 통합하고 Grounded AI 기술을 도입함으로써 데이터 가시성을 확보해야 합니다.\n\n통합 플랫폼은 중복된 비용과 시간 낭비를 방지하고 실시간 모니터링 체계를 구축하여 잠재적인 위협을 효과적으로 차단합니다.",
+    "url": "https://www.elastic.co/blog/security-attack-hiding-in-observability-data",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Roberto Arico",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-5-3-released",
+    "title": "Elastic Stack 9.5.3 released ",
+    "summary": "Version 9.5.3 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.3 over the previous versions 9.5.2\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.5.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.2에서 발견된 여러 문제를 해결하고 성능을 개선한 것으로, 기존 사용자들은 최신 버전인 9.5.3으로 업그레이드할 것을 권장합니다. 각 제품별로 수정된 문제점이나 변경 사항에 대한 구체적인 내용은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-5-3-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Vincent Deuschle",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/",
+    "title": "Announcing the Google Gen AI SDK for Kotlin 1.0: Idiomatic multiplatform access to Gemini",
+    "summary": "Integrating modern generative AI capabilities into Kotlin applications shouldn't require juggling raw HTTP clients or bridging disparate Java libraries. Today, we're excited to announce the 1.0 releas",
+    "aiSummary": "Google이 Kotlin 생태계에서 Gemini 모델을 손쉽게 활용할 수 있도록 지원하는 Google Gen AI SDK for Kotlin 1.0 버전을 출시하였습니다. 이 SDK는 KMP 기반으로 설계되어 JVM과 Android 환경 모두에서 일관된 개발 경험을 제공하며, Coroutines와 Flow 등 Kotlin 고유의 비동기 프로그래밍 방식을 완벽하게 지원합니다.\n\n핵심 기능으로는 단일 텍스트 생성부터 실시간 스트리밍 응답, 다중 턴 대화 관리가 포함됩니다. 특히 대화형 챗봇 구축 시 맥락 유지와 함수 호출 기능을 자동으로 처리하는 편의성을 제공합니다.\n\n또한 Google Search 기반의 Grounding 기능을 통해 멀티모달 데이터의 사실 관계를 검증할 수 있으며, Gemini 3 이미지 모델을 활용한 이미지 생성 및 편집 기능도 지원합니다. 실시간 양방향 상호작용이 필요한 경우에는 Gemini Live API를 통해 WebSocket 기반의 통신을 수행할 수 있습니다.\n\n개발자는 Maven Central을 통해 라이브러리를 추가할 수 있으며, GitHub의 공식 저장소를 통해 코드 예제와 상세 문서를 확인하여 서비스에 바로 적용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Guillaume Laforge"
+      ],
+      "title": [
+        "Developer Advocate"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-03T18:47:06.128Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -1576,233 +1835,6 @@
     "fetchedAt": "2026-08-29T13:12:56.573Z",
     "tags": [
       "PHP"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-    "title": "Kubernetes v1.37: Metrics API graduates to stable",
-    "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable (v1). This\nAPI provides CPU and memory usage for nodes and Pods, and is the API behind\ncommands such as kubectl top and resource-metrics-base",
-    "aiSummary": "Kubernetes v1.37 버전에서 metrics.k8s.io API가 v1 버전으로 정식 승격되었습니다. 이 API는 노드와 Pod의 CPU 및 메모리 사용량을 제공하며 kubectl top 명령어와 리소스 메트릭 기반의 자동 확장을 지원하는 핵심 기능입니다.\n\n이번 v1 승격은 API 버전 명칭의 변경일 뿐, 기존 v1beta1과 비교하여 리소스 타입이나 필드 구성, 수집 데이터 값 등 기능적인 측면에서의 변화는 없습니다. 수년간 프로덕션 환경에서 검증된 API를 안정적으로 제공하기 위한 조치입니다.\n\n사용자는 별도의 기능 게이트를 활성화할 필요가 없으며, 사용 중인 메트릭 구현체(metrics-server 등)가 v1.metrics.k8s.io API를 제공하고 관련 APIService를 등록하도록 구성하면 됩니다.\n\n하위 호환성을 위해 v1beta1도 여전히 사용 가능합니다. kubectl top 명령어는 v1 버전을 우선 사용하되 지원하지 않는 환경에서는 자동으로 v1beta1로 전환하며, HPA 컨트롤러는 향후 업데이트를 통해 v1 지원을 확대할 예정입니다. 운영자는 클러스터가 제공하는 API 버전을 확인하여 점진적으로 v1 환경으로 전환할 수 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-08-27T18:30:00.000Z",
-    "fetchedAt": "2026-08-28T06:57:48.827Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
-    "title": "Close all open contributions authored by a blocked user",
-    "summary": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,…\nThe post Close a",
-    "aiSummary": "GitHub는 개인 계정이나 조직에서 특정 사용자를 차단할 때 해당 사용자가 작성한 모든 열려 있는 issue, discussion, pull request를 자동으로 닫을 수 있는 기능을 새롭게 도입했습니다.\n\n사용자는 차단 과정에서 제공되는 옵션을 선택하여 해당 사용자의 기여 내역을 일괄적으로 정리할 수 있습니다. 이를 통해 차단된 사용자와 관련된 오픈 프로젝트 항목들을 효율적으로 관리하고 원치 않는 상호작용을 즉각적으로 차단할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-27T16:30:52.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-    "title": "Gemini Omni 1.1 Flash lets you build with more control",
-    "summary": "Aug 27, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Omni now delivers studio-quality video pro",
-    "aiSummary": "Google DeepMind는 개발자들을 위한 새로운 생성형 비디오 기능이 포함된 Gemini Omni 1.1 Flash를 공개하였습니다. 이번 업데이트는 Gemini API와 Google AI Studio를 통해 전문적인 영상 제작 및 미디어 편집 환경에 최적화된 도구들을 제공합니다.\n\n주요 기능인 Scene extension은 이전보다 향상된 10초 분량의 문맥 분석을 통해 자연스러운 영상 연결을 지원하며, 최대 40초까지 끊김 없는 스토리텔링을 가능하게 합니다. 또한, 사용자가 영상의 시작 프레임과 종료 프레임을 직접 지정하여 카메라 워크나 장면 전환을 정밀하게 제어할 수 있는 기능이 추가되었습니다.\n\n개발 효율성을 위한 개선 사항으로는 360p 해상도에서의 빠른 프로토타이핑 기능이 있습니다. 이는 기존 720p 대비 생성 속도를 최대 60% 향상하고 비용을 절감하여 작업 반복 속도를 높여줍니다. 최종 결과물은 1080p 또는 4K 고해상도 업스케일링을 통해 전문적인 영상 품질을 확보할 수 있습니다.\n\n입력 측면에서는 최대 3초 분량의 비디오 레퍼런스를 활용할 수 있어, 캐릭터의 일관성을 유지하거나 특정 동작을 참조하여 영상 콘텐츠를 제작하는 것이 한층 수월해졌습니다. 이러한 기능들은 사용자가 생성형 비디오 워크플로우를 더욱 효과적으로 통제하고 실제 상용 서비스에 즉시 배포할 수 있도록 돕습니다.",
-    "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-08-27T16:11:32.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
-    "title": "Reimagining work: How Pythian’s internal AI playbook delivers customer ROI",
-    "summary": "When Pythian rolled out Google Cloud’s Gemini Enterprise across our 500-person company in 27 countries, the goal was simple: use our own company as a proving ground to discover how enterprise AI actua",
-    "aiSummary": "Pythian은 전 세계 500명의 임직원을 대상으로 Google Cloud의 Gemini Enterprise를 도입하여 기업형 AI가 어떻게 실질적인 투자 대비 효율을 창출하는지 검증했습니다. 기존 기업들이 단순히 도구를 배포하고 사소한 효율성에만 집중하다가 프로젝트가 실패하는 문제점을 발견하고, 이를 해결하기 위해 전략부터 운영까지 포괄하는 Pythian AI Operating Model을 구축했습니다.\n\n해당 모델은 Field CTO 전략, 도구 플랫폼 배포, 이중 COE 실행, 그리고 XOps라는 4가지 핵심 축으로 구성됩니다. Field CTO는 기술 리더십을 통해 고수익 창출이 가능한 16개의 에이전트 패턴을 우선순위화하며, 도구 배포 단계에서는 CRM이나 ERP와 모델을 연동하여 기업 내부 데이터 환경에 최적화합니다.\n\n실행 조직인 이중 COE는 인적 생산성 향상을 위한 노코드 에이전트 전담팀과 공정 생산성을 위한 커스텀 AI 에이전트 개발팀으로 나뉩니다. 또한 AI 도입의 80%를 차지하는 유지보수를 위해 XOps를 도입하여 모델의 정확도와 데이터 드리프트를 지속적으로 모니터링합니다.\n\n이러한 체계적인 접근을 통해 Pythian은 데이터베이스 사고 대응 시간을 80% 단축하고 사용자 참여도를 3배 높이는 성과를 거두었습니다. 이외에도 IT 지원 자동화를 통해 연간 100만 시간 이상의 운영 시간을 절감하거나, 공급망 예측 주기를 수주 단위에서 수일 단위로 단축하는 등 구조적인 워크플로우 혁신을 실현하고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Paul Lewis"
-      ],
-      "title": [
-        "Field CTO, Pythian"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-27T16:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
-    "title": "Deploy personal AI agents with Cloud Run instances",
-    "summary": "Need a low-cost, high-performance way to run long-lived, stateful workloads such as AI agents? Today, we introduced Cloud Run instances, which let you do just that.  \nConsider AI agents such as OpenCl",
-    "aiSummary": "Google Cloud는 AI 에이전트와 같이 장기 실행이 필요하고 상태를 유지해야 하는 워크로드를 저비용 고성능으로 운영할 수 있는 Cloud Run instances를 발표했습니다. 기존의 Cloud Run services는 요청이 없을 때 0으로 스케일링되는 구조여서 지속적인 실행이 필요한 개인용 AI 에이전트 운용에는 적합하지 않았으며, 전용 VM을 사용하는 방식은 관리 부담과 비용 측면에서 비효율적이었습니다.\n\nCloud Run instances는 이러한 문제를 해결하기 위해 오토스케일링 없이 단일 인스턴스만 실행하며, 최대 7일간의 연속 실행과 자동 재시작 정책을 지원합니다. 모든 인스턴스에는 업데이트나 재시작 시에도 변하지 않는 HTTPS URL이 할당되며, 사용하지 않을 때는 인스턴스를 중지했다가 필요할 때 다시 시작할 수 있습니다. 1 vCPU와 1 GiB 메모리 기준으로 30일간 연속 실행 시 약 5.70달러의 저렴한 비용으로 운영이 가능합니다.\n\n이 서비스는 OpenClaw와 같은 개인용 AI 에이전트를 상시 구동하는 데 최적화되어 있으며, 복잡한 인프라 설정 없이 명령 한 번으로 배포할 수 있습니다. 이미 OffDeal과 같은 기업이 이를 활용해 콜드 스타트를 88퍼센트 줄이는 등 가시적인 성과를 거두고 있습니다. 현재 프리뷰 버전으로 제공 중이며, 향후 Cloud Run instances와 Cloud Run services 모두에 대해 SSH 접속 기능을 추가할 예정입니다.",
-    "url": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Ryan Pei"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-27T16:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
-    "title": "Stream HCP Vault Dedicated audit logs to Microsoft Sentinel",
-    "summary": "HashiCorp Vault sits at the center of your organization's secrets, which makes its audit log some of the most valuable security telemetry you have. With a small set of documented exceptions, Vault aud",
-    "aiSummary": "HCP Vault Dedicated 환경에서는 네이티브 Microsoft Sentinel 커넥터를 제공하지 않지만, 범용 HTTP Sink와 Terraform을 활용하여 감사 로그를 Microsoft Sentinel로 전송하는 통합 파이프라인을 구축할 수 있습니다. 이를 통해 보안 분석가는 복잡한 원본 JSON을 직접 파싱할 필요 없이 정규화된 필드 기반으로 쿼리하고, 다른 보안 텔레메트리와 상관 분석을 수행하여 위협 탐지 및 대응 능력을 향상할 수 있습니다.\n\n해당 통합 아키텍처는 HCP Vault Dedicated에서 발생한 감사 이벤트를 HTTPS를 통해 Azure 측 엔드포인트로 전송하는 방식으로 동작합니다. 데이터 흐름은 HCP Vault Dedicated에서 시작하여 Azure Function App 또는 Azure Logic Apps로 전달된 후, Azure Monitor Logs Ingestion API를 거쳐 Log Analytics의 사용자 정의 테이블인 HCPVaultAudit_CL에 저장되며, 최종적으로 Microsoft Sentinel에서 활용됩니다.\n\n제공되는 Terraform 저장소는 리소스 그룹, Log Analytics 작업 공간, 데이터 수집 규칙, 그리고 관리 ID가 적용된 수집 엔드포인트 등을 자동으로 배포하여 구축 과정의 오류를 최소화합니다. 사용자는 사전 구성 스크립트를 통해 환경을 설정하고 Terraform 명령어로 인프라를 배포한 뒤, 마지막으로 HCP 포털에서 해당 엔드포인트 URL을 Generic HTTP Sink로 등록하여 연동을 완료합니다.\n\n본 통합 모델은 관리형 인프라 구조를 유지하여 별도의 로그 포워더나 집계 계층을 유지 보수할 필요가 없다는 장점이 있습니다. 다만 원활한 운영을 위해서는 HCP Vault Dedicated 클러스터에서 Azure 엔드포인트로의 네트워크 경로가 사전에 확보되어야 하며, 보안을 위해 토큰 및 인증 정보를 안전하게 관리해야 합니다. 또한, 배포 시 선택하는 엔드포인트 유형에 따라 Function App은 배치 처리 방식의 성능 이점이 있고, Logic App은 리소스 할당량 제한 상황에서의 유연한 대안이 됩니다.",
-    "url": "https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Abhijeet Lokhande",
-    "pubDate": "2026-08-27T16:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-    "title": "Gemini Omni 1.1 Flash lets you build with more control",
-    "summary": "Gemini Omni 1.1 Flash brings a new suite of creative controls and generative video capabilities to developers.",
-    "aiSummary": "Google의 Gemini Omni 1.1 Flash 모델이 새롭게 공개되었습니다. 이번 업데이트를 통해 개발자들은 더욱 정교한 창의적 제어 기능을 활용할 수 있게 되었습니다. 또한 생성형 비디오 기능을 포함한 다양한 성능 개선이 이루어져 개발 환경의 효율성이 향상될 것으로 기대됩니다.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Anish Nangia"
-      ],
-      "title": [
-        "Product Manager, Google DeepMind"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-08-27T16:00:00.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-08-27-2",
-    "title": "PHP 8.4.25 Released!",
-    "summary": "The PHP development team announces the immediate availability of PHP 8.4.25. This is a bug fix release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.25 ",
-    "aiSummary": "PHP 개발팀이 버그 수정 버전인 PHP 8.4.25를 정식으로 배포했습니다. \n\n기존 PHP 8.4 사용자들은 안정적인 서비스를 위해 최신 버전으로 업데이트할 것을 권장합니다. 소스 코드와 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며, 상세한 변경 사항은 ChangeLog를 통해 확인 가능합니다.",
-    "url": "https://www.php.net/index.php#2026-08-27-2",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-08-27T14:59:19.000Z",
-    "fetchedAt": "2026-08-29T13:12:56.573Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=52515",
-    "title": "Benchmarking vector indexes",
-    "summary": "Nearly every database has vector search now, and every one of them has a blog post with a big number in it. Almost none of those numbers can be checked, because the thing that makes them meaningful is",
-    "aiSummary": "최근 대부분의 데이터베이스가 벡터 검색 기능을 탑재하면서 각 사마다 우수한 성능을 입증하는 수치를 내세우고 있습니다. 하지만 이러한 수치들은 측정 기준과 환경이 누락되어 있어 실제 성능을 객관적으로 검증하기 어려운 경우가 많습니다.\n\n이러한 문제를 해결하기 위해 Percona는 사용자가 직접 원하는 검색 엔진을 선택하고 검증할 수 있는 오픈소스 도구인 vector-bench를 개발했습니다. 이는 모호한 성능 지표를 걷어내고 데이터베이스 엔진별 실질적인 벡터 검색 성능을 명확하게 비교할 수 있는 환경을 제공합니다.",
-    "url": "https://www.percona.com/blog/benchmarking-vector-indexes/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Evgeniy Patlan",
-    "pubDate": "2026-08-27T13:35:32.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-    "title": "Piloting the world's first double-blind AI evaluations",
-    "summary": "Piloting the world's first double-blind AI evaluations",
-    "aiSummary": "AI 모델의 성능을 객관적으로 측정하기 위한 세계 최초의 이중맹검 평가 시스템이 도입됩니다. 이 방식은 평가자와 개발자 모두가 어떤 모델이 테스트 중인지 알 수 없도록 설계하여 인적 편향을 제거하고 데이터의 신뢰성을 확보하는 것을 목표로 합니다. AI 모델 평가의 투명성과 공정성을 높이기 위해 도입된 이번 시도는 향후 다양한 모델 간의 성능 비교를 더욱 엄격하고 과학적으로 진행하는 기준이 될 것으로 전망됩니다.",
-    "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-08-27T12:59:16.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.0.0",
-    "title": "v12.0.0",
-    "summary": "NestJS v12.0.0\nNestJS 12 is centered around ESM-ready packages, first-class Standard Schema support for validation and serialization, a rebuilt CLI, and native observability through the new @nestjs/ob",
-    "aiSummary": "NestJS v12.0.0은 ESM 중심의 패키지 전환과 Standard Schema에 대한 완벽한 지원을 핵심으로 하며, 재설계된 CLI와 네이티브 관측 가능성 기능을 제공합니다. 기존 CommonJS 애플리케이션은 별도의 수정 없이도 계속 운영할 수 있으며, 마이그레이션은 선택 사항입니다.\n\n주요 변경 사항 및 기능은 다음과 같습니다.\n\nESM 전환 및 요구 사항\n모든 핵심 NestJS 패키지가 ESM으로 제공됩니다. Node.js v20.19 이상 또는 v22.12 이상 환경이 필수적으로 요구되며, NestJS는 최신 Node.js의 require(esm) 기능을 통해 기존 환경과의 호환성을 유지합니다.\n\nStandard Schema 지원\n유효성 검사 및 직렬화를 위해 Zod, Valibot, ArkType 등과 같은 Standard Schema 호환 라이브러리를 직접 사용할 수 있습니다. 경로 매개변수 데코레이터와 StandardSchemaValidationPipe 및 StandardSchemaSerializerInterceptor를 통해 간편하게 검증 및 변환을 수행할 수 있습니다. 기존의 class-validator 방식도 계속 지원됩니다.\n\n네이티브 관측 가능성 (@nestjs/observe)\n별도의 APM 에이전트 없이 애플리케이션 생명주기에 통합되는 @nestjs/observe SDK가 추가되었습니다. HTTP, GraphQL, gRPC 등 다양한 트랜스포트를 자동으로 계측하여 컨트롤러 및 프로바이더 단위의 상세한 메트릭과 에러 추적을 제공합니다.\n\nCLI 및 빌드 도구 고도화\nCLI는 ESM으로 재구축되었으며 Vitest를 테스트 환경으로 도입했습니다. 새로운 nest upgrade 명령어를 통해 v11에서 v12로의 자동 마이그레이션을 지원합니다. 또한 Rspack이 모노레포의 새로운 기본 번들러로 채택되었으며, 기존 Webpack 관련 설정은 단계적으로 폐기됩니다. 프로젝트 생성 시 ESLint 대신 oxlint가 기본 린터로 제공됩니다.\n\n추가 개선 사항\n경로 충돌 진단 기능이 강화되어 명시적인 설정으로 중복 및 경로 모호성 문제를 감지할 수 있습니다. 에러 처리를 위해 머신 리딩이 가능한 에러 코드 체계가 도입되었으며, ConsoleLogger는 객체 데이터를 구조화된 로그 파라미터로 기본 처리합니다. 이외에도 Kafka 패턴의 정규식 지원, gRPC 예외 필터 개선, WebSocket 연결 종료 사유 핸들링 등 다양한 기능이 보강되었습니다.\n\n업그레이드 시 주의사항\n@nestjs/cli를 최신 버전으로 업데이트한 후 nest upgrade 명령어를 실행하는 것을 권장합니다. NATS v3 전환, GraphQL 구독 라이브러리 변경(subscriptions-transport-ws에서 graphql-ws로), 생명주기 훅 호출 방식 변경 등 일부 파괴적인 변경 사항이 포함되어 있으므로 마이그레이션 가이드를 참고하여 프로젝트 설정을 검토해야 합니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.0.0",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-08-27T12:23:49.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
     ]
   }
 ]
