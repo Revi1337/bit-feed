@@ -1,5 +1,70 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=736282",
+    "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+    "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, an",
+    "aiSummary": "Kotlin Toolchain 0.12.0 버전이 공식 출시되었습니다. 이번 업데이트는 멀티플랫폼 라이브러리 배포 기능을 지원하며 Wasm 애플리케이션 개발을 위한 프리뷰 기능을 포함하고 있습니다. 또한 커맨드 라인 환경에서 Compose Hot Reload를 활용할 수 있게 되어 개발 편의성이 대폭 향상되었습니다. 주요 변경 사항과 버그 수정에 대한 자세한 정보는 공식 릴리스 노트를 통해 확인할 수 있으며 klibs.io 서비스도 해당 Toolchain을 도입하였습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Joffrey Bion",
+    "pubDate": "2026-09-03T10:40:05.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=736282",
+    "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+    "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, an",
+    "aiSummary": "Kotlin Toolchain 0.12.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 멀티플랫폼 라이브러리 배포 기능의 추가와 Wasm 애플리케이션 지원에 대한 프리뷰 제공입니다.\n\n또한 명령줄 인터페이스를 통한 Compose Hot Reload 기능을 지원하여 개발 생산성을 높였습니다. 이외에도 다양한 버그 수정과 개선 사항이 포함되었으며 상세한 변경 내용은 공식 릴리스 노트를 통해 확인할 수 있습니다. 새롭게 개편된 klibs.io 웹사이트에서도 해당 Kotlin Toolchain을 활용합니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Joffrey Bion",
+    "pubDate": "2026-09-03T10:40:05.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.25",
+    "title": "1.1.25",
+    "summary": "Added an opt-in workspace-grouped view to the /resume conversation picker, allowing users to toggle between a flat list and conversations grouped by directory with Ctrl+F.\nAdded Gemini 3.8 Flash to th",
+    "aiSummary": "/resume 대화 선택기에 작업 공간별 그룹화 기능을 추가하여 Ctrl+F 키로 평면 목록과 디렉토리별 그룹 보기를 전환할 수 있게 되었습니다. GEMINI_API_KEY 사용 시 모델 카탈로그에서 Gemini 3.8 Flash를 선택할 수 있습니다. Markdown으로 정의된 커스텀 에이전트가 기본 에이전트의 구성과 동일하게 주변 기술과 규칙, 하위 에이전트를 기본적으로 상속하도록 변경되었습니다.\n\nMCP OAuth 인증 과정에서 1024자를 초과하는 인증 코드가 반환될 때 발생하던 오류를 수정하였습니다. Windows 환경의 /skills 패널에서 경로 구분자 문제로 인해 전역 및 작업 공간 기술이 잘못 분류되던 현상을 해결하였습니다. Markdown 기반 커스텀 에이전트 내 상대 경로 해석 방식을 개선하여 하위 에이전트와 플러그인 경로가 정확하게 지정되도록 수정되었습니다.\n\n세션 재시작 및 하위 에이전트 호출 시 설정에 권한 부여 항목이 중복으로 누적되던 문제를 해결하였습니다. 작업자 도구 구성을 최적화하여 /boost 실행 오류를 수정하였고, 에이전트 런타임에서 궤적 종료 후 캐시된 단계를 읽으려 할 때 발생하던 널 포인터 충돌 문제를 해결하였습니다. 또한 Remote Control의 역방향 터널 라우팅 기능을 강화하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.25",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-03T02:30:24.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=736394",
+    "title": "Register Now for JetBrains GameDev Day 2026",
+    "summary": "Every game starts with an idea. Getting it into production means navigating code, tools, pipelines, performance bottlenecks, architectural trade-offs, and all the small decisions that only reveal thei",
+    "aiSummary": "JetBrains가 오는 9월 28일에 게임 개발자를 위한 행사인 JetBrains GameDev Day 2026을 개최합니다. 이번 행사는 게임 엔진, 툴 개발, 성능 최적화, 아키텍처 설계 등 게임 개발 과정에서 마주하는 실무적인 문제와 해결책을 다루는 강연들로 구성됩니다. 게임 개발 현업 종사자들이라면 누구나 참여할 수 있으며 프로젝트 규모 확장에 따른 기술적 도전 과제와 실질적인 경험을 공유하는 자리가 될 예정입니다. 현재 JetBrains 공식 웹사이트를 통해 참가 등록이 가능합니다.",
+    "url": "https://blog.jetbrains.com/dotnet/2026/09/03/register-now-for-jetbrains-gamedev-day-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Anna Ruban",
+    "pubDate": "2026-09-02T23:00:00.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
     "title": "Enterprise-managed settings support any default model",
     "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.…\nThe",
@@ -289,6 +354,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-02-1",
+    "title": "API Platform Conference 2026 - Lille (France) & Online",
+    "summary": "API Platform Conference will return on September 17th and 18th, 2026, both in Lille (France) and online.\n\n\n    With nearly 30 talks delivered in both English and French, the conference is a must-atten",
+    "aiSummary": "API Platform Conference 2026이 2026년 9월 17일부터 18일까지 프랑스 Lille와 온라인에서 동시에 개최됩니다.\n\n이번 컨퍼런스에서는 영어와 프랑스어로 약 30개의 발표가 진행될 예정입니다. 혁신적인 기업, 프로젝트 리더, 그리고 숙련된 개발자를 대상으로 하며 API 기술을 전문으로 다루는 개발자나 CTO 및 의사결정권자에게 적합한 행사입니다. 자세한 정보는 공식 홈페이지인 api-platform.com/con/2026에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-09-02-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-02T06:18:52.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -1723,87 +1803,6 @@
       "NestJS",
       "Node.js",
       "TS"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=clion&p=734488",
-    "title": "The CLion Roadmap: What’s Coming Between Now and Late 2026",
-    "summary": "This blog post covers the updates we plan to introduce over the next four months in the upcoming minor releases (2026.2.x) and the next stable release (2026.3). After reviewing your feedback and our s",
-    "aiSummary": "JetBrains는 2026년 하반기까지 적용될 CLion의 주요 개발 로드맵을 공개했습니다. 이번 계획은 향후 4개월간의 마이너 업데이트인 2026.2.x 버전과 차기 안정화 버전인 2026.3을 중심으로 진행됩니다.\n\n핵심 개발 방향은 크게 세 가지 분야에 집중됩니다. 우선 사용자의 생산성을 높이기 위해 AI를 활용한 Agentic workflow를 개선할 예정입니다. 또한 Embedded development를 위한 지원을 강화하고, 디버깅 과정의 효율성을 높이기 위한 디버거 성능 개선 작업이 포함됩니다. \n\n이번 로드맵은 그간 수렴된 사용자 피드백과 회사의 전략적 목표를 결합하여 설정되었습니다. 개발팀은 이를 통해 더욱 강력하고 편리한 통합 개발 환경을 제공하는 데 주력할 예정입니다.",
-    "url": "https://blog.jetbrains.com/clion/2026/08/roadmap/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Oleg Zinovyev",
-    "pubDate": "2026-08-27T11:49:51.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-08-27-1",
-    "title": "PHP 8.6.0 Beta 2 available for testing",
-    "summary": "The PHP team is pleased to announce a new beta release of PHP 8.6.0, Beta 2. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source downloads of ",
-    "aiSummary": "PHP 개발 팀이 PHP 8.6.0의 두 번째 베타 버전인 Beta 2를 출시했습니다. 이번 릴리스는 PHP 8.6 정식 버전을 향한 개발 과정의 일부이며 PHP Wiki를 통해 전체적인 개발 일정을 확인할 수 있습니다.\n\n소스 코드는 공식 다운로드 페이지에서 내려받을 수 있으며 발견된 문제는 GitHub를 통해 보고할 수 있습니다. 다만 이번 버전은 초기 테스트를 위한 릴리스이므로 실제 운영 환경에서는 사용하지 말 것을 권장합니다.\n\n상세한 변경 사항과 새로운 기능에 대한 정보는 NEWS 및 UPGRADING 파일을 참조해야 합니다. 다음 버전인 Beta 3는 2026년 9월 10일에 출시될 예정입니다.",
-    "url": "https://www.php.net/index.php#2026-08-27-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-08-27T10:55:50.000Z",
-    "fetchedAt": "2026-08-29T13:12:56.573Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.0.1",
-    "title": "v12.0.1",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "GitHub의 v12.0.1 버전이 업데이트되었습니다. 해당 업데이트는 플랫폼의 안정성 개선과 버그 수정 등을 포함하고 있으며 GitHub 서비스를 이용하는 개발자들에게 더욱 원활한 운영 환경을 제공합니다. 자세한 변경 사항이나 기술적 세부 정보는 GitHub 공식 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.0.1",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-08-27T07:26:56.000Z",
-    "fetchedAt": "2026-08-27T18:20:02.697Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.1.22",
-    "title": "1.1.22",
-    "summary": "Added a /model  argument that switches to a model by name, slug or label and saves it as your default in one step, with the rest of the first matching name offered as ghost text while you type; /model",
-    "aiSummary": "이번 업데이트를 통해 /model 명령어를 입력할 때 이름이나 슬러그, 라벨을 사용하여 모델을 즉시 전환하고 기본값으로 저장할 수 있게 되었습니다. 입력 시 자동 완성 기능을 지원하며 명령어를 단독으로 사용할 경우 모델 선택기가 열립니다. /effort 힌트 기능은 고정된 선택지 대신 사용자가 직접 입력한 내용을 기반으로 완성하도록 개선되었습니다.\n\n대량의 파일을 생성하는 대화에서 파일 시스템 이벤트를 하나로 묶어 처리함으로써 아티팩트 관리 효율성을 높였습니다. 또한 Gemini 3.1 Pro와 Gemini 3.5 Flash 모델 사용 시 Gemini API 키 인증을 통한 추론 강도 선택 오류를 수정하였습니다.\n\n성능 및 안정성 측면에서는 작업 패널이 열려 있을 때 발생하는 CPU 점유율 과다 문제를 해결하여 리소스 사용량을 대폭 최적화하였습니다. 서브 에이전트의 타이머가 멈추는 현상이나 부모 에이전트와의 설정 불일치 문제를 해결하였고 HTTP 502 오류 발생 시 즉시 종료되지 않고 재시도하도록 개선되었습니다.\n\n운영체제 관련 개선으로 Windows 환경에서 파일 삭제 시 발생하는 공유 위반 문제를 재시도 로직으로 보완하였으며 migrate-workflows 기술 사용 시 Windows 경로 형식을 올바르게 인식하도록 수정하였습니다. 이외에도 헤드리스 데몬 시작 시 출력되던 불필요한 브라우저 접속 안내 문구를 삭제하였습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.22",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-08-27T04:03:28.000Z",
-    "fetchedAt": "2026-08-27T04:33:50.777Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-    "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-    "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically che",
-    "aiSummary": "GitHub의 엔터프라이즈 관리 설정에서 플러그인 마켓플레이스에 대한 자동 업데이트 기능이 지원됩니다.\n\n엔터프라이즈 관리 설정 내 extraKnownMarketplaces 항목에서 autoUpdate 값을 true로 설정하면 특정 플러그인 마켓플레이스에 대해 자동 업데이트를 활성화할 수 있습니다. 해당 설정을 적용한 이후에는 지원되는 클라이언트가 주기적으로 마켓플레이스를 확인하여 플러그인을 자동으로 업데이트합니다.",
-    "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-27T01:52:19.000Z",
-    "fetchedAt": "2026-08-27T04:33:50.777Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

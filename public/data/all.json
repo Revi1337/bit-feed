@@ -1,5 +1,70 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=736282",
+    "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+    "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, an",
+    "aiSummary": "Kotlin Toolchain 0.12.0 버전이 공식 출시되었습니다. 이번 업데이트는 멀티플랫폼 라이브러리 배포 기능을 지원하며 Wasm 애플리케이션 개발을 위한 프리뷰 기능을 포함하고 있습니다. 또한 커맨드 라인 환경에서 Compose Hot Reload를 활용할 수 있게 되어 개발 편의성이 대폭 향상되었습니다. 주요 변경 사항과 버그 수정에 대한 자세한 정보는 공식 릴리스 노트를 통해 확인할 수 있으며 klibs.io 서비스도 해당 Toolchain을 도입하였습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Joffrey Bion",
+    "pubDate": "2026-09-03T10:40:05.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=736282",
+    "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+    "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, an",
+    "aiSummary": "Kotlin Toolchain 0.12.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 멀티플랫폼 라이브러리 배포 기능의 추가와 Wasm 애플리케이션 지원에 대한 프리뷰 제공입니다.\n\n또한 명령줄 인터페이스를 통한 Compose Hot Reload 기능을 지원하여 개발 생산성을 높였습니다. 이외에도 다양한 버그 수정과 개선 사항이 포함되었으며 상세한 변경 내용은 공식 릴리스 노트를 통해 확인할 수 있습니다. 새롭게 개편된 klibs.io 웹사이트에서도 해당 Kotlin Toolchain을 활용합니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Joffrey Bion",
+    "pubDate": "2026-09-03T10:40:05.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.25",
+    "title": "1.1.25",
+    "summary": "Added an opt-in workspace-grouped view to the /resume conversation picker, allowing users to toggle between a flat list and conversations grouped by directory with Ctrl+F.\nAdded Gemini 3.8 Flash to th",
+    "aiSummary": "/resume 대화 선택기에 작업 공간별 그룹화 기능을 추가하여 Ctrl+F 키로 평면 목록과 디렉토리별 그룹 보기를 전환할 수 있게 되었습니다. GEMINI_API_KEY 사용 시 모델 카탈로그에서 Gemini 3.8 Flash를 선택할 수 있습니다. Markdown으로 정의된 커스텀 에이전트가 기본 에이전트의 구성과 동일하게 주변 기술과 규칙, 하위 에이전트를 기본적으로 상속하도록 변경되었습니다.\n\nMCP OAuth 인증 과정에서 1024자를 초과하는 인증 코드가 반환될 때 발생하던 오류를 수정하였습니다. Windows 환경의 /skills 패널에서 경로 구분자 문제로 인해 전역 및 작업 공간 기술이 잘못 분류되던 현상을 해결하였습니다. Markdown 기반 커스텀 에이전트 내 상대 경로 해석 방식을 개선하여 하위 에이전트와 플러그인 경로가 정확하게 지정되도록 수정되었습니다.\n\n세션 재시작 및 하위 에이전트 호출 시 설정에 권한 부여 항목이 중복으로 누적되던 문제를 해결하였습니다. 작업자 도구 구성을 최적화하여 /boost 실행 오류를 수정하였고, 에이전트 런타임에서 궤적 종료 후 캐시된 단계를 읽으려 할 때 발생하던 널 포인터 충돌 문제를 해결하였습니다. 또한 Remote Control의 역방향 터널 라우팅 기능을 강화하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.25",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-03T02:30:24.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=736394",
+    "title": "Register Now for JetBrains GameDev Day 2026",
+    "summary": "Every game starts with an idea. Getting it into production means navigating code, tools, pipelines, performance bottlenecks, architectural trade-offs, and all the small decisions that only reveal thei",
+    "aiSummary": "JetBrains가 오는 9월 28일에 게임 개발자를 위한 행사인 JetBrains GameDev Day 2026을 개최합니다. 이번 행사는 게임 엔진, 툴 개발, 성능 최적화, 아키텍처 설계 등 게임 개발 과정에서 마주하는 실무적인 문제와 해결책을 다루는 강연들로 구성됩니다. 게임 개발 현업 종사자들이라면 누구나 참여할 수 있으며 프로젝트 규모 확장에 따른 기술적 도전 과제와 실질적인 경험을 공유하는 자리가 될 예정입니다. 현재 JetBrains 공식 웹사이트를 통해 참가 등록이 가능합니다.",
+    "url": "https://blog.jetbrains.com/dotnet/2026/09/03/register-now-for-jetbrains-gamedev-day-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Anna Ruban",
+    "pubDate": "2026-09-02T23:00:00.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
     "title": "Enterprise-managed settings support any default model",
     "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.…\nThe",
@@ -289,6 +354,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-02-1",
+    "title": "API Platform Conference 2026 - Lille (France) & Online",
+    "summary": "API Platform Conference will return on September 17th and 18th, 2026, both in Lille (France) and online.\n\n\n    With nearly 30 talks delivered in both English and French, the conference is a must-atten",
+    "aiSummary": "API Platform Conference 2026이 2026년 9월 17일부터 18일까지 프랑스 Lille와 온라인에서 동시에 개최됩니다.\n\n이번 컨퍼런스에서는 영어와 프랑스어로 약 30개의 발표가 진행될 예정입니다. 혁신적인 기업, 프로젝트 리더, 그리고 숙련된 개발자를 대상으로 하며 API 기술을 전문으로 다루는 개발자나 CTO 및 의사결정권자에게 적합한 행사입니다. 자세한 정보는 공식 홈페이지인 api-platform.com/con/2026에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-09-02-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-02T06:18:52.000Z",
+    "fetchedAt": "2026-09-03T12:09:33.862Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
