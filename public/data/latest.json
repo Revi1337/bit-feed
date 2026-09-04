@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://webkit.org/?p=18283",
+    "title": "Submit your ideas for Interop 2027",
+    "summary": "It’s that exciting time of year again when we start considering Interop proposals for next year!",
+    "aiSummary": "Interop 2027을 위한 발표 제안을 접수하기 시작했습니다. 매년 진행되는 행사를 위해 참신하고 흥미로운 아이디어를 제출할 시기가 되었습니다. 관련 분야의 전문가라면 이번 제안 공모에 참여하여 의견을 공유할 수 있습니다.",
+    "url": "https://webkit.org/blog/18283/submit-your-ideas-for-interop-2027/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-09-03T21:53:33.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
+    "title": "Multiple trusted publishing configurations for npm",
+    "summary": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing config",
+    "aiSummary": "npm은 게시자들의 피드백을 반영하여 Trusted Publishing 기능을 개선하는 세 가지 업데이트를 정식으로 발표하였습니다.\n\n가장 핵심적인 변화는 하나의 패키지에 대해 다중 Trusted Publishing 구성을 지원하게 된 점입니다. 이를 통해 사용자는 여러 환경이나 배포 워크플로우에 맞춰 더욱 유연하고 안전한 게시 프로세스를 설계할 수 있게 되었습니다.\n\n또한 패키지 게시 과정의 안정성을 높이기 위한 Staged 게시 방식 등이 포함되어 전반적인 보안과 편의성이 강화되었습니다. 이번 업데이트는 개발자들이 더욱 원활하게 npm 생태계에서 패키지를 관리하고 배포할 수 있도록 지원하는 데 중점을 두고 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-03T20:34:34.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-06-github-actions-early-august-2026-updates",
+    "title": "GitHub Actions: Early September 2026 updates",
+    "summary": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when…\nThe ",
+    "aiSummary": "GitHub Actions에 워크플로우에 대한 가시성과 제어력을 높여주는 세 가지 새로운 업데이트가 추가되었습니다.\n\n먼저 러너 버전 지원 중단 시점을 확인할 수 있는 새로운 REST API가 도입되었습니다. 이를 통해 사용자는 특정 러너 버전의 기술 지원이 종료되는 시점을 사전에 파악하고 적절한 대응을 준비할 수 있습니다.\n\n이번 업데이트는 개발자가 워크플로우를 더욱 세밀하게 관리하고 운영 환경의 안정성을 확보할 수 있도록 돕는 데 중점을 두고 있습니다. 자세한 기술적 사양과 활용 방법은 GitHub 공식 블로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-03T20:30:53.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+    "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+    "summary": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rig",
+    "aiSummary": "Google의 최신 경량 모델인 Gemini 3.8 Flash가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n초기 테스트 결과에 따르면 해당 모델은 복잡한 터미널 기반의 코딩 작업을 수행하는 데 있어 뛰어난 성능과 정확성을 보여주었습니다. 이번 통합을 통해 개발자들은 GitHub Copilot 환경에서 Gemini 3.8 Flash의 고도화된 프로그래밍 지원 기능을 활용할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-03T18:50:38.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
     "title": "Kubernetes v1.37: DRA Updates",
     "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building towar",
@@ -29,6 +93,38 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+    "title": "What’s new with Google Data Cloud",
+    "summary": "August 31 - September 4\nStateful processing is available in BigQuery continuous queries in Preview\nStateful operations significantly expand what’s possible with BigQuery continuous queries. This featu",
+    "aiSummary": "Google Data Cloud의 주요 업데이트는 데이터 처리, AI 에이전트 통합, 그리고 데이터 분석 도구의 효율성 강화에 집중되어 있습니다.\n\n빅데이터 및 스트리밍 영역에서는 BigQuery continuous queries에 Stateful processing 기능이 도입되어 JOIN, 집계, 윈도잉 함수를 실시간으로 활용할 수 있게 되었습니다. 또한 Managed Service for Kafka를 위한 합성 데이터 생성 도구가 정식 출시되었으며, Dataflow 파이프라인 업데이트 기능이 개선되어 중단 없는 마이그레이션과 효율적인 리소스 관리가 가능해졌습니다. 데이터 레이크하우스 환경을 위해서는 Apache Iceberg 기반의 관리형 테이블이 프리뷰로 제공되어 다중 엔진 간 상호 운용성을 확보했습니다.\n\nAI 및 에이전트 관련 기능도 대폭 확대되었습니다. BigQuery Studio에는 상황 인식이 가능한 Gemini 어시스턴트가 강화되었고, Conversational Analytics를 통해 자연어로 데이터를 분석하고 시각화하는 기능이 고도화되었습니다. 특히 AlloyDB, Spanner, Cloud SQL, Bigtable, Firestore 등에 대한 MCP 지원을 통해 AI 모델이 데이터베이스와 직접 상호작용하며 복잡한 문제를 해결할 수 있는 환경을 구축했습니다.\n\n데이터베이스 및 운영 도구 부문에서는 Google이 직접 개발한 BigQuery용 ODBC 및 JDBC 드라이버가 공개되어 연결성이 향상되었습니다. Cloud SQL은 Microsoft Entra ID 통합을 지원하여 멀티 클라우드 환경의 보안을 강화했으며, 자동 확장 읽기 풀 기능을 통해 가용성을 높였습니다. Cloud Composer 3는 Gemini Cloud Assist를 통한 자동화된 Airflow 작업 트러블슈팅 기능을 도입하여 운영 효율성을 크게 높였습니다. \n\n이 외에도 BigQuery Graph가 프리뷰로 출시되어 대규모 데이터 관계 분석을 지원하며, Looker는 셀프 서비스 방식의 분석 기능을 통해 데이터 거버넌스와 인사이트 도출의 속도를 높이고 있습니다. 각 기능은 데이터 엔지니어링부터 클라우드 인프라 운영까지 전 과정에 걸쳐 AI 워크플로우를 통합하고 운영 부담을 줄이는 데 초점을 맞추고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "The Google Cloud Data Analytics, BI, and Database teams "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-03T16:00:00.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -211,6 +307,37 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/03/java-acceleration-curve25519-field-operations/",
+    "title": "Acceleration of Curve25519 Field Operations with Java Software and Intrinsics",
+    "summary": "There have been a number of enhancements in JDK 27 and JDK 28 that have significantly increased the performance of Curve25519 field operations, which is the foundation for X25519 [1] key generation an",
+    "aiSummary": "JDK 27과 JDK 28에서 Curve25519 필드 연산 성능이 크게 향상되었습니다. 이번 개선은 X25519 키 생성 및 합의, Ed25519 서명, 그리고 TLS 1.3을 위한 X25519MLKEM768 하이브리드 키 교환 알고리즘에 적용되어 JCE 및 JSSE API 사용 시 전반적인 성능을 높여줍니다.\n\nJDK 27 빌드 14부터는 내부 데이터 구조 변경을 통한 소프트웨어 효율화로 알고리즘별 처리량이 27%에서 최대 54%까지 증가하였습니다. X25519는 49-54%, Ed25519는 46-49%, X25519MLKEM768은 27-51%의 성능 향상을 기록했습니다.\n\nJDK 28 빌드 5부터는 x86_64 및 AArch64 아키텍처를 위한 전용 인트린식(Intrinsics)이 추가되었습니다. 이를 통해 x86_64 환경에서는 12-20%, AArch64 환경에서는 7-15%의 추가적인 처리량 증가가 확인되었습니다.\n\n현재 JDK 27과 JDK 28의 초기 액세스 빌드를 통해 이러한 성능 향상을 직접 체험할 수 있습니다. 개발자들은 해당 빌드를 다운로드하여 개선 사항을 테스트하고, 관련 피드백을 OpenJDK의 security-dev 메일링 리스트를 통해 공유할 수 있습니다.",
+    "url": "https://inside.java/2026/09/03/java-acceleration-curve25519-field-operations/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Shawn Emery",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
+    "title": "Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation",
+    "summary": "Tencent Cloud and Elastic announced an expanded strategic collaboration in Shenzhen in August 2026. The companies will deepen their technical and product collaboration to help enterprises establish de",
+    "aiSummary": "Tencent Cloud와 Elastic이 인공지능 시대를 맞아 기업의 전용 AI 검색 환경 구축을 지원하기 위해 전략적 파트너십을 확대합니다. 양사는 2026년 8월 중국 선전에서 이번 협력을 발표하였으며 기술 및 제품 차원의 통합을 더욱 강화할 예정입니다. 이번 협력을 통해 기업들은 더욱 고도화된 AI 검색 기반을 확보하고 비즈니스 효율성을 높일 수 있을 것으로 기대됩니다.",
+    "url": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Yuki Jiang",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-09-04T01:09:52.705Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1738,102 +1865,6 @@
     "fetchedAt": "2026-08-28T19:29:18.016Z",
     "tags": [
       "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/security-advisory-cve-2026-81934/",
-    "title": "Security Advisory: CVE-2026-81934",
-    "summary": "What happened?\n\nRedis identified and remediated a use-after-free vulnerability in TLS pending-data processing. Under specific conditions, an authenticated attacker could trigger the flaw and potential",
-    "aiSummary": "Redis가 TLS pending-data 처리 과정에서 발생하는 use-after-free 취약점인 CVE-2026-81934를 식별하여 해결했습니다.\n\n특정 조건 하에서 인증된 공격자가 해당 결함을 유발할 경우 원격 코드 실행이 가능할 수 있는 위험이 존재합니다.\n\nRedis는 이번 보안 문제를 해결하기 위한 패치를 제공하고 있으며 사용자는 즉시 최신 버전으로 업데이트하여 잠재적인 보안 위협에 대비해야 합니다.",
-    "url": "https://redis.io/blog/security-advisory-cve-2026-81934/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Riaz Lakhani",
-    "pubDate": "2026-08-28T00:00:00.000Z",
-    "fetchedAt": "2026-08-29T04:11:58.442Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/8/28/this-week-in-rails",
-    "title": "This Week in Rails: August 28, 2026",
-    "summary": "Hi, it’s Greg. Let’s explore this week’s changes in the Rails codebase.\nAgents on Rails: lemans goes open source\nActionpack ractorize\nMake ActionDispatch::ParamBuilder.default ractor safe by using sin",
-    "aiSummary": "이번 주 Rails 코드베이스에서는 Ractor 호환성 향상과 보안 강화, 그리고 새로운 기능 추가가 진행되었습니다.\n\nActionPack은 Ractor 안전성을 확보하기 위해 ActionDispatch 내의 여러 요소를 개선했습니다. ParamBuilder와 Request 내 LOCALHOST 정규식, 그리고 Response의 기본 헤더와 문자셋 설정이 Ractor에 안전하도록 수정되었으며, 일부 부분 이름과 reset_primary_key 기능도 호환성을 확보했습니다.\n\nActiveRecord 설정 부분에서는 파편화되어 있던 스키마 무시 설정을 config.active_record.schema_ignored_tables로 통합했습니다. 기존의 설정들은 더 이상 사용되지 않으며, 새로운 설정으로 위임되는 방식으로 변경되어 단일 설정 경로를 갖추게 되었습니다.\n\n보안 측면에서는 Attachment#to_markdown 메서드의 캡션 이스케이프 처리를 강화하여 크로스 사이트 스크립팅 취약점을 예방했습니다. \n\n새로운 기능으로 HTML과 ERB를 동시에 이해하는 HTML 인식 엔진인 Herb가 도입되었습니다. Herb는 Prism 파서를 활용하여 HTML과 Ruby 문법을 단일 구문 트리로 파싱하며, 템플릿 컴파일 시 HTML 의미론을 파악하여 올바른 마크업과 Ruby 코드 생성을 보장합니다.\n\n마지막으로 I18n의 translate 메서드에서 scope 옵션에 마침표를 사용한 상대 경로 해석이 가능해졌습니다. 이를 통해 컨트롤러와 액션 위치를 기준으로 유연한 번역 키 참조가 가능해졌습니다. 해당 주간에는 25명의 기여자가 Rails 프로젝트에 참여하였습니다.",
-    "url": "https://rubyonrails.org/2026/8/28/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Greg",
-    "pubDate": "2026-08-28T00:00:00.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-mask-query-bindings",
-    "title": "Mask Query Bindings in Laravel Exception Messages",
-    "summary": "Laravel 13.27 adds a per-connection option that keeps query bindings out of QueryException messages, so customer data stops reaching logs and APM tools.\nThe post Mask Query Bindings in Laravel Excepti",
-    "aiSummary": "Laravel 13.27 버전에서 데이터베이스 연결별로 쿼리 바인딩 정보를 QueryException 메시지에서 제외할 수 있는 옵션이 새롭게 추가되었습니다. 이를 통해 고객의 민감한 데이터가 로그나 APM 도구로 유출되는 것을 방지하여 보안성을 강화할 수 있게 되었습니다.",
-    "url": "https://laravel-news.com/laravel-mask-query-bindings?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-27T23:33:55.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-    "title": "Better label management on issues is generally available",
-    "summary": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right…\nThe post Better label",
-    "aiSummary": "GitHub가 이슈 라벨 관리를 효율적으로 개선할 수 있는 새로운 기능을 정식 출시했습니다. 리포지토리에 라벨이 방대하게 쌓여 있는 경우에도 필요한 라벨을 더욱 쉽고 빠르게 찾을 수 있도록 돕는 기능이 추가되었습니다. 특히 Suggested Labels 기능을 통해 상황에 최적화된 라벨을 제안받을 수 있어 업무 생산성을 높일 수 있습니다. 이번 업데이트는 복잡한 라벨 목록을 체계적으로 정리하고 검색하는 과정을 간소화하여 사용자 경험을 개선합니다.",
-    "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-27T23:33:22.000Z",
-    "fetchedAt": "2026-08-28T06:57:48.827Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-    "title": "Copilot code review: Resolution reasons and expanded capabilities",
-    "summary": "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large…\nThe p",
-    "aiSummary": "GitHub Copilot의 코드 리뷰 기능이 업데이트되어 기존에 지원하지 않던 두 가지 유형의 풀 리퀘스트에 대한 리뷰가 가능해졌습니다. 여기에는 Copilot cloud agent를 포함한 봇이 작성한 자동 풀 리퀘스트와 매우 큰 규모의 풀 리퀘스트가 포함됩니다. 이번 개선을 통해 개발자는 더 넓은 범위의 코드 변화를 자동으로 검토받을 수 있게 되었습니다. \n\n또한 코드 리뷰 과정에서 생성된 해결 사유가 더욱 명확하게 제공되도록 기능이 확장되었습니다. 이러한 업데이트는 개발자가 코드의 품질을 유지하고 복잡한 변경 사항을 효율적으로 관리하도록 지원합니다.",
-    "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-27T22:46:04.000Z",
-    "fetchedAt": "2026-08-28T06:57:48.827Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-08-27-3",
-    "title": "PHP 8.5.10 Released!",
-    "summary": "The PHP development team announces the immediate availability of PHP 8.5.10. This is a bug fix release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.10 ",
-    "aiSummary": "PHP 개발팀이 버그 수정 버전인 PHP 8.5.10을 새롭게 발표했습니다.\n\n모든 PHP 8.5 버전 사용자는 이번 업데이트를 통해 최신 환경으로 전환할 것을 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 내려받을 수 있으며, 상세한 변경 사항은 ChangeLog를 통해 확인할 수 있습니다.",
-    "url": "https://www.php.net/index.php#2026-08-27-3",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-08-27T22:44:37.000Z",
-    "fetchedAt": "2026-08-29T13:12:56.573Z",
-    "tags": [
       "PHP"
     ]
   }
