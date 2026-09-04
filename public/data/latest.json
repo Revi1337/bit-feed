@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/data-analytics/how-yahoo-optimizes-apache-spark-with-flexible-vms/",
+    "title": "How Yahoo optimizes resources with flexible VMs in Managed Service for Apache Spark",
+    "summary": "As a global media and technology company connecting hundreds of millions of users to finance, sports, and entertainment platforms, Yahoo operates a massive data infrastructure where analytics workload",
+    "aiSummary": "Yahoo는 방대한 규모의 데이터 분석 작업을 안정적으로 운영하기 위해 Managed Service for Apache Spark에서 유연한 VM 구성을 도입했습니다. 기존의 고정된 VM 형태는 특정 리전의 자원 부족 상황에서 클러스터 프로비저닝 지연과 파이프라인 중단 문제를 야기했습니다.\n\n이를 해결하기 위해 Yahoo는 가용성이 높은 VM 형태의 순위 목록을 정의하고 Auto-Zone 설정을 활성화하여 시스템이 자동으로 자원을 확보하도록 설계했습니다. 이때 성능 저하를 방지하기 위해 모든 VM은 유사한 코어와 메모리 사양을 유지해야 하며, Spark 및 YARN 설정 역시 일관되게 조정해야 합니다.\n\n이러한 유연한 인프라 정책을 적용한 결과, Yahoo는 지역별 자원 부족으로 인한 클러스터 프로비저닝 실패 사례를 85%까지 줄이는 성과를 거두었습니다. 결과적으로 수동 개입 없이도 데이터 파이프라인의 연속성을 보장하게 되었으며, 급변하는 인프라 환경에서도 안정적인 데이터 분석 환경을 구축하게 되었습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/how-yahoo-optimizes-apache-spark-with-flexible-vms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Akshay Jain"
+      ],
+      "title": [
+        "Senior Software Engineer, Yahoo"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-04T16:00:00.000Z",
+    "fetchedAt": "2026-09-04T18:29:20.034Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/using-antigravity-cli-to-streamline-dual-write-database-migration/",
+    "title": "Spanner migrations: Automating dual-write with Antigravity CLI for minimal disruption",
+    "summary": "When Google's Finance Engineering team needed to modernize their legacy data layer, they chose Spanner, a globally distributed, strongly consistent, multi-model database with high availability capabil",
+    "aiSummary": "Google Finance Engineering 팀은 레거시 데이터 계층을 Spanner로 전환하는 과정에서 서비스 중단 없는 마이그레이션을 위해 Antigravity CLI를 활용한 자동화된 리팩토링 파이프라인을 구축했습니다.\n\n기존의 수동 방식은 30개 이상의 DAO에 대한 이중 쓰기 로직을 일일이 수정해야 하므로 시간 소모가 크고 오류 발생 가능성이 높았습니다. 이를 해결하기 위해 팀은 MutationConverter 인터페이스를 도입하여 비즈니스 로직과 Spanner 스키마 변환 로직을 분리하는 표준화된 패턴을 수립했습니다.\n\nAntigravity CLI를 헤드리스 모드로 실행하는 오케스트레이션 스크립트를 통해 엔지니어들은 수동 상호작용 없이 대규모 코드 업데이트를 수행할 수 있게 되었습니다. 이 자동화된 워크플로우는 버전 관리되는 프롬프트 템플릿을 기반으로 코드를 생성하며, 결과물에 대해 빌드 시스템이 즉각적인 테스트를 진행하고 실패 시 스스로 수정하는 순환 구조를 갖추고 있습니다.\n\n이러한 접근 방식을 통해 데이터 무결성을 유지하면서 마이그레이션 시간을 대폭 단축했습니다. 팀은 데이터베이스 마이그레이션 시 스키마 변환의 분리, 대화형 도구에서 헤드리스 자동화로의 전환, 그리고 빌드 시스템을 검증의 안전장치로 활용하는 전략이 중요하다고 강조합니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/using-antigravity-cli-to-streamline-dual-write-database-migration/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sachin Mathapati"
+      ],
+      "title": [
+        "Application Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-04T16:00:00.000Z",
+    "fetchedAt": "2026-09-04T18:29:20.034Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://bun.sh/blog/bun-v1.4.1",
     "title": "Bun v1.4.1",
     "summary": "Bun v1.4.1 fixes 202 issues, addressing 236 👍.To install BuncurlTo upgrade BunNew in the runtime#Reduced idle memory usage#We've made JavaScriptCore delete JIT-generated code after an extended idle p",
@@ -17,6 +81,26 @@
     ]
   },
   {
+    "id": "/blog/how-we-closed-1500-github-issues",
+    "title": "How we closed 1,500 GitHub issues in one month",
+    "summary": "How the Next.js team used an agent to research old reports and work through the issue backlog.",
+    "aiSummary": "Next.js 팀은 1,500여 개의 오래된 GitHub 이슈를 한 달 만에 정리하기 위해 AI 에이전트를 도입하는 전략을 선택했습니다.\n\n팀은 방대한 이슈 백로그를 체계적으로 관리하기 위해 자동화된 에이전트를 활용하여 과거에 보고된 문제들을 조사하고 분류했습니다. 이를 통해 개발자들은 수동으로 수행해야 했던 반복적인 조사 업무를 대폭 줄이고 실질적인 해결 과정에 집중할 수 있었습니다.\n\n이번 사례는 AI를 활용해 오픈소스 프로젝트의 기술 부채를 해결하고 이슈 관리의 효율성을 극대화한 대표적인 성공 사례로 평가받고 있습니다.",
+    "url": "https://nextjs.org/blog/how-we-closed-1500-github-issues",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Marcos Hernanz"
+      ]
+    },
+    "pubDate": "2026-09-04T04:00:00.000Z",
+    "fetchedAt": "2026-09-04T18:29:20.034Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.1.26",
     "title": "1.1.26",
     "summary": "Added half-page scrolling with Ctrl+D and Ctrl+U to the artifact viewer.\nAdded the pickerGrouping setting to /config and settings.json to configure the default conversation list view in /resume (flat ",
@@ -31,6 +115,54 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/9/4/this-week-in-rails",
+    "title": "Ractor-ready Rails, ordered cache fetches, and more!",
+    "summary": "Hi, it’s Vipul. Let’s explore this week’s changes in the Rails codebase.\nAgents on Rails: Claude Fable 5.1 and GLM 5.3 Flash\nox-alpha model is GLM 5.3 Flash, which completed 52 of 63 runs for $3.31.\nO",
+    "aiSummary": "이번 Rails 코드베이스 업데이트의 핵심은 Ractor 호환성을 높이기 위한 지속적인 개선 작업입니다. Action View 설정, Active Record 커밋 콜백, 타임존 설정이 Ractor 간 공유 가능하도록 변경되었으며, Active Record 스키마 컨텍스트 초기화 시 발생하는 교착 상태를 해결하고 이벤트 리포터에 Ractor별 저장소를 도입하였습니다.\n\n데이터베이스와 캐시 관련 기능도 강화되었습니다. TypeCaster가 with_connection을 사용하도록 변경되어 ActionController::Live 액션에서의 커넥션 누수 문제를 해결했습니다. ActiveSupport::Cache::Strategy::LocalCache의 fetch_multi는 요청된 키 순서를 유지하도록 개선되었으며, PostgreSQL 데이터베이스 설정에 error_verbosity 옵션이 추가되었습니다. 또한, disable_referential_integrity 실행 중 오류 발생 시 트리거가 비활성화된 채로 남지 않도록 보완되었습니다.\n\nActive Record 쿼리 효율성 및 테스트 품질 향상도 이루어졌습니다. has_many :through 연관 관계에서 중복 조인을 제거하는 최적화가 적용되었으며, 테스트 환경에서 ORDER BY가 없는 쿼리 결과를 무작위로 섞는 설정인 shuffle_unordered_selects가 도입되어 테스트의 의존성 문제를 조기에 발견할 수 있게 되었습니다.\n\n그 외에도 JSON 3.0 호환성 개선, Active Storage의 Marcel 2 업그레이드, GitHub Actions 작업에 대한 타임아웃 설정 추가 등이 포함되었습니다. 문서 측면에서는 Hotwire 가이드와 Securing Rails 가이드가 새롭게 개편되어 검토를 앞두고 있습니다. 이번 주 업데이트에는 총 25명의 기여자가 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/9/4/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "vipulnsward",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "fetchedAt": "2026-09-04T18:29:20.034Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/token-costs-ai-bills",
+    "title": "Why your AI bill tripled while token prices fell 75%",
+    "summary": "Token prices dropped 75%, so why did your agentic AI bill triple? Here's the real math behind agentic AI cost and how IT leaders can measure it.",
+    "aiSummary": "토큰 단가가 75퍼센트 하락했음에도 불구하고 기업의 AI 비용이 3배 급증한 원인은 에이전트 기반 AI 시스템의 특성 때문입니다.\n\n전통적인 프롬프트 응답 방식과 달리 Agentic AI는 복잡한 작업을 수행하기 위해 반복적인 추론과 다단계 사고 과정을 거칩니다. 이 과정에서 모델은 수많은 중간 토큰을 생성하고 외부 도구를 반복적으로 호출하며 에러 처리를 위한 루프를 반복하게 됩니다. 결국 개별 토큰의 가격은 낮아졌지만 전체적인 토큰 사용량이 폭발적으로 증가하면서 전체 비용 부담이 커지는 결과가 발생합니다.\n\nIT 리더들은 단순한 토큰 단가 비교를 넘어 Agentic AI의 전체 워크플로우 효율성을 측정해야 합니다. 작업당 소요되는 총 비용을 산출하고 모델의 추론 단계가 불필요하게 길어지지 않도록 최적화하는 전략이 필요합니다.",
+    "url": "https://www.elastic.co/blog/token-costs-ai-bills",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Sunile Manjee",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "fetchedAt": "2026-09-04T18:29:20.034Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/how-elastic-supports-mosa-modular-open-systems-approach",
+    "title": "Open by design: How Elastic supports MOSA, the DoD's Modular Open Systems Approach",
+    "summary": "Major US defense acquisition programs are required to be designed around a Modular Open Systems Approach (MOSA). Here's what program offices need to know about how Elastic can support MOSA at the data",
+    "aiSummary": "미국 국방부의 주요 방산 획득 프로그램은 MOSA라는 모듈형 개방형 시스템 접근 방식을 기반으로 설계되어야 합니다. Elastic은 데이터 및 분석 계층에서 이러한 MOSA 요건을 효과적으로 지원합니다.\n\nMOSA는 시스템 구성 요소 간의 상호 운용성과 유연한 교체를 보장하여 기술 종속을 방지하고 현대화 속도를 높이는 것을 목표로 합니다. Elastic은 개방형 표준과 유연한 아키텍처를 제공함으로써 국방 분야의 데이터 환경이 이러한 기술적 요구 사항을 충족할 수 있도록 돕습니다.\n\n구체적으로 Elastic은 플랫폼의 개방성을 활용하여 다양한 시스템과 데이터를 통합하고 분석할 수 있는 기반을 마련합니다. 이를 통해 프로그램 담당자들은 특정 벤더에 종속되지 않고 데이터 중심의 의사결정을 내릴 수 있는 환경을 구축할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/how-elastic-supports-mosa-modular-open-systems-approach",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Woody Walton",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "fetchedAt": "2026-09-04T18:29:20.034Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1803,70 +1935,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
-    "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
-    "summary": "Pod Certificate / Cluster Trust Bundles Blog Post\nKubernetes brings a wealth of features that make it easy to run your production\nworkloads securely and reliably. While aspects like scheduling, health",
-    "aiSummary": "Kubernetes v1.37에서 Pod Certificates와 Cluster Trust Bundles 기능이 정식 버전으로 출시되었습니다. 기존 서비스 인증의 중심이었던 서비스 계정 JWT는 편리하지만 베어러 토큰이라는 보안상 한계가 존재했습니다. 이를 보완하기 위해 도입된 Pod Certificates는 TLS 및 mTLS 통신을 위한 X.509 인증서 발급 과정을 Kubernetes 핵심 기능으로 통합하여 보안성을 강화합니다.\n\n이번 업데이트의 핵심은 Kubelet을 통해 인증서 발급과 갱신 과정을 자동화하고 애플리케이션이 안전하게 통신할 수 있는 환경을 제공하는 것입니다. 주요 구성 요소로는 인증서를 요청하는 애플리케이션, 요청을 처리하고 상태를 관리하는 Kubelet, 그리고 인증서를 실제 발행하는 Signer Controller가 있습니다.\n\n이 시스템은 개인 키가 워크로드 외부로 유출되지 않도록 설계되었으며, 자동 갱신 기능을 내장하여 보안 수준을 유지합니다. 현재는 초기 단계로 사용자가 직접 서드파티 Signer를 설치하여 활용할 수 있으며, 향후 Kubernetes 내부에서 DNS 서비스 인증서 및 SPIFFE 클라이언트 인증서 등을 제공하는 표준 공급자가 추가될 것으로 예상됩니다. 애플리케이션 개발자는 정기적인 파일 업데이트를 감지하여 인증서를 최신 상태로 유지함으로써 더욱 안전하고 유연한 워크로드 인증 체계를 구축할 수 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-08-28T18:30:00.000Z",
-    "fetchedAt": "2026-08-29T04:11:58.442Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-starter-kits-vite-plus",
-    "title": "Laravel Starter Kits Now Ship with Vite+",
-    "summary": "Every Laravel starter kit now builds with Vite+, trading ESLint and Prettier for a single vp check across React, Vue, Svelte, and Livewire.\nThe post Laravel Starter Kits Now Ship with Vite+ appeared f",
-    "aiSummary": "모든 Laravel 스타터 키트가 이제 Vite+를 기본 빌드 도구로 제공합니다.\n\n이번 업데이트를 통해 기존에 사용되던 ESLint와 Prettier가 제거되었습니다. 대신 React, Vue, Svelte, Livewire 등 다양한 환경에서 통합적인 정적 분석 및 빌드 환경을 구축하는 vp check 방식으로 전환되었습니다.",
-    "url": "https://laravel-news.com/laravel-starter-kits-vite-plus?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-28T16:45:20.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
-    "title": "Relaunching HashiCorp Validated Designs with improved usability",
-    "summary": "HashiCorp Validated Designs (HVDs) provide prescriptive, enterprise-focused guidance for deploying, operating, and using HashiCorp products in production. They are designed to go beyond feature docume",
-    "aiSummary": "HashiCorp가 기업 고객의 프로덕션 환경 구축과 운영을 지원하는 HashiCorp Validated Designs를 전면 개편하여 developer.hashicorp.com을 통해 새롭게 공개했습니다. 이번 개편은 기존의 복잡했던 탐색 구조를 개선하고 사용자 중심의 가이드 제공에 초점을 맞추었습니다.\n\n새로운 구조는 클라우드 성숙도 모델 대신 제품의 생명 주기와 수행 작업, 그리고 담당 팀을 기준으로 재편되었습니다. 구체적으로는 시스템 구축을 위한 Installation guide, 일상적인 운영과 관리를 위한 Administration guide, 그리고 제품의 실무 활용을 다루는 User guide로 분류하여 사용자가 필요한 정보를 직관적으로 찾을 수 있도록 했습니다.\n\n또한 검색 기능과 접근성도 대폭 강화되었습니다. developer.hashicorp.com의 메인 탐색 메뉴에 HVD를 추가하고 사이트 내 검색 및 외부 검색 엔진 인덱싱을 지원하여 사용자가 문제 해결에 필요한 가이드를 더 쉽게 발견할 수 있게 했습니다. 제품 문서와 튜토리얼에서도 관련 HVD로 직접 연결이 가능해져 기술 리소스 간의 통합성이 높아졌습니다.\n\n이번 개편은 기존의 검증된 가이드 내용은 유지하면서 정보 구조를 최적화하여 기업 팀이 더 빠르게 구현 패턴을 습득하고 운영 효율성을 높일 수 있도록 돕는 데 목적이 있습니다.",
-    "url": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Dan Brown",
-    "pubDate": "2026-08-28T16:00:00.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/aug/28/django-developers-survey-2026-results/",
-    "title": "Django Developers Survey 2026 results",
-    "summary": "The results from the 2026 Django Developers Survey are now available. This is the fifth annual report conducted from May to July 2026 by the Django Software Foundation in collaboration with JetBrains ",
-    "aiSummary": "Django Software Foundation이 JetBrains PyCharm과 협력하여 진행한 5번째 연례 Django Developers Survey 2026 결과가 발표되었습니다. 2026년 5월부터 7월까지 수행된 이번 조사는 전체 보고서와 인포그래픽, 주요 트렌드를 분석한 블로그 게시물인 The State of Django 2026: Boring is so back을 통해 상세 내용을 공개합니다.\n\n해당 보고서는 Django 생태계의 현재를 심층적으로 다루고 있으며, Django 6.1 버전과 HTMX를 비롯하여 비동기 처리, AI 통합, 배포, 테스트 및 Python 도구 활용 등 개발자가 주목해야 할 핵심적인 기술 동향을 포함하고 있습니다. 또한 Django Chat 팟캐스트의 특별 여름 에피소드를 통해서도 이번 설문 조사 결과와 실무에 적용 가능한 다양한 아이디어를 확인할 수 있습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/aug/28/django-developers-survey-2026-results/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jeff Triplett",
-    "pubDate": "2026-08-28T14:55:00.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "Django",
-      "Python"
     ]
   }
 ]
