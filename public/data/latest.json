@@ -1,5 +1,54 @@
 [
   {
+    "id": "https://bun.sh/blog/bun-v1.4.1",
+    "title": "Bun v1.4.1",
+    "summary": "Bun v1.4.1 fixes 202 issues, addressing 236 👍.To install BuncurlTo upgrade BunNew in the runtime#Reduced idle memory usage#We've made JavaScriptCore delete JIT-generated code after an extended idle p",
+    "aiSummary": "Bun v1.4.1은 총 202개의 문제를 해결하며 전반적인 성능과 효율성을 대폭 개선했습니다.\n\n런타임 측면에서는 장시간 실행되는 프로세스의 메모리 사용량을 줄이기 위해 JavaScriptCore가 유휴 상태에서 JIT 생성 코드를 삭제하도록 변경되었습니다. 이를 통해 Next.js, vite, Express 등 주요 프레임워크 환경에서 메모리 점유율이 이전 버전 대비 크게 낮아졌습니다.\n\n네트워크 기능도 강화되었습니다. Bun.serve는 이제 HTTP/1.1과 동일한 포트에서 HTTP/2를 지원하며, Bun.write는 데이터를 메모리에 올리지 않고 디스크로 직접 스트리밍하여 대용량 파일 처리 시 메모리 사용량을 비약적으로 감소시켰습니다. 또한 WebSocket 클라이언트에 pause와 resume 메서드가 추가되어 메시지 처리 속도에 따른 메모리 누적을 방지하고 TCP 역압을 제어할 수 있게 되었습니다.\n\n보안 및 유틸리티 부문에서는 node:crypto 모듈에 crypto.argon2 및 crypto.argon2Sync가 정식으로 구현되어 Node.js와 동일한 사양의 암호화 기능을 사용할 수 있습니다. 또한 Buffer의 읽기 및 쓰기 메서드들이 JIT 인라인 처리되어 성능이 최대 9배 향상되었으며, AsyncLocalStorage.run의 실행 속도 또한 약 2배 빨라졌습니다.",
+    "url": "https://bun.sh/blog/bun-v1.4.1",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-09-04T06:47:12.361Z",
+    "fetchedAt": "2026-09-04T12:10:47.102Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.26",
+    "title": "1.1.26",
+    "summary": "Added half-page scrolling with Ctrl+D and Ctrl+U to the artifact viewer.\nAdded the pickerGrouping setting to /config and settings.json to configure the default conversation list view in /resume (flat ",
+    "aiSummary": "Artifact viewer에 Ctrl+D와 Ctrl+U를 이용한 반 페이지 스크롤 기능을 추가하였습니다.\n\n설정 파일인 /config 및 settings.json에 pickerGrouping 옵션을 도입하여 /resume 내 대화 목록을 워크스페이스별 그룹화 또는 전체 나열 방식으로 선택할 수 있도록 개선하였습니다.\n\nArtifact viewer와 대화창 내 Mermaid 플로우차트의 터미널 ASCII 렌더링 품질을 높였으며 키링 저장소 접근이 불가능할 경우 토큰 삭제를 파일 저장소에서 직접 처리하여 /logout 실행 속도를 개선하였습니다.\n\n대화형 /model 선택기에서 선택되지 않은 모델 계열의 기본 추론 노력을 낮음에서 중간 수준으로 상향 조정하였습니다.\n\nSubagent 작업 수행 중 always-proceed 모드에서 도구 승인 메시지가 발생하는 문제와 Subagent 종료 또는 대화 삭제 시 .system_generated/worktrees 디렉토리에 고립된 Git worktrees가 쌓이는 현상을 수정하였습니다.\n\nCLI 종료 시 SQLite 데이터베이스의 WAL 체크포인트 처리를 개선하여 세션 메타데이터가 디스크에 완전히 기록되도록 하였으며 임시 디렉토리 접근 시 발생하는 불필요한 오류 로그 문제를 해결하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.26",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-04T03:28:55.000Z",
+    "fetchedAt": "2026-09-04T12:10:47.102Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/04/memory-management-principles-java/",
+    "title": "Principles of Memory Management in Java",
+    "summary": "Java programs use garbage collection, and the JDK offers several collectors with different characteristics. But they also share important design choices that distinguish them from garbage collectors i",
+    "aiSummary": "Java 프로그램은 Garbage Collection을 기본으로 활용하며, JDK는 각기 다른 특성을 지닌 여러 수집기를 제공합니다. 이러한 Java의 메모리 관리 체계는 타 언어의 수집기와는 구별되는 고유한 설계 원칙을 따르고 있으며, 개발자는 이를 정확히 이해해야 합니다.\n\n본 내용은 JDK Garbage Collector의 동작 원리와 Java 메모리 관리가 애플리케이션 성능에 미치는 영향을 분석합니다. 특히 메모리인 RAM과 처리 장치인 CPU 사이의 밀접하고도 때로는 직관적이지 않은 상관관계를 탐구하며, 이 두 자원을 통합적으로 고려하는 것의 중요성을 강조합니다.\n\n마지막으로 Java의 메모리 사용 방식에 대한 근본적인 의문을 제기합니다. Java가 과도한 메모리를 소비하는 것인지, 혹은 반대로 다른 언어들이 지나치게 적은 자원을 사용하는 것인지에 대한 논의를 통해 효율적인 자원 활용의 관점을 제시합니다. 자세한 내용은 JavaOne 2026 재생 목록에서 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/09/04/memory-management-principles-java/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ron Pressler",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "fetchedAt": "2026-09-04T12:10:47.102Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://webkit.org/?p=18283",
     "title": "Submit your ideas for Interop 2027",
     "summary": "It’s that exciting time of year again when we start considering Interop proposals for next year!",
@@ -1818,54 +1867,6 @@
     "tags": [
       "Django",
       "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-27-upcoming-changes-to-github-copilot-policies-and-billing",
-    "title": "Upcoming changes to GitHub Copilot policies and billing",
-    "summary": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
-    "aiSummary": "GitHub가 일관된 Copilot 서비스 경험을 제공하기 위해 정책 및 과금 방식에 대한 세 가지 변경 사항을 발표했습니다. 이번 업데이트는 사용자들의 서비스 이용 환경에 영향을 미칠 수 있는 내용을 포함하고 있으므로 해당 공지 사항을 상세히 확인해야 합니다. 상세한 정책 변화와 청구 관련 정보는 GitHub 블로그의 공식 게시물을 통해 확인할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-08-28T11:37:19.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=pycharm&p=734588",
-    "title": "Security Incident Affecting JetBrains Cadence",
-    "summary": "We are investigating a security incident affecting JetBrains Cadence. Cadence is a JetBrains-hosted service that integrates with PyCharm through an optional plugin, and lets you run your projects on c",
-    "aiSummary": "JetBrains는 자사가 운영하는 클라우드 연동 서비스인 JetBrains Cadence에서 보안 사고가 발생했음을 확인하고 조사에 착수했습니다.\n\n이번 사고는 PyCharm 플러그인을 통해 클라우드 리소스를 활용하는 JetBrains Cadence 서비스에 대한 무단 접근이 발생한 건입니다. 이 과정에서 해당 서비스를 이용하는 고객들의 데이터가 노출된 것으로 밝혀졌습니다.\n\nJetBrains 측은 현재 사고 영향을 받은 고객들에게 개별적으로 연락을 취하고 있으며, 보안 강화를 위한 후속 조치를 진행하고 있습니다.",
-    "url": "https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Daniel Gallo",
-    "pubDate": "2026-08-28T09:50:14.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-refresh-for-update",
-    "title": "Pessimistic Locking in Laravel Eloquent with refreshForUpdate()",
-    "summary": "Laravel 13.27 adds refreshForUpdate() to Eloquent, reloading a model under lockForUpdate() so you can take a pessimistic lock without requerying by key.\nThe post Pessimistic Locking in Laravel Eloquen",
-    "aiSummary": "Laravel 13.27 버전에서 Eloquent 모델을 위한 refreshForUpdate() 메서드가 새롭게 도입되었습니다.\n\n이 기능을 사용하면 모델을 lockForUpdate() 상태로 즉시 재로드할 수 있어, 기본 키를 이용해 데이터를 다시 조회하는 과정 없이도 비관적 잠금을 적용할 수 있습니다. 이를 통해 개발자는 데이터 정합성을 유지하면서도 더욱 효율적으로 데이터베이스 잠금 처리를 수행할 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-refresh-for-update?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-08-28T01:55:47.000Z",
-    "fetchedAt": "2026-08-28T19:29:18.016Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
