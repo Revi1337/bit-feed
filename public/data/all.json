@@ -1,5 +1,55 @@
 [
   {
+    "id": "https://bun.sh/blog/bun-v1.4.2",
+    "title": "Bun v1.4.2",
+    "summary": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.To install BuncurlTo upgra",
+    "aiSummary": "Bun v1.4.2 버전이 공개되었습니다. 이번 업데이트는 주로 이전 버전에서 발생한 주요 회귀 버그 수정과 안정성 개선에 초점을 맞추고 있습니다.\n\nElysia 사용 시 bun build 과정에서 변수 이름이 충돌하며 SyntaxError를 유발하던 문제가 해결되었습니다. 또한 v1.4.1에서 도입된 AsyncLocalStorage 메모리 누수 현상을 수정하여 타이머나 프로미스 내부에서 외부 저장소 값이 불필요하게 유지되던 문제를 바로잡았습니다.\n\nnode:worker_threads의 online 이벤트 발생 순서를 Node.js와 동일하게 변경하여 @discordjs/ws가 중단되던 현상을 해결했습니다. Bun.Image 기능도 강화되어 기존에 실패했던 CMYK 및 YCCK 형식의 JPEG 이미지를 정상적으로 디코딩할 수 있게 되었습니다.\n\nJavaScriptCore 엔진 또한 약 350개의 WebKit 커밋을 적용하여 업데이트되었습니다. 이를 통해 Intl 및 TypedArray 관련 동작의 정확성이 향상되었고, Proxy 관련 크래시 수정 및 Date 객체의 성능 최적화가 이루어졌습니다.\n\n그 외에도 장시간 실행되는 프로세스에서의 JIT 관련 크래시, musl 기반 환경에서의 가비지 컬렉션 이슈, .json() 파싱 시 발생하는 에러 메시지의 구체화, 그리고 bun install 과정에서 발생하던 일부 패닉 현상들이 함께 수정되었습니다.",
+    "url": "https://bun.sh/blog/bun-v1.4.2",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2026-09-05T05:39:32.101Z",
+    "fetchedAt": "2026-09-05T11:18:27.088Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.27",
+    "title": "1.1.27",
+    "summary": "Added /model  , which runs a single prompt on another model and then returns the session to the model it was using, so you can consult a different model mid-conversation without disturbing your saved ",
+    "aiSummary": "이번 업데이트를 통해 대화 도중 기본 설정을 변경하지 않고 다른 모델을 잠시 호출할 수 있는 /model 명령어가 추가되었으며, 이와 관련된 인자 힌트 표시와 중복 호출 시 안내 메시지 개선이 이루어졌습니다. 또한, MCP 서버 연동 시 스키마에 정의되지 않은 매개변수를 엄격하게 제한하도록 수정되었고, 헤드리스 모드에서의 권한 없는 도구 실행 시 거부 내역을 출력하도록 변경되었습니다.\n\n사용자 경험 개선 차원에서 설정 패널의 Verbosity 옵션에 대한 상세 설명이 추가되었고, 로그인 및 Google Cloud 설정 화면의 디자인이 일관성 있게 개선되었습니다. 에이전트 설정의 경우 Markdown 프런트매터에 하위 에이전트를 명시할 수 있는 리스트 기능이 도입되었습니다.\n\n그 외에도 Vim 모드에서 특정 단축키 충돌 문제가 해결되었으며, 세션 시작 전 명령어 입력 처리, 종료 전 데이터 유실 방지, 그리고 파일 접근 권한과 관련된 불필요한 승인 절차를 간소화하는 등 전반적인 시스템 안정성 및 사용 편의성이 강화되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.27",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-05T04:23:31.000Z",
+    "fetchedAt": "2026-09-05T11:18:27.088Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgconf-india-2027-dates-announced-and-cfp-open-3370/",
+    "title": "PGConf India 2027 - Dates Announced and CFP Open\n",
+    "summary": "Hey there,\nMark your calendars: PGConf India 2027 is set for March 2–5, 2027 at the Sheraton Grand Hotel at Brigade Gateway, Bengaluru.\nThe Call for Papers is open right now.\nImportant dates\nCFP close",
+    "aiSummary": "PGConf India 2027 행사가 2027년 3월 2일부터 5일까지 인도 벵갈루루의 Sheraton Grand Hotel at Brigade Gateway에서 개최됩니다. 현재 발표자를 모집하는 CFP가 진행 중이며 제안서 접수는 2026년 10월 15일에 마감됩니다. 선정 여부는 2026년 11월 15일에 발표될 예정입니다.\n\n모집 분야는 Postgres와 관련된 모든 주제를 포함합니다. 세부적으로는 코어 내부 구조 및 기능, 성능 및 쿼리 튜닝, 고가용성 및 재해 복구, 클라우드 및 인프라, 보안 및 규정 준수, 모니터링 및 운영, 실제 프로덕션 사례 연구, 머신러닝과 분석 및 데이터 플랫폼, 확장 기능과 생태계 도구, 커뮤니티 및 오픈소스 분야가 해당됩니다.\n\n발표를 희망하는 지원자는 세션의 제목과 길이, 발표자 약력, 500단어 이내의 요약문을 준비하여 제출해야 합니다. 티켓 판매와 관련한 세부 사항은 추후 공식 웹사이트인 pgconf.in을 통해 공지될 예정입니다.",
+    "url": "https://www.postgresql.org/about/news/pgconf-india-2027-dates-announced-and-cfp-open-3370/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-05T00:00:00.000Z",
+    "fetchedAt": "2026-09-05T11:18:27.088Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
     "title": "GitHub Copilot weekly releases — August 31",
     "summary": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable…\nTh",
@@ -503,6 +553,23 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/gpt-6-astra",
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+    "aiSummary": "OpenAI가 가장 지능적이고 정렬된 최신 모델인 GPT-6 Astra를 공개했습니다.\n\n해당 모델은 컴퓨터 사용과 코딩은 물론 사이버 보안 및 과학 분야 전반에 걸쳐 최고 수준의 성능을 갖추고 있습니다.",
+    "url": "https://openai.com/index/gpt-6-astra",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-03T11:00:00.000Z",
+    "fetchedAt": "2026-09-05T11:18:27.088Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
