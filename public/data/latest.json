@@ -1,5 +1,22 @@
 [
   {
+    "id": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "title": "Research acceleration: The view inside OpenAI",
+    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "aiSummary": "OpenAI 내부에서는 코딩 에이전트가 AI 연구 방식을 근본적으로 변화시키고 있습니다. \n\n현재 연구진은 에이전트 활용 현황을 비롯해 실험 속도, 작업 복잡도, 연구 가속화 효과에 관한 초기 데이터를 분석 중입니다. \n\n이러한 코딩 에이전트 도입은 연구 과정의 효율성을 극대화하며 기술 개발의 속도를 한층 높이는 데 기여하고 있습니다.",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-06T08:00:00.000Z",
+    "fetchedAt": "2026-09-06T17:37:24.625Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://bun.sh/blog/bun-v1.4.2",
     "title": "Bun v1.4.2",
     "summary": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.To install BuncurlTo upgra",
