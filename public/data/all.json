@@ -1,5 +1,21 @@
 [
   {
+    "id": "bd7e863a13091bede2374f2ed4b4748927b1e862",
+    "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
+    "summary": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise work",
+    "aiSummary": "Anthropic의 차세대 모델인 Claude Fable 5.1이 AWS에서 정식으로 이용 가능해졌습니다. 이 모델은 코딩과 과학 연구를 비롯해 복잡한 엔터프라이즈 워크플로우를 처리하도록 설계되었으며, 장시간 지속되는 고난도 작업을 안정적으로 수행하는 데 최적화되어 있습니다. 특히 소프트웨어 프로젝트의 더 많은 영역을 자율적으로 관리할 수 있는 성능을 갖추고 있습니다.\n\n이와 함께 Amazon Linux 2027 미리보기 버전이 공개되었으며, 새로운 자격 증명 프로그램인 AWS Certified AI Business Strategist가 신설되어 AI 비즈니스 전략 분야의 전문성을 검증할 수 있게 되었습니다. 이번 업데이트는 AWS 생태계 내에서 AI 기술 도입을 가속화하고 기업의 개발 및 운영 환경을 고도화하는 데 초점을 맞추고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-09-07T14:24:08.000Z",
+    "fetchedAt": "2026-09-07T19:15:33.138Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=kotlin&p=737362",
     "title": "Kotlin 2.4.20 Released",
     "summary": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The lates",
@@ -13,6 +29,21 @@
     "tags": [
       "Kotlin",
       "Android"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+    "title": "Rust debugging survey 2026 results",
+    "summary": "One of the biggest challenges Rust developers report in our\nannual surveys is a subpar debugging experience. So, back\nin February, we ran our first Rust Debugging Survey,\nin the hopes of identifying h",
+    "aiSummary": "이번 Rust Debugging Survey 2026은 Rust 개발자들이 겪는 디버깅 환경의 어려움을 파악하기 위해 2,300명 이상의 응답자를 대상으로 진행되었습니다. 설문 결과, 응답자의 절반 이상이 현재 Rust 개발에서 디버거를 사용하지 않고 있으며, 많은 개발자가 여전히 print 문이나 dbg! 매크로에 의존하고 있는 것으로 나타났습니다. 디버거를 사용하지 않는 주요 이유로는 로그 방식이 더 빠르고 간편하다는 점과 디버거 설정의 복잡함이 꼽혔습니다.\n\n디버거를 사용하는 개발자들 사이에서는 lldb와 gdb가 가장 많이 활용되고 있으며, 특히 IDE 환경 내에서 lldb를 사용하는 경우가 빈번합니다. 디버깅 과정에서의 주요 문제점으로는 값의 표현 방식이 불명확하다는 점이 74%로 가장 높게 나타났으며, 변수 출력의 어려움이나 비동기 코드 디버깅 시의 불편함 등이 주요 고충으로 지목되었습니다. 특히 async 코드나 매크로가 포함된 코드에서 디버깅 시 문제가 발생한다는 응답이 많았습니다.\n\n라이브러리 저자들을 대상으로 한 조사에서는 많은 사용자가 debugger_visualizer 속성의 존재를 모르거나, 작성법을 알지 못해 이를 활용하지 못하고 있는 것으로 확인되었습니다.\n\n향후 Rust 커뮤니티는 이러한 설문 결과를 바탕으로 enums, HashMap, String 등 주요 타입의 디버깅 시 가독성을 개선하고, async 디버깅 경험 강화와 디버거 설정에 대한 문서화 작업을 추진할 계획입니다. 특히 Debug 구현체를 활용한 값 표시 방식의 개선과 같은 기술적 해결책이 검토되고 있으며, 테스트 자동화를 통한 비주얼라이저 스크립트의 안정성 확보에도 집중할 예정입니다.",
+    "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Sam Kellam",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "fetchedAt": "2026-09-07T19:15:33.138Z",
+    "tags": [
+      "Rust"
     ]
   },
   {
