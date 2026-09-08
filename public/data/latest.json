@@ -1,5 +1,118 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/",
+    "title": "Power agent hubs or custom harnesses with the Antigravity SDK in one toolkit",
+    "summary": "Enterprise agent adoption isn’t one-size-fits-all. While many teams will opt for managed commercial platforms, such as Gemini Enterprise Agent Platform for turnkey agent deployment and governance, dev",
+    "aiSummary": "기업 환경에서 독자적인 에이전트 허브를 구축하려는 개발자들을 위해 Antigravity SDK가 새로운 해결책을 제시합니다. 이 SDK는 Antigravity 2.0과 Antigravity CLI에서 사용하는 동일한 런타임 엔진을 제공하며 선언적 보안 정책, 실시간 원격 측정, 상태 유지 다중 턴 지속성 기능을 포함하고 있습니다. 이를 통해 개발자는 LLM 워크로드를 통합적으로 모니터링하고 관리하는 다중 에이전트 제어 평면을 구성할 수 있습니다.\n\nAntigravity SDK의 핵심 아키텍처는 크게 에이전트 코어와 관측성 및 원격 측정 미들웨어로 구성됩니다. 에이전트 코어는 Gemini 3.1 Pro나 Gemini 3.8 Flash와 같은 모델과의 상호작용, 도구 실행, 사고 과정 추적, 기술 실행을 담당합니다. 미들웨어는 Antigravity SDK Lifecycle Hooks를 활용하여 에이전트의 단계별 시작, 사고 업데이트, 도구 호출 등의 동작을 가로채고 이를 실시간으로 대시보드에 스트리밍합니다.\n\n운영 효율성을 높이기 위한 주요 메커니즘은 다섯 가지로 나뉩니다. 첫째, save_dir과 conversation_id를 통한 세션 초기화 및 상태 보존으로 모든 실행 기록을 감사할 수 있습니다. 둘째, SKILL.md 파일을 활용한 동적 기술 해결로 외부 레지스트리 없이도 도메인별 기능을 확장합니다. 셋째, ChatResponse를 통한 스트림 생성으로 텍스트 토큰, 사고 과정, 도구 호출 이벤트를 비동기적으로 처리합니다. 넷째, 선언적 보안 정책을 적용한 샌드박스형 도구 실행으로 작업 공간을 안전하게 제한합니다. 마지막으로, 생명주기 훅을 사용하여 에이전트의 전환을 실시간으로 감시하고 제어할 수 있습니다.\n\n결과적으로 개발자는 분산된 로그를 수동으로 확인하는 대신, Antigravity SDK를 활용하여 에이전트의 가동 상태, 토큰 사용량, 실행 지연 시간 등을 통합 대시보드에서 투명하게 확인하고 제어할 수 있습니다. 상세한 설정과 활용법은 공식 깃허브 저장소와 퀵 스타트 가이드를 통해 확인할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Wei Yih Yap"
+      ],
+      "title": [
+        "Forward Deployed Engineer, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-08T16:00:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/",
+    "title": "Agentic analytics with the Data Agent Kit",
+    "summary": "Imagine your director sends you a chat message Monday morning: Our average order value dropped 7% in January, but total revenue stayed flat. Why?\nIf you’re a data practitioner, you know why these type",
+    "aiSummary": "데이터 분석가들이 여러 시스템에 흩어진 데이터를 조회하기 위해 겪는 비효율적인 작업 환경을 개선하기 위해 Data Agent Kit이 출시되었습니다. Data Agent Kit은 다양한 데이터 소스와 상호작용할 수 있도록 지원하는 MCP 기반의 서버와 에이전트 스킬 세트를 제공합니다. 이를 통해 사용자는 IDE 환경을 벗어나지 않고도 자연어 명령만으로 데이터 분석을 수행할 수 있습니다.\n\nData Agent Kit의 핵심은 MCP 표준과 에이전트의 지식을 보완하는 스킬 파일입니다. 이 도구는 BigQuery와 같은 데이터 웨어하우스, Cloud SQL과 같은 운영 데이터베이스, 그리고 Cloud Storage의 비정형 데이터에 이르기까지 광범위한 소스를 통합적으로 탐색합니다. 에이전트는 사용자를 대신해 SQL을 작성하고 실행하며, 결과를 분석하여 복잡한 비즈니스 문제의 근본 원인을 파악합니다.\n\n분석 과정에서 보안을 위해 모든 쿼리 실행 전에는 사용자의 권한 승인 절차를 거치며, 사용자는 에이전트가 생성한 실행 경로와 쿼리 코드를 직접 검토할 수 있습니다. 또한 분석이 완료되면 에이전트를 활용해 ad-hoc 분석 내용을 dbt 프로젝트와 같은 지속 가능한 데이터 파이프라인으로 즉시 전환할 수 있습니다. 특히 에이전트가 데이터 품질 검사를 수행하고 오류를 스스로 수정하는 과정을 통해 개발 효율성을 극대화합니다.\n\nData Agent Kit은 현재 프리뷰 상태로 Antigravity, Cursor, Claude Code, Codex 등 다양한 개발 도구와 IDE에서 활용할 수 있습니다. 데이터 개발자는 반복적인 쿼리 작성과 환경 전환의 번거로움에서 벗어나, 에이전트를 감독하고 분석의 방향을 결정하는 고차원적인 작업에 집중할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jeff Nelson"
+      ],
+      "title": [
+        "Developer Advocate, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-08T16:00:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/",
+    "title": "How KDDI built Buffmee, a faster, reliable consumer RAG app",
+    "summary": "When building consumer-facing generative AI applications,  balancing high generation quality with fast response times across diverse media types, can be challenging. KDDI, a major telecommunications c",
+    "aiSummary": "일본의 통신사 KDDI는 사용자의 성장을 돕는 인터렉티브 AI 서비스인 Buffmee를 개발하는 과정에서 정보의 신뢰성과 응답 속도라는 두 가지 난제에 직면했습니다. Buffmee는 도서, 잡지, 웹 미디어 등 100개 이상의 소스를 기반으로 답변을 생성하며 출처를 명시함으로써 할루시네이션 문제를 해결하고 정보의 신뢰성을 높이는 데 주력했습니다.\n\nKDDI는 Gemini Enterprise Agent Platform Evaluation Service를 도입하여 수작업 중심의 테스트를 데이터 기반의 자동화된 평가 프레임워크로 전환했습니다. 이를 통해 모델이 답변의 근거를 얼마나 잘 활용하는지를 측정하는 groundedness 점수를 25% 향상시켰으며, 이진 평가 시스템 도입과 전략적 콘텐츠 샘플링을 통해 평가 워크로드를 75%까지 절감했습니다.\n\n성능 최적화 측면에서는 BigQuery Agent Analytics와 Agent Development Kit(ADK)를 활용해 실제 운영 로그를 분석했습니다. 특히 복잡한 시스템 프롬프트가 응답 속도를 저하시키는 주요 원인임을 파악하고, 이를 기능 단위의 ADK Skills로 모듈화하여 필요한 로직만 동적으로 로드하도록 개선했습니다.\n\n이러한 기술적 혁신을 통해 KDDI는 Buffmee의 전체 응답 지연 시간을 38% 단축하고, TTFT 성능을 약 18% 개선하는 성과를 거두었습니다. 결과적으로 KDDI는 대규모 콘텐츠를 정확하게 다루면서도 실시간 응답이 가능한 안정적인 RAG 시스템을 구축하여 사용자에게 개인화된 학습 및 정보 탐색 경험을 성공적으로 제공하고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Junichi Kashino"
+      ],
+      "title": [
+        "Platform Business Strategy Department, KDDI"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-08T16:00:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+    "aiSummary": "Google DeepMind가 개발한 AlphaGenome Atlas는 인간 유전체에 존재하는 90억 개의 단일 염기 변이가 분자 수준에서 어떤 영향을 미치는지 예측하여 시각화한 지도입니다. 이 지도는 유전자 변이가 신체에 끼치는 잠재적인 생물학적 결과를 체계적으로 정리하여 질병의 원인을 파악하고 개인 맞춤형 의료를 발전시키는 데 중요한 기초 자료로 활용될 전망입니다.",
+    "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-09-08T14:00:15.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
     "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
     "summary": "Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor, Kimberly Goody\nExecutive Summary \nSince the release of our May 2026 report detailing adversarial misuse of artificial intelligence (AI",
@@ -29,6 +142,73 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "title": "Introducing ChatGPT Images 2.5",
+    "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+    "aiSummary": "ChatGPT Images 2.5는 사용자의 아이디어와 스케치, 그리고 참고용 사진을 더욱 개인화되고 세련된 이미지로 변환하는 기능을 제공합니다. 이 모델은 사용자의 의도를 보다 정확하게 반영하여 고품질의 결과물을 생성하는 데 초점을 맞추고 있습니다.",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-08T11:30:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/navier-stokes-solution",
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+    "aiSummary": "AI를 활용하여 수학 난제인 Navier–Stokes Millennium Prize Problem에 대한 해결책을 제시하였습니다. 여기에는 문제 풀이 과정이 담긴 기술 문서와 함께 Lean을 이용한 정형화된 증명 결과가 포함되어 있습니다. 이는 복잡한 수학적 난제를 인공지능이 논리적으로 검증 가능한 형태로 해결할 수 있음을 보여주는 사례입니다.",
+    "url": "https://openai.com/index/navier-stokes-solution",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-08T10:00:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/delivering-real-time-personalization-with-databricks-and-redis/",
+    "title": "Delivering Real-Time Personalization with Databricks and Redis",
+    "summary": "Why real-time matters\n\nA customer is browsing an e-commerce site. They search for running shoes, open a product, read reviews, and add an item to the cart. Every one of those actions is a signal about",
+    "aiSummary": "이커머스 환경에서 고객이 상품을 검색하거나 장바구니에 담는 등의 행동은 즉각적인 의도를 파악할 수 있는 중요한 신호입니다. 실시간 개인화는 고객의 이러한 행동 데이터를 즉시 처리하여 사이트 환경에 반영함으로써 구매 전환율을 높이는 핵심 요소입니다.\n\nDatabricks와 Redis를 결합하면 이러한 실시간 개인화 구현이 가능합니다. Databricks는 데이터 레이크하우스 아키텍처를 통해 대규모 데이터를 분석하고 머신러닝 모델을 훈련하는 데 탁월한 성능을 발휘합니다. 훈련된 모델은 사용자의 실시간 행동 데이터를 분석하여 최적의 추천 결과를 도출합니다.\n\n추론된 개인화 데이터는 빠른 응답 속도가 필수적이므로 인메모리 데이터베이스인 Redis에 저장됩니다. 이를 통해 애플리케이션은 사용자에게 지연 시간 없이 초개인화된 콘텐츠를 즉각적으로 제공할 수 있습니다. 결과적으로 이 결합은 데이터 처리의 효율성과 실시간 서비스 응답 속도라는 두 가지 측면에서 강력한 비즈니스 경쟁력을 확보하게 합니다.",
+    "url": "https://redis.io/blog/delivering-real-time-personalization-with-databricks-and-redis/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Philip Laussermair, Anant Pingle",
+    "pubDate": "2026-09-08T00:00:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elasticon-2026",
+    "title": "See you at Elastic{ON} 2026",
+    "summary": "Elastic{ON} kicks off this September with seven stops in cities around the world. Elastic’s CEO Ash Kulkarni will be appearing at stops across the tour, opening keynotes with a candid conversation abo",
+    "aiSummary": "올해 9월부터 전 세계 7개 도시를 순회하며 Elastic{ON} 행사가 개최됩니다. 이번 행사에서는 Elastic의 CEO인 Ash Kulkarni가 직접 주요 기조연설을 맡아 오늘날 데이터가 가지는 가치에 대해 심도 있는 통찰을 공유할 예정입니다.",
+    "url": "https://www.elastic.co/blog/elasticon-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Dan Courcy",
+    "pubDate": "2026-09-08T00:00:00.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -223,6 +403,22 @@
     "tags": [
       "Kubernetes",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-04-new-customer-portal-help-github-com",
+    "title": "New customer portal help.github.com",
+    "summary": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search",
+    "aiSummary": "GitHub는 고객 지원 포털을 새롭게 개편하여 help.github.com으로 이전하였습니다.\n\n새로운 포털은 기존의 지원 서비스와 문서, 학습 자료, 커뮤니티, 계정 관련 자원들을 하나의 통합된 공간에서 제공합니다. 특히 Copilot 기반의 검색 기능을 도입하여 사용자가 필요한 정보를 더욱 빠르고 효율적으로 찾을 수 있도록 개선되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-04-new-customer-portal-help-github-com",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-04T17:08:10.000Z",
+    "fetchedAt": "2026-09-08T18:49:06.441Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -1419,248 +1615,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
-    "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
-    "summary": "I am excited to announce that etcd RangeStream is graduating to beta in\nKubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and\netcd need to read a large collection, and make",
-    "aiSummary": "Kubernetes v1.37 버전에서 etcd RangeStream 기능이 베타 단계로 도입되었습니다. 이 기능은 etcd v3.7과 함께 사용할 때 대규모 데이터를 읽어올 때 발생하는 메모리 사용량을 크게 줄이고 시스템 성능을 예측 가능하게 만듭니다.\n\n기존의 API server는 etcd로부터 데이터를 읽을 때 페이지 단위로 요청을 처리했습니다. 하지만 이 방식은 페이지당 객체 수에만 의존할 뿐 객체 자체의 크기를 고려하지 않아, 대형 객체를 읽을 경우 메모리 사용량이 급증하여 OOM 현상을 초래할 위험이 있었습니다. 또한 데이터를 완전히 조립한 후 전송하는 unary Range 방식은 API server와 etcd 양쪽 모두에 메모리 부담을 주는 구조였습니다.\n\n새롭게 도입된 RangeStream RPC는 데이터를 미리 전체 조립하지 않고 청크 단위로 나누어 스트리밍 방식으로 전송합니다. 청크 크기는 데이터 크기에 따라 적응적으로 조절되며 바이트 단위로 제어되기 때문에, 스트리밍이 진행됨에 따라 메모리가 즉시 해제되어 시스템 자원을 효율적으로 관리할 수 있습니다. \n\nRangeStream은 Kubernetes v1.37과 etcd v3.7 이상의 환경에서 EtcdRangeStream 기능 게이트를 통해 활성화됩니다. 해당 기능은 v1.37에서 기본값으로 설정되어 있으며, API server는 etcd의 지원 여부를 자동으로 확인하여 호환되지 않는 경우 기존의 페이지네이션 방식으로 안전하게 복구합니다. 사용자는 etcd_request_duration_seconds_count 메트릭의 listStream 연산 수치를 통해 RangeStream 기능이 정상적으로 동작하고 있는지 확인할 수 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-09-01T18:30:00.000Z",
-    "fetchedAt": "2026-09-02T01:07:05.841Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/sep/01/djangonaut-space-session-7-accepting-applications/",
-    "title": "Djangonaut Space - Session 7 Accepting Applications",
-    "summary": "We are thrilled to announce that Djangonaut Space, a mentorship program for contributing to Django, is open for applicants for our next cohort! 🚀\nSession 7 launches October 12th, 2026. We are current",
-    "aiSummary": "Django 기여자를 위한 멘토링 프로그램인 Djangonaut Space가 7번째 세션 참여자를 모집합니다. 이번 세션은 2026년 10월 12일에 시작되며, 지원 마감일은 2026년 9월 6일입니다.\n\nDjangonaut Space는 8주간 운영되는 무료 그룹 멘토링 프로그램으로, 참가자들이 Django 코드 기여 역량을 강화하고 향후 리더십 역할을 수행할 수 있도록 돕는 것을 목표로 합니다. 참가자들은 반구조화된 학습 환경에서 스스로 속도를 조절하며 프로젝트에 참여하게 됩니다.\n\n이 프로그램은 Django 코어 프레임워크를 탐색하고 적절한 이슈를 해결하며 Pull Request를 제출하는 과정을 체계적으로 지도합니다. 또한 Discord 커뮤니티를 통한 네트워킹과 Django Fellows 및 베테랑 메인테이너들의 전문적인 조언을 제공합니다. 다양한 배경의 개발자들이 함께 성장하고 기여 문화를 경험할 수 있는 포용적인 환경을 조성하는 데 중점을 두고 있습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/sep/01/djangonaut-space-session-7-accepting-applications/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Djangonaut Space Mission Control",
-    "pubDate": "2026-09-01T17:13:15.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-    "title": "Introducing agentic video understanding with Gemini",
-    "summary": "Sep 01, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Our new agentic feature for video analysis",
-    "aiSummary": "Google DeepMind는 Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash-Lite 모델에 적용되는 새로운 agentic video understanding 기능을 발표했습니다. 이 기술은 기존의 고정된 프레임 단위 처리 방식에서 벗어나, Gemini 모델이 스스로 영상의 필요한 부분만을 능동적으로 탐색하고 분석하는 agentic 루프 방식을 도입한 것이 핵심입니다.\n\n이를 통해 분석 정확도는 최대 7퍼센트 향상되면서도 토큰 소비량은 최대 88퍼센트, 비용은 최대 66퍼센트까지 절감하는 뛰어난 효율성을 제공합니다. 특히 장시간 영상 분석에서 데이터 누락 없이 정밀한 결과를 도출할 수 있다는 점이 큰 강점입니다.\n\n주요 활용 사례로는 초 단위 순간 검색, 긴 영상에서의 핵심 내용 추출, 이상 현상 탐지, 객체 및 동작의 정확한 추적 등이 포함됩니다. 해당 기능은 Google AI Studio와 Gemini Enterprise Agent Platform의 Gemini API를 통해 즉시 사용할 수 있으며, 향후 Gemini 앱과 YouTube의 Ask YouTube 기능에도 확대 적용될 예정입니다.",
-    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-01T17:08:51.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-    "title": "Introducing agentic video understanding with Gemini",
-    "summary": "We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.",
-    "aiSummary": "Google은 최신 Gemini 모델 전반에 걸쳐 에이전트 기반의 영상 이해 기능을 새롭게 도입합니다. 이번 업데이트를 통해 영상 분석의 정확도가 한층 향상되었으며 동시에 처리 비용과 토큰 사용량을 효율적으로 절감할 수 있게 되었습니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Rohan Doshi"
-      ],
-      "title": [
-        "Senior Product Manager"
-      ],
-      "department": [
-        "Google DeepMind"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-01T17:00:00.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
-    "title": "Block users from discussion comments in personal repositories",
-    "summary": "You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull ",
-    "aiSummary": "GitHub가 개인 계정 저장소의 토론 댓글에서도 사용자를 직접 차단하거나 차단 해제할 수 있는 기능을 추가했습니다. 기존에 이슈나 풀 리퀘스트에서만 제공되던 문맥 내 차단 제어 기능을 토론 영역까지 확장한 것입니다. 이제 사용자들은 저장소 관리 페이지로 이동할 필요 없이 댓글 화면에서 즉시 부적절한 참여자를 관리할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-01T16:30:01.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/",
-    "title": "How Blackline simplifies perimeter policy intelligence with VPC Service Controls",
-    "summary": "Establishing network-level perimeters with VPC Service Controls (VPC-SC) is a critical step that can help you protect your cloud environment against data exfiltration, compromised accounts, and inside",
-    "aiSummary": "Google Cloud는 VPC Service Controls의 운영 효율성을 높이기 위해 새로운 정책 인텔리전스 기능인 Violation Analyzer와 Violation Dashboard를 발표했습니다. 이 도구들은 클라우드 환경에서 데이터 유출 방지와 보안 경계 관리를 수행하는 기업들이 보안 위협에 더욱 신속하게 대응할 수 있도록 지원합니다.\n\nBlackLine은 해당 솔루션을 도입하여 복잡한 보안 경계를 효과적으로 관리하고 있습니다. 기존에는 보안 위반 사항을 조사하기 위해 Cloud Logging에서 직접 SQL 쿼리를 작성해야 했으나, 이제는 Violation Analyzer를 통해 고유 ID나 토큰만으로도 API 요청 실패 원인, 관련 주체, 타겟 리소스 등을 상세히 파악할 수 있게 되었습니다. 이를 통해 문제 해결까지 걸리는 시간인 MTTR을 크게 단축했습니다.\n\n새롭게 추가된 Violation Dashboard는 조직 전체의 보안 경계 위반 사례를 한눈에 시각화하여 모니터링할 수 있도록 돕습니다. 특정 프로젝트나 ID별로 필터링이 가능하여 액세스 거부 사례의 추세를 확인하기 용이합니다.\n\n이러한 기능들은 초기 단계의 보안 경계 테스트부터 실시간 모니터링, 상세 원인 조사, 그리고 정책 수정에 이르는 전체 운영 수명 주기를 단순화합니다. 관리자들은 수동으로 로그를 분석하는 번거로움 없이 직관적인 보고서를 바탕으로 최소 권한 원칙을 준수하는 보안 환경을 효율적으로 구축하고 유지할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Pratik Bhangale"
-      ],
-      "title": [
-        "Product Manager, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-01T16:00:00.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/tabfm-adds-predictive-ml-to-bigquery/",
-    "title": "Introducing TabFM in BigQuery: Predictive analytics reimagined",
-    "summary": "Historically, enterprise predictive analytics tasks such as predicting churn, purchase intent, or fraud scoring have meant building custom models using libraries like XGBoost, Random Forest, or Deep N",
-    "aiSummary": "Google은 기업용 예측 분석의 복잡성을 해결하기 위해 BigQuery 내에서 사전 학습된 파운데이션 모델인 TabFM을 새롭게 발표했습니다. 그동안 기업에서 이탈 예측이나 구매 의도 파악 등을 위해 수행하던 모델 학습, 튜닝, 배포의 복잡한 과정을 제거하고, SQL 구문 하나로 즉각적인 예측 결과를 도출할 수 있게 지원합니다.\n\nTabFM은 Google Research에서 개발한 모델로, ICL 기술을 활용하여 별도의 학습 과정 없이 데이터만 입력하면 즉시 결과를 얻는 제로샷 예측을 제공합니다. 사용자는 AI.PREDICT와 AI.EVALUATE와 같은 내장 SQL 함수를 통해 복잡한 피처 엔지니어링 과정 없이도 즉시 분류 및 회귀 분석을 수행할 수 있습니다. 결측값 처리나 범주형 인코딩 등도 자동으로 처리되므로 데이터 과학 전문 지식이 부족한 사용자도 높은 수준의 예측 정확도를 확보할 수 있습니다.\n\n또한 BigQuery의 분산 추론 아키텍처를 활용하여 수백만 건의 데이터를 단 몇 분 만에 처리하는 확장성을 갖추고 있습니다. 기존의 XGBoost와 같은 전통적인 머신러닝 모델이 대규모 데이터셋과 세밀한 하이퍼파라미터 튜닝이 필요할 때 적합하다면, TabFM은 신속한 분석이 필요한 중소 규모 데이터나 빈번하게 데이터가 변경되는 환경, 혹은 에이전트 기반 애플리케이션에 매우 효과적입니다. 현재 TabFM은 BigQuery에서 프리뷰 버전으로 이용할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/tabfm-adds-predictive-ml-to-bigquery/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Vaibhav Sethi"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-01T16:00:00.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/secure-mainframe-access-with-hashicorp-boundary",
-    "title": "Secure mainframe access with HashiCorp Boundary",
-    "summary": "Mainframes remain the backbone of many of the world’s critical systems, processing millions of transactions per second while delivering near-continuous availability. From powering Wall Street transact",
-    "aiSummary": "많은 기업의 핵심 시스템인 메인프레임은 오늘날까지도 방대한 트랜잭션을 처리하며 중추적인 역할을 수행하고 있습니다. 그러나 여전히 HTTP(S), SSH, TN3270과 같은 전통적인 프로토콜을 사용하고 있어 보안, 거버넌스, 감사 측면에서 취약점이 발생합니다. 특히 정적 자격 증명 사용, 파편화된 감사 기록, 과도한 권한 부여 등은 운영 복잡성을 높이고 공격자에게 이동 경로를 제공하는 원인이 됩니다.\n\nHashiCorp Boundary는 이러한 문제를 해결하기 위해 아이덴티티 기반의 권한 접근 관리 플랫폼으로서 메인프레임 접속 방식을 현대화합니다. Boundary는 사용자 ID와 사전 정의된 정책을 결합하여 HMC, SSH, TN3270 등 다양한 접근 경로를 안전하게 중개합니다. 특히 HashiCorp Vault와 통합될 경우, 접근 시점에만 유효한 자격 증명을 생성하여 주입함으로써 정적 자격 증명에 대한 의존도를 제거하고 보안성을 크게 강화합니다.\n\n구체적인 구축 방식으로는 메인프레임과 인접한 네트워크에 Boundary 워커를 배치하는 형태를 사용합니다. 이를 통해 사용자는 직접적인 네트워크 노출 없이 일관된 인증 체계를 거쳐 시스템에 접근하게 되며, 모든 세션 기록과 접근 로그가 중앙에서 관리됩니다.\n\n결과적으로 HashiCorp Boundary는 기존의 메인프레임 운영 환경을 완전히 변경하지 않으면서도, 제로 트러스트 원칙을 적용하고 중앙 집중식 가시성을 확보할 수 있는 제어 계층을 제공합니다. 이는 상시 권한을 축소하고 실시간 감사 기능을 강화하고자 하는 조직에게 효과적인 보안 솔루션이 됩니다.",
-    "url": "https://www.hashicorp.com/blog/secure-mainframe-access-with-hashicorp-boundary",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Midhun Joy",
-    "pubDate": "2026-09-01T16:00:00.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
-    "title": "HashiCorp Vault agentic IAM is now generally available",
-    "summary": "In June, we announced the public preview of native AI agent support in HashiCorp Vault. We are excited to make these new native agentic IAM capabilities generally available in Vault Enterprise 2.1.  \n",
-    "aiSummary": "HashiCorp은 Vault Enterprise 2.1 버전을 통해 AI 에이전트를 위한 네이티브 IAM 기능을 정식 출시했습니다. 이번 업데이트는 기업이 AI 워크플로우를 도입할 때 에이전트의 신원을 안전하게 관리하고, 정책 기반의 비밀 정보 접근 제어 및 감사 체계를 구축할 수 있도록 지원합니다.\n\nVault UI에는 에이전트의 신원, 인증 활동, 정책 및 네임스페이스 정보를 한눈에 파악할 수 있는 Agent Registry가 새롭게 추가되었습니다. 이를 통해 관리자는 에이전트 등록과 설정을 중앙에서 효율적으로 제어할 수 있으며, API나 CLI, Terraform Vault Provider를 통한 선언적 관리도 가능합니다.\n\n보안 강화를 위해 Vault는 IETF RFC 9396 표준인 RAR을 기본적으로 적용합니다. 이를 통해 광범위한 권한 대신 요청별로 세밀한 권한 범위를 설정할 수 있으며, 에이전트가 요청을 보낼 때마다 OAuth JWT를 검증하여 일시적인 토큰 메타데이터를 생성합니다. 모든 인증 요청과 응답은 감사 로그에 기록되어 보안 추적성을 보장합니다.\n\n또한, 대리인 역할을 수행하는 에이전트 워크플로우를 위해 사용자 신원과 에이전트 권한을 결합한 다중 검증 체계를 제공합니다. 사용자의 권한과 에이전트의 허용 정책, 그리고 상세 권한 요구사항의 교집합 내에서만 접근이 허용되도록 설계되어 보안성을 높였습니다.\n\nHashiCorp은 IBM Verify, Auth0, PingFederate, Microsoft Entra, Okta 등 다양한 신원 공급자와의 통합을 검증했습니다. 이번 정식 출시를 통해 기업은 기존의 보안 운영 모델을 AI 에이전트 환경으로 확장하여, 개발 속도를 저해하지 않으면서도 에이전트 기반의 워크플로우를 안전하게 확장할 수 있게 되었습니다.",
-    "url": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Claudia Cornali-Motta",
-    "pubDate": "2026-09-01T16:00:00.000Z",
-    "fetchedAt": "2026-09-01T18:38:42.063Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-    "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
-    "summary": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work ta",
-    "aiSummary": "Anthropic의 최신 모델인 Claude Fable 5.1이 GitHub Copilot에 정식으로 도입되었습니다.\n\nClaude Fable 5.1은 Anthropic의 Mythos 모델 계열에 속하며 장기적인 관점에서 자율적인 코딩 작업과 지식 기반 업무를 수행하도록 설계되었습니다. 이번 통합을 통해 GitHub Copilot 사용자는 더욱 고도화된 AI 추론 능력을 활용하여 복잡한 개발 과제를 효율적으로 처리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-01T14:29:23.000Z",
-    "fetchedAt": "2026-09-02T01:07:05.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
-    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
-    "summary": "Introduction \nBeginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) track",
-    "aiSummary": "Mandiant는 2024년부터 브라질의 금융 서비스, 유통, 이커머스 조직을 표적으로 삼아 결제 시스템과 은행 소프트웨어를 조작하는 위협 행위자 BREEZE COMET을 추적하고 있습니다. 이들은 과거 UNC5669로 불렸으며, 금융권의 핵심 인프라인 Pix, STR, Boleto 시스템 등에 접근하여 부정 송금을 실행하는 것을 주된 목적으로 합니다.\n\nBREEZE COMET은 피싱, RMM 도구 악용, 신뢰받는 정부 웹사이트 침해 등을 통해 초기 거점을 확보합니다. 이후 REALBREEZE와 같은 맞춤형 도구를 활용해 Active Directory와 CI/CD 환경 내 자격 증명을 탈취하고, 내부 망을 이동하며 권한을 상승시킵니다. 특히 Rust 기반의 COBALTSPIN과 같은 경량 네트워크 터널링 도구를 사용하여 내부 방화벽을 우회하고 금융 API 인프라에 대한 지속적인 접근 권한을 유지합니다.\n\n공격의 지속성을 위해 이들은 LIGHTPAINT, MILDFROST, KICKPLATE, BOATBEAM 등 다양한 언어로 작성된 백도어를 배포하며, Windows Defender와 같은 보안 솔루션을 강제로 비활성화하는 치밀함을 보입니다. 주목할 점은 이들이 생성형 AI를 활용해 정찰 스크립트 작성, 자격 증명 검증, 배포 자동화 등을 수행하며 공격의 속도와 정교함을 획기적으로 높였다는 점입니다.\n\n실제 공격 사례에서 이들은 침투 후 24~48시간 이내에 수백 건의 부정 거래를 실행한 뒤, 증거 인멸을 위해 로그를 삭제하는 대담한 행보를 보였습니다. 이러한 위협에 대응하기 위해 Mandiant는 애플리케이션 제어 정책 강화, 네트워크 접근 제어(NAC) 도입, 다중 인증(MFA) 의무화, 그리고 아웃바운드 트래픽에 대한 심층 패킷 검사(DPI)를 통한 철저한 방어 체계 구축을 권고합니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-01T12:37:51.264Z",
-    "fetchedAt": "2026-09-01T12:37:51.264Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
