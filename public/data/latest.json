@@ -1,5 +1,229 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_138",
+    "title": "Visual Studio Code 1.138 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.138 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.138 Insiders 버전이 새롭게 출시되었습니다. 이번 업데이트에는 제품의 기능 향상과 사용자 편의성을 높이기 위한 다양한 개선 사항이 포함되어 있습니다. 자세한 변경 내역과 새로운 기능은 공식 문서에서 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_138",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-09-09T18:43:17.563Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
+    "title": "GitHub Advanced Security expands trial availability",
+    "summary": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprise",
+    "aiSummary": "GitHub가 자사의 기업용 보안 솔루션인 GitHub Advanced Security에 대한 체험 기회를 확대합니다. 기존에는 특정 규모 이하의 기업에만 제한적으로 제공되던 자가 주도형 체험판을 더 많은 GitHub Enterprise Cloud 고객이 이용할 수 있도록 자격 요건을 완화했습니다. 이를 통해 더 많은 기업이 GitHub Code Security와 GitHub Secret Protection 기능을 사전에 평가하고 도입할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T17:33:34.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging",
+    "title": "Block pull requests with exposed secrets from merging",
+    "summary": "Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request int",
+    "aiSummary": "GitHub는 Repository rulesets 기능을 업데이트하여 보안을 강화했습니다. 이제 개발자는 사용자가 제출한 Pull requests에 노출된 비밀 정보가 포함되어 있을 경우 이를 자동으로 탐지하고 병합을 차단하도록 설정할 수 있습니다. 해당 기능은 Repository rulesets를 통해 여러 저장소에 걸쳐 확장 가능한 보호 정책을 일괄적으로 적용할 수 있도록 지원합니다. 이를 통해 코드 저장소에 민감한 정보가 실수로 포함되어 배포되는 사고를 사전에 방지할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T17:14:02.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/how-to-replicate-sql-server-logins-and-passwords-to-cloud-sql/",
+    "title": "Beyond DMS: Accelerating Migrations SQL Server Logins and Users to Cloud SQL",
+    "summary": "So, you’ve planned your database modernization journey. You’ve set up Google Cloud’s Database Migration Service (DMS), configured replication, and successfully synchronized your application databases ",
+    "aiSummary": "Google Cloud의 Database Migration Service를 사용하여 온프레미스에서 Cloud SQL for SQL Server로 데이터베이스를 이전할 때 서버 수준의 로그인 정보는 보안과 규정 준수를 이유로 자동으로 마이그레이션되지 않습니다. 이로 인해 대상 환경에서 데이터베이스 사용자가 서버 로그인과 연결되지 못하는 고아 사용자 문제가 발생할 수 있습니다.\n\nSQL Server는 로그인과 사용자 간의 연결을 유지하기 위해 고유한 Security Identifier를 사용합니다. 데이터베이스 데이터는 이전되지만 서버 수준의 로그인 정보가 없거나 Security Identifier가 일치하지 않으면 인증 오류가 발생합니다.\n\n이를 해결하기 위해 Microsoft에서 제공하는 sp_help_revlogin 스크립트를 활용하는 것이 권장됩니다. 이 도구는 소스 인스턴스의 로그인 정보와 암호 해시, Security Identifier를 포함한 T-SQL 스크립트를 생성하며 이를 대상 Cloud SQL 인스턴스에서 실행하면 로그인 정보를 동일하게 복원할 수 있습니다.\n\n이미 대상 인스턴스에 잘못된 로그인 정보가 생성되어 고아 사용자가 발생한 경우에는 ALTER USER 명령어를 통해 서버 로그인과 데이터베이스 사용자를 다시 매핑하여 문제를 해결할 수 있습니다.\n\n마이그레이션 이후에는 보안 강화를 위해 기존의 레거시 SQL 인증 대신 Customer-Managed Active Directory와 같은 클라우드 네이티브 식별 솔루션을 도입하여 인증 체계를 현대화하는 것이 권장됩니다.",
+    "url": "https://cloud.google.com/blog/products/databases/how-to-replicate-sql-server-logins-and-passwords-to-cloud-sql/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Assaf Fraenkel"
+      ],
+      "title": [
+        "SQL Server Blackbelt"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-09T16:30:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.8.2?1788970157773",
+    "title": "Node.js 26.8.2 (Current)",
+    "summary": "Skip to content (https://nodejs.org/en/blog/release/v26.8.2#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Blo",
+    "aiSummary": "Node.js 26.8.2 버전이 새롭게 릴리즈되었습니다. 이번 업데이트는 주요 의존성 업데이트와 기능 보안 정책 강화, 그리고 다수의 문서화 개선 및 테스트 안정화 작업을 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다. 먼저 node:net 모듈 내의 Server.prototype._listen2 메서드가 폐기 대상으로 지정되었습니다. 실험적 기능에 대한 보안 취약점 대응 태세가 한층 정교해졌으며, 주요 의존성인 Undici는 8.10.2 버전으로, OpenSSL은 3.5.8 버전으로 각각 업데이트되었습니다. 또한 npm은 11.19.1 버전으로, Corepack은 0.36.0 버전으로 판올림되었습니다.\n\n빌드 및 환경 지원 측면에서는 riscv64 아키텍처에 대한 빌드 플래그 설정과 최적화가 이루어졌으며, GN 빌드에서 NODE_ARCH를 target_cpu로부터 유도하도록 개선되었습니다. 윈도우 환경에서는 LTO 병렬 처리 제한이 제거되었습니다.\n\n그 외에도 simdjson, perfetto, zlib 등 다양한 내장 라이브러리가 최신 상태로 갱신되었습니다. 문서화 부문에서는 AI 가이드라인 리팩토링, TLS 관련 경고 문구 수정, 테스트 리포터 이벤트 다이어그램 추가 등 사용자 가이드를 위한 대대적인 정비가 진행되었습니다.\n\n테스트와 도구 측면에서도 다수의 플래키 테스트가 수정되어 안정성이 강화되었으며, 기여자들을 위한 자동화 도구와 GitHub 액션 관련 구성 요소들도 최신 버전으로 업데이트되었습니다. 세부적인 내부 바인딩 타입 정의 또한 추가되어 개발 편의성을 높였습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.8.2",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-09-09T16:09:17.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=53158",
+    "title": "Percona Operator for PostgreSQL 3.1.0: Transparent Data Encryption, Logical Replicas, and Persistent Logging",
+    "summary": "Percona Operator for PostgreSQL 3.1.0 takes on three things that decide whether a PostgreSQL platform passes review: is the data encrypted at rest, can it serve reads without straining the primary, an",
+    "aiSummary": "Percona Operator for PostgreSQL 3.1.0 버전이 새롭게 출시되었습니다. 이번 업데이트는 데이터 보안과 가용성, 그리고 관리 효율성을 강화하는 데 중점을 두었습니다.\n\n가장 먼저 TDE 기능을 도입하여 저장 중인 데이터를 암호화함으로써 보안성을 높였습니다. 또한 Logical Replicas 기능을 통해 기본 서버의 부하를 줄이면서 읽기 작업을 효율적으로 분산할 수 있게 되었습니다. 마지막으로 Persistent Logging 기능을 제공하여 시스템 장애 시 필요한 로그를 안정적으로 보존하고 분석할 수 있는 환경을 마련했습니다.\n\n이번 3.1.0 버전은 커스텀 리소스 설정을 통해 이러한 핵심 기능들을 통합적으로 관리할 수 있도록 지원합니다.",
+    "url": "https://www.percona.com/blog/percona-operator-for-postgresql-3-1-0-transparent-data-encryption-logical-replicas-persistent-logging/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Slava Sarzhan",
+    "pubDate": "2026-09-09T16:08:31.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/media-entertainment/how-airtel-delivered-its-flawless-indian-premiere-league-2026-cricket-broadcasts/",
+    "title": "How Airtel delivered its flawless Indian Premiere League 2026 cricket broadcasts",
+    "summary": "For the millions of fervent fans of the Indian Premiere League (IPL), being able to count on a flawless live streaming cricket experience is never up for debate. For Airtel, producing league TV broadc",
+    "aiSummary": "Airtel은 IPL 2026 시즌의 방대한 실시간 트래픽을 처리하고 끊김 없는 시청 경험을 제공하기 위해 Google Cloud와 협력했습니다. 74개 경기를 중계하는 동안 수백 페타바이트 규모의 데이터를 안정적으로 전송했으며 결승전에서는 초당 수 테라비트의 피크 트래픽을 기록했습니다.\n\n핵심 전략은 Google Cloud의 Media CDN을 활용한 엣지 아키텍처의 설계입니다. 인도 전역의 사용자들과 물리적으로 가까운 위치에서 콘텐츠를 제공하는 로컬라이제이션 전략을 통해 전체 트래픽의 99.9%를 인도 내에서 처리했습니다. 이를 통해 98% 이상의 캐시 적중률과 300ms 미만의 p99 지연 시간을 달성하여 버퍼링 없는 고품질 스트리밍 환경을 구축했습니다.\n\n또한 기술적 아키텍처와 더불어 체계적인 운영 전략이 병행되었습니다. 양사 엔지니어링 팀은 사전 지원 준비 상태 검토를 통해 트래픽 예측과 장애 조치 메커니즘을 미리 검증했습니다. 더불어 Media CDN의 MaaS를 통한 실시간 원격 측정 모니터링과 경기 당일 및 주말 집중 지원 체계를 가동하여 이상 징후를 사전에 탐지하고 즉각 대응했습니다.\n\n이러한 통합적 접근 방식은 대규모 실시간 스포츠 중계에서 엣지 효율성과 운영 거버넌스가 어떻게 결합되어야 하는지를 보여주는 성공적인 사례로 평가됩니다. Airtel은 이번 프로젝트를 통해 고도의 동시 접속 환경에서도 스포츠 중계의 신뢰성을 확보하는 기술적 표준을 마련했습니다.",
+    "url": "https://cloud.google.com/blog/products/media-entertainment/how-airtel-delivered-its-flawless-indian-premiere-league-2026-cricket-broadcasts/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Hitesh Bhatia"
+      ],
+      "title": [
+        "Assistant Vice President and Head of Engineering, Airtel Digital"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-09T16:00:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/spanner-removes-dml-mutation-limits/",
+    "title": "Spanner: Removing cumulative mutation limits for DML transactions",
+    "summary": "Spanner is Google Cloud’s no-compromise operational database that gives you the horizontal scale and always-on availability of a modern distributed system along with the rich feature set and familiar ",
+    "aiSummary": "Google Cloud의 분산 데이터베이스인 Spanner가 DML 트랜잭션에 대한 누적 변경 제한 규정을 대폭 완화하는 업데이트를 발표했습니다. 기존에는 트랜잭션 전체를 통틀어 80,000개의 뮤테이션 제한이 적용되었으나, 이번 변경을 통해 각 DML 문별로 독립적인 제한이 적용되도록 개선되었습니다.\n\n이로써 하나의 트랜잭션 내에서 처리할 수 있는 DML 문의 개수에 제한이 사라졌으며, 개별 DML 문이 80,000개의 뮤테이션 모드 미만이라면 트랜잭션 내에서 자유롭게 실행할 수 있게 되었습니다. 이러한 변화는 기존 애플리케이션 코드의 수정 없이도 즉시 적용 가능하며, 복잡한 비즈니스 로직을 더 유연하게 처리할 수 있도록 돕습니다.\n\n다만, 대규모 트랜잭션이 길어질 경우 잠금 경합이나 트랜잭션 중단 가능성이 커질 수 있으므로 여전히 효율적인 트랜잭션 관리가 권장됩니다. 또한, Mutation API를 사용하는 경우에는 기존과 동일하게 전체 호출에 대해 80,000 제한이 유지되며, 단일 DML 문 자체가 80,000 모드를 초과하는 경우에도 기존과 마찬가지로 오류가 발생합니다.\n\n개발자들은 CommitStats의 mutation_count를 모니터링하여 운영 부하를 파악하고, 단일 문이 제한을 초과하는 대규모 작업의 경우 Partitioned DML 등을 활용하여 최적화할 것을 권장합니다. 이번 업데이트를 통해 데이터 일관성과 가용성을 유지하면서도 더욱 확장성 높은 트랜잭션 처리가 가능해졌습니다.",
+    "url": "https://cloud.google.com/blog/products/databases/spanner-removes-dml-mutation-limits/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Rajeshwar Vanka"
+      ],
+      "title": [
+        "Staff Software Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-09T16:00:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "Tailwind Labs is joining Shopify",
+    "title": "Tailwind Labs is joining Shopify",
+    "summary": "We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it.",
+    "aiSummary": "Tailwind Labs가 Tailwind의 장기적인 안정성과 지속적인 유지보수를 보장하기 위해 Shopify에 합류합니다. 이번 결정은 Tailwind를 사용하는 수백만 명의 사용자에게 더욱 안정적인 환경을 제공하려는 목적을 담고 있습니다. 앞으로 Tailwind는 Shopify의 지원을 바탕으로 프로젝트의 미래를 견고하게 다져나갈 예정입니다.",
+    "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+    "category": "프론트엔드",
+    "source": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "pubDate": "2026-09-09T13:15:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Tailwind",
+      "CSS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+    "title": "Remediate Code Quality findings with agentic autofix",
+    "summary": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the…\nThe post Remediate Code Quality findin",
+    "aiSummary": "GitHub에서 코드 품질 백로그에 쌓인 문제들을 효율적으로 해결할 수 있는 Agentic autofix 기능을 새롭게 출시했습니다. 사용자는 페이지당 최대 25개의 표준 코드 품질 검출 결과를 한 번에 선택하여 자동으로 수정 작업을 할당할 수 있습니다. 이를 통해 개발자는 반복적인 코드 수정 업무를 줄이고 코드 품질 개선 작업을 더욱 신속하게 진행할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T12:21:01.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/release/v24.21.0?1788954920945",
+    "title": "Node.js 24.21.0 (LTS)",
+    "summary": "Skip to content (https://nodejs.org/en/blog/release/v24.21.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/download)Bl",
+    "aiSummary": "Node.js 24.21.0 Krypton LTS 버전이 2026년 9월 8일에 공개되었습니다. 이번 릴리스에는 보안 및 성능 향상을 위한 다수의 기술적 업데이트와 문서 개선 사항이 포함되어 있습니다.\n\n주요 변경 사항은 다음과 같습니다.\n\n보안 및 의존성 업데이트를 통해 루트 인증서가 NSS 3.126으로 갱신되었으며, OpenSSL이 3.5.8 버전으로 업데이트되었습니다. 또한 Undici는 7.29.1 버전으로, Corepack은 0.36.0 버전으로 각각 상향 조정되었습니다.\n\n기능 개선 측면에서는 crypto 모듈에서 STORE 로더를 통한 개인 키 로딩을 지원하며, FIPS 모드 비활성화 이슈 수정 및 BoringSSL 관련 API 정리가 이루어졌습니다. 성능 최적화와 관련해서는 net.BlockList의 성능이 개선되었고, 히스토그램 구현체 향상 및 통계적 가설 검정 기능이 perf_hooks에 추가되었습니다. 이외에도 MIMEType.parse에 예외를 발생시키지 않는 옵션이 도입되는 등 개발 편의성을 위한 변경이 진행되었습니다.\n\n빌드 시스템에서는 윈도우 환경을 위한 PGO 워크로드 스크립트가 추가되었으며, OpenSSL 매크로 처리 개선 및 AVX-512 어셈블리 지원 등이 포함되었습니다.\n\n마지막으로 공식 문서 전반에 걸쳐 불명확한 설명을 보완하고, 깨진 링크를 수정하거나 누락된 반환 타입 정보를 추가하는 등 전반적인 가독성과 정확성을 높이는 작업이 다수 진행되었습니다. 또한 기여 가이드라인에 AI 활용 지침이 새롭게 포함된 점이 특징입니다.",
+    "url": "https://nodejs.org/en/blog/release/v24.21.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-09-09T11:55:20.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
     "id": "https://supabase.com/blog/supabase-is-now-available-in-gemini-enterprise",
     "title": "Supabase is now available in Gemini Enterprise",
     "summary": "Connect Supabase to Gemini Enterprise and query your Supabase projects with natural language, right inside the platform.",
@@ -14,6 +238,22 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-31-0",
+    "title": "Queue totalSize() and JobInterrupted Event in Laravel 13.31",
+    "summary": "Laravel 13.31 adds Queue::totalSize() to count every job on a connection, a JobInterrupted event, and chaperone support for BelongsToMany pivot models.\nThe post Queue totalSize() and JobInterrupted Ev",
+    "aiSummary": "Laravel 13.31 버전에서는 큐 시스템의 기능을 강화하는 새로운 기능들이 추가되었습니다.\n\n먼저 Queue::totalSize() 메서드가 도입되어 특정 연결에 존재하는 모든 작업을 손쉽게 카운트할 수 있게 되었습니다.\n\n또한 작업 중단 상황을 감지할 수 있는 JobInterrupted 이벤트가 새롭게 추가되어 더욱 세밀한 작업 제어가 가능해졌습니다.\n\n이외에도 BelongsToMany 피벗 모델에 대한 chaperone 지원 기능이 포함되어 데이터베이스 관계 관리의 유연성이 향상되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-31-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-09-09T03:39:27.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -47,6 +287,70 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://react.dev/blog/2026/09/09/react-19-3",
+    "title": "React 19.3",
+    "summary": "React 19.3 adds new features like View Transitions, Fragment Refs, browser(), Trusted Types, and more.",
+    "aiSummary": "React 19.3 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 View Transitions API 지원과 Fragment Refs 기능이 추가되었습니다. 또한 브라우저 환경을 제어하기 위한 browser() 함수와 보안 강화를 위한 Trusted Types 지원이 포함되었습니다. 이외에도 여러 개선 사항이 적용되어 전반적인 개발 경험이 향상되었습니다.",
+    "url": "https://react.dev/blog/2026/09/09/react-19-3",
+    "category": "프론트엔드",
+    "source": "React Blog",
+    "author": "The React Team",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/09/spring-tools-5-4-0-released",
+    "title": "Spring Tools 5.4.0 released",
+    "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.4.0 release of the Spring Tools\nfor Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code.\n (https://sprin",
+    "aiSummary": "Spring Tools 5.4.0 버전이 정식으로 공개되었습니다. 이번 업데이트는 Visual Studio Code, Cursor, Eclipse, Theia를 비롯하여 Claude Code 환경을 지원합니다.\n\n주요 변경 사항으로는 @ApplicationModuleListener, @SpringJUnitConfig, @RestController 및 특정 @Scope 어노테이션으로 변환하는 새로운 유효성 검사 기능과 빠른 수정 기능이 추가되었습니다. 또한 Claude Code 환경에서 프로젝트의 논리적 구조를 시각화하는 기능이 강화되었으며, 소스 코드 인덱싱 신뢰도 향상 및 빠른 수정 작업과 버전 검증 과정에서의 속도가 대폭 개선되었습니다.\n\nEclipse 배포판은 최신 Eclipse 2026-09 버전으로 업데이트되었습니다. 상세한 변경 사항은 GitHub의 릴리스 노트를 통해 확인할 수 있으며, 관련 도구는 공식 홈페이지를 통해 다운로드 가능합니다. 차기 버전인 5.5.0은 2026년 12월 중순에 출시될 예정입니다.",
+    "url": "https://spring.io/blog/2026/09/09/spring-tools-5-4-0-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "martinlippert",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/9/9/agents-on-rails-stage-2",
+    "title": "Agents on Rails: Stage 2. Can a model ship a feature?",
+    "summary": "Today we’re expanding Agents on Rails with Stage 2, a new set of benchmark tasks that exercise a model’s ability to deliver real-world features, more in line with how a developer would actually work.\n",
+    "aiSummary": "Agents on Rails가 모델의 실제 기능 구현 능력을 평가하는 새로운 벤치마크 단계인 Stage 2를 공개하였습니다. Stage 1이 Rails 프레임워크에 대한 단순 지식을 측정했다면, Stage 2는 실제 개발 환경에서 피처 티켓을 받아 전체 기능을 완성할 수 있는지를 평가하는 데 중점을 둡니다.\n\n이번 테스트 결과에서 GPT-6 Astra가 가장 높은 정확도와 빠른 처리 속도, 비용 효율성을 모두 갖춘 모델로 선정되었습니다. 반면, Stage 1에서 우수한 가성비를 보였던 GPT-5.6 Luna는 복잡한 실제 업무 처리에 실패하며 더 큰 규모의 작업에서는 고도화된 계획 능력이 필수적임을 시사했습니다.\n\n평가는 37signals의 칸반 앱인 Fizzy를 대상으로 진행되었으며, 실제 제품 기획자가 작성한 것과 유사한 모호한 요구사항을 해결하는 방식으로 구성되었습니다. 벤치마크 결과, 최상위 모델들도 요구사항의 경계 사례를 처리하거나 완전한 기능을 구현하는 데 어려움을 겪는 것으로 나타났습니다. 특히 모델들은 명시되지 않은 요구사항을 스스로 유추하여 구현하는 능력이 부족하여, 많은 경우에서 기능 미완성 상태에 머물렀습니다.\n\n이번 Stage 2 테스트는 90분의 시간 제한과 엄격한 자동화된 검증 과정을 거쳐 모델의 실질적인 개발 역량을 측정했습니다. 연구진은 향후 Stage 3를 통해 에이전트가 단일 세션을 넘어 여러 세션에 걸쳐 프로젝트를 지속적으로 구축하고 관리할 수 있는지, MCP나 외부 도구와의 연동이 개발 워크플로우에 어떤 영향을 미치는지 등을 추가로 탐구할 계획입니다.",
+    "url": "https://rubyonrails.org/2026/9/9/agents-on-rails-stage-2",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Svyatoslav Kryukov, Artur Petrov, Alexander Baygeldin",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "/blog/is-prisma-8-ready-for-long-lived-production-apps",
+    "title": "Is Prisma 8 Ready for Long-Lived Production Apps?",
+    "summary": "Prisma 8's lead developer answers three concerns from a Reddit thread: the new architecture, Prisma's commercial incentives, and whether the migration model hides your SQL.",
+    "aiSummary": "Prisma 8의 수석 개발자는 최근 Reddit에서 제기된 세 가지 주요 우려 사항에 대해 직접 답변했습니다.\n\n첫 번째는 새로운 아키텍처에 대한 내용으로, 이전 버전에서 나타났던 성능 및 안정성 문제를 개선하기 위해 도입된 구조적 변화의 타당성과 장기적인 운영 준비 상태를 설명합니다.\n\n두 번째는 Prisma의 상업적 인센티브에 관한 의문입니다. 오픈소스 프로젝트로서의 성격과 기업형 서비스 간의 균형을 어떻게 유지하고 있으며, 이것이 향후 소프트웨어 개발 방향성에 미칠 영향에 대해 언급합니다.\n\n세 번째는 마이그레이션 모델이 SQL을 지나치게 추상화하여 사용자의 제어권을 약화시킨다는 비판에 대한 해명입니다. Prisma는 생산성을 높이는 동시에 필요한 경우 사용자가 원시 SQL에 접근할 수 있도록 설계되었으며, 데이터베이스 계층의 투명성을 확보하기 위해 노력하고 있음을 강조합니다.",
+    "url": "https://www.prisma.io/blog/is-prisma-8-ready-for-long-lived-production-apps",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "fetchedAt": "2026-09-09T18:43:17.563Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
@@ -1325,266 +1629,6 @@
     "tags": [
       "VS Code",
       "Editor"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
-    "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
-    "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down\nto zero replicas. This feature is now Beta and enabled by default. A\nHorizontalPodAutoscaler\n(HPA) that uses a suitab",
-    "aiSummary": "Kubernetes v1.37 버전이 업데이트되면서 HPA를 통해 워크로드를 0개의 복제본으로 자동 스케일링하는 기능이 베타 단계로 진입하여 기본적으로 활성화되었습니다. 기존에는 별도의 추가 기능이나 알파 기능 게이트를 사용해야 했으나, 이제는 핵심 기능으로서 객체 메트릭이나 외부 메트릭을 기반으로 워크로드를 0으로 축소했다가 메트릭 변화에 따라 다시 실행할 수 있게 되었습니다.\n\n이 기능은 큐 소비자나 배치 처리기와 같이 유휴 상태에서 리소스를 점유하는 워크로드에 특히 유용하며, 특히 CPU나 GPU와 같은 고비용 리소스를 사용하는 환경에서 비용 절감 효과가 큽니다. 다만, 워크로드가 0개일 때는 다시 시작하기 위한 콜드 스타트 시간이 발생하므로 지연 시간이 허용되는 작업에 적합합니다. 또한 HTTP와 같이 요청 기반으로 동작하는 워크로드의 경우 별도의 버퍼링 계층이 필요합니다.\n\n스케일링 동작을 위해서는 CPU나 메모리 대신 큐 길이와 같이 독립적으로 존재하는 객체 또는 외부 메트릭을 사용해야 합니다. Kubernetes는 이를 위해 Prometheus Adapter와 같은 메트릭 어댑터를 사용하여 메트릭을 외부 메트릭 API로 노출합니다. HPA 설정 시 minReplicas를 0으로 지정하면 설정된 메트릭 값에 따라 워크로드가 자동으로 관리됩니다.\n\n제어 루프는 ScaledToZero 상태 조건을 사용하여 자동 스케일링에 의한 0 복제본 상태와 운영자에 의한 수동 일시 중지 상태를 명확하게 구분합니다. 이 기능을 사용하기 위해서는 minReplicas를 0으로 설정함과 동시에 최소 하나 이상의 객체 또는 외부 메트릭을 반드시 지정해야 하며, 리소스 메트릭만으로는 구성할 수 없습니다. 업그레이드나 롤백 시에는 구성 요소 간의 버전 호환성을 확인하고, 기능을 비활성화하기 전에 모든 관련 HPA의 최소 복제본 수를 1 이상으로 조정해야 합니다.",
-    "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-09-02T18:30:00.000Z",
-    "fetchedAt": "2026-09-03T01:12:44.567Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/statamic-sidecar",
-    "title": "Sidecar Brings Statamic's Control Panel to Your Existing Markdown Sites",
-    "summary": "Sidecar lets you manage markdown documentation and static sites from LaraDocs, Jigsaw, VitePress, and HydePHP directly inside the Statamic Control Panel\nThe post Sidecar Brings Statamic's Control Pane",
-    "aiSummary": "Sidecar는 LaraDocs, Jigsaw, VitePress, HydePHP와 같이 기존에 운영 중인 Markdown 기반 정적 사이트를 Statamic Control Panel에서 직접 관리할 수 있도록 지원하는 새로운 도구입니다.\n\n이 도구를 사용하면 별도의 복잡한 설정 없이도 기존의 정적 사이트 운영 체제에 Statamic의 강력한 콘텐츠 관리 기능을 통합하여 활용할 수 있습니다. 결과적으로 개발자와 콘텐츠 관리자는 익숙한 환경인 Statamic Control Panel 내에서 효율적으로 문서와 정적 사이트를 관리하고 편집하는 것이 가능해집니다.",
-    "url": "https://laravel-news.com/statamic-sidecar?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-09-02T18:15:31.000Z",
-    "fetchedAt": "2026-09-03T01:12:44.567Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-    "title": "Content exclusions generally available in Copilot app and CLI",
-    "summary": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helpin",
-    "aiSummary": "GitHub Copilot 앱과 Copilot CLI에서 기업, 조직, 저장소 관리자가 설정한 콘텐츠 제외 정책이 정식으로 적용됩니다.\n\n이제 관리자가 특정 파일을 제외 대상으로 설정하면 GitHub Copilot은 해당 파일을 AI 모델의 문맥으로 활용하지 않습니다. 이를 통해 민감한 데이터를 보호하고 조직의 보안 정책을 더욱 엄격하게 준수할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-02T18:14:23.000Z",
-    "fetchedAt": "2026-09-03T01:12:44.567Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/sep/02/bugfix-releases/",
-    "title": "Django bugfix release issued: 6.1.1",
-    "summary": "Today we've issued the\n6.1.1\nbugfix release.\nThe release package and checksums are available from\nour downloads page, as well as from the Python Package Index.\nThe PGP key ID used for this release is ",
-    "aiSummary": "Django 프로젝트 팀에서 Django 6.1.1 버그 수정 릴리스를 공개하였습니다. 해당 릴리스 패키지와 체크섬은 공식 웹사이트 다운로드 페이지 또는 PyPI를 통해 확인할 수 있습니다. 이번 릴리스의 PGP 키 ID는 Jacob Walls 131403F4D16D8DC7입니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/sep/02/bugfix-releases/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jacob Walls",
-    "pubDate": "2026-09-02T17:30:00.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/apollo-graphos-and-apollo-mcp-server-named-2026-api-award-winners",
-    "title": "Apollo GraphOS and Apollo MCP Server Named 2026 API Award Winners",
-    "summary": "September 2, 2026\nApollo GraphOS and Apollo MCP Server were named winners in the 2026 API Awards (https://apiworld.co/awards/), presented at API World 2026 (https://apiworld.co/) this week in Santa Cl",
-    "aiSummary": "Apollo GraphOS와 Apollo MCP Server가 2026 API Awards에서 각각 Best Innovation in API Orchestration과 Best Innovation in AI API 부문을 수상했습니다.\n\n이번 시상은 API 산업의 혁신과 기술 발전에 기여한 제품을 선정하는 DevNetwork API Advisory Board의 평가를 통해 이루어졌습니다. API가 AI 기반 애플리케이션과 자율 에이전트의 핵심 인프라로 진화함에 따라, 해당 제품들이 업계 생태계 확장에 기여한 점을 인정받았습니다.\n\nApollo GraphOS는 기업 내 API를 통합하고 관리하는 플랫폼으로서의 우수성을 입증했습니다. 또한 Apollo MCP Server는 Model Context Protocol을 활용하여 기존 GraphQL API를 AI 에이전트가 직접 호출할 수 있는 도구로 변환함으로써, 기업이 실시간 운영 데이터를 안전하고 체계적으로 활용하도록 돕는 혁신성을 보여주었습니다.\n\n한편, Apollo는 오는 10월 6일부터 8일까지 샌프란시스코에서 열리는 Apollo Summit 2026을 통해 이러한 기술의 실제 적용 사례와 향후 전략을 공유할 예정입니다. 이번 행사는 SF Tech Week의 일환으로 진행되며, 다양한 기업 관계자들이 참석하여 AI 에이전트 구축과 관련한 인사이트를 나눌 계획입니다.",
-    "url": "https://www.apollographql.com/blog/apollo-graphos-and-apollo-mcp-server-named-2026-api-award-winners",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Jennifer Tyrseck",
-    "pubDate": "2026-09-02T16:44:59.000Z",
-    "fetchedAt": "2026-09-03T01:12:44.567Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-    "title": "Proactive cyber defense for governments and enterprises",
-    "summary": "Sep 02, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Today, we’re launching our Fairwind Progra",
-    "aiSummary": "Google은 정부 기관과 주요 기업의 사이버 방어 능력을 강화하기 위해 Fairwind Program을 새롭게 출범합니다. 이 프로그램은 사이버 보안 전문가들이 직면한 대규모 언어 모델의 운영 비용 문제와 소형 모델의 성능 한계를 극복하기 위해 설계되었습니다.\n\nFairwind Program의 핵심은 Gemini 3.8 Flash Cyber 모델과 CodeMender 도구를 결합하여 취약점을 자율적으로 탐지하고 복구하는 것입니다. 이를 통해 기존에 수주가 걸리던 취약점 패치 작업을 단 몇 분 만에 수행할 수 있으며, 배포 가능한 수준의 검증된 코드를 즉시 생성합니다.\n\n해당 기술은 국가 사이버 당국, 주요 인프라 운영자, 핵심 기술 플랫폼 등 사회적 영향력이 큰 파트너들에게 우선 제공됩니다. 참여 조직은 보안을 위해 다중 인증 및 내부 전문가 운영 등 엄격한 기준을 준수해야 합니다.\n\nGoogle은 이와 함께 Google.org를 통해 총 1억 달러 이상의 사이버 보안 지원금을 운용하며 글로벌 사이버 복원력을 높이는 데 기여하고 있습니다. 향후 Fairwind Program은 파트너들과의 협력을 통해 지속적으로 발전할 예정이며, 일반적인 Google Cloud 고객들도 AI Threat Defense를 통해 유사한 수준의 보안 도구를 활용할 수 있습니다.",
-    "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-02T16:24:24.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "summary": "Sep 02, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Our newest Gemini models deliver next-gene",
-    "aiSummary": "Google DeepMind가 기존 Gemini 3.7 Flash의 속도와 비용 효율성을 유지하면서 추론 및 코딩 성능을 대폭 강화한 Gemini 3.8 Flash와 사이버 보안 특화 모델인 Gemini 3.8 Flash Cyber를 발표하였습니다.\n\nGemini 3.8 Flash는 소프트웨어 엔지니어링과 에이전트 작업, 다단계 추론 분야에서 이전 모델 대비 비약적인 발전을 이루었습니다. 특히 긴 호흡의 코딩 작업인 DeepSWE v1.1과 같은 복잡한 엔지니어링 문제 해결에서 더 큰 규모의 모델들을 능가하는 성능을 보여줍니다. 이러한 성능 향상은 모델이 복잡한 작업에서 반복적으로 도구를 사용하고 추론 단계를 세분화하는 방식으로 더 정교하게 작동하기 때문입니다. 비용은 3.7 Flash와 동일한 입력 토큰 백만 개당 0.75달러, 출력 토큰 백만 개당 3.75달러로 책정되었습니다.\n\nGemini 3.8 Flash Cyber는 취약점 탐지 및 자동 패치 분야에 최적화된 사이버 보안 전문 모델입니다. CyberGym 및 20개 프로그래밍 언어를 아우르는 내부 벤치마크에서 뛰어난 성능을 입증했으며, CWE-Bench에서도 높은 패치 성공률을 기록했습니다. 현재 Google의 Chrome 보안 팀, Wiz, Google Cloud 취약점 연구 팀 등에서 활용되고 있으며, 기존보다 훨씬 빠른 속도로 치명적인 취약점을 발견하는 등 실질적인 성과를 거두고 있습니다. 해당 모델은 보안 방어 담당자를 위한 Fairwind Program을 통해 신뢰할 수 있는 사용자에게 제한적으로 제공됩니다.\n\n안전성 측면에서는 CBRN 및 사이버 공격 방지 기능이 강화되었으며, 특히 Gray Swan 평가를 통해 프롬프트 주입 공격에 대한 방어력이 크게 향상되었습니다. Gemini 3.8 Flash Cyber는 더욱 포괄적인 보안 기능을 제공하기 위해 별도의 완화 전략을 적용하여 엄격하게 관리됩니다.",
-    "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-02T16:18:31.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-identity-columns-to-auto-generate-sequential-integers/",
-    "title": "Simplify pipelines with new BigQuery identity columns",
-    "summary": "To further empower our customers in their data journey, we are excited to announce the launch of identity columns in BigQuery. This new feature allows users to define columns that automatically genera",
-    "aiSummary": "Google Cloud는 BigQuery에서 데이터의 고유 식별자를 자동으로 생성하는 identity columns 기능을 새롭게 출시했습니다. 이 기능은 64비트 정수 값을 순차적으로 생성하여 테이블 내 데이터 관리를 간소화합니다.\n\n데이터 엔지니어는 더 이상 애플리케이션 로직이나 ETL 도구에서 별도의 고유 키를 계산할 필요가 없으며 BigQuery가 이를 직접 처리하게 함으로써 데이터 파이프라인의 복잡성을 크게 낮출 수 있습니다. 이를 통해 SQL 코드가 간결해지고 데이터 유지 관리가 용이해지며 INSERT나 MERGE와 같은 표준 DML 작업과도 원활하게 연동됩니다.\n\n구현 방식은 크게 두 가지 옵션을 제공합니다. GENERATED ALWAYS AS IDENTITY를 선택하면 BigQuery가 자동으로 값을 관리하며 고유성을 보장합니다. 반면 GENERATED BY DEFAULT AS IDENTITY를 사용하면 자동 값을 제공하면서도 필요에 따라 사용자가 수동으로 값을 입력하거나 재정의할 수 있습니다.\n\n이번 업데이트는 서로게이트 키 생성을 자동화하여 확장 가능하고 유지보수가 쉬운 데이터 아키텍처를 구축하려는 사용자들에게 유용한 도구가 될 것입니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-identity-columns-to-auto-generate-sequential-integers/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Wawrzek Hyska"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-02T16:00:00.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-    "title": "Proactive cyber defense for governments and enterprises",
-    "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-    "aiSummary": "Fairwind Program은 정부 기관과 신뢰할 수 있는 파트너들이 사이버 방어 도구를 활용할 수 있도록 지원하는 제한적 접근 프로그램입니다. 이 프로그램은 정부와 기업을 위한 선제적 사이버 보안 태세를 강화하는 것을 목적으로 합니다.",
-    "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Four Flynn"
-      ],
-      "title": [
-        "Vice President - Security and Privacy"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-02T15:40:00.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
-    "aiSummary": "Google은 에이전트 기반 워크플로우와 사이버 보안 분야에 특화된 차세대 지능형 모델인 Gemini 3.8 Flash와 Gemini 3.8 Flash Cyber를 공개하였습니다.\n\n이번에 발표된 모델들은 고도화된 추론 능력과 처리 속도를 바탕으로 복잡한 업무 자동화 환경에서 뛰어난 성능을 발휘하도록 설계되었습니다. 특히 Gemini 3.8 Flash Cyber는 보안 데이터 분석 및 위협 탐지 등 고도의 전문성을 요구하는 사이버 보안 작업에 최적화되어 있습니다. 해당 모델들은 기업들이 실시간으로 복잡한 에이전트 작업을 수행하고 정보 보안 역량을 강화할 수 있도록 지원하는 것을 목표로 합니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Tulsee Doshi"
-      ],
-      "title": [
-        "Senior Director"
-      ],
-      "department": [
-        "Product Management"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-02T15:00:00.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=734982",
-    "title": "TeamCity 2026.2: Pipelines General Availability, BYOK for AI Assistant, and More",
-    "summary": "This major update for TeamCity On-Premises introduces a number of pipeline improvements that are now moving out of EAP and joining build configurations as official, stable options for designing CI/CD ",
-    "aiSummary": "TeamCity 2026.2 버전이 정식 출시되면서 그동안 EAP 단계였던 Pipelines 기능이 정식 기능으로 전환되어 CI/CD 워크플로우 설계의 안정적인 옵션으로 자리 잡았습니다. 이번 업데이트를 통해 사용자들은 더욱 유연하고 효율적으로 파이프라인을 구축할 수 있게 되었습니다.\n\nAI 기능 측면에서는 AI Assistant에 대한 BYOK 지원이 추가되어 사용자가 원하는 주요 클라우드 AI 공급자를 직접 선택하여 활용할 수 있습니다. 또한 MCP 도구 세트 확장 기능이 포함되어 TeamCity 환경 내에서 AI 활용성을 크게 강화했습니다.\n\n이 외에도 전반적인 사용자 경험 향상을 위한 다양한 개선 사항이 포함되었으며, 기업용 환경인 TeamCity On-Premises의 운영 효율성을 높이는 데 중점을 두었습니다. 사용자는 이번 업데이트를 통해 더욱 자동화되고 보안이 강화된 개발 환경을 구축할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/teamcity/2026/09/teamcity-20262/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Dmitrii Korovin",
-    "pubDate": "2026-09-02T14:38:38.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=mps&p=736213",
-    "title": "The MPS 2026.2 Early Access Program Has Started",
-    "summary": "MPS 2026.2 EAP1 offers several improvements to test reporting, enhances grouping of found items, and brings a smoother editing experience and a more maintainable foundation for launching MPS and MPS-b",
-    "aiSummary": "MPS 2026.2 EAP1 버전이 새롭게 출시되었습니다. 이번 업데이트는 테스트 보고 기능의 개선과 검색 결과 그룹화 기능을 강화하는 데 중점을 두었습니다.\n\n또한 에디터의 편집 경험이 한층 부드러워졌으며 MPS 및 이를 기반으로 한 제품들의 실행 구조를 더욱 유지 보수하기 쉬운 형태로 개선했습니다. 다중 노드 선택 기능은 더욱 예측 가능하도록 변경되었으며 MPS 실행 구성은 IntelliJ Platform과 더욱 일관되게 정렬되었습니다. 현재 EAP1 버전을 공식 웹사이트를 통해 다운로드할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/mps/2026/09/the-mps-2026-2-eap-has-started-2-2/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Vaclav Pech",
-    "pubDate": "2026-09-02T14:38:03.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=clion&p=735924",
-    "title": "Stop Guessing at Hard Faults",
-    "summary": "CLion’s new AI skill lets agents find the root cause without manual digging. Embedded debugging takes a lot of manual work. You’re flashing real hardware, juggling debug probes or DAP adapters, and wh",
-    "aiSummary": "임베디드 소프트웨어 개발 과정에서 발생하는 Hard Fault는 원인 파악이 어렵고 복잡한 수동 디버깅 과정을 요구합니다. 실제 하드웨어를 직접 제어하거나 디버그 프로브 및 DAP 어댑터 등을 활용해야 하는 기존 방식은 개발자에게 큰 부담이 됩니다.\n\n이러한 문제를 해결하기 위해 JetBrains의 CLion은 AI 에이전트 기능을 새롭게 도입했습니다. 이 기술은 프로세서가 구체적인 이유를 알려주지 않는 Hard Fault 상황에서도 AI가 직접 오류의 근본 원인을 분석하고 찾아낼 수 있도록 지원합니다. 결과적으로 개발자는 수동으로 오류를 추적하는 시간을 대폭 단축할 수 있으며, 더 효율적으로 임베디드 시스템의 안정성을 확보할 수 있게 됩니다.",
-    "url": "https://blog.jetbrains.com/clion/2026/09/hard-fault-debugging/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Oleg Zinovyev",
-    "pubDate": "2026-09-02T13:32:30.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
     ]
   }
 ]
