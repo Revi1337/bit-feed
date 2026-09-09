@@ -1,5 +1,118 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.1.28",
+    "title": "1.1.28",
+    "summary": "Improved resilience to transient model API errors: the agent now retries errors such as 503 Unavailable for much longer with exponential backoff, so a brief service hiccup no longer aborts your sessio",
+    "aiSummary": "버전 1.1.28 업데이트에서는 모델 API 오류 발생 시 지수 백오프를 적용해 재시도 기능을 강화하여 서비스 일시 중단에 대한 회복탄력성을 높였습니다. 로그인 및 시작 속도를 개선하기 위해 네트워크 요청 대신 저장된 자격 증명을 활용하고, 시작 과정에서의 화면 깜빡임이나 오류 발생 시 로그인 차단 문제를 해결했습니다.\n\n헤드리스 모드인 -p 옵션 사용 시 성능과 안정성이 크게 향상되었습니다. 최종 답변 전달 후 즉시 종료되도록 개선하였고, 종료 시 대기 작업 및 타임아웃 처리를 최적화했습니다. 또한 오류 발생 시 stderr를 통해 명확한 정보를 출력하고 불필요한 모델 호출을 제거하여 응답 속도를 200ms가량 단축했습니다.\n\n도구 사용 승인 절차를 더욱 명확하게 개선하여 사용자에게 승인 이유와 대상 명령어를 정확히 안내하며, URL 접근 시 기본 권한을 승인 요청 방식으로 변경해 보안을 강화했습니다. 모델 선택 시 별칭이나 대체 모델로 변경된 사항을 CLI 로그에 기록하여 추적성을 확보했습니다.\n\n플러그인 및 MCP 서버 관련 문제도 다수 해결되었습니다. 플러그인 재설치 시 잔여 파일 문제를 방지하고 MCP 서버의 작업 디렉토리 인식 오류를 수정하였습니다. 서브 에이전트 초기화 과정의 경합 상태와 작업 종료 후 상태 정체 현상을 개선했으며, 터미널 명령어 실행 시 발생하던 메모리 누수를 해결하여 장시간 세션의 안정성을 높였습니다. 마지막으로 프로젝트 접근 권한 변경 시 발생하는 로그인 오류를 수정하고 비대화형 환경에서 구현 계획 승인 절차를 자동화하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.1.28",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-09T00:43:58.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=93443",
+    "title": "6 Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
+    "summary": "Learn about the key benefits of sandbox environments with Docker including isolation, definable controls, secrets credential handling, and more.",
+    "aiSummary": "Sandbox 환경은 애플리케이션 개발 및 테스트 과정에서 시스템의 안전성과 무결성을 보장하는 핵심적인 역할을 수행합니다.\n\n이러한 환경은 기본적으로 호스트 시스템과 격리된 공간을 제공하여 예상치 못한 오류나 외부 공격이 전체 인프라에 영향을 미치지 않도록 보호합니다. 또한 사용자가 원하는 환경 설정을 세밀하게 제어할 수 있어 일관된 개발 경험을 제공하며 민감한 자격 증명이나 비밀 정보를 안전하게 관리할 수 있는 환경을 조성합니다.\n\nDocker는 이러한 Sandbox 환경을 효율적으로 구현하기 위한 도구로 활용됩니다. Docker는 가벼운 컨테이너 기반 기술을 통해 복잡한 구성 없이도 필요한 자원만을 격리하여 배포할 수 있게 하며 Dockerfile을 통해 개발 환경을 명확하게 정의하고 공유할 수 있도록 지원합니다. 결과적으로 Docker를 활용하면 보안성을 높이는 동시에 개발 생산성을 크게 향상할 수 있습니다.",
+    "url": "https://www.docker.com/blog/benefits-of-sandbox-environments/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Kevin Wittek",
+    "pubDate": "2026-09-08T23:05:55.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+    "title": "GitHub Enterprise Server 3.22 is now generally available",
+    "summary": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to…\nT",
+    "aiSummary": "GitHub Enterprise Server 3.22 버전이 정식 출시되었습니다. 이번 업데이트는 플랫폼 전반에 걸쳐 새로운 기능들을 도입하여 사용자 편의성과 관리 효율성을 높였습니다. 특히 관리자들은 Copilot CLI를 더욱 유연하게 설정할 수 있게 되었으며, 이를 통해 개발 환경 내에서 인공지능 도구의 활용도가 더욱 강화될 것으로 기대됩니다. 이번 릴리스는 엔터프라이즈 환경의 요구 사항을 충족하기 위한 다양한 성능 개선과 보안 강화 요소를 포함하고 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-08T21:52:42.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60752",
+    "title": "Announcing .NET 11 Release Candidate 1",
+    "summary": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms.\nThe post Announcing .NET 11 Release Candi",
+    "aiSummary": "Microsoft는 .NET 11의 첫 번째 출시 후보 버전인 Release Candidate 1을 공개하였습니다.\n\n이번 업데이트에는 Libraries, Runtime, SDK, MSBuild, NuGet을 비롯하여 프로그래밍 언어인 C#과 F# 전반에 걸쳐 다양한 성능 개선과 기능 향상이 포함되었습니다. 또한 웹 프레임워크인 ASP.NET Core와 데스크톱 애플리케이션 개발을 위한 .NET MAUI 및 Windows Forms에서도 여러 수정 사항이 적용되었습니다. \n\n개발자는 공식 블로그를 통해 이번 버전에서 달라진 상세 내용을 확인하고 새로운 환경에서 개발을 시작할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "2026-09-08T21:30:00.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60745",
+    "title": ".NET and .NET Framework September 2026 servicing releases updates",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for September 2026.\nThe post .NET and .NET Framework September 2026 servicing releases updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft는 2026년 9월을 맞아 .NET 및 .NET Framework에 대한 최신 서비스 업데이트를 발표했습니다. 이번 업데이트는 제품의 안정성과 보안을 강화하기 위한 정기적인 유지보수 차원의 조치입니다. 관련 상세 내용과 적용된 개선 사항은 .NET Blog를 통해 확인할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-september-2026-servicing-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT), Tara Overfield",
+    "pubDate": "2026-09-08T20:00:00.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/sep/08/call-for-volunteers-fundraising-working-group/",
+    "title": "Call for volunteers: Fundraising Working Group",
+    "summary": "The Django Software Foundation is looking for people to join the Fundraising Working Group.\nThis is a particularly interesting time to get involved.\nThe DSF has raised its 2026 fundraising goal to $50",
+    "aiSummary": "DSF는 2026년 모금 목표액을 50만 달러로 상향 조정하고 이를 달성하기 위해 Fundraising Working Group에 합류할 자원봉사자를 모집합니다. 이번 모금은 Django Fellows와 Django Girls 지원, 인프라 유지, 커뮤니티 이벤트 개최 등 생태계 전반을 유지하고 첫 Executive Director를 채용하는 데 사용될 예정입니다.\n\n해당 그룹은 단순한 기부 요청을 넘어 기업과의 파트너십 구축, 스폰서십 모델 개발, 오픈소스 가치 전달 등 실질적인 모금 전략을 수립하는 역할을 수행합니다. 모집 대상은 모금, 비즈니스 개발, 영업 분야의 전문 경험자뿐만 아니라 오픈소스 생태계에 대한 이해도가 높거나 새로운 아이디어로 기여하고자 하는 열정적인 인원을 포함합니다.\n\n본 그룹은 월 1회 정기 회의와 비동기식 업무 방식으로 운영되며, 신규 채용될 Executive Director와 긴밀히 협력하게 됩니다. 관련 경험이 풍부한 전문가부터 새로운 도전을 희망하는 지원자까지 모두 참여 가능하며, 관심 있는 지원자는 DSF의 지원 양식을 통해 신청할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/sep/08/call-for-volunteers-fundraising-working-group/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Priya Pahwa",
+    "pubDate": "2026-09-08T19:27:14.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+    "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
+    "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 d",
+    "aiSummary": "Kubernetes v1.37은 AI, ML, 대규모 배치 작업 등 복잡한 워크로드를 효율적으로 관리하기 위한 Workload-Aware Scheduling(WAS) 기능을 크게 강화하였습니다. 이번 업데이트의 핵심은 핵심 API인 Workload와 PodGroup이 v1beta1으로 승격되어 배포의 안정성을 확보했다는 점입니다.\n\n가장 주목할 만한 변화는 계층적 스케줄링을 지원하는 새로운 CompositePodGroup API의 도입입니다. 이를 통해 복잡하고 이질적인 Pod 그룹에 대해 다단계 토폴로지 제약, 갱 스케줄링, 선점 정책을 적용할 수 있게 되었습니다. 이제 개발자들은 JobSet이나 LeaderWorkerSet과 같은 확장 API를 사용할 때 더욱 직관적인 스케줄링 설정을 구현할 수 있습니다.\n\n또한, 워크로드 스케줄링의 세부 성능과 유연성도 크게 개선되었습니다. PodGroup이 스케줄링 큐의 일등 시민으로 통합되어 관리 효율이 높아졌으며, minCount 설정을 동적으로 변경할 수 있게 되어 탄력적인 워크로드 운영이 가능해졌습니다. Workload-aware preemption 기능은 이제 CompositePodGroup 계층 구조까지 지원하며, 설정된 disruptionMode에 따라 전체 또는 부분적인 선점 방식을 유연하게 선택할 수 있습니다.\n\n이외에도 토폴로지 인식 스케줄링이 다단계 계층 구조를 지원하도록 확장되었습니다. 이제 전체 워크로드를 특정 가용 영역으로 제한하면서, 하위 그룹을 개별 랙 단위로 세밀하게 배치하는 등 하향식 제약 조건 해결이 가능해졌습니다. 이러한 기능들은 표준 배치 작업에 대한 스케줄링 정책의 복잡성을 낮추고, 대규모 분산 시스템 운영의 안정성을 한층 높여줍니다.",
+    "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-08T18:30:00.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/",
     "title": "Power agent hubs or custom harnesses with the Antigravity SDK in one toolkit",
     "summary": "Enterprise agent adoption isn’t one-size-fits-all. While many teams will opt for managed commercial platforms, such as Gemini Enterprise Agent Platform for turnkey agent deployment and governance, dev",
@@ -176,6 +289,21 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://astro.build/case-studies/evil-martians/",
+    "title": "Affordable and Fast Migration",
+    "summary": "How Evil Martians moved from Gatsby to Astro in nine days without rewriting a single React component",
+    "aiSummary": "Evil Martians가 Gatsby 환경에서 Astro 환경으로 마이그레이션을 단 9일 만에 완료하였습니다.\n\n이번 프로젝트의 핵심은 기존 React 컴포넌트를 단 하나도 수정하지 않고 그대로 유지하면서 전환을 수행했다는 점입니다. Astro가 제공하는 강력한 프레임워크 호환성과 유연한 아키텍처를 활용하여 개발 효율성을 극대화했습니다.\n\n결과적으로 마이그레이션을 통해 웹사이트의 성능을 대폭 개선하고 더욱 빠른 빌드 속도를 확보하는 성과를 거두었습니다. 기존 기술 자산을 보존하면서도 현대적인 웹 환경으로 성공적으로 전환한 사례로 평가받습니다.",
+    "url": "https://astro.build/case-studies/evil-martians/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "2026-09-08T00:00:00.000Z",
+    "fetchedAt": "2026-09-09T01:18:04.091Z",
+    "tags": [
+      "Astro"
     ]
   },
   {
@@ -1424,197 +1552,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/self-hosted-machines",
-    "title": "Self-hosted machines",
-    "summary": "Sep 2, 2026 · ChangelogSelf-hosted machinesCursor supports self-hosted machines, which let you keep tool execution entirely in your own network.\nYour codebase, build outputs, and secrets all stay on i",
-    "aiSummary": "Cursor가 사용자의 네트워크 내에서 도구 실행이 가능한 Self-hosted machines 기능을 지원합니다. 이를 통해 코드베이스, 빌드 결과물, 비밀값 등 중요 데이터가 외부로 유출되지 않고 내부 인프라에서 안전하게 유지됩니다.\n\n개인 워크플로우를 위한 단일 머신 연결 외에도 팀 단위의 작업을 위한 Team pools 기능을 제공합니다. 요청량에 따라 워커 수를 유동적으로 조절하는 오토스케일링을 지원하며, 유휴 상태인 머신은 최대 절전 모드로 전환하여 비용을 효율적으로 관리할 수 있습니다. 또한 특정 저장소에 구애받지 않고 풀 이름을 지정하여 유연하게 자원을 할당할 수 있습니다.\n\n기존에 사용 중인 AWS Lambda, Coder, Cloudflare, Daytona, Modal, Namespace, Vercel, E2B와 같은 다양한 클라우드 샌드박스 환경에서 에이전트를 실행할 수 있습니다.\n\n리눅스와 Mac 환경에서는 컴퓨터 제어 기능이 지원됩니다. 적절한 데스크톱 패키지를 설치하면 에이전트가 화면을 보고 마우스 클릭이나 키보드 입력 등을 직접 수행할 수 있으며, 사용자는 Cursor를 통해 에이전트의 작동 과정을 지켜보거나 즉시 제어권을 뺏어올 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/self-hosted-machines",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-09-02T00:00:00.000Z",
-    "fetchedAt": "2026-09-03T01:12:44.567Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "tag:blog.golang.org,2013:blog.golang.org/goroutine-leak-profiles",
-    "title": "Goroutine Leak Profiles",
-    "summary": "The Go Blog\nGoroutine Leak Profiles\nGo’s concurrency features are powerful and easy to use, but\nthat same ease can sometimes lead even seasoned developers to make\nmistakes.\nFortunately, the Go ecosyst",
-    "aiSummary": "Go 언어의 고루틴은 사용하기 편리하지만, 채널이나 뮤텍스 등 동기화 기본 요소를 사용하다 보면 고루틴이 영원히 차단되어 메모리 누수를 유발하는 고루틴 누수 현상이 발생할 수 있습니다. 기존의 유닛 테스트 도구인 goleak이나 Go 1.25에 도입된 synctest 패키지는 테스트 환경에서는 유용하지만, 운영 환경의 대규모 시스템에서 발생하는 누수를 탐지하는 데에는 한계가 있었습니다.\n\n이에 Go 1.27에서는 운영 환경에서도 고루틴 누수를 정밀하게 진단할 수 있는 새로운 고루틴 누수 프로파일러 기능을 도입하였습니다. 이 기능은 가비지 컬렉터의 동작 원리를 활용하여 라이브니스 분석을 수행합니다. 구체적으로는 차단되지 않은 고루틴을 기점으로 참조 가능한 동기화 기본 요소를 따라가며 활성 상태인 고루틴을 식별하고, 끝내 활성화되지 못한 고루틴을 누수로 간주하는 방식을 사용합니다.\n\n해당 프로파일러는 runtime/pprof 패키지나 net/http/pprof 엔드포인트를 통해 쉽게 사용할 수 있으며, 채널 송수신이나 sync 패키지의 뮤텍스 및 대기 그룹 등에 차단된 고루틴 누수를 탐지하는 데 매우 효과적입니다. 다만 파일 입출력이나 네트워크 IO, 사용자 정의 스핀락 등 표준 동기화 기본 요소를 벗어난 차단 현상은 탐지하지 못한다는 제한 사항이 있습니다.\n\n또한 분석 과정에서 가비지 컬렉터와 유사한 마킹 단계를 반복 수행하므로 약간의 성능 오버헤드가 발생할 수 있습니다. 특히 복잡한 연결 고리 형태의 고루틴 구조에서는 실행 속도가 느려질 수 있으나, 프로파일링 빈도를 주기적으로 조정함으로써 운영 환경의 시스템 부하를 최소화하면서도 안정적으로 누수를 관리할 수 있습니다. 이 기능은 학계와 Uber, Google 등의 협업을 통해 개발되었으며 실무 환경에서의 고루틴 누수 문제를 해결하는 데 큰 기여를 할 것으로 기대됩니다.",
-    "url": "https://go.dev/blog/goroutine-leak-profiles",
-    "category": "프로그래밍 언어",
-    "source": "The Go Blog",
-    "author": "Vlad Saioc",
-    "pubDate": "2026-09-02T00:00:00.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "Go"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/9/2/agents-on-rails-claude-fable-5-1-and-glm-5-3-flash",
-    "title": "Agents on Rails: Claude Fable 5.1 and GLM 5.3 Flash (formerly known as ox-alpha)",
-    "summary": "Claude Fable 5.1 dropped yesterday. See how it handles real Rails tasks, and where it landed on the leaderboard today. We also finally have a name for the stealth model from the last round.\nFable 5.1:",
-    "aiSummary": "새롭게 출시된 Claude Fable 5.1은 벤치마크 테스트에서 총 63회 실행 중 58회를 성공하며 92%의 성공률을 기록했습니다. 이는 기존 최고 모델인 Claude Opus 5와 대등한 수준입니다. 특히 Claude Fable 5.1은 기존 모델 대비 비용을 약 40%에서 50%까지 절감했으며, 처리 속도 또한 최상위권 모델 중 가장 빠릅니다.\n\n보안 작업 수행 능력에서도 큰 발전을 보였습니다. 과거 보안 취약점 보고서를 보안 문제로 오인하던 현상이 개선되어, 실제 보안 작업을 정확하게 이해하고 수정하는 능력을 보여줍니다. 또한 Rails API에 대한 이해도가 크게 향상되어 기존 모델들이 도달하지 못했던 41%의 API 호출 정확도를 기록했습니다.\n\n이와 함께 지난번 공개되었던 코드명 ox-alpha가 Z.ai의 GLM 5.3 Flash로 명칭이 확정되었습니다. GLM 5.3 Flash는 63회 중 52회 성공으로 83%의 정확도를 보였으며, 회당 5센트라는 매우 낮은 비용으로 Grok 4.6과 동일한 성능을 발휘하여 가성비 측면에서 뛰어난 효율을 입증했습니다.\n\n현재 모든 테스트 결과는 Agents on Rails 페이지를 통해 투명하게 공개되고 있습니다. 향후에는 현재 진행 중인 21개의 원자 단위 테스트를 넘어 더욱 크고 현실적인 과제들로 구성된 2단계 테스트를 진행할 예정입니다.",
-    "url": "https://rubyonrails.org/2026/9/2/agents-on-rails-claude-fable-5-1-and-glm-5-3-flash",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Svyatoslav Kryukov, Artur Petrov",
-    "pubDate": "2026-09-02T00:00:00.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://astro.build/blog/starlight-042/",
-    "title": "Starlight 0.42",
-    "summary": "Less JavaScript, and more JavaScript, all in one release.",
-    "aiSummary": "Starlight 0.42 버전이 출시되었습니다. 이번 업데이트는 불필요한 JavaScript 사용을 줄여 효율성을 높이는 동시에 필요한 영역에서는 JavaScript 기능을 더욱 강화하는 방향으로 진행되었습니다. 성능 최적화와 기능 확장을 동시에 달성한 것이 이번 릴리스의 핵심입니다.",
-    "url": "https://astro.build/blog/starlight-042/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "2026-09-02T00:00:00.000Z",
-    "fetchedAt": "2026-09-02T12:09:53.910Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-9-4-6-released",
-    "title": "Elastic Stack 9.4.6 released",
-    "summary": "Version 9.4.6 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.6 over the previous versions 9.4.5\nFor details of the issues that have been fix",
-    "aiSummary": "Elastic Stack 9.4.6 버전이 오늘 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.4.5에서 발견된 문제들을 해결하고 전반적인 제품의 변경 사항을 포함하고 있습니다.\n\n특히 이번 9.4.6 버전에는 잠재적인 보안 취약점에 대한 수정 사항이 포함되어 있으므로 기존 버전을 사용 중인 사용자들은 최신 버전으로 업그레이드할 것을 권장합니다. 상세한 수정 내역과 전체 변경 목록은 공식 릴리스 노트를 통해 확인할 수 있으며 보안과 관련된 구체적인 내용은 별도의 보안 공지에서 확인이 가능합니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-9-4-6-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Julien Mailleret",
-    "pubDate": "2026-09-02T00:00:00.000Z",
-    "fetchedAt": "2026-09-02T12:09:53.910Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-8-19-21-released",
-    "title": "Elastic Stack 8.19.21 released",
-    "summary": "Version 8.19.21 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.21 over the previous versions 8.19.21\nFor details of the issues that have be",
-    "aiSummary": "Elastic Stack 8.19.21 버전이 새롭게 공개되었습니다. 이번 릴리스에는 잠재적인 보안 취약점에 대한 수정 사항이 포함되어 있으므로 이전 버전에서 최신 버전으로 업그레이드할 것을 권장합니다. 각 제품별 상세 변경 사항 및 해결된 문제에 대한 구체적인 내용은 공식 릴리스 노트를 확인해야 합니다. 보안 관련 세부 사항은 별도로 게시된 보안 공지문을 통해 확인하시기 바랍니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-8-19-21-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Julien Mailleret",
-    "pubDate": "2026-09-02T00:00:00.000Z",
-    "fetchedAt": "2026-09-02T12:09:53.910Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-30-0",
-    "title": "Collections chunkBy() and Storage Path Hardening in Laravel 13.30",
-    "summary": "Laravel 13.30 adds a chunkBy() collection method, confines Storage::path() to the disk root, and prints why a queue worker stopped in queue:work output.\nThe post Collections chunkBy() and Storage Path",
-    "aiSummary": "Laravel 13.30 버전이 새롭게 업데이트되었습니다. 이번 업데이트에서는 컬렉션을 특정 조건에 따라 분할할 수 있는 chunkBy 메서드가 새롭게 추가되었습니다.\n\n또한 보안 강화를 위해 Storage::path 메서드의 접근 범위를 디스크 루트 경로로 제한하도록 변경되었습니다. 이와 함께 queue:work 명령어 실행 시 워커가 중단된 원인을 출력하도록 개선되어 문제 해결 과정이 더욱 수월해졌습니다.",
-    "url": "https://laravel-news.com/laravel-13-30-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-09-01T22:32:48.000Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-    "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-    "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC",
-    "aiSummary": "GitHub는 GHES 환경에서 GHEC DR로 리포지토리를 이전할 때 서비스 중단 시간을 최소화하는 Enterprise Live Migrations 기능을 정식 출시했습니다. 이 기능을 통해 기업 고객들은 온프레미스 기반의 GHES에서 데이터 주권이 보장되는 클라우드 환경인 GHEC DR로 더욱 효율적이고 안정적으로 인프라를 전환할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-01T22:24:27.000Z",
-    "fetchedAt": "2026-09-02T01:07:05.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-    "title": "The latest AI news we announced in August 2026",
-    "summary": "Here are Google’s latest AI updates from August 2026",
-    "aiSummary": "Google은 2026년 8월을 맞아 자사의 최신 AI 기술 업데이트를 발표했습니다. 이번 업데이트에는 향상된 모델 성능과 사용자 편의성을 높이기 위한 새로운 기능들이 포함되었습니다. Google은 지속적인 기술 혁신을 통해 더욱 정교하고 효율적인 AI 서비스를 제공하겠다는 목표를 제시했습니다.",
-    "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "News from Google Team"
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-01T20:45:00.000Z",
-    "fetchedAt": "2026-09-02T01:07:05.841Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
-    "title": "Set an expiration date for individual user budgets",
-    "summary": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls…\nThe post Set an expir",
-    "aiSummary": "GitHub은 개별 사용자 예산에 선택적으로 만료 날짜를 설정할 수 있는 기능을 정식으로 출시하였습니다.\n\n해당 날짜가 도래하면 GitHub은 설정된 예산을 자동으로 제거합니다. 예산이 만료된 이후 해당 사용자는 기본적으로 설정된 조직의 예산 정책을 따르게 됩니다.",
-    "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-01T20:23:13.000Z",
-    "fetchedAt": "2026-09-02T01:07:05.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-    "title": "Copilot code review can now approve pull requests",
-    "summary": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off…\nThe post Copilot code review can now appr",
-    "aiSummary": "GitHub의 Copilot이 Pull Request에 대한 승인 기능을 새롭게 지원합니다. 이제 Copilot이 코드 변경 사항을 검토한 후 승인 준비가 완료되었음을 알려주며, 관리자가 권한을 설정하면 직접 승인 처리까지 수행할 수 있습니다. 해당 기능은 기본적으로 비활성화된 상태로 제공되며, 팀의 정책에 따라 관리자가 직접 활성화하여 사용할 수 있습니다. 이를 통해 코드 검토 과정의 효율성을 높이고 개발자의 워크플로우를 개선할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-01T19:25:57.000Z",
-    "fetchedAt": "2026-09-02T01:07:05.841Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
