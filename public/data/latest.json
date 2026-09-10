@@ -1,5 +1,85 @@
 [
   {
+    "id": "https://www.percona.com/?p=53258",
+    "title": "Enabling TLS in PXC without Downtime",
+    "summary": "Starting with Percona XtraDB Cluster (PXC) 8.0, replication traffic encryption is enabled by default. That said, it’s common to find clusters running without TLS that suddenly need it: a new complianc",
+    "aiSummary": "Percona XtraDB Cluster 8.0 버전부터는 복제 트래픽 암호화가 기본적으로 활성화되어 있습니다. 하지만 기존에 TLS를 사용하지 않던 환경에서 보안 규정 준수나 네트워크 신뢰성 문제로 인해 뒤늦게 암호화를 적용해야 하는 경우가 빈번합니다. Percona XtraDB Cluster는 이러한 상황을 대비해 pxc-encrypt-cluster-traffic 변수를 제공합니다. 해당 기능을 활용하면 서비스의 중단 없이 운영 중인 클러스터 환경에 TLS 암호화를 적용할 수 있습니다.",
+    "url": "https://www.percona.com/blog/enabling-tls-in-pxc-without-downtime/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Juan Arruti",
+    "pubDate": "2026-09-09T23:32:15.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
+    "title": "CodeQL 2.27.0 adds support for Linux ARM64",
+    "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL ",
+    "aiSummary": "GitHub에서 제공하는 코드 분석 도구인 CodeQL의 새로운 버전 2.27.0이 공개되었습니다. 이번 업데이트의 핵심은 Linux ARM64 아키텍처를 공식적으로 지원하게 된 점입니다.\n\n또한 Rust 언어에 대한 새로운 보안 쿼리가 추가되었으며 Java, Kotlin, C# 언어의 프레임워크 지원 범위가 더욱 확대되었습니다. 여러 프로그래밍 언어 전반에 걸쳐 분석 정확도가 향상되어 더욱 정밀한 코드 보안 검사가 가능해졌습니다.",
+    "url": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T21:45:06.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-08-26-enterprise-managed-permissions-for-github-copilot-agent-operations",
+    "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+    "summary": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Manag",
+    "aiSummary": "GitHub Copilot Business 및 GitHub Copilot Enterprise 관리자는 이제 GitHub Copilot 에이전트의 작업 권한을 중앙에서 통합적으로 제어할 수 있게 되었습니다.\n\n이번 업데이트를 통해 관리자는 특정 에이전트 작업에 대해 차단, 사람의 승인 필요, 또는 즉시 실행 허용 여부를 세부적으로 설정할 수 있습니다. 이를 통해 조직은 보안 정책에 맞춰 AI 에이전트의 동작을 더욱 체계적으로 관리하고 운영 효율성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T20:08:14.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/alloydb-omni-rpm-orchestrator-is-generally-available/",
+    "title": "Enterprise-grade PostgreSQL with AlloyDB Omni RPM Orchestrator is generally available",
+    "summary": "We are thrilled to announce the general availability of the AlloyDB Omni Red Hat RPM orchestrator, that brings production-ready security, resiliency, and low-downtime operations to PostgreSQL workload",
+    "aiSummary": "Google이 AlloyDB Omni를 위한 Red Hat RPM 오케스트레이터를 정식 출시했습니다. 이번 업데이트를 통해 가상 머신이나 베어메탈 서버 환경에서도 클라우드 수준의 데이터베이스 자동화와 고가용성 운영이 가능해졌습니다.\n\n이번 정식 버전은 기업이 요구하는 보안, 복원력, 낮은 다운타임을 제공하며 AlloyDB Omni 버전 18.3.0과 함께 제공됩니다. 지원되는 주요 배포 방식은 독립형 컨테이너, Kubernetes 오퍼레이터를 통한 컨테이너 배포, 독립형 RPM, 그리고 고가용성을 위한 RPM 오케스트레이터 구성 등이 있습니다.\n\n특히 이번 RPM 오케스트레이터는 워크로드 현대화, 규제 준수 환경, 엣지 및 온프레미스 배포, AI 기반 인프라 구축 등에 최적화되어 있습니다. 기존 PostgreSQL 대비 트랜잭션 워크로드에서 2배 이상, 분석 쿼리에서 최대 100배 빠른 성능을 제공하며 SELinux 및 로컬 감사 로깅을 지원하여 보안 수준을 높였습니다. 또한 벡터 검색과 같은 AlloyDB AI 기능을 온프레미스 환경에서 직접 활용할 수 있어 생성형 AI 애플리케이션 구축에 유리합니다.\n\n시스템 구조적으로는 로드 밸런싱 계층을 통한 고가용성 구성을 지원하며, 장애 발생 시 자동 복구 기능을 갖추고 있습니다. etcd 기반의 분산 설정 저장소를 통해 클러스터 상태를 안정적으로 관리하며, 읽기 전용 풀을 동적으로 추가하여 읽기 처리량을 확장할 수 있습니다.\n\n데이터 보호 측면에서는 GCS 또는 S3 호환 저장소에 대한 자동 백업 및 복원, 시점 복구(PITR)를 지원합니다. 또한 유지보수 시 다운타임을 최소화하는 LDTM 기능과 실시간 구성 변경 기능을 통해 데이터베이스 운영 효율을 크게 개선했습니다. 관리자는 향상된 로깅 및 커스텀 메트릭을 통해 데이터베이스 운영 현황을 정밀하게 파악할 수 있으며, 기존 AlloyDB Omni의 모든 AI 기능과 확장 프로그램을 그대로 이용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-rpm-orchestrator-is-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ujjwal Lanjewar"
+      ],
+      "title": [
+        "Senior Staff Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-09T19:00:00.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_138",
     "title": "Visual Studio Code 1.138 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.138 (Insiders)\nRead the full article",
@@ -13,6 +93,54 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+    "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+    "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness,\ntaints, Pod state, labels, annotations, and provider-specific APIs each expose\npart of the picture. What has been missing i",
+    "aiSummary": "Kubernetes v1.37 버전에서는 노드의 상태를 더욱 명확하게 파악할 수 있도록 다섯 가지의 새로운 노드 라이프사이클 조건이 도입됩니다. 추가된 조건은 DrainInProgress, Drained, MaintenancePlanned, MaintenanceInProgress, GracefulNodeShutdownInProgress로 구성됩니다. 이를 통해 관리자나 자동화 도구는 노드가 유지보수 중이거나 드레인 과정에 있음을 공통된 방식으로 보고할 수 있습니다.\n\n이번 업데이트는 NodeConditionType 상수를 예약하고 Alpha 단계의 NodeLifecycleConditions 기능 게이트를 포함하고 있습니다. 현재는 실제 핵심 워크로드 컨트롤러가 이 조건을 직접 사용하여 동작을 변경하지는 않으며 관리자가 상태 정보를 공유하는 목적으로 활용할 수 있습니다. 기존의 kubectl cordon, drain, taints와 같은 기능은 그대로 유지하며 새로운 라이프사이클 조건은 상태 가시성을 높이는 보조적인 수단으로 사용됩니다.\n\n이러한 공통 신호가 도입된 이유는 기존 방식인 레이블이나 어노테이션만으로는 노드의 구체적인 상황을 파악하기 어려웠기 때문입니다. 앞으로는 유지보수나 드레인 상황을 표준화된 방식으로 전달함으로써 DaemonSet 컨트롤러나 스케줄러 등 다양한 구성 요소들이 노드 상태를 정확히 이해하고 더 정교하게 의사결정을 내릴 수 있는 기반을 마련하게 됩니다. Kubernetes는 향후 이러한 조건을 바탕으로 노드 라이프사이클 관리를 더욱 자동화하고 고도화할 계획입니다.",
+    "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-09T18:30:00.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants/",
+    "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Assistants",
+    "summary": "We are excited to share that Gartner has named Google a Leader in its inaugural 2026 Magic Quadrant for Enterprise AI Assistants. In this comprehensive evaluation of top enterprise AI assistant vendor",
+    "aiSummary": "Google이 Gartner가 발표한 2026 Magic Quadrant for Enterprise AI Assistants에서 리더 기업으로 선정되었습니다. Gartner는 Google의 비전 완성도와 실행 능력을 높게 평가하며 Gemini Enterprise를 기업용 AI 비서 분야의 선두 주자로 인정했습니다.\n\nGemini Enterprise는 단순한 챗봇을 넘어 다단계 업무 흐름을 자동화하는 에이전트 플랫폼으로서의 역할을 수행합니다. 이 플랫폼은 AI 통합 창구 기능을 제공하여 챗봇, 검색, 노코드 에이전트 설계, Google Workspace 연동 등을 하나로 통합하며 기업이 기존 인프라를 유지하면서도 비용 효율적으로 AI를 도입할 수 있도록 지원합니다.\n\n특히 Microsoft 365와 같은 타사 소프트웨어 및 내부 데이터 소스와의 개방형 연결성을 보장하며, 별도의 추가 비용 없이 기본 제공되는 강력한 거버넌스 기능을 통해 보안과 데이터 권한 관리를 강화합니다. 또한 기업은 사용량 기반의 유연한 요금제를 통해 효율적인 비용 운영이 가능합니다.\n\n최근 Google은 법률 및 금융 서비스를 위한 맞춤형 솔루션을 출시하고, 개발자를 위한 Antigravity 및 Android Studio 연동 기능을 추가하는 등 플랫폼 고도화에 박차를 가하고 있습니다. Accenture, Deutsche Bank, Williams & Connolly 등 주요 기업들은 Gemini Enterprise를 통해 업무 효율성을 높이고 보안이 보장된 환경에서 AI 에이전트를 성공적으로 활용하고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Peder Ulander"
+      ],
+      "title": [
+        "Vice President, Product Marketing, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-09T18:00:00.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -224,6 +352,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "aiSummary": "OpenAI가 비즈니스 환경에 최적화된 차세대 모델인 GPT-6 Astra를 공개했습니다. 이 모델은 고도화된 추론 능력과 컴퓨터를 직접 제어하는 기능을 갖추고 있습니다. 또한 기존 모델보다 향상된 글쓰기 및 디자인 판단 능력을 바탕으로 업무 효율을 극대화하는 데 중점을 두었습니다.",
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-09T11:00:00.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://supabase.com/blog/supabase-is-now-available-in-gemini-enterprise",
     "title": "Supabase is now available in Gemini Enterprise",
     "summary": "Connect Supabase to Gemini Enterprise and query your Supabase projects with natural language, right inside the platform.",
@@ -287,6 +432,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/09/ai-logic-text-to-speech",
+    "title": "5 ways to use Gemini text-to-speech (TTS) in your apps with Firebase AI Logic",
+    "summary": "September 9, 2026Gemini text-to-speech (TTS) models enable direct audio generation from text prompts\nin apps via Firebase AI Logic. This means you can now add natural,\ncustomizable voice generation fe",
+    "aiSummary": "Firebase AI Logic을 통해 제공되는 Gemini TTS 모델은 텍스트를 자연스럽고 생동감 넘치는 음성으로 변환하여 모바일 및 웹 애플리케이션에 통합할 수 있는 기능을 제공합니다. 기존의 TTS와 달리 거대 언어 모델을 기반으로 하여 문맥을 이해하고 감정을 표현할 수 있다는 점이 특징입니다.\n\n본문에서는 Gemini TTS를 활용할 수 있는 5가지 주요 사례를 제시합니다. 첫째, 언어 학습 앱에서 실시간 대화 시뮬레이션 및 발음 연습을 구현할 수 있습니다. 둘째, 요리나 운동 중 사용자에게 음성으로 지침을 제공하는 핸즈프리 기능을 개발할 수 있습니다. 셋째, 시각 장애인을 위한 접근성 향상 및 콘텐츠 요약 읽기 서비스에 활용 가능합니다. 넷째, 게임이나 디지털 도서의 몰입도를 높이는 역동적인 내레이션을 생성할 수 있습니다. 마지막으로, 여러 화자가 등장하는 팟캐스트나 대화형 콘텐츠를 별도의 서버 렌더링 파이프라인 없이 앱 내에서 직접 구현할 수 있습니다.\n\n작동 원리는 간단합니다. 개발자는 오디오 프로파일, 장면 분위기, 화자의 어조 등을 담은 프롬프트를 설정하여 Gemini 모델에 전달합니다. 이후 모델은 즉시 고품질의 PCM 오디오 스트림을 클라이언트 기기로 직접 전송하므로, 서버 비용을 절감하고 지연 시간을 최소화할 수 있습니다.\n\nGemini TTS는 현재 Swift, Kotlin, Java, JavaScript, Dart, Unity 등 다양한 개발 환경을 지원합니다. Firebase AI Logic 문서를 통해 기술 상세 내용을 확인하고 앱에 즉시 적용할 수 있습니다.",
+    "url": "https://firebase.blog/posts/2026/09/ai-logic-text-to-speech",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T01:11:34.570Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
@@ -1456,179 +1618,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/03/java-acceleration-curve25519-field-operations/",
-    "title": "Acceleration of Curve25519 Field Operations with Java Software and Intrinsics",
-    "summary": "There have been a number of enhancements in JDK 27 and JDK 28 that have significantly increased the performance of Curve25519 field operations, which is the foundation for X25519 [1] key generation an",
-    "aiSummary": "JDK 27과 JDK 28에서 Curve25519 필드 연산 성능이 크게 향상되었습니다. 이번 개선은 X25519 키 생성 및 합의, Ed25519 서명, 그리고 TLS 1.3을 위한 X25519MLKEM768 하이브리드 키 교환 알고리즘에 적용되어 JCE 및 JSSE API 사용 시 전반적인 성능을 높여줍니다.\n\nJDK 27 빌드 14부터는 내부 데이터 구조 변경을 통한 소프트웨어 효율화로 알고리즘별 처리량이 27%에서 최대 54%까지 증가하였습니다. X25519는 49-54%, Ed25519는 46-49%, X25519MLKEM768은 27-51%의 성능 향상을 기록했습니다.\n\nJDK 28 빌드 5부터는 x86_64 및 AArch64 아키텍처를 위한 전용 인트린식(Intrinsics)이 추가되었습니다. 이를 통해 x86_64 환경에서는 12-20%, AArch64 환경에서는 7-15%의 추가적인 처리량 증가가 확인되었습니다.\n\n현재 JDK 27과 JDK 28의 초기 액세스 빌드를 통해 이러한 성능 향상을 직접 체험할 수 있습니다. 개발자들은 해당 빌드를 다운로드하여 개선 사항을 테스트하고, 관련 피드백을 OpenJDK의 security-dev 메일링 리스트를 통해 공유할 수 있습니다.",
-    "url": "https://inside.java/2026/09/03/java-acceleration-curve25519-field-operations/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Shawn Emery",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
-    "title": "Elastic and Tencent Cloud deepen strategic partnership to power AI-era search foundation",
-    "summary": "Tencent Cloud and Elastic announced an expanded strategic collaboration in Shenzhen in August 2026. The companies will deepen their technical and product collaboration to help enterprises establish de",
-    "aiSummary": "Tencent Cloud와 Elastic이 인공지능 시대를 맞아 기업의 전용 AI 검색 환경 구축을 지원하기 위해 전략적 파트너십을 확대합니다. 양사는 2026년 8월 중국 선전에서 이번 협력을 발표하였으며 기술 및 제품 차원의 통합을 더욱 강화할 예정입니다. 이번 협력을 통해 기업들은 더욱 고도화된 AI 검색 기반을 확보하고 비즈니스 효율성을 높일 수 있을 것으로 기대됩니다.",
-    "url": "https://www.elastic.co/blog/elastic-and-tencent-cloud",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Yuki Jiang",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
-    "title": "Announcing Rust 1.98.1",
-    "summary": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of ",
-    "aiSummary": "Rust 팀이 최신 포인트 릴리스인 Rust 1.98.1을 발표했습니다. rustup을 사용하는 기존 사용자는 rustup update stable 명령어를 통해 간단하게 업데이트할 수 있습니다.\n\n이번 1.98.1 버전은 Rust 1.98.0에서 발견된 vtable 생성 시의 컴파일 오류를 수정했습니다. 이전 버전에서는 특정 상황에서 rustc가 함수 포인터가 위치해야 할 자리에 null 포인터를 포함한 트레이트 객체 vtable을 잘못 생성하는 문제가 있었습니다. 이는 정의되지 않은 동작을 유발하여 세그멘테이션 오류나 예기치 않은 시스템 영향을 줄 수 있는 위험이 있어 이를 해결하는 데 초점을 맞췄습니다.\n\n향후 출시될 버전을 미리 테스트하고자 하는 사용자는 beta 또는 nightly 채널을 사용하여 버그를 제보함으로써 개발 과정에 참여할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rust Release Team",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://astro.build/blog/astro-730/",
-    "title": "Astro 7.3",
-    "summary": "Astro 7.3 adds an --ignore-lock flag for astro preview, passes Astro's runtime logger into custom image services and cache providers, and ships a finalize() helper for Cloudflare custom worker entrypo",
-    "aiSummary": "Astro 7.3 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 astro preview 실행 시 특정 설정을 무시할 수 있는 --ignore-lock 플래그가 추가되었습니다.\n\n또한 Astro의 런타임 로거를 커스텀 이미지 서비스 및 캐시 제공자에 전달할 수 있도록 개선되었습니다. 더불어 Cloudflare 커스텀 워커 엔트리포인트를 위한 finalize() 헬퍼 기능이 새롭게 포함되었습니다.",
-    "url": "https://astro.build/blog/astro-730/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/security-attack-hiding-in-observability-data",
-    "title": "The security attack that hid inside your observability data",
-    "summary": "Your ops team sees a CPU spike. Your security team sees nothing. The cryptominer runs for six hours. Avoid duplication of cost and time and see how a unified observability and security platform with g",
-    "aiSummary": "운영팀에서 CPU 급증 현상을 감지하더라도 보안팀은 이를 식별하지 못해 암호화폐 채굴 악성코드가 수 시간 동안 방치되는 보안 공백 사례가 발생하고 있습니다.\n\n이러한 문제는 운영과 보안 데이터가 분절되어 발생하는 비효율적인 대응에서 비롯됩니다. 이를 해결하기 위해 운영과 보안을 단일 플랫폼으로 통합하고 Grounded AI 기술을 도입함으로써 데이터 가시성을 확보해야 합니다.\n\n통합 플랫폼은 중복된 비용과 시간 낭비를 방지하고 실시간 모니터링 체계를 구축하여 잠재적인 위협을 효과적으로 차단합니다.",
-    "url": "https://www.elastic.co/blog/security-attack-hiding-in-observability-data",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Roberto Arico",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-9-5-3-released",
-    "title": "Elastic Stack 9.5.3 released ",
-    "summary": "Version 9.5.3 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.3 over the previous versions 9.5.2\nFor details of the issues that have been fix",
-    "aiSummary": "Elastic Stack 9.5.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.2에서 발견된 여러 문제를 해결하고 성능을 개선한 것으로, 기존 사용자들은 최신 버전인 9.5.3으로 업그레이드할 것을 권장합니다. 각 제품별로 수정된 문제점이나 변경 사항에 대한 구체적인 내용은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-9-5-3-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Vincent Deuschle",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/",
-    "title": "Announcing the Google Gen AI SDK for Kotlin 1.0: Idiomatic multiplatform access to Gemini",
-    "summary": "Integrating modern generative AI capabilities into Kotlin applications shouldn't require juggling raw HTTP clients or bridging disparate Java libraries. Today, we're excited to announce the 1.0 releas",
-    "aiSummary": "Google이 Kotlin 생태계에서 Gemini 모델을 손쉽게 활용할 수 있도록 지원하는 Google Gen AI SDK for Kotlin 1.0 버전을 출시하였습니다. 이 SDK는 KMP 기반으로 설계되어 JVM과 Android 환경 모두에서 일관된 개발 경험을 제공하며, Coroutines와 Flow 등 Kotlin 고유의 비동기 프로그래밍 방식을 완벽하게 지원합니다.\n\n핵심 기능으로는 단일 텍스트 생성부터 실시간 스트리밍 응답, 다중 턴 대화 관리가 포함됩니다. 특히 대화형 챗봇 구축 시 맥락 유지와 함수 호출 기능을 자동으로 처리하는 편의성을 제공합니다.\n\n또한 Google Search 기반의 Grounding 기능을 통해 멀티모달 데이터의 사실 관계를 검증할 수 있으며, Gemini 3 이미지 모델을 활용한 이미지 생성 및 편집 기능도 지원합니다. 실시간 양방향 상호작용이 필요한 경우에는 Gemini Live API를 통해 WebSocket 기반의 통신을 수행할 수 있습니다.\n\n개발자는 Maven Central을 통해 라이브러리를 추가할 수 있으며, GitHub의 공식 저장소를 통해 코드 예제와 상세 문서를 확인하여 서비스에 바로 적용할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Guillaume Laforge"
-      ],
-      "title": [
-        "Developer Advocate"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=736394",
-    "title": "Register Now for JetBrains GameDev Day 2026",
-    "summary": "Every game starts with an idea. Getting it into production means navigating code, tools, pipelines, performance bottlenecks, architectural trade-offs, and all the small decisions that only reveal thei",
-    "aiSummary": "JetBrains가 오는 9월 28일에 게임 개발자를 위한 행사인 JetBrains GameDev Day 2026을 개최합니다. 이번 행사는 게임 엔진, 툴 개발, 성능 최적화, 아키텍처 설계 등 게임 개발 과정에서 마주하는 실무적인 문제와 해결책을 다루는 강연들로 구성됩니다. 게임 개발 현업 종사자들이라면 누구나 참여할 수 있으며 프로젝트 규모 확장에 따른 기술적 도전 과제와 실질적인 경험을 공유하는 자리가 될 예정입니다. 현재 JetBrains 공식 웹사이트를 통해 참가 등록이 가능합니다.",
-    "url": "https://blog.jetbrains.com/dotnet/2026/09/03/register-now-for-jetbrains-gamedev-day-2026/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Anna Ruban",
-    "pubDate": "2026-09-02T23:00:00.000Z",
-    "fetchedAt": "2026-09-03T12:09:33.862Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-    "title": "Enterprise-managed settings support any default model",
-    "summary": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.…\nThe",
-    "aiSummary": "GitHub Copilot의 엔터프라이즈 관리 설정에서 새로운 대화에 사용할 기본 모델을 직접 지정할 수 있게 되었습니다. 이제 기업 관리자는 조직의 업무 흐름에 가장 적합한 모델을 기본값으로 설정하여 구성원들이 일관된 환경에서 개발을 진행하도록 지원할 수 있습니다. 이번 업데이트를 통해 기업은 구성원들의 업무 효율성을 높이고 프로젝트 특성에 맞춘 최적화된 AI 환경을 제공합니다.",
-    "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-02T18:51:12.000Z",
-    "fetchedAt": "2026-09-03T01:12:44.567Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_137",
-    "title": "Visual Studio Code 1.137 (Insiders)",
-    "summary": "Learn what is new in Visual Studio Code Insiders.\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.137 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트를 통해 추가된 기능과 개선 사항에 대한 세부 내용을 공식 문서를 통해 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_137",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-09-02T18:47:57.419Z",
-    "fetchedAt": "2026-09-02T18:47:57.419Z",
-    "tags": [
-      "VS Code",
-      "Editor"
     ]
   }
 ]
