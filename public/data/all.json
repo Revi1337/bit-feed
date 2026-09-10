@@ -1,5 +1,102 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
+    "title": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
+    "summary": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightf",
+    "aiSummary": "Google Cloud는 AI 코딩 에이전트의 효율성을 높이기 위해 새로운 Google Cloud Developer Plugin을 출시했습니다. 기존에는 개별적인 에이전트 스킬이나 MCP 서버를 관리하는 과정이 복잡하고 비효율적이었으나, 이번에 도입된 플러그인 시스템은 관련 도구와 기능을 하나의 번들로 묶어 제공함으로써 의존성 관리 문제를 해결합니다.\n\n이번에 공개된 google-cloud-developer 플러그인은 인증, 권한 부여, 프로젝트 관리 등 Google Cloud의 핵심 기능을 지원하며, 공식 문서를 참조할 수 있는 Developer Knowledge MCP 서버 설정까지 포함하고 있습니다. 이를 통해 에이전트는 사용자의 환경을 파악하고 IAM 모범 사례를 준수하며 안전하게 작업을 수행할 수 있습니다.\n\n특히 이 플러그인은 공급업체 중립적인 표준인 Agent Plugins 사양을 준수합니다. 이는 다양한 AI 코딩 환경에서 호환성을 유지하고 일관된 도구 접근성을 제공하기 위함입니다. 사용자는 Antigravity, Claude Code, Codex CLI 등 다양한 개발 환경에서 해당 플러그인을 쉽게 설치하여 사용할 수 있습니다. 관심 있는 개발자는 Google Agent Skills 저장소를 통해 상세한 정보와 활용 예시를 확인할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jonathan Lee"
+      ],
+      "title": [
+        "Content Strategist"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-10T18:33:44.569Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+    "title": "Control GitHub Actions cache access with cache-mode",
+    "summary": "You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access…\nThe post Control GitHub Act",
+    "aiSummary": "GitHub은 workflow 또는 job 단위로 GitHub Actions cache에 대한 접근 권한을 세밀하게 제어할 수 있는 cache-mode 기능을 도입했습니다.\n\n이번 업데이트를 통해 사용자는 최소 권한 원칙을 적용하여 각 workflow와 job이 필요한 cache에만 접근하도록 제한할 수 있게 되었습니다. 이를 통해 보안성을 강화하고 의도치 않은 캐시 데이터 접근을 방지하여 더욱 안전한 CI/CD 환경을 구축할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T17:26:59.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/bifrost-first-anniversary",
+    "title": "Bifrost Turns One With AI Builds and New Workflows",
+    "summary": "Bifrost marks its first year and 10,000 successful builds with an MCP server, automated workflows, managed credentials, and AI build diagnoses.\nThe post Bifrost Turns One With AI Builds and New Workfl",
+    "aiSummary": "Bifrost가 서비스 출시 1주년을 맞이하여 1만 건 이상의 성공적인 빌드를 기록했습니다.\n\n이번 업데이트를 통해 MCP 서버 지원이 추가되었으며 자동화된 워크플로우와 관리형 자격 증명 기능을 새롭게 도입했습니다.\n\n특히 AI 기반의 빌드 진단 기능을 탑재하여 개발 효율성을 높이고 더욱 안정적인 개발 환경을 제공합니다.",
+    "url": "https://laravel-news.com/bifrost-first-anniversary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-09-10T17:06:47.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
+    "title": "Xcode 27 runner image now runs on macOS 27",
+    "summary": "You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS…\nThe post Xcode 27",
+    "aiSummary": "GitHub Actions에서 사용하는 GitHub-hosted macOS runner에 Xcode 27 기반의 새로운 이미지가 퍼블릭 프리뷰 형태로 추가되었습니다. 이번 업데이트를 통해 개발자들은 macOS 27 환경에서 자신의 Apple 애플리케이션을 검증하고 테스트할 수 있게 되었습니다. 이전 버전의 runner 이미지와 달리 최신 macOS 27 OS를 공식 지원함으로써 개발 환경의 최신성을 유지할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T15:15:36.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/put-data-to-work",
+    "title": "Now everyone can put data to work",
+    "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "aiSummary": "OpenAI가 기업용 서비스인 ChatGPT Work에 새로운 Data agent 기능을 도입합니다. 사용자는 자연어를 활용하여 회사 데이터를 직접 연결하고 이를 분석함으로써 유의미한 인사이트를 빠르게 도출할 수 있습니다. 또한 AI를 통해 대화형 대시보드를 손쉽게 구축하여 데이터 활용의 접근성을 크게 높였습니다.",
+    "url": "https://openai.com/index/put-data-to-work",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T15:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/sep/10/pycharm-django-fundraiser-extended/",
     "title": "PyCharm & Django Fundraiser Extended to September 14",
     "summary": "The second half of our annual JetBrains fundraiser has been extended through September 14, 2026. Thank you to JetBrains for the extra time. You still have time to renew your PyCharm license or give it",
@@ -32,6 +129,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "title": "Introducing ChatGPT for Financial Services",
+    "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "aiSummary": "OpenAI가 금융 서비스 분야에 특화된 ChatGPT를 새롭게 공개했습니다. 해당 모델은 내장된 금융 데이터와 GPT-6 Astra를 결합하여 전문적인 연구와 데이터 모델링을 지원합니다. 또한 이를 통해 고객에게 바로 제공할 수 있는 수준의 자료를 효율적으로 생성할 수 있도록 설계되었습니다.",
+    "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T07:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.0",
     "title": "1.2.0",
     "summary": "Added the remote-control start, remote-control status, and remote-control stop subcommands to run the CLI as a background service registered with your operating system's service manager so your machin",
@@ -45,6 +159,55 @@
     "tags": [
       "Antigravity",
       "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-migrator-10-first-stable-release-3377/",
+    "title": "PostgreSQL Migrator 1.0 : first stable release\n",
+    "summary": "Paris, 7th september 2026.\nThe Dalibo team is pleased to announce the release of PostgreSQL Migrator 1.0 stable, a free and open-source tool designed to help migrate databases from Oracle and MySQL/Ma",
+    "aiSummary": "Dalibo 팀은 Oracle과 MySQL 및 MariaDB 데이터베이스를 PostgreSQL로 이전하는 것을 돕는 오픈소스 도구인 PostgreSQL Migrator 1.0 정식 버전을 출시했습니다. 이 도구는 Go 언어로 작성되어 설치가 간편하며, 복잡도 평가, 대화형 웹 UI 제공, 데이터 형식 변환 및 고성능 데이터 복제 기능을 지원합니다.\n\n특히 transqlate 도구를 활용한 코드 분석과 변환 기능을 통해 SQL과 PL/SQL 등을 효율적으로 처리합니다. 현재 Oracle 11g부터 26ai까지, 그리고 최신 MySQL과 MariaDB에서 PostgreSQL 16부터 19 버전으로의 이전을 지원합니다.\n\n현재 버전 1.0에서는 역할, 스키마, 시퀀스, 테이블, 제약 조건 및 인덱스 변환을 완벽하게 지원하며 향후 뷰와 절차적 객체 등으로 범위를 넓힐 계획입니다. 1년간의 베타 테스트를 거쳐 안정성을 확보하였으며, PostgreSQL 라이선스 하에 배포되어 누구나 자유롭게 사용할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-migrator-10-first-stable-release-3377/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_vault_tde-v171-transparent-data-encryption-for-postgresql-17-and-18-3376/",
+    "title": "pg_vault_tde v1.7.1 : Transparent Data Encryption for PostgreSQL 17 and 18\n",
+    "summary": "pg_vault_tde provides Transparent Data Encryption for PostgreSQL 17 and 18. A table access method, encrypted_heap, encrypts every tuple with AES-256-GCM before it reaches the storage manager and decry",
+    "aiSummary": "pg_vault_tde v1.7.1은 PostgreSQL 17 및 18 버전을 위한 투명한 데이터 암호화 솔루션입니다. 이 도구는 encrypted_heap이라는 테이블 접근 방식을 사용하여 저장소 관리자 단계 이전에 모든 튜플을 AES-256-GCM 방식으로 암호화하므로 기존 애플리케이션의 별도 수정 없이 사용 가능합니다.\n\n암호화 키는 HashiCorp Vault, OpenBao의 Transit 엔진, PKCS#11 토큰, HSM 또는 로컬 PKCS#12 지갑과 같이 데이터베이스 외부에서 관리됩니다. 데이터 암호화 키는 테이블 단위로 생성되며 온라인 환경에서 주기적으로 교체할 수 있습니다. 사용을 위해서는 PostgreSQL 17 또는 18, OpenSSL 3.x 버전이 필요하며 shared_preload_libraries 설정을 통한 라이브러리 등록이 요구됩니다.\n\n이번 v1.7.1 업데이트에서는 TOAST 값의 AAD 도출 과정이 수정되었습니다. 이에 따라 이전 버전인 1.7.0 이하에서 작성된 TOAST 데이터는 1.7.1 버전에서 인증이 불가능하므로, 업데이트 전 대상 테이블을 반드시 내보내야 합니다. 상세한 처리 과정은 README를 통해 확인할 수 있습니다.\n\n해당 소프트웨어는 PostgreSQL 라이선스를 따르며 소스 코드와 문서 및 패키지는 GitHub와 PGXN을 통해 제공됩니다.",
+    "url": "https://www.postgresql.org/about/news/pg_vault_tde-v171-transparent-data-encryption-for-postgresql-17-and-18-3376/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+    "aiSummary": "OpenAI가 API를 통해 자연스럽고 양방향 소통이 가능한 음성 대화 경험을 제공하는 GPT-Live-1 모델을 출시했습니다.\n\n이번 업데이트를 통해 개발자는 더욱 정교해진 지시 사항 이행 능력을 활용할 수 있으며, 사용자 맞춤형 음성을 설정하거나 전화 통신망과 연동하는 기능도 지원받을 수 있게 되었습니다. 이를 통해 기존보다 훨씬 더 자연스럽고 매끄러운 음성 기반의 인터페이스를 구축하는 것이 가능해졌습니다.",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
       "AI"
     ]
   },
@@ -82,6 +245,38 @@
     ]
   },
   {
+    "id": "a7eafcc0229cd1fa7f057426d064a4eca2d0738b",
+    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+    "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service ",
+    "aiSummary": "AWS는 Amazon EBS Volume Clones 기능을 업데이트하여 서로 다른 AWS 계정 간에 볼륨을 복제할 수 있는 기능을 새롭게 제공합니다. 이를 통해 사용자는 자신의 EBS 볼륨 복사본을 다른 AWS 계정으로 직접 생성할 수 있습니다. 또한 복제 과정에서 대상 계정의 AWS KMS 키를 사용하여 데이터를 다시 암호화하는 옵션도 지원합니다. 이러한 기능은 계정 간 데이터 이전 및 보안 관리를 더욱 효율적으로 만들어 줍니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-09-09T22:01:47.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+    "title": "npm extends recovery-code security holds to all accounts",
+    "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change appli",
+    "aiSummary": "npm은 성공적인 복구 코드 로그인을 거친 모든 계정에 대하여 72시간 동안의 일시적인 보안 보호 조치를 적용하기로 했습니다. 기존에는 영향력이 큰 특정 계정에만 한정되었던 이 정책이 모든 사용자 계정으로 확대된 것입니다. 해당 조치는 계정 탈취나 비정상적인 접근 시도를 방지하고 보안을 강화하기 위한 목적으로 시행됩니다. 적용 대상 계정은 복구 코드를 사용해 로그인한 후 72시간 동안 패키지 게시나 주요 설정 변경과 같은 민감한 작업이 제한됩니다.",
+    "url": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T21:55:55.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
     "title": "CodeQL 2.27.0 adds support for Linux ARM64",
     "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL ",
@@ -95,6 +290,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-telescope-5-24-0",
+    "title": "Artisan Debugging Commands in Laravel Telescope 5.24.0",
+    "summary": "Laravel Telescope 5.24.0 adds two Artisan commands for inspecting recorded entries from the terminal and cancels stale dashboard requests during navigation.\nThe post Artisan Debugging Commands in Lara",
+    "aiSummary": "Laravel Telescope 5.24.0 버전이 새롭게 출시되었습니다. 이번 업데이트에는 터미널 환경에서 기록된 항목들을 직접 확인할 수 있는 두 가지의 새로운 Artisan 명령어가 추가되었습니다. 또한 웹 브라우저 내비게이션 과정에서 발생하는 불필요한 대시보드 요청을 취소하는 기능을 통해 성능 최적화를 지원합니다. 이를 통해 개발자는 보다 효율적으로 디버깅 작업을 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-telescope-5-24-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-09-09T21:33:11.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {

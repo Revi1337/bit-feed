@@ -1,5 +1,102 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
+    "title": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
+    "summary": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightf",
+    "aiSummary": "Google Cloud는 AI 코딩 에이전트의 효율성을 높이기 위해 새로운 Google Cloud Developer Plugin을 출시했습니다. 기존에는 개별적인 에이전트 스킬이나 MCP 서버를 관리하는 과정이 복잡하고 비효율적이었으나, 이번에 도입된 플러그인 시스템은 관련 도구와 기능을 하나의 번들로 묶어 제공함으로써 의존성 관리 문제를 해결합니다.\n\n이번에 공개된 google-cloud-developer 플러그인은 인증, 권한 부여, 프로젝트 관리 등 Google Cloud의 핵심 기능을 지원하며, 공식 문서를 참조할 수 있는 Developer Knowledge MCP 서버 설정까지 포함하고 있습니다. 이를 통해 에이전트는 사용자의 환경을 파악하고 IAM 모범 사례를 준수하며 안전하게 작업을 수행할 수 있습니다.\n\n특히 이 플러그인은 공급업체 중립적인 표준인 Agent Plugins 사양을 준수합니다. 이는 다양한 AI 코딩 환경에서 호환성을 유지하고 일관된 도구 접근성을 제공하기 위함입니다. 사용자는 Antigravity, Claude Code, Codex CLI 등 다양한 개발 환경에서 해당 플러그인을 쉽게 설치하여 사용할 수 있습니다. 관심 있는 개발자는 Google Agent Skills 저장소를 통해 상세한 정보와 활용 예시를 확인할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jonathan Lee"
+      ],
+      "title": [
+        "Content Strategist"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-10T18:33:44.569Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+    "title": "Control GitHub Actions cache access with cache-mode",
+    "summary": "You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access…\nThe post Control GitHub Act",
+    "aiSummary": "GitHub은 workflow 또는 job 단위로 GitHub Actions cache에 대한 접근 권한을 세밀하게 제어할 수 있는 cache-mode 기능을 도입했습니다.\n\n이번 업데이트를 통해 사용자는 최소 권한 원칙을 적용하여 각 workflow와 job이 필요한 cache에만 접근하도록 제한할 수 있게 되었습니다. 이를 통해 보안성을 강화하고 의도치 않은 캐시 데이터 접근을 방지하여 더욱 안전한 CI/CD 환경을 구축할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T17:26:59.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/bifrost-first-anniversary",
+    "title": "Bifrost Turns One With AI Builds and New Workflows",
+    "summary": "Bifrost marks its first year and 10,000 successful builds with an MCP server, automated workflows, managed credentials, and AI build diagnoses.\nThe post Bifrost Turns One With AI Builds and New Workfl",
+    "aiSummary": "Bifrost가 서비스 출시 1주년을 맞이하여 1만 건 이상의 성공적인 빌드를 기록했습니다.\n\n이번 업데이트를 통해 MCP 서버 지원이 추가되었으며 자동화된 워크플로우와 관리형 자격 증명 기능을 새롭게 도입했습니다.\n\n특히 AI 기반의 빌드 진단 기능을 탑재하여 개발 효율성을 높이고 더욱 안정적인 개발 환경을 제공합니다.",
+    "url": "https://laravel-news.com/bifrost-first-anniversary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-09-10T17:06:47.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
+    "title": "Xcode 27 runner image now runs on macOS 27",
+    "summary": "You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS…\nThe post Xcode 27",
+    "aiSummary": "GitHub Actions에서 사용하는 GitHub-hosted macOS runner에 Xcode 27 기반의 새로운 이미지가 퍼블릭 프리뷰 형태로 추가되었습니다. 이번 업데이트를 통해 개발자들은 macOS 27 환경에서 자신의 Apple 애플리케이션을 검증하고 테스트할 수 있게 되었습니다. 이전 버전의 runner 이미지와 달리 최신 macOS 27 OS를 공식 지원함으로써 개발 환경의 최신성을 유지할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T15:15:36.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/put-data-to-work",
+    "title": "Now everyone can put data to work",
+    "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "aiSummary": "OpenAI가 기업용 서비스인 ChatGPT Work에 새로운 Data agent 기능을 도입합니다. 사용자는 자연어를 활용하여 회사 데이터를 직접 연결하고 이를 분석함으로써 유의미한 인사이트를 빠르게 도출할 수 있습니다. 또한 AI를 통해 대화형 대시보드를 손쉽게 구축하여 데이터 활용의 접근성을 크게 높였습니다.",
+    "url": "https://openai.com/index/put-data-to-work",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T15:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/sep/10/pycharm-django-fundraiser-extended/",
     "title": "PyCharm & Django Fundraiser Extended to September 14",
     "summary": "The second half of our annual JetBrains fundraiser has been extended through September 14, 2026. Thank you to JetBrains for the extra time. You still have time to renew your PyCharm license or give it",
@@ -32,6 +129,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "title": "Introducing ChatGPT for Financial Services",
+    "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "aiSummary": "OpenAI가 금융 서비스 분야에 특화된 ChatGPT를 새롭게 공개했습니다. 해당 모델은 내장된 금융 데이터와 GPT-6 Astra를 결합하여 전문적인 연구와 데이터 모델링을 지원합니다. 또한 이를 통해 고객에게 바로 제공할 수 있는 수준의 자료를 효율적으로 생성할 수 있도록 설계되었습니다.",
+    "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T07:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.0",
     "title": "1.2.0",
     "summary": "Added the remote-control start, remote-control status, and remote-control stop subcommands to run the CLI as a background service registered with your operating system's service manager so your machin",
@@ -45,6 +159,55 @@
     "tags": [
       "Antigravity",
       "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-migrator-10-first-stable-release-3377/",
+    "title": "PostgreSQL Migrator 1.0 : first stable release\n",
+    "summary": "Paris, 7th september 2026.\nThe Dalibo team is pleased to announce the release of PostgreSQL Migrator 1.0 stable, a free and open-source tool designed to help migrate databases from Oracle and MySQL/Ma",
+    "aiSummary": "Dalibo 팀은 Oracle과 MySQL 및 MariaDB 데이터베이스를 PostgreSQL로 이전하는 것을 돕는 오픈소스 도구인 PostgreSQL Migrator 1.0 정식 버전을 출시했습니다. 이 도구는 Go 언어로 작성되어 설치가 간편하며, 복잡도 평가, 대화형 웹 UI 제공, 데이터 형식 변환 및 고성능 데이터 복제 기능을 지원합니다.\n\n특히 transqlate 도구를 활용한 코드 분석과 변환 기능을 통해 SQL과 PL/SQL 등을 효율적으로 처리합니다. 현재 Oracle 11g부터 26ai까지, 그리고 최신 MySQL과 MariaDB에서 PostgreSQL 16부터 19 버전으로의 이전을 지원합니다.\n\n현재 버전 1.0에서는 역할, 스키마, 시퀀스, 테이블, 제약 조건 및 인덱스 변환을 완벽하게 지원하며 향후 뷰와 절차적 객체 등으로 범위를 넓힐 계획입니다. 1년간의 베타 테스트를 거쳐 안정성을 확보하였으며, PostgreSQL 라이선스 하에 배포되어 누구나 자유롭게 사용할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-migrator-10-first-stable-release-3377/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_vault_tde-v171-transparent-data-encryption-for-postgresql-17-and-18-3376/",
+    "title": "pg_vault_tde v1.7.1 : Transparent Data Encryption for PostgreSQL 17 and 18\n",
+    "summary": "pg_vault_tde provides Transparent Data Encryption for PostgreSQL 17 and 18. A table access method, encrypted_heap, encrypts every tuple with AES-256-GCM before it reaches the storage manager and decry",
+    "aiSummary": "pg_vault_tde v1.7.1은 PostgreSQL 17 및 18 버전을 위한 투명한 데이터 암호화 솔루션입니다. 이 도구는 encrypted_heap이라는 테이블 접근 방식을 사용하여 저장소 관리자 단계 이전에 모든 튜플을 AES-256-GCM 방식으로 암호화하므로 기존 애플리케이션의 별도 수정 없이 사용 가능합니다.\n\n암호화 키는 HashiCorp Vault, OpenBao의 Transit 엔진, PKCS#11 토큰, HSM 또는 로컬 PKCS#12 지갑과 같이 데이터베이스 외부에서 관리됩니다. 데이터 암호화 키는 테이블 단위로 생성되며 온라인 환경에서 주기적으로 교체할 수 있습니다. 사용을 위해서는 PostgreSQL 17 또는 18, OpenSSL 3.x 버전이 필요하며 shared_preload_libraries 설정을 통한 라이브러리 등록이 요구됩니다.\n\n이번 v1.7.1 업데이트에서는 TOAST 값의 AAD 도출 과정이 수정되었습니다. 이에 따라 이전 버전인 1.7.0 이하에서 작성된 TOAST 데이터는 1.7.1 버전에서 인증이 불가능하므로, 업데이트 전 대상 테이블을 반드시 내보내야 합니다. 상세한 처리 과정은 README를 통해 확인할 수 있습니다.\n\n해당 소프트웨어는 PostgreSQL 라이선스를 따르며 소스 코드와 문서 및 패키지는 GitHub와 PGXN을 통해 제공됩니다.",
+    "url": "https://www.postgresql.org/about/news/pg_vault_tde-v171-transparent-data-encryption-for-postgresql-17-and-18-3376/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+    "aiSummary": "OpenAI가 API를 통해 자연스럽고 양방향 소통이 가능한 음성 대화 경험을 제공하는 GPT-Live-1 모델을 출시했습니다.\n\n이번 업데이트를 통해 개발자는 더욱 정교해진 지시 사항 이행 능력을 활용할 수 있으며, 사용자 맞춤형 음성을 설정하거나 전화 통신망과 연동하는 기능도 지원받을 수 있게 되었습니다. 이를 통해 기존보다 훨씬 더 자연스럽고 매끄러운 음성 기반의 인터페이스를 구축하는 것이 가능해졌습니다.",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
       "AI"
     ]
   },
@@ -82,6 +245,38 @@
     ]
   },
   {
+    "id": "a7eafcc0229cd1fa7f057426d064a4eca2d0738b",
+    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+    "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service ",
+    "aiSummary": "AWS는 Amazon EBS Volume Clones 기능을 업데이트하여 서로 다른 AWS 계정 간에 볼륨을 복제할 수 있는 기능을 새롭게 제공합니다. 이를 통해 사용자는 자신의 EBS 볼륨 복사본을 다른 AWS 계정으로 직접 생성할 수 있습니다. 또한 복제 과정에서 대상 계정의 AWS KMS 키를 사용하여 데이터를 다시 암호화하는 옵션도 지원합니다. 이러한 기능은 계정 간 데이터 이전 및 보안 관리를 더욱 효율적으로 만들어 줍니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-09-09T22:01:47.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+    "title": "npm extends recovery-code security holds to all accounts",
+    "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change appli",
+    "aiSummary": "npm은 성공적인 복구 코드 로그인을 거친 모든 계정에 대하여 72시간 동안의 일시적인 보안 보호 조치를 적용하기로 했습니다. 기존에는 영향력이 큰 특정 계정에만 한정되었던 이 정책이 모든 사용자 계정으로 확대된 것입니다. 해당 조치는 계정 탈취나 비정상적인 접근 시도를 방지하고 보안을 강화하기 위한 목적으로 시행됩니다. 적용 대상 계정은 복구 코드를 사용해 로그인한 후 72시간 동안 패키지 게시나 주요 설정 변경과 같은 민감한 작업이 제한됩니다.",
+    "url": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-09T21:55:55.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
     "title": "CodeQL 2.27.0 adds support for Linux ARM64",
     "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL ",
@@ -95,6 +290,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-telescope-5-24-0",
+    "title": "Artisan Debugging Commands in Laravel Telescope 5.24.0",
+    "summary": "Laravel Telescope 5.24.0 adds two Artisan commands for inspecting recorded entries from the terminal and cancels stale dashboard requests during navigation.\nThe post Artisan Debugging Commands in Lara",
+    "aiSummary": "Laravel Telescope 5.24.0 버전이 새롭게 출시되었습니다. 이번 업데이트에는 터미널 환경에서 기록된 항목들을 직접 확인할 수 있는 두 가지의 새로운 Artisan 명령어가 추가되었습니다. 또한 웹 브라우저 내비게이션 과정에서 발생하는 불필요한 대시보드 요청을 취소하는 기능을 통해 성능 최적화를 지원합니다. 이를 통해 개발자는 보다 효율적으로 디버깅 작업을 수행할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-telescope-5-24-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-09-09T21:33:11.000Z",
+    "fetchedAt": "2026-09-10T18:33:44.569Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -1418,171 +1629,6 @@
     "author": "Allison",
     "pubDate": "2026-09-03T18:50:38.000Z",
     "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
-    "title": "Kubernetes v1.37: DRA Updates",
-    "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building towar",
-    "aiSummary": "Kubernetes 1.37 버전은 DRA(Dynamic Resource Allocation) 기능을 대폭 강화하며 관련 기술들을 안정화 단계로 격상했습니다.\n\n가장 주목할 점은 DRA Extended Resource 지원이 정식 버전인 GA로 전환된 것입니다. 이를 통해 기존의 확장 리소스 API를 사용하는 워크로드들이 별도의 디바이스 플러그인 없이도 DRA 드라이버를 통해 리소스를 할당받을 수 있게 되었으며, 클러스터 관리자는 기존 애플리케이션의 수정 없이 점진적인 DRA 도입이 가능합니다. 또한 ResourceClaim에 네트워크 인터페이스 정보가 포함되어 가시성이 향상되었으며, 노드 테인트와 톨러레이션 모델을 차용한 DRA 디바이스 테인트 기능이 정식으로 안정화되어 디바이스 유지보수가 더욱 용이해졌습니다. NUMA 노드 속성 표준화 역시 안정화되어 서로 다른 드라이버 간 리소스 비교가 규격화되었습니다.\n\n베타 단계로 격상된 주요 기능으로는 워크로드 및 PodGroup이 ResourceClaim을 직접 참조할 수 있는 기능이 있으며, KubeVirt VM 환경에서 디바이스 정보를 주입하기 위한 DRA Device Attributes Downward API가 포함되었습니다.\n\n알파 단계에서 새롭게 도입되거나 개선된 기능들은 다음과 같습니다. \n우선 CEL 표현식을 통해 서로 다른 벤더의 디바이스 속성 이름을 매칭하거나 사용자 정의 규칙으로 디바이스를 조합할 수 있는 Derived Attributes 기능이 추가되었습니다. \n또한 리소스 할당 시 스케줄러와 kubelet이 DRA 관리 리소스를 일반 리소스처럼 취급하는 노드 할당 가능 리소스 요청 기능과, 대규모 클러스터에서 스케줄링 처리량을 두 배 가까이 향상시키는 PreQueueingHint 확장 포인트가 도입되었습니다. \n이외에도 디바이스 호환성 그룹, 분수 단위 용량 지원, 리소스 가용성 가시성 개선 등 다양한 기능이 알파 또는 베타 단계로 제공되어 사용자에게 더 정교한 리소스 제어 환경을 제공합니다.",
-    "url": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-09-03T18:30:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=93273",
-    "title": "YOLO Mode: Agent Autonomy Without the Guardrails",
-    "summary": "YOLO mode lets an AI agent run without asking permission. Learn what it is, why it's risky, and how to run it safely.",
-    "aiSummary": "YOLO mode는 AI 에이전트가 사용자의 개별적인 승인 절차 없이 자율적으로 작업을 수행하도록 허용하는 모드입니다.\n\n이 모드는 반복적인 확인 과정을 생략하여 업무 처리 효율성을 높일 수 있다는 장점이 있지만, 시스템 제어권이 에이전트에게 온전히 넘어가는 만큼 예기치 못한 명령 실행이나 데이터 오류 등 높은 보안 위험을 동반합니다.\n\n따라서 YOLO mode를 도입할 때는 에이전트가 접근할 수 있는 권한을 최소한으로 제한하고, 실행 로그를 상시 모니터링하며, 위험한 명령어를 사전에 차단하는 등 안전한 운용 환경을 구축하는 것이 필수적입니다.",
-    "url": "https://www.docker.com/blog/what-is-yolo-mode/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Srini Sekaran",
-    "pubDate": "2026-09-03T18:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
-    "title": "What’s new with Google Data Cloud",
-    "summary": "August 31 - September 4\nStateful processing is available in BigQuery continuous queries in Preview\nStateful operations significantly expand what’s possible with BigQuery continuous queries. This featu",
-    "aiSummary": "Google Data Cloud의 주요 업데이트는 데이터 처리, AI 에이전트 통합, 그리고 데이터 분석 도구의 효율성 강화에 집중되어 있습니다.\n\n빅데이터 및 스트리밍 영역에서는 BigQuery continuous queries에 Stateful processing 기능이 도입되어 JOIN, 집계, 윈도잉 함수를 실시간으로 활용할 수 있게 되었습니다. 또한 Managed Service for Kafka를 위한 합성 데이터 생성 도구가 정식 출시되었으며, Dataflow 파이프라인 업데이트 기능이 개선되어 중단 없는 마이그레이션과 효율적인 리소스 관리가 가능해졌습니다. 데이터 레이크하우스 환경을 위해서는 Apache Iceberg 기반의 관리형 테이블이 프리뷰로 제공되어 다중 엔진 간 상호 운용성을 확보했습니다.\n\nAI 및 에이전트 관련 기능도 대폭 확대되었습니다. BigQuery Studio에는 상황 인식이 가능한 Gemini 어시스턴트가 강화되었고, Conversational Analytics를 통해 자연어로 데이터를 분석하고 시각화하는 기능이 고도화되었습니다. 특히 AlloyDB, Spanner, Cloud SQL, Bigtable, Firestore 등에 대한 MCP 지원을 통해 AI 모델이 데이터베이스와 직접 상호작용하며 복잡한 문제를 해결할 수 있는 환경을 구축했습니다.\n\n데이터베이스 및 운영 도구 부문에서는 Google이 직접 개발한 BigQuery용 ODBC 및 JDBC 드라이버가 공개되어 연결성이 향상되었습니다. Cloud SQL은 Microsoft Entra ID 통합을 지원하여 멀티 클라우드 환경의 보안을 강화했으며, 자동 확장 읽기 풀 기능을 통해 가용성을 높였습니다. Cloud Composer 3는 Gemini Cloud Assist를 통한 자동화된 Airflow 작업 트러블슈팅 기능을 도입하여 운영 효율성을 크게 높였습니다. \n\n이 외에도 BigQuery Graph가 프리뷰로 출시되어 대규모 데이터 관계 분석을 지원하며, Looker는 셀프 서비스 방식의 분석 기능을 통해 데이터 거버넌스와 인사이트 도출의 속도를 높이고 있습니다. 각 기능은 데이터 엔지니어링부터 클라우드 인프라 운영까지 전 과정에 걸쳐 AI 워크플로우를 통합하고 운영 부담을 줄이는 데 초점을 맞추고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "The Google Cloud Data Analytics, BI, and Database teams "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-03T16:00:00.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "/blog/turbopack-chunking",
-    "title": "How Turbopack chunks your JavaScript",
-    "summary": "Turbopack’s chunking speeds up page loads and enables sharing code across pages.\nWe shipped new experimental features to improve chunking in Next.js 16.3.",
-    "aiSummary": "Turbopack은 자바스크립트 코드의 청킹 기능을 최적화하여 페이지 로드 속도를 향상하고 페이지 간 코드 공유를 효율적으로 지원합니다. Next.js 16.3 버전에는 이러한 청킹 성능을 개선하기 위한 새로운 실험적 기능들이 추가되었습니다.",
-    "url": "https://nextjs.org/blog/turbopack-chunking",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": {
-      "name": [
-        "Sam Poder"
-      ]
-    },
-    "pubDate": "2026-09-03T16:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/the-common-security-controls-behind-indias-regulatory-wave",
-    "title": "The common security controls behind India's regulatory wave ",
-    "summary": "India’s security and privacy rulebook has changed quickly. But beneath the new layers of requirements, a common control set is emerging: encryption, tokenization and masking, least-privilege access, a",
-    "aiSummary": "인도에서는 DPDP, SEBI CSCRF, CERT-In, RBI 등 다양한 규제 프레임워크가 빠르게 도입되면서 기업들에게 강력한 보안 준수 의무를 부과하고 있습니다. 이러한 규제들이 복잡해 보이지만, 핵심적으로 요구하는 기술적 통제 사항은 데이터 암호화, 토큰화 및 마스킹, 최소 권한 접근 제어, 감사 로그 기록 및 보관, 그리고 데이터 현지화라는 다섯 가지 공통 요소로 귀결됩니다.\n\nHashiCorp의 Vault는 이러한 보안 요구사항을 효과적으로 해결하기 위한 플랫폼으로 활용될 수 있습니다. Vault는 전송 중이거나 저장된 데이터의 암호화를 수행하고, 토큰화와 마스킹을 통해 민감 정보를 보호하며, 동적 비밀 관리와 세밀한 정책 설정을 통해 최소 권한 접근 원칙을 구현합니다. 또한 모든 상호작용을 감사 로그로 기록하여 규제기관이 요구하는 가시성을 제공하며, 하드웨어 보안 모듈과의 통합을 통해 강력한 보안 표준을 지원합니다.\n\n특히 API 키 관리와 같은 실무 환경에서 Vault는 비밀 정보를 코드에서 분리하고, 자동화된 키 교체 및 접근 제어를 수행하여 보안 사고 위험을 줄입니다. 최근 급부상하는 AI 에이전트 환경에서도 이러한 보안 통제는 필수적입니다. AI 에이전트를 인간과 동일한 독립적 식별자로 취급하고, HashiCorp의 Vault와 IBM Verify를 결합하여 에이전트의 작업 권한을 제어하며 모든 행동을 추적함으로써 기존 보안 체계를 확장할 수 있습니다.\n\n추가적으로 HashiCorp의 Boundary는 네트워크 경로에 대한 ID 기반 접근 제어를 수행하여 운영자가 비밀번호 노출 없이 인프라에 접속하도록 돕고, Consul은 서비스 메시를 통해 서비스 간 통신 시 상호 TLS 암호화를 강제합니다. 결론적으로 기업들은 개별 규제에 맞춰 대응책을 분리하기보다, 데이터의 생성부터 삭제까지 전 과정을 관리하는 공통의 보안 통제 프레임을 구축함으로써 여러 규제 요구사항을 동시에 효율적으로 해결할 수 있습니다.",
-    "url": "https://www.hashicorp.com/blog/the-common-security-controls-behind-indias-regulatory-wave",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Abhijeet Lokhande",
-    "pubDate": "2026-09-03T16:00:00.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laracon-archive",
-    "title": "The Laracon Archive",
-    "summary": "The Laracon Archive - an archive of 626 talks, 287 speakers, 5 Laracons, over the entire 14 years\nThe post The Laracon Archive appeared first on Laravel News.\nJoin the Laravel Newsletter to get Larave",
-    "aiSummary": "The Laracon Archive는 지난 14년간 개최된 5번의 Laracon 컨퍼런스에서 발표된 626개의 강연과 287명 연사들의 기록을 모아놓은 아카이브입니다. Laravel 생태계의 방대한 기술적 자산을 한곳에서 확인할 수 있는 자료입니다. 상세한 내용은 Laravel News를 통해 제공됩니다.",
-    "url": "https://laravel-news.com/laracon-archive?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-09-03T15:06:21.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-    "summary": "Sep 03, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Our flagship AI weather forecasting model ",
-    "aiSummary": "Google DeepMind와 Google Research는 최신 AI 기상 예측 모델인 WeatherNext 3를 발표했습니다. 이 모델은 기존 모델보다 공간 해상도를 약 5배 높이고 예측 주기를 1시간 단위로 단축하여 기상 변화를 더욱 정밀하게 포착합니다. 특히 실시간 위성 데이터를 직접 학습하고 지상 관측 데이터를 통합함으로써, 물리 기반 시뮬레이션의 지연 시간 문제를 해결하고 급격한 기상 변화에 대한 대응 능력을 크게 향상했습니다.\n\nWeatherNext 3는 최대 5km의 고해상도 격자에서 기온과 습도 등을 시각화하며, 강수 예측 정확도 또한 기존 대비 최대 60%까지 개선했습니다. 또한 풍력 터빈 높이의 풍속이나 태양광 발전 효율을 위한 일사량 예측 등 청정 에너지 생산을 지원하는 특화 변수들을 포함하고 있습니다. 이러한 기술적 도약은 그동안 고성능 컴퓨팅 비용 문제로 고해상도 예측이 어려웠던 라틴 아메리카, 아프리카, 아시아 태평양 지역을 포함한 전 세계 사용자들에게 큰 혜택을 제공할 것으로 기대됩니다.\n\n해당 모델은 오늘부터 Google Search, Gemini, Google Maps, Google Maps Platform, Cloud 등 Google의 주요 서비스 전반에 통합됩니다. 이를 통해 전 세계 사용자는 향상된 기상 정보를 실시간으로 확인할 수 있으며, 개발자와 기업은 BigQuery나 Earth Engine을 통해 해당 데이터를 활용하거나 Google Cloud Storage에서 직접 다운로드할 수 있습니다.",
-    "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-03T15:02:08.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-    "title": "Reopening Copilot Business and Enterprise signups",
-    "summary": "We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started…\nThe post ",
-    "aiSummary": "GitHub는 그동안 중단되었던 Copilot Business와 Copilot Enterprise의 신규 가입 절차를 다시 진행합니다. 신용카드나 PayPal을 통해 결제하는 고객을 대상으로 향후 몇 주에 걸쳐 점진적으로 가입 허용 범위를 확대할 예정입니다. 그동안 서비스 이용을 대기하던 고객들은 곧 순차적으로 가입이 가능해질 전망입니다.",
-    "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-03T14:40:43.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-    "title": "CodeQL 2.26.4 improves GitHub actions security detections",
-    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,…\nThe p",
-    "aiSummary": "GitHub에서 정적 분석 엔진인 CodeQL의 최신 버전인 2.26.4를 새롭게 출시했습니다. 이번 업데이트를 통해 Go 1.27 버전에 대한 지원이 추가되었습니다. 또한 GitHub Actions와 관련된 보안 탐지 기능을 강화하여 코드 스캔 과정에서 발생할 수 있는 보안 취약점을 더욱 효과적으로 찾아내고 수정할 수 있도록 개선되었습니다.",
-    "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-03T14:04:59.000Z",
-    "fetchedAt": "2026-09-03T18:47:06.128Z",
     "tags": [
       "GitHub",
       "DevOps"
