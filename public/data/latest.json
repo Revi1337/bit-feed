@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
+    "title": "Refreshed repository pull requests page in public preview",
+    "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes…\n",
+    "aiSummary": "GitHub가 모든 사용자를 대상으로 저장소 단위의 Pull requests 페이지를 새롭게 단장하여 공개 미리보기 형태로 제공합니다.\n\n이번 업데이트는 사용자가 더욱 효율적으로 작업할 수 있도록 강력한 필터링 기능과 화면을 간결하게 구성할 수 있는 컴팩트 프레젠테이션 모드를 도입한 것이 특징입니다. 이를 통해 개발자는 방대한 Pull requests 목록 내에서 원하는 항목을 신속하게 찾아내고 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T21:27:17.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+    "title": "AI Scan for pull request APIs in public preview",
+    "summary": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic…\nThe pos",
+    "aiSummary": "GitHub이 코드 스캔 기능인 AI Scan for pull request의 관리 권한을 REST API를 통해 제어할 수 있도록 기능을 확장했습니다. 이번 퍼블릭 프리뷰를 통해 조직 및 리포지토리 단위에서 해당 기능을 프로그래밍 방식으로 손쉽게 활성화하거나 설정할 수 있게 되었습니다. 이를 통해 개발 팀은 보안 점검 자동화 과정을 더욱 효율적으로 관리하고 운영할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T20:20:58.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
     "title": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
     "summary": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightf",
@@ -29,6 +61,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+    "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+    "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General ",
+    "aiSummary": "Kubernetes v1.37에서 알파 기능으로 도입된 Scheduler Preemption for In-Place Pod Resize는 실행 중인 Pod의 자원 크기를 조절할 때 발생하는 자원 부족 문제를 해결하기 위한 기술입니다. 기존에는 Pod의 CPU나 메모리 요청량을 늘릴 때 노드에 여유 자원이 없으면 해당 요청이 Deferred 상태로 무기한 대기해야 했으며, 이를 해결하기 위해 운영자가 직접 낮은 우선순위의 Pod를 삭제하거나 강제로 클러스터를 확장해야 하는 불편함이 있었습니다.\n\n이번에 추가된 기능을 사용하면 kube-scheduler가 Deferred 상태인 Pod를 감지하여 동일 노드 내의 우선순위가 낮은 Pod를 선점하고 자동으로 종료시킵니다. 이를 통해 확보된 자원으로 높은 우선순위의 Pod가 재시작이나 다운타임 없이 리소스를 성공적으로 확장할 수 있게 됩니다.\n\n이 아키텍처는 kubelet의 개입 없이 scheduler가 중앙에서 모든 선점 논리를 관리하도록 설계되어 글로벌 우선순위와 Pod Disruption Budgets 등을 일관되게 준수합니다. 또한 운영자는 Node Spec의 podPreemptionPolicy 설정을 통해 특정 노드에서 이 기능을 비활성화할 수 있어 환경에 맞는 유연한 자원 관리가 가능합니다.\n\n이 기능은 InPlacePodVerticalScalingSchedulerPreemption 기능 게이트를 활성화하여 사용할 수 있으며, 프로덕션 환경에서 클러스터의 자원 활용 효율을 극대화하면서도 핵심 서비스의 가용성과 응답성을 유지하는 데 크게 기여할 것으로 기대됩니다.",
+    "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-10T18:30:00.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
     ]
   },
   {
@@ -160,6 +208,39 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-the-agents-api",
+    "title": "Introducing the Agents API",
+    "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "aiSummary": "OpenAI가 오케스트레이션과 장기 실행 세션, 그리고 도구 사용 기능을 지원하는 관리형 서비스인 Agents API를 공개했습니다. 이 서비스는 Codex 프레임워크를 기반으로 하며 개발자가 클라우드 환경에서 에이전트를 효율적으로 구축하고 배포할 수 있도록 돕습니다.",
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/projects",
+    "title": "Cursor Projects",
+    "summary": "Sep 10, 2026 · ChangelogCursor Projects\nToday we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app. It maintains context o",
+    "aiSummary": "Cursor가 대규모 작업 수행을 지원하는 새로운 기능인 Projects를 공개했습니다. Projects는 기능 구현, 코드 마이그레이션, 전체 애플리케이션 개발 등 장기적인 프로젝트를 체계적으로 관리할 수 있도록 돕습니다.\n\n이 시스템의 핵심은 Coordinator Agent입니다. 이 에이전트는 직접 코드를 작성하지 않고 전체 작업 계획을 수립한 뒤, 수천 개의 하위 에이전트에게 작업을 분배하여 병렬로 실행합니다. 완료된 결과물은 사용자가 최종적으로 검토할 수 있도록 전달합니다.\n\n모든 프로젝트는 클라우드 환경에서 독립적으로 운영되어 사용자의 PC가 꺼져 있어도 지속적인 작업이 가능합니다. 로컬 환경에서 테스트가 필요한 경우에만 자동으로 로컬 에이전트가 호출됩니다.\n\n또한, 프로젝트 내의 모든 에이전트는 공유 컨텍스트를 활용합니다. 에이전트가 학습한 코드베이스 정보나 작업 방식, 테스트 방법 등은 데이터베이스에 동기화되어 프로젝트가 진행될수록 Coordinator의 효율성이 점진적으로 향상됩니다.\n\n추가로 구독 기능을 통해 Slack 채널 연동, 특정 일정에 맞춘 반복 작업, PR 모니터링 등 자동화된 업무 처리가 가능합니다. 이를 통해 사용자가 별도의 명령을 내리지 않아도 시스템이 스스로 이슈를 감지하고 필요한 작업을 수행합니다. 현재 Projects 기능은 베타 버전으로 모든 사용자에게 순차적으로 배포되고 있습니다.",
+    "url": "https://www.cursor.com/changelog/projects",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1505,133 +1586,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/9/4/this-week-in-rails",
-    "title": "Ractor-ready Rails, ordered cache fetches, and more!",
-    "summary": "Hi, it’s Vipul. Let’s explore this week’s changes in the Rails codebase.\nAgents on Rails: Claude Fable 5.1 and GLM 5.3 Flash\nox-alpha model is GLM 5.3 Flash, which completed 52 of 63 runs for $3.31.\nO",
-    "aiSummary": "이번 Rails 코드베이스 업데이트의 핵심은 Ractor 호환성을 높이기 위한 지속적인 개선 작업입니다. Action View 설정, Active Record 커밋 콜백, 타임존 설정이 Ractor 간 공유 가능하도록 변경되었으며, Active Record 스키마 컨텍스트 초기화 시 발생하는 교착 상태를 해결하고 이벤트 리포터에 Ractor별 저장소를 도입하였습니다.\n\n데이터베이스와 캐시 관련 기능도 강화되었습니다. TypeCaster가 with_connection을 사용하도록 변경되어 ActionController::Live 액션에서의 커넥션 누수 문제를 해결했습니다. ActiveSupport::Cache::Strategy::LocalCache의 fetch_multi는 요청된 키 순서를 유지하도록 개선되었으며, PostgreSQL 데이터베이스 설정에 error_verbosity 옵션이 추가되었습니다. 또한, disable_referential_integrity 실행 중 오류 발생 시 트리거가 비활성화된 채로 남지 않도록 보완되었습니다.\n\nActive Record 쿼리 효율성 및 테스트 품질 향상도 이루어졌습니다. has_many :through 연관 관계에서 중복 조인을 제거하는 최적화가 적용되었으며, 테스트 환경에서 ORDER BY가 없는 쿼리 결과를 무작위로 섞는 설정인 shuffle_unordered_selects가 도입되어 테스트의 의존성 문제를 조기에 발견할 수 있게 되었습니다.\n\n그 외에도 JSON 3.0 호환성 개선, Active Storage의 Marcel 2 업그레이드, GitHub Actions 작업에 대한 타임아웃 설정 추가 등이 포함되었습니다. 문서 측면에서는 Hotwire 가이드와 Securing Rails 가이드가 새롭게 개편되어 검토를 앞두고 있습니다. 이번 주 업데이트에는 총 25명의 기여자가 참여하였습니다.",
-    "url": "https://rubyonrails.org/2026/9/4/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "vipulnsward",
-    "pubDate": "2026-09-04T00:00:00.000Z",
-    "fetchedAt": "2026-09-04T18:29:20.034Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/token-costs-ai-bills",
-    "title": "Why your AI bill tripled while token prices fell 75%",
-    "summary": "Token prices dropped 75%, so why did your agentic AI bill triple? Here's the real math behind agentic AI cost and how IT leaders can measure it.",
-    "aiSummary": "토큰 단가가 75퍼센트 하락했음에도 불구하고 기업의 AI 비용이 3배 급증한 원인은 에이전트 기반 AI 시스템의 특성 때문입니다.\n\n전통적인 프롬프트 응답 방식과 달리 Agentic AI는 복잡한 작업을 수행하기 위해 반복적인 추론과 다단계 사고 과정을 거칩니다. 이 과정에서 모델은 수많은 중간 토큰을 생성하고 외부 도구를 반복적으로 호출하며 에러 처리를 위한 루프를 반복하게 됩니다. 결국 개별 토큰의 가격은 낮아졌지만 전체적인 토큰 사용량이 폭발적으로 증가하면서 전체 비용 부담이 커지는 결과가 발생합니다.\n\nIT 리더들은 단순한 토큰 단가 비교를 넘어 Agentic AI의 전체 워크플로우 효율성을 측정해야 합니다. 작업당 소요되는 총 비용을 산출하고 모델의 추론 단계가 불필요하게 길어지지 않도록 최적화하는 전략이 필요합니다.",
-    "url": "https://www.elastic.co/blog/token-costs-ai-bills",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Sunile Manjee",
-    "pubDate": "2026-09-04T00:00:00.000Z",
-    "fetchedAt": "2026-09-04T18:29:20.034Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/how-elastic-supports-mosa-modular-open-systems-approach",
-    "title": "Open by design: How Elastic supports MOSA, the DoD's Modular Open Systems Approach",
-    "summary": "Major US defense acquisition programs are required to be designed around a Modular Open Systems Approach (MOSA). Here's what program offices need to know about how Elastic can support MOSA at the data",
-    "aiSummary": "미국 국방부의 주요 방산 획득 프로그램은 MOSA라는 모듈형 개방형 시스템 접근 방식을 기반으로 설계되어야 합니다. Elastic은 데이터 및 분석 계층에서 이러한 MOSA 요건을 효과적으로 지원합니다.\n\nMOSA는 시스템 구성 요소 간의 상호 운용성과 유연한 교체를 보장하여 기술 종속을 방지하고 현대화 속도를 높이는 것을 목표로 합니다. Elastic은 개방형 표준과 유연한 아키텍처를 제공함으로써 국방 분야의 데이터 환경이 이러한 기술적 요구 사항을 충족할 수 있도록 돕습니다.\n\n구체적으로 Elastic은 플랫폼의 개방성을 활용하여 다양한 시스템과 데이터를 통합하고 분석할 수 있는 기반을 마련합니다. 이를 통해 프로그램 담당자들은 특정 벤더에 종속되지 않고 데이터 중심의 의사결정을 내릴 수 있는 환경을 구축할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/how-elastic-supports-mosa-modular-open-systems-approach",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Woody Walton",
-    "pubDate": "2026-09-04T00:00:00.000Z",
-    "fetchedAt": "2026-09-04T18:29:20.034Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/04/memory-management-principles-java/",
-    "title": "Principles of Memory Management in Java",
-    "summary": "Java programs use garbage collection, and the JDK offers several collectors with different characteristics. But they also share important design choices that distinguish them from garbage collectors i",
-    "aiSummary": "Java 프로그램은 Garbage Collection을 기본으로 활용하며, JDK는 각기 다른 특성을 지닌 여러 수집기를 제공합니다. 이러한 Java의 메모리 관리 체계는 타 언어의 수집기와는 구별되는 고유한 설계 원칙을 따르고 있으며, 개발자는 이를 정확히 이해해야 합니다.\n\n본 내용은 JDK Garbage Collector의 동작 원리와 Java 메모리 관리가 애플리케이션 성능에 미치는 영향을 분석합니다. 특히 메모리인 RAM과 처리 장치인 CPU 사이의 밀접하고도 때로는 직관적이지 않은 상관관계를 탐구하며, 이 두 자원을 통합적으로 고려하는 것의 중요성을 강조합니다.\n\n마지막으로 Java의 메모리 사용 방식에 대한 근본적인 의문을 제기합니다. Java가 과도한 메모리를 소비하는 것인지, 혹은 반대로 다른 언어들이 지나치게 적은 자원을 사용하는 것인지에 대한 논의를 통해 효율적인 자원 활용의 관점을 제시합니다. 자세한 내용은 JavaOne 2026 재생 목록에서 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/09/04/memory-management-principles-java/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Ron Pressler",
-    "pubDate": "2026-09-04T00:00:00.000Z",
-    "fetchedAt": "2026-09-04T12:10:47.102Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://webkit.org/?p=18283",
-    "title": "Submit your ideas for Interop 2027",
-    "summary": "It’s that exciting time of year again when we start considering Interop proposals for next year!",
-    "aiSummary": "Interop 2027을 위한 발표 제안을 접수하기 시작했습니다. 매년 진행되는 행사를 위해 참신하고 흥미로운 아이디어를 제출할 시기가 되었습니다. 관련 분야의 전문가라면 이번 제안 공모에 참여하여 의견을 공유할 수 있습니다.",
-    "url": "https://webkit.org/blog/18283/submit-your-ideas-for-interop-2027/",
-    "category": "웹 생태계 & 브라우저",
-    "source": "WebKit Blog",
-    "author": "WebKit Blog",
-    "pubDate": "2026-09-03T21:53:33.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "WebKit",
-      "Safari"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
-    "title": "Multiple trusted publishing configurations for npm",
-    "summary": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing config",
-    "aiSummary": "npm은 게시자들의 피드백을 반영하여 Trusted Publishing 기능을 개선하는 세 가지 업데이트를 정식으로 발표하였습니다.\n\n가장 핵심적인 변화는 하나의 패키지에 대해 다중 Trusted Publishing 구성을 지원하게 된 점입니다. 이를 통해 사용자는 여러 환경이나 배포 워크플로우에 맞춰 더욱 유연하고 안전한 게시 프로세스를 설계할 수 있게 되었습니다.\n\n또한 패키지 게시 과정의 안정성을 높이기 위한 Staged 게시 방식 등이 포함되어 전반적인 보안과 편의성이 강화되었습니다. 이번 업데이트는 개발자들이 더욱 원활하게 npm 생태계에서 패키지를 관리하고 배포할 수 있도록 지원하는 데 중점을 두고 있습니다.",
-    "url": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-03T20:34:34.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-08-06-github-actions-early-august-2026-updates",
-    "title": "GitHub Actions: Early September 2026 updates",
-    "summary": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when…\nThe ",
-    "aiSummary": "GitHub Actions에 워크플로우에 대한 가시성과 제어력을 높여주는 세 가지 새로운 업데이트가 추가되었습니다.\n\n먼저 러너 버전 지원 중단 시점을 확인할 수 있는 새로운 REST API가 도입되었습니다. 이를 통해 사용자는 특정 러너 버전의 기술 지원이 종료되는 시점을 사전에 파악하고 적절한 대응을 준비할 수 있습니다.\n\n이번 업데이트는 개발자가 워크플로우를 더욱 세밀하게 관리하고 운영 환경의 안정성을 확보할 수 있도록 돕는 데 중점을 두고 있습니다. 자세한 기술적 사양과 활용 방법은 GitHub 공식 블로그를 통해 확인할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-03T20:30:53.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-    "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-    "summary": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rig",
-    "aiSummary": "Google의 최신 경량 모델인 Gemini 3.8 Flash가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n초기 테스트 결과에 따르면 해당 모델은 복잡한 터미널 기반의 코딩 작업을 수행하는 데 있어 뛰어난 성능과 정확성을 보여주었습니다. 이번 통합을 통해 개발자들은 GitHub Copilot 환경에서 Gemini 3.8 Flash의 고도화된 프로그래밍 지원 기능을 활용할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-03T18:50:38.000Z",
-    "fetchedAt": "2026-09-04T01:09:52.705Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

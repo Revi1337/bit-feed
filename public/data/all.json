@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
+    "title": "Refreshed repository pull requests page in public preview",
+    "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes…\n",
+    "aiSummary": "GitHub가 모든 사용자를 대상으로 저장소 단위의 Pull requests 페이지를 새롭게 단장하여 공개 미리보기 형태로 제공합니다.\n\n이번 업데이트는 사용자가 더욱 효율적으로 작업할 수 있도록 강력한 필터링 기능과 화면을 간결하게 구성할 수 있는 컴팩트 프레젠테이션 모드를 도입한 것이 특징입니다. 이를 통해 개발자는 방대한 Pull requests 목록 내에서 원하는 항목을 신속하게 찾아내고 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T21:27:17.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+    "title": "AI Scan for pull request APIs in public preview",
+    "summary": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic…\nThe pos",
+    "aiSummary": "GitHub이 코드 스캔 기능인 AI Scan for pull request의 관리 권한을 REST API를 통해 제어할 수 있도록 기능을 확장했습니다. 이번 퍼블릭 프리뷰를 통해 조직 및 리포지토리 단위에서 해당 기능을 프로그래밍 방식으로 손쉽게 활성화하거나 설정할 수 있게 되었습니다. 이를 통해 개발 팀은 보안 점검 자동화 과정을 더욱 효율적으로 관리하고 운영할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T20:20:58.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
     "title": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
     "summary": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightf",
@@ -29,6 +61,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+    "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+    "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General ",
+    "aiSummary": "Kubernetes v1.37에서 알파 기능으로 도입된 Scheduler Preemption for In-Place Pod Resize는 실행 중인 Pod의 자원 크기를 조절할 때 발생하는 자원 부족 문제를 해결하기 위한 기술입니다. 기존에는 Pod의 CPU나 메모리 요청량을 늘릴 때 노드에 여유 자원이 없으면 해당 요청이 Deferred 상태로 무기한 대기해야 했으며, 이를 해결하기 위해 운영자가 직접 낮은 우선순위의 Pod를 삭제하거나 강제로 클러스터를 확장해야 하는 불편함이 있었습니다.\n\n이번에 추가된 기능을 사용하면 kube-scheduler가 Deferred 상태인 Pod를 감지하여 동일 노드 내의 우선순위가 낮은 Pod를 선점하고 자동으로 종료시킵니다. 이를 통해 확보된 자원으로 높은 우선순위의 Pod가 재시작이나 다운타임 없이 리소스를 성공적으로 확장할 수 있게 됩니다.\n\n이 아키텍처는 kubelet의 개입 없이 scheduler가 중앙에서 모든 선점 논리를 관리하도록 설계되어 글로벌 우선순위와 Pod Disruption Budgets 등을 일관되게 준수합니다. 또한 운영자는 Node Spec의 podPreemptionPolicy 설정을 통해 특정 노드에서 이 기능을 비활성화할 수 있어 환경에 맞는 유연한 자원 관리가 가능합니다.\n\n이 기능은 InPlacePodVerticalScalingSchedulerPreemption 기능 게이트를 활성화하여 사용할 수 있으며, 프로덕션 환경에서 클러스터의 자원 활용 효율을 극대화하면서도 핵심 서비스의 가용성과 응답성을 유지하는 데 크게 기여할 것으로 기대됩니다.",
+    "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-10T18:30:00.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
     ]
   },
   {
@@ -160,6 +208,39 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-the-agents-api",
+    "title": "Introducing the Agents API",
+    "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "aiSummary": "OpenAI가 오케스트레이션과 장기 실행 세션, 그리고 도구 사용 기능을 지원하는 관리형 서비스인 Agents API를 공개했습니다. 이 서비스는 Codex 프레임워크를 기반으로 하며 개발자가 클라우드 환경에서 에이전트를 효율적으로 구축하고 배포할 수 있도록 돕습니다.",
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/projects",
+    "title": "Cursor Projects",
+    "summary": "Sep 10, 2026 · ChangelogCursor Projects\nToday we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app. It maintains context o",
+    "aiSummary": "Cursor가 대규모 작업 수행을 지원하는 새로운 기능인 Projects를 공개했습니다. Projects는 기능 구현, 코드 마이그레이션, 전체 애플리케이션 개발 등 장기적인 프로젝트를 체계적으로 관리할 수 있도록 돕습니다.\n\n이 시스템의 핵심은 Coordinator Agent입니다. 이 에이전트는 직접 코드를 작성하지 않고 전체 작업 계획을 수립한 뒤, 수천 개의 하위 에이전트에게 작업을 분배하여 병렬로 실행합니다. 완료된 결과물은 사용자가 최종적으로 검토할 수 있도록 전달합니다.\n\n모든 프로젝트는 클라우드 환경에서 독립적으로 운영되어 사용자의 PC가 꺼져 있어도 지속적인 작업이 가능합니다. 로컬 환경에서 테스트가 필요한 경우에만 자동으로 로컬 에이전트가 호출됩니다.\n\n또한, 프로젝트 내의 모든 에이전트는 공유 컨텍스트를 활용합니다. 에이전트가 학습한 코드베이스 정보나 작업 방식, 테스트 방법 등은 데이터베이스에 동기화되어 프로젝트가 진행될수록 Coordinator의 효율성이 점진적으로 향상됩니다.\n\n추가로 구독 기능을 통해 Slack 채널 연동, 특정 일정에 맞춘 반복 작업, PR 모니터링 등 자동화된 업무 처리가 가능합니다. 이를 통해 사용자가 별도의 명령을 내리지 않아도 시스템이 스스로 이슈를 감지하고 필요한 작업을 수행합니다. 현재 Projects 기능은 베타 버전으로 모든 사용자에게 순차적으로 배포되고 있습니다.",
+    "url": "https://www.cursor.com/changelog/projects",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-09-10T00:00:00.000Z",
+    "fetchedAt": "2026-09-11T01:13:07.150Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
