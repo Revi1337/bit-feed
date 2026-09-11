@@ -17,6 +17,22 @@
     ]
   },
   {
+    "id": "https://www.postgresql.org/about/news/cern-pgday-2027-announcement-and-cfp-3375/",
+    "title": "CERN PGDay 2027: Announcement and CfP\n",
+    "summary": "CERN PGDay 2027\nDate: Friday, February 12, 2027\nswisspug.org/cern-pgday-2027\nAbout the Event\nContinuing in the line of work of the past editions, CERN PGDay 2027 returns as the annual gathering for Po",
+    "aiSummary": "CERN과 SwissPUG가 공동 주최하는 PostgreSQL 커뮤니티 컨퍼런스인 CERN PGDay 2027이 2027년 2월 12일 스위스 제네바에서 개최됩니다. 이 행사는 PostgreSQL 사용자, 개발자 및 전문가들이 모여 지식을 공유하고 협업하는 장으로, 총 6개에서 7개의 기술 세션으로 구성된 단일 트랙으로 진행됩니다.\n\n주요 논의 주제는 고성능 과학 및 빅데이터 처리, pgvector를 활용한 AI 및 벡터 검색 통합, 엔터프라이즈 보안 및 규정 준수, 그리고 PostgreSQL 코어 기능의 확장과 최적화입니다. 행사 후에는 참가자들을 위한 네트워킹 이벤트가 마련되며, 희망자에 한해 CERN 방문 기회도 제공됩니다.\n\n발표를 희망하는 연사는 2026년 11월 8일까지 Indico를 통해 제안서를 제출해야 합니다. 또한 이번 컨퍼런스는 모든 참가자가 PostgreSQL Community Code of Conduct를 준수하는 환경에서 진행될 예정입니다. 스폰서십 제안 또한 공식 웹사이트를 통해 상시 접수하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/cern-pgday-2027-announcement-and-cfp-3375/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-11T00:00:00.000Z",
+    "fetchedAt": "2026-09-11T18:39:24.339Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://rubyonrails.org/2026/9/11/this-week-in-rails",
     "title": "Alternative text in attachments and more",
     "summary": "Hi, Wojtek here. If you’re in Austin for Rails World, be sure to collect our newsletter stickers. See you there!\nRails World Opening Keynote livestream\nJoin from wherever you are in the world on Wedne",
@@ -30,6 +46,22 @@
     "tags": [
       "Rails",
       "Ruby"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+    "title": "GitHub Copilot weekly releases — September 7",
+    "summary": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio ",
+    "aiSummary": "GitHub Copilot은 이번 주 업데이트를 통해 Copilot 앱 내에 Jira 통합 기능을 새롭게 도입했습니다. 또한 Copilot CLI에는 Project HydraFusion을 적용하여 상황에 맞춰 최적의 모델을 선택하고 조정하는 적응형 모델 오케스트레이션 기능을 추가했습니다. 이와 더불어 Visual Studio Code 환경에서 활용할 수 있는 새로운 에이전트 자동화 기능도 함께 선보였습니다.",
+    "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-10T22:55:07.000Z",
+    "fetchedAt": "2026-09-11T18:39:24.339Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
