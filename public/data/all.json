@@ -1,5 +1,53 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.1",
+    "title": "1.2.1",
+    "summary": "Added support for excludeDefaultComponents: true in custom agent Markdown frontmatter, allowing custom agents to opt out of default prompt sections and built-in tools while preserving post-invocation ",
+    "aiSummary": "버전 1.2.1 업데이트를 통해 커스텀 에이전트의 Markdown 프론트매터에서 excludeDefaultComponents 설정을 지원하여 기본 프롬프트 섹션과 내장 도구를 제외하고 사후 호출 훅만 유지하는 기능을 추가했습니다.\n\ngenai.APIError 발생 시 502, 503, 504 오류 및 429 속도 제한, 스트리밍 중단 등에 대해 지수 백오프를 적용한 자동 재시도 기능을 구현하여 안정성을 높였으며, 복구 불가능한 오류는 사용자에게 명확한 메시지로 안내합니다.\n\nMCP 및 제공자 도구의 스키마 유효성 검사 로직을 개선하여 열린 객체 스키마를 유지하도록 변경했습니다. 또한 대규모 대화 기록을 열 때의 응답 속도를 개선하고 메모리 사용량을 최적화했습니다.\n\n--continue 명령어 사용 시 하위 디렉토리나 비정상 종료 이후 새로운 대화가 시작되던 문제를 수정하여 가장 최근의 대화 세션을 정상적으로 불러오도록 개선했습니다. \n\n이 외에도 인라인 모드에서 발생하는 화면 깜빡임 현상, 원격 세션의 인증 상태 표시 오류, 샌드박스 상태 보고 오류, 아티팩트 뷰어의 이미지 확대 단축키 및 인터페이스 관련 버그들을 해결했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.1",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-11T06:46:55.000Z",
+    "fetchedAt": "2026-09-11T12:15:29.018Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/9/11/this-week-in-rails",
+    "title": "Alternative text in attachments and more",
+    "summary": "Hi, Wojtek here. If you’re in Austin for Rails World, be sure to collect our newsletter stickers. See you there!\nRails World Opening Keynote livestream\nJoin from wherever you are in the world on Wedne",
+    "aiSummary": "Rails World 행사의 오프닝 키노트가 9월 23일에 생중계될 예정입니다.\n\nRails 프레임워크 업데이트와 관련하여 Action Text 첨부 파일에 alt 속성을 추가할 수 있게 되었습니다. 이는 캡션과 독립적으로 설정 가능한 속성으로 ActionText::Attachment#alt를 통해 접근하며 이미지의 대체 텍스트로 렌더링됩니다.\n\n또한 언어 통계에서 생성된 오류 페이지를 제외하도록 변경되었으며 Docker 및 Podman 환경에서 bin/rails server 플래그를 원활하게 지원하도록 docker-entrypoint 검사 로직이 수정되었습니다.\n\n이 외에도 Active Support Core Extensions 가이드가 커뮤니티 검토를 앞두고 있으며 Layouts and Rendering 가이드가 새롭게 작성되는 등 문서화 작업이 진행되었습니다. 지난주 총 24명의 기여자가 Rails 코드베이스 개선에 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/9/11/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Wojtek",
+    "pubDate": "2026-09-11T00:00:00.000Z",
+    "fetchedAt": "2026-09-11T12:15:29.018Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-10-1",
+    "title": "PHP 8.6.0 Beta 3 is available for testing",
+    "summary": "The PHP team is pleased to announce the third beta release of PHP 8.6.0, Beta 3. This continues the PHP 8.6 release cycle, the rough outline of which is specified in the .PHP Wiki\nFor source downloads",
+    "aiSummary": "PHP 팀이 PHP 8.6.0의 세 번째 베타 버전인 Beta 3를 공개하고 테스트를 시작했습니다.\n\n이번 릴리스는 PHP 8.6 버전의 정식 출시를 향한 개발 과정의 일환입니다. 소스 코드는 공식 다운로드 페이지에서 확인할 수 있으며, 발견된 문제점은 GitHub를 통해 보고할 수 있습니다.\n\n해당 버전은 초기 테스트 용도이므로 실제 운영 환경에서 사용하는 것은 권장하지 않습니다. 자세한 변경 사항과 새로운 기능은 배포 아카이브에 포함된 NEWS 및 UPGRADING 파일을 통해 확인이 가능합니다.\n\n다음 릴리스인 RC 1은 2026년 9월 24일로 예정되어 있습니다.",
+    "url": "https://www.php.net/index.php#2026-09-10-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-10T22:19:15.000Z",
+    "fetchedAt": "2026-09-11T12:15:29.018Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
     "title": "Refreshed repository pull requests page in public preview",
     "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes…\n",
@@ -386,6 +434,21 @@
     "fetchedAt": "2026-09-10T18:33:44.569Z",
     "tags": [
       "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-09-1",
+    "title": "PHPBenelux Conference 2027, Antwerp Belgium",
+    "summary": "PHPBenelux Conferencesubmit your proposal today!",
+    "aiSummary": "벨기에 Antwerp에서 개최되는 PHPBenelux Conference 2027 행사가 발표자를 모집하고 있습니다. 이번 행사를 위한 세션 제안서를 오늘부터 제출할 수 있습니다. PHP 생태계의 다양한 주제를 다룰 기회이니 관심 있는 분들의 적극적인 참여를 바랍니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-09-09-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-09T20:40:47.000Z",
+    "fetchedAt": "2026-09-11T12:15:29.018Z",
+    "tags": [
       "PHP"
     ]
   },
