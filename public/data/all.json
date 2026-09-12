@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.2",
+    "title": "1.2.2",
+    "summary": "Improved the startup warning for deprecated unsandboxed permission rules across CLI, shared, and project configuration files to list each affected file path, up to five offending rules, and step-by-st",
+    "aiSummary": "CLI와 설정 파일 내에서 사용 중단된 unsandboxed 권한 규칙에 대한 경고 기능을 개선하여 문제가 되는 파일 경로와 최대 5개의 규칙을 식별하고, 이를 command 규칙으로 마이그레이션하는 단계별 가이드를 제공합니다.\n\n대규모 대화 기록을 불러올 때의 startup 응답성을 향상시켰으며, 대화 종료 시 background step-cache goroutine이 계속 실행되던 메모리 누수 문제를 해결하여 메모리 사용량을 크게 줄였습니다.\n\nMCP 서버 관리 측면에서는 플러그인에 포함된 MCP 서버들이 이름 충돌을 일으키지 않도록 자동으로 네임스페이스를 처리합니다.\n\n파일 처리 시 비텍스트 형식의 바이너리 파일이나 100MB를 초과하는 대용량 파일이 모델 컨텍스트에 포함되지 않도록 사전에 차단하며, GEMINI_API_KEY 사용 시 이전 턴의 생각 블록이 누락되거나 전달되지 않던 오류를 수정했습니다.\n\n그 외에도 artifact 검토 트리거 오류, 삭제된 대화가 SQLite 파일로 재생성되는 문제, 대화 세션 간 작업 공간 경로가 중복되던 문제 등 안정성과 관련된 다수의 버그를 해결하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.2",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-12T03:51:14.000Z",
+    "fetchedAt": "2026-09-12T11:39:26.312Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/12/jdk-27-runtime-updates/",
+    "title": "JDK 27 Runtime Updates Release Notes",
+    "summary": "While language and API changes often take up the focus of a JDK release, JDK 27, also includes a number of changes to the underlying runtime. In this article we will cover all the noteworthy runtime c",
+    "aiSummary": "JDK 27 릴리스에서는 언어 및 API 변경 외에도 런타임 환경과 성능 최적화에 관한 다양한 개선 사항이 포함되었습니다. 주요 내용은 다음과 같습니다.\n\n주요 JEP 변경 사항으로는 G1GC가 모든 환경에서 기본 가비지 컬렉터로 지정되었으며, Compact Object Headers가 기본적으로 활성화되어 힙 크기 감소와 GC 효율성을 높입니다. 또한 JFR에서는 민감한 데이터를 자동으로 가리는 데이터 수정 기능을 도입하여 보안성을 강화했습니다.\n\njcmd 도구에는 Bash 자동 완성 기능이 추가되었고, 실행 중인 JVM의 보안 속성을 확인할 수 있는 VM.security_properties 명령어가 신설되었습니다. 아울러 VM.info와 오류 로그에 현재 열려 있는 파일 디스크립터 수를 기록하도록 개선되었습니다.\n\nJVM 옵션과 관련해서는 -noclassgc, -noverify 등 일부 구형 옵션이 삭제되었으며, -XX:InitiatingHeapOccupancyPercent는 -XX:G1IHOP으로 명칭이 변경되었습니다. -XX:[+|-]UseCompressedClassPointers 옵션은 이제 더 이상 사용되지 않는 것으로 처리됩니다.\n\n그 외의 주요 변경 사항으로 실험적인 기능이었던 JVMCI가 제거되었고, JSON 형식의 스레드 덤프 데이터 타입이 문자열에서 숫자로 변경되었습니다. 또한 G1GC의 힙 크기 조정 관련 기본값 변경을 통해 불필요한 힙 리사이징을 방지하는 등 전반적인 런타임 안정성과 관리 효율성에 집중한 업데이트가 이루어졌습니다.",
+    "url": "https://inside.java/2026/09/12/jdk-27-runtime-updates/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Billy Korando",
+    "pubDate": "2026-09-12T00:00:00.000Z",
+    "fetchedAt": "2026-09-12T11:39:26.312Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
     "title": "Add VS Code Agents to Copilot usage metrics",
     "summary": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and org",
