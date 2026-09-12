@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+    "title": "Add VS Code Agents to Copilot usage metrics",
+    "summary": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and org",
+    "aiSummary": "GitHub Copilot 사용량 지표 보고서에 VS Code Agents 창에서의 활동 데이터가 새롭게 포함되었습니다.\n\n이번 업데이트를 통해 기업 및 조직은 VS Code Agents를 활용한 구체적인 활동 내용을 측정할 수 있게 되었습니다. 이를 통해 조직 내부의 기술 도입률과 사용자 참여도를 더욱 상세하게 파악하고 분석하는 것이 가능합니다.",
+    "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-11T21:30:30.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+    "title": "Auto-resolution and analysis updates in Copilot code review",
+    "summary": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now…\nThe post Auto-reso",
+    "aiSummary": "GitHub의 Copilot code review 기능이 업데이트되어 코드 제안을 반영할 때 자동으로 커밋 메시지를 작성해주며, 사용자가 지적 사항을 해결하면 관련 코멘트가 자동으로 해결 처리됩니다.\n\n이번 업데이트를 통해 개발자는 복잡한 수동 작업 없이 코드 수정과 커밋 과정을 효율적으로 수행할 수 있게 되었습니다. GitHub은 내부적인 분석 성능 강화를 통해 더욱 정교한 코드 검토 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-11T20:00:07.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+    "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+    "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37!\nNative histograms (previously introduced as Alpha in K",
+    "aiSummary": "Kubernetes v1.37에서 Native Histograms 기능이 베타 버전으로 격상되어 기본적으로 활성화됩니다. 기존의 클래식 히스토그램은 사용자가 고정된 버킷 경계를 미리 정의해야 했기에 데이터 유실, 높은 스토리지 비용, 보간법에 의한 오차 등의 한계가 있었습니다. 이를 해결하기 위해 도입된 Prometheus Native Histograms는 동적 지수 버킷 방식을 사용하여 나노초부터 시간 단위까지 폭넓은 범위의 데이터를 고해상도로 정밀하게 기록합니다.\n\n이 기술은 단일 시계열 내에 데이터를 구조화하여 저장함으로써 시계열 데이터의 수를 최대 90퍼센트까지 줄이고 저장 및 스크래핑 오버헤드를 크게 낮춥니다. 또한 5퍼센트 미만의 수학적 오차 범위를 보장하여 정확한 백분위수 계산을 지원합니다. \n\n호환성을 유지하기 위해 Kubernetes v1.37은 클래식 버킷과 네이티브 스팬을 동시에 노출하는 이중 노출 방식을 채택했습니다. 덕분에 기존 대시보드와 알림 규칙을 즉시 수정하지 않아도 시스템 운영이 가능하며, 관리자는 점진적으로 네이티브 히스토그램 쿼리로 전환할 수 있습니다. Prometheus 3.0 이상에서는 스크래핑 설정에서 네이티브 히스토그램 수집을 명시적으로 활성화할 수 있으며, 이 과정에서 always_scrape_classic_histograms 옵션을 병행하여 데이터 연속성을 보장하는 것이 권장됩니다. \n\nkube-apiserver, kube-scheduler, kubelet을 포함한 주요 Kubernetes 컴포넌트가 이를 지원하며, 향후 더 넓은 생태계 적용을 거쳐 정식 버전으로 전환될 예정입니다. 사용자는 필요에 따라 설정 변경만으로 언제든지 이전 방식인 클래식 히스토그램으로 복구할 수 있는 유연한 롤백 전략을 활용할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-11T18:30:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://swift.org/blog/module-tracking-in-debug-info/",
+    "title": "Module Tracking in Swift Debug Info",
+    "summary": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’",
+    "aiSummary": "Swift 6.3 버전부터 도입되어 Swift 6.4에서 완성되는 이번 업데이트는 LLDB 디버거가 Swift 모듈을 식별하고 임포트하는 방식을 개선하여 디버깅의 정확도와 성능을 크게 향상합니다. 기존의 방식은 이름에 의존하여 모듈을 찾았기 때문에 동일한 모듈의 여러 버전이 존재할 경우 부정확한 결과를 초래하거나 불필요한 재컴파일을 유발하는 문제가 있었습니다.\n\n이를 해결하기 위해 Swift 컴파일러는 이제 명시적으로 빌드된 모듈 간의 의존성을 직접 추적합니다. 또한 컴파일 과정에서 새롭게 도입된 debug-module-path 옵션을 사용하여 객체 파일의 디버그 정보에 해당 모듈의 경로를 직접 기록합니다. 이러한 변화를 통해 LLDB는 모듈을 더욱 정밀하게 추적할 수 있게 되었으며, 복잡한 프로젝트에서도 의존성 문제를 겪지 않고 빠르게 디버깅을 수행할 수 있습니다.\n\n사용자 측면에서는 Xcode나 SwiftPM을 사용하는 경우 별도의 수정 없이도 즉시 혜택을 누릴 수 있습니다. 특히 Swift 6.4부터는 더 이상 -modulewrap 작업이나 링커의 -add_ast_path 옵션이 필요하지 않게 되며, dSYM 번들에 바이너리 Swift 모듈을 포함할 필요가 없어져 결과물의 용량이 대폭 줄어듭니다. 다만 직접 빌드 시스템을 구축하여 사용하는 경우에는 컴파일러에 debug-module-path를 올바르게 전달하도록 구성을 변경해야 합니다.\n\n추가로 Swift 6.4에서는 브릿징 헤더 임포트 방식이 개선되어 미리 컴파일된 헤더를 직접 참조하게 됨으로써, 이를 사용하는 프로젝트의 디버깅 시작 속도가 한층 더 빨라질 예정입니다. 요약하자면 기존의 이름 기반 추적 방식이 가진 한계를 정밀한 경로 기록 및 의존성 추적 방식으로 대체함으로써 디버깅의 신뢰성을 높이고 빌드 아티팩트의 크기를 최적화한 것이 이번 업데이트의 핵심입니다.",
+    "url": "https://swift.org/blog/module-tracking-in-debug-info/",
+    "category": "프로그래밍 언어",
+    "source": "Swift Blog",
+    "author": "Adrian Prantl",
+    "pubDate": "2026-09-11T15:30:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "Swift",
+      "Apple"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/",
+    "title": "3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference",
+    "summary": "On Tuesday, September 8, Thomas Kurian participated in the Goldman Sachs Tech Conference, providing an update on Google Cloud’s business and strategy. Here are the highlights:\n\nFull Stack Approach: Go",
+    "aiSummary": "Thomas Kurian은 Goldman Sachs Communicopia & Technology Conference에 참석하여 Google Cloud의 전반적인 전략과 비즈니스 성과를 공유하였습니다.\n\nGoogle Cloud는 하드웨어부터 소프트웨어에 이르는 전체 AI 스택을 제공하는 유일한 클라우드 사업자로서 차별화된 성능과 비용 효율성을 확보하고 있습니다. 현재 10억 달러 이상의 매출을 기록하는 17개의 제품 라인을 보유하고 있으며 1억 달러에서 10억 달러 규모의 대형 계약 건수와 가치가 전년 대비 두 배 이상 증가하는 등 가파른 성장세를 보이고 있습니다.\n\n자체 AI 인프라의 경우 높은 비용 효율성과 성능을 바탕으로 GPU 대비 TPU의 빠른 투자 회수 기간을 달성하고 있습니다. 특히 대부분의 AI 인프라 계약은 5년 장기 계약을 기반으로 안정적인 수익 구조를 형성하고 있습니다.\n\nGemini Enterprise를 비롯한 광범위한 AI 솔루션에 대한 고객 채택도 활발하게 이루어지고 있습니다. Google Cloud의 AI 제품을 사용하는 고객은 그렇지 않은 고객보다 1.8배 더 많은 제품을 이용하는 경향을 보이고 있으며 이는 플랫폼 내 제품 생태계 확장에 기여하고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Cloud Content & Editorial "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-11T09:00:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.1",
     "title": "1.2.1",
     "summary": "Added support for excludeDefaultComponents: true in custom agent Markdown frontmatter, allowing custom agents to opt out of default prompt sections and built-in tools while preserving post-invocation ",
@@ -14,6 +110,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/put-redis-data-and-engineering-guidance-to-work-in-chatgpt-work/",
+    "title": "Put Redis data and engineering guidance to work in ChatGPT Work",
+    "summary": "Redis has launched a development plugin that brings current Redis engineering guidance into ChatGPT Work and Codex. It helps teams write, review, and troubleshoot Redis code without switching between ",
+    "aiSummary": "Redis가 ChatGPT Work 및 Codex에서 활용할 수 있는 새로운 개발자용 플러그인을 출시했습니다. 이번 플러그인을 통해 개발 팀은 외부 문서와 개발 도구를 번갈아 이동할 필요 없이, 채팅 인터페이스 내에서 직접 Redis 관련 엔지니어링 가이드를 조회하고 코드를 작성하거나 검토 및 문제 해결을 수행할 수 있습니다.\n\n이 서비스는 개발 과정의 효율성을 높이기 위해 설계되었으며, Redis의 최신 기술 문서와 모범 사례를 AI 모델에 직접 연동합니다. 이를 통해 팀 단위의 생산성을 향상하고 코드 품질을 최적화하는 데 도움을 줍니다.",
+    "url": "https://redis.io/blog/put-redis-data-and-engineering-guidance-to-work-in-chatgpt-work/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Olga Lopaci",
+    "pubDate": "2026-09-11T00:00:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -30911,6 +31024,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/sap-observability-elastic-google-kyndryl",
+    "title": "End-to-end SAP Observability with Elastic, Google Cloud, and Kyndryl: A deep dive",
+    "summary": "Companies across almost all industries rely on robust complex SAP systems to power their core operations. At Elastic, with the collaboration of Kyndryl and Google Cloud, we designed a full-stack obser",
+    "aiSummary": "Elastic과 Google Cloud, 그리고 Kyndryl은 기업의 핵심 운영을 담당하는 복잡한 SAP 시스템을 위해 통합된 풀스택 관측성 솔루션을 공동으로 설계하였습니다. 이번 협업은 기업이 운영 중인 SAP 환경 전반에 걸쳐 데이터를 효과적으로 모니터링하고 분석할 수 있는 체계적인 관리 경험을 제공하는 데 중점을 둡니다. 이를 통해 기술적 복잡성이 높은 SAP 인프라의 안정성을 확보하고 운영 효율성을 높일 수 있는 기반을 마련합니다.",
+    "url": "https://www.elastic.co/blog/sap-observability-elastic-google-kyndryl",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Valerio Arvizzigno,Francesco Di Stefano",
+    "pubDate": "2024-07-08T00:00:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/us-federal-agencies-opentelemetry",
     "title": "Free the data: Why US federal agencies should standardize on OpenTelemetry ",
     "summary": "Adopting OpenTelemetry standards can enhance the government's ability to manage and analyze telemetry data across diverse systems – ensuring consistent and reliable data collection and leading to bett",
@@ -30937,6 +31066,22 @@
     "author": "Michael Calizo",
     "pubDate": "2024-06-25T00:00:00.000Z",
     "fetchedAt": "2026-06-17T11:59:21.703Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/false-positives-automated-siem-investigations-elastic-tines",
+    "title": "Reducing false positives with automated SIEM investigations from Elastic and Tines",
+    "summary": "Discover how Elastic's InfoSec team saves thousands of hours per month by using Tines to automate SIEM alert investigations while reducing false positives and detect compromised accounts.",
+    "aiSummary": "Elastic의 보안 팀은 Tines 플랫폼을 활용하여 SIEM 경보 조사 과정을 자동화함으로써 매달 수천 시간의 업무 효율을 개선하고 있습니다.\n\n이 자동화 시스템은 보안 경보의 오탐지율을 효과적으로 낮추고, 침해된 계정을 신속하게 탐지하여 보안 운영의 정확성과 대응 속도를 동시에 높여줍니다. 결과적으로 보안 팀은 반복적인 수동 작업에서 벗어나 더욱 고도화된 위협 대응에 집중할 수 있게 되었습니다.",
+    "url": "https://www.elastic.co/blog/false-positives-automated-siem-investigations-elastic-tines",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Aaron Jewitt",
+    "pubDate": "2024-05-31T00:00:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
@@ -31194,6 +31339,22 @@
     "author": "Andrei Dan",
     "pubDate": "2023-03-30T00:00:00.000Z",
     "fetchedAt": "2026-07-24T09:39:49.045Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/observability-powerful-flexible-efficient",
+    "title": "Elastic Observability: A solution for today’s “always-on” world",
+    "summary": "Achieve operational excellence and efficiency with the Elastic Observability platform. Our unique approach to unifying observability data on an open and flexible platform with sophisticated AIOps and ",
+    "aiSummary": "Elastic Observability 플랫폼은 급변하는 IT 환경에서 운영 효율성과 탁월한 서비스 안정성을 확보하기 위해 설계되었습니다. 이 플랫폼은 분산된 관측 데이터를 하나의 유연한 환경으로 통합하며, 고도화된 AIOps와 머신러닝 기술을 활용하여 기업이 미래의 기술적 도전에 효과적으로 대응할 수 있도록 지원합니다.",
+    "url": "https://www.elastic.co/blog/observability-powerful-flexible-efficient",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Bahubali Shetti",
+    "pubDate": "2023-03-27T00:00:00.000Z",
+    "fetchedAt": "2026-09-12T01:15:16.636Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
