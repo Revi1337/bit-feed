@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/09/13/jdk-27-in-2-min/",
+    "title": "Java 27 Technically Within 2 Minutes",
+    "summary": "Let's review in about 2 minutes the 9 JEPs (JDK Enhancement Proposals) that were included in the JDK 27 release! Don't forget to checkout our Java 27 Livestream this Tuesday September 15th starting at",
+    "aiSummary": "JDK 27이 새롭게 출시됨에 따라 이번 업데이트에 포함된 9개의 JEP에 대한 내용이 공개되었습니다.\n\n이번 업데이트의 주요 사항을 확인하고 상세 내용을 검토할 수 있는 Java 27 Livestream 행사가 9월 15일 화요일 15시 UTC에 진행될 예정입니다. 해당 방송에서는 전문가들과 함께하는 실시간 시연 및 다양한 정보가 다루어질 계획입니다.",
+    "url": "https://inside.java/2026/09/13/jdk-27-in-2-min/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Billy Korando",
+    "pubDate": "2026-09-13T00:00:00.000Z",
+    "fetchedAt": "2026-09-13T12:46:34.267Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.2",
     "title": "1.2.2",
     "summary": "Improved the startup warning for deprecated unsandboxed permission rules across CLI, shared, and project configuration files to list each affected file path, up to five offending rules, and step-by-st",
