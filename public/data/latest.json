@@ -1,5 +1,279 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/",
+    "title": "Introducing new session management tools with native, granular controls",
+    "summary": "Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate cre",
+    "aiSummary": "Google Cloud는 조직의 보안 정책에 맞춰 세션 관리를 강화하고 계정 탈취 및 자격 증명 도용 위험을 줄이기 위해 새로운 세션 관리 도구를 도입했습니다. 기존의 16시간 기본 세션 길이를 넘어 더욱 정밀한 제어가 가능하도록 기능을 개선했습니다.\n\n관리자는 이제 Terraform, gcloud CLI, REST API를 사용하여 세션 정책을 프로그래밍 방식으로 구성하고 자동화할 수 있습니다. 이는 DevSecOps 워크플로우에 최적화된 환경을 제공합니다.\n\n세션 정책 적용 대상도 기존 조직 단위에서 Google Groups 기반으로 세분화되었습니다. 이를 통해 관리자는 사용자의 역할이나 권한 수준에 따라 특정 그룹에만 차별화된 세션 시간을 적용할 수 있습니다.\n\n또한 Google Cloud Console, gcloud 도구, 특정 OAuth 애플리케이션 등 개별 애플리케이션별로 정밀한 세션 제어가 가능해져 일괄적인 정책 적용으로 인한 업무 중단 문제를 방지합니다.\n\n마지막으로 Google Workspace 관리 콘솔을 통하지 않고도 Google Cloud Console 내의 Access Context Manager를 통해 세션 정책을 직접 관리할 수 있는 기능이 프리뷰로 제공됩니다. 이러한 변화를 통해 보안팀은 개발 속도를 저해하지 않으면서도 보안 위협이 높은 영역에 더욱 엄격한 재인증 절차를 적용할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Senzeni Mpofu"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-15T17:30:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "summary": "Sep 15, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Gemini 3.8 Live and Gemini 3.8 Live Extend",
+    "aiSummary": "Google이 음성 대화형 모델인 Gemini 3.8 Live와 Gemini 3.8 Live Extended Thinking을 새롭게 공개하였습니다. 이번에 선보인 모델들은 근실시간 추론 능력을 대폭 강화하여 AI와의 대화를 더욱 직관적이고 지능적으로 변화시켰습니다.\n\nGemini 3.8 Live는 비용 효율성과 확장성에 초점을 맞춘 모델로, 대화형 지능과 시각적 상황 인식 기능을 결합하여 유연한 음성 상호작용을 지원합니다. 97개 언어를 실시간으로 전환하며 인식할 수 있고, 백그라운드에서 API 호출이나 도구 실행을 처리하면서도 사용자와의 대화를 끊김 없이 이어갈 수 있습니다.\n\nGemini 3.8 Live Extended Thinking은 높은 복잡도의 작업을 수행하기 위해 설계된 모델입니다. 다단계 추론 능력을 갖추어 복잡한 워크플로우를 처리하며, 사용자가 요청한 작업을 수행하는 동안 진행 상황을 음성으로 자연스럽게 안내하는 등 고도의 지능적인 대화 경험을 제공합니다. 해당 모델은 Artificial Analysis의 Speech to Speech Quality Index에서 1위를 차지하는 등 우수한 성능을 입증하였습니다.\n\n개발자와 기업을 위한 지원도 확대되었습니다. Gemini Live API를 통해 Agora, LangChain, LiveKit 등 다양한 플랫폼과 연동하여 고성능 음성 인터페이스를 구축할 수 있으며, Salesforce, Genspark 등의 기업들이 이미 해당 모델의 낮은 지연 시간과 유연한 도구 호출 기능을 활용하고 있습니다.\n\n모든 AI 생성 오디오에는 안전성을 위해 SynthID 워터마킹 기술이 적용됩니다. 두 모델은 오늘부터 개발자용 Gemini API와 Google AI Studio를 비롯해, 기업용 Gemini Enterprise와 일반 사용자 대상의 Gemini 앱 및 Search 등을 통해 순차적으로 제공됩니다.",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-09-15T17:05:57.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
+    "aiSummary": "Google은 자연스러운 대화를 위해 설계된 가장 진화된 실시간 대화형 모델인 Gemini 3.8 Live와 Gemini 3.8 Live Extended Thinking을 새롭게 공개하였습니다. 이번 모델은 기존보다 더욱 향상된 실시간 상호작용 기능을 제공하여 사용자와의 대화 품질을 한층 높인 것이 특징입니다. 특히 Extended Thinking 기능을 통해 더욱 깊이 있는 사고와 추론 과정을 거친 응답이 가능해졌습니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Tom Ouyang"
+      ],
+      "title": [
+        "Principal Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-15T17:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/run-gnns-at-scale-with-ease-introducing-distributed-graphflow/",
+    "title": "Scaling Telco Autonomy: Leveraging GNNs with Distributed GraphFlow",
+    "summary": "The telecommunications industry is currently undergoing a paradigm shift, moving from traditional manual human-driven operations to fully Autonomous Network Operations. Modern networks have grown incr",
+    "aiSummary": "통신 산업이 복잡하고 거대해짐에 따라 기존의 규칙 기반 방식이나 단순한 기계 학습으로는 네트워크 운영의 완전한 자동화를 달성하기 어렵습니다. Google Cloud는 이를 해결하기 위해 GNN을 활용한 자율 네트워크 운영 프레임워크를 제안합니다. 이 프레임워크는 데이터, ML, AI라는 세 가지 핵심 요소로 구성됩니다.\n\n첫 번째 기반은 Spanner Graph를 활용한 디지털 트윈입니다. 이는 네트워크 상태를 실시간으로 반영하는 동적인 그래프 모델로, 운영자가 과거 데이터를 학습하고 AI 에이전트가 미래 상태를 설계하거나 문제를 해결할 수 있는 신뢰 기반 환경을 제공합니다. Spanner Graph는 대규모 확장성과 글로벌 일관성을 지원하여 네트워크의 전체 스택을 효과적으로 관리합니다.\n\n두 번째는 ML 계층인 DGF입니다. DGF는 Google CoreML과 Google Research가 개발한 오픈 소스 파이썬 라이브러리로, GNN 모델링의 전체 수명 주기를 관리합니다. 고성능의 저수준 기본 요소와 함께 복잡한 전문가 지식 없이도 빠르게 개발할 수 있는 API를 제공하여 네트워크 운영의 예측 분석을 가능하게 합니다.\n\n마지막으로 AI 에이전트는 DGF를 통해 도출된 통찰력을 바탕으로 실제 대응을 실행합니다. 이를 통해 이상 징후 탐지, 근본 원인 분석, 예측 유지보수, What-if 분석 등 다양한 영역에서 수동적인 유지보수를 넘어선 능동적인 예방 관리가 가능해집니다. 이러한 통합 기술은 통신사가 TM Forum이 정의한 레벨 5 자율 운영으로 나아가는 핵심 동력이 될 것입니다.",
+    "url": "https://cloud.google.com/blog/products/databases/run-gnns-at-scale-with-ease-introducing-distributed-graphflow/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Brian Naughton"
+      ],
+      "title": [
+        "Senior Principal Architect, Telecommunications"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-15T16:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke/",
+    "title": "Agent Substrate brings high-density, scalable, trusted infrastructure to GKE",
+    "summary": "Today, we are announcing the availability of Agent Substrate on Google Kubernetes Engine (GKE). Agent Substrate is an open-source, secure-by-default agent execution runtime engineered to run millions ",
+    "aiSummary": "Google은 GKE 환경에서 구동되는 오픈소스 에이전트 실행 런타임인 Agent Substrate를 발표했습니다. 이 기술은 자율형 AI 에이전트의 대규모 운영을 지원하기 위해 설계되었으며 표준 컨테이너 런타임 대비 10배 높은 밀도로 수백만 개의 샌드박스를 실행할 수 있는 것이 특징입니다.\n\nAgent Substrate의 핵심은 에이전트 실행과 기계 관리를 분리한 구조에 있습니다. 에이전트가 모델 추론이나 인간의 피드백을 기다리는 동안 CPU와 RAM 자원을 즉시 회수하여 대기 상태의 에이전트를 호스트당 1,000개 이상 배치하는 고밀도 운영이 가능합니다. 상태 정보는 로컬 디스크나 Cloud Storage에 스냅샷 형태로 저장되며 필요 시 500ms 미만의 속도로 재개됩니다.\n\n보안 측면에서는 하드웨어 격리 기반의 Cloud Hypervisor microVM 또는 gVisor 샌드박스를 사용하여 커널 및 네트워크 수준의 제로 트러스트 환경을 제공합니다. 이를 통해 에이전트가 실행하는 임의의 코드로부터 시스템을 보호하고 권한 탈취를 방지합니다. 또한 외부 프록시를 통해 에이전트가 직접 접근할 수 없는 수준에서 자격 증명을 관리합니다.\n\n본 기술은 Kubernetes의 확장성과 자가 치유 능력을 활용하면서도 에이전트 특화 데이터 플레인을 통해 표준 Pod 라이프사이클의 지연 시간을 극복했습니다. 현재 Nous Research의 Hermes와 같은 주요 AI 에이전트 프로젝트가 이를 기반으로 구축되고 있습니다.\n\nAgent Substrate는 모든 Kubernetes 환경에서 사용 가능한 오픈소스 솔루션이며 GKE에 최적화되어 있습니다. Google Cloud의 맞춤형 Arm 기반 프로세서인 Google Axion과 Filestore 등을 활용하여 성능과 비용 효율성을 극대화할 수 있습니다. 현재 비운영 워크로드를 위해 공개되어 있으며 프로덕션 환경 지원은 별도의 허용 목록을 통해 제공됩니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Alex Zakonov"
+      ],
+      "title": [
+        "VP Engineering"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-15T16:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes/",
+    "title": "Introducing Filestore agent volumes: fully managed storage for agent workspaces",
+    "summary": "From running build tools, to data analysis pipelines, to collaborative research, executing data-driven tasks is essential for any enterprise agent. \nToday, platform teams often stitch together custom ",
+    "aiSummary": "Google Cloud는 AI 에이전트의 워크로드를 효율적으로 관리하고 확장하기 위한 전용 스토리지인 Filestore agent volumes를 발표했습니다. 기업들이 AI 에이전트를 대규모로 운영할 때 겪는 스토리지 관리의 복잡성과 비용, 콜드 스타트 지연 문제를 해결하기 위해 설계된 완전 관리형 서비스입니다.\n\n이 서비스는 GKE와 Agent Substrate에 최적화되어 있으며 에이전트가 실행될 때마다 독립적이고 지속 가능한 파일 작업 공간을 밀리초 단위로 자동 할당합니다. 플랫폼 팀이 수동으로 스토리지를 설정할 필요가 없어 운영 부담을 크게 줄여줍니다.\n\n주요 특징으로는 각 워크스페이스에 대한 엄격한 보안 격리와 권한 제어를 제공하며 에이전트 세션의 즉각적인 재개와 중단을 지원합니다. 또한 사용한 용량만큼만 지불하는 탄력적인 과금 체계와 자동화된 수명 주기 관리를 통해 비용 효율성을 높였습니다.\n\n다중 에이전트 협업을 위해 RWX 지원과 POSIX 파일 잠금 기능을 제공하여 여러 에이전트가 하나의 공유 작업 공간에서 충돌 없이 동시에 데이터를 처리할 수 있도록 돕습니다. 현재 모든 Google Cloud 고객을 대상으로 비운영 워크로드를 지원하며 운영 환경 적용을 위한 정식 버전은 허용 목록을 통해 신청할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Micah Waldman"
+      ],
+      "title": [
+        "Group Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-15T16:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
+    "title": "Simplifying Terraform for IBM Z with intent-driven workflows ",
+    "summary": "Today, we're introducing intent-driven workflows for IBM Terraform Self-Managed for Z and LinuxONE (Terraform for Z), bringing a new way to interact with infrastructure through trusted, agentic workfl",
+    "aiSummary": "IBM은 IBM Z 및 LinuxONE 환경을 위한 Terraform for Z에 의도 기반 워크플로우를 새롭게 도입합니다. 이 기술은 운영자가 복잡한 설정 과정을 직접 관리하는 대신 달성하고자 하는 목표를 정의하면 에이전트가 이를 실행하도록 돕는 차세대 인프라 관리 모델입니다.\n\n전통적인 메인프레임 운영 환경은 전문 지식에 대한 의존도가 높아 진입 장벽이 존재했으나, 의도 기반 워크플로우를 통해 이러한 운영 지식을 표준화된 가이드 기반 워크플로우로 전환할 수 있습니다. 이를 통해 조직은 숙련도가 낮은 운영자도 안전하고 일관되게 인프라를 관리할 수 있게 됩니다.\n\n이 시스템은 기존 인프라 리소스 탐색, 환경 시뮬레이션, 실행 전 변경 사항 예행연습이라는 세 가지 핵심 기능을 제공합니다. 특히 실제 프로덕션 환경에 변경 사항을 적용하기 전 시뮬레이션을 통해 영향도를 검증함으로써 미션 크리티컬 환경의 안정성을 보장하고 명확한 감사 기록을 생성합니다.\n\n궁극적으로 IBM은 이번 도입을 시작으로 향후 하이브리드 클라우드 전반에 걸쳐 통합된 인프라 관리 환경을 구축하고자 합니다. 이를 통해 플랫폼에 구애받지 않고 메인프레임부터 퍼블릭 클라우드까지 동일한 의도 기반 접근 방식을 적용하는 것이 목표입니다. 해당 기능은 올해 하반기에 정식 출시될 예정입니다.",
+    "url": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-09-15T16:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=739827",
+    "title": "Java 27 in IntelliJ IDEA",
+    "summary": "In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA continues to support the l",
+    "aiSummary": "2026년 9월 15일, 6개월 단위의 정기 릴리스 주기에 맞춰 Java 27이 정식 출시되었습니다.\n\nIntelliJ IDEA는 이번 버전에서도 최신 Java 기능을 빠르게 지원하며 개발자의 생산성을 향상시킵니다. 특히 IntelliJ IDEA는 자체적인 성능 개선과 기능 고도화를 위해 최신 JDK의 변경 사항을 적극적으로 활용하고 있습니다.\n\n이번 Java 27은 언어적 진화와 함께 생태계 전반의 안정성을 강화하는 데 초점을 맞추었으며, IntelliJ IDEA는 이를 완벽하게 통합하여 원활한 개발 환경을 제공합니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Marit van Dijk",
+    "pubDate": "2026-09-15T14:49:02.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-mcp-1-0",
+    "title": "Laravel MCP 1.0 Is Released",
+    "summary": "Laravel MCP 1.0 ships protocol revision 2026-07-28, stateless servers, searchable tool catalogs, cache hints, and reworked OAuth with required PKCE.\nThe post Laravel MCP 1.0 Is Released appeared first",
+    "aiSummary": "Laravel MCP 1.0 버전이 공식 출시되었습니다. 이번 업데이트는 protocol revision 2026-07-28을 기반으로 하며 stateless 서버 지원과 검색 가능한 tool catalogs 기능을 포함합니다. 또한 캐싱 성능 향상을 위한 cache hints를 도입하였으며, 보안 강화를 위해 PKCE가 필수 요구되는 방식으로 OAuth 인증 체계를 전면 재설계하였습니다.",
+    "url": "https://laravel-news.com/laravel-mcp-1-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-09-15T14:27:51.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-vet",
+    "title": "Laravel Vet: Review Composer Code Before It Installs",
+    "summary": "Laravel Vet is a new first-party Composer plugin that shows you the code in every dependency update and records the packages you trust in vet.json.\nThe post Laravel Vet: Review Composer Code Before It",
+    "aiSummary": "Laravel Vet는 개발자가 의존성 업데이트를 수행하기 전에 해당 코드를 미리 검토할 수 있게 해주는 새로운 공식 Composer 플러그인입니다.\n\n이 도구는 신뢰할 수 있는 패키지 목록을 vet.json 파일에 기록하여 보안성을 높이고 의존성 관리 과정의 투명성을 강화합니다.\n\n개발자는 이 플러그인을 통해 외부 패키지를 프로젝트에 설치하기 전 코드 내용을 직접 확인함으로써 잠재적인 보안 위험을 예방할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-vet?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-09-15T13:33:11.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/sep/15/djangocon-europe-2027-is-heading-to-innsbruck/",
+    "title": "DjangoCon Europe 2027 is heading to Innsbruck, Austria! 🏔️⛷️🚠🇦🇹",
+    "summary": "We’re delighted to announce that DjangoCon Europe 2027 will take place in Innsbruck, Austria, from February 17–21, 2027!\n\nPhoto by Nicole Baster on Unsplash\nEach year, DjangoCon Europe brings together",
+    "aiSummary": "DjangoCon Europe 2027이 오는 2027년 2월 17일부터 21일까지 오스트리아 인스브루크에서 개최됩니다. 이번 행사는 Django 및 Python 커뮤니티 구성원들이 지식을 교류하고 협력을 도모하며 커뮤니티의 미래를 논의하는 자리가 될 예정입니다.\n\n현재 발표자 제안 접수가 시작되었으며 행사 참가 티켓 예매도 진행 중입니다. 또한 DjangoCon Europe 2027을 성공적으로 이끌어갈 자원봉사자와 행사를 후원할 기업들의 참여도 함께 모집하고 있습니다. 자세한 정보는 DjangoCon Europe 2027 공식 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/sep/15/djangocon-europe-2027-is-heading-to-innsbruck/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "DjangoCon Europe 2027 Organizing Team",
+    "pubDate": "2026-09-15T13:20:26.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/custom-scalar-i-hardly-know-her",
+    "title": "Custom scalar? I hardly know her!",
+    "summary": "We’re excited to announce the release of Apollo Client 4.3. This release brings TypeScript improvements that make working with your cache and incremental data safer, as well as support for our most re",
+    "aiSummary": "Apollo Client 4.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 TypeScript 개선 사항과 함께 사용자들이 가장 많이 요청했던 Custom scalars 기능을 핵심으로 합니다.\n\nTypeScript 관련하여 캐시 타입 안전성이 강화되었습니다. 이제 ApolloCache 인터페이스를 매번 타입 캐스팅할 필요 없이 TypeOverrides 인터페이스를 통해 사용 중인 캐시 타입을 명시적으로 선언하여 안전하게 접근할 수 있습니다. 또한 GraphQL Codegen을 통한 증분 타입 지원이 향상되어, dataState가 complete 상태일 때 조건부 브랜치가 제거된 더 깔끔한 타입을 제공합니다.\n\n가장 중요한 업데이트인 Custom scalars는 JSON 직렬화 값을 네이티브 객체로 쉽게 변환할 수 있도록 지원합니다. 개발자는 Scalar 클래스를 통해 파싱 및 직렬화 로직을 한 곳에서 정의할 수 있으며, 이를 캐시와 필드 정책에 등록하여 쿼리 변수나 캐시 쓰기 작업 등 전반에서 활용할 수 있습니다. 특히 @apollo/client-graphql-codegen 패키지의 플러그인을 사용하면 관련 객체들을 자동으로 생성하여 관리할 수 있습니다.\n\n이번 릴리스는 단순히 기능 추가에 그치지 않고 @defer 및 @stream 지시어와의 정교한 통합을 수행했습니다. 중간 과정에서 발생하는 데이터 불일치를 해결하기 위해 캐시 읽기 시 데이터 가지치기 기능을 도입하여, 네트워크를 통해 최종 데이터가 도착하기 전까지 증분 경계 내부의 데이터를 조건부로 제어할 수 있게 되었습니다. 이는 캐시와 네트워크 데이터 간의 일관성을 높여 더욱 예측 가능한 데이터 스트리밍을 가능하게 합니다.\n\n마지막으로, 쿼리 간 데이터 충돌인 캐시 피드(cache feuds) 상황에서도 파싱된 스칼라 값이 정상적으로 유지되도록 로직을 개선하여 라이브러리의 전체적인 안정성과 확장성을 확보하였습니다.",
+    "url": "https://www.apollographql.com/blog/custom-scalar-i-hardly-know-her",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Jerel Miller",
+    "pubDate": "2026-09-15T12:01:05.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v12.0.3",
     "title": "v12.0.3",
     "summary": "v12.0.3 (2026-09-15)\nBug fixes\nmicroservices\n\n#17766 fix(microservices): always run the kafka processing end hook (@kamilmysliwiec)\n#17757 fix(microservices): fail pending requests on client close (@h",
@@ -17,6 +291,22 @@
     ]
   },
   {
+    "id": "https://swift.org/blog/swift-6.4-released/",
+    "title": "Swift 6.4 Released",
+    "summary": "Swift 6.4 is now available. Swift aims to be a great choice across the stack, from apps and servers to systems code, embedded devices, and the browser. This release deepens that support, and makes eve",
+    "aiSummary": "Swift 6.4 버전이 공식 출시되었습니다. 이번 업데이트는 앱과 서버를 넘어 시스템 프로그래밍, 임베디드 장치, 브라우저 환경까지 포괄하는 광범위한 성능 향상과 개발자 경험 개선에 초점을 맞추고 있습니다.\n\n주요 언어 기능 및 생산성 개선 사항은 다음과 같습니다.\n옵셔널 타입 표현 시 괄호 생략이 가능해져 코드가 간결해졌으며, @diagnose 속성을 통해 컴파일러 경고를 코드 수준에서 세밀하게 제어할 수 있게 되었습니다. 또한, 서로 다른 모듈 간 API 이름 충돌을 해결하기 위한 모듈 선택자 기능이 추가되었고, defer 블록 내에서 비동기 함수 호출 및 withTaskCancellationShield를 이용한 작업 취소 방지가 가능해져 보다 안전한 리소스 정리가 가능합니다.\n\n도구 및 빌드 시스템 업데이트는 다음과 같습니다.\nSwift Package Manager는 이제 Swift Build를 기본 빌드 시스템으로 채택하여 리눅스, macOS, 윈도우 환경에서 일관된 빌드 경험을 제공합니다. 또한, SBOM 생성을 지원하며 디버깅 정보 구조 개선을 통해 빌드 결과물의 크기를 줄였습니다. VS Code용 Swift 확장이 Open VSX Registry에 등록되어 다양한 에디터 환경에서 폭넓게 활용할 수 있게 되었으며, Swiftly를 통한 도구 체인 관리도 간편해졌습니다.\n\n상호운용성 및 플랫폼 지원은 다음과 같습니다.\nC++20의 std::span과 Swift의 Span 간의 직접적인 연결이 가능해졌으며, Java와 Kotlin 간의 상호운용성이 강화되어 비동기 함수 호출 및 콜백 처리가 더 자연스러워졌습니다. WebAssembly 환경에서는 JavaScriptKit 브릿지 성능이 이전보다 최대 40배 향상되었습니다. 안드로이드 지원을 위해 LTS NDK 30을 기반으로 SDK가 구축되었으며, 임베디드 Swift는 실존 타입 지원과 더불어 마이크로컨트롤러 환경에서의 오류 처리가 강화되었습니다.\n\n성능 및 메모리 안전성 향상은 다음과 같습니다.\n비복사 타입에 대한 Equatable, Comparable, Hashable 지원이 추가되었고, UniqueArray와 같이 복사 오버헤드 없이 데이터를 처리할 수 있는 새로운 컬렉션 타입이 도입되었습니다. 또한, Iterable 프로토콜을 통해 데이터 복사 없는 반복 처리가 가능해졌으며, withTemporaryAllocation API를 통해 안전한 raw 메모리 접근 환경을 제공합니다. \n\n이러한 개선 사항들은 기존 프로젝트의 마이그레이션 편의성을 높이고 전반적인 개발 효율성과 런타임 성능을 극대화하는 데 중점을 두고 있습니다.",
+    "url": "https://swift.org/blog/swift-6.4-released/",
+    "category": "프로그래밍 언어",
+    "source": "Swift Blog",
+    "author": "Joe Heck",
+    "pubDate": "2026-09-15T07:30:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Swift",
+      "Apple"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v11.2.5",
     "title": "v11.2.5",
     "summary": "What's changed\n@nestjs/microservices\n\nfix(microservices): harden the tcp transport against a hostile peer\nFull Changelog: v11.2.4...v11.2.5",
@@ -31,6 +321,22 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/php-8-6",
+    "title": "What's New in PHP 8.6",
+    "summary": "PHP 8.6 arrives November 19, 2026 with partial function application, a clamp() function, a Duration class, readonly property defaults, and new deprecations.\nThe post What's New in PHP 8.6 appeared fir",
+    "aiSummary": "PHP 8.6 버전이 2026년 11월 19일에 정식 출시될 예정입니다. 이번 업데이트에는 부분 함수 적용 기능인 partial function application과 수치 제한을 위한 clamp() 함수가 새롭게 추가됩니다.\n\n또한 시간 간격 처리를 위한 Duration 클래스가 도입되며 읽기 전용 속성에 대한 기본값 설정 기능이 제공됩니다. 이와 더불어 일부 기능에 대한 새로운 지원 중단 계획도 포함되어 있습니다.",
+    "url": "https://laravel-news.com/php-8-6?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-09-15T03:00:09.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -63,6 +369,53 @@
     "fetchedAt": "2026-09-15T12:44:50.316Z",
     "tags": [
       "Ruby"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/15/jdk-27-available/",
+    "title": "The Arrival of Java 27!",
+    "summary": "Follow Java (https://x.com/java) and OpenJDK (https://x.com/OpenJDK) on X.\n\t\t\t\tJDK 27 is Now Available!\n\t\t\t\tOracle is proud to announce the general availability of JDK 27 for developers, enterprises, ",
+    "aiSummary": "Oracle이 발표한 JDK 27은 개발자, 기업, 최종 사용자를 위한 정식 버전으로, 보안, 언어 혁신, 성능 향상 및 라이브러리 개선을 포함한 9개의 핵심 JEP를 포함하고 있습니다.\n\n보안 분야에서는 양자 컴퓨터의 공격에 대비한 TLS 1.3용 하이브리드 키 교환 알고리즘인 JEP 527과 암호화 객체의 PEM 인코딩을 지원하는 JEP 538이 도입되어 네트워크 통신 및 데이터 보호 능력을 강화했습니다.\n\n언어 및 성능 측면에서는 패턴 매칭과 switch 문에서의 기본 타입 사용 범위를 넓힌 JEP 532와 함께, 모든 환경에서 G1 가비지 컬렉터를 기본값으로 설정하는 JEP 523이 적용되었습니다. 또한 64비트 아키텍처에서 객체 헤더 크기를 줄여 메모리 효율성을 높이는 JEP 534가 도입되어 전반적인 런타임 성능 최적화를 꾀했습니다.\n\n개발 생산성 향상을 위한 라이브러리 및 도구 개선도 눈에 띕니다. 지연 초기화를 위한 Lazy Constants 기능을 제공하는 JEP 531과 멀티스레드 코드의 유지보수를 단순화하는 Structured Concurrency인 JEP 533이 포함되었으며, 벡터 연산을 가속화하는 Vector API인 JEP 537이 12번째 인큐베이터 단계로 업데이트되었습니다. 진단 도구인 JFR에는 민감한 데이터를 자동으로 가리는 데이터 수정 기능인 JEP 536이 추가되었습니다.\n\n이 외에도 수십 가지의 비 JEP 개선 사항을 통해 ML-KEM 및 ML-DSA와 같은 양자 내성 암호화 알고리즘의 성능이 강화되었으며, OCI를 비롯한 클라우드 환경에서의 효율적인 배포를 지원합니다. Oracle은 이번 릴리스와 함께 Helidon 27, JavaFX 27, VS Code용 Oracle Java Platform Extension 및 Oracle Jipher 20 등 주요 포트폴리오를 업데이트하여 엔터프라이즈 환경에서의 통합적인 보안과 개발 편의성을 제공합니다. JDK 27은 6개월 주기 릴리스 전략에 따라 제공되며, Oracle은 오는 2027년 3월 JDK 28 출시 전까지 해당 버전에 대한 기술 지원을 이어갈 예정입니다.",
+    "url": "https://inside.java/2026/09/15/jdk-27-available/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Inside Java",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-5-4-released",
+    "title": "Elastic Stack 9.5.4 released",
+    "summary": "Version 9.5.4 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.4 over the previous versions 9.5.3\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.5.4 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.3에서 발견된 문제들을 해결하였으며 사용자들에게 최신 버전으로의 업그레이드를 강력하게 권장합니다. 수정된 이슈 및 제품별 상세 변경 사항은 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-5-4-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "adrian brown",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/av-comparatives-epr-test-2026",
+    "title": "The only perfect Endpoint Prevention and Response (EPR) score in 2026 belongs to Elastic",
+    "summary": "Elastic sits at the very top of this year’s AV-Comparatives' CyberRisk Quadrant within the 2026 Endpoint Prevention and Response (EPR) test with the highest protection scores at 100%. Learn more.",
+    "aiSummary": "AV-Comparatives가 발표한 2026년 Endpoint Prevention and Response 테스트인 CyberRisk Quadrant에서 Elastic이 유일하게 100%의 보호 점수를 기록하며 최상위권을 차지하였습니다. 해당 평가는 엔드포인트 보안 솔루션의 탐지 및 대응 능력을 객관적으로 검증하는 시험으로, Elastic은 기술적 우수성과 완벽한 방어 성능을 입증하였습니다.",
+    "url": "https://www.elastic.co/blog/av-comparatives-epr-test-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Mia LaVada",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "fetchedAt": "2026-09-15T19:05:34.502Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1563,135 +1916,6 @@
     "tags": [
       "Django",
       "Python"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
-    "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
-    "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 d",
-    "aiSummary": "Kubernetes v1.37은 AI, ML, 대규모 배치 작업 등 복잡한 워크로드를 효율적으로 관리하기 위한 Workload-Aware Scheduling(WAS) 기능을 크게 강화하였습니다. 이번 업데이트의 핵심은 핵심 API인 Workload와 PodGroup이 v1beta1으로 승격되어 배포의 안정성을 확보했다는 점입니다.\n\n가장 주목할 만한 변화는 계층적 스케줄링을 지원하는 새로운 CompositePodGroup API의 도입입니다. 이를 통해 복잡하고 이질적인 Pod 그룹에 대해 다단계 토폴로지 제약, 갱 스케줄링, 선점 정책을 적용할 수 있게 되었습니다. 이제 개발자들은 JobSet이나 LeaderWorkerSet과 같은 확장 API를 사용할 때 더욱 직관적인 스케줄링 설정을 구현할 수 있습니다.\n\n또한, 워크로드 스케줄링의 세부 성능과 유연성도 크게 개선되었습니다. PodGroup이 스케줄링 큐의 일등 시민으로 통합되어 관리 효율이 높아졌으며, minCount 설정을 동적으로 변경할 수 있게 되어 탄력적인 워크로드 운영이 가능해졌습니다. Workload-aware preemption 기능은 이제 CompositePodGroup 계층 구조까지 지원하며, 설정된 disruptionMode에 따라 전체 또는 부분적인 선점 방식을 유연하게 선택할 수 있습니다.\n\n이외에도 토폴로지 인식 스케줄링이 다단계 계층 구조를 지원하도록 확장되었습니다. 이제 전체 워크로드를 특정 가용 영역으로 제한하면서, 하위 그룹을 개별 랙 단위로 세밀하게 배치하는 등 하향식 제약 조건 해결이 가능해졌습니다. 이러한 기능들은 표준 배치 작업에 대한 스케줄링 정책의 복잡성을 낮추고, 대규모 분산 시스템 운영의 안정성을 한층 높여줍니다.",
-    "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-09-08T18:30:00.000Z",
-    "fetchedAt": "2026-09-09T01:18:04.091Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/",
-    "title": "Power agent hubs or custom harnesses with the Antigravity SDK in one toolkit",
-    "summary": "Enterprise agent adoption isn’t one-size-fits-all. While many teams will opt for managed commercial platforms, such as Gemini Enterprise Agent Platform for turnkey agent deployment and governance, dev",
-    "aiSummary": "기업 환경에서 독자적인 에이전트 허브를 구축하려는 개발자들을 위해 Antigravity SDK가 새로운 해결책을 제시합니다. 이 SDK는 Antigravity 2.0과 Antigravity CLI에서 사용하는 동일한 런타임 엔진을 제공하며 선언적 보안 정책, 실시간 원격 측정, 상태 유지 다중 턴 지속성 기능을 포함하고 있습니다. 이를 통해 개발자는 LLM 워크로드를 통합적으로 모니터링하고 관리하는 다중 에이전트 제어 평면을 구성할 수 있습니다.\n\nAntigravity SDK의 핵심 아키텍처는 크게 에이전트 코어와 관측성 및 원격 측정 미들웨어로 구성됩니다. 에이전트 코어는 Gemini 3.1 Pro나 Gemini 3.8 Flash와 같은 모델과의 상호작용, 도구 실행, 사고 과정 추적, 기술 실행을 담당합니다. 미들웨어는 Antigravity SDK Lifecycle Hooks를 활용하여 에이전트의 단계별 시작, 사고 업데이트, 도구 호출 등의 동작을 가로채고 이를 실시간으로 대시보드에 스트리밍합니다.\n\n운영 효율성을 높이기 위한 주요 메커니즘은 다섯 가지로 나뉩니다. 첫째, save_dir과 conversation_id를 통한 세션 초기화 및 상태 보존으로 모든 실행 기록을 감사할 수 있습니다. 둘째, SKILL.md 파일을 활용한 동적 기술 해결로 외부 레지스트리 없이도 도메인별 기능을 확장합니다. 셋째, ChatResponse를 통한 스트림 생성으로 텍스트 토큰, 사고 과정, 도구 호출 이벤트를 비동기적으로 처리합니다. 넷째, 선언적 보안 정책을 적용한 샌드박스형 도구 실행으로 작업 공간을 안전하게 제한합니다. 마지막으로, 생명주기 훅을 사용하여 에이전트의 전환을 실시간으로 감시하고 제어할 수 있습니다.\n\n결과적으로 개발자는 분산된 로그를 수동으로 확인하는 대신, Antigravity SDK를 활용하여 에이전트의 가동 상태, 토큰 사용량, 실행 지연 시간 등을 통합 대시보드에서 투명하게 확인하고 제어할 수 있습니다. 상세한 설정과 활용법은 공식 깃허브 저장소와 퀵 스타트 가이드를 통해 확인할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Wei Yih Yap"
-      ],
-      "title": [
-        "Forward Deployed Engineer, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-08T16:00:00.000Z",
-    "fetchedAt": "2026-09-08T18:49:06.441Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/",
-    "title": "Agentic analytics with the Data Agent Kit",
-    "summary": "Imagine your director sends you a chat message Monday morning: Our average order value dropped 7% in January, but total revenue stayed flat. Why?\nIf you’re a data practitioner, you know why these type",
-    "aiSummary": "데이터 분석가들이 여러 시스템에 흩어진 데이터를 조회하기 위해 겪는 비효율적인 작업 환경을 개선하기 위해 Data Agent Kit이 출시되었습니다. Data Agent Kit은 다양한 데이터 소스와 상호작용할 수 있도록 지원하는 MCP 기반의 서버와 에이전트 스킬 세트를 제공합니다. 이를 통해 사용자는 IDE 환경을 벗어나지 않고도 자연어 명령만으로 데이터 분석을 수행할 수 있습니다.\n\nData Agent Kit의 핵심은 MCP 표준과 에이전트의 지식을 보완하는 스킬 파일입니다. 이 도구는 BigQuery와 같은 데이터 웨어하우스, Cloud SQL과 같은 운영 데이터베이스, 그리고 Cloud Storage의 비정형 데이터에 이르기까지 광범위한 소스를 통합적으로 탐색합니다. 에이전트는 사용자를 대신해 SQL을 작성하고 실행하며, 결과를 분석하여 복잡한 비즈니스 문제의 근본 원인을 파악합니다.\n\n분석 과정에서 보안을 위해 모든 쿼리 실행 전에는 사용자의 권한 승인 절차를 거치며, 사용자는 에이전트가 생성한 실행 경로와 쿼리 코드를 직접 검토할 수 있습니다. 또한 분석이 완료되면 에이전트를 활용해 ad-hoc 분석 내용을 dbt 프로젝트와 같은 지속 가능한 데이터 파이프라인으로 즉시 전환할 수 있습니다. 특히 에이전트가 데이터 품질 검사를 수행하고 오류를 스스로 수정하는 과정을 통해 개발 효율성을 극대화합니다.\n\nData Agent Kit은 현재 프리뷰 상태로 Antigravity, Cursor, Claude Code, Codex 등 다양한 개발 도구와 IDE에서 활용할 수 있습니다. 데이터 개발자는 반복적인 쿼리 작성과 환경 전환의 번거로움에서 벗어나, 에이전트를 감독하고 분석의 방향을 결정하는 고차원적인 작업에 집중할 수 있게 됩니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jeff Nelson"
-      ],
-      "title": [
-        "Developer Advocate, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-08T16:00:00.000Z",
-    "fetchedAt": "2026-09-08T18:49:06.441Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/",
-    "title": "How KDDI built Buffmee, a faster, reliable consumer RAG app",
-    "summary": "When building consumer-facing generative AI applications,  balancing high generation quality with fast response times across diverse media types, can be challenging. KDDI, a major telecommunications c",
-    "aiSummary": "일본의 통신사 KDDI는 사용자의 성장을 돕는 인터렉티브 AI 서비스인 Buffmee를 개발하는 과정에서 정보의 신뢰성과 응답 속도라는 두 가지 난제에 직면했습니다. Buffmee는 도서, 잡지, 웹 미디어 등 100개 이상의 소스를 기반으로 답변을 생성하며 출처를 명시함으로써 할루시네이션 문제를 해결하고 정보의 신뢰성을 높이는 데 주력했습니다.\n\nKDDI는 Gemini Enterprise Agent Platform Evaluation Service를 도입하여 수작업 중심의 테스트를 데이터 기반의 자동화된 평가 프레임워크로 전환했습니다. 이를 통해 모델이 답변의 근거를 얼마나 잘 활용하는지를 측정하는 groundedness 점수를 25% 향상시켰으며, 이진 평가 시스템 도입과 전략적 콘텐츠 샘플링을 통해 평가 워크로드를 75%까지 절감했습니다.\n\n성능 최적화 측면에서는 BigQuery Agent Analytics와 Agent Development Kit(ADK)를 활용해 실제 운영 로그를 분석했습니다. 특히 복잡한 시스템 프롬프트가 응답 속도를 저하시키는 주요 원인임을 파악하고, 이를 기능 단위의 ADK Skills로 모듈화하여 필요한 로직만 동적으로 로드하도록 개선했습니다.\n\n이러한 기술적 혁신을 통해 KDDI는 Buffmee의 전체 응답 지연 시간을 38% 단축하고, TTFT 성능을 약 18% 개선하는 성과를 거두었습니다. 결과적으로 KDDI는 대규모 콘텐츠를 정확하게 다루면서도 실시간 응답이 가능한 안정적인 RAG 시스템을 구축하여 사용자에게 개인화된 학습 및 정보 탐색 경험을 성공적으로 제공하고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Junichi Kashino"
-      ],
-      "title": [
-        "Platform Business Strategy Department, KDDI"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-08T16:00:00.000Z",
-    "fetchedAt": "2026-09-08T18:49:06.441Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-    "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-    "aiSummary": "Google DeepMind가 개발한 AlphaGenome Atlas는 인간 유전체에 존재하는 90억 개의 단일 염기 변이가 분자 수준에서 어떤 영향을 미치는지 예측하여 시각화한 지도입니다. 이 지도는 유전자 변이가 신체에 끼치는 잠재적인 생물학적 결과를 체계적으로 정리하여 질병의 원인을 파악하고 개인 맞춤형 의료를 발전시키는 데 중요한 기초 자료로 활용될 전망입니다.",
-    "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-08T14:00:15.000Z",
-    "fetchedAt": "2026-09-08T18:49:06.441Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
     ]
   }
 ]
