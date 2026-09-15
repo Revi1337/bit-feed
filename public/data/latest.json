@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://www.percona.com/?p=53468",
+    "title": "Percona and HexaCluster: Faster, Safer Oracle Migration",
+    "summary": "Percona and HexaCluster have partnered to remove the hardest part of an open source database migration: getting off Oracle, SQL Server, DB2 or Sybase ASE with confidence, on a predictable timeline, wi",
+    "aiSummary": "Percona와 HexaCluster가 기업의 오픈소스 데이터베이스 전환을 돕기 위해 전략적 파트너십을 체결하였습니다. 이번 협력은 Oracle, SQL Server, DB2, Sybase ASE와 같은 기존 데이터베이스에서 오픈소스 환경으로 전환할 때 발생하는 기술적 난관과 장기적인 컨설팅 비용 문제를 해결하는 데 중점을 둡니다.\n\nPercona는 오픈소스 기술력과 데이터베이스 배포판, 그리고 엔터프라이즈 지원 체계를 제공합니다. HexaCluster는 데이터베이스 평가 및 마이그레이션 엔지니어링 역량을 투입하여 전환 과정을 지원합니다. 양사는 이번 협업을 통해 기업들이 더욱 빠르고 안전하게, 그리고 예측 가능한 일정 내에 데이터베이스를 현대화할 수 있도록 지원할 계획입니다.",
+    "url": "https://www.percona.com/blog/percona-and-hexacluster-faster-safer-oracle-migration/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Percona Team",
+    "pubDate": "2026-09-14T22:19:16.000Z",
+    "fetchedAt": "2026-09-15T01:34:54.296Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
+    "title": "Kubernetes Changed Block Tracking API - Beta Differences",
+    "summary": "Changed Block Tracking (CBT) support for CSI drivers\nshipped as Alpha in\nSeptember 2025. With the March 2026 v1.0.0 release of the\nexternal-snapshot-metadata\nproject, the feature moved to Beta.\nIf you",
+    "aiSummary": "Kubernetes의 Changed Block Tracking 기능이 2025년 9월 Alpha 단계를 거쳐 2026년 3월 external-snapshot-metadata 프로젝트의 v1.0.0 릴리스를 통해 Beta로 격상되었습니다. 이 기능은 CSI 드라이버를 통해 블록 볼륨의 변경 사항을 추적하며 파일 볼륨이나 네트워크 파일 공유는 지원하지 않습니다.\n\n이번 Beta 버전의 핵심 변경 사항은 SnapshotMetadataService CRD가 v1alpha1에서 v1beta1으로 승격된 것입니다. v1alpha1은 제거되었으므로 기존 Alpha 사용자는 v1beta1으로 CRD 정의를 다시 적용하고 매니페스트와 클라이언트 코드를 수동으로 업데이트해야 합니다. 자동 변환은 지원되지 않습니다.\n\nBeta 버전을 사용하기 위한 최소 요구 사항은 Kubernetes 1.33 버전 이상, CSI spec 1.10 이상이며 지정된 컨테이너 이미지를 사용해야 합니다. 사용 방법은 기존 Alpha 단계와 동일하게 CSI 드라이버 설정, CRD 설치, 리소스 생성 및 API 호출 단계를 따릅니다.\n\n향후 계획은 더 많은 CSI 드라이버의 도입을 유도하고 운영 피드백을 수집하여 GA 단계로 나아가는 것입니다. 현재 SIG Storage를 중심으로 CSI 드라이버 유지 관리자들의 적극적인 참여와 피드백을 기다리고 있습니다. 자세한 내용은 KEP-3314나 관련 공식 저장소를 통해 확인할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-14T18:30:00.000Z",
+    "fetchedAt": "2026-09-15T01:34:54.296Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
+    "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
+    "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by\ndefault. On Linux nodes running cgroup v2, the feature uses the memory controller\nto give the kernel better guidance on how t",
+    "aiSummary": "Kubernetes v1.37에서 Memory QoS 기능이 Beta 단계로 격상되었으며 모든 환경에서 기본적으로 활성화됩니다. 이 기능은 cgroup v2를 사용하는 Linux 노드에서 메모리 컨트롤러를 활용하여 컨테이너 메모리 관리를 최적화합니다.\n\n기본값 활성화에 따른 운영 환경의 변화를 최소화하기 위해 memoryThrottlingFactor의 기본값이 0.9에서 null로 변경되었습니다. 따라서 사용자가 명시적으로 설정을 변경하지 않는 한 기존 워크로드의 실행 동작에는 영향을 주지 않으며 클러스터 업그레이드 시 안전성이 보장됩니다.\n\n사용자는 kubelet 설정을 통해 특정 동작을 선택할 수 있습니다. memoryThrottlingFactor를 설정하여 Burstable 및 BestEffort 컨테이너의 메모리 스로틀링을 활성화하거나 memoryReservationPolicy를 TieredReservation으로 설정하여 계층화된 메모리 보호 기능을 적용할 수 있습니다. \n\n현재 이 기능에는 메모리 예약 정책이 노드 내의 모든 파드에 일괄 적용된다는 제약 사항이 있습니다. 즉, 특정 파드만 선택적으로 예약을 적용하거나 제외할 수 없으며 하드 예약 시 페이지 캐시를 포함한 모든 메모리가 점유될 수 있다는 점을 유의해야 합니다. 향후 커뮤니티 피드백을 수렴하여 GA 단계로의 전환이 추진될 예정입니다.",
+    "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-14T18:30:00.000Z",
+    "fetchedAt": "2026-09-15T01:34:54.296Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v11.2.4",
     "title": "v11.2.4",
     "summary": "What's changed\nfix(microservices): handle unserializable patterns without crashing\nfix(platform-fastify): absolute-form request target middleware bypass",
@@ -143,6 +191,23 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/announcing-redis-810-compact-hash-jsonpath-extensions-performance-improvements-and-more/",
+    "title": "Announcing Redis 8.10: Compact Hash, JSONPath extensions, performance improvements, & more",
+    "summary": "Redis 8.10 in Redis Open Source is now available, delivering improvements that make Redis more memory efficient, expressive, and easier to operate at scale.\n\nHighlights include compact hashes with up ",
+    "aiSummary": "Redis 8.10 버전이 공개되었으며 이번 업데이트는 메모리 효율성 향상과 기능 확장, 그리고 대규모 운영 편의성 개선에 초점을 맞추었습니다.\n\n주요 변경 사항으로 Compact Hash 기능이 추가되어 기존 대비 메모리 사용량을 최대 50퍼센트까지 절감하고 해시 로딩 속도를 2배가량 높였습니다. 이를 통해 대용량 데이터를 처리하는 환경에서 비용 효율적인 운영이 가능해집니다.\n\n또한 JSONPath 확장을 통해 JSON 데이터에 대한 쿼리 기능을 강화하여 개발자가 더 유연하고 복잡한 데이터 조작을 수행할 수 있도록 지원합니다.\n\n전반적인 성능 최적화를 통해 Redis를 사용하는 시스템의 응답 속도와 처리량이 개선되었으며 더욱 안정적인 대규모 서비스 운영 환경을 제공합니다.",
+    "url": "https://redis.io/blog/announcing-redis-810-compact-hash-jsonpath-extensions-performance-improvements-and-more/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Bosmat Tuvel",
+    "pubDate": "2026-09-14T00:00:00.000Z",
+    "fetchedAt": "2026-09-15T01:34:54.296Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -1611,70 +1676,6 @@
       "OpenAI",
       "LLM",
       "AI"
-    ]
-  },
-  {
-    "id": "https://astro.build/case-studies/evil-martians/",
-    "title": "Affordable and Fast Migration",
-    "summary": "How Evil Martians moved from Gatsby to Astro in nine days without rewriting a single React component",
-    "aiSummary": "Evil Martians가 Gatsby 환경에서 Astro 환경으로 마이그레이션을 단 9일 만에 완료하였습니다.\n\n이번 프로젝트의 핵심은 기존 React 컴포넌트를 단 하나도 수정하지 않고 그대로 유지하면서 전환을 수행했다는 점입니다. Astro가 제공하는 강력한 프레임워크 호환성과 유연한 아키텍처를 활용하여 개발 효율성을 극대화했습니다.\n\n결과적으로 마이그레이션을 통해 웹사이트의 성능을 대폭 개선하고 더욱 빠른 빌드 속도를 확보하는 성과를 거두었습니다. 기존 기술 자산을 보존하면서도 현대적인 웹 환경으로 성공적으로 전환한 사례로 평가받습니다.",
-    "url": "https://astro.build/case-studies/evil-martians/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "fetchedAt": "2026-09-09T01:18:04.091Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/delivering-real-time-personalization-with-databricks-and-redis/",
-    "title": "Delivering Real-Time Personalization with Databricks and Redis",
-    "summary": "Why real-time matters\n\nA customer is browsing an e-commerce site. They search for running shoes, open a product, read reviews, and add an item to the cart. Every one of those actions is a signal about",
-    "aiSummary": "이커머스 환경에서 고객이 상품을 검색하거나 장바구니에 담는 등의 행동은 즉각적인 의도를 파악할 수 있는 중요한 신호입니다. 실시간 개인화는 고객의 이러한 행동 데이터를 즉시 처리하여 사이트 환경에 반영함으로써 구매 전환율을 높이는 핵심 요소입니다.\n\nDatabricks와 Redis를 결합하면 이러한 실시간 개인화 구현이 가능합니다. Databricks는 데이터 레이크하우스 아키텍처를 통해 대규모 데이터를 분석하고 머신러닝 모델을 훈련하는 데 탁월한 성능을 발휘합니다. 훈련된 모델은 사용자의 실시간 행동 데이터를 분석하여 최적의 추천 결과를 도출합니다.\n\n추론된 개인화 데이터는 빠른 응답 속도가 필수적이므로 인메모리 데이터베이스인 Redis에 저장됩니다. 이를 통해 애플리케이션은 사용자에게 지연 시간 없이 초개인화된 콘텐츠를 즉각적으로 제공할 수 있습니다. 결과적으로 이 결합은 데이터 처리의 효율성과 실시간 서비스 응답 속도라는 두 가지 측면에서 강력한 비즈니스 경쟁력을 확보하게 합니다.",
-    "url": "https://redis.io/blog/delivering-real-time-personalization-with-databricks-and-redis/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Philip Laussermair, Anant Pingle",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "fetchedAt": "2026-09-08T18:49:06.441Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elasticon-2026",
-    "title": "See you at Elastic{ON} 2026",
-    "summary": "Elastic{ON} kicks off this September with seven stops in cities around the world. Elastic’s CEO Ash Kulkarni will be appearing at stops across the tour, opening keynotes with a candid conversation abo",
-    "aiSummary": "올해 9월부터 전 세계 7개 도시를 순회하며 Elastic{ON} 행사가 개최됩니다. 이번 행사에서는 Elastic의 CEO인 Ash Kulkarni가 직접 주요 기조연설을 맡아 오늘날 데이터가 가지는 가치에 대해 심도 있는 통찰을 공유할 예정입니다.",
-    "url": "https://www.elastic.co/blog/elasticon-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Dan Courcy",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "fetchedAt": "2026-09-08T18:49:06.441Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/09/08/this-week-in-spring-september-8th-2026",
-    "title": "This Week in Spring - September 8th, 2026",
-    "summary": "Bonjour a tout le monde! Welcome to another rip-roarin' installment of This Week in Spring! It's a fabulous and fun day here in Paris, France, as I wait to board the train to Amsterdam for the Intelli",
-    "aiSummary": "이번 주 Spring 생태계 소식에서는 Craig Walls가 연재하는 Spring AI Recipes 시리즈가 주목받고 있습니다. 특히 JVM 환경 내부에서 LLM을 실행하는 방법과 로컬 LLM 구동 방식, 그리고 효율적인 도구 사용법에 관한 유용한 가이드들이 공유되었습니다. 또한 DaShaun Carter가 제안하는 agents.md 기반의 Spring AI 스타터 프로젝트도 함께 소개되었습니다.\n\n애플리케이션 아키텍처 측면에서는 Spring Boot 환경에서 수직적 슬라이스 구조를 활용하는 방법과 Foojay.io에 게재된 Spring Boot 분석기 개발 경험담이 공유되어 개발자들의 관심을 끌고 있습니다.\n\n데스크톱 애플리케이션 개발과 관련해서는 Spring Boot와 JavaFX, GraalVM Native Image를 결합하여 Electron 기반 앱보다 적은 메모리를 사용하면서도 뛰어난 성능과 범용성을 갖춘 네이티브 앱을 구축하는 방법이 두 편의 영상으로 공개되었습니다. 해당 영상에서는 Spring Security의 OAuth 클라이언트와 PKCE를 사용하여 보안을 유지하는 기술도 다루고 있습니다.\n\n그 외에도 Spring Cloud Config를 통한 외부 설정 관리 방식과 Spring Cloud AWS 4.1.1의 SQS 관련 업데이트 소식이 전해졌습니다. A Bootiful Podcast에서는 BellSoft의 Catherine Edelveis와 함께 Spring Boot 애플리케이션을 위한 신뢰할 수 있고 안전한 이미지 관리에 대해 심도 있는 대화를 나누었습니다.",
-    "url": "https://spring.io/blog/2026/09/08/this-week-in-spring-september-8th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "fetchedAt": "2026-09-08T12:11:43.395Z",
-    "tags": [
-      "Spring",
-      "Java"
     ]
   }
 ]
