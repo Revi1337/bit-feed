@@ -1,5 +1,198 @@
 [
   {
+    "id": "/blog/release/v26.9.0?1789582662027",
+    "title": "Node.js 26.9.0 (Current)",
+    "summary": "Antoine du Hamel2026-09-16, Version 26.9.0 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.9.0#2026-09-16-version-2690-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release/v2",
+    "aiSummary": "Node.js 26.9.0 버전이 릴리스되었습니다. 이번 업데이트는 암호화 API 강화, 실험적 기능 도입, 성능 최적화 및 빌드 설정 개선 등 폭넓은 변화를 포함하고 있습니다.\n\n주요 변경 사항으로 암호화 부문에서는 범용 MAC API가 추가되었으며, OpenSSL 공급자를 통해 암호화 알고리즘과 해시를 발견하는 기능이 통합되었습니다. 보안 강화를 위해 FIPS 모드 내 엄격 모드 지원과 다양한 암호화 버그 수정이 이루어졌습니다.\n\n또한 새로운 기능과 실험적 API가 대거 도입되었습니다. node:bench 모듈이 구현되어 성능 측정 기능이 추가되었으며, perf_hooks에는 Histogram meanCI API와 CBOR 데이터 교환 지원이 포함되었습니다. ffi 모듈은 기본적으로 활성화되었으며, Web Workers에 대한 지원도 추가되었습니다. 네트워크 프로토콜 측면에서는 실험적 DTLS API가 도입되었습니다.\n\n파일 시스템 기능도 대폭 개선되었습니다. fs.cp와 fs.watch 기능의 성능과 안정성이 향상되었으며, glob 검색 시 maxDepth 옵션이 추가되는 등 파일 조작 편의성이 높아졌습니다.\n\n빌드 및 내부 종속성 업데이트도 포함되어 있습니다. V8 엔진 업데이트와 함께 shared-perfetto, V8 sandbox, shared-highway 등 다양한 빌드 구성 옵션이 추가 및 최적화되었습니다. 또한 zlib, simdjson 등 주요 종속성들이 최신 버전으로 업데이트되어 전반적인 시스템 성능과 안정성이 개선되었습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.9.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-09-16T18:17:42.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/seaverse-chooses-gke-agent-sandbox/",
+    "title": "For SeaVerse, GKE Agent Sandbox reduces infrastructure costs by 60%",
+    "summary": "Editor’s note: Today we hear from SeaVerse, a gaming startup from SeaArt that is building a platform for playable AI experiences, where users can open lightweight games, character chats, and interacti",
+    "aiSummary": "게이밍 스타트업인 SeaVerse는 사용자가 프롬프트를 통해 게임이나 대화형 AI 앱을 즉시 생성하고 공유할 수 있는 플랫폼을 운영하고 있습니다. 이러한 창작 경험을 지원하기 위해서는 복잡한 워크로드를 안전하게 격리하면서도 낮은 지연 시간과 높은 가시성을 확보하는 인프라가 필수적이었습니다.\n\n이를 위해 SeaVerse는 Google Kubernetes Engine 및 GKE Agent Sandbox를 도입하였습니다. GKE Agent Sandbox는 Kata Containers와 Cloudhypervisor 기반의 마이크로 VM 환경을 제공하여 강력한 커널 수준의 격리를 구현하면서도 기존 Kubernetes 모델 내에서 효율적인 오케스트레이션을 가능하게 했습니다.\n\n이번 전환을 통해 SeaVerse는 초당 최대 300개의 샌드박스를 200밀리초 이내에 할당할 수 있게 되었으며, 워크로드 가시성이 크게 향상되어 문제 해결 속도가 빨라졌습니다. 또한 리소스 할당의 유연성을 확보함으로써 인프라 비용을 최대 60퍼센트까지 절감하는 성과를 거두었습니다.\n\n결과적으로 SeaVerse는 더 안정적인 플랫폼 운영 환경을 구축했으며, 향후에는 Gemini, BigQuery, Imagen 등 Google Cloud의 다양한 AI 도구를 추가로 활용하여 사용자에게 더욱 고도화된 창작 경험을 제공할 계획입니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/seaverse-chooses-gke-agent-sandbox/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Zongyun Hu"
+      ],
+      "title": [
+        "COO, SeaVerse"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-16T16:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/",
+    "title": "Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses",
+    "summary": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop th",
+    "aiSummary": "Google의 보안 리더인 Sandra Joyce는 최근 기술 환경의 변화 속에서 AI가 소프트웨어 개발 방식을 재편하고 공격 표면을 확장하며 위협 능력을 강화하고 있다고 분석합니다. 이에 대응하기 위해 Google Threat Intelligence Group은 개발 과정에 보안을 내재화하는 실시간 사이버 보안 맞춤법 검사와 같은 도구의 필요성을 강조합니다.\n\n공격자들은 현재 AI 툴킷 탈취, 프롬프트 인젝션, LLMJacking 등을 통해 기업의 클라우드 환경과 데이터를 노리고 있으며, 심지어 여러 AI 모델을 교차 사용하여 공격의 효율성을 높이는 자동화된 파이프라인을 구축하고 있습니다. 이러한 위협에 맞서 Google은 Gemini와 같은 여러 모델을 조합하여 오탐을 줄이고 복잡한 논리 오류를 탐지하는 다중 모델 전략을 사용합니다.\n\nGoogle은 코드부터 클라우드까지의 맥락을 연결하는 통합된 보안 접근 방식을 지향합니다. Wiz Security Graph를 기반으로 한 Google AI Threat Defense는 Mandiant의 현장 전문 지식과 CodeMender의 코드 수정 능력을 결합하여 위협을 방어합니다. 또한, 내부 인프라에 대한 악의적인 접근을 사전에 차단하고 AI 모델 자체의 보안을 강화하며 자동화된 취약점 탐지 및 패치를 통해 방어 체계를 구축합니다.\n\n기업은 AI를 사일로화하여 관리하는 실수를 피해야 하며, 코드와 모델, 데이터 계보, 런타임 ID를 하나의 지도로 연결하는 역동적인 방어 체계로 나아가야 합니다. 방어자는 공격자보다 내부 시스템과 인프라에 대한 깊은 맥락을 보유하고 있으므로, 이러한 정보를 보안 모델에 학습시켜 기계 수준의 빠른 대응 체계를 갖추는 것이 핵심입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sandra Joyce"
+      ],
+      "title": [
+        "VP, Google Threat Intelligence"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-16T16:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/compute/compute-engine-m4n-vms/",
+    "title": "M4N VM family, now GA: Highest per-core IOPS and throughput for I/O and memory-bound workloads",
+    "summary": "As enterprise organizations scale mission-critical applications, storage I/O and memory access can become severe operational bottlenecks. Whether its Oracle databases, in-memory databases like SAP HAN",
+    "aiSummary": "Google Cloud가 I/O 집약적이며 높은 메모리 성능을 요구하는 워크로드를 위해 설계된 M4N VM 시리즈의 정식 출시를 발표했습니다. M4N은 네트워크 및 블록 스토리지에 최적화된 인스턴스로, 5th Gen Intel Xeon Scalable 프로세서와 Google Cloud의 독자적인 Titanium 오프로드 아키텍처를 결합하여 업계 최고 수준의 코어당 IOPS와 처리량을 제공합니다.\n\n이번 M4N 시리즈는 최대 26:1의 높은 메모리 대 vCPU 비율과 최대 6TB의 대용량 메모리를 지원합니다. Hyperdisk Extreme과 결합할 경우 기존 M4 인스턴스 대비 두 배인 최대 100만 IOPS와 25 GiB/s의 호스트 스토리지 성능을 구현합니다. 또한 400 Gbps의 VM 간 네트워크 대역폭을 통해 분산 데이터베이스 클러스터나 실시간 스트리밍 환경에서 강력한 성능을 발휘합니다.\n\n특히 Oracle 데이터베이스와 같은 엔터프라이즈 환경에서 M4N은 핵심적인 비용 절감 효과를 제공합니다. 기존에는 충분한 RAM 용량과 I/O 성능을 확보하기 위해 불필요하게 많은 vCPU를 할당해야 했으나, M4N은 높은 메모리 밀도를 통해 코어 기반의 소프트웨어 라이선스 비용을 줄임으로써 총소유비용을 20% 이상 절감할 수 있게 합니다.\n\nM4N은 SAP HANA, SQL Server, IBM DB2와 같은 미션 크리티컬 데이터베이스뿐만 아니라 Generative AI의 RAG 데이터 계층, 대규모 실시간 분석, 의료 및 ERP 시스템 등 고성능이 요구되는 다양한 워크로드에 최적화되어 있습니다. 고객은 작업 환경에 맞춰 메모리 대 vCPU 비율을 선택할 수 있으며, 현재 특정 리전에서 즉시 사용이 가능합니다.",
+    "url": "https://cloud.google.com/blog/products/compute/compute-engine-m4n-vms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Eduardo Mattos Duarte"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-16T16:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/telecommunications/how-orange-uses-agents-to-make-finops-everyones-responsibility/",
+    "title": "How Orange uses agents to make FinOps everyone's responsibility",
+    "summary": "At Orange, the leading France-based multinational telecom provider, there are days when engineering teams set aside their delivery backlogs and spend the day cleaning up cloud spend together. There's ",
+    "aiSummary": "프랑스의 다국적 통신 기업 Orange는 클라우드 비용 절감을 엔지니어링 조직의 공통 책임으로 정착시키기 위해 FinOps Clean Days와 같은 참여형 이벤트를 도입했습니다. 이는 업무 우선순위에서 밀리기 쉬운 최적화 작업을 게임화하고 협업을 유도하여 조직 내 높은 구성원 만족도와 실질적인 비용 절감 성과를 거두었습니다. Orange는 FinOps의 성공 요인으로 구성원의 이해와 동의, 공식적인 프로세스 구축, 리더의 모범 사례 공유, 기술적 역량 강화를 꼽았으며 이를 통해 조직 문화 변화를 이끌어냈습니다.\n\nOrange는 100명 이상의 커뮤니티가 달성한 이러한 성과를 수천 명의 엔지니어로 확장하기 위해 AI 에이전트 도입을 추진하고 있습니다. AI 에이전트는 사람이 수행하기 복잡하거나 반복적인 작업을 자동화하여 엔지니어의 인지 부하를 줄이고 업무 효율을 높이는 역할을 합니다. 비용 데이터를 실시간으로 전달하는 인사이트 에이전트, 수정 코드를 즉시 제안하는 리메디에이션 에이전트, 복잡한 보고 업무를 대행하는 오케스트레이션 에이전트 등이 그 예시입니다.\n\n성공적인 확장을 위해서는 우선 커뮤니티 문화를 먼저 조성하여 신뢰를 쌓은 뒤, 점진적으로 AI 에이전트를 도입하는 전략이 필요합니다. 처음에는 정보를 제공하는 읽기 전용 에이전트로 시작하여 팀의 신뢰를 얻고, 이후 실행 권한을 가진 에이전트로 점진적으로 확장하는 방식이 권장됩니다. 기업들은 Google Cloud의 Gemini Enterprise App이나 Gemini Enterprise Agent Platform 등을 활용하여 조직 내 특정 페인 포인트에 맞춘 에이전트를 구축함으로써 FinOps의 영향력을 극대화할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/telecommunications/how-orange-uses-agents-to-make-finops-everyones-responsibility/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Samuel Moss"
+      ],
+      "title": [
+        "AI Transformation and FinOps Consultant, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-16T16:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+    "title": "Code scanning AI Scan no longer requires CodeQL default setup",
+    "summary": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only…\nThe post Code scan",
+    "aiSummary": "GitHub의 AI Scan 기능이 이제 CodeQL default setup을 활성화하지 않은 저장소에서도 사용할 수 있도록 변경되었습니다. 이전에는 pull request에 대한 보안 취약점을 탐지하기 위해 반드시 CodeQL 기본 설정이 필요했으나, 이번 업데이트를 통해 이러한 제약 조건 없이도 AI 기반의 보안 검사 기능을 활용할 수 있게 되었습니다. 이를 통해 개발자는 별도의 복잡한 설정 과정 없이도 보다 간편하게 코드 내 잠재적 보안 위험을 파악하고 해결할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-16T13:26:06.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/reimagining-advertising-with-ai",
+    "title": "Reimagining advertising with AI",
+    "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    "aiSummary": "OpenAI가 AI 기술을 활용한 새로운 광고 경험을 제시하며 광고 생태계의 변화를 예고했습니다. \n\n주요 내용으로는 사용자의 목적을 수행하는 Sponsored Agents 도입과 마케터를 위한 전용 도구 개발이 포함됩니다. \n\n또한 HubSpot 및 Shopify와의 기술 통합을 통해 비즈니스 플랫폼 전반에서 AI 기반의 광고 솔루션을 효과적으로 활용할 수 있도록 지원할 예정입니다.",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-16T13:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/sep/16/executive-director-search-extended/",
+    "title": "Executive Director Search Extended to September 22",
+    "summary": "We are extending the search for the Django Software Foundation's first Executive Director. Applications now close at the end of Tuesday, September 22, 2026, anywhere on Earth (AoE). As long as it is s",
+    "aiSummary": "Django Software Foundation이 초대 Executive Director 채용 기한을 2026년 9월 22일로 연장합니다. 지원자들의 충분한 준비 시간을 보장하기 위한 결정이며, 기존 지원자들의 심사와 면접 일정은 변경 없이 진행됩니다.\n\n선발되는 Executive Director는 Django 커뮤니티의 지속 가능한 성장을 위한 중추적인 역할을 수행하게 됩니다. 주요 업무는 기금 조성과 파트너십 구축, 재단 운영 및 프로그램 지원, 그리고 관련 이해관계자들과의 협력입니다.\n\n지원 자격으로 Django나 Python에 대한 전문 지식은 필수 요건이 아닙니다. 대신 비영리 단체 리더로서의 경험과 함께 탁월한 기금 조성 능력, 리더십, 소통 및 조직 관리 역량을 중요하게 평가합니다. 오픈 소스나 커뮤니티 기반 조직 운영 경험이 있는 후보자를 환영하며, 채용과 관련한 상세 내용은 Django Software Foundation 공식 웹사이트에서 확인할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/sep/16/executive-director-search-extended/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jeff Triplett and the DSF Board",
+    "pubDate": "2026-09-16T12:50:40.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_139",
     "title": "Visual Studio Code 1.139 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders)\nRead the full article",
@@ -30,6 +223,84 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-32-0",
+    "title": "Mercure Broadcasting in Laravel 13.32",
+    "summary": "Laravel 13.32 adds a Mercure broadcast driver, Storage::copyToDisk() and moveToDisk(), enum support in queue pause/resume, and more.\nThe post Mercure Broadcasting in Laravel 13.32 appeared first on La",
+    "aiSummary": "Laravel 13.32 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Mercure 브로드캐스트 드라이버가 추가된 점입니다.\n\n또한 Storage 파사드에 copyToDisk와 moveToDisk 메서드가 새롭게 도입되어 파일 관리 기능이 강화되었습니다. 큐 작업의 일시 정지 및 재개 기능에는 enum 지원이 추가되었습니다. 이 외에도 다양한 개선 사항이 포함되어 개발 효율성을 높였습니다.",
+    "url": "https://laravel-news.com/laravel-13-32-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-09-16T02:44:52.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
+    "title": "Size-Specialized Memory Allocation",
+    "summary": "The Go Blog\nSize-Specialized Memory Allocation\nGo 1.27 includes faster memory allocation for allocations of fewer than 80 bytes.\nAllocations can be up to 20-30% faster, making allocation-heavy program",
+    "aiSummary": "Go 1.27 버전에서는 80바이트 이하의 메모리 할당 성능을 향상시키기 위해 크기별 특화 메모리 할당 기법인 Size-Specialized Memory Allocation을 도입합니다. 이 개선을 통해 메모리 할당 속도는 기존 대비 20에서 30퍼센트까지 빨라지며, 메모리 할당이 빈번한 프로그램의 경우 전체 실행 성능이 약 1퍼센트 향상되는 효과를 얻을 수 있습니다.\n\nGo 런타임의 기존 mallocgc 함수는 할당하려는 메모리 크기와 포인터 포함 여부를 바탕으로 범용적인 할당 작업을 수행합니다. 하지만 이번 업데이트에서는 Span class별로 특화된 mallocgc 변형 함수들을 생성하여 특정 크기의 할당 요청을 더욱 효율적으로 처리하도록 변경되었습니다. 80바이트 이하의 작은 객체들은 인터페이스, 문자열, 슬라이스 등 프로그램 내에서 매우 빈번하게 사용되므로, 이 구간에 대한 최적화가 전체 성능 개선의 핵심입니다.\n\n특화된 함수들은 컴파일 타임에 크기가 고정된 경우 직접 호출될 수 있으며, 동적 호출이 필요한 경우에도 오버헤드를 최소화하도록 설계되었습니다. 또한 메모리 초기화 과정에서 memclrNoHeapPointers 대신 상수 크기에 최적화된 직접적인 인라인 코드를 사용하고, 불필요한 분기 처리를 제거하여 성능을 극대화했습니다.\n\n이 과정에서 발생할 수 있는 명령어 캐시(instruction cache) 오염 문제와 코드 크기 증가를 방지하기 위해 80바이트를 최적의 임계점으로 설정했습니다. 코드 유지보수의 복잡성을 줄이기 위해 표준 라이브러리의 go/ast 등을 활용한 별도의 코드 생성기를 도입하여 특화된 함수들을 자동으로 생성하고 관리합니다. 사용자는 별도의 코드 수정 없이 Go 1.27로 빌드하기만 하면 이러한 성능 향상을 누릴 수 있으며, 문제가 발생할 경우 GOEXPERIMENT=nosizespecializedmalloc 옵션을 통해 해당 기능을 비활성화할 수 있습니다.",
+    "url": "https://go.dev/blog/size-specialized-allocations",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Michael Matloob",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/16/java-27-launch/",
+    "title": "Java 27 Launch Stream",
+    "summary": "On September 15 we celebrated the release of Java 27! We covered what’s coming in JDK 27—from key enhancements and platform changes to the latest developments at the intersection of Java and AI. Speci",
+    "aiSummary": "9월 15일 Java 27의 출시를 기념하는 라이브 스트림 행사가 진행되었습니다. 이번 행사에서는 JDK 27의 주요 개선 사항과 플랫폼 변경 점들을 다루었으며 특히 Java와 AI 기술이 결합하는 최신 개발 동향에 대해 집중적으로 조명했습니다.\n\nJDK 팀 소속 관계자와 Java 커뮤니티 전문가들이 특별 게스트로 참여하여 그동안의 작업 성과를 공유하고 JDK 27에서 기대되는 발전 방향과 향후 로드맵에 대한 심도 있는 논의를 이어갔습니다.",
+    "url": "https://inside.java/2026/09/16/java-27-launch/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Inside Java",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/cisa-logging-omb-m-26-14",
+    "title": "CISA's Logging Reference Architecture for OMB M-26-14: What federal agencies should do next ",
+    "summary": "Now that CISA has released its Logging Reference Architecture (LRA) for OMB M-26-14, federal agencies tasked to complete their logging plans. In this blog, we walk you through the most important aspec",
+    "aiSummary": "CISA가 OMB M-26-14 지침을 준수하기 위한 Logging Reference Architecture 즉 LRA를 공식적으로 발표하였습니다. 이에 따라 각 연방 기관은 해당 가이드라인을 바탕으로 보안 기록 관리 계획을 조속히 수립하고 이행해야 하는 상황입니다. 이번에 공개된 LRA는 기관들이 로그 데이터를 체계적으로 수집하고 관리하며 분석할 수 있도록 돕는 핵심 지침을 담고 있습니다. 각 기관은 제시된 표준 아키텍처를 면밀히 검토하여 자사의 보안 체계를 점검하고 실질적인 이행 전략을 마련해야 합니다.",
+    "url": "https://www.elastic.co/blog/cisa-logging-omb-m-26-14",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Woody Walton",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga",
+    "title": "Elastic announces GA of cross-project search on Serverless, enabling teams to query across all linked projects without moving a byte",
+    "summary": "Cross-project search is now GA on Elastic Cloud Serverless. Link multiple projects and query all of them from a single Discover or ES|QL session: no certificates, no remote cluster config, and three c",
+    "aiSummary": "Elastic이 Elastic Cloud Serverless에서 Cross-project search 기능을 정식 출시했습니다.\n\n이번 업데이트를 통해 사용자는 여러 프로젝트를 연결하여 단일 Discover 또는 ES|QL 세션에서 데이터를 통합적으로 검색할 수 있습니다. 별도의 인증서 설정이나 원격 클러스터 구성이 필요 없으며 세 번의 클릭만으로 간단히 설정을 마칠 수 있어 데이터 이동 없이 효율적인 쿼리 수행이 가능합니다. 해당 기능은 2026년 9월 1일부터 이용할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jordi Mon Companys,Lucy Wang",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -367,6 +638,22 @@
     "tags": [
       "Django",
       "Python"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/whats-new-in-apollo-client-4-3",
+    "title": "What’s New in Apollo Client 4.3",
+    "summary": "We’re excited to announce the release of Apollo Client 4.3. This release brings TypeScript improvements that make working with your cache and incremental data safer, as well as support for our most re",
+    "aiSummary": "Apollo Client 4.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 TypeScript 개선 사항과 더불어 사용자들의 요청이 가장 많았던 커스텀 스칼라 지원을 핵심으로 합니다.\n\nTypeScript 개선 분야에서는 캐시 타입의 안전성이 강화되었습니다. 이제 개발자는 ApolloCache 인터페이스를 넘어 자신이 사용하는 구체적인 캐시 타입을 직접 명시할 수 있어, 타입 캐스팅 없이도 캐시 인스턴스에 최적화된 API를 직접 사용할 수 있습니다. 또한 GraphQL Codegen을 통해 생성된 증분 타입이 개선되어, @defer 사용 시 데이터가 완성되지 않은 상태를 타입 시스템에서 더욱 명확하게 처리할 수 있게 되었습니다.\n\n가장 중요한 업데이트인 커스텀 스칼라 기능은 JSON으로 직렬화된 값을 네이티브 객체로 더 쉽게 변환할 수 있는 표준화된 방법을 제공합니다. 개발자는 Scalar 클래스를 사용하여 파싱 및 직렬화 로직을 중앙에서 관리할 수 있으며, 이를 통해 변수 전달이나 캐시 쓰기 작업 등에서 편리하게 파싱된 객체 타입을 활용할 수 있습니다. 특히 @apollo/client-graphql-codegen 패키지의 새 플러그인을 활용하면 복잡한 입력을 자동으로 처리할 수 있어 수동 설정의 번거로움이 줄어들었습니다.\n\n기술적 내부 구조 측면에서는 @defer 및 @stream 지시어와의 통합을 위해 데이터 프루닝 기능이 도입되었습니다. 이를 통해 서버에서 데이터가 완전히 전달되기 전까지는 불완전한 데이터를 캐시 값으로 채우지 않도록 제어함으로써, 네트워크 응답 상태와 더 일관성 있는 데이터 흐름을 보장합니다. 또한 캐시 페드 상황에서 발생하는 파싱 값 누락 문제를 해결하여 전체적인 안정성을 높였습니다. 4.3 버전은 사용자가 직접 작성하는 코드는 줄이면서도 더 엄격한 타입 안정성과 예측 가능한 데이터 상태를 제공하는 데 초점을 맞추었습니다.",
+    "url": "https://www.apollographql.com/blog/whats-new-in-apollo-client-4-3",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Jerel Miller",
+    "pubDate": "2026-09-15T12:01:05.000Z",
+    "fetchedAt": "2026-09-16T18:56:28.537Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
     ]
   },
   {
