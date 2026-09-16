@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
+    "title": "Enforce GitHub Advanced Security configurations",
+    "summary": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings def",
+    "aiSummary": "GitHub Enterprise 관리자는 이제 조직 전체에 걸쳐 GitHub Advanced Security 설정을 강제로 적용할 수 있게 되었습니다.\n\n이번 업데이트를 통해 엔터프라이즈 수준에서 정의된 보안 설정은 조직이나 리포지토리 관리자가 임의로 변경하거나 무력화할 수 없습니다.\n\n이러한 정책 강제 기능은 기업 환경에서 보안 표준을 일관되게 유지하고 관리 권한 남용을 방지하여 전사적인 보안 거버넌스를 강화하는 데 기여합니다.",
+    "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-15T19:31:58.000Z",
+    "fetchedAt": "2026-09-16T01:29:02.700Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+    "title": "GitHub Copilot suggests custom properties definitions",
+    "summary": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot…\nThe po",
+    "aiSummary": "GitHub Copilot이 조직 내 리포지토리의 사용자 정의 속성을 생성할 때 허용되는 값을 자동으로 제안하는 기능을 새롭게 도입합니다. 이 기능은 현재 GitHub Copilot Business 및 GitHub Copilot Enterprise 사용자를 대상으로 공개 미리보기 형태로 제공됩니다. 이를 통해 개발자는 리포지토리 관리 과정에서 속성 정의를 더욱 효율적이고 정확하게 설정할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-15T19:07:47.000Z",
+    "fetchedAt": "2026-09-16T01:29:02.700Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+    "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
+    "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers\nfeature has graduated to Beta status (disabled by default)!\nFirst introduced as an Alpha feature in\nKubernetes v1.36,\nthis enhance",
+    "aiSummary": "Kubernetes v1.37 업데이트를 통해 Pod-Level Resource Managers 기능이 베타 단계로 격상되었습니다. 이 기능은 Kubelet의 Topology Manager, CPU Manager, Memory Manager가 컨테이너 단위가 아닌 Pod 수준의 리소스 선언을 직접 사용하여 하드웨어 배치 결정을 내릴 수 있도록 개선합니다.\n\n기존에는 지연 시간에 민감한 애플리케이션을 위해 NUMA 정렬 리소스를 할당하려면 Pod 내 모든 컨테이너에 대해 개별적인 리소스 요청이 필요했으나, 이 방식은 사이드카 컨테이너에 불필요한 리소스가 낭비되는 문제가 있었습니다. 이번 업데이트를 통해 주요 애플리케이션 컨테이너에는 전용 NUMA 정렬 리소스를 할당하고, 보조 컨테이너는 Pod 격리 공유 풀에서 동작하게 하여 하이브리드 할당 모델을 구현할 수 있게 되었습니다.\n\n베타 버전에서는 PodLevelResourceManagers 기능 게이트를 통해 선택적으로 사용이 가능하며, PodResources gRPC 서비스를 통해 Pod 수준의 독점 할당 정보를 조회할 수 있는 기능이 추가되었습니다. 이를 통해 모니터링 도구와 디바이스 플러그인은 컨테이너 할당을 중복 계산하지 않고도 정확한 리소스 사용 현황을 파악할 수 있게 되었습니다.",
+    "url": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-15T18:30:00.000Z",
+    "fetchedAt": "2026-09-16T01:29:02.700Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/",
     "title": "Introducing new session management tools with native, granular controls",
     "summary": "Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate cre",
@@ -369,6 +417,38 @@
     "fetchedAt": "2026-09-15T12:44:50.316Z",
     "tags": [
       "Ruby"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/15/this-week-in-spring-september-15th-2026",
+    "title": "This Week in Spring - September 15th, 2026",
+    "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring! I'm writing this to you from sun-kissed San Francisco, CA, sipping some coffee and watching the bay from my breakfas",
+    "aiSummary": "Oracle의 Ron Pressler가 Java의 메모리 관리 원칙을 설명하는 영상이 공유되었으며, Craig Walls는 Spring AI를 활용한 챗 메모리 요약 방법을 소개하였습니다.\n\nJavaFX 애플리케이션의 보안을 위해 Spring Security와 OAuth 2.0을 적용하는 튜토리얼이 JFX-central에 공개되었고, OAuth 2.1과 Spring Authorization Server를 이용한 최신 애플리케이션 보안 전략에 대한 기술 블로그도 주목받고 있습니다.\n\nAI 분야에서는 Spring Boot와 Gemini를 결합한 영상 이해 기술과 더불어, Java 기반의 AI 워크로드 성능을 높여줄 새로운 라이브러리인 Quixotic.ai가 소개되었습니다.\n\nA Bootiful Podcast에서는 Netflix의 Paul Bakker가 출연하여 Java와 Spring을 활용한 시스템 확장 경험을 공유하였습니다.\n\n개발 도구 측면에서는 새로운 Spring Batch IntelliJ IDEA 플러그인이 출시되었으며, Spring Batch를 사용하여 대규모 데이터를 효율적으로 처리하고 확장하는 방법과 IntelliJ에서 Spring Boot 애플리케이션을 디버깅하는 최적의 방법들이 제시되었습니다.",
+    "url": "https://spring.io/blog/2026/09/15/this-week-in-spring-september-15th-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T01:29:02.700Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-4-7-released",
+    "title": "Elastic Stack 9.4.7 released",
+    "summary": "Version 9.4.7 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.7 over the previous versions 9.4.6\nFor details of the issues that have been fix",
+    "aiSummary": "Elastic Stack 9.4.7 버전이 새롭게 출시되었습니다. 이전 버전인 9.4.6보다 안정성이 개선된 최신 버전이므로 사용자들에게 업그레이드를 권장합니다. 수정된 문제나 제품별 변경 사항에 대한 구체적인 정보는 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-4-7-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "adrian brown",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T01:29:02.700Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
