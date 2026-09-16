@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_139",
+    "title": "Visual Studio Code 1.139 (Insiders)",
+    "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.139 Insiders 버전이 공개되었습니다. 해당 업데이트를 통해 추가된 새로운 기능과 개선 사항은 공식 블로그의 상세 기사를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_139",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-09-16T12:39:38.792Z",
+    "fetchedAt": "2026-09-16T12:39:38.792Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.4",
+    "title": "1.2.4",
+    "summary": "Added a /skills reload subcommand to asynchronously reload discovered skills and slash commands without restarting the session or blocking user input.\nAdded an inline argument autocomplete dropdown wh",
+    "aiSummary": "기능 개선 사항으로 세션을 재시작하거나 사용자 입력을 차단하지 않고도 발견된 Skills와 Slash commands를 비동기식으로 새로 고칠 수 있는 /skills reload 하위 명령어가 추가되었습니다. /model 명령어를 입력할 때 인라인 인수 자동 완성 드롭다운이 제공되며 대화형 /model 선택기 내에 라이브 퍼지 검색 바가 추가되어 이름이나 ID로 모델을 필터링할 수 있습니다. OAuth 토큰에 필요한 권한 범위가 부족할 경우 /logout 및 /login을 실행하라는 명확한 지침을 포함하도록 인증 오류 메시지가 개선되었습니다.\n\n버그 수정 사항으로 Gemini thinking 모델 사용 시 이전 대화가 다른 모델로 생성된 경우 발생하는 thought_signature 유효성 검사 오류가 해결되었습니다. 요약 모델이 선행 사고 부분을 출력할 때 search_web 기능에서 발생하는 요약 오류가 수정되었으며 도구 호출이 스키마 유효성 검사에 실패할 경우 에이전트 루프가 이를 인지하고 자체적으로 수정할 수 있도록 개선되었습니다. MCP 도구 스키마 보강 시 도구 정의가 임의로 변경되던 문제가 해결되어 인수 유효성 검사 오류를 방지합니다.\n\n그 외에도 customization 토큰 예산이 활성화된 상태에서 hooks.json 구성이 누락되거나 하위 에이전트의 스킬 필터 설정이 해제되던 문제 등이 수정되었습니다. 또한 하위 에이전트 상태 추적, 재시작 후 자동 재개 기능, transcript.jsonl 로그 기록 누락 문제 등이 조치되었습니다. 마지막으로 Apple_Terminal에서 SSH 연결 시 지원되지 않는 OSC 8 하이퍼링크 시퀀스가 노출되는 문제를 방지하기 위해 해당 기능을 비활성화하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.4",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-16T03:54:35.000Z",
+    "fetchedAt": "2026-09-16T12:39:38.792Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/16/jdk27-security-enhancements/",
+    "title": "JDK 27 Security Enhancements",
+    "summary": "JDK 27 was released on September 15, 2026! As with my previous blogs, I have compiled a list of what I think are the most interesting and useful security enhancements in this release. I have also grou",
+    "aiSummary": "2026년 9월 15일에 출시된 JDK 27은 다양한 보안 기능 강화를 포함하고 있습니다. 주요 변경 사항은 암호화와 TLS를 비롯한 여러 카테고리로 분류되어 있으며, 이를 통해 개발자가 각 영역의 기술적 변화를 더욱 명확하게 파악할 수 있도록 돕습니다. 구체적인 보안 강화 항목 및 추가 세부 정보는 Sean J. Mullan의 공식 블로그 게시물을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/09/16/jdk27-security-enhancements/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Sean Mullan",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T12:39:38.792Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgassistant-380-continuous-improvement-loop-for-postgres-3378/",
+    "title": "pgAssistant 3.8.0 : continuous improvement loop for Postgres\n",
+    "summary": "With this release, pgAssistant is evolving beyond PostgreSQL analysis and tuning to become a continuous PostgreSQL improvement platform.\nThe new positioning is built around a continuous improvement lo",
+    "aiSummary": "pgAssistant 3.8.0 버전은 단순한 PostgreSQL 분석 및 튜닝 도구를 넘어 지속적인 개선 플랫폼으로 진화했습니다. 이번 업데이트는 관찰, 진단, 우선순위 지정, 계획, 구현, 재수집, 측정으로 이어지는 순환 구조를 통해 데이터베이스 운영의 체계적인 개선을 지원합니다.\n\n버전 3.8.0은 pgAssistant Collector와 결합하여 과거의 워크로드와 환경 측정 데이터를 제공합니다. 이를 통해 무엇을 개선해야 하는지, 어떤 결정을 내렸는지, 실제로 무엇이 변경되었는지, 그리고 그 결과는 어떠했는지에 대한 답변을 명확히 제시합니다.\n\n새롭게 추가된 Workload Insights 기능은 연속적인 데이터 수집 결과를 비교하여 추천 사항의 변화, PostgreSQL 설정 변경, 워크로드 추이, 실행 시간 및 호출량의 변화 등을 상세히 분석합니다. 특히 전체 워크로드에 큰 영향을 미치는 쿼리를 식별하여 관리자가 개선 사항과 실제 성능 변화 사이의 상관관계를 쉽게 파악할 수 있도록 돕습니다.\n\npgAssistant는 실시간 모니터링을 대체하는 도구가 아니라 다음 개선 작업을 결정하고 업무를 조직화하며 결과적인 성능 변화를 측정하는 데 중점을 둡니다. 이러한 접근 방식은 데이터베이스 관리 및 최적화 과정을 추상적인 작업에서 측정 가능한 증거 기반의 프로세스로 전환합니다.",
+    "url": "https://www.postgresql.org/about/news/pgassistant-380-continuous-improvement-loop-for-postgres-3378/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-16T12:39:38.792Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
     "title": "Enforce GitHub Advanced Security configurations",
     "summary": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings def",
