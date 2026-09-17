@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://www.percona.com/?p=53589",
+    "title": "Group Replication Beyond a Single Cluster: DC-DR with Percona (PS MySQL) Operator",
+    "summary": "A while ago, we discussed the cross-site replication feature of the Percona PXC operator. Recently, a similar cross-site replication feature was introduced in the Percona (PS MySQL) operator v1.2.0, a",
+    "aiSummary": "Percona Operator for MySQL v1.2.0 버전이 새롭게 출시되면서 Group Replication 및 InnoDB Cluster 기반의 토폴로지를 활용한 데이터 센터 간 복제 기능을 지원하게 되었습니다.\n\n이번 업데이트를 통해 기존에 운영 중인 DC Cluster에 DR Cluster를 추가하여 원거리 재해 복구 환경을 구축하는 방법이 가능해졌습니다. 이는 단일 클러스터를 넘어선 안정적인 데이터 관리와 가용성 확보를 목적으로 합니다.\n\n해당 기술 문서는 기존 PXC Operator에서 제공하던 교차 사이트 복제 기능의 확장판으로, MySQL 환경에서의 데이터 보호 전략을 한층 강화하는 구체적인 설정과 운영 방안을 다루고 있습니다.",
+    "url": "https://www.percona.com/blog/group-replication-beyond-a-single-cluster-dc-dr-with-percona-ps-mysql-operator/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Anil Joshi",
+    "pubDate": "2026-09-17T06:43:32.000Z",
+    "fetchedAt": "2026-09-17T12:38:38.227Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.5",
+    "title": "1.2.5",
+    "summary": "Added automatic subagent guidance for custom agents defined in Markdown: agents that list invoke_subagent in their tools now receive the roster of available subagents and usage instructions in their s",
+    "aiSummary": "Markdown으로 정의된 커스텀 에이전트가 invoke_subagent를 도구로 등록할 경우, 시스템 프롬프트에 사용 가능한 서브 에이전트 목록과 지침을 자동으로 제공하여 위임 기능을 강화했습니다.\n\n백그라운드 작업의 이름 관리 방식을 개선하여 작업 완료 알림 및 목록에서 자동 생성된 이름 대신 사용자가 지정한 고유 이름을 정확히 표시하도록 변경했습니다.\n\n로그인 서버에서 자격 증명이 확실히 거부될 경우, 기존의 만료된 토큰을 즉시 삭제하고 로그아웃 처리하여 사용자가 다시 정상적으로 로그인할 수 있도록 인증 시스템을 개선했습니다. 일시적인 네트워크 오류나 서버 문제로 인해 세션이 해제되는 현상은 방지했습니다.\n\n외부 신호로 인해 강제 종료된 명령어가 성공적으로 수행된 것으로 기록되던 문제를 해결하여, 이제는 취소된 상태로 처리되면서 종료 직전까지의 출력 내용을 유지하도록 수정했습니다.\n\n터미널에서 Esc 키를 눌렀을 때만 나타나던 중단 알림을 원격 세션 종료 등 모든 취소 상황에서 확인할 수 있도록 개선했습니다.\n\n아티팩트 뷰어에서 터미널 크기 변경 시 마크다운 텍스트가 원래 너비에 고정되어 있던 문제를 해결하여 창 크기에 맞춰 텍스트가 재배치되도록 했습니다.\n\n대화 기록에서 Thinking 프레임이 세션 로드나 터미널 크기 조절 이후에도 갱신되지 않고 멈춰 있던 현상을 수정했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.5",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-17T04:10:13.000Z",
+    "fetchedAt": "2026-09-17T12:38:38.227Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/australia-parliamentary-ai-showcase",
     "title": "Australia's AI opportunity starts with data",
     "summary": "Elastic, a Founding Partner at Australia's first Parliamentary AI Industry Showcase, highlights that data, not just models, is the key to deploying safe, effective, and trusted AI.",
