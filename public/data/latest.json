@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=ktor&p=740808",
+    "title": "Ktor 3.6.0 Is Now Available!",
+    "summary": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. ",
+    "aiSummary": "Ktor 3.6.0 버전이 새롭게 출시되었습니다. 이번 업데이트에는 OpenID Connect를 위한 특화된 지원이 포함된 타입 기반 인증 기능과 Netty 엔진에서의 HTTP/3 지원 등 다양한 실험적 기능이 추가되었습니다.\n\n또한 라우팅 및 요청 처리를 개선하여 개발 편의성을 높였으며, Kotlin Multiplatform 클라이언트를 위한 기본 설정이 더욱 편리하게 조정되었습니다. 전반적인 품질 개선을 통해 개발자 경험을 향상시킨 이번 릴리스의 세부 사항은 공식 업데이트 페이지에서 확인할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Simon Vergauwen",
+    "pubDate": "2026-09-18T10:45:56.000Z",
+    "fetchedAt": "2026-09-18T12:16:50.696Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.6",
+    "title": "1.2.6",
+    "summary": "Added Remote Control (start a connection via --remote-control startup flag or /remote-control slash command) to create a session-scoped remote connection for following and controlling your active term",
+    "aiSummary": "이번 1.2.6 업데이트에서는 원격 기기에서 터미널 세션을 제어할 수 있는 Remote Control 기능이 새롭게 추가되었습니다. 해당 기능은 --remote-control 플래그나 /remote-control 명령어로 시작하며 세션 종료 시 자동으로 연결이 해제됩니다.\n\n헤드리스 모드인 -p 또는 --prompt 실행 시 기본 타임아웃이 무제한으로 변경되어 긴 작업도 완료될 때까지 지속되며, GEMINI_API_KEY 세션의 데몬 백그라운드 명령어가 지원됩니다. 또한 에이전트나 모델 API 오류 발생 시 구조화된 JSON 형식의 AGY_ERROR 메시지를 출력하고 종료 코드를 3으로 설정하여 오류 파악이 더욱 용이해졌습니다.\n\n입력 편집기 내 커서 이동 및 단어 삭제 기능이 개선되어 공백뿐만 아니라 문장 부호 경계에서도 멈추도록 수정되었습니다. 이외에도 Remote Control 세션의 권한 관리, 아티팩트 렌더링 오류, 텍스트 선택 영역 캡처 문제 등이 해결되었습니다.\n\n진행 중인 작업 중에 모델을 변경할 경우 큐에 대기 중인 프롬프트부터 적용되도록 수정되어 안정성이 높아졌습니다. 또한 1MiB 이상의 대규모 diff 작업이 발생할 경우 세션이 초기화되지 않도록 기록 방식을 개선하였으며, /rewind 명령어 사용 시 발생하는 스냅샷 덮어쓰기 문제도 수정하여 데이터 보존을 강화했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.6",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-18T04:21:11.000Z",
+    "fetchedAt": "2026-09-18T12:16:50.696Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
     "title": "Copilot impact dashboard now shows feature engagement",
     "summary": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more…",
@@ -1669,70 +1702,6 @@
     "tags": [
       "Swift",
       "Apple"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/",
-    "title": "3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference",
-    "summary": "On Tuesday, September 8, Thomas Kurian participated in the Goldman Sachs Tech Conference, providing an update on Google Cloud’s business and strategy. Here are the highlights:\n\nFull Stack Approach: Go",
-    "aiSummary": "Thomas Kurian은 Goldman Sachs Communicopia & Technology Conference에 참석하여 Google Cloud의 전반적인 전략과 비즈니스 성과를 공유하였습니다.\n\nGoogle Cloud는 하드웨어부터 소프트웨어에 이르는 전체 AI 스택을 제공하는 유일한 클라우드 사업자로서 차별화된 성능과 비용 효율성을 확보하고 있습니다. 현재 10억 달러 이상의 매출을 기록하는 17개의 제품 라인을 보유하고 있으며 1억 달러에서 10억 달러 규모의 대형 계약 건수와 가치가 전년 대비 두 배 이상 증가하는 등 가파른 성장세를 보이고 있습니다.\n\n자체 AI 인프라의 경우 높은 비용 효율성과 성능을 바탕으로 GPU 대비 TPU의 빠른 투자 회수 기간을 달성하고 있습니다. 특히 대부분의 AI 인프라 계약은 5년 장기 계약을 기반으로 안정적인 수익 구조를 형성하고 있습니다.\n\nGemini Enterprise를 비롯한 광범위한 AI 솔루션에 대한 고객 채택도 활발하게 이루어지고 있습니다. Google Cloud의 AI 제품을 사용하는 고객은 그렇지 않은 고객보다 1.8배 더 많은 제품을 이용하는 경향을 보이고 있으며 이는 플랫폼 내 제품 생태계 확장에 기여하고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Cloud Content & Editorial "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-11T09:00:00.000Z",
-    "fetchedAt": "2026-09-12T01:15:16.636Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-09-11-1",
-    "title": "Dutch PHP Conference 2027",
-    "summary": "🚀 Dutch PHP Conference 2027 is coming! 🚀\nWe’re thrilled to announce that the 21st edition of the Dutch PHP Conference will take place from March 16 to March 19, 2027 in Amsterdam! 🗓️\n🎤 Call for Pa",
-    "aiSummary": "제21회 Dutch PHP Conference가 2027년 3월 16일부터 19일까지 암스테르담에서 개최됩니다. 이번 행사는 기술 및 비기술 분야의 발표자를 모집하는 Call for Papers를 12월 18일까지 진행합니다.\n\n올해는 2일 구성의 표준 티켓과 4일 구성의 올 액세스 패스를 제공하며 티켓 구매자는 Webdevcon, Appdevcon, Dutch AI Conference 등과 같은 연계 행사에 참여할 수 있는 혜택을 누릴 수 있습니다. 현재 얼리버드 티켓 예매가 가능하며 워크숍과 다양한 세션을 포함한 풍성한 프로그램이 준비될 예정입니다.",
-    "url": "https://www.php.net/conferences/index.php#2026-09-11-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-09-11T07:54:45.000Z",
-    "fetchedAt": "2026-09-14T14:15:11.740Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.2.1",
-    "title": "1.2.1",
-    "summary": "Added support for excludeDefaultComponents: true in custom agent Markdown frontmatter, allowing custom agents to opt out of default prompt sections and built-in tools while preserving post-invocation ",
-    "aiSummary": "버전 1.2.1 업데이트를 통해 커스텀 에이전트의 Markdown 프론트매터에서 excludeDefaultComponents 설정을 지원하여 기본 프롬프트 섹션과 내장 도구를 제외하고 사후 호출 훅만 유지하는 기능을 추가했습니다.\n\ngenai.APIError 발생 시 502, 503, 504 오류 및 429 속도 제한, 스트리밍 중단 등에 대해 지수 백오프를 적용한 자동 재시도 기능을 구현하여 안정성을 높였으며, 복구 불가능한 오류는 사용자에게 명확한 메시지로 안내합니다.\n\nMCP 및 제공자 도구의 스키마 유효성 검사 로직을 개선하여 열린 객체 스키마를 유지하도록 변경했습니다. 또한 대규모 대화 기록을 열 때의 응답 속도를 개선하고 메모리 사용량을 최적화했습니다.\n\n--continue 명령어 사용 시 하위 디렉토리나 비정상 종료 이후 새로운 대화가 시작되던 문제를 수정하여 가장 최근의 대화 세션을 정상적으로 불러오도록 개선했습니다. \n\n이 외에도 인라인 모드에서 발생하는 화면 깜빡임 현상, 원격 세션의 인증 상태 표시 오류, 샌드박스 상태 보고 오류, 아티팩트 뷰어의 이미지 확대 단축키 및 인터페이스 관련 버그들을 해결했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.1",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-09-11T06:46:55.000Z",
-    "fetchedAt": "2026-09-11T12:15:29.018Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

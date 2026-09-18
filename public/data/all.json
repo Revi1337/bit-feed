@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=ktor&p=740808",
+    "title": "Ktor 3.6.0 Is Now Available!",
+    "summary": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. ",
+    "aiSummary": "Ktor 3.6.0 버전이 새롭게 출시되었습니다. 이번 업데이트에는 OpenID Connect를 위한 특화된 지원이 포함된 타입 기반 인증 기능과 Netty 엔진에서의 HTTP/3 지원 등 다양한 실험적 기능이 추가되었습니다.\n\n또한 라우팅 및 요청 처리를 개선하여 개발 편의성을 높였으며, Kotlin Multiplatform 클라이언트를 위한 기본 설정이 더욱 편리하게 조정되었습니다. 전반적인 품질 개선을 통해 개발자 경험을 향상시킨 이번 릴리스의 세부 사항은 공식 업데이트 페이지에서 확인할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Simon Vergauwen",
+    "pubDate": "2026-09-18T10:45:56.000Z",
+    "fetchedAt": "2026-09-18T12:16:50.696Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.6",
+    "title": "1.2.6",
+    "summary": "Added Remote Control (start a connection via --remote-control startup flag or /remote-control slash command) to create a session-scoped remote connection for following and controlling your active term",
+    "aiSummary": "이번 1.2.6 업데이트에서는 원격 기기에서 터미널 세션을 제어할 수 있는 Remote Control 기능이 새롭게 추가되었습니다. 해당 기능은 --remote-control 플래그나 /remote-control 명령어로 시작하며 세션 종료 시 자동으로 연결이 해제됩니다.\n\n헤드리스 모드인 -p 또는 --prompt 실행 시 기본 타임아웃이 무제한으로 변경되어 긴 작업도 완료될 때까지 지속되며, GEMINI_API_KEY 세션의 데몬 백그라운드 명령어가 지원됩니다. 또한 에이전트나 모델 API 오류 발생 시 구조화된 JSON 형식의 AGY_ERROR 메시지를 출력하고 종료 코드를 3으로 설정하여 오류 파악이 더욱 용이해졌습니다.\n\n입력 편집기 내 커서 이동 및 단어 삭제 기능이 개선되어 공백뿐만 아니라 문장 부호 경계에서도 멈추도록 수정되었습니다. 이외에도 Remote Control 세션의 권한 관리, 아티팩트 렌더링 오류, 텍스트 선택 영역 캡처 문제 등이 해결되었습니다.\n\n진행 중인 작업 중에 모델을 변경할 경우 큐에 대기 중인 프롬프트부터 적용되도록 수정되어 안정성이 높아졌습니다. 또한 1MiB 이상의 대규모 diff 작업이 발생할 경우 세션이 초기화되지 않도록 기록 방식을 개선하였으며, /rewind 명령어 사용 시 발생하는 스냅샷 덮어쓰기 문제도 수정하여 데이터 보존을 강화했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.6",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-18T04:21:11.000Z",
+    "fetchedAt": "2026-09-18T12:16:50.696Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
     "title": "Copilot impact dashboard now shows feature engagement",
     "summary": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more…",
