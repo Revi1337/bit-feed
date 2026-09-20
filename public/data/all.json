@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/09/20/jep401-target-jdk28/",
+    "title": "JEP targeted to JDK 28: 401: Value Objects (Preview)",
+    "summary": "The following JEP is targeted to JDK 28: 401: Value Objects (Preview)\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/401.",
+    "aiSummary": "JDK 28의 주요 기능으로 JEP 401인 Value Objects가 프리뷰 형태로 도입됩니다.\n\n이 기능은 Java 언어에 값 객체 개념을 도입하여 메모리 효율성과 성능을 최적화하는 것을 목표로 합니다. 객체의 식별자가 아닌 상태에 집중하는 새로운 타입 모델을 통해 개발자는 더욱 효율적인 프로그래밍 구조를 설계할 수 있게 됩니다.",
+    "url": "https://inside.java/2026/09/20/jep401-target-jdk28/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Dan Smith",
+    "pubDate": "2026-09-20T00:00:00.000Z",
+    "fetchedAt": "2026-09-20T18:13:48.476Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.7",
     "title": "1.2.7",
     "summary": "Added inline Kitty graphics rendering for LaTeX math equations ($$...$$ and fenced math, latex, and tex blocks) and Mermaid flowcharts and sequence diagrams in the artifact detail viewer, with Unicode",
