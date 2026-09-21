@@ -1,5 +1,101 @@
 [
   {
+    "id": "https://www.percona.com/?p=53766",
+    "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
+    "summary": "TL;DR Percona Server for MySQL 9.7.2-2 now supports DISTANCE() for vector similarity scoring directly in SQL (COSINE, EUCLIDEAN, MANHATTAN, DOT metrics). This is the compute primitive you need to rank",
+    "aiSummary": "Percona Server for MySQL 9.7.2-2 버전이 새롭게 DISTANCE() 및 VECTOR_DISTANCE() 함수를 지원합니다. 이를 통해 SQL 내에서 직접 COSINE, EUCLIDEAN, MANHATTAN, DOT 메트릭을 사용하여 벡터 유사도 점수를 계산할 수 있습니다.\n\n이번 업데이트는 데이터베이스 차원에서 임베딩 데이터를 직접 필터링하거나 순위를 매기는 데 필요한 핵심 연산을 제공합니다. 향후 대규모 유사도 검색을 위한 HNSW나 IVF와 같은 ANN 인덱싱 기능이 추가될 예정이며, 이번 업데이트는 그 기반이 되는 기술적 토대를 마련한 것입니다.",
+    "url": "https://www.percona.com/blog/vector-distance-vector-similarity-search-in-percona-server-for-mysql/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Catalin Besleaga",
+    "pubDate": "2026-09-21T09:57:06.000Z",
+    "fetchedAt": "2026-09-21T14:21:07.022Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.0.4",
+    "title": "v12.0.4",
+    "summary": "v12.0.4 (2026-09-21)\nBug fixes\nmicroservices\n\n#17816 fix(microservices): let the kafka client retry after a failed connect (@Xch4rt)\n#17786 fix(microservices): fail pending rmq requests on client clos",
+    "aiSummary": "v12.0.4 버전은 주로 microservices 관련 버그 수정에 집중하여 배포되었습니다. Kafka 클라이언트의 연결 실패 시 재시도 로직이 추가되었고, 클라이언트 종료 시 대기 중인 RMQ 및 NATS 요청이 실패 처리되도록 변경되었습니다. 또한 gRPC 패키지 네임스페이스 누락 시의 예외 처리와 request-response span의 중복 종료 방지, 메시지 핸들러 거절 사항의 handleError 라우팅 등이 개선되었습니다.\n\ncore 영역에서는 sparse factory에서 배열 주입 시 발생하는 hang 문제를 해결하였습니다. \n\n그 외의 기능 개선으로 platform-express에서 multer limits 설정을 덮어쓰지 않고 키별로 병합하도록 변경하였으며, common 영역에서는 ParseDatePipe 옵션을 선택 사항으로 수정하였습니다. 아울러 file-type을 v22.1.1로, fastify를 v5.12.5로 업데이트하는 등 의존성 관리가 이루어졌습니다. 본 릴리스에는 총 10명의 기여자가 참여하였습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.0.4",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-09-21T08:03:41.000Z",
+    "fetchedAt": "2026-09-21T14:21:07.022Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/21/jit-for-java-performance/",
+    "title": "Just-In-Time Compilation for Java Performance: Recent and Ongoing Improvements",
+    "summary": "Just-in-time (JIT) compilation within the JVM is essential to Java's performance and plays a central role in ongoing OpenJDK projects such as Valhalla, Leyden, and Panama. JIT compilation is constantl",
+    "aiSummary": "JVM 내의 JIT 컴파일은 Java의 성능을 결정짓는 핵심 요소이며 현재 진행 중인 OpenJDK 프로젝트인 Valhalla, Leyden, Panama 등에서 중추적인 역할을 수행합니다.\n\nJIT 컴파일 기술은 Java 언어의 발전과 더불어 변화하는 애플리케이션 환경 및 하드웨어 인프라에 대응하기 위해 지속적으로 진화하고 있습니다.\n\n이번 발표에서는 OpenJDK 프로젝트와 연계되거나 독립적으로 이루어진 JVM JIT 컴파일러의 최근 성능 향상 사례를 공유합니다. 또한 해당 분야에서 현재 진행 중인 가장 주목할 만한 기술적 개발 동향을 상세히 다룹니다.\n\n더 자세한 내용은 JavaOne 2026 재생 목록을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/09/21/jit-for-java-performance/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Roberto Castañeda Lozano",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "fetchedAt": "2026-09-21T14:21:07.022Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment",
+    "title": "Spring AI and TypeSafe Jev: Fast, Cheap, Structured Decisions",
+    "summary": "Reference documentation (https://spring-ai-community.github.io/spring-ai-typesafe/latest/) and GitHub repository (https://github.com/spring-ai-community/spring-ai-typesafe)\n\nWe often need quick decisi",
+    "aiSummary": "Spring AI TypeSafe는 AI 애플리케이션 내에서 신속하고 비용 효율적이며 구조화된 의사결정을 지원하기 위해 설계된 새로운 Spring AI 커뮤니티 프로젝트입니다. 이 프로젝트는 TypeSafe의 Jev API를 활용하여 텍스트 생성 대신 입력 상태에 대한 분류, 점수 산정, 판단만을 수행하며, 프롬프트 템플릿이나 JSON 스키마 파싱 없이도 고속의 판단 결과를 제공합니다.\n\n주요 기능인 Noul, Choice, Score라는 세 가지 기본 요소를 통해 예/아니오 결정, 항목 선택, 루브릭 기반 점수 평가를 수행합니다. 특히 각 판단에 대한 신뢰도(Confidence) 값을 함께 제공하여 자동화된 시스템에서 판단의 확실성을 검증할 수 있게 합니다. 기존의 LLM 기반 평가 모델보다 훨씬 빠른 처리 속도와 낮은 비용을 제공하여 모든 대화 생성 단계마다 검증 과정을 적용할 수 있는 효율성을 갖추고 있습니다.\n\n본 프로젝트는 다음과 같은 실무적인 도구들을 제공합니다.\n\nJevJudge는 여러 질문을 병렬로 처리하여 보다 세밀하고 복합적인 판정을 내릴 수 있는 도구이며, 개별 평가 기준에 임계치를 설정하여 정확한 판단을 돕습니다. \n\nJevSelfRefineAdvisor는 모델이 생성한 답변을 JevJudge로 검증하고, 기준 미달 시 피드백을 제공하여 최대 설정 횟수만큼 답변을 수정하도록 유도하는 자동 개선 루프를 구현합니다.\n\nJevGuardrailAdvisor는 요청과 답변 양방향에 대해 위험 요소를 감지합니다. Jailbreak 시도나 유해한 정보를 차단하여 모델이 부적절한 답변을 생성하기 전에 요청 자체를 거부하거나, 모델의 답변을 검열하는 안전 장치 역할을 합니다.\n\n이러한 기능들은 모두 Spring AI가 정의한 기존의 SPI를 구현하고 있어, 개발자가 기존에 구축한 파이프라인에 쉽게 통합할 수 있습니다. Spring Boot Starter를 통해 의존성을 추가하고 API 키를 설정하는 것만으로 즉시 사용 가능하며, 복잡한 설정 없이도 지능형 에이전트 시스템의 의사결정 신뢰성과 안전성을 크게 향상시킵니다.",
+    "url": "https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "fetchedAt": "2026-09-21T14:21:07.022Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.sublimetext.com/blog/articles/sublime-text-4213",
+    "title": "Sublime Text Build 4213",
+    "summary": "Sublime Text now ships with Python 3.14 and Python 3.3. Python 3.3 is disabled by default and will be removed in a future version. If you're experiencing plugin compatibility issues you can re-enable ",
+    "aiSummary": "Sublime Text Build 4213 업데이트가 발표되었습니다. 이번 업데이트의 핵심은 내장 Python 버전을 3.8에서 3.14로 업그레이드한 것입니다. 기존의 Python 3.3은 기본적으로 비활성화되었으며 향후 버전에서 제거될 예정이나, 플러그인 호환성 문제를 겪는 사용자는 설정을 통해 다시 활성화할 수 있습니다.\n\n주요 기능 개선 사항으로는 파일 아이콘 테마 추가, 외부 터미널을 바로 열 수 있는 open_terminal 명령어 도입, C# 구문 강조 기능 재작성, 그리고 Git 상태 확인 및 다수 파일 저장 시의 성능 최적화가 포함되었습니다. 또한 Git reftables 지원을 추가하고 퍼지 매칭 로직을 정교화하여 검색 및 정렬 기능을 강화했습니다.\n\nAPI 측면에서는 타입 힌트가 개선되었고, Sheet 객체 관련 제어 메서드와 파일 경로 처리에 관한 기능들이 추가 및 보완되었습니다.\n\n운영체제별 대응도 이루어졌습니다. Windows 환경에서는 최소 요구 사양이 Windows 10으로 상향되었으며, 관리자 권한 실행 시의 다중 인스턴스 처리 문제를 해결했습니다. Mac 환경에서는 최소 요구 사양이 macOS 10.13이 되었고 창 복원 및 전체 화면 전환 시의 스타일 관련 오류들이 수정되었습니다. Linux 환경에서는 모달 다이얼로그 문제와 드래그 상태가 고착되는 현상 등 다양한 버그가 수정되었습니다.",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4213",
+    "category": "IDE & 개발 도구",
+    "source": "Sublime Text Blog",
+    "author": "Sublime HQ",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "fetchedAt": "2026-09-21T14:21:07.022Z",
+    "tags": [
+      "Sublime Text",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-14",
+    "title": "What We Know About Laravel 14",
+    "summary": "Laravel 14 is the next major release of the Laravel framework, expected in Q1 2027. Here is what we know about new features, PHP 8.4, and breaking changes.\nThe post What We Know About Laravel 14 appea",
+    "aiSummary": "Laravel 14은 Laravel 프레임워크의 차기 주요 버전으로 2027년 1분기에 출시될 예정입니다. 이번 업데이트에는 새로운 기능 도입과 함께 PHP 8.4 지원이 포함될 것으로 보입니다. 또한, 기존 시스템과의 호환성을 고려한 주요 변경 사항들이 예고되어 있습니다.",
+    "url": "https://laravel-news.com/laravel-14?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-09-20T22:48:52.000Z",
+    "fetchedAt": "2026-09-21T14:21:07.022Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/09/20/jep401-target-jdk28/",
     "title": "JEP targeted to JDK 28: 401: Value Objects (Preview)",
     "summary": "The following JEP is targeted to JDK 28: 401: Value Objects (Preview)\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/401.",
