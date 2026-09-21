@@ -1,5 +1,153 @@
 [
   {
+    "id": "/blog/upcoming-nextjs-security-release-september-22-2026",
+    "title": "Upcoming Next.js Security Update for a Critical Upstream Issue",
+    "summary": "Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.",
+    "aiSummary": "Next.js의 16.3.6 및 15.5.26 버전이 오는 2026년 9월 22일에 중요 보안 업데이트를 진행할 예정입니다. 이번 업데이트는 외부 종속성에서 발생한 심각한 보안 문제를 해결하기 위한 긴급 조치입니다. 해당 버전을 사용하는 개발자들은 보안 취약점에 대비하여 업데이트 일정을 확인하고 사전에 대응할 필요가 있습니다.",
+    "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Josh Story"
+      ]
+    },
+    "pubDate": "2026-09-21T20:00:00.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "efef7c6cb4883104326929e4006dcf8d1349cb2d",
+    "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+    "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting a",
+    "aiSummary": "AWS Builder Center 모바일 애플리케이션이 출시되어 이제 모바일 기기에서도 빌더 커뮤니티의 트렌드 기사와 기술 정보를 더욱 편리하게 확인할 수 있게 되었습니다.\n\nAmazon Connect Talent가 정식 출시되었습니다. 이 서비스는 컨택 센터 상담원의 스킬과 역량을 관리하고 최적화하여 고객 경험을 향상시키는 데 도움을 줍니다.\n\nJava 런타임 환경인 Amazon Corretto 27이 새롭게 릴리즈되었습니다. 이번 업데이트를 통해 개발자들은 향상된 성능과 안정성을 갖춘 오픈 소스 Java 배포판을 활용할 수 있게 되었습니다.\n\n이번 주 AWS는 이러한 주요 업데이트를 포함하여 클라우드 개발자의 편의성을 높이고 운영 효율을 개선하는 다양한 기능을 추가하였습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "2026-09-21T16:11:24.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/",
+    "title": "Scale your AI workloads faster and more efficiently with GKE Pod snapshots",
+    "summary": "When running modern AI workloads, there’s often a conflict between performance and cost. Workloads like large language models (LLMs) load massive files, and may serve thousands of AI agents that need ",
+    "aiSummary": "Google이 GKE Pod snapshots 기능을 새롭게 발표했습니다. 이 기능은 AI 워크로드가 실행되는 상태를 CPU 및 GPU 메모리 수준에서 저장하고 필요할 때 즉시 복원할 수 있도록 지원합니다.\n\n기존 AI 모델은 실행 시마다 방대한 데이터를 로드하는 콜드 스타트 문제를 겪었으며 이로 인해 인프라의 과도한 프로비저닝이 발생했습니다. GKE Pod snapshots를 도입하면 모델 로드 과정을 최초 1회만 수행하고 스냅샷을 생성함으로써 후속 복제본은 즉시 실행이 가능합니다. 실제 벤치마크 결과 llama3-70b 모델의 시작 대기 시간이 최대 89퍼센트까지 단축되는 성과를 확인했습니다.\n\n이 기술은 특히 에이전트 기반 워크로드의 샌드박스 환경에서 효율적입니다. 코드를 실행하거나 도구를 사용하는 개별 샌드박스를 빠르게 생성하거나 유휴 상태에서 일시 중지한 뒤 즉시 재개할 수 있어 리소스 낭비를 줄입니다. 실제로 사진 편집 플랫폼인 Retake는 이 기능을 통해 스타트업 시간을 8초로 단축하고 GPU 유휴 비용을 획기적으로 절감했습니다.\n\nGKE Pod snapshots는 Kubernetes의 CRD를 사용하여 선언적 정책으로 쉽게 설정할 수 있습니다. AI 추론이나 에이전트 환경뿐만 아니라 긴 초기화 시간이 필요한 Java 애플리케이션, 게임 서버 등 모든 유형의 워크로드에 범용적으로 적용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Brandon Royal"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-21T16:00:00.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/strengthen-your-cicd-pipeline-with-new-secure-source-manager-capabilities/",
+    "title": "Strengthen your CI/CD pipeline with new Secure Source Manager capabilities",
+    "summary": "A resilient software supply chain is the foundation of modern delivery, and securing your continuous integration and continuous delivery (CI/CD) pipeline is what keeps innovation moving safely.\nNotabl",
+    "aiSummary": "최근 소프트웨어 공급망 공격이 급증함에 따라 Google Cloud는 Secure Source Manager의 보안 기능을 강화하여 CI/CD 파이프라인의 안전성을 높였습니다. 이번 업데이트를 통해 소스 코드부터 빌드 및 배포 시스템에 이르는 전 과정에서 권한 없는 접근을 차단하는 강력한 보안 체계를 구축할 수 있게 되었습니다.\n\n새롭게 도입된 Code Owners 시스템은 코드 변경 사항에 대해 매우 세밀한 승인 절차를 지원합니다. 특정 경로별로 승인자를 지정하거나 브랜치별로 차별화된 거버넌스 규칙을 설정할 수 있으며 하위 디렉토리 단위로 중첩된 소유권 관리가 가능합니다. 또한 여러 부서의 독립적인 승인을 요구하는 다중 승인 섹션 기능을 통해 코드의 무결성을 더욱 철저히 검증합니다.\n\n네트워크 보안 측면에서는 Developer Connect 통합을 통해 서로 다른 사설 네트워크에 위치한 CI/CD 시스템과 런타임을 안전하게 연결할 수 있습니다. 특히 Private Service Connect와 Cloud Build를 활용한 설계 방식을 통해 리포지토리와 빌드 풀 및 아티팩트 저장소를 사설 네트워크 내에 격리하고 VPC Service Controls를 적용하여 다층적인 방어 체계를 마련했습니다. 이러한 기능들은 기업 내 보안 환경을 강화하고 개발 워크플로우의 신뢰성을 높이는 데 기여합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/strengthen-your-cicd-pipeline-with-new-secure-source-manager-capabilities/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Logan Henriquez"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-21T16:00:00.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/gpu-and-tpu-utilization-with-multi-cluster-gke-inference-gateway/",
+    "title": "Global AI routing with <1% overhead on multi-cluster GKE Inference Gateway",
+    "summary": "Demand for AI infrastructure is at an all-time high. Global accelerator shortages mean engineering teams can rarely get all the compute they need from just one data center — capacity comes a cluster h",
+    "aiSummary": "AI 인프라 수요가 급증함에 따라 지리적으로 분산된 컴퓨팅 자원을 효율적으로 통합 운영하는 것이 중요해졌습니다. 이를 해결하기 위해 멀티 클러스터 GKE Inference Gateway를 활용한 계층적 라우팅 아키텍처가 제안되었습니다. 이 구조는 전 세계에 흩어진 가속기 자원을 단일 풀처럼 관리하며, 런타임, 모델, 하드웨어에 구애받지 않는 범용성을 제공합니다.\n\n핵심은 실시간 원격 측정 데이터를 활용한 지능형 로드 밸런싱입니다. 기존의 단순 순환 방식인 라운드 로빈 대신, 각 추론 엔진에서 노출되는 KV-cache 토큰 사용량과 같은 애플리케이션 신호를 기반으로 트래픽을 분산합니다. 이를 통해 특정 지역의 부하가 임계치를 넘으면 자동으로 여유가 있는 다른 지역으로 트래픽을 우회시켜 가용성을 극대화합니다.\n\n미국과 유럽에 걸친 17,000개의 컴퓨팅 노드 환경에서 수행된 벤치마크 결과, 멀티 클러스터 GKE Inference Gateway는 1% 미만의 오버헤드만으로 99.5% 수준의 처리량을 유지했습니다. 또한 클러스터 수를 늘릴 때마다 거의 선형적인 처리량 증가를 확인했으며, 복잡한 대규모 환경에서도 99.9%의 성공률을 기록했습니다.\n\n성공적인 분산 추론 환경을 구축하기 위해 제안되는 주요 고려 사항은 다음과 같습니다. 단순 라운드 로빈 방식에서 벗어나 실시간 애플리케이션 신호를 활용하는 로드 밸런싱을 도입해야 합니다. 특히 긴 컨텍스트 윈도우를 사용하는 에이전트 워크로드는 메모리 압박이 심하므로 KV-cache 활용도를 핵심 지표로 삼아야 합니다. 또한 기존 웹 서비스와 달리 장시간 지속되는 AI 트래픽의 특성을 고려한 타임아웃 설정이 필요하며, LWS 등 Kubernetes의 기본 구조와 통합된 라우팅 설계를 통해 관리 복잡성을 줄여야 합니다. 최종적으로는 특정 인프라에 종속되지 않는 개방형이자 이식 가능한 스택을 채택하여 전 세계 어디서든 가용 자원을 흡수할 수 있는 유연한 아키텍처를 구성하는 것이 중요합니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gpu-and-tpu-utilization-with-multi-cluster-gke-inference-gateway/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Fisayo Feyisetan"
+      ],
+      "title": [
+        "Product Manager, Google Kubernetes Engine"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-21T16:00:00.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+    "title": "Grok 4.7 is now available in GitHub Copilot",
+    "summary": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is…\nThe post Grok 4.7",
+    "aiSummary": "xAI의 최신 추론 모델인 Grok 4.7이 GitHub Copilot에 도입되었습니다. 이번에 공개된 모델은 이전 버전인 Grok 4.6을 기반으로 하며 복잡한 다단계 워크플로우와 에이전트 기반의 코딩 작업을 효율적으로 수행하도록 설계되었습니다. 개발자들은 이제 GitHub Copilot 환경 내에서 Grok 4.7의 향상된 추론 능력을 활용하여 더욱 정교한 프로그래밍 지원을 받을 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-21T14:54:12.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=53766",
     "title": "DISTANCE() and VECTOR_DISTANCE(): Vector Similarity in Percona Server for MySQL 9.7",
     "summary": "TL;DR Percona Server for MySQL 9.7.2-2 now supports DISTANCE() for vector similarity scoring directly in SQL (COSINE, EUCLIDEAN, MANHATTAN, DOT metrics). This is the compute primitive you need to rank",
@@ -30,6 +178,37 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
+    "title": "GitHub Actions leaking secrets when Miri output is cached",
+    "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when pa",
+    "aiSummary": "Rust 보안 대응팀은 Miri가 모든 환경 변수를 target/ 디렉토리에 저장함에 따라 GitHub Actions 캐시를 통해 비밀 정보가 유출될 수 있는 위험을 발견했습니다.\n\n이 문제는 CI 환경에서 target/ 디렉토리를 캐싱할 때 발생합니다. 악의적인 사용자가 풀 리퀘스트를 생성하면 캐시된 정보를 읽어 들여 환경 변수에 포함된 비밀 값을 탈취할 수 있으며, 이후 커밋을 수정해 흔적을 지우는 방식으로 공격을 수행할 수 있습니다.\n\n단기적인 대응책으로 Miri가 저장하는 환경 변수를 CARGO_* 관련 변수와 OUT_DIR 등으로 한정하는 패치가 진행 중입니다. 하지만 완전한 해결을 위해서는 Miri를 실행하는 단계에서 비밀 정보에 대한 접근 권한을 제한해야 합니다.\n\n사용자는 자신의 GitHub Actions 설정이 영향을 받는지 확인해야 합니다. 특히 cargo miri를 사용하는 CI 환경에서 target/ 디렉토리를 캐싱하고, 해당 작업에 비밀 정보가 환경 변수로 전달되고 있다면 주의가 필요합니다.\n\n해당 위험을 방지하기 위해서는 관련 작업의 캐시를 비활성화하거나, Miri를 호출하지 않는 단계로 비밀 정보 접근 범위를 좁혀야 합니다. 조치가 완료된 후에는 기존 캐시를 삭제하고 유출 가능성이 있는 비밀 정보를 교체할 것을 권장합니다.",
+    "url": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Manish Goregaokar",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/21/releasing-spring-for-modern-challenges",
+    "title": "Releasing Spring for Modern Challenges",
+    "summary": "(https://spring.io/blog/2026/09/21/releasing-spring-for-modern-challenges#releasing-spring-for-modern-challenges)Releasing Spring For Modern Challenges\nTL;DR: The Spring release train has been updated",
+    "aiSummary": "Spring 팀은 AI 기술 발전으로 인해 보안 취약점 발견 및 공격 속도가 급격히 빨라짐에 따라 릴리스 프로세스를 전면 재설계했습니다. 매달 평균 80건에 달하는 커뮤니티 보안 보고와 다수의 CVE 해결 요구에 대응하기 위해 Spring 포트폴리오의 배포 방식을 대대적으로 변경하였습니다.\n\n기존에 2주 동안 분산되어 진행되던 릴리스 방식을 단 하루 만에 전체 포트폴리오를 배포하는 방식으로 통합했습니다. 새로운 릴리스 일정은 매월 셋째 주 월요일 이후 첫 번째 목요일로 고정하며 이를 통해 사용자들이 보다 신속하고 체계적으로 패치를 적용할 수 있도록 지원합니다. 다음 정기 패치 릴리스는 10월 22일에 진행될 예정입니다.\n\n또한 보안 공지 시스템도 개선하였습니다. 과거의 블로그 방식에서 벗어나 CVE ID, 심각도, 프로젝트별로 필터링이 가능한 새로운 보안 페이지를 도입하여 사용자가 필요한 정보를 효율적으로 검색할 수 있게 했습니다. Spring 팀은 이러한 내부 인프라 개선이 새로운 기능 개발만큼이나 중요한 가치를 지닌다고 평가하며, 급변하는 보안 환경에 맞춰 지속적으로 진화할 계획입니다.",
+    "url": "https://spring.io/blog/2026/09/21/releasing-spring-for-modern-challenges",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "mminella",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "fetchedAt": "2026-09-21T20:01:55.085Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
