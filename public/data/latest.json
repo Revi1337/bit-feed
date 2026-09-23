@@ -1,5 +1,118 @@
 [
   {
+    "id": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
+    "title": "Terraform provider for Google Cloud 8.0 now generally available ",
+    "summary": "The Terraform provider for Google Cloud connects Terraform configurations to Google Cloud, giving teams a consistent way to provision and manage Google Cloud infrastructure as code. Today, we are anno",
+    "aiSummary": "Terraform provider for Google Cloud 8.0 버전이 정식 출시되었습니다. 이번 메이저 업데이트는 기존 인프라 관리 방식을 현대화하고 예측 가능한 설계를 지원하는 데 중점을 두었습니다.\n\n가장 눈에 띄는 변화는 Application Load Balancer 기본값의 변경입니다. google_compute_backend_service 및 google_compute_global_forwarding_rule에서 기본 로드 밸런싱 방식이 EXTERNAL에서 EXTERNAL_MANAGED로 변경되었으므로, 기존 Classic Application Load Balancer를 유지해야 하는 경우 별도의 설정이 필요합니다.\n\n또한 서비스 종료나 대체가 완료된 리소스들이 대거 삭제되었습니다. IAP OAuth Admin API 관련 리소스, 구형 Notebooks 제품군, google_ml_engine_model, google_beyondcorp 리소스, 그리고 google_vertex_ai_schedule 등이 포함됩니다. 이러한 항목들은 하위 호환성을 제공하지 않는 파괴적 변경 사항이므로 업그레이드 전 반드시 수정이 요구됩니다.\n\n인프라 관리 효율성을 높이기 위한 기능들도 강화되었습니다. Terraform 계획의 예측 가능성을 높이기 위해 순서가 중요하지 않은 속성들을 리스트에서 세트로 변경하여 불필요한 차이 발생을 방지했습니다. 또한 유효성 검사 로직을 강화하여 구성 오류를 사전에 감지할 수 있도록 했습니다.\n\n기존 7.x 버전에서 도입된 기능들은 8.0에서도 계속 확장되었습니다. 특히 기존 인프라를 탐색하고 Terraform 관리 하에 두는 List 리소스 지원 서비스가 Compute Engine, IAM, BigQuery 등으로 넓어졌습니다. 더불어 보안을 강화하기 위해 AlloyDB 비밀번호, 인증서 프라이빗 키 등 민감한 정보를 상태 파일에 저장하지 않는 write-only 속성 지원도 확대되었습니다.\n\n사용자는 업그레이드 전 Terraform provider for Google Cloud 8.0 Upgrade Guide를 참조하여 변경 사항을 확인해야 합니다. 안전한 전환을 위해 최신 7.x 버전으로 우선 업데이트하여 경고 메시지를 해결하고, 비운영 환경에서 충분한 테스트를 거친 후 배포하는 것을 권장합니다.",
+    "url": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Tiberiu Radu",
+    "pubDate": "2026-09-23T01:33:34.919Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+    "title": "New features and improvements in Copilot for JetBrains",
+    "summary": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with t",
+    "aiSummary": "GitHub Copilot for JetBrains 1.18.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 AI 지원 도구 승인 기능이 추가되어 개발자가 AI의 동작을 더욱 세밀하게 제어할 수 있게 된 점입니다.\n\n사용자는 에이전트와의 대화 흐름을 더 효과적으로 관리할 수 있으며 조직 차원에서 기술 공유 및 지침 설정을 지원하여 팀 단위의 작업 효율을 높였습니다. 또한 Codex를 통해 생성된 계획을 검토할 수 있는 기능이 포함되어 개발 생산성과 편의성이 강화되었습니다.",
+    "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-23T00:34:18.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
+    "title": "Faster C++ code intelligence with whole codebase indexing",
+    "summary": "C++ code intelligence in GitHub Copilot CLI is now faster with support for whole codebase indexing. C++ repositories can contain millions of lines of code across deeply connected source files…\nThe pos",
+    "aiSummary": "GitHub Copilot CLI가 전체 코드베이스 인덱싱 기능을 지원함에 따라 C++ 코드 인텔리전스 성능이 향상되었습니다.\n\nC++ 리포지토리는 수많은 소스 파일이 복잡하게 연결된 대규모 코드로 구성되는 경우가 많아 기존 방식으로는 코드 이해와 분석에 한계가 있었습니다. 이번 업데이트를 통해 전체 코드베이스를 효과적으로 인덱싱함으로써 개발자는 더욱 빠르고 정확한 코드 제안과 분석 결과를 얻을 수 있게 되었습니다.\n\n이러한 개선은 방대한 코드 환경에서 작업하는 C++ 개발자들의 생산성을 크게 높여줄 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-22T22:24:48.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "4fedaed1301f65781a8d0cf0c10d6af080cb9c4c",
+    "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
+    "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural la",
+    "aiSummary": "Amazon CloudWatch Omni는 기존의 CloudWatch를 발전시킨 통합 관측성 플랫폼입니다. 이 서비스는 애플리케이션과 AI 에이전트를 단일 환경에서 관리할 수 있는 경험을 제공합니다.\n\n주요 기능으로는 시스템 구성 요소를 자동으로 탐색하는 토폴로지 시각화와 자연어 쿼리 지원이 있습니다. 또한 AWS DevOps Agent를 기반으로 하는 AI 가이드 조사 기능을 통해 문제 해결 과정을 효율화합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-09-22T22:23:14.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "3f3cdf7764c9ed9c135b98890bec5b260beeb5ae",
+    "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
+    "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly f",
+    "aiSummary": "Amazon CloudWatch Omni는 생성형 AI 및 에이전트 기반 워크로드를 위해 설계된 AI 기반 관측성 도구입니다.\n\n개발자는 IDE나 독립적인 웹 환경에서 프레임워크에 구애받지 않고 AI 에이전트를 추적하고 평가하며 실험할 수 있습니다.\n\n오픈 표준을 기반으로 하며 AI의 품질, 정확성, 일관성을 측정하는 내장 평가 도구를 제공하여 시스템을 효율적으로 관리할 수 있도록 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-09-22T22:21:13.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "title": "Better prompt caching for GPT-6",
+    "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+    "aiSummary": "GPT-6는 프롬프트 캐싱 기능을 고도화하여 효율성을 대폭 개선했습니다. 캐시 적중률을 향상시키는 알고리즘을 도입했으며, 새로운 진단 도구와 명시적 중단점 기능을 제공하여 개발자가 캐싱 과정을 더욱 세밀하게 제어할 수 있도록 지원합니다. 이러한 개선 사항들을 통해 모델 실행 시 발생하는 지연 시간을 단축하고 운영 비용을 절감하는 효과를 기대할 수 있습니다.",
+    "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-22T21:00:00.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/social-network-php-48-hours",
+    "title": "Live Stream: Building a Social Network in PHP in 48 Hours",
+    "summary": "Nuno Maduro, Brent Roose, and Matthieu Napoli spent two days at the JetBrains office building a full social network in PHP, and recorded all of it.\nThe post Live Stream: Building a Social Network in P",
+    "aiSummary": "Nuno Maduro와 Brent Roose 그리고 Matthieu Napoli가 JetBrains 사무실에서 48시간 동안 PHP를 사용하여 완전한 소셜 네트워크 서비스를 개발하였습니다. 개발 과정 전체는 영상으로 기록되었으며 해당 프로젝트의 상세 내용은 Laravel News를 통해 확인할 수 있습니다.",
+    "url": "https://laravel-news.com/social-network-php-48-hours?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-09-22T19:04:35.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
     "title": "Secure AI agents with HashiCorp Boundary",
     "summary": "AI agents are evolving from passive assistants into active participants in enterprise IT operations -analyzing logs, investigating incidents, assessing system health, and recommending next steps. Whil",
@@ -13,6 +126,39 @@
     "tags": [
       "Terraform",
       "IaC"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
+    "title": "Spotlight on SIG Apps",
+    "summary": "As Kubernetes adoption has grown, the conversation has shifted beyond running containers to managing increasingly complex application lifecycles. Modern platforms support stateless web services, state",
+    "aiSummary": "SIG Apps는 Kubernetes 생태계에서 Deployment, StatefulSet, DaemonSet, Job, CronJob 등 핵심 워크로드 API를 관리하고 운영하는 전문 그룹입니다. 이들은 애플리케이션의 배포, 확장, 자동 복구 등을 담당하며 Kubernetes 환경의 안정성을 유지하는 중추적인 역할을 수행합니다.\n\n최근 SIG Apps는 단순히 기존 API를 유지보수하는 것을 넘어 AI 학습, 배치 컴퓨팅, 분산 애플리케이션과 같은 복잡하고 현대적인 워크로드 수요에 대응하고 있습니다. 특히 노드 장애 상황에서 워크로드의 회복 탄력성을 높이기 위해 SIG Node 및 SIG Autoscaling과 협력하여 노드 수명 주기 관리 워킹 그룹을 운영하며, JobSet이나 LeaderWorkerSet과 같은 새로운 API 패턴을 통해 대규모 인프라의 복잡한 장애 문제를 해결하고 있습니다.\n\n기술적 진화 과정에서 SIG Apps는 가장 중요한 원칙인 하위 호환성을 유지하며, 레거시 시스템에 영향을 주지 않는 방식으로 기능을 확장하는 데 집중합니다. 대규모 변경이 필요한 경우에는 기존 핵심 API를 직접 수정하기보다 CRD를 활용한 새로운 도구들을 도입하여 플랫폼 운영자의 부담을 줄이고 있습니다.\n\n앞으로의 주요 과제로는 AI 및 에이전트 환경을 위한 Agent Sandbox와 같은 차세대 프로젝트 개발, 그리고 KEP-4443과 같은 세부 기능 개선이 포함됩니다. SIG Apps는 오픈소스 기여자들이 입문하기 좋은 신규 프로젝트를 지속적으로 발굴하고 있으며, 안정성과 확장성 사이의 균형을 유지하며 Kubernetes의 미래를 설계해 나갈 예정입니다.",
+    "url": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-09-22T18:00:00.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "title": "Introducing GPT-6 Sol and Luna",
+    "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+    "aiSummary": "OpenAI가 새로운 모델인 GPT-6 Sol과 Luna를 발표했습니다. 이 모델들은 일상적인 업무 환경에서 최고 수준의 지능을 활용할 수 있도록 설계되었습니다. 사용자는 작업의 성격과 예산 효율성에 따라 필요한 성능과 비용의 균형을 고려하여 두 모델을 선택적으로 활용할 수 있습니다.",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-09-22T18:00:00.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -49,6 +195,38 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+    "title": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
+    "summary": "OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the…\nThe post ",
+    "aiSummary": "GitHub Copilot에 OpenAI의 GPT-6 모델군인 GPT-6 Sol과 GPT-6 Luna가 새롭게 추가되었습니다.\n\n기존에 출시된 GPT-6 Astra와 함께 이번 신규 모델들이 도입되면서 개발자들은 작업 환경에 맞춰 더욱 다양한 모델을 선택할 수 있게 되었습니다. 사용자는 자신의 프로젝트 요구 사항에 최적화된 GPT-6 모델을 활용하여 개발 생산성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-22T17:00:14.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-api-ip-allowlist-update-second-ip-address-now-live",
+    "title": "Apollo API IP Allowlist Update: Second IP Addresss Now Live",
+    "summary": "A few months ago, we announced our API IP Allowlist Policy (https://www.apollographql.com/blog/apollos-new-api-ip-allowlist-policy), which included a planned change: adding a second IP address to each",
+    "aiSummary": "Apollo가 기존에 예고했던 API IP Allowlist 정책 변경 사항이 실제로 적용되었습니다. 이에 따라 각 Apollo Uplink 서비스에 두 번째 IP 주소가 추가되었습니다.\n\n조직 내에서 IP 주소를 기준으로 아웃바운드 네트워크 접근을 제한하고 있다면, 반드시 uplink.api.apollographql.com과 persisted-queries.api.apollographql.com 도메인에 대하여 새로운 IP 주소를 허용 목록에 추가해야 합니다. 만약 추가하지 않을 경우 Router나 Gateway가 Uplink로부터 구성을 가져오지 못해 스키마나 설정 폴링 과정에서 오류가 발생할 수 있습니다.\n\n도메인 기반으로 접근을 제한하거나 네트워크 접근을 별도로 제한하지 않는 경우에는 별도의 조치가 필요하지 않습니다. 네트워크 구성 확인이 필요한 경우 사내 인프라 팀에 문의할 것을 권장하며, 향후 정책 변경 사항은 Apollo의 공식 API IP Allowlist Policy 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://www.apollographql.com/blog/apollo-api-ip-allowlist-update-second-ip-address-now-live",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "David Glasser",
+    "pubDate": "2026-09-22T16:53:29.000Z",
+    "fetchedAt": "2026-09-23T01:33:34.919Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
     ]
   },
   {
@@ -1696,147 +1874,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/blogs/2026/09/16/building-the-github-copilot-inline-suggestions-model-part-one",
-    "title": "Building the new GitHub Copilot Inline Suggestions Model: Part One",
-    "summary": "Explore how GitHub Copilot unified completion, next edit, and long-distance suggestions into one model for a faster, more cohesive coding experience.\nRead the full article",
-    "aiSummary": "GitHub Copilot은 더욱 빠르고 일관된 코딩 경험을 제공하기 위해 기존의 여러 기능을 통합하는 새로운 인라인 제안 모델을 개발했습니다.\n\n이번 개선 작업은 코드 자동 완성, 다음 편집 예측, 그리고 장거리 제안 기능을 하나의 통합된 모델로 결합하는 데 중점을 두었습니다. 이를 통해 복잡한 코드 작업 환경에서도 개발자가 보다 원활하게 작업을 이어갈 수 있도록 모델의 효율성을 높였습니다. \n\n이번 발표는 해당 모델의 구축 과정을 다룬 시리즈의 첫 번째 단계로서 향후 기술적 상세 내용이 지속적으로 공개될 예정입니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/09/16/building-the-github-copilot-inline-suggestions-model-part-one",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Julia Gong, Ben Liggett, Ulugbek Abdullaev",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-17T01:31:43.171Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
-    "title": "Size-Specialized Memory Allocation",
-    "summary": "The Go Blog\nSize-Specialized Memory Allocation\nGo 1.27 includes faster memory allocation for allocations of fewer than 80 bytes.\nAllocations can be up to 20-30% faster, making allocation-heavy program",
-    "aiSummary": "Go 1.27 버전에서는 80바이트 이하의 메모리 할당 성능을 향상시키기 위해 크기별 특화 메모리 할당 기법인 Size-Specialized Memory Allocation을 도입합니다. 이 개선을 통해 메모리 할당 속도는 기존 대비 20에서 30퍼센트까지 빨라지며, 메모리 할당이 빈번한 프로그램의 경우 전체 실행 성능이 약 1퍼센트 향상되는 효과를 얻을 수 있습니다.\n\nGo 런타임의 기존 mallocgc 함수는 할당하려는 메모리 크기와 포인터 포함 여부를 바탕으로 범용적인 할당 작업을 수행합니다. 하지만 이번 업데이트에서는 Span class별로 특화된 mallocgc 변형 함수들을 생성하여 특정 크기의 할당 요청을 더욱 효율적으로 처리하도록 변경되었습니다. 80바이트 이하의 작은 객체들은 인터페이스, 문자열, 슬라이스 등 프로그램 내에서 매우 빈번하게 사용되므로, 이 구간에 대한 최적화가 전체 성능 개선의 핵심입니다.\n\n특화된 함수들은 컴파일 타임에 크기가 고정된 경우 직접 호출될 수 있으며, 동적 호출이 필요한 경우에도 오버헤드를 최소화하도록 설계되었습니다. 또한 메모리 초기화 과정에서 memclrNoHeapPointers 대신 상수 크기에 최적화된 직접적인 인라인 코드를 사용하고, 불필요한 분기 처리를 제거하여 성능을 극대화했습니다.\n\n이 과정에서 발생할 수 있는 명령어 캐시(instruction cache) 오염 문제와 코드 크기 증가를 방지하기 위해 80바이트를 최적의 임계점으로 설정했습니다. 코드 유지보수의 복잡성을 줄이기 위해 표준 라이브러리의 go/ast 등을 활용한 별도의 코드 생성기를 도입하여 특화된 함수들을 자동으로 생성하고 관리합니다. 사용자는 별도의 코드 수정 없이 Go 1.27로 빌드하기만 하면 이러한 성능 향상을 누릴 수 있으며, 문제가 발생할 경우 GOEXPERIMENT=nosizespecializedmalloc 옵션을 통해 해당 기능을 비활성화할 수 있습니다.",
-    "url": "https://go.dev/blog/size-specialized-allocations",
-    "category": "프로그래밍 언어",
-    "source": "The Go Blog",
-    "author": "Michael Matloob",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-16T18:56:28.537Z",
-    "tags": [
-      "Go"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/16/java-27-launch/",
-    "title": "Java 27 Launch Stream",
-    "summary": "On September 15 we celebrated the release of Java 27! We covered what’s coming in JDK 27—from key enhancements and platform changes to the latest developments at the intersection of Java and AI. Speci",
-    "aiSummary": "9월 15일 Java 27의 출시를 기념하는 라이브 스트림 행사가 진행되었습니다. 이번 행사에서는 JDK 27의 주요 개선 사항과 플랫폼 변경 점들을 다루었으며 특히 Java와 AI 기술이 결합하는 최신 개발 동향에 대해 집중적으로 조명했습니다.\n\nJDK 팀 소속 관계자와 Java 커뮤니티 전문가들이 특별 게스트로 참여하여 그동안의 작업 성과를 공유하고 JDK 27에서 기대되는 발전 방향과 향후 로드맵에 대한 심도 있는 논의를 이어갔습니다.",
-    "url": "https://inside.java/2026/09/16/java-27-launch/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Inside Java",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-16T18:56:28.537Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/cisa-logging-omb-m-26-14",
-    "title": "CISA's Logging Reference Architecture for OMB M-26-14: What federal agencies should do next ",
-    "summary": "Now that CISA has released its Logging Reference Architecture (LRA) for OMB M-26-14, federal agencies tasked to complete their logging plans. In this blog, we walk you through the most important aspec",
-    "aiSummary": "CISA가 OMB M-26-14 지침을 준수하기 위한 Logging Reference Architecture 즉 LRA를 공식적으로 발표하였습니다. 이에 따라 각 연방 기관은 해당 가이드라인을 바탕으로 보안 기록 관리 계획을 조속히 수립하고 이행해야 하는 상황입니다. 이번에 공개된 LRA는 기관들이 로그 데이터를 체계적으로 수집하고 관리하며 분석할 수 있도록 돕는 핵심 지침을 담고 있습니다. 각 기관은 제시된 표준 아키텍처를 면밀히 검토하여 자사의 보안 체계를 점검하고 실질적인 이행 전략을 마련해야 합니다.",
-    "url": "https://www.elastic.co/blog/cisa-logging-omb-m-26-14",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Woody Walton",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-16T18:56:28.537Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga",
-    "title": "Elastic announces GA of cross-project search on Serverless, enabling teams to query across all linked projects without moving a byte",
-    "summary": "Cross-project search is now GA on Elastic Cloud Serverless. Link multiple projects and query all of them from a single Discover or ES|QL session: no certificates, no remote cluster config, and three c",
-    "aiSummary": "Elastic이 Elastic Cloud Serverless에서 Cross-project search 기능을 정식 출시했습니다.\n\n이번 업데이트를 통해 사용자는 여러 프로젝트를 연결하여 단일 Discover 또는 ES|QL 세션에서 데이터를 통합적으로 검색할 수 있습니다. 별도의 인증서 설정이나 원격 클러스터 구성이 필요 없으며 세 번의 클릭만으로 간단히 설정을 마칠 수 있어 데이터 이동 없이 효율적인 쿼리 수행이 가능합니다. 해당 기능은 2026년 9월 1일부터 이용할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Jordi Mon Companys,Lucy Wang",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-16T18:56:28.537Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/16/jdk27-security-enhancements/",
-    "title": "JDK 27 Security Enhancements",
-    "summary": "JDK 27 was released on September 15, 2026! As with my previous blogs, I have compiled a list of what I think are the most interesting and useful security enhancements in this release. I have also grou",
-    "aiSummary": "2026년 9월 15일에 출시된 JDK 27은 다양한 보안 기능 강화를 포함하고 있습니다. 주요 변경 사항은 암호화와 TLS를 비롯한 여러 카테고리로 분류되어 있으며, 이를 통해 개발자가 각 영역의 기술적 변화를 더욱 명확하게 파악할 수 있도록 돕습니다. 구체적인 보안 강화 항목 및 추가 세부 정보는 Sean J. Mullan의 공식 블로그 게시물을 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/09/16/jdk27-security-enhancements/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Sean Mullan",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-16T12:39:38.792Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgassistant-380-continuous-improvement-loop-for-postgres-3378/",
-    "title": "pgAssistant 3.8.0 : continuous improvement loop for Postgres\n",
-    "summary": "With this release, pgAssistant is evolving beyond PostgreSQL analysis and tuning to become a continuous PostgreSQL improvement platform.\nThe new positioning is built around a continuous improvement lo",
-    "aiSummary": "pgAssistant 3.8.0 버전은 단순한 PostgreSQL 분석 및 튜닝 도구를 넘어 지속적인 개선 플랫폼으로 진화했습니다. 이번 업데이트는 관찰, 진단, 우선순위 지정, 계획, 구현, 재수집, 측정으로 이어지는 순환 구조를 통해 데이터베이스 운영의 체계적인 개선을 지원합니다.\n\n버전 3.8.0은 pgAssistant Collector와 결합하여 과거의 워크로드와 환경 측정 데이터를 제공합니다. 이를 통해 무엇을 개선해야 하는지, 어떤 결정을 내렸는지, 실제로 무엇이 변경되었는지, 그리고 그 결과는 어떠했는지에 대한 답변을 명확히 제시합니다.\n\n새롭게 추가된 Workload Insights 기능은 연속적인 데이터 수집 결과를 비교하여 추천 사항의 변화, PostgreSQL 설정 변경, 워크로드 추이, 실행 시간 및 호출량의 변화 등을 상세히 분석합니다. 특히 전체 워크로드에 큰 영향을 미치는 쿼리를 식별하여 관리자가 개선 사항과 실제 성능 변화 사이의 상관관계를 쉽게 파악할 수 있도록 돕습니다.\n\npgAssistant는 실시간 모니터링을 대체하는 도구가 아니라 다음 개선 작업을 결정하고 업무를 조직화하며 결과적인 성능 변화를 측정하는 데 중점을 둡니다. 이러한 접근 방식은 데이터베이스 관리 및 최적화 과정을 추상적인 작업에서 측정 가능한 증거 기반의 프로세스로 전환합니다.",
-    "url": "https://www.postgresql.org/about/news/pgassistant-380-continuous-improvement-loop-for-postgres-3378/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-09-16T00:00:00.000Z",
-    "fetchedAt": "2026-09-16T12:39:38.792Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
-    "title": "Enforce GitHub Advanced Security configurations",
-    "summary": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings def",
-    "aiSummary": "GitHub Enterprise 관리자는 이제 조직 전체에 걸쳐 GitHub Advanced Security 설정을 강제로 적용할 수 있게 되었습니다.\n\n이번 업데이트를 통해 엔터프라이즈 수준에서 정의된 보안 설정은 조직이나 리포지토리 관리자가 임의로 변경하거나 무력화할 수 없습니다.\n\n이러한 정책 강제 기능은 기업 환경에서 보안 표준을 일관되게 유지하고 관리 권한 남용을 방지하여 전사적인 보안 거버넌스를 강화하는 데 기여합니다.",
-    "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-15T19:31:58.000Z",
-    "fetchedAt": "2026-09-16T01:29:02.700Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-    "title": "GitHub Copilot suggests custom properties definitions",
-    "summary": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot…\nThe po",
-    "aiSummary": "GitHub Copilot이 조직 내 리포지토리의 사용자 정의 속성을 생성할 때 허용되는 값을 자동으로 제안하는 기능을 새롭게 도입합니다. 이 기능은 현재 GitHub Copilot Business 및 GitHub Copilot Enterprise 사용자를 대상으로 공개 미리보기 형태로 제공됩니다. 이를 통해 개발자는 리포지토리 관리 과정에서 속성 정의를 더욱 효율적이고 정확하게 설정할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-15T19:07:47.000Z",
-    "fetchedAt": "2026-09-16T01:29:02.700Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
