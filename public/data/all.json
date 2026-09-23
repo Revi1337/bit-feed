@@ -1,5 +1,103 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_140",
+    "title": "Visual Studio Code 1.140 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.140 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.140 Insiders 버전이 새롭게 공개되었습니다. 해당 업데이트를 통해 추가된 주요 기능과 개선 사항은 공식 블로그의 전체 기사를 통해 확인할 수 있습니다. 사용자는 최신 Insiders 빌드를 설치하여 새로운 변경 사항들을 직접 경험해 볼 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_140",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-09-23T12:48:34.560Z",
+    "fetchedAt": "2026-09-23T12:48:34.560Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.6",
+    "title": "v11.2.6",
+    "summary": "What's changed\n@nestjs/platform-express\n\nfix(deps): update dependency multer to v2.4.0 [security] — fixes CVE-2026-88932 (GHSA-3pph-fpjx-jg34)\nfix(express): map multer errors by code instead of messag",
+    "aiSummary": "NestJS의 v11.2.6 버전이 릴리스되었습니다.\n\n이번 업데이트에서는 보안 취약점인 CVE-2026-88932를 해결하기 위해 의존성인 multer를 v2.4.0으로 업데이트하였습니다.\n\n또한 multer 2.4.0 버전 업데이트에 따른 오류 처리 방식의 변경 사항을 적용하였습니다. 기존에 예상치 못한 필드명으로 파일이 전송될 경우 500 오류가 발생하던 문제를 수정하여, 다시 400 오류를 반환하도록 수정하였습니다. 이는 에러 메시지가 아닌 에러 코드를 기준으로 매핑하도록 개선된 결과입니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.6",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-09-23T09:09:35.000Z",
+    "fetchedAt": "2026-09-23T12:48:34.560Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.1.0",
+    "title": "v12.1.0",
+    "summary": "v12.1.0 (2026-09-23)\nBug fixes\ncore\n\n#17838 fix(core): inherit optional ctor params when the ctor is not redeclared (@kamilmysliwiec)\n#17819 fix(core): name the module when metadata entries are invali",
+    "aiSummary": "NestJS v12.1.0 버전이 2026년 9월 23일에 릴리스되었습니다. 이번 업데이트는 다양한 버그 수정과 함께 여러 핵심 기능을 새롭게 도입하여 프레임워크의 안정성과 보안성을 강화했습니다.\n\n코어 영역에서는 생성자 매개변수 상속 문제와 메타데이터 항목 처리 오류를 수정하였고, 미들웨어 실행 순서 유지 및 라우트 핸들러 이름 보존 기능을 개선하였습니다. 또한, 전역 접두사 배열 지원과 같은 유용한 기능들이 추가되었습니다.\n\n마이크로서비스 분야에서는 Redis 클라이언트의 연결 재시도 로직을 보완하고, 콜백 실패 시 대기 중인 요청을 즉시 종료하도록 처리하여 안정성을 높였습니다.\n\n새롭게 추가된 주요 기능으로는 어댑터에 구애받지 않는 내장 쿠키 지원, CSRF 보호 및 보안 헤더 기능이 포함되었습니다. 특히 platform-fastify 사용자를 위해 파일 업로드 인터셉터를 추가하고, forceCloseConnections 설정을 정상적으로 반영하도록 개선하였습니다. 그 외에도 ParseDatePipe의 기본값 적용 방식 등이 수정되어 개발 편의성이 향상되었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.1.0",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-09-23T08:00:20.000Z",
+    "fetchedAt": "2026-09-23T12:48:34.560Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/09/23/ruby-3-4-11-released/",
+    "title": "Ruby 3.4.11 Released",
+    "summary": "Ruby 3.4.11 has been released.\nThis is a regular scheduled update release includes bugfixes.\nPlease see the GitHub releases for further details.\nDownload\nhttps://cache.ruby-lang.org/pub/ruby/3.4/ruby-",
+    "aiSummary": "Ruby 3.4.11 버전이 새롭게 출시되었습니다. 이번 업데이트는 정기적으로 예정된 유지보수 버전으로 주요 버그 수정 사항들을 포함하고 있습니다. 상세한 변경 내역은 GitHub 릴리스 페이지를 통해 확인할 수 있으며 관련 설치 파일들은 공식 Ruby 배포 경로에서 다운로드할 수 있습니다. 각 파일에 대한 무결성 검증을 위한 체크섬 값 또한 함께 제공됩니다. 이번 릴리스를 위해 기여해 준 많은 개발자와 사용자들에게 감사를 표합니다.",
+    "url": "https://www.ruby-lang.org/en/news/2026/09/23/ruby-3-4-11-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "2026-09-23T06:10:50.000Z",
+    "fetchedAt": "2026-09-23T12:48:34.560Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.9",
+    "title": "1.2.9",
+    "summary": "Added @  prompt syntax to send a message directly to a subagent conversation, with autocomplete listing running and completed subagents\nAdded Vim numeric count multipliers so counts apply to operators",
+    "aiSummary": "이번 1.2.9 버전 업데이트에서는 서브 에이전트 대화에 직접 메시지를 보낼 수 있는 @ 프롬프트 구문이 추가되었으며 자동 완성을 통해 실행 중이거나 완료된 서브 에이전트 목록을 확인할 수 있습니다. Vim 모드에는 수치 연산 기능이 도입되어 3dw나 3dd와 같은 명령어에 배수 적용이 가능해졌습니다.\n\n사용성 측면에서는 GEMINI_API_KEY 세션의 동작 일관성이 개선되었고 아티팩트 뷰어의 넓은 다이어그램 표시 기능과 /rewind의 시간 표시 및 포커스 기능이 보강되었습니다. 또한 명령 허용 목록 제안 시 jj 설정과 관련 하위 명령을 인식하도록 개선되었습니다.\n\n버그 수정으로는 헤드리스 실행 모드 종료 시 데몬 프로세스가 남아있던 문제를 해결하여 스크립트 행 현상을 방지했고 배경 작업의 대기 시간을 최적화했습니다. 이 외에도 대화 기록 데이터베이스의 잠금 오류 수정, 컨텍스트 압축 실패 문제 해결, 스트리밍 응답 붕괴 방지 등 안정성 관련 패치가 대거 적용되었습니다. 아울러 마크다운 표 정렬 및 링크 표시 오류를 수정하였으며 엔터프라이즈 로그인 과정에서 발생하던 불완전한 자격 증명 문제를 자동으로 초기화하도록 변경하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.9",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-23T04:42:21.000Z",
+    "fetchedAt": "2026-09-23T12:48:34.560Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+    "title": "OpenTelemetry in the GitHub Copilot app",
+    "summary": "Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open so",
+    "aiSummary": "GitHub Copilot 앱이 OpenTelemetry를 공식적으로 지원함에 따라 기업 관리 설정 환경에서 엔드포인트 구성을 통한 관측성 확보가 가능해졌습니다. 이를 통해 개발자와 운영 팀은 Copilot 에이전트가 내부적으로 어떻게 작동하고 모델 및 외부 도구들과 어떤 방식으로 상호작용하는지를 명확하게 파악할 수 있습니다. OpenTelemetry는 개방형 관측성 프레임워크로서 시스템 전반의 데이터를 통합적으로 수집하고 분석할 수 있게 해주며 이번 업데이트를 통해 기업용 환경에서의 투명성과 관리 효율성이 더욱 향상될 전망입니다.",
+    "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-23T02:14:54.000Z",
+    "fetchedAt": "2026-09-23T12:48:34.560Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
     "title": "Terraform provider for Google Cloud 8.0 now generally available ",
     "summary": "The Terraform provider for Google Cloud connects Terraform configurations to Google Cloud, giving teams a consistent way to provision and manage Google Cloud infrastructure as code. Today, we are anno",
