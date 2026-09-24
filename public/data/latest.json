@@ -1,5 +1,356 @@
 [
   {
+    "id": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
+    "title": "Rails Version 7.2.4 has been released!",
+    "summary": "Hi everyone,\nI am happy to announce that Rails 7.2.4 has been released.\nAs stated in the maintenance policy, this\nis the last release of the 7.2.x series.\nSecurity issues and bug fixes will only be pr",
+    "aiSummary": "Rails 7.2.4 버전이 공식적으로 출시되었습니다. 이번 릴리스는 7.2.x 시리즈의 마지막 업데이트입니다.\n\n앞으로의 보안 업데이트 및 버그 수정은 8.0.x 및 8.1.x 시리즈를 통해서만 지원될 예정입니다. 변경 사항에 대한 자세한 내용은 GitHub에 게시된 CHANGELOG와 커밋 기록을 통해 확인할 수 있습니다.\n\n사용자는 배포된 각 gem의 무결성을 검증하기 위해 안내된 SHA-256 해시값을 확인할 수 있습니다. 이번 릴리스를 위해 기여해 준 많은 개발자에게 감사를 표합니다.",
+    "url": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "rafaelfranca",
+    "pubDate": "2026-09-24T19:15:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+    "title": "Introducing Gemini 3.8 Live with Live Avatar",
+    "summary": "Sep 24, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Gemini 3.8 Live with Live Avatar brings re",
+    "aiSummary": "Google이 Gemini 3.8 Live에 실시간 시각적 존재감을 더한 Live Avatar 기능을 새롭게 발표했습니다. 이 기능은 실시간 대화 모델과 저지연 스트리밍 비디오를 결합하여 자연스럽고 직관적인 대화 경험을 제공합니다. 사용자의 말을 듣고 보고 말하는 과정에서 정교한 립싱크와 자연스러운 표정, 유연한 턴테이킹을 구현하여 고객 서비스나 가이드와 같은 기업용 환경에서 대화형 인터페이스의 수준을 한층 높였습니다.\n\nLive Avatar는 Gemini의 고급 추론 기능을 기반으로 비동기 도구 실행을 지원합니다. 대화가 지속되는 동안 배경에서 데이터를 조회하거나 복잡한 작업을 처리할 수 있어 흐름이 끊기지 않는 매끄러운 경험을 보장합니다. 또한 97개 언어를 지원하며 각 언어에 맞춰 실시간으로 입 모양과 표정을 동기화하여 글로벌 비즈니스 환경에서도 즉각적으로 활용할 수 있습니다.\n\n브랜드 이미지에 맞춘 사용자 지정 아바타 생성 기능도 제공합니다. 기업은 고품질 참조 이미지를 바탕으로 자사의 정체성을 반영한 독자적인 아바타를 구현할 수 있습니다. 신뢰성과 안전성을 위해 모든 결과물에는 SynthID 기술을 적용하여 AI 생성 콘텐츠임을 식별할 수 있는 워터마크를 포함합니다. 현재 Gemini 3.8 Live with Live Avatar는 Gemini Enterprise 사용자를 대상으로 제공됩니다.",
+    "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-09-24T16:20:39.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/scribd-inc-classifies-millions-of-documents-on-gemini-enterprise/",
+    "title": "Scribd, Inc. classifies more than 400 million documents with Gemini batch inference on Gemini Enterprise",
+    "summary": "Scribd, Inc. is home to one of the world's largest collections of human-created content. \nScribd’s  products leverage one of the world's largest collections of human-created content and intelligent to",
+    "aiSummary": "Scribd, Inc.는 4억 개 이상의 문서와 120억 페이지에 달하는 방대한 사용자 생성 콘텐츠를 분류하고 관리하기 위해 Gemini Enterprise의 배치 추론 기능을 도입했습니다. 그동안 대규모 문서의 콘텐츠 적절성을 평가하는 작업은 각 유형별로 별도의 전문 모델을 구축해야 하는 등 큰 비용과 시간이 소모되는 난제였습니다.\n\nScribd는 Gemini가 PDF를 원본 그대로 이해할 수 있는 멀티모달 능력을 활용하여 별도의 OCR이나 이미지 변환 과정 없이 전체 데이터의 99% 이상을 즉시 처리했습니다. Gemini 2.5 Flash Lite를 주력 분류 모델로 사용하고, Gemini 2.5 Pro를 검증 모델로 활용하여 정확도를 높였습니다.\n\n이 과정에서 Gemini Enterprise의 배치 예측 기능을 사용해 대화형 모델 대비 50% 낮은 비용으로 대규모 처리를 구현했습니다. 또한 Google Cloud의 기술 지원을 통해 인프라 구축 없이도 대규모 처리량을 안정적으로 확보했습니다. 결과적으로 수년이 걸릴 것으로 예상되었던 콘텐츠 분류 작업을 단 몇 달 만에 완료했으며, 현재는 새로 업로드되는 콘텐츠까지 실시간으로 관리하는 기반을 마련했습니다. 이번 프로젝트는 복잡한 수년 단위의 엔지니어링 과제를 간단한 프롬프트와 배치 파이프라인으로 전환할 수 있음을 입증했습니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/scribd-inc-classifies-millions-of-documents-on-gemini-enterprise/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Travis Martin"
+      ],
+      "title": [
+        "Account Manager, Google Cloud Platform"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T16:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/gke-agentic-migration/",
+    "title": "Introducing GKE agentic migration for AI-assisted EKS-to-GKE migrations with built-in governance",
+    "summary": "Enterprises are increasingly standardizing on Google Kubernetes Engine (GKE) to run their most critical and AI-driven workloads. From Cloud Storage FUSE for high-throughput data access to custom compu",
+    "aiSummary": "Google은 기업들의 효율적인 클라우드 현대화를 지원하기 위해 AWS EKS에서 GKE로의 전환을 자동화하는 오픈소스 도구인 GKE agentic migration을 발표했습니다. 기존의 범용 LLM을 활용한 마이그레이션은 할루시네이션이나 설정 누락 등의 위험이 컸으나, 이번에 공개된 도구는 결정론적인 가드레일을 결합하여 이러한 문제를 해결합니다.\n\n이 솔루션은 LLM의 추론 능력과 엄격한 검증 도구를 결합하여 복잡한 인프라 코드를 GKE 환경에 맞게 자동으로 변환합니다. 주요 특징으로는 LLM이 작성한 코드를 사전에 정의된 규칙으로 검증하는 하이브리드 검증 방식과, 모든 변경 사항을 Pull Request 형태로 생성하여 GitOps 기반의 인간 승인 절차를 강제하는 안정성을 제공합니다.\n\n또한, 실시간 클러스터에 직접 접근하는 방식이 아닌 소스 리포지토리를 중심으로 운영되어 기존 CI/CD 파이프라인의 무결성을 유지합니다. 인프라 설계부터 마이그레이션 상태 관리, 그리고 플랫폼 팀과 애플리케이션 팀 간의 권한 분리까지 지원하며, 민감한 데이터는 전용 마이그레이션 서비스를 사용하도록 가이드하여 보안성을 높였습니다. \n\n사용자는 EKS 저장소를 분석하여 인프라 호환성을 평가하고, Terraform 모듈 기반의 랜딩 존을 구성한 뒤, AI의 도움을 받아 자동으로 클라우드 설정을 변환하는 체계적인 마이그레이션 과정을 경험할 수 있습니다. 이를 통해 기업은 인프라 전환 시 발생하는 기술적 부채와 예측 불가능한 리스크를 최소화할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-agentic-migration/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sunny Hwang"
+      ],
+      "title": [
+        "Product Manager, GKE"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T16:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=94091",
+    "title": "From Dockerfile to Kit: the Docker Sandboxes Kit Specification",
+    "summary": "Docker's Sandbox Kit Specification v3 packages an AI agent's network rules, credentials, and volumes as an ordinary, pinnable OCI image.",
+    "aiSummary": "Docker가 발표한 Sandbox Kit Specification v3는 AI 에이전트가 사용하는 네트워크 규칙, 자격 증명, 그리고 볼륨 정보를 일반적인 OCI 이미지 형태로 패키징하여 관리할 수 있게 합니다. 이 방식을 통해 에이전트의 실행 환경을 표준화된 이미지로 고정하고 배포할 수 있어 운영의 효율성과 일관성을 높여줍니다.",
+    "url": "https://www.docker.com/blog/docker-sandbox-kit-spec/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jin Kim",
+    "pubDate": "2026-09-24T16:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=94077",
+    "title": "Docker and CNCF partner on an open spec for agent permissions",
+    "summary": "Docker is bringing the open source Sandbox Kit Spec to the CNCF, so AI agent permissions become a neutral, vendor independent standard built on OCI.",
+    "aiSummary": "Docker가 AI 에이전트의 권한 관리를 위한 오픈 소스인 Sandbox Kit Spec을 CNCF에 기증합니다. 이번 협력을 통해 AI 에이전트의 권한 체계는 특정 벤더에 종속되지 않는 중립적인 표준으로 자리 잡게 됩니다. 새로운 표준은 OCI를 기반으로 구축되며 이를 통해 향후 AI 에이전트 생태계에서 더욱 안전하고 호환성 높은 운영 환경이 마련될 것으로 기대됩니다.",
+    "url": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jin Kim",
+    "pubDate": "2026-09-24T16:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=93924",
+    "title": "Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud",
+    "summary": "Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year we launched Docker Sandboxes: microVM environments where coding agents can work autonomou",
+    "aiSummary": "Cloud Sandboxes는 사용자가 자신의 노트북에서 에이전트를 실행하고 클라우드 환경으로 이동할 수 있도록 지원하는 서비스입니다. 이전에 출시된 Docker Sandboxes를 기반으로 하여 코딩 에이전트가 안전하고 자율적으로 작업을 수행할 수 있는 microVM 환경을 제공합니다. 사용자는 단 하나의 명령어로 로컬과 클라우드 사이를 자유롭게 오가며 효율적으로 개발 업무를 처리할 수 있습니다.",
+    "url": "https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "PeiFang Sung",
+    "pubDate": "2026-09-24T16:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+    "title": "Introducing Gemini 3.8 Live with Live Avatar",
+    "summary": "Introducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.",
+    "aiSummary": "Google은 Gemini의 대화형 AI 경험에 실시간 시각적 존재감을 부여하는 Gemini 3.8 Live with Live Avatar를 새롭게 공개했습니다. 해당 기술을 통해 사용자는 Gemini와 더욱 생생하고 즉각적인 반응이 가능한 시각적 대화를 나눌 수 있게 됩니다. 이는 인공지능과의 상호작용 방식에서 시각적 요소를 강화하여 더욱 몰입감 넘치는 대화 환경을 제공합니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shuo-yiin Chang"
+      ],
+      "title": [
+        "Research Scientist"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T15:30:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/9/24/Rails-Version-8-1-4-has-been-released",
+    "title": "Rails Version 8.1.4 has been released!",
+    "summary": "Hi everyone,\nI am happy to announce that Rails 8.1.4 has been released.\nCHANGES since 8.1.3\nTo see a summary of changes, please read the release on GitHub:\n8.1.4 CHANGELOG\nTo view the changes for each",
+    "aiSummary": "Ruby on Rails 프레임워크의 새로운 버전인 Rails 8.1.4가 공식적으로 출시되었습니다. 이번 업데이트는 이전 버전인 8.1.3 이후의 변경 사항들을 포함하고 있습니다.\n\n사용자는 GitHub에서 제공되는 상세한 CHANGELOG를 통해 Action Cable, Action Mailer, Active Record, Active Support 등 각 gem별 변경 내역을 확인할 수 있습니다. 또한 전체 변경 사항에 대한 커밋 목록 역시 GitHub를 통해 열람 가능합니다.\n\n보안 및 무결성 검증을 위해 이번 릴리스에 포함된 각 gem의 SHA-256 해시 값이 함께 공개되었습니다. 이번 배포를 위해 기여해 준 많은 개발자에게 감사를 표합니다.",
+    "url": "https://rubyonrails.org/2026/9/24/Rails-Version-8-1-4-has-been-released",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "rafaelfranca",
+    "pubDate": "2026-09-24T15:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/",
+    "title": "Power your agents: Gemini 3.8 Live with Live Avatar is now generally available",
+    "summary": "Following our announcement of Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking last week, we are thrilled to share that Gemini 3.8 Live with Live Avatar is now generally available in Gemini Enter",
+    "aiSummary": "Google은 Gemini Enterprise 환경에서 Gemini 3.8 Live와 Live Avatar 기능을 정식 출시했습니다. 이 기술은 단순한 음성 AI를 넘어 상호작용이 가능한 시각적 아바타를 제공하며 기업용 프로덕션 환경에 최적화되어 있습니다.\n\n주요 기능으로 실시간 입모양 동기화가 가능한 비디오 아바타, 자연스러운 대화 흐름을 지원하는 네이티브 음성 간 대화, 백그라운드에서 API 호출을 병행하는 툴 콜링 기능을 포함합니다. 또한 97개 언어를 지원하며 카메라 피드와 화면 공유를 실시간으로 분석하는 시각적 이해 능력을 갖추고 있습니다.\n\n안전성과 신뢰성을 위해 사용자들은 엄격한 승인 절차를 거친 후 커스텀 아바타를 생성할 수 있으며, 생성된 모든 오디오와 비디오 콘텐츠에는 SynthID 워터마크가 포함되어 AI 생성물임을 확인할 수 있습니다.\n\n현재 Gemini 3.8 Live와 Live Avatar는 미국과 EU 엔드포인트를 통해 제공되며 기업 고객들은 프로비저닝된 처리량과 데이터 거버넌스 환경에서 서비스를 이용할 수 있습니다. 이미 Cox Automotive, Equal AI, Salesforce 등 여러 기업이 이 기술을 도입하여 고객 경험을 혁신하고 있습니다. 상세한 개발 가이드는 Gemini Live API 문서를 통해 확인할 수 있으며 필요한 경우 Google Cloud 영업 담당자를 통해 맞춤형 배포 아키텍처를 논의할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Fabien Blanc-paques"
+      ],
+      "title": [
+        "Group Product Manager, Gemini Live"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T15:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/alloydbs-agentic-database-architecture/",
+    "title": "A new, no-compromises database architecture for the agentic era",
+    "summary": "Entire database engineering careers have been spent on a single question: How do you scale an OLTP workload without compromising the system of record that owns the data?\nExadata answered the question ",
+    "aiSummary": "AI 에이전트 시대의 급격한 워크로드 변화에 대응하기 위해 기존 데이터베이스 아키텍처는 한계에 직면했습니다. 에이전트는 예측 불가능하고 폭발적인 컴퓨팅 자원을 요구하며, 운영 중인 핵심 시스템에 영향을 주지 않아야 합니다. 이를 위해 새로운 데이터베이스는 격리성, 지연 시간, 확장성이라는 세 가지 핵심 원칙을 동시에 충족해야 합니다.\n\n첫 번째 원칙인 격리성은 에이전트가 운영 데이터에 실시간으로 접근하되, 기본 클러스터와 자원을 공유하지 않도록 물리적으로 분리하는 것을 의미합니다. 두 번째인 지연 시간은 캐시 히트 여부와 관계없이 일관된 서브 밀리초 단위의 I/O 성능을 보장해야 함을 뜻합니다. 세 번째인 확장성은 에이전트의 요구에 따라 수천 개의 컴퓨팅 노드가 즉각적으로 생성되고 작업 완료 후 즉시 제거되는 탄력성을 갖추는 것입니다.\n\n기존의 독립형 복제본, 분산형 공유 스토리지, 오브젝트 스토리지 기반 아키텍처들은 이 세 가지 원칙 중 일부만을 만족시킬 뿐, 성능 저하나 운영 중단 위험 없이 에이전트의 요구사항을 처리하는 데 구조적 한계가 있습니다.\n\n이에 Google은 AlloyDB의 새로운 에이전트 전용 아키텍처를 통해 이러한 문제를 해결했습니다. 이 시스템은 Google의 대규모 분산 스토리지인 Colossus를 기반으로 물리적 격리를 구현하여 프로덕션 성능 저하를 방지합니다. 또한 Jupiter 네트워크와 마이크로 VM 기술을 결합하여 수천 개의 노드를 초 단위로 확장하거나 축소할 수 있는 서버리스 환경을 제공합니다. 이를 통해 에이전트는 PostgreSQL 엔진의 전체 기능을 활용하여 운영 데이터를 실시간으로 조회하면서도 기업의 핵심 서비스 안정성을 유지할 수 있게 되었습니다.",
+    "url": "https://cloud.google.com/blog/products/databases/alloydbs-agentic-database-architecture/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Amit Ganesh"
+      ],
+      "title": [
+        "VP Engineering, Databases"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T14:30:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/",
+    "title": "How growing Latin American midsize businesses are building in the AI era",
+    "summary": "Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And",
+    "aiSummary": "라틴 아메리카 지역의 중소기업들이 비즈니스 경쟁력을 강화하기 위해 Google Cloud와 Gemini Enterprise를 적극적으로 도입하고 있습니다. 이들 기업은 단순한 생성형 AI 활용을 넘어 업무 자동화, 데이터 분석, 맞춤형 AI 에이전트 구축 등 다양한 영역에서 기술을 내재화하고 있으며, 이를 통해 생산성 향상과 비용 절감이라는 실질적인 성과를 거두고 있습니다. 특히 라틴 아메리카 내 Google Cloud AI 도구 사용 기업 수는 전년 대비 8배 이상 증가하는 등 가파른 성장세를 보이고 있습니다.\n\n구체적인 사례를 살펴보면, AdGoat는 광고 입찰 및 콘텐츠 분석 자동화에 Gemini API를 활용하고 있으며, BunkerDB는 마케팅 성과 예측 플랫폼을 구축하여 비용을 25% 절감했습니다. KLog.co는 물류 서류 처리 자동화를 통해 데이터 입력 오류를 90% 이상 줄였으며, Growth Digital은 100개가 넘는 AI 에이전트를 도입하여 제안서 작성 속도를 5배 향상했습니다. 이 외에도 Angelus, Caffeine Army, Convert, HealthAtom 등 다양한 분야의 기업들이 각각의 업무 환경에 맞춰 BigQuery, Cloud Run, Looker 등과 Gemini Enterprise를 결합하여 디지털 전환을 가속화하고 있습니다.\n\nGoogle은 이러한 중소기업들의 AI 도입을 지원하기 위해 체계적인 교육 프로그램도 함께 제공합니다. 누구나 쉽게 접근할 수 있는 초급자용 교육 과정부터 맞춤형 AI 어시스턴트 구축을 위한 전문 프로그램, 그리고 Google DeepMind 전문가들이 설계한 실습형 랩과 산업 인증 자격증 과정을 운영합니다. 이러한 기술 인프라와 교육 지원을 통해 Google은 라틴 아메리카 기업들이 글로벌 시장에서 경쟁력을 확보하고 비즈니스를 지속적으로 확장할 수 있도록 돕고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Andre Alves"
+      ],
+      "title": [
+        "Director, SMB Sales LATAM"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T14:30:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+    "title": "DSF member of the month - Ken Whitesell",
+    "summary": "For September 2026, we welcome Ken Whitesell as our DSF member of the month! ⭐\n\nKen has long been part of the Django community, serving for many years as an helper in the Django forum and recipient of",
+    "aiSummary": "2026년 9월 DSF 멤버로 선정된 Ken Whitesell은 45년 경력의 소프트웨어 개발자 출신으로 오랫동안 Django 커뮤니티에서 활동해 온 인물입니다. 그는 2014년부터 본격적으로 Django를 사용하기 시작했으며 이후 포럼과 Discord 등에서 활발하게 기술 지원을 제공하며 커뮤니티 성장에 기여했습니다. 이러한 공로를 인정받아 Malcolm Tredinnick Memorial award를 수상하기도 했습니다.\n\nKen Whitesell은 Django의 가장 큰 장점으로 Python 기반의 언어 구조, 객체 관계 매핑인 ORM, 그리고 강력한 폼 기능을 꼽았습니다. 또한 그는 Channels와 HTMX 등을 활용하여 보드게임 엔진 개발 등 자신만의 개인 프로젝트를 진행하고 있습니다.\n\n그는 Django를 처음 배우는 개발자들에게 프레임워크와 충돌하지 말고 Django의 철학에 맞춰 사고하는 방식을 익히라고 조언합니다. 아울러 Python에 대한 탄탄한 이해도가 곧 Django를 이해하는 핵심이라고 강조합니다.\n\n현재 그는 보안 팀의 일원으로서 Django의 보안 정책을 유지하는 역할을 수행하고 있으며 커뮤니티의 안정성과 지속적인 친화력을 Django의 매력으로 평가합니다. 그는 앞으로도 거창한 코드 기여보다는 포럼 활동 등을 통해 실무 개발자들이 더 효율적으로 작업할 수 있도록 돕는 조력자로서 커뮤니티와 함께하겠다는 의지를 밝혔습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Sarah Abderemane",
+    "pubDate": "2026-09-24T14:13:21.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-24-4",
+    "title": "PHP 8.2.34 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.2.34. This is a security release.\nAll PHP 8.2 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.2.34",
+    "aiSummary": "PHP 개발팀은 보안 업데이트를 포함한 최신 버전인 PHP 8.2.34를 공식 발표했습니다. 이번 업데이트는 보안상의 이유로 반드시 필요한 조치이므로 모든 PHP 8.2 사용자는 즉시 최신 버전으로 업그레이드할 것을 권장합니다. 소스 코드와 Windows용 바이너리는 공식 다운로드 페이지를 통해 확보할 수 있으며, 이번 버전에 포함된 상세 변경 사항은 공식 ChangeLog에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-09-24-4",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-24T13:53:04.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-24-3",
+    "title": "PHP 8.5.11 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.11. This is a security release.\nAll PHP 8.5 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.5.11",
+    "aiSummary": "PHP 개발팀이 보안 업데이트를 포함한 PHP 8.5.11 버전을 정식으로 출시했습니다. 이번 업데이트는 보안상의 이유로 모든 PHP 8.5 버전 사용자들에게 최신 버전으로의 즉각적인 업그레이드를 권장하고 있습니다. 소스 코드와 Windows용 바이너리 파일은 공식 다운로드 페이지를 통해 제공되며 상세한 변경 사항은 ChangeLog에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-09-24-3",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-24T11:40:51.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-24-2",
+    "title": "PHP 8.3.35 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.3.35. This is a security release.\nAll PHP 8.3 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.3.35",
+    "aiSummary": "PHP 개발팀이 보안 업데이트 버전인 PHP 8.3.35를 공식 발표했습니다. 이번 버전은 보안 이슈를 해결하기 위한 업데이트이므로 모든 PHP 8.3 사용자는 최신 버전으로 업그레이드할 것을 권장합니다. 소스 코드와 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며 상세한 변경 사항은 ChangeLog를 통해 확인이 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-09-24-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-24T09:51:44.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=742374",
     "title": "Continuing to Move PHP Open Source Forward",
     "summary": "A year ago, we introduced the first wave of PhpStorm’s open-source sponsorships. We truly believe in the power of open source and the importance of it to the PHP community, and so we want to do our bi",
@@ -13,6 +364,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-24-1",
+    "title": "PHP 8.6.0 RC2 available for testing",
+    "summary": "The PHP team is pleased to announce the first release candidate of PHP 8.6.0, RC2. It is not a typo: a mistake was made while packaging RC1, so RC2 was released instead. For a full explanation, please",
+    "aiSummary": "PHP 팀이 PHP 8.6.0의 첫 번째 릴리스 후보 버전인 RC2를 공개했습니다. 당초 RC1 패키징 과정에서 실수가 발생하여 RC2가 즉시 출시되었으며, 이번 버전은 향후 정식 릴리스를 위한 테스트 목적의 조기 버전입니다.\n\n해당 버전은 공식 다운로드 페이지에서 소스 파일을 내려받을 수 있으며, 실제 운영 환경에서는 사용을 지양해야 합니다. 사용자는 테스트 과정에서 발견된 문제를 GitHub Issues를 통해 보고할 수 있습니다.\n\n새로운 기능과 변경 사항은 배포 패키지에 포함된 NEWS 및 UPGRADING 파일에서 확인할 수 있습니다. 다음 릴리스인 RC3는 2026년 10월 8일에 예정되어 있습니다.",
+    "url": "https://www.php.net/index.php#2026-09-24-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-24T08:21:25.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -30,6 +396,70 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/24/spring-batch-6",
+    "title": "Spring Batch 6.1.0-M2 is out!",
+    "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-M2 is available now from Maven Central! This second milestone brings a number of new features, enhancements",
+    "aiSummary": "Spring Batch 6.1.0-M2 버전이 Maven Central을 통해 배포되었습니다. 이번 업데이트는 Spring Framework 7.1.0-M2를 포함한 주요 의존성 라이브러리 업그레이드와 함께 다양한 기능 개선 및 API 변경을 포함하고 있습니다.\n\n주요 변경 사항으로는 MongoDB job repository에서 컬렉션 접두사를 설정할 수 있는 기능이 추가되어 환경 격리가 용이해졌습니다. 또한, 기본 변환 서비스가 DefaultFormattingConversionService를 기반으로 재구축되어 보다 풍부한 데이터 변환 기능을 제공합니다.\n\n성능 및 설계 측면에서는 비동기 처리 API와 로컬 청킹 기능이 spring-batch-integration에서 spring-batch-core로 이전되어 불필요한 의존성을 제거할 수 있게 되었습니다. RepositoryItemWriter에는 플러시 지원 기능이 추가되었으며, MultiResourceItemReaderBuilder 등은 리소스 위치 패턴을 직접 지원하여 편의성을 높였습니다.\n\n안전성 강화를 위해 빌더 패턴에 staged DSL을 도입하여 상호 배타적인 설정 조합을 컴파일 타임에 차단하도록 변경되었습니다. 이는 일부 코드 수정이 필요한 파괴적 변경 사항입니다.\n\n이 외에도 Apache Derby 지원 중단, 레거시 데이터 변환기 제거 등 여러 API가 7.0 버전을 대비하여 삭제 예정(deprecated) 상태로 전환되었습니다. 자세한 사항은 공식 릴리스 노트를 확인하시기 바랍니다.",
+    "url": "https://spring.io/blog/2026/09/24/spring-batch-6",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "fmbenhassine",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
+    "title": "PostgreSQL 19 Beta 4 Released!\n",
+    "summary": "The PostgreSQL Global Development Group announces that the fourth beta release of\nPostgreSQL 19 is now available for download.\nThis release contains PostgreSQL 19 feature previews ahead of general\nava",
+    "aiSummary": "PostgreSQL Global Development Group은 PostgreSQL 19의 네 번째 베타 버전인 PostgreSQL 19 Beta 4를 공개했습니다. 이번 릴리스는 정식 출시를 앞둔 기능들을 포함하고 있으며 안정적인 데이터베이스 운영을 최우선 가치로 삼고 있습니다.\n\n안정성을 확보하고 예측 가능한 릴리스 일정을 준수하기 위해 SQL/PGQ 지원, 데이터 체크섬의 온라인 활성화 및 비활성화, FOR PORTION OF 절을 통한 시간적 업데이트 및 삭제, 그리고 특정 ALTER TABLE 파티션 병합 및 분할 기능 등 일부 기능이 이번 릴리스에서 제외되었습니다. 또한 기존에 포함되었던 세 가지 DDL 관련 함수인 pg_get_role_ddl, pg_get_tablespace_ddl, pg_get_database_ddl도 제거되었습니다.\n\n이번 베타 버전에는 REPACK 명령어, WAIT FOR 명령어, 논리적 복제 충돌 탐지, 그리고 autovacuum 점수 체계 등 신규 기능에 대한 다수의 버그 수정과 성능 개선 사항이 포함되었습니다. 사용자는 pg_upgrade나 pg_dump 및 pg_restore와 같은 방식을 통해 이전 버전에서 업그레이드할 수 있습니다.\n\nPostgreSQL 19의 정식 릴리스는 10월 중으로 계획되어 있으며 그에 앞서 10월 초에 릴리스 후보 버전이 배포될 예정입니다. 커뮤니티는 안정적인 최종 버전을 위해 사용자들이 베타 버전을 직접 테스트하고 버그나 호환성 문제를 보고해 줄 것을 당부하고 있습니다. 상세한 변경 사항과 오픈 이슈는 공식 홈페이지에서 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-cloud-azure-cobalt-arm",
+    "title": "Elastic Cloud on Azure gets a speed boost: Compute-optimized instances on Azure Cobalt ARM",
+    "summary": "Starting September 24, 2026, Elastic Cloud on Azure adds compute-optimized (ARM) hardware profiles backed by Microsoft's Cobalt ARM processors, delivering up to 37% better throughput than the previous",
+    "aiSummary": "2026년 9월 24일부터 Elastic Cloud on Azure는 Microsoft의 Cobalt ARM 프로세서 기반의 컴퓨팅 최적화 하드웨어 프로파일을 새롭게 도입합니다.\n\n이번 업데이트를 통해 이전 세대인 Ampere Altra VM 대비 처리량이 최대 37퍼센트 향상되었으며 동시에 비용 효율성까지 개선되었습니다. 이를 통해 사용자는 Elastic Cloud 상에서 더욱 빠르고 경제적인 성능을 경험할 수 있게 됩니다.",
+    "url": "https://www.elastic.co/blog/elastic-cloud-azure-cobalt-arm",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Joe Chin,Greg Crist",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/atomic-claim-checking-against-llm-hallucinations",
+    "title": "Trust, but verify: Atomic claim checking against LLM hallucinations",
+    "summary": "Hallucinations kept an LLM out of our knowledge base cleanup for years. Splitting generation from atomic claim verification fixed it and cleared a four-year backlog of duplicate articles.",
+    "aiSummary": "LLM의 환각 현상은 그동안 지식 베이스 정비 작업의 가장 큰 걸림돌이었습니다. \n\n이 문제를 해결하기 위해 생성 과정과 원자 단위의 사실 검증 단계를 분리하는 방식을 도입했습니다. 이를 통해 4년간 쌓여있던 중복 문서 문제를 효과적으로 정리하고 지식 베이스의 신뢰성을 확보하는 데 성공했습니다.",
+    "url": "https://www.elastic.co/blog/atomic-claim-checking-against-llm-hallucinations",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Toby Sutor",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T19:18:59.316Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1816,198 +2246,6 @@
     "author": "Allison",
     "pubDate": "2026-09-17T21:08:50.000Z",
     "fetchedAt": "2026-09-18T01:19:42.437Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "871c44b03c81444dbf2768f2c7efdf2a156c5808",
-    "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-    "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-opera",
-    "aiSummary": "AWS Elastic Beanstalk이 애플리케이션 실행 환경을 더욱 간편하게 구축할 수 있는 Cluster Mode를 새롭게 선보입니다.\n\n사용자는 컨테이너 이미지나 소스 코드만 제공하면 되며, 하부 인프라에 대한 프로비저닝이나 운영 과정은 AWS Elastic Beanstalk이 전담합니다. \n\n서비스가 직접 컴퓨팅 자원을 관리하는 방식으로 전환됨에 따라, 개발자는 인프라 운영 부담 없이 애플리케이션 실행 환경을 손쉽게 구성할 수 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "2026-09-17T19:20:21.000Z",
-    "fetchedAt": "2026-09-18T01:19:42.437Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/snap-error-fy2028-penalty",
-    "title": "SNAP payment error detection: how Elastic helps US states beat the FY2028 penalty",
-    "summary": "Detecting SNAP fraud requires a layered approach, where rules catch what agencies know to look for, machine learning surfaces what rules miss, and conversational investigation helps analysts act on wh",
-    "aiSummary": "SNAP 부정 수급 탐지를 위해 Elastic은 규칙 기반 시스템과 머신러닝, 그리고 대화형 조사 도구를 결합한 다층적 접근 방식을 제공합니다.\n\n기존의 알려진 패턴을 식별하는 규칙 기반 모델은 명확한 부정 사례를 방어하고, 머신러닝 알고리즘은 규칙으로 감지할 수 없는 미묘한 이상 징후를 발견합니다.\n\n분석가들은 Elastic의 대화형 조사 기능을 통해 데이터에서 추출된 정보를 바탕으로 신속하고 정확한 의사결정을 내릴 수 있습니다.\n\n이러한 통합 솔루션을 통해 미국 주 정부 기관들은 FY2028까지 요구되는 부정 수급 방지 기준을 달성하고 효율적으로 업무를 수행할 수 있도록 지원받습니다.",
-    "url": "https://www.elastic.co/blog/snap-error-fy2028-penalty",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Adam Vielbaum",
-    "pubDate": "2026-09-17T19:06:52.117Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-external-threat-intelligence-service-forrester-wave/",
-    "title": "Google named a Leader in the External Threat Intelligence Service Forrester Wave™",
-    "summary": "At Google, we see firsthand how the speed, scale, and sophistication of cyber threats continue to challenge traditional enterprise defenses. Today’s defenders can’t rely on reactive triage or fragment",
-    "aiSummary": "Google이 Forrester Wave가 선정한 2026년 3분기 외부 위협 인텔리전스 서비스 제공업체 부문에서 리더로 선정되었습니다. Google은 이번 평가에서 현재 제공 서비스와 전략을 아우르는 9개 부문에서 만점인 5.0점을 기록하며 기술적 역량과 시장 선도력을 입증했습니다.\n\nGoogle은 Mandiant의 사건 대응 데이터, VirusTotal의 크라우드 소싱 데이터, 그리고 Google의 방대한 인프라를 통합하여 고도화된 위협 인텔리전스를 제공합니다. 특히 자체적으로 개발한 Gemini 모델을 보안 에이전트에 직접 연동함으로써 범용 모델을 사용하는 타사 솔루션보다 빠르고 정교한 위협 분석 및 malware 분석 기능을 구현했습니다.\n\n보안 운영 측면에서 Google Threat Intelligence는 에이전트를 통해 위협 조사, 우선순위 지정, 탐지 공백 식별 및 위협 탐색을 자율적으로 수행합니다. 이를 통해 기업 보안 팀은 위협 탐지 속도를 높이고 수동 분석에 소요되는 시간을 획기적으로 단축할 수 있습니다. Forrester는 Google이 업계에서 유일하게 최첨단 AI 모델 개발과 양자 컴퓨팅 기술을 동시에 보유한 업체라는 점을 높이 평가했습니다.\n\n또한 Google은 기술적 리더십 외에도 파트너 생태계와 커뮤니티 개방성 측면에서 높은 점수를 받았습니다. 특정 보안 생태계에 종속되지 않는 전략을 통해 고객에게 유연성을 제공하고 있으며, 실제 도입 기업들은 위협 탐지율이 139퍼센트 향상되고 위협 인텔리전스 팀의 효율성이 46퍼센트 개선되는 성과를 거두고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-external-threat-intelligence-service-forrester-wave/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jayce Nichols"
-      ],
-      "title": [
-        "Director, Intelligence Solutions"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-17T17:00:00.000Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/supply-chain-logistics/the-future-of-orchestration-pine59s-journey-to-airflow-3-on-google-cloud/",
-    "title": "The future of orchestration: Pine59’s journey to Airflow 3 on Google Cloud",
-    "summary": "Operating large data pipelines requires an orchestration layer that scales smoothly as workloads expand. When your pipelines process millions of complex data points every day to feed predictive models",
-    "aiSummary": "위치 정보 인텔리전스 기업인 Pine59는 매일 수백만 건의 복잡한 데이터를 처리하는 데이터 파이프라인의 효율성을 높이기 위해 Google Cloud의 Managed Service for Apache Airflow 기반인 Airflow 3로 인프라를 이전했습니다. Pine59는 기존의 모노레포 환경에서 수백 개의 DAG를 운영하며 발생하던 확장성 및 안정성 문제를 해결하고자 새로운 Gen 3 아키텍처를 도입했습니다.\n\n이번 이전 과정에서 Pine59는 모델 추론 작업을 위해 GKE 클러스터를 별도로 구성하여 오케스트레이션과 무거운 ML 연산 부하를 명확하게 분리했습니다. 이를 통해 파이프라인의 성능과 MLOps 아키텍처의 유연성을 크게 개선했습니다.\n\n개발 환경 측면에서는 Airflow 3의 확장성을 활용해 사용자 정의 플러그인을 직접 개발했습니다. BigQuery 테이블 자동 링크 기능과 DAG 실행 설정 검색 도구 등을 UI에 통합하여 디버깅 및 트러블슈팅 시간을 획기적으로 단축했습니다. 또한 버전 간 호환성을 보장하는 모듈을 도입하여 운영 효율성을 높였습니다.\n\n최종적으로 Pine59는 Airflow 3 전환을 통해 작업 대기 시간을 대폭 줄였으며 주요 파이프라인인 Daily Foot Traffic 처리 시간을 기존 38분에서 26분으로 약 32퍼센트 단축하는 성과를 거두었습니다. 결과적으로 이번 전환은 데이터 처리 속도 향상과 더불어 더 안정적이고 확장 가능한 AI 파이프라인 기반을 마련하는 계기가 되었습니다.",
-    "url": "https://cloud.google.com/blog/topics/supply-chain-logistics/the-future-of-orchestration-pine59s-journey-to-airflow-3-on-google-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Piotr Wieczorek"
-      ],
-      "title": [
-        "Lead Senior Product Manager, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-17T17:00:00.000Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-    "title": "Ubuntu 26 generally available and latest migration",
-    "summary": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,…\nThe post Ubuntu 26 generally",
-    "aiSummary": "GitHub Actions용 Ubuntu 26.04 러너 이미지가 공개 프리뷰 단계를 마치고 정식 출시되었습니다. 이제 x64 및 arm64 아키텍처 환경 모두에서 프로덕션 워크플로우를 안정적으로 지원합니다. 이번 정식 출시를 통해 개발자들은 보다 최신화된 환경에서 CI/CD 작업을 수행할 수 있게 되었으며, 관련 마이그레이션 정보는 GitHub 공식 블로그를 통해 확인할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-17T16:27:16.000Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
-    "title": "Simplify compliance with the native pre-written policy experience in HCP Terraform ",
-    "summary": "As organizations face growing security and regulatory requirements, maintaining compliant infrastructure becomes increasingly complex. Many organizations use policy as code to define and enforce guard",
-    "aiSummary": "HashiCorp는 기업의 인프라 규정 준수를 간소화하기 위해 HCP Terraform 내에서 사전 정의된 정책을 바로 적용할 수 있는 기능을 공개 베타로 선보였습니다. 기존에는 조직이 외부에서 정책을 찾아 별도로 관리하고 이를 코드화하는 과정에서 많은 시간과 전문 지식이 요구되었으나, 이번 업데이트를 통해 사용자는 HCP Terraform 워크플로우 안에서 직접 HashiCorp가 관리하는 정책을 검색하고 선택하여 즉시 적용할 수 있게 되었습니다.\n\n사용자는 클라우드 공급자나 서비스, 규정 준수 프레임워크별로 정책을 필터링하여 검토할 수 있으며, 선택한 정책에 대해 적절한 시행 모드를 설정하고 조직이나 프로젝트 단위로 배포할 수 있습니다. 현재는 AWS FSBP 및 AWS CIS Foundations Benchmark와 관련된 정책을 우선 지원하며, 향후 Microsoft Azure와 Google Cloud를 위한 정책도 추가될 예정입니다.\n\n해당 정책들은 HashiCorp가 관리하는 읽기 전용 형태로 제공되어 무결성이 보장됩니다. 또한 사용자들은 도입 초기 단계에서 위반 사항을 확인만 하는 Advisory 모드를 활용하다가 준비가 되면 Mandatory 모드로 전환하여 비준수 인프라 실행을 원천 차단하는 등 유연한 운영이 가능합니다. 이번 기능 도입은 팀 단위의 정책 기반 인프라 관리를 더욱 효율화하고 대규모 환경에서의 거버넌스 수준을 높이는 데 기여할 것입니다.",
-    "url": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Mitchell Ross",
-    "pubDate": "2026-09-17T16:00:00.000Z",
-    "fetchedAt": "2026-09-18T18:33:51.600Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/solo-founder-runs-a-global-tender-platform-on-alloydb-and-mcp/",
-    "title": "How a solo founder runs a five-continent tender platform on AlloyDB and MCP",
-    "summary": "Editor's note: Lucius AI, a tender-intelligence startup covering markets across five continents, runs its entire data platform on AlloyDB for PostgreSQL with a single operator. By migrating semantic s",
-    "aiSummary": "Lucius AI는 1인 창업자가 5개 대륙에 걸친 21만 건 이상의 입찰 정보를 처리하는 글로벌 플랫폼을 운영하기 위해 AlloyDB for PostgreSQL와 MCP를 핵심 인프라로 도입하였습니다.\n\nLucius AI는 관계형 데이터와 벡터 임베딩을 AlloyDB for PostgreSQL로 통합하여 데이터 관리 효율성을 극대화하였습니다. 특히 의미론적 검색에 ScaNN 인덱스를 적용함으로써 기존 1.14초였던 쿼리 지연 시간을 24밀리초로 단축하여 약 47배의 성능 향상을 기록하였습니다.\n\n또한, AI 에이전트가 MCP를 통해 데이터베이스 작업을 수행하도록 구성하여 운영 부담을 대폭 낮추었습니다. AI 에이전트는 데이터 분석, 성능 최적화, 보안 감사, 데이터 품질 검사 등을 자동화하며, 최소 권한 원칙을 준수하는 엄격한 접근 제어를 통해 안전하게 운용됩니다.\n\n이러한 인프라 전략을 통해 Lucius AI는 별도의 데이터 엔지니어 팀 없이도 대규모 입찰 데이터를 실시간으로 분석하고 관리하는 견고한 시스템을 구축하였습니다. 향후에는 Managed Remote MCP Server 도입 및 자동화된 벡터 임베딩 기능 등을 활용하여 운영 효율성을 더욱 높일 계획입니다.",
-    "url": "https://cloud.google.com/blog/products/databases/solo-founder-runs-a-global-tender-platform-on-alloydb-and-mcp/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Davor Jerković"
-      ],
-      "title": [
-        "Founder, Lucius AI"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-17T16:00:00.000Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/hcp-vagrant-deprecation-important-dates-and-migration-guidance",
-    "title": "HCP Vagrant deprecation: important dates and migration guidance",
-    "summary": "HashiCorp is deprecating HCP Vagrant through a phased process.  The Vagrant CLI and source repository will remain available, but customers must move their Vagrant boxes to another hosting provider and",
-    "aiSummary": "HashiCorp는 HCP Vagrant 서비스를 단계적으로 종료할 예정입니다. Vagrant CLI와 오픈소스 저장소는 계속 유지되지만 사용자는 기존에 HCP Vagrant에서 관리하던 박스들을 직접 다른 호스팅 환경으로 이전해야 하며 이에 따른 비용도 직접 부담해야 합니다.\n\n중요한 일정으로는 2026년 10월 1일에 신규 박스 및 레지스트리 생성 기능이 중단되며 2026년 11월 2일에는 기존 배포에 대한 유지보수 및 지원이 종료됩니다. 최종적으로 2026년 12월 31일에는 모든 HCP Vagrant 배포 환경이 완전히 폐쇄될 예정입니다.\n\nHashiCorp는 원활한 이전을 지원하기 위해 박스를 로컬 드라이브로 내보내는 기능과 Amazon S3를 활용한 호스팅 가이드 등을 제공할 계획입니다. 사용자들은 조직 내에서 HCP Vagrant가 사용되는 영역을 파악하고 CI/CD 파이프라인이나 Vagrantfiles 등을 점검하여 새로운 호스팅 환경으로 데이터를 이전할 준비를 시작해야 합니다. 추가적인 기술 문의는 Vagrant GitHub 저장소를 통해 지원받을 수 있습니다.",
-    "url": "https://www.hashicorp.com/blog/hcp-vagrant-deprecation-important-dates-and-migration-guidance",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Kala Gullick",
-    "pubDate": "2026-09-17T16:00:00.000Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-    "title": "Workflow execution protections in GitHub Actions generally available",
-    "summary": "Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you defin",
-    "aiSummary": "GitHub Actions의 Workflow execution protections 기능이 공식적으로 정식 출시되었습니다.\n\n이 기능은 GitHub Enterprise, 조직 및 리포지토리 수준에서 워크플로우 실행 권한을 관리할 수 있는 보안 도구입니다. 관리자는 허용 목록을 정의하여 특정 사용자나 정책에 따라 워크플로우 실행을 제어할 수 있습니다.\n\n이를 통해 승인되지 않은 워크플로우 실행을 방지함으로써 GitHub 환경 내 보안과 거버넌스를 더욱 강화할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-17T15:45:26.000Z",
-    "fetchedAt": "2026-09-17T19:06:52.117Z",
     "tags": [
       "GitHub",
       "DevOps"
