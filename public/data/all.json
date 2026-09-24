@@ -1,5 +1,73 @@
 [
   {
+    "id": "https://webkit.org/?p=18357",
+    "title": "Release Notes for Safari Technology Preview 253",
+    "summary": "Safari Technology Preview Release 253 is now available for download for macOS Golden Gate and macOS Tahoe.",
+    "aiSummary": "macOS Golden Gate 및 macOS Tahoe 운영체제를 위한 Safari Technology Preview 253 버전이 배포되었습니다. 해당 브라우저의 최신 기능을 테스트하고자 하는 사용자는 공식 페이지를 통해 업데이트를 다운로드할 수 있습니다.",
+    "url": "https://webkit.org/blog/18357/release-notes-for-safari-technology-preview-253/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-09-23T21:46:47.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=60881",
+    "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
+    "summary": "Starting September 23, 2026, Microsoft is updating the author-signing certificate used for NuGet packages. Customers using trusted signer policies or certificate fingerprint verification should add th",
+    "aiSummary": "Microsoft는 2026년 9월 23일부터 NuGet 패키지에 사용되는 작성자 서명 인증서를 갱신합니다.\n\n신뢰할 수 있는 서명자 정책이나 인증서 지문 확인 기능을 사용하는 고객은 보안과 서비스 연속성을 위해 새로운 인증서를 조속히 추가해야 합니다. 이번 업데이트는 .NET 생태계의 보안 강화를 위한 조치이며 관련 설정을 사용하는 사용자들의 주의가 필요합니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/microsoft-author-signing-certificate-update-2026/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "The NuGet Team",
+    "pubDate": "2026-09-23T20:00:00.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "/blog/release/v22.23.3?1790187760940",
+    "title": "Node.js 22.23.3 (LTS)",
+    "summary": "Antoine du Hamel2026-09-23, Version 22.23.3 'Jod' (LTS), @aduh95 prepared by @juanarbol (https://nodejs.org/en/blog/release/v22.23.3#2026-09-23-version-22233-jod-lts-aduh95-prepared-by-juanarbol)\nNota",
+    "aiSummary": "Node.js 22.23.3 버전이 LTS(Long Term Support) 릴리스로 배포되었습니다. 이번 업데이트는 보안 강화, 의존성 패키지 버전 최신화, 그리고 Node-API 관련 기능 개선을 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다.\n\n보안 및 의존성 업데이트 측면에서 OpenSSL이 3.5.8 버전으로, npm이 10.9.9 버전으로 각각 업그레이드되었습니다. 또한 핵심 구성 요소인 Corepack이 0.36.0으로 업데이트되었으며, ICU 라이브러리는 78.3 버전으로, Undici는 6.28.1 버전으로 최신화되었습니다. 암호화 관련 작업에서는 루트 인증서가 NSS 3.125로 업데이트되어 보안성이 강화되었습니다.\n\n기능 개선 및 수정 사항으로는 Node-API에서 SharedArrayBuffer 지원이 추가되었으며, 새로운 함수인 napi_create_external_sharedarraybuffer가 도입되었습니다. 또한 ESM 로더 내의 fs 패치 기능이 복구되었고, http2 통신 중 발생할 수 있는 use-after-free 오류가 수정되었습니다. 그 외에도 c-ares 및 타임존 데이터 업데이트 등 전반적인 시스템 안정성을 위한 다수의 커밋이 반영되었습니다.\n\n사용자는 각 운영체제별 설치 파일 및 바이너리를 공식 홈페이지를 통해 내려받을 수 있으며, 상세한 기술 문서는 제공된 링크를 통해 확인 가능합니다.",
+    "url": "https://nodejs.org/en/blog/release/v22.23.3",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-09-23T18:22:40.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/upcoming-nextjs-security-release-september-2026",
+    "title": "Upcoming Next.js September Security Release",
+    "summary": "Next.js is preparing a scheduled September security release for September 30, 2026.",
+    "aiSummary": "Vercel은 Next.js에 대한 보안 업데이트를 2026년 9월 30일에 진행할 예정입니다. 이번 업데이트는 정기적인 보안 패치 차원에서 이루어지는 예정된 일정입니다.",
+    "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Josh Story"
+      ]
+    },
+    "pubDate": "2026-09-23T18:00:00.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
     "id": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
     "title": "Advancing Private AI Compute with secure, server-side memory",
     "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
@@ -322,6 +390,55 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/stay-up-when-a-region-goes-down-highly-available-redis-for-python-applications/",
+    "title": "Stay up when a region goes down: Highly available Redis for Python apps",
+    "summary": "Active-Active Redis & client-side geographic failover\n\nActive-Active Redis distributes data across multiple regions, allowing each regional database instance to serve both reads and writes. What kind ",
+    "aiSummary": "Active-Active Redis는 여러 지역에 데이터를 분산하여 각 지역의 데이터베이스 인스턴스가 읽기와 쓰기를 모두 처리할 수 있도록 지원합니다. 이 기술은 충돌 없는 복제 알고리즘인 CRDT를 사용하여 지역 간 데이터 일관성을 유지하며 특정 지역에 장애가 발생하더라도 서비스 중단 없이 가용성을 확보합니다.\n\nPython 애플리케이션에서 이러한 구조를 구현하기 위해서는 클라이언트 측의 전략이 중요합니다. Redis 클라이언트는 다중 지역을 인식하고 장애 발생 시 자동으로 정상적인 지역으로 연결을 전환하는 지리적 장애 조치 기능을 갖추어야 합니다. 이를 통해 특정 리전의 다운타임이 발생해도 애플리케이션은 중단 없이 운영될 수 있습니다.\n\n성공적인 배포를 위해서는 지연 시간 최적화와 지역 간 데이터 동기화 과정에서의 복잡성을 관리하는 것이 필수적입니다. 개발자는 Redis의 강력한 일관성 모델을 이해하고 애플리케이션 아키텍처에 맞게 재시도 로직과 상태 관리 기능을 적절히 설계해야 합니다. 결과적으로 이러한 고가용성 구성은 전 세계 사용자에게 안정적인 서비스를 제공하는 핵심적인 기반이 됩니다.",
+    "url": "https://redis.io/blog/stay-up-when-a-region-goes-down-highly-available-redis-for-python-applications/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Vladyslav Vildanov",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/09/23/building-the-github-copilot-inline-suggestions-model-part-two",
+    "title": "Building the new GitHub Copilot Inline Suggestions Model: Part Two",
+    "summary": "See how GitHub Copilot added completions to its unified inline suggestions model, refined ghost text and editor behavior, and improved user satisfaction.\nRead the full article",
+    "aiSummary": "GitHub Copilot은 통합 인라인 제안 모델에 새로운 완성 기능을 추가하는 과정을 상세히 설명합니다. 고스트 텍스트의 정밀도를 높이고 편집기 동작 방식을 개선함으로써 사용자 경험과 만족도를 효과적으로 향상시켰습니다. 이번 개선 작업은 모델의 성능을 최적화하고 개발자에게 더욱 원활하고 직관적인 코딩 환경을 제공하는 데 중점을 두었습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/09/23/building-the-github-copilot-inline-suggestions-model-part-two",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Julia Gong, Shengjie Ma, Ben Liggett, Ulugbek Abdullaev",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/rollouts-and-security-reviewer",
+    "title": "Rollouts and Security Review",
+    "summary": "Sep 23, 2026 · ChangelogRollouts and Security ReviewToday we're launching two Cursor bots for the last mile of shipping code. Rollouts watches every change as it deploys and reports its health per env",
+    "aiSummary": "Cursor가 코드 배포와 보안 검토를 자동화하기 위한 새로운 봇 기능인 Rollouts와 Security Review를 출시했습니다. 이 기능들은 현재 Teams 및 Enterprise 요금제 사용자를 대상으로 제공됩니다.\n\nRollouts는 풀 리퀘스트 단위로 코드 변경 사항을 모니터링하여 각 배포 환경별로 정상 여부를 판별하는 도구입니다. 사용자가 대시보드에서 소스 제어, 배포 시스템, 원격 측정 제공업체를 연결하면 기능이 활성화됩니다. 시스템은 풀 리퀘스트 생성 시 변경 사항을 분석하여 모니터링 계획을 제시하며, 실제 배포가 발생하면 로그와 메트릭, 추적 데이터를 바탕으로 변경 효과를 검증합니다. 회귀 오류가 감지될 경우 개발자에게 알림을 보내거나 수정 제안을 제공하며, 현재는 코드 병합이나 자동 롤백을 직접 수행하지는 않습니다.\n\nSecurity Review는 모든 풀 리퀘스트를 코드베이스 맥락에서 분석하여 보안 취약점을 탐지하는 기능입니다. 이 도구는 SQL 인젝션, 인증 및 인가 우회, SSRF, 안전하지 않은 역직렬화, 노출된 자격 증명 등 다양한 보안 위협을 식별합니다. 사용자 입력의 흐름을 추적하여 공격 경로를 파악하고, 각 발견 사항에 대한 심각도와 해결 방안을 함께 제공합니다. 개발자는 리포지토리별로 기능을 활성화할 수 있으며, 발견된 문제에 대해 타당한 사유를 제시하여 제외할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/rollouts-and-security-reviewer",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "fetchedAt": "2026-09-24T01:29:30.068Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
