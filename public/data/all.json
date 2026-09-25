@@ -1,5 +1,37 @@
 [
   {
+    "id": "219ec8af489642b8d1376bf298af0a210a58f33c",
+    "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+    "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in you",
+    "aiSummary": "Amazon EventBridge는 기업 규모의 이벤트 기반 애플리케이션을 위해 더욱 강화된 커스텀 이벤트 버스를 새롭게 발표했습니다.\n\n이번 업데이트를 통해 조직 내 모든 AWS 계정이 공유하는 단일 이벤트 버스를 배포할 수 있게 되었습니다. 또한 이벤트 순서 보장 기능과 간소화된 Subscriber 리소스를 제공하며, 대규모 환경에서의 비용 효율성을 크게 향상시켰습니다.\n\n이를 통해 여러 팀과 계정에 걸쳐 복잡하게 운영되던 이벤트 기반 시스템을 더욱 통합적이고 효율적으로 관리할 수 있게 됩니다.",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Micah Walter",
+    "pubDate": "2026-09-24T20:58:46.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+    "title": "Require proof of presence for high-impact actions",
+    "summary": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHu",
+    "aiSummary": "GitHub Enterprise Cloud 계정에서 중요한 작업을 수행할 때 사용자 본인 확인을 강화하는 Proof of presence 기능을 도입했습니다.\n\n이제 사용자가 계정에 큰 영향을 미치는 작업을 시도할 경우, 시스템은 대화형 재인증이나 다요소 인증 챌린지를 요구하게 됩니다. 이는 기존의 GitHub sudo 모드 기능을 확장한 것으로, 보안 사고를 예방하고 관리 권한의 안전성을 높이기 위한 조치입니다. 해당 기능을 통해 기업 환경에서 더욱 엄격하고 안전한 계정 운영이 가능해집니다.",
+    "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-24T20:28:33.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
     "title": "Rails Version 7.2.4 has been released!",
     "summary": "Hi everyone,\nI am happy to announce that Rails 7.2.4 has been released.\nAs stated in the maintenance policy, this\nis the last release of the 7.2.x series.\nSecurity issues and bug fixes will only be pr",
@@ -13,6 +45,38 @@
     "tags": [
       "Rails",
       "Ruby"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/2026-gartner-magic-quadrant-for-container-management/",
+    "title": "Google is a Leader in the 2026 Gartner Magic Quadrant for Container Management",
+    "summary": "We’re excited and proud to share that Gartner has recognized Google as a Leader for the fourth year in a row in the 2026 Gartner® Magic Quadrant™ for Container Management, based on its Completeness of",
+    "aiSummary": "Google이 2026 Gartner Magic Quadrant for Container Management 보고서에서 4년 연속 리더로 선정되었습니다. Google은 실행 능력 부문에서 평가 대상 기업 중 가장 높은 위치를 차지했으며, 2026 Gartner Critical Capabilities 보고서에서도 클라우드 네이티브 애플리케이션, AI 학습 및 추론, 엣지 및 하이브리드 애플리케이션 등 모든 사용 사례 분야에서 1위를 기록했습니다.\n\nGoogle은 GKE와 Cloud Run을 중심으로 AI 및 에이전트 환경에 최적화된 차세대 인프라를 구축하고 있습니다. 특히 GKE는 추론 게이트웨이의 예측 지연 시간 최적화, 자동 KV 캐시 계층화, 노드 및 포드 시작 속도 개선 등을 통해 AI 인프라의 성능과 효율성을 극대화했습니다. \n\n보안 및 확장성 측면에서는 에이전트 실행 런타임인 Agent Substrate와 gVisor 기반의 Agent Sandbox를 도입하여 대규모 멀티 에이전트 환경에서 제로 트러스트 보안과 효율적인 샌드박스 격리를 지원합니다. 또한 GKE의 클러스터당 노드 지원 규모를 15,000개로 확대하고, 의도 기반 오토스케일링을 통해 리소스 반응 속도를 대폭 단축했습니다.\n\n서버리스 플랫폼인 Cloud Run은 개발자 경험을 향상하기 위해 NVIDIA RTX PRO 6000 Blackwell GPU를 지원하며, 5초 이내에 GPU 리소스를 프로비저닝하고 사용 후 0으로 자동 확장하는 기능을 제공합니다. 더불어 Google AI Studio와의 연동, Cloud Run 인스턴스 도입 등 다양한 기술적 개선을 통해 AI 에이전트와 대규모 모델 운영을 위한 가장 강력한 컨테이너 플랫폼으로서의 입지를 다지고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/2026-gartner-magic-quadrant-for-container-management/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mark Lohmeyer"
+      ],
+      "title": [
+        "VP and GM, AI and Computing Infrastructure"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-24T19:00:00.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -175,6 +239,21 @@
       "Google",
       "Gemini",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-09-24-5",
+    "title": "PHP 8.4.26 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.26. This is a security release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.26",
+    "aiSummary": "PHP 개발팀은 보안 업데이트가 포함된 PHP 8.4.26 버전을 정식으로 출시하였습니다. \n\n이번 업데이트는 보안 취약점을 해결하기 위한 필수적인 조치이므로 모든 PHP 8.4 사용자는 최신 버전으로 업그레이드할 것을 권장합니다. \n\n소스 코드 및 Windows 바이너리는 공식 다운로드 페이지를 통해 확보할 수 있으며 상세한 변경 사항은 ChangeLog에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-09-24-5",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-09-24T15:26:06.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -396,6 +475,70 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/simd-experiment",
+    "title": "Platform-independent SIMD in Go",
+    "summary": "The Go Blog\nPlatform-independent SIMD in Go\nGo 1.26 and 1.27 include experimental APIs for Single Instruction Multiple Data (SIMD) operations. SIMD is a native feature of many modern CPUs that allows ",
+    "aiSummary": "Go 1.27 버전에서는 기존의 아키텍처 의존적인 SIMD API를 넘어, 플랫폼과 벡터 크기에 구애받지 않는 이식 가능한 실험적 SIMD 인터페이스를 도입하였습니다. 이 새로운 simd 패키지는 특정 하드웨어에 종속된 구현 대신, 여러 플랫폼의 공통된 연산 집합을 정의하고 이를 통해 일관된 성능과 이식성을 제공하는 것을 목표로 합니다.\n\n이 패키지는 벡터 크기를 타입 시스템에서 제거하고, 하드웨어에서 직접 지원하지 않는 연산에 대해서는 효율적인 에뮬레이션을 수행함으로써 코드가 모든 환경에서 실행되도록 보장합니다. 현재 AVX, AVX2, AVX512를 포함한 amd64와 arm64의 NEON, 그리고 wasm을 지원하며, 개발자는 GOEXPERIMENT=simd 설정을 통해 이 기능을 사용할 수 있습니다.\n\n또한, 기존의 하드웨어 특화 코드가 필요한 경우를 대비해 archsimd 패키지로 전환할 수 있는 기능을 제공합니다. 특정 연산이 패키지에서 누락되었더라도 사용자는 ToArch 및 FromArch 메서드를 사용하여 플랫폼별 최적화를 직접 구현할 수 있습니다. 이는 컴파일러 최적화를 통해 효율적으로 처리되며, 하드웨어 가속이 없는 환경을 위한 예비 에뮬레이션 코드까지 병행하여 관리할 수 있는 구조를 갖추고 있습니다.",
+    "url": "https://go.dev/blog/simd-experiment",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "David Chase and Junyang Shao",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/24/spring-cloud-2026-0-0-M1-has-been-released",
+    "title": "Spring Cloud 2026.0.0-M1 (aka Paddington) Has Been Released",
+    "summary": "On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the Spring Cloud 2026.0.0-M1 (https://cloud.spring.io/) Release Train is available today. The release can be found in ",
+    "aiSummary": "Spring Cloud 2026.0.0-M1(코드명 Paddington) 릴리스 트레인의 첫 번째 마일스톤 버전이 공개되었습니다. 이번 업데이트는 Spring Boot 4.2.0-M2를 기반으로 하며 주요 구성 요소들에 대한 기능 개선과 라이브러리 업그레이드를 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다. Spring Cloud Circuitbreaker는 Resilience4J 2.4.0으로 업그레이드되었습니다. Spring Cloud Config는 HTTP 속성 경로 알림기 기능이 추가되었고 Azure DevOps 워크로드 ID 지원이 강화되었습니다. Spring Cloud Gateway는 재시도 로직을 Reactor Addons에서 Framework Core로 이전했으며 신뢰할 수 없는 프록시에 대한 헤더 전달 문제를 해결했습니다. 이 외에도 Spring Cloud Openfeign은 Feign 13.14 버전으로, Spring Cloud Vault는 Spring Vault 4.1.0 버전으로 각각 상향 조정되었습니다.\n\nSpring Cloud Build, Bus, Consul, Function, Kubernetes, Netflix, Stream, Task, Zookeeper 등 다수의 모듈이 5.1.0-M1 버전으로 일괄 업데이트되었습니다. 개발자는 Maven 또는 Gradle 설정을 통해 해당 마일스톤 버전을 프로젝트에 적용할 수 있으며 상세 정보는 공식 GitHub 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/09/24/spring-cloud-2026-0-0-M1-has-been-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ryanjbaxter",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/09/24/spring-security-7-2-0-M2-available-now",
+    "title": "Spring Security 7.2.0-M2 available now",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring Security 7.2.0-M2 버전이 새롭게 출시되었습니다. 이번 릴리스는 프로젝트의 최신 기능을 포함하고 있으며, Spring Framework 생태계 내에서 더욱 안정적인 보안 환경을 제공하기 위한 업데이트를 담고 있습니다. 사용자들은 공식 저장소를 통해 해당 버전을 확인하고 프로젝트에 적용할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/09/24/spring-security-7-2-0-M2-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "jgrandja",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/the-official-fastapi-redis-sdk-is-now-available/",
+    "title": "The official FastAPI Redis SDK is now available",
+    "summary": "FastAPI now has an official Redis integration. With the fastapi-redis-sdk, we worked closely with the FastAPI team on what a naturally integrated Redis experience should look like, following FastAPI’s",
+    "aiSummary": "FastAPI 공식 Redis 통합 도구인 fastapi-redis-sdk가 새롭게 출시되었습니다. 이번 SDK는 FastAPI 팀과의 긴밀한 협력을 통해 개발되었으며, 외부 라이브러리를 억지로 통합하는 방식 대신 FastAPI의 의존성 주입 모델을 따르는 자연스러운 통합 경험을 제공합니다. 이를 통해 개발자는 FastAPI 프로젝트 내에서 보다 직관적이고 효율적으로 Redis를 활용할 수 있게 됩니다.",
+    "url": "https://redis.io/blog/the-official-fastapi-redis-sdk-is-now-available/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Tisho Mateev, Mirko Ortensi",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-25T01:38:01.582Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
