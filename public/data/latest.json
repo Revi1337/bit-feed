@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+    "title": "Enterprise managed settings in-product validator",
+    "summary": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors th",
+    "aiSummary": "GitHub Copilot을 위한 기업용 관리 설정 내장 검사기 기능이 새롭게 도입되었습니다.\n\n이 도구는 기업 환경에서 설정 파일을 구성할 때 발생할 수 있는 JSON 형식 오류나 지원되지 않는 설정값, 잘못된 팀 매핑 정보 등을 실시간으로 탐지합니다.\n\n이를 통해 설정 과정에서 발생할 수 있는 오류를 사전에 방지하여 기업 관리자가 GitHub Copilot 설정을 더욱 안정적이고 효율적으로 운영할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-25T23:24:57.000Z",
+    "fetchedAt": "2026-09-26T01:42:18.111Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+    "title": "Usage metrics API adds pull request review stages",
+    "summary": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-",
+    "aiSummary": "GitHub가 기업 및 조직 단위의 Copilot 사용 통계 API를 업데이트했습니다. 이번 업데이트를 통해 저장소 수준의 보고서에서 Pull Request가 검토 과정의 각 단계별로 소요하는 시간을 상세하게 파악할 수 있게 되었습니다. \n\n구체적으로는 각 저장소의 일일 데이터 항목에 pull_request_review_times 배열이 추가되었습니다. 이를 활용하면 개발 팀은 Pull Request 검토 지연 구간을 식별하고 워크플로우 효율성을 개선하는 데 필요한 정밀한 데이터를 확보할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-25T21:09:40.000Z",
+    "fetchedAt": "2026-09-26T01:42:18.111Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+    "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
+    "summary": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. “Relates to” issue relationshi",
+    "aiSummary": "GitHub의 Repository issues 페이지에서 개인용 저장 뷰 기능을 사용할 수 있게 되었습니다. 이를 통해 사용자는 자신만의 맞춤형 이슈 필터와 정렬 방식을 개인적으로 저장하여 업무 효율을 높일 수 있습니다.\n\n또한 이슈 간의 연관성을 명시할 수 있는 Relates to 관계 설정 기능도 정식으로 출시되었습니다. 이 기능을 활용하면 서로 관련된 이슈를 명확하게 연결하여 프로젝트의 맥락을 더욱 체계적으로 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-25T19:05:03.000Z",
+    "fetchedAt": "2026-09-26T01:42:18.111Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
     "title": "Changes to query results in the GitHub Actions API and UI",
     "summary": "Queries for workflow runs in the GitHub Actions API and UI now return a less precise but more accurate count of records when you search by workflow, event, status, branch,…\nThe post Changes to query r",
@@ -122,6 +170,38 @@
     },
     "pubDate": "2026-09-25T16:00:00.000Z",
     "fetchedAt": "2026-09-25T19:20:53.689Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
+    "title": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
+    "summary": "Introduction \nAs an update to the June 2026 post, ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit, Mandiant and Google Threat Intelligence Group (GTIG) have identified renewed mas",
+    "aiSummary": "Mandiant와 Google Threat Intelligence Group은 UNC6240으로 알려진 위협 행위자 ShinyHunters가 Oracle PeopleSoft의 취약점인 CVE-2026-35273을 악용하여 대규모 공격 캠페인을 재개했음을 확인하였습니다. 공격자는 기존 보안 규칙을 우회하기 위해 URL 인코딩 기법을 활용하여 웹 애플리케이션 방화벽(WAF)의 차단 설정을 무력화하였으며, 이를 통해 전 세계 교육, 기술, IT 서비스, 의료, 정부 등 다양한 분야의 시스템을 공격 대상으로 삼고 있습니다.\n\n공격자는 PSEMHUB 엔드포인트를 표적으로 삼아 Java 역직렬화 취약점을 악용하며, 웹 쉘 배포와 파일 없는 명령 실행 방식을 혼용하여 시스템에 침투합니다. 특히 x.jsp와 u.jsp와 같은 웹 쉘을 활용하여 운영체제 명령을 수행하고, SIDEEYE로 명명된 트로이 목마 형태의 백도어 Ple64.exe를 배포하여 지속적인 접근 권한을 확보합니다. 또한 공격자는 Neo-reGeorg 도구를 이용해 터널링을 수행하거나, 합법적인 원격 관리 도구인 MeshAgent를 악용하여 시스템에 대한 제어권을 유지하고 있습니다.\n\nMandiant는 이러한 위협으로부터 보호하기 위해 즉각적으로 CVE-2026-35273에 대한 보안 패치를 적용하고, 불필요한 EMHub 서비스를 비활성화하거나 PSEMHUB 애플리케이션을 제거할 것을 강력히 권고합니다. 또한 WebLogic 접근 로그에서 /PSEMHUB/에 대한 비정상적인 요청과 인코딩된 변칙 경로를 지속적으로 모니터링해야 합니다. \n\n이미 침해된 시스템의 경우, 웹 쉘을 포함한 의심스러운 파일들을 즉시 검사하고, WebLogic 서비스 계정을 포함하여 애플리케이션과 데이터베이스에서 접근 가능한 모든 자격 증명을 교체해야 합니다. 공격자가 관리자 권한을 획득했을 가능성이 높으므로, 침해 여부를 면밀히 조사하고 보안 강화 가이드라인에 따라 철저한 대응 조치를 취해야 합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mandiant "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-09-25T14:00:00.000Z",
+    "fetchedAt": "2026-09-26T01:42:18.111Z",
     "tags": [
       "GCP",
       "Cloud"
@@ -2260,55 +2340,6 @@
     "fetchedAt": "2026-09-20T18:13:48.476Z",
     "tags": [
       "Java"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.2.7",
-    "title": "1.2.7",
-    "summary": "Added inline Kitty graphics rendering for LaTeX math equations ($$...$$ and fenced math, latex, and tex blocks) and Mermaid flowcharts and sequence diagrams in the artifact detail viewer, with Unicode",
-    "aiSummary": "Artifact detail viewer 내 LaTeX 수식과 Mermaid 다이어그램에 대한 인라인 렌더링 기능을 추가하였으며 Unicode ASCII 대체 표시와 좌우 스크롤, 뷰 전환 기능을 지원합니다.\n\nask_question 대화형 프롬프트의 탐색 기능을 개선하여 화살표 키 이동과 답변 미리보기, 상태 표시, 최종 단계에서의 즉시 제출 기능을 적용하였습니다.\n\n엔터프라이즈 계정의 CLI 시작 배너에 Google Cloud Project ID를 표시하도록 개선하였고 모델 API 재시도 시 대기 시간을 최대 30초로 제한하여 응답성을 높였습니다.\n\n커스터마이징 토큰 예산을 사용자 및 워크스페이스 규칙에 대해 20,000 토큰을 별도로 할당하여 대규모 규칙 세트가 주요 기능이나 MCP 도구를 밀어내지 않도록 최적화하였습니다.\n\n사용량 패널의 가독성을 위해 중복된 할당량 표시를 제거하였으며 기본 에이전트 도구 세트에서 레거시 도구들을 퇴출하고 개별 설정이 필요한 에이전트에서만 선택적으로 사용하도록 변경하였습니다.\n\n플러그인 슬래시 명령어 중복 문제와 플러그인 업데이트 시 잔여 프로세스가 남는 문제를 수정하였으며 플러그인 ID 검증을 강화하였습니다.\n\nBubble Tea 버전을 v2.0.9로 업그레이드하여 터미널 렌더링 및 키보드 프로토콜 처리를 안정화하였고 CLI 실행 시 발생하는 헤드리스 모드 오류와 데스크톱 앱 상태 동기화 문제를 해결하였습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.7",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-09-19T01:01:52.000Z",
-    "fetchedAt": "2026-09-19T01:17:42.135Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-    "title": "Copilot code review: An improved review experience",
-    "summary": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept…\nThe post",
-    "aiSummary": "GitHub의 Copilot code review 기능이 더욱 향상된 사용자 경험을 제공합니다. 이번 업데이트를 통해 코드 리뷰 과정에서 발생하는 변경 사항을 시간 흐름에 따라 더 명확하게 파악할 수 있게 되었습니다.\n\n또한 AI가 제안한 내용을 스스로 인지하고 지능적으로 해결하는 자동 해결 기능이 강화되었습니다. 사용자가 Copilot의 제안을 수락할 경우 유용한 커밋 메시지를 자동으로 생성해 주는 기능이 추가되어 개발자의 작업 효율성이 한층 높아졌습니다.",
-    "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-18T20:17:22.000Z",
-    "fetchedAt": "2026-09-19T01:17:42.135Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
-    "title": "Manage the code coverage ruleset condition with the REST API",
-    "summary": "You can now use the generally available REST API to manage the Restrict code coverage repository ruleset option, in addition to the existing UI support. This ruleset lets you enforce…\nThe post Manage ",
-    "aiSummary": "GitHub은 기존에 UI를 통해서만 제공되던 Restrict code coverage 저장소 규칙 설정 기능을 이제 REST API를 통해서도 관리할 수 있도록 지원합니다.\n\n개발자는 이번 업데이트를 통해 REST API를 활용하여 코드 커버리지 규칙을 더욱 유연하고 자동화된 방식으로 제어할 수 있게 되었습니다. 이는 대규모 프로젝트나 복잡한 워크플로우를 운영하는 팀이 저장소의 품질 기준을 프로그램 방식으로 일관되게 관리하는 데 큰 도움을 줄 것으로 기대됩니다.",
-    "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-18T19:23:49.000Z",
-    "fetchedAt": "2026-09-19T01:17:42.135Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
