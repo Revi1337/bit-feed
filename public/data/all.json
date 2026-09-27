@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.12",
+    "title": "1.2.12",
+    "summary": "Improved scrolling in the full-screen view: bursts of mouse-wheel or trackpad events are now coalesced before redrawing, which cuts CPU use and reduces scroll lag in long conversations and the artifac",
+    "aiSummary": "전체 화면 보기에서 마우스 휠이나 트랙패드 입력 이벤트를 통합 처리하도록 개선하여 CPU 사용량을 줄이고 긴 대화 및 아티팩트 뷰어에서의 스크롤 지연 현상을 해결했습니다.\n\nGemini API 사용과 관련하여 일일 할당량 소진, 결제 계정 한도 초과 등의 문제가 발생할 경우 즉시 세션을 종료하도록 변경하여 불필요한 재시도 시간을 줄였습니다. 다만 분 단위의 일시적인 속도 제한에 대해서는 기존대로 재시도를 유지합니다.\n\n긴 대화를 불러올 때 발생하는 지연 현상을 개선했습니다. 이전 도구 그룹을 즉시 완료된 상태로 표시하고 재생 중 키 입력 시 기록이 갱신되는 문제를 수정하여 대화 재개 속도를 높였습니다.\n\nGNU screen, tmux, Zellij 등 터미널 다중화 환경에서 CLI 실행 시 탭 제목이 비정상적으로 변경되던 문제를 해결했습니다. 이제 다중화기를 통한 이미지 지원 탐색을 중단하며 CLI_GRAPHICS=kitty 설정으로 이미지 모드를 강제할 수 있습니다.\n\nVim 모드의 동작 오류를 다수 수정했습니다. 비영어권 문자를 정상적으로 인식하도록 개선했으며, 비주얼 모드에서 선택 영역이 비정상적으로 종료되는 현상과 D, C, ~/u/U 명령 실행 시 실행 취소 기록이 삭제되던 버그를 고쳤습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.12",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-09-27T05:06:15.000Z",
+    "fetchedAt": "2026-09-27T13:08:34.971Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/09/26/jep539-target-jdk28/",
     "title": "JEP targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)",
     "summary": "The following JEP is targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/539.",
@@ -826,6 +843,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/choosing-hosting-and-postgres-after-your-first-100-users",
+    "title": "Hosting and Postgres after your first 100 users",
+    "summary": "A scaling checklist, where to run your app, what Postgres costs at 100, 1,000 and 10,000 users with the arithmetic shown, and signs you have outgrown it.",
+    "aiSummary": "사용자 100명 달성 이후 고려해야 할 애플리케이션 호스팅 및 Postgres 데이터베이스 운영 전략을 다루고 있습니다.\n\n사용자 규모가 100명, 1,000명, 10,000명으로 증가함에 따라 변화하는 Postgres 운영 비용을 상세한 산술적 계산을 통해 제시합니다.\n\n애플리케이션을 구동하기 위한 적절한 호스팅 환경 선택 기준을 설명하며 데이터베이스 확장이 필요한 시점을 판단하는 구체적인 신호와 체크리스트를 제공합니다.",
+    "url": "https://www.prisma.io/blog/choosing-hosting-and-postgres-after-your-first-100-users",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-09-27T13:08:34.971Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
@@ -1838,6 +1872,23 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/where-to-host-typescript-frontend-node-api-postgres",
+    "title": "Where to host a TypeScript frontend, API and Postgres",
+    "summary": "Railway, Render, Fly.io and Prisma compared for a TypeScript frontend, a Node API and Postgres from one GitHub repo: databases, deploys, previews and limits.",
+    "aiSummary": "Railway, Render, Fly.io, Prisma를 활용하여 단일 GitHub 저장소에서 TypeScript 프론트엔드와 Node API, Postgres 데이터베이스를 운영하는 방식을 비교 분석합니다.\n\n각 서비스는 데이터베이스 관리, 자동 배포 프로세스, 프론트엔드 프리뷰 기능, 그리고 서비스별 운영 제한 사항에서 차이를 보입니다. 개발 환경 구성의 복잡도와 성능 최적화를 고려하여 프로젝트의 요구 사항에 가장 적합한 호스팅 플랫폼을 선택하는 기준을 제시합니다.",
+    "url": "https://www.prisma.io/blog/where-to-host-typescript-frontend-node-api-postgres",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-09-22T00:00:00.000Z",
+    "fetchedAt": "2026-09-27T13:08:34.971Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
@@ -3404,6 +3455,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "/blog/prisma-vs-netlify",
+    "title": "Netlify alternatives for a full-stack TypeScript app",
+    "summary": "Netlify alternatives for a TypeScript app with Postgres: why teams leave, short profiles of Prisma, Vercel, Render, Railway, Supabase and Neon, and a feature-parity table.",
+    "aiSummary": "풀스택 TypeScript 애플리케이션 개발 환경에서 Postgres 데이터베이스를 통합하여 운영할 때 Netlify의 대안으로 고려할 수 있는 플랫폼들을 분석합니다.\n\n많은 팀이 개발 환경의 변화나 서비스 요구사항에 따라 Netlify를 떠나는 이유를 설명하며 Prisma, Vercel, Render, Railway, Supabase, Neon과 같은 주요 서비스들의 특징을 요약합니다.\n\n각 서비스가 제공하는 기능의 범위와 차이를 한눈에 비교할 수 있는 대조표를 통해 기술 스택 선정에 도움을 줍니다. 프로젝트의 규모와 데이터베이스 연결 방식에 따라 가장 적합한 배포 및 관리 플랫폼을 선택하는 기준을 제시합니다.",
+    "url": "https://www.prisma.io/blog/prisma-vs-netlify",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "fetchedAt": "2026-09-27T13:08:34.971Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
