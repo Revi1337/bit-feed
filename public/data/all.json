@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://www.percona.com/?p=53966",
+    "title": "When pt-online-schema-change “where” Meets Galera: Understanding Chunk Auto-Resize and Flow Control",
+    "summary": "Percona Toolkit’s pt-online-schema-change (pt-osc) has long been the preferred solution for performing online schema changes with minimal downtime. Its chunk-based copy algorithm is designed to adapt ",
+    "aiSummary": "Percona Toolkit의 pt-online-schema-change는 대규모 데이터베이스 테이블의 온라인 스키마 변경을 위해 널리 사용되는 도구이며 워크로드에 따라 청크 크기를 동적으로 조절하는 알고리즘을 갖추고 있습니다.\n\n하지만 Galera Cluster 환경에서 이 도구의 where 절을 사용할 경우 청크 자동 크기 조절 기능이 예상치 못한 문제를 유발할 수 있습니다. 특히 청크 크기가 자동으로 조정되는 과정에서 Galera의 Flow Control 메커니즘과 충돌하면 데이터 복제 지연이나 성능 저하가 발생할 수 있습니다.\n\n따라서 Galera 환경에서 pt-online-schema-change를 운영할 때는 청크 크기 조절 메커니즘과 클러스터의 상태 변화를 면밀히 모니터링해야 합니다. 운영 환경의 안정성을 위해 관련 기술적 상호작용을 이해하고 적절한 튜닝 전략을 수립하는 것이 매우 중요합니다.",
+    "url": "https://www.percona.com/blog/when-pt-online-schema-change-where-meets-galera-understanding-chunk-auto-resize-and-flow-control/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Corrado Pandiani",
+    "pubDate": "2026-09-28T13:56:53.000Z",
+    "fetchedAt": "2026-09-28T15:39:04.320Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=742624",
+    "title": "Rider 2026.2.3 Is Released!",
+    "summary": "Rider 2026.2.3 brings AI performance analysis to the Monitoring tool window and fixes an issue with the AI Agent Setup widget on Windows. You can update directly from the IDE, through the Toolbox App,",
+    "aiSummary": "JetBrains의 통합 개발 환경인 Rider 2026.2.3 버전이 새롭게 출시되었습니다.\n\n이번 업데이트의 핵심은 Monitoring 도구 창에 AI 성능 분석 기능이 추가된 점입니다. 이를 통해 사용자는 개발 환경 내에서 AI 관련 성능 정보를 직접 확인하고 분석할 수 있게 되었습니다.\n\n또한 Windows 운영체제에서 발생하던 AI Agent Setup 위젯 관련 오류가 수정되었습니다. 사용자는 IDE 내의 자체 업데이트 기능이나 Toolbox App, 또는 공식 웹사이트를 통해 최신 버전을 설치할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/dotnet/2026/09/28/rd-2026-2-3/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Alexander Kurakin",
+    "pubDate": "2026-09-28T12:25:44.000Z",
+    "fetchedAt": "2026-09-28T15:39:04.320Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.1.1",
+    "title": "v12.1.1",
+    "summary": "v12.1.1 (2026-09-28)\nBug fixes\ncommon, core, microservices, testing\n\n#17893 fix(common): logger bugs in json output, level changes, fatal and buffered logs (@kamilmysliwiec)\nmicroservices\n\n#17891 fix(",
+    "aiSummary": "NestJS v12.1.1 버전이 2026년 9월 28일에 공개되었습니다. 이번 업데이트는 주로 버그 수정과 안정성 개선에 초점을 맞추고 있습니다.\n\n가장 많은 수정이 이루어진 microservices 부문에서는 MQTT, TCP, NATS, Kafka, RMQ, Redis 등 다양한 메시징 프로토콜에서의 연결 재시도 로직과 이벤트 리스너 처리 방식이 개선되었습니다. 이를 통해 비정상적인 연결 종료나 재연결 상황에서 클라이언트가 안정적으로 복구될 수 있도록 조치하였습니다.\n\ncore 및 common 모듈에서는 로거의 JSON 출력 및 레벨 제어 버그가 수정되었으며, 순환 의존성 감지 범위가 확대되었습니다. 또한, enum 값 유지와 관련된 이슈가 해결되었고, ParseArrayPipe의 유효성 검증 기능이 강화되었습니다.\n\nplatform-fastify에서는 JSON 콘텐츠 타입 처리 방식이 개선되었으며, core와 testing 모듈 간의 클래스 및 팩토리 오버라이드 관련 이슈도 해결되었습니다. 마지막으로 microservices 패키지 루트에서 역직렬화 도구를 내보내는 새로운 기능이 추가되었습니다. 이번 릴리스에는 총 13명의 기여자가 참여하였습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.1.1",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-09-28T09:06:52.000Z",
+    "fetchedAt": "2026-09-28T15:39:04.320Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/09/28/performance-update-jdk27/",
+    "title": "Performance Improvements in JDK 27",
+    "summary": "JDK 27 continues the steady cadence of performance work across the JDK. More than 2,300 commits have landed in OpenJDK since JDK 26, including changes to the libraries, garbage collectors, JIT compile",
+    "aiSummary": "JDK 27은 라이브러리, 가비지 컬렉터, JIT 컴파일러, 런타임 전반에 걸쳐 2,300건 이상의 커밋이 반영된 대규모 성능 업데이트를 포함하고 있습니다. 가장 주목할 만한 변화는 Compact Object Headers 기능이 기본적으로 활성화된 점과 G1 가비지 컬렉터가 모든 환경에서 기본값으로 적용된 것입니다.\n\n라이브러리 분야에서는 LazyConstants가 세 번째 프리뷰를 맞이하였으며 HashMap의 대량 복사 성능 최적화, AttributedString 처리 속도 개선, URL 포맷팅 효율성 향상 등이 이루어졌습니다. 또한 파일 열기 과정에서 불필요한 시스템 호출을 제거하고, AES와 SHA-3 등 다양한 암호화 알고리즘에 대한 하드웨어 가속 지원을 강화하여 보안 성능을 높였습니다.\n\n가비지 컬렉션 측면에서는 G1 가비지 컬렉터의 기본 적용 외에도 가비지 수집 과정에서 발생할 수 있는 병목 현상과 비효율적인 루프 동작을 수정하여 안정성을 확보했습니다. 특히 생성형 Shenandoah 가비지 컬렉터의 성숙도 또한 지속적으로 개선되고 있습니다.\n\nJIT 컴파일러인 C2는 벡터 연산 최적화를 더욱 강화했습니다. 슈퍼워드 자동 벡터화 기능이 개선되어 더 많은 반복문이 SIMD 명령어로 변환되며, 비트 단위의 스칼라 단순화 및 상수 폴딩 최적화를 통해 코드 실행 효율을 높였습니다. 또한 과거 컴파일러 변경으로 인해 발생했던 성능 회귀 문제를 해결하여 기존 최적화 코드의 성능 유지에도 주력했습니다.\n\n이러한 개선 사항들은 서버 환경뿐만 아니라 소규모 컨테이너 및 개발 환경에서도 일관된 성능을 제공하는 데 중점을 두고 있습니다. 사용자는 자신의 워크로드에 맞는 하드웨어 환경에서 성능을 직접 검증하여 최신 JDK의 이점을 활용할 수 있습니다.",
+    "url": "https://inside.java/2026/09/28/performance-update-jdk27/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Per-Ake Minborg",
+    "pubDate": "2026-09-28T00:00:00.000Z",
+    "fetchedAt": "2026-09-28T15:39:04.320Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.12",
     "title": "1.2.12",
     "summary": "Improved scrolling in the full-screen view: bursts of mouse-wheel or trackpad events are now coalesced before redrawing, which cuts CPU use and reduces scroll lag in long conversations and the artifac",
