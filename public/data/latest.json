@@ -1,5 +1,21 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.142.1",
+    "title": "0.142.1",
+    "summary": "Fixes\n🐛 Fix repeated endpoint wrapping in included routers. PR #16414 by @tiangolo.",
+    "aiSummary": "FastAPI 라이브러리의 0.142.1 버전 업데이트가 진행되었습니다. 이번 업데이트는 포함된 라우터에서 엔드포인트가 반복적으로 래핑되는 문제를 해결하는 버그 수정을 포함하고 있습니다. 해당 수정 사항은 tiangolo에 의해 PR #16414를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-09-29T22:36:03.000Z",
+    "fetchedAt": "2026-09-30T02:12:03.146Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
     "title": "Repository custom runner settings for Dependabot",
     "summary": "As a repository administrator, you can now configure the runner type, optional custom label, and optional runner group for Dependabot version and security updates. This extends the runner configuratio",
@@ -319,6 +335,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/redis-expands-strategic-collaboration-agreement-with-aws-to-accelerate-real-rime-and-ai-applications/",
+    "title": "Redis expands strategic collaboration agreement with AWS to accelerate real-time data and AI apps",
+    "summary": "Expanded collaboration will help customers modernize apps, build faster AI experiences, and simplify adoption of Redis Cloud on AWS\n\nRedis has announced an expansion of its strategic collaboration agr",
+    "aiSummary": "Redis가 실시간 데이터 처리와 AI 애플리케이션 개발을 가속화하기 위해 AWS와의 전략적 협력 계약을 대폭 확대했습니다. 이번 협력을 통해 고객은 AWS 기반의 Redis Cloud를 더욱 간편하게 도입하고 애플리케이션 현대화를 추진할 수 있게 됩니다.\n\n양사는 공동 판매 활동과 기술 통합을 강화하여 기업이 데이터 기반의 고성능 AI 경험을 신속하게 구축하도록 지원할 예정입니다. 특히 AWS 환경에서 Redis의 실시간 성능을 극대화하여 차세대 AI 서비스 개발을 앞당기는 데 집중할 계획입니다.\n\n이번 파트너십 확장은 고객이 복잡한 인프라 관리 부담을 줄이고 AI 애플리케이션의 출시 속도를 높이는 데 기여할 것으로 전망됩니다. 앞으로 두 기업은 클라우드 네이티브 환경에서의 데이터 가용성을 높이고 혁신적인 디지털 솔루션을 제공하는 데 협력할 것입니다.",
+    "url": "https://redis.io/blog/redis-expands-strategic-collaboration-agreement-with-aws-to-accelerate-real-rime-and-ai-applications/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Mike  Moss ",
+    "pubDate": "2026-09-29T00:00:00.000Z",
+    "fetchedAt": "2026-09-30T02:12:03.146Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -2074,299 +2107,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-    "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-    "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-    "aiSummary": "OpenAI가 자사의 광고 서비스인 ChatGPT Ads를 동남아시아와 대만 지역으로 확대합니다. 이를 통해 해당 지역의 기업들은 전 세계 60개국 이상의 잠재 고객들에게 더욱 효과적으로 도달할 수 있는 새로운 마케팅 기회를 얻게 됩니다.",
-    "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-09-23T02:00:00.000Z",
-    "fetchedAt": "2026-09-24T12:47:03.990Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
-    "title": "Terraform provider for Google Cloud 8.0 now generally available ",
-    "summary": "The Terraform provider for Google Cloud connects Terraform configurations to Google Cloud, giving teams a consistent way to provision and manage Google Cloud infrastructure as code. Today, we are anno",
-    "aiSummary": "Terraform provider for Google Cloud 8.0 버전이 정식 출시되었습니다. 이번 메이저 업데이트는 기존 인프라 관리 방식을 현대화하고 예측 가능한 설계를 지원하는 데 중점을 두었습니다.\n\n가장 눈에 띄는 변화는 Application Load Balancer 기본값의 변경입니다. google_compute_backend_service 및 google_compute_global_forwarding_rule에서 기본 로드 밸런싱 방식이 EXTERNAL에서 EXTERNAL_MANAGED로 변경되었으므로, 기존 Classic Application Load Balancer를 유지해야 하는 경우 별도의 설정이 필요합니다.\n\n또한 서비스 종료나 대체가 완료된 리소스들이 대거 삭제되었습니다. IAP OAuth Admin API 관련 리소스, 구형 Notebooks 제품군, google_ml_engine_model, google_beyondcorp 리소스, 그리고 google_vertex_ai_schedule 등이 포함됩니다. 이러한 항목들은 하위 호환성을 제공하지 않는 파괴적 변경 사항이므로 업그레이드 전 반드시 수정이 요구됩니다.\n\n인프라 관리 효율성을 높이기 위한 기능들도 강화되었습니다. Terraform 계획의 예측 가능성을 높이기 위해 순서가 중요하지 않은 속성들을 리스트에서 세트로 변경하여 불필요한 차이 발생을 방지했습니다. 또한 유효성 검사 로직을 강화하여 구성 오류를 사전에 감지할 수 있도록 했습니다.\n\n기존 7.x 버전에서 도입된 기능들은 8.0에서도 계속 확장되었습니다. 특히 기존 인프라를 탐색하고 Terraform 관리 하에 두는 List 리소스 지원 서비스가 Compute Engine, IAM, BigQuery 등으로 넓어졌습니다. 더불어 보안을 강화하기 위해 AlloyDB 비밀번호, 인증서 프라이빗 키 등 민감한 정보를 상태 파일에 저장하지 않는 write-only 속성 지원도 확대되었습니다.\n\n사용자는 업그레이드 전 Terraform provider for Google Cloud 8.0 Upgrade Guide를 참조하여 변경 사항을 확인해야 합니다. 안전한 전환을 위해 최신 7.x 버전으로 우선 업데이트하여 경고 메시지를 해결하고, 비운영 환경에서 충분한 테스트를 거친 후 배포하는 것을 권장합니다.",
-    "url": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Tiberiu Radu",
-    "pubDate": "2026-09-23T01:33:34.919Z",
-    "fetchedAt": "2026-09-23T01:33:34.919Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
-    "title": "New features and improvements in Copilot for JetBrains",
-    "summary": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with t",
-    "aiSummary": "GitHub Copilot for JetBrains 1.18.0 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 AI 지원 도구 승인 기능이 추가되어 개발자가 AI의 동작을 더욱 세밀하게 제어할 수 있게 된 점입니다.\n\n사용자는 에이전트와의 대화 흐름을 더 효과적으로 관리할 수 있으며 조직 차원에서 기술 공유 및 지침 설정을 지원하여 팀 단위의 작업 효율을 높였습니다. 또한 Codex를 통해 생성된 계획을 검토할 수 있는 기능이 포함되어 개발 생산성과 편의성이 강화되었습니다.",
-    "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-23T00:34:18.000Z",
-    "fetchedAt": "2026-09-23T01:33:34.919Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/09/23/spring-data-2026-1-0-M2-released",
-    "title": "Spring Data 2026.1.0-M2 released",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Data 2026.1.0-M2 버전이 새롭게 출시되었습니다. 해당 업데이트는 Broadcom의 관리하에 진행되었으며 관련 저작권 및 상표권 정책을 준수합니다. 본 문서는 Apache, Java, Kubernetes, Linux, Microsoft, AWS 등 다양한 기술 생태계의 상표권 정보를 포함하고 있으며 특정 기술과의 연관성을 명시하고 있습니다.",
-    "url": "https://spring.io/blog/2026/09/23/spring-data-2026-1-0-M2-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "mp911de",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T12:47:03.990Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/stay-up-when-a-region-goes-down-highly-available-redis-for-python-applications/",
-    "title": "Stay up when a region goes down: Highly available Redis for Python apps",
-    "summary": "Active-Active Redis & client-side geographic failover\n\nActive-Active Redis distributes data across multiple regions, allowing each regional database instance to serve both reads and writes. What kind ",
-    "aiSummary": "Active-Active Redis는 여러 지역에 데이터를 분산하여 각 지역의 데이터베이스 인스턴스가 읽기와 쓰기를 모두 처리할 수 있도록 지원합니다. 이 기술은 충돌 없는 복제 알고리즘인 CRDT를 사용하여 지역 간 데이터 일관성을 유지하며 특정 지역에 장애가 발생하더라도 서비스 중단 없이 가용성을 확보합니다.\n\nPython 애플리케이션에서 이러한 구조를 구현하기 위해서는 클라이언트 측의 전략이 중요합니다. Redis 클라이언트는 다중 지역을 인식하고 장애 발생 시 자동으로 정상적인 지역으로 연결을 전환하는 지리적 장애 조치 기능을 갖추어야 합니다. 이를 통해 특정 리전의 다운타임이 발생해도 애플리케이션은 중단 없이 운영될 수 있습니다.\n\n성공적인 배포를 위해서는 지연 시간 최적화와 지역 간 데이터 동기화 과정에서의 복잡성을 관리하는 것이 필수적입니다. 개발자는 Redis의 강력한 일관성 모델을 이해하고 애플리케이션 아키텍처에 맞게 재시도 로직과 상태 관리 기능을 적절히 설계해야 합니다. 결과적으로 이러한 고가용성 구성은 전 세계 사용자에게 안정적인 서비스를 제공하는 핵심적인 기반이 됩니다.",
-    "url": "https://redis.io/blog/stay-up-when-a-region-goes-down-highly-available-redis-for-python-applications/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Vladyslav Vildanov",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T01:29:30.068Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/blogs/2026/09/23/building-the-github-copilot-inline-suggestions-model-part-two",
-    "title": "Building the new GitHub Copilot Inline Suggestions Model: Part Two",
-    "summary": "See how GitHub Copilot added completions to its unified inline suggestions model, refined ghost text and editor behavior, and improved user satisfaction.\nRead the full article",
-    "aiSummary": "GitHub Copilot은 통합 인라인 제안 모델에 새로운 완성 기능을 추가하는 과정을 상세히 설명합니다. 고스트 텍스트의 정밀도를 높이고 편집기 동작 방식을 개선함으로써 사용자 경험과 만족도를 효과적으로 향상시켰습니다. 이번 개선 작업은 모델의 성능을 최적화하고 개발자에게 더욱 원활하고 직관적인 코딩 환경을 제공하는 데 중점을 두었습니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/09/23/building-the-github-copilot-inline-suggestions-model-part-two",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Julia Gong, Shengjie Ma, Ben Liggett, Ulugbek Abdullaev",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T01:29:30.068Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/rollouts-and-security-reviewer",
-    "title": "Rollouts and Security Review",
-    "summary": "Sep 23, 2026 · ChangelogRollouts and Security ReviewToday we're launching two Cursor bots for the last mile of shipping code. Rollouts watches every change as it deploys and reports its health per env",
-    "aiSummary": "Cursor가 코드 배포와 보안 검토를 자동화하기 위한 새로운 봇 기능인 Rollouts와 Security Review를 출시했습니다. 이 기능들은 현재 Teams 및 Enterprise 요금제 사용자를 대상으로 제공됩니다.\n\nRollouts는 풀 리퀘스트 단위로 코드 변경 사항을 모니터링하여 각 배포 환경별로 정상 여부를 판별하는 도구입니다. 사용자가 대시보드에서 소스 제어, 배포 시스템, 원격 측정 제공업체를 연결하면 기능이 활성화됩니다. 시스템은 풀 리퀘스트 생성 시 변경 사항을 분석하여 모니터링 계획을 제시하며, 실제 배포가 발생하면 로그와 메트릭, 추적 데이터를 바탕으로 변경 효과를 검증합니다. 회귀 오류가 감지될 경우 개발자에게 알림을 보내거나 수정 제안을 제공하며, 현재는 코드 병합이나 자동 롤백을 직접 수행하지는 않습니다.\n\nSecurity Review는 모든 풀 리퀘스트를 코드베이스 맥락에서 분석하여 보안 취약점을 탐지하는 기능입니다. 이 도구는 SQL 인젝션, 인증 및 인가 우회, SSRF, 안전하지 않은 역직렬화, 노출된 자격 증명 등 다양한 보안 위협을 식별합니다. 사용자 입력의 흐름을 추적하여 공격 경로를 파악하고, 각 발견 사항에 대한 심각도와 해결 방안을 함께 제공합니다. 개발자는 리포지토리별로 기능을 활성화할 수 있으며, 발견된 문제에 대해 타당한 사유를 제시하여 제외할 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/rollouts-and-security-reviewer",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T01:29:30.068Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/23/quality-heads-up/",
-    "title": "Quality Outreach Heads-up - JDK 28: Rich JavaDoc Notes",
-    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.java.net/display/quality/Quality+Outreach) is promoting the testing of FOSS projects with OpenJDK builds as a way to improve the overall quality of the ",
-    "aiSummary": "OpenJDK Quality Group은 JDK 28 릴리스의 품질 향상을 목표로 FOSS 프로젝트들의 테스트 참여를 독려하고 있으며 이와 관련한 새로운 JavaDoc 기능인 @note 태그 도입을 제안합니다.\n\n@note 태그는 개발자에게 중요한 팁이나 경고 사항을 효과적으로 전달하기 위해 설계되었습니다. 이 태그는 인라인 및 블록 형태로 사용할 수 있으며 렌더링 시 자동으로 Note:라는 헤더가 생성됩니다. 인라인 노트는 좌측에 수직 바를 표시하여 가독성을 높이고 블록 노트는 들여쓰기된 텍스트 형태로 출력됩니다. 생성되는 HTML 요소에는 block-note 또는 inline-note CSS 클래스가 적용됩니다.\n\n또한 @note 태그는 괄호 내에 name=value 쌍으로 속성을 부여할 수 있습니다. 이를 통해 헤더의 문구를 변경하거나 kind 속성을 사용해 추가적인 CSS 클래스를 지정하고 id 값을 설정하는 등 유연한 커스터마이징이 가능합니다.\n\n사용자는 javadoc -tag 옵션을 활용하여 특정 명칭을 가진 커스텀 @note 태그를 생성할 수도 있습니다. 예를 들어 warning이라는 별칭을 가진 태그를 정의하여 경고 메시지 전용으로 사용할 수 있습니다.\n\n해당 변경 사항에 대한 자세한 정보는 JDK-8363700 문서를 통해 확인할 수 있으며 관련 피드백은 javadoc-dev 메일링 리스트를 통해 제출할 수 있습니다.",
-    "url": "https://inside.java/2026/09/23/quality-heads-up/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Billy Korando",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgbouncer-1260-released-fixes-three-cves-3385/",
-    "title": "PgBouncer 1.26.0 released - Fixes three CVEs\n",
-    "summary": "PgBouncer 1.26.0 has been released. This release fixes three CVEs:\nCVE-2026-19888: DoS due to crash, triggerable by unauthenticated clients. Caused by a SCRAM client-final-message without a nonce.\nCVE",
-    "aiSummary": "PostgreSQL용 경량 커넥션 풀러인 PgBouncer 1.26.0 버전이 공개되었습니다. 이번 업데이트는 인증되지 않은 클라이언트가 유발할 수 있는 서비스 거부 공격 관련 취약점 3건을 포함하고 있습니다.\n\nCVE-2026-19888은 nonce가 없는 SCRAM 클라이언트 메시지로 인해 발생하는 충돌 문제를 해결하며, CVE-2026-6668은 패킷 버퍼 증가 로직의 정수 오버플로로 인한 무한 루프 문제를 수정합니다. 또한 CVE-2026-6669는 악의적인 PostgreSQL 서버에 의해 발생할 수 있는 비정상적인 SCRAM 반복 횟수 문제를 해결하였습니다.\n\n보안 패치 외에도 새로운 기능과 변경 사항이 포함되었습니다. search_path와 default_transaction_read_only 설정이 기본적으로 추적되며, pool_idle_timeout 설정이 새롭게 추가되었습니다. 또한 query_wait_timeout을 사용자 및 데이터베이스별로 설정할 수 있게 되었으며 Meson 빌드 지원이 도입되었습니다. 반면, 기존에 사용되던 online restart (-R) 기능은 삭제되었습니다.",
-    "url": "https://www.postgresql.org/about/news/pgbouncer-1260-released-fixes-three-cves-3385/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/how-moving-from-azure-cache-for-redis-to-azure-managed-redis-can-cut-costs-by-40percent/",
-    "title": "How moving from Azure Cache for Redis to Azure Managed Redis can cut costs by 40%",
-    "summary": "Moving to Azure Managed Redis can cut your monthly Redis service cost by around 40%. In four East US 2 Premium-to-Balanced price comparisons, the reduction is 43–44%, with high availability on both si",
-    "aiSummary": "Azure Cache for Redis에서 Azure Managed Redis로 전환하면 월별 서비스 비용을 약 40퍼센트까지 절감할 수 있습니다. \n\n미국 동부 2 지역의 Premium 티어와 Balanced 티어를 기준으로 비교했을 때 고가용성을 유지하면서도 약 43에서 44퍼센트의 비용 절감 효과가 확인되었습니다. 이러한 비용 효율성은 대상 크기가 최적화된 조건에 부합할 때 적용됩니다.",
-    "url": "https://redis.io/blog/how-moving-from-azure-cache-for-redis-to-azure-managed-redis-can-cut-costs-by-40percent/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Philip Laussermair",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-8-19-22-released",
-    "title": "Elastic Stack 8.19.22 released",
-    "summary": "Version 8.19.22 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.22 over the previous version 8.19.21\nFor details of the issues that have bee",
-    "aiSummary": "Elastic Stack의 최신 버전인 8.19.22가 금일 공식 발표되었습니다.\n\n이번 업데이트는 이전 버전인 8.19.21에서 발견된 문제들을 해결한 수정 버전으로, 안정적인 시스템 운영을 위해 최신 버전으로의 업그레이드를 권장합니다.\n\n상세한 수정 사항 및 제품별 변경 내역은 공식 릴리즈 노트를 통해 확인하실 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-8-19-22-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Navya Uppalapati",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeScience Claude discovers a novel enzyme system with CRISPR-like repeatsSep 23, 2026 We’re introducing a new life sciences research group and laboratory at A",
-    "aiSummary": "Anthropic은 생명 과학 연구팀과 자체 실험실을 신설하고 Claude를 활용하여 생물학 연구를 가속화하는 새로운 방식을 도입합니다. 이번 연구는 AI가 인간의 높은 수준의 지시만으로 방대한 DNA 데이터를 분석하고 새로운 단백질 계열을 찾아내는 과정을 포함합니다.\n\nClaude는 최근 CRISPR와 유사한 DNA 반복 서열을 가진 새로운 효소 시스템을 독자적으로 발견하는 성과를 거두었습니다. 해당 시스템은 RNA를 DNA로 복사하는 Reverse Transcriptase 기반의 Jumbo Phage에서 유래한 것으로, 과거에는 개별적으로 존재만 알려졌던 요소들이 결합된 형태입니다.\n\n현재까지 이 시스템의 구체적인 기능은 밝혀지지 않았으나, 유전자 편집과 같은 DNA 절단이나 복제 등 프로그래밍 가능한 생물학적 작업이 가능할 것으로 기대되는 특징들을 다수 보유하고 있습니다. Anthropic은 AI와 인간이 협력하여 생물학적 발견의 속도를 높이는 이 새로운 연구 모델을 통해 앞으로 더 많은 혁신적인 발견이 가능할 것으로 전망합니다.",
-    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
-    "title": "Faster C++ code intelligence with whole codebase indexing",
-    "summary": "C++ code intelligence in GitHub Copilot CLI is now faster with support for whole codebase indexing. C++ repositories can contain millions of lines of code across deeply connected source files…\nThe pos",
-    "aiSummary": "GitHub Copilot CLI가 전체 코드베이스 인덱싱 기능을 지원함에 따라 C++ 코드 인텔리전스 성능이 향상되었습니다.\n\nC++ 리포지토리는 수많은 소스 파일이 복잡하게 연결된 대규모 코드로 구성되는 경우가 많아 기존 방식으로는 코드 이해와 분석에 한계가 있었습니다. 이번 업데이트를 통해 전체 코드베이스를 효과적으로 인덱싱함으로써 개발자는 더욱 빠르고 정확한 코드 제안과 분석 결과를 얻을 수 있게 되었습니다.\n\n이러한 개선은 방대한 코드 환경에서 작업하는 C++ 개발자들의 생산성을 크게 높여줄 것으로 기대됩니다.",
-    "url": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-22T22:24:48.000Z",
-    "fetchedAt": "2026-09-23T01:33:34.919Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "4fedaed1301f65781a8d0cf0c10d6af080cb9c4c",
-    "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-    "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural la",
-    "aiSummary": "Amazon CloudWatch Omni는 기존의 CloudWatch를 발전시킨 통합 관측성 플랫폼입니다. 이 서비스는 애플리케이션과 AI 에이전트를 단일 환경에서 관리할 수 있는 경험을 제공합니다.\n\n주요 기능으로는 시스템 구성 요소를 자동으로 탐색하는 토폴로지 시각화와 자연어 쿼리 지원이 있습니다. 또한 AWS DevOps Agent를 기반으로 하는 AI 가이드 조사 기능을 통해 문제 해결 과정을 효율화합니다.",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-09-22T22:23:14.000Z",
-    "fetchedAt": "2026-09-23T01:33:34.919Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "3f3cdf7764c9ed9c135b98890bec5b260beeb5ae",
-    "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
-    "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly f",
-    "aiSummary": "Amazon CloudWatch Omni는 생성형 AI 및 에이전트 기반 워크로드를 위해 설계된 AI 기반 관측성 도구입니다.\n\n개발자는 IDE나 독립적인 웹 환경에서 프레임워크에 구애받지 않고 AI 에이전트를 추적하고 평가하며 실험할 수 있습니다.\n\n오픈 표준을 기반으로 하며 AI의 품질, 정확성, 일관성을 측정하는 내장 평가 도구를 제공하여 시스템을 효율적으로 관리할 수 있도록 지원합니다.",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-09-22T22:21:13.000Z",
-    "fetchedAt": "2026-09-23T01:33:34.919Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-33-0",
-    "title": "Tagged Memoized Cache and Model Refreshes in Laravel 13.33",
-    "summary": "Laravel 13.33 adds tags to Cache::memo(), a Refreshes attribute for generated columns, AsCollection::nullable(), inplace() index migrations, and more.\nThe post Tagged Memoized Cache and Model Refreshe",
-    "aiSummary": "Laravel 13.33 버전 업데이트를 통해 Cache::memo() 메서드에 태그 기능이 추가되었습니다. 이로 인해 메모이제이션된 캐시 데이터를 더욱 효율적으로 관리하고 제어할 수 있게 되었습니다.\n\n생성된 컬럼에 대한 Refreshes 속성이 도입되어 데이터베이스 활용도가 높아졌으며 AsCollection::nullable() 기능을 통해 컬렉션 캐스팅 시 Null 처리가 유연해졌습니다. 또한 인덱스 마이그레이션 과정에서 inplace() 메서드를 지원하여 데이터베이스 작업의 편의성과 성능이 개선되었습니다.",
-    "url": "https://laravel-news.com/laravel-13-33-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-09-22T22:05:53.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-live-denmark-2026-talks",
-    "title": "Laravel Live Denmark 2026 Talks Are Now on YouTube",
-    "summary": "Watch all 17 Laravel Live Denmark 2026 talks on YouTube, including sessions on PHP, Inertia, NativePHP, security, AI, and open source.\nThe post Laravel Live Denmark 2026 Talks Are Now on YouTube appea",
-    "aiSummary": "Laravel Live Denmark 2026에서 진행된 17개의 모든 발표 세션 영상이 공식 유튜브 채널을 통해 공개되었습니다.\n\n이번에 공개된 영상들은 PHP, Inertia, NativePHP를 비롯하여 보안, AI, 오픈소스 등 Laravel 생태계 전반을 아우르는 다양한 주제를 다루고 있습니다. 관심 있는 사용자들은 해당 영상을 통해 최신 기술 트렌드와 정보를 확인할 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-live-denmark-2026-talks?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-09-22T21:33:31.000Z",
-    "fetchedAt": "2026-09-23T19:06:44.577Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-    "title": "Better prompt caching for GPT-6",
-    "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-    "aiSummary": "GPT-6는 프롬프트 캐싱 기능을 고도화하여 효율성을 대폭 개선했습니다. 캐시 적중률을 향상시키는 알고리즘을 도입했으며, 새로운 진단 도구와 명시적 중단점 기능을 제공하여 개발자가 캐싱 과정을 더욱 세밀하게 제어할 수 있도록 지원합니다. 이러한 개선 사항들을 통해 모델 실행 시 발생하는 지연 시간을 단축하고 운영 비용을 절감하는 효과를 기대할 수 있습니다.",
-    "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-09-22T21:00:00.000Z",
-    "fetchedAt": "2026-09-23T01:33:34.919Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
     ]
   }
 ]

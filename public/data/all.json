@@ -1,5 +1,21 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.142.1",
+    "title": "0.142.1",
+    "summary": "Fixes\n🐛 Fix repeated endpoint wrapping in included routers. PR #16414 by @tiangolo.",
+    "aiSummary": "FastAPI 라이브러리의 0.142.1 버전 업데이트가 진행되었습니다. 이번 업데이트는 포함된 라우터에서 엔드포인트가 반복적으로 래핑되는 문제를 해결하는 버그 수정을 포함하고 있습니다. 해당 수정 사항은 tiangolo에 의해 PR #16414를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-09-29T22:36:03.000Z",
+    "fetchedAt": "2026-09-30T02:12:03.146Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
     "title": "Repository custom runner settings for Dependabot",
     "summary": "As a repository administrator, you can now configure the runner type, optional custom label, and optional runner group for Dependabot version and security updates. This extends the runner configuratio",
@@ -319,6 +335,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/redis-expands-strategic-collaboration-agreement-with-aws-to-accelerate-real-rime-and-ai-applications/",
+    "title": "Redis expands strategic collaboration agreement with AWS to accelerate real-time data and AI apps",
+    "summary": "Expanded collaboration will help customers modernize apps, build faster AI experiences, and simplify adoption of Redis Cloud on AWS\n\nRedis has announced an expansion of its strategic collaboration agr",
+    "aiSummary": "Redis가 실시간 데이터 처리와 AI 애플리케이션 개발을 가속화하기 위해 AWS와의 전략적 협력 계약을 대폭 확대했습니다. 이번 협력을 통해 고객은 AWS 기반의 Redis Cloud를 더욱 간편하게 도입하고 애플리케이션 현대화를 추진할 수 있게 됩니다.\n\n양사는 공동 판매 활동과 기술 통합을 강화하여 기업이 데이터 기반의 고성능 AI 경험을 신속하게 구축하도록 지원할 예정입니다. 특히 AWS 환경에서 Redis의 실시간 성능을 극대화하여 차세대 AI 서비스 개발을 앞당기는 데 집중할 계획입니다.\n\n이번 파트너십 확장은 고객이 복잡한 인프라 관리 부담을 줄이고 AI 애플리케이션의 출시 속도를 높이는 데 기여할 것으로 전망됩니다. 앞으로 두 기업은 클라우드 네이티브 환경에서의 데이터 가용성을 높이고 혁신적인 디지털 솔루션을 제공하는 데 협력할 것입니다.",
+    "url": "https://redis.io/blog/redis-expands-strategic-collaboration-agreement-with-aws-to-accelerate-real-rime-and-ai-applications/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Mike  Moss ",
+    "pubDate": "2026-09-29T00:00:00.000Z",
+    "fetchedAt": "2026-09-30T02:12:03.146Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
