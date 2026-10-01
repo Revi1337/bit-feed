@@ -1,5 +1,52 @@
 [
   {
+    "id": "https://blog.python.org/2026/10/python-31022-31117/",
+    "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+    "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
+    "aiSummary": "Python 3.10, 3.11, 3.12, 3.13, 3.14 버전에 대한 보안 업데이트가 새롭게 배포되었습니다.\n\n이번 업데이트를 통해 Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 및 3.14.8 버전이 각각 공개되었습니다. 특히 3.13 버전은 이번 업데이트를 마지막으로 유지 관리 단계가 종료되며, 3.10 버전은 이번 릴리스를 끝으로 공식적인 지원을 마무리합니다.",
+    "url": "https://blog.python.org/2026/10/python-31022-31117/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Pablo Galindo",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "817caa03e06c6ac753e2104bcdd58418a88fea6e",
+    "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+    "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with ",
+    "aiSummary": "Amazon S3 Tables가 Apache Iceberg V3 사양에 포함된 모든 데이터 타입을 지원하기 시작했습니다. 이번 업데이트를 통해 컬럼 기본값 설정과 삭제 벡터 및 행 계보 기능도 함께 활용할 수 있게 되었습니다. 사용자는 기존의 V2 테이블을 업그레이드하거나 새로운 V3 테이블을 생성하여 사용할 수 있으며, 내장된 압축 및 유지 관리 기능과 향상된 엔진 호환성을 통해 더욱 효율적인 데이터 관리가 가능해졌습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-09-30T22:10:00.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
+    "title": "Opt-in dist-tag permissions for npm trusted publishing",
+    "summary": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials in",
+    "aiSummary": "npm의 Trusted publishing 설정에서 이제 일시적인 OIDC 자격 증명을 사용하여 dist-tags를 관리할 수 있는 권한을 부여할 수 있게 되었습니다.\n\n이를 통해 사용자는 별도의 장기 토큰 없이도 특정 버전을 latest로 승격하거나 next, beta 등의 태그 포인터를 업데이트하는 작업을 보다 안전하게 수행할 수 있습니다. 해당 기능은 필요한 사용자에 한해 선택적으로 활성화하여 사용할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-30T21:03:09.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_141",
     "title": "Visual Studio Code 1.141 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code 1.141 (Insiders).\nRead the full article",
@@ -471,6 +518,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/your-data-is-growing-your-ram-bill-doesnt-have-to/",
+    "title": "Your data is growing. Your RAM bill doesn't have to.",
+    "summary": "AI is pushing memory prices up, fast\n\nFor decades, memory got cheaper over time. In late 2025 that reversed, and AI is the reason. Memory makers have shifted their factories toward the high-bandwidth ",
+    "aiSummary": "AI 산업의 급격한 성장으로 인해 전 세계적인 메모리 가격 상승세가 지속되고 있습니다. 수십 년간 메모리 단가가 하락하던 추세는 2025년 후반을 기점으로 반전되었으며 이는 AI 가속기에 필수적인 HBM 생산에 제조사들의 역량이 집중되면서 범용 메모리 공급이 부족해졌기 때문입니다.\n\n이러한 현상은 데이터 센터와 기업들의 운영 비용 부담을 가중시키고 있습니다. 기업들은 메모리 비용을 절감하기 위해 데이터 최적화 전략을 재검토해야 하는 상황에 직면했습니다. 데이터 처리 효율성을 높이거나 더 적은 메모리 자원으로 AI 모델을 구동할 수 있는 기술적 대안 마련이 시급해진 시점입니다.",
+    "url": "https://redis.io/blog/your-data-is-growing-your-ram-bill-doesnt-have-to/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Simran Regmi",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {

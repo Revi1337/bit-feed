@@ -1,5 +1,52 @@
 [
   {
+    "id": "https://blog.python.org/2026/10/python-31022-31117/",
+    "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+    "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
+    "aiSummary": "Python 3.10, 3.11, 3.12, 3.13, 3.14 버전에 대한 보안 업데이트가 새롭게 배포되었습니다.\n\n이번 업데이트를 통해 Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 및 3.14.8 버전이 각각 공개되었습니다. 특히 3.13 버전은 이번 업데이트를 마지막으로 유지 관리 단계가 종료되며, 3.10 버전은 이번 릴리스를 끝으로 공식적인 지원을 마무리합니다.",
+    "url": "https://blog.python.org/2026/10/python-31022-31117/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Pablo Galindo",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "817caa03e06c6ac753e2104bcdd58418a88fea6e",
+    "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+    "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with ",
+    "aiSummary": "Amazon S3 Tables가 Apache Iceberg V3 사양에 포함된 모든 데이터 타입을 지원하기 시작했습니다. 이번 업데이트를 통해 컬럼 기본값 설정과 삭제 벡터 및 행 계보 기능도 함께 활용할 수 있게 되었습니다. 사용자는 기존의 V2 테이블을 업그레이드하거나 새로운 V3 테이블을 생성하여 사용할 수 있으며, 내장된 압축 및 유지 관리 기능과 향상된 엔진 호환성을 통해 더욱 효율적인 데이터 관리가 가능해졌습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-09-30T22:10:00.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
+    "title": "Opt-in dist-tag permissions for npm trusted publishing",
+    "summary": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials in",
+    "aiSummary": "npm의 Trusted publishing 설정에서 이제 일시적인 OIDC 자격 증명을 사용하여 dist-tags를 관리할 수 있는 권한을 부여할 수 있게 되었습니다.\n\n이를 통해 사용자는 별도의 장기 토큰 없이도 특정 버전을 latest로 승격하거나 next, beta 등의 태그 포인터를 업데이트하는 작업을 보다 안전하게 수행할 수 있습니다. 해당 기능은 필요한 사용자에 한해 선택적으로 활성화하여 사용할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-09-30T21:03:09.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_141",
     "title": "Visual Studio Code 1.141 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code 1.141 (Insiders).\nRead the full article",
@@ -471,6 +518,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/your-data-is-growing-your-ram-bill-doesnt-have-to/",
+    "title": "Your data is growing. Your RAM bill doesn't have to.",
+    "summary": "AI is pushing memory prices up, fast\n\nFor decades, memory got cheaper over time. In late 2025 that reversed, and AI is the reason. Memory makers have shifted their factories toward the high-bandwidth ",
+    "aiSummary": "AI 산업의 급격한 성장으로 인해 전 세계적인 메모리 가격 상승세가 지속되고 있습니다. 수십 년간 메모리 단가가 하락하던 추세는 2025년 후반을 기점으로 반전되었으며 이는 AI 가속기에 필수적인 HBM 생산에 제조사들의 역량이 집중되면서 범용 메모리 공급이 부족해졌기 때문입니다.\n\n이러한 현상은 데이터 센터와 기업들의 운영 비용 부담을 가중시키고 있습니다. 기업들은 메모리 비용을 절감하기 위해 데이터 최적화 전략을 재검토해야 하는 상황에 직면했습니다. 데이터 처리 효율성을 높이거나 더 적은 메모리 자원으로 AI 모델을 구동할 수 있는 기술적 대안 마련이 시급해진 시점입니다.",
+    "url": "https://redis.io/blog/your-data-is-growing-your-ram-bill-doesnt-have-to/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Simran Regmi",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T02:13:40.051Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -2170,183 +2234,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "/blog/choosing-hosting-and-postgres-after-your-first-100-users",
-    "title": "Hosting and Postgres after your first 100 users",
-    "summary": "A scaling checklist, where to run your app, what Postgres costs at 100, 1,000 and 10,000 users with the arithmetic shown, and signs you have outgrown it.",
-    "aiSummary": "사용자 100명 달성 이후 고려해야 할 애플리케이션 호스팅 및 Postgres 데이터베이스 운영 전략을 다루고 있습니다.\n\n사용자 규모가 100명, 1,000명, 10,000명으로 증가함에 따라 변화하는 Postgres 운영 비용을 상세한 산술적 계산을 통해 제시합니다.\n\n애플리케이션을 구동하기 위한 적절한 호스팅 환경 선택 기준을 설명하며 데이터베이스 확장이 필요한 시점을 판단하는 구체적인 신호와 체크리스트를 제공합니다.",
-    "url": "https://www.prisma.io/blog/choosing-hosting-and-postgres-after-your-first-100-users",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-27T13:08:34.971Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "tag:blog.golang.org,2013:blog.golang.org/simd-experiment",
-    "title": "Platform-independent SIMD in Go",
-    "summary": "The Go Blog\nPlatform-independent SIMD in Go\nGo 1.26 and 1.27 include experimental APIs for Single Instruction Multiple Data (SIMD) operations. SIMD is a native feature of many modern CPUs that allows ",
-    "aiSummary": "Go 1.27 버전에서는 기존의 아키텍처 의존적인 SIMD API를 넘어, 플랫폼과 벡터 크기에 구애받지 않는 이식 가능한 실험적 SIMD 인터페이스를 도입하였습니다. 이 새로운 simd 패키지는 특정 하드웨어에 종속된 구현 대신, 여러 플랫폼의 공통된 연산 집합을 정의하고 이를 통해 일관된 성능과 이식성을 제공하는 것을 목표로 합니다.\n\n이 패키지는 벡터 크기를 타입 시스템에서 제거하고, 하드웨어에서 직접 지원하지 않는 연산에 대해서는 효율적인 에뮬레이션을 수행함으로써 코드가 모든 환경에서 실행되도록 보장합니다. 현재 AVX, AVX2, AVX512를 포함한 amd64와 arm64의 NEON, 그리고 wasm을 지원하며, 개발자는 GOEXPERIMENT=simd 설정을 통해 이 기능을 사용할 수 있습니다.\n\n또한, 기존의 하드웨어 특화 코드가 필요한 경우를 대비해 archsimd 패키지로 전환할 수 있는 기능을 제공합니다. 특정 연산이 패키지에서 누락되었더라도 사용자는 ToArch 및 FromArch 메서드를 사용하여 플랫폼별 최적화를 직접 구현할 수 있습니다. 이는 컴파일러 최적화를 통해 효율적으로 처리되며, 하드웨어 가속이 없는 환경을 위한 예비 에뮬레이션 코드까지 병행하여 관리할 수 있는 구조를 갖추고 있습니다.",
-    "url": "https://go.dev/blog/simd-experiment",
-    "category": "프로그래밍 언어",
-    "source": "The Go Blog",
-    "author": "David Chase and Junyang Shao",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-25T01:38:01.582Z",
-    "tags": [
-      "Go"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/09/24/spring-cloud-2026-0-0-M1-has-been-released",
-    "title": "Spring Cloud 2026.0.0-M1 (aka Paddington) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the Spring Cloud 2026.0.0-M1 (https://cloud.spring.io/) Release Train is available today. The release can be found in ",
-    "aiSummary": "Spring Cloud 2026.0.0-M1(코드명 Paddington) 릴리스 트레인의 첫 번째 마일스톤 버전이 공개되었습니다. 이번 업데이트는 Spring Boot 4.2.0-M2를 기반으로 하며 주요 구성 요소들에 대한 기능 개선과 라이브러리 업그레이드를 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다. Spring Cloud Circuitbreaker는 Resilience4J 2.4.0으로 업그레이드되었습니다. Spring Cloud Config는 HTTP 속성 경로 알림기 기능이 추가되었고 Azure DevOps 워크로드 ID 지원이 강화되었습니다. Spring Cloud Gateway는 재시도 로직을 Reactor Addons에서 Framework Core로 이전했으며 신뢰할 수 없는 프록시에 대한 헤더 전달 문제를 해결했습니다. 이 외에도 Spring Cloud Openfeign은 Feign 13.14 버전으로, Spring Cloud Vault는 Spring Vault 4.1.0 버전으로 각각 상향 조정되었습니다.\n\nSpring Cloud Build, Bus, Consul, Function, Kubernetes, Netflix, Stream, Task, Zookeeper 등 다수의 모듈이 5.1.0-M1 버전으로 일괄 업데이트되었습니다. 개발자는 Maven 또는 Gradle 설정을 통해 해당 마일스톤 버전을 프로젝트에 적용할 수 있으며 상세 정보는 공식 GitHub 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/09/24/spring-cloud-2026-0-0-M1-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-25T01:38:01.582Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/09/24/spring-security-7-2-0-M2-available-now",
-    "title": "Spring Security 7.2.0-M2 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Security 7.2.0-M2 버전이 새롭게 출시되었습니다. 이번 릴리스는 프로젝트의 최신 기능을 포함하고 있으며, Spring Framework 생태계 내에서 더욱 안정적인 보안 환경을 제공하기 위한 업데이트를 담고 있습니다. 사용자들은 공식 저장소를 통해 해당 버전을 확인하고 프로젝트에 적용할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/09/24/spring-security-7-2-0-M2-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "jgrandja",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-25T01:38:01.582Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/the-official-fastapi-redis-sdk-is-now-available/",
-    "title": "The official FastAPI Redis SDK is now available",
-    "summary": "FastAPI now has an official Redis integration. With the fastapi-redis-sdk, we worked closely with the FastAPI team on what a naturally integrated Redis experience should look like, following FastAPI’s",
-    "aiSummary": "FastAPI 공식 Redis 통합 도구인 fastapi-redis-sdk가 새롭게 출시되었습니다. 이번 SDK는 FastAPI 팀과의 긴밀한 협력을 통해 개발되었으며, 외부 라이브러리를 억지로 통합하는 방식 대신 FastAPI의 의존성 주입 모델을 따르는 자연스러운 통합 경험을 제공합니다. 이를 통해 개발자는 FastAPI 프로젝트 내에서 보다 직관적이고 효율적으로 Redis를 활용할 수 있게 됩니다.",
-    "url": "https://redis.io/blog/the-official-fastapi-redis-sdk-is-now-available/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Tisho Mateev, Mirko Ortensi",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-25T01:38:01.582Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/09/24/spring-batch-6",
-    "title": "Spring Batch 6.1.0-M2 is out!",
-    "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-M2 is available now from Maven Central! This second milestone brings a number of new features, enhancements",
-    "aiSummary": "Spring Batch 6.1.0-M2 버전이 Maven Central을 통해 배포되었습니다. 이번 업데이트는 Spring Framework 7.1.0-M2를 포함한 주요 의존성 라이브러리 업그레이드와 함께 다양한 기능 개선 및 API 변경을 포함하고 있습니다.\n\n주요 변경 사항으로는 MongoDB job repository에서 컬렉션 접두사를 설정할 수 있는 기능이 추가되어 환경 격리가 용이해졌습니다. 또한, 기본 변환 서비스가 DefaultFormattingConversionService를 기반으로 재구축되어 보다 풍부한 데이터 변환 기능을 제공합니다.\n\n성능 및 설계 측면에서는 비동기 처리 API와 로컬 청킹 기능이 spring-batch-integration에서 spring-batch-core로 이전되어 불필요한 의존성을 제거할 수 있게 되었습니다. RepositoryItemWriter에는 플러시 지원 기능이 추가되었으며, MultiResourceItemReaderBuilder 등은 리소스 위치 패턴을 직접 지원하여 편의성을 높였습니다.\n\n안전성 강화를 위해 빌더 패턴에 staged DSL을 도입하여 상호 배타적인 설정 조합을 컴파일 타임에 차단하도록 변경되었습니다. 이는 일부 코드 수정이 필요한 파괴적 변경 사항입니다.\n\n이 외에도 Apache Derby 지원 중단, 레거시 데이터 변환기 제거 등 여러 API가 7.0 버전을 대비하여 삭제 예정(deprecated) 상태로 전환되었습니다. 자세한 사항은 공식 릴리스 노트를 확인하시기 바랍니다.",
-    "url": "https://spring.io/blog/2026/09/24/spring-batch-6",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "fmbenhassine",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
-    "title": "PostgreSQL 19 Beta 4 Released!\n",
-    "summary": "The PostgreSQL Global Development Group announces that the fourth beta release of\nPostgreSQL 19 is now available for download.\nThis release contains PostgreSQL 19 feature previews ahead of general\nava",
-    "aiSummary": "PostgreSQL Global Development Group은 PostgreSQL 19의 네 번째 베타 버전인 PostgreSQL 19 Beta 4를 공개했습니다. 이번 릴리스는 정식 출시를 앞둔 기능들을 포함하고 있으며 안정적인 데이터베이스 운영을 최우선 가치로 삼고 있습니다.\n\n안정성을 확보하고 예측 가능한 릴리스 일정을 준수하기 위해 SQL/PGQ 지원, 데이터 체크섬의 온라인 활성화 및 비활성화, FOR PORTION OF 절을 통한 시간적 업데이트 및 삭제, 그리고 특정 ALTER TABLE 파티션 병합 및 분할 기능 등 일부 기능이 이번 릴리스에서 제외되었습니다. 또한 기존에 포함되었던 세 가지 DDL 관련 함수인 pg_get_role_ddl, pg_get_tablespace_ddl, pg_get_database_ddl도 제거되었습니다.\n\n이번 베타 버전에는 REPACK 명령어, WAIT FOR 명령어, 논리적 복제 충돌 탐지, 그리고 autovacuum 점수 체계 등 신규 기능에 대한 다수의 버그 수정과 성능 개선 사항이 포함되었습니다. 사용자는 pg_upgrade나 pg_dump 및 pg_restore와 같은 방식을 통해 이전 버전에서 업그레이드할 수 있습니다.\n\nPostgreSQL 19의 정식 릴리스는 10월 중으로 계획되어 있으며 그에 앞서 10월 초에 릴리스 후보 버전이 배포될 예정입니다. 커뮤니티는 안정적인 최종 버전을 위해 사용자들이 베타 버전을 직접 테스트하고 버그나 호환성 문제를 보고해 줄 것을 당부하고 있습니다. 상세한 변경 사항과 오픈 이슈는 공식 홈페이지에서 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-cloud-azure-cobalt-arm",
-    "title": "Elastic Cloud on Azure gets a speed boost: Compute-optimized instances on Azure Cobalt ARM",
-    "summary": "Starting September 24, 2026, Elastic Cloud on Azure adds compute-optimized (ARM) hardware profiles backed by Microsoft's Cobalt ARM processors, delivering up to 37% better throughput than the previous",
-    "aiSummary": "2026년 9월 24일부터 Elastic Cloud on Azure는 Microsoft의 Cobalt ARM 프로세서 기반의 컴퓨팅 최적화 하드웨어 프로파일을 새롭게 도입합니다.\n\n이번 업데이트를 통해 이전 세대인 Ampere Altra VM 대비 처리량이 최대 37퍼센트 향상되었으며 동시에 비용 효율성까지 개선되었습니다. 이를 통해 사용자는 Elastic Cloud 상에서 더욱 빠르고 경제적인 성능을 경험할 수 있게 됩니다.",
-    "url": "https://www.elastic.co/blog/elastic-cloud-azure-cobalt-arm",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Joe Chin,Greg Crist",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/atomic-claim-checking-against-llm-hallucinations",
-    "title": "Trust, but verify: Atomic claim checking against LLM hallucinations",
-    "summary": "Hallucinations kept an LLM out of our knowledge base cleanup for years. Splitting generation from atomic claim verification fixed it and cleared a four-year backlog of duplicate articles.",
-    "aiSummary": "LLM의 환각 현상은 그동안 지식 베이스 정비 작업의 가장 큰 걸림돌이었습니다. \n\n이 문제를 해결하기 위해 생성 과정과 원자 단위의 사실 검증 단계를 분리하는 방식을 도입했습니다. 이를 통해 4년간 쌓여있던 중복 문서 문제를 효과적으로 정리하고 지식 베이스의 신뢰성을 확보하는 데 성공했습니다.",
-    "url": "https://www.elastic.co/blog/atomic-claim-checking-against-llm-hallucinations",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Toby Sutor",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/09/24/spring-ws-5-1-0-M1-available-now",
-    "title": "Spring Web Services 5.1.0-M1 available now",
-    "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Web Services 5.1.0-M1 has been released and is now available from Maven Central.\nThis release includes 13 enha",
-    "aiSummary": "Spring Web Services 5.1.0-M1 버전이 Maven Central을 통해 공식 출시되었습니다. 이번 릴리스에는 총 13개의 개선 사항과 버그 수정, 그리고 의존성 업그레이드가 포함되어 있습니다.\n\n주요 기능으로 Micrometer Observation API를 활용한 웹 서비스 교환의 메트릭 및 트레이싱을 위한 Observability 지원이 추가되었습니다. 또한 @SoapHeader 어노테이션을 통해 SOAP 헤더를 사용자 정의 타입으로 직접 언마샬링할 수 있게 되어 기존 SoapHeaderElement 방식의 제약이 해소되었습니다.\n\n보안 측면에서는 모든 응답에 보안 헤더를 요구하는 클라이언트를 위해 WS-Security 기반의 Fault 응답 지원이 강화되었습니다. 아울러 이번 업데이트는 Spring Framework 7.1 및 Spring Security 7.1 버전과의 정렬을 완료하였습니다. 상세한 변경 사항과 업그레이드 방법은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/09/24/spring-ws-5-1-0-M1-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "snicoll",
-    "pubDate": "2026-09-24T00:00:00.000Z",
-    "fetchedAt": "2026-09-24T12:47:03.990Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://webkit.org/?p=18357",
-    "title": "Release Notes for Safari Technology Preview 253",
-    "summary": "Safari Technology Preview Release 253 is now available for download for macOS Golden Gate and macOS Tahoe.",
-    "aiSummary": "macOS Golden Gate 및 macOS Tahoe 운영체제를 위한 Safari Technology Preview 253 버전이 배포되었습니다. 해당 브라우저의 최신 기능을 테스트하고자 하는 사용자는 공식 페이지를 통해 업데이트를 다운로드할 수 있습니다.",
-    "url": "https://webkit.org/blog/18357/release-notes-for-safari-technology-preview-253/",
-    "category": "웹 생태계 & 브라우저",
-    "source": "WebKit Blog",
-    "author": "WebKit Blog",
-    "pubDate": "2026-09-23T21:46:47.000Z",
-    "fetchedAt": "2026-09-24T01:29:30.068Z",
-    "tags": [
-      "WebKit",
-      "Safari"
     ]
   }
 ]
