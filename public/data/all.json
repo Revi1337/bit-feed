@@ -1,5 +1,181 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-09-30-github-async-merge-api-generally-available",
+    "title": "GitHub async merge API generally available",
+    "summary": "You can now use the generally available GitHub async merge API to merge individual or stacked pull requests, add pull requests to a merge queue, or merge pull requests directly.…\nThe post GitHub async",
+    "aiSummary": "GitHub가 비동기 병합 기능을 정식으로 출시했습니다. 이를 통해 사용자는 개별 또는 스택 형태의 Pull Request를 효율적으로 병합할 수 있습니다. 또한 Pull Request를 병합 대기열에 추가하거나 직접 병합하는 과정을 보다 간편하게 처리할 수 있습니다. 이번 업데이트를 통해 개발자는 복잡한 병합 작업을 더 유연하고 신속하게 관리할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T14:00:51.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/oct/01/nominate-someone-for-the-2026-malcolm-prize/",
+    "title": "Nominate Someone for the 2026 Malcolm Tredinnick Memorial Prize",
+    "summary": "Hello Everyone 👋 \nIt is that time of year again when we recognize someone from our community in memory of our friend Malcolm.\nMalcolm was an early core contributor to Django and had a huge influence ",
+    "aiSummary": "Django 커뮤니티는 초기 핵심 기여자였던 고 Malcolm Tredinnick의 정신을 기리기 위해 2026 Malcolm Tredinnick Memorial Prize 후보자를 모집합니다.\n\n이 상은 신규 사용자를 환영하고 지원하며 커뮤니티 발전에 기여한 인물에게 수여하는 상금 형태의 상입니다. 수상자가 DjangoCon이나 PyCon과 같은 커뮤니티 행사에 참여하여 활동을 이어갈 수 있도록 지원하는 것을 목적으로 합니다.\n\nDjango Software Foundation 이사회 멤버, Django Fellows, 회계 보조원은 후보 자격이 없으나 감사 메시지는 전달할 수 있습니다. 후보자 추천은 2026년 10월 15일 23시 59분까지 공식 양식을 통해 제출할 수 있으며, 최종 결과는 10월 말에 발표될 예정입니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/oct/01/nominate-someone-for-the-2026-malcolm-prize/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Abigail Afi Gbadago and Jeff Triplett",
+    "pubDate": "2026-10-01T13:51:21.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-30-actions-runner-controller-release-0-15-0",
+    "title": "Actions Runner Controller release 0.15.0",
+    "summary": "GitHub Actions Runner Controller 0.15.0 includes reliability, scalability, and observability improvements for runner scale sets. These updates help you operate larger runner fleets with fewer disrupti",
+    "aiSummary": "GitHub Actions Runner Controller 0.15.0 버전이 새롭게 출시되었습니다. 이번 업데이트는 러너 스케일 셋의 안정성과 확장성, 그리고 관측 가능성을 개선하는 데 중점을 두었습니다.\n\n이를 통해 사용자는 더 대규모의 러너 플릿을 효율적으로 운영할 수 있게 됩니다. 특히 업그레이드 과정이나 Kubernetes 환경에서 발생할 수 있는 운영상의 중단 문제를 최소화하여 더욱 안정적인 워크플로우 실행 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-10-01-actions-runner-controller-release-0-15-0",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T13:01:31.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk/",
+    "title": "Introducing the Server Side Cloud Swift SDK",
+    "summary": "For years, Swift was perceived mainly as a UI language tied to Apple client devices. With the release of Swift 6 and strict concurrency checking, Swift has matured into a premier systems with cloud en",
+    "aiSummary": "Google이 Swift 6.2 이상 버전을 지원하는 공식 Google Cloud API Client Libraries인 google-cloud-swift를 새롭게 출시했습니다. 이번 SDK는 Swift의 강력한 메모리 안전성과 ARC 기술을 활용하여 가비지 컬렉터 없이도 예측 가능한 고성능을 제공하며, Swift 6의 컴파일 타임 동시성 검사를 통해 데이터 레이스를 원천적으로 방지합니다.\n\n기술적 특징으로 비차단 Swift NIO 이벤트 루프, HTTP/2 멀티플렉싱, gRPC 전송 방식을 채택하여 멀티코어 Linux 환경에서도 효율적으로 확장 가능합니다. 특히 Hummingbird나 Vapor와 같은 웹 프레임워크와 결합하여 Cloud Storage, AI, IAM 등 다양한 Google Cloud 서비스를 안정적으로 운영할 수 있도록 설계되었습니다.\n\nSDK는 모듈화된 구조를 통해 인증, 프로토콜 버퍼 처리, 자동 재시도 로직 등을 체계적으로 관리하며, 특히 코드 생성기를 도입하여 최신 API 변화에 유연하게 대응합니다. 개발자는 AsyncSequence를 활용해 페이지네이션 등을 직관적인 비동기 코드로 처리할 수 있으며, macOS와 Linux 모두에서 동일한 개발 경험을 누릴 수 있습니다.\n\n다만, 보안상의 이유로 클라이언트 앱 내에 직접적으로 사용하기보다는 Firebase SDK를 사용하는 것을 권장하며, 본 SDK는 서버, 컨테이너, 자동화된 DevOps 환경 구축에 최적화되어 있습니다. 관심 있는 개발자는 공식 구글 저장소를 통해 코드를 확인하고 기여할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Karl Weinmeister"
+      ],
+      "title": [
+        "Director, Developer Relations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-01T13:00:00.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/democratizing-managed-lustre-with-lower-cost-and-frictionless-development/",
+    "title": "Democratizing Managed Lustre with lower cost and frictionless development",
+    "summary": "This is the first of a two-part series exploring how Google Cloud is bringing the foundational values of a high-performance parallel filesystem–TB/s throughput, sub-ms latency at high client scale, an",
+    "aiSummary": "Google Cloud는 고성능 병렬 파일 시스템인 Managed Lustre를 활용하여 AI 및 HPC 워크로드의 효율성과 접근성을 대폭 개선했습니다. 기존에는 비용과 관리 복잡성으로 인해 고성능 파일 시스템과 일반 개발 환경을 분리 운영해야 했으나, 이제는 Managed Lustre를 통해 통합된 환경을 구축할 수 있게 되었습니다.\n\n핵심은 월 6센트/GB라는 저렴한 비용의 Dynamic Tier 도입입니다. 이는 자주 사용하는 데이터에는 서브 밀리초 수준의 초저지연 성능을 제공하고, 그렇지 않은 데이터는 HDD 기반의 Capacity Pool로 투명하게 전환하여 비용 효율성을 최적화합니다. 또한 단일 네임스페이스를 지원하여 데이터 이동이나 별도의 스토리지 관리 과정 없이 전체 개발 주기를 단일 시스템 내에서 해결할 수 있습니다.\n\n성능 측면에서는 80 PB까지 선형적으로 확장 가능한 처리량을 제공하며, 수만 명의 클라이언트가 동시에 접근하더라도 일관된 성능을 유지합니다. 특히 대규모 GPU 클러스터 가동 시 발생하는 병목 현상을 해결하여 라이브러리 로딩 및 데이터 전송 시간을 크게 단축했습니다.\n\n결과적으로 개발자는 git 복제, 라이브러리 컴파일, 노트북 실행 등 대화형 작업부터 대규모 모델 학습 및 체크포인트 저장까지 모든 과정을 하나의 고성능 환경에서 처리할 수 있습니다. Google Cloud는 이번 발표를 통해 Managed Lustre가 단순한 전문 저장소를 넘어 AI 전체 수명 주기를 뒷받침하는 통합 스토리지 패브릭으로 진화하고 있음을 강조합니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/democratizing-managed-lustre-with-lower-cost-and-frictionless-development/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Barak Epstein "
+      ],
+      "title": [
+        "Senior Product Manager, Google Cloud Managed Lustre"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-01T13:00:00.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+    "title": "Announcing Rust 1.99.0",
+    "summary": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust in",
+    "aiSummary": "Rust 팀이 프로그래밍 언어 Rust의 새로운 버전인 1.99.0을 발표했습니다. 기존 사용자는 rustup update stable 명령어를 통해 업데이트할 수 있으며, 상세한 릴리스 정보는 공식 웹사이트에서 확인할 수 있습니다.\n\n이번 업데이트의 핵심은 extern C 가변 인자 함수의 정의를 안정화한 점입니다. 이를 통해 Rust 자체에서 가변 인자 함수를 작성할 수 있게 되었으며, 해당 함수들은 C-ABI와 호환되는 VaList 타입을 사용합니다. 또한, 원시 포인터에서 크기와 정렬 정보를 가져오기 위한 Layout::for_value_raw, mem::size_of_val_raw, mem::align_of_val_raw 함수가 안정화되어 관련 안전성 요구 사항이 명확해졌습니다.\n\n문서화 측면에서는 Box::leak을 통해 할당 해제된 메모리를 다시 사용하는 패턴에 대한 권장 사항이 변경되었습니다. 컴파일러 최적화 및 향후 도입될 커스텀 할당자와의 호환성 문제를 방지하기 위해 Box::into_non_null 사용을 권장합니다.\n\n그 외에도 IntoIterator for Box<[T; N]>, VecDeque::retain_back, Vec::into_parts 등 다양한 API가 새롭게 안정화되었습니다. 세부적인 변경 사항은 Rust, Cargo, Clippy의 전체 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rust Release Team",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/01/agent-helidon-scale/",
+    "title": "Agent Helidon: License to Scale",
+    "summary": "While AI agents are rapidly advancing, the performance and scalability of the agents and their underlying services have received too little attention.\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tThis session showcases Helidon pow",
+    "aiSummary": "AI 에이전트 기술이 빠르게 발전하고 있음에도 불구하고 서비스의 성능과 확장성에 대한 논의는 상대적으로 부족한 실정입니다.\n\n이번 세션에서는 Java 프레임워크인 Helidon을 활용하여 AI 에이전트의 성능과 확장성을 확보하는 방법을 다룹니다. 특히 Virtual Thread 기반의 MCP 서버를 통해 확장 가능한 서비스를 구축하고 LangChain4j와의 컴파일 타임 통합을 통해 고성능 에이전트를 구현하는 기술적 접근 방식을 제시합니다. 구체적인 구현 사례와 상세 내용은 JavaOne 2026 재생 목록을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/01/agent-helidon-scale/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ryan Eberhard (Helidon)",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgpool-ii-473-468-4513-4418-and-4321-released-3390/",
+    "title": "Pgpool-II 4.7.3, 4.6.8, 4.5.13, 4.4.18 and 4.3.21 released.\n",
+    "summary": "What is Pgpool-II?\nPgpool-II is a tool to add useful features to PostgreSQL, including:  \nconnection pooling\nload balancing\nautomatic failover and more.\nMinor releases\nPgpool Global Development Group ",
+    "aiSummary": "Pgpool Global Development Group은 PostgreSQL의 커넥션 풀링, 로드 밸런싱, 자동 장애 조치 기능을 제공하는 Pgpool-II의 최신 마이너 버전인 4.7.3, 4.6.8, 4.5.13, 4.4.18, 4.3.21을 발표했습니다.\n\n이번 릴리스에는 다수의 보안 취약점 해결을 위한 패치가 포함되어 있습니다. 주요 조치 사항은 다음과 같습니다.\n\n우선 watchdog 메시지 처리 과정에서 발생할 수 있는 임의 메모리 쓰기 및 배열 경계를 초과하는 메모리 덮어쓰기 취약점들을 해결했습니다. 또한 장애 조치 메시지 처리 중 발생하는 스택 손상 및 프로세스 충돌 문제와 watchdog 노드 간 인증 키 검증 우회 취약점도 수정되었습니다.\n\n인증 관련해서는 X.509 인증서의 Common Name 필드 내 NUL 바이트 처리가 미흡하여 타 사용자로 위장 접속이 가능했던 문제와 watchdog 상호 노드 인증 시 발생하는 NULL 포인터 역참조 취약점이 개선되었습니다.\n\n이 외에도 heartbeat 수신 프로세스에서 발견된 정보 노출 취약점까지 포함하여 전반적인 보안 안정성이 강화되었습니다. 상세한 정보는 공식 릴리스 노트를 통해 확인 가능하며, 소스 코드 및 RPM 패키지를 다운로드하여 즉시 업데이트를 수행할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgpool-ii-473-468-4513-4418-and-4321-released-3390/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/barclays-scales-claude",
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBarclays scales Claude to upgrade operations and improve client experience Oct 1, 2026Barclays, the British universal bank, is expanding its st",
+    "aiSummary": "Barclays가 Anthropic과의 전략적 협력을 확대하여 전사적인 AI 시스템 도입을 가속화합니다. 이번 협업은 단순히 AI를 도입하는 수준을 넘어 소프트웨어 개발 효율화, 레거시 시스템 현대화, 그리고 고객 경험 개선을 목표로 합니다. 특히 Barclays는 개발자의 Claude Code 도입률을 2026년 말까지 50퍼센트로 확대하고 2027년에는 대다수의 엔지니어가 이를 활용하도록 할 계획입니다.\n\n기술적인 측면에서는 Claude를 활용해 소프트웨어 품질을 높이고 사이버 보안을 강화하며 복잡한 기술적 과제에 엔지니어들이 집중할 수 있는 환경을 조성합니다. 이를 통해 반복적인 업무 시간을 단축하고 의사결정 과정을 간소화하여 조직의 운영 효율성을 극대화하고자 합니다.\n\n이미 실무에 적용된 사례로는 2025년부터 운영 중인 Colleague Knowledge Assistant가 있습니다. 이는 RAG 아키텍처를 기반으로 Claude를 활용하여 1만 6천 명 이상의 직원이 2천만 명 이상의 영국 소매 고객을 지원하는 데 사용되고 있으며, 백만 건 이상의 검색을 처리하며 고객 응대 속도를 크게 향상했습니다. Barclays는 이번 협업을 통해 엄격한 거버넌스를 준수하면서도 책임감 있고 신뢰할 수 있는 방식으로 AI를 운영하는 모델을 구축하고 있습니다.",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://blog.python.org/2026/10/python-31022-31117/",
     "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
     "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
@@ -12,6 +188,22 @@
     "fetchedAt": "2026-10-01T02:13:40.051Z",
     "tags": [
       "Python"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-model-defaults",
+    "title": "Laravel 14 Adds a defaults() Method to Eloquent Models",
+    "summary": "Laravel 14 adds a defaults() method to Eloquent models, so default attribute values can use config, feature flags, and dates instead of constant expressions.\nThe post Laravel 14 Adds a defaults() Meth",
+    "aiSummary": "Laravel 14 버전에는 Eloquent 모델에 새롭게 defaults() 메서드가 추가되었습니다.\n\n기존에는 모델의 기본 속성값을 상수로만 지정할 수 있었으나, 이제는 이 메서드를 통해 config 설정이나 feature flags, 그리고 날짜와 같은 동적인 값을 기본값으로 활용할 수 있게 되었습니다.\n\n이를 통해 개발자는 더욱 유연하게 모델 속성값을 정의하고 관리할 수 있게 됩니다.",
+    "url": "https://laravel-news.com/laravel-model-defaults?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-09-30T22:23:38.000Z",
+    "fetchedAt": "2026-10-01T14:35:39.324Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
