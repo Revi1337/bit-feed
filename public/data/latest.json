@@ -1,5 +1,181 @@
 [
   {
+    "id": "6936a126ff37e6868dadff2a0b59022a185e8d3c",
+    "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+    "summary": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' ",
+    "aiSummary": "AWS Well-Architected Agent의 퍼블릭 프리뷰가 공개되었습니다. 이 서비스는 AI 기술을 활용하여 사용자의 AWS 환경을 정밀하게 분석합니다.\n\n분석 결과에 따라 비용 효율성, 보안, 성능, 그리고 회복탄력성을 개선하기 위한 맞춤형 권장 사항을 제공합니다. 특히 단순한 진단을 넘어 비즈니스 목표와 연계된 즉시 실행 가능한 해결책을 제시함으로써 클라우드 환경의 최적화를 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Channy Yun (윤석찬)",
+    "pubDate": "2026-10-01T20:04:04.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+    "title": "GitHub Copilot can now interact with desktop apps with computer use",
+    "summary": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf…\nThe post GitHub Co",
+    "aiSummary": "GitHub Copilot이 macOS와 Windows 환경의 GitHub Copilot CLI 및 GitHub Copilot 앱에서 Computer use 기능을 퍼블릭 프리뷰로 제공하기 시작합니다.\n\n해당 기능을 통해 사용자는 GitHub Copilot이 자신의 데스크탑 애플리케이션과 직접 상호작용하도록 명령할 수 있습니다. 이를 통해 Copilot이 사용자를 대신하여 다양한 데스크탑 도구를 제어하고 작업을 수행할 수 있는 환경이 마련되었습니다.",
+    "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T19:11:26.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-01-github-copilot-in-visual-studio-code-september-2026-releases",
+    "title": "GitHub Copilot in VS Code, September 2026 releases",
+    "summary": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automat",
+    "aiSummary": "2026년 9월에 출시된 VS Code v1.136부터 v1.140 버전에서는 GitHub Copilot을 활용한 에이전트 기반의 개발 경험이 크게 향상되었습니다.\n\n이번 업데이트는 코드 구현 단계부터 풀 리퀘스트 병합에 이르는 전체 개발 과정을 간소화하는 데 중점을 두었습니다. 반복적인 작업을 처리하는 자동화 기능이 강화되었으며, 에이전트가 직접 병합을 지원하는 기능 등이 새롭게 추가되어 생산적인 개발 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T19:09:10.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-09-30-accessibility-statements-highlighted-on-repository-overview",
+    "title": "Accessibility statements highlighted on repository overview",
+    "summary": "You can now find an ACCESSIBILITY.md file in your repository’s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an…\nThe post Acc",
+    "aiSummary": "GitHub 저장소의 루트 디렉터리, .github 디렉터리, 또는 docs 디렉터리에 위치한 ACCESSIBILITY.md 파일을 저장소 개요 페이지에서 바로 확인할 수 있게 되었습니다. 사용자는 해당 경로에 접근성 선언 파일을 추가하거나 기존 파일에 대한 변경을 제안할 수 있습니다. 이번 업데이트를 통해 저장소 내 접근성 관련 정보를 보다 쉽게 노출하고 관리할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T19:04:32.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=94390",
+    "title": "Trust Docker for the agents you don’t",
+    "summary": "At WeAreDevelopers, Docker introduced Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring Kits to the CNCF for neutral governance.",
+    "aiSummary": "Docker가 WeAreDevelopers 행사를 통해 Cloud Sandboxes를 공개하고 개방형 Sandbox Kit 사양을 발표했습니다. 이와 함께 해당 기술의 중립적인 거버넌스를 보장하기 위해 Sandbox Kit을 CNCF에 기증하겠다는 계획을 밝혔습니다. 이는 에이전트 환경의 보안성과 신뢰성을 강화하기 위한 전략적 행보로 해석됩니다.",
+    "url": "https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jin Kim",
+    "pubDate": "2026-10-01T18:26:12.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
+    "title": "Scheduled code scanning skips inactive repositories",
+    "summary": "Weekly scheduled scans for code scanning default setup and GitHub Code Quality now start only after a push or pull request triggers an analysis, rather than counting every kind of…\nThe post Scheduled ",
+    "aiSummary": "GitHub은 Code scanning default setup 및 GitHub Code Quality의 주간 정기 스캔 방식을 최적화하였습니다.\n\n기존에는 모든 저장소를 대상으로 스캔을 진행했으나, 앞으로는 push나 pull request를 통해 분석이 트리거된 활성 저장소를 중심으로 스캔이 수행됩니다.\n\n이번 업데이트를 통해 활동이 없는 비활성 저장소에 대한 불필요한 스캔 작업을 생략함으로써 리소스 효율성을 높이고 더욱 최적화된 보안 분석 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T16:49:15.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
+    "title": "Code coverage uploads no longer fail CI for new branches",
+    "summary": "Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn’t yet have an open pull request. Previously, the coverage…\nThe post C",
+    "aiSummary": "GitHub의 upload-code-coverage 액션을 사용하여 코드 커버리지를 업로드할 때, 기존에는 열려 있는 Pull Request가 없는 브랜치를 푸시하면 CI가 실패하는 문제가 발생했습니다.\n\n앞으로는 Pull Request가 생성되지 않은 새로운 브랜치를 푸시하더라도 코드 커버리지 업로드 과정에서 CI가 실패하지 않도록 개선되었습니다. 이번 업데이트를 통해 개발자는 Pull Request 생성 여부와 관계없이 보다 유연하게 CI 환경을 유지하고 코드 품질을 관리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-01T16:49:05.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/storage-data-transfer/enabling-end-to-end-checksums-in-cloud-storage/",
+    "title": "Enabling Cloud Storage end-to-end checksums for improved data integrity and durability",
+    "summary": "At Google Cloud, we know that you count on us to maintain the durability and integrity of your data at all times, both at rest and in transit. And now we’re making it easier for developers to take adv",
+    "aiSummary": "Google Cloud는 Cloud Storage의 데이터 무결성과 내구성을 강화하기 위해 모든 Cloud Storage SDK에 종단간 체크섬 기능을 기본으로 적용합니다. 이전에는 개발자가 직접 체크섬을 계산하여 제공해야 했으나, 이제 SDK가 업로드 시점에 내부적으로 체크섬을 생성하고 다운로드 시 검증을 수행하여 데이터 전송 과정에서 발생할 수 있는 비트 플립 문제를 방지합니다. 또한 gRPC API를 활용한 범위 읽기 시에도 체크섬 검증이 지원되어 데이터 무결성을 보장합니다.\n\nGoogle Cloud는 대규모 시스템 운영 환경에서 발생할 수 있는 비트 플립을 차단하기 위해 암호화와 복호화 과정을 거치는 데이터의 무결성을 철저히 관리합니다. 데이터가 업로드된 이후에는 청크 단위로 분할하여 체크섬을 생성하고, 이를 그룹화한 샤드 파일 단위로 데이터를 처리하며 Colossus와 같은 스토리지 시스템을 통해 각 계층에서 체크섬을 지속적으로 검증합니다. 특히 CRC의 연결 속성을 활용해 성능 저하를 최소화하면서도 데이터의 처음부터 끝까지 전체 경로에 걸쳐 무결성을 유지하는 체인을 구축하고 있습니다. 최신 버전의 SDK로 업데이트하면 이러한 고급 무결성 보호 기능을 즉시 활용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/storage-data-transfer/enabling-end-to-end-checksums-in-cloud-storage/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Denis Serenyi"
+      ],
+      "title": [
+        "Distinguished Software Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-01T16:00:00.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/paypals-journey-with-managed-service-for-apache-spark/",
+    "title": "Accelerating analytics: PayPal’s journey with Managed Service for Apache Spark",
+    "summary": "In a data-driven world, PayPal’s ability to deliver timely and actionable insights is central to staying ahead. At PayPal, data powers everything from fraud detection to user experience enhancements. ",
+    "aiSummary": "PayPal은 급격한 사업 확장과 인수 과정에서 발생한 기존 온프레미스 기반의 복잡한 데이터 분석 환경 문제를 해결하고자 Google의 Managed Service for Apache Spark로의 전환을 단행했습니다. 기존 환경은 운영 비용 증가와 확장성 저하, 분석 프로세스의 병목 현상이라는 한계에 직면해 있었으나 이번 전환을 통해 클라우드 네이티브 기반의 통합 인프라를 구축했습니다.\n\n전환의 주요 이점으로는 클러스터의 신속한 배포와 유연한 확장성, GCS나 BigQuery 등 Google Cloud 서비스와의 원활한 통합을 통한 운영 효율성 향상이 꼽힙니다. 이를 통해 PayPal은 파편화된 데이터 사일로를 제거하고 표준화된 분석 환경을 마련하여 데이터 처리 역량을 현대화했습니다.\n\n이러한 변화는 실질적인 성과로 이어졌습니다. 핵심 분석 작업의 처리 시간은 25퍼센트 단축되었고 SLA 준수율은 30퍼센트 향상되었으며, 운영 비용 절감과 함께 엔지니어들이 수동 유지보수가 아닌 혁신적인 신규 서비스 개발에 더 집중할 수 있는 환경이 조성되었습니다. PayPal은 이번 Managed Service for Apache Spark 도입이 데이터 기반의 인사이트를 더욱 빠르고 정밀하게 제공하기 위한 현대적인 분석 플랫폼의 중요한 이정표라고 평가합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/paypals-journey-with-managed-service-for-apache-spark/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Vinod Ganesan"
+      ],
+      "title": [
+        "Director, Analytics Reliability Engineering, PayPal"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-01T16:00:00.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-09-30-github-async-merge-api-generally-available",
     "title": "GitHub async merge API generally available",
     "summary": "You can now use the generally available GitHub async merge API to merge individual or stacked pull requests, add pull requests to a merge queue, or merge pull requests directly.…\nThe post GitHub async",
@@ -109,6 +285,37 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "title": "SvelteKit 3 is here",
+    "summary": "Version 3.0 of SvelteKit, the official application framework for Svelte, is now available.\nIf you’ve used earlier versions of SvelteKit, everything will feel very familiar — it’s the same framework wi",
+    "aiSummary": "Svelte를 위한 공식 애플리케이션 프레임워크인 SvelteKit 3.0이 정식 출시되었습니다. 기존 사용자에게는 익숙한 환경을 유지하면서도 타입 안정성을 강화하고 불필요한 요소를 제거하여 더욱 완성도를 높였습니다.\n\n마이그레이션 작업을 돕기 위해 sv migrate 명령어를 제공하며, 이를 통해 코드베이스를 최대한 자동으로 변환하고 수동 작업이 필요한 부분은 할 일 목록으로 생성해 줍니다. 새로운 앱 생성 시에는 sv create 명령어를 사용하면 됩니다.\n\n이번 버전의 주요 변경 사항으로는 설정 파일이 svelte.config.js에서 vite.config.ts로 이동하였으며, $lib 별칭이 표준 서브패스 임포트를 사용하는 #lib로 변경되었습니다. 또한 환경 변수 사용성 개선, 서비스 워커의 보일러플레이트 감소, 전반적인 에러 처리 기능이 향상되었습니다.\n\n현재 개발팀의 최우선 과제인 원격 함수 기능은 아직 정식 적용되지 않았으나, 추후 업데이트를 통해 클라이언트와 서버 간의 안전하고 효율적인 통신을 지원할 예정입니다. 한편, Svelte 10주년을 기념하는 Svelte Summit이 11월 19일부터 20일까지 슬로베니아 류블랴나에서 개최될 예정입니다.",
+    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "The Svelte team",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted",
+    "title": "Bring your own key to existing Elastic Cloud deployments",
+    "summary": "Enable BYOK on existing Elastic Cloud Hosted deployments: encrypt data and snapshots with your own KMS key, in place, without recreating the deployment.",
+    "aiSummary": "기존 Elastic Cloud 배포 환경에서 사용자가 직접 관리하는 KMS 키를 사용하여 데이터와 스냅샷을 암호화하는 BYOK 기능을 활성화할 수 있게 되었습니다.\n\n이번 업데이트를 통해 사용자는 배포를 새로 생성하거나 재구성할 필요 없이 운영 중인 기존 환경에서 즉시 암호화 설정을 적용할 수 있습니다. 이를 통해 보안 요구 사항을 준수하면서도 관리 효율성을 높일 수 있습니다.",
+    "url": "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Alex Chalkias",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "fetchedAt": "2026-10-01T20:23:44.726Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -1980,279 +2187,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
-    "title": "Rails Version 7.2.4 has been released!",
-    "summary": "Hi everyone,\nI am happy to announce that Rails 7.2.4 has been released.\nAs stated in the maintenance policy, this\nis the last release of the 7.2.x series.\nSecurity issues and bug fixes will only be pr",
-    "aiSummary": "Rails 7.2.4 버전이 공식적으로 출시되었습니다. 이번 릴리스는 7.2.x 시리즈의 마지막 업데이트입니다.\n\n앞으로의 보안 업데이트 및 버그 수정은 8.0.x 및 8.1.x 시리즈를 통해서만 지원될 예정입니다. 변경 사항에 대한 자세한 내용은 GitHub에 게시된 CHANGELOG와 커밋 기록을 통해 확인할 수 있습니다.\n\n사용자는 배포된 각 gem의 무결성을 검증하기 위해 안내된 SHA-256 해시값을 확인할 수 있습니다. 이번 릴리스를 위해 기여해 준 많은 개발자에게 감사를 표합니다.",
-    "url": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "rafaelfranca",
-    "pubDate": "2026-09-24T19:15:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/containers-kubernetes/2026-gartner-magic-quadrant-for-container-management/",
-    "title": "Google is a Leader in the 2026 Gartner Magic Quadrant for Container Management",
-    "summary": "We’re excited and proud to share that Gartner has recognized Google as a Leader for the fourth year in a row in the 2026 Gartner® Magic Quadrant™ for Container Management, based on its Completeness of",
-    "aiSummary": "Google이 2026 Gartner Magic Quadrant for Container Management 보고서에서 4년 연속 리더로 선정되었습니다. Google은 실행 능력 부문에서 평가 대상 기업 중 가장 높은 위치를 차지했으며, 2026 Gartner Critical Capabilities 보고서에서도 클라우드 네이티브 애플리케이션, AI 학습 및 추론, 엣지 및 하이브리드 애플리케이션 등 모든 사용 사례 분야에서 1위를 기록했습니다.\n\nGoogle은 GKE와 Cloud Run을 중심으로 AI 및 에이전트 환경에 최적화된 차세대 인프라를 구축하고 있습니다. 특히 GKE는 추론 게이트웨이의 예측 지연 시간 최적화, 자동 KV 캐시 계층화, 노드 및 포드 시작 속도 개선 등을 통해 AI 인프라의 성능과 효율성을 극대화했습니다. \n\n보안 및 확장성 측면에서는 에이전트 실행 런타임인 Agent Substrate와 gVisor 기반의 Agent Sandbox를 도입하여 대규모 멀티 에이전트 환경에서 제로 트러스트 보안과 효율적인 샌드박스 격리를 지원합니다. 또한 GKE의 클러스터당 노드 지원 규모를 15,000개로 확대하고, 의도 기반 오토스케일링을 통해 리소스 반응 속도를 대폭 단축했습니다.\n\n서버리스 플랫폼인 Cloud Run은 개발자 경험을 향상하기 위해 NVIDIA RTX PRO 6000 Blackwell GPU를 지원하며, 5초 이내에 GPU 리소스를 프로비저닝하고 사용 후 0으로 자동 확장하는 기능을 제공합니다. 더불어 Google AI Studio와의 연동, Cloud Run 인스턴스 도입 등 다양한 기술적 개선을 통해 AI 에이전트와 대규모 모델 운영을 위한 가장 강력한 컨테이너 플랫폼으로서의 입지를 다지고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/containers-kubernetes/2026-gartner-magic-quadrant-for-container-management/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mark Lohmeyer"
-      ],
-      "title": [
-        "VP and GM, AI and Computing Infrastructure"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-24T19:00:00.000Z",
-    "fetchedAt": "2026-09-25T01:38:01.582Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-    "title": "Introducing Gemini 3.8 Live with Live Avatar",
-    "summary": "Sep 24, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Gemini 3.8 Live with Live Avatar brings re",
-    "aiSummary": "Google이 Gemini 3.8 Live에 실시간 시각적 존재감을 더한 Live Avatar 기능을 새롭게 발표했습니다. 이 기능은 실시간 대화 모델과 저지연 스트리밍 비디오를 결합하여 자연스럽고 직관적인 대화 경험을 제공합니다. 사용자의 말을 듣고 보고 말하는 과정에서 정교한 립싱크와 자연스러운 표정, 유연한 턴테이킹을 구현하여 고객 서비스나 가이드와 같은 기업용 환경에서 대화형 인터페이스의 수준을 한층 높였습니다.\n\nLive Avatar는 Gemini의 고급 추론 기능을 기반으로 비동기 도구 실행을 지원합니다. 대화가 지속되는 동안 배경에서 데이터를 조회하거나 복잡한 작업을 처리할 수 있어 흐름이 끊기지 않는 매끄러운 경험을 보장합니다. 또한 97개 언어를 지원하며 각 언어에 맞춰 실시간으로 입 모양과 표정을 동기화하여 글로벌 비즈니스 환경에서도 즉각적으로 활용할 수 있습니다.\n\n브랜드 이미지에 맞춘 사용자 지정 아바타 생성 기능도 제공합니다. 기업은 고품질 참조 이미지를 바탕으로 자사의 정체성을 반영한 독자적인 아바타를 구현할 수 있습니다. 신뢰성과 안전성을 위해 모든 결과물에는 SynthID 기술을 적용하여 AI 생성 콘텐츠임을 식별할 수 있는 워터마크를 포함합니다. 현재 Gemini 3.8 Live with Live Avatar는 Gemini Enterprise 사용자를 대상으로 제공됩니다.",
-    "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-24T16:20:39.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/customers/scribd-inc-classifies-millions-of-documents-on-gemini-enterprise/",
-    "title": "Scribd, Inc. classifies more than 400 million documents with Gemini batch inference on Gemini Enterprise",
-    "summary": "Scribd, Inc. is home to one of the world's largest collections of human-created content. \nScribd’s  products leverage one of the world's largest collections of human-created content and intelligent to",
-    "aiSummary": "Scribd, Inc.는 4억 개 이상의 문서와 120억 페이지에 달하는 방대한 사용자 생성 콘텐츠를 분류하고 관리하기 위해 Gemini Enterprise의 배치 추론 기능을 도입했습니다. 그동안 대규모 문서의 콘텐츠 적절성을 평가하는 작업은 각 유형별로 별도의 전문 모델을 구축해야 하는 등 큰 비용과 시간이 소모되는 난제였습니다.\n\nScribd는 Gemini가 PDF를 원본 그대로 이해할 수 있는 멀티모달 능력을 활용하여 별도의 OCR이나 이미지 변환 과정 없이 전체 데이터의 99% 이상을 즉시 처리했습니다. Gemini 2.5 Flash Lite를 주력 분류 모델로 사용하고, Gemini 2.5 Pro를 검증 모델로 활용하여 정확도를 높였습니다.\n\n이 과정에서 Gemini Enterprise의 배치 예측 기능을 사용해 대화형 모델 대비 50% 낮은 비용으로 대규모 처리를 구현했습니다. 또한 Google Cloud의 기술 지원을 통해 인프라 구축 없이도 대규모 처리량을 안정적으로 확보했습니다. 결과적으로 수년이 걸릴 것으로 예상되었던 콘텐츠 분류 작업을 단 몇 달 만에 완료했으며, 현재는 새로 업로드되는 콘텐츠까지 실시간으로 관리하는 기반을 마련했습니다. 이번 프로젝트는 복잡한 수년 단위의 엔지니어링 과제를 간단한 프롬프트와 배치 파이프라인으로 전환할 수 있음을 입증했습니다.",
-    "url": "https://cloud.google.com/blog/topics/customers/scribd-inc-classifies-millions-of-documents-on-gemini-enterprise/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Travis Martin"
-      ],
-      "title": [
-        "Account Manager, Google Cloud Platform"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/containers-kubernetes/gke-agentic-migration/",
-    "title": "Introducing GKE agentic migration for AI-assisted EKS-to-GKE migrations with built-in governance",
-    "summary": "Enterprises are increasingly standardizing on Google Kubernetes Engine (GKE) to run their most critical and AI-driven workloads. From Cloud Storage FUSE for high-throughput data access to custom compu",
-    "aiSummary": "Google은 기업들의 효율적인 클라우드 현대화를 지원하기 위해 AWS EKS에서 GKE로의 전환을 자동화하는 오픈소스 도구인 GKE agentic migration을 발표했습니다. 기존의 범용 LLM을 활용한 마이그레이션은 할루시네이션이나 설정 누락 등의 위험이 컸으나, 이번에 공개된 도구는 결정론적인 가드레일을 결합하여 이러한 문제를 해결합니다.\n\n이 솔루션은 LLM의 추론 능력과 엄격한 검증 도구를 결합하여 복잡한 인프라 코드를 GKE 환경에 맞게 자동으로 변환합니다. 주요 특징으로는 LLM이 작성한 코드를 사전에 정의된 규칙으로 검증하는 하이브리드 검증 방식과, 모든 변경 사항을 Pull Request 형태로 생성하여 GitOps 기반의 인간 승인 절차를 강제하는 안정성을 제공합니다.\n\n또한, 실시간 클러스터에 직접 접근하는 방식이 아닌 소스 리포지토리를 중심으로 운영되어 기존 CI/CD 파이프라인의 무결성을 유지합니다. 인프라 설계부터 마이그레이션 상태 관리, 그리고 플랫폼 팀과 애플리케이션 팀 간의 권한 분리까지 지원하며, 민감한 데이터는 전용 마이그레이션 서비스를 사용하도록 가이드하여 보안성을 높였습니다. \n\n사용자는 EKS 저장소를 분석하여 인프라 호환성을 평가하고, Terraform 모듈 기반의 랜딩 존을 구성한 뒤, AI의 도움을 받아 자동으로 클라우드 설정을 변환하는 체계적인 마이그레이션 과정을 경험할 수 있습니다. 이를 통해 기업은 인프라 전환 시 발생하는 기술적 부채와 예측 불가능한 리스크를 최소화할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-agentic-migration/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sunny Hwang"
-      ],
-      "title": [
-        "Product Manager, GKE"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=94091",
-    "title": "From Dockerfile to Kit: the Docker Sandboxes Kit Specification",
-    "summary": "Docker's Sandbox Kit Specification v3 packages an AI agent's network rules, credentials, and volumes as an ordinary, pinnable OCI image.",
-    "aiSummary": "Docker가 발표한 Sandbox Kit Specification v3는 AI 에이전트가 사용하는 네트워크 규칙, 자격 증명, 그리고 볼륨 정보를 일반적인 OCI 이미지 형태로 패키징하여 관리할 수 있게 합니다. 이 방식을 통해 에이전트의 실행 환경을 표준화된 이미지로 고정하고 배포할 수 있어 운영의 효율성과 일관성을 높여줍니다.",
-    "url": "https://www.docker.com/blog/docker-sandbox-kit-spec/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jin Kim",
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=94077",
-    "title": "Docker and CNCF partner on an open spec for agent permissions",
-    "summary": "Docker is bringing the open source Sandbox Kit Spec to the CNCF, so AI agent permissions become a neutral, vendor independent standard built on OCI.",
-    "aiSummary": "Docker가 AI 에이전트의 권한 관리를 위한 오픈 소스인 Sandbox Kit Spec을 CNCF에 기증합니다. 이번 협력을 통해 AI 에이전트의 권한 체계는 특정 벤더에 종속되지 않는 중립적인 표준으로 자리 잡게 됩니다. 새로운 표준은 OCI를 기반으로 구축되며 이를 통해 향후 AI 에이전트 생태계에서 더욱 안전하고 호환성 높은 운영 환경이 마련될 것으로 기대됩니다.",
-    "url": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jin Kim",
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=93924",
-    "title": "Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud",
-    "summary": "Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year we launched Docker Sandboxes: microVM environments where coding agents can work autonomou",
-    "aiSummary": "Cloud Sandboxes는 사용자가 자신의 노트북에서 에이전트를 실행하고 클라우드 환경으로 이동할 수 있도록 지원하는 서비스입니다. 이전에 출시된 Docker Sandboxes를 기반으로 하여 코딩 에이전트가 안전하고 자율적으로 작업을 수행할 수 있는 microVM 환경을 제공합니다. 사용자는 단 하나의 명령어로 로컬과 클라우드 사이를 자유롭게 오가며 효율적으로 개발 업무를 처리할 수 있습니다.",
-    "url": "https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "PeiFang Sung",
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
-    "title": "Introducing Gemini 3.8 Live with Live Avatar",
-    "summary": "Introducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.",
-    "aiSummary": "Google은 Gemini의 대화형 AI 경험에 실시간 시각적 존재감을 부여하는 Gemini 3.8 Live with Live Avatar를 새롭게 공개했습니다. 해당 기술을 통해 사용자는 Gemini와 더욱 생생하고 즉각적인 반응이 가능한 시각적 대화를 나눌 수 있게 됩니다. 이는 인공지능과의 상호작용 방식에서 시각적 요소를 강화하여 더욱 몰입감 넘치는 대화 환경을 제공합니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Shuo-yiin Chang"
-      ],
-      "title": [
-        "Research Scientist"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-24T15:30:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-09-24-5",
-    "title": "PHP 8.4.26 Released!",
-    "summary": "The PHP development team announces the immediate availability of PHP 8.4.26. This is a security release.\nAll PHP 8.4 users are encouraged to upgrade to this version.\nFor source downloads of PHP 8.4.26",
-    "aiSummary": "PHP 개발팀은 보안 업데이트가 포함된 PHP 8.4.26 버전을 정식으로 출시하였습니다. \n\n이번 업데이트는 보안 취약점을 해결하기 위한 필수적인 조치이므로 모든 PHP 8.4 사용자는 최신 버전으로 업그레이드할 것을 권장합니다. \n\n소스 코드 및 Windows 바이너리는 공식 다운로드 페이지를 통해 확보할 수 있으며 상세한 변경 사항은 ChangeLog에서 확인할 수 있습니다.",
-    "url": "https://www.php.net/index.php#2026-09-24-5",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-09-24T15:26:06.000Z",
-    "fetchedAt": "2026-09-25T01:38:01.582Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/9/24/Rails-Version-8-1-4-has-been-released",
-    "title": "Rails Version 8.1.4 has been released!",
-    "summary": "Hi everyone,\nI am happy to announce that Rails 8.1.4 has been released.\nCHANGES since 8.1.3\nTo see a summary of changes, please read the release on GitHub:\n8.1.4 CHANGELOG\nTo view the changes for each",
-    "aiSummary": "Ruby on Rails 프레임워크의 새로운 버전인 Rails 8.1.4가 공식적으로 출시되었습니다. 이번 업데이트는 이전 버전인 8.1.3 이후의 변경 사항들을 포함하고 있습니다.\n\n사용자는 GitHub에서 제공되는 상세한 CHANGELOG를 통해 Action Cable, Action Mailer, Active Record, Active Support 등 각 gem별 변경 내역을 확인할 수 있습니다. 또한 전체 변경 사항에 대한 커밋 목록 역시 GitHub를 통해 열람 가능합니다.\n\n보안 및 무결성 검증을 위해 이번 릴리스에 포함된 각 gem의 SHA-256 해시 값이 함께 공개되었습니다. 이번 배포를 위해 기여해 준 많은 개발자에게 감사를 표합니다.",
-    "url": "https://rubyonrails.org/2026/9/24/Rails-Version-8-1-4-has-been-released",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "rafaelfranca",
-    "pubDate": "2026-09-24T15:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/",
-    "title": "Power your agents: Gemini 3.8 Live with Live Avatar is now generally available",
-    "summary": "Following our announcement of Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking last week, we are thrilled to share that Gemini 3.8 Live with Live Avatar is now generally available in Gemini Enter",
-    "aiSummary": "Google은 Gemini Enterprise 환경에서 Gemini 3.8 Live와 Live Avatar 기능을 정식 출시했습니다. 이 기술은 단순한 음성 AI를 넘어 상호작용이 가능한 시각적 아바타를 제공하며 기업용 프로덕션 환경에 최적화되어 있습니다.\n\n주요 기능으로 실시간 입모양 동기화가 가능한 비디오 아바타, 자연스러운 대화 흐름을 지원하는 네이티브 음성 간 대화, 백그라운드에서 API 호출을 병행하는 툴 콜링 기능을 포함합니다. 또한 97개 언어를 지원하며 카메라 피드와 화면 공유를 실시간으로 분석하는 시각적 이해 능력을 갖추고 있습니다.\n\n안전성과 신뢰성을 위해 사용자들은 엄격한 승인 절차를 거친 후 커스텀 아바타를 생성할 수 있으며, 생성된 모든 오디오와 비디오 콘텐츠에는 SynthID 워터마크가 포함되어 AI 생성물임을 확인할 수 있습니다.\n\n현재 Gemini 3.8 Live와 Live Avatar는 미국과 EU 엔드포인트를 통해 제공되며 기업 고객들은 프로비저닝된 처리량과 데이터 거버넌스 환경에서 서비스를 이용할 수 있습니다. 이미 Cox Automotive, Equal AI, Salesforce 등 여러 기업이 이 기술을 도입하여 고객 경험을 혁신하고 있습니다. 상세한 개발 가이드는 Gemini Live API 문서를 통해 확인할 수 있으며 필요한 경우 Google Cloud 영업 담당자를 통해 맞춤형 배포 아키텍처를 논의할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Fabien Blanc-paques"
-      ],
-      "title": [
-        "Group Product Manager, Gemini Live"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-24T15:00:00.000Z",
-    "fetchedAt": "2026-09-24T19:18:59.316Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
