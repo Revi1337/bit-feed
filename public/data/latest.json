@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.16",
+    "title": "1.2.16",
+    "summary": "Added ←/→ shortcuts to /config: on a highlighted setting they switch to the previous or next value and save it right away, without opening the dropdown, and the footer shows a ←/→ Change hint\nImproved",
+    "aiSummary": "CLI 도구인 1.2.16 버전 업데이트를 통해 사용자 경험과 성능이 대폭 개선되었습니다. /config 설정에서 방향키를 이용해 값을 즉시 변경하고 저장할 수 있는 단축키가 추가되었으며, 터미널 크기 조정 시 화면 끊김 현상을 방지하는 등 대화 모드의 반응성이 향상되었습니다. 또한, altscreen 뷰와 artifact 뷰에서의 마우스 텍스트 선택 및 자동 스크롤 기능이 최적화되었습니다.\n\n명령어 승인 과정에서는 go 관련 하위 명령어에 대한 허용 제안이 개선되었으며, 메시지 대기열 처리 로직을 수정하여 메시지 유실을 방지하고 전송 순서를 최적화했습니다. 이미지 생성 방식은 별도의 내장 이미지 생성 서브 에이전트를 활용하는 구조로 변경되어 프롬프트 작성과 결과 확인 과정을 자동화합니다.\n\n이외에도 백그라운드 명령어 실행 중 에이전트가 중단되던 문제나 headless 모드에서의 조기 종료 버그가 수정되었습니다. Vim 모드에서의 키 입력 동작, 상위 디렉터리의 설정 파일 로드 방식, UTF-8 BOM으로 인한 설정 로드 오류, 터미널 출력 시의 줄바꿈 및 서식 문제 등 전반적인 안정성 문제를 해결하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.16",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-03T03:56:15.000Z",
+    "fetchedAt": "2026-10-03T12:38:14.916Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
     "title": "Stateless GitHub App installation tokens rolled out",
     "summary": "The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be…\nThe post Stat",
