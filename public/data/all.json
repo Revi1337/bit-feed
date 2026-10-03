@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+    "title": "Stateless GitHub App installation tokens rolled out",
+    "summary": "The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be…\nThe post Stat",
+    "aiSummary": "2026년 4월 27일부터 단계적으로 진행되었던 Stateless GitHub App installation token 형식의 도입이 완료되었습니다.\n\n이제 모든 신규 GitHub App installation token은 기본적으로 이 새로운 Stateless 형식이 적용됩니다. 해당 방식은 토큰의 크기를 대폭 줄이고 복잡한 데이터베이스 조회를 거치지 않아도 토큰 자체의 정보로 유효성을 검증할 수 있도록 설계되어 시스템 효율성을 높입니다. 기존의 상태 유지 방식과 비교하여 더욱 빠르고 확장성 있는 인증 처리가 가능해질 전망입니다.",
+    "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-02T22:18:23.000Z",
+    "fetchedAt": "2026-10-03T02:06:32.577Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+    "title": "Copilot code review: API support and new default effort level",
+    "summary": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default…\nThe post Copilot code review: API",
+    "aiSummary": "GitHub Copilot 코드 리뷰 기능을 이제 REST 및 GraphQL API를 통해 직접 요청할 수 있게 되었습니다.\n\n또한 API 사용 시 각 요청에 대해 코드 리뷰의 정밀도인 노력 수준을 개별적으로 설정하는 것이 가능해졌습니다.\n\n기본 리뷰 노력 수준은 기존보다 더욱 효율적인 Balanced 모드로 변경되어 적용됩니다.",
+    "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-02T19:13:50.000Z",
+    "fetchedAt": "2026-10-03T02:06:32.577Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/containers-kubernetes/ai21-trains-its-models-on-ai-hypercomputer/",
     "title": "AI21 achieves an 83% reduction in time-to-start for AI workloads with AI Hypercomputer",
     "summary": "Editor’s note: AI21 Labs is a leading global AI lab with a long track record of building foundation models, most notably the Jamba family, and today focuses on specialized LLMs and agent optimization ",
@@ -292,6 +324,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/10/python-3150-rc3/",
+    "title": "Python 3.15.0 candidate 3 is here!",
+    "summary": "Following tradition, a surprise rc3!",
+    "aiSummary": "Python 3.15.0의 세 번째 릴리스 후보 버전인 rc3가 공개되었습니다. 이번 출시는 관례에 따라 깜짝 발표 형식으로 진행되었습니다.",
+    "url": "https://blog.python.org/2026/10/python-3150-rc3/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-10-02T00:00:00.000Z",
+    "fetchedAt": "2026-10-03T02:06:32.577Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/10/firebase-analytics-outage",
+    "title": "Google Analytics for Firebase iOS SDK outage on September 28, 2026",
+    "summary": "Google's response to the Firebase iOS SDK outage on September 28, 2026.",
+    "aiSummary": "2026년 9월 28일에 발생한 Google Analytics for Firebase iOS SDK의 서비스 장애에 대해 Google이 공식적인 대응 입장을 발표하였습니다. 해당 오류는 iOS 환경에서 Firebase 관련 데이터 수집 및 분석 기능에 영향을 미쳤으며, Google 측은 문제의 원인을 파악하고 이를 해결하기 위한 기술적 조치를 즉각적으로 수행하였습니다. 개발자들은 이번 장애로 인해 서비스 안정성에 차질이 발생한 점을 확인하고, 관련 업데이트 사항을 공식 문서와 Firebase 상태 페이지를 통해 지속적으로 확인해야 합니다.",
+    "url": "https://firebase.blog/posts/2026/10/firebase-analytics-outage",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-10-02T00:00:00.000Z",
+    "fetchedAt": "2026-10-03T02:06:32.577Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
