@@ -1,5 +1,134 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+    "title": "Introducing Google Cloud Modernize, transforming for (and with) AI",
+    "summary": "Today, we’re announcing Google Cloud Modernize, an end-to-end transformation portfolio to help enterprises collapse multi-year roadmaps with the power of AI.\nGoogle Cloud Modernize brings together Goo",
+    "aiSummary": "Google Cloud는 기업의 클라우드 전환과 현대화를 가속화하기 위해 통합 포트폴리오인 Google Cloud Modernize를 발표했습니다. 이 포트폴리오는 인프라 평가, 플랫폼 현대화, 애플리케이션 현대화 전 과정을 아우르는 에이전트 기반의 기능을 제공합니다.\n\n핵심 구성 요소인 Modernization Hub는 Google Cloud 콘솔 내에서 Java, .NET, 메인프레임 애플리케이션의 소스 코드를 분석하고 의존성을 매핑하여 현대화를 지원합니다. 또한 Migration Center에 통합된 Gemini 기반의 Agentic Quick Estimator를 통해 인프라 비용을 신속하게 예측하고 최적화할 수 있습니다.\n\n플랫폼 현대화를 위해 기업은 SAP S/4HANA를 위한 X5 시리즈, 데이터베이스 성능 최적화를 위한 M4N 시리즈, 초저지연 데이터 엔진을 위한 Z4D 및 Z4M 등 특화된 컴퓨팅 옵션을 선택할 수 있습니다. 특히 VMware 환경을 위한 솔루션과 AWS EKS에서 GKE로의 전환을 자동화하는 EKS-to-GKE Agentic Migration 도구가 포함되어 있어 유연한 클라우드 전환을 돕습니다.\n\n메인프레임 환경을 위해서는 코드 분석 도구인 Mainframe Assessment Tool과 클라우드 전환 위험을 줄이는 Dual Run 기능을 제공합니다. 이를 통해 기업은 레거시 시스템을 안전하게 현대화하고 AI 에이전트가 운영 데이터에 원활하게 접근할 수 있는 환경을 구축할 수 있습니다. 이미 Deutsche Börse Group이나 NetEase Games와 같은 기업들이 이러한 도구를 활용해 인프라 성능 향상과 비용 절감 효과를 거두고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Souvik Choudhury"
+      ],
+      "title": [
+        "Senior Director, Product Management, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-05T16:00:00.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/securing-filament-plugins-with-plumb",
+    "title": "Securing Filament plugins with Plumb",
+    "summary": "If you keep up with Filament news, you've likely heard that there are now over 1,000 community plugins in the Filament plugins directory. So with these 1,000 plugins and growing, it's time to talk abo",
+    "aiSummary": "Filament 생태계의 커뮤니티 플러그인이 1,000개를 돌파하며 급격히 성장하고 있습니다. 이에 따라 사용자들에게 더욱 안전하고 신뢰할 수 있는 플러그인 선택 환경을 제공하고자 보안 관리를 위한 새로운 도구인 Plumb가 도입되었습니다. Plumb는 사용자가 특정 플러그인을 설치할 때 정보에 기반한 결정을 내릴 수 있도록 지원하며, Filament 생태계의 보안 수준을 높이는 역할을 수행합니다.",
+    "url": "https://laravel-news.com/securing-filament-plugins-with-plumb?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Alex Six",
+    "pubDate": "2026-10-05T13:07:28.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=744339",
+    "title": "Java Annotated Monthly – October 2026",
+    "summary": "September gave us plenty to talk about, with major releases and thought-provoking reads. Java 27 arrived, and JetBrains opened a new chapter in agentic development with the announcement of JetBrains A",
+    "aiSummary": "Java 27이 공식적으로 출시되었습니다.\n\nJetBrains는 JetBrains Air를 통해 에이전트 기반 소프트웨어 개발의 새로운 시대를 열었습니다. 이 시스템은 IDE 환경 내에서 에이전트 기술을 활용한 개발을 지원하며 현재 EAP 단계에 진입하였습니다.\n\n이번 달에는 Marit van Dijk가 기고한 심도 있는 Java 관련 기술 분석과 함께, 생태계 전반의 주요 업데이트 소식을 다루고 있습니다. 전반적으로 Java 개발 환경의 자동화와 에이전트 도입이 가속화되고 있음을 보여줍니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/10/java-annotated-monthly-october-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Irina Mariasova",
+    "pubDate": "2026-10-05T13:05:48.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "title": "Building advertising for the way people use AI",
+    "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "aiSummary": "OpenAI는 사용자들이 ChatGPT를 활용하는 방식에 최적화된 새로운 시각적 광고 형식을 도입합니다.\n\n이번 업데이트를 통해 광고주들은 ChatGPT 내에서 더욱 효과적으로 브랜드를 노출할 수 있게 됩니다. 또한 성과 측정을 위한 도구를 고도화하고 기여도 분석을 위한 파트너십을 확장하며 브랜드 적합성을 보장하는 기능을 강화합니다. 이는 AI 환경에서 광고주와 사용자 모두에게 유용한 정보를 제공하기 위한 전략적 행보입니다.",
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-05T10:00:00.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.2.17",
+    "title": "1.2.17",
+    "summary": "Added announcement cards above the prompt for model launches, deprecations, and other service notices. Cards appear one at a time, newest first; press Esc on an empty prompt to dismiss the current car",
+    "aiSummary": "이번 업데이트를 통해 프롬프트 상단에 모델 출시나 서비스 종료 등 주요 공지사항을 확인할 수 있는 알림 카드가 추가되었습니다. 해당 카드는 최신순으로 표시되며 Esc 키를 눌러 영구적으로 닫거나 메시지를 전송하여 현재 세션 동안 숨길 수 있습니다.\n\nWindows 환경의 커맨드 샌드박스 기능을 개선하여 관리자 권한 없이도 Python, Git, npm 등의 도구를 즉시 사용할 수 있도록 변경하였습니다.\n\n마크다운 표 내부의 이모지나 특정 언어 문자로 인해 열 정렬이 어긋나던 문제를 수정하여 SSH 및 tmux 환경에서의 가독성을 높였습니다.\n\n파일 유형이 잘못 인식되던 .tiff 이미지 처리 오류를 해결하여 에이전트가 이미지를 확인할 때 정상적으로 처리되도록 조치하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.17",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-05T06:20:17.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/05/confined-pools/",
+    "title": "Making Arena.ofConfined() Even Cheaper in JDK 28",
+    "summary": "Starting with JDK 28, the Foreign Function and Memory (FFM) API can serve small allocations from reusable native-memory pools when applications use Arena.ofConfined().\n\t\t\t\tOne attractive property is t",
+    "aiSummary": "JDK 28부터 도입되는 FFM API의 개선 사항은 Arena.ofConfined()를 사용하는 애플리케이션에서 소규모 네이티브 메모리 할당 비용을 획기적으로 줄여줍니다. 개발자가 별도의 소스 코드 수정 없이도 성능 향상을 경험할 수 있는 것이 핵심입니다.\n\n기존에는 아주 작은 메모리 할당조차도 정규 네이티브 할당자와 연관된 정리 작업을 수반해야 했기 때문에 할당 자체보다 관리 비용이 더 큰 경우가 많았습니다. JDK 28에서는 이를 해결하기 위해 각 플랫폼 스레드가 네이티브 메모리 풀의 작은 캐시를 유지하는 방식을 도입했습니다. Arena.ofConfined()가 생성될 때 메모리 풀을 즉시 할당하지 않고 첫 번째 할당 요청 시점에 풀을 획득함으로써 효율성을 극대화합니다.\n\n이 방식은 보안과 데이터 무결성도 철저히 유지합니다. Arena가 닫히면 메모리 세그먼트에 대한 접근이 즉시 차단되며, 재사용되는 메모리 풀은 항상 0으로 초기화되어 이전 데이터가 노출되는 것을 방지합니다. 또한, Virtual Threads 환경에서도 해당 스레드가 수행되는 Carrier Thread로부터 일시적으로 풀을 빌려와 사용하는 최적화 설계를 통해, 수백만 개의 스레드가 생성되어도 메모리 부담을 최소화합니다.\n\n성능 평가 결과, 5바이트에서 20바이트 수준의 소규모 할당에서 이전 대비 수배에서 십수 배에 이르는 지연 시간 감소 효과가 확인되었습니다. 이러한 개선은 특히 FFM 바인딩을 자주 호출하거나, 소규모 구조체 및 포인터 처리가 많은 코드, 그리고 지연 시간에 민감한 작업에서 큰 이점을 제공합니다. 결과적으로 개발자는 기존의 안전한 API 사용 방식을 유지하면서도 내부적인 메모리 할당 최적화를 통해 성능 향상을 누릴 수 있게 됩니다.",
+    "url": "https://inside.java/2026/10/05/confined-pools/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Per-Ake Minborg",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/dbforge-20262-adds-a-postgresql-debugger-visual-object-editors-and-broader-context-for-dbforge-ai-assistant-3394/",
+    "title": "dbForge 2026.2 Adds a PostgreSQL Debugger, Visual Object Editors and Broader Context for dbForge AI Assistant\n",
+    "summary": "The release adds a PostgreSQL Debugger, visual editors for event triggers, functions and procedures, as well as file attachments and model choice in dbForge AI Assistant.\nDevart, a leading developer o",
+    "aiSummary": "Devart는 자사의 데이터베이스 관리 도구 제품군인 dbForge 2026.2 업데이트를 발표했습니다. 이번 버전의 핵심은 dbForge Studio for PostgreSQL에 추가된 내장형 PostgreSQL Debugger와 시각적 객체 편집기입니다. 이를 통해 개발자는 별도의 확장 프로그램 설치 없이 코드 실행을 일시 정지하고 변수와 쿼리 결과를 추적할 수 있으며, 이벤트 트리거, 함수, 프로시저 등을 SQL 코드를 직접 작성하지 않고도 시각적으로 관리할 수 있게 되었습니다.\n\ndbForge AI Assistant의 기능도 대폭 강화되었습니다. 사용자는 이제 SQL 문서나 데이터베이스 프로젝트, 사용자 정의 지침 등을 파일 형태로 직접 첨부하여 AI가 더 넓은 문맥을 이해하도록 할 수 있습니다. 또한 Anthropic의 Claude Haiku 4.5, Claude Sonnet 4.6, Claude Sonnet 5와 OpenAI의 GPT-5.4, GPT-5.6 모델 중 하나를 선택하여 사용할 수 있는 옵션이 제공됩니다.\n\n추가적으로 AI 보조 도구의 접근성을 높이기 위해 제한된 토큰과 14일간의 채팅 기록을 제공하는 무료 Express 에디션이 새롭게 도입되었습니다. 이 외에도 dbForge SQL Complete와 다양한 데이터베이스 관리 도구 전반에 걸쳐 SQL 리팩토링 기능 개선, 테스트 데이터 생성 접근성 향상, 스키마 비교 보고서의 마지막 수정일 표시 기능 등이 포함되었습니다. MySQL 26.7 및 MariaDB 13.x에 대한 지원도 이번 업데이트를 통해 완료되었습니다.",
+    "url": "https://www.postgresql.org/about/news/dbforge-20262-adds-a-postgresql-debugger-visual-object-editors-and-broader-context-for-dbforge-ai-assistant-3394/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/pg_ivm-116-released-3391/",
     "title": "pg_ivm 1.16 released\n",
     "summary": "IVM Development Group is pleased to announce the release of pg_ivm 1.16.\nChanges since the v1.15 release include:\nWhat's Changed\nNew features\nAdd support for PostgreSQL 19 ( Devrim Gündüz )\nBug fixes\n",
@@ -1533,6 +1662,23 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "/blog/app-hosting-platforms-with-managed-postgres-2026",
+    "title": "App hosting platforms with managed Postgres compared (2026)",
+    "summary": "Prisma Compute, Railway, Render, Fly.io, Supabase, Neon and Vercel compared for an app next to managed Postgres: previews, idle cost, pooling, backups and prices.",
+    "aiSummary": "Prisma Compute, Railway, Render, Fly.io, Supabase, Neon, Vercel 등 주요 앱 호스팅 플랫폼을 관리형 Postgres 환경과 결합하는 관점에서 비교 분석합니다.\n\n주요 비교 항목은 서비스의 배포 미리보기 기능, 유휴 상태 시 발생하는 비용 구조, 커넥션 풀링 지원 여부, 데이터 백업 정책 및 전체적인 가격 경쟁력입니다.\n\n각 플랫폼은 애플리케이션과 데이터베이스의 효율적인 통합을 위해 서로 다른 전략을 취하고 있습니다. 서버리스 지향 플랫폼은 유휴 비용 최적화에 강점을 보이며, 특정 관리형 Postgres 제공업체는 성능과 데이터 관리 편의성에 집중하고 있습니다.\n\n개발자는 프로젝트의 규모와 트래픽 특성, 그리고 운영 효율성을 고려하여 본인의 서비스에 가장 적합한 호스팅 환경과 데이터베이스 조합을 선택해야 합니다.",
+    "url": "https://www.prisma.io/blog/app-hosting-platforms-with-managed-postgres-2026",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
@@ -38004,6 +38150,22 @@
     "author": "Aaron Jewitt",
     "pubDate": "2024-05-31T00:00:00.000Z",
     "fetchedAt": "2026-09-12T01:15:16.636Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-enterprise-security",
+    "title": "Encryption at rest in Elastic Cloud: A strategic imperative for enterprise security",
+    "summary": "Encryption at rest is crucial for data security in cloud-based environments. It protects sensitive data stored within SaaS applications, ensuring confidentiality and compliance. Elastic Cloud helps cu",
+    "aiSummary": "클라우드 환경에서 저장 데이터 암호화는 기업 보안을 위한 핵심 전략입니다. 이는 SaaS 애플리케이션 내에 보관된 민감한 데이터를 보호하고 기밀성을 유지하며 규제 준수를 달성하는 데 필수적인 요소입니다. Elastic Cloud는 고객이 직접 관리하는 암호화 키를 지원함으로써 데이터 제어권과 신뢰성을 한층 더 강화합니다.",
+    "url": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-enterprise-security",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Alex Chalkias,Udayasimha Theepireddy",
+    "pubDate": "2024-05-16T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T16:11:45.436Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
