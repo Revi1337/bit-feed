@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/pg_ivm-116-released-3391/",
+    "title": "pg_ivm 1.16 released\n",
+    "summary": "IVM Development Group is pleased to announce the release of pg_ivm 1.16.\nChanges since the v1.15 release include:\nWhat's Changed\nNew features\nAdd support for PostgreSQL 19 ( Devrim Gündüz )\nBug fixes\n",
+    "aiSummary": "IVM Development Group에서 PostgreSQL용 확장 모듈인 pg_ivm 1.16 버전을 출시했습니다. 이번 업데이트를 통해 PostgreSQL 19에 대한 지원이 추가되었습니다.\n\n주요 버그 수정 사항은 다음과 같습니다. 동일한 트랜잭션 내에서 IMMV가 유지 관리되고 삭제될 때 발생하던 세그폴트 문제를 해결했습니다. 또한 기본 등가 연산자가 없는 테이블에서도 IVM 유지 관리가 정상적으로 작동하도록 개선하여, 뷰에서 참조하지 않는 열에 특정 타입이 포함된 경우 발생하는 오류를 방지했습니다.\n\nOID 카운터가 INT_MAX를 초과할 때 발생하던 뷰 유지 관리 실패 문제를 수정하였으며, 증분 유지 관리 과정에서 불필요한 트랜잭션 잠금 오류가 발생하던 현상을 개선했습니다. 이를 통해 동시성 유지 관리와 무관하게 트랜잭션이 실패하는 문제를 해결하고 부하 상황에서의 안정성을 높였습니다.\n\npg_ivm은 베이스 테이블 수정 시 전체 재계산 대신 증분 변경 사항만을 적용하여 구체화된 뷰를 즉시 업데이트하는 기능을 제공합니다.",
+    "url": "https://www.postgresql.org/about/news/pg_ivm-116-released-3391/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T02:07:35.968Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_vault_tde-v172-critical-crash-fixes-new-on-disk-format-and-stability-improvements-3393/",
+    "title": "pg_vault_tde v1.7.2 : Critical crash fixes, new on-disk format, and stability improvements\n",
+    "summary": "Version 1.7.2 of pg_vault_tde is now available. This is a binary patch release where extension version stays at 1.7, but users can distinguish the build at runtime using pg_vault_tde_build_version(). ",
+    "aiSummary": "pg_vault_tde 버전 1.7.2가 공개되었습니다. 이번 릴리스는 확장 버전은 유지하면서 빌드 버전을 통해 구분이 가능하며, 안정성과 보안 및 데이터 정확성을 강화하는 데 초점을 맞췄습니다.\n\n주요 변경 사항으로 가변 길이 열이 포함된 테이블에서 발생하던 UPDATE 작업 시의 세그멘테이션 폴트 문제를 해결하기 위해 새로운 디스크 상 튜플 레이아웃인 v5를 도입했습니다. 또한 암호화된 값이 TOAST_TUPLE_THRESHOLD를 초과할 때 발생하는 크래시와 모든 행이 NULL인 경우 테이블을 읽을 수 없던 오류를 수정했습니다.\n\ntde_btree 인덱스는 등가 쿼리만 처리하도록 강화하여 범위 연산자나 정렬 작업에서 발생할 수 있는 데이터 오류를 방지했습니다. 키 관리와 관련해서는 rotate_online 함수 실행 및 로컬 월렛 KEK 교체 시 발생할 수 있는 데이터 손실 및 손상 취약점을 개선했습니다. 이외에도 논리적 디코딩의 메모리 계산 오류를 수정하고 커스텀 WAL 리소스 매니저 ID를 161로 변경했습니다.\n\n업그레이드 시 주의사항으로 WAL 리소스 매니저 ID 변경으로 인해 반드시 전체 종료 후 업그레이드를 진행해야 하며, 롤링 업그레이드는 지원되지 않습니다. 업그레이드 후에는 모든 암호화된 테이블에 대해 VACUUM FULL을 실행해야 합니다. 기존 v4 형식의 행은 읽기는 가능하지만, v5 레이아웃으로 다시 쓰기 전까지는 UPDATE 시 크래시가 발생할 수 있습니다. 자세한 수정 사항은 ROADMAP.md 파일을 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_vault_tde-v172-critical-crash-fixes-new-on-disk-format-and-stability-improvements-3393/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T02:07:35.968Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgvector-087-released-3392/",
+    "title": "pgvector 0.8.7 Released\n",
+    "summary": "pgvector 0.8.7 is now available. This release fixes a buffer overflow with IVFFlat index builds (CVE-2026-103484), which can lead to arbitrary code execution. Users are encouraged to upgrade when poss",
+    "aiSummary": "PostgreSQL의 오픈소스 벡터 유사성 검색 확장 기능인 pgvector의 최신 버전 0.8.7이 출시되었습니다.\n\n이번 업데이트에서는 IVFFlat 인덱스 생성 과정에서 발생할 수 있는 버퍼 오버플로우 취약점인 CVE-2026-103484가 해결되었습니다. 해당 취약점은 임의 코드 실행으로 이어질 위험이 있으므로 모든 사용자는 가능한 한 빠르게 최신 버전으로 업그레이드할 것을 권장합니다. 상세한 정보는 공식 GitHub 이슈 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgvector-087-released-3392/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T02:07:35.968Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.16",
     "title": "1.2.16",
     "summary": "Added ←/→ shortcuts to /config: on a highlighted setting they switch to the previous or next value and save it right away, without opening the dropdown, and the footer shows a ←/→ Change hint\nImproved",

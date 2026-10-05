@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/pg_ivm-116-released-3391/",
+    "title": "pg_ivm 1.16 released\n",
+    "summary": "IVM Development Group is pleased to announce the release of pg_ivm 1.16.\nChanges since the v1.15 release include:\nWhat's Changed\nNew features\nAdd support for PostgreSQL 19 ( Devrim Gündüz )\nBug fixes\n",
+    "aiSummary": "IVM Development Group에서 PostgreSQL용 확장 모듈인 pg_ivm 1.16 버전을 출시했습니다. 이번 업데이트를 통해 PostgreSQL 19에 대한 지원이 추가되었습니다.\n\n주요 버그 수정 사항은 다음과 같습니다. 동일한 트랜잭션 내에서 IMMV가 유지 관리되고 삭제될 때 발생하던 세그폴트 문제를 해결했습니다. 또한 기본 등가 연산자가 없는 테이블에서도 IVM 유지 관리가 정상적으로 작동하도록 개선하여, 뷰에서 참조하지 않는 열에 특정 타입이 포함된 경우 발생하는 오류를 방지했습니다.\n\nOID 카운터가 INT_MAX를 초과할 때 발생하던 뷰 유지 관리 실패 문제를 수정하였으며, 증분 유지 관리 과정에서 불필요한 트랜잭션 잠금 오류가 발생하던 현상을 개선했습니다. 이를 통해 동시성 유지 관리와 무관하게 트랜잭션이 실패하는 문제를 해결하고 부하 상황에서의 안정성을 높였습니다.\n\npg_ivm은 베이스 테이블 수정 시 전체 재계산 대신 증분 변경 사항만을 적용하여 구체화된 뷰를 즉시 업데이트하는 기능을 제공합니다.",
+    "url": "https://www.postgresql.org/about/news/pg_ivm-116-released-3391/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T02:07:35.968Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_vault_tde-v172-critical-crash-fixes-new-on-disk-format-and-stability-improvements-3393/",
+    "title": "pg_vault_tde v1.7.2 : Critical crash fixes, new on-disk format, and stability improvements\n",
+    "summary": "Version 1.7.2 of pg_vault_tde is now available. This is a binary patch release where extension version stays at 1.7, but users can distinguish the build at runtime using pg_vault_tde_build_version(). ",
+    "aiSummary": "pg_vault_tde 버전 1.7.2가 공개되었습니다. 이번 릴리스는 확장 버전은 유지하면서 빌드 버전을 통해 구분이 가능하며, 안정성과 보안 및 데이터 정확성을 강화하는 데 초점을 맞췄습니다.\n\n주요 변경 사항으로 가변 길이 열이 포함된 테이블에서 발생하던 UPDATE 작업 시의 세그멘테이션 폴트 문제를 해결하기 위해 새로운 디스크 상 튜플 레이아웃인 v5를 도입했습니다. 또한 암호화된 값이 TOAST_TUPLE_THRESHOLD를 초과할 때 발생하는 크래시와 모든 행이 NULL인 경우 테이블을 읽을 수 없던 오류를 수정했습니다.\n\ntde_btree 인덱스는 등가 쿼리만 처리하도록 강화하여 범위 연산자나 정렬 작업에서 발생할 수 있는 데이터 오류를 방지했습니다. 키 관리와 관련해서는 rotate_online 함수 실행 및 로컬 월렛 KEK 교체 시 발생할 수 있는 데이터 손실 및 손상 취약점을 개선했습니다. 이외에도 논리적 디코딩의 메모리 계산 오류를 수정하고 커스텀 WAL 리소스 매니저 ID를 161로 변경했습니다.\n\n업그레이드 시 주의사항으로 WAL 리소스 매니저 ID 변경으로 인해 반드시 전체 종료 후 업그레이드를 진행해야 하며, 롤링 업그레이드는 지원되지 않습니다. 업그레이드 후에는 모든 암호화된 테이블에 대해 VACUUM FULL을 실행해야 합니다. 기존 v4 형식의 행은 읽기는 가능하지만, v5 레이아웃으로 다시 쓰기 전까지는 UPDATE 시 크래시가 발생할 수 있습니다. 자세한 수정 사항은 ROADMAP.md 파일을 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_vault_tde-v172-critical-crash-fixes-new-on-disk-format-and-stability-improvements-3393/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T02:07:35.968Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgvector-087-released-3392/",
+    "title": "pgvector 0.8.7 Released\n",
+    "summary": "pgvector 0.8.7 is now available. This release fixes a buffer overflow with IVFFlat index builds (CVE-2026-103484), which can lead to arbitrary code execution. Users are encouraged to upgrade when poss",
+    "aiSummary": "PostgreSQL의 오픈소스 벡터 유사성 검색 확장 기능인 pgvector의 최신 버전 0.8.7이 출시되었습니다.\n\n이번 업데이트에서는 IVFFlat 인덱스 생성 과정에서 발생할 수 있는 버퍼 오버플로우 취약점인 CVE-2026-103484가 해결되었습니다. 해당 취약점은 임의 코드 실행으로 이어질 위험이 있으므로 모든 사용자는 가능한 한 빠르게 최신 버전으로 업그레이드할 것을 권장합니다. 상세한 정보는 공식 GitHub 이슈 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgvector-087-released-3392/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "fetchedAt": "2026-10-05T02:07:35.968Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.2.16",
     "title": "1.2.16",
     "summary": "Added ←/→ shortcuts to /config: on a highlighted setting they switch to the previous or next value and save it right away, without opening the dropdown, and the footer shows a ←/→ Change hint\nImproved",
@@ -2291,104 +2339,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/09/firebase-plugin-for-codex",
-    "title": "The Firebase plugin is now available in Codex",
-    "summary": "The Firebase agent plugin provides access to Firebase agent skills, the Firebase MCP server, and the Firebase CLI, giving Codex the ability to build Firebase-powered apps with less friction.",
-    "aiSummary": "Codex에서 Firebase 플러그인을 정식으로 사용할 수 있게 되었습니다.\n\n해당 플러그인은 Firebase 에이전트 스킬을 비롯하여 Firebase MCP 서버 및 Firebase CLI에 대한 직접적인 접근 권한을 제공합니다. 이를 통해 사용자는 개발 과정에서의 번거로움을 줄이고 Codex를 활용하여 Firebase 기반의 애플리케이션을 더욱 효율적으로 구축할 수 있습니다.",
-    "url": "https://firebase.blog/posts/2026/09/firebase-plugin-for-codex",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "2026-09-28T00:05:00.000Z",
-    "fetchedAt": "2026-09-29T02:36:37.103Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/plhaskell-v60-released-3388/",
-    "title": "PL/Haskell v6.0 Released\n",
-    "summary": "We are pleased to announce the release of version 6.0 of the PL/Haskell extension. This extension allows users to write PostgreSQL functions in the Haskell functional programming language. Instruction",
-    "aiSummary": "PostgreSQL에서 Haskell 언어로 함수를 작성할 수 있도록 지원하는 PL/Haskell 확장의 6.0 버전이 출시되었습니다.\n\n이번 업데이트를 통해 range types를 사용할 수 있는 기능이 추가되었습니다. Ubuntu와 Fedora 사용자는 각각 apt와 rpm 저장소를 통해 해당 확장을 직접 설치할 수 있습니다.\n\n다만 Fedora 44 버전의 GHC 라이브러리에서 알려진 버그가 발견되어, 해당 운영체제를 사용하는 경우 별도의 해결 방안을 확인해야 합니다. 오류 보고나 기능 요청은 Github 이슈를 통해 제출할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/plhaskell-v60-released-3388/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-09-28T00:00:00.000Z",
-    "fetchedAt": "2026-09-29T02:36:37.103Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgedge-announces-pgedge-starfleet-a-new-postgres-cloud-platform-to-bridge-the-ai-prototype-to-production-chasm-3389/",
-    "title": "pgEdge Announces pgEdge Starfleet, a New Postgres Cloud Platform to Bridge the AI Prototype to Production Chasm\n",
-    "summary": "ALEXANDRIA, Va. — Sept. 28, 2026 — pgEdge, the leading open source Postgres company for agentic AI and enterprise applications, today announced pgEdge Starfleet, a new Postgres cloud database platform",
-    "aiSummary": "pgEdge는 AI 프로토타입을 실제 운영 환경으로 전환하는 과정에서 발생하는 기술적 격차를 해소하기 위해 새로운 Postgres 클라우드 데이터베이스 플랫폼인 pgEdge Starfleet을 발표했습니다. 이 플랫폼은 개발자가 선호하는 간편한 사용성과 기업이 요구하는 보안, 고가용성, 데이터 주권 규정을 동시에 충족하도록 설계되었습니다.\n\npgEdge Starfleet은 pgEdge Agentic AI Toolkit for Postgres를 내장하여 MCP 서버, RAG API, PostgREST API 등을 지원함으로써 Claude Code, Replit, Cursor와 같은 도구와 원활하게 연동됩니다. 특히 Postgres 저장소 계층을 변경하지 않으면서도 copy-on-write 방식의 데이터베이스 브랜칭 기능을 제공하여 병렬적인 AI 실험과 테스트를 지원합니다.\n\n또한 클라우드 환경에서 시작하여 기업 자체 클라우드나 온프레미스, 혹은 폐쇄망 환경까지 유연하게 배포할 수 있는 확장성을 갖추고 있습니다. 기본적으로 보안을 최우선으로 설계하여 IP 화이트리스트 및 읽기 전용 연결 강제와 같은 거버넌스 기능을 포함하며, 100% 오픈 소스 기반의 표준 Postgres를 사용합니다.\n\n사용자는 신용카드 등록 없이 빠르게 서비스를 시작할 수 있으며, 단일 인스턴스로 시작해 추후 다중 지역 클러스터로 확장할 수 있습니다. pgEdge Starfleet은 현재 무료 체험이 가능하며, 이를 통해 기업들은 데이터 관리의 통제권을 유지하면서도 AI 애플리케이션을 신속하게 구축하고 운영할 수 있게 됩니다.",
-    "url": "https://www.postgresql.org/about/news/pgedge-announces-pgedge-starfleet-a-new-postgres-cloud-platform-to-bridge-the-ai-prototype-to-production-chasm-3389/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-09-28T00:00:00.000Z",
-    "fetchedAt": "2026-09-29T02:36:37.103Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/09/firebase-pnv-more-networks",
-    "title": "New regions and networks: Firebase Phone Number Verification adds more networks",
-    "summary": "September 28, 2026Firebase Phone Number Verification (Firebase PNV) is the third generation of number verification after SMS and Silent Network Authentication. It eliminates SMS OTP phishing because t",
-    "aiSummary": "Google의 Firebase Phone Number Verification이 서비스 네트워크 범위를 대폭 확장합니다. 이번 업데이트를 통해 말레이시아, 스페인, 파키스탄을 포함한 국가들과 Vodafone의 6개국 네트워크가 새롭게 추가되어 더욱 넓은 지역에서 안전한 인증 환경을 제공합니다.\n\nFirebase Phone Number Verification은 SMS OTP 방식의 피싱 위험을 제거하고 사용자가 클릭 한 번으로 간편하게 인증을 완료할 수 있도록 설계된 차세대 인증 기술입니다. 기기가 비행기 모드이거나 모바일 데이터를 사용하지 않는 환경에서도 인터넷 연결만 되어 있다면 정상적으로 인증을 수행할 수 있습니다.\n\n개발자는 신용카드 결제나 별도의 SIM 카드 없이도 SIM-less test mode를 통해 서비스를 미리 체험해 볼 수 있습니다. 테스트 모드는 프로덕션 환경과 동일한 방식을 사용하므로 테스트 완료 후 코드 한 줄만 수정하면 즉시 실서비스로 전환이 가능합니다. 상세한 지원 통신사 목록과 연동 방법은 Firebase 공식 문서를 통해 확인할 수 있습니다.",
-    "url": "https://firebase.blog/posts/2026/09/firebase-pnv-more-networks",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "2026-09-28T00:00:00.000Z",
-    "fetchedAt": "2026-09-29T02:36:37.103Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/28/performance-update-jdk27/",
-    "title": "Performance Improvements in JDK 27",
-    "summary": "JDK 27 continues the steady cadence of performance work across the JDK. More than 2,300 commits have landed in OpenJDK since JDK 26, including changes to the libraries, garbage collectors, JIT compile",
-    "aiSummary": "JDK 27은 라이브러리, 가비지 컬렉터, JIT 컴파일러, 런타임 전반에 걸쳐 2,300건 이상의 커밋이 반영된 대규모 성능 업데이트를 포함하고 있습니다. 가장 주목할 만한 변화는 Compact Object Headers 기능이 기본적으로 활성화된 점과 G1 가비지 컬렉터가 모든 환경에서 기본값으로 적용된 것입니다.\n\n라이브러리 분야에서는 LazyConstants가 세 번째 프리뷰를 맞이하였으며 HashMap의 대량 복사 성능 최적화, AttributedString 처리 속도 개선, URL 포맷팅 효율성 향상 등이 이루어졌습니다. 또한 파일 열기 과정에서 불필요한 시스템 호출을 제거하고, AES와 SHA-3 등 다양한 암호화 알고리즘에 대한 하드웨어 가속 지원을 강화하여 보안 성능을 높였습니다.\n\n가비지 컬렉션 측면에서는 G1 가비지 컬렉터의 기본 적용 외에도 가비지 수집 과정에서 발생할 수 있는 병목 현상과 비효율적인 루프 동작을 수정하여 안정성을 확보했습니다. 특히 생성형 Shenandoah 가비지 컬렉터의 성숙도 또한 지속적으로 개선되고 있습니다.\n\nJIT 컴파일러인 C2는 벡터 연산 최적화를 더욱 강화했습니다. 슈퍼워드 자동 벡터화 기능이 개선되어 더 많은 반복문이 SIMD 명령어로 변환되며, 비트 단위의 스칼라 단순화 및 상수 폴딩 최적화를 통해 코드 실행 효율을 높였습니다. 또한 과거 컴파일러 변경으로 인해 발생했던 성능 회귀 문제를 해결하여 기존 최적화 코드의 성능 유지에도 주력했습니다.\n\n이러한 개선 사항들은 서버 환경뿐만 아니라 소규모 컨테이너 및 개발 환경에서도 일관된 성능을 제공하는 데 중점을 두고 있습니다. 사용자는 자신의 워크로드에 맞는 하드웨어 환경에서 성능을 직접 검증하여 최신 JDK의 이점을 활용할 수 있습니다.",
-    "url": "https://inside.java/2026/09/28/performance-update-jdk27/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Per-Ake Minborg",
-    "pubDate": "2026-09-28T00:00:00.000Z",
-    "fetchedAt": "2026-09-28T15:39:04.320Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.2.12",
-    "title": "1.2.12",
-    "summary": "Improved scrolling in the full-screen view: bursts of mouse-wheel or trackpad events are now coalesced before redrawing, which cuts CPU use and reduces scroll lag in long conversations and the artifac",
-    "aiSummary": "전체 화면 보기에서 마우스 휠이나 트랙패드 입력 이벤트를 통합 처리하도록 개선하여 CPU 사용량을 줄이고 긴 대화 및 아티팩트 뷰어에서의 스크롤 지연 현상을 해결했습니다.\n\nGemini API 사용과 관련하여 일일 할당량 소진, 결제 계정 한도 초과 등의 문제가 발생할 경우 즉시 세션을 종료하도록 변경하여 불필요한 재시도 시간을 줄였습니다. 다만 분 단위의 일시적인 속도 제한에 대해서는 기존대로 재시도를 유지합니다.\n\n긴 대화를 불러올 때 발생하는 지연 현상을 개선했습니다. 이전 도구 그룹을 즉시 완료된 상태로 표시하고 재생 중 키 입력 시 기록이 갱신되는 문제를 수정하여 대화 재개 속도를 높였습니다.\n\nGNU screen, tmux, Zellij 등 터미널 다중화 환경에서 CLI 실행 시 탭 제목이 비정상적으로 변경되던 문제를 해결했습니다. 이제 다중화기를 통한 이미지 지원 탐색을 중단하며 CLI_GRAPHICS=kitty 설정으로 이미지 모드를 강제할 수 있습니다.\n\nVim 모드의 동작 오류를 다수 수정했습니다. 비영어권 문자를 정상적으로 인식하도록 개선했으며, 비주얼 모드에서 선택 영역이 비정상적으로 종료되는 현상과 D, C, ~/u/U 명령 실행 시 실행 취소 기록이 삭제되던 버그를 고쳤습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.12",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-09-27T05:06:15.000Z",
-    "fetchedAt": "2026-09-27T13:08:34.971Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]
