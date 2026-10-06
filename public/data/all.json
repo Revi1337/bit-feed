@@ -1,5 +1,117 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/oct/06/security-releases/",
+    "title": "Django security releases issued: 6.1.2, 6.0.9, and 5.2.18",
+    "summary": "In accordance with our security release policy,\nthe Django team is issuing releases for\nDjango 6.1.2, Django\n6.0.9, and Django\n5.2.18.\nThese releases address the security issues detailed below. We enc",
+    "aiSummary": "Django 팀은 보안 정책에 따라 Django 6.1.2, 6.0.9, 5.2.18 버전을 출시하며 사용자들에게 즉시 업데이트할 것을 권장합니다. 이번 업데이트는 총 4가지 보안 취약점을 해결합니다.\n\n첫 번째는 CVE-2026-77050으로, get_supported_language_variant 함수에서 매우 긴 언어 코드를 처리할 때 발생하는 서비스 거부 취약점입니다. 이를 방지하기 위해 500자가 넘는 언어 코드는 거부하거나 잘라내도록 수정되었습니다.\n\n두 번째는 CVE-2026-84429로, HTTP 헤더 구문 분석 과정에서 발생하는 서비스 거부 취약점입니다. django.utils.http.parse_header_parameters 함수가 Python의 email.message.Message를 사용하도록 변경되어 헤더 파싱 효율과 안정성이 개선되었습니다.\n\n세 번째는 CVE-2026-87890으로, 공간 조회 시 바이트 값 처리에 따른 요청 위조 가능성입니다. 이제 바이트 형태의 래스터 값은 반드시 GDALRaster로 감싸야 하며, 이는 이전 버전과 호환되지 않는 변경 사항입니다.\n\n네 번째는 CVE-2026-87975로, 수정 가능한 기본 키를 가진 모델 폼셋에서 권한 남용이 발생하는 문제입니다. 폼을 통해 기본 키를 설정할 수 있는 특정 모델 구조에서 비정상적인 데이터 조작이 가능하던 결함이 수정되었습니다.\n\n사용자는 각 보안 패치가 적용된 최신 버전으로 즉시 업그레이드하여 시스템 안전성을 확보해야 합니다. 보안 관련 추가 보고는 Django 보안팀 공식 이메일을 통해 접수할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/oct/06/security-releases/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Sarah Boyce",
+    "pubDate": "2026-10-06T13:00:00.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+    "title": "Code scanning AI Scan enablement status in security overview",
+    "summary": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repos",
+    "aiSummary": "GitHub의 Organization 및 Enterprise 관리자는 이제 보안 개요의 커버리지 뷰를 통해 Pull Request에 대한 AI Scan 활성화 상태를 직접 확인할 수 있습니다.\n\n코드 스캔 요약 화면에서 각 리포지토리별로 AI Scan 기능이 활성화되었는지 혹은 비활성화되었는지 여부를 즉시 파악할 수 있어 전체적인 보안 설정 상태를 관리하기가 더욱 편리해졌습니다. 이를 통해 조직 차원에서의 보안 정책 적용 현황을 한눈에 점검하고 필요한 조치를 신속하게 수행할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-06T10:23:38.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=amper&p=744771",
+    "title": "Amper Is Now the Kotlin Toolchain: Moving to the Kotlin Blog",
+    "summary": "Amper has evolved into the Kotlin Toolchain, and our blog is moving along with it. This isn’t a goodbye – it’s a continuation With the release of Kotlin Toolchain 0.11, Amper became the Kotlin Toolcha",
+    "aiSummary": "Amper가 Kotlin Toolchain으로 새롭게 거듭났습니다. Kotlin Toolchain 0.11 버전 출시와 함께 Amper는 Kotlin을 위한 단일 통합 진입점으로서 공식적인 알파 단계에 진입했습니다. 이번 변화에 맞춰 기존 Amper 블로그의 소식들은 앞으로 Kotlin 블로그를 통해 통합적으로 제공될 예정입니다. 이는 단순한 변화가 아닌 Kotlin 생태계의 정보를 한곳에서 효율적으로 관리하기 위한 통합 과정의 일환입니다.",
+    "url": "https://blog.jetbrains.com/amper/2026/10/amper-is-now-the-kotlin-toolchain-moving-to-the-kotlin-blog/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Joffrey Bion",
+    "pubDate": "2026-10-06T10:14:56.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=744673",
+    "title": "Java and Kotlin by IntelliJ IDEA: The LSP-Based Extension Reaches Release Candidate",
+    "summary": "Two months ago, we announced the preview of Java and Kotlin by IntelliJ IDEA – an LSP-based extension that brings IntelliJ IDEA’s Java and Kotlin intelligence to third-party editors, starting with VS ",
+    "aiSummary": "JetBrains가 IntelliJ IDEA의 강력한 Java 및 Kotlin 지원 기능을 다른 편집기로 확장하기 위해 개발한 LSP 기반 확장 프로그램인 Java and Kotlin by IntelliJ IDEA가 릴리스 후보 단계에 도달했습니다.\n\n지난 2개월 전 처음 공개된 이 확장 프로그램은 VS Code를 비롯하여 Cursor와 같은 VS Code 기반 편집기에서 IntelliJ IDEA 수준의 지능형 코드 분석과 기능을 사용할 수 있도록 설계되었습니다. \n\n이번 업데이트를 통해 개발자는 IntelliJ IDEA의 검증된 기술을 외부 편집기 환경에서도 활용할 수 있게 되었으며, JetBrains는 정식 출시를 앞두고 사용자 피드백을 반영하여 안정성과 성능을 지속적으로 개선하고 있습니다. 향후 해당 확장이 출시되면 다양한 개발 환경에서 보다 일관된 코드 품질 관리와 생산성 향상이 가능해질 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/10/java-and-kotlin-by-intellij-idea-the-lsp-based-extension-reaches-release-candidate/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Maria Kosukhina",
+    "pubDate": "2026-10-06T09:54:39.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.3.0",
+    "title": "1.3.0",
+    "summary": "Changed the default Verbosity setting from high to medium, so the conversation view now groups related tool calls and thoughts into concise summaries while keeping commands and responses visible. This",
+    "aiSummary": "이번 업데이트에서는 대화창의 가독성을 높이기 위해 기본 Verbosity 설정을 high에서 medium으로 변경했습니다. 이제 관련된 도구 호출과 사고 과정이 간결하게 요약되어 표시되며, 상세한 전체 내용을 확인하고 싶다면 /config에서 다시 high로 설정을 변경할 수 있습니다.\n\n파일 내 diff 뷰에서 j와 k 키의 동작 방식을 파일 간 이동이 아닌 줄 단위 커서 이동으로 변경하여 Vim 및 파일 목록 인터페이스와 일관성을 맞췄습니다. 파일 간 전환은 좌우 화살표 키를 사용하여 수행할 수 있습니다.\n\nSSH 환경이나 tmux 내부에서 발생하는 스크롤 튀는 현상을 수정했습니다. 대각선 입력의 가로 방향을 무시하고 한 번에 이동하는 스크롤 범위를 제한하여 마우스 휠과 트랙패드 사용 시의 안정성을 개선했습니다.\n\n공백이나 특수 문자가 포함된 파일 경로 및 Windows 드라이브 경로 처리 문제를 해결했습니다. 이제 @ 파일 언급, /codesearch 결과, 에이전트 응답 내 파일 링크가 올바르게 작동하며, Antigravity 데스크톱 앱으로 생성된 프로젝트에 대한 인식 기능도 정상화되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.3.0",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-06T06:05:35.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/06/jep542-target-jdk28/",
+    "title": "JEP targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
+    "summary": "The following JEP is targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/542.",
+    "aiSummary": "OpenJDK는 JDK 28의 새로운 기능으로 JEP 542인 PEM Encodings of Cryptographic Objects를 선정하였습니다. \n\n이번 업데이트는 암호화 객체에 대해 널리 사용되는 PEM 인코딩을 지원하기 위한 것입니다. 이를 통해 개발자는 암호화 관련 데이터를 더욱 표준화된 방식으로 다룰 수 있게 됩니다. 상세한 기술 명세는 OpenJDK 공식 홈페이지의 JEP 542 문서를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/06/jep542-target-jdk28/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Anthony Scarpino",
+    "pubDate": "2026-10-06T00:00:00.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
+    "title": "This Week in Spring - October 6th, 2026 ",
+    "summary": "Hi, Spring fans! It's another exciting week in the wonderful community, and this week I'm writing from awesome Antwerp, Belgium, site of the legendary Devoxx Belgium show. I've been coming here for mo",
+    "aiSummary": "벨기에 Antwerp에서 개최된 Devoxx Belgium 행사 소식과 함께 Spring 생태계의 주요 업데이트가 발표되었습니다. 이번 주에는 Spring Security 및 Spring Boot 4.x 버전에 대한 논의가 활발히 이루어지고 있습니다.\n\nChristian Tsolov가 Spring AI를 활용해 모듈형 RAG 솔루션을 구축하는 방법을 소개하며 TypeSafe Jev와의 연동 기술을 다루었습니다. 이와 관련하여 코드의 지식 그래프를 시각화할 수 있는 오픈소스 프로젝트인 OneLens가 새롭게 주목받고 있습니다.\n\nSpring Office Hours 팟캐스트에서는 소프트웨어의 미래에 관한 심도 있는 대화가 진행되었으며 A Bootiful Podcast에서는 Andres Almiray가 출연하여 JReleaser의 활용법을 공유하였습니다.\n\n개발자들을 위한 교육 콘텐츠도 다수 공개되었습니다. Spring Boot 모범 사례를 담은 영상부터 Spring AI 마스터 클래스, 그리고 Spring AI와 RAG 및 AI agent를 포괄하는 종합 Java Spring Boot 강의가 공유되어 개발 역량 강화를 돕고 있습니다.",
+    "url": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-10-06T00:00:00.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
     "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
     "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program.",
@@ -3460,6 +3572,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "/blog/neon-vs-prisma-postgres-app-hosting-in-one-place",
+    "title": "Neon alternatives with app hosting and Postgres in one place (2026)",
+    "summary": "Neon alternatives compared on app hosting and Postgres in one place: Prisma Postgres + Prisma Compute, Railway, Render and Supabase, with 2026 prices.",
+    "aiSummary": "Neon을 대체할 수 있는 앱 호스팅 및 Postgres 통합 플랫폼들에 대한 2026년 기준 비교 정보입니다.\n\n해당 비교 대상에는 Prisma Postgres 및 Prisma Compute 조합을 비롯하여 Railway, Render, Supabase가 포함되어 있습니다.\n\n각 서비스는 앱 호스팅과 데이터베이스 관리를 한곳에서 처리할 수 있는 기능을 제공하며, 2026년 최신 요금 체계를 기준으로 각 솔루션의 특징과 비용 효율성을 살펴볼 수 있습니다.",
+    "url": "https://www.prisma.io/blog/neon-vs-prisma-postgres-app-hosting-in-one-place",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-09-24T00:00:00.000Z",
+    "fetchedAt": "2026-10-06T14:17:15.103Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
