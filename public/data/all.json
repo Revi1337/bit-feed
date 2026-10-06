@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+    "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
+    "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program.",
+    "aiSummary": "GitHub의 Secret scanning 기능이 Lovable Labs, Pydantic Services Inc., Supabase 등 주요 서비스에서 생성되는 새로운 시크릿 유형을 탐지할 수 있도록 지원 범위를 확대하였습니다.\n\n이번 업데이트를 통해 개발자들은 해당 서비스와 관련된 민감 정보를 더욱 안전하게 관리할 수 있게 되었습니다. 또한 새로운 파트너가 Secret scanning 파트너십 프로그램에 합류함으로써 코드 저장소 내 보안 위협을 사전에 차단하는 기능이 한층 강화되었습니다.",
+    "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-05T22:42:14.000Z",
+    "fetchedAt": "2026-10-06T03:08:12.633Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+    "title": "Scaling Kubernetes Workloads with Node Swap",
+    "summary": "Memory is often the first hard limit a Kubernetes cluster hits.\nNodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse.\nThese workloads demand ",
+    "aiSummary": "Kubernetes 환경에서 메모리는 CPU보다 먼저 고갈되는 주요 자원이며, 특히 최근 늘어나는 AI 에이전트 워크로드는 초기 구동과 유휴 상태 유지에 많은 메모리를 점유하여 클러스터의 효율성을 저해합니다. 이러한 문제를 해결하기 위해 Kubernetes v1.34 버전부터 정식 지원되는 Node Swap 기능이 효과적인 대안으로 주목받고 있습니다.\n\n과거에는 cgroup v1의 메모리 산정 방식 문제와 느린 하드디스크 속도로 인해 Swap 사용이 권장되지 않았으나, 현재는 cgroup v2 기반의 독립적인 스왑 추적과 고속 NVMe Local SSD 활용을 통해 이러한 단점들이 크게 개선되었습니다.\n\n실제 벤치마크 결과에 따르면 Local SSD를 활용한 Swap 도입 시 상당한 밀도 향상 효과가 확인되었습니다. CI/CD 커널 빌드 환경에서는 메모리 제한을 50% 줄이면서도 성능 저하 없이 실행이 가능했습니다. 또한 Headless Chrome과 같은 브라우저 샌드박스 환경에서는 gVisor 사용 시 기존 대비 100%, 파이썬 샌드박스 환경에서는 최대 3배까지의 컨테이너 밀도 향상을 달성했습니다. \n\n이러한 밀도 향상에도 불구하고 발생하는 지연 시간은 대부분 스왑 I/O가 아닌 CPU 자원 경쟁으로 인한 것이며, 적절한 워크로드 관리를 통해 이를 조절할 수 있습니다. \n\nNode Swap을 도입하기 위해서는 kubelet 설정에서 failSwapOn을 false로, memorySwap.swapBehavior를 LimitedSwap으로 구성해야 합니다. 또한 클라우드 제공업체의 고속 Local SSD를 결합하고 컨테이너의 메모리 요청량보다 제한치를 높게 설정하는 Burstable QoS 방식을 활용하면, 유휴 메모리를 효율적으로 관리하여 동일한 인프라 내에서 더 많은 워크로드를 운영할 수 있습니다.",
+    "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-10-05T18:00:00.000Z",
+    "fetchedAt": "2026-10-06T03:08:12.633Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
     "title": "Introducing Google Cloud Modernize, transforming for (and with) AI",
     "summary": "Today, we’re announcing Google Cloud Modernize, an end-to-end transformation portfolio to help enterprises collapse multi-year roadmaps with the power of AI.\nGoogle Cloud Modernize brings together Goo",
@@ -220,6 +252,22 @@
     "author": "Allison",
     "pubDate": "2026-10-02T19:13:50.000Z",
     "fetchedAt": "2026-10-03T02:06:32.577Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-02-npm-staged-publishing-now-supports-creating-new-packages",
+    "title": "npm staged publishing now supports creating new packages",
+    "summary": "You can now create a new npm package with npm stage publish, using a local session or a granular access token, including a stage-only token. This lets you create packages…\nThe post npm staged publishi",
+    "aiSummary": "npm의 staged publishing 기능이 업데이트되어 이제 로컬 세션이나 세분화된 액세스 토큰, 혹은 stage-only 토큰을 사용하여 새로운 패키지를 생성할 수 있게 되었습니다.\n\n이번 업데이트를 통해 개발자는 기존의 패키지를 수정하는 것뿐만 아니라 새로운 패키지를 등록하는 과정에서도 보다 유연하고 안전한 배포 환경을 구축할 수 있게 되었습니다. 특히 권한이 제한된 토큰을 활용함으로써 배포 과정의 보안성을 강화하고 워크플로우의 편의성을 높였습니다.",
+    "url": "https://github.blog/changelog/2026-10-02-npm-staged-publishing-now-supports-creating-new-packages",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-02T19:05:17.000Z",
+    "fetchedAt": "2026-10-06T03:08:12.633Z",
     "tags": [
       "GitHub",
       "DevOps"
