@@ -1,5 +1,118 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_142",
+    "title": "Visual Studio Code 1.142 (Insiders)",
+    "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.142 Insiders 버전이 새롭게 출시되었습니다. 이번 업데이트를 통해 사용자에게 제공되는 다양한 신규 기능과 개선 사항을 확인할 수 있습니다. 공식 문서를 통해 변경된 상세 내용을 상세히 파악할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_142",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-10-07T14:36:11.097Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=744876",
+    "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
+    "summary": "The Kotlin Toolchain is a unified entry point into Kotlin. It lets you build JVM, Android, iOS, multiplatform, and server-side applications with a simple declarative configuration. With the release of",
+    "aiSummary": "Kotlin Toolchain v0.13 버전이 출시되었습니다. 이 도구는 JVM, Android, iOS, Multiplatform 및 서버 사이드 애플리케이션 개발을 위한 통합 진입점 역할을 수행하며, 간단한 선언적 구성을 통해 프로젝트 빌드를 지원합니다.\n\n올해 초 Alpha 단계로 격상된 이후 꾸준한 개선을 거쳐 현재는 대부분의 새로운 Kotlin Multiplatform 프로젝트 시작 시 권장되는 표준 도구로 자리 잡았습니다. 개발자는 이를 통해 더욱 효율적이고 일관된 환경에서 프로젝트를 설정할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Anton Makeev",
+    "pubDate": "2026-10-07T10:21:46.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.3.1",
+    "title": "1.3.1",
+    "summary": "Improved navigation in the /diff file view: ←/→ now open the next or previous file at its first change with the hunk header and leading context in view, each file remembers its cursor and scroll posit",
+    "aiSummary": "Antigravity 1.3.1 업데이트는 /diff 파일 뷰의 탐색 경험을 개선하고 여러 가지 안정성 및 사용성 오류를 수정하였습니다.\n\n파일 뷰 탐색 기능이 강화되어 이제 방향키를 사용하여 파일 간의 이동이 더 편리해졌으며 각 파일은 커서 위치와 스크롤 상태를 기억합니다. 또한 n과 N 키를 통해 파일 경계를 넘어 다음 또는 이전 변경 사항으로 즉시 이동할 수 있게 되었으며 하단 힌트 표시줄의 가독성도 향상되었습니다. 파일 헤더에는 현재 변경 사항의 위치 정보가 표시되어 작업 현황을 더욱 명확히 파악할 수 있습니다.\n\n플러그인 및 MCP 서버 관련 문제도 해결되었습니다. Windows 환경에서 MCP 서버가 실행 중일 때 플러그인을 설치하거나 삭제할 수 없던 현상을 개선하여 프로세스를 자동으로 관리하도록 하였으며 UTF-8 BOM이 포함된 설정 파일도 정상적으로 불러옵니다. 또한 마크다운 커스텀 에이전트에서 상대 경로로 정의된 스킬이나 플러그인 참조 오류를 수정하여 서브 에이전트 구동의 정확성을 높였습니다.\n\n에이전트 관리와 상태 표시 기능도 개선되었습니다. 서브 에이전트가 오류로 중단될 경우 해당 상태가 정확히 표시되며 /tasks 명령과 상태 표시줄에서 백그라운드 쉘 명령어뿐만 아니라 예약된 작업과 타이머 정보도 확인할 수 있습니다. \n\n그 외에도 /rewind 명령 사용 시 메시지 표시 오류 수정, 대기 메시지 전송 로직 개선, 질문 대기 시 터미널 알림 활성화, MCP 서버 재시작 실패 방지 등의 변경 사항이 포함되었습니다. 사용자 인증이 필요한 계정의 오류 메시지 보완과 Gemini API 연결 끊김 시 재시도 로직을 추가하여 전반적인 시스템 신뢰성을 확보하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.3.1",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-07T03:22:09.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-35-0",
+    "title": "Route::query() and Model defaults() in Laravel 13.35",
+    "summary": "Laravel 13.35 adds Route::query(), an opt-in defaults() method for models, property arrays in fake assertions, percentage worker memory limits, and more.\nThe post Route::query() and Model defaults() i",
+    "aiSummary": "Laravel 13.35 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 특정 경로의 쿼리 매개변수를 처리하기 위한 Route::query() 기능이 추가되었습니다.\n\n또한 모델 수준에서 사용할 수 있는 선택적 defaults() 메서드가 도입되어 데이터 설정이 더욱 편리해졌습니다. 이외에도 fake assertions에서 속성 배열을 활용할 수 있게 되었으며 워커 메모리 제한을 백분율로 설정할 수 있는 기능 등이 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-35-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-10-07T03:01:25.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgx-bm25-10-bm25-ranked-full-text-search-as-a-native-postgresql-index-3396/",
+    "title": "pgx-bm25 1.0: BM25 ranked full-text search as a native PostgreSQL index\n",
+    "summary": "PGX Inc. has released version 1.0 of pgx-bm25, an extension that adds Okapi BM25 ranked full-text search to PostgreSQL as a native index access method. It supports PostgreSQL 17 and 18, and installs a",
+    "aiSummary": "PGX Inc.에서 PostgreSQL을 위한 새로운 확장 기능인 pgx-bm25 1.0 버전을 출시했습니다. 이 도구는 Okapi BM25 기반의 순위 지정 전체 텍스트 검색 기능을 PostgreSQL의 네이티브 인덱스 액세스 방식으로 통합합니다. 외부 검색 엔진이나 별도의 런타임 운영이 필요 없으며 PostgreSQL의 핵심 기능인 WAL 로깅, 충돌 복구, 물리적 복제 등을 그대로 활용할 수 있다는 점이 특징입니다.\n\n해당 확장 기능은 C 언어로 작성되었으며 PostgreSQL 17 및 18 버전을 지원합니다. 인덱스는 PostgreSQL의 Snowball 사전과 연동되어 텍스트 분석을 수행하며, block-max WAND 알고리즘을 사용하여 대규모 데이터에서도 효율적인 상위 N개 검색을 지원합니다.\n\n주요 기능으로는 BM25F 채점 방식을 통한 다중 열 인덱싱, 정밀한 구문 및 근접성 검색, 불리언 쿼리 처리, 접두사 와일드카드 검색 등이 포함됩니다. 또한 쿼리 작성 시 빌더 함수를 통해 jsonb 쿼리 트리를 생성함으로써 SQL 인젝션 보안을 강화했습니다.\n\npgx-bm25는 PostgreSQL 라이선스를 따르며 독립적인 오픈소스 프로젝트로 제공됩니다. 인덱스 형식은 호환성을 보장하도록 설계되어 있으며 업데이트 시 인플레이스 마이그레이션을 지원합니다. 소스 코드와 상세 문서 등은 GitHub 저장소를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgx-bm25-10-bm25-ranked-full-text-search-as-a-native-postgresql-index-3396/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_plan_filter-100-released-3352/",
+    "title": "pg_plan_filter 1.0.0 released\n",
+    "summary": "pg_plan_filter version 1.0.0 has been released.\nThis loadable module test sstatements against specific configured criteria\nbefore execution, raising an error if the criteria are violated. This\nallows ",
+    "aiSummary": "PostgreSQL을 위한 확장 모듈인 pg_plan_filter 1.0.0 버전이 새롭게 출시되었습니다. 이 모듈은 데이터베이스 관리자가 쿼리 실행 전에 특정 기준을 검사하여 정책에 위반되는 경우 오류를 발생시키도록 설계되었습니다.\n\n주요 기능은 쿼리 플래너의 예상 비용을 기반으로 제어하는 방식입니다. 개별 쿼리의 실행 계획 비용이 설정된 한도를 초과할 경우 차단하는 statement_cost_limit 기능과 트랜잭션 내 모든 쿼리의 누적 비용을 제한하는 transaction_cost_limit 기능을 제공합니다. 또한 선택적으로 SELECT 문에만 필터를 적용할 수 있는 filter_select_only 옵션도 지원합니다.\n\n해당 모듈은 향후 다양한 필터 유형을 추가할 수 있도록 확장성을 고려하여 설계되었습니다. 현재 PostgreSQL 14부터 18 버전까지 지원하며 운영 데이터베이스에서 위험한 쿼리의 실행을 사전에 방지하는 용도로 활용할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_plan_filter-100-released-3352/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-ai-sdk-1-1",
+    "title": "Laravel AI SDK 1.1 Adds Agent Skills and Cohere Chat",
+    "summary": "Laravel AI SDK 1.1 adds Agent Skills support, Cohere text generation, approval for built-in tools, and failover that skips provider tools a provider lacks.\nThe post Laravel AI SDK 1.1 Adds Agent Skill",
+    "aiSummary": "Laravel AI SDK 1.1 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 에이전트 스킬 지원 기능이 추가된 것이며, 텍스트 생성을 위한 Cohere 모델 연동이 가능해졌습니다.\n\n또한 내장 도구 사용 시 승인 절차를 거치도록 변경되었으며, 특정 공급자가 도구를 지원하지 않을 경우 이를 건너뛰고 다음 공급자로 넘어가는 페일오버 기능이 개선되었습니다. 이를 통해 개발자는 AI 에이전트 개발 과정에서 더 유연하고 안정적인 도구 활용이 가능해집니다.",
+    "url": "https://laravel-news.com/laravel-ai-sdk-1-1?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-10-06T23:51:31.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
     "title": "Update your IDE to restore agent activity in Copilot usage metrics",
     "summary": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out…\nThe post Update your IDE to re",
@@ -45,6 +158,23 @@
     "tags": [
       "Next.js",
       "React"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "summary": "Oct 06, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                EmbeddingGemma 2 is the most capable model",
+    "aiSummary": "Google DeepMind가 발표한 EmbeddingGemma 2는 텍스트뿐만 아니라 이미지, 오디오, 비디오를 통합된 임베딩 공간으로 매핑하는 경량화된 온디바이스 다중 모달 모델입니다. 7억 4천만 개의 파라미터로 구성된 이 모델은 Apache 2.0 라이선스를 따르며, 온디바이스 환경에 최적화된 성능과 효율성을 제공합니다.\n\n주요 기술적 특징은 다음과 같습니다.\n\n우선 10억 파라미터 미만 모델 중 최고 수준의 성능을 보여줍니다. 특히 MTEB 코드 벤치마크에서 기존 대비 9.92포인트 향상된 성능을 기록하여 로컬 코드 검색 및 분석에 탁월합니다. 또한 모듈형 설계를 채택하여 텍스트 전용 작업에는 2억 7천만 파라미터만 사용하고, 필요에 따라 비전 및 오디오 인코더를 추가하는 유연한 구성이 가능합니다.\n\n저장 효율성을 극대화하기 위해 Matryoshka Representation Learning 기술을 적용했습니다. 이를 통해 개발자는 출력 벡터의 차원을 768에서 128까지 동적으로 조정할 수 있어 로컬 벡터 데이터베이스의 저장 공간을 최대 6배까지 절감할 수 있습니다. \n\n하드웨어 성능 측면에서는 양자화 적용 시 텍스트 전용 모델은 약 191MB, 전체 다중 모달 모델은 약 567MB의 RAM만으로 구동 가능합니다. 또한 8K 토큰의 컨텍스트 윈도우를 지원하여 긴 오디오나 다수의 영상 프레임을 로컬에서 직접 처리할 수 있습니다.\n\n해당 모델은 데이터 프라이버시가 중요한 오프라인 환경의 RAG 파이프라인 구축에 적합합니다. 현재 Hugging Face와 Kaggle을 통해 모델 가중치를 내려받을 수 있으며, LiteRT, MediaPipe, Ollama, MLX, llama.cpp 등 다양한 개발 도구와 플랫폼을 통해 즉시 현업에 적용할 수 있습니다.",
+    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-06T19:57:04.000Z",
+    "fetchedAt": "2026-10-07T14:36:11.097Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -1966,201 +2096,6 @@
       "DeepMind",
       "Gemini",
       "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-    "title": "HydraFusion in VS Code and the GitHub Copilot app",
-    "summary": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being…\nThe po",
-    "aiSummary": "GitHub가 자사의 연구용 모델인 HydraFusion을 VS Code와 GitHub Copilot 앱으로 확장하여 공개했습니다. 기존에는 Copilot CLI에서만 사용 가능했으나 이제는 모델 선택기를 통해 직접 이용할 수 있습니다. 다만 해당 모델은 일반적인 LLM과는 다른 방식으로 작동하며 연구 목적의 기술적 실험을 위해 제공됩니다. 이번 업데이트를 통해 개발자들은 더욱 다양한 환경에서 GitHub의 최신 모델을 경험할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-30T14:31:19.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
-    "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
-    "summary": "Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee\nIntroduction\nGoogle Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact",
-    "aiSummary": "GTIG가 발표한 보고서에 따르면 AI 기술 도입으로 인해 취약점 발견 및 악용 환경이 급격하게 변화하고 있습니다. 2026년 1월부터 8월까지 월간 취약점 공개 건수는 5,045건에서 10,740건으로 두 배 이상 증가했으며 실제 악용 사례 또한 월평균 10.5건에서 18건으로 늘어나는 추세를 보였습니다.\n\n가장 눈에 띄는 변화는 AI를 활용한 취약점 발견의 양상입니다. 기존의 인간 중심적 방식이나 단순 스캐너와 달리 AI는 저위험군 취약점보다 중위험 및 고위험 취약점을 발견하는 비중이 훨씬 높습니다. 특히 AI가 발견한 취약점의 50%가 원격 코드 실행(RCE)과 연관되어 있어, 전통적인 분석 도구보다 훨씬 치명적인 보안 결함을 찾아내는 능력을 갖추고 있습니다.\n\n실제 위협 사례 측면에서는 제로데이 취약점의 악용 사례가 소폭 증가하는 데 그친 반면, 공개된 취약점 정보를 바탕으로 공격 도구를 빠르게 생성하는 n-day 공격의 무기화가 가속화되고 있습니다. 특히 엣지 게이트웨이나 보안 어플라이언스처럼 외부 접점에 위치한 장비들이 공격자들의 주요 표적이 되고 있으며, 고위험 취약점에 대한 공격 빈도가 급격히 상승했습니다.\n\n이러한 위협에 대응하기 위해 조직은 단순히 대규모 패치 작업에 의존하는 방식에서 벗어나야 합니다. 대신 위협 인텔리전스에 기반한 우선순위 지정과 함께 타겟형 방어 체계 구축 및 AI 에이전트를 활용한 자동화된 대응 체계로의 전환이 필수적이라고 GTIG는 조언합니다. 현재 AI가 발견한 취약점은 공식적인 공개 기록에 모두 반영되지 않는 경우가 많아 실제 위험 수준은 보고된 수치보다 높을 가능성이 큽니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-30T14:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/",
-    "title": "Data Agent Kit is now GA: Bring Google Data Cloud to any coding agent",
-    "summary": "Today, Google Cloud Data Agent Kit is generally available. Data Agent Kit is a free set of Model Context Protocol (MCP) tools and agent skills that lets the coding agent you already use work directly ",
-    "aiSummary": "Google Cloud Data Agent Kit이 정식 출시되었습니다. 이 도구는 Model Context Protocol을 기반으로 하며 코딩 에이전트가 Google Cloud의 데이터 제품과 직접 상호작용할 수 있도록 지원합니다. Antigravity, Claude Code, Codex 등 기존 개발 환경에서 별도의 복잡한 설정 없이도 데이터 스키마 탐색, 쿼리 실행, 작업 로그 분석 등을 수행할 수 있습니다.\n\n정식 출시와 함께 BigQuery Graph, Bigtable, Managed Service for Apache Spark에 대한 지원이 추가되었습니다. 특히 BigQuery Graph는 에이전트가 데이터 모델을 기반으로 그래프를 자동으로 설계하고 GQL을 작성할 수 있게 해주며, Bigtable은 스키마 설계 및 쿼리 최적화를 지원합니다. 또한 Managed Service for Apache Spark를 통해 서버리스 환경에서 Apache Iceberg 테이블을 처리할 수 있으며, AWS Glue나 Databricks Unity Catalog와 같은 외부 데이터 소스까지 통합 연동이 가능합니다.\n\n이 도구는 개발자의 생산성 향상을 위해 IDE 확장 프로그램을 통해 코드 편집기 내에서 직접 데이터 브라우징과 쿼리 실행을 지원하며, 오류 발생 시 에이전트가 직접 원인을 진단하고 해결책을 제시하는 기능을 포함합니다. 또한 dbt, Dataform, Managed Service for Apache Airflow와 연동하여 파이프라인 자동화와 오케스트레이션을 수행할 수 있습니다.\n\n보안 및 운영 측면에서도 신뢰성을 확보했습니다. IAM 권한을 그대로 사용하여 데이터 접근이 통제되며, VPC Service Controls 및 Model Armor 등을 통해 관리자가 에이전트의 접근을 체계적으로 제어할 수 있습니다. 오픈 소스로 제공되는 기술 지침인 스킬을 활용하면 팀 내부 표준에 맞춘 맞춤형 에이전트 운용도 가능합니다. 별도의 비용 없이 무료로 제공되며 사용자는 실제 사용하는 Google Cloud 서비스 사용량에 대해서만 비용을 지불하면 됩니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Arun Nair"
-      ],
-      "title": [
-        "Product Manager, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-30T13:00:00.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=743559",
-    "title": "The Companions to Come",
-    "summary": "We are working on extensions to our companions mechanism to unlock new code patterns and improve interoperability across different platforms. This post outlines these new features and provides prelimi",
-    "aiSummary": "컴패니언 메커니즘에 대한 확장을 통해 새로운 코드 패턴을 도입하고 다양한 플랫폼 간의 상호 운용성을 향상하는 작업을 진행 중입니다.\n\n이번 업데이트는 클래스나 타입 멤버와 같이 개별 인스턴스에 속하지 않는 기능을 프로그래밍 언어 수준에서 지원하기 위한 것으로 컴패니언 블록과 확장 기능을 핵심으로 합니다.\n\n기존 코드와의 호환성을 유지하면서 개발자가 더 효율적인 구조를 설계할 수 있도록 새로운 기능에 대한 가이드를 제공하며 향후 마이그레이션을 위한 사전 지침도 포함하고 있습니다.\n\n이러한 개선은 플랫폼 간의 일관성을 높이고 언어적 한계를 극복하여 더욱 유연한 개발 환경을 조성하는 데 목적이 있습니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
-    "category": "프로그래밍 언어",
-    "source": "Kotlin Blog",
-    "author": "Alejandro Serrano Mena",
-    "pubDate": "2026-09-30T10:33:03.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "Kotlin",
-      "Android"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=743559",
-    "title": "The Companions to Come",
-    "summary": "We are working on extensions to our companions mechanism to unlock new code patterns and improve interoperability across different platforms. This post outlines these new features and provides prelimi",
-    "aiSummary": "특정 플랫폼 간의 상호운용성을 높이고 새로운 코드 패턴을 도입하기 위해 Companion 메커니즘의 확장 기능을 개발하고 있습니다. 이번 업데이트는 클래스나 타입 멤버와 같이 개별 인스턴스에 종속되지 않는 기능을 더 효율적으로 구현하는 것을 목표로 합니다.\n\n새롭게 도입되는 Companion 블록과 확장 기능은 언어별로 상이한 구조를 통합하여 일관된 프로그래밍 모델을 제공합니다. 개발자들은 이를 통해 기존 코드를 보다 유연하게 재사용할 수 있으며 다양한 플랫폼 환경에서의 통합 작업이 한층 수월해질 전망입니다.\n\n현재 마이그레이션을 위한 사전 지침이 마련되어 있으며 향후 업데이트를 통해 구체적인 구현 방식이 적용될 예정입니다. 관련 기술 문서를 참고하여 새로운 구조에 맞춘 코드 최적화와 시스템 통합을 준비해야 합니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Alejandro Serrano Mena",
-    "pubDate": "2026-09-30T10:33:03.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.142.2",
-    "title": "0.142.2",
-    "summary": "Fixes\n🐛 Allow startup when automatic OpenTelemetry configuration fails. PR #16418 by @tiangolo.",
-    "aiSummary": "FastAPI 버전 0.142.2 업데이트를 통해 자동 OpenTelemetry 설정 과정에서 오류가 발생하더라도 애플리케이션이 정상적으로 시작될 수 있도록 수정되었습니다. 해당 변경 사항은 PR #16418을 통해 반영되었으며, 초기 구동 시의 안정성을 개선했습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.2",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-09-30T09:50:53.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.2.7",
-    "title": "v11.2.7",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "GitHub의 v11.2.7 버전 업데이트가 배포되었습니다. 이번 업데이트는 서비스 안정성 강화와 유지보수를 위해 진행되었습니다. 상세한 변경 사항은 GitHub의 공식 저장소 내 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.7",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-09-30T09:10:04.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.1.2",
-    "title": "v12.1.2",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "GitHub의 v12.1.2 버전이 새롭게 공개되었습니다. 해당 업데이트는 소프트웨어 개발 플랫폼인 GitHub 서비스의 안정성을 개선하고 기존에 발견된 버그를 수정하는 데 초점을 맞추고 있습니다. 구체적인 변경 사항이나 기술적 세부 정보는 GitHub 공식 저장소의 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.1.2",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-09-30T09:04:04.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.2.14",
-    "title": "1.2.14",
-    "summary": "Added the Queued Messages option to /config: keep the default Queue to hold follow-up messages until the current turn ends, or choose Send Immediately to interrupt the agent with them; it can also be ",
-    "aiSummary": "이번 업데이트에서는 /config 설정에 Queued Messages 옵션이 추가되어 후속 메시지를 현재 턴이 끝날 때까지 보류하거나 즉시 전송하여 에이전트의 응답을 중단시킬 수 있게 되었습니다.\n\nLinux 환경에서 systemd 사용자 서비스 관리자가 없는 컨테이너 등의 경우, 원격 제어 시작 시 프로세스가 실패하는 대신 백그라운드 데몬으로 실행되도록 개선되었으며 관련 상태 확인 기능도 보완되었습니다.\n\n긴 대화 기록을 불러올 때 모든 단계를 사전에 스캔하지 않도록 처리하여 로딩 속도를 향상시켰습니다. 또한 대화 제목 자동 생성 기능이 첫 메시지에 첨부된 이미지나 파일을 고려하도록 개선되었으며 서비스 약관 위반으로 차단된 계정은 로그인 오류 메시지를 통해 이의 제기 링크를 확인할 수 있습니다.\n\n데이터 무결성을 위해 --json-schema 옵션의 검증 규칙이 엄격해졌으며 유효하지 않은 형식은 시작 시 오류를 발생시키도록 변경되었습니다.\n\n기존에 발생하던 이모지나 특수 문자로 인한 프롬프트 커서 위치 오류 및 줄 바꿈 문제를 해결하였습니다. 아울러 에이전트가 파이프나 소켓 등 비정상적인 파일을 읽으려 할 때 멈추던 현상과 미디어 파일 처리 중 발생하는 에러를 차단하여 안정성을 높였고, 기록이 일부 유실된 대화를 다시 불러올 때 발생하는 데이터 덮어쓰기 문제도 수정되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.2.14",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-09-30T04:03:34.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-34-0",
-    "title": "Count Worker Crashes as Job Exceptions in Laravel 13.34",
-    "summary": "Laravel 13.34 counts worker crashes toward maxExceptions, notifies interruptible jobs before a timeout, adds job durations to JobProcessed, and more.\nThe post Count Worker Crashes as Job Exceptions in",
-    "aiSummary": "Laravel 13.34 버전이 새롭게 업데이트되었습니다. 이번 업데이트의 핵심 변경 사항은 워커가 비정상적으로 종료되는 크래시 현상을 Job의 maxExceptions 설정에 포함하여 처리하도록 개선된 점입니다.\n\n또한 작업이 타임아웃되기 전에 인터럽트 가능한 Job에 미리 알림을 전달하는 기능이 추가되었습니다. 이와 더불어 JobProcessed 이벤트에 작업 소요 시간을 포함하는 등 작업 모니터링과 관리 효율성을 높이는 다양한 기능들이 도입되었습니다.",
-    "url": "https://laravel-news.com/laravel-13-34-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-09-30T02:44:06.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
