@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+    "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+    "summary": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out…\nThe post Update your IDE to re",
+    "aiSummary": "GitHub Copilot 사용 통계에서 전체 사용량은 증가함에도 에이전트 활동이나 에이전트가 작성한 코드 라인 수가 감소하는 현상이 확인되었습니다.\n\nGitHub 측은 해당 문제의 원인을 파악하였으며, 이를 해결하기 위한 업데이트를 배포하고 있습니다.\n\n사용자는 본인의 IDE를 최신 버전으로 업데이트하여 Copilot 사용 통계 데이터를 정상적으로 복구할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-06T23:43:00.000Z",
+    "fetchedAt": "2026-10-07T02:29:17.348Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+    "title": "Stacked pull requests generally available",
+    "summary": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into publ",
+    "aiSummary": "GitHub의 Stacked pull requests 기능이 정식으로 출시되었습니다. 이 기능은 대규모 코드 변경 사항을 작고 집중적인 여러 개의 pull request로 분할하여 관리할 수 있게 해줍니다. 개발자는 각 단위별로 독립적인 코드 리뷰를 진행할 수 있으며, 최종적으로 이를 통합하여 병합하는 것이 가능합니다. 이를 통해 복잡한 작업을 보다 효율적으로 처리하고 코드 품질을 개선할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-06T20:16:41.000Z",
+    "fetchedAt": "2026-10-07T02:29:17.348Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "/blog/next-16-4",
     "title": "Next.js 16.4",
     "summary": "Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.",
@@ -48,6 +80,22 @@
     ]
   },
   {
+    "id": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+    "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+    "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources.\nKubernetes uses cgroups to allocate resources like CPU and memory to containers,\nensuring that applications ",
+    "aiSummary": "Kubernetes는 시스템 자원을 효율적으로 관리하기 위해 사용해 온 cgroup v1에 대한 지원을 공식적으로 중단하고 cgroup v2로의 전환을 추진합니다. Kubernetes v1.35부터는 kubelet 시작 시 cgroup v1 노드를 기본적으로 거부하는 정책이 적용되며, 향후 버전에서 v1 지원은 완전히 삭제될 예정입니다. 따라서 운영자는 모든 Linux 노드를 cgroup v2 환경으로 마이그레이션해야 합니다.\n\ncgroup v2는 통합된 계층 구조와 일관된 인터페이스를 제공하며, 최신 자원 관리 기능을 지원하기 위한 필수 기반이 됩니다. 특히 Memory QoS 기능은 cgroup v2의 memory.high, memory.min, memory.low 컨트롤러를 활용해 메모리 제한과 보호 기능을 강화하며, 이는 오직 cgroup v2 환경에서만 사용 가능합니다. 또한, 컨테이너 단위의 OOM 처리, 루트리스 컨테이너 지원, PSI 기반의 자원 모니터링, 그리고 Pod 수준의 인플레이스 자원 업데이트 기능 등이 모두 cgroup v2 환경에서 안정적으로 동작하도록 설계되어 있습니다.\n\ncgroup v2를 사용하기 위해서는 Linux 커널 5.8 이상이 권장되며, 5.9 이상을 사용할 경우 Memory QoS와 관련된 안정적인 메모리 제어가 가능합니다. 또한, containerd v1.4 또는 CRI-O v1.20 이상의 최신 컨테이너 런타임과 해당 런타임에 맞는 cgroup 드라이버 설정이 필요합니다. kubeadm으로 관리되는 클러스터의 경우 systemd cgroup 드라이버 사용이 강력하게 권장되며, 최신 버전의 Kubernetes는 런타임으로부터 드라이버를 자동으로 발견하는 기능을 지원합니다.\n\n전환을 위해서는 사전에 모든 리눅스 노드의 cgroup v2 호환성을 확인해야 합니다. 기존 cgroup v1 환경에서 사용하던 설정과 도구들이 cgroup v2와 완벽히 호환되지 않을 수 있으므로, 최신 버전의 cAdvisor를 포함한 관련 도구의 업데이트가 필수적입니다. 또한, 새로운 환경에서는 CPU 가중치 계산 방식 등이 변경될 수 있으므로 배포 전 철저한 테스트와 설정 검증 과정을 거칠 것을 권장합니다.",
+    "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-10-06T18:00:00.000Z",
+    "fetchedAt": "2026-10-07T02:29:17.348Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/lakehouse-runtime-catalog-powered-by-spanner/",
     "title": "Managed Apache Iceberg at scale: How Spanner powers Lakehouse runtime catalog",
     "summary": "As customers modernize to lakehouse architectures, they are standardizing on open formats such as Apache Iceberg to create a shared data estate across compatible engines. This enables you to build AI-",
@@ -93,6 +141,23 @@
     "tags": [
       "Django",
       "Python"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "title": "Sharing AI progress in mathematics",
+    "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+    "aiSummary": "OpenAI가 자체 개발한 최첨단 AI 모델을 활용하여 수학 분야의 난제들을 해결한 새로운 연구 성과를 발표했습니다.\n\n이번 연구의 핵심은 AI가 수학적 증명을 수행한 결과를 Lean 언어를 통해 형식화하고, 관련 연구 상세 내용과 데이터를 GitHub에 공개한 것입니다. 이를 통해 AI가 복잡한 수학적 추론 영역에서 어떻게 기여할 수 있는지를 보여주며 학계와 기술 커뮤니티의 검증과 협력을 도모하고 있습니다.",
+    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "fetchedAt": "2026-10-07T02:29:17.348Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -254,6 +319,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/remote-control-local-agents",
+    "title": "Remote control for local agents",
+    "summary": "Oct 6, 2026 · ChangelogRemote control for local agentsYou can now see and reply to the local agents running on your computer from the Cursor iOS app.\n#Get started\nRemote Control is on by default for e",
+    "aiSummary": "Cursor iOS 앱을 통해 사용자의 컴퓨터에서 실행 중인 local agents를 원격으로 제어하고 상태를 확인할 수 있는 기능이 업데이트되었습니다.\n\n해당 기능은 별도의 클라우드 서버를 거치지 않고 사용자 PC에서 직접 에이전트를 구동하며, 앱은 실행 중인 에이전트에 연결하여 메시지를 보내거나 작업을 모니터링하는 인터페이스를 제공합니다.\n\n사용을 위해서는 Cursor iOS 앱을 설치하고 계정 로그인 후 데스크톱 앱에서 페어링 요청을 승인해야 합니다. 원활한 원격 제어를 위해서는 PC가 항상 켜져 있고 네트워크에 연결된 상태여야 하며, 설정 메뉴를 통해 PC 절전 모드를 방지하는 옵션을 활성화할 수 있습니다.\n\n본 기능은 기본적으로 활성화되어 있으나 Enterprise 조직의 경우 보안 설정을 통해 관리자가 수동으로 제어할 수 있습니다. 현재 해당 서비스는 모든 사용자에게 배포되어 바로 이용이 가능합니다.",
+    "url": "https://www.cursor.com/changelog/remote-control-local-agents",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-10-06T00:00:00.000Z",
+    "fetchedAt": "2026-10-07T02:29:17.348Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -2080,151 +2161,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "/blog/app-hosting-platforms-with-managed-postgres-2026",
-    "title": "App hosting platforms with managed Postgres compared (2026)",
-    "summary": "Prisma Compute, Railway, Render, Fly.io, Supabase, Neon and Vercel compared for an app next to managed Postgres: previews, idle cost, pooling, backups and prices.",
-    "aiSummary": "Prisma Compute, Railway, Render, Fly.io, Supabase, Neon, Vercel 등 주요 앱 호스팅 플랫폼을 관리형 Postgres 환경과 결합하는 관점에서 비교 분석합니다.\n\n주요 비교 항목은 서비스의 배포 미리보기 기능, 유휴 상태 시 발생하는 비용 구조, 커넥션 풀링 지원 여부, 데이터 백업 정책 및 전체적인 가격 경쟁력입니다.\n\n각 플랫폼은 애플리케이션과 데이터베이스의 효율적인 통합을 위해 서로 다른 전략을 취하고 있습니다. 서버리스 지향 플랫폼은 유휴 비용 최적화에 강점을 보이며, 특정 관리형 Postgres 제공업체는 성능과 데이터 관리 편의성에 집중하고 있습니다.\n\n개발자는 프로젝트의 규모와 트래픽 특성, 그리고 운영 효율성을 고려하여 본인의 서비스에 가장 적합한 호스팅 환경과 데이터베이스 조합을 선택해야 합니다.",
-    "url": "https://www.prisma.io/blog/app-hosting-platforms-with-managed-postgres-2026",
-    "category": "백엔드",
-    "source": "Prisma Blog",
-    "author": "Prisma Blog",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-10-05T16:11:45.436Z",
-    "tags": [
-      "Prisma",
-      "ORM",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/scale-your-workloads-without-paying-all-ram-prices/",
-    "title": "Scale your workloads without paying all-RAM prices",
-    "summary": "AI is pushing memory prices up, fast\n\nFor decades, memory got cheaper every year. In late 2025 that reversed. Memory makers shifted capacity to the high-bandwidth memory AI accelerators need, cloud pr",
-    "aiSummary": "AI 산업의 급격한 성장으로 인해 지난 수십 년간 지속되던 메모리 가격 하락세가 2025년 말부터 반전되었습니다. 메모리 제조사들이 AI 가속기에 필요한 HBM 생산에 집중하고 클라우드 공급업체들이 남은 물량을 선점하면서 서버 DRAM 가격이 급등하는 현상이 발생하고 있습니다.\n\n이러한 상황에서 기업들은 모든 워크로드를 고가의 DRAM에서 처리하는 기존 방식의 한계에 직면했습니다. 메모리 비용 절감을 위해서는 애플리케이션의 특성에 맞춰 컴퓨팅 자원과 메모리를 최적화하는 전략이 필요합니다.\n\n비용 효율성을 높이기 위한 대안으로 CXL 기술과 계층형 메모리 구조의 도입이 주목받고 있습니다. 이는 워크로드의 중요도에 따라 고성능 메모리와 저비용 저장 매체를 혼합하여 사용함으로써 성능 저하를 최소화하면서도 전체 인프라 운영 비용을 낮추는 방식입니다. 결과적으로 기업들은 더 이상 고가의 RAM 가격에만 의존하지 않는 유연한 인프라 확장을 모색해야 합니다.",
-    "url": "https://redis.io/blog/scale-your-workloads-without-paying-all-ram-prices/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Simran Regmi",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-10-02T19:59:20.035Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/your-data-is-growing-your-ram-bill-doesnt-have-to/",
-    "title": "Your data is growing. Your RAM bill doesn't have to.",
-    "summary": "AI is pushing memory prices up, fast\n\nFor decades, memory got cheaper over time. In late 2025 that reversed, and AI is the reason. Memory makers have shifted their factories toward the high-bandwidth ",
-    "aiSummary": "AI 산업의 급격한 성장으로 인해 전 세계적인 메모리 가격 상승세가 지속되고 있습니다. 수십 년간 메모리 단가가 하락하던 추세는 2025년 후반을 기점으로 반전되었으며 이는 AI 가속기에 필수적인 HBM 생산에 제조사들의 역량이 집중되면서 범용 메모리 공급이 부족해졌기 때문입니다.\n\n이러한 현상은 데이터 센터와 기업들의 운영 비용 부담을 가중시키고 있습니다. 기업들은 메모리 비용을 절감하기 위해 데이터 최적화 전략을 재검토해야 하는 상황에 직면했습니다. 데이터 처리 효율성을 높이거나 더 적은 메모리 자원으로 AI 모델을 구동할 수 있는 기술적 대안 마련이 시급해진 시점입니다.",
-    "url": "https://redis.io/blog/your-data-is-growing-your-ram-bill-doesnt-have-to/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Simran Regmi",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T02:13:40.051Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/banks-ai-agents-visibility",
-    "title": "When AI agents swarm, can banks keep up?",
-    "summary": "As AI agents transform cyber risk, banks need real-time visibility across security and operational data to detect unusual behavior, investigate threats, and respond at machine speed.",
-    "aiSummary": "AI 에이전트의 확산으로 사이버 보안 환경이 변화함에 따라 은행권은 새로운 위협에 직면하고 있습니다.\n\n이러한 변화에 대응하기 위해 은행은 보안 및 운영 데이터 전반에 대한 실시간 가시성을 확보해야 합니다. 이를 통해 이상 행동을 신속하게 탐지하고 위협 요소를 조사하며 기계가 처리하는 속도에 맞춰 즉각적인 대응 체계를 구축하는 것이 필수적입니다.",
-    "url": "https://www.elastic.co/blog/banks-ai-agents-visibility",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Karen Mcdermott",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/09/30/faster-post-quantum-cryptography-with-jdk-intrinsics/",
-    "title": "Faster Post-Quantum Cryptography with JDK Intrinsics",
-    "summary": "The JDK supports modern post-quantum cryptography: ML-KEM (https://openjdk.org/jeps/496), specified in FIPS 203 (https://csrc.nist.gov/pubs/fips/203/final); ML-DSA (https://openjdk.org/jeps/497), spec",
-    "aiSummary": "JDK는 ML-KEM, ML-DSA, HSS/LMS와 같은 최신 양자 내성 암호 알고리즘을 지원합니다. 이러한 알고리즘은 이식성과 기능적 안정성을 위해 Java로 구현되었으나, 성능 최적화를 위해 HotSpot 가상 머신은 특정 연산을 하드웨어 가속이 가능한 플랫폼 전용 기계어인 인트린직으로 대체합니다.\n\n인트린직은 Java 메서드를 영구적으로 대체하는 것이 아니라 @IntrinsicCandidate 어노테이션이 지정된 메서드를 대상으로 상황에 따라 선택적으로 적용됩니다. 이를 통해 CPU의 벡터 명령어, SHA-3, SHA-256 가속 기능을 활용하여 연산 효율을 크게 높일 수 있으며, Java 구현체는 그대로 유지되어 플랫폼 호환성을 보장합니다.\n\nML-KEM과 ML-DSA는 격자 기반 암호로서 NTT 연산, 다항식 곱셈 및 덧셈 등 유사한 계산 구조를 공유하지만, 서로 다른 모듈러 값과 계수 표현을 사용하므로 각각에 최적화된 인트린직 구현이 필요합니다. 특히 ML-KEM의 경우 키 생성과 캡슐화 과정의 핵심 경로에서 인트린직을 통해 상당한 처리량 향상을 달성했습니다.\n\n해시 기반 서명 방식인 HSS/LMS는 실행 시간의 대부분이 SHA-256 연산에 집중되어 있어, SHA-256 인트린직 도입만으로도 전체적인 성능을 대폭 개선할 수 있습니다. JDK 28에서 측정된 벤치마크 결과는 빈번하게 실행되는 핵심 연산을 하드웨어 수준에서 최적화하는 방식이 전체 암호 알고리즘의 효율성을 높이는 데 매우 효과적임을 입증합니다.",
-    "url": "https://inside.java/2026/09/30/faster-post-quantum-cryptography-with-jdk-intrinsics/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Mark Powers",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://astro.build/blog/whats-new-september-2026/",
-    "title": "What's new in Astro - September 2026",
-    "summary": "September 2026 - Astro Germany, Evil Martians migration story, and more!",
-    "aiSummary": "2026년 9월의 Astro 소식에서는 Astro Germany의 활동 내용과 Evil Martians의 성공적인 마이그레이션 사례가 주요하게 다루어집니다. 이외에도 Astro 생태계의 다양한 업데이트와 함께 개발자 경험을 향상하기 위한 여러 개선 사항이 포함되어 있습니다.",
-    "url": "https://astro.build/blog/whats-new-september-2026/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-partner-awards-2026",
-    "title": "Better together: Celebrating the 2026–2027 Elastic Partner Awards",
-    "summary": "We created the Elastic Partner Awards to recognize our partners' contributions and the results they are delivering for customers. See who the Elastic Partner Award winners are for 2026–2027!",
-    "aiSummary": "Elastic은 고객에게 우수한 성과를 제공하고 기여한 파트너사를 선정하여 2026-2027 Elastic Partner Awards를 개최하였습니다. 이번 어워드를 통해 선정된 주요 수상 파트너사들을 공개하며 그간의 협력과 공로를 기념하고자 합니다. 상세한 수상 기업 명단과 관련 내용은 Elastic 공식 홈페이지를 통해 확인할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-partner-awards-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Jason Kimrey",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/mumbai-forge-the-future-hackathon-2026",
-    "title": "Building production-ready AI in India ",
-    "summary": "See how developer teams in India built production-ready AI applications with Elasticsearch for the Forge the Future Hackathon 2026, with winners crowned at Elastic{ON} Mumbai.",
-    "aiSummary": "인도에서 개최된 Forge the Future Hackathon 2026을 통해 현지 개발팀들이 Elasticsearch를 활용하여 실무에 즉시 투입 가능한 수준의 AI 애플리케이션을 성공적으로 구축했습니다. 해당 행사의 최종 우승자들은 Elastic{ON} Mumbai 현장에서 발표되었습니다. 이번 사례는 인도 개발 생태계가 Elasticsearch 기술을 바탕으로 고도화된 AI 솔루션을 구현하고 있음을 보여줍니다.",
-    "url": "https://www.elastic.co/blog/mumbai-forge-the-future-hackathon-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Ravindra Ramnani",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "fetchedAt": "2026-09-30T13:55:31.918Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.142.1",
-    "title": "0.142.1",
-    "summary": "Fixes\n🐛 Fix repeated endpoint wrapping in included routers. PR #16414 by @tiangolo.",
-    "aiSummary": "FastAPI 라이브러리의 0.142.1 버전 업데이트가 진행되었습니다. 이번 업데이트는 포함된 라우터에서 엔드포인트가 반복적으로 래핑되는 문제를 해결하는 버그 수정을 포함하고 있습니다. 해당 수정 사항은 tiangolo에 의해 PR #16414를 통해 반영되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.1",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-09-29T22:36:03.000Z",
-    "fetchedAt": "2026-09-30T02:12:03.146Z",
-    "tags": [
-      "FastAPI",
-      "Python"
     ]
   }
 ]
