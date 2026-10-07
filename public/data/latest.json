@@ -1,5 +1,117 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.142.3",
+    "title": "0.142.3",
+    "summary": "Fixes\n🐛 Cache OpenTelemetry tracers to preserve warning deduplication. PR #16468 by @tiangolo.\nDocs\n📝 Remove HTML title from newsletter to avoid the tooltip. PR #16461 by @tiangolo.\n📝 Embed the Fas",
+    "aiSummary": "FastAPI 버전 0.142.3 업데이트가 공개되었습니다. 이번 업데이트에서는 OpenTelemetry 트레이서의 캐싱 기능을 개선하여 경고 중복 제거 문제를 해결했습니다.\n\n문서 관련 변경 사항으로는 뉴스레터의 HTML 제목 제거와 구독 폼 내장 기능 추가, 그리고 Asyncer를 활용한 스레드 내 차단 코드 처리 방식이 업데이트되었습니다.\n\n언어 번역 측면에서는 한국어를 포함한 다국어 번역 파일이 업데이트되었으며, 러시아어 LLM 프롬프트가 조정되었습니다. 번역 작업에는 gpt-6-astra 모델이 사용되었습니다.\n\n내부적인 기술 환경 개선도 이루어졌습니다. Starlette 1.7.0 버전 업그레이드를 비롯하여 PyJWT, GitPython, Urllib3 등 주요 파이썬 패키지와 프리커밋 훅, 깃허브 액션 등 개발 도구들이 최신 버전으로 업데이트되었습니다. 그 외에도 스폰서 명단 수정 및 깃허브 토픽 저장소 정보 업데이트가 진행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.3",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-07T19:21:26.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+    "title": "Purpose-built model for leaked secret detection",
+    "summary": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware…\nThe post P",
+    "aiSummary": "GitHub가 소프트웨어 개발 방식의 변화에 발맞추어 코드 내 유출된 비밀 정보를 탐지하기 위한 전용 모델을 새롭게 도입합니다.\n\n이번에 선보이는 모델은 단순한 패턴 매칭을 넘어 문맥을 이해하는 기능을 갖추고 있습니다. 이를 통해 사용자가 직접 코드를 작성하거나 AI agent를 활용해 개발하는 환경에서도 비밀 정보가 유출되는 상황을 보다 정교하게 방지할 수 있습니다.\n\n해당 기술은 현대적인 개발 워크플로우와 원활하게 통합되어 보안성을 강화하는 역할을 수행합니다.",
+    "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-07T16:13:56.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/financial-services/ultra-low-latency-solution-with-u4-enables-high-velocity-trading/",
+    "title": "Introducing Google Cloud’s U4 compute: Enabling ultra-low latency trading",
+    "summary": "In capital markets, operational success is built on predictable performance and low latency, where even tiny variations in packet timing alter queue priority and trade execution. At the same time, bot",
+    "aiSummary": "Google Cloud는 자본 시장의 고빈도 매매와 같은 초저지연 요구사항을 충족하기 위해 Ultra Low Latency (ULL) Solution과 이를 지원하는 U4 머신 패밀리를 출시했습니다. 이 솔루션은 하드웨어 기반의 멀티캐스트 데이터 분산, 정밀한 네트워크 관찰 가능성, 예측 가능한 고성능 컴퓨팅을 핵심 인프라로 제공하여 기존 물리적 데이터 센터의 한계를 극복하고 클라우드의 유연성을 결합합니다.\n\nULL Solution의 주요 기술적 특징은 다음과 같습니다.\n\nBare metal 성능: 가상화 오버헤드를 제거하고 물리적 호스트 리소스에 직접 접근하여 지터를 최소화하고 예측 가능한 저지연 실행을 보장합니다.\n\nTitanium 오퍼레이션: 전용 Titanium 어댑터를 사용하여 매매 트래픽과 관리용 원격 측정을 물리적으로 격리하고, 하드웨어 가속을 통해 멀티캐스트 피드를 효율적으로 처리합니다.\n\nFirefly 동기화: Google Cloud의 Firefly 클록 동기화 시스템을 통해 10나노초 미만의 정밀한 네트워크 타임스탬핑과 UTC 동기화를 지원합니다.\n\n확장성 및 유연성: 로컬 Titanium SSD를 통한 실시간 트랜잭션 기록과 Hyperdisk를 활용한 대규모 데이터 아카이빙을 지원하며, 인프라를 코드로 관리하여 자동화된 리소스 프로비저닝이 가능합니다.\n\n새롭게 도입된 U4 머신 패밀리는 세 가지 시리즈로 구성됩니다. U4P와 U4C는 Intel 5th Gen Xeon 프로세서를 탑재한 베어메탈 인스턴스로 주로 거래소 운영자와 시장 참여자를 위해 설계되었으며, U4S는 Intel 6th Gen Xeon 기반의 가상 머신으로 고성능 연산이 필요한 워크로드에 활용됩니다.\n\n현재 Google Cloud는 CME Group을 포함한 주요 금융 기관과 협력하여 파생상품 시장을 클라우드로 이전하고 있으며, 이를 통해 금융 시장에 필수적인 결정론적 성능과 초저지연 환경을 제공하고 있습니다. 향후 해당 아키텍처는 알고리즘 매매와 AI 기반의 트레이딩 모델을 지원하는 핵심 인프라로 활용될 전망입니다.",
+    "url": "https://cloud.google.com/blog/topics/financial-services/ultra-low-latency-solution-with-u4-enables-high-velocity-trading/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Disha Chopra"
+      ],
+      "title": [
+        "Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-07T16:00:00.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+    "title": "Local sandboxing for GitHub Copilot now generally available",
+    "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…\nThe post ",
+    "aiSummary": "GitHub Copilot의 Local sandboxing 기능이 공식적으로 정식 출시되었습니다. 이제 GitHub Copilot CLI와 GitHub Copilot 앱, 그리고 Agent Host를 활용하는 VS Code 세션에서 해당 기능을 사용할 수 있습니다.\n\nLocal sandboxing은 개발자가 코드를 실행하거나 테스트할 때 보안이 강화된 격리 환경을 제공합니다. 이를 통해 외부 환경으로부터 안전하게 작업을 수행할 수 있으며, 개발 과정에서의 보안성과 효율성을 동시에 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-07T15:46:17.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+    "title": "Discover local models in GitHub Copilot CLI",
+    "summary": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running…\nThe post Di",
+    "aiSummary": "GitHub Copilot CLI 버전 1.0.94-0 업데이트를 통해 기존 워크플로우를 유지하면서 로컬 모델을 손쉽게 탐색하고 선택할 수 있는 기능이 추가되었습니다. 사용자는 CLI 환경에서 /model 명령어를 입력하여 현재 실행 중인 환경에서 지원하는 모델 목록을 즉시 확인하고 활용할 수 있습니다. 이를 통해 개발자는 별도의 외부 전환 없이도 로컬 환경의 모델을 효율적으로 관리하고 작업에 적용할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-07T15:46:13.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.11.0?1791384309757",
+    "title": "Node.js 26.11.0 (Current)",
+    "summary": "Antoine du Hamel2026-10-07, Version 26.11.0 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.11.0#2026-10-07-version-26110-current-aduh95)\nNotable Changes (https://nodejs.org/en/blog/release",
+    "aiSummary": "Node.js 26.11.0 버전이 새롭게 릴리스되었습니다. 이번 업데이트는 버퍼 처리, HTTP, 성능 모니터링 및 암호화 모듈을 중심으로 다양한 기능 개선과 수정 사항을 포함하고 있습니다.\n\n핵심 변경 사항으로 버퍼 관련 기능인 isLatin1과 Buffer.stringLength()가 추가되었습니다. HTTP 모듈에서는 유효한 헤더 이름과 값을 검증하는 isValidHeaderName() 및 isValidHeaderValue() 메서드가 도입되었으며, HTTP2에는 connectionWindowSize 옵션이 추가되었습니다. 성능 향상을 위해 perf_hooks 모듈 내 히스토그램 관련 기능인 histogram.diff()와 snapshot()이 추가되었고, 모니터링 관련 오류 수정 및 안정화 작업이 진행되었습니다.\n\n암호화 모듈인 crypto에서는 SubtlyCrypto API의 전반적인 개선과 함께 다양한 보안 및 처리 최적화가 이루어졌습니다. 또한 Alpine Linux에 대한 지원 등급이 티어 2로 격상되었습니다.\n\n외부 의존성 업데이트도 대폭 포함되었습니다. npm이 11.20.0으로, OpenSSL이 3.5.9로 각각 업그레이드되었으며, undici는 8.11.2 버전으로 업데이트되었습니다. zlib, V8, LIEF 및 시간대 데이터베이스 역시 최신 버전으로 갱신되었습니다. 이외에도 프로세스 타임아웃 설정을 위한 --process-timeout=N 옵션이 추가되는 등 개발 편의성을 높이는 기능들이 다수 포함되었습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.11.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-07T14:45:09.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_142",
     "title": "Visual Studio Code 1.142 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders)\nRead the full article",
@@ -13,6 +125,119 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=742896",
+    "title": "Introducing Warm Agents, a TeamCity Plugin",
+    "summary": "Waiting on “waiting for a starting agent” is a special kind of annoying when you just want your PR tests to run. It stings most when a quick one-minute build sits in the queue for ten minutes while th",
+    "aiSummary": "TeamCity에서 빌드 대기 시간을 줄이기 위해 Warm Agents 플러그인이 출시되었습니다.\n\n기존에는 짧은 빌드 작업이라도 클라우드 인스턴스가 시작될 때까지 기다려야 하는 비효율적인 상황이 자주 발생했습니다. \n\nWarm Agents 플러그인은 클라우드 빌드 에이전트를 미리 준비된 상태로 유지함으로써 사용자가 즉시 테스트를 실행할 수 있도록 지원합니다.\n\n이를 통해 개발자는 빌드 대기 시간을 최소화하고 전체적인 개발 생산성을 크게 향상시킬 수 있습니다.",
+    "url": "https://blog.jetbrains.com/teamcity/2026/10/teamcity-warm-agents-plugin/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitrii Korovin",
+    "pubDate": "2026-10-07T14:23:08.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/teens-learn-and-plan",
+    "title": "Helping teens learn, plan, and shape the future of AI",
+    "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+    "aiSummary": "ChatGPT for Teens에 청소년의 대학 입시 준비를 돕는 College Planner 기능이 새롭게 도입됩니다.\n\n해당 기능은 학생들이 대학 지원 과정을 체계적으로 관리할 수 있도록 지원합니다.\n\n또한 학습 효율을 높이기 위한 플래시카드와 퀴즈 기능이 추가되며, 청소년의 관점에서 AI의 미래를 논의하기 위한 Teen AI Council이 운영될 예정입니다.",
+    "url": "https://openai.com/index/teens-learn-and-plan",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-07T12:00:00.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-summit-2026-product-highlights",
+    "title": "Apollo Summit 2026 Product Highlights: The Governed Graph for Agents and Apps",
+    "summary": "There’s a clear chain of logic that most companies adopting agents discover through trial and error:\n\n\n\n\nAgents need enterprise context to do meaningful work. Without information about the business, t",
+    "aiSummary": "Apollo는 Apollo Summit 2026에서 AI 에이전트가 기업 시스템과 안전하게 상호작용할 수 있도록 지원하는 GraphOS Agent Services를 발표했습니다. 이 서비스는 AI 에이전트와 기업 API 사이에서 중간 관리자 역할을 수행하며 에이전트가 접근 가능한 데이터와 기능을 정책 기반으로 정밀하게 제어합니다. 주요 기능으로는 에이전트 검색, 신원 관리, 필드 수준의 정책 적용, 감사 로그 기록 등이 포함되어 있어 기업은 에이전트의 활동을 완벽하게 통제하고 모니터링할 수 있습니다.\n\n이와 함께 개발자가 AI 에이전트용 도메인 모델을 더 쉽게 구축할 수 있도록 돕는 GraphOS Desktop과 기존 REST API를 신속하게 Apollo Connectors로 전환해 주는 GraphOS Factory가 도입되었습니다. 또한 GraphOS MCP Server는 자연어를 통한 그래프 관리를 지원하며 더 많은 플랫폼 API를 에이전트에 노출합니다.\n\n인프라 측면에서는 성능과 안정성을 강화한 GraphOS Router 3.0이 공개되었습니다. 이 버전은 재설계된 요청 처리 파이프라인과 신규 증분 쿼리 플래너를 통해 쿼리 계획 속도를 대폭 높였으며, 서브그래프 과부하를 방지하는 서킷 브레이커 기능을 추가했습니다. 보안 및 운영 편의성도 향상되어 특정 환경에만 권한을 부여하는 variant API keys와 트러블슈팅을 단순화하는 GraphOS Router Support Tool이 제공됩니다.\n\n마지막으로 Apollo Connectors v0.4의 정식 출시와 Apollo Client 4.3의 커스텀 스칼라 지원 등을 통해 전반적인 개발자 경험과 생산성을 개선했습니다. Apollo는 이번 업데이트를 통해 기업이 AI 에이전트를 도입할 때 겪는 보안, 데이터 문맥 파악, 거버넌스 문제를 해결하고 확장 가능한 에이전트 환경을 제공하고자 합니다.",
+    "url": "https://www.apollographql.com/blog/apollo-summit-2026-product-highlights",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Kaitlyn Barnard",
+    "pubDate": "2026-10-07T11:35:41.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/introducing-graphos-agent-services",
+    "title": "Introducing GraphOS Agent Services",
+    "summary": "Creating your first agent was easy. Someone pointed an MCP client at a few internal services, wrote some skills by hand, and in a couple of days it was summarizing campaign performance emails or triag",
+    "aiSummary": "기업 내 에이전트 도입이 늘어남에 따라 보안과 데이터 접근 제어 문제로 인해 프로젝트가 정체되는 현상이 발생하고 있습니다. 많은 에이전트가 개별적인 API 키나 자격 증명을 사용하면서 데이터 유출 위험이 커지고, 보안팀은 에이전트가 어떤 데이터에 접근하는지 명확히 파악하기 어렵습니다. 이러한 문제를 해결하기 위해 Apollo GraphQL은 GraphOS Agent Services의 공개 프리뷰를 발표했습니다.\n\nGraphOS Agent Services는 기업의 도메인 모델을 구축하고 이를 기반으로 에이전트의 접근 권한과 동작을 제어 및 감사하는 기능을 제공합니다. 주요 기능으로는 에이전트가 필요한 도구와 데이터를 찾을 수 있게 돕는 검색 기능과 에이전트 및 사용자별 자격 증명을 관리하는 ID 관리 기능이 있습니다. 또한 필드 단위의 세밀한 정책 설정을 통해 에이전트가 접근할 수 있는 데이터 범위를 엄격하게 통제합니다.\n\n시스템은 그래프 구조를 활용하여 기업 내 모든 서비스와 데이터 간의 관계를 모델링합니다. 이를 통해 보안 관리자는 특정 필드에 태그를 지정하고, 해당 태그에 기반한 정책을 적용하여 에이전트가 민감한 정보를 열람하는 것을 원천적으로 차단할 수 있습니다. 예를 들어, 동일한 에이전트를 사용하더라도 사용자의 직무에 따라 접근 가능한 데이터 범위를 다르게 설정하는 것이 가능합니다.\n\n모든 요청은 GraphOS Agent Services를 거치며, 요청 시점의 ID 검증과 응답 시점의 데이터 필터링이 수행됩니다. 또한 모든 동작은 상세한 로그로 기록되어 추후 감사와 보안 검토 시 누가 어떤 데이터에 접근했는지 투명하게 확인할 수 있습니다. 이를 통해 기업은 에이전트의 오남용을 방지하고 보안 리스크를 최소화함으로써 AI 프로젝트를 안전하게 운영할 수 있습니다.\n\n이미 Intuit와 같은 기업이 GraphOS Agent Services를 도입하여 실시간 데이터 기반의 지능형 업무 처리를 수행하고 있습니다. Apollo GraphQL은 GraphOS Factory 스킬을 통해 기존의 REST API 등을 도메인 모델로 빠르게 통합할 수 있도록 지원하며, 보안팀의 승인 프로세스를 표준화하여 에이전트 개발 및 배포 속도를 높이는 것을 목표로 합니다.",
+    "url": "https://www.apollographql.com/blog/introducing-graphos-agent-services",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Adam DeLisse",
+    "pubDate": "2026-10-07T11:34:00.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/introducing-graphos-router-3-0",
+    "title": "Introducing GraphOS Router 3.0",
+    "summary": "GraphOS Router (https://www.apollographql.com/graphos-router) runs your graph, bringing data from its services together into an API your apps can use. With GraphOS Router 3.0 (https://www.apollographq",
+    "aiSummary": "Apollo가 GraphOS Router 3.0의 프리뷰 버전을 공개하였습니다. 이번 업데이트는 API 운영의 제어권을 강화하고 성능과 안정성을 높이는 데 중점을 두었습니다.\n\nGraph Artifacts 기능을 확장하여 사용자가 배포 과정에서 스키마와 지속적인 쿼리를 직접 관리할 수 있게 되었습니다. 이를 통해 시작 시점에 관리 평면에 의존할 필요 없이 인프라 내에서 직접 배포 버전을 제어하고 롤백할 수 있습니다.\n\n쿼리 계획 알고리즘의 개선으로 인해 대규모 쿼리 처리 속도가 최대 300배 빨라졌으며 메모리 사용량은 97% 감소하였습니다. 또한 요청 파이프라인을 Rust 기반의 Tower 서비스로 재작성하여 데이터 처리 효율을 높였으며, 응답 처리 시 메모리 주소 기반의 추적을 통해 JSON 데이터 작업 부하를 줄였습니다.\n\n시스템 안정성을 위해 하위 그래프와 Apollo Connectors에 대한 네이티브 회로 차단기 기능이 추가되었습니다. 특정 실패 임계값에 도달하면 요청을 차단하고 복구 여부를 확인하여 오류 확산을 방지합니다. 또한 Redis를 활용한 분산 속도 제한 기능을 도입하여 여러 Router 인스턴스 간에 일관된 트래픽 제어가 가능해졌습니다.\n\n기술 표준 측면에서는 최신 GraphQL 명세를 지원합니다. @oneOf 지시어를 통한 상호 배타적 입력 모델링이 가능해졌으며, @deprecated 지시어에 대한 검증 강화와 유니코드 지원 확대 등 개발 편의성과 스키마 명확성을 높이는 기능들이 포함되었습니다.\n\n기존 GraphOS Router 2.x 사용자는 공식 문서를 통해 업그레이드 가이드를 확인하고 프리뷰 버전을 바로 체험할 수 있습니다.",
+    "url": "https://www.apollographql.com/blog/introducing-graphos-router-3-0",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Matthew Ratzke",
+    "pubDate": "2026-10-07T11:31:00.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/introducing-graphos-factory",
+    "title": "Introducing GraphOS Factory",
+    "summary": "GraphOS Factory is an agent skill that turns an existing REST API into an Apollo Connectors subgraph. Point it at an OpenAPI or Swagger spec, or at the API’s public docs, and it inventories the API, t",
+    "aiSummary": "Apollo는 기존 REST API를 Apollo Connectors subgraph로 변환해 주는 에이전트 스킬인 GraphOS Factory를 공개했습니다. 이 도구는 OpenAPI나 Swagger 사양, 혹은 API 문서를 기반으로 API를 인벤토리화하고, 비즈니스 도메인 모델에 적합한 데이터 구조를 설계하도록 지원합니다.\n\n일반적인 일회성 생성 방식과 달리 GraphOS Factory는 모든 결정 사항과 작업 과정을 Git 환경에 기록합니다. 이를 통해 사용자는 API 변경 사항에 대응하거나 모델을 개선할 때 처음부터 다시 시작할 필요 없이 이전 상태에서 작업을 이어갈 수 있습니다. 또한 모든 정보가 디스크에 저장되므로 팀원 간 협업이 용이하며, 소프트웨어 개발 생명주기 안에서 코드를 관리하듯 지속적인 유지보수가 가능합니다.\n\n작업 과정은 워크스페이스 설정, API 인벤토리 구성, 도메인 범위 지정, 설계 결정, 검증 및 내보내기 단계로 이루어집니다. 특히 검증 과정에서는 composition 체크, 유닛 테스트, Router를 이용한 엔드투엔드 테스트 등이 수행되어 결과물의 신뢰성을 보장합니다.\n\n현재 GraphOS Factory는 Apollo Skills 저장소에서 프리뷰 버전으로 제공되고 있습니다. Apollo는 이 도구가 단순히 코드를 생성하는 단계를 넘어 엔지니어가 도메인 모델링에 집중하고, API와 그래프가 함께 진화하는 환경을 구축하는 데 기여할 것으로 기대합니다.",
+    "url": "https://www.apollographql.com/blog/introducing-graphos-factory",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "David Walter",
+    "pubDate": "2026-10-07T11:30:50.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
+    ]
+  },
+  {
+    "id": "https://www.apollographql.com/blog/apollo-connectors-v0-4-is-generally-available",
+    "title": "Apollo Connectors v0.4 is Generally Available",
+    "summary": "Apollo Connectors (https://www.apollographql.com/docs/graphos/connectors/why-connectors) let subgraph schemas turn REST or HTTP APIs into typed GraphQL with no resolver code and no subgraph server to ",
+    "aiSummary": "Apollo Connectors v0.4가 공식 출시되며 실험적 단계를 벗어나 정식 서비스가 되었습니다. 이번 업데이트는 REST 또는 HTTP API를 GraphQL로 변환할 때 리졸버 코드나 별도의 서브그래프 서버 없이도 복잡한 데이터 구조를 처리할 수 있도록 지원하며, 특히 개발 생산성과 AI 에이전트 연동성을 높이는 데 중점을 두었습니다.\n\n가장 눈에 띄는 기능은 가상 커넥터 도입입니다. 이는 네트워크 요청 없이도 로컬 입력값을 바탕으로 데이터를 매핑하는 기능으로, API 문서에 있는 JSON 예시를 스키마에 직접 붙여 넣어 실제 API 구현 전에도 테스트가 가능하게 합니다. 또한 스키마 작성 시 제약 사항을 줄여 GraphQL과 JSON 문법을 통합한 일관된 문법 체계를 갖추었으며, 복잡한 객체 리터럴 처리 및 쉼표 사용 규칙 등을 간소화했습니다.\n\n이번 버전에서는 추상 타입인 인터페이스와 유니온을 지원하여 폴리모픽한 REST 데이터를 효과적으로 쿼리할 수 있게 되었습니다. 정적 분석 기능이 대폭 강화되어 매핑 과정에서 발생할 수 있는 데이터 타입 불일치나 존재하지 않는 데이터 참조 오류를 사전에 감지하고 구체적인 진단 메시지를 제공합니다. 이를 통해 개발자와 AI 에이전트가 보다 직관적이고 오류가 적은 코드를 작성할 수 있습니다.\n\n추가적인 편의 기능으로 문자열 분할, 공백 제거, JSON 파싱 및 키 케이스 변환 등을 수행하는 화살표 메서드가 강화되었으며, 이는 데이터 변환 로직을 선언적 방식으로 간편하게 구현하도록 돕습니다. Apollo Connectors는 Apollo MCP Server를 통해 AI 에이전트가 동일한 API 레이어를 도구로 활용할 수 있도록 지원하며, 향후 v0.5에서는 정적 분석 결과를 개발자에게 경고 메시지로 제공하는 등 개발 경험을 더욱 고도화할 계획입니다.",
+    "url": "https://www.apollographql.com/blog/apollo-connectors-v0-4-is-generally-available",
+    "category": "데이터베이스",
+    "source": "Apollo GraphQL",
+    "author": "Ben Newman",
+    "pubDate": "2026-10-07T11:30:47.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "GraphQL",
+      "Apollo"
     ]
   },
   {
@@ -62,6 +287,39 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026",
+    "title": "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search ",
+    "summary": "Elastic was named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search. We ranked #1 in the AI Automation Use Case in the companion Critical Capabilities report.",
+    "aiSummary": "Elastic이 2026 Gartner Magic Quadrant for Enterprise AI Search 부문에서 리더로 선정되었습니다. 또한 동반 보고서인 Critical Capabilities에서는 AI Automation 유스케이스 부문 1위를 기록하며 기술적 역량을 인정받았습니다.",
+    "url": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Loren Erickson",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/gpt-6-for-everyone",
+    "title": "GPT-6 and Intelligent UI for everyone",
+    "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+    "aiSummary": "OpenAI가 전 세계 ChatGPT 사용자들을 대상으로 GPT-6를 순차적으로 출시합니다. 이번 업데이트의 핵심은 Intelligent UI를 도입하여 응답 속도를 한층 개선한 것입니다. 사용자들은 시각적 요소가 강화된 인터페이스를 통해 이전보다 직관적이고 인터랙티브한 경험을 직접 탐색하고 활용할 수 있습니다.",
+    "url": "https://openai.com/index/gpt-6-for-everyone",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "fetchedAt": "2026-10-07T20:40:34.315Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -1817,285 +2075,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_141",
-    "title": "Visual Studio Code 1.141 (Insiders)",
-    "summary": "Learn what is new in Visual Studio Code 1.141 (Insiders).\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.141 Insiders 버전이 공개되었습니다. 이번 업데이트를 통해 새롭게 도입된 기능과 개선 사항을 확인할 수 있습니다. 자세한 변경 내역과 상세 정보는 공식 웹사이트의 전체 문서를 통해 확인 가능합니다.",
-    "url": "https://code.visualstudio.com/updates/v1_141",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-09-30T20:07:58.584Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "e76e8a63de9311bd1dde4b12497cc264c4918389",
-    "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
-    "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results.",
-    "aiSummary": "Amazon S3 Vectors가 메타데이터 사전 필터링 기능을 새롭게 지원합니다. 이번 업데이트를 통해 필터링된 검색 결과의 재현율이 기존 대비 최대 5배까지 향상되었습니다.\n\n유사도 검색 이전에 필터링 과정이 먼저 수행되므로, 좁혀진 범위 내에서 더욱 관련성 높은 결과를 도출할 수 있습니다. 해당 기능은 RAG와 에이전트 기반 애플리케이션, 그리고 문서 검색 분야에서 유용하게 활용될 것으로 기대됩니다.",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-09-30T20:03:34.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-    "title": "Gemini 4 Argon: our next era of frontier intelligence",
-    "summary": "Sep 30, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Gemini 4 Argon delivers frontier performan",
-    "aiSummary": "Google은 복잡하고 긴 작업 수행에 최적화된 차세대 프론티어 AI 모델인 Gemini 4 Argon을 발표했습니다. 이 모델은 소프트웨어 엔지니어링과 법률, 금융 등 전문적인 지식 업무 및 사이버 보안 방어 분야에서 뛰어난 성능을 발휘하도록 설계되었습니다.\n\nGemini 4 Argon은 출력 토큰 제한을 기존 64K에서 1M으로 대폭 확대하여 AI가 한 번에 방대한 분량의 추론을 수행할 수 있도록 했습니다. 이를 통해 Google 내부에서는 양자 알고리즘 최적화, 메모리 효율 개선, 대규모 코드베이스 마이그레이션과 같은 고난도 작업에서 이미 가시적인 성과를 거두고 있습니다. DeepSWE v1.1, Vals Index, AutomationBench 등 다양한 벤치마크에서도 최상위권의 성능을 기록하며 그 역량을 입증했습니다.\n\n특히 사이버 보안 분야에서는 취약점 발견, 검증, 패치 기능을 강화했습니다. 신뢰할 수 있는 보안 방어자들을 대상으로 사이버 가드레일을 일부 제거한 버전을 제공하며, Wiz와 같은 파트너사와 협력하여 공공 인프라 보호를 위한 활동을 전개하고 있습니다.\n\nGoogle은 안전한 배포를 위해 엄격한 단계적 접근 방식을 취하고 있습니다. 악용 방지, 프롬프트 주입 공격 차단, 정렬 오류 모니터링 등 다각도의 안전장치를 마련했으며, 레드팀 테스트를 통해 모델의 견고함을 검증하고 있습니다. Gemini 4 Argon은 향후 개발자, 기업, 일반 사용자를 대상으로 순차적으로 공개될 예정이며, 현재는 Fairwind Program을 통해 선별된 사이버 보안 전문가들에게 먼저 제공되고 있습니다. 도입 비용은 100만 입력 토큰당 2달러, 출력 토큰당 10달러로 책정되었습니다.",
-    "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-30T20:01:45.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "title": "Gemini 4 Argon: our next era of frontier intelligence",
-    "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work and cyber defense, rolling out soon.",
-    "aiSummary": "Google이 차세대 프론티어 모델인 Gemini 4 Argon을 공식 발표했습니다.\n\n해당 모델은 실무 수준의 코딩 작업과 기업의 지식 업무 처리, 그리고 사이버 보안 방어에 특화된 기능을 갖추고 있습니다.\n\n조만간 전 세계 사용자를 대상으로 순차적인 서비스 배포가 시작될 예정입니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Koray Kavukcuoglu"
-      ],
-      "title": [
-        "SVP, Google DeepMind and Chief AI Architect, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-30T20:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "/blog/september-2026-security-release",
-    "title": "September 2026 Security Release",
-    "summary": "The September 2026 security release for Next.js is now available",
-    "aiSummary": "Next.js의 2026년 9월 보안 업데이트가 출시되었습니다. 이번 업데이트는 서비스의 보안 취약점을 해결하고 안정성을 높이기 위한 조치입니다. 관련 사용자들은 최신 버전으로 업데이트하여 보안 상태를 유지하시기 바랍니다.",
-    "url": "https://nextjs.org/blog/september-2026-security-release",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": {
-      "name": [
-        "Josh Story"
-      ]
-    },
-    "pubDate": "2026-09-30T18:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "ea1cc456e7a2e65a27ab5c8db65b3016bf527355",
-    "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-    "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded with",
-    "aiSummary": "Amazon Aurora PostgreSQL에서 별도의 ETL 파이프라인 구축 없이 데이터 레이크에 저장된 Apache Iceberg 및 Parquet 데이터를 직접 쿼리할 수 있는 기능을 지원합니다.\n\n이번 기능은 Aurora 내부에 내장된 DuckDB 엔진을 활용하며 이를 통해 운영 데이터와 이력 데이터를 통합한 단일 쿼리를 익숙한 PostgreSQL 구문으로 실행할 수 있습니다.\n\n또한 AWS Glue Data Catalog를 비롯해 S3 및 S3 Tables와 원활하게 연동됩니다. 효율적인 데이터 처리를 위해 술어 푸시다운과 같은 최적화 기술과 캐싱 기능을 제공하여 성능을 보장합니다.",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Esra Kayabali",
-    "pubDate": "2026-09-30T17:22:31.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-ai-mcp-security-advisories",
-    "title": "Laravel AI SDK and Laravel MCP Security Fixes: Update Now",
-    "summary": "Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and an OAuth redirect issue. Here are the affected versions and how to update.\nThe post Laravel AI SDK and Laravel MCP Securi",
-    "aiSummary": "Laravel AI SDK와 Laravel MCP에서 보안 취약점이 발견되어 긴급 업데이트가 권고됩니다. 이번 패치는 SSRF 버그와 OAuth 리다이렉트 문제를 해결하는 데 중점을 두고 있습니다. 해당 패키지를 사용하는 개발자는 보안 위협을 방지하기 위해 즉시 최신 버전으로 업데이트해야 합니다. 구체적인 영향 범위와 업데이트 방법은 공식 Laravel News 게시글을 통해 확인할 수 있습니다.",
-    "url": "https://laravel-news.com/laravel-ai-mcp-security-advisories?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-09-30T17:11:12.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "fc299694003096540401c2714b7038f1f5b7f685",
-    "title": "Celebrating Our Newest AWS Heroes – September 2026",
-    "summary": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and ",
-    "aiSummary": "AWS는 2026년 9월을 맞아 새로운 AWS Heroes를 선정하고 발표했습니다. AWS Heroes 프로그램은 지식 공유와 멘토링을 통해 활발한 커뮤니티를 구축하고 개발자와 조직이 AWS 환경에서 성공할 수 있도록 지원하는 전 세계 전문가들로 구성됩니다. 이번에 선정된 신규 회원들은 각자의 전문성을 바탕으로 AWS 생태계 발전에 크게 기여할 것으로 기대됩니다.",
-    "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Taylor Jacobsen",
-    "pubDate": "2026-09-30T17:04:05.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
-    "title": "GitHub Advanced Security trials for GitHub Team",
-    "summary": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization’s Overview page, B",
-    "aiSummary": "GitHub Team 고객은 이제 GitHub Advanced Security에 대한 셀프 서비스 체험을 시작할 수 있습니다. 이번 업데이트를 통해 사용자들은 GitHub Code Security와 GitHub Secret Protection 기능을 직접 평가하고 도입 여부를 검토할 수 있게 되었습니다. 해당 체험은 조직의 Overview 페이지 내 Billing 섹션을 통해 간편하게 시작할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-30T16:48:24.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-cybersecurity-startups-can-win-cisos/",
-    "title": "Cloud CISO Perspectives: How cybersecurity startups can win CISOs",
-    "summary": "Welcome to the second Cloud CISO Perspectives for September 2026. Today, Alicja Cade and Nick Godfrey, senior directors, Office of the CISO, share their guidance for cybersecurity startups on how to w",
-    "aiSummary": "사이버 보안 분야의 스타트업이 성공적으로 성장하기 위해서는 기업의 CISO와 긴밀한 전략적 파트너십을 구축하는 것이 필수적입니다. Google Cloud의 Office of the CISO 팀은 스타트업이 CISO에게 신뢰받는 파트너로 자리 잡기 위한 세 가지 핵심 전략을 제시합니다.\n\n첫째, 고객의 입장에서 경청하고 설계해야 합니다. CISO의 운영상 병목 지점을 파악하고 실질적인 해결책을 함께 모색하는 진단 회의를 활용하십시오. 영업 목적이 아닌 순수한 피드백이나 산업 과제 해결을 위한 비판매 공간을 마련하여 신뢰를 쌓아야 하며, 기술적인 스택을 넘어 비즈니스 전략 전반을 이해하는 노력이 필요합니다.\n\n둘째, AI 보안 기술을 차별화하고 투명성을 확보해야 합니다. 단순히 AI를 활용하는 것을 넘어 독점적인 데이터셋이나 특화된 파인튜닝을 통해 기술적 격차를 만들어야 합니다. 또한 모델의 견고함을 증명하여 공격에 대응하고, 마케팅 용어보다는 기술 문서와 사례 연구를 통해 AI 제품의 실질적인 가치를 입증하는 것이 중요합니다.\n\n셋째, 자신이 속한 산업 분야의 규제와 요구사항을 철저히 파악해야 합니다. 데이터 주권이나 거주지 규정 등 투자 및 인수합병 과정에서 발생할 수 있는 실사 항목을 사전에 인지하고, 해당 분야의 전문가들과 조기에 협력하여 제품의 보안성과 신뢰성을 확보하십시오.\n\n이외에도 Google Cloud는 PageBreak 프로젝트를 통한 AI 기반 보안 테스트, Wiz와의 통합 강화, 안드로이드 보안 업데이트 가시성 확보 등 다양한 보안 생태계 지원 활동을 지속하고 있습니다. 또한 최신 위협 인텔리전스 공유 및 클라우드 보안 팟캐스트를 통해 사이버 보안 커뮤니티의 기술적 발전을 돕고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-cybersecurity-startups-can-win-cisos/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Alicja Cade"
-      ],
-      "title": [
-        "Sr. Director, Financial Services, Office of the CISO"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-30T16:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/spanner-omni-deploy-anywhere-version-of-spanner-is-now-ga/",
-    "title": "Spanner Omni, now GA: A distributed, multi-model database that you can deploy anywhere",
-    "summary": "Spanner Omni, the deploy-anywhere version of Spanner, is now generally available, ready to power your most demanding production workloads in your on-premises data center or on other clouds. \nWith Span",
-    "aiSummary": "Google이 분산형 데이터베이스 서비스인 Spanner를 온프레미스 데이터 센터나 다른 클라우드 환경에서도 사용할 수 있게 만든 Spanner Omni가 정식 출시되었습니다. Spanner Omni는 기존 Spanner가 가진 SQL, 그래프, 키-값, 전체 텍스트 검색, 벡터 검색, 분석 처리 등 멀티 모델 기능을 Google Cloud 외부 인프라에서도 동일하게 활용할 수 있도록 지원합니다.\n\n특히 이번 정식 버전은 AI 애플리케이션 개발에 최적화된 기능을 갖추고 있습니다. 벡터 검색과 Spanner Graph를 통해 복잡한 데이터 관계를 파악하고 시맨틱 유사성을 분석할 수 있으며, MCP(Model Context Protocol)를 지원하여 자율 에이전트가 Spanner Omni를 운영 메모리 계층으로 활용할 수 있게 합니다.\n\n또한 엔터프라이즈 환경에서의 운영을 위해 TLS 암호화, 강력한 보안 거버넌스, 고성능 백업 및 복구 기능, 그리고 리소스 집약적인 작업을 처리할 수 있는 전용 Worker 노드 등을 포함하고 있습니다.\n\n라이선스는 크게 두 가지로 나뉩니다. 비상업적 개발 및 테스트를 위한 Developer Edition은 무료로 제공되며, 상업적 운영을 위한 Commercial Edition은 vCPU 기반의 연간 구독 모델로 운영됩니다. \n\n다만 Spanner Omni는 사용자가 직접 운영하는 방식이므로 Google Cloud에서 제공하는 완전 관리형 서비스와는 차이가 있습니다. 인프라 운영과 모니터링은 사용자의 책임이며, BigQuery나 Gemini Enterprise와 같이 Google Cloud에 종속적인 서비스와의 연동은 지원되지 않습니다. Google은 향후 지속적인 업데이트를 통해 관리형 서비스와의 기능 격차를 줄여나갈 계획입니다.",
-    "url": "https://cloud.google.com/blog/products/databases/spanner-omni-deploy-anywhere-version-of-spanner-is-now-ga/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jagan R. Athreya"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-30T16:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
-    "title": "Empower your agents with the Google Cloud CLI remote MCP server",
-    "summary": "Today, we’re expanding our ecosystem of managed remote MCP servers by introducing the Google Cloud CLI remote MCP server in preview.\nPowered by the popular gcloud and bq (BigQuery) command-line tools,",
-    "aiSummary": "Google Cloud는 AI 에이전트가 Google Cloud 인프라와 BigQuery 워크플로우를 효율적으로 관리할 수 있도록 지원하는 Google Cloud CLI remote MCP server를 퍼블릭 프리뷰로 출시했습니다.\n\n이 서버는 gcloud와 bq 명령어를 MCP 프로토콜 기반으로 제공하여 에이전트가 복잡한 인프라 작업을 추상화된 명령어로 간편하게 수행하도록 돕습니다. 특히 LLM이 명령어 체계에 최적화되어 학습된 점을 활용하여 에이전트의 작업 정확도를 높입니다.\n\n인프라 측면에서는 로컬 환경에 별도의 바이너리나 의존성을 설치할 필요가 없으며 Google Cloud의 격리된 샌드박스 환경에서 실행됩니다. 이를 통해 관리 부담을 줄이고 웹 기반의 에이전트 플랫폼에서도 안전하게 클라우드 명령어를 실행할 수 있게 되었습니다.\n\n보안과 거버넌스 역시 강화되었습니다. Agent Identity, OAuth 2.0, IAM을 통한 엄격한 권한 제어가 이루어지며 Model Armor를 통합하여 프롬프트 인젝션 등 AI 관련 위협을 차단합니다. 또한 모든 호출은 Audit Logs를 통해 기록되어 보안팀이 감사 추적을 수행할 수 있습니다.\n\n사용자는 Google Cloud 프로젝트에서 Cloud CLI Execution API를 활성화하고 적절한 IAM 권한을 부여하는 것만으로 즉시 연동이 가능합니다. 해당 서비스는 별도의 추가 비용 없이 프리뷰로 제공되며 사용자가 생성하는 GCP 리소스 비용만 발생합니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Prosper Nwankpa"
-      ],
-      "title": [
-        "Senior Engineering Manager, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-09-30T16:00:00.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/introducing-synthid-bio/",
-    "title": "Introducing SynthID Bio",
-    "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-    "aiSummary": "Google DeepMind가 AI로 생성된 단백질에 워터마크를 삽입하는 기술인 SynthID Bio를 공개하였습니다.\n\n해당 기술은 단백질 서열 내에 보이지 않는 정보를 삽입하여 AI가 제작한 단백질임을 식별할 수 있게 합니다.\n\n가장 중요한 특징은 단백질 고유의 생물학적 기능과 구조를 유지하면서도 워터마크를 안정적으로 삽입한다는 점입니다.\n\n이를 통해 AI가 생성한 생물학적 데이터의 출처를 명확히 추적하고 오남용을 방지하는 보안 체계를 구축할 수 있습니다.",
-    "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-09-30T15:03:07.000Z",
-    "fetchedAt": "2026-09-30T20:07:58.584Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
     ]
   }
 ]
