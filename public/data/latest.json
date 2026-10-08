@@ -1,5 +1,53 @@
 [
   {
+    "id": "/blog/release/v26.11.1?1791417386441",
+    "title": "Node.js 26.11.1 (Current)",
+    "summary": "Antoine du Hamel2026-10-07, Version 26.11.1 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.11.1#2026-10-07-version-26111-current-aduh95)\nCommits (https://nodejs.org/en/blog/release/v26.11.",
+    "aiSummary": "Node.js 26.11.1 버전이 새롭게 릴리스되었습니다. 이번 업데이트는 빌드 및 문서 관련 설정과 관련된 이전 변경 사항들을 되돌리는 작업 위주로 구성되었습니다.\n\n구체적으로는 문서 도구의 상세 출력 설정인 doc-kit verbosity 토글, 문서 그룹 도구 업데이트, 그리고 문서 재설계 관련 커밋들을 되돌리는 수정이 포함되었습니다.\n\n해당 버전은 Windows, macOS, Linux, AIX 등 주요 운영체제별 설치 파일과 바이너리 형태로 제공되며, 공식 홈페이지를 통해 소스 코드 및 관련 API 문서를 확인할 수 있습니다. 각 파일의 무결성 검증을 위한 SHASUMS 정보와 PGP 서명 정보도 함께 공개되어 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.11.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-07T23:56:26.000Z",
+    "fetchedAt": "2026-10-08T02:44:54.356Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.142.4",
+    "title": "0.142.4",
+    "summary": "Fixes\n🐛 Isolate FastAPI telemetry for excluded requests. PR #16470 by @tiangolo.",
+    "aiSummary": "FastAPI 라이브러리 버전 0.142.4 업데이트가 배포되었습니다. 이번 업데이트는 PR #16470을 통해 제외된 요청에 대한 FastAPI 원격 측정 데이터를 격리하도록 수정되었습니다. 해당 개선 사항은 @tiangolo에 의해 작성되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.4",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-07T21:21:57.000Z",
+    "fetchedAt": "2026-10-08T02:44:54.356Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+    "title": "Claude Haiku 5.5 in GitHub Copilot",
+    "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In earl",
+    "aiSummary": "Anthropic의 최신 경량 모델인 Claude Haiku 5.5가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n이 모델은 하위 에이전트 작업이나 빠른 코드 수정, 터미널 명령 수행 등 속도가 중요하고 처리량이 많은 업무에 최적화되어 설계되었습니다. \n\n사용자는 이번 통합을 통해 GitHub Copilot 환경 내에서 더욱 효율적이고 신속하게 개발 관련 작업을 처리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-07T20:12:18.000Z",
+    "fetchedAt": "2026-10-08T02:44:54.356Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.142.3",
     "title": "0.142.3",
     "summary": "Fixes\n🐛 Cache OpenTelemetry tracers to preserve warning deduplication. PR #16468 by @tiangolo.\nDocs\n📝 Remove HTML title from newsletter to avoid the tooltip. PR #16461 by @tiangolo.\n📝 Embed the Fas",
@@ -1902,179 +1950,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://svelte.dev/blog/whats-new-in-svelte-october-2026",
-    "title": "What’s new in Svelte: October 2026",
-    "summary": "SvelteKit 3 is here! Check out the announcement post for the highlights, then run sv migrate to handle most of the upgrade for you. sv itself hit 1.0 on the same day, making the community add-on API o",
-    "aiSummary": "SvelteKit 3가 공식 출시되었습니다. 주요 변경 사항으로는 어댑터 API 개선, Render를 위한 제로 구성 배포 지원, 그리고 다수의 브레이킹 체인지가 포함되었습니다. 사용자들은 sv migrate 명령어를 통해 기존 애플리케이션의 업그레이드를 간편하게 진행할 수 있습니다. 또한, Svelte CLI 도구인 sv가 1.0 버전에 도달하며 커뮤니티 애드온 API를 공식화했고, svelte-package 및 drizzle 애드온 등의 기능이 강화되었습니다. Svelte 5.57.1 버전은 버그 수정과 컴파일러 성능 개선에 집중했습니다.\n\nSvelteKit 3의 주요 기술적 변화는 다음과 같습니다.\n어댑터가 Vite 플러그인 추가 시 Svelte 설정을 인자로 받을 수 있게 되었으며, 로컬 개발 및 미리보기 환경에서 getRequest와 setResponse를 재정의할 수 있게 개선되었습니다. adapter-node, adapter-netlify, adapter-cloudflare 등 각 플랫폼 어댑터에서 정적 자산 처리 방식과 빌드 매니페스트 생성 등이 변경되었습니다. 또한 클라이언트 요청 변이 처리, 환경 변수 평가 시점, 내부 생성자 비공개화 등 최종 프리릴리스 단계에서 몇 가지 브레이킹 체인지가 적용되었습니다.\n\n11월 19일부터 20일까지 류블랴나에서 Svelte의 10주년을 기념하는 Svelte Summit이 개최될 예정입니다.\n\n커뮤니티 생태계에서는 다양한 프로젝트가 활발히 공유되었습니다. Docvia, Powermove, npmchart 등 여러 애플리케이션이 소개되었으며, Sivir UI, FluentUI Svelte, Baby UI와 같은 UI 라이브러리와 더불어 Twinkleplop, fractalpop, aragonite 등 마크다운 및 편집 도구가 다수 출시되었습니다. Svelte 생태계의 학습 자원과 개발 도구들도 지속적으로 업데이트되고 있습니다.",
-    "url": "https://svelte.dev/blog/whats-new-in-svelte-october-2026",
-    "category": "프론트엔드",
-    "source": "Svelte Blog",
-    "author": "Dani Sandoval",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-02T13:57:46.047Z",
-    "tags": [
-      "Svelte"
-    ]
-  },
-  {
-    "id": "https://svelte.dev/blog/sveltekit-3-is-here",
-    "title": "SvelteKit 3 is here",
-    "summary": "Version 3.0 of SvelteKit, the official application framework for Svelte, is now available.\nIf you’ve used earlier versions of SvelteKit, everything will feel very familiar — it’s the same framework wi",
-    "aiSummary": "Svelte를 위한 공식 애플리케이션 프레임워크인 SvelteKit 3.0이 정식 출시되었습니다. 기존 사용자에게는 익숙한 환경을 유지하면서도 타입 안정성을 강화하고 불필요한 요소를 제거하여 더욱 완성도를 높였습니다.\n\n마이그레이션 작업을 돕기 위해 sv migrate 명령어를 제공하며, 이를 통해 코드베이스를 최대한 자동으로 변환하고 수동 작업이 필요한 부분은 할 일 목록으로 생성해 줍니다. 새로운 앱 생성 시에는 sv create 명령어를 사용하면 됩니다.\n\n이번 버전의 주요 변경 사항으로는 설정 파일이 svelte.config.js에서 vite.config.ts로 이동하였으며, $lib 별칭이 표준 서브패스 임포트를 사용하는 #lib로 변경되었습니다. 또한 환경 변수 사용성 개선, 서비스 워커의 보일러플레이트 감소, 전반적인 에러 처리 기능이 향상되었습니다.\n\n현재 개발팀의 최우선 과제인 원격 함수 기능은 아직 정식 적용되지 않았으나, 추후 업데이트를 통해 클라이언트와 서버 간의 안전하고 효율적인 통신을 지원할 예정입니다. 한편, Svelte 10주년을 기념하는 Svelte Summit이 11월 19일부터 20일까지 슬로베니아 류블랴나에서 개최될 예정입니다.",
-    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
-    "category": "프론트엔드",
-    "source": "Svelte Blog",
-    "author": "The Svelte team",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T20:23:44.726Z",
-    "tags": [
-      "Svelte"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted",
-    "title": "Bring your own key to existing Elastic Cloud deployments",
-    "summary": "Enable BYOK on existing Elastic Cloud Hosted deployments: encrypt data and snapshots with your own KMS key, in place, without recreating the deployment.",
-    "aiSummary": "기존 Elastic Cloud 배포 환경에서 사용자가 직접 관리하는 KMS 키를 사용하여 데이터와 스냅샷을 암호화하는 BYOK 기능을 활성화할 수 있게 되었습니다.\n\n이번 업데이트를 통해 사용자는 배포를 새로 생성하거나 재구성할 필요 없이 운영 중인 기존 환경에서 즉시 암호화 설정을 적용할 수 있습니다. 이를 통해 보안 요구 사항을 준수하면서도 관리 효율성을 높일 수 있습니다.",
-    "url": "https://www.elastic.co/blog/byok-existing-deployments-elastic-cloud-hosted",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Alex Chalkias",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T20:23:44.726Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
-    "title": "Announcing Rust 1.99.0",
-    "summary": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust in",
-    "aiSummary": "Rust 팀이 프로그래밍 언어 Rust의 새로운 버전인 1.99.0을 발표했습니다. 기존 사용자는 rustup update stable 명령어를 통해 업데이트할 수 있으며, 상세한 릴리스 정보는 공식 웹사이트에서 확인할 수 있습니다.\n\n이번 업데이트의 핵심은 extern C 가변 인자 함수의 정의를 안정화한 점입니다. 이를 통해 Rust 자체에서 가변 인자 함수를 작성할 수 있게 되었으며, 해당 함수들은 C-ABI와 호환되는 VaList 타입을 사용합니다. 또한, 원시 포인터에서 크기와 정렬 정보를 가져오기 위한 Layout::for_value_raw, mem::size_of_val_raw, mem::align_of_val_raw 함수가 안정화되어 관련 안전성 요구 사항이 명확해졌습니다.\n\n문서화 측면에서는 Box::leak을 통해 할당 해제된 메모리를 다시 사용하는 패턴에 대한 권장 사항이 변경되었습니다. 컴파일러 최적화 및 향후 도입될 커스텀 할당자와의 호환성 문제를 방지하기 위해 Box::into_non_null 사용을 권장합니다.\n\n그 외에도 IntoIterator for Box<[T; N]>, VecDeque::retain_back, Vec::into_parts 등 다양한 API가 새롭게 안정화되었습니다. 세부적인 변경 사항은 Rust, Cargo, Clippy의 전체 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rust Release Team",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T14:35:39.324Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/01/agent-helidon-scale/",
-    "title": "Agent Helidon: License to Scale",
-    "summary": "While AI agents are rapidly advancing, the performance and scalability of the agents and their underlying services have received too little attention.\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tThis session showcases Helidon pow",
-    "aiSummary": "AI 에이전트 기술이 빠르게 발전하고 있음에도 불구하고 서비스의 성능과 확장성에 대한 논의는 상대적으로 부족한 실정입니다.\n\n이번 세션에서는 Java 프레임워크인 Helidon을 활용하여 AI 에이전트의 성능과 확장성을 확보하는 방법을 다룹니다. 특히 Virtual Thread 기반의 MCP 서버를 통해 확장 가능한 서비스를 구축하고 LangChain4j와의 컴파일 타임 통합을 통해 고성능 에이전트를 구현하는 기술적 접근 방식을 제시합니다. 구체적인 구현 사례와 상세 내용은 JavaOne 2026 재생 목록을 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/01/agent-helidon-scale/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Ryan Eberhard (Helidon)",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T14:35:39.324Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgpool-ii-473-468-4513-4418-and-4321-released-3390/",
-    "title": "Pgpool-II 4.7.3, 4.6.8, 4.5.13, 4.4.18 and 4.3.21 released.\n",
-    "summary": "What is Pgpool-II?\nPgpool-II is a tool to add useful features to PostgreSQL, including:  \nconnection pooling\nload balancing\nautomatic failover and more.\nMinor releases\nPgpool Global Development Group ",
-    "aiSummary": "Pgpool Global Development Group은 PostgreSQL의 커넥션 풀링, 로드 밸런싱, 자동 장애 조치 기능을 제공하는 Pgpool-II의 최신 마이너 버전인 4.7.3, 4.6.8, 4.5.13, 4.4.18, 4.3.21을 발표했습니다.\n\n이번 릴리스에는 다수의 보안 취약점 해결을 위한 패치가 포함되어 있습니다. 주요 조치 사항은 다음과 같습니다.\n\n우선 watchdog 메시지 처리 과정에서 발생할 수 있는 임의 메모리 쓰기 및 배열 경계를 초과하는 메모리 덮어쓰기 취약점들을 해결했습니다. 또한 장애 조치 메시지 처리 중 발생하는 스택 손상 및 프로세스 충돌 문제와 watchdog 노드 간 인증 키 검증 우회 취약점도 수정되었습니다.\n\n인증 관련해서는 X.509 인증서의 Common Name 필드 내 NUL 바이트 처리가 미흡하여 타 사용자로 위장 접속이 가능했던 문제와 watchdog 상호 노드 인증 시 발생하는 NULL 포인터 역참조 취약점이 개선되었습니다.\n\n이 외에도 heartbeat 수신 프로세스에서 발견된 정보 노출 취약점까지 포함하여 전반적인 보안 안정성이 강화되었습니다. 상세한 정보는 공식 릴리스 노트를 통해 확인 가능하며, 소스 코드 및 RPM 패키지를 다운로드하여 즉시 업데이트를 수행할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pgpool-ii-473-468-4513-4418-and-4321-released-3390/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T14:35:39.324Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/barclays-scales-claude",
-    "title": "Barclays scales Claude to upgrade operations and improve client experience",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBarclays scales Claude to upgrade operations and improve client experience Oct 1, 2026Barclays, the British universal bank, is expanding its st",
-    "aiSummary": "Barclays가 Anthropic과의 전략적 협력을 확대하여 전사적인 AI 시스템 도입을 가속화합니다. 이번 협업은 단순히 AI를 도입하는 수준을 넘어 소프트웨어 개발 효율화, 레거시 시스템 현대화, 그리고 고객 경험 개선을 목표로 합니다. 특히 Barclays는 개발자의 Claude Code 도입률을 2026년 말까지 50퍼센트로 확대하고 2027년에는 대다수의 엔지니어가 이를 활용하도록 할 계획입니다.\n\n기술적인 측면에서는 Claude를 활용해 소프트웨어 품질을 높이고 사이버 보안을 강화하며 복잡한 기술적 과제에 엔지니어들이 집중할 수 있는 환경을 조성합니다. 이를 통해 반복적인 업무 시간을 단축하고 의사결정 과정을 간소화하여 조직의 운영 효율성을 극대화하고자 합니다.\n\n이미 실무에 적용된 사례로는 2025년부터 운영 중인 Colleague Knowledge Assistant가 있습니다. 이는 RAG 아키텍처를 기반으로 Claude를 활용하여 1만 6천 명 이상의 직원이 2천만 명 이상의 영국 소매 고객을 지원하는 데 사용되고 있으며, 백만 건 이상의 검색을 처리하며 고객 응대 속도를 크게 향상했습니다. Barclays는 이번 협업을 통해 엄격한 거버넌스를 준수하면서도 책임감 있고 신뢰할 수 있는 방식으로 AI를 운영하는 모델을 구축하고 있습니다.",
-    "url": "https://www.anthropic.com/news/barclays-scales-claude",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T14:35:39.324Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://blog.python.org/2026/10/python-31022-31117/",
-    "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
-    "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
-    "aiSummary": "Python 3.10, 3.11, 3.12, 3.13, 3.14 버전에 대한 보안 업데이트가 새롭게 배포되었습니다.\n\n이번 업데이트를 통해 Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 및 3.14.8 버전이 각각 공개되었습니다. 특히 3.13 버전은 이번 업데이트를 마지막으로 유지 관리 단계가 종료되며, 3.10 버전은 이번 릴리스를 끝으로 공식적인 지원을 마무리합니다.",
-    "url": "https://blog.python.org/2026/10/python-31022-31117/",
-    "category": "프로그래밍 언어",
-    "source": "Python Insider",
-    "author": "Pablo Galindo",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "fetchedAt": "2026-10-01T02:13:40.051Z",
-    "tags": [
-      "Python"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-model-defaults",
-    "title": "Laravel 14 Adds a defaults() Method to Eloquent Models",
-    "summary": "Laravel 14 adds a defaults() method to Eloquent models, so default attribute values can use config, feature flags, and dates instead of constant expressions.\nThe post Laravel 14 Adds a defaults() Meth",
-    "aiSummary": "Laravel 14 버전에는 Eloquent 모델에 새롭게 defaults() 메서드가 추가되었습니다.\n\n기존에는 모델의 기본 속성값을 상수로만 지정할 수 있었으나, 이제는 이 메서드를 통해 config 설정이나 feature flags, 그리고 날짜와 같은 동적인 값을 기본값으로 활용할 수 있게 되었습니다.\n\n이를 통해 개발자는 더욱 유연하게 모델 속성값을 정의하고 관리할 수 있게 됩니다.",
-    "url": "https://laravel-news.com/laravel-model-defaults?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-09-30T22:23:38.000Z",
-    "fetchedAt": "2026-10-01T14:35:39.324Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "817caa03e06c6ac753e2104bcdd58418a88fea6e",
-    "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-    "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with ",
-    "aiSummary": "Amazon S3 Tables가 Apache Iceberg V3 사양에 포함된 모든 데이터 타입을 지원하기 시작했습니다. 이번 업데이트를 통해 컬럼 기본값 설정과 삭제 벡터 및 행 계보 기능도 함께 활용할 수 있게 되었습니다. 사용자는 기존의 V2 테이블을 업그레이드하거나 새로운 V3 테이블을 생성하여 사용할 수 있으며, 내장된 압축 및 유지 관리 기능과 향상된 엔진 호환성을 통해 더욱 효율적인 데이터 관리가 가능해졌습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-09-30T22:10:00.000Z",
-    "fetchedAt": "2026-10-01T02:13:40.051Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
-    "title": "Opt-in dist-tag permissions for npm trusted publishing",
-    "summary": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials in",
-    "aiSummary": "npm의 Trusted publishing 설정에서 이제 일시적인 OIDC 자격 증명을 사용하여 dist-tags를 관리할 수 있는 권한을 부여할 수 있게 되었습니다.\n\n이를 통해 사용자는 별도의 장기 토큰 없이도 특정 버전을 latest로 승격하거나 next, beta 등의 태그 포인터를 업데이트하는 작업을 보다 안전하게 수행할 수 있습니다. 해당 기능은 필요한 사용자에 한해 선택적으로 활성화하여 사용할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-09-30T21:03:09.000Z",
-    "fetchedAt": "2026-10-01T02:13:40.051Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

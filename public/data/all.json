@@ -1,5 +1,53 @@
 [
   {
+    "id": "/blog/release/v26.11.1?1791417386441",
+    "title": "Node.js 26.11.1 (Current)",
+    "summary": "Antoine du Hamel2026-10-07, Version 26.11.1 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.11.1#2026-10-07-version-26111-current-aduh95)\nCommits (https://nodejs.org/en/blog/release/v26.11.",
+    "aiSummary": "Node.js 26.11.1 버전이 새롭게 릴리스되었습니다. 이번 업데이트는 빌드 및 문서 관련 설정과 관련된 이전 변경 사항들을 되돌리는 작업 위주로 구성되었습니다.\n\n구체적으로는 문서 도구의 상세 출력 설정인 doc-kit verbosity 토글, 문서 그룹 도구 업데이트, 그리고 문서 재설계 관련 커밋들을 되돌리는 수정이 포함되었습니다.\n\n해당 버전은 Windows, macOS, Linux, AIX 등 주요 운영체제별 설치 파일과 바이너리 형태로 제공되며, 공식 홈페이지를 통해 소스 코드 및 관련 API 문서를 확인할 수 있습니다. 각 파일의 무결성 검증을 위한 SHASUMS 정보와 PGP 서명 정보도 함께 공개되어 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.11.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-07T23:56:26.000Z",
+    "fetchedAt": "2026-10-08T02:44:54.356Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.142.4",
+    "title": "0.142.4",
+    "summary": "Fixes\n🐛 Isolate FastAPI telemetry for excluded requests. PR #16470 by @tiangolo.",
+    "aiSummary": "FastAPI 라이브러리 버전 0.142.4 업데이트가 배포되었습니다. 이번 업데이트는 PR #16470을 통해 제외된 요청에 대한 FastAPI 원격 측정 데이터를 격리하도록 수정되었습니다. 해당 개선 사항은 @tiangolo에 의해 작성되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.4",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-07T21:21:57.000Z",
+    "fetchedAt": "2026-10-08T02:44:54.356Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+    "title": "Claude Haiku 5.5 in GitHub Copilot",
+    "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In earl",
+    "aiSummary": "Anthropic의 최신 경량 모델인 Claude Haiku 5.5가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n이 모델은 하위 에이전트 작업이나 빠른 코드 수정, 터미널 명령 수행 등 속도가 중요하고 처리량이 많은 업무에 최적화되어 설계되었습니다. \n\n사용자는 이번 통합을 통해 GitHub Copilot 환경 내에서 더욱 효율적이고 신속하게 개발 관련 작업을 처리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-07T20:12:18.000Z",
+    "fetchedAt": "2026-10-08T02:44:54.356Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.142.3",
     "title": "0.142.3",
     "summary": "Fixes\n🐛 Cache OpenTelemetry tracers to preserve warning deduplication. PR #16468 by @tiangolo.\nDocs\n📝 Remove HTML title from newsletter to avoid the tooltip. PR #16461 by @tiangolo.\n📝 Embed the Fas",
