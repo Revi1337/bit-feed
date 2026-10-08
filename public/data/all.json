@@ -1,5 +1,41 @@
 [
   {
+    "id": "/blog/upcoming-nextjs-security-update-october-2026",
+    "title": "Upcoming Next.js Security Update for Upstream Vulnerabilities",
+    "summary": "Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.",
+    "aiSummary": "Next.js는 오는 2026년 10월 14일 수요일에 예정에 없던 보안 업데이트를 배포할 계획입니다. 이번 업데이트는 업스트림 의존성에서 발견된 2개의 Critical 등급 취약점과 1개의 High 등급 취약점을 해결하기 위한 조치입니다. 개발자들은 해당 날짜에 맞춰 업데이트를 적용할 수 있도록 준비해야 합니다.",
+    "url": "https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Josh Story"
+      ]
+    },
+    "pubDate": "2026-10-08T18:00:00.000Z",
+    "fetchedAt": "2026-10-08T20:43:20.983Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-07-screen-readers-can-navigate-timelines-as-lists",
+    "title": "Screen readers can navigate timelines as lists",
+    "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…\nThe p",
+    "aiSummary": "GitHub는 스크린 리더 사용자가 이슈 및 풀 리퀘스트의 타임라인을 목록 형태로 탐색할 수 있도록 기능을 개선했습니다.\n\n이제 사용자가 타임라인을 이동할 때 보조 공학 기술이 해당 영역의 목록 구조와 전체 항목 수, 그리고 현재 위치 정보를 음성으로 안내합니다. 이를 통해 시각장애인이나 보조 기기를 사용하는 개발자들이 GitHub 내의 복잡한 프로젝트 흐름을 더욱 명확하고 효율적으로 파악할 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-08T16:00:56.000Z",
+    "fetchedAt": "2026-10-08T20:43:20.983Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
     "title": "Draft pull requests count toward pull request limits",
     "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previous",
@@ -205,6 +241,77 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/redis-oss-is-now-available-on-aws-marketplace/",
+    "title": "Redis OSS Is Now Available on AWS Marketplace",
+    "summary": "Redis Open Source Software (OSS) is now available through an official AWS Marketplace listing owned by Redis. The listing includes a Redis-published Amazon Machine Image (AMI), allowing teams to launc",
+    "aiSummary": "Redis가 공식적으로 AWS Marketplace를 통해 Redis OSS를 제공하기 시작합니다. 이번 등록을 통해 사용자들은 Redis가 직접 게시한 AMI를 Amazon EC2 환경에서 즉시 실행할 수 있게 되었습니다.\n\n이 서비스를 통해 기업은 Redis OSS 환경에 대한 전체적인 통제권을 유지하면서도 클라우드 인프라를 효율적으로 관리할 수 있습니다. 특히 AWS 환경 내에서의 배포 과정이 간소화되어 운영 편의성이 대폭 향상되었습니다.\n\n사용자는 복잡한 설정 없이도 검증된 Redis 이미지를 활용하여 데이터베이스 구축 시간을 단축할 수 있습니다. 이는 AWS 환경에서 오픈소스 기반의 데이터 관리 솔루션을 운영하려는 개발 및 인프라 팀에게 중요한 선택지를 제공합니다.",
+    "url": "https://redis.io/blog/redis-oss-is-now-available-on-aws-marketplace/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Mike  Moss ",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "fetchedAt": "2026-10-08T20:43:20.983Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "title": "2026 Usage Policy update",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncements2026 Usage Policy updateOct 8, 2026Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and th",
+    "aiSummary": "Anthropic이 모델의 고도화된 역량과 사용자 피드백을 반영하여 2026년형 Usage Policy 업데이트를 발표했습니다. 이번 정책은 11월 12일부터 적용되며 기존 규칙의 명확성을 높이고 최신 기술 위협에 대응하는 데 초점을 맞추었습니다.\n\n주요 변경 사항 중 하나는 기만적인 활동에 관한 규정 통합입니다. 기존에 분산되어 있던 부정행위 방지 조항을 Do Not Engage in Deceptive Campaigns or Artificial Activity 항목으로 통합하여 정치적, 상업적 목적을 불문하고 가짜 계정 운영이나 허위 정보 유포 등 기만적인 캠페인 활동을 엄격히 금지합니다.\n\n또한 민주주의 보호를 위해 선거 관련 규정을 Do Not Undermine Democratic Processes로 개편했습니다. 유권자를 속이거나 선거 과정을 방해하는 행위를 금지하되 비영리 단체나 선거 관리 당국의 합법적인 정보 전달 활동을 지원하기 위해 개인화된 투표 및 캠페인 타겟팅에 대한 일괄 금지 조항은 삭제했습니다.\n\n이 외에도 무기 개발, 감시 활동, 건강 및 금융 분야의 고위험 사례에 대한 규제를 강화했습니다. 특히 Claude가 물리적 환경에서 자율적인 행동을 수행할 때 적용되는 제어 장치를 추가하고 모델에 대한 악의적인 행동 방지 조항도 보완하였습니다. 상세한 정책 전문은 Anthropic 공식 홈페이지에서 확인할 수 있습니다.",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "fetchedAt": "2026-10-08T20:43:20.983Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/genesis-mission-commitment",
+    "title": "Building on our commitment to American scientific discovery",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBuilding on our commitment to American scientific discoveryOct 8, 2026Anthropic is deepening its support for American scientific research by co",
+    "aiSummary": "Anthropic이 미국의 과학 및 기술 발견을 가속화하기 위한 연방 이니셔티브인 Genesis Mission을 지원하기 위해 향후 3년간 1억 5천만 달러를 투자합니다. 이번 투자를 통해 NASA, National Institutes of Health, National Science Foundation 등 15개 이상의 연방 기관 연구원들이 Claude를 활용할 수 있게 됩니다.\n\nAnthropic은 이미 지난해 12월 미국 Department of Energy와 파트너십을 맺고 국립 연구소 소속 과학자들에게 Claude를 제공해 왔습니다. 이번 발표는 백악관 산하 Office of Science and Technology Policy가 주최한 Science: A New Golden Age Summit에서 공식적으로 이루어졌습니다.\n\n이번 협력은 과학 연구를 지원하려는 Anthropic의 광범위한 노력의 일환입니다. Anthropic은 앞서 연구용 AI 워크벤치인 Claude Science를 출시하고 학계 연구자들에게 Claude 라이선스를 지원해 왔습니다. 또한 고영향력 프로젝트를 위한 AI for Science 프로그램 운영과 AI 에이전트가 실험 장비를 안전하게 제어할 수 있도록 돕는 Model Hardware Standard 연구 등을 추진하며 과학 분야에서의 AI 활용 역량을 강화하고 있습니다.",
+    "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "fetchedAt": "2026-10-08T20:43:20.983Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "title": "Introducing the Anthropic Cyber Mission",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsIntroducing the Anthropic Cyber MissionOct 8, 2026Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the sys",
+    "aiSummary": "Anthropic은 사이버 보안 강화와 소프트웨어 시스템 보호를 목표로 하는 Anthropic Cyber Mission을 새롭게 발표했습니다. 이번 프로젝트는 Frontier 모델이 사이버 공격에 악용되는 것을 방지하고, 자원 부족으로 어려움을 겪는 보안 담당자들을 기술적, 재정적으로 지원하기 위해 기획되었습니다.\n\nAnthropic은 기존의 Project Glasswing을 확장하여 Cyber Verification Program을 출범하고, 더 많은 보안 전문가들이 자사의 고성능 모델을 활용할 수 있도록 지원합니다. 특히 운영 기술 분야인 전력망, 상수도, 교통망 등 주요 기반 시설의 보안은 패치가 어렵고 위험 부담이 크다는 점에 주목했습니다.\n\n이를 해결하기 위해 Critical Infrastructure Defense Program을 도입하여 Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, Rockwell Automation 등과 협력합니다. Anthropic은 이들 파트너에게 자사의 Claude 모델과 현장 엔지니어링 인력, 위협 분석 연구를 제공함으로써 산업 제어 시스템의 보안 수준을 높이는 데 집중할 계획입니다.",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "fetchedAt": "2026-10-08T20:43:20.983Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
