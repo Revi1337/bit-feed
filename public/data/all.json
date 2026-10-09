@@ -1,5 +1,68 @@
 [
   {
+    "id": "https://deno.com/blog/cloudflare",
+    "title": "Deno is joining Cloudflare",
+    "summary": "For years, we’ve been working to make building server software simpler. We\nquestioned how modules could be distributed, what security guarantees a\nJavaScript runtime could provide, what belonged in a ",
+    "aiSummary": "Deno 팀 전체가 Cloudflare에 합류합니다. 이번 결정은 그동안 Deno가 추구해 온 서버 소프트웨어 개발의 단순화라는 목표를 Cloudflare의 인프라와 결합하여 한층 더 발전시키기 위한 전략적 선택입니다. Deno 팀은 앞으로 Cloudflare의 Workers 및 Durable Objects 팀과 협력하여 분산 애플리케이션 구축을 위한 차세대 프로그래밍 모델을 개발하는 데 집중할 계획입니다.\n\n이번 합류에 따라 Deno 프로젝트 운영에는 큰 변화가 생깁니다. Deno 런타임은 향후 1년간 버그 수정 및 보안 업데이트를 지원한 뒤 개발이 종료되며, Deno Deploy 서비스는 6개월 후 운영을 중단할 예정입니다. Deno 팀은 기존 사용자를 위해 Cloudflare Workers로의 마이그레이션을 지원할 방침입니다.\n\n다만, 패키지 레지스트리인 JSR은 인프라를 Cloudflare로 이전하여 계속 운영될 예정입니다. 또한 rusty_v8에 대한 지원은 지속하며, 이를 Cloudflare의 workerd에 통합하는 작업을 추진할 것입니다.\n\n이번 통합의 핵심 배경에는 AI 에이전트 개발을 위한 효율적인 추상화 환경 마련이 있습니다. Durable Objects의 지속 가능한 상태 관리와 서버리스 실행 기능을 활용하여, 인프라 구축의 복잡성 없이 확장 가능한 에이전트를 개발할 수 있는 환경을 구축하는 것이 이들의 새로운 목표입니다.",
+    "url": "https://deno.com/blog/cloudflare",
+    "category": "백엔드",
+    "source": "Deno Blog",
+    "author": "Ryan Dahl",
+    "pubDate": "2026-10-09T14:26:35.982Z",
+    "fetchedAt": "2026-10-09T14:26:35.982Z",
+    "tags": [
+      "Deno",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+    "title": "Python 3.15.0 (final) is here!",
+    "summary": "A brand new Python here for you to enjoy!",
+    "aiSummary": "Python 3.15.0 최종 버전이 공식적으로 출시되었습니다. 이번 업데이트는 Python 프로그래밍 언어의 새로운 기능을 포함하고 있으며 사용자들에게 보다 개선된 환경을 제공합니다. 개발자들은 공식 사이트를 통해 새로운 버전을 내려받아 사용할 수 있습니다.",
+    "url": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "fetchedAt": "2026-10-09T14:26:35.982Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/10/9/this-week-in-rails",
+    "title": "Better ACL S3 control and more",
+    "summary": "Hi, Wojtek here. Let’s explore this week’s changes in the Rails codebase.\nStop setting the public-read ACL on S3 uploads for services configured with public: true\npublic: true service to such a bucket",
+    "aiSummary": "Rails의 최신 업데이트를 통해 S3 업로드 설정 시 public: true 서비스에서 자동으로 적용되던 public-read ACL을 선택적으로 해제할 수 있게 되었습니다. 이제 ACL 대신 버킷 정책을 통해 접근 권한을 관리할 수 있으며, 기존 동작이 필요한 경우 업로드 설정에서 acl 옵션을 명시적으로 지정하여 복구할 수 있습니다.\n\nPostgreSQL 어댑터에는 maintenance_database 옵션이 추가되었습니다. 이를 통해 DigitalOcean과 같이 기본 postgres 데이터베이스를 제공하지 않는 관리형 서비스 환경에서도 데이터베이스 연결 문제를 해결할 수 있습니다.\n\nActive Storage의 has_one_attached 및 has_many_attached 메서드에서 추가 옵션을 정상적으로 전달하도록 개선되었으며, ActiveSupport::EventReporter가 발생시키는 이벤트를 동결 처리하여 발생하던 오류를 수정했습니다.\n\n또한 Rails::StructuredEventSubscriber가 정상적으로 로드되지 않아 rails.deprecation 이벤트가 누락되던 문제를 해결하였습니다. 더불어 5.1 버전의 change_column 마이그레이션이 table_name_prefix 및 table_name_suffix 설정을 올바르게 반영하도록 수정되었고, 6.0 마이그레이션에서 SQLite의 references 타입이 명시적일 경우 해당 타입을 준수하도록 변경되었습니다. 이번 주에는 총 30명의 기여자가 Rails 코드베이스 개선에 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/10/9/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Wojtek",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "fetchedAt": "2026-10-09T14:26:35.982Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/2026-10-07-postgresql-jdbc-42714-security-update-for-multiple-cves-3399/",
+    "title": "2026-10-07: PostgreSQL JDBC 42.7.14 Security update for multiple CVE's\n",
+    "summary": "The PostgreSQL JDBC team has released a security release for 2 CVE's\nCVE-2026-107314  and the GitHub Security Advisory GHSA-rhp9-mr79-r74h\nand \nCVE-2026-107315 and the GitHub Security Advisory GHSA-f6",
+    "aiSummary": "PostgreSQL JDBC 팀이 2개의 보안 취약점을 해결하기 위한 업데이트 버전인 42.7.14를 공개하였습니다.\n\n이번 업데이트를 통해 해결된 보안 이슈는 CVE-2026-107314 및 GitHub Security Advisory GHSA-rhp9-mr79-r74h와 CVE-2026-107315 및 GitHub Security Advisory GHSA-f64h-wr5q-3qf3입니다. \n\n자세한 기술적 세부 사항과 수정 내역은 PostgreSQL JDBC 공식 릴리스 노트를 통해 확인할 수 있습니다. 시스템 보안을 위해 해당 버전을 사용하는 환경에서는 신속한 업데이트를 권장합니다.",
+    "url": "https://www.postgresql.org/about/news/2026-10-07-postgresql-jdbc-42714-security-update-for-multiple-cves-3399/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "fetchedAt": "2026-10-09T14:26:35.982Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.3.2",
     "title": "1.3.2",
     "summary": "Added /plugin, an interactive manager for the official Antigravity plugin marketplace: browse and install plugins that bundle skills, MCP servers, subagents, rules, and hooks, or install them from you",
