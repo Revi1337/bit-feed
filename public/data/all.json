@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+    "title": "GitHub Copilot weekly releases — October 5",
+    "summary": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku…\nThe post GitH",
+    "aiSummary": "GitHub Copilot의 10월 5일 주간 업데이트가 발표되었습니다. 이번 업데이트는 여러 계정과 환경에서 Copilot을 더욱 편리하게 사용할 수 있도록 개선하는 데 초점을 맞추었습니다.\n\n특히 사용자가 GitHub Copilot 내 에이전트가 접근할 수 있는 범위와 작업 방식을 더 세밀하게 제어할 수 있도록 기능이 강화되었습니다. 또한 Claude Haiku 모델이 새롭게 추가되는 등 더욱 폭넓은 기술 지원 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-09T22:58:23.000Z",
+    "fetchedAt": "2026-10-10T02:26:15.802Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
+    "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
+    "summary": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps",
+    "aiSummary": "GitHub가 코드 스캔의 핵심 엔진인 CodeQL의 새로운 버전 2.27.2를 발표했습니다.\n\n이번 업데이트의 주요 변화는 C++ 언어에 대한 정규 표현식 파서가 추가된 점입니다. 이 기능을 통해 정규 표현식과 관련된 보안 취약점을 더욱 정밀하게 분석할 수 있게 되었습니다.\n\n또한 C++, Go, Rust, JavaScript 등 여러 프로그래밍 언어 전반에 걸쳐 분석 성능과 정확도가 향상되었습니다. 이를 통해 개발자는 코드의 잠재적인 결함을 더욱 효율적으로 식별하고 대응할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-09T21:32:54.000Z",
+    "fetchedAt": "2026-10-10T02:26:15.802Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/modernize-unstructured-data-workloads-with-alteryx-and-bigquery/",
     "title": "Modernizing Unstructured Data Workflows: Alteryx Live Query meets Google Cloud BigQuery",
     "summary": "Alteryx One Live Query and Google Cloud BigQuery redefine how enterprises handle complex, unstructured data at scale by reducing reliance on disconnected tools, minimizing data movement, and enabling ",
