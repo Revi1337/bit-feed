@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "title": "New controls and chat improvements in Copilot for JetBrains",
+    "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…\nThe",
+    "aiSummary": "GitHub Copilot for JetBrains 업데이트를 통해 기본 모델 및 MCP 서버 설정에 대한 사용자 제어 권한이 강화되었습니다. \n\n이번 업데이트는 진단 기능을 개선하여 문제 해결 과정을 더 원활하게 만들었으며 채팅 탐색 기능과 계정 관리 항목을 최적화하였습니다. 전반적인 사용성 개선을 통해 개발자가 더욱 효율적으로 Copilot 환경을 관리할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-10T18:53:39.000Z",
+    "fetchedAt": "2026-10-10T19:22:23.653Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://bun.sh/blog/bun-v1.4.3",
     "title": "Bun v1.4.3",
     "summary": "To install BuncurlTo upgrade Bunbun check: a TypeScript type checker built into Bun#bun check is an incredibly fast TypeScript type checker that passes 100% of TypeScript 7.0.2's conformance test suit",
