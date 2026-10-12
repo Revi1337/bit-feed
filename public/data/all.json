@@ -1,5 +1,261 @@
 [
   {
+    "id": "https://supabase.com/blog/introducing-the-unified-supabase-net-sdk",
+    "title": "Introducing the unified Supabase .NET SDK",
+    "summary": "The Supabase .NET libraries move to a single repo, with a unified version number.",
+    "aiSummary": "Supabase는 기존에 분산되어 있던 여러 .NET 라이브러리를 하나의 저장소로 통합하고 버전 체계를 단일화하였습니다. 이번 통합을 통해 .NET 개발자들은 보다 일관된 환경에서 Supabase 관련 라이브러리를 관리하고 사용할 수 있게 되었습니다. 향후 프로젝트 관리 효율성과 유지보수의 편의성이 크게 향상될 것으로 기대됩니다.",
+    "url": "https://supabase.com/blog/introducing-the-unified-supabase-net-sdk",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-12T16:50:18.349Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+    "title": "Introducing TimesFM 3.0 with multivariate time-series forecasting in BigQuery",
+    "summary": "Overview\nSince introducing zero-shot time-series forecasting in BigQuery with AI.FORECAST — initially powered by TimesFM 2.0 and later upgraded to TimesFM 2.5 — you have been able to generate forecast",
+    "aiSummary": "Google Research에서 개발한 3억 3천만 파라미터 규모의 시계열 예측 파운데이션 모델인 TimesFM 3.0이 BigQuery에 도입되었습니다. 기존 모델들이 단일 변수 예측에만 국한되었던 것과 달리, TimesFM 3.0은 다변량 시계열 예측을 지원하여 복잡한 데이터 간의 상관관계를 분석하고 더 높은 예측 정확도를 제공합니다.\n\n이번 업데이트를 통해 사용자는 BigQuery SQL 내에서 별도의 모델 학습이나 인프라 관리 없이도 다변량 예측을 수행할 수 있습니다. 특히 상관관계가 있는 여러 타겟을 동시에 예측하거나, 과거에만 관찰되는 변수 및 미래 예측 기간에 알려진 외부 요인을 입력값으로 활용할 수 있어 실무적인 예측 분석에 유용합니다.\n\nTimesFM 3.0은 GIFT-Eval, FEV-Bench, TIME 등 주요 시계열 벤치마크에서 1위를 기록하며 성능을 입증했습니다. 기존의 AI.FORECAST 및 AI.DETECT_ANOMALIES 워크플로우에서 모델 설정을 TimesFM 3.0으로 변경하는 것만으로 즉시 성능 향상을 체감할 수 있습니다.\n\n또한 BigQuery Conversational Analytics를 활용하면 자연어 질문만으로도 복잡한 다변량 예측 쿼리를 생성하고 실행할 수 있습니다. 이를 통해 사용자는 데이터 이동이나 별도의 엔지니어링 없이 엔터프라이즈급 예측 분석을 간편하게 수행할 수 있게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Haiyang Qi"
+      ],
+      "title": [
+        "Software Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-12T16:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
+    "title": "Trusted Data Apps for the Agentic Data Cloud, powered by Looker",
+    "summary": "As a business intelligence user, this probably sounds familiar: Most dashboards only provide you with a standardized canvas and a fixed library of charts, and the “analysis” consists of a CSV export t",
+    "aiSummary": "Google은 기존 대시보드의 한계를 극복하고 기업의 데이터 분석을 실제 업무 수행으로 확장하기 위한 Looker Data Apps를 프리뷰로 공개합니다. 그동안 AI가 생성한 프로토타입은 보안과 거버넌스 문제로 실제 운영 환경에 적용하기 어려웠으나, Looker Data Apps는 Looker의 기존 시맨틱 계층과 보안 프레임워크를 그대로 활용하여 신뢰할 수 있는 운영 수준의 애플리케이션을 구축하게 해줍니다.\n\n데이터 앱은 단순히 정보를 보여주는 대시보드와 달리 사용자가 매개변수를 입력하고 시뮬레이션을 수행하며 Salesforce나 Jira와 같은 외부 도구로 이벤트를 전송하는 등 능동적인 비즈니스 실행을 지원합니다. 모든 기능은 LookML 시맨틱 계층에 의해 관리되므로 데이터의 정확성과 일관성이 보장되며 환각 현상을 방지할 수 있습니다.\n\n이 플랫폼은 기업 규모의 요구사항을 충족하도록 설계되었습니다. 별도의 코딩 없이 에이전트를 통해 React 기반 애플리케이션을 즉시 배포할 수 있으며 Claude Code나 Antigravity CLI와 같은 개발 도구를 사용하여 맞춤형 인터페이스를 생성할 수도 있습니다. 또한 런타임 토큰 비용이 발생하지 않고 기존 대시보드 임베딩 방식과 동일한 워크플로우로 배포가 가능하여 관리 효율성이 높습니다. \n\n결과적으로 Looker Data Apps는 분석과 실행 사이의 간극을 좁혀 기업이 보안 및 규정 준수 장벽 없이 수 분 내에 안전하고 즉각적인 데이터 기반 운영 환경을 구축할 수 있도록 돕습니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ani Jain"
+      ],
+      "title": [
+        "Group Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-12T16:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition/",
+    "title": "10 Years of the SRE book: Announcing the second edition of \"Site Reliability Engineering”",
+    "summary": "A decade ago, Google released Site Reliability Engineering: How Google Runs Production Systems with O'Reilly Media. What began as a collection of our practices for managing large-scale infrastructure ",
+    "aiSummary": "Google이 자사의 SRE 철학과 실무를 담은 저서 Site Reliability Engineering의 출간 10주년을 맞아 전면 개정된 제2판을 발표합니다. 지난 10년간 AI, 마이크로서비스, 멀티 클라우드, 서버리스 등 급변한 컴퓨팅 환경에 발맞춰 시스템 운영의 복잡성을 해결하기 위한 새로운 지침을 제공하는 것이 목적입니다.\n\n제2판은 과거의 수동적인 업무 방식에서 벗어나 자동화된 플랫폼 중심의 능력으로 진화한 SRE 실무를 다룹니다. SLO와 에러 버짓은 사용자 중심의 다층적 구조로 발전했고, 모니터링은 OpenTelemetry와 분산 추적을 활용한 현대적 관측성으로 변화했습니다. 또한 인프라 운영은 선언적 Infrastructure as Code와 내부 개발자 플랫폼을 활용한 자가 치유 시스템으로 전환되었으며, 클라우드 FinOps와 연계한 리소스 최적화가 중요해졌습니다.\n\n특히 이번 개정판은 AI 시대의 SRE를 집중적으로 조명합니다. LLM과 파운데이션 모델을 운영하기 위한 대규모 GPU 및 TPU 클러스터 관리, 비결정적 출력값 모니터링 등 AI 인프라의 신뢰성을 확보하는 방법론을 제시합니다. 동시에 사고 대응과 사후 분석, 자연어 기반의 텔레메트리 분석 등 실무자의 효율성을 극대화하기 위해 AI를 활용하는 방안도 상세히 다룹니다.\n\n기술과 아키텍처는 끊임없이 진화하지만, SRE의 핵심 원칙과 신뢰성 중심의 문화가 갖는 중요성은 여전히 유효합니다. 이번 제2판은 시스템 엔지니어링의 인적 요소와 조직적 모델을 재강조하며, 새로운 생산 시스템 시대를 준비하는 실무자와 관리자들에게 필수적인 로드맵 역할을 합니다. 해당 도서는 O'Reilly를 통해 물리적 도서와 디지털 형식으로 제공됩니다.",
+    "url": "https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Betsy Beyer"
+      ],
+      "title": [
+        "SRE Program Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-12T16:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/",
+    "title": "Agentic data science with the Data Agent Kit",
+    "summary": "Imagine your compliance team notices that payments are taking longer than expected to clear. They suspect fraud, and you’re the data scientist helping figure out which transactions to investigate firs",
+    "aiSummary": "Data Agent Kit는 데이터 과학자가 IDE 환경을 벗어나지 않고도 Google Cloud 데이터 작업을 수행할 수 있도록 지원하는 도구입니다. 이 도구는 MCP 서버와 에이전트 스킬을 통해 Visual Studio Code 기반의 IDE와 Google Cloud 서비스를 직접 연결합니다.\n\n사용자는 자연어 프롬프트를 통해 데이터 수집, 정제, 모델 학습, 추론 과정을 자동화할 수 있습니다. 예를 들어 Spark를 사용하여 BigQuery로 로그를 로드하거나, dbt 프로젝트를 생성하여 데이터를 정제하고 변환하는 로직을 에이전트에게 지시할 수 있습니다.\n\n또한 Random Forest 분류 모델을 구축하고 학습된 모델을 사용하여 새로운 데이터를 추론하는 워크플로우를 구성하는 것이 가능합니다. 이렇게 생성된 결과값은 Spanner와 같은 데이터베이스의 검토 큐로 전송되어 의심스러운 거래를 식별하는 데 활용됩니다.\n\n마지막으로 Data Agent Kit는 작성된 워크플로우를 Managed Service for Apache Airflow 기반의 파이프라인으로 전환합니다. 이를 통해 복잡한 데이터 처리 과정을 매일 자동으로 실행할 수 있으며, IDE 내에서 생성된 DAG를 시각적으로 확인하고 실행 상태를 관리할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jeff Nelson"
+      ],
+      "title": [
+        "Developer Relations Engineer, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-12T16:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=94794",
+    "title": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
+    "summary": "CVE-2026-105445: Docker Hub account conversion could re-assign personal access tokens to a new owner. Read what happened, who was affected, and the fix.",
+    "aiSummary": "Docker Hub에서 개인 계정을 조직 계정으로 전환하는 과정에서 보안 취약점인 CVE-2026-105445가 발견되었습니다.\n\n해당 결함은 계정 유형을 변경할 때 기존에 생성된 Personal Access Tokens가 새로운 소유주에게 재할당될 수 있는 위험을 내포하고 있습니다. 이는 계정 권한 체계가 전환되는 동안 토큰의 관리 주체가 의도치 않게 변경되면서 발생한 문제입니다.\n\nDocker는 이번 사안과 관련하여 구체적인 영향 범위와 피해 대상, 그리고 해결 방법을 공지하였습니다. 해당 기능을 사용한 적이 있는 사용자는 보안을 위해 관련 권고 사항을 확인하고 필요한 조치를 취해야 합니다.",
+    "url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jin Kim",
+    "pubDate": "2026-10-12T16:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.1.3",
+    "title": "v12.1.3",
+    "summary": "v12.1.3 (2026-10-12)\nBug fixes\ncore, microservices\n\n#18111 fix(core,microservices): flush buffered logs when initialization fails (@thekhegay)\n#17993 fix(core,microservices): run transient global enha",
+    "aiSummary": "v12.1.3 버전은 전반적인 안정성 향상을 위해 방대한 양의 버그 수정과 기능 개선을 포함하고 있습니다.\n\ncore 패키지에서는 SSE 스트림 관리, 초기화 실패 시의 종료 시퀀스 처리, 요청 범위의 전역 강화기 동작 수정 등 시스템 안정성과 관련된 다수의 오류가 해결되었습니다.\n\nmicroservices 패키지는 NATS, Redis, Kafka, gRPC, MQTT 등 다양한 메시징 및 프로토콜 연결과 관련된 예외 처리, 연결 관리, 직렬화 오류 방지 등이 대폭 강화되었습니다.\n\nplatform-express 및 platform-fastify를 포함한 웹 어댑터 계층에서는 종료 훅 처리, 미들웨어 실행 경로 보정, 파일 스트림 관리 등 라우팅과 생명주기 관리에 대한 개선이 이루어졌습니다.\n\nwebsockets 관련 기능에서는 게이트웨이 라이프사이클 훅 에러 처리와 예외 필터가 보강되었으며, common 패키지에서는 데코레이터와 파이프 유효성 검사 로직이 개선되었습니다.\n\n기능적으로는 express와 fastify에 파일 업로드 시 필드 중첩 및 배열 인덱스 제한 기능이 추가되었으며, 주요 의존성 패키지들의 버전 업데이트가 함께 진행되었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.1.3",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-10-12T11:29:08.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=54581",
+    "title": "Meet MySQL 26.7: A New Versioning Era Begins",
+    "summary": "Over the period, we have witnessed how MySQL versioning evolved from 8.0 to 9.7 LTS, and now it has entered a new era: a calendar-based model. Let’s first take a brief look at how MySQL versioning has",
+    "aiSummary": "MySQL은 기존의 버전 관리 체계를 개편하여 연도와 월을 기반으로 하는 새로운 캘린더 기반의 버전 모델을 도입합니다.\n\nMySQL 8.0에서 9.7 LTS로 이어지던 전통적인 단일 트랙 릴리스 모델은 이제 역사 속으로 사라지고, 새로운 26.7 버전부터는 날짜 정보를 포함한 버전 표기 체계가 적용됩니다. 이번 변화는 사용자들에게 릴리스 시점을 더욱 직관적으로 전달하고 효율적인 업데이트 관리를 지원하기 위한 조치입니다. 새로운 버전 명명 규칙은 향후 MySQL 생태계의 예측 가능성을 높이는 데 기여할 것으로 전망됩니다.",
+    "url": "https://www.percona.com/blog/meet-mysql-26-7-a-new-versioning-era-begins/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Anil Joshi",
+    "pubDate": "2026-10-12T04:05:49.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/12/devoxxbelgium-structured-concurrency/",
+    "title": "Structured Concurrency Looms",
+    "summary": "Structured Concurrency is the next major feature from Project Loom. Following the introduction of Virtual Threads in JDK 21, which dramatically reduced the effort of writing, maintaining, and observin",
+    "aiSummary": "JDK 21에서 도입된 Virtual Threads에 이어 Project Loom의 차기 핵심 기능으로 Structured Concurrency가 주목받고 있습니다. 이 기능은 관련된 작업 그룹을 단일 작업 단위로 처리함으로써 동시성 프로그래밍의 추상화 수준을 높이고 코드의 이해도와 유지보수성을 향상합니다.\n\nStructured Concurrency는 여러 차례의 프리뷰 과정을 거치며 실제 환경에서의 피드백과 경험을 바탕으로 발전해 왔습니다. 작은 API 표면적을 가지고 있음에도 불구하고 복잡한 동시성 패턴을 효율적으로 구현할 수 있다는 장점이 있습니다.\n\n개발자들은 이 기능을 통해 취소와 오류 처리 및 관측 가능성을 간소화할 수 있습니다. 최근 Devoxx Belgium 2026 발표에서는 Structured Concurrency의 설계 철학뿐만 아니라 실무 활용법과 발전 과정에서의 교훈을 공유하였습니다. 또한 미래의 저수준 Structured Concurrency API의 토대가 될 새로운 하위 수준 API의 초기 설계 방향도 함께 다루고 있습니다.",
+    "url": "https://inside.java/2026/10/12/devoxxbelgium-structured-concurrency/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Alan Bateman",
+    "pubDate": "2026-10-12T00:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.ruby-lang.org/en/news/2026/10/12/ruby-4-1-0-preview1-released/",
+    "title": "Ruby 4.1.0-preview1 Released",
+    "summary": "We are pleased to announce the release of Ruby 4.1.0-preview1.\nRuby 4.0 introduces Ractor local GC, Windows support of YJIT, autoload_relative,\nand adds many improvements.\nRactor improvements\nA lot of",
+    "aiSummary": "Ruby 4.1.0-preview1이 새롭게 발표되었습니다. 이번 버전은 Ractor의 안정성과 성능을 대폭 강화하고 다양한 언어적 개선 및 표준 라이브러리 업데이트를 포함하고 있습니다.\n\nRactor의 핵심 변화로 각 Ractor가 독립적으로 가비지 컬렉션을 수행하는 Ractor 로컬 GC가 도입되었습니다. 이를 통해 할당 작업이 많은 프로그램의 확장성이 향상되었으며, GC.start(global: false)를 통해 특정 Ractor에서 로컬 GC를 강제로 실행할 수 있게 되었습니다. 또한 Ractor 간의 격리성을 강화하여 클래스나 모듈 수정 권한을 생성한 Ractor로 제한하는 등 안정적인 병렬 처리를 위한 제약 사항이 추가되었습니다.\n\n언어 및 코어 클래스 측면에서는 autoload_relative가 추가되어 파일 경로를 상대적으로 더 쉽게 처리할 수 있게 되었고, Integer#bit_count, Range#clamp, Module#descendants 등 생산성을 높이는 메서드들이 다수 도입되었습니다. 반면, ruby2_keywords 관련 메서드나 특정 alias 동작 등 일부 기능은 더 이상 사용되지 않도록 변경되어 향후 버전에서 제거될 예정입니다.\n\n표준 라이브러리에서는 인터프리터 자체에 내장된 파서인 Ruby::Prism이 추가되었고, 다수의 내장 젬들이 최신 버전으로 업데이트되었습니다. 또한, 사용량이 저조하거나 지원이 종료된 운영체제 및 오래된 플랫폼에 대한 지원 코드를 삭제하여 코드베이스를 정리하였습니다.\n\nWindows 환경에서는 긴 경로 처리 기능이 개선되었으며, MSVC로 Ruby를 빌드하기 위한 최소 요구 사양이 Visual Studio 2017 버전 15.8 이상 및 Windows 10 버전 1809 이상으로 상향되었습니다. macOS의 경우 PowerPC 지원이 종료되는 등 플랫폼별 지원 정책에도 변화가 있었습니다.",
+    "url": "https://www.ruby-lang.org/en/news/2026/10/12/ruby-4-1-0-preview1-released/",
+    "category": "프로그래밍 언어",
+    "source": "Ruby News",
+    "author": "Ruby News",
+    "pubDate": "2026-10-12T00:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "Ruby"
+    ]
+  },
+  {
+    "id": "/blog/prisma-orm-8-closes-330-most-requested-issues",
+    "title": "We closed 330 of your most-requested issues with Prisma ORM 8",
+    "summary": "Prisma ORM 8 resolves 330 open GitHub issues carrying about 8,922 upvotes, the oldest from 2019: typed JSON, polymorphism, partial unique indexes, PostGIS, pgvector, TypeScript migrations and more.",
+    "aiSummary": "Prisma ORM 8이 출시되면서 GitHub 내 사용자 요청이 가장 많았던 330개의 이슈가 해결되었습니다. 이번 업데이트는 2019년부터 누적된 8,922개의 추천을 받은 핵심 개선 사항들을 대거 포함하고 있습니다.\n\n주요 해결 사항으로는 typed JSON 지원을 비롯하여 polymorphism, partial unique indexes, PostGIS, pgvector, TypeScript migrations 등이 포함되어 있습니다. 그동안 커뮤니티에서 지속적으로 요구해온 기능들을 반영하여 개발 생산성과 데이터베이스 연동 성능을 대폭 개선하였습니다.",
+    "url": "https://www.prisma.io/blog/prisma-orm-8-closes-330-most-requested-issues",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-10-12T00:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynote/",
+    "title": "Java - The Year of the Runtime!",
+    "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to t",
+    "aiSummary": "AI 코딩 에이전트의 발전으로 언어 문법의 중요성이 낮아짐에 따라 런타임 성능과 운영 효율성이 핵심 가치로 부상하고 있습니다.\n\nJava는 이러한 변화에 대응하기 위해 JVM과 표준 라이브러리를 지속적으로 개선하고 있습니다. 특히 최신 JDK는 프로그래밍 모델의 일관성을 유지하면서도 성능, 관측 가능성, 가비지 컬렉션, 사용성을 꾸준히 향상시키고 있습니다.\n\n앞으로 Java의 미래를 이끌어갈 핵심 혁신으로 Project Valhalla, Project Leyden, Project Lilliput이 진행되고 있습니다. 이러한 기술적 진보는 Java가 현대의 개발 환경 변화 속에서도 강력한 경쟁력을 유지하도록 지원합니다.",
+    "url": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynote/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ron Pressler",
+    "pubDate": "2026-10-11T00:00:00.000Z",
+    "fetchedAt": "2026-10-12T16:50:18.349Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynite/",
     "title": "Java - The Year of the Runtime!",
     "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to t",
