@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "title": "Client telemetry user attribution and configurable capture",
+    "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.i",
+    "aiSummary": "Enterprise 관리자는 이제 프롬프트나 응답, 도구 콘텐츠와 같은 민감한 정보의 수집 없이도 GitHub Copilot의 활동을 특정 사용자와 연결할 수 있는 기능을 사용할 수 있습니다.\n\n이번에 추가된 telemetry.capture.identity 설정을 통해 관리자는 사용자 ID 정보를 텔레메트리 데이터에 포함하여 관리 환경에서의 활동 추적을 더욱 정밀하게 수행할 수 있습니다. 이를 통해 보안 및 개인정보 보호 정책을 준수하면서도 조직 내 GitHub Copilot의 사용 현황을 투명하게 파악하는 것이 가능해졌습니다. 해당 기능은 기업용 관리 설정을 통해 필요한 수준으로 구성할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-12T22:38:00.000Z",
+    "fetchedAt": "2026-10-13T03:40:58.752Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "4158873d220345e053e781fb51ca252fff001d13",
+    "title": "Announcing AWS Lambda Web Functions",
+    "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distrib",
+    "aiSummary": "AWS Lambda Web Functions는 HTTP 프레임워크를 네이티브 방식으로 실행할 수 있도록 설계된 서버리스 컴퓨팅 기본 요소입니다. 이 서비스는 다중 동시 실행 기능과 자동화된 글로벌 배포를 통해 빠르고 일관된 응답 속도를 제공합니다. 개발자는 이를 활용하여 서버 관리 부담 없이 웹 애플리케이션을 효율적으로 구축하고 운영할 수 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Micah Walter",
+    "pubDate": "2026-10-12T22:34:47.000Z",
+    "fetchedAt": "2026-10-13T03:40:58.752Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://supabase.com/blog/introducing-the-unified-supabase-net-sdk",
     "title": "Introducing the unified Supabase .NET SDK",
     "summary": "The Supabase .NET libraries move to a single repo, with a unified version number.",
@@ -14,6 +46,22 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-09-push-attribution-for-commits-in-limited-public-preview",
+    "title": "Push attribution for commits in limited public preview",
+    "summary": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author…\nThe post",
+    "aiSummary": "GitHub는 각 커밋을 푸시한 인증된 사용자를 영구적으로 기록하고 이를 UI와 API를 통해 함께 노출하는 기능을 제한적 공개 프리뷰로 제공합니다. 기존의 커밋 작성자 및 커미터 필드와 더불어 푸시한 사용자의 신원을 명확히 확인함으로써 코드 기여 과정의 추적성과 책임 소재를 한층 강화합니다. 해당 기능은 프로젝트 관리자가 변경 사항의 출처를 보다 정확하게 파악하고 협업 환경에서의 투명성을 높이는 데 기여할 것으로 기대됩니다.",
+    "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-12T16:30:11.000Z",
+    "fetchedAt": "2026-10-13T03:40:58.752Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -158,6 +206,22 @@
     "tags": [
       "Docker",
       "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-09-anonymous-organization-level-registries-for-dependabot",
+    "title": "Anonymous organization-level registries for Dependabot",
+    "summary": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package m",
+    "aiSummary": "GitHub의 Dependabot에서 조직 수준의 비공개 레지스트리를 설정할 때 익명 인증 방식을 새롭게 선택할 수 있게 되었습니다.\n\n내부 패키지 미러와 같이 별도의 사용자 인증 정보 없이도 접근이 가능한 레지스트리를 사용할 경우, 이제 인증 절차를 거치지 않는 Anonymous 방식을 지정하여 활용할 수 있습니다. 이를 통해 보안 자격 증명을 요구하지 않는 내부 서비스와의 연동 과정이 한층 간편해집니다.",
+    "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-12T14:04:16.000Z",
+    "fetchedAt": "2026-10-13T03:40:58.752Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -1630,167 +1694,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/remote-control-local-agents",
-    "title": "Remote control for local agents",
-    "summary": "Oct 6, 2026 · ChangelogRemote control for local agentsYou can now see and reply to the local agents running on your computer from the Cursor iOS app.\n#Get started\nRemote Control is on by default for e",
-    "aiSummary": "Cursor iOS 앱을 통해 사용자의 컴퓨터에서 실행 중인 local agents를 원격으로 제어하고 상태를 확인할 수 있는 기능이 업데이트되었습니다.\n\n해당 기능은 별도의 클라우드 서버를 거치지 않고 사용자 PC에서 직접 에이전트를 구동하며, 앱은 실행 중인 에이전트에 연결하여 메시지를 보내거나 작업을 모니터링하는 인터페이스를 제공합니다.\n\n사용을 위해서는 Cursor iOS 앱을 설치하고 계정 로그인 후 데스크톱 앱에서 페어링 요청을 승인해야 합니다. 원활한 원격 제어를 위해서는 PC가 항상 켜져 있고 네트워크에 연결된 상태여야 하며, 설정 메뉴를 통해 PC 절전 모드를 방지하는 옵션을 활성화할 수 있습니다.\n\n본 기능은 기본적으로 활성화되어 있으나 Enterprise 조직의 경우 보안 설정을 통해 관리자가 수동으로 제어할 수 있습니다. 현재 해당 서비스는 모든 사용자에게 배포되어 바로 이용이 가능합니다.",
-    "url": "https://www.cursor.com/changelog/remote-control-local-agents",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-07T02:29:17.348Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-security-openai-gpt-cyber-models-public-sector",
-    "title": "Elastic Security and OpenAI GPT Cyber models: What frontier cyber defense means for the public sector",
-    "summary": "Elastic responded to OpenAI’s call for stronger, faster cyber defense against AI-enabled threats by joining the OpenAI Daybreak Defense Network and announcing plans to integrate OpenAI GPT Cyber model",
-    "aiSummary": "Elastic은 AI 기반 사이버 위협에 대응하기 위해 OpenAI의 Daybreak Defense Network에 합류했습니다. 또한 Elastic Security 솔루션에 OpenAI의 GPT Cyber 모델을 직접 통합할 계획임을 발표했습니다. 이번 협력은 공공 부문에서 요구하는 더욱 강력하고 신속한 사이버 방어 체계를 구축하기 위한 전략적 행보입니다.",
-    "url": "https://www.elastic.co/blog/elastic-security-openai-gpt-cyber-models-public-sector",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "John Harmon",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-9-5-5-released",
-    "title": "Elastic Stack 9.5.5 released",
-    "summary": "Version 9.5.5 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.5 over the previous version 9.5.4.\nFor details of the issues that have been fix",
-    "aiSummary": "Elastic Stack 9.5.5 버전이 오늘 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.4에서 발생했던 문제들을 해결한 최신 버전이므로 사용자들에게 업그레이드를 권장합니다. 각 제품별로 개선된 사항과 수정된 문제에 대한 구체적인 내용은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-9-5-5-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Vincent Deuschle",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-9-4-8-released",
-    "title": "Elastic Stack 9.4.8 released",
-    "summary": "Version 9.4.8 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.8 over the previous version 9.4.7.\nFor details of the issues that have been fix",
-    "aiSummary": "Elastic Stack의 최신 버전인 9.4.8이 공개되었습니다.\n\n이번 업데이트는 이전 버전인 9.4.7에서 발견된 문제들을 해결하였으며 사용자들에게 최신 버전으로의 업그레이드를 권장합니다.\n\n각 제품별 변경 사항과 수정된 문제들에 관한 상세한 내용은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-9-4-8-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Vincent Deuschle",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-stack-8-19-23-released",
-    "title": "Elastic Stack 8.19.23 released",
-    "summary": "Version 8.19.23 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.23 over the previous version 8.19.22.\nFor details of the issues that have be",
-    "aiSummary": "Elastic Stack의 최신 버전인 8.19.23이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 8.19.22에서 발견된 문제들을 해결하고 개선 사항을 반영하였습니다. 안정적인 서비스 운영을 위해 최신 버전으로의 업그레이드를 권장합니다. 수정된 세부 사항과 제품별 변경 내용에 대한 자세한 정보는 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-stack-8-19-23-released",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Vincent Deuschle",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/cyber-verification-program",
-    "title": "Expanding the Cyber Verification Program",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsExpanding the Cyber Verification ProgramOct 6, 2026We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes",
-    "aiSummary": "Anthropic이 보안 전문가를 대상으로 사이버 보안 역량을 강화하고 모델의 보안 제한을 완화한 새로운 Cyber Verification Program을 공개했습니다. 이번 프로그램은 보안 팀이 각자의 업무 환경에 맞는 모델 접근 권한을 신청할 수 있도록 세 가지 계층으로 재편되었습니다.\n\n기존에는 보안 위협을 방지하기 위해 Claude Opus 5.5나 Claude Sonnet 5.5 등 일반 모델에 엄격한 사이버 안전장치를 적용해 왔으나, 이번 통합 프로그램을 통해 검증된 보안 전문가들에게는 더 유연한 모델 활용이 가능해졌습니다. 사용자들은 기존의 Project Glasswing과 CVP를 하나로 합친 이번 프로그램을 통해 Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1 등 최신 모델을 업무 목적에 따라 선택할 수 있습니다.\n\n접근 권한은 크게 두 가지 계층으로 나뉩니다. 먼저 Defense Access는 보안 운영 센터, 사고 대응, 악성코드 역공학, 취약점 분석 등 방어적 보안 업무를 수행하는 조직과 개인을 대상으로 합니다. 여기에는 기업 및 기관의 보안 팀, 비영리 단체, 오픈소스 유지보수 담당자, 공인된 보안 연구원 등이 포함됩니다.\n\n다음으로 Red Team Access는 방어 업무에 더해 공인된 모의 해킹과 레드 팀 활동을 수행하는 전문가들을 위한 단계입니다. 사내 레드 팀이나 정부 기관의 레드 팀, 전문 보안 컨설팅 기업 등이 해당하며, 권한이 부여된 시스템에 대해서만 공격적인 테스트를 진행할 수 있습니다. Anthropic은 이번 변화를 통해 보안 전문가들이 시스템을 보호하는 데 필요한 강력한 도구를 효과적으로 활용할 수 있도록 지원할 방침입니다.",
-    "url": "https://www.anthropic.com/news/cyber-verification-program",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/06/jep542-target-jdk28/",
-    "title": "JEP targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
-    "summary": "The following JEP is targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/542.",
-    "aiSummary": "OpenJDK는 JDK 28의 새로운 기능으로 JEP 542인 PEM Encodings of Cryptographic Objects를 선정하였습니다. \n\n이번 업데이트는 암호화 객체에 대해 널리 사용되는 PEM 인코딩을 지원하기 위한 것입니다. 이를 통해 개발자는 암호화 관련 데이터를 더욱 표준화된 방식으로 다룰 수 있게 됩니다. 상세한 기술 명세는 OpenJDK 공식 홈페이지의 JEP 542 문서를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/06/jep542-target-jdk28/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Anthony Scarpino",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T14:17:15.103Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
-    "title": "This Week in Spring - October 6th, 2026 ",
-    "summary": "Hi, Spring fans! It's another exciting week in the wonderful community, and this week I'm writing from awesome Antwerp, Belgium, site of the legendary Devoxx Belgium show. I've been coming here for mo",
-    "aiSummary": "벨기에 Antwerp에서 개최된 Devoxx Belgium 행사 소식과 함께 Spring 생태계의 주요 업데이트가 발표되었습니다. 이번 주에는 Spring Security 및 Spring Boot 4.x 버전에 대한 논의가 활발히 이루어지고 있습니다.\n\nChristian Tsolov가 Spring AI를 활용해 모듈형 RAG 솔루션을 구축하는 방법을 소개하며 TypeSafe Jev와의 연동 기술을 다루었습니다. 이와 관련하여 코드의 지식 그래프를 시각화할 수 있는 오픈소스 프로젝트인 OneLens가 새롭게 주목받고 있습니다.\n\nSpring Office Hours 팟캐스트에서는 소프트웨어의 미래에 관한 심도 있는 대화가 진행되었으며 A Bootiful Podcast에서는 Andres Almiray가 출연하여 JReleaser의 활용법을 공유하였습니다.\n\n개발자들을 위한 교육 콘텐츠도 다수 공개되었습니다. Spring Boot 모범 사례를 담은 영상부터 Spring AI 마스터 클래스, 그리고 Spring AI와 RAG 및 AI agent를 포괄하는 종합 Java Spring Boot 강의가 공유되어 개발 역량 강화를 돕고 있습니다.",
-    "url": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "fetchedAt": "2026-10-06T14:17:15.103Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-    "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
-    "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program.",
-    "aiSummary": "GitHub의 Secret scanning 기능이 Lovable Labs, Pydantic Services Inc., Supabase 등 주요 서비스에서 생성되는 새로운 시크릿 유형을 탐지할 수 있도록 지원 범위를 확대하였습니다.\n\n이번 업데이트를 통해 개발자들은 해당 서비스와 관련된 민감 정보를 더욱 안전하게 관리할 수 있게 되었습니다. 또한 새로운 파트너가 Secret scanning 파트너십 프로그램에 합류함으로써 코드 저장소 내 보안 위협을 사전에 차단하는 기능이 한층 강화되었습니다.",
-    "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-05T22:42:14.000Z",
-    "fetchedAt": "2026-10-06T03:08:12.633Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
-    "title": "Scaling Kubernetes Workloads with Node Swap",
-    "summary": "Memory is often the first hard limit a Kubernetes cluster hits.\nNodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse.\nThese workloads demand ",
-    "aiSummary": "Kubernetes 환경에서 메모리는 CPU보다 먼저 고갈되는 주요 자원이며, 특히 최근 늘어나는 AI 에이전트 워크로드는 초기 구동과 유휴 상태 유지에 많은 메모리를 점유하여 클러스터의 효율성을 저해합니다. 이러한 문제를 해결하기 위해 Kubernetes v1.34 버전부터 정식 지원되는 Node Swap 기능이 효과적인 대안으로 주목받고 있습니다.\n\n과거에는 cgroup v1의 메모리 산정 방식 문제와 느린 하드디스크 속도로 인해 Swap 사용이 권장되지 않았으나, 현재는 cgroup v2 기반의 독립적인 스왑 추적과 고속 NVMe Local SSD 활용을 통해 이러한 단점들이 크게 개선되었습니다.\n\n실제 벤치마크 결과에 따르면 Local SSD를 활용한 Swap 도입 시 상당한 밀도 향상 효과가 확인되었습니다. CI/CD 커널 빌드 환경에서는 메모리 제한을 50% 줄이면서도 성능 저하 없이 실행이 가능했습니다. 또한 Headless Chrome과 같은 브라우저 샌드박스 환경에서는 gVisor 사용 시 기존 대비 100%, 파이썬 샌드박스 환경에서는 최대 3배까지의 컨테이너 밀도 향상을 달성했습니다. \n\n이러한 밀도 향상에도 불구하고 발생하는 지연 시간은 대부분 스왑 I/O가 아닌 CPU 자원 경쟁으로 인한 것이며, 적절한 워크로드 관리를 통해 이를 조절할 수 있습니다. \n\nNode Swap을 도입하기 위해서는 kubelet 설정에서 failSwapOn을 false로, memorySwap.swapBehavior를 LimitedSwap으로 구성해야 합니다. 또한 클라우드 제공업체의 고속 Local SSD를 결합하고 컨테이너의 메모리 요청량보다 제한치를 높게 설정하는 Burstable QoS 방식을 활용하면, 유휴 메모리를 효율적으로 관리하여 동일한 인프라 내에서 더 많은 워크로드를 운영할 수 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-10-05T18:00:00.000Z",
-    "fetchedAt": "2026-10-06T03:08:12.633Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
     ]
   }
 ]
