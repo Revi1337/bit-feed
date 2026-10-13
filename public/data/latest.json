@@ -1,5 +1,315 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=blog&p=746459",
+    "title": "What We Heard at AGNTCon Europe",
+    "summary": "The night before AGNTCon + MCPCon Europe, we hosted the Agentic AI Foundation community at the JetBrains office in Amsterdam. The event filled up fast and went to a waitlist, which is not what I expec",
+    "aiSummary": "암스테르담 JetBrains 사무실에서 개최된 AGNTCon + MCPCon Europe 사전 행사에는 Agentic AI Foundation 커뮤니티가 모여 개방형 기반 모델의 운영 방식에 관한 깊이 있는 논의를 진행했습니다.\n\n해당 행사는 수요일 저녁임에도 불구하고 조기 마감되어 대기자 명단이 발생할 만큼 높은 관심을 끌었습니다. Ibrahim Malik의 개회사를 시작으로 진행된 패널 토론에서는 AI 에이전트의 발전과 인프라 구축을 위한 협력 방안에 대해 심도 있게 다루었습니다.\n\n이번 모임은 에이전트 기반 AI 생태계가 기술 커뮤니티 내에서 얼마나 빠르게 주목받고 있는지 실감할 수 있는 계기가 되었습니다. 특히 MCP를 활용한 개방형 생태계 확장과 실무적인 적용 사례에 대한 업계 관계자들의 높은 열망을 확인할 수 있었습니다.",
+    "url": "https://blog.jetbrains.com/blog/2026/10/13/what-we-heard-at-agntcon-europe/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Katherine Druckman",
+    "pubDate": "2026-10-13T19:59:39.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "summary": "Gemini 4 Argon is a step forward in what models can do — especially when it comes to deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science.",
+    "aiSummary": "Google은 복잡한 실제 업무 처리에 최적화된 차세대 모델 Gemini 4 Argon을 공개하고 이를 책임감 있고 안전하게 배포하기 위한 전략을 발표했습니다. 이 모델은 코딩, 금융, 법률, 사이버 보안 및 과학 분야에서 탁월한 문제 해결 능력을 갖추고 있으며, 특히 사이버 방어 측면에서 상당한 진전을 보였습니다.\n\nGoogle은 Gemini 4 Argon의 잠재력을 극대화하기 위해 Fairwind Program을 통해 신뢰할 수 있는 사이버 보안 전문가들에게 사전 접근 권한을 부여했습니다. 이를 통해 Wiz와 같은 파트너는 기존 모델이 놓쳤던 병원 소프트웨어의 치명적인 취약점을 발견하는 등 실질적인 보안 성과를 거두었습니다.\n\n안전한 사용을 위해 Google은 오용 방지와 정렬 문제 해결에 집중하고 있습니다. 오용 방지를 위해 입력값 선별, 모델 내부의 신경 신호를 읽는 내부 인트로스펙션, 실시간 연속 모니터링이라는 3단계 보호 체계를 구축했습니다. 또한 생물학적 위협이나 사이버 공격과 관련된 유해한 요청을 거부하는 능력을 대폭 강화했습니다.\n\n모델의 정렬 문제에 대해서는 인공지능이 목표 달성을 위해 무리하게 지름길을 택하거나 시스템 경계를 넘지 않도록 교육하고 있습니다. 모델이 스스로 사고 과정을 기록하는 스크래치패드를 실시간으로 감시하는 자동화 모니터를 도입하여 잠재적인 위반 사례를 방지하며, 모델이 자신의 사고 과정을 투명하게 공개하도록 유도하여 외부 모니터링이 가능하도록 설계했습니다.\n\n마지막으로 프롬프트 인젝션 공격에 대응하기 위해 적대적 학습과 실시간 보안 검사를 강화했습니다. 이러한 다층적인 방어 전략을 바탕으로 Google은 Gemini 4 Argon이 복잡한 작업 환경에서도 신뢰할 수 있는 도구로 기능할 수 있도록 지속적인 안전성 평가와 모니터링을 이어갈 방침입니다.",
+    "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-13T19:43:07.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=61028",
+    "title": "Announcing .NET 11 Release Candidate 2",
+    "summary": ".NET 11 Release Candidate 2 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, and Windows Forms.\nThe post Announcing .NET 11 Release Candidate",
+    "aiSummary": ".NET 11 Release Candidate 2가 공개되었습니다. 이번 업데이트는 Libraries, Runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, Windows Forms 등 플랫폼 전반에 걸쳐 성능과 기능 개선을 포함하고 있습니다. 정식 출시를 앞두고 안정성과 완성도를 높이는 데 초점을 맞추었습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": ".NET Team",
+    "pubDate": "2026-10-13T19:40:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+    "title": "Gemini 4 Argon in GitHub Copilot",
+    "summary": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon…\nThe pos",
+    "aiSummary": "Google의 최신 최첨단 AI 모델인 Gemini 4 Argon이 GitHub Copilot에 정식으로 도입되었습니다.\n\n해당 모델은 복잡한 코딩 작업과 에이전트 기반의 업무 처리, 그리고 고도의 추론 능력을 수행하도록 설계되었습니다. 초기 테스트 단계에서 Gemini 4 Argon은 개발자의 생산성 향상과 복잡한 문제 해결 역량에서 우수한 성과를 입증했습니다. 이제 GitHub Copilot 사용자는 해당 모델을 통해 더욱 정교하고 지능적인 개발 환경을 경험할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-13T18:39:56.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "summary": "Learn more about our approach to safety and security for Gemini 4 Argon.",
+    "aiSummary": "Google은 차세대 AI 모델인 Gemini 4 Argon을 개발함에 있어 안전과 보안을 최우선 가치로 두고 있습니다. 해당 모델의 설계 과정에서 책임감 있는 기술 구현을 위한 구체적인 전략과 접근 방식을 정립하고 있습니다. 이는 Gemini 4 Argon이 안전하게 활용될 수 있도록 시스템 전반에 걸친 보호 체계를 구축하려는 의도를 담고 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Anca Dragan"
+      ],
+      "title": [
+        "VP"
+      ],
+      "department": [
+        "AI Safety & Behavior"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-13T18:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+    "title": "Audit GitHub Code Quality finding dismissals and reopenings",
+    "summary": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository’s default-branch backlog",
+    "aiSummary": "GitHub의 Code Quality 기능을 사용하는 조직이나 기업은 이제 감사 로그를 통해 코드 품질 이슈에 대한 수동 기각 및 재개 활동을 확인할 수 있습니다.\n\n이번 업데이트를 통해 관리자는 리포지토리의 기본 브랜치 백로그나 특정 환경에서 발생한 코드 품질 문제의 처리 상태가 변경되었을 때, 누가 언제 해당 조치를 취했는지 투명하게 추적할 수 있습니다. 이는 코드 품질 관리 과정에서의 책임 소재를 명확히 하고 보안 및 품질 준수 프로세스를 보다 체계적으로 운영하는 데 도움을 줍니다.",
+    "url": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-13T17:58:36.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+    "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
+    "summary": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesf",
+    "aiSummary": "GitHub의 Secret scanning 기능이 감지 가능한 보안 비밀 키의 범위를 확장하였습니다. 이번 업데이트를 통해 Salesforce, Anthropic, Cloudsmith에서 발급되는 새로운 형태의 보안 키를 식별할 수 있게 되었습니다. 특히 Anthropic의 보안 키는 Push protection 기능이 기본으로 적용되어 코드가 저장소에 게시되기 전에 자동으로 차단됩니다. 이를 통해 개발자는 실수로 중요한 보안 정보를 외부로 노출하는 위험을 사전에 방지할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-13T16:12:36.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "title": "Gemini 4 Argon for Robotics",
+    "summary": "OCT. 13, 2026\n      \n\n    \n\n    \n    \n          \n\n\n    Gemini 4 Argon marks a step change in physical understanding, code generation, and visual-semantic reasoning—unlocking new workflows across the r",
+    "aiSummary": "Gemini 4 Argon은 로봇 공학을 위한 물리적 이해력, 코드 생성, 시각적 의미론적 추론 능력을 대폭 향상시킨 범용 물리 추론 모델입니다. 이 모델은 물리적, 공간적 문제를 해결하는 능력을 평가하는 Embodied Reasoning 벤치마크에서 87%의 점수를 기록하며 기존의 모든 프론티어 모델을 능가하는 성능을 입증했습니다.\n\nArgon은 로봇 수명 주기 전반에 걸쳐 활용 가능하며 다음과 같은 핵심 영역에서 뛰어난 역량을 발휘합니다.\n\n첫째, 로봇 제어 분야에서는 Boston Dynamics의 Spot과 같은 로봇을 제어하여 복잡한 환경에서 물리적 도구를 조작하거나, 제로샷 제어를 통해 로봇 팔이 떨어진 물건을 스스로 정리하게 하는 등 고도의 자율성을 보여줍니다. 또한 Gemini Omni 월드 모델과 연동하여 로봇의 동작을 반복적으로 개선하는 과정에서 시각적 피드백 루프를 통해 정밀하게 제어합니다.\n\n둘째, Real2Sim 기능을 통해 현실 세계의 로봇 조작 데이터나 인간의 영상을 분석하여 물리적으로 검증된 MuJoCo 기반의 디지털 트윈을 자동으로 생성합니다. 이를 통해 실제 로봇 카메라 영상이나 인간의 움직임을 로봇 시뮬레이션 환경으로 완벽하게 이식하고, 손으로 그린 간단한 스케치만으로도 복잡한 물리적 궤적과 상호작용 시나리오를 설계할 수 있습니다.\n\n셋째, 고도화된 물리적 이해력을 바탕으로 로봇의 조작 영상을 분석하여 세밀한 사후 레이블링을 수행합니다. 작업 목표와 의미론적 하위 작업, 원자 단위의 동작 프리미티브 등을 식별하고 조작의 품질을 스스로 평가하여 로봇 학습 데이터를 효율적으로 최적화하는 역할을 수행합니다.\n\n종합적으로 Gemini 4 Argon은 시뮬레이션과 물리 세계 간의 간극을 좁히고 로봇이 물리적 AGI로 나아가는 과정을 가속화하는 핵심적인 기술적 진보를 이뤄냈습니다.",
+    "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-13T16:01:58.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "summary": "Oct 13, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                We’re giving developers, enterprises, scie",
+    "aiSummary": "Google은 복잡한 공학 문제 해결과 고난도 전문 업무 수행에 특화된 최신 프런티어 모델인 Gemini 4 Argon을 전 세계에 공개했습니다. 이 모델은 코딩, 금융, 법률, 사이버 보안 및 과학 분야의 복잡한 다단계 과제에서 뛰어난 성능을 발휘하며 Vals Index 기준 1위를 기록했습니다. 현재 API, AI Studio, Gemini 플랫폼 등을 통해 개발자와 기업에게 제공되며, 관련 구독자는 Gemini 앱과 Google Antigravity 환경에서 이용할 수 있습니다.\n\nArgon은 대규모 코드베이스 리팩토링, 최적화 작업, 보안 취약점 탐지 등 다양한 엔지니어링 문제를 해결하는 데 탁월한 효율을 보입니다. Chrome 브라우저의 레거시 코드 구조 개선이나 오픈소스 프레임워크 성능 최적화, 양자 화학 패키지 속도 향상 등에서 기존 대비 수개월 걸릴 작업을 수 주 혹은 수 시간 내로 단축하는 성과를 냈습니다. 특히 추론 속도 개선 및 3D 시각화 프로토타이핑 분야에서 이전 모델들을 압도하는 성능을 입증했습니다.\n\n비즈니스 및 연구 분야에서의 활용도 역시 매우 높습니다. 법률, 금융, 과학 등 전문 영역에서 정교한 문서 이해와 데이터 분석을 지원하며, 사이버 보안 분야에서는 Wiz와 같은 파트너사와 협력하여 민감한 데이터 보호 및 의료 인프라 보안 강화에 기여하고 있습니다. 또한 과학 연구 분야에서는 양자 컴퓨터의 오류 수정 효율 개선, 핵융합을 위한 수학적 난제 해결, 희귀 질환 유전체 분석 및 새로운 효소 설계 등 혁신적인 돌파구를 마련하고 있습니다.\n\nGoogle은 이처럼 강력한 모델의 안전한 개발과 배포를 위해 노력하고 있으며, 연구 커뮤니티를 지원하기 위해 1만 명의 과학자에게 6개월간 Google Antigravity의 최고 사용 등급을 무료로 제공하는 프로그램을 시행합니다. Argon은 현재 도입 가격으로 이용 가능하며, 캐시된 입력 토큰에 대해 95% 할인 혜택이 적용됩니다.",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-13T16:01:52.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/cross-cloud-conversational-analytics-with-borderless-lakehouse/",
+    "title": "Cross-cloud conversational analytics made simple with open standards",
+    "summary": "The reality for most organizations is that data lives everywhere. As engineering teams expand and adopt specialized platforms for their workloads, enterprise data naturally disperses across multiple c",
+    "aiSummary": "대부분의 기업은 데이터가 여러 클라우드와 운영 시스템에 분산되어 있어 이를 통합 분석하는 데 큰 어려움을 겪고 있습니다. 기존에는 데이터를 중앙 창고로 복제하는 추출 파이프라인을 구축해야 했지만, 이는 비용 발생과 데이터 동기화 지연이라는 한계를 지니고 있습니다.\n\nGoogle Cloud의 BigQuery와 borderless Lakehouse 아키텍처는 Apache Iceberg REST 카탈로그 사양을 활용하여 이러한 문제를 해결합니다. 이 방식은 데이터를 이동시키지 않고도 Databricks, Snowflake, AWS Glue 등에 저장된 데이터를 현재 위치에서 그대로 쿼리할 수 있게 지원합니다.\n\n기술적으로 Lakehouse 런타임 카탈로그는 원격 카탈로그의 메타데이터를 주기적으로 동기화하며, 쿼리 실행 시에는 Google Cloud의 컴퓨팅 자원을 사용하여 원격 스토리지의 데이터를 직접 읽어 처리합니다. 이를 통해 기업은 데이터 마이그레이션 없이도 여러 환경에 걸친 데이터 조인을 수행할 수 있습니다.\n\n또한, BigQuery의 대화형 분석 기능을 활용하면 federated 된 데이터를 자연어로 탐색할 수 있습니다. 사용자가 질문을 입력하면 시스템이 여러 클라우드 카탈로그를 분석하여 자동으로 SQL을 생성하고 결과를 도출합니다. 운영 시에는 데이터 거주 정책과 보안 설정을 고려해야 하며, Google Cloud는 이를 지원하기 위한 관리형 암호화와 캐싱 제어 기능을 제공합니다. \n\n결과적으로 이 아키텍처는 추가적인 복잡한 파이프라인 구축 없이도 멀티 클라우드 환경에서 효율적인 데이터 통합 분석과 생성형 AI 활용을 가능하게 합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/cross-cloud-conversational-analytics-with-borderless-lakehouse/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Praveen Kumar"
+      ],
+      "title": [
+        "Customer Engineer, Data & AI"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-13T16:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud/",
+    "title": "Gemini 4 Argon available on Google Cloud, built to help solve your business’ hardest problems",
+    "summary": "Last week we announced that Gemini Enterprise has evolved to make it even simpler to get work done, and introduced the Gemini agent, your new universal agent for work. It's always on and ready to answ",
+    "aiSummary": "Google Cloud는 기업의 복잡한 업무를 해결하기 위해 설계된 새로운 프런티어 모델인 Gemini 4 Argon을 출시하였습니다. 이 모델은 깊이 있는 이해력과 정밀함을 바탕으로 긴 다단계 작업을 수행하며, 문서 분석, 금융 및 법률 분야의 데이터 처리, 복잡한 소프트웨어 개발, 사이버 보안 등 다양한 영역에서 높은 성능을 발휘합니다.\n\nGemini 4 Argon의 주요 특징과 비즈니스 활용 방안은 다음과 같습니다.\n\n첫째, 장문의 문서와 구조화되지 않은 데이터를 분석하여 정교한 결과물을 도출합니다. 다단계 작업을 끝까지 수행하며 시스템 경계를 존중하고, 불확실한 정보에 대해서는 정직하게 응답합니다.\n\n둘째, 금융 및 법률 업무에 필요한 정확성과 검증 가능성을 제공합니다. 정량적 분석과 수치 계산에서 높은 무결성을 보이며, 법률 연구와 사례 검토 시 정확한 근거와 인용을 제시하여 전문가의 업무를 보조합니다.\n\n셋째, 소프트웨어 개발 및 제품 설계 과정을 가속화합니다. 복잡한 목표를 세분화하여 여러 파일에 걸친 작업을 동시다발적으로 처리할 수 있으며, 3D 게임 제작, 아키텍처 리팩토링, 코드 최적화 등에서 탁월한 성과를 보입니다.\n\n넷째, 고도화된 사이버 보안 방어 기능을 제공합니다. CodeMender와 결합하여 취약점을 식별하고 수정하며, 간접적인 프롬프트 주입 공격에 대해서도 매우 강력한 방어 성능을 갖추고 있습니다. 보안 파트너를 위한 제한적인 비검열 버전을 통해 전문적인 사이버 방어 테스트도 지원합니다.\n\nGemini 4 Argon은 현재 Gemini for business를 통해 웹, 데스크톱, 모바일에서 사용할 수 있으며, 기업용 API와 Google AI Studio를 통해서도 접근이 가능합니다. 2026년 11월 30일까지는 할인된 요금으로 제공되며, 이후 표준 요금 체계로 전환됩니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Gemini, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-13T16:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+    "title": "Gemini 4 Argon is now available for developers.",
+    "summary": "Build complex software and cybersecurity workflows with Google Gemini 4 Argon. Check out the Gemini API Developer Guide and read the Google Antigravity and Android Studi…",
+    "aiSummary": "Google이 개발자를 위한 최신 모델인 Gemini 4 Argon을 정식 공개했습니다. 해당 모델은 복잡한 소프트웨어 개발과 사이버 보안 워크플로우를 효율적으로 구축할 수 있도록 설계되었습니다. 개발자들은 Gemini API Developer Guide를 통해 상세한 활용법을 확인할 수 있으며 Google Antigravity와 Android Studio 등의 도구와 연동하여 다양한 개발 환경에 적용할 수 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": "Google Gemini Blog",
+    "pubDate": "2026-10-13T16:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+    "aiSummary": "Google이 가장 난해한 문제 해결을 목표로 개발한 최신 프론티어 모델인 Gemini 4 Argon을 공개하였습니다. 이번 업데이트를 통해 개발자와 기업, 과학자 및 일반 사용자는 해당 모델을 자유롭게 활용할 수 있게 되었습니다. Gemini 4 Argon은 고도의 복잡한 작업 수행 능력을 갖추어 다양한 분야에서 사용자들의 생산성과 기술적 역량을 강화할 것으로 기대됩니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Koray Kavukcuoglu"
+      ],
+      "title": [
+        "SVP, Google DeepMind and Chief AI Architect, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-13T16:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "7d8a98739984e60ca9480501cf2c370433bebfb8",
+    "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+    "summary": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon E",
+    "aiSummary": "지난 Prime Day 2026 기간 동안 Amazon ElastiCache는 하루 최대 2.3경 건의 요청을 처리하며 역대급 트래픽을 기록했습니다.\n\n이번 주 AWS 소식으로는 Anthropic의 Claude Haiku 5.5 모델과 Amazon Nova 2.5 Sonic 모델이 새롭게 발표되었습니다. 최신 AI 모델 라인업의 업데이트를 통해 고객들은 더욱 향상된 성능과 효율성을 기대할 수 있게 되었습니다. AWS는 클라우드 기반의 인프라와 생성형 AI 기술을 결합하여 복잡한 데이터 처리와 지능형 서비스를 지속적으로 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-10-13T15:59:06.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-12-enterprise-managed-settings-enforcement-updates",
+    "title": "Enterprise managed settings enforcement updates",
+    "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum clie",
+    "aiSummary": "GitHub Enterprise 관리자는 이제 GitHub Copilot 클라이언트가 시작될 때 캐시된 정책 대신 서버에서 관리하는 최신 설정을 강제로 가져오도록 설정할 수 있습니다. 이번 업데이트를 통해 조직의 정책 적용 강도가 한층 강화되었으며 관리자는 기업 환경에 맞는 일관된 보안 및 설정 환경을 유지할 수 있습니다. 이와 함께 특정 기능의 원활한 운영을 위해 최소 클라이언트 버전 요구 사항에 대한 업데이트도 함께 진행되었습니다.",
+    "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-13T15:20:10.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-09-improved-detection-for-withdrawn-dependabot-alerts",
     "title": "Improved detection for withdrawn Dependabot alerts",
     "summary": "You can now more easily detect withdrawn Dependabot alerts. Dependabot withdraws and removes an alert when the advisory or vulnerability that produced it is no longer valid. Two changes help…\nThe post",
@@ -96,6 +406,40 @@
     ]
   },
   {
+    "id": "https://supabase.com/blog/declarative-schemas-2-0-pg-delta",
+    "title": "Declarative Schemas 2.0 with pg-delta",
+    "summary": "The migrations the CLI writes for you no longer skip RLS policy changes, grants, view settings, partitions, or domains.",
+    "aiSummary": "pg-delta를 활용한 Declarative Schemas 2.0 업데이트가 이루어졌습니다. 기존 CLI가 마이그레이션 코드를 생성할 때 생략하던 RLS 정책 변경 사항과 권한 설정을 비롯하여 뷰 설정, 파티션, 도메인 관련 변경 사항까지 모두 자동으로 포함하도록 개선되었습니다. 이를 통해 데이터베이스 스키마 관리의 정확성과 완전성이 한층 강화되었습니다.",
+    "url": "https://supabase.com/blog/declarative-schemas-2-0-pg-delta",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-13T07:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+    "title": "Ship changes to your Supabase backend with Grok Bot",
+    "summary": "Supabase joins the SpaceXAI Partner Network: request a change in chat with Grok Bot, and Cursor builds and runs it on your Supabase backend.",
+    "aiSummary": "Supabase가 SpaceXAI Partner Network에 합류하였습니다.\n\n이제 사용자는 Grok Bot과의 채팅을 통해 Supabase 백엔드 변경 사항을 요청할 수 있습니다. 해당 요청은 Cursor를 통해 즉시 구현되고 Supabase 환경에서 실행됩니다.",
+    "url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-13T07:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.3.4",
     "title": "1.3.4",
     "summary": "Added a --json flag to agy plugin list for machine-readable output, and fixed the command showing only imported plugins: it now lists every installed plugin, including ones installed from a marketplac",
@@ -110,6 +454,70 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+    "title": "Python 3.16.0 alpha 1 is now available",
+    "summary": "The first developer preview of Python 3.16 is ready for testing.",
+    "aiSummary": "Python 3.16 버전의 첫 번째 개발자 프리뷰인 Python 3.16.0 alpha 1이 공개되었습니다. 이번 릴리스는 개발자들이 새로운 기능을 미리 확인하고 테스트할 수 있도록 지원하기 위해 마련되었습니다.",
+    "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Savannah Ostrowski",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/10/13/agents-on-rails-stage-3",
+    "title": "Agents on Rails: Stage 3. Can a model build on its own work?",
+    "summary": "Now that we understand better how agents deal with contained tasks and contained codebases, it’s time to push them a little harder. Stage 3 adds a set of large multi-step tasks that test how well a mo",
+    "aiSummary": "Agents on Rails 벤치마크의 3단계는 AI 모델이 여러 세션에 걸쳐 자신의 이전 작업을 기억하고 확장하며 복잡한 다단계 작업을 수행할 수 있는지 평가합니다. 이번 평가에는 기존의 1단계와 2단계를 통합하여 총 46개의 과제로 구성된 새로운 통합 벤치마크가 사용되었습니다. 평가의 공정성을 위해 이진 채점 방식에서 필수 및 선택 조건을 포함한 분수 채점 방식으로 변경하였으며, 모든 평가는 결정론적 검증기를 통해 진행되었습니다.\n\n주요 모델별 성과는 다음과 같습니다. Claude Opus 5.5는 65.3%의 성공률로 가장 높은 정확도를 기록했으며 다단계 작업에서도 뛰어난 성능을 보였습니다. GPT-6.1 Sol은 약 0.80달러의 비용으로 60.8%의 성공률을 기록하며 성능과 경제성 면에서 가장 균형 잡힌 모델로 평가되었습니다. GPT-6 Luna는 가장 저렴한 비용으로 효율적인 작업 수행이 가능했고, GPT-6 Astra는 중간 설정에서 가장 빠른 처리 속도를 나타냈습니다.\n\n평가 결과, 많은 모델이 코드의 일관성을 유지하는 데 어려움을 겪었습니다. 일부 모델은 시간이 지남에 따라 초기 요구 사항을 위반하거나 테스트 코드를 임의로 수정하여 논리적 오류를 발생시켰습니다. 특히 저렴한 모델들은 장기적인 계획 수립이나 복잡한 레거시 코드 환경에서의 호환성 유지에 취약한 모습을 보였습니다. 또한, 모든 모델은 생산 환경에 필요한 실질적인 인프라 설정에는 미흡하여, 여전히 개발자의 후속 작업이 필수적인 것으로 나타났습니다.\n\n각 모델은 고유한 작업 스타일을 보여주었습니다. Kimi는 철저한 분석과 최적화에 강점을 보였으며, Grok은 수정 전 방대한 코드를 조사하는 탐색적 성향이 강했습니다. DeepSeek의 경우 이전 세션의 결과물을 다시 활용하려는 시도를 보였으나, 때때로 이를 부정확하게 처리하는 모습을 나타냈습니다. 연구진은 앞으로 모델의 도구 사용 능력과 코드 검색 역량을 더욱 강화하여, 모델이 실제 Rails 앱 개발에 실질적인 도움을 줄 수 있도록 연구를 지속할 예정입니다.",
+    "url": "https://rubyonrails.org/2026/10/13/agents-on-rails-stage-3",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Alexander Baygeldin, Vladimir Dementyev, Aibek Izhanov",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/fly-io-sprites",
+    "title": "Run AI agents safely with Ollama and Fly.io",
+    "summary": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.",
+    "aiSummary": "Ollama의 클라우드 모델을 Fly.io의 클라우드 컴퓨터 환경에서 안전하게 구동할 수 있게 되었습니다. 이제 개발자들은 Fly.io의 인프라를 활용하여 AI 에이전트를 보다 안정적이고 효율적으로 운영할 수 있습니다.",
+    "url": "https://ollama.com/blog/fly-io-sprites",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/origin-app-marketplace",
+    "title": "Origin App Marketplace",
+    "summary": "Oct 13, 2026 · ChangelogOrigin App MarketplaceOrigin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare",
+    "aiSummary": "Origin이 Cloudflare, Linear, Sentry, Socket Security 등 다양한 파트너와 협력하여 배포, CI, 코드 리뷰, 보안, 모니터링, 프로젝트 관리 분야의 20개 이상의 앱을 통합한 Origin App Marketplace를 공개합니다. 이제 개발 도구를 구축하는 모든 팀은 직접 개발한 앱을 Marketplace에 게시할 수 있습니다.\n\n앱을 게시하려면 먼저 Origin 네임스페이스 내에서 앱을 생성하고 Origin API를 활용하여 개발해야 합니다. 앱은 App JWT와 설치 액세스 토큰을 통해 인증하며 웹훅 이벤트를 수신하고 체크 실행, 풀 리퀘스트 댓글 작성 등의 기능을 수행할 수 있습니다. 이후 공개 설정으로 전환하고 앱 페이지에서 데모 영상과 태그 등을 포함하여 제출하면 Origin 측의 검토를 거쳐 최종 등재됩니다.\n\n사용자는 현재 제공되는 다양한 파트너 앱을 바로 이용할 수 있으며 개발자는 발행 가이드와 API 문서를 참고하여 직접 앱을 구축할 수 있습니다. 또한 Origin Apps 플러그인을 사용하면 실시간 API 문서를 바탕으로 궁금한 점을 해결하거나 기존에 운영 중인 앱을 Origin으로 전환하는 계획을 세울 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/origin-app-marketplace",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -158,6 +566,22 @@
     "tags": [
       "AWS",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=61032",
+    "title": ".NET and .NET Framework October 2026 servicing releases updates",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for October 2026.\nThe post .NET and .NET Framework October 2026 servicing releases updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft가 2026년 10월을 맞아 .NET 및 .NET Framework에 대한 최신 서비스 업데이트를 발표했습니다. 이번 업데이트는 해당 플랫폼의 보안 강화와 안정성 개선을 포함하는 정기적인 유지보수 차원의 조치입니다. 관련 개발자와 운영자는 .NET 공식 블로그를 통해 세부 변경 사항을 확인하고 업데이트를 적용할 것을 권장합니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT), Tara Overfield",
+    "pubDate": "2026-10-12T20:00:00.000Z",
+    "fetchedAt": "2026-10-13T20:44:16.562Z",
+    "tags": [
+      "C#",
+      ".NET"
     ]
   },
   {
@@ -1500,135 +1924,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-    "title": "Stacked pull requests generally available",
-    "summary": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into publ",
-    "aiSummary": "GitHub의 Stacked pull requests 기능이 정식으로 출시되었습니다. 이 기능은 대규모 코드 변경 사항을 작고 집중적인 여러 개의 pull request로 분할하여 관리할 수 있게 해줍니다. 개발자는 각 단위별로 독립적인 코드 리뷰를 진행할 수 있으며, 최종적으로 이를 통합하여 병합하는 것이 가능합니다. 이를 통해 복잡한 작업을 보다 효율적으로 처리하고 코드 품질을 개선할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-06T20:16:41.000Z",
-    "fetchedAt": "2026-10-07T02:29:17.348Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "/blog/next-16-4",
-    "title": "Next.js 16.4",
-    "summary": "Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.",
-    "aiSummary": "Next.js 16.4 버전이 새롭게 출시되었습니다. 이번 업데이트는 개발 경험 향상과 성능 최적화에 중점을 두고 있습니다.\n\n주요 변경 사항으로는 필요한 파일만 컴파일하여 속도를 높이는 lazy compilation 기능이 도입되었으며, Turbopack을 통한 빌드 출력물 크기가 더욱 최적화되었습니다.\n\n또한 React 19.3의 새로운 기능들을 지원하며, Cache Components와 관련된 성능 개선이 이루어졌습니다. 이와 함께 개발자들이 더욱 효율적으로 작업할 수 있도록 돕는 새로운 개발 도구들이 추가되었습니다.",
-    "url": "https://nextjs.org/blog/next-16-4",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": "Next.js Blog",
-    "pubDate": "2026-10-06T20:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "Next.js",
-      "React"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-    "summary": "Oct 06, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                EmbeddingGemma 2 is the most capable model",
-    "aiSummary": "Google DeepMind가 발표한 EmbeddingGemma 2는 텍스트뿐만 아니라 이미지, 오디오, 비디오를 통합된 임베딩 공간으로 매핑하는 경량화된 온디바이스 다중 모달 모델입니다. 7억 4천만 개의 파라미터로 구성된 이 모델은 Apache 2.0 라이선스를 따르며, 온디바이스 환경에 최적화된 성능과 효율성을 제공합니다.\n\n주요 기술적 특징은 다음과 같습니다.\n\n우선 10억 파라미터 미만 모델 중 최고 수준의 성능을 보여줍니다. 특히 MTEB 코드 벤치마크에서 기존 대비 9.92포인트 향상된 성능을 기록하여 로컬 코드 검색 및 분석에 탁월합니다. 또한 모듈형 설계를 채택하여 텍스트 전용 작업에는 2억 7천만 파라미터만 사용하고, 필요에 따라 비전 및 오디오 인코더를 추가하는 유연한 구성이 가능합니다.\n\n저장 효율성을 극대화하기 위해 Matryoshka Representation Learning 기술을 적용했습니다. 이를 통해 개발자는 출력 벡터의 차원을 768에서 128까지 동적으로 조정할 수 있어 로컬 벡터 데이터베이스의 저장 공간을 최대 6배까지 절감할 수 있습니다. \n\n하드웨어 성능 측면에서는 양자화 적용 시 텍스트 전용 모델은 약 191MB, 전체 다중 모달 모델은 약 567MB의 RAM만으로 구동 가능합니다. 또한 8K 토큰의 컨텍스트 윈도우를 지원하여 긴 오디오나 다수의 영상 프레임을 로컬에서 직접 처리할 수 있습니다.\n\n해당 모델은 데이터 프라이버시가 중요한 오프라인 환경의 RAG 파이프라인 구축에 적합합니다. 현재 Hugging Face와 Kaggle을 통해 모델 가중치를 내려받을 수 있으며, LiteRT, MediaPipe, Ollama, MLX, llama.cpp 등 다양한 개발 도구와 플랫폼을 통해 즉시 현업에 적용할 수 있습니다.",
-    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-10-06T19:57:04.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise/",
-    "title": "Announcing MCP Toolbox Java SDK v1.0: Agentic data access for the enterprise",
-    "summary": "Co-authors:\nStenal Jolly, Strategic Cloud Engineer, Google\nAnubhav Dhawan, Software Engineer, Google\nFollowing the landmark announcement of MCP Toolbox v1.0, we're thrilled to announce that the MCP To",
-    "aiSummary": "Google은 엔터프라이즈 환경에서 AI 에이전트와 데이터 소스를 표준화된 방식으로 연결하는 MCP Toolbox Java SDK v1.0을 공식 출시하였습니다. MCP는 서로 다른 AI 모델과 데이터 소스 간의 복잡한 연결 문제를 해결하는 범용 인터페이스로, 이번 버전은 프로덕션 환경의 안정성과 보안성을 강화하는 데 초점을 맞추었습니다.\n\n주요 개선 사항으로는 네트워크 구현을 자유롭게 교체할 수 있는 전송 계층 추상화, 비동기식 인증 처리를 지원하는 분리형 클라이언트 인증 구조, 기본 매개변수 지원, 민감 정보 보호를 위한 바인딩 매개변수 자동 필터링 등이 포함됩니다. 또한, 세션 추적 기능과 평문 HTTP 전송 시 경고 시스템 등을 도입하여 기업용 애플리케이션 운영에 최적화된 안정성을 제공합니다.\n\n개발자는 Spring Boot 환경에서 LangChain4j와 연동하여 상태를 관리하는 에이전트를 손쉽게 구축할 수 있습니다. 예를 들어, AlloyDB와 같은 데이터베이스와 연결할 경우 사용자의 자연어 요청을 안전한 쿼리로 매핑할 수 있으며, @MemoryId와 같은 어노테이션을 통해 복잡한 세션 관리 과정 없이 대화 문맥을 유지할 수 있습니다. \n\n이번 SDK는 Application Default Credentials를 통한 보안 인증을 지원하며, Google Cloud Run을 통해 각 구성 요소를 독립적으로 확장 가능합니다. 관련 라이브러리는 Maven이나 Gradle을 통해 설치할 수 있으며, 개발자는 제공된 예제 애플리케이션인 Cymbal Transit을 통해 실제 구현 방식을 학습할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Abirami Sukumaran"
-      ],
-      "title": [
-        "Staff Developer Advocate, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-06T19:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
-    "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
-    "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources.\nKubernetes uses cgroups to allocate resources like CPU and memory to containers,\nensuring that applications ",
-    "aiSummary": "Kubernetes는 시스템 자원을 효율적으로 관리하기 위해 사용해 온 cgroup v1에 대한 지원을 공식적으로 중단하고 cgroup v2로의 전환을 추진합니다. Kubernetes v1.35부터는 kubelet 시작 시 cgroup v1 노드를 기본적으로 거부하는 정책이 적용되며, 향후 버전에서 v1 지원은 완전히 삭제될 예정입니다. 따라서 운영자는 모든 Linux 노드를 cgroup v2 환경으로 마이그레이션해야 합니다.\n\ncgroup v2는 통합된 계층 구조와 일관된 인터페이스를 제공하며, 최신 자원 관리 기능을 지원하기 위한 필수 기반이 됩니다. 특히 Memory QoS 기능은 cgroup v2의 memory.high, memory.min, memory.low 컨트롤러를 활용해 메모리 제한과 보호 기능을 강화하며, 이는 오직 cgroup v2 환경에서만 사용 가능합니다. 또한, 컨테이너 단위의 OOM 처리, 루트리스 컨테이너 지원, PSI 기반의 자원 모니터링, 그리고 Pod 수준의 인플레이스 자원 업데이트 기능 등이 모두 cgroup v2 환경에서 안정적으로 동작하도록 설계되어 있습니다.\n\ncgroup v2를 사용하기 위해서는 Linux 커널 5.8 이상이 권장되며, 5.9 이상을 사용할 경우 Memory QoS와 관련된 안정적인 메모리 제어가 가능합니다. 또한, containerd v1.4 또는 CRI-O v1.20 이상의 최신 컨테이너 런타임과 해당 런타임에 맞는 cgroup 드라이버 설정이 필요합니다. kubeadm으로 관리되는 클러스터의 경우 systemd cgroup 드라이버 사용이 강력하게 권장되며, 최신 버전의 Kubernetes는 런타임으로부터 드라이버를 자동으로 발견하는 기능을 지원합니다.\n\n전환을 위해서는 사전에 모든 리눅스 노드의 cgroup v2 호환성을 확인해야 합니다. 기존 cgroup v1 환경에서 사용하던 설정과 도구들이 cgroup v2와 완벽히 호환되지 않을 수 있으므로, 최신 버전의 cAdvisor를 포함한 관련 도구의 업데이트가 필수적입니다. 또한, 새로운 환경에서는 CPU 가중치 계산 방식 등이 변경될 수 있으므로 배포 전 철저한 테스트와 설정 검증 과정을 거칠 것을 권장합니다.",
-    "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-10-06T18:00:00.000Z",
-    "fetchedAt": "2026-10-07T02:29:17.348Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/lakehouse-runtime-catalog-powered-by-spanner/",
-    "title": "Managed Apache Iceberg at scale: How Spanner powers Lakehouse runtime catalog",
-    "summary": "As customers modernize to lakehouse architectures, they are standardizing on open formats such as Apache Iceberg to create a shared data estate across compatible engines. This enables you to build AI-",
-    "aiSummary": "최근 데이터 환경이 레이크하우스 아키텍처로 전환됨에 따라 Apache Iceberg와 같은 개방형 형식이 표준으로 자리 잡고 있습니다. 레이크하우스의 핵심 구성 요소인 카탈로그는 테이블 메타데이터 관리와 원자적 커밋을 보장해야 하지만, 기업 규모가 커지고 AI 에이전트 기반의 대규모 쿼리가 빈번해지면서 확장성과 가용성을 모두 갖춘 관리형 서비스의 필요성이 커지고 있습니다.\n\nGoogle Cloud는 이러한 과제를 해결하기 위해 Apache Iceberg REST Catalog 규격을 준수하는 서버리스 형태의 Lakehouse runtime catalog를 제공합니다. 이 서비스는 Google Cloud의 분산 데이터베이스인 Spanner를 기반으로 구축되어, 기존 관계형 데이터베이스의 수직적 확장 한계를 극복하고 수평적 확장을 통해 강력한 일관성과 가용성을 보장합니다.\n\nLakehouse runtime catalog가 제공하는 주요 이점은 다음과 같습니다.\n\n첫째, 오픈 API와 다중 엔진 상호운용성을 지원하여 BigQuery, Managed Service for Apache Spark 등 다양한 분석 엔진에서 동일한 데이터에 접근할 수 있습니다. \n둘째, 데이터 복제 없이 기존 객체 저장소의 데이터를 직접 참조하여 운영 효율성을 높입니다.\n셋째, Databricks Unity, Snowflake Horizon, AWS Glue 등과 연동되는 카탈로그 페더레이션을 통해 클라우드 간 데이터 접근을 통합합니다.\n넷째, Knowledge Catalog와의 통합을 통해 텍스트 및 벡터 검색을 지원하며, AI 에이전트에게 신뢰할 수 있는 데이터 문맥을 제공합니다. \n다섯째, Spanner의 ACID 트랜잭션 성능을 활용하여 대규모 에이전트 워크로드에서도 안정적인 메타데이터 관리와 보안 정책 적용이 가능합니다.\n\n결과적으로 이 솔루션은 데이터 사일로 현상을 최소화하고, 거버넌스를 통합하며, 운영 비용을 절감하여 기업이 현대적인 클라우드 환경에서 에이전트 규모의 분석 워크로드를 원활하게 수행하도록 지원합니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/lakehouse-runtime-catalog-powered-by-spanner/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Vinod Ramachandran"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-06T16:00:00.000Z",
-    "fetchedAt": "2026-10-06T20:24:09.908Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
