@@ -1,5 +1,152 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.143.1",
+    "title": "0.143.1",
+    "summary": "Fixes\n🐛 Fix included route metadata in iter_route_contexts(). PR #16484 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.143.1 버전 업데이트가 진행되었습니다. 이번 업데이트는 iter_route_contexts 함수 내에 포함된 경로 메타데이터와 관련된 오류를 해결하는 데 초점을 맞추고 있습니다. 해당 수정 사항은 tiangolo에 의해 제출된 PR #16484를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-14T12:52:51.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=clion&p=746013",
+    "title": "Lauterbach and JetBrains Announce TRACE32 Integration in CLion IDE",
+    "summary": "Hoehenkirchen, Germany/Amsterdam, Netherlands — October 14, 2026 — Lauterbach and JetBrains have integrated TRACE32® debugging tools with CLion, JetBrains’ professional C and C++ tool. The integration",
+    "aiSummary": "Lauterbach와 JetBrains가 임베디드 개발자를 위한 협력을 발표했습니다. 이번 협력을 통해 Lauterbach의 하드웨어 디버깅 도구인 TRACE32가 JetBrains의 C 및 C++ 통합 개발 환경인 CLion에 공식적으로 통합되었습니다.\n\n이 통합은 Debug Adapter Protocol을 활용하여 이루어졌으며, 개발자들이 코드 편집과 탐색은 물론 실물 하드웨어 기반의 디버깅까지 하나의 워크플로우 안에서 처리할 수 있도록 지원합니다. 결과적으로 임베디드 소프트웨어 개발 과정의 효율성과 편의성이 크게 향상될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/clion/2026/10/lauterbach-trace32-integration-in-clion/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Artemy Pestretsov",
+    "pubDate": "2026-10-14T09:40:12.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.3.5",
+    "title": "1.3.5",
+    "summary": "Added Auto mode, which approves file edits and safe commands without asking and still prompts before irreversible actions; commands that would leave the terminal sandbox are first reviewed by a separa",
+    "aiSummary": "파일 수정과 안전한 명령을 사용자의 추가 승인 없이 자동으로 처리하는 Auto 모드가 추가되었습니다. 이 모드는 터미널 샌드박스를 벗어나는 명령의 경우 별도의 에이전트가 사전 검토하며 Linux와 macOS에서 우선 지원합니다. \n\n대화 내용을 요약하여 컨텍스트 윈도우를 확보하는 /compact 명령이 도입되었습니다. 이를 통해 사용자는 대화의 맥락을 유지하면서 효율적으로 메모리를 관리할 수 있으며 요약 과정 중 Esc 키로 작업을 취소할 수 있습니다. \n\n/diff 파일 뷰에는 가독성을 높이기 위한 구문 강조 기능과 코드 접기 기능이 추가되었습니다. 코드 접기 기능은 huck 헤더를 통해 숨겨진 줄 수를 표시하고 단축키로 유연하게 제어할 수 있습니다. \n\n대용량 파일에 대한 /diff 성능이 개선되었습니다. 화면에 보이는 행만 렌더링하도록 변경되어 스크롤이나 파일 오픈 시 발생하는 끊김 현상이 해결되었으며 10만 줄 또는 10 MB 이상의 파일에 대해서는 안정성을 위해 일부 기능이 제한됩니다. \n\niTerm2를 SSH로 사용할 때 색상 표현이 256색으로 제한되던 문제가 해결되었습니다. 이제 환경 설정에 따라 24비트 풀컬러를 정상적으로 지원합니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.3.5",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-14T03:17:01.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+    "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+    "aiSummary": "Google DeepMind와 싱가포르 GovTech는 대화형 사기 범죄를 효과적으로 차단하기 위한 새로운 AI 협력 프로젝트를 시작합니다.\n\n이번 프로젝트는 경량화된 온디바이스 모델인 Gemma를 활용하여 개인 채팅 환경에서 실시간으로 사기 시도를 탐지하는 기술을 개발합니다.\n\n이 방식은 사용자 데이터를 클라우드로 전송하지 않고 기기 내부에서 직접 처리하는 온디바이스 방식을 채택하여 개인정보 유출을 원천적으로 방지합니다. \n\n이를 통해 민감한 대화 내용을 외부로 유출하지 않으면서도 보안 위협을 정밀하게 분석하고 차단할 수 있는 안전한 환경을 구축하는 것이 목표입니다.",
+    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-14T02:00:14.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/14/devoxxbelgium-everyday-json/",
+    "title": "Everyday JSON in Java",
+    "summary": "JSON is ubiquitous in modern software, and many use cases are just too small to justify adding external dependencies.\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTo address these everyday use cases, a new JEP proposes a simple, i",
+    "aiSummary": "현대 소프트웨어 개발에서 JSON은 필수적인 요소이지만, 간단한 작업을 위해 외부 라이브러리를 추가하는 것은 부담이 될 수 있습니다.\n\n이러한 문제를 해결하기 위해 Java에서는 JEP를 통해 JSON을 파싱하고 탐색하며 생성할 수 있는 간결한 인큐베이팅 API 도입을 제안하고 있습니다.\n\n이 새로운 API는 기존의 다양한 JSON 처리 라이브러리를 대체하기 위한 것이 아니라, 외부 의존성이 불필요하거나 사용하기 어려운 환경에서 가볍게 활용할 수 있는 대안을 제공하는 것을 목적으로 합니다.\n\nData-Oriented Programming을 활용하여 API 구조를 단순화했으며, 이를 통해 설계 시 고려된 트레이드오프와 구체적인 활용 가능성을 제시합니다.",
+    "url": "https://inside.java/2026/10/14/devoxxbelgium-everyday-json/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Alan Bateman",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/psqlodbc-18000005-released-with-security-fix-for-cve-2026-109448-3404/",
+    "title": "psqlODBC 18.00.0005 released with security fix for CVE-2026-109448\n",
+    "summary": "The psqlODBC team has released version 18.00.0005 of psqlODBC, the official ODBC driver for PostgreSQL. This release fixes one security vulnerability and two bugs. All users should upgrade.\nSecurity i",
+    "aiSummary": "PostgreSQL의 공식 ODBC 드라이버인 psqlODBC가 보안 취약점 수정 및 버그 개선을 포함한 18.00.0005 버전을 발표했습니다. 모든 사용자는 보안을 위해 최신 버전으로 업그레이드할 것을 권장합니다.\n\n이번 업데이트의 핵심인 CVE-2026-109448은 32767개 이상의 매개변수를 바인딩할 때 발생하는 힙 메모리 손상 문제입니다. 기존 드라이버는 매개변수 개수를 16비트 부호 있는 정수로 처리하여 범위를 초과할 경우 메모리 손상이나 애플리케이션 충돌을 유발할 수 있었습니다. 해결책으로 SQLBindParameter 함수가 32767을 초과하는 매개변수 요청을 거부하도록 변경되었으며, 이는 기존에 해당 개수 이상의 매개변수를 처리할 수 없었던 ODBC 표준 제한과 일치하므로 기존 애플리케이션 호환성에는 영향이 없습니다.\n\n보안 수정 외에도 두 가지 주요 버그가 수정되었습니다. 1000개 이상의 매개변수를 사용하는 서버 준비 문장에서 고정 크기 버퍼 제한으로 인해 발생하던 데이터 타입 식별 오류를 해결하였으며, 18.00.0003 버전부터 발생했던 MSDASQL을 통한 bytea 매개변수 사용 오류도 수정되었습니다. 또한 윈도우 패키지는 OpenSSL 3.5.9를 사용하여 빌드되었습니다.\n\n즉각적인 업그레이드가 어려운 경우에는 외부 입력으로부터 생성되는 매개변수 개수를 제한하거나, 긴 값 목록을 배열 매개변수로 전달하는 방식을 사용하여 우회할 수 있습니다. 자세한 내용은 GitHub의 릴리스 페이지와 GHSA-cmfx-rm3r-p2jr 권고문을 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/psqlodbc-18000005-released-with-security-fix-for-cve-2026-109448-3404/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgbouncer-1261-released-fixes-three-cves-3403/",
+    "title": "PgBouncer 1.26.1 released - Fixes three CVEs\n",
+    "summary": "PgBouncer 1.26.1 has been released. This release fixes three CVEs:\nCVE-2026-107350: Authentication bypass, allowing a client that knows the password of one SCRAM user to log in as any other SCRAM user",
+    "aiSummary": "PgBouncer 1.26.1 버전이 출시되었습니다. 이번 업데이트는 보안 취약점 3건에 대한 수정 사항을 포함하고 있습니다.\n\n첫 번째로 CVE-2026-107350은 인증 우회 문제로 존재하지 않는 데이터베이스에 연결할 때 특정 SCRAM 사용자 비밀번호를 아는 사용자가 관리자나 슈퍼유저를 포함한 다른 SCRAM 사용자로 로그인할 수 있는 결함입니다.\n\n두 번째로 CVE-2026-107349와 세 번째로 CVE-2026-107348은 인증되지 않은 클라이언트가 무한 루프를 유발하여 서비스 거부 상태를 만들 수 있는 취약점입니다. 전자는 시작 옵션 매개변수의 빈 옵션 이름으로 인해 발생하며, 후자는 max_packet_size를 기본값보다 높게 설정했을 때 패킷 버퍼 증가 로직에서 발생하는 정수 오버플로우가 원인입니다.\n\n기능적으로는 ignore_startup_parameters가 추적된 매개변수보다 우선순위를 갖도록 변경되었습니다. 이를 통해 ignore_startup_parameters 설정을 통해 기존 1.25 버전과 동일하게 특정 매개변수를 무시하는 동작을 복구할 수 있습니다. 자세한 정보와 변경 사항은 공식 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgbouncer-1261-released-fixes-three-cves-3403/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/introducing-pglifecycle-20-beta-3401/",
+    "title": "Introducing pglifecycle 2.0 beta\n",
+    "summary": "I’m pleased to announce the first public release of pglifecycle, an open source schema management tool for PostgreSQL.\npglifecycle keeps your database schema in version control as structured YAML, wit",
+    "aiSummary": "PostgreSQL 데이터베이스 스키마 관리 도구인 pglifecycle 2.0 베타 버전이 공개되었습니다. 이 도구는 데이터베이스의 테이블, 뷰, 함수, 역할 등의 스키마를 구조화된 YAML 파일 형태로 관리하여 버전 제어 시스템에서 쉽게 검토하고 변경할 수 있도록 지원합니다.\n\n주요 기능으로는 기존 데이터베이스에서 스키마 프로젝트를 추출하고 pg_restore를 위한 아카이브를 생성하는 것이 가능합니다. 또한 실시간 데이터베이스와 스키마를 비교하여 차이점을 식별하고 이를 조정하기 위한 DDL을 자동으로 생성합니다. 특히 배포 시 파괴적인 변경을 사전에 차단하는 안전한 배포 계획을 우선하며, GitHub Action을 통해 스키마 드리프트를 감지하고 변경 계획을 풀 리퀘스트에 게시하는 자동화 기능을 제공합니다.\n\n기존 도구를 Rust 언어로 재작성한 버전 2.0은 7년 이상 실무 환경에서 검증된 기술력을 바탕으로 PostgreSQL 객체 지원 범위를 확장하고 배포 안정성을 대폭 개선했습니다. 현재 오픈 소스로 제공되고 있으며 안정적인 정식 버전을 위해 사용자들의 피드백과 테스트 사례를 수집하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/introducing-pglifecycle-20-beta-3401/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/singapore-office-opening",
+    "title": "Singapore office and government MOU | Anthropic",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsAnthropic opens Singapore office and signs MOU with the Government of SingaporeOct 14, 2026Today, we are expanding our Asia-Pacific operations ",
+    "aiSummary": "Anthropic이 아시아 태평양 지역 확장을 위해 싱가포르에 신규 사무소를 개설하고 싱가포르 디지털개발정보부와 양해각서인 MOU를 체결했습니다. 이번 결정은 GovTech Singapore, Grab, DBS 등 싱가포르의 주요 기관 및 기업에서 Claude가 활발히 사용되고 있는 상황을 반영한 전략적 행보입니다.\n\nMOU의 주요 협력 분야는 AI 안전성과 보안, 모델 평가, 그리고 공공 및 민간 부문에서의 책임 있는 AI 도입 연구입니다. Anthropic은 이번 협약을 통해 싱가포르 정부와 기술 교류를 강화하고 모델 평가 기준 및 사고 대응 체계 등을 함께 마련할 계획입니다.\n\nAnthropic은 지난 2023년부터 싱가포르 정부가 주도하는 Generative AI Evaluation Sandbox에 참여하고 다국어 레드팀 프로젝트를 수행하는 등 긴밀한 협력 관계를 유지해 왔습니다. 이번 사무소 설립과 협력을 통해 Anthropic은 싱가포르를 거점으로 삼아 아시아 태평양 전역에 안전하고 신뢰할 수 있는 AI 기술을 확산시키겠다는 방침입니다.",
+    "url": "https://www.anthropic.com/news/singapore-office-opening",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
     "title": "GitHub App improvements for least privilege and management",
     "summary": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier ",
@@ -470,6 +617,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
+    "title": "This Week in Spring - October 13th, 2026 ",
+    "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring! This one I am writing from beautiful Carmel-by-the-Sea in sunny California's Bay Area, overlooking the Pacific Ocean",
+    "aiSummary": "Jobrunr 9 버전이 새롭게 출시되어 작업 실패 단계 확인과 성능 저하 원인 파악, 작업 중단 및 재시작 기능을 지원하며 Spring Initializr를 통해 사용할 수 있게 되었습니다.\n\nSpring Boot 애플리케이션 구조 설계와 관련하여 GeeksforGeeks에서 전통적인 계층형 아키텍처를 다루었으나 기능 단위로 구조를 구성하는 Spring Modulith 방식을 권장합니다. 또한 개발자 학습 로드맵인 DeveloperRoadmaps와 애플리케이션 스캐폴딩 도구인 Progen CLI에 대한 정보가 공유되었습니다.\n\nIntelliJ IDEA 컨퍼런스에서 공개된 영상들을 통해 IntelliJ IDEA의 새로운 기능과 Spring AI의 에이전트 패턴 및 도구 호출 방식에 대한 심층적인 내용을 확인할 수 있습니다. 마지막으로 A Bootiful Podcast에서는 Jenkins의 창시자인 Kohsuke Kawaguchi와의 인터뷰가 공개되었습니다.",
+    "url": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {

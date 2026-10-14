@@ -1,5 +1,152 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.143.1",
+    "title": "0.143.1",
+    "summary": "Fixes\n🐛 Fix included route metadata in iter_route_contexts(). PR #16484 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.143.1 버전 업데이트가 진행되었습니다. 이번 업데이트는 iter_route_contexts 함수 내에 포함된 경로 메타데이터와 관련된 오류를 해결하는 데 초점을 맞추고 있습니다. 해당 수정 사항은 tiangolo에 의해 제출된 PR #16484를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-14T12:52:51.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=clion&p=746013",
+    "title": "Lauterbach and JetBrains Announce TRACE32 Integration in CLion IDE",
+    "summary": "Hoehenkirchen, Germany/Amsterdam, Netherlands — October 14, 2026 — Lauterbach and JetBrains have integrated TRACE32® debugging tools with CLion, JetBrains’ professional C and C++ tool. The integration",
+    "aiSummary": "Lauterbach와 JetBrains가 임베디드 개발자를 위한 협력을 발표했습니다. 이번 협력을 통해 Lauterbach의 하드웨어 디버깅 도구인 TRACE32가 JetBrains의 C 및 C++ 통합 개발 환경인 CLion에 공식적으로 통합되었습니다.\n\n이 통합은 Debug Adapter Protocol을 활용하여 이루어졌으며, 개발자들이 코드 편집과 탐색은 물론 실물 하드웨어 기반의 디버깅까지 하나의 워크플로우 안에서 처리할 수 있도록 지원합니다. 결과적으로 임베디드 소프트웨어 개발 과정의 효율성과 편의성이 크게 향상될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/clion/2026/10/lauterbach-trace32-integration-in-clion/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Artemy Pestretsov",
+    "pubDate": "2026-10-14T09:40:12.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.3.5",
+    "title": "1.3.5",
+    "summary": "Added Auto mode, which approves file edits and safe commands without asking and still prompts before irreversible actions; commands that would leave the terminal sandbox are first reviewed by a separa",
+    "aiSummary": "파일 수정과 안전한 명령을 사용자의 추가 승인 없이 자동으로 처리하는 Auto 모드가 추가되었습니다. 이 모드는 터미널 샌드박스를 벗어나는 명령의 경우 별도의 에이전트가 사전 검토하며 Linux와 macOS에서 우선 지원합니다. \n\n대화 내용을 요약하여 컨텍스트 윈도우를 확보하는 /compact 명령이 도입되었습니다. 이를 통해 사용자는 대화의 맥락을 유지하면서 효율적으로 메모리를 관리할 수 있으며 요약 과정 중 Esc 키로 작업을 취소할 수 있습니다. \n\n/diff 파일 뷰에는 가독성을 높이기 위한 구문 강조 기능과 코드 접기 기능이 추가되었습니다. 코드 접기 기능은 huck 헤더를 통해 숨겨진 줄 수를 표시하고 단축키로 유연하게 제어할 수 있습니다. \n\n대용량 파일에 대한 /diff 성능이 개선되었습니다. 화면에 보이는 행만 렌더링하도록 변경되어 스크롤이나 파일 오픈 시 발생하는 끊김 현상이 해결되었으며 10만 줄 또는 10 MB 이상의 파일에 대해서는 안정성을 위해 일부 기능이 제한됩니다. \n\niTerm2를 SSH로 사용할 때 색상 표현이 256색으로 제한되던 문제가 해결되었습니다. 이제 환경 설정에 따라 24비트 풀컬러를 정상적으로 지원합니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.3.5",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-14T03:17:01.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+    "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+    "aiSummary": "Google DeepMind와 싱가포르 GovTech는 대화형 사기 범죄를 효과적으로 차단하기 위한 새로운 AI 협력 프로젝트를 시작합니다.\n\n이번 프로젝트는 경량화된 온디바이스 모델인 Gemma를 활용하여 개인 채팅 환경에서 실시간으로 사기 시도를 탐지하는 기술을 개발합니다.\n\n이 방식은 사용자 데이터를 클라우드로 전송하지 않고 기기 내부에서 직접 처리하는 온디바이스 방식을 채택하여 개인정보 유출을 원천적으로 방지합니다. \n\n이를 통해 민감한 대화 내용을 외부로 유출하지 않으면서도 보안 위협을 정밀하게 분석하고 차단할 수 있는 안전한 환경을 구축하는 것이 목표입니다.",
+    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-14T02:00:14.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/14/devoxxbelgium-everyday-json/",
+    "title": "Everyday JSON in Java",
+    "summary": "JSON is ubiquitous in modern software, and many use cases are just too small to justify adding external dependencies.\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTo address these everyday use cases, a new JEP proposes a simple, i",
+    "aiSummary": "현대 소프트웨어 개발에서 JSON은 필수적인 요소이지만, 간단한 작업을 위해 외부 라이브러리를 추가하는 것은 부담이 될 수 있습니다.\n\n이러한 문제를 해결하기 위해 Java에서는 JEP를 통해 JSON을 파싱하고 탐색하며 생성할 수 있는 간결한 인큐베이팅 API 도입을 제안하고 있습니다.\n\n이 새로운 API는 기존의 다양한 JSON 처리 라이브러리를 대체하기 위한 것이 아니라, 외부 의존성이 불필요하거나 사용하기 어려운 환경에서 가볍게 활용할 수 있는 대안을 제공하는 것을 목적으로 합니다.\n\nData-Oriented Programming을 활용하여 API 구조를 단순화했으며, 이를 통해 설계 시 고려된 트레이드오프와 구체적인 활용 가능성을 제시합니다.",
+    "url": "https://inside.java/2026/10/14/devoxxbelgium-everyday-json/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Alan Bateman",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/psqlodbc-18000005-released-with-security-fix-for-cve-2026-109448-3404/",
+    "title": "psqlODBC 18.00.0005 released with security fix for CVE-2026-109448\n",
+    "summary": "The psqlODBC team has released version 18.00.0005 of psqlODBC, the official ODBC driver for PostgreSQL. This release fixes one security vulnerability and two bugs. All users should upgrade.\nSecurity i",
+    "aiSummary": "PostgreSQL의 공식 ODBC 드라이버인 psqlODBC가 보안 취약점 수정 및 버그 개선을 포함한 18.00.0005 버전을 발표했습니다. 모든 사용자는 보안을 위해 최신 버전으로 업그레이드할 것을 권장합니다.\n\n이번 업데이트의 핵심인 CVE-2026-109448은 32767개 이상의 매개변수를 바인딩할 때 발생하는 힙 메모리 손상 문제입니다. 기존 드라이버는 매개변수 개수를 16비트 부호 있는 정수로 처리하여 범위를 초과할 경우 메모리 손상이나 애플리케이션 충돌을 유발할 수 있었습니다. 해결책으로 SQLBindParameter 함수가 32767을 초과하는 매개변수 요청을 거부하도록 변경되었으며, 이는 기존에 해당 개수 이상의 매개변수를 처리할 수 없었던 ODBC 표준 제한과 일치하므로 기존 애플리케이션 호환성에는 영향이 없습니다.\n\n보안 수정 외에도 두 가지 주요 버그가 수정되었습니다. 1000개 이상의 매개변수를 사용하는 서버 준비 문장에서 고정 크기 버퍼 제한으로 인해 발생하던 데이터 타입 식별 오류를 해결하였으며, 18.00.0003 버전부터 발생했던 MSDASQL을 통한 bytea 매개변수 사용 오류도 수정되었습니다. 또한 윈도우 패키지는 OpenSSL 3.5.9를 사용하여 빌드되었습니다.\n\n즉각적인 업그레이드가 어려운 경우에는 외부 입력으로부터 생성되는 매개변수 개수를 제한하거나, 긴 값 목록을 배열 매개변수로 전달하는 방식을 사용하여 우회할 수 있습니다. 자세한 내용은 GitHub의 릴리스 페이지와 GHSA-cmfx-rm3r-p2jr 권고문을 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/psqlodbc-18000005-released-with-security-fix-for-cve-2026-109448-3404/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgbouncer-1261-released-fixes-three-cves-3403/",
+    "title": "PgBouncer 1.26.1 released - Fixes three CVEs\n",
+    "summary": "PgBouncer 1.26.1 has been released. This release fixes three CVEs:\nCVE-2026-107350: Authentication bypass, allowing a client that knows the password of one SCRAM user to log in as any other SCRAM user",
+    "aiSummary": "PgBouncer 1.26.1 버전이 출시되었습니다. 이번 업데이트는 보안 취약점 3건에 대한 수정 사항을 포함하고 있습니다.\n\n첫 번째로 CVE-2026-107350은 인증 우회 문제로 존재하지 않는 데이터베이스에 연결할 때 특정 SCRAM 사용자 비밀번호를 아는 사용자가 관리자나 슈퍼유저를 포함한 다른 SCRAM 사용자로 로그인할 수 있는 결함입니다.\n\n두 번째로 CVE-2026-107349와 세 번째로 CVE-2026-107348은 인증되지 않은 클라이언트가 무한 루프를 유발하여 서비스 거부 상태를 만들 수 있는 취약점입니다. 전자는 시작 옵션 매개변수의 빈 옵션 이름으로 인해 발생하며, 후자는 max_packet_size를 기본값보다 높게 설정했을 때 패킷 버퍼 증가 로직에서 발생하는 정수 오버플로우가 원인입니다.\n\n기능적으로는 ignore_startup_parameters가 추적된 매개변수보다 우선순위를 갖도록 변경되었습니다. 이를 통해 ignore_startup_parameters 설정을 통해 기존 1.25 버전과 동일하게 특정 매개변수를 무시하는 동작을 복구할 수 있습니다. 자세한 정보와 변경 사항은 공식 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgbouncer-1261-released-fixes-three-cves-3403/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/introducing-pglifecycle-20-beta-3401/",
+    "title": "Introducing pglifecycle 2.0 beta\n",
+    "summary": "I’m pleased to announce the first public release of pglifecycle, an open source schema management tool for PostgreSQL.\npglifecycle keeps your database schema in version control as structured YAML, wit",
+    "aiSummary": "PostgreSQL 데이터베이스 스키마 관리 도구인 pglifecycle 2.0 베타 버전이 공개되었습니다. 이 도구는 데이터베이스의 테이블, 뷰, 함수, 역할 등의 스키마를 구조화된 YAML 파일 형태로 관리하여 버전 제어 시스템에서 쉽게 검토하고 변경할 수 있도록 지원합니다.\n\n주요 기능으로는 기존 데이터베이스에서 스키마 프로젝트를 추출하고 pg_restore를 위한 아카이브를 생성하는 것이 가능합니다. 또한 실시간 데이터베이스와 스키마를 비교하여 차이점을 식별하고 이를 조정하기 위한 DDL을 자동으로 생성합니다. 특히 배포 시 파괴적인 변경을 사전에 차단하는 안전한 배포 계획을 우선하며, GitHub Action을 통해 스키마 드리프트를 감지하고 변경 계획을 풀 리퀘스트에 게시하는 자동화 기능을 제공합니다.\n\n기존 도구를 Rust 언어로 재작성한 버전 2.0은 7년 이상 실무 환경에서 검증된 기술력을 바탕으로 PostgreSQL 객체 지원 범위를 확장하고 배포 안정성을 대폭 개선했습니다. 현재 오픈 소스로 제공되고 있으며 안정적인 정식 버전을 위해 사용자들의 피드백과 테스트 사례를 수집하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/introducing-pglifecycle-20-beta-3401/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/singapore-office-opening",
+    "title": "Singapore office and government MOU | Anthropic",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsAnthropic opens Singapore office and signs MOU with the Government of SingaporeOct 14, 2026Today, we are expanding our Asia-Pacific operations ",
+    "aiSummary": "Anthropic이 아시아 태평양 지역 확장을 위해 싱가포르에 신규 사무소를 개설하고 싱가포르 디지털개발정보부와 양해각서인 MOU를 체결했습니다. 이번 결정은 GovTech Singapore, Grab, DBS 등 싱가포르의 주요 기관 및 기업에서 Claude가 활발히 사용되고 있는 상황을 반영한 전략적 행보입니다.\n\nMOU의 주요 협력 분야는 AI 안전성과 보안, 모델 평가, 그리고 공공 및 민간 부문에서의 책임 있는 AI 도입 연구입니다. Anthropic은 이번 협약을 통해 싱가포르 정부와 기술 교류를 강화하고 모델 평가 기준 및 사고 대응 체계 등을 함께 마련할 계획입니다.\n\nAnthropic은 지난 2023년부터 싱가포르 정부가 주도하는 Generative AI Evaluation Sandbox에 참여하고 다국어 레드팀 프로젝트를 수행하는 등 긴밀한 협력 관계를 유지해 왔습니다. 이번 사무소 설립과 협력을 통해 Anthropic은 싱가포르를 거점으로 삼아 아시아 태평양 전역에 안전하고 신뢰할 수 있는 AI 기술을 확산시키겠다는 방침입니다.",
+    "url": "https://www.anthropic.com/news/singapore-office-opening",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
     "title": "GitHub App improvements for least privilege and management",
     "summary": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier ",
@@ -470,6 +617,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
+    "title": "This Week in Spring - October 13th, 2026 ",
+    "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring! This one I am writing from beautiful Carmel-by-the-Sea in sunny California's Bay Area, overlooking the Pacific Ocean",
+    "aiSummary": "Jobrunr 9 버전이 새롭게 출시되어 작업 실패 단계 확인과 성능 저하 원인 파악, 작업 중단 및 재시작 기능을 지원하며 Spring Initializr를 통해 사용할 수 있게 되었습니다.\n\nSpring Boot 애플리케이션 구조 설계와 관련하여 GeeksforGeeks에서 전통적인 계층형 아키텍처를 다루었으나 기능 단위로 구조를 구성하는 Spring Modulith 방식을 권장합니다. 또한 개발자 학습 로드맵인 DeveloperRoadmaps와 애플리케이션 스캐폴딩 도구인 Progen CLI에 대한 정보가 공유되었습니다.\n\nIntelliJ IDEA 컨퍼런스에서 공개된 영상들을 통해 IntelliJ IDEA의 새로운 기능과 Spring AI의 에이전트 패턴 및 도구 호출 방식에 대한 심층적인 내용을 확인할 수 있습니다. 마지막으로 A Bootiful Podcast에서는 Jenkins의 창시자인 Kohsuke Kawaguchi와의 인터뷰가 공개되었습니다.",
+    "url": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-10-14T12:56:23.404Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -1697,152 +1860,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/teens-learn-and-plan",
-    "title": "Helping teens learn, plan, and shape the future of AI",
-    "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-    "aiSummary": "ChatGPT for Teens에 청소년의 대학 입시 준비를 돕는 College Planner 기능이 새롭게 도입됩니다.\n\n해당 기능은 학생들이 대학 지원 과정을 체계적으로 관리할 수 있도록 지원합니다.\n\n또한 학습 효율을 높이기 위한 플래시카드와 퀴즈 기능이 추가되며, 청소년의 관점에서 AI의 미래를 논의하기 위한 Teen AI Council이 운영될 예정입니다.",
-    "url": "https://openai.com/index/teens-learn-and-plan",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-10-07T12:00:00.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/apollo-summit-2026-product-highlights",
-    "title": "Apollo Summit 2026 Product Highlights: The Governed Graph for Agents and Apps",
-    "summary": "There’s a clear chain of logic that most companies adopting agents discover through trial and error:\n\n\n\n\nAgents need enterprise context to do meaningful work. Without information about the business, t",
-    "aiSummary": "Apollo는 Apollo Summit 2026에서 AI 에이전트가 기업 시스템과 안전하게 상호작용할 수 있도록 지원하는 GraphOS Agent Services를 발표했습니다. 이 서비스는 AI 에이전트와 기업 API 사이에서 중간 관리자 역할을 수행하며 에이전트가 접근 가능한 데이터와 기능을 정책 기반으로 정밀하게 제어합니다. 주요 기능으로는 에이전트 검색, 신원 관리, 필드 수준의 정책 적용, 감사 로그 기록 등이 포함되어 있어 기업은 에이전트의 활동을 완벽하게 통제하고 모니터링할 수 있습니다.\n\n이와 함께 개발자가 AI 에이전트용 도메인 모델을 더 쉽게 구축할 수 있도록 돕는 GraphOS Desktop과 기존 REST API를 신속하게 Apollo Connectors로 전환해 주는 GraphOS Factory가 도입되었습니다. 또한 GraphOS MCP Server는 자연어를 통한 그래프 관리를 지원하며 더 많은 플랫폼 API를 에이전트에 노출합니다.\n\n인프라 측면에서는 성능과 안정성을 강화한 GraphOS Router 3.0이 공개되었습니다. 이 버전은 재설계된 요청 처리 파이프라인과 신규 증분 쿼리 플래너를 통해 쿼리 계획 속도를 대폭 높였으며, 서브그래프 과부하를 방지하는 서킷 브레이커 기능을 추가했습니다. 보안 및 운영 편의성도 향상되어 특정 환경에만 권한을 부여하는 variant API keys와 트러블슈팅을 단순화하는 GraphOS Router Support Tool이 제공됩니다.\n\n마지막으로 Apollo Connectors v0.4의 정식 출시와 Apollo Client 4.3의 커스텀 스칼라 지원 등을 통해 전반적인 개발자 경험과 생산성을 개선했습니다. Apollo는 이번 업데이트를 통해 기업이 AI 에이전트를 도입할 때 겪는 보안, 데이터 문맥 파악, 거버넌스 문제를 해결하고 확장 가능한 에이전트 환경을 제공하고자 합니다.",
-    "url": "https://www.apollographql.com/blog/apollo-summit-2026-product-highlights",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Kaitlyn Barnard",
-    "pubDate": "2026-10-07T11:35:41.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/introducing-graphos-agent-services",
-    "title": "Introducing GraphOS Agent Services",
-    "summary": "Creating your first agent was easy. Someone pointed an MCP client at a few internal services, wrote some skills by hand, and in a couple of days it was summarizing campaign performance emails or triag",
-    "aiSummary": "기업 내 에이전트 도입이 늘어남에 따라 보안과 데이터 접근 제어 문제로 인해 프로젝트가 정체되는 현상이 발생하고 있습니다. 많은 에이전트가 개별적인 API 키나 자격 증명을 사용하면서 데이터 유출 위험이 커지고, 보안팀은 에이전트가 어떤 데이터에 접근하는지 명확히 파악하기 어렵습니다. 이러한 문제를 해결하기 위해 Apollo GraphQL은 GraphOS Agent Services의 공개 프리뷰를 발표했습니다.\n\nGraphOS Agent Services는 기업의 도메인 모델을 구축하고 이를 기반으로 에이전트의 접근 권한과 동작을 제어 및 감사하는 기능을 제공합니다. 주요 기능으로는 에이전트가 필요한 도구와 데이터를 찾을 수 있게 돕는 검색 기능과 에이전트 및 사용자별 자격 증명을 관리하는 ID 관리 기능이 있습니다. 또한 필드 단위의 세밀한 정책 설정을 통해 에이전트가 접근할 수 있는 데이터 범위를 엄격하게 통제합니다.\n\n시스템은 그래프 구조를 활용하여 기업 내 모든 서비스와 데이터 간의 관계를 모델링합니다. 이를 통해 보안 관리자는 특정 필드에 태그를 지정하고, 해당 태그에 기반한 정책을 적용하여 에이전트가 민감한 정보를 열람하는 것을 원천적으로 차단할 수 있습니다. 예를 들어, 동일한 에이전트를 사용하더라도 사용자의 직무에 따라 접근 가능한 데이터 범위를 다르게 설정하는 것이 가능합니다.\n\n모든 요청은 GraphOS Agent Services를 거치며, 요청 시점의 ID 검증과 응답 시점의 데이터 필터링이 수행됩니다. 또한 모든 동작은 상세한 로그로 기록되어 추후 감사와 보안 검토 시 누가 어떤 데이터에 접근했는지 투명하게 확인할 수 있습니다. 이를 통해 기업은 에이전트의 오남용을 방지하고 보안 리스크를 최소화함으로써 AI 프로젝트를 안전하게 운영할 수 있습니다.\n\n이미 Intuit와 같은 기업이 GraphOS Agent Services를 도입하여 실시간 데이터 기반의 지능형 업무 처리를 수행하고 있습니다. Apollo GraphQL은 GraphOS Factory 스킬을 통해 기존의 REST API 등을 도메인 모델로 빠르게 통합할 수 있도록 지원하며, 보안팀의 승인 프로세스를 표준화하여 에이전트 개발 및 배포 속도를 높이는 것을 목표로 합니다.",
-    "url": "https://www.apollographql.com/blog/introducing-graphos-agent-services",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Adam DeLisse",
-    "pubDate": "2026-10-07T11:34:00.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/introducing-graphos-router-3-0",
-    "title": "Introducing GraphOS Router 3.0",
-    "summary": "GraphOS Router (https://www.apollographql.com/graphos-router) runs your graph, bringing data from its services together into an API your apps can use. With GraphOS Router 3.0 (https://www.apollographq",
-    "aiSummary": "Apollo가 GraphOS Router 3.0의 프리뷰 버전을 공개하였습니다. 이번 업데이트는 API 운영의 제어권을 강화하고 성능과 안정성을 높이는 데 중점을 두었습니다.\n\nGraph Artifacts 기능을 확장하여 사용자가 배포 과정에서 스키마와 지속적인 쿼리를 직접 관리할 수 있게 되었습니다. 이를 통해 시작 시점에 관리 평면에 의존할 필요 없이 인프라 내에서 직접 배포 버전을 제어하고 롤백할 수 있습니다.\n\n쿼리 계획 알고리즘의 개선으로 인해 대규모 쿼리 처리 속도가 최대 300배 빨라졌으며 메모리 사용량은 97% 감소하였습니다. 또한 요청 파이프라인을 Rust 기반의 Tower 서비스로 재작성하여 데이터 처리 효율을 높였으며, 응답 처리 시 메모리 주소 기반의 추적을 통해 JSON 데이터 작업 부하를 줄였습니다.\n\n시스템 안정성을 위해 하위 그래프와 Apollo Connectors에 대한 네이티브 회로 차단기 기능이 추가되었습니다. 특정 실패 임계값에 도달하면 요청을 차단하고 복구 여부를 확인하여 오류 확산을 방지합니다. 또한 Redis를 활용한 분산 속도 제한 기능을 도입하여 여러 Router 인스턴스 간에 일관된 트래픽 제어가 가능해졌습니다.\n\n기술 표준 측면에서는 최신 GraphQL 명세를 지원합니다. @oneOf 지시어를 통한 상호 배타적 입력 모델링이 가능해졌으며, @deprecated 지시어에 대한 검증 강화와 유니코드 지원 확대 등 개발 편의성과 스키마 명확성을 높이는 기능들이 포함되었습니다.\n\n기존 GraphOS Router 2.x 사용자는 공식 문서를 통해 업그레이드 가이드를 확인하고 프리뷰 버전을 바로 체험할 수 있습니다.",
-    "url": "https://www.apollographql.com/blog/introducing-graphos-router-3-0",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Matthew Ratzke",
-    "pubDate": "2026-10-07T11:31:00.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/introducing-graphos-factory",
-    "title": "Introducing GraphOS Factory",
-    "summary": "GraphOS Factory is an agent skill that turns an existing REST API into an Apollo Connectors subgraph. Point it at an OpenAPI or Swagger spec, or at the API’s public docs, and it inventories the API, t",
-    "aiSummary": "Apollo는 기존 REST API를 Apollo Connectors subgraph로 변환해 주는 에이전트 스킬인 GraphOS Factory를 공개했습니다. 이 도구는 OpenAPI나 Swagger 사양, 혹은 API 문서를 기반으로 API를 인벤토리화하고, 비즈니스 도메인 모델에 적합한 데이터 구조를 설계하도록 지원합니다.\n\n일반적인 일회성 생성 방식과 달리 GraphOS Factory는 모든 결정 사항과 작업 과정을 Git 환경에 기록합니다. 이를 통해 사용자는 API 변경 사항에 대응하거나 모델을 개선할 때 처음부터 다시 시작할 필요 없이 이전 상태에서 작업을 이어갈 수 있습니다. 또한 모든 정보가 디스크에 저장되므로 팀원 간 협업이 용이하며, 소프트웨어 개발 생명주기 안에서 코드를 관리하듯 지속적인 유지보수가 가능합니다.\n\n작업 과정은 워크스페이스 설정, API 인벤토리 구성, 도메인 범위 지정, 설계 결정, 검증 및 내보내기 단계로 이루어집니다. 특히 검증 과정에서는 composition 체크, 유닛 테스트, Router를 이용한 엔드투엔드 테스트 등이 수행되어 결과물의 신뢰성을 보장합니다.\n\n현재 GraphOS Factory는 Apollo Skills 저장소에서 프리뷰 버전으로 제공되고 있습니다. Apollo는 이 도구가 단순히 코드를 생성하는 단계를 넘어 엔지니어가 도메인 모델링에 집중하고, API와 그래프가 함께 진화하는 환경을 구축하는 데 기여할 것으로 기대합니다.",
-    "url": "https://www.apollographql.com/blog/introducing-graphos-factory",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "David Walter",
-    "pubDate": "2026-10-07T11:30:50.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://www.apollographql.com/blog/apollo-connectors-v0-4-is-generally-available",
-    "title": "Apollo Connectors v0.4 is Generally Available",
-    "summary": "Apollo Connectors (https://www.apollographql.com/docs/graphos/connectors/why-connectors) let subgraph schemas turn REST or HTTP APIs into typed GraphQL with no resolver code and no subgraph server to ",
-    "aiSummary": "Apollo Connectors v0.4가 공식 출시되며 실험적 단계를 벗어나 정식 서비스가 되었습니다. 이번 업데이트는 REST 또는 HTTP API를 GraphQL로 변환할 때 리졸버 코드나 별도의 서브그래프 서버 없이도 복잡한 데이터 구조를 처리할 수 있도록 지원하며, 특히 개발 생산성과 AI 에이전트 연동성을 높이는 데 중점을 두었습니다.\n\n가장 눈에 띄는 기능은 가상 커넥터 도입입니다. 이는 네트워크 요청 없이도 로컬 입력값을 바탕으로 데이터를 매핑하는 기능으로, API 문서에 있는 JSON 예시를 스키마에 직접 붙여 넣어 실제 API 구현 전에도 테스트가 가능하게 합니다. 또한 스키마 작성 시 제약 사항을 줄여 GraphQL과 JSON 문법을 통합한 일관된 문법 체계를 갖추었으며, 복잡한 객체 리터럴 처리 및 쉼표 사용 규칙 등을 간소화했습니다.\n\n이번 버전에서는 추상 타입인 인터페이스와 유니온을 지원하여 폴리모픽한 REST 데이터를 효과적으로 쿼리할 수 있게 되었습니다. 정적 분석 기능이 대폭 강화되어 매핑 과정에서 발생할 수 있는 데이터 타입 불일치나 존재하지 않는 데이터 참조 오류를 사전에 감지하고 구체적인 진단 메시지를 제공합니다. 이를 통해 개발자와 AI 에이전트가 보다 직관적이고 오류가 적은 코드를 작성할 수 있습니다.\n\n추가적인 편의 기능으로 문자열 분할, 공백 제거, JSON 파싱 및 키 케이스 변환 등을 수행하는 화살표 메서드가 강화되었으며, 이는 데이터 변환 로직을 선언적 방식으로 간편하게 구현하도록 돕습니다. Apollo Connectors는 Apollo MCP Server를 통해 AI 에이전트가 동일한 API 레이어를 도구로 활용할 수 있도록 지원하며, 향후 v0.5에서는 정적 분석 결과를 개발자에게 경고 메시지로 제공하는 등 개발 경험을 더욱 고도화할 계획입니다.",
-    "url": "https://www.apollographql.com/blog/apollo-connectors-v0-4-is-generally-available",
-    "category": "데이터베이스",
-    "source": "Apollo GraphQL",
-    "author": "Ben Newman",
-    "pubDate": "2026-10-07T11:30:47.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "GraphQL",
-      "Apollo"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=744876",
-    "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
-    "summary": "The Kotlin Toolchain is a unified entry point into Kotlin. It lets you build JVM, Android, iOS, multiplatform, and server-side applications with a simple declarative configuration. With the release of",
-    "aiSummary": "Kotlin Toolchain v0.13 버전이 출시되었습니다. 이 도구는 JVM, Android, iOS, Multiplatform 및 서버 사이드 애플리케이션 개발을 위한 통합 진입점 역할을 수행하며, 간단한 선언적 구성을 통해 프로젝트 빌드를 지원합니다.\n\n올해 초 Alpha 단계로 격상된 이후 꾸준한 개선을 거쳐 현재는 대부분의 새로운 Kotlin Multiplatform 프로젝트 시작 시 권장되는 표준 도구로 자리 잡았습니다. 개발자는 이를 통해 더욱 효율적이고 일관된 환경에서 프로젝트를 설정할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
-    "category": "프로그래밍 언어",
-    "source": "Kotlin Blog",
-    "author": "Anton Makeev",
-    "pubDate": "2026-10-07T10:21:46.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "Kotlin",
-      "Android"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.3.1",
-    "title": "1.3.1",
-    "summary": "Improved navigation in the /diff file view: ←/→ now open the next or previous file at its first change with the hunk header and leading context in view, each file remembers its cursor and scroll posit",
-    "aiSummary": "Antigravity 1.3.1 업데이트는 /diff 파일 뷰의 탐색 경험을 개선하고 여러 가지 안정성 및 사용성 오류를 수정하였습니다.\n\n파일 뷰 탐색 기능이 강화되어 이제 방향키를 사용하여 파일 간의 이동이 더 편리해졌으며 각 파일은 커서 위치와 스크롤 상태를 기억합니다. 또한 n과 N 키를 통해 파일 경계를 넘어 다음 또는 이전 변경 사항으로 즉시 이동할 수 있게 되었으며 하단 힌트 표시줄의 가독성도 향상되었습니다. 파일 헤더에는 현재 변경 사항의 위치 정보가 표시되어 작업 현황을 더욱 명확히 파악할 수 있습니다.\n\n플러그인 및 MCP 서버 관련 문제도 해결되었습니다. Windows 환경에서 MCP 서버가 실행 중일 때 플러그인을 설치하거나 삭제할 수 없던 현상을 개선하여 프로세스를 자동으로 관리하도록 하였으며 UTF-8 BOM이 포함된 설정 파일도 정상적으로 불러옵니다. 또한 마크다운 커스텀 에이전트에서 상대 경로로 정의된 스킬이나 플러그인 참조 오류를 수정하여 서브 에이전트 구동의 정확성을 높였습니다.\n\n에이전트 관리와 상태 표시 기능도 개선되었습니다. 서브 에이전트가 오류로 중단될 경우 해당 상태가 정확히 표시되며 /tasks 명령과 상태 표시줄에서 백그라운드 쉘 명령어뿐만 아니라 예약된 작업과 타이머 정보도 확인할 수 있습니다. \n\n그 외에도 /rewind 명령 사용 시 메시지 표시 오류 수정, 대기 메시지 전송 로직 개선, 질문 대기 시 터미널 알림 활성화, MCP 서버 재시작 실패 방지 등의 변경 사항이 포함되었습니다. 사용자 인증이 필요한 계정의 오류 메시지 보완과 Gemini API 연결 끊김 시 재시도 로직을 추가하여 전반적인 시스템 신뢰성을 확보하였습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.3.1",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-07T03:22:09.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-35-0",
-    "title": "Route::query() and Model defaults() in Laravel 13.35",
-    "summary": "Laravel 13.35 adds Route::query(), an opt-in defaults() method for models, property arrays in fake assertions, percentage worker memory limits, and more.\nThe post Route::query() and Model defaults() i",
-    "aiSummary": "Laravel 13.35 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 특정 경로의 쿼리 매개변수를 처리하기 위한 Route::query() 기능이 추가되었습니다.\n\n또한 모델 수준에서 사용할 수 있는 선택적 defaults() 메서드가 도입되어 데이터 설정이 더욱 편리해졌습니다. 이외에도 fake assertions에서 속성 배열을 활용할 수 있게 되었으며 워커 메모리 제한을 백분율로 설정할 수 있는 기능 등이 포함되었습니다.",
-    "url": "https://laravel-news.com/laravel-13-35-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-10-07T03:01:25.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "Laravel",
-      "PHP"
     ]
   }
 ]
