@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+    "title": "GitHub App improvements for least privilege and management",
+    "summary": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier ",
+    "aiSummary": "GitHub가 개발자들이 기존의 Classic PAT를 대체하고 GitHub App의 보안과 관리 효율성을 높일 수 있도록 다양한 기능을 개선했습니다. 이번 업데이트를 통해 최소 권한 원칙을 준수하면서도 필요한 권한만 선별적으로 요청할 수 있는 환경이 조성되었습니다.\n\n개발자들은 더 안전한 방식의 권한 관리 기능을 통해 불필요한 민감 정보 접근을 줄이고 효율적인 앱 운영을 기대할 수 있습니다. GitHub는 개발자들이 더욱 안전하게 개발 워크플로우를 관리할 수 있도록 지속적인 개선을 제공할 예정입니다.",
+    "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-13T23:17:55.000Z",
+    "fetchedAt": "2026-10-14T01:59:42.263Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=blog&p=746459",
     "title": "What We Heard at AGNTCon Europe",
     "summary": "The night before AGNTCon + MCPCon Europe, we hosted the Agentic AI Foundation community at the JetBrains office in Amsterdam. The event filled up fast and went to a waitlist, which is not what I expec",
@@ -1827,103 +1843,6 @@
     "tags": [
       "Laravel",
       "PHP"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026",
-    "title": "Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search ",
-    "summary": "Elastic was named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search. We ranked #1 in the AI Automation Use Case in the companion Critical Capabilities report.",
-    "aiSummary": "Elastic이 2026 Gartner Magic Quadrant for Enterprise AI Search 부문에서 리더로 선정되었습니다. 또한 동반 보고서인 Critical Capabilities에서는 AI Automation 유스케이스 부문 1위를 기록하며 기술적 역량을 인정받았습니다.",
-    "url": "https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Loren Erickson",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/gpt-6-for-everyone",
-    "title": "GPT-6 and Intelligent UI for everyone",
-    "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-    "aiSummary": "OpenAI가 전 세계 ChatGPT 사용자들을 대상으로 GPT-6를 순차적으로 출시합니다. 이번 업데이트의 핵심은 Intelligent UI를 도입하여 응답 속도를 한층 개선한 것입니다. 사용자들은 시각적 요소가 강화된 인터페이스를 통해 이전보다 직관적이고 인터랙티브한 경험을 직접 탐색하고 활용할 수 있습니다.",
-    "url": "https://openai.com/index/gpt-6-for-everyone",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "fetchedAt": "2026-10-07T20:40:34.315Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgx-bm25-10-bm25-ranked-full-text-search-as-a-native-postgresql-index-3396/",
-    "title": "pgx-bm25 1.0: BM25 ranked full-text search as a native PostgreSQL index\n",
-    "summary": "PGX Inc. has released version 1.0 of pgx-bm25, an extension that adds Okapi BM25 ranked full-text search to PostgreSQL as a native index access method. It supports PostgreSQL 17 and 18, and installs a",
-    "aiSummary": "PGX Inc.에서 PostgreSQL을 위한 새로운 확장 기능인 pgx-bm25 1.0 버전을 출시했습니다. 이 도구는 Okapi BM25 기반의 순위 지정 전체 텍스트 검색 기능을 PostgreSQL의 네이티브 인덱스 액세스 방식으로 통합합니다. 외부 검색 엔진이나 별도의 런타임 운영이 필요 없으며 PostgreSQL의 핵심 기능인 WAL 로깅, 충돌 복구, 물리적 복제 등을 그대로 활용할 수 있다는 점이 특징입니다.\n\n해당 확장 기능은 C 언어로 작성되었으며 PostgreSQL 17 및 18 버전을 지원합니다. 인덱스는 PostgreSQL의 Snowball 사전과 연동되어 텍스트 분석을 수행하며, block-max WAND 알고리즘을 사용하여 대규모 데이터에서도 효율적인 상위 N개 검색을 지원합니다.\n\n주요 기능으로는 BM25F 채점 방식을 통한 다중 열 인덱싱, 정밀한 구문 및 근접성 검색, 불리언 쿼리 처리, 접두사 와일드카드 검색 등이 포함됩니다. 또한 쿼리 작성 시 빌더 함수를 통해 jsonb 쿼리 트리를 생성함으로써 SQL 인젝션 보안을 강화했습니다.\n\npgx-bm25는 PostgreSQL 라이선스를 따르며 독립적인 오픈소스 프로젝트로 제공됩니다. 인덱스 형식은 호환성을 보장하도록 설계되어 있으며 업데이트 시 인플레이스 마이그레이션을 지원합니다. 소스 코드와 상세 문서 등은 GitHub 저장소를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pgx-bm25-10-bm25-ranked-full-text-search-as-a-native-postgresql-index-3396/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_plan_filter-100-released-3352/",
-    "title": "pg_plan_filter 1.0.0 released\n",
-    "summary": "pg_plan_filter version 1.0.0 has been released.\nThis loadable module test sstatements against specific configured criteria\nbefore execution, raising an error if the criteria are violated. This\nallows ",
-    "aiSummary": "PostgreSQL을 위한 확장 모듈인 pg_plan_filter 1.0.0 버전이 새롭게 출시되었습니다. 이 모듈은 데이터베이스 관리자가 쿼리 실행 전에 특정 기준을 검사하여 정책에 위반되는 경우 오류를 발생시키도록 설계되었습니다.\n\n주요 기능은 쿼리 플래너의 예상 비용을 기반으로 제어하는 방식입니다. 개별 쿼리의 실행 계획 비용이 설정된 한도를 초과할 경우 차단하는 statement_cost_limit 기능과 트랜잭션 내 모든 쿼리의 누적 비용을 제한하는 transaction_cost_limit 기능을 제공합니다. 또한 선택적으로 SELECT 문에만 필터를 적용할 수 있는 filter_select_only 옵션도 지원합니다.\n\n해당 모듈은 향후 다양한 필터 유형을 추가할 수 있도록 확장성을 고려하여 설계되었습니다. 현재 PostgreSQL 14부터 18 버전까지 지원하며 운영 데이터베이스에서 위험한 쿼리의 실행을 사전에 방지하는 용도로 활용할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg_plan_filter-100-released-3352/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-ai-sdk-1-1",
-    "title": "Laravel AI SDK 1.1 Adds Agent Skills and Cohere Chat",
-    "summary": "Laravel AI SDK 1.1 adds Agent Skills support, Cohere text generation, approval for built-in tools, and failover that skips provider tools a provider lacks.\nThe post Laravel AI SDK 1.1 Adds Agent Skill",
-    "aiSummary": "Laravel AI SDK 1.1 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 에이전트 스킬 지원 기능이 추가된 것이며, 텍스트 생성을 위한 Cohere 모델 연동이 가능해졌습니다.\n\n또한 내장 도구 사용 시 승인 절차를 거치도록 변경되었으며, 특정 공급자가 도구를 지원하지 않을 경우 이를 건너뛰고 다음 공급자로 넘어가는 페일오버 기능이 개선되었습니다. 이를 통해 개발자는 AI 에이전트 개발 과정에서 더 유연하고 안정적인 도구 활용이 가능해집니다.",
-    "url": "https://laravel-news.com/laravel-ai-sdk-1-1?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-10-06T23:51:31.000Z",
-    "fetchedAt": "2026-10-07T14:36:11.097Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-    "title": "Update your IDE to restore agent activity in Copilot usage metrics",
-    "summary": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out…\nThe post Update your IDE to re",
-    "aiSummary": "GitHub Copilot 사용 통계에서 전체 사용량은 증가함에도 에이전트 활동이나 에이전트가 작성한 코드 라인 수가 감소하는 현상이 확인되었습니다.\n\nGitHub 측은 해당 문제의 원인을 파악하였으며, 이를 해결하기 위한 업데이트를 배포하고 있습니다.\n\n사용자는 본인의 IDE를 최신 버전으로 업데이트하여 Copilot 사용 통계 데이터를 정상적으로 복구할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-06T23:43:00.000Z",
-    "fetchedAt": "2026-10-07T02:29:17.348Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
