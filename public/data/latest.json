@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://www.docker.com/?p=94888",
+    "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
+    "summary": "Learn the top AI agent security risks, from prompt injection to excessive autonomy and credential exposure, and how to contain them.",
+    "aiSummary": "AI Agent의 자율성이 높아짐에 따라 발생할 수 있는 주요 보안 위협이 대두되고 있습니다. 대표적인 위험 요소로는 악의적인 의도가 포함된 입력값을 통해 시스템을 조작하는 Prompt Injection 공격과 사용자의 권한을 과도하게 부여받아 발생하는 비정상적인 자율 활동 문제가 있습니다. 또한 Agent가 민감한 Credential 정보에 직접 접근하여 외부로 노출할 수 있는 위험도 존재합니다. 이러한 보안 위협을 방지하기 위해서는 Agent의 권한을 엄격히 제한하고 실시간 모니터링 체계를 구축하여 잠재적인 위험을 사전에 차단하는 전략이 필요합니다.",
+    "url": "https://www.docker.com/blog/ai-agent-security-risks/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jackie Frederick",
+    "pubDate": "2026-10-14T22:08:33.000Z",
+    "fetchedAt": "2026-10-15T01:34:24.394Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=94820",
+    "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
+    "summary": "Harbor can now run every eval task in Docker Sandboxes Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely With Sandboxes, define custom network po",
+    "aiSummary": "Harbor가 Docker Sandboxes를 활용한 에이전트 평가 환경을 지원합니다. Docker Sandboxes는 MicroVM 기술을 기반으로 하여 Claude Code, Codex, Cursor와 같은 에이전트를 안전하게 실행할 수 있는 격리된 환경을 제공합니다.\n\n사용자는 Docker Sandboxes를 통해 맞춤형 네트워크 정책을 정의할 수 있으며 이를 통해 공정하고 재현 가능한 평가를 수행할 수 있습니다. 또한 로컬 환경에서 무료로 평가를 시작한 뒤 필요에 따라 클라우드 환경으로 확장하는 유연한 운용이 가능합니다.",
+    "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Srini Sekaran",
+    "pubDate": "2026-10-14T21:45:27.000Z",
+    "fetchedAt": "2026-10-15T01:34:24.394Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+    "title": "HydraFusion updates and new Max option",
+    "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and ",
+    "aiSummary": "HydraFusion이 모델 풀을 업데이트하고 오케스트레이션 워크플로우를 개선하였습니다.\n\n이번 업데이트를 통해 새롭게 공개된 HydraFusion Max 옵션은 기존 모델과 함께 VS Code, GitHub Copilot 앱, 그리고 GitHub Copilot 등에서 바로 활용할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-14T20:01:35.000Z",
+    "fetchedAt": "2026-10-15T01:34:24.394Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_143",
     "title": "Visual Studio Code 1.143 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements.\nRead the full article",
@@ -13,6 +61,22 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
+    "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
+    "summary": "You submit a Kubernetes Job and\nwait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no\napplication logs, and there may not even be a Pod to inspect.\nIn a ",
+    "aiSummary": "Kubernetes 환경에서 Kueue를 사용할 때 작업이 Pending 상태로 멈춰 있는 원인을 파악하기 위해 Headlamp의 Kueue 플러그인을 활용하는 방법을 설명합니다.\n\nKueue를 사용하는 클러스터에서 작업이 지연되는 이유는 크게 Kueue의 승인 단계와 일반적인 Pod 스케줄링 단계로 나뉩니다. 문제가 발생했을 때 가장 먼저 확인해야 할 핵심은 작업이 Kueue에 의해 승인되었는지 여부입니다.\n\nHeadlamp의 Kueue 플러그인을 사용하면 복잡한 명령어 없이도 Workload 상세 페이지를 통해 상태를 즉시 확인할 수 있습니다. 먼저 Workload 항목에서 현재 상태와 QuotaReserved, Admitted 등의 조건을 확인하여 승인 여부와 거부 사유를 파악합니다. 만약 승인이 되지 않았다면 해당 작업이 연결된 LocalQueue를 통해 대기열 상태를 확인하고, 이어 ClusterQueue로 이동하여 현재 할당된 리소스 용량과 실제 사용량을 비교함으로써 자원 부족 여부를 진단할 수 있습니다. 필요에 따라 ResourceFlavor나 Cohort 정보를 조회하여 특정 하드웨어 클래스나 공유 쿼터 설정이 원인인지 세부적으로 검토합니다.\n\n반면, Admitted=True로 승인이 완료되었음에도 Pod가 여전히 Pending 상태라면 이는 Kueue의 문제가 아닌 일반적인 Kubernetes 스케줄러의 영역입니다. 이 경우에는 Headlamp의 표준 Job 및 Pod 뷰로 전환하여 노드 용량 부족, 어피니티 설정, 테인트 및 톨러레이션 등 스케줄러 이벤트를 중심으로 조사해야 합니다.\n\n현재 공개된 0.1.0-alpha 버전의 플러그인은 읽기 전용으로 제공되며, 복잡한 명령어를 입력하는 대신 GUI 환경에서 리소스 간의 관계를 직관적으로 추적하여 트러블슈팅 시간을 단축해 주는 데 목적이 있습니다. 해당 도구는 CNCF LFX Mentorship 프로그램을 통해 개발되었으며, 사용자 피드백을 통해 향후 기능을 개선해 나갈 예정입니다.",
+    "url": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-10-14T18:35:00.000Z",
+    "fetchedAt": "2026-10-15T01:34:24.394Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
     ]
   },
   {
@@ -180,6 +244,23 @@
     ]
   },
   {
+    "id": "https://supabase.com/blog/how-we-made-the-supabase-select-2026-badge",
+    "title": "How we made the Supabase Select 2026 badge",
+    "summary": "Every Supabase Select attendee walked away with a programmable badge. Here’s how we made 800 of them, and what you can do with yours.",
+    "aiSummary": "Supabase Select 행사에 참여한 모든 참석자에게 프로그래밍이 가능한 배지를 제공했습니다. 이번 행사에서는 총 800개의 배지를 제작했으며, 해당 배지를 활용하여 사용자가 직접 기능을 구현하거나 커스터마이징할 수 있는 방법들을 소개합니다. 배지의 하드웨어 구성과 이를 제어하기 위한 기술적인 상세 내역을 통해 참석자들이 배지를 효율적으로 활용할 수 있도록 지원합니다.",
+    "url": "https://supabase.com/blog/how-we-made-the-supabase-select-2026-badge",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-14T07:00:00.000Z",
+    "fetchedAt": "2026-10-15T01:34:24.394Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.3.5",
     "title": "1.3.5",
     "summary": "Added Auto mode, which approves file edits and safe commands without asking and still prompts before irreversible actions; commands that would leave the terminal sandbox are first reviewed by a separa",
@@ -243,6 +324,24 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/2026-us-midterms",
+    "title": "Preparing for the 2026 US midterms",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudePolicyPreparing for the 2026 US midtermsOct 14, 2026Earlier this year, we shared an update on our election safeguards, which described how we measure and pr",
+    "aiSummary": "Anthropic은 2026년 미국 중간선거를 앞두고 Claude의 선거 보호 조치를 강화하고 있습니다. Anthropic Insights를 통해 분석한 결과, 미국 내 Claude 사용자 대화 중 정치, 공공 정책, 사회 문제 관련 대화는 약 5.75퍼센트이며, 선거 및 투표 관련 대화는 0.51퍼센트를 차지하는 것으로 나타났습니다. 특히 특정 후보나 정당에 대한 투표 권유를 묻는 대화는 0.01퍼센트에 불과해 대부분의 사용자가 정보를 탐색하거나 정책을 연구하는 용도로 서비스를 활용하고 있습니다.\n\nAnthropic은 선거 관련 오남용을 방지하고 정확한 정보를 제공하기 위해 두 가지 새로운 기능을 도입합니다. 먼저 Democracy Works와의 협력을 통해 투표소 위치, 필수 지참 신분증, 투표일 등 공식 선거 정보를 Claude의 답변창 내에서 직접 확인할 수 있도록 지원합니다. 또한 선거 당일과 그 이후에는 실시간 개표 현황과 최신 선거 결과를 공식 데이터에 기반하여 제공할 예정입니다.\n\n이와 함께 Claude가 정치적 편향성 없이 공정하고 정확한 정보를 전달할 수 있도록 모델 출시 전 엄격한 테스트를 지속하고 있습니다. 사용자가 선거 관련 질문을 할 때 특정 정치적 견해를 대변하지 않고 중립적인 답변을 유지하는 것을 핵심 목표로 삼고 있으며, 앞으로도 선거 무결성 정책을 준수하며 기술적 보완을 이어갈 계획입니다.",
+    "url": "https://www.anthropic.com/news/2026-us-midterms",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "fetchedAt": "2026-10-15T01:34:24.394Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
@@ -1776,157 +1875,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/08/java-vscode-extension-update/",
-    "title": "Oracle Java Platform Extension for Visual Studio Code - Version 27.0.0 Is Now Available",
-    "summary": "Inside Java (https://inside.java/)News and views from members of the Java team at Oracle",
-    "aiSummary": "Oracle은 Visual Studio Code를 위한 Java Platform Extension의 최신 버전인 27.0.0을 공식 출시했습니다.\n\n이번 업데이트는 개발자가 Visual Studio Code 환경에서 보다 효율적으로 Java 애플리케이션을 개발하고 관리할 수 있도록 다양한 기능 개선과 버그 수정을 포함하고 있습니다.\n\n사용자는 Inside Java 공식 웹사이트를 통해 이번 릴리스에 포함된 변경 사항 및 상세한 기술적 개선 내용에 관한 정보를 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/08/java-vscode-extension-update/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Arvind Aprameya",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "fetchedAt": "2026-10-09T20:09:20.635Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/redis-oss-is-now-available-on-aws-marketplace/",
-    "title": "Redis OSS Is Now Available on AWS Marketplace",
-    "summary": "Redis Open Source Software (OSS) is now available through an official AWS Marketplace listing owned by Redis. The listing includes a Redis-published Amazon Machine Image (AMI), allowing teams to launc",
-    "aiSummary": "Redis가 공식적으로 AWS Marketplace를 통해 Redis OSS를 제공하기 시작합니다. 이번 등록을 통해 사용자들은 Redis가 직접 게시한 AMI를 Amazon EC2 환경에서 즉시 실행할 수 있게 되었습니다.\n\n이 서비스를 통해 기업은 Redis OSS 환경에 대한 전체적인 통제권을 유지하면서도 클라우드 인프라를 효율적으로 관리할 수 있습니다. 특히 AWS 환경 내에서의 배포 과정이 간소화되어 운영 편의성이 대폭 향상되었습니다.\n\n사용자는 복잡한 설정 없이도 검증된 Redis 이미지를 활용하여 데이터베이스 구축 시간을 단축할 수 있습니다. 이는 AWS 환경에서 오픈소스 기반의 데이터 관리 솔루션을 운영하려는 개발 및 인프라 팀에게 중요한 선택지를 제공합니다.",
-    "url": "https://redis.io/blog/redis-oss-is-now-available-on-aws-marketplace/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Mike  Moss ",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "fetchedAt": "2026-10-08T20:43:20.983Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/2026-usage-policy-update",
-    "title": "2026 Usage Policy update",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncements2026 Usage Policy updateOct 8, 2026Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and th",
-    "aiSummary": "Anthropic이 모델의 고도화된 역량과 사용자 피드백을 반영하여 2026년형 Usage Policy 업데이트를 발표했습니다. 이번 정책은 11월 12일부터 적용되며 기존 규칙의 명확성을 높이고 최신 기술 위협에 대응하는 데 초점을 맞추었습니다.\n\n주요 변경 사항 중 하나는 기만적인 활동에 관한 규정 통합입니다. 기존에 분산되어 있던 부정행위 방지 조항을 Do Not Engage in Deceptive Campaigns or Artificial Activity 항목으로 통합하여 정치적, 상업적 목적을 불문하고 가짜 계정 운영이나 허위 정보 유포 등 기만적인 캠페인 활동을 엄격히 금지합니다.\n\n또한 민주주의 보호를 위해 선거 관련 규정을 Do Not Undermine Democratic Processes로 개편했습니다. 유권자를 속이거나 선거 과정을 방해하는 행위를 금지하되 비영리 단체나 선거 관리 당국의 합법적인 정보 전달 활동을 지원하기 위해 개인화된 투표 및 캠페인 타겟팅에 대한 일괄 금지 조항은 삭제했습니다.\n\n이 외에도 무기 개발, 감시 활동, 건강 및 금융 분야의 고위험 사례에 대한 규제를 강화했습니다. 특히 Claude가 물리적 환경에서 자율적인 행동을 수행할 때 적용되는 제어 장치를 추가하고 모델에 대한 악의적인 행동 방지 조항도 보완하였습니다. 상세한 정책 전문은 Anthropic 공식 홈페이지에서 확인할 수 있습니다.",
-    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "fetchedAt": "2026-10-08T20:43:20.983Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/genesis-mission-commitment",
-    "title": "Building on our commitment to American scientific discovery",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsBuilding on our commitment to American scientific discoveryOct 8, 2026Anthropic is deepening its support for American scientific research by co",
-    "aiSummary": "Anthropic이 미국의 과학 및 기술 발견을 가속화하기 위한 연방 이니셔티브인 Genesis Mission을 지원하기 위해 향후 3년간 1억 5천만 달러를 투자합니다. 이번 투자를 통해 NASA, National Institutes of Health, National Science Foundation 등 15개 이상의 연방 기관 연구원들이 Claude를 활용할 수 있게 됩니다.\n\nAnthropic은 이미 지난해 12월 미국 Department of Energy와 파트너십을 맺고 국립 연구소 소속 과학자들에게 Claude를 제공해 왔습니다. 이번 발표는 백악관 산하 Office of Science and Technology Policy가 주최한 Science: A New Golden Age Summit에서 공식적으로 이루어졌습니다.\n\n이번 협력은 과학 연구를 지원하려는 Anthropic의 광범위한 노력의 일환입니다. Anthropic은 앞서 연구용 AI 워크벤치인 Claude Science를 출시하고 학계 연구자들에게 Claude 라이선스를 지원해 왔습니다. 또한 고영향력 프로젝트를 위한 AI for Science 프로그램 운영과 AI 에이전트가 실험 장비를 안전하게 제어할 수 있도록 돕는 Model Hardware Standard 연구 등을 추진하며 과학 분야에서의 AI 활용 역량을 강화하고 있습니다.",
-    "url": "https://www.anthropic.com/news/genesis-mission-commitment",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "fetchedAt": "2026-10-08T20:43:20.983Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/anthropic-cyber-mission",
-    "title": "Introducing the Anthropic Cyber Mission",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsIntroducing the Anthropic Cyber MissionOct 8, 2026Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the sys",
-    "aiSummary": "Anthropic은 사이버 보안 강화와 소프트웨어 시스템 보호를 목표로 하는 Anthropic Cyber Mission을 새롭게 발표했습니다. 이번 프로젝트는 Frontier 모델이 사이버 공격에 악용되는 것을 방지하고, 자원 부족으로 어려움을 겪는 보안 담당자들을 기술적, 재정적으로 지원하기 위해 기획되었습니다.\n\nAnthropic은 기존의 Project Glasswing을 확장하여 Cyber Verification Program을 출범하고, 더 많은 보안 전문가들이 자사의 고성능 모델을 활용할 수 있도록 지원합니다. 특히 운영 기술 분야인 전력망, 상수도, 교통망 등 주요 기반 시설의 보안은 패치가 어렵고 위험 부담이 크다는 점에 주목했습니다.\n\n이를 해결하기 위해 Critical Infrastructure Defense Program을 도입하여 Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, Rockwell Automation 등과 협력합니다. Anthropic은 이들 파트너에게 자사의 Claude 모델과 현장 엔지니어링 인력, 위협 분석 연구를 제공함으로써 산업 제어 시스템의 보안 수준을 높이는 데 집중할 계획입니다.",
-    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "fetchedAt": "2026-10-08T20:43:20.983Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/09/build-ios-app-firebase-antigravity",
-    "title": "Building an iOS app in 6 hours with Firebase and Antigravity",
-    "summary": "We built a production-ready iOS app with Firebase, including authentication, Firestore, Cloud Messaging, Cloud Functions and App Check, in just six hours using Google's Antigravity coding agent.",
-    "aiSummary": "Google의 코딩 에이전트인 Antigravity를 활용하여 6시간 만에 완성도 높은 iOS 애플리케이션을 개발했습니다. 해당 프로젝트에는 Firebase의 인증 기능을 비롯하여 Firestore, Cloud Messaging, Cloud Functions, App Check 등 다양한 필수 서비스가 성공적으로 통합되었습니다. 이번 사례는 최신 AI 도구를 통해 복잡한 백엔드 인프라를 단시간 내에 구축하고 프로덕션 수준의 앱을 구현할 수 있다는 가능성을 보여줍니다.",
-    "url": "https://firebase.blog/posts/2026/09/build-ios-app-firebase-antigravity",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "fetchedAt": "2026-10-08T14:41:47.771Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "/blog/release/v26.11.1?1791417386441",
-    "title": "Node.js 26.11.1 (Current)",
-    "summary": "Antoine du Hamel2026-10-07, Version 26.11.1 (Current), @aduh95 (https://nodejs.org/en/blog/release/v26.11.1#2026-10-07-version-26111-current-aduh95)\nCommits (https://nodejs.org/en/blog/release/v26.11.",
-    "aiSummary": "Node.js 26.11.1 버전이 새롭게 릴리스되었습니다. 이번 업데이트는 빌드 및 문서 관련 설정과 관련된 이전 변경 사항들을 되돌리는 작업 위주로 구성되었습니다.\n\n구체적으로는 문서 도구의 상세 출력 설정인 doc-kit verbosity 토글, 문서 그룹 도구 업데이트, 그리고 문서 재설계 관련 커밋들을 되돌리는 수정이 포함되었습니다.\n\n해당 버전은 Windows, macOS, Linux, AIX 등 주요 운영체제별 설치 파일과 바이너리 형태로 제공되며, 공식 홈페이지를 통해 소스 코드 및 관련 API 문서를 확인할 수 있습니다. 각 파일의 무결성 검증을 위한 SHASUMS 정보와 PGP 서명 정보도 함께 공개되어 있습니다.",
-    "url": "https://nodejs.org/en/blog/release/v26.11.1",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-10-07T23:56:26.000Z",
-    "fetchedAt": "2026-10-08T02:44:54.356Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.142.4",
-    "title": "0.142.4",
-    "summary": "Fixes\n🐛 Isolate FastAPI telemetry for excluded requests. PR #16470 by @tiangolo.",
-    "aiSummary": "FastAPI 라이브러리 버전 0.142.4 업데이트가 배포되었습니다. 이번 업데이트는 PR #16470을 통해 제외된 요청에 대한 FastAPI 원격 측정 데이터를 격리하도록 수정되었습니다. 해당 개선 사항은 @tiangolo에 의해 작성되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.4",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-07T21:21:57.000Z",
-    "fetchedAt": "2026-10-08T02:44:54.356Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-    "title": "Claude Haiku 5.5 in GitHub Copilot",
-    "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In earl",
-    "aiSummary": "Anthropic의 최신 경량 모델인 Claude Haiku 5.5가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n이 모델은 하위 에이전트 작업이나 빠른 코드 수정, 터미널 명령 수행 등 속도가 중요하고 처리량이 많은 업무에 최적화되어 설계되었습니다. \n\n사용자는 이번 통합을 통해 GitHub Copilot 환경 내에서 더욱 효율적이고 신속하게 개발 관련 작업을 처리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-07T20:12:18.000Z",
-    "fetchedAt": "2026-10-08T02:44:54.356Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
