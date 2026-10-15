@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=mps&p=747084",
+    "title": "MPS 2026.2 Release Candidate Available",
+    "summary": "MPS 2026.2 is almost ready! Today we’re making a release candidate build available so you can try out the upcoming release ahead of its official launch. Download MPS 2026.2 Release Candidate now: DOWN",
+    "aiSummary": "JetBrains에서 개발한 MPS 2026.2 버전의 정식 출시를 앞두고 Release Candidate 빌드가 공개되었습니다.\n\n이번 빌드는 기존 EAP1 버전에서 발견된 다수의 버그를 수정하고 성능과 기능을 향상한 것이 특징입니다.\n\n사용자들은 공식 출시 이전에 해당 빌드를 내려받아 사전 테스트를 진행할 수 있습니다. 특히 Linux 환경을 포함한 전반적인 안정성 개선에 중점을 두고 있습니다.",
+    "url": "https://blog.jetbrains.com/mps/2026/10/the-mps-2026-2-rc1/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vaclav Pech",
+    "pubDate": "2026-10-15T09:29:06.000Z",
+    "fetchedAt": "2026-10-15T12:43:11.330Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://www.docker.com/?p=94888",
     "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
     "summary": "Learn the top AI agent security risks, from prompt injection to excessive autonomy and credential exposure, and how to contain them.",
