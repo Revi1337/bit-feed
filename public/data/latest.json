@@ -1,5 +1,53 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.0",
+    "title": "1.4.0",
+    "summary": "Added terminal status reporting over OSC 7501: in terminals that support it, the tab or window shows whether the CLI is working, waiting for your input, done, or failed. The CLI checks for support fir",
+    "aiSummary": "AGY CLI 1.4.0 업데이트에서는 터미널 상태 보고 기능을 강화하여 OSC 7501을 지원하는 터미널에서 CLI의 작업 상태를 탭이나 창 제목으로 실시간 확인이 가능해졌습니다. 또한 메시지 전송 방식의 유연성을 높이기 위해 Alt+m 단축키를 도입하여 기존 설정과 관계없이 즉시 전송하거나 대기열에 추가할 수 있게 되었습니다.\n\n플러그인 관리 기능인 agy plugin validate는 CLI의 실제 로드 규칙과 동일하게 검증 방식을 개선하였습니다. 이제 상세한 오류 및 경고 메시지를 확인하거나 --strict 및 --json 옵션을 활용하여 CI 환경에서 효율적인 플러그인 검사가 가능합니다.\n\n안정성 측면에서는 Eligibility check failed 오류로 인해 세션이 잠기던 문제를 해결하고, MCP 서버 헤더의 변수가 정상적으로 치환되도록 수정하여 인증 실패 문제를 개선하였습니다.\n\n이외에도 /diff Commit Tree 뷰의 가독성과 편의성을 개선하여 커밋 단위의 탐색이 원활해졌습니다. 백그라운드 명령 실행 시 상태가 롤백되거나 출력 결과가 누락되던 현상을 수정하였으며, 에이전트 응답에 포함된 디렉토리 링크가 보이지 않던 버그 등을 보완하여 전반적인 사용성을 높였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.0",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-16T05:24:47.000Z",
+    "fetchedAt": "2026-10-16T12:33:17.276Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+    "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+    "summary": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull req",
+    "aiSummary": "GitHub Copilot이 Slack 및 Microsoft Teams 환경에서 멀티 리포지토리 지원 기능을 새롭게 도입했습니다.\n\n이제 사용자는 단일 대화 환경 내에서 여러 리포지토리에 걸쳐 작업할 수 있게 되었으며 이를 통해 여러 프로젝트의 pull request를 추적하거나 복잡한 이슈를 조사하는 과정이 더욱 효율적으로 개선되었습니다.\n\n이번 업데이트는 개발자가 도구를 전환하지 않고도 다양한 코드베이스를 통합적으로 관리할 수 있도록 지원하며 협업 도구와의 연동성을 강화하는 데 초점을 맞추고 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-16T02:16:35.000Z",
+    "fetchedAt": "2026-10-16T12:33:17.276Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/16/jep545-target-jdk28/",
+    "title": "JEP targeted to JDK 28: 545: Faster Startup and Warmup with ZGC",
+    "summary": "The following JEP is targeted to JDK 28: 545: Faster Startup and Warmup with ZGC\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/545.",
+    "aiSummary": "JDK 28에 도입될 예정인 JEP 545는 ZGC의 시작 속도와 예열 성능을 개선하는 것을 목표로 합니다. 이번 개선을 통해 ZGC를 사용하는 Java 애플리케이션의 초기 실행 시간이 단축되고, 시스템 운영 효율성이 향상될 것으로 기대됩니다. 자세한 기술적 사양과 구현 세부 사항은 OpenJDK 공식 웹사이트 내 해당 JEP 페이지에서 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/16/jep545-target-jdk28/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Erik Österlund",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "fetchedAt": "2026-10-16T12:33:17.276Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
     "title": "Download GitHub Code Quality license usage as a CSV",
     "summary": "You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes: Each active committer who…\nThe post Download Git",
@@ -1989,22 +2037,6 @@
     "tags": [
       "Deno",
       "TS"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/banking-at-machine-speed-securing-access-across-cloud-ai-and-hybrid-environments",
-    "title": "Banking at machine speed: Securing access across cloud, AI, and hybrid environments",
-    "summary": "Banks have long invested in identity and access management to protect critical systems, customer data, and financial transactions. But cloud adoption, automation, and AI are changing who and what requ",
-    "aiSummary": "금융권의 클라우드 도입과 AI 활용이 가속화되면서 사람뿐만 아니라 애플리케이션, 워크로드, AI 에이전트와 같은 머신 아이덴티티에 대한 접근 제어와 거버넌스가 핵심 보안 과제로 부상하고 있습니다. 기존의 정적인 자격 증명 방식은 복잡한 하이브리드 환경에서 관리 효율을 떨어뜨리고 보안 공백을 야기하므로, 자동화된 환경에 적합한 새로운 접근 제어 전략이 요구됩니다.\n\n보안 담당자들은 이제 머신 아이덴티티가 어디에 존재하는지 파악하고, 최소 권한 원칙을 적용하며, 모든 접근 활동에 대한 감사 기록을 유지해야 합니다. 특히 자율적으로 동작하는 Agentic AI가 확산됨에 따라, AI의 권한을 정의하고 이를 인간 사용자와 연결하여 책임 소재를 명확히 하는 체계가 필수적입니다.\n\n이를 해결하기 위해 정적인 시크릿 대신 유효 기간이 제한된 동적 자격 증명을 발급하는 아이덴티티 기반 보안 모델이 권장됩니다. HashiCorp의 Vault와 같은 솔루션은 머신 아이덴티티를 인증하고 정책에 기반한 권한을 부여함으로써 하이브리드 클라우드 환경 전반에서 일관된 거버넌스를 실현합니다.\n\n이러한 통합된 보안 체계는 금융 기관이 DORA와 같은 규제 준수 요건을 충족하고 AI 리스크 관리 및 운영 복원력을 확보하는 데 기여합니다. 결론적으로 금융권의 디지털 전환과 AI 도입의 성공은 기술적인 모델 성능을 넘어, 자동화된 워크로드에 대한 엄격한 가시성 확보와 책임 중심의 아이덴티티 거버넌스를 얼마나 효과적으로 구축하느냐에 달려 있습니다.",
-    "url": "https://www.hashicorp.com/blog/banking-at-machine-speed-securing-access-across-cloud-ai-and-hybrid-environments",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Jackson Connell",
-    "pubDate": "2026-10-09T06:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "Terraform",
-      "IaC"
     ]
   }
 ]
