@@ -1,5 +1,38 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
+    "title": "Download GitHub Code Quality license usage as a CSV",
+    "summary": "You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes: Each active committer who…\nThe post Download Git",
+    "aiSummary": "GitHub가 Code Quality 라이선스 사용 현황을 CSV 형식의 보고서로 다운로드할 수 있는 기능을 새롭게 추가하였습니다.\n\n해당 보고서를 활용하면 기업 내부의 라이선스 기록과 실제 사용량을 대조하여 정확한 관리 및 정산이 가능합니다. 보고서에는 라이선스가 할당된 각각의 활성 커미터 정보를 포함한 상세 내역이 담겨 있습니다. 이 기능을 통해 관리자는 GitHub Code Quality 라이선스 운영 현황을 더욱 투명하고 효율적으로 파악할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-15T20:11:26.000Z",
+    "fetchedAt": "2026-10-16T01:30:21.056Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "title": "Bringing GPT-Rosalind to academic research labs",
+    "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "aiSummary": "OpenAI가 생명 과학 연구를 촉진하기 위해 학술 연구실을 대상으로 Rosalind Academic Plan을 새롭게 선보입니다.\n\n이번 계획을 통해 자격 요건을 갖춘 연구소들은 GPT-Rosalind와 다양한 연구용 도구들을 후원받아 사용할 수 있게 됩니다. 이는 학계의 연구 효율성을 높이고 생명 과학 분야의 기술적 진보를 가속화하기 위한 목적입니다.",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-15T19:00:00.000Z",
+    "fetchedAt": "2026-10-16T01:30:21.056Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.3.6",
     "title": "1.3.6",
     "summary": "Added Claude Opus 5.5 and Claude Sonnet 5.5 for Application Default Credentials (AGY_ADC_AUTH) sign-in. Claude models now appear in /model only if your Google Cloud project can use them.\nImproved Auto",
@@ -30,6 +63,23 @@
     "tags": [
       "C#",
       ".NET"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+    "aiSummary": "Google은 과학적 발견을 가속화하기 위해 개발한 Antigravity 플랫폼을 활용하여 새로운 항균 펩타이드(Antimicrobial peptides) 탐색 연구를 진행합니다. 해당 기술은 방대한 데이터를 효율적으로 처리하고 분석함으로써 치료제 개발의 속도와 정확도를 획기적으로 높이는 것을 목표로 합니다. 이는 기존의 연구 방식보다 더욱 정교한 모델링을 가능하게 하여 차세대 항균제 발굴 가능성을 제시합니다.",
+    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-15T16:08:03.000Z",
+    "fetchedAt": "2026-10-16T01:30:21.056Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -286,6 +336,23 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/how-a-new-branch-gets-its-config-migrations-and-functions",
+    "title": "How a new branch gets its config, migrations, and functions",
+    "summary": "What runs when you create a branch: which settings are copied, where your migrations and functions come from, and what order the steps run in.",
+    "aiSummary": "새로운 브랜치를 생성할 때 시스템은 특정 설정들을 자동으로 복제하고 관리합니다. 이 과정에서 어떤 설정값이 포함되는지, 마이그레이션과 함수가 어디에서 호출되는지, 그리고 각 작업이 어떤 순서로 진행되는지가 핵심입니다.\n\n먼저 브랜치 생성 시 복제되는 설정 항목들을 식별하여 환경의 일관성을 유지합니다. 이후 마이그레이션과 함수를 정의된 소스에서 불러와 새로운 환경에 적용하는 단계를 거칩니다. 모든 과정은 정해진 작업 순서에 따라 순차적으로 수행되어 브랜치 환경이 안정적으로 구축되도록 합니다.",
+    "url": "https://supabase.com/blog/how-a-new-branch-gets-its-config-migrations-and-functions",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-15T07:00:00.000Z",
+    "fetchedAt": "2026-10-16T01:30:21.056Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
     ]
   },
   {
@@ -642,6 +709,23 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/local-supabase-project-per-agent-with-or-without-docker",
+    "title": "A local Supabase project per agent, with or without Docker",
+    "summary": "Run several local Supabase projects on one machine, one per coding agent, with or without Docker. Faster starts, less memory, and branches ready in seconds.",
+    "aiSummary": "하나의 머신에서 여러 개의 Supabase 프로젝트를 에이전트별로 분리하여 로컬에서 실행하는 방법을 제시합니다. Docker 사용 여부를 선택할 수 있어 유연성이 높으며 프로젝트 시작 속도가 빠르고 메모리 점유율이 낮습니다. 또한 각 에이전트에 필요한 브랜치 구성을 수 초 내에 완료할 수 있어 개발 효율성을 크게 높여줍니다.",
+    "url": "https://supabase.com/blog/local-supabase-project-per-agent-with-or-without-docker",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-14T07:00:00.000Z",
+    "fetchedAt": "2026-10-16T01:30:21.056Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
     ]
   },
   {
