@@ -1,5 +1,22 @@
 [
   {
+    "id": "deepseek-2026-10-17",
+    "title": "DeepSeek Update: Opening up the in-house search API",
+    "summary": "DeepSeek&#x27;s web and API search capabilities are powered by our in-house DeepSeek search engine, which reliably handles hundreds of millions of search requests from around the world every day. Deep",
+    "aiSummary": "DeepSeek은 전 세계에서 매일 수억 건의 검색 요청을 처리하는 자체 개발 엔진인 DeepSeek Search의 API를 공개합니다.\n\n이 엔진은 수천억 개의 웹 페이지를 인덱싱하여 다국어를 지원하며 실시간으로 정확하고 신뢰성 높은 검색 결과를 제공하는 AI 네이티브 범용 검색 서비스입니다.\n\n특히 SEO 스팸이나 지역별 조작, 저품질 AIGC 콘텐츠를 엄격하게 필터링하는 메커니즘을 갖추고 있어 사용자뿐만 아니라 LLM에 권위 있고 신뢰할 수 있는 정보를 전달합니다. 상세한 사용 방법은 공식 Search & Fetch 가이드를 통해 확인할 수 있습니다.",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-10-17",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-10-17T00:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:blog.golang.org,2013:blog.golang.org/interactive-refactoring",
     "title": "Interactive refactoring in gopls",
     "summary": "The Go Blog\nInteractive refactoring in gopls\n pre:nth-of-type(1) { background: var(--color-diff-old); }\n#content .beforeafter > pre:nth-of-type(2) { background: var(--color-diff-new); }\n.beforeafter-a",
@@ -305,6 +322,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/10/16/this-week-in-rails",
+    "title": "Faster blank? checks, safer SQLite rollbacks, and more!",
+    "summary": "Hi, it’s Vipul. Let’s explore this week’s changes in the Rails codebase.\nAgents on Rails: Can a model build on its own work?\nHere are some highlights from the changes merged to Rails main this week.\nS",
+    "aiSummary": "이번 Rails 코드베이스 업데이트의 핵심은 성능 향상과 안정성 개선입니다. 우선 String#blank? 메서드가 ASCII 문자열에 대해 정규식 대신 바이트 스캔 방식을 사용하여 처리 속도를 높였습니다. Active Record 부문에서는 데이터베이스 연결 풀 접근 방식이 최적화되었고, SQLite 롤백 시 원래 발생한 오류 정보를 유지하도록 개선하여 예외 처리의 정확성을 높였습니다.\n\nPostgreSQL 확장 기능 처리도 강화되었습니다. 이제 스키마 덤프 시 참조되는 스키마가 없을 경우 create_schema를 통해 자동 생성하며, 확장 기능을 보다 유연하게 관리할 수 있게 되었습니다. eager_load와 관련된 조인 순서 문제와 CTE 사용 시 발생하는 설정 오류도 수정되어 쿼리 생성의 안정성이 향상되었습니다.\n\n그 외에도 Active Job의 재시도 카운트가 원본 페이로드에 영향을 주지 않도록 변경되었고, 복합 키를 사용하는 연관 관계 쿼리 문제와 ActionController::Live에서의 스레드 간 연결 상태 공유 문제도 해결되었습니다. 마지막으로 Aube가 새로운 자바스크립트 패키지 관리자로 추가되었습니다. 이번 업데이트는 총 30명의 기여자가 참여하여 Rails 프레임워크의 성능과 신뢰성을 전반적으로 강화했습니다.",
+    "url": "https://rubyonrails.org/2026/10/16/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "vipulnsward",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
@@ -41263,6 +41296,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/automating-soc-workflows-defence",
+    "title": "From alert fatigue to action: Smarter SOC workflows for defence teams",
+    "summary": "Defence SOC teams are under pressure from growing cyber threats and shrinking resources. Discover how automation helps reduce fatigue, speed up investigations, and strengthen defence cyber posture.",
+    "aiSummary": "국방 분야의 SOC 팀은 급증하는 사이버 위협과 제한된 자원이라는 이중고를 겪고 있습니다. 이러한 환경에서 업무 피로를 줄이고 보안 대응 태세를 강화하기 위해 자동화 기술의 도입이 필수적인 과제로 떠오르고 있습니다.\n\n자동화 솔루션은 반복적인 알람 처리를 효율화하여 보안 담당자의 업무 부담을 완화해 줍니다. 또한 사고 조사 과정을 가속화함으로써 위협에 대한 대응 속도를 높이고 조직의 전반적인 사이버 방어 역량을 향상시키는 핵심적인 역할을 수행합니다.",
+    "url": "https://www.elastic.co/blog/automating-soc-workflows-defence",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Crossley McEwen",
+    "pubDate": "2025-07-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://qwenlm.github.io/blog/gspo/",
     "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
     "summary": "PAPER DISCORD\nIntroduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, t",
@@ -41416,6 +41465,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/decision-superiority-against-cyber-threats",
+    "title": "How the MOD can achieve decision superiority against cyber threats",
+    "summary": "Here’s how AI-enhanced security platforms unify cyber security across legacy systems and security classifications, giving military teams decision superiority against evolving cyber threats with faster",
+    "aiSummary": "AI 기반 보안 플랫폼은 레거시 시스템과 다양한 보안 분류 체계 전반에 걸쳐 사이버 보안을 통합하는 역할을 합니다. 이를 통해 군 관계자들은 진화하는 사이버 위협에 대해 더 신속하게 탐지하고 운영을 효율화함으로써 전장에서의 의사결정 우위를 확보할 수 있습니다. 결과적으로 기술적 복잡성을 줄이고 데이터 가시성을 높여 국가 방위의 대응 역량을 강화합니다.",
+    "url": "https://www.elastic.co/blog/decision-superiority-against-cyber-threats",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Crossley McEwen",
+    "pubDate": "2025-05-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.sublimetext.com/blog/articles/sublime-text-4200",
     "title": "Sublime Text Build 4200 and Future Plugin Changes",
     "summary": "Sublime Text 4, build 4200 is out now with some exciting new features,\nimprovements and fixes. We're also announcing some changes to the way\nplugins will be handled in the future:\n\nPhasing out Python ",
@@ -41446,6 +41511,22 @@
     "tags": [
       "Tailwind",
       "CSS"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/ai-driven-siem",
+    "title": "Tips for choosing an AI-driven SIEM",
+    "summary": "Today’s adapting SOC needs full visibility, advanced analytics, automation with AI, and flexible deployment. In this blog, we explore some of the key considerations to account for when adopting a new ",
+    "aiSummary": "오늘날의 SOC는 완전한 가시성, 고도화된 분석, AI 기반의 자동화, 그리고 유연한 배포 환경을 필요로 합니다. 이러한 요구 사항을 충족할 수 있는 새로운 AI 기반 SIEM을 도입할 때 고려해야 할 핵심 요소들을 면밀히 검토해야 합니다. 최적의 솔루션을 선택하기 위해서는 조직의 운영 상황과 기술적 필요성을 명확히 파악하는 과정이 필수적입니다.",
+    "url": "https://www.elastic.co/blog/ai-driven-siem",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Joe DeFever",
+    "pubDate": "2025-05-02T00:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -41669,6 +41750,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/top-5-it-challenges-leaders-face-solutions",
+    "title": "Top 5 IT challenges leaders are facing (and solutions to them)",
+    "summary": "CIOs face mounting IT challenges like data silos and manual processes, hindering business growth. GenAI and data-driven solutions offer relief, but leaders must address their data management issues to",
+    "aiSummary": "오늘날 많은 CIO들은 데이터 사일로 현상과 비효율적인 수동 업무 프로세스로 인해 기업의 성장에 큰 어려움을 겪고 있습니다.\n\n이러한 문제를 해결하기 위해서는 GenAI 및 데이터 기반 솔루션을 적극적으로 도입하는 전략이 필요합니다. 다만 GenAI를 활용한 진정한 혁신을 달성하기 위해서는 리더들이 우선적으로 조직 내 데이터 관리 체계를 정비하고 데이터 통합 문제를 해결하는 것이 선행되어야 합니다.",
+    "url": "https://www.elastic.co/blog/top-5-it-challenges-leaders-face-solutions",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Riya Juneja,Jennifer Klinger",
+    "pubDate": "2024-12-12T08:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://vite.dev/blog/announcing-vite6",
     "title": "Announcing Vite 6",
     "summary": "November 26, 2024Today, we're taking another big step in Vite's story. The Vite team, contributors, and ecosystem partners are excited to announce the release of Vite 6.It has been an eventful year. V",
@@ -41780,6 +41877,22 @@
     "author": "Alexander Marquardt",
     "pubDate": "2024-10-01T00:00:00.000Z",
     "fetchedAt": "2026-07-23T16:51:43.375Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/threat-detection-security-kibana-advantage",
+    "title": "Faster threat detection, stronger security: The Kibana advantage",
+    "summary": "Within security, the power of an intuitive and user-friendly interface like Kibana cannot be overstated. A streamlined interface empowers security teams to respond rapidly to threats, significantly re",
+    "aiSummary": "보안 분야에서 Kibana와 같이 직관적이고 사용자 친화적인 인터페이스가 제공하는 가치는 매우 큽니다.\n\n효율적으로 구성된 인터페이스는 보안 팀이 위협을 신속하게 탐지하고 대응할 수 있도록 지원합니다. 결과적으로 위협 탐지 평균 시간인 MTTD를 크게 단축하여 잠재적인 피해를 최소화하는 데 기여합니다.",
+    "url": "https://www.elastic.co/blog/threat-detection-security-kibana-advantage",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Jordyn Short,Nick Keats",
+    "pubDate": "2024-09-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-17T11:40:46.945Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
