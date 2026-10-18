@@ -1,5 +1,69 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.146.0",
+    "title": "0.146.0",
+    "summary": "The root_path parameter in FastAPI() is deprecated. Configure the server with fastapi run --root-path /api/v1 instead.\nBreaking Changes\n🗑️ Deprecate the root_path parameter in FastAPI. PR #16520 by @",
+    "aiSummary": "FastAPI 0.146.0 버전에서 FastAPI 생성자의 root_path 매개변수가 더 이상 권장되지 않습니다.\n\n앞으로는 서버 실행 시 fastapi run --root-path /api/v1 명령어를 사용하여 경로를 설정해야 합니다.\n\n이번 변경 사항은 기존 코드의 호환성을 깨뜨리는 수정 사항인 Breaking Changes에 해당합니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.146.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-18T15:18:08.000Z",
+    "fetchedAt": "2026-10-18T18:12:23.495Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.145.0",
+    "title": "0.145.0",
+    "summary": "Breaking Changes\n🔥 Remove deprecated openapi_prefix and unused **extra from FastAPI. PR #16518 by @tiangolo.\nDocs\n📝 Document URL paths in templates. PR #16517 by @tiangolo.",
+    "aiSummary": "FastAPI가 버전 0.145.0으로 업데이트되었습니다.\n\n이번 업데이트에서는 기존에 사용되던 openapi_prefix를 제거하고 사용되지 않는 extra 파라미터를 정리하는 등 주요 변경 사항이 포함되었습니다.\n\n또한 템플릿 내 URL 경로 사용법에 대한 문서화가 새롭게 추가되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.145.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-18T14:40:20.000Z",
+    "fetchedAt": "2026-10-18T18:12:23.495Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.143.4",
+    "title": "0.143.4",
+    "summary": "Upgrades\n⬆️ Add httpx2 to optional dependencies. PR #16512 by @tiangolo.",
+    "aiSummary": "FastAPI 관련 업데이트인 0.143.4 버전이 공개되었습니다. 이번 업데이트에서는 선택적 의존성 항목에 httpx2를 추가하는 개선 사항이 포함되었습니다. 해당 변경 사항은 @tiangolo에 의해 제안된 PR #16512를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.4",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-18T14:37:55.000Z",
+    "fetchedAt": "2026-10-18T18:12:23.495Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.144.0",
+    "title": "0.144.0",
+    "summary": "Features\n✨ Add WebSocket support to security dependencies. PR #10147 by @mnixry.",
+    "aiSummary": "보안 의존성에 대한 WebSocket 지원 기능이 새롭게 추가되었습니다. 해당 업데이트는 GitHub PR 10147을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.144.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-18T12:42:34.000Z",
+    "fetchedAt": "2026-10-18T18:12:23.495Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.143.5",
     "title": "0.143.5",
     "summary": "Fixes\n🐛 Fix handling of empty value for byte file list parameter. PR #9383 by @Viicos.",
@@ -30,6 +94,24 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/public-benefit-fund",
+    "title": "Investing in the public benefit",
+    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsInvesting in the public benefitOct 18, 2026Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new ",
+    "aiSummary": "Anthropic은 기업 성장에 따라 공익 기여도를 확대할 수 있는 Anthropic Public Benefit Fund를 새롭게 설립합니다. 주주 승인을 전제로 Anthropic 전체 지분의 5%를 초기 출연하며, 이후 기업 가치가 기준치 대비 50% 상승할 때마다 이사회 재량으로 2%씩 추가 출연하는 구조를 갖추었습니다.\n\n이번에 설립된 Anthropic Public Benefit Fund는 유한책임회사 형태로 운영되며, 기존 비영리 재단보다 유연한 방식으로 공익 활동을 추진할 계획입니다. 특히 AI 발전으로 인해 발생할 수 있는 노동 시장의 불안정성 등 사회적 문제를 해결하기 위한 과감한 투자가 이루어질 예정입니다. 해당 지분은 로비나 정치적 기부에는 사용되지 않습니다.\n\n이번 결정은 공동 창업자들이 창립 당시 약속한 지분 80% 기부 서약과 임직원 대상의 지분 기부 매칭 프로그램의 연장선에 있습니다. 현재까지 참여한 임직원들의 기부분과 이번 신설 펀드를 합치면 Anthropic 전체 지분의 약 20%가 공익을 위해 활용될 예정이며, 향후 기업 가치가 상승함에 따라 이 비중은 더욱 확대될 전망입니다. Anthropic은 앞으로 펀드의 구체적인 운영 구조와 지배구조, 그리고 공익 활동 성과를 담은 보고서를 추가로 공개할 방침입니다.",
+    "url": "https://www.anthropic.com/news/public-benefit-fund",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-18T00:00:00.000Z",
+    "fetchedAt": "2026-10-18T18:12:23.495Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
