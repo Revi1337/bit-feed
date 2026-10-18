@@ -1,5 +1,71 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.2",
+    "title": "1.4.2",
+    "summary": "Fixed conversation history not showing in Remote Control in daemon mode.",
+    "aiSummary": "Daemon 모드에서 Remote Control을 사용할 때 대화 기록이 표시되지 않던 문제가 수정되었습니다. 해당 업데이트는 1.4.2 버전에서 적용되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.2",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-18T00:37:06.000Z",
+    "fetchedAt": "2026-10-18T01:13:07.281Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_utl_smtp-v20-released-3395/",
+    "title": "pg_utl_smtp v2.0 released\n",
+    "summary": "Antananarivo, Madagascar - October 06, 2026\nPostgreSQL UTL_SMTP compatibility extension\npg_utl_smtp is a PostgreSQL extension to create, manage and use Oracle-style\nUTL_SMTP package. The use and behav",
+    "aiSummary": "HexaCluster Corp.가 개발한 PostgreSQL 확장 기능인 pg_utl_smtp v2.0이 출시되었습니다. 이 도구는 Oracle의 UTL_SMTP 패키지와 호환되는 기능을 제공하여 PostgreSQL 데이터베이스 내의 트리거 및 저장 프로시저에서 직접 이메일 알림을 보낼 수 있게 해줍니다.\n\n이번 v2.0 메이저 업데이트의 핵심은 비동기 모드 지원입니다. pg_utl_smtp.asynchronous 설정을 통해 활성화할 수 있는 이 기능은 기존 Oracle 방식에는 없으나 MSSQL의 sp_send_dbmail 프로시저를 이식할 때 유용하게 활용할 수 있습니다.\n\n추가적인 개선 사항으로 SMTP 서버의 오류 응답에 대한 예외 처리 강화, 중복 EHLO 전송 문제 해결, SSL 및 TLS 연결 구현이 포함되었습니다. 또한 QUIT 명령 시 연결 해제 로직을 보완하고 연결 실패 시 경고 메시지를 명확히 하였으며, GitHub Actions를 통한 회귀 테스트를 추가하여 안정성을 높였습니다.\n\n해당 확장 기능은 Net::SMTP Perl 모듈을 기반으로 하는 plperl 저장 프로시저를 사용하며 PostgreSQL 라이선스를 따르는 오픈 소스 프로젝트입니다. 기존 사용자는 ALTER EXTENSION pg_utl_smtp UPDATE 명령을 통해 버전을 업그레이드할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_utl_smtp-v20-released-3395/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-18T00:00:00.000Z",
+    "fetchedAt": "2026-10-18T01:13:07.281Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/crecheck-v60-has-been-released-3407/",
+    "title": "crecheck v6.0 has been released\n",
+    "summary": "Antananrivo, Madagascar - October 14, 2026\nPostgreSQL credcheck extension\nThe credcheck PostgreSQL extension provides few general credential checks, which will be evaluated during the user creation, d",
+    "aiSummary": "PostgreSQL의 보안 강화를 위한 확장 기능인 credcheck v6.0 버전이 공식 출시되었습니다. 이번 업데이트는 사용자 계정 생성, 비밀번호 변경, 사용자 이름 변경 시 엄격한 보안 규칙을 적용하여 데이터베이스의 접근 제어를 강화하는 데 중점을 두었습니다.\n\n주요 업데이트 사항으로는 PgBouncer와의 통합 기능이 대폭 개선되었습니다. max_auth_failure 및 password_change_first_login 기능을 PgBouncer 환경에서도 사용할 수 있게 되었으며, 새롭게 추가된 credcheck.password_valid_min 설정을 통해 신규 사용자가 초기 비밀번호를 빠르게 변경하도록 강제할 수 있습니다.\n\n사용자 추적을 위한 기능도 강화되었습니다. Unix의 last 명령어와 유사한 사용자 세션 이력 기록 기능이 도입되어 접속 시간, 소스 IP, 포트 정보 등을 관리할 수 있게 되었으며, PostgreSQL의 상태 정보도 기록합니다. 또한, 보안 강화를 위해 로그에서 비밀번호를 마스킹하는 처리가 개선되었고, 새로운 pg_check_password 함수를 통해 역할을 수정하지 않고도 설정된 정책에 따라 비밀번호 적정성을 미리 검사할 수 있습니다.\n\n이 외에도 권한 상승 보안 취약점 수정, 메모리 누수 및 힙 오버플로우 문제 해결이 포함되었습니다. 해당 버전으로 업그레이드하기 위해서는 PostgreSQL 프로세스의 재시작이 필요합니다. credcheck는 HexaCluster에서 관리하는 PostgreSQL 라이선스 기반의 오픈 프로젝트로, 상세한 정보와 소스 코드는 공식 GitHub 저장소에서 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/crecheck-v60-has-been-released-3407/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-18T00:00:00.000Z",
+    "fetchedAt": "2026-10-18T01:13:07.281Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.1",
+    "title": "1.4.1",
+    "summary": "Improved agy plugin validate to also check a plugin's skills, subagents, and rules: for skills, it errors on a SKILL.md with missing or invalid frontmatter and warns when name or description is missin",
+    "aiSummary": "이번 1.4.1 업데이트에서는 플러그인 검증 도구인 agy plugin validate의 기능이 대폭 강화되었습니다. 이제 플러그인의 skills, subagents, rules 항목에 대해 frontmatter 유효성 검사, 필수 항목 누락 확인, 이름 중복 방지, 24KB 용량 제한 준수 여부 등을 엄격하게 확인하며 관련 경고 및 오류 메시지를 상세히 제공합니다.\n\n사용자 인터페이스 측면에서는 에이전트가 파일을 생성하거나 수정할 때 보여주는 인라인 diff 미리보기가 개선되었습니다. 이제 /diff 파일 뷰와 동일하게 구문 강조 기능을 지원하며, 터미널 색상 구성에 맞춘 배경색 적용과 깔끔한 라인 번호 가독성을 제공합니다. 또한 프롬프트 영역의 렌더링 방식을 최적화하여 타이핑 중이거나 에이전트 작업 시의 CPU 사용량을 효율적으로 낮췄습니다.\n\n보안 및 설정과 관련하여 Business 계정에서 불필요하게 활성화되었던 원격 측정 설정 문제를 해결했습니다. AGY_ADC_AUTH를 사용하는 Google Cloud 환경 등에서 데이터 수집이 이루어지지 않도록 UI를 명확히 하고 서비스 약관 표시 방식을 개선했습니다. Windows 10 및 11의 구 버전 환경에서 터미널 샌드박스 지원이 안 될 경우 샌드박스 기능을 자동으로 비활성화하고 권한 확인 단계를 거치도록 대응했습니다.\n\n안정성 강화 작업도 다수 진행되었습니다. 네트워크 연결 끊김 발생 시 오류로 즉시 종료되는 대신 재시도를 수행하도록 로직을 변경했으며, 예기치 않게 종료된 MCP 서버가 Ready 상태로 유지되던 오류를 수정하여 오류 상태를 정확히 반영하도록 했습니다. 또한 대규모 JSON 결과값이 토큰 제한을 우회하여 컨텍스트 창을 침범하던 현상을 방지했고, 세미콜론이 포함된 URL 링크 처리 오류와 대소문자를 구분하던 명령어 입력 문제 등 여러 버그를 해결했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.1",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-17T20:43:41.000Z",
+    "fetchedAt": "2026-10-18T01:13:07.281Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "deepseek-2026-10-17",
     "title": "DeepSeek Update: Opening up the in-house search API",
     "summary": "DeepSeek&#x27;s web and API search capabilities are powered by our in-house DeepSeek search engine, which reliably handles hundreds of millions of search requests from around the world every day. Deep",
@@ -2267,52 +2333,6 @@
       "Prisma",
       "ORM",
       "Database"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynote/",
-    "title": "Java - The Year of the Runtime!",
-    "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to t",
-    "aiSummary": "AI 코딩 에이전트의 발전으로 언어 문법의 중요성이 낮아짐에 따라 런타임 성능과 운영 효율성이 핵심 가치로 부상하고 있습니다.\n\nJava는 이러한 변화에 대응하기 위해 JVM과 표준 라이브러리를 지속적으로 개선하고 있습니다. 특히 최신 JDK는 프로그래밍 모델의 일관성을 유지하면서도 성능, 관측 가능성, 가비지 컬렉션, 사용성을 꾸준히 향상시키고 있습니다.\n\n앞으로 Java의 미래를 이끌어갈 핵심 혁신으로 Project Valhalla, Project Leyden, Project Lilliput이 진행되고 있습니다. 이러한 기술적 진보는 Java가 현대의 개발 환경 변화 속에서도 강력한 경쟁력을 유지하도록 지원합니다.",
-    "url": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynote/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Ron Pressler",
-    "pubDate": "2026-10-11T00:00:00.000Z",
-    "fetchedAt": "2026-10-12T16:50:18.349Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynite/",
-    "title": "Java - The Year of the Runtime!",
-    "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to t",
-    "aiSummary": "AI 코딩 에이전트의 발전으로 언어 문법의 중요성이 낮아짐에 따라 런타임 성능과 운영 효율성이 핵심 경쟁력으로 부상하고 있습니다.\n\nJava는 이러한 변화에 최적화된 JVM과 표준 라이브러리를 갖추고 있으며 최신 JDK를 통해 성능과 가비지 컬렉션, 관측 가능성 및 사용 편의성을 지속적으로 개선하고 있습니다.\n\n현재 Java 생태계는 기존의 프로그래밍 모델을 유지하면서도 Project Valhalla, Project Leyden, Project Lilliput과 같은 주요 혁신 프로젝트를 통해 기술적 도약을 준비하고 있습니다.",
-    "url": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynite/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Ron Pressler",
-    "pubDate": "2026-10-11T00:00:00.000Z",
-    "fetchedAt": "2026-10-11T14:11:41.328Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-    "title": "New controls and chat improvements in Copilot for JetBrains",
-    "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…\nThe",
-    "aiSummary": "GitHub Copilot for JetBrains 업데이트를 통해 기본 모델 및 MCP 서버 설정에 대한 사용자 제어 권한이 강화되었습니다. \n\n이번 업데이트는 진단 기능을 개선하여 문제 해결 과정을 더 원활하게 만들었으며 채팅 탐색 기능과 계정 관리 항목을 최적화하였습니다. 전반적인 사용성 개선을 통해 개발자가 더욱 효율적으로 Copilot 환경을 관리할 수 있도록 지원합니다.",
-    "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-10T18:53:39.000Z",
-    "fetchedAt": "2026-10-10T19:22:23.653Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
