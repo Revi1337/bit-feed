@@ -1,5 +1,117 @@
 [
   {
+    "id": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/",
+    "title": "Quarterly contributor outreach",
+    "summary": "Hi Django community, thank you all for continuing to contribute to Django.\nThe Steering Council is reaching out to bring people's attention to a few areas. We have major features we'd like to test and",
+    "aiSummary": "Django Steering Council은 Django 6.2 버전 출시를 앞두고 커뮤니티의 적극적인 기여와 참여를 요청했습니다. 이번 활동은 주요 기능의 테스트 및 코드 리뷰, 소규모 기능 개선, 그리고 새로운 아이디어에 대한 의견 수렴을 목적으로 합니다.\n\n주요 기능 부문에서는 CompositeField, DEFAULT_PK_FIELD 설정, 모델 앱 간 이동 기능에 대한 테스트와 리뷰가 필요합니다. 테스트를 위해 Sage Abdullah가 제안한 Django 메인 브랜치 테스트 가이드를 활용할 것을 권장합니다.\n\nQuerySet.executed_queries, Partitioned cookies, HTTP QUERY 메서드 지원, CSRF 디버그 메시지 개선 등 소규모 기능들에 대해서도 테스트와 코드 리뷰 참여자를 찾고 있습니다. \n\n신규 기능 제안 항목은 150개가 넘는 아이디어 중 기술적 검토가 필요한 작업과 커뮤니티의 의견 수렴이 필요한 작업으로 나뉩니다. 모델 Meta 및 마이그레이션 커스터마이징, 최신 CSRF 보호 구현, 타임아웃 API, SRI, import maps 등은 다소 높은 기술적 노력이 필요하며, 이메일 전송 커스텀 훅, 서비스 URL 파싱, 인증 미들웨어 업데이트, 유니코드 이메일 주소 지원 등은 커뮤니티의 간단한 피드백을 기다리고 있습니다.\n\nDjango Steering Council은 기여 방법이 불분명한 경우 Django Forum이나 Discord를 통해 문의할 것을 당부하며, 모든 커뮤니티 구성원의 참여가 Django의 발전으로 이어진다고 강조합니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Tim Schilling",
+    "pubDate": "2026-10-19T17:28:23.000Z",
+    "fetchedAt": "2026-10-19T20:38:06.522Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.149.0",
+    "title": "0.149.0",
+    "summary": "Browsers submit empty text inputs as empty strings (\"\"). FastAPI now treats empty scalar form values as missing in form models, matching individual Form parameters. Required fields return a validation",
+    "aiSummary": "FastAPI 프레임워크가 0.149.0 버전으로 업데이트되면서 폼 데이터 처리 방식에 변화가 생겼습니다.\n\n기존에는 브라우저가 빈 텍스트 입력을 빈 문자열로 전송하던 방식을 그대로 유지했으나, 이번 업데이트를 통해 폼 모델 내부의 스칼라 값이 비어 있을 경우 이를 누락된 것으로 간주하도록 변경되었습니다. 이는 개별 Form 매개변수의 처리 방식과 일치시키기 위한 조치입니다.\n\n이에 따라 필수 입력 필드에 빈 값이 들어오면 유효성 검사 오류가 발생합니다. 반면 기본값이 설정된 필드는 모델의 기본값을 사용하게 되며, model_dump 메서드에서 exclude_unset 옵션을 사용할 경우 해당 필드들은 설정되지 않은 상태로 유지됩니다.\n\n다만 리스트 내부에 포함된 빈 문자열은 그대로 보존되며, 생략된 불리언 폼 필드가 False로 처리되는 동작은 기존과 동일합니다. 또한 JSON 요청이나 Pydantic을 통한 직접적인 유효성 검사 과정에서도 변경 사항은 없습니다. 이번 변경은 PR #16529를 통해 반영된 주요 업데이트 사항입니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.149.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-19T17:21:45.000Z",
+    "fetchedAt": "2026-10-19T20:38:06.522Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
+    "title": "Who judges the judge? Three helpful ways to audit your LLM evaluators",
+    "summary": "Is your LLM-as-a-judge truly objective? \nThere’s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subj",
+    "aiSummary": "많은 기업이 LLM을 활용한 평가 방식인 LLM-as-a-judge가 인간보다 객관적일 것이라 오해하지만, 실제로는 LLM 역시 장황함, 답변 순서, 문법적 완성도, 자기 과신, 자사 모델 편향 등 다양한 인지적 편향을 지니고 있습니다. 이러한 편향은 평가의 신뢰도를 떨어뜨리므로 LLM 평가 도구에 대한 정기적인 감사가 필수적입니다.\n\n내부 안정성을 측정하는 첫 번째 방법은 동일한 입력값에 대해 여러 번 평가를 수행하여 결과의 분산을 확인하는 것입니다. 점수가 크게 변동한다면 평가 기준이 모호하다는 증거이므로 이를 개선해야 합니다.\n\n인간과의 정렬을 검증하는 두 번째 방법은 우연에 의한 일치를 배제하는 수학적 지표를 활용하는 것입니다. 단순히 관대한 AI 심사위원이 인간 평가자와 비슷해 보이는 착시 현상을 방지하고, 전문가의 판단과 실제로 얼마나 일치하는지를 정밀하게 측정해야 합니다.\n\n마지막으로 다중 심사위원 앙상블 체계를 도입해야 합니다. 평가 항목을 세분화하여 각 기준별로 전문화된 심사위원을 배치하고, 최소 두 개 이상의 모델이 동일한 결과를 평가하게 하여 통계적 합의를 도출해야 합니다. 이를 통해 특정 모델의 편향을 상쇄하고 실시간으로 평가 품질의 저하를 감지할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Héctor González Álvarez"
+      ],
+      "title": [
+        "Senior Technical Solutions Consultant, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-19T16:00:00.000Z",
+    "fetchedAt": "2026-10-19T20:38:06.522Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/devs-guide-to-mcp-apps-in-gemini/",
+    "title": "Developer’s guide to implementing MCP apps in Gemini",
+    "summary": "Enterprise assistants still respond mostly in text. However, that can break down for visual, multi-step work, where every adjustment costs another slow chat turn.\nMCP Apps (SEP-1865) solves this. This",
+    "aiSummary": "Gemini Enterprise에서 제공하는 MCP Apps는 기존의 텍스트 기반 챗봇이나 단순 도구 호출 방식을 넘어 대화 흐름 속에서 실시간 UI를 제공하는 3세대 엔터프라이즈 어시스턴트 기능을 지원합니다. MCP Apps는 도구와 실시간 작업 공간을 결합하여 채팅 창 내의 샌드박스화된 iframe에서 직접 상호작용을 수행하므로 모델의 응답을 기다릴 필요 없이 즉각적인 편집과 반응형 사용자 경험이 가능합니다.\n\n이 기술은 사용자의 작업 효율을 높이기 위해 특정 목적에 맞춘 워크플로우를 제공하며 CAD 3D 뷰어, 금융 감도 모델, 법률 검토를 위한 시각적 편집기 등 다양한 전문 도구와 통합할 수 있습니다. 또한 Workforce OAuth 로그인과 Cloud Run을 통한 보안 환경을 구축하여 엔터프라이즈 수준의 데이터 접근 제어와 거버넌스를 보장합니다.\n\n아키텍처는 클라이언트 브라우저, Gemini Enterprise, 그리고 사용자가 직접 호스팅하는 Google Cloud 기반의 MCP 서버 등 3개의 계층으로 분리되어 있습니다. 특히 보안을 위해 Cloud Run IAM과 In-App OAuth라는 두 가지 독립적인 인증 계층을 적용하여 외부 접근을 차단하고 사용자 권한을 엄격하게 관리합니다.\n\n개발자는 MCP Apps SDK 또는 Google Antigravity 도구를 활용하여 단일 파일 HTML 위젯과 HTTP 백엔드를 구축한 뒤 이를 Cloud Run에 배포할 수 있습니다. 배포가 완료되면 Google Cloud 콘솔 내 Gemini Enterprise의 데이터 스토어에 MCP 서버 URL과 OAuth 정보를 등록하고 해당 도구들을 활성화하는 과정을 거쳐 기존 Gemini 인터페이스와 통합할 수 있습니다. 이를 통해 기업은 별도의 복잡한 프론트엔드나 인증 파이프라인 구축 없이도 Gemini Enterprise 환경 내에서 즉시 고도화된 업무용 애플리케이션을 구현할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/devs-guide-to-mcp-apps-in-gemini/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Dave Wang"
+      ],
+      "title": [
+        "Forward Deployed Engineer, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-19T16:00:00.000Z",
+    "fetchedAt": "2026-10-19T20:38:06.522Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "cd5eb4df7600955259cf3d08d3dc859f994f08c5",
+    "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+    "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server wi",
+    "aiSummary": "AWS Lambda가 별도의 어댑터 없이 일반적인 HTTP 서버를 직접 실행할 수 있도록 기능이 업데이트되었습니다. 이를 통해 기존 코드를 AWS 환경에서 훨씬 간편하고 빠르게 배포할 수 있게 되었습니다.\n\n또한 Amazon S3가 Vercel Marketplace에 통합되어 개발자가 Vercel 플랫폼 내부에서 직접 S3 리소스를 프로비저닝하고 관리할 수 있게 되었습니다. 이번 업데이트는 클라우드 인프라와 애플리케이션 개발 환경 사이의 기술적 거리를 좁혀 개발 생산성을 향상하는 데 중점을 둡니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-10-19T15:34:59.000Z",
+    "fetchedAt": "2026-10-19T20:38:06.522Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu/",
     "title": "Building full virtual vehicles on Google Cloud: From AAOS to the smallest MCU",
     "summary": "Imagining traditional gearheads getting their hands on software-defined vehicles is an amusing thought experiment. With their socket wrenches and air compressors at the ready, they might be confused t",
@@ -110,6 +222,38 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
+    "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
+    "summary": "As organizations work to leverage AI to transform their businesses, it is clear that the raw model intelligence is not the key challenge.\nConsistently, we hear that the challenges lie in how the agent",
+    "aiSummary": "Google이 2026 IDC MarketScape의 Worldwide Agentic AI Platforms 평가에서 리더 기업으로 선정되었습니다. IDC는 기술 및 공급업체의 시장 경쟁력을 정성적, 정량적 기준으로 분석하여 기업의 위치를 평가합니다.\n\nGoogle은 기업이 비즈니스 환경에서 AI를 도입할 때 겪는 품질, 통합, 보안 및 거버넌스 문제를 해결하기 위해 Gemini를 중심으로 한 연결된 플랫폼 기반을 제공합니다. 주요 차별화 요소는 네 가지입니다.\n\n첫째, Gemini는 Google Workspace와 Microsoft 365 등 업무 현장에 직접 통합되며, Agent Registry를 통해 팀 단위의 성공적인 워크플로우를 조직 전체의 재사용 가능한 자산으로 변환합니다.\n\n둘째, 모델 선택의 자유와 개방성을 보장합니다. Model Garden을 통해 200개 이상의 모델을 지원하며, BigQuery, Salesforce, SAP 등 기존 엔터프라이즈 데이터와 연동됩니다. 또한 MCP나 A2A와 같은 개방형 표준을 지원하여 멀티 벤더 환경에서도 유연하게 작동합니다.\n\n셋째, 효율적인 토큰 경제를 추구합니다. 작업 복잡도에 따라 모델을 동적으로 배분하는 Auto 모드를 지원하며, 재사용 가능한 스킬을 통해 토큰 소비를 최적화하고 예산 제한 기능을 통해 비용을 통제합니다.\n\n넷째, 기업 수준의 거버넌스와 보안을 내재화했습니다. 개별 에이전트에 인증된 ID를 부여하여 작업 이력을 기록하고, 샌드박스를 통해 데이터 유출을 방지하며 Agent Gateway가 자동화된 보안 정책을 강제합니다.\n\nGoogle은 이러한 플랫폼 전략을 통해 기업이 신뢰할 수 있는 환경에서 기술 선택권을 갖고 AI를 도입할 수 있도록 지원할 방침입니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jamie de Guerre"
+      ],
+      "title": [
+        "Senior Director, Outbound Product Management"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-19T07:00:00.000Z",
+    "fetchedAt": "2026-10-19T20:38:06.522Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
