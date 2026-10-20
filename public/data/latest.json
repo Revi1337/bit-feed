@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.150.0",
+    "title": "0.150.0",
+    "summary": "When no file is selected, browsers submit a file part with an empty filename and empty content. FastAPI now treats this as missing: required file fields return a validation error, and fields with defa",
+    "aiSummary": "FastAPI가 버전 0.150.0으로 업데이트되면서 파일 업로드 처리 방식이 변경되었습니다.\n\n기존에는 선택되지 않은 파일 입력 필드를 빈 이름과 빈 내용을 가진 파일로 간주했으나, 이제는 해당 필드를 누락된 것으로 처리합니다. 이에 따라 필수 파일 필드가 선택되지 않았을 경우 유효성 검사 오류가 발생하며, 기본값이나 기본 팩토리가 설정된 필드는 설정된 값을 사용하게 됩니다.\n\n파일 목록 내의 선택되지 않은 입력값은 무시되지만, 사용자가 직접 선택한 0바이트 크기의 파일은 기존과 동일하게 정상적으로 허용됩니다. 이번 변경 사항은 PR 16534를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.150.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-19T22:39:30.000Z",
+    "fetchedAt": "2026-10-20T01:55:39.132Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+    "title": "Copilot model policy API for enterprise, orgs, and teams",
+    "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now…\nThe post C",
+    "aiSummary": "GitHub는 기업, 조직, 팀을 위한 Copilot 모델 정책을 관리할 수 있는 새로운 REST API를 공개하였습니다.\n\n이번 업데이트를 통해 사용자는 GET 및 PATCH 엔드포인트를 활용하여 기업 단위의 설정뿐만 아니라 팀별, 애플리케이션별 Copilot 모델 정책을 조회하고 수정할 수 있게 되었습니다.\n\n이를 통해 관리자는 조직 내에서 사용되는 Copilot 모델을 더욱 유연하고 효율적으로 제어할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-19T21:32:18.000Z",
+    "fetchedAt": "2026-10-20T01:55:39.132Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/",
     "title": "Quarterly contributor outreach",
     "summary": "Hi Django community, thank you all for continuing to contribute to Django.\nThe Steering Council is reaching out to bring people's attention to a few areas. We have major features we'd like to test and",
@@ -254,6 +286,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/clef",
+    "title": "Clef is available on Ollama's cloud",
+    "summary": "Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.",
+    "aiSummary": "Cloudflare가 개발한 27B 규모의 멀티모달 의사결정 모델인 Clef가 Ollama 플랫폼을 통해 제공되기 시작했습니다. 이제 사용자들은 해당 모델을 자신의 로컬 환경이나 Ollama 클라우드에서 직접 실행하여 활용할 수 있습니다.",
+    "url": "https://ollama.com/blog/clef",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-10-19T00:00:00.000Z",
+    "fetchedAt": "2026-10-20T01:55:39.132Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
@@ -2334,134 +2383,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
-    "title": "This Week in Spring - October 13th, 2026 ",
-    "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring! This one I am writing from beautiful Carmel-by-the-Sea in sunny California's Bay Area, overlooking the Pacific Ocean",
-    "aiSummary": "Jobrunr 9 버전이 새롭게 출시되어 작업 실패 단계 확인과 성능 저하 원인 파악, 작업 중단 및 재시작 기능을 지원하며 Spring Initializr를 통해 사용할 수 있게 되었습니다.\n\nSpring Boot 애플리케이션 구조 설계와 관련하여 GeeksforGeeks에서 전통적인 계층형 아키텍처를 다루었으나 기능 단위로 구조를 구성하는 Spring Modulith 방식을 권장합니다. 또한 개발자 학습 로드맵인 DeveloperRoadmaps와 애플리케이션 스캐폴딩 도구인 Progen CLI에 대한 정보가 공유되었습니다.\n\nIntelliJ IDEA 컨퍼런스에서 공개된 영상들을 통해 IntelliJ IDEA의 새로운 기능과 Spring AI의 에이전트 패턴 및 도구 호출 방식에 대한 심층적인 내용을 확인할 수 있습니다. 마지막으로 A Bootiful Podcast에서는 Jenkins의 창시자인 Kohsuke Kawaguchi와의 인터뷰가 공개되었습니다.",
-    "url": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "fetchedAt": "2026-10-14T12:56:23.404Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
-    "title": "Python 3.16.0 alpha 1 is now available",
-    "summary": "The first developer preview of Python 3.16 is ready for testing.",
-    "aiSummary": "Python 3.16 버전의 첫 번째 개발자 프리뷰인 Python 3.16.0 alpha 1이 공개되었습니다. 이번 릴리스는 개발자들이 새로운 기능을 미리 확인하고 테스트할 수 있도록 지원하기 위해 마련되었습니다.",
-    "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
-    "category": "프로그래밍 언어",
-    "source": "Python Insider",
-    "author": "Savannah Ostrowski",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "fetchedAt": "2026-10-13T20:44:16.562Z",
-    "tags": [
-      "Python"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/10/13/agents-on-rails-stage-3",
-    "title": "Agents on Rails: Stage 3. Can a model build on its own work?",
-    "summary": "Now that we understand better how agents deal with contained tasks and contained codebases, it’s time to push them a little harder. Stage 3 adds a set of large multi-step tasks that test how well a mo",
-    "aiSummary": "Agents on Rails 벤치마크의 3단계는 AI 모델이 여러 세션에 걸쳐 자신의 이전 작업을 기억하고 확장하며 복잡한 다단계 작업을 수행할 수 있는지 평가합니다. 이번 평가에는 기존의 1단계와 2단계를 통합하여 총 46개의 과제로 구성된 새로운 통합 벤치마크가 사용되었습니다. 평가의 공정성을 위해 이진 채점 방식에서 필수 및 선택 조건을 포함한 분수 채점 방식으로 변경하였으며, 모든 평가는 결정론적 검증기를 통해 진행되었습니다.\n\n주요 모델별 성과는 다음과 같습니다. Claude Opus 5.5는 65.3%의 성공률로 가장 높은 정확도를 기록했으며 다단계 작업에서도 뛰어난 성능을 보였습니다. GPT-6.1 Sol은 약 0.80달러의 비용으로 60.8%의 성공률을 기록하며 성능과 경제성 면에서 가장 균형 잡힌 모델로 평가되었습니다. GPT-6 Luna는 가장 저렴한 비용으로 효율적인 작업 수행이 가능했고, GPT-6 Astra는 중간 설정에서 가장 빠른 처리 속도를 나타냈습니다.\n\n평가 결과, 많은 모델이 코드의 일관성을 유지하는 데 어려움을 겪었습니다. 일부 모델은 시간이 지남에 따라 초기 요구 사항을 위반하거나 테스트 코드를 임의로 수정하여 논리적 오류를 발생시켰습니다. 특히 저렴한 모델들은 장기적인 계획 수립이나 복잡한 레거시 코드 환경에서의 호환성 유지에 취약한 모습을 보였습니다. 또한, 모든 모델은 생산 환경에 필요한 실질적인 인프라 설정에는 미흡하여, 여전히 개발자의 후속 작업이 필수적인 것으로 나타났습니다.\n\n각 모델은 고유한 작업 스타일을 보여주었습니다. Kimi는 철저한 분석과 최적화에 강점을 보였으며, Grok은 수정 전 방대한 코드를 조사하는 탐색적 성향이 강했습니다. DeepSeek의 경우 이전 세션의 결과물을 다시 활용하려는 시도를 보였으나, 때때로 이를 부정확하게 처리하는 모습을 나타냈습니다. 연구진은 앞으로 모델의 도구 사용 능력과 코드 검색 역량을 더욱 강화하여, 모델이 실제 Rails 앱 개발에 실질적인 도움을 줄 수 있도록 연구를 지속할 예정입니다.",
-    "url": "https://rubyonrails.org/2026/10/13/agents-on-rails-stage-3",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Alexander Baygeldin, Vladimir Dementyev, Aibek Izhanov",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "fetchedAt": "2026-10-13T20:44:16.562Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/fly-io-sprites",
-    "title": "Run AI agents safely with Ollama and Fly.io",
-    "summary": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.",
-    "aiSummary": "Ollama의 클라우드 모델을 Fly.io의 클라우드 컴퓨터 환경에서 안전하게 구동할 수 있게 되었습니다. 이제 개발자들은 Fly.io의 인프라를 활용하여 AI 에이전트를 보다 안정적이고 효율적으로 운영할 수 있습니다.",
-    "url": "https://ollama.com/blog/fly-io-sprites",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "fetchedAt": "2026-10-13T20:44:16.562Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/origin-app-marketplace",
-    "title": "Origin App Marketplace",
-    "summary": "Oct 13, 2026 · ChangelogOrigin App MarketplaceOrigin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare",
-    "aiSummary": "Origin이 Cloudflare, Linear, Sentry, Socket Security 등 다양한 파트너와 협력하여 배포, CI, 코드 리뷰, 보안, 모니터링, 프로젝트 관리 분야의 20개 이상의 앱을 통합한 Origin App Marketplace를 공개합니다. 이제 개발 도구를 구축하는 모든 팀은 직접 개발한 앱을 Marketplace에 게시할 수 있습니다.\n\n앱을 게시하려면 먼저 Origin 네임스페이스 내에서 앱을 생성하고 Origin API를 활용하여 개발해야 합니다. 앱은 App JWT와 설치 액세스 토큰을 통해 인증하며 웹훅 이벤트를 수신하고 체크 실행, 풀 리퀘스트 댓글 작성 등의 기능을 수행할 수 있습니다. 이후 공개 설정으로 전환하고 앱 페이지에서 데모 영상과 태그 등을 포함하여 제출하면 Origin 측의 검토를 거쳐 최종 등재됩니다.\n\n사용자는 현재 제공되는 다양한 파트너 앱을 바로 이용할 수 있으며 개발자는 발행 가이드와 API 문서를 참고하여 직접 앱을 구축할 수 있습니다. 또한 Origin Apps 플러그인을 사용하면 실시간 API 문서를 바탕으로 궁금한 점을 해결하거나 기존에 운영 중인 앱을 Origin으로 전환하는 계획을 세울 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/origin-app-marketplace",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "fetchedAt": "2026-10-13T20:44:16.562Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/inertia-3-9-0",
-    "title": "Pause Polling in Background Tabs in Inertia.js v3.9",
-    "summary": "Inertia.js v3.9 adds a background option to pause polling in hidden tabs, a navigate event type for history restores, and fixes for back navigation.\nThe post Pause Polling in Background Tabs in Inerti",
-    "aiSummary": "Inertia.js v3.9 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심 기능은 백그라운드 탭에서 폴링을 일시 중단할 수 있는 background 옵션이 추가된 것입니다. 또한 히스토리 복원을 위한 navigate 이벤트 타입이 도입되었으며 뒤로 가기 탐색과 관련된 버그가 수정되었습니다.",
-    "url": "https://laravel-news.com/inertia-3-9-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-10-12T23:59:10.000Z",
-    "fetchedAt": "2026-10-13T15:09:13.494Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-    "title": "Client telemetry user attribution and configurable capture",
-    "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.i",
-    "aiSummary": "Enterprise 관리자는 이제 프롬프트나 응답, 도구 콘텐츠와 같은 민감한 정보의 수집 없이도 GitHub Copilot의 활동을 특정 사용자와 연결할 수 있는 기능을 사용할 수 있습니다.\n\n이번에 추가된 telemetry.capture.identity 설정을 통해 관리자는 사용자 ID 정보를 텔레메트리 데이터에 포함하여 관리 환경에서의 활동 추적을 더욱 정밀하게 수행할 수 있습니다. 이를 통해 보안 및 개인정보 보호 정책을 준수하면서도 조직 내 GitHub Copilot의 사용 현황을 투명하게 파악하는 것이 가능해졌습니다. 해당 기능은 기업용 관리 설정을 통해 필요한 수준으로 구성할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-12T22:38:00.000Z",
-    "fetchedAt": "2026-10-13T03:40:58.752Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "4158873d220345e053e781fb51ca252fff001d13",
-    "title": "Announcing AWS Lambda Web Functions",
-    "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distrib",
-    "aiSummary": "AWS Lambda Web Functions는 HTTP 프레임워크를 네이티브 방식으로 실행할 수 있도록 설계된 서버리스 컴퓨팅 기본 요소입니다. 이 서비스는 다중 동시 실행 기능과 자동화된 글로벌 배포를 통해 빠르고 일관된 응답 속도를 제공합니다. 개발자는 이를 활용하여 서버 관리 부담 없이 웹 애플리케이션을 효율적으로 구축하고 운영할 수 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Micah Walter",
-    "pubDate": "2026-10-12T22:34:47.000Z",
-    "fetchedAt": "2026-10-13T03:40:58.752Z",
-    "tags": [
-      "AWS",
-      "Cloud"
     ]
   }
 ]

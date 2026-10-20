@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.150.0",
+    "title": "0.150.0",
+    "summary": "When no file is selected, browsers submit a file part with an empty filename and empty content. FastAPI now treats this as missing: required file fields return a validation error, and fields with defa",
+    "aiSummary": "FastAPI가 버전 0.150.0으로 업데이트되면서 파일 업로드 처리 방식이 변경되었습니다.\n\n기존에는 선택되지 않은 파일 입력 필드를 빈 이름과 빈 내용을 가진 파일로 간주했으나, 이제는 해당 필드를 누락된 것으로 처리합니다. 이에 따라 필수 파일 필드가 선택되지 않았을 경우 유효성 검사 오류가 발생하며, 기본값이나 기본 팩토리가 설정된 필드는 설정된 값을 사용하게 됩니다.\n\n파일 목록 내의 선택되지 않은 입력값은 무시되지만, 사용자가 직접 선택한 0바이트 크기의 파일은 기존과 동일하게 정상적으로 허용됩니다. 이번 변경 사항은 PR 16534를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.150.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-19T22:39:30.000Z",
+    "fetchedAt": "2026-10-20T01:55:39.132Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+    "title": "Copilot model policy API for enterprise, orgs, and teams",
+    "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now…\nThe post C",
+    "aiSummary": "GitHub는 기업, 조직, 팀을 위한 Copilot 모델 정책을 관리할 수 있는 새로운 REST API를 공개하였습니다.\n\n이번 업데이트를 통해 사용자는 GET 및 PATCH 엔드포인트를 활용하여 기업 단위의 설정뿐만 아니라 팀별, 애플리케이션별 Copilot 모델 정책을 조회하고 수정할 수 있게 되었습니다.\n\n이를 통해 관리자는 조직 내에서 사용되는 Copilot 모델을 더욱 유연하고 효율적으로 제어할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-19T21:32:18.000Z",
+    "fetchedAt": "2026-10-20T01:55:39.132Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/",
     "title": "Quarterly contributor outreach",
     "summary": "Hi Django community, thank you all for continuing to contribute to Django.\nThe Steering Council is reaching out to bring people's attention to a few areas. We have major features we'd like to test and",
@@ -254,6 +286,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/clef",
+    "title": "Clef is available on Ollama's cloud",
+    "summary": "Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.",
+    "aiSummary": "Cloudflare가 개발한 27B 규모의 멀티모달 의사결정 모델인 Clef가 Ollama 플랫폼을 통해 제공되기 시작했습니다. 이제 사용자들은 해당 모델을 자신의 로컬 환경이나 Ollama 클라우드에서 직접 실행하여 활용할 수 있습니다.",
+    "url": "https://ollama.com/blog/clef",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-10-19T00:00:00.000Z",
+    "fetchedAt": "2026-10-20T01:55:39.132Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
