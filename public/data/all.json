@@ -1,5 +1,84 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.4",
+    "title": "0.156.4",
+    "summary": "Fixes\n🐛 Fix AliasChoices for named JSON body parameters. PR #16559 by @tiangolo.\n🐛 Fix AliasChoices extraction for form models. PR #16557 by @tiangolo.",
+    "aiSummary": "FastAPI 버전 0.156.4 업데이트가 진행되었습니다. 이번 업데이트에서는 이름이 지정된 JSON 본문 매개변수에 대한 AliasChoices 버그를 수정하였습니다. 또한 폼 모델에서 AliasChoices가 올바르게 추출되지 않던 문제를 해결하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.4",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-20T23:00:11.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.3",
+    "title": "0.156.3",
+    "summary": "Fixes\n🐛 Fix AliasChoices for query parameters, headers, and cookies. PR #16555 by @tiangolo.",
+    "aiSummary": "FastAPI 프레임워크의 0.156.3 버전 업데이트가 진행되었습니다. 이번 업데이트는 쿼리 파라미터, 헤더, 쿠키 설정 시 사용되는 AliasChoices 기능에서 발생하던 버그를 수정하는 데 초점을 맞추었습니다. 해당 개선 사항은 PR 16555를 통해 반영되었으며 tiangolo가 작업을 수행했습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.3",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-20T21:53:47.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=platform&p=748195",
+    "title": "JetBrains Plugin Developer Conf 2026: AI, New APIs, and More",
+    "summary": "What does the rise of AI agents mean for plugin development? And what new tools and APIs can help you build better plugins for JetBrains IDEs? These are some of the topics we’ll explore at JetBrains P",
+    "aiSummary": "JetBrains Plugin Developer Conf 2026 행사가 오는 11월 10일 오후 1시 UTC에 온라인으로 개최됩니다.\n\n이번 컨퍼런스에서는 AI 에이전트의 부상이 플러그인 개발 생태계에 미치는 영향과 이를 활용한 개발 전략을 집중적으로 다룹니다.\n\n참가자들은 JetBrains IDE를 위한 더 나은 플러그인을 구축하는 데 필요한 최신 도구와 새로운 API 정보를 확인할 수 있습니다.\n\n행사는 무료로 진행되며 플러그인 개발자들에게 유용한 기술적 인사이트를 제공할 예정입니다.",
+    "url": "https://blog.jetbrains.com/platform/2026/10/jetbrains-plugin-developer-conf-2026-ai-new-apis-and-more/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Elena Kerpeleva",
+    "pubDate": "2026-10-20T21:49:55.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-20-1",
+    "title": "Upcoming Critical PHP Security Release",
+    "summary": "The PHP security team would like to give advance notice of an\n        .\n      upcoming security release\nIt is scheduled for Wednesday, 21 October 2026 at 14:00 UTC.\n\n        It addresses two critical ",
+    "aiSummary": "PHP 보안 팀은 2026년 10월 21일 수요일 14시 UTC에 예정된 중요 보안 업데이트를 공지합니다.\n\n이번 업데이트는 CVSS v4.0 기준 9.2점으로 평가된 2개의 치명적인 취약점을 해결할 예정입니다.\n\n해당 취약점 정보가 공개되거나 실제 공격 사례가 확인될 경우 예정보다 빠르게 배포될 수 있으므로 모든 PHP 사용자는 즉각적인 업그레이드를 준비해야 합니다.\n\n관련 상세 내용과 영향을 받는 버전 및 수정 버전은 업데이트 배포와 동시에 공개될 예정입니다.",
+    "url": "https://www.php.net/index.php#2026-10-20-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-20T20:32:00.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.2",
+    "title": "0.156.2",
+    "summary": "Fixes\n🐛 Preserve Pydantic field metadata in inferred request parameters. PR #16553 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.156.2 버전 업데이트를 통해 Pydantic 필드 메타데이터가 추론된 요청 매개변수에서 유지되지 않던 문제를 수정하였습니다. 이번 변경 사항은 tiangolo가 제출한 PR #16553을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.2",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-20T20:11:43.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.156.1",
     "title": "0.156.1",
     "summary": "Fixes\n🐛 Preserve Pydantic field metadata when request options are omitted. PR #16549 by @tiangolo.",
@@ -463,6 +542,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/fossasia-pgday-2027-bangkok-9-march-cfp-open-3398/",
+    "title": "FOSSASIA PGDay 2027: Bangkok, 9 March – CFP Open\n",
+    "summary": "We are happy to announce that FOSSASIA PGDay returns to Thailand on 9 March, 2027, bringing the PostgreSQL community together at True Digital Park, Bangkok. Visit the PGDay website for more details.\nA",
+    "aiSummary": "FOSSASIA PGDay 2027 행사가 2027년 3월 9일 태국 방콕의 True Digital Park에서 개최됩니다. 이 행사는 PostgreSQL 사용자, 개발자 및 관계자들이 모여 기술 지식과 실무 경험을 공유하는 아시아 지역의 주요 커뮤니티 컨퍼런스로, FOSSASIA Summit과 함께 진행됩니다.\n\n현재 발표자를 모집하는 CFP가 2026년 11월 30일까지 진행되며, PostgreSQL 개발 및 관리, 성능 최적화, 보안, 클라우드 인프라, 데이터 엔지니어링, 실무 사례 연구 등 다양한 주제의 발표 제안을 환영합니다. 행사는 모든 참가자가 동일한 세션을 공유할 수 있도록 단일 트랙으로 구성되며, 기술 세션 이후에는 참가자 간의 네트워킹을 위한 소셜 이벤트도 마련될 예정입니다.\n\n이번 행사는 오픈 소스 데이터 플랫폼으로서의 PostgreSQL 역할을 강조하며 글로벌 커뮤니티 간의 협력을 도모하는 자리가 될 것입니다. 후원 기업 모집도 함께 진행 중이며, 자세한 정보는 공식 홈페이지를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/fossasia-pgday-2027-bangkok-9-march-cfp-open-3398/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-20T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/sles-156-repositories-are-being-retired-3415/",
+    "title": "SLES 15.6 repositories are being retired\n",
+    "summary": "The SLES 15.6 repositories are being retired from the main PostgreSQL RPM repository, and are moved to the PostgreSQL ZYPP archive .General support for SUSE Linux Enterprise Server (SLES) 15 SP6 (15.6",
+    "aiSummary": "PostgreSQL RPM 저장소에서 SLES 15.6 관련 저장소가 은퇴하고 PostgreSQL ZYPP 아카이브로 이전되었습니다. 이는 업스트림 지원이 2025년 12월 31일부로 종료된 것에 따른 조치입니다.\n\n해당 아카이브에는 PostgreSQL 18을 포함하여 SLES 15.6용으로 빌드된 모든 주요 버전이 보관되어 있습니다. 현재 SLES 15.6을 사용 중인 환경은 최신 서비스 팩인 SP7으로 업데이트하거나, 공식 홈페이지의 아카이브 저장소 섹션을 통해 리포지토리 파일 및 설치 명령을 확인해야 합니다.\n\n아카이브로 이동한 저장소는 더 이상 업데이트가 제공되지 않습니다. 관련 문의 사항은 pgsql-pkg-yum@lists.postgresql.org로 이메일을 보내거나 PostgreSQL 이슈 트래커를 통해 티켓을 생성하시기 바랍니다.",
+    "url": "https://www.postgresql.org/about/news/sles-156-repositories-are-being-retired-3415/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-20T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T01:42:43.634Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
     ]
   },
   {
