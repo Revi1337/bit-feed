@@ -1,5 +1,309 @@
 [
   {
+    "id": "/blog/vulnerability/october-2026-security-releases?1792620000000",
+    "title": "Wednesday, October 21, 2026 Security Releases",
+    "summary": "The Node.js ProjectSecurity releases available (https://nodejs.org/en/blog/vulnerability/october-2026-security-releases#security-releases-available)\nUpdates are now available for the 26.x, 24.x, 22.x ",
+    "aiSummary": "2026년 10월 21일 Node.js 프로젝트는 보안 취약점을 해결하기 위해 26.x, 24.x, 22.x 릴리스 라인에 대한 보안 업데이트를 발표했습니다. 이번 업데이트에는 c-ares, ca-cert, OpenSSL, SQLite, Undici와 같은 종속성 라이브러리의 최신화가 포함되어 있습니다.\n\n주요 수정 사항으로는 dns.resolve 함수의 NUL 문자 처리 오류, TLS 인증서 호스트 이름 우회, 그리고 Brotli 디코더의 경계 밖 쓰기 결함으로 인한 원격 코드 실행 취약점 등이 있으며, 이들은 모두 심각도 높음 단계로 분류되었습니다. \n\n이외에도 Keep-alive 소켓 처리, 비표준 IPv4 호스트 이름의 인증서 검증 미흡, crypto 모듈의 엔트로피 캐시 재사용 문제, 그리고 Permission Model 관련 취약점 등 다수의 보안 이슈가 해결되었습니다.\n\nNode.js 프로젝트 팀은 이번 보안 패치가 적용된 v26.12.1, v24.22.1, v22.23.4 버전을 배포하였으며, 사용 중인 시스템의 보안을 위해 최신 버전으로 업데이트할 것을 권장합니다. 기술 지원이 종료된 버전은 이번 취약점에 그대로 노출되어 있으므로 정기적인 릴리스 일정을 확인하여 안전한 버전을 유지해야 합니다.",
+    "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-21T13:00:42.297Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/updates/v1_144",
+    "title": "Visual Studio Code 1.144 (Insiders)",
+    "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.144 Insiders 버전이 공개되었습니다. 이번 업데이트에는 제품의 기능 개선 및 성능 향상을 포함한 다양한 변경 사항이 적용되었습니다. 사용자들은 공식 문서를 통해 추가된 새로운 기능과 세부적인 업데이트 내용을 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_144",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-10-21T13:00:42.297Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/",
+    "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+    "summary": "Google Cloud has always been defined by choice, enterprise-grade governance, and market-leading price-performance. Key to the foundation of openness and choice is giving customers flexibility to run a",
+    "aiSummary": "Google Cloud가 자사의 Model Garden에 OpenAI의 최신 모델을 추가하며 엔터프라이즈 AI 플랫폼의 확장성을 강화합니다. 이제 고객은 GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna 등 OpenAI의 주요 모델을 Google Cloud 환경 내에서 직접 활용할 수 있게 되었습니다. 이를 통해 기업은 특정 모델에 종속되지 않고 업무 목적과 비용 효율성에 맞춰 최적의 모델을 자유롭게 선택하고 교체할 수 있습니다.\n\n사용자는 Google Cloud Marketplace를 통해 OpenAI 모델을 이용함으로써 별도의 계약 없이 기존 클라우드 결제 체계와 연동된 통합 청구서를 관리할 수 있습니다. 또한 Google Cloud는 엄격한 데이터 보안과 거버넌스를 유지하며 기업 고객에게 신뢰할 수 있는 환경을 제공합니다. 고객 데이터는 외부 학습에 사용되지 않으며 별도의 데이터 경계와 격리된 인프라를 통해 안전하게 보호됩니다.\n\n현재 해당 모델들은 일부 기업 고객을 대상으로 프라이빗 프리뷰 형태로 제공되고 있으며, 향후 Gemini for business 및 Google Antigravity 등 더욱 다양한 서비스로 확대될 예정입니다. 개발자들은 API를 통해 기존 워크플로우를 Google Cloud 환경과 직접 연결하여 더욱 유연한 개발 환경을 구축할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Gemini, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-21T12:00:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/",
+    "title": "Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA",
+    "summary": "Bringing autonomous agents into production means processing sensitive data and valuable intellectual property in real time. Protecting proprietary model weights, user prompts, and generated outputs re",
+    "aiSummary": "Google Cloud는 NVIDIA Blackwell 아키텍처 기반의 RTX PRO 6000 GPU를 탑재한 Confidential G4 인스턴스를 정식 출시했습니다. 이 서비스는 하드웨어 수준의 보안 기술을 통해 AI 모델의 가중치, 사용자 프롬프트, 그리고 처리 중인 민감 데이터를 외부 접근으로부터 안전하게 보호합니다.\n\nConfidential G4는 Compute Engine VM과 GKE 노드를 포함하여 전 세계 36개 영역에서 이용 가능하며, 향후 수 주 내에 다자간 데이터 공유를 지원하는 Confidential Space 기능도 정식으로 제공될 예정입니다. 하드웨어 기반의 원격 검증과 메모리 암호화 기술을 적용하였음에도 불구하고, Llama 3나 SDXL과 같은 주요 모델 추론 작업에서 기존 일반 G4 인스턴스 대비 3.5% 미만의 성능 저하만을 보이는 등 뛰어난 효율성을 보여줍니다.\n\n또한 이번 솔루션은 기존의 Ubuntu OS 이미지와 NVIDIA CUDA-X 라이브러리를 그대로 사용할 수 있어 별도의 코드 수정 없이 즉시 도입이 가능하다는 장점이 있습니다. 이를 통해 기업들은 성능 저하나 복잡한 환경 변화 없이도 데이터 보안과 규정 준수 요구 사항을 충족하면서 규모 있는 AI 인프라를 운영할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Meghna Sreenivasan"
+      ],
+      "title": [
+        "Product Manager, Confidential Computing"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-21T11:30:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026/",
+    "title": "Google Cloud and NVIDIA expand co-engineering collaboration to scale infrastructure for the agentic era",
+    "summary": "As enterprises transition to continuous, multi-step agentic workflows, traditional infrastructure is hitting its limits. But raw performance is only part of the equation. To truly scale agentic AI, en",
+    "aiSummary": "Google Cloud와 NVIDIA가 에이전트 시대의 인프라 확장을 위해 공동 엔지니어링 협력을 확대합니다. 이번 협력은 복잡한 에이전트 워크플로우를 처리하기 위해 필요한 고성능 컴퓨팅, 보안, 그리고 데이터 주권을 통합적으로 제공하는 데 중점을 둡니다.\n\n핵심 인프라 업데이트인 A5X 인스턴스는 NVIDIA Vera Rubin 플랫폼을 기반으로 하며, Virgo Network를 통해 최대 96만 개의 GPU를 연결할 수 있는 거대한 확장성을 지원합니다. 또한 Managed Lustre와 NVIDIA GPUDirect Storage를 결합하여 데이터 전송 효율을 극대화했고, 장기 컨텍스트 처리를 위한 고급 KV Caching 기술을 도입하여 추론 성능과 비용 효율성을 개선했습니다. GKE를 통한 워크로드 오케스트레이션 기능도 강화되어 분산 AI 작업의 효율적인 관리가 가능합니다.\n\n모델 생태계 측면에서는 Gemma, Mistral, NVIDIA Nemotron 등 다양한 오픈 모델에 대한 지원을 확대했습니다. 특히 Google Cloud 상에서 NVIDIA NeMo를 활용해 NVIDIA Cosmos 3나 Nemotron 3.5 SuperVL 모델을 커스터마이징할 수 있는 환경을 제공하여 기업이 특정 목적에 맞는 최적의 모델을 선택하고 구축할 수 있는 유연성을 보장합니다.\n\n보안과 데이터 주권 강화를 위해 Sovereign AI와 Confidential Computing 기능도 대폭 확장되었습니다. Google Distributed Cloud를 통해 외부와 완전히 차단된 환경에서도 NVIDIA HGX B300 GPU와 Gemini Flash 모델을 활용하여 인공지능을 운영할 수 있게 되었으며, 기업 내부 데이터에 대한 RAG 기반 검색 기능을 오프라인 환경에서도 사용할 수 있습니다.\n\n공공 클라우드 환경에서는 Confidential Computing의 적용 범위를 넓혀 NVIDIA RTX PRO 6000 Blackwell 및 HGX B200 기반의 인스턴스에서 하드웨어 기반의 강력한 데이터 보호 기능을 제공합니다. 특히 A4X Max 인스턴스를 통한 Confidential Bare Metal 도입으로 훈련 및 추론 과정에서 모델과 사용자 데이터를 안전하게 보호할 수 있는 신뢰 실행 환경을 구현했습니다. 이를 통해 기업들은 성능 저하 없이 보안과 데이터 주권을 유지하며 대규모 에이전트 AI를 원활하게 운영할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mark Lohmeyer"
+      ],
+      "title": [
+        "VP & GM, AI & Computing Infrastructure"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-21T11:30:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.12.1?1792579160400",
+    "title": "Node.js 26.12.1 (Current)",
+    "summary": "Antoine du Hamel2026-10-21, Version 26.12.1 (Current), @aduh95 prepared by @RafaelGSS (https://nodejs.org/en/blog/release/v26.12.1#2026-10-21-version-26121-current-aduh95-prepared-by-rafaelgss)\nThis i",
+    "aiSummary": "Node.js 26.12.1 버전은 보안 취약점을 해결하기 위한 보안 릴리스입니다. 주요 변경 사항으로는 tls 모듈의 비표준 IP 주소 거부 및 IP 정규화 회귀 현상 수정, dns 모듈의 null 바이트 입력 검증 강화 등이 포함되어 있습니다.\n\n또한 brotli 라이브러리 업데이트, http 에이전트 데이터 가드 최적화, crypto 모듈의 무작위 캐시 초기화 및 root 인증서 업데이트 등 다수의 보안 관련 수정 사항이 반영되었습니다. zlib 모듈의 잘못된 ZIP 헤더 캐싱 방지와 permission 모델의 realpathSync 체크 강화 등 전반적인 시스템 안정성과 보안성 개선이 이루어졌습니다.\n\n이번 릴리스에는 V8 엔진의 백포트와 함께 c-ares 라이브러리 업데이트, X.509 포맷팅 강화 등이 포함되어 있으며, 운영체제별 설치 파일과 바이너리가 공식 홈페이지를 통해 배포됩니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.12.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-21T10:39:20.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/release/v24.22.1?1792579154786",
+    "title": "Node.js 24.22.1 (LTS)",
+    "summary": "Antoine du Hamel2026-10-21, Version 24.22.1 'Krypton' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v24.22.1#2026-10-21-version-24221-krypton-lts-aduh95)\nThis is a security release.\nNotable Chang",
+    "aiSummary": "Node.js 버전 24.22.1 Krypton LTS가 보안 업데이트를 위해 배포되었습니다. 이번 릴리스에는 TLS, DNS, HTTP 등 주요 모듈에서 발견된 다수의 보안 취약점 해결 내용이 포함되어 있습니다.\n\n주요 수정 사항으로는 비정규 IP 주소 거부, DNS 해결 입력값의 널 바이트 검증, IP 정규화 회귀 문제 수정, 브로틀리 압축 라이브러리 업데이트 등이 있습니다. 또한 보안 강화를 위해 OpenSSL 소스를 버전 3.5.9로 업그레이드하고 루트 인증서를 NSS 3.131.1로 업데이트하였으며, c-ares 및 undici 라이브러리 등을 최신 버전으로 갱신하였습니다. \n\n해당 버전은 다양한 운영체제용 설치 파일과 바이너리로 제공되며, 상세한 커밋 내역과 문서는 공식 Node.js 사이트에서 확인할 수 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v24.22.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-21T10:39:14.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/release/v22.23.4?1792579152420",
+    "title": "Node.js 22.23.4 (LTS)",
+    "summary": "Antoine du Hamel2026-10-21, Version 22.23.4 'Jod' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v22.23.4#2026-10-21-version-22234-jod-lts-aduh95)\nThis is a security release.\nNotable Changes (http",
+    "aiSummary": "Node.js 22.23.4 버전이 보안 업데이트를 목적으로 릴리스되었습니다. 이번 업데이트는 다양한 보안 취약점을 해결하는 데 중점을 두고 있습니다.\n\n주요 보안 조치로는 TLS 연결 시 비정규 IP 주소 거부, DNS 확인 입력값의 널 바이트 검증, Brotli 라이브러리 업데이트, HTTP 에이전트 데이터 보호 메커니즘 보강, 암호화 난수 캐시 초기화 등이 포함되었습니다.\n\n또한, 보안 개선과 더불어 안정성을 높이기 위한 여러 구성 요소의 업데이트도 함께 진행되었습니다. 주요 변경 사항에는 루트 인증서의 NSS 3.131.1 버전 업데이트, c-ares 1.34.9 버전 적용, 타임존 데이터 2026e 버전 반영이 포함됩니다. 더불어 OpenSSL 소스가 3.5.9 버전으로 업그레이드되었으며, SQLite 3.53.4 버전과 undici 6.29.1 버전으로 각각 업데이트되었습니다. \n\n사용자는 해당 공식 사이트를 통해 각 운영체제별 설치 파일 및 바이너리를 확인하고 이용할 수 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v22.23.4",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-10-21T10:39:12.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.8",
+    "title": "0.156.8",
+    "summary": "Fixes\n🐛 Preserve uploaded file positions when converting to bytes. PR #16566 by @tiangolo.",
+    "aiSummary": "이번 업데이트는 파일 업로드와 관련된 버그를 수정하는 데 초점을 맞추고 있습니다.\n\n바이트 형태로 변환하는 과정에서 업로드된 파일의 위치 정보가 유실되던 문제를 해결하여 데이터 정합성을 확보했습니다. 해당 수정 사항은 tiangolo가 제출한 PR 16566을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.8",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T08:45:01.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.7",
+    "title": "0.156.7",
+    "summary": "Fixes\n🐛 Fix validation error locations for form and file AliasChoices. PR #16564 by @tiangolo.",
+    "aiSummary": "이번 업데이트는 폼 및 파일 AliasChoices 사용 시 발생하는 검증 오류 위치 표시 문제를 해결하는 데 중점을 두었습니다. tiangolo가 제출한 PR 16564가 반영되어 해당 오류가 수정되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.7",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T08:16:13.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.6",
+    "title": "0.156.6",
+    "summary": "Fixes\n🐛 Respect model alias settings for query, header, and cookie parameters. PR #16562 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.156.6 버전 업데이트에서는 쿼리, 헤더, 쿠키 파라미터와 관련하여 모델 별칭 설정을 올바르게 반영하도록 수정되었습니다. 해당 개선 사항은 @tiangolo의 PR #16562를 통해 적용되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.6",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T07:57:45.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.156.5",
+    "title": "0.156.5",
+    "summary": "Fixes\n🐛 Fix AliasChoices for path parameters. PR #16560 by @tiangolo.",
+    "aiSummary": "FastAPI의 0.156.5 버전 업데이트가 진행되었습니다. 이번 업데이트는 경로 매개변수에서 발생하는 AliasChoices 관련 오류를 수정하는 내용을 담고 있습니다. 해당 버그는 Pull Request 16560을 통해 tiangolo에 의해 해결되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.156.5",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T07:24:23.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.4",
+    "title": "1.4.4",
+    "summary": "Added Auto mode on Windows 11 version 24H2 and later for personal Google Accounts, selectable via --mode auto, Agent Mode in /config, Shift+Tab, or Remote Control Settings (Agent remains the default).",
+    "aiSummary": "이번 1.4.4 업데이트는 사용자 경험 개선과 안정성 확보를 중심으로 다양한 기능이 추가되고 수정되었습니다.\n\n윈도우 11 24H2 버전 이상에서 개인 Google 계정을 위한 Auto mode가 추가되었으며, 이를 통해 더욱 유연한 에이전트 제어가 가능해졌습니다. Commit Tree와 Per Turn 뷰에서는 전체 파일 전환 및 코드 접기 기능이 도입되었고 여러 번의 편집을 하나의 통합된 diff로 보여주도록 개선되었습니다.\n\n또한 MCP 서버가 최상위 대화 ID를 인식할 수 있도록 메타 정보를 추가하였으며, 터미널 샌드박스를 벗어나는 명령에 대한 검토 기능을 강화하여 보안성을 높였습니다. 플러그인 유효성 검사 규칙은 더욱 엄격해졌고, 응답 스트리밍 과정에서의 CPU 및 메모리 사용 효율을 최적화하여 성능을 개선했습니다.\n\n사용자 인터페이스 측면에서는 태블릿 및 폴더블 기기에서의 멀티 패널 레이아웃이 개선되었고, 화면 구성 요소의 배치와 스크롤 관련 버그가 수정되었습니다. 특히 텍스트 입력 시의 Ctrl+Z 실행 취소 오류, 긴 텍스트의 줄 바꿈 처리, 그리고 시스템 프롬프트의 규칙 우선순위 문제를 해결하여 전반적인 시스템 안정성을 향상했습니다.\n\n그 외에도 미디어 첨부 파일의 MIME 타입 지원 범위를 넓히고, Remote Control 사용 시 발생하는 각종 렌더링 및 내보내기 오류, 원격 연결 시의 리소스 누수 문제 등을 폭넓게 수정하여 사용자 편의성을 강화하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.4",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-21T06:38:08.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/php-critical-security-release",
+    "title": "Critical PHP Security Release Coming Tomorrow (October 21)",
+    "summary": "The PHP security team will ship a release on October 21, 2026 at 14:00 UTC that fixes two critical vulnerabilities, both rated CVSS 9.2. Plan your upgrade now.\nThe post Critical PHP Security Release C",
+    "aiSummary": "PHP 보안팀은 2026년 10월 21일 14시 UTC에 보안 취약점 해결을 위한 업데이트를 배포할 예정입니다. 이번 업데이트에는 CVSS 점수 9.2로 평가되는 치명적인 취약점 2건에 대한 수정 사항이 포함됩니다. 해당 취약점의 위험도가 매우 높으므로 개발자들은 사전에 업그레이드 계획을 수립해야 합니다.",
+    "url": "https://laravel-news.com/php-critical-security-release?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-10-21T01:52:52.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/21/jep543-target-jdk28/",
+    "title": "JEP targeted to JDK 28: 543: Structured Concurrency",
+    "summary": "The following JEP is targeted to JDK 28: 543: Structured Concurrency\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/543.",
+    "aiSummary": "JDK 28의 새로운 기능으로 JEP 543 Structured Concurrency가 선정되었습니다.\n\n해당 기능은 다중 스레드 프로그래밍의 복잡성을 줄이고 오류 처리와 취소 메커니즘을 개선하기 위해 설계되었습니다. 여러 작업을 구조화된 방식으로 관리하여 비동기 프로그래밍의 안정성을 높이는 것이 핵심 목적입니다. 상세한 기술 사양은 공식 OpenJDK 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/21/jep543-target-jdk28/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Alan Bateman",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/jina-model-inference-nvidia-rtx-gpus",
+    "title": "Elastic looks to speed up Jina Model Inference by 8x using NVIDIA RTX GPUs",
+    "summary": "Elastic is accelerating Jina model inference with NVIDIA RTX Pro 6000 GPUs, delivering up to 8x faster embedding, 4x faster reranking, and 3.7x faster OCR to power search and agentic AI.",
+    "aiSummary": "Elastic이 NVIDIA RTX Pro 6000 GPU를 활용하여 Jina 모델의 추론 속도를 대폭 향상시켰습니다.\n\n이번 최적화를 통해 임베딩 속도는 최대 8배, 리랭킹 속도는 4배, OCR 처리 속도는 3.7배 빨라졌습니다. 향상된 성능은 검색 엔진의 효율성을 높이고 더욱 정교한 agentic AI를 구현하는 데 핵심적인 역할을 할 예정입니다.",
+    "url": "https://www.elastic.co/blog/jina-model-inference-nvidia-rtx-gpus",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Gregory Chase,Rachael Wade,Kapil Jadhav",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.156.4",
     "title": "0.156.4",
     "summary": "Fixes\n🐛 Fix AliasChoices for named JSON body parameters. PR #16559 by @tiangolo.\n🐛 Fix AliasChoices extraction for form models. PR #16557 by @tiangolo.",
@@ -542,6 +846,21 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
+    "title": "Announcing rustup 1.29.2",
+    "summary": "The rustup team is happy to announce the release of rustup version 1.29.2.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient",
+    "aiSummary": "Rust 프로그래밍 언어의 설치 및 관리 도구인 rustup이 버전 1.29.2로 업데이트되었습니다.\n\n이번 릴리스는 CVE-2026-111943 및 RUSTSEC-2026-0382로 보고된 eMudhra 중간 인증서 관련 문제를 해결하기 위해 rustls-webpki 및 webpki-root-certs 의존성을 업데이트하는 데 초점을 맞춘 보안 패치 성격의 릴리스입니다.\n\n기존 사용자는 IDE 등 rustup을 사용하는 프로그램을 종료한 뒤 rustup self update 명령어를 실행하거나, 일반적인 도구 체인 업데이트 과정인 rustup update 명령어를 통해 최신 버전으로 업그레이드할 수 있습니다.\n\n일부 안티 멀웨어 스캐너가 새로운 릴리스의 파일을 차단하는 현상이 발생할 수 있으나, 이는 시간이 지나 스캐너가 업데이트되면 자동으로 해결될 문제입니다. 상세한 변경 사항은 공식 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rustup Team",
+    "pubDate": "2026-10-20T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Rust"
     ]
   },
   {
@@ -9946,6 +10265,24 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/features",
+    "title": "Features",
+    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry ClaudeNewsFeatures(function(){try{var p=new URLSearchParams(location.search);if(![\"sort\",\"view\",\"group\",\"category\",\"team\"].some(function(k){",
+    "aiSummary": "DRC에서 백신이 없는 희귀 Ebola 변종이 확산함에 따라 글로벌 보건 기구들이 신속한 대응을 위해 Anthropic의 Claude를 활용하고 있습니다. Anthropic은 AI가 사회에 미칠 방대한 영향력을 고려하여 안전성을 최우선으로 하는 연구와 제품 개발에 매진하고 있으며 위험을 완화하고 이점을 확보하기 위해 노력하는 공익 법인입니다.",
+    "url": "https://www.anthropic.com/news/features",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T13:00:42.297Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
