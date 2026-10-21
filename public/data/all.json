@@ -1,5 +1,213 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.158.2",
+    "title": "0.158.2",
+    "summary": "Features\n✨ Add support for optional form models. PR #16582 by @tiangolo.",
+    "aiSummary": "FastAPI의 최신 릴리스인 0.158.2 버전에서 선택적 폼 모델을 사용할 수 있도록 지원하는 기능이 추가되었습니다. 해당 업데이트는 tiangolo가 제출한 PR #16582를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.158.2",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T19:20:32.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.158.1",
+    "title": "0.158.1",
+    "summary": "Fixes\n🐛 Preserve form media types in OpenAPI. PR #16579 by @tiangolo.",
+    "aiSummary": "OpenAPI를 사용할 때 폼 미디어 타입이 정상적으로 보존되지 않던 문제가 수정되었습니다. 해당 변경 사항은 PR 16579를 통해 tiangolo가 반영하였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.158.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T17:47:27.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.158.0",
+    "title": "0.158.0",
+    "summary": "Features\n✨ Add support for combining form models. PR #16577 by @tiangolo.",
+    "aiSummary": "이번 업데이트를 통해 여러 폼 모델을 결합하여 사용할 수 있는 기능이 추가되었습니다. 해당 기능은 tiangolo가 제출한 PR 16577을 통해 구현되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.158.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T17:01:56.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+    "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
+    "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a…\nThe post GitHub CLI: Op",
+    "aiSummary": "GitHub CLI에서 만료 시 자동으로 갱신되는 OAuth 자격 증명을 사용할 수 있는 공개 프리뷰 기능이 도입되었습니다. 해당 기능을 선택하면 gh는 만료 가능한 액세스 토큰을 별도로 저장하여 보안성을 강화하며 사용자가 매번 수동으로 인증을 갱신해야 하는 번거로움을 줄여줍니다. 이를 통해 개발자는 더욱 안전하고 편리하게 GitHub CLI 환경을 운영할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-21T16:43:23.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=95096",
+    "title": "Your Agent Runs in a Docker Sandbox. Now It Can Join a Team.",
+    "summary": "Run AI agents in Docker Sandboxes with BAND AI. Learn how to connect isolated agents, collaborate across environments, and manage access securely.",
+    "aiSummary": "BAND AI는 Docker Sandbox 환경에서 독립적으로 실행되는 AI 에이전트들을 서로 연결하고 협업할 수 있도록 지원하는 기능을 새롭게 공개했습니다.\n\n이번 업데이트를 통해 사용자들은 격리된 환경 내의 에이전트들을 네트워크로 통합하여 팀 단위로 운영할 수 있습니다. 특히 보안이 강화된 접근 제어 기능을 포함하고 있어 에이전트 간의 안전한 데이터 교환과 협업이 가능합니다. 이를 통해 복잡한 작업을 수행하는 에이전트들의 효율적인 관리와 운영 환경 구축이 가능해집니다.",
+    "url": "https://www.docker.com/blog/band-ai-agents-docker-sandboxes/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jennifer Kohl",
+    "pubDate": "2026-10-21T16:10:49.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/",
+    "title": "BigQuery ObjectRef now GA: Build multimodal data platforms for conversational analytics entirely in SQL",
+    "summary": "For data science, data engineering, and machine learning teams, unlocking the value of unstructured data, such as images, videos, audio, and documents, has historically meant managing siloed data pipe",
+    "aiSummary": "BigQuery ObjectRef 기능이 정식 버전으로 출시되어 비정형 데이터와 정형 데이터를 통합한 멀티모달 데이터 플랫폼 구축이 가능해졌습니다. 이제 기업들은 이미지, 영상, 오디오, 문서 등 Cloud Storage에 저장된 비정형 데이터를 별도의 데이터 파이프라인이나 복잡한 인프라 이동 없이 BigQuery 테이블 내에서 직접 관리하고 분석할 수 있게 되었습니다.\n\nObjectRef는 비정형 데이터를 가리키는 내장 STRUCT 데이터 타입으로, 기존의 관계형 데이터와 같은 행에 저장됩니다. 이를 통해 제로 카피 아키텍처를 구현하여 데이터를 중복으로 복사할 필요가 없으며, 데이터 거버넌스 및 보안 정책을 통합적으로 적용할 수 있습니다. 또한 표준 SQL 또는 Python UDF를 통해 데이터 이동 없이 직접적인 분석 및 처리가 가능하며, 특정 시점의 데이터 버전을 추적할 수 있어 재현 가능한 인퍼런스 환경을 제공합니다.\n\n이번 정식 버전에서는 개발자 경험을 대폭 개선하여 사용 편의성을 높였습니다. 엔드 유저 인증을 지원하여 개인 계정으로도 비정형 데이터에 접근할 수 있게 되었으며, 다양한 Cloud Storage 메타데이터와의 호환성을 확보했습니다. 특히 배열 내 객체 참조를 지원함으로써 다수의 문서를 비교하거나 이미지 시퀀스를 분석하는 등 복잡한 멀티모달 추론 작업을 SQL 환경에서 수행할 수 있습니다.\n\n사용자들은 이를 활용해 콘텐츠 모더레이션, 보안 위협 탐지, 재고 규정 준수 검사, 고객 상담 분석 등 다양한 분야에서 비정형 데이터를 구조화된 인사이트로 변환하는 작업을 대규모로 수행하고 있습니다. 특히 Gemini 모델과 결합하여 전체 파이프라인을 SQL 기반으로 구축함으로써, 데이터 엔지니어링의 효율성을 극대화하고 컨텍스트 손실 없이 정교한 AI 분석을 구현할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Guarav Soni"
+      ],
+      "title": [
+        "Engineering Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-21T16:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/containers-kubernetes/zenteiq-scales-physical-ai-inference-4x-with-gke-and-llm-d/",
+    "title": "ZenteiQ scales batch inference 4x with GKE Inference Gateway powered by llm-d",
+    "summary": "Today we hear from ZenteiQ, an artificial intelligence startup spun out of the Indian Institute of Science (IISc) and selected under the IndiaAI Mission to build sovereign scientific foundation models",
+    "aiSummary": "인공지능 스타트업 ZenteiQ은 복잡한 물리 법칙과 수치 해석을 이해하는 과학적 기초 모델을 구축하기 위해 GKE 및 GKE Inference Gateway를 도입하여 데이터 생성 파이프라인의 효율을 4배 이상 높였습니다. \n\n과학적 데이터를 생성하는 과정에서 기존의 단순 로드 밸런싱 방식은 vLLM 엔진의 대기열 상태를 인식하지 못하고, 중복된 프롬프트 접두사를 반복 계산하는 문제로 인해 병목 현상을 유발했습니다. 이를 해결하기 위해 ZenteiQ은 오픈소스 llm-d 기반의 GKE Inference Gateway를 적용하여 실시간 대기열 상태와 KV 캐시 정보를 활용한 지능형 라우팅을 구현하였습니다.\n\n이러한 개선을 통해 데이터 생성 처리량은 기존 1,000개 가속기당 일일 14.7억 토큰에서 약 59.7억 토큰으로 4배가량 증가하였습니다. 또한 프롬프트 접두사 캐시 적중률이 14% 향상되고 노드 간 작업 부하가 균등하게 분산됨에 따라, 데이터 생성 지연으로 인해 MaxText 사전 학습 작업이 중단되는 문제를 해결하고 전체 연구 일정을 예측 가능하게 관리할 수 있게 되었습니다. \n\nZenteiQ은 향후 모델 규모를 확대하고 강화 학습 및 자동화된 수치 해석 평가 루프에도 동일한 GKE Inference Gateway 환경을 적용하여 연구 생산성을 지속적으로 높여갈 계획입니다.",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/zenteiq-scales-physical-ai-inference-4x-with-gke-and-llm-d/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Prof. Sashikumaar Ganesan"
+      ],
+      "title": [
+        "Founder, ZenteiQ"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-21T16:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
+    "title": "Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619",
+    "summary": "PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used",
+    "aiSummary": "PHP 핵심 런타임에서 인증되지 않은 원격 코드 실행 및 메모리 정보 노출이 가능한 치명적인 취약점 CVE-2026-109618과 CVE-2026-109619가 발견되었습니다. 해당 취약점은 Wiz Research가 Gemini 4 Argon 모델의 도움을 받아 식별하였으며 CVSS 기준 9.2점의 심각도를 보입니다.\n\n영향을 받는 대상은 PHP 5.4부터 8.5.11 버전까지이며 PHP 프로젝트는 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전을 통해 보안 패치를 제공합니다. 다만 이미 기술 지원이 종료된 PHP 8.1 이전 버전은 공식적인 패치가 지원되지 않으므로 사용자는 반드시 상위 버전으로 업그레이드해야 합니다.\n\nGoogle Cloud 사용자는 현재 운영 중인 환경에 맞춰 즉각적인 조치를 취해야 합니다. App Engine 표준 환경의 지원되는 런타임은 자동으로 패치가 적용되지만 그 외의 App Engine 가변 환경, Cloud Run, GKE 등에서 직접 빌드한 컨테이너 이미지를 사용하는 경우 패치된 버전의 PHP로 재빌드 및 재배포하는 작업이 필요합니다.\n\nGoogle Cloud는 현재 서버리스 플랫폼을 위한 업데이트된 기본 이미지를 배포 중입니다. 사용자는 Artifact Analysis를 통해 위험 워크로드를 식별하고 Security Command Center를 활용하여 컨테이너 위협 탐지 기능을 활성화할 것을 권장합니다. 기술 지원이 종료된 환경에서 구동되는 애플리케이션은 보안 위협에 노출된 상태이므로 최대한 빠른 시일 내에 PHP 8.2 이상으로 마이그레이션해야 합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Chris Betz"
+      ],
+      "title": [
+        "CISO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-21T14:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/php-critical-rce-security-releases",
+    "title": "PHP Security Releases Fix Two Critical RCE Vulnerabilities",
+    "summary": "PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 fix two critical vulnerabilities that allow unauthenticated remote code execution. Here's who's at risk and how to update.\nThe post PHP Security Releases Fix Two",
+    "aiSummary": "PHP가 최신 보안 업데이트인 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전을 발표했습니다. 이번 업데이트는 인증되지 않은 공격자가 원격에서 코드를 실행할 수 있는 치명적인 취약점 2건을 해결하는 내용을 담고 있습니다. 해당 버전들은 보안 위협으로부터 시스템을 보호하기 위해 즉각적인 업데이트가 권장됩니다. 운영 중인 서버의 안전을 위해 관리자는 사용 중인 PHP 버전을 확인하고 최신 패치를 적용해야 합니다.",
+    "url": "https://laravel-news.com/php-critical-rce-security-releases?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-10-21T13:56:42.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.157.0",
+    "title": "0.157.0",
+    "summary": "Features\n✨ Add support for combining query, header, and cookie parameter models. PR #16573 by @tiangolo.\nDocs\n📝 Clarify boolean query parameter parsing. PR #16569 by @tiangolo.\n📝 Clarify nullable qu",
+    "aiSummary": "FastAPI 0.157.0 버전 업데이트가 진행되었습니다.\n\n이번 업데이트에서는 쿼리, 헤더, 쿠키 매개변수 모델을 결합하여 사용할 수 있는 기능이 새롭게 추가되었습니다.\n\n문서화 측면에서는 불리언 쿼리 매개변수 파싱에 대한 설명과 널러블 쿼리 매개변수 및 경로 매개변수 기본값 설정에 관한 내용이 더욱 명확하게 보완되었습니다.\n\n내부적으로는 번역 알림 및 승인 라벨링 관련 시스템을 제거하여 유지보수 효율성을 높였습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.157.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T13:55:34.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "/blog/vulnerability/october-2026-security-releases?1792620000000",
     "title": "Wednesday, October 21, 2026 Security Releases",
     "summary": "The Node.js ProjectSecurity releases available (https://nodejs.org/en/blog/vulnerability/october-2026-security-releases#security-releases-available)\nUpdates are now available for the 26.x, 24.x, 22.x ",
@@ -29,6 +237,55 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/public-sector/google-public-sector-increases-partner-investments-for-frontline-adoption/",
+    "title": "Google Public Sector increases partner investments for frontline adoption",
+    "summary": "Partnership is at the core of Google Public Sector’s mission to empower government agencies and education institutions with transformative, mission-aligned solutions. We recognize that we can only sca",
+    "aiSummary": "Google Public Sector가 공공 부문 및 교육 기관의 기술 도입을 가속화하기 위해 파트너 생태계에 대한 투자를 대폭 확대합니다. 이번 지원책은 파트너십 강화, 기술적 역량 고도화, 그리고 실무 현장에서의 Gemini 활용 확대를 목표로 하며 크게 네 가지 핵심 분야를 중심으로 운영됩니다.\n\n먼저 파트너 인센티브를 강화합니다. 기술 제안과 설계, 개념 증명을 수행하는 파트너에게 새로운 할인과 보상을 제공하며, 사전 판매 단계에서의 협업을 촉진하기 위한 투자 펀드를 증액합니다. 또한, 새롭게 신설된 Forward Deployed Engineer academy를 통해 전문 엔지니어를 양성하고, 4,500만 달러 규모의 자금을 투입하여 공공 부문 전역에 Gemini를 안정적으로 구축하고 지원할 예정입니다.\n\n소프트웨어 개발사와 기술 연합을 위한 지원도 확대됩니다. 특화된 공공 부문 에이전트 개발을 돕기 위해 ISV Agent Factory를 새롭게 출범하며, 기존 ISV ATO Accelerator를 통해 FedRAMP 등 주요 보안 인증 획득 비용을 최대 100만 달러까지 지원합니다.\n\n전략적 제휴의 일환으로 SHI와의 파트너십을 통해 미국 전역의 공공 및 교육 시장 영업망을 대폭 강화합니다. 또한 Accenture Federal Services와 협력하여 정부 기관이 실험 단계를 넘어 실제 업무에 AI를 도입할 수 있도록 지원하는 Gemini Launchpads를 제공합니다. Google Public Sector는 이러한 프로그램과 교육 과정을 통해 파트너와 함께 공공 기관의 현장 대응력을 높이는 데 집중할 계획입니다.",
+    "url": "https://cloud.google.com/blog/topics/public-sector/google-public-sector-increases-partner-investments-for-frontline-adoption/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Tony Orlando"
+      ],
+      "title": [
+        "Managing Director Partner and Specialty Sales"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        "Google Public Sector"
+      ]
+    },
+    "pubDate": "2026-10-21T13:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+    "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+    "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+    "aiSummary": "OpenAI는 ChatGPT 내 광고 플랫폼인 ChatGPT Ads의 서비스 지역을 26개국으로 확대하였습니다. 현재 10만 개 이상의 광고주가 해당 플랫폼을 활용하여 지역 소상공인부터 글로벌 브랜드에 이르기까지 폭넓은 비즈니스가 잠재 고객과 소통하고 있습니다. 이용자들은 ChatGPT에서 상품을 탐색하고 비교하며 구매 결정을 내리는 과정에서 더욱 다양한 광고를 접하게 됩니다.",
+    "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-21T13:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
     ]
   },
   {
@@ -257,6 +514,22 @@
     ]
   },
   {
+    "id": "https://laravel-news.com/laravel-13-38-0",
+    "title": "Prevent Stale Database Reads in Laravel 13.38",
+    "summary": "Laravel 13.38 adds PreventStaleDatabaseReads middleware and DB::usingWritePdo() so users see their own writes when you read from database replicas.\nThe post Prevent Stale Database Reads in Laravel 13.",
+    "aiSummary": "Laravel 13.38 버전이 업데이트되면서 데이터베이스 복제본 사용 시 발생할 수 있는 데이터 불일치 문제를 해결하기 위한 기능이 추가되었습니다.\n\n새롭게 도입된 PreventStaleDatabaseReads 미들웨어와 DB::usingWritePdo() 메서드는 사용자가 데이터베이스 복제본에서 데이터를 읽을 때 자신의 쓰기 작업이 즉시 반영되지 않는 현상을 방지합니다. 이를 통해 사용자는 자신이 수행한 작업 결과를 실시간으로 정확하게 확인할 수 있게 됩니다.",
+    "url": "https://laravel-news.com/laravel-13-38-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-10-21T02:29:27.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/php-critical-security-release",
     "title": "Critical PHP Security Release Coming Tomorrow (October 21)",
     "summary": "The PHP security team will ship a release on October 21, 2026 at 14:00 UTC that fixes two critical vulnerabilities, both rated CVSS 9.2. Plan your upgrade now.\nThe post Critical PHP Security Release C",
@@ -270,6 +543,129 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+    "summary": "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately.\n all PHP insta",
+    "aiSummary": "PHP 프로젝트는 인증되지 않은 원격 코드 실행이 가능한 두 가지 치명적인 취약점을 해결한 최신 버전 PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35를 발표했습니다. 해당 취약점은 PHP-FPM, Apache mod_php, php-cgi, FrankenPHP, LiteSpeed 등 웹 요청을 처리하는 모든 PHP 환경에 위험을 초래하며, 특히 mod_php 환경에서 가장 높은 위험도를 보입니다.\n\n첫 번째 취약점인 CVE-2026-109618은 메모리 부족 상황에서 내부 요청 데이터가 불완전하게 초기화된 상태로 처리되어 발생하며, 두 번째 취약점인 CVE-2026-109619는 이전 요청에서 해제된 메모리의 상태가 다음 요청에서 재사용되면서 발생합니다.\n\n모든 사용자에게는 즉각적인 업데이트가 강력히 권고됩니다. 공식 다운로드 페이지나 운영체제 배포판의 패키지 관리자를 통해 최신 버전으로 전환해야 합니다. PHP 8.1 이하 버전에 대해서는 더 이상 공식 업데이트가 제공되지 않으므로 최신 버전으로 업그레이드하거나 배포판에서 제공하는 백포트 패치를 적용해야 합니다.\n\n즉각적인 업데이트가 어려운 경우 임시 완화 조치를 시행할 수 있습니다. memory_limit 설정을 조정하거나 업로드 파일 크기 제한, 세션 업로드 진행 상황 비활성화, 웹 서버 레벨에서의 요청 제한 강화 등을 통해 공격 경로를 일부 차단할 수 있습니다. 다만, 이러한 조치들은 근본적인 해결책이 아니므로 가급적 빠른 시일 내에 보안 패치가 적용된 버전으로 업데이트해야 합니다. 상세 기술 정보는 각 취약점에 대한 보안 권고문을 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-10-21-5",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-21T00:35:26.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-21-4",
+    "title": "PHP 8.5.12 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.5.12.\n  \n\n    This is a security release fixing two critical vulnerabilities\n    (CVE-2026-109618, CVE-2026-109619) that can allo",
+    "aiSummary": "PHP 개발팀은 보안 업데이트 버전인 PHP 8.5.12를 공식 발표했습니다.\n\n이번 업데이트는 인증되지 않은 원격 코드 실행을 허용할 수 있는 두 가지 치명적인 보안 취약점인 CVE-2026-109618과 CVE-2026-109619를 해결합니다.\n\n현재 해당 취약점에 대한 별도의 완화 조치가 존재하지 않으므로, 모든 PHP 8.5 사용자는 시스템의 안전을 위해 즉시 업데이트를 수행할 것을 강력히 권장합니다.\n\n소스 코드 및 Windows용 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있으며, 상세한 변경 사항은 ChangeLog를 통해 참조할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-10-21-4",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-21T00:24:52.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-21-3",
+    "title": "PHP 8.4.27 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.4.27.\n  \n\n    This is a security release fixing two critical vulnerabilities\n    (CVE-2026-109618, CVE-2026-109619) that can allo",
+    "aiSummary": "PHP 개발팀이 PHP 8.4.27 버전을 새롭게 배포했습니다.\n\n이번 업데이트는 인증되지 않은 원격 코드 실행을 허용할 수 있는 두 가지 치명적인 보안 취약점인 CVE-2026-109618과 CVE-2026-109619를 해결하는 보안 릴리스입니다. 해당 취약점에 대한 별도의 완화 조치가 존재하지 않으므로, 모든 PHP 8.4 사용자는 즉시 최신 버전으로 업데이트해야 합니다.\n\n소스 코드 다운로드 및 Windows용 바이너리 정보는 공식 PHP 다운로드 페이지에서 확인할 수 있으며, 자세한 변경 사항은 해당 페이지 내의 ChangeLog를 통해 확인이 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-10-21-3",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-21T00:20:54.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-21-2",
+    "title": "PHP 8.3.36 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.3.36.\n  \n\n    This is a security release fixing two critical vulnerabilities\n    (CVE-2026-109618, CVE-2026-109619) that can allo",
+    "aiSummary": "PHP 개발팀은 보안 업데이트 버전인 PHP 8.3.36을 새롭게 발표하였습니다.\n\n이번 업데이트는 인증되지 않은 원격 코드 실행이 가능한 두 가지 심각한 보안 취약점인 CVE-2026-109618과 CVE-2026-109619를 해결합니다.\n\n현재 해당 취약점에 대한 별도의 완화 방법이 존재하지 않으므로, 모든 PHP 8.3 사용자는 시스템의 안전을 위해 즉시 최신 버전으로 업데이트할 것을 강력히 권장합니다.\n\n소스 코드 및 Windows 바이너리 파일은 PHP 공식 다운로드 페이지에서 확인할 수 있으며, 상세한 변경 사항은 ChangeLog를 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-10-21-2",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-21T00:14:54.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-21-1",
+    "title": "PHP 8.2.35 Released!",
+    "summary": "The PHP development team announces the immediate availability of PHP 8.2.35.\n  \n\n    This is a security release fixing two critical vulnerabilities\n    (CVE-2026-109618, CVE-2026-109619) that can allo",
+    "aiSummary": "PHP 개발팀은 보안 취약점을 해결한 PHP 8.2.35 버전을 발표했습니다.\n\n이번 업데이트는 인증되지 않은 사용자가 원격에서 코드를 실행할 수 있는 치명적인 보안 취약점인 CVE-2026-109618과 CVE-2026-109619를 수정했습니다. 현재 이를 완전히 방어할 수 있는 다른 방법이 없으므로, PHP 8.2 사용자는 반드시 최신 버전으로 업데이트해야 합니다.\n\nPHP 8.2 버전은 2026년 12월 31일부로 기술 지원이 종료될 예정입니다. 이후에는 더 이상의 보안 업데이트가 제공되지 않으므로, 사용자들은 지원 가능한 상위 버전으로의 업그레이드 계획을 수립해야 합니다. 관련 소스 코드와 바이너리 파일은 공식 다운로드 페이지에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/index.php#2026-10-21-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-21T00:05:37.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/survey2026-announce",
+    "title": "Help set Go's priorities for next year",
+    "summary": "The Go Blog\nHelp set Go's priorities for next year\nHi Gophers! The 2026 Go Developer Survey is now open. We run this survey every year to understand how you use Go and the challenges you face. Your an",
+    "aiSummary": "Go 언어 개발팀은 2026년 Go 개발자 설문조사를 시작하며 커뮤니티의 의견을 수렴합니다. 매년 진행되는 이 조사는 개발자들이 Go를 활용하는 방식과 겪는 어려움을 파악하여 차기 우선순위를 설정하는 데 활용됩니다.\n\n지난해 설문에서는 코드의 베스트 프랙티스와 Go 관례 준수에 대한 어려움이 가장 큰 문제로 지적되었고, 이를 반영하여 Go 1.26과 1.27 버전에서 go fix 기능을 개선하고 코드 현대화를 지원하는 도구들을 추가한 바 있습니다.\n\n이번 설문조사는 11월 3일까지 진행되며 약 10분에서 20분이 소요됩니다. 모든 문항은 선택 사항이며, 수집된 결과는 2027년 초에 공개될 예정입니다. 개발팀은 더 많은 Go 개발자의 참여를 독려하며 이를 통해 언어의 발전 방향을 결정할 계획입니다.",
+    "url": "https://go.dev/blog/survey2026-announce",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Cameron Balahan, on behalf of the Go team",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "Go"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/10/python-3151-3149-31317/",
+    "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
+    "summary": "Three certified security releases for 3.15, 3.14 and 3.13.",
+    "aiSummary": "Python 3.15, 3.14, 3.13 버전에 대한 보안 업데이트가 각각 3.15.1, 3.14.9, 3.13.17 버전으로 배포되었습니다. 이번 업데이트는 해당 버전의 보안성을 강화하기 위한 인증된 보안 릴리스입니다.",
+    "url": "https://blog.python.org/2026/10/python-3151-3149-31317/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Tr",
+    "aiSummary": "하버드 대학교의 물리학 교수이자 전 과학 학장인 Christopher Stubbs가 Anthropic의 Long-Term Benefit Trust에 새롭게 합류합니다. 그는 관측 우주론과 정밀 측정 분야에서 쌓은 수십 년의 과학적 전문성과 미국 정부의 국가 안보 및 군비 통제 자문 경력을 바탕으로 활동할 예정입니다.\n\nLong-Term Benefit Trust는 Anthropic의 공익적 사명과 상업적 성장을 균형 있게 유지하기 위해 설립된 조직입니다. 이 단체는 Anthropic 이사회의 과반수를 임명할 권한을 가지며, AI의 위험성과 사회적 영향에 관한 주요 결정 사항에 대해 경영진에게 자문을 제공하는 역할을 수행합니다.\n\nChristopher Stubbs는 우주의 가속 팽창을 발견하여 Breakthrough Prize를 수상한 경력이 있으며, 최근에는 AI 모델의 가변성 속에서 과학 연구의 재현성을 확보하는 방안에 대해 연구해 왔습니다. Anthropic 측은 그의 지적 정직함과 엄격한 과학적 기준이 향후 AI 기술의 발전 방향을 설정하는 데 큰 기여를 할 것으로 기대하고 있습니다.",
+    "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "fetchedAt": "2026-10-21T19:22:47.936Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
