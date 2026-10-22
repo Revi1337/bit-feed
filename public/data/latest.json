@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.159.1",
+    "title": "0.159.1",
+    "summary": "Features\n✨ Add support for optional unions of form models. PR #16586 by @tiangolo.",
+    "aiSummary": "FastAPI의 최신 업데이트인 0.159.1 버전이 배포되었습니다. 이번 업데이트에서는 form 모델에 대한 선택적 유니온 지원 기능이 새롭게 추가되었습니다. 해당 기능은 tiangolo가 제출한 PR 16586을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.159.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T20:59:13.000Z",
+    "fetchedAt": "2026-10-22T01:37:38.961Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.159.0",
+    "title": "0.159.0",
+    "summary": "Features\n✨ Add support for optional query, header, and cookie parameter models. PR #16584 by @tiangolo.",
+    "aiSummary": "FastAPI 버전 0.159.0 업데이트를 통해 선택적 쿼리, 헤더, 쿠키 매개변수 모델에 대한 지원이 추가되었습니다. 해당 기능은 tiangolo가 제출한 PR 16584를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.159.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T20:03:57.000Z",
+    "fetchedAt": "2026-10-22T01:37:38.961Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.158.2",
     "title": "0.158.2",
     "summary": "Features\n✨ Add support for optional form models. PR #16582 by @tiangolo.",
@@ -2698,165 +2730,6 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
-    "title": "Announcing Rust 1.99.1",
-    "summary": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of ",
-    "aiSummary": "Rust 팀이 안정적이고 효율적인 소프트웨어 개발을 지원하는 프로그래밍 언어 Rust의 새로운 포인트 릴리스인 1.99.1 버전을 발표했습니다. rustup을 사용하는 기존 사용자는 명령어를 통해 간단하게 업데이트를 진행할 수 있습니다.\n\n이번 1.99.1 버전에서는 이전 릴리스에서 발생했던 몇 가지 회귀 오류를 수정하였습니다.\n\n첫째, 일부 Rust 타겟에서 wcslen 심볼이 누락되어 발생하던 링크 오류를 해결했습니다. LLVM의 최적화 과정에서 wcslen 호출이 추가될 때 이를 처리할 수 있도록 컴파일러 내부 라이브러리에 해당 함수를 포함시켰으며, 특히 UEFI 타겟에서의 표준 라이브러리 관련 문제를 해결하였습니다.\n\n둘째, x86_64 아키텍처에서 FFI bool 반환 값이 잘못 컴파일되던 현상을 수정했습니다. 기존에는 반환 레지스터의 비트 1-7 값이 명시되지 않아 0이나 1 이외의 값이 관찰될 위험이 있었으나, 이제 ABI 요구사항에 맞춰 해당 반환 타입을 제로 익스텐션으로 명확히 표시하도록 개선하였습니다.\n\n셋째, macOS 환경에서 rust-lld가 libLLVM을 불러오지 못하던 문제를 해결했습니다. rustup 프록시 없이 컴파일러를 실행할 때 발생하는 라이브러리 경로 탐색 문제를 방지하기 위해 rust-lld 빌드 시 libLLVM.dylib가 위치한 디렉토리에 대한 rpath 설정을 추가하였습니다.\n\n향후 릴리스의 품질 향상을 위해 사용자는 beta 또는 nightly 채널을 통해 테스트에 참여할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rust Release Team",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/15/java-fit-ai-world/",
-    "title": "How Does Java Fit Into the World of AI—and How Can It Become an Even Better Fit?",
-    "summary": "In this video, we discuss why Java is already a good choice for AI and how existing and future Java platform features can make it even stronger. We explore developments across the language, libraries,",
-    "aiSummary": "Java는 이미 AI 개발을 위한 강력한 플랫폼으로 자리 잡고 있으며 향후 언어와 라이브러리, 런타임 전반의 개선을 통해 그 입지를 더욱 강화할 전망입니다.\n\n특히 OpenJDK의 Project Amber, Project Babylon, Project Valhalla, Project Panama와 같은 주요 기술적 시도들이 Java의 AI 활용 능력을 크게 향상할 것으로 기대됩니다.\n\n이러한 핵심 프로젝트들과 함께 소규모의 점진적 개선들이 결합하여 전체적인 Java 생태계가 AI 분야에서 더욱 효율적이고 강력한 성능을 발휘하도록 지원할 것입니다.",
-    "url": "https://inside.java/2026/10/15/java-fit-ai-world/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Paul Sandoz",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://astro.build/blog/astro-740/",
-    "title": "Astro 7.4",
-    "summary": "Astro 7.4 adds a --timings flag that shows where your build spends its time, separate build and runtime image services, a notFound() handler for custom entrypoints, and experimental parallel prerender",
-    "aiSummary": "Astro 7.4 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 빌드 성능 최적화와 개발 편의성 향상입니다.\n\n빌드 과정에서 소요되는 시간을 상세히 확인할 수 있는 --timings 플래그가 추가되었습니다. 또한 빌드와 런타임 이미지 서비스를 분리하여 보다 효율적인 관리가 가능해졌습니다.\n\n커스텀 엔트리포인트를 위한 notFound() 핸들러가 도입되었으며, 실험적인 기능으로 병렬 사전 렌더링 기능과 커스텀 리다이렉트 페이지 설정 기능이 포함되었습니다.",
-    "url": "https://astro.build/blog/astro-740/",
-    "category": "프론트엔드",
-    "source": "Astro Blog",
-    "author": "Astro Blog",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "Astro"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/postgresql-19-rc-1-released-3409/",
-    "title": "PostgreSQL 19 RC 1 Released!\n",
-    "summary": "The PostgreSQL Global Development Group announces that the first release\ncandidate of PostgreSQL 19 is now available for download. As a release\ncandidate, PostgreSQL 19 RC 1 will be mostly identical t",
-    "aiSummary": "PostgreSQL Global Development Group이 PostgreSQL 19의 첫 번째 릴리스 후보인 PostgreSQL 19 RC 1을 공개했습니다. 이번 버전은 정식 출시를 앞두고 안정성을 높이는 단계에 있으며, 정식 버전과 거의 동일한 기능을 포함하고 있습니다.\n\n개발팀은 2026년 11월 12일에 예정된 정기 업데이트에 포함될 다수의 버그 수정 사항을 미리 반영하기 위해, 동일한 날짜에 두 번째 릴리스 후보인 PostgreSQL 19 RC 2를 추가로 배포할 계획입니다. 이에 따라 PostgreSQL 19의 정식 출시일은 2026년 11월 19일로 예정되어 있습니다.\n\n이전 버전에서 PostgreSQL 19 RC 1로 업그레이드하기 위해서는 pg_upgrade 또는 pg_dump와 pg_restore를 사용하는 주요 버전 업그레이드 전략이 필요합니다.\n\n이번 RC 1에서는 Beta 4 이후 발견된 여러 버그가 수정되었습니다. 주요 수정 사항으로는 REPACK (CONCURRENTLY) 및 pg_plan_advice 관련 오류 해결, 쿼리 플래너 최적화 수정, wal_level이 replica일 때의 논리적 복제 자동 활성화 개선 등이 포함됩니다. 또한 postgres_fdw 통계 가져오기 프로세스의 권한 문제 수정, 병렬 autovacuum 관련 오류 해결, COPY (query) TO ... (FORMAT json) 명령어 실행 시 테이블 컬럼명 대신 쿼리 컬럼명 및 별칭이 JSON 키로 사용되도록 하는 개선 등이 이루어졌습니다. 상세한 수정 목록은 PostgreSQL 공식 홈페이지의 오픈 아이템 페이지에서 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/postgresql-19-rc-1-released-3409/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/blogs/2026/10/15/modern-ui",
-    "title": "Modernizing the VS Code UI",
-    "summary": "See how developer feedback is shaping the modern VS Code interface, from layout density and editor tabs to themes and responsiveness.\nRead the full article",
-    "aiSummary": "Microsoft는 개발자들의 피드백을 적극적으로 반영하여 VS Code의 사용자 인터페이스를 현대화하고 있습니다. 이번 개선 작업은 레이아웃의 밀도 조절과 에디터 탭의 구성 방식 그리고 테마와 전반적인 반응성 향상에 중점을 두고 있습니다. 사용자가 더욱 효율적으로 코딩에 몰입할 수 있는 환경을 조성하기 위해 인터페이스 전반의 사용성을 최적화하는 데 목적이 있습니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/10/15/modern-ui",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Lee Murray",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-    "title": "Anthropic update on independent evaluators",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsAn update on independent evaluatorsOct 15, 2026Last month, we committed to stronger independent, third-party assessment of our models and safet",
-    "aiSummary": "Anthropic은 AI 모델의 안전성을 강화하고 외부 기관의 검증을 투명하게 공개하기 위한 새로운 조치를 발표했습니다.\n\n비영리 연구 기관인 METR의 연구진에게 내부 직원과 유사한 수준의 접근 권한을 부여하여 frontier AI 모델에 대한 위험성 평가를 수행하도록 했습니다. METR 연구원들은 전용 하드웨어와 사무 공간은 물론 내부 도구 및 시스템에 접근할 수 있으며 Anthropic은 이들이 수행한 평가 결과의 출판을 거부할 수 없습니다.\n\nAnthropic은 기밀 정보나 악용 가능성이 있는 데이터를 제외한 범위 내에서 검증 기관에 깊은 정보를 제공하며 모델 구축에 따른 위험성을 투명하게 규명하는 것을 목표로 합니다.\n\n현재 METR뿐만 아니라 SecureBio 및 Accenture와 같은 외부 평가 기관과도 협력 중이며 Hugging Face를 포함한 여러 조직과 추가적인 파트너십 논의를 진행하고 있습니다. 이러한 노력은 대형 은행의 위험 관리를 위해 외부 조사관이 상주하는 것과 유사한 모델로 AI 산업의 안전한 운영을 위한 체계적인 감독 기틀을 마련하기 위한 조치입니다.",
-    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "fetchedAt": "2026-10-15T19:15:24.675Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=94888",
-    "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
-    "summary": "Learn the top AI agent security risks, from prompt injection to excessive autonomy and credential exposure, and how to contain them.",
-    "aiSummary": "AI Agent의 자율성이 높아짐에 따라 발생할 수 있는 주요 보안 위협이 대두되고 있습니다. 대표적인 위험 요소로는 악의적인 의도가 포함된 입력값을 통해 시스템을 조작하는 Prompt Injection 공격과 사용자의 권한을 과도하게 부여받아 발생하는 비정상적인 자율 활동 문제가 있습니다. 또한 Agent가 민감한 Credential 정보에 직접 접근하여 외부로 노출할 수 있는 위험도 존재합니다. 이러한 보안 위협을 방지하기 위해서는 Agent의 권한을 엄격히 제한하고 실시간 모니터링 체계를 구축하여 잠재적인 위험을 사전에 차단하는 전략이 필요합니다.",
-    "url": "https://www.docker.com/blog/ai-agent-security-risks/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jackie Frederick",
-    "pubDate": "2026-10-14T22:08:33.000Z",
-    "fetchedAt": "2026-10-15T01:34:24.394Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=94820",
-    "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
-    "summary": "Harbor can now run every eval task in Docker Sandboxes Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely With Sandboxes, define custom network po",
-    "aiSummary": "Harbor가 Docker Sandboxes를 활용한 에이전트 평가 환경을 지원합니다. Docker Sandboxes는 MicroVM 기술을 기반으로 하여 Claude Code, Codex, Cursor와 같은 에이전트를 안전하게 실행할 수 있는 격리된 환경을 제공합니다.\n\n사용자는 Docker Sandboxes를 통해 맞춤형 네트워크 정책을 정의할 수 있으며 이를 통해 공정하고 재현 가능한 평가를 수행할 수 있습니다. 또한 로컬 환경에서 무료로 평가를 시작한 뒤 필요에 따라 클라우드 환경으로 확장하는 유연한 운용이 가능합니다.",
-    "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Srini Sekaran",
-    "pubDate": "2026-10-14T21:45:27.000Z",
-    "fetchedAt": "2026-10-15T01:34:24.394Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
-    "title": "HydraFusion updates and new Max option",
-    "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and ",
-    "aiSummary": "HydraFusion이 모델 풀을 업데이트하고 오케스트레이션 워크플로우를 개선하였습니다.\n\n이번 업데이트를 통해 새롭게 공개된 HydraFusion Max 옵션은 기존 모델과 함께 VS Code, GitHub Copilot 앱, 그리고 GitHub Copilot 등에서 바로 활용할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-14T20:01:35.000Z",
-    "fetchedAt": "2026-10-15T01:34:24.394Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_143",
-    "title": "Visual Studio Code 1.143 (Insiders)",
-    "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements.\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.143 Insiders 버전에서 새롭게 도입된 기능과 개선 사항들을 확인할 수 있습니다. 이번 업데이트는 사용자 경험을 향상하기 위한 다양한 기술적 변화를 포함하고 있습니다. 상세한 변경 내역과 세부 기술 내용은 공식 홈페이지에 게시된 전체 문서를 통해 확인하시기 바랍니다.",
-    "url": "https://code.visualstudio.com/updates/v1_143",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-10-14T19:30:03.794Z",
-    "fetchedAt": "2026-10-14T19:30:03.794Z",
-    "tags": [
-      "VS Code",
-      "Editor"
     ]
   }
 ]

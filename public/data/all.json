@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.159.1",
+    "title": "0.159.1",
+    "summary": "Features\n✨ Add support for optional unions of form models. PR #16586 by @tiangolo.",
+    "aiSummary": "FastAPI의 최신 업데이트인 0.159.1 버전이 배포되었습니다. 이번 업데이트에서는 form 모델에 대한 선택적 유니온 지원 기능이 새롭게 추가되었습니다. 해당 기능은 tiangolo가 제출한 PR 16586을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.159.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T20:59:13.000Z",
+    "fetchedAt": "2026-10-22T01:37:38.961Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.159.0",
+    "title": "0.159.0",
+    "summary": "Features\n✨ Add support for optional query, header, and cookie parameter models. PR #16584 by @tiangolo.",
+    "aiSummary": "FastAPI 버전 0.159.0 업데이트를 통해 선택적 쿼리, 헤더, 쿠키 매개변수 모델에 대한 지원이 추가되었습니다. 해당 기능은 tiangolo가 제출한 PR 16584를 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.159.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-21T20:03:57.000Z",
+    "fetchedAt": "2026-10-22T01:37:38.961Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.158.2",
     "title": "0.158.2",
     "summary": "Features\n✨ Add support for optional form models. PR #16582 by @tiangolo.",
