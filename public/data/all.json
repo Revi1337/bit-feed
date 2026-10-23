@@ -1,5 +1,150 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "title": "GitHub Copilot in Visual Studio — September update",
+    "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags…\nTh",
+    "aiSummary": "2026년 9월 Visual Studio용 GitHub Copilot 업데이트를 통해 개발 효율성을 높이는 새로운 기능들이 추가되었습니다.\n\n우선 사용자는 이제 채팅창을 벗어나지 않고도 Pull Requests를 직접 탐색할 수 있어 작업의 연속성을 유지할 수 있습니다.\n\n또한 팀이 신뢰하는 특정 AI 모델을 도입할 수 있는 유연성이 강화되었으며 Visual Studio가 취약한 패키지를 감지하는 즉시 AI를 활용해 이를 수정할 수 있는 기능이 제공됩니다.\n\n이번 업데이트는 개발 과정에서의 가시성을 개선하고 보안 취약점 대응 속도를 높이는 데 초점을 맞추고 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-23T00:17:51.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.161.1",
+    "title": "0.161.1",
+    "summary": "Fixes\n🐛 Fix OpenAPI schemas for standalone nullable form unions. PR #16598 by @tiangolo.",
+    "aiSummary": "OpenAPI 스키마에서 독립형 nullable form union을 사용할 때 발생하던 오류가 수정되었습니다. 이번 업데이트는 PR #16598을 통해 반영되었으며 관련 버그를 해결합니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.161.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-22T22:21:50.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+    "title": "Custom skills, agents, and MCP servers in usage metrics API",
+    "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under…",
+    "aiSummary": "GitHub Copilot 사용량 지표 API가 업데이트되어 이제 조직 내에서 생성한 개별 항목을 더욱 상세하게 확인할 수 있습니다. 기존에는 여러 기능이 하나의 그룹으로 묶여 통합 관리되었으나 이제는 Custom skills, custom agents, MCP servers, slash commands, plugins와 같은 각 항목의 이름이 명확하게 표시됩니다. 이번 변화를 통해 기업 관리자는 Copilot 내에서 구체적으로 어떤 기능들이 활용되고 있는지 정밀하게 추적하고 분석할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-22T22:19:17.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18482",
+    "title": "Release Notes for Safari Technology Preview 255",
+    "summary": "Safari Technology Preview Release 255 is now available for download for macOS Golden Gate and macOS Tahoe.",
+    "aiSummary": "Apple이 macOS Golden Gate 및 macOS Tahoe 운영체제를 지원하는 Safari Technology Preview 255 버전을 배포하였습니다. 해당 버전은 Safari의 최신 웹 기술과 기능을 미리 체험할 수 있도록 설계되었습니다.",
+    "url": "https://webkit.org/blog/18482/release-notes-for-safari-technology-preview-255/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-10-22T21:22:48.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
+    "title": "Expanding Claude availability and deployment choice on Google Cloud",
+    "summary": "Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads ho",
+    "aiSummary": "Google Cloud는 기업들이 생성형 AI를 구축하고 확장하는 데 있어 더 많은 선택권과 유연성을 제공하기 위해 Anthropic의 Claude 모델에 대한 새로운 배포 옵션을 추가했습니다. 기존의 Google 관리형 배포 방식 외에도 이제 Anthropic 관리형 배포 옵션을 통해 Claude를 활용할 수 있게 되었습니다.\n\nAnthropic 관리형 옵션은 Claude Managed Agents와 같은 최신 플랫폼 기능을 출시 즉시 제공하는 것이 특징이며, Anthropic이 데이터 처리자로서 서비스를 운영합니다. 반면 Google 관리형 옵션은 강력한 거버넌스와 보안 규정 준수를 중시하는 기업을 위해 VPC Service Controls 및 CMEK와 같은 고급 보안 기능을 지원하며, Google Cloud가 데이터 처리자로 역할을 수행합니다.\n\n사용자는 두 방식 모두 Google Cloud IAM을 통한 인증과 Google Cloud를 통한 통합 결제를 이용할 수 있습니다. 각 기업은 보안 요구 사항과 기능 접근성에 따라 적합한 배포 모델을 선택하여 Claude 3.5 및 3.7 등 최신 모델을 자신의 워크로드에 맞춰 유연하게 도입할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Michael Gerstenhaber"
+      ],
+      "title": [
+        "VP, Product Management, Gemini, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-22T21:00:00.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "title": "Global default for Copilot features generally available",
+    "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, w",
+    "aiSummary": "GitHub가 Copilot Business 및 Copilot Enterprise 플랜 사용자를 대상으로 하는 새로운 정책을 발표했습니다.\n\n기존에 발표되었던 일반 사용 가능한 Copilot 기능 및 지원되는 클라이언트 기능에 대한 글로벌 기본 정책이 오늘부터 순차적으로 적용됩니다. 해당 정책은 기업 환경에서 Copilot을 더욱 체계적으로 관리하고 일관된 기능을 제공하기 위해 마련되었습니다.\n\n이번 업데이트를 통해 각 조직은 Copilot 기능에 대한 표준화된 설정을 기본값으로 활용할 수 있게 됩니다. 상세한 적용 범위와 기술적 세부 사항은 GitHub 공식 블로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-22T20:44:28.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "7ce6bf5eb7b5d26b8ad5cb6ced771ac43468759d",
+    "title": "AWS Continuum for code vulnerabilities is now generally available",
+    "summary": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fi",
+    "aiSummary": "AWS가 코드 취약점을 자동으로 탐지하고 수정하는 보안 서비스인 AWS Continuum for code vulnerabilities를 정식 출시했습니다.\n\n이 서비스는 AI 기술을 활용하여 환경 내 코드의 취약점을 자동으로 찾아내고 검증하며 우선순위를 지정합니다. 또한 분석 결과를 바탕으로 즉시 검토 가능한 수정 코드를 풀 리퀘스트 형태로 제공합니다.\n\n기존에 수작업으로 수 시간이 걸리던 조사 과정과 팀 간의 복잡한 조율 단계를 대폭 단축하여 개발 생산성과 보안 효율성을 동시에 높여줍니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Esra Kayabali",
+    "pubDate": "2026-10-22T20:33:10.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/decisions-api",
+    "title": "Build more responsive apps with the Decisions API",
+    "summary": "Fast, focused, low-cost decisions for any application.",
+    "aiSummary": "Decisions API는 모든 애플리케이션에서 빠르고 효율적이며 비용 효율적인 의사 결정 기능을 구현할 수 있도록 지원하는 도구입니다. 이 API는 복잡한 처리 과정을 단순화하여 애플리케이션이 더욱 즉각적으로 반응하도록 설계되었습니다. 개발자는 이를 통해 시스템의 응답성을 높이고 최적화된 사용자 경험을 제공할 수 있습니다.",
+    "url": "https://openai.com/index/decisions-api",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-22T19:00:00.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.161.0",
     "title": "0.161.0",
     "summary": "Features\n✨ Add support for combining unions of form models. PR #16596 by @tiangolo.",
@@ -304,6 +449,38 @@
       "Bun",
       "Runtime",
       "Build Tool"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/22/spring-batch-6",
+    "title": "Spring Batch 6.1.0-RC1 and 6.0.6 available now!",
+    "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-RC1 and 6.0.6 are available now from Maven Central!\nThese releases bring a number of new features, enhancem",
+    "aiSummary": "Spring Batch 6.1.0-RC1 및 6.0.6 버전이 Maven Central을 통해 배포되었습니다. 이번 업데이트는 다양한 신기능 도입과 기존 기능 개선, 그리고 성능 최적화에 중점을 두고 있습니다.\n\n주요 변경 사항으로는 Spring Framework 7.1.0-RC1을 비롯한 주요 의존성 라이브러리들이 최신 버전으로 업그레이드되었습니다. 개발 편의성을 높이기 위해 @JobParameter 어노테이션이 추가되어, 기존 SpEL 표현식을 사용하던 방식보다 간결하게 잡 파라미터를 주입할 수 있게 되었습니다. 또한 RepositoryItemReader의 대안으로 타입 안전성을 보장하는 PageableItemReader가 도입되었습니다.\n\n데이터 처리와 관련하여 JsonLineMapper와 JsonLineAggregator가 특정 JSON 라이브러리에 종속되지 않는 범용적인 형태로 개선되었습니다. 이로 인해 Jackson이나 Gson 등 다양한 라이브러리를 유연하게 선택할 수 있습니다. 또한 원격 청킹 구성을 위한 RemoteChunkingManagerBuilder가 새롭게 추가되었으며, 기존 SimpleChunkProcessor를 대체하는 DefaultChunkProcessor가 도입되어 청크 처리의 효율성을 높였습니다.\n\nJDBC 데이터 접근 계층에서는 기존 JdbcOperations 대신 Spring Framework의 JdbcClient를 활용하도록 변경되어, 더 직관적인 API 사용과 이름 기반 파라미터 처리가 가능해졌습니다. 단, 이 과정에서 일부 API가 변경되어 직접 DAOs를 인스턴스화하는 코드의 경우 수정이 필요할 수 있습니다.\n\n성능 측면에서는 잡 실행 및 재시작, 파티션 처리 단계에서의 비효율적인 쿼리와 메모리 사용량을 대폭 개선하였습니다. 특히 잡 재시작 시 전체 이력을 로드하던 방식에서 마지막 실행 상태만 확인하도록 변경되었으며, 파티션 단계에서의 메모리 점유율을 획기적으로 낮추어 대규모 배치 작업의 안정성을 확보했습니다. 상세한 변경 내역은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/10/22/spring-batch-6",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "fmbenhassine",
+    "pubDate": "2026-10-22T00:00:00.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-audi-revolut-f1-team-partnership",
+    "title": "How Elastic helps Audi Revolut F1® Team find what matters across engineering software",
+    "summary": "We are excited to announce a new multi-year partnership between Elastic and Audi Revolut F1® Team. The partnership builds on an existing technical relationship: the team already uses Elastic to suppor",
+    "aiSummary": "Elastic과 Audi Revolut F1 Team이 다년간의 공식 파트너십을 체결했습니다. 양측은 이전부터 이어온 기술적 협력 관계를 더욱 강화하기로 하였으며, 이를 통해 Audi Revolut F1 Team은 엔지니어링 소프트웨어 전반에서 발생하는 방대한 데이터를 Elastic 솔루션으로 분석하고 핵심 정보를 효율적으로 탐색하게 됩니다. 이번 파트너십은 레이싱 엔지니어링의 정밀함과 데이터 가시성을 극대화하는 데 중요한 역할을 할 것으로 전망됩니다.",
+    "url": "https://www.elastic.co/blog/elastic-audi-revolut-f1-team-partnership",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Melissa Rigney",
+    "pubDate": "2026-10-22T00:00:00.000Z",
+    "fetchedAt": "2026-10-23T01:38:47.683Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
