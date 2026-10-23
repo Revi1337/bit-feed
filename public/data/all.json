@@ -1,5 +1,53 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.0",
+    "title": "0.162.0",
+    "summary": "Omitted bool and bool | None form fields now use their declared defaults or produce missing-field errors, consistent with other fields and Pydantic behavior. FastAPI no longer infers False for omitted",
+    "aiSummary": "FastAPI 버전 0.162.0 업데이트를 통해 누락된 bool 및 bool | None 형식의 폼 필드 처리 방식이 변경되었습니다. 기존에는 누락된 불리언 값을 자동으로 False로 추론했으나, 이제는 선언된 기본값을 따르거나 필수 필드가 누락된 경우 오류를 발생시킵니다. 이러한 변화는 개별 폼 매개변수, 폼 모델, 그리고 폼 모델의 유니언 타입 전체에 일관되게 적용됩니다.\n\n모델 처리 측면에서도 모델의 model_dump(exclude_unset=True) 사용 시 누락된 불리언 필드는 결과에서 제외되며, 유니언 선택 과정에서도 기본값이 제출된 필드로 간주되지 않습니다. 기본 팩토리나 validate_default와 같은 설정은 기존의 표준 규칙을 따릅니다. HTML 체크박스 기능을 구현할 때는 기본값을 False로 설정하여 명시적으로 선언해야 하며, 이번 변경 사항은 이전 버전과의 호환성을 깨뜨리는 수정 사항으로 포함되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-10-23T18:47:17.000Z",
+    "fetchedAt": "2026-10-23T19:20:59.295Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/volker-dusch-php-rce-disclosure",
+    "title": "Volker Dusch on the PHP RCE Vulnerabilities and Disclosure",
+    "summary": "Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.\nThe post Volker Dusch on the PHP RCE Vu",
+    "aiSummary": "PHP Foundation 소속의 Volker Dusch가 최근 발생한 두 건의 치명적인 PHP RCE 취약점이 발견되고 수정되어 공개되기까지의 전 과정을 설명했습니다.\n\n해당 과정에서는 취약점 보고 및 해결 방식은 물론, 관련 정보가 사전에 유출되었던 상황과 엠바고가 파기되었던 문제점들이 주요하게 다루어졌습니다. \n\n이번 내용은 PHP 생태계 내에서의 취약점 관리와 정보 공개 절차를 투명하게 공유하여 보안 강화의 중요성을 강조하고 있습니다.",
+    "url": "https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-10-23T15:41:26.000Z",
+    "fetchedAt": "2026-10-23T19:20:59.295Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-20-automate-more-enterprise-workflows-with-github-apps",
+    "title": "Enterprise installations for GitHub Apps generally available",
+    "summary": "Installing GitHub Apps on your enterprise is now generally available. You can replace classic PATs with GitHub Apps in more of your enterprise and organization automation with the expanded API…\nThe po",
+    "aiSummary": "GitHub Apps의 엔터프라이즈 설치 기능이 정식으로 출시되었습니다. 이제 기업 환경에서 기존의 Classic PAT를 GitHub Apps로 대체하여 자동화 프로세스를 더욱 효율적으로 관리할 수 있게 되었습니다. 이번 업데이트를 통해 확장된 API 기능을 활용하여 엔터프라이즈 및 조직 단위의 자동화 수준을 한층 더 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-23T15:03:30.000Z",
+    "fetchedAt": "2026-10-23T19:20:59.295Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v11.2.8",
     "title": "v11.2.8",
     "summary": "What's changed\n@nestjs/common\n\nfix(common): reject non-numeric items in ParseArrayPipe with items Number — backport of #17876\nfix(common): reject arrays nested in ParseArrayPipe items — backport of #1",
@@ -110,6 +158,38 @@
     ]
   },
   {
+    "id": "https://spring.io/blog/2026/10/23/spring-ai-2-1-0-RC1-available-now",
+    "title": "Spring AI 2.1.0-RC1 and 2.0.2 Available Now",
+    "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0-RC1 and 2.0.2 have been released and are now available from Maven Central!\nRelease notes (h",
+    "aiSummary": "Spring AI 2.1.0-RC1 및 2.0.2 버전이 Maven Central을 통해 배포되었습니다. 2.1.0-RC1 버전은 주요 채팅 모델 전반에 걸친 메시지 파트 지원 확대, 세션 메모리 기능 도입, 도구 호출 확인 기능 추가 등을 포함하고 있습니다.\n\n메시지 파트 기능은 OpenAI, Anthropic, Google GenAI, Amazon Bedrock Converse, Ollama, Mistral AI, DeepSeek 등 다양한 제공업체의 모델에서 네이티브하게 작동하여 대화 맥락을 유지합니다. 세션 메모리는 기존의 ChatMemory를 대체하며, 구조화된 이벤트 관리와 턴 기반의 압축 전략을 통해 대화 이력을 효율적으로 관리합니다. 또한, 기존 ChatMemory 관련 클래스들은 3.0.0 버전에서 제거될 예정이므로 세션 기반 시스템으로의 전환이 권장됩니다.\n\n도구 호출 확인 기능은 민감한 작업을 실행하기 전 사용자 승인을 거칠 수 있도록 하여 보안성을 높였습니다. 벡터 검색 기능 또한 개선되어 사용자가 직접 계산한 쿼리 벡터를 사용하여 유사도 검색을 수행할 수 있게 되었으며, pgvector, Qdrant, Redis, Elasticsearch 등 여러 벡터 저장소가 이를 지원합니다.\n\n그 외에도 순수 JVM 추론 엔진인 jinfer 지원이 추가되었으며, 오디오 관련 모델 확장 및 다양한 버그 수정과 개선 사항이 포함되었습니다. BedrockChatOptions 등 일부 API 변경 사항이 있으므로 업그레이드 노트를 참고하여 기존 코드를 점검해야 합니다. 2.0.2 버전은 주요 오류 수정을 포함하고 있으며 2.1.0-RC1 버전에도 동일한 수정 사항이 반영되어 있습니다.",
+    "url": "https://spring.io/blog/2026/10/23/spring-ai-2-1-0-RC1-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ebottard",
+    "pubDate": "2026-10-23T00:00:00.000Z",
+    "fetchedAt": "2026-10-23T19:20:59.295Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/23/spring-cloud-2025-1-4-has-been-released",
+    "title": "Spring Cloud 2025.1.4 (aka Northfields) Has Been Released",
+    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.4 (https://cloud.spring.io/) Release Train is available today. The release can b",
+    "aiSummary": "Spring Cloud 2025.1.4 버전인 Northfields가 정식 출시되었습니다. 이번 업데이트는 Maven Central을 통해 배포되었으며 Spring Boot 4.0.9를 기반으로 하고 Spring Boot 4.1.2와의 호환성을 지원합니다.\n\n이번 릴리스에는 Spring Cloud Build, Spring Cloud Bus, Spring Cloud Config, Spring Cloud Gateway 등 전반적인 프로젝트에 걸쳐 발견된 다양한 버그 수정 사항이 포함되어 있습니다. 상세한 수정 내역은 GitHub의 Spring Cloud 프로젝트 페이지에서 확인할 수 있습니다.\n\n주요 모듈인 Spring Cloud Build, Commons, Consul, Kubernetes, Openfeign 등 다수의 구성 요소가 5.0.4 버전으로 업데이트되었으며 Spring Cloud Config는 5.0.6, Spring Cloud Function은 5.0.5로 각각 상향 조정되었습니다. 사용자는 Maven 또는 Gradle의 의존성 관리 설정을 통해 새로운 버전을 적용할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/10/23/spring-cloud-2025-1-4-has-been-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ryanjbaxter",
+    "pubDate": "2026-10-23T00:00:00.000Z",
+    "fetchedAt": "2026-10-23T19:20:59.295Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/10/23/confined-pools/",
     "title": "Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28",
     "summary": "Starting with JDK 28, most applications and libraries that use the Foreign Function & Memory (FFM) API will see the cost of allocating off-heap memory fall dramatically. Small allocations in confined ",
@@ -186,6 +266,22 @@
     "tags": [
       "Spring",
       "Java"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-prevent-stale-database-reads",
+    "title": "Laravel Read Replicas: Prevent Stale Reads After a Write",
+    "summary": "Laravel's PreventStaleDatabaseReads middleware keeps a user's reads on the write database after they save, so read replica lag doesn't show them old data.\nThe post Laravel Read Replicas: Prevent Stale",
+    "aiSummary": "Laravel의 PreventStaleDatabaseReads 미들웨어는 사용자가 데이터를 저장한 직후 읽기 복제본에서 발생할 수 있는 데이터 지연 문제를 해결합니다.\n\n이 기능은 쓰기 작업이 수행된 후 일정 시간 동안 해당 사용자의 읽기 요청을 쓰기 데이터베이스로 강제 라우팅합니다. 이를 통해 읽기 복제본의 동기화 속도로 인해 사용자가 이전 데이터를 조회하게 되는 현상을 방지하고 데이터의 일관성을 유지합니다.",
+    "url": "https://laravel-news.com/laravel-prevent-stale-database-reads?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-10-22T23:20:21.000Z",
+    "fetchedAt": "2026-10-23T19:20:59.295Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
