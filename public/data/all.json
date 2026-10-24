@@ -1,5 +1,53 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+    "title": "Usage metrics API adds usage from tools like OpenCode",
+    "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.…\nThe post",
+    "aiSummary": "GitHub의 Copilot usage metrics API가 업데이트되어 개발자가 사용하는 더 다양한 도구의 모델 사용량을 추적할 수 있게 되었습니다.\n\n기존 보고서에서 누락되었던 OpenCode와 같은 외부 도구들의 사용 데이터가 이번 업데이트를 통해 새롭게 포함되었습니다. 이를 통해 관리자는 개발 환경 전반에 걸친 Copilot의 활용 현황을 더욱 정확하게 파악하고 분석할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-23T23:42:03.000Z",
+    "fetchedAt": "2026-10-24T01:42:50.992Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+    "title": "Turn notifications into code with GitHub Copilot in Teams",
+    "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group…\nThe ",
+    "aiSummary": "Microsoft Teams에 새로운 GitHub 앱이 도입되어 알림과 GitHub Copilot이 통합된 환경을 제공합니다. 사용자는 이제 Teams 채널 내에서 GitHub 이슈 알림을 직접 확인하고, 이를 곧바로 코드 수정 작업으로 연결할 수 있습니다. 이러한 기능 통합을 통해 팀은 대화창을 벗어나지 않고도 협업을 진행하며 개발 속도를 높일 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-23T21:29:58.000Z",
+    "fetchedAt": "2026-10-24T01:42:50.992Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
+    "title": "EMU deletions fix",
+    "summary": "Between June 1 and June 13, 2026, some Enterprise Managed User accounts that were deprovisioned through SCIM were incorrectly deleted instead of being suspended and obfuscated as expected. As a…\nThe p",
+    "aiSummary": "2026년 6월 1일부터 6월 13일 사이에 SCIM을 통해 프로비저닝이 해제된 일부 Enterprise Managed User 계정에서 오류가 발생했습니다. 해당 계정들은 시스템 정책에 따라 일시 중지 및 익명화 처리되어야 했으나, 실제로는 잘못된 설정으로 인해 완전히 삭제되는 문제가 나타났습니다. 현재 GitHub는 해당 문제를 해결하였으며 영향을 받은 사용자들에 대한 조치를 완료했습니다.",
+    "url": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-23T18:56:18.000Z",
+    "fetchedAt": "2026-10-24T01:42:50.992Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.162.0",
     "title": "0.162.0",
     "summary": "Omitted bool and bool | None form fields now use their declared defaults or produce missing-field errors, consistent with other fields and Pydantic behavior. FastAPI no longer infers False for omitted",
@@ -13,6 +61,38 @@
     "tags": [
       "FastAPI",
       "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks",
+    "title": "Public monitoring adds triage, validity, API, and webhooks",
+    "summary": "Public monitoring now includes alert management capabilities like automatic validity checks to help you triage and remediate leaked secrets at scale. Alert management with dismissals, timelines, and f",
+    "aiSummary": "GitHub의 Public monitoring 기능이 대규모로 유출된 시크릿을 효율적으로 관리하고 대응할 수 있도록 강화되었습니다. 이번 업데이트를 통해 자동 유효성 검사 기능이 상시 작동하며 이를 통해 유출된 정보의 진위 여부를 즉시 파악할 수 있게 되었습니다.\n\n새롭게 도입된 관리 도구는 경고를 체계적으로 분류하고 필터링할 수 있는 기능을 제공하며 타임라인과 해제 옵션을 통해 대응 프로세스를 간소화합니다. 또한 API와 Webhooks를 새롭게 지원함에 따라 사용자는 외부 시스템과 유연하게 연동하여 보안 워크플로우를 자동화할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-23T17:17:58.000Z",
+    "fetchedAt": "2026-10-24T01:42:50.992Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18486",
+    "title": "WebKit Features for Safari 27.1",
+    "summary": "Today iPhone Duo arrives, and with it, Safari 27.1.",
+    "aiSummary": "iPhone Duo의 출시와 함께 Safari 27.1 버전이 새롭게 공개되었습니다. 이번 업데이트는 WebKit을 기반으로 하며 사용자들에게 새로운 웹 환경을 제공합니다.",
+    "url": "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-10-23T17:00:59.000Z",
+    "fetchedAt": "2026-10-24T01:42:50.992Z",
+    "tags": [
+      "WebKit",
+      "Safari"
     ]
   },
   {
@@ -155,6 +235,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/10/23/this-week-in-rails",
+    "title": "Safer secrets, ZJIT, and more!",
+    "summary": "New apps stop falling back to Marshal for signed messages, the local secret file is no longer world-readable, and SQLite finally renames columns the way the database intended. Here’s what’s new in Rai",
+    "aiSummary": "Rails의 새로운 업데이트를 통해 보안성 강화와 기능 개선이 이루어졌습니다.\n\n가장 먼저 MessageVerifier와 MessageEncryptor에서 Marshal 역직렬화 의존성을 제거하고 기본 직렬화 형식을 JSON으로 변경하여 보안을 강화했습니다. 또한 로컬 비밀키 파일인 tmp/local_secret.txt의 권한을 0600으로 설정하여 보안성을 높였고, 리다이렉트 시 경로 삽입 공격을 방지하기 위해 호스트 외부로의 비정상적인 리다이렉트를 차단하도록 개선했습니다.\n\n성능 및 데이터베이스 관련 업데이트로는 새로운 설정인 config.zjit를 추가하여 YJIT보다 우선순위가 높은 JIT 컴파일 옵션을 도입했습니다. SQLite 환경에서는 rename_column 작업 시 네이티브 RENAME COLUMN 기능을 사용하여 테이블 재구축 과정에서 발생하던 제약 조건 손실이나 외래 키 오류 문제를 해결했습니다. MySQL은 최소 지원 버전을 5.7.9로 상향 조정하고 PostgreSQL의 경우 db:truncate_all 작업 시 스키마 경로 문제를 수정했습니다.\n\n그 외에도 ActionMailer의 deliver_all_later 호출 시 예외 처리 개선, Active Record의 튜플 기반 where 구문 지원 확대, Ractor 환경 준비를 위한 before_ractorize 훅 추가 등이 포함되었습니다. 마지막으로 오래된 설정인 ssl_default_redirect_status 및 raise_on_assign_to_attr_readonly에 대한 비추천 처리를 진행하며 프레임워크 최적화를 지속하고 있습니다.",
+    "url": "https://rubyonrails.org/2026/10/23/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Emmanuel Hayford",
+    "pubDate": "2026-10-23T00:00:00.000Z",
+    "fetchedAt": "2026-10-24T01:42:50.992Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
