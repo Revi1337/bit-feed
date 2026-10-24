@@ -162,6 +162,21 @@
     ]
   },
   {
+    "id": "https://www.php.net/archive/2026.php#2026-10-23-1",
+    "title": "Informational advisory: Session upload progress",
+    "summary": "We suggest you set  until the\n        next regular bugfix release, to fully protect from an unlikely RCE vector.\n        This setting was already listed as a mitigation in the\n        \n        advisor",
+    "aiSummary": "CVE-2026-115560 보안 취약점에 대한 정보 권고 사항이 발표되었습니다. RCE 벡터 발생 가능성을 완화하기 위해 다음 정기 버그 수정 릴리스 전까지 session.upload_progress.enabled 설정을 0으로 변경할 것을 권장합니다.\n\n이번 이슈는 매우 드문 설정 및 애플리케이션 코드 조합에서만 발생합니다. 구체적으로는 session.serialize_handler를 php_binary 또는 php_serialize로 설정한 상태에서 런타임 중에 phpini_set 함수로 이를 변경한 뒤 session_start를 호출하고, 동시에 세션 업로드 진행 기능이 활성화된 경우에만 문제가 나타납니다.\n\n런타임 시점에 직렬화 핸들러를 변경하지 않는 애플리케이션은 해당 기능을 그대로 유지해도 무방합니다. 만약 지난 2026년 10월 21일에 발표된 CVE-2026-109619 권고에 따라 이미 설정을 적용했다면 별도의 추가 조치는 필요하지 않습니다. 해당 취약점은 다음 정기 릴리스를 통해 해결될 예정입니다.",
+    "url": "https://www.php.net/index.php#2026-10-23-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-23T10:12:28.000Z",
+    "fetchedAt": "2026-10-24T18:14:54.825Z",
+    "tags": [
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.ruby-lang.org/en/news/2026/10/23/ruby-3-3-13-released/",
     "title": "Ruby 3.3.13 Released",
     "summary": "Ruby 3.3.13 has been released.\nThis release includes security fixes.\nPlease check the topics below for details.\nSecurity advisories: CVE-2026-80212 and CVE-2026-80213\nRegexp compilation fixes related ",
@@ -1137,6 +1152,21 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-10-21-6",
+    "title": "PHP 8.6.0 RC4 available for testing",
+    "summary": "The PHP team is pleased to announce the third release candidate of PHP 8.6.0, RC4. This continues the PHP 8.6 release cycle, whose rough outline is specified in the .PHP Wiki\nSource downloads of PHP 8",
+    "aiSummary": "PHP 팀이 PHP 8.6.0의 네 번째 릴리스 후보인 RC4를 공개하고 테스트를 위한 배포를 시작했습니다.\n\n이번 버전에는 인증되지 않은 원격 코드 실행을 허용할 수 있는 두 가지 치명적인 취약점에 대한 수정 사항이 포함되어 있습니다. 따라서 기존에 PHP 8.6.0 초기 빌드를 사용 중인 사용자들은 즉시 업데이트할 것을 강력히 권장합니다.\n\n다만 해당 버전은 초기 테스트용으로 제작되었으므로 운영 환경에서의 사용은 지양해야 합니다. 상세한 변경 사항과 새로운 기능에 대한 정보는 NEWS 및 UPGRADING 파일을 통해 확인할 수 있습니다.\n\n향후 마지막 릴리스 후보인 RC5는 2026년 11월 5일에 공개될 예정입니다. 소스 다운로드 및 관련 서명은 공식 홈페이지와 GitHub 페이지에서 확인이 가능합니다.",
+    "url": "https://www.php.net/index.php#2026-10-21-6",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-10-21T15:41:41.000Z",
+    "fetchedAt": "2026-10-24T18:14:54.825Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
