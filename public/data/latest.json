@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/10/25/jep544-target-jdk28/",
+    "title": "JEP targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
+    "summary": "The following JEP is targeted to JDK 28: 544: Ahead-of-Time Code Compilation\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/544.",
+    "aiSummary": "JDK 28 버전을 대상으로 JEP 544인 Ahead-of-Time Code Compilation이 공식 선정되었습니다. 이번 도입은 자바 애플리케이션의 시작 성능을 개선하고 런타임 최적화를 강화하기 위한 목적으로 추진됩니다. 해당 기능에 대한 자세한 정보는 OpenJDK 공식 홈페이지의 JEP 544 문서를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/25/jep544-target-jdk28/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "John Rose",
+    "pubDate": "2026-10-25T00:00:00.000Z",
+    "fetchedAt": "2026-10-25T12:38:26.415Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.4.7",
     "title": "1.4.7",
     "summary": "Added lastUserInput to the JSON that hook commands receive on stdin, so a hook can inspect the latest message you sent, for example to screen prompts before the agent acts on them.\nAdded a temporary o",
@@ -14,6 +29,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/speech-models",
+    "title": "Speech models in Ollama",
+    "summary": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple",
+    "aiSummary": "Ollama가 이제 음성 모델을 지원하며 그 첫 번째 모델로 Gradium의 Phonon을 도입합니다.\n\nPhonon은 5개 언어와 수십 개의 음성을 지원하며 텍스트를 음성으로 변환합니다. 특히 Apple Silicon 환경에서 실시간보다 100배 이상 빠른 속도로 음성을 생성하고 스트리밍할 수 있습니다.",
+    "url": "https://ollama.com/blog/speech-models",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-10-24T00:00:00.000Z",
+    "fetchedAt": "2026-10-25T12:38:26.415Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
@@ -2747,172 +2779,6 @@
     "tags": [
       "FastAPI",
       "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.143.5",
-    "title": "0.143.5",
-    "summary": "Fixes\n🐛 Fix handling of empty value for byte file list parameter. PR #9383 by @Viicos.",
-    "aiSummary": "Byte 파일 목록 매개변수에서 빈 값이 전달될 때 발생하는 오류를 수정했습니다. 해당 수정 사항은 PR #9383을 통해 반영되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.5",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-18T09:12:23.000Z",
-    "fetchedAt": "2026-10-18T12:06:42.465Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.4.2",
-    "title": "1.4.2",
-    "summary": "Fixed conversation history not showing in Remote Control in daemon mode.",
-    "aiSummary": "Daemon 모드에서 Remote Control을 사용할 때 대화 기록이 표시되지 않던 문제가 수정되었습니다. 해당 업데이트는 1.4.2 버전에서 적용되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.2",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-18T00:37:06.000Z",
-    "fetchedAt": "2026-10-18T01:13:07.281Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/announcements",
-    "title": "Announcements",
-    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry ClaudeNewsAnnouncements(function(){try{var p=new URLSearchParams(location.search);if(![\"sort\",\"view\",\"group\",\"category\",\"team\"].some(functio",
-    "aiSummary": "Anthropic은 기업의 성장에 따라 지분 규모가 확대되는 구조를 가진 Anthropic Public Benefit Fund를 설립하여 사회적 이익 환원 의지를 밝혔습니다.\n\n글로벌 확장 전략의 일환으로 싱가포르 사무소를 개소하고 현지 정부와 안전하고 책임감 있는 AI 도입을 위한 업무협약을 체결했습니다. 또한 Barclays와 협력을 확대하여 글로벌 사업 전반에 걸쳐 보안이 강화된 엔터프라이즈급 AI 시스템을 통합하기로 했습니다.\n\n모델 라인업 측면에서는 성능이 개선된 5.5 버전 시리즈를 공개했습니다. Claude Haiku 5.5는 요약 및 브라우저 사용 등 대량 작업에 최적화된 가장 빠르고 뛰어난 소형 모델이며, Claude Sonnet 5.5는 이전 버전 대비 30퍼센트 이상 빠른 속도와 저렴한 비용을 제공합니다. Claude Opus 5.5는 에이전트 기반 코딩과 지식 작업 분야에서 최고 성능을 보여주며 운영 비용을 40퍼센트 절감했습니다.\n\n보안 분야에서는 Cyber Verification Program을 확대하여 보안 전문가들에게 고급 사이버 기능과 최적화된 분류기를 제공합니다. 더불어 2027년까지 1만 명의 Frontier Deployed Engineer를 양성하기 위해 Claude Frontier Academy에 1억 달러를 투자하며, Accenture, Deloitte, McKinsey 등 주요 기업들과 협력하여 교육 과정을 운영하고 있습니다.",
-    "url": "https://www.anthropic.com/news/announcements",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-20T19:23:38.098Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgbackrest-2600-released-3416/",
-    "title": "pgBackRest 2.60.0 Released\n",
-    "summary": "October 18, 2026: The pgBackRest community is pleased to announce the release of pgBackRest 2.60.0, the latest version of the reliable, easy-to-use backup and restore solution that can seamlessly scal",
-    "aiSummary": "PostgreSQL의 백업 및 복구 솔루션인 pgBackRest가 버전 2.60.0을 새롭게 발표했습니다. 이번 업데이트는 대규모 데이터베이스 환경을 안정적으로 지원하기 위한 다양한 기능 개선과 최적화에 중점을 두었습니다.\n\n주요 변경 사항으로는 페이지 체크섬 오류 발생 시 복원을 중단하는 checksum-page-error 옵션이 추가되었으며, GCS Workload Identity Federation 지원과 OpenSSL 4 호환성 확보가 포함되었습니다. 또한 객체 스토리지에서의 읽기 성능을 개선하기 위한 프리페치 기능과 원격 프로세스 간의 통신 효율을 높이는 등 전반적인 성능 개선이 이루어졌습니다.\n\n이번 버전에서는 복원 과정에서 파일 체크섬 검증이 더욱 강화되었습니다. 만약 복구된 파일에서 체크섬 오류가 감지될 경우 프로세스가 즉시 중단되도록 설계되어 데이터 무결성을 보장합니다. 단, 설정값을 변경하여 오류 대신 경고를 출력하도록 조정할 수도 있습니다.\n\n그 외에도 illumos 환경 지원, 웹사이트 개편 등이 진행되었습니다. 소스 코드 빌드 시 요구되는 의존성 라이브러리가 PyYAML로 변경되었으며, PostgreSQL 19rc1 버전에 대한 지원도 포함되었습니다. 패키지는 공식 PostgreSQL Yum 및 APT 저장소를 통해 설치할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pgbackrest-2600-released-3416/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-19T01:24:22.123Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/public-benefit-fund",
-    "title": "Investing in the public benefit",
-    "summary": "ResearchPolicyCommitmentsLearnNewsTry ClaudeAnnouncementsInvesting in the public benefitOct 18, 2026Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new ",
-    "aiSummary": "Anthropic은 기업 성장에 따라 공익 기여도를 확대할 수 있는 Anthropic Public Benefit Fund를 새롭게 설립합니다. 주주 승인을 전제로 Anthropic 전체 지분의 5%를 초기 출연하며, 이후 기업 가치가 기준치 대비 50% 상승할 때마다 이사회 재량으로 2%씩 추가 출연하는 구조를 갖추었습니다.\n\n이번에 설립된 Anthropic Public Benefit Fund는 유한책임회사 형태로 운영되며, 기존 비영리 재단보다 유연한 방식으로 공익 활동을 추진할 계획입니다. 특히 AI 발전으로 인해 발생할 수 있는 노동 시장의 불안정성 등 사회적 문제를 해결하기 위한 과감한 투자가 이루어질 예정입니다. 해당 지분은 로비나 정치적 기부에는 사용되지 않습니다.\n\n이번 결정은 공동 창업자들이 창립 당시 약속한 지분 80% 기부 서약과 임직원 대상의 지분 기부 매칭 프로그램의 연장선에 있습니다. 현재까지 참여한 임직원들의 기부분과 이번 신설 펀드를 합치면 Anthropic 전체 지분의 약 20%가 공익을 위해 활용될 예정이며, 향후 기업 가치가 상승함에 따라 이 비중은 더욱 확대될 전망입니다. Anthropic은 앞으로 펀드의 구체적인 운영 구조와 지배구조, 그리고 공익 활동 성과를 담은 보고서를 추가로 공개할 방침입니다.",
-    "url": "https://www.anthropic.com/news/public-benefit-fund",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-18T18:12:23.495Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_hint_plan-v190-released-3408/",
-    "title": "pg_hint_plan v1.9.0 Released\n",
-    "summary": "The pg_hint_plan development team is pleased to announce pg_hint_plan 1.9.0.  This release of pg_hint_plan adds compatibility with PostgreSQL 19, and includes various improvements and bug fixes.  For ",
-    "aiSummary": "PostgreSQL의 실행 계획을 SQL 주석을 통해 직접 제어할 수 있는 확장 기능인 pg_hint_plan이 1.9.0 버전으로 새롭게 출시되었습니다. 이번 업데이트의 가장 큰 특징은 PostgreSQL 19에 대한 호환성 지원이며, 경로 생성 전략인 PGS 기능을 새롭게 도입하였습니다.\n\n이와 함께 하위 버전인 PostgreSQL 14부터 18까지를 지원하는 각기 다른 마이너 버전들도 동시에 배포되었습니다. 1.4.5 버전은 PostgreSQL 14를 지원하는 마지막 릴리스가 될 예정입니다.\n\n이번 릴리스에서는 힌트 파서와 다중 쿼리 문자열 사용 시 발생하던 무한 루프 문제를 해결하였고, 서버가 비정상적으로 종료되는 현상 및 쿼리 ID 복구 관련 버그 등 안정성 향상을 위한 여러 수정 사항이 포함되었습니다. 상세한 기술 정보는 공식 프로젝트 페이지 및 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg_hint_plan-v190-released-3408/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-18T12:06:42.465Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/fosdem-pgday-2027-two-days-of-postgresql-with-calls-for-papers-and-sponsors-now-open-3412/",
-    "title": "FOSDEM PGDay 2027: two days of PostgreSQL, with calls for papers and sponsors now open!\n",
-    "summary": "Join us for FOSDEM PGDay 2027 on January 28 and 29 at the Brussels Marriott Hotel Grand Place.\nThis year, we're expanding to two days, bringing you more PostgreSQL talks and more time to connect with ",
-    "aiSummary": "FOSDEM PGDay 2027이 2027년 1월 28일부터 29일까지 벨기에 브뤼셀의 Brussels Marriott Hotel Grand Place에서 개최됩니다. 이번 행사는 기존보다 확대된 이틀간의 일정으로 진행되어 PostgreSQL 관련 발표와 네트워킹 시간이 더욱 강화될 예정입니다.\n\n처음으로 기업 후원 프로그램이 도입되어 Platinum, Gold, Silver 등 다양한 등급의 스폰서십을 제공합니다. 상위 등급의 후원사에게는 전시 데스크 운영과 스폰서 트랙 발표 기회가 주어집니다.\n\n현재 발표자를 모집하는 Call for Papers가 진행 중이며 45분 분량의 영어 발표를 제안할 수 있습니다. 발표자로 선정될 경우 컨퍼런스 무료 참가 혜택이 주어지며, 제안서 제출 마감은 2026년 12월 1일 23시 59분 59초 CET까지입니다.",
-    "url": "https://www.postgresql.org/about/news/fosdem-pgday-2027-two-days-of-postgresql-with-calls-for-papers-and-sponsors-now-open-3412/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-18T12:06:42.465Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_utl_smtp-v20-released-3395/",
-    "title": "pg_utl_smtp v2.0 released\n",
-    "summary": "Antananarivo, Madagascar - October 06, 2026\nPostgreSQL UTL_SMTP compatibility extension\npg_utl_smtp is a PostgreSQL extension to create, manage and use Oracle-style\nUTL_SMTP package. The use and behav",
-    "aiSummary": "HexaCluster Corp.가 개발한 PostgreSQL 확장 기능인 pg_utl_smtp v2.0이 출시되었습니다. 이 도구는 Oracle의 UTL_SMTP 패키지와 호환되는 기능을 제공하여 PostgreSQL 데이터베이스 내의 트리거 및 저장 프로시저에서 직접 이메일 알림을 보낼 수 있게 해줍니다.\n\n이번 v2.0 메이저 업데이트의 핵심은 비동기 모드 지원입니다. pg_utl_smtp.asynchronous 설정을 통해 활성화할 수 있는 이 기능은 기존 Oracle 방식에는 없으나 MSSQL의 sp_send_dbmail 프로시저를 이식할 때 유용하게 활용할 수 있습니다.\n\n추가적인 개선 사항으로 SMTP 서버의 오류 응답에 대한 예외 처리 강화, 중복 EHLO 전송 문제 해결, SSL 및 TLS 연결 구현이 포함되었습니다. 또한 QUIT 명령 시 연결 해제 로직을 보완하고 연결 실패 시 경고 메시지를 명확히 하였으며, GitHub Actions를 통한 회귀 테스트를 추가하여 안정성을 높였습니다.\n\n해당 확장 기능은 Net::SMTP Perl 모듈을 기반으로 하는 plperl 저장 프로시저를 사용하며 PostgreSQL 라이선스를 따르는 오픈 소스 프로젝트입니다. 기존 사용자는 ALTER EXTENSION pg_utl_smtp UPDATE 명령을 통해 버전을 업그레이드할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg_utl_smtp-v20-released-3395/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-18T01:13:07.281Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/crecheck-v60-has-been-released-3407/",
-    "title": "crecheck v6.0 has been released\n",
-    "summary": "Antananrivo, Madagascar - October 14, 2026\nPostgreSQL credcheck extension\nThe credcheck PostgreSQL extension provides few general credential checks, which will be evaluated during the user creation, d",
-    "aiSummary": "PostgreSQL의 보안 강화를 위한 확장 기능인 credcheck v6.0 버전이 공식 출시되었습니다. 이번 업데이트는 사용자 계정 생성, 비밀번호 변경, 사용자 이름 변경 시 엄격한 보안 규칙을 적용하여 데이터베이스의 접근 제어를 강화하는 데 중점을 두었습니다.\n\n주요 업데이트 사항으로는 PgBouncer와의 통합 기능이 대폭 개선되었습니다. max_auth_failure 및 password_change_first_login 기능을 PgBouncer 환경에서도 사용할 수 있게 되었으며, 새롭게 추가된 credcheck.password_valid_min 설정을 통해 신규 사용자가 초기 비밀번호를 빠르게 변경하도록 강제할 수 있습니다.\n\n사용자 추적을 위한 기능도 강화되었습니다. Unix의 last 명령어와 유사한 사용자 세션 이력 기록 기능이 도입되어 접속 시간, 소스 IP, 포트 정보 등을 관리할 수 있게 되었으며, PostgreSQL의 상태 정보도 기록합니다. 또한, 보안 강화를 위해 로그에서 비밀번호를 마스킹하는 처리가 개선되었고, 새로운 pg_check_password 함수를 통해 역할을 수정하지 않고도 설정된 정책에 따라 비밀번호 적정성을 미리 검사할 수 있습니다.\n\n이 외에도 권한 상승 보안 취약점 수정, 메모리 누수 및 힙 오버플로우 문제 해결이 포함되었습니다. 해당 버전으로 업그레이드하기 위해서는 PostgreSQL 프로세스의 재시작이 필요합니다. credcheck는 HexaCluster에서 관리하는 PostgreSQL 라이선스 기반의 오픈 프로젝트로, 상세한 정보와 소스 코드는 공식 GitHub 저장소에서 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/crecheck-v60-has-been-released-3407/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-18T00:00:00.000Z",
-    "fetchedAt": "2026-10-18T01:13:07.281Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.4.1",
-    "title": "1.4.1",
-    "summary": "Improved agy plugin validate to also check a plugin's skills, subagents, and rules: for skills, it errors on a SKILL.md with missing or invalid frontmatter and warns when name or description is missin",
-    "aiSummary": "이번 1.4.1 업데이트에서는 플러그인 검증 도구인 agy plugin validate의 기능이 대폭 강화되었습니다. 이제 플러그인의 skills, subagents, rules 항목에 대해 frontmatter 유효성 검사, 필수 항목 누락 확인, 이름 중복 방지, 24KB 용량 제한 준수 여부 등을 엄격하게 확인하며 관련 경고 및 오류 메시지를 상세히 제공합니다.\n\n사용자 인터페이스 측면에서는 에이전트가 파일을 생성하거나 수정할 때 보여주는 인라인 diff 미리보기가 개선되었습니다. 이제 /diff 파일 뷰와 동일하게 구문 강조 기능을 지원하며, 터미널 색상 구성에 맞춘 배경색 적용과 깔끔한 라인 번호 가독성을 제공합니다. 또한 프롬프트 영역의 렌더링 방식을 최적화하여 타이핑 중이거나 에이전트 작업 시의 CPU 사용량을 효율적으로 낮췄습니다.\n\n보안 및 설정과 관련하여 Business 계정에서 불필요하게 활성화되었던 원격 측정 설정 문제를 해결했습니다. AGY_ADC_AUTH를 사용하는 Google Cloud 환경 등에서 데이터 수집이 이루어지지 않도록 UI를 명확히 하고 서비스 약관 표시 방식을 개선했습니다. Windows 10 및 11의 구 버전 환경에서 터미널 샌드박스 지원이 안 될 경우 샌드박스 기능을 자동으로 비활성화하고 권한 확인 단계를 거치도록 대응했습니다.\n\n안정성 강화 작업도 다수 진행되었습니다. 네트워크 연결 끊김 발생 시 오류로 즉시 종료되는 대신 재시도를 수행하도록 로직을 변경했으며, 예기치 않게 종료된 MCP 서버가 Ready 상태로 유지되던 오류를 수정하여 오류 상태를 정확히 반영하도록 했습니다. 또한 대규모 JSON 결과값이 토큰 제한을 우회하여 컨텍스트 창을 침범하던 현상을 방지했고, 세미콜론이 포함된 URL 링크 처리 오류와 대소문자를 구분하던 명령어 입력 문제 등 여러 버그를 해결했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.1",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-17T20:43:41.000Z",
-    "fetchedAt": "2026-10-18T01:13:07.281Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

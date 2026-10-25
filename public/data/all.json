@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/10/25/jep544-target-jdk28/",
+    "title": "JEP targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
+    "summary": "The following JEP is targeted to JDK 28: 544: Ahead-of-Time Code Compilation\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/544.",
+    "aiSummary": "JDK 28 버전을 대상으로 JEP 544인 Ahead-of-Time Code Compilation이 공식 선정되었습니다. 이번 도입은 자바 애플리케이션의 시작 성능을 개선하고 런타임 최적화를 강화하기 위한 목적으로 추진됩니다. 해당 기능에 대한 자세한 정보는 OpenJDK 공식 홈페이지의 JEP 544 문서를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/25/jep544-target-jdk28/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "John Rose",
+    "pubDate": "2026-10-25T00:00:00.000Z",
+    "fetchedAt": "2026-10-25T12:38:26.415Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.4.7",
     "title": "1.4.7",
     "summary": "Added lastUserInput to the JSON that hook commands receive on stdin, so a hook can inspect the latest message you sent, for example to screen prompts before the agent acts on them.\nAdded a temporary o",
@@ -14,6 +29,23 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://ollama.com/blog/speech-models",
+    "title": "Speech models in Ollama",
+    "summary": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple",
+    "aiSummary": "Ollama가 이제 음성 모델을 지원하며 그 첫 번째 모델로 Gradium의 Phonon을 도입합니다.\n\nPhonon은 5개 언어와 수십 개의 음성을 지원하며 텍스트를 음성으로 변환합니다. 특히 Apple Silicon 환경에서 실시간보다 100배 이상 빠른 속도로 음성을 생성하고 스트리밍할 수 있습니다.",
+    "url": "https://ollama.com/blog/speech-models",
+    "category": "인공지능",
+    "source": "Ollama Blog",
+    "author": "Ollama Blog",
+    "pubDate": "2026-10-24T00:00:00.000Z",
+    "fetchedAt": "2026-10-25T12:38:26.415Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI"
     ]
   },
   {
