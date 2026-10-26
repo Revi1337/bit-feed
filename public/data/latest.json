@@ -1,5 +1,151 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-23-gpt-6-1-terra-in-github-copilot",
+    "title": "GPT-6.1 Terra in GitHub Copilot",
+    "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…\nThe post GPT-6.1 ",
+    "aiSummary": "OpenAI의 최신 모델인 GPT-6.1 Terra가 GitHub Copilot에 정식으로 도입되었습니다.\n\n해당 모델은 일상적인 에이전트 코딩 및 터미널 작업에 최적화된 성능을 제공합니다. 기존 GPT-6.1 Sol 모델 대비 더 저렴한 비용으로 효율적인 개발 환경을 지원하는 것이 특징입니다.",
+    "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-26T19:15:53.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18515",
+    "title": "WebKit Features for Safari 27.2",
+    "summary": "Safari 27.2 is here, refining Customizable Select, renaming a Grid Lanes property, and delivering 20 bug fixes across accessibility, media, CSS, and more.",
+    "aiSummary": "Safari 27.2 버전이 새롭게 출시되었습니다. 이번 업데이트는 Customizable Select 기능의 개선과 Grid Lanes 속성 명칭 변경을 포함하고 있습니다. 또한 접근성, 미디어, CSS 등 다양한 분야에서 발견된 20가지의 버그를 수정하여 전반적인 성능과 안정성을 강화하였습니다.",
+    "url": "https://webkit.org/blog/18515/webkit-features-for-safari-27-2/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-10-26T18:30:01.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+    "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+    "summary": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, ",
+    "aiSummary": "Google Cloud는 자율형 에이전트가 클라우드 리소스를 관리하고 배포하는 과정에서 발생하는 보안 문제를 해결하기 위해 IAM Helper를 새롭게 선보입니다. 이 솔루션은 Google Cloud IAM의 핵심 엔진인 Policy Intelligence 및 PAM과 연동하여, 에이전트가 복잡한 IAM 워크플로우를 자동화하고 최소 권한 원칙을 준수하도록 지원합니다.\n\nIAM Helper Agent Skills는 Gemini CLI, Gemini Cloud Assist, ADK, Claude Code, Cursor 등 다양한 에이전트 환경에서 활용 가능한 표준화된 인터페이스를 제공합니다. 이를 통해 에이전트는 403 권한 오류를 스스로 해결하거나, 인프라 배포 과정에서 발생하는 권한 차단 문제를 실시간으로 진단하고 수정할 수 있습니다. 특히 변경 사항 적용 전 과거 로그를 기반으로 영향도를 시뮬레이션하거나, 관리자의 승인이 필요한 경우 인간의 개입을 요청하는 HITL 프로세스를 포함하여 보안성을 강화합니다.\n\n모든 기능은 MCP Tools 표준을 기반으로 구축되었습니다. 이를 통해 에이전트는 복잡한 정책 문서를 직접 분석하는 대신, Google Cloud에서 제공하는 최적화된 MCP 서버를 호출하여 정확한 권한 정보를 즉각적으로 확인합니다. 이러한 방식은 토큰 효율성을 극대화하고, API 래퍼를 별도로 작성할 필요 없이 안정적인 클라우드 접근 관리를 가능하게 합니다.\n\n주요 기능으로는 정책 관리를 위한 IAM v1 및 v2 규칙 생성, 즉각적인 문제 해결을 위한 트러블슈팅, 변경 영향도 분석을 위한 정책 시뮬레이터, 그리고 필요 시 권한을 일시적으로 부여하는 PAM 연동 등이 있습니다. 이러한 도구들은 데브옵스 엔지니어가 수동으로 처리하던 관리 업무를 자동화하여 운영 효율성을 높이고, 에이전트 기반 배포의 보안 가시성을 확보해 줍니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Siddharth Deekshit"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-26T16:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/",
+    "title": "Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA",
+    "summary": "As enterprises go from experimental AI agent prototypes to using them in production, data teams are realizing that access to data is not the same as understanding that data. To help bridge that gap, t",
+    "aiSummary": "Google Cloud는 Knowledge Catalog에서 LookML 시맨틱 언어 인덱싱 기능을 정식 출시하며 기업용 AI 에이전트의 데이터 활용 능력을 강화합니다. 그동안 AI 에이전트가 원본 데이터베이스에 직접 접근할 경우 수치 정의가 모호하거나 조인 오류가 발생하는 문제가 있었으나, 이번 업데이트를 통해 LookML의 비즈니스 논리가 Knowledge Catalog로 자동 통합됩니다.\n\n이로 인해 Gemini Enterprise와 같은 AI 에이전트는 기업의 구조화된 데이터는 물론, LookML에 정의된 엄격한 KPI 공식, 조인 경로, 필터링 규칙 등을 함께 참조할 수 있게 되었습니다. 즉, 단순한 데이터 탐색을 넘어 검증된 비즈니스 시맨틱을 바탕으로 정확하고 신뢰할 수 있는 SQL을 생성합니다.\n\nLookML 모델, Explore, View, 대시보드 등의 메타데이터는 실시간으로 동기화되어 Knowledge Catalog에 인덱싱됩니다. 사용자는 별도의 코딩 없이도 설정을 활성화하여 즉시 활용 가능하며, AI 에이전트는 이를 통해 데이터 품질 관리와 거버넌스 정책을 준수하면서도 더 정교한 분석 결과를 도출할 수 있습니다. \n\n이번 통합은 데이터를 단순하게 찾는 단계를 넘어, 비즈니스 문맥과 수학적 정의가 결합된 지능형 에이전트 환경을 제공합니다. 이를 통해 기업은 AI 에이전트의 환각 현상을 줄이고, 데이터 기반의 의사결정 효율성을 획기적으로 높일 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Maire Newton"
+      ],
+      "title": [
+        "Outbound Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-26T16:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "da6ca251ec6556de7daf75747bcf2af4e10a86a5",
+    "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+    "summary": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the di",
+    "aiSummary": "AWS는 최근 브라질 상파울루에서 열린 농업 비즈니스 리더 대상 세미나를 통해 생성형 AI가 농업 운영의 각 단계에서 어떻게 활용될 수 있는지 그 가치를 설명했습니다. 이번 업데이트의 주요 기술 발표로는 Amazon Polly에 추가된 새로운 Generative engine 기능이 포함되어 있으며, 이는 더욱 자연스럽고 인간적인 음성 합성 품질을 제공하는 것을 목표로 합니다. 또한 AWS Trainium 가속기에서 PyTorch 모델을 최적화하고 학습 효율을 높일 수 있는 TorchNeuron 기술이 소개되어 고성능 AI 모델 개발을 위한 인프라 지원이 강화되었습니다. AWS는 이러한 기술적 도구들을 통해 전통적인 산업 분야가 생성형 AI를 통해 디지털 전환과 운영 효율성을 달성할 수 있도록 지원합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-10-26T15:02:24.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "title": "ChatGPT’s expanding world of work",
+    "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+    "aiSummary": "OpenAI는 전 세계 100여 개국에서 수행되는 165가지 업무 활동을 바탕으로 ChatGPT 활용 현황을 분석한 OpenAI Signals 데이터를 공개하였습니다.\n\n이번 데이터는 사용자들이 실무 환경에서 어떻게 ChatGPT를 도입하고 활용하는지에 대한 구체적인 사례를 제시합니다.\n\n또한 시간의 흐름에 따라 사용자의 업무 방식이 기술 변화에 맞춰 어떻게 진화하고 변모하는지를 다각도로 분석하여 보여줍니다.",
+    "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-26T10:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/scope-your-personal-access-tokens",
+    "title": "Scope your Personal Access Tokens",
+    "summary": "Give each Personal Access Token only the organizations, projects, and permissions it needs.",
+    "aiSummary": "GitHub의 Personal Access Token을 관리할 때 보안을 강화하기 위해 필요한 권한만을 설정하는 것이 중요합니다. 특정 조직이나 프로젝트에 국한하여 최소한의 권한만을 부여함으로써 잠재적인 보안 위험을 예방할 수 있습니다. 각 토큰에 적절한 범위를 지정하는 것은 계정 보호를 위한 필수적인 보안 관행입니다.",
+    "url": "https://supabase.com/blog/scope-your-personal-access-tokens",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-26T07:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "https://laravel-news.com/nativephp-mobile-security-advisories",
     "title": "NativePHP Mobile Security Advisories: Update to 4.6.1",
     "summary": "NativePHP published seven security advisories for its mobile package, plus rebuilt PHP binaries for this week's PHP CVEs. Update to 4.6.1 or 3.3.11 and rebuild.\nThe post NativePHP Mobile Security Advi",
@@ -13,6 +159,39 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-6-1-terra",
+    "title": "Introducing GPT-6.1 Terra",
+    "summary": "Bringing fast and capable computer use to everyone",
+    "aiSummary": "OpenAI가 새롭게 공개한 GPT-6.1 Terra는 누구나 빠르고 능숙하게 컴퓨터를 제어할 수 있는 기능을 제공하는 것을 목표로 합니다. 이번 모델은 사용자의 컴퓨터 활용 능력을 향상시켜 더욱 효율적인 작업을 지원합니다.",
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/10/27/configurable-eagerness",
+    "title": "Tune GitHub Copilot Inline Suggestions with Configurable Eagerness",
+    "summary": "Choose how proactively Copilot offers inline suggestions.\nRead the full article",
+    "aiSummary": "GitHub Copilot이 제공하는 인라인 제안의 표시 빈도를 사용자가 직접 설정할 수 있는 기능이 도입되었습니다. 사용자는 본인의 작업 환경과 선호도에 맞춰 Copilot이 제안을 제시하는 적극성 수준을 조절할 수 있습니다. 이를 통해 개발자는 코딩 흐름에 방해가 되지 않으면서도 필요한 시점에 적절한 지원을 받을 수 있게 되었습니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/10/27/configurable-eagerness",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Ben Steenhoek, Ulugbek Abdullaev",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "VS Code",
+      "Editor"
     ]
   },
   {
@@ -462,6 +641,38 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/23/spring-ldap-4",
+    "title": "Spring LDAP 4.2.0-RC1 Available Now",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring LDAP 4.2.0-RC1 버전이 새롭게 출시되었습니다. 이번 릴리스는 Spring Framework 생태계 내에서 LDAP 연동을 지원하는 라이브러리의 최신 개발 버전으로, 프로젝트의 안정성과 최신 기술 환경 대응을 위한 개선 사항을 포함하고 있습니다. 개발자들은 해당 버전을 통해 Spring 기반 애플리케이션에서 보다 효율적인 디렉토리 서비스 통합 환경을 구축할 수 있습니다. 상세한 변경 사항과 업데이트 내용은 공식 Spring 프로젝트 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/10/23/spring-ldap-4",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "jzheaux",
+    "pubDate": "2026-10-23T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/23/spring-cloud-2026-0-0-RC1-has-been-released",
+    "title": "Spring Cloud 2026.0.0-RC1 (aka Paddington) Has Been Released",
+    "summary": "On behalf of the community, I am pleased to announce that the Release Candidate 1 (RC1) of the Spring Cloud 2026.0.0-RC1 (https://cloud.spring.io/) Release Train is available today. The release can be",
+    "aiSummary": "Spring Cloud 2026.0.0-RC1 버전인 Paddington 릴리스가 공개되었습니다. 이번 릴리스는 Spring Boot 4.2.0-RC1을 기반으로 하며 다양한 프로젝트의 업데이트와 기능 변경을 포함합니다.\n\n주요 변경 사항으로 Spring Cloud Bus가 별도의 프로젝트에서 Spring Cloud Stream 내부로 통합되었습니다. Spring Cloud Config는 Config Server 인증을 위한 OAuth 2 지원이 추가되었으며, Spring Cloud Gateway MVC는 이제 웹소켓을 지원합니다. Spring Cloud Kubernetes는 고가용성 지원이 추가되었고, Fabric8 8.0.0과 Kubernetes Java Client 27.0.0으로 라이브러리 버전이 상향되었습니다.\n\n한편, Spring Cloud Function의 RSocket 및 gRPC 모듈, 그리고 Spring Cloud Stream의 Schema Registry 컴포넌트와 Reactive Kafka Binder는 사용이 중단(Deprecation)되었습니다. 이외에도 Spring Cloud Build, Circuitbreaker, Commons, Consul, Netflix, Openfeign, Task, Vault, Zookeeper 등 다수의 모듈이 5.1.0-RC1 버전으로 함께 업데이트되었습니다. 상세한 내용은 제공된 마일스톤 저장소와 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/10/23/spring-cloud-2026-0-0-RC1-has-been-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ryanjbaxter",
+    "pubDate": "2026-10-23T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -2466,6 +2677,22 @@
     ]
   },
   {
+    "id": "https://www.cursor.com/changelog/agent-sdk",
+    "title": "Agent SDK",
+    "summary": "Oct 20, 2026 · ChangelogAgent SDK\nThe Agent SDK is available today. It allows you to define an agent as a folder of code, test it with evals, and deploy it to Cursor or your own infrastructure.\nRun np",
+    "aiSummary": "Cursor가 에이전트를 코드 기반으로 개발하고 배포할 수 있는 Agent SDK를 출시했습니다. 개발자는 로컬 환경에서 에이전트를 정의하고 테스트한 뒤, 이를 Cursor 인프라에 배포하거나 자체 환경에서 운용할 수 있습니다.\n\n프로젝트는 폴더 단위의 코드 구조로 관리되며 instructions.md를 통해 프롬프트를 설정하고 tools, skills, mcp-connections, channels 등을 통해 에이전트의 기능과 연동성을 확장합니다. 특히 개발자는 보안 검토자, PR 수정자, 티켓 관리자 등 다양한 템플릿을 활용해 빠르게 시작할 수 있습니다.\n\n에이전트는 GitHub, GitLab, Bitbucket의 각종 이벤트는 물론 Slack의 멘션이나 DM, 웹훅, 크론 스케줄 등 다양한 채널을 통해 메시지를 수신합니다. 각 대화는 세션별로 관리되어 기록이 유지되며, GitHub 이벤트의 경우 별도의 공개 웹훅 URL 없이 Cursor 계정을 통해 연동할 수 있습니다.\n\n테스트를 위한 Evals 기능도 제공됩니다. 특정 메시지에 대한 에이전트의 반응을 검증할 수 있으며, 실제 PR 데이터를 사용하여 테스트를 수행하거나 이를 재현 가능한 픽스처로 저장하여 CI 환경에서 활용하는 것도 가능합니다. 에이전트가 준비되면 agent-sdk deploy 명령어를 통해 즉시 서비스할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/agent-sdk",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-10-20T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T20:36:58.914Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
     "title": "Announcing rustup 1.29.2",
     "summary": "The rustup team is happy to announce the release of rustup version 1.29.2.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient",
@@ -2589,150 +2816,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/",
-    "title": "Quarterly contributor outreach",
-    "summary": "Hi Django community, thank you all for continuing to contribute to Django.\nThe Steering Council is reaching out to bring people's attention to a few areas. We have major features we'd like to test and",
-    "aiSummary": "Django Steering Council은 Django 6.2 버전 출시를 앞두고 커뮤니티의 적극적인 기여와 참여를 요청했습니다. 이번 활동은 주요 기능의 테스트 및 코드 리뷰, 소규모 기능 개선, 그리고 새로운 아이디어에 대한 의견 수렴을 목적으로 합니다.\n\n주요 기능 부문에서는 CompositeField, DEFAULT_PK_FIELD 설정, 모델 앱 간 이동 기능에 대한 테스트와 리뷰가 필요합니다. 테스트를 위해 Sage Abdullah가 제안한 Django 메인 브랜치 테스트 가이드를 활용할 것을 권장합니다.\n\nQuerySet.executed_queries, Partitioned cookies, HTTP QUERY 메서드 지원, CSRF 디버그 메시지 개선 등 소규모 기능들에 대해서도 테스트와 코드 리뷰 참여자를 찾고 있습니다. \n\n신규 기능 제안 항목은 150개가 넘는 아이디어 중 기술적 검토가 필요한 작업과 커뮤니티의 의견 수렴이 필요한 작업으로 나뉩니다. 모델 Meta 및 마이그레이션 커스터마이징, 최신 CSRF 보호 구현, 타임아웃 API, SRI, import maps 등은 다소 높은 기술적 노력이 필요하며, 이메일 전송 커스텀 훅, 서비스 URL 파싱, 인증 미들웨어 업데이트, 유니코드 이메일 주소 지원 등은 커뮤니티의 간단한 피드백을 기다리고 있습니다.\n\nDjango Steering Council은 기여 방법이 불분명한 경우 Django Forum이나 Discord를 통해 문의할 것을 당부하며, 모든 커뮤니티 구성원의 참여가 Django의 발전으로 이어진다고 강조합니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Tim Schilling",
-    "pubDate": "2026-10-19T17:28:23.000Z",
-    "fetchedAt": "2026-10-19T20:38:06.522Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.149.0",
-    "title": "0.149.0",
-    "summary": "Browsers submit empty text inputs as empty strings (\"\"). FastAPI now treats empty scalar form values as missing in form models, matching individual Form parameters. Required fields return a validation",
-    "aiSummary": "FastAPI 프레임워크가 0.149.0 버전으로 업데이트되면서 폼 데이터 처리 방식에 변화가 생겼습니다.\n\n기존에는 브라우저가 빈 텍스트 입력을 빈 문자열로 전송하던 방식을 그대로 유지했으나, 이번 업데이트를 통해 폼 모델 내부의 스칼라 값이 비어 있을 경우 이를 누락된 것으로 간주하도록 변경되었습니다. 이는 개별 Form 매개변수의 처리 방식과 일치시키기 위한 조치입니다.\n\n이에 따라 필수 입력 필드에 빈 값이 들어오면 유효성 검사 오류가 발생합니다. 반면 기본값이 설정된 필드는 모델의 기본값을 사용하게 되며, model_dump 메서드에서 exclude_unset 옵션을 사용할 경우 해당 필드들은 설정되지 않은 상태로 유지됩니다.\n\n다만 리스트 내부에 포함된 빈 문자열은 그대로 보존되며, 생략된 불리언 폼 필드가 False로 처리되는 동작은 기존과 동일합니다. 또한 JSON 요청이나 Pydantic을 통한 직접적인 유효성 검사 과정에서도 변경 사항은 없습니다. 이번 변경은 PR #16529를 통해 반영된 주요 업데이트 사항입니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.149.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-19T17:21:45.000Z",
-    "fetchedAt": "2026-10-19T20:38:06.522Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
-    "title": "Who judges the judge? Three helpful ways to audit your LLM evaluators",
-    "summary": "Is your LLM-as-a-judge truly objective? \nThere’s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subj",
-    "aiSummary": "많은 기업이 LLM을 활용한 평가 방식인 LLM-as-a-judge가 인간보다 객관적일 것이라 오해하지만, 실제로는 LLM 역시 장황함, 답변 순서, 문법적 완성도, 자기 과신, 자사 모델 편향 등 다양한 인지적 편향을 지니고 있습니다. 이러한 편향은 평가의 신뢰도를 떨어뜨리므로 LLM 평가 도구에 대한 정기적인 감사가 필수적입니다.\n\n내부 안정성을 측정하는 첫 번째 방법은 동일한 입력값에 대해 여러 번 평가를 수행하여 결과의 분산을 확인하는 것입니다. 점수가 크게 변동한다면 평가 기준이 모호하다는 증거이므로 이를 개선해야 합니다.\n\n인간과의 정렬을 검증하는 두 번째 방법은 우연에 의한 일치를 배제하는 수학적 지표를 활용하는 것입니다. 단순히 관대한 AI 심사위원이 인간 평가자와 비슷해 보이는 착시 현상을 방지하고, 전문가의 판단과 실제로 얼마나 일치하는지를 정밀하게 측정해야 합니다.\n\n마지막으로 다중 심사위원 앙상블 체계를 도입해야 합니다. 평가 항목을 세분화하여 각 기준별로 전문화된 심사위원을 배치하고, 최소 두 개 이상의 모델이 동일한 결과를 평가하게 하여 통계적 합의를 도출해야 합니다. 이를 통해 특정 모델의 편향을 상쇄하고 실시간으로 평가 품질의 저하를 감지할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Héctor González Álvarez"
-      ],
-      "title": [
-        "Senior Technical Solutions Consultant, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-19T16:00:00.000Z",
-    "fetchedAt": "2026-10-19T20:38:06.522Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/devs-guide-to-mcp-apps-in-gemini/",
-    "title": "Developer’s guide to implementing MCP apps in Gemini",
-    "summary": "Enterprise assistants still respond mostly in text. However, that can break down for visual, multi-step work, where every adjustment costs another slow chat turn.\nMCP Apps (SEP-1865) solves this. This",
-    "aiSummary": "Gemini Enterprise에서 제공하는 MCP Apps는 기존의 텍스트 기반 챗봇이나 단순 도구 호출 방식을 넘어 대화 흐름 속에서 실시간 UI를 제공하는 3세대 엔터프라이즈 어시스턴트 기능을 지원합니다. MCP Apps는 도구와 실시간 작업 공간을 결합하여 채팅 창 내의 샌드박스화된 iframe에서 직접 상호작용을 수행하므로 모델의 응답을 기다릴 필요 없이 즉각적인 편집과 반응형 사용자 경험이 가능합니다.\n\n이 기술은 사용자의 작업 효율을 높이기 위해 특정 목적에 맞춘 워크플로우를 제공하며 CAD 3D 뷰어, 금융 감도 모델, 법률 검토를 위한 시각적 편집기 등 다양한 전문 도구와 통합할 수 있습니다. 또한 Workforce OAuth 로그인과 Cloud Run을 통한 보안 환경을 구축하여 엔터프라이즈 수준의 데이터 접근 제어와 거버넌스를 보장합니다.\n\n아키텍처는 클라이언트 브라우저, Gemini Enterprise, 그리고 사용자가 직접 호스팅하는 Google Cloud 기반의 MCP 서버 등 3개의 계층으로 분리되어 있습니다. 특히 보안을 위해 Cloud Run IAM과 In-App OAuth라는 두 가지 독립적인 인증 계층을 적용하여 외부 접근을 차단하고 사용자 권한을 엄격하게 관리합니다.\n\n개발자는 MCP Apps SDK 또는 Google Antigravity 도구를 활용하여 단일 파일 HTML 위젯과 HTTP 백엔드를 구축한 뒤 이를 Cloud Run에 배포할 수 있습니다. 배포가 완료되면 Google Cloud 콘솔 내 Gemini Enterprise의 데이터 스토어에 MCP 서버 URL과 OAuth 정보를 등록하고 해당 도구들을 활성화하는 과정을 거쳐 기존 Gemini 인터페이스와 통합할 수 있습니다. 이를 통해 기업은 별도의 복잡한 프론트엔드나 인증 파이프라인 구축 없이도 Gemini Enterprise 환경 내에서 즉시 고도화된 업무용 애플리케이션을 구현할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/devs-guide-to-mcp-apps-in-gemini/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Dave Wang"
-      ],
-      "title": [
-        "Forward Deployed Engineer, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-19T16:00:00.000Z",
-    "fetchedAt": "2026-10-19T20:38:06.522Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "cd5eb4df7600955259cf3d08d3dc859f994f08c5",
-    "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
-    "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server wi",
-    "aiSummary": "AWS Lambda가 별도의 어댑터 없이 일반적인 HTTP 서버를 직접 실행할 수 있도록 기능이 업데이트되었습니다. 이를 통해 기존 코드를 AWS 환경에서 훨씬 간편하고 빠르게 배포할 수 있게 되었습니다.\n\n또한 Amazon S3가 Vercel Marketplace에 통합되어 개발자가 Vercel 플랫폼 내부에서 직접 S3 리소스를 프로비저닝하고 관리할 수 있게 되었습니다. 이번 업데이트는 클라우드 인프라와 애플리케이션 개발 환경 사이의 기술적 거리를 좁혀 개발 생산성을 향상하는 데 중점을 둡니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-10-19T15:34:59.000Z",
-    "fetchedAt": "2026-10-19T20:38:06.522Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu/",
-    "title": "Building full virtual vehicles on Google Cloud: From AAOS to the smallest MCU",
-    "summary": "Imagining traditional gearheads getting their hands on software-defined vehicles is an amusing thought experiment. With their socket wrenches and air compressors at the ready, they might be confused t",
-    "aiSummary": "자동차 산업은 점차 소프트웨어 중심의 차량인 SDV로 변화하고 있으나 여전히 많은 제어 모듈과 마이크로칩이 물리적 하드웨어에 의존하고 있어 개발 과정에서 병목 현상이 발생하고 있습니다. 이러한 비효율을 해결하기 위해 Google Cloud는 Arm 기반의 클라우드 환경에서 전체 차량 시스템을 가상화하여 개발하는 방식을 제안합니다.\n\n핵심 솔루션인 RemotiveTopology는 차량의 네트워크 설계 파일을 활용하여 E/E 아키텍처를 가상화하는 도구입니다. 이를 통해 AAOS와 같은 인포테인먼트 시스템뿐만 아니라 차체 제어, 센서 등 차량 내 모든 구성 요소가 포함된 가상 차량을 클라우드 상에서 구현할 수 있습니다. 이는 차량을 코드로 정의하는 Vehicle-as-Code 개념을 실현하여 개발 초기 단계부터 도메인 간 통합 테스트를 가능하게 합니다.\n\n특히 Arm 아키텍처를 공유하는 Google Cloud의 Axion 프로세서와 Cuttlefish 환경을 활용하면 클라우드에서 검증된 소프트웨어를 하드웨어 수정 없이 실제 차량에 그대로 적용할 수 있습니다. 이러한 가상화 환경은 하드웨어 종속성을 제거하여 통합 주기를 10배 이상 단축하고 AI 기반의 자동화된 개발 워크플로우를 가속화하는 역할을 합니다.\n\n결론적으로 제조사와 Tier 1 공급업체는 이와 같은 클라우드 네이티브 접근 방식을 통해 개발 비용이 가장 많이 발생하는 통합 단계를 최적화할 수 있습니다. RemotiveLabs가 제공하는 오픈소스 모델을 활용하면 기존 개발 환경을 유지하면서도 전 차량 시스템을 클라우드 환경으로 전환하여 빠르고 유연한 SDV 개발 환경을 구축할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Florian Haubner"
-      ],
-      "title": [
-        "Industry Architect Lead Automotive"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-19T14:46:26.369Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
