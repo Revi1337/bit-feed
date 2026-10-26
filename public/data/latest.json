@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=61101",
+    "title": ".NET October 2026 Out-of-Band Security Updates",
+    "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability.\nThe post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft는 .NET과 관련하여 2026년 10월 긴급 보안 업데이트를 발표하였습니다. 이번 업데이트는 Brotli 디코더 취약점 및 tarball 소유권 관련 취약점을 해결하기 위한 목적으로 진행되었습니다. 해당 환경을 사용하는 시스템 관리자와 개발자는 보안을 위해 관련 업데이트를 즉시 적용해야 합니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT)",
+    "pubDate": "2026-10-25T18:45:00.000Z",
+    "fetchedAt": "2026-10-26T01:21:50.816Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/10/25/jep544-target-jdk28/",
     "title": "JEP targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
     "summary": "The following JEP is targeted to JDK 28: 544: Ahead-of-Time Code Compilation\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/544.",
@@ -2683,102 +2699,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/clef",
-    "title": "Clef is available on Ollama's cloud",
-    "summary": "Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.",
-    "aiSummary": "Cloudflare가 개발한 27B 규모의 멀티모달 의사결정 모델인 Clef가 Ollama 플랫폼을 통해 제공되기 시작했습니다. 이제 사용자들은 해당 모델을 자신의 로컬 환경이나 Ollama 클라우드에서 직접 실행하여 활용할 수 있습니다.",
-    "url": "https://ollama.com/blog/clef",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "2026-10-19T00:00:00.000Z",
-    "fetchedAt": "2026-10-20T01:55:39.132Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/19/jep546-target-jdk28/",
-    "title": "JEP targeted to JDK 28: 546: Adaptive Heap Sizing for ZGC",
-    "summary": "The following JEP is targeted to JDK 28: 546: Adaptive Heap Sizing for ZGC\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/546.",
-    "aiSummary": "JDK 28 버전을 대상으로 하는 JEP 546인 Adaptive Heap Sizing for ZGC가 새롭게 발표되었습니다. 이번 제안은 ZGC의 힙 크기를 작업 부하에 맞춰 자동으로 최적화하는 기능을 포함합니다. 이를 통해 메모리 관리의 효율성을 높이고 전반적인 자바 애플리케이션의 성능 개선을 목표로 합니다. 상세한 기술 명세는 공식 OpenJDK 웹사이트를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/19/jep546-target-jdk28/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Erik Österlund",
-    "pubDate": "2026-10-19T00:00:00.000Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.146.0",
-    "title": "0.146.0",
-    "summary": "The root_path parameter in FastAPI() is deprecated. Configure the server with fastapi run --root-path /api/v1 instead.\nBreaking Changes\n🗑️ Deprecate the root_path parameter in FastAPI. PR #16520 by @",
-    "aiSummary": "FastAPI 0.146.0 버전에서 FastAPI 생성자의 root_path 매개변수가 더 이상 권장되지 않습니다.\n\n앞으로는 서버 실행 시 fastapi run --root-path /api/v1 명령어를 사용하여 경로를 설정해야 합니다.\n\n이번 변경 사항은 기존 코드의 호환성을 깨뜨리는 수정 사항인 Breaking Changes에 해당합니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.146.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-18T15:18:08.000Z",
-    "fetchedAt": "2026-10-18T18:12:23.495Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.145.0",
-    "title": "0.145.0",
-    "summary": "Breaking Changes\n🔥 Remove deprecated openapi_prefix and unused **extra from FastAPI. PR #16518 by @tiangolo.\nDocs\n📝 Document URL paths in templates. PR #16517 by @tiangolo.",
-    "aiSummary": "FastAPI가 버전 0.145.0으로 업데이트되었습니다.\n\n이번 업데이트에서는 기존에 사용되던 openapi_prefix를 제거하고 사용되지 않는 extra 파라미터를 정리하는 등 주요 변경 사항이 포함되었습니다.\n\n또한 템플릿 내 URL 경로 사용법에 대한 문서화가 새롭게 추가되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.145.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-18T14:40:20.000Z",
-    "fetchedAt": "2026-10-18T18:12:23.495Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.143.4",
-    "title": "0.143.4",
-    "summary": "Upgrades\n⬆️ Add httpx2 to optional dependencies. PR #16512 by @tiangolo.",
-    "aiSummary": "FastAPI 관련 업데이트인 0.143.4 버전이 공개되었습니다. 이번 업데이트에서는 선택적 의존성 항목에 httpx2를 추가하는 개선 사항이 포함되었습니다. 해당 변경 사항은 @tiangolo에 의해 제안된 PR #16512를 통해 반영되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.4",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-18T14:37:55.000Z",
-    "fetchedAt": "2026-10-18T18:12:23.495Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.144.0",
-    "title": "0.144.0",
-    "summary": "Features\n✨ Add WebSocket support to security dependencies. PR #10147 by @mnixry.",
-    "aiSummary": "보안 의존성에 대한 WebSocket 지원 기능이 새롭게 추가되었습니다. 해당 업데이트는 GitHub PR 10147을 통해 반영되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.144.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-18T12:42:34.000Z",
-    "fetchedAt": "2026-10-18T18:12:23.495Z",
-    "tags": [
-      "FastAPI",
-      "Python"
     ]
   }
 ]

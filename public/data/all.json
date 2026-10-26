@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=61101",
+    "title": ".NET October 2026 Out-of-Band Security Updates",
+    "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability.\nThe post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog.",
+    "aiSummary": "Microsoft는 .NET과 관련하여 2026년 10월 긴급 보안 업데이트를 발표하였습니다. 이번 업데이트는 Brotli 디코더 취약점 및 tarball 소유권 관련 취약점을 해결하기 위한 목적으로 진행되었습니다. 해당 환경을 사용하는 시스템 관리자와 개발자는 보안을 위해 관련 업데이트를 즉시 적용해야 합니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Rahul Bhandari (MSFT)",
+    "pubDate": "2026-10-25T18:45:00.000Z",
+    "fetchedAt": "2026-10-26T01:21:50.816Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
     "id": "https://inside.java/2026/10/25/jep544-target-jdk28/",
     "title": "JEP targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
     "summary": "The following JEP is targeted to JDK 28: 544: Ahead-of-Time Code Compilation\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/544.",
