@@ -1,5 +1,136 @@
 [
   {
+    "id": "https://laravel-news.com/nativephp-mobile-security-advisories",
+    "title": "NativePHP Mobile Security Advisories: Update to 4.6.1",
+    "summary": "NativePHP published seven security advisories for its mobile package, plus rebuilt PHP binaries for this week's PHP CVEs. Update to 4.6.1 or 3.3.11 and rebuild.\nThe post NativePHP Mobile Security Advi",
+    "aiSummary": "NativePHP는 모바일 패키지와 관련하여 7건의 보안 권고 사항을 발표하고 이번 주 공개된 PHP CVE 대응을 위해 PHP 바이너리를 재빌드했습니다. 사용자는 해당 보안 문제를 해결하기 위해 4.6.1 또는 3.3.11 버전으로 즉시 업데이트하고 바이너리를 다시 빌드해야 합니다. 이번 조치는 모바일 환경에서의 보안성을 강화하고 알려진 취약점을 수정하는 데 목적이 있습니다.",
+    "url": "https://laravel-news.com/nativephp-mobile-security-advisories?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-10-26T02:31:21.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
+    "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
+    "summary": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
+    "aiSummary": "Python의 주요 버전인 3.15.2, 3.14.10, 3.13.18, 3.12.16, 3.11.18 버전이 긴급 보안 업데이트를 통해 배포되었습니다.\n\n이번 업데이트는 보안이 침해된 eMudhra 중간 CA 키에 대한 신뢰를 차단하기 위해 실시되었습니다. 사용자들은 보안 취약점 대응을 위해 해당 버전으로 즉시 업데이트할 것을 권장합니다.",
+    "url": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
+    "category": "프로그래밍 언어",
+    "source": "Python Insider",
+    "author": "Hugo van Kemenade",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "/blog/moving-prismas-control-plane-to-prisma-postgres",
+    "title": "Zero-Downtime Postgres Migration from RDS to Prisma Postgres",
+    "summary": "How Prisma migrated 83 tables and 74 GB from Amazon RDS to Prisma Postgres with zero downtime using logical replication, and kept a rollback open for a week.",
+    "aiSummary": "Prisma는 Amazon RDS에서 Prisma Postgres로 83개의 테이블과 74GB 규모의 데이터를 이전하면서 서비스 중단 시간을 전혀 발생시키지 않는 마이그레이션을 성공적으로 완료했습니다.\n\n이번 이전 과정의 핵심은 논리적 복제 기술을 활용하여 원본 데이터베이스와 대상 데이터베이스 간의 실시간 동기화를 유지한 것입니다. 이를 통해 데이터 전환 중에도 시스템 가용성을 완벽하게 확보했습니다.\n\n또한 예상치 못한 문제에 대비하여 일주일 동안 롤백 경로를 유지함으로써 데이터 무결성과 시스템 안정성을 보장했습니다. 이러한 전략적 접근은 대규모 데이터베이스 마이그레이션 환경에서 운영 중단 없이 기술 전환을 수행할 수 있는 효과적인 사례를 보여줍니다.",
+    "url": "https://www.prisma.io/blog/moving-prismas-control-plane-to-prisma-postgres",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "/blog/one-chatgpt-plugin-to-deploy-it-all",
+    "title": "One ChatGPT Plugin To Deploy It All: the official Prisma plugin",
+    "summary": "The official Prisma plugin for ChatGPT connects ChatGPT and Codex to Prisma ORM, Prisma Postgres, and Prisma Compute, so you can build, set up the database, and deploy from one prompt.",
+    "aiSummary": "Prisma는 사용자가 하나의 프롬프트만으로 데이터베이스 구축과 설정, 그리고 배포까지 원스톱으로 처리할 수 있도록 지원하는 공식 ChatGPT 플러그인을 공개했습니다. 이 플러그인은 ChatGPT 및 Codex와 Prisma ORM, Prisma Postgres, Prisma Compute를 직접 연결합니다. 이를 통해 개발자는 복잡한 수동 작업 없이 대화형 인터페이스를 통해 전체 데이터베이스 배포 과정을 신속하게 관리할 수 있습니다.",
+    "url": "https://www.prisma.io/blog/one-chatgpt-plugin-to-deploy-it-all",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_ivm-117-released-3420/",
+    "title": "pg_ivm 1.17 released\n",
+    "summary": "IVM Development Group is pleased to announce the release of pg_ivm 1.17.\nChanges since the v1.16 release include:\nWhat's Changed\nNew features\nAdd replace option to restore_immv() (Yugo Nagata)\nAllow r",
+    "aiSummary": "PostgreSQL용 증분 뷰 유지 관리 확장 모듈인 pg_ivm 1.17 버전이 새롭게 출시되었습니다.\n\n이번 업데이트에서는 restore_immv 함수에 replace 옵션이 추가되어 기존 IMMV 메타데이터 항목을 덮어쓸 수 있게 되었습니다. 또한 pg_ivm_dump_metadata 도구에 pg_upgrade 옵션이 도입되어, 업그레이드 이후 IMMV 항목이 잔류하여 발생하는 복구 실패 문제를 해결했습니다.\n\n버그 수정 측면에서는 restore_immv 실행 후 ispopulated 상태가 잘못 설정되어 중복 트리거가 생성되던 문제를 해결했습니다. 더불어 자동 인덱스 생성을 위한 고유 키 도출 로직을 개선하여 원래 뷰 정의를 기준으로 고유성을 판단하도록 변경했습니다. 이를 통해 EXISTS 절이 포함된 쿼리 등에서 자동 인덱스 생성이 더 유연하게 작동합니다.\n\n이외에도 LATERAL 서브쿼리 사용 시 발생하는 인덱스 생성 오류와 check_immv_compatibility 내부의 어설션 실패 문제가 수정되었습니다. pg_ivm은 베이스 테이블 수정 시 구체화된 뷰를 즉시 업데이트하여 전체 재계산 없이 효율적인 데이터 관리를 가능하게 하는 도구입니다.",
+    "url": "https://www.postgresql.org/about/news/pg_ivm-117-released-3420/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/hypopg-144-is-out-3421/",
+    "title": "HypoPG 1.4.4 is out!\n",
+    "summary": "HypoPG 1.4.4 is out!\nTainan, Taiwan - Sun 25 Oct 2026\nHypoPG 1.4.4\nI'm pleased to announce the release of the version 1.4.4 of HypoPG, an\nextension adding support for Hypothetical Indexes, compatible ",
+    "aiSummary": "PostgreSQL용 가상 인덱스 확장 프로그램인 HypoPG가 1.4.4 버전으로 업데이트되었습니다. 이번 릴리스는 PostgreSQL 9.2 이상 버전과 호환되며 다양한 버그 수정과 성능 개선을 포함하고 있습니다.\n\n주요 수정 사항으로는 2의 31제곱 이상의 Oid를 사용하는 가상 인덱스 명칭 오류 해결, WITH 절 옵션 사용 시 발생하던 메모리 누수 방지, 그리고 포함된 컬럼을 포함한 최대 컬럼 수 검증 강화가 포함되었습니다. 또한 종속 객체에 대한 무효화 메시지 수신 시 가상 인덱스를 무효화하도록 처리하여 안정성을 높였으며 hypopg() 함수 내 컬럼 정보 오류와 EXPLAIN 실패 시 후속 쿼리에 미치는 영향 등을 수정하였습니다.\n\n그 외에도 최신 PostgreSQL 19 버전과의 호환성을 위한 추가적인 수정 작업이 진행되었습니다. 관련 정보는 GitHub의 HypoPG 저장소를 통해 확인 및 내려받기가 가능합니다.",
+    "url": "https://www.postgresql.org/about/news/hypopg-144-is-out-3421/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_hdr_histogram-100-exact-percentiles-in-postgresql-3418/",
+    "title": "pg_hdr_histogram 1.0.0 - exact percentiles in PostgreSQL\n",
+    "summary": "pg_hdr_histogram is a PostgreSQL extension for exact-latency percentiles.\nMost monitoring tools approximate percentiles from fixed buckets. pg_hdr_histogram\nstores a full HDR histogram as a first-clas",
+    "aiSummary": "pg_hdr_histogram 1.0.0은 PostgreSQL에서 대기 시간 백분위수를 정확하게 계산하기 위해 개발된 확장 기능입니다. 기존의 모니터링 도구들이 고정된 버킷을 사용하여 백분위수를 근사치로 추정하는 것과 달리, 이 확장 기능은 HdrHistogram_c를 기반으로 HDR 히스토그램을 일급 데이터 타입으로 저장합니다.\n\n이를 통해 p50, p99, p99.9와 같은 지표를 약 0.1퍼센트의 상대적 정밀도로 정확하게 측정할 수 있으며 시간 범위나 호스트 간에도 손실 없이 히스토그램을 병합할 수 있습니다. 해당 기능은 병렬 처리가 가능하고 신뢰할 수 있는 모듈로 설계되었으며 현재 오픈 소스로 공개되어 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_hdr_histogram-100-exact-percentiles-in-postgresql-3418/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/s1-sec",
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Anthropic files S-1 with the SEC for proposed initial public offeri",
+    "aiSummary": "Anthropic이 미국 증권거래위원회 SEC에 기업공개 IPO를 위한 S-1 등록 서류를 제출했습니다.\n\nAnthropic은 이번 상장을 통해 자사의 Class A 보통주를 Nasdaq Global Select Market에 종목 코드 ANT로 상장할 계획입니다.\n\n공모 주식 수와 구체적인 가격 범위는 아직 결정되지 않았으며 현재 SEC의 심사가 진행 중입니다.\n\n해당 증권은 아직 등록 효력이 발생하지 않았으며 이번 발표가 실제 판매나 매수 제안을 의미하는 것은 아닙니다. \n\n관련 절차는 Goldman Sachs와 Morgan Stanley를 통해 진행될 예정입니다.",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
     "id": "https://devblogs.microsoft.com/dotnet/?p=61101",
     "title": ".NET October 2026 Out-of-Band Security Updates",
     "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability.\nThe post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog.",
@@ -190,6 +321,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=95296",
+    "title": "PHP2Shell and eMudhra Patched",
+    "summary": "PHP2Shell and the eMudhra certificate compromise landed in the same week. Docker published a fixed PHP image within 24 hours and rebuilt the trust store across the catalog.",
+    "aiSummary": "PHP2Shell 취약점과 eMudhra 인증서 유출 사고가 같은 주에 연달아 발생하였습니다. Docker는 이번 보안 문제에 즉각 대응하여 24시간 이내에 보안 패치가 적용된 PHP 이미지를 배포하였습니다. 또한, 잠재적인 위협을 제거하기 위해 카탈로그 전반에 걸쳐 신뢰 저장소를 재구축하였습니다.",
+    "url": "https://www.docker.com/blog/php2shell-and-emudhra-patched/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Vishrut Iyengar",
+    "pubDate": "2026-10-23T13:08:08.000Z",
+    "fetchedAt": "2026-10-26T14:25:02.834Z",
+    "tags": [
+      "Docker",
+      "Infra"
     ]
   },
   {
@@ -2583,119 +2730,6 @@
     },
     "pubDate": "2026-10-19T14:46:26.369Z",
     "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.148.0",
-    "title": "0.148.0",
-    "summary": "Defaults for omitted Query, Header, Cookie, and Form parameters and model fields are no longer treated as user input. Defaults are not validated unless validate_default=True is enabled. If you rely on",
-    "aiSummary": "FastAPI 버전 0.148.0 업데이트를 통해 요청 파라미터 및 모델 필드의 기본값 처리 방식이 변경되었습니다. 이제 생략된 Query, Header, Cookie, Form 파라미터와 모델 필드의 기본값은 사용자 입력으로 간주되지 않으며 validate_default=True 설정이 활성화된 경우에만 검증이 수행됩니다.\n\n이에 따라 검증 로직이 필요한 경우에는 Field, Query, Body 등에 명시적으로 validate_default=True 옵션을 추가해야 합니다. 또한 파라미터 모델에서 기본값이 설정되어 있어도 해당 필드가 명시적으로 지정된 것으로 간주되지 않으므로 model_dump(exclude_unset=True) 사용 시 제외됩니다. 다만 생략된 불리언 폼 필드는 이전과 동일하게 False로 처리되며 명시적으로 설정된 것으로 간주됩니다. 이번 변경 사항은 요청 파라미터와 모델의 기본값 처리 오류를 수정하는 과정에서 발생한 주요 변화입니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.148.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-19T12:25:19.000Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.2.0",
-    "title": "v12.2.0",
-    "summary": "v12.2.0 (2026-10-19)\nNotable changes\nNew options\n@Sse({ maxPendingDataLength }) sets how many characters of event data may wait for a client that is not reading its events (4M by default; 0 or Infinit",
-    "aiSummary": "NestJS v12.2.0 버전은 시스템 안정성 향상과 보안 강화를 위한 다양한 설정 옵션 추가 및 기본 동작 변경을 포함합니다.\n\n주요 변경 사항으로 SSE(Server-Sent Events) 데이터 길이 제한, 웹소켓 및 IoAdapter의 동시 메시지 처리량 제한, ValidationPipe의 오류 메시지 길이 제한, Kafka 메시지 크기 제한 등 시스템 부하를 관리할 수 있는 새로운 옵션들이 도입되었습니다. 또한 TCP 서버의 응답 미열람 시 연결 해제 기능과 MQTT 서버의 재연결 정책 등이 기본값으로 적용되었습니다.\n\n보안 및 운영 측면에서는 파일 업로드 시 필드 중첩 깊이와 배열 제한이 기본값으로 설정되었으며, ValidationPipe의 오류 응답에서 검증 대상 객체가 노출되지 않도록 기본값이 변경되었습니다. 특정 파일 형식 검사나 예외 처리 방식 등 이전 버전과 다른 동작을 수행하는 기능들이 포함되어 있어 마이그레이션 시 주의가 필요합니다.\n\n미들웨어 제외 설정 시 경로 매칭 방식이 개선되었으며, 예외 필터, gRPC 스트림 처리, Kafka 헤더 처리 등 마이크로서비스 환경에서의 안정성을 높이기 위한 다수의 버그 수정이 이루어졌습니다. 특히 플랫폼별 의존성인 fastify 관련 이슈와 전역 인핸서(Enhancer) 초기화 실패 시 애플리케이션 시작을 중단하도록 하는 등 엄격한 오류 제어 정책이 강화되었습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.2.0",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-10-19T10:50:46.000Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-15-some-git-over-https-may-temporarily-require-authentication",
-    "title": "Some Git over HTTPS may temporarily require authentication",
-    "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability. If an operatio",
-    "aiSummary": "GitHub는 플랫폼의 안정성을 유지하고 트래픽 과부하를 방지하기 위해 특정 상황에서 보안 정책을 강화합니다. 이에 따라 평소 인증 없이 접근 가능했던 공개 저장소의 Git 클론이나 페치 작업이라도 트래픽이 비정상적으로 급증하는 시기에는 HTTPS를 통한 요청 시 일시적으로 인증을 요구할 수 있습니다. 해당 조치는 github.com의 가용성을 보호하기 위한 목적이며, 시스템이 이러한 제약을 적용할 경우 사용자에게는 별도의 인증 절차가 필요하다는 안내가 전달됩니다.",
-    "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-19T10:37:30.000Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.147.0",
-    "title": "0.147.0",
-    "summary": "Omitted bool and bool | None form fields are now interpreted as False, matching unchecked HTML checkboxes. This applies to individual Form parameters and form models, including required fields and fie",
-    "aiSummary": "FastAPI 0.147.0 버전 업데이트를 통해 폼 데이터 처리 방식이 변경되었습니다.\n\n기존에는 생략된 bool 및 bool | None 타입의 폼 필드가 제대로 처리되지 않았으나, 이번 업데이트 이후에는 HTML 체크박스 동작 방식과 동일하게 생략된 값을 False로 간주합니다. 해당 변경 사항은 개별 Form 매개변수와 Form 모델에 모두 적용되며, 필수 필드이거나 기본값이 True 또는 None인 경우에도 동일하게 처리됩니다.\n\n이번 변화로 인해 생략된 값이 명시적으로 설정된 것으로 간주되어 model_dump(exclude_unset=True) 사용 시에도 반영됩니다. 단, JSON 요청과 Pydantic을 통한 직접적인 검증 로직은 이전과 동일하게 유지됩니다. 또한 이번 릴리스에는 매개변수 기본값과 null 허용 여부, 브라우저 폼 동작을 검증하기 위한 내부 테스트 코드가 추가되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.147.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-19T09:48:41.000Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://admin.blog.jetbrains.com/?post_type=dotnet&p=747230",
-    "title": "JetBrains .NET Day Online 2026: Watch the Recordings",
-    "summary": "Every session from October 7 is now on YouTube. .NET Day Online 2026 took place on October 7. Thanks to everyone who watched the livestream and asked questions in the chat! If you missed a session, or",
-    "aiSummary": "지난 10월 7일에 개최된 JetBrains .NET Day Online 2026의 모든 세션 영상이 YouTube를 통해 공개되었습니다. 실시간 스트리밍에 참여하거나 질문을 남겨준 모든 참가자에게 감사를 전하며, 아쉽게 놓친 세션이 있거나 다시 시청하고 싶은 경우 전체 재생 목록을 통해 확인 가능합니다. 해당 영상들을 통해 .NET 기술과 관련된 유익한 정보를 다시 한번 학습할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/dotnet/2026/10/19/jetbrains-dotnet-day-online-2026-watch-the-recordings/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Mehul Harry",
-    "pubDate": "2026-10-19T08:00:00.000Z",
-    "fetchedAt": "2026-10-19T14:46:26.369Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
-    "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
-    "summary": "As organizations work to leverage AI to transform their businesses, it is clear that the raw model intelligence is not the key challenge.\nConsistently, we hear that the challenges lie in how the agent",
-    "aiSummary": "Google이 2026 IDC MarketScape의 Worldwide Agentic AI Platforms 평가에서 리더 기업으로 선정되었습니다. IDC는 기술 및 공급업체의 시장 경쟁력을 정성적, 정량적 기준으로 분석하여 기업의 위치를 평가합니다.\n\nGoogle은 기업이 비즈니스 환경에서 AI를 도입할 때 겪는 품질, 통합, 보안 및 거버넌스 문제를 해결하기 위해 Gemini를 중심으로 한 연결된 플랫폼 기반을 제공합니다. 주요 차별화 요소는 네 가지입니다.\n\n첫째, Gemini는 Google Workspace와 Microsoft 365 등 업무 현장에 직접 통합되며, Agent Registry를 통해 팀 단위의 성공적인 워크플로우를 조직 전체의 재사용 가능한 자산으로 변환합니다.\n\n둘째, 모델 선택의 자유와 개방성을 보장합니다. Model Garden을 통해 200개 이상의 모델을 지원하며, BigQuery, Salesforce, SAP 등 기존 엔터프라이즈 데이터와 연동됩니다. 또한 MCP나 A2A와 같은 개방형 표준을 지원하여 멀티 벤더 환경에서도 유연하게 작동합니다.\n\n셋째, 효율적인 토큰 경제를 추구합니다. 작업 복잡도에 따라 모델을 동적으로 배분하는 Auto 모드를 지원하며, 재사용 가능한 스킬을 통해 토큰 소비를 최적화하고 예산 제한 기능을 통해 비용을 통제합니다.\n\n넷째, 기업 수준의 거버넌스와 보안을 내재화했습니다. 개별 에이전트에 인증된 ID를 부여하여 작업 이력을 기록하고, 샌드박스를 통해 데이터 유출을 방지하며 Agent Gateway가 자동화된 보안 정책을 강제합니다.\n\nGoogle은 이러한 플랫폼 전략을 통해 기업이 신뢰할 수 있는 환경에서 기술 선택권을 갖고 AI를 도입할 수 있도록 지원할 방침입니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jamie de Guerre"
-      ],
-      "title": [
-        "Senior Director, Outbound Product Management"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-19T07:00:00.000Z",
-    "fetchedAt": "2026-10-19T20:38:06.522Z",
     "tags": [
       "GCP",
       "Cloud"
