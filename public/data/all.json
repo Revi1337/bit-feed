@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
+    "title": "Easy to integrate, compliant by design: Bringing the Swiss Franc to Google Cloud Universal Ledger",
+    "summary": "Every day, countless financial transactions are interrupted by slow, expensive, and inflexible conventional payment systems. As a result, public commercial stablecoins like Tether, USDC, and PayPal US",
+    "aiSummary": "전통적인 금융 시스템의 느리고 복잡한 결제 프로세스를 해결하기 위해 많은 금융기관이 대안을 모색하고 있으나, 기존의 퍼블릭 블록체인 기반 스테이블코인은 규제 준수, 유동성 문제, 운영의 불확실성 등으로 인해 은행의 도입이 어려웠습니다. 이러한 문제를 해결하고자 Google Cloud Universal Ledger인 GCUL은 은행이 토큰화된 예금을 발행하고 정산할 수 있는 안전한 인프라를 제공합니다.\n\n스위스의 Crypto Finance Group은 최근 GCUL을 활용해 두 스위스 은행 간의 즉각적인 계좌 이체를 구현하는 파일럿 프로젝트를 성공적으로 수행했습니다. 이 프로젝트는 GCUL이 제공하는 프로그래밍 가능한 결제 아키텍처를 통해 은행이 규제 준수를 유지하면서도 기존의 코어 뱅킹 시스템과 원활하게 통합될 수 있음을 증명했습니다.\n\nGCUL의 핵심은 통화 운영자가 설정한 규칙에 따라 결제 방식을 유연하게 선택할 수 있다는 점입니다. 예를 들어 즉시 정산 방식이나 주기적인 네팅을 통한 지연 정산 방식을 선택하여 자본 효율성을 극대화할 수 있습니다. 또한 엔터프라이즈급 보안과 암호화 기술, 그리고 Google Cloud의 인프라를 결합하여 데이터 주권과 개인정보 보호 등 엄격한 금융 규제 요구사항을 충족합니다.\n\n이번 파일럿 성공을 통해 상업 은행들은 퍼블릭 블록체인의 높은 성능과 속도를 누리면서도, 동시에 은행 시스템의 안정성과 자본 효율성을 확보할 수 있는 구체적인 청사진을 얻게 되었습니다. 향후 GCUL은 국경 간 결제, 자동 외환 거래, 디지털 자산 담보 관리 등 더욱 고도화된 금융 서비스를 지원하는 차세대 금융 인프라로 확장될 전망입니다.",
+    "url": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Nathaniel Zollinger"
+      ],
+      "title": [
+        "CTO, Crypto Finance Group"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-26T20:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-23-gpt-6-1-terra-in-github-copilot",
     "title": "GPT-6.1 Terra in GitHub Copilot",
     "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…\nThe post GPT-6.1 ",
@@ -29,6 +61,22 @@
     "tags": [
       "WebKit",
       "Safari"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/oct/26/natalia-bidart-planned-short-term-leave/",
+    "title": "Natalia Bidart - Planned short-term leave",
+    "summary": "After more than three years as a Django Fellow, I will be taking a three-month break from Fellow duties during November, December, and January. This time will allow me to properly rest, reset, and rec",
+    "aiSummary": "Django Fellow로 3년 넘게 활동해 온 Natalia Bidart가 오는 11월부터 1월까지 3개월간 휴식을 취합니다. 그동안 쌓인 피로를 회복하고 재충전의 시간을 가진 뒤 2월에 업무에 복귀할 예정입니다.\n\n이번 휴식 기간의 업무 공백은 동료 Fellow들과 다양한 팀 및 워킹 그룹의 지원을 통해 안정적으로 운영됩니다. DSF Board의 지지에 감사를 표한 Natalia Bidart는 2월 복귀 이후 Django 2028의 릴리스 매니저 업무를 수행할 계획에 대해 기대감을 나타냈습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/oct/26/natalia-bidart-planned-short-term-leave/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Natalia Bidart",
+    "pubDate": "2026-10-26T17:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "Django",
+      "Python"
     ]
   },
   {
@@ -112,6 +160,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "title": "Working with academic communities to build scientific understanding",
+    "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+    "aiSummary": "OpenAI는 Kakeya conjecture, Exponential Time Hypothesis, 그리고 quantum chromodynamics 분야에서 자사의 AI 모델이 도출한 연구 성과를 공개하였습니다. 이번 발표는 단순히 결과물을 제시하는 것에 그치지 않고, 학계 연구자들이 AI가 생성한 과학적 가설과 데이터를 어떻게 검증하고 이를 바탕으로 추가적인 연구를 확장할 수 있는지에 대한 방법론을 포함하고 있습니다. OpenAI는 이러한 노력을 통해 인공지능이 과학적 난제를 해결하는 도구로서 기여할 수 있는 가능성을 모색하고 학계와의 협력을 강화하고자 합니다.",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-26T14:30:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
     "title": "ChatGPT’s expanding world of work",
     "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
@@ -159,6 +224,21 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/emudhra-incident",
+    "title": "Our Response To The eMudhra Key Disclosure Incident",
+    "summary": "The Go Blog\nOur Response To The eMudhra Key Disclosure Incident\nOn October 19, the Go team initiated an expedited security release to protect Go users and their applications from a critical public key",
+    "aiSummary": "Go 팀은 eMudhra에서 발행한 중간 인증서들의 취약점이 발견됨에 따라 긴급 보안 릴리스를 단행했습니다. 해당 인증서들은 개인 키가 매우 취약하게 생성되어 공격자가 이를 복구할 경우 임의의 도메인에 대한 TLS 인증서를 위조하고 MITM 공격을 수행할 수 있는 위험이 있었습니다.\n\nGo 팀은 이러한 위험을 인지한 후 약 7시간 반 만에 관련 보안 패치를 포함한 Go 1.27.3 및 1.26.10 버전을 신속히 배포하였습니다. 이는 기존의 다일간 진행되던 보안 릴리스 프로세스를 벗어나 처음으로 URGENT 트랙을 적용한 사례입니다. 윈도우와 macOS는 플랫폼 API를 통해 인증서 철회 정보를 확인하지만, 자체 인증서 검증기를 사용하는 리눅스 환경의 보안 공백을 메우기 위해 직접적인 런타임 업데이트를 결정하였습니다.\n\n이번 대응을 통해 Go 팀은 보안 릴리스 프로세스의 비효율성을 발견하였으며, 향후 대응 속도를 더욱 높이기 위해 릴리스 효율화 작업을 진행할 예정입니다. 또한 리눅스 환경에서의 인증서 철회 메커니즘을 강화하기 위해 upki 프로젝트 도입 등을 검토하고 있습니다.\n\n모든 Go 사용자는 네트워크 통신을 위해 net/http나 crypto/tls 등을 사용하는 경우, 최신 마이너 릴리스로 즉시 업데이트해야 합니다. 설치된 바이너리가 영향을 받는지 확인하려면 go version -m 명령어 혹은 govulncheck 도구를 사용할 수 있습니다. Go 팀은 앞으로도 암호화 알고리즘의 미래를 대비하고 생태계 전반의 보안 위협에 선제적으로 대응하겠다는 방침입니다.",
+    "url": "https://go.dev/blog/emudhra-incident",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Roland Shoemaker, on behalf of the Go Security team",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "Go"
     ]
   },
   {
@@ -4146,6 +4226,23 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "/blog/host-a-test-version-without-replacing-production",
+    "title": "Host a test version without replacing production: previews and staging (2026)",
+    "summary": "Deploy a branch to a preview or staging URL with a test database; only main deploys production. How Fly.io, Netlify, Prisma Compute, Railway, Render and Vercel do it.",
+    "aiSummary": "서비스 운영 환경에 영향을 주지 않으면서 테스트 버전을 배포하는 방식은 안정적인 소프트웨어 개발의 핵심 요소입니다. \n\n기본적으로 운영 서버인 main 브랜치와 별도로 테스트용 브랜치를 격리하여 preview 또는 staging URL에 배포하는 전략을 사용합니다. 이때 데이터 오염을 방지하기 위해 운영 데이터베이스가 아닌 별도의 테스트용 데이터베이스를 연결하는 것이 권장됩니다.\n\n현재 Fly.io, Netlify, Prisma Compute, Railway, Render, Vercel과 같은 주요 플랫폼들은 이러한 개발 및 배포 워크플로우를 자동화하는 기능을 제공합니다. 이를 통해 개발자는 운영 환경을 안전하게 보호하면서 신속하게 새로운 기능을 검증할 수 있습니다.",
+    "url": "https://www.prisma.io/blog/host-a-test-version-without-replacing-production",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {

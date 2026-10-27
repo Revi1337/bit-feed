@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
+    "title": "Easy to integrate, compliant by design: Bringing the Swiss Franc to Google Cloud Universal Ledger",
+    "summary": "Every day, countless financial transactions are interrupted by slow, expensive, and inflexible conventional payment systems. As a result, public commercial stablecoins like Tether, USDC, and PayPal US",
+    "aiSummary": "전통적인 금융 시스템의 느리고 복잡한 결제 프로세스를 해결하기 위해 많은 금융기관이 대안을 모색하고 있으나, 기존의 퍼블릭 블록체인 기반 스테이블코인은 규제 준수, 유동성 문제, 운영의 불확실성 등으로 인해 은행의 도입이 어려웠습니다. 이러한 문제를 해결하고자 Google Cloud Universal Ledger인 GCUL은 은행이 토큰화된 예금을 발행하고 정산할 수 있는 안전한 인프라를 제공합니다.\n\n스위스의 Crypto Finance Group은 최근 GCUL을 활용해 두 스위스 은행 간의 즉각적인 계좌 이체를 구현하는 파일럿 프로젝트를 성공적으로 수행했습니다. 이 프로젝트는 GCUL이 제공하는 프로그래밍 가능한 결제 아키텍처를 통해 은행이 규제 준수를 유지하면서도 기존의 코어 뱅킹 시스템과 원활하게 통합될 수 있음을 증명했습니다.\n\nGCUL의 핵심은 통화 운영자가 설정한 규칙에 따라 결제 방식을 유연하게 선택할 수 있다는 점입니다. 예를 들어 즉시 정산 방식이나 주기적인 네팅을 통한 지연 정산 방식을 선택하여 자본 효율성을 극대화할 수 있습니다. 또한 엔터프라이즈급 보안과 암호화 기술, 그리고 Google Cloud의 인프라를 결합하여 데이터 주권과 개인정보 보호 등 엄격한 금융 규제 요구사항을 충족합니다.\n\n이번 파일럿 성공을 통해 상업 은행들은 퍼블릭 블록체인의 높은 성능과 속도를 누리면서도, 동시에 은행 시스템의 안정성과 자본 효율성을 확보할 수 있는 구체적인 청사진을 얻게 되었습니다. 향후 GCUL은 국경 간 결제, 자동 외환 거래, 디지털 자산 담보 관리 등 더욱 고도화된 금융 서비스를 지원하는 차세대 금융 인프라로 확장될 전망입니다.",
+    "url": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Nathaniel Zollinger"
+      ],
+      "title": [
+        "CTO, Crypto Finance Group"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-26T20:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-23-gpt-6-1-terra-in-github-copilot",
     "title": "GPT-6.1 Terra in GitHub Copilot",
     "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…\nThe post GPT-6.1 ",
@@ -29,6 +61,22 @@
     "tags": [
       "WebKit",
       "Safari"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/oct/26/natalia-bidart-planned-short-term-leave/",
+    "title": "Natalia Bidart - Planned short-term leave",
+    "summary": "After more than three years as a Django Fellow, I will be taking a three-month break from Fellow duties during November, December, and January. This time will allow me to properly rest, reset, and rec",
+    "aiSummary": "Django Fellow로 3년 넘게 활동해 온 Natalia Bidart가 오는 11월부터 1월까지 3개월간 휴식을 취합니다. 그동안 쌓인 피로를 회복하고 재충전의 시간을 가진 뒤 2월에 업무에 복귀할 예정입니다.\n\n이번 휴식 기간의 업무 공백은 동료 Fellow들과 다양한 팀 및 워킹 그룹의 지원을 통해 안정적으로 운영됩니다. DSF Board의 지지에 감사를 표한 Natalia Bidart는 2월 복귀 이후 Django 2028의 릴리스 매니저 업무를 수행할 계획에 대해 기대감을 나타냈습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/oct/26/natalia-bidart-planned-short-term-leave/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Natalia Bidart",
+    "pubDate": "2026-10-26T17:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "Django",
+      "Python"
     ]
   },
   {
@@ -112,6 +160,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "title": "Working with academic communities to build scientific understanding",
+    "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+    "aiSummary": "OpenAI는 Kakeya conjecture, Exponential Time Hypothesis, 그리고 quantum chromodynamics 분야에서 자사의 AI 모델이 도출한 연구 성과를 공개하였습니다. 이번 발표는 단순히 결과물을 제시하는 것에 그치지 않고, 학계 연구자들이 AI가 생성한 과학적 가설과 데이터를 어떻게 검증하고 이를 바탕으로 추가적인 연구를 확장할 수 있는지에 대한 방법론을 포함하고 있습니다. OpenAI는 이러한 노력을 통해 인공지능이 과학적 난제를 해결하는 도구로서 기여할 수 있는 가능성을 모색하고 학계와의 협력을 강화하고자 합니다.",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-10-26T14:30:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
     "title": "ChatGPT’s expanding world of work",
     "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
@@ -159,6 +224,21 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/emudhra-incident",
+    "title": "Our Response To The eMudhra Key Disclosure Incident",
+    "summary": "The Go Blog\nOur Response To The eMudhra Key Disclosure Incident\nOn October 19, the Go team initiated an expedited security release to protect Go users and their applications from a critical public key",
+    "aiSummary": "Go 팀은 eMudhra에서 발행한 중간 인증서들의 취약점이 발견됨에 따라 긴급 보안 릴리스를 단행했습니다. 해당 인증서들은 개인 키가 매우 취약하게 생성되어 공격자가 이를 복구할 경우 임의의 도메인에 대한 TLS 인증서를 위조하고 MITM 공격을 수행할 수 있는 위험이 있었습니다.\n\nGo 팀은 이러한 위험을 인지한 후 약 7시간 반 만에 관련 보안 패치를 포함한 Go 1.27.3 및 1.26.10 버전을 신속히 배포하였습니다. 이는 기존의 다일간 진행되던 보안 릴리스 프로세스를 벗어나 처음으로 URGENT 트랙을 적용한 사례입니다. 윈도우와 macOS는 플랫폼 API를 통해 인증서 철회 정보를 확인하지만, 자체 인증서 검증기를 사용하는 리눅스 환경의 보안 공백을 메우기 위해 직접적인 런타임 업데이트를 결정하였습니다.\n\n이번 대응을 통해 Go 팀은 보안 릴리스 프로세스의 비효율성을 발견하였으며, 향후 대응 속도를 더욱 높이기 위해 릴리스 효율화 작업을 진행할 예정입니다. 또한 리눅스 환경에서의 인증서 철회 메커니즘을 강화하기 위해 upki 프로젝트 도입 등을 검토하고 있습니다.\n\n모든 Go 사용자는 네트워크 통신을 위해 net/http나 crypto/tls 등을 사용하는 경우, 최신 마이너 릴리스로 즉시 업데이트해야 합니다. 설치된 바이너리가 영향을 받는지 확인하려면 go version -m 명령어 혹은 govulncheck 도구를 사용할 수 있습니다. Go 팀은 앞으로도 암호화 알고리즘의 미래를 대비하고 생태계 전반의 보안 위협에 선제적으로 대응하겠다는 방침입니다.",
+    "url": "https://go.dev/blog/emudhra-incident",
+    "category": "프로그래밍 언어",
+    "source": "The Go Blog",
+    "author": "Roland Shoemaker, on behalf of the Go Security team",
+    "pubDate": "2026-10-26T00:00:00.000Z",
+    "fetchedAt": "2026-10-27T02:10:05.513Z",
+    "tags": [
+      "Go"
     ]
   },
   {
@@ -2658,164 +2738,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-token-guard-auth-bypass",
-    "title": "Critical Token Guard Auth Bypass Fixed in Laravel 13.29 and 12.68",
-    "summary": "A critical auth bypass in Laravel's token API guard let attackers log in as other users on MySQL and MariaDB. Update to 12.68.0 or 13.29.0.\nThe post Critical Token Guard Auth Bypass Fixed in Laravel 1",
-    "aiSummary": "Laravel의 Token API Guard에서 MySQL 및 MariaDB를 사용하는 환경을 대상으로 타인의 계정으로 로그인할 수 있는 심각한 인증 우회 취약점이 발견되었습니다.\n\n해당 보안 결함은 시스템의 권한을 무단으로 획득할 수 있는 위험을 내포하고 있습니다. 개발자들은 이 문제를 해결하기 위해 즉시 Laravel 버전을 12.68.0 또는 13.29.0으로 업데이트해야 합니다.",
-    "url": "https://laravel-news.com/laravel-token-guard-auth-bypass?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-10-20T00:24:10.000Z",
-    "fetchedAt": "2026-10-20T19:23:38.098Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/agent-sdk",
-    "title": "Agent SDK",
-    "summary": "Oct 20, 2026 · ChangelogAgent SDK\nThe Agent SDK is available today. It allows you to define an agent as a folder of code, test it with evals, and deploy it to Cursor or your own infrastructure.\nRun np",
-    "aiSummary": "Cursor가 에이전트를 코드 기반으로 개발하고 배포할 수 있는 Agent SDK를 출시했습니다. 개발자는 로컬 환경에서 에이전트를 정의하고 테스트한 뒤, 이를 Cursor 인프라에 배포하거나 자체 환경에서 운용할 수 있습니다.\n\n프로젝트는 폴더 단위의 코드 구조로 관리되며 instructions.md를 통해 프롬프트를 설정하고 tools, skills, mcp-connections, channels 등을 통해 에이전트의 기능과 연동성을 확장합니다. 특히 개발자는 보안 검토자, PR 수정자, 티켓 관리자 등 다양한 템플릿을 활용해 빠르게 시작할 수 있습니다.\n\n에이전트는 GitHub, GitLab, Bitbucket의 각종 이벤트는 물론 Slack의 멘션이나 DM, 웹훅, 크론 스케줄 등 다양한 채널을 통해 메시지를 수신합니다. 각 대화는 세션별로 관리되어 기록이 유지되며, GitHub 이벤트의 경우 별도의 공개 웹훅 URL 없이 Cursor 계정을 통해 연동할 수 있습니다.\n\n테스트를 위한 Evals 기능도 제공됩니다. 특정 메시지에 대한 에이전트의 반응을 검증할 수 있으며, 실제 PR 데이터를 사용하여 테스트를 수행하거나 이를 재현 가능한 픽스처로 저장하여 CI 환경에서 활용하는 것도 가능합니다. 에이전트가 준비되면 agent-sdk deploy 명령어를 통해 즉시 서비스할 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/agent-sdk",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-26T20:36:58.914Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
-    "title": "Announcing rustup 1.29.2",
-    "summary": "The rustup team is happy to announce the release of rustup version 1.29.2.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient",
-    "aiSummary": "Rust 프로그래밍 언어의 설치 및 관리 도구인 rustup이 버전 1.29.2로 업데이트되었습니다.\n\n이번 릴리스는 CVE-2026-111943 및 RUSTSEC-2026-0382로 보고된 eMudhra 중간 인증서 관련 문제를 해결하기 위해 rustls-webpki 및 webpki-root-certs 의존성을 업데이트하는 데 초점을 맞춘 보안 패치 성격의 릴리스입니다.\n\n기존 사용자는 IDE 등 rustup을 사용하는 프로그램을 종료한 뒤 rustup self update 명령어를 실행하거나, 일반적인 도구 체인 업데이트 과정인 rustup update 명령어를 통해 최신 버전으로 업그레이드할 수 있습니다.\n\n일부 안티 멀웨어 스캐너가 새로운 릴리스의 파일을 차단하는 현상이 발생할 수 있으나, 이는 시간이 지나 스캐너가 업데이트되면 자동으로 해결될 문제입니다. 상세한 변경 사항은 공식 변경 로그를 통해 확인할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rustup Team",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-21T13:00:42.297Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/fossasia-pgday-2027-bangkok-9-march-cfp-open-3398/",
-    "title": "FOSSASIA PGDay 2027: Bangkok, 9 March – CFP Open\n",
-    "summary": "We are happy to announce that FOSSASIA PGDay returns to Thailand on 9 March, 2027, bringing the PostgreSQL community together at True Digital Park, Bangkok. Visit the PGDay website for more details.\nA",
-    "aiSummary": "FOSSASIA PGDay 2027 행사가 2027년 3월 9일 태국 방콕의 True Digital Park에서 개최됩니다. 이 행사는 PostgreSQL 사용자, 개발자 및 관계자들이 모여 기술 지식과 실무 경험을 공유하는 아시아 지역의 주요 커뮤니티 컨퍼런스로, FOSSASIA Summit과 함께 진행됩니다.\n\n현재 발표자를 모집하는 CFP가 2026년 11월 30일까지 진행되며, PostgreSQL 개발 및 관리, 성능 최적화, 보안, 클라우드 인프라, 데이터 엔지니어링, 실무 사례 연구 등 다양한 주제의 발표 제안을 환영합니다. 행사는 모든 참가자가 동일한 세션을 공유할 수 있도록 단일 트랙으로 구성되며, 기술 세션 이후에는 참가자 간의 네트워킹을 위한 소셜 이벤트도 마련될 예정입니다.\n\n이번 행사는 오픈 소스 데이터 플랫폼으로서의 PostgreSQL 역할을 강조하며 글로벌 커뮤니티 간의 협력을 도모하는 자리가 될 것입니다. 후원 기업 모집도 함께 진행 중이며, 자세한 정보는 공식 홈페이지를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/fossasia-pgday-2027-bangkok-9-march-cfp-open-3398/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-21T01:42:43.634Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/sles-156-repositories-are-being-retired-3415/",
-    "title": "SLES 15.6 repositories are being retired\n",
-    "summary": "The SLES 15.6 repositories are being retired from the main PostgreSQL RPM repository, and are moved to the PostgreSQL ZYPP archive .General support for SUSE Linux Enterprise Server (SLES) 15 SP6 (15.6",
-    "aiSummary": "PostgreSQL RPM 저장소에서 SLES 15.6 관련 저장소가 은퇴하고 PostgreSQL ZYPP 아카이브로 이전되었습니다. 이는 업스트림 지원이 2025년 12월 31일부로 종료된 것에 따른 조치입니다.\n\n해당 아카이브에는 PostgreSQL 18을 포함하여 SLES 15.6용으로 빌드된 모든 주요 버전이 보관되어 있습니다. 현재 SLES 15.6을 사용 중인 환경은 최신 서비스 팩인 SP7으로 업데이트하거나, 공식 홈페이지의 아카이브 저장소 섹션을 통해 리포지토리 파일 및 설치 명령을 확인해야 합니다.\n\n아카이브로 이동한 저장소는 더 이상 업데이트가 제공되지 않습니다. 관련 문의 사항은 pgsql-pkg-yum@lists.postgresql.org로 이메일을 보내거나 PostgreSQL 이슈 트래커를 통해 티켓을 생성하시기 바랍니다.",
-    "url": "https://www.postgresql.org/about/news/sles-156-repositories-are-being-retired-3415/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-21T01:42:43.634Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/20/devoxxbelgium-bringing-gpu-computing-to-java/",
-    "title": "Reflect, Transform, Accelerate: Bringing GPU Computing to Java",
-    "summary": "Java’s code reflection API, developed in OpenJDK Project Babylon, opens a new path to targeting foreign programming models directly from Java—including GPUs. This talk introduces the Heterogeneous Acc",
-    "aiSummary": "OpenJDK Project Babylon의 Java 코드 리플렉션 API를 활용하여 Java에서 GPU 가속 컴퓨팅을 직접 구현하는 새로운 방법이 제시되었습니다. \n\n핵심 기술인 HAT는 Java 코드를 리플렉션하여 분석 가능한 모델로 변환한 뒤, GPU가 처리하기 적합한 형태로 최적화하여 OpenCL이나 CUDA 환경에서 실행되도록 지원하는 프레임워크입니다. \n\n이 과정은 리플렉션, 변환, 가속의 3단계로 구성되며, AI 및 자연어 처리의 필수 요소인 텐서 코어 프로그래밍과 행렬 곱셈 예제를 통해 실제 성능 향상 효과를 입증합니다. \n\n아울러 NVIDIA Nsight Compute 및 Nsight Systems를 사용하여 생성된 커널을 프로파일링하고, CUDA 백엔드에서의 성능 최적화 기회를 식별하는 방법론까지 상세히 다룹니다.",
-    "url": "https://inside.java/2026/10/20/devoxxbelgium-bringing-gpu-computing-to-java/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Juan Fumero",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-20T19:23:38.098Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/10/20/this-week-in-spring-october-20th-2026",
-    "title": "This Week in Spring - October 20th, 2026 ",
-    "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring! It's almost Halloween! What're you going dressed as, if you celebrate? I'm going dressed as PHP code. (Terrifying!)\nWe've got a ",
-    "aiSummary": "Craig Walls는 Spring과 JBang을 활용하여 빌드 과정 없이 MCP 서비스를 구축하는 방법과 Spring AI를 사용하여 답변을 사실 확인을 위한 주장 단위로 분해하는 기술을 소개했습니다.\n\nA Bootiful Podcast에서는 Andrew Lombardi가 출연하여 Java가 Rust의 성능을 능가할 수 있는지에 대한 논의를 진행했습니다.\n\n기술 영상으로는 Spring Boot 4.1의 SSRF 보호 기능 적용 방법과 .env 파일 활용법, 그리고 개발 환경 설정을 간편하게 만들어주는 Mise 사용법 등이 공개되었습니다.\n\n또한 시스템 아키텍처 관점에서 Modular Monolith와 Microservices 중 적절한 방식을 선택하는 기준에 대한 논의와 Spring 기반 워크로드에서 AI 기술을 활용한 코드 생성 기법도 다루어졌습니다.",
-    "url": "https://spring.io/blog/2026/10/20/this-week-in-spring-october-20th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-20T19:23:38.098Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/rhel-100-and-96-repositories-are-being-retired-3411/",
-    "title": "RHEL 10.0 and 9.6 repositories are being retired\n",
-    "summary": "The RHEL 10.0 and RHEL 9.6 repositories are being retired from the main PostgreSQL RPM repository, and are moved to the PostgreSQL YUM archive .\nAll PostgreSQL major versions that were built for these",
-    "aiSummary": "PostgreSQL RPM 저장소에서 RHEL 10.0 및 RHEL 9.6 버전의 저장소가 퇴역하고 PostgreSQL YUM 아카이브로 이전됩니다. 이에 따라 PostgreSQL 18을 포함한 해당 마이너 릴리스용 모든 메이저 버전은 이제 아카이브 저장소를 통해서만 접근할 수 있습니다.\n\n이번 조치는 RHEL 10.0 및 9.6 환경이나 이를 기반으로 하는 Rocky Linux 및 AlmaLinux 사용자에게 영향을 미칩니다. 해당 환경의 사용자들은 최신 마이너 릴리스로 업데이트하거나 공식 아카이브 페이지에서 제공하는 별도의 저장소 설정 및 설치 명령어를 이용해야 합니다.\n\n해당 저장소들은 향후 추가적인 업데이트가 제공되지 않으므로 주의가 필요합니다. 관련하여 문의 사항이 있는 경우 지정된 이메일 주소로 연락하거나 공식 이슈 트래커를 통해 티켓을 생성하여 지원받을 수 있습니다. 참고로 롤링 EL-10 및 EL-9 저장소 RPM은 이번 변경 사항에 영향을 받지 않습니다.",
-    "url": "https://www.postgresql.org/about/news/rhel-100-and-96-repositories-are-being-retired-3411/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "fetchedAt": "2026-10-20T19:23:38.098Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.150.0",
-    "title": "0.150.0",
-    "summary": "When no file is selected, browsers submit a file part with an empty filename and empty content. FastAPI now treats this as missing: required file fields return a validation error, and fields with defa",
-    "aiSummary": "FastAPI가 버전 0.150.0으로 업데이트되면서 파일 업로드 처리 방식이 변경되었습니다.\n\n기존에는 선택되지 않은 파일 입력 필드를 빈 이름과 빈 내용을 가진 파일로 간주했으나, 이제는 해당 필드를 누락된 것으로 처리합니다. 이에 따라 필수 파일 필드가 선택되지 않았을 경우 유효성 검사 오류가 발생하며, 기본값이나 기본 팩토리가 설정된 필드는 설정된 값을 사용하게 됩니다.\n\n파일 목록 내의 선택되지 않은 입력값은 무시되지만, 사용자가 직접 선택한 0바이트 크기의 파일은 기존과 동일하게 정상적으로 허용됩니다. 이번 변경 사항은 PR 16534를 통해 반영되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.150.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-10-19T22:39:30.000Z",
-    "fetchedAt": "2026-10-20T01:55:39.132Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
-    "title": "Copilot model policy API for enterprise, orgs, and teams",
-    "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now…\nThe post C",
-    "aiSummary": "GitHub는 기업, 조직, 팀을 위한 Copilot 모델 정책을 관리할 수 있는 새로운 REST API를 공개하였습니다.\n\n이번 업데이트를 통해 사용자는 GET 및 PATCH 엔드포인트를 활용하여 기업 단위의 설정뿐만 아니라 팀별, 애플리케이션별 Copilot 모델 정책을 조회하고 수정할 수 있게 되었습니다.\n\n이를 통해 관리자는 조직 내에서 사용되는 Copilot 모델을 더욱 유연하고 효율적으로 제어할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-19T21:32:18.000Z",
-    "fetchedAt": "2026-10-20T01:55:39.132Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]
