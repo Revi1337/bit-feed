@@ -1,5 +1,165 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=junie&p=747640",
+    "title": "Junie Eco Mode",
+    "summary": "Not every step of a coding task needs the smartest model in the world. Junie Eco Mode uses your selected model to investigate a coding task and create a plan, then hands implementation and testing to ",
+    "aiSummary": "Junie Eco Mode는 모든 코딩 작업에 최고 성능의 모델을 사용할 필요가 없다는 점에 착안하여 개발된 기능입니다. 사용자가 선택한 모델이 작업의 전반적인 계획을 수립하면, 이후 실제 구현과 테스트는 비용 효율적인 저가형 모델이 수행하도록 역할을 분담합니다. 내부 벤치마크 결과 이 방식을 통해 작업당 평균 모델 비용을 48퍼센트에서 57퍼센트까지 절감하는 효과를 거두었습니다. 이처럼 Junie Eco Mode는 코드 작성 과정에서 지능적인 계획과 비용 최적화된 실행을 결합하여 효율성을 극대화합니다.",
+    "url": "https://blog.jetbrains.com/junie/2026/10/junie-eco-mode/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Helena Klause",
+    "pubDate": "2026-10-28T12:56:31.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.9",
+    "title": "1.4.9",
+    "summary": "Added image pasting through your terminal's own paste shortcut, such as Cmd+V or Ctrl+Shift+V with only an image copied, and by dragging image files into the prompt, which attaches them instead of ins",
+    "aiSummary": "이번 1.4.9 업데이트에서는 터미널을 통한 이미지 붙여넣기 기능이 개선되었습니다. 이제 Cmd+V나 Ctrl+Shift+V를 사용하여 이미지를 직접 붙여넣거나 드래그 앤 드롭으로 첨부할 수 있으며, SSH 환경에서도 X11이나 Wayland 포워딩을 통해 이미지를 전송할 수 있습니다. 클립보드 도구가 없거나 이미지가 감지되지 않을 경우 적절한 가이드를 제공합니다.\n\n플러그인 개발 및 관리 기능이 강화되었습니다. Discover 탭의 플러그인 목록이 Antigravity 마켓플레이스 체계에 맞춰 그룹화되었으며, agy plugin validate 명령은 플러그인 이름 규칙과 로고 경로, 아이콘 등을 더욱 엄격하게 검사하여 게시 오류를 방지합니다.\n\n터미널 인터페이스와 사용성 측면에서도 다수의 개선이 이루어졌습니다. 긴 /diff 목록의 파일 수 표시 방식을 직관적으로 수정하였고, Auto 모드에서는 Git 저장소 여부를 인식하여 불필요한 git status 실행을 방지함으로써 시간 초과 문제를 개선했습니다. 또한, execute_url 권한 설정이 세분화되어 google.com 계열의 사이트별로 개별 승인이 필요하도록 변경되었으며, 온보딩 화면이 작은 터미널에서도 잘리지 않도록 반응형으로 최적화되었습니다.\n\n버그 수정 사항으로는 다중 라인 명령의 always-allow 규칙이 적용되지 않던 문제를 해결하였고, Vim 모드의 주요 명령어 동작 오류를 수정하였습니다. 이외에도 터미널에 불필요한 문자가 표시되는 현상, 손상된 이미지로 인해 발생하는 INVALID_MEDIA 오류, 도구 호출 결과 불일치 문제, 그리고 특정 Google Cloud 프로젝트 모델에서 발생하는 대화 중단 문제 등을 해결하였습니다. 마지막으로 Chrome DevTools MCP 1.11 이후 버전에서 /browser 서브 에이전트가 페이지 스냅샷을 받지 못하던 문제를 수정하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.9",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-28T05:59:49.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/28/java-secure-coding-guidelines/",
+    "title": "Java Secure Coding Guidelines",
+    "summary": "Get an overview of the Secure Coding Guidelines for Java and best practices. Examples will be provided to show insecure practices that may lead to security vulnerabilities. Learn how to avoid issues b",
+    "aiSummary": "Java Secure Coding Guidelines는 Java 애플리케이션 개발 과정에서 발생할 수 있는 보안 취약점을 방지하기 위한 핵심 지침과 모범 사례를 다룹니다. 취약점이 유발될 수 있는 구체적인 사례를 통해 안전하지 않은 코딩 방식을 식별하고 이를 예방하는 방법을 제시합니다.\n\n최근 업데이트를 통해 입력값 검증과 직렬화 등 보안상 중요한 주제들에 대한 범위를 확장했습니다. Java 개발자는 제공된 지침을 준수하여 시스템의 보안성을 강화해야 합니다. 자세한 내용은 JavaOne 2026 재생 목록을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/28/java-secure-coding-guidelines/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Andrew Gross",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/10/28/spring-ai-message-parts-reasoning-replay",
+    "title": "Spring AI 2.1 Message Parts: Reasoning That Survives the Round Trip",
+    "summary": "Spring AI: Message Parts Doc (https://docs.spring.io/spring-ai/reference/2.1/api/chatmodel.html#message-parts) | Upgrade Notes (https://docs.spring.io/spring-ai/reference/2.1/upgrade-notes.html#upgrad",
+    "aiSummary": "Spring AI 2.1 버전은 추론 모델이 생성하는 데이터의 구조적 무결성을 보장하기 위해 기존의 메시지 모델을 대대적으로 개편했습니다. 최신 LLM들은 응답 과정에서 생성된 추론 과정, 서명, 도구 호출 결과 등을 다음 요청 시 반드시 동일한 순서와 형태로 전달할 것을 요구하며, 이를 위반할 경우 HTTP 400 에러가 발생하거나 모델의 추론 성능이 저하되는 문제가 있었습니다.\n\n기존의 Spring AI는 메시지 내용을 단순한 텍스트, 도구 호출, 미디어 등으로 분리하여 관리했기에 이러한 복잡한 추론 블록이나 불투명한 데이터를 원형 그대로 보존하는 데 한계가 있었습니다. 이를 해결하기 위해 2.1 버전에서는 모든 메시지 내용을 정렬된 리스트 형태의 MessagePart 추상화 모델로 변경하였습니다.\n\n새롭게 도입된 MessagePart는 TextPart, ReasoningPart, ToolCallPart, ToolResultPart, MediaPart, UnknownPart 등 6가지 유형의 구현체를 통해 응답의 구성 요소를 명확히 정의합니다. 이를 통해 각 모델이 요구하는 추론 데이터의 순서를 유지하고, 암호화된 서명이나 독자적인 페이로드를 해석 없이 그대로 재전송할 수 있게 되었습니다.\n\n이번 업데이트를 통해 Anthropic, Google GenAI, OpenAI Responses API, DeepSeek, Mistral AI 등 주요 모델과의 연동성이 크게 강화되었습니다. 특히 OpenAI의 Responses API를 정식 지원하게 되면서 추론 모델 사용 시 약 3% 이상의 성능 향상을 기대할 수 있게 되었으며, 스트리밍 환경에서도 데이터 손실 없이 메시지 통합이 가능해졌습니다.\n\n또한 세션 메모리 기능을 통해 이러한 파트 단위의 데이터를 지속적으로 저장 및 활용할 수 있게 되어, 이전 대화 맥락과 추론 과정을 안정적으로 유지하는 것이 가능해졌습니다. 기존 코드와의 하위 호환성을 유지하면서도, 이제는 모든 모델이 일관된 방식으로 ReasoningPart를 통해 추론 결과에 접근할 수 있도록 설계되었습니다.",
+    "url": "https://spring.io/blog/2026/10/28/spring-ai-message-parts-reasoning-replay",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "dimitarproynov",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresqlscale24x-cfp-closing-soon-on-nov-1-2027-3363/",
+    "title": "PostgreSQL@SCaLE24x CfP closing soon on Nov 1, 2027\n",
+    "summary": "Hi folks!\nWe're hosting a PostgreSQL track at SCaLE again — come join us in sunny Pasadena!\nPostgreSQL@SCaLE is a two-day event on Thursday–Friday, April 1–2, 2027, at the Pasadena Convention Center, ",
+    "aiSummary": "2027년 4월 1일부터 2일까지 이틀간 Pasadena Convention Center에서 PostgreSQL@SCaLE 행사가 개최됩니다. 이는 SCaLE 24x 행사의 일환으로 진행되며 PostgreSQL 핵심 기여자들과 전문가들이 모여 운영 노하우와 실무 지식을 공유하는 자리입니다.\n\n이번 행사는 데이터베이스 관리자, 개발자, 시스템 엔지니어 등 PostgreSQL을 활용하는 모든 이를 대상으로 합니다. 프로그램은 전문 강사가 진행하는 풀데이 교육 세션과 내부 구조, 성능 최적화, 클라우드 네이티브 및 AI 워크로드 등을 다루는 기술 강연, 그리고 커뮤니티와의 소통을 위한 AMA 세션으로 구성됩니다.\n\n발표 신청을 위한 CfP는 2026년 11월 1일까지 진행됩니다. 제출 시 PostgreSQL 태그를 지정하여 PostgreSQL@SCaLE 위원회로 안건이 전달되도록 해야 합니다.",
+    "url": "https://www.postgresql.org/about/news/postgresqlscale24x-cfp-closing-soon-on-nov-1-2027-3363/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/estuary-expands-postgresql-cdc-with-targeted-backfills-and-scalable-discovery-3419/",
+    "title": "Estuary Expands PostgreSQL CDC with Targeted Backfills and Scalable Discovery\n",
+    "summary": "Estuary has released several updates to its PostgreSQL change data capture (CDC) connector focused on backfill recovery, discovery at scale, and schema-change detection.\nTargeted Backfills\nPostgreSQL ",
+    "aiSummary": "Estuary가 PostgreSQL CDC 커넥터의 기능을 대폭 강화하여 백필 복구, 대규모 환경에서의 테이블 탐색, 스키마 변경 감지 효율을 높였습니다.\n\n새롭게 도입된 Targeted Backfills 기능은 사용자가 SQL 표현식을 사용해 백필 쿼리에 필터를 적용할 수 있게 합니다. 이를 통해 대용량 테이블에서 특정 데이터셋만 선택적으로 재읽기함으로써 데이터 복구 시 리소스 소모를 크게 줄일 수 있으며, 실시간 CDC 작업에는 영향을 주지 않으면서도 백필 범위를 정밀하게 제어합니다.\n\n대규모 PostgreSQL 환경을 위한 탐색 제어 기능도 개선되었습니다. 사용자는 스키마 포함 및 제외 설정과 glob 패턴을 활용하여 필요한 테이블만 골라낼 수 있으며, 테이블 메타데이터 탐색을 작은 그룹 단위로 분할 처리하여 데이터베이스가 방대할 때의 작업 신뢰성을 향상시켰습니다.\n\n또한 활성 상태인 캡처 과정에서 새로운 테이블 추가나 스키마 변경을 감지하는 재탐색 주기를 사용자가 직접 설정할 수 있습니다. 이를 통해 운영자는 스키마 변경 감지 속도와 카탈로그 쿼리 부하 사이의 균형을 최적화할 수 있습니다. \n\nEstuary의 PostgreSQL CDC 커넥터는 PostgreSQL 10.0 이상 버전을 지원하며, Write-Ahead Log를 활용한 논리적 복제 방식으로 삽입, 수정, 삭제 작업을 안정적으로 처리합니다.",
+    "url": "https://www.postgresql.org/about/news/estuary-expands-postgresql-cdc-with-targeted-backfills-and-scalable-discovery-3419/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/oxynote-an-open-source-internal-wiki-with-live-postgresql-query-charts-3406/",
+    "title": "Oxynote: an open source internal wiki with live PostgreSQL query charts\n",
+    "summary": "Oxynote is a new open-source (Apache-2.0) internal wiki for engineering teams. A page can include a chart that runs its own query against Prometheus, PostgreSQL, MySQL, or MariaDB right next to the ex",
+    "aiSummary": "Oxynote는 엔지니어링 팀을 위해 설계된 Apache-2.0 라이선스 기반의 오픈 소스 내부 위키 서비스입니다. 이 도구의 핵심은 문서 내에 Prometheus, PostgreSQL, MySQL, MariaDB와 직접 연동되는 실시간 차트를 삽입할 수 있다는 점입니다. 이를 통해 단순한 텍스트 위주의 문서가 겪는 정보 최신화 문제를 해결하고, 팀원들이 매일 실시간 데이터를 확인하기 위해 문서를 찾게 함으로써 문서의 정확성을 유지합니다.\n\nPostgreSQL 연동 기능의 경우 Grafana 스타일의 매크로를 지원하여 기존 대시보드 쿼리를 그대로 활용할 수 있습니다. 보안을 위해 모든 데이터 소스는 읽기 전용으로만 연결되며, 시스템 안정성을 위해 데이터베이스 설정이나 별도의 스탠바이 서버를 통한 접근을 권장합니다.\n\n문서 관리 방식 또한 엔지니어링 친화적입니다. 중요한 페이지의 변경 사항은 Pull Request와 유사하게 초안 작성, Diff 확인, 승인 과정을 거치도록 설계되었습니다. 결과적으로 Oxynote는 장애 대응 매뉴얼과 같은 기술 문서에 실시간 지표를 함께 배치함으로써, 차트와 설명이 상호 보완적으로 검토될 수 있는 효율적인 문서화 환경을 제공합니다.",
+    "url": "https://www.postgresql.org/about/news/oxynote-an-open-source-internal-wiki-with-live-postgresql-query-charts-3406/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/revivedb-supabase-backups-restore-tested-against-the-source-schema-3422/",
+    "title": "ReviveDB: Supabase backups restore-tested against the source schema\n",
+    "summary": "ReviveDB backs up Supabase projects on Postgres 17 outside Supabase, and restores every database backup into a temporary PostgreSQL database before it counts as verified.\nThe restore is compared with ",
+    "aiSummary": "ReviveDB는 Supabase 프로젝트의 데이터를 외부 환경에서 안전하게 백업하고 복구 검증 과정을 거치는 솔루션입니다. 단순히 데이터를 백업하는 것을 넘어 임시 PostgreSQL 데이터베이스에 데이터를 복구한 뒤 원본 데이터베이스의 스키마와 구조를 상세히 대조하는 검증 단계를 수행합니다.\n\n검증 과정에서는 테이블과 행, 열을 비롯해 제약 조건, 인덱스, 시퀀스, 뷰, 함수, 트리거, RLS 정책, 권한 및 확장 기능까지 포괄적으로 확인합니다. 이는 단순히 행의 개수만 확인해서는 알 수 없는 스키마 손실이나 정책 누락 등을 방지하기 위한 목적입니다.\n\n각 백업은 독립된 읽기 전용 Postgres 역할을 사용하여 RLS 정책 너머의 데이터까지 포함하며 Auth 데이터, Storage 파일, Edge Functions까지 통합적으로 관리합니다. 복구된 데이터는 새로운 Supabase 프로젝트로 이전하거나 원본 프로젝트의 복제본을 활용한 리허설을 거쳐 원래 프로젝트에 적용할 수 있습니다. 현재 프로젝트 하나에 한해 무료로 서비스를 제공합니다.",
+    "url": "https://www.postgresql.org/about/news/revivedb-supabase-backups-restore-tested-against-the-source-schema-3422/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-anonymizer-33-major-security-update-3423/",
+    "title": "PostgreSQL Anonymizer 3.3 : Major Security Update\n",
+    "summary": "Eymoutiers, France, October 27th, 2026\nDalibo is pleased to announce PostgreSQL Anonymizer 3.3 with a panel of\nimportant security fixes.\nEnhanced Privacy Protection for Your Data\nPostgreSQL Anonymizer",
+    "aiSummary": "Dalibo에서 PostgreSQL 데이터베이스 내 개인 식별 정보와 민감한 데이터를 보호하는 확장 도구인 PostgreSQL Anonymizer 3.3 버전을 발표했습니다. 이번 업데이트는 보안 강화에 초점을 맞추었으며 사용자가 데이터를 안전하게 관리할 수 있도록 6가지 마스킹 전략과 다양한 난독화 함수를 제공합니다.\n\n이번 3.3 버전은 특정 상황에서 슈퍼유저 권한을 획득하거나 마스킹된 사용자가 원본 데이터에 접근할 수 있게 만드는 등 12가지의 치명적인 취약점을 해결했습니다. 주요 수정 사항에는 SQL 함수를 통한 데이터 유출 방지, pg_stats 접근 제한, 보안 인보커 뷰의 마스킹 규칙 적용, 캐시된 계획을 통한 우회 차단 등이 포함됩니다.\n\n또한 공격 방지를 위해 서브쿼리 사용을 금지하고 특정 함수의 인라이닝을 비활성화하는 등 새로운 제한 사항이 추가되었습니다. 모든 사용자는 보안을 위해 즉시 3.3 버전으로 업데이트하고 anon.salt 매개변수 값을 변경할 것을 강력히 권고합니다.\n\n해당 도구는 Debian, RPM, Docker 등을 통해 설치 가능하며 Alibaba Cloud, Google Cloud SQL, Microsoft Azure Database를 포함한 주요 DBaaS와 EDB Advanced Postgres, Greenplum, Yugabyte 등의 플랫폼에서 사용할 수 있습니다. Dalibo Labs를 통해 오픈 소스로 개발되고 있으며 사용자들의 적극적인 참여와 피드백을 기다리고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-anonymizer-33-major-security-update-3423/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-39-0",
+    "title": "Scheduled Session Garbage Collection in Laravel 13.39",
+    "summary": "Laravel 13.39 adds a session:garbage-collect command for scheduled session cleanup, keyless models with #[Table(key: false)], and durations on JobAttempted.\nThe post Scheduled Session Garbage Collecti",
+    "aiSummary": "Laravel 13.39 버전 업데이트를 통해 세션 데이터를 주기적으로 정리할 수 있는 session:garbage-collect 명령어가 추가되었습니다.\n\n이와 함께 데이터베이스 모델에서 기본 키를 사용하지 않도록 설정할 수 있는 #[Table(key: false)] 속성이 도입되었으며, JobAttempted 이벤트에 작업 실행 지속 시간을 확인할 수 있는 기능이 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-39-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-10-27T22:35:05.000Z",
+    "fetchedAt": "2026-10-28T14:08:02.947Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
     "title": "GitHub Copilot supports server-to-server authentication",
     "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make ",
