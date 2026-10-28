@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+    "title": "GitHub Copilot supports server-to-server authentication",
+    "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make ",
+    "aiSummary": "GitHub Copilot이 조직에 설치된 GitHub Apps를 위한 서버 간 인증 기능을 공개 프리뷰 형태로 지원합니다.\n\n이번 업데이트를 통해 GitHub Copilot SDK를 활용하여 구축된 서비스와 에이전트는 사용자의 개입 없이도 GitHub Copilot에 직접 요청을 보낼 수 있게 되었습니다. 이는 자동화된 에이전트나 백엔드 서비스가 GitHub Copilot의 기능을 더욱 원활하게 통합하고 활용할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-10-27T21:36:55.000Z",
+    "fetchedAt": "2026-10-28T02:25:28.035Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/infrastructure-modernization/vmware-solution-on-google-cloud/",
     "title": "Introducing VMware solution on Google Cloud",
     "summary": "Many organizations with workloads on VMware are looking for ways to expedite their data center exits, migrate and modernize their mission-critical workloads, or simply leverage the cloud as a secondar",
@@ -61,6 +77,43 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "/blog/upcoming-nextjs-security-release-november-2026",
+    "title": "Upcoming Next.js November Security Release",
+    "summary": "Next.js is preparing a scheduled November security release for November 3, 2026.",
+    "aiSummary": "Next.js는 오는 2026년 11월 3일에 정기 보안 업데이트를 출시할 예정입니다. 해당 업데이트를 통해 프레임워크의 보안성이 강화될 것으로 보입니다.",
+    "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Jamiboy Mohammad"
+      ]
+    },
+    "pubDate": "2026-10-27T18:00:00.000Z",
+    "fetchedAt": "2026-10-28T02:25:28.035Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "title": "Genie 4: A new generation of world simulation",
+    "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+    "aiSummary": "Google DeepMind가 공개한 Genie 4는 실시간 시뮬레이션에서 전례 없는 수준의 현실감을 구현하는 차세대 월드 모델입니다. 이 모델은 고도로 정밀한 가상 환경을 생성하고 제어할 수 있도록 설계되었으며, 복잡한 물리 법칙과 시각적 상호작용을 실시간으로 처리하는 성능을 갖추고 있습니다. 향후 Genie 4는 가상 세계 구축 및 시뮬레이션 기술의 새로운 기준을 제시할 것으로 기대됩니다.",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-10-27T16:01:38.000Z",
+    "fetchedAt": "2026-10-28T02:25:28.035Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -274,6 +327,24 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Expanding our partnership with GSA to bring Claude to all levels of",
+    "aiSummary": "Anthropic이 GSA와 파트너십을 확대하며 미국 전역의 정부 기관을 대상으로 Claude Enterprise, Claude for Government, 그리고 Claude API에 대한 40% 할인 혜택을 제공합니다. 이번 협약은 연방 정부뿐만 아니라 주 정부, 지방 정부, 부족 및 영토 정부를 모두 포함하며, 직접 구매는 물론 향후 클라우드 제공업체를 통한 구매 시에도 동일한 할인율이 적용됩니다.\n\n정부 기관은 최소 사용량에 대한 약정 없이 실제 사용한 만큼만 비용을 지불하면 되며, 이를 통해 전체 정부 차원에서 약 10억 달러의 비용 절감 효과가 있을 것으로 예상됩니다. 현재 미국 내 약 500개의 정부 기관이 이미 Claude를 도입해 활용 중이며, 지난 1년간 연방 민간 기관의 사용량은 약 20배가량 급증했습니다.\n\nAnthropic은 정부 기관이 Claude를 도입하고 최적화하여 사용할 수 있도록 돕는 전용 프로그램을 새롭게 출범합니다. 현재 많은 공공 기관들이 백로그 관리, 기록 및 양식 처리, 레거시 코드 현대화와 같은 복잡한 업무를 해결하는 데 Claude를 활용하고 있습니다. 특히 Claude for Government는 보안이 중요한 비기밀 업무를 지원하며 민간용 제품과 거의 대등한 코딩 및 에이전트 기능을 제공합니다.",
+    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-10-27T00:00:00.000Z",
+    "fetchedAt": "2026-10-28T02:25:28.035Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
     ]
   },
   {
