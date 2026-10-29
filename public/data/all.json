@@ -1,5 +1,54 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=clion&p=749863",
+    "title": "SEGGER Tools Gain Deeper Integration in CLion with AI-assisted Debugging",
+    "summary": "Amsterdam, Netherlands — October 29, 2026 SEGGER’s embedded development tools are now more deeply integrated into JetBrains CLion. CLion provides dedicated configuration for J-Link debug probes as wel",
+    "aiSummary": "SEGGER의 임베디드 개발 도구가 JetBrains CLion과 더욱 긴밀하게 통합되었습니다. 이번 업데이트를 통해 CLion 사용자는 J-Link 디버그 프로브를 위한 전용 설정을 활용할 수 있게 되었으며, SEGGER의 Ozone 디버거와 실시간 소프트웨어 분석 도구인 SystemView에 직접 접근할 수 있습니다.\n\n이러한 통합으로 인해 개발자는 코드 작성과 초고속 플래시 프로그래밍을 고급 디버깅 및 실시간 시스템 분석 작업과 원활하게 연결할 수 있습니다. 특히 AI 기반 디버깅 기능이 더해져 복잡한 임베디드 환경에서의 개발 효율성과 문제 해결 속도가 크게 향상될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/clion/2026/10/segger-tools-gain-deeper-integration-in-clion-with-ai-assisted-debugging/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Artemy Pestretsov",
+    "pubDate": "2026-10-29T12:59:21.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+    "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+    "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google)\nand Yuan Tang (Red Hat) about the journey of AI Conformance in\nKubernetes, from the initial Working\nGroup to the\nintegration SIG Ar",
+    "aiSummary": "Kubernetes 생태계 내에서 AI 워크로드가 급증함에 따라 발생한 파편화 문제를 해결하고 표준화된 인프라를 구축하기 위해 AI Conformance 프로그램이 시작되었습니다. Google의 Janet Kuo와 Red Hat의 Yuan Tang이 주도한 이 이니셔티브는 초기 Working Group 형태에서 출발하여 현재는 SIG Architecture 산하의 영구적인 하위 프로젝트로 자리 잡았습니다.\n\n이 프로그램의 핵심 목적은 GPU 가속기 지원, 네트워킹, 스케줄링 등 다양한 AI 인프라 요소를 공급업체에 종속되지 않는 표준으로 정의하는 것입니다. 이를 위해 KAR(Kubernetes AI Requirements)을 제정하고 Certified Kubernetes AI Conformance 프로그램을 운영하여 상호 운용성을 확보하고 플랫폼 간 일관된 운영 환경을 제공하고자 합니다.\n\n현재 AI Conformance는 AI를 단순한 애플리케이션이 아닌 Kubernetes의 핵심 워크로드 카테고리로 격상시키는 역할을 수행하고 있습니다. 빠르게 변화하는 AI 기술과 안정적인 Kubernetes API 사이의 간극을 조율하기 위해 단계적 등급 모델을 활용하며, 특정 프레임워크에 매몰되지 않고 DRA(Dynamic Resource Allocation)와 같은 핵심 인프라 계층의 기능에 집중하고 있습니다.\n\n앞으로 SIG Architecture의 하위 프로젝트로서 AI 역량을 Kubernetes의 기본 설계와 더욱 긴밀하게 통합해 나갈 예정입니다. 참여를 희망하는 기여자는 kubernetes-sigs/ai-conformance 저장소를 통해 회의에 참여하거나 표준 제정 및 자동화 테스트 코드 작성에 기여할 수 있습니다. 현재까지 31개 플랫폼이 인증을 완료하는 등 업계의 강력한 지지를 얻고 있으며, 향후에도 공급업체 종속을 방지하고 유연한 AI 인프라 환경을 구축하는 데 집중할 계획입니다.",
+    "url": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-10-29T05:00:00.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.10",
+    "title": "1.4.10",
+    "summary": "Improved streaming of agent replies: lines that scroll off the top of the screen are now scrolled into your terminal's scrollback instead of repainting the whole screen, and text wrapping writes whole",
+    "aiSummary": "CLI 도구의 1.4.10 버전 업데이트를 통해 성능과 안정성이 크게 개선되었습니다.\n\n에이전트 응답 스트리밍 방식이 최적화되어 터미널 전체 화면을 다시 그리지 않고 스크롤백 기능을 활용하도록 변경되었습니다. 또한 텍스트 래핑 처리가 효율적으로 개선되어 터미널에 기록되는 바이트 수가 약 70퍼센트 감소하였으며, SSH 연결 환경에서도 훨씬 부드러운 작동을 지원합니다.\n\n메모리 관리 측면에서는 대화형 UI가 실행된 지 15초가 지나면 시작 단계에서 사용하던 메모리 중 약 100MB를 운영체제에 반환하여 초기 가동 직후의 리소스 사용량을 절감합니다.\n\n컨텍스트 최적화와 관련해서는 압축 후 표시되는 크기 계산 방식이 업데이트되었습니다. 이제 요약 정보뿐만 아니라 이전 요청, 아티팩트, 서브에이전트, 실행 중인 작업 스냅샷 등을 포함한 실제 데이터 크기가 반영되어 보다 정확한 정보를 제공합니다.\n\n버그 수정 및 기능 안정화도 이루어졌습니다. 컨텍스트 압축 과정에서 서브에이전트가 부모 에이전트의 정보를 잃어버리는 문제를 해결하였으며, 부모 에이전트의 최근 메시지 10개를 유지하도록 개선되었습니다.\n\n이미지 처리와 관련해서는 요청 크기 제한 초과로 인한 거부 문제를 해결했습니다. 이제 이미지는 한 변 기준 2000픽셀로 제한되며, 용량이 큰 PNG는 JPEG로 변환되어 전송됩니다. 또한 파일 확장자와 실제 형식이 일치하지 않는 이미지 파일도 정상적으로 처리됩니다.\n\n마지막으로 브라우저 서브에이전트가 고립된 컨텍스트나 Incognito 창에서 실행될 때 현재 페이지의 스냅샷을 제대로 받아오지 못하던 문제가 수정되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.10",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-29T03:50:50.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_145",
     "title": "Visual Studio Code 1.145 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code 1.145 (Insiders).\nRead the full article",
@@ -1447,6 +1496,21 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/24/openjdk-emudhra/",
+    "title": "Compromised Certificates and OpenJDK Java Runtimes",
+    "summary": "As has been widely reported, the private keys of eight eMudhra intermediate CA certificates have been compromised. This page summarizes how to check whether your runtime is at risk and mitigation acti",
+    "aiSummary": "eMudhra의 중간 CA 인증서 8개에 대한 개인 키가 유출되는 보안 사고가 발생했습니다.\n\n이번 사태로 인해 해당 인증서를 신뢰하도록 설정된 Java 런타임 환경이 잠재적인 보안 위험에 노출되었습니다.\n\nOpenJDK 공식 페이지에서는 사용 중인 런타임이 이번 사고의 영향권에 있는지 확인하는 방법과 구체적인 대응 조치를 안내하고 있습니다.\n\n관련된 상세 정보와 조치 사항은 제공된 공식 링크를 통해 확인하시기 바랍니다.",
+    "url": "https://inside.java/2026/10/24/openjdk-emudhra/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Inside Java",
+    "pubDate": "2026-10-24T00:00:00.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "Java"
     ]
   },
   {

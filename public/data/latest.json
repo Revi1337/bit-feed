@@ -1,5 +1,54 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=clion&p=749863",
+    "title": "SEGGER Tools Gain Deeper Integration in CLion with AI-assisted Debugging",
+    "summary": "Amsterdam, Netherlands — October 29, 2026 SEGGER’s embedded development tools are now more deeply integrated into JetBrains CLion. CLion provides dedicated configuration for J-Link debug probes as wel",
+    "aiSummary": "SEGGER의 임베디드 개발 도구가 JetBrains CLion과 더욱 긴밀하게 통합되었습니다. 이번 업데이트를 통해 CLion 사용자는 J-Link 디버그 프로브를 위한 전용 설정을 활용할 수 있게 되었으며, SEGGER의 Ozone 디버거와 실시간 소프트웨어 분석 도구인 SystemView에 직접 접근할 수 있습니다.\n\n이러한 통합으로 인해 개발자는 코드 작성과 초고속 플래시 프로그래밍을 고급 디버깅 및 실시간 시스템 분석 작업과 원활하게 연결할 수 있습니다. 특히 AI 기반 디버깅 기능이 더해져 복잡한 임베디드 환경에서의 개발 효율성과 문제 해결 속도가 크게 향상될 것으로 기대됩니다.",
+    "url": "https://blog.jetbrains.com/clion/2026/10/segger-tools-gain-deeper-integration-in-clion-with-ai-assisted-debugging/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Artemy Pestretsov",
+    "pubDate": "2026-10-29T12:59:21.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+    "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+    "summary": "In this SIG Architecture spotlight we talked with Janet Kuo (Google)\nand Yuan Tang (Red Hat) about the journey of AI Conformance in\nKubernetes, from the initial Working\nGroup to the\nintegration SIG Ar",
+    "aiSummary": "Kubernetes 생태계 내에서 AI 워크로드가 급증함에 따라 발생한 파편화 문제를 해결하고 표준화된 인프라를 구축하기 위해 AI Conformance 프로그램이 시작되었습니다. Google의 Janet Kuo와 Red Hat의 Yuan Tang이 주도한 이 이니셔티브는 초기 Working Group 형태에서 출발하여 현재는 SIG Architecture 산하의 영구적인 하위 프로젝트로 자리 잡았습니다.\n\n이 프로그램의 핵심 목적은 GPU 가속기 지원, 네트워킹, 스케줄링 등 다양한 AI 인프라 요소를 공급업체에 종속되지 않는 표준으로 정의하는 것입니다. 이를 위해 KAR(Kubernetes AI Requirements)을 제정하고 Certified Kubernetes AI Conformance 프로그램을 운영하여 상호 운용성을 확보하고 플랫폼 간 일관된 운영 환경을 제공하고자 합니다.\n\n현재 AI Conformance는 AI를 단순한 애플리케이션이 아닌 Kubernetes의 핵심 워크로드 카테고리로 격상시키는 역할을 수행하고 있습니다. 빠르게 변화하는 AI 기술과 안정적인 Kubernetes API 사이의 간극을 조율하기 위해 단계적 등급 모델을 활용하며, 특정 프레임워크에 매몰되지 않고 DRA(Dynamic Resource Allocation)와 같은 핵심 인프라 계층의 기능에 집중하고 있습니다.\n\n앞으로 SIG Architecture의 하위 프로젝트로서 AI 역량을 Kubernetes의 기본 설계와 더욱 긴밀하게 통합해 나갈 예정입니다. 참여를 희망하는 기여자는 kubernetes-sigs/ai-conformance 저장소를 통해 회의에 참여하거나 표준 제정 및 자동화 테스트 코드 작성에 기여할 수 있습니다. 현재까지 31개 플랫폼이 인증을 완료하는 등 업계의 강력한 지지를 얻고 있으며, 향후에도 공급업체 종속을 방지하고 유연한 AI 인프라 환경을 구축하는 데 집중할 계획입니다.",
+    "url": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-10-29T05:00:00.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.10",
+    "title": "1.4.10",
+    "summary": "Improved streaming of agent replies: lines that scroll off the top of the screen are now scrolled into your terminal's scrollback instead of repainting the whole screen, and text wrapping writes whole",
+    "aiSummary": "CLI 도구의 1.4.10 버전 업데이트를 통해 성능과 안정성이 크게 개선되었습니다.\n\n에이전트 응답 스트리밍 방식이 최적화되어 터미널 전체 화면을 다시 그리지 않고 스크롤백 기능을 활용하도록 변경되었습니다. 또한 텍스트 래핑 처리가 효율적으로 개선되어 터미널에 기록되는 바이트 수가 약 70퍼센트 감소하였으며, SSH 연결 환경에서도 훨씬 부드러운 작동을 지원합니다.\n\n메모리 관리 측면에서는 대화형 UI가 실행된 지 15초가 지나면 시작 단계에서 사용하던 메모리 중 약 100MB를 운영체제에 반환하여 초기 가동 직후의 리소스 사용량을 절감합니다.\n\n컨텍스트 최적화와 관련해서는 압축 후 표시되는 크기 계산 방식이 업데이트되었습니다. 이제 요약 정보뿐만 아니라 이전 요청, 아티팩트, 서브에이전트, 실행 중인 작업 스냅샷 등을 포함한 실제 데이터 크기가 반영되어 보다 정확한 정보를 제공합니다.\n\n버그 수정 및 기능 안정화도 이루어졌습니다. 컨텍스트 압축 과정에서 서브에이전트가 부모 에이전트의 정보를 잃어버리는 문제를 해결하였으며, 부모 에이전트의 최근 메시지 10개를 유지하도록 개선되었습니다.\n\n이미지 처리와 관련해서는 요청 크기 제한 초과로 인한 거부 문제를 해결했습니다. 이제 이미지는 한 변 기준 2000픽셀로 제한되며, 용량이 큰 PNG는 JPEG로 변환되어 전송됩니다. 또한 파일 확장자와 실제 형식이 일치하지 않는 이미지 파일도 정상적으로 처리됩니다.\n\n마지막으로 브라우저 서브에이전트가 고립된 컨텍스트나 Incognito 창에서 실행될 때 현재 페이지의 스냅샷을 제대로 받아오지 못하던 문제가 수정되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.10",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-29T03:50:50.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_145",
     "title": "Visual Studio Code 1.145 (Insiders)",
     "summary": "Learn what is new in Visual Studio Code 1.145 (Insiders).\nRead the full article",
@@ -1450,6 +1499,21 @@
     ]
   },
   {
+    "id": "https://inside.java/2026/10/24/openjdk-emudhra/",
+    "title": "Compromised Certificates and OpenJDK Java Runtimes",
+    "summary": "As has been widely reported, the private keys of eight eMudhra intermediate CA certificates have been compromised. This page summarizes how to check whether your runtime is at risk and mitigation acti",
+    "aiSummary": "eMudhra의 중간 CA 인증서 8개에 대한 개인 키가 유출되는 보안 사고가 발생했습니다.\n\n이번 사태로 인해 해당 인증서를 신뢰하도록 설정된 Java 런타임 환경이 잠재적인 보안 위험에 노출되었습니다.\n\nOpenJDK 공식 페이지에서는 사용 중인 런타임이 이번 사고의 영향권에 있는지 확인하는 방법과 구체적인 대응 조치를 안내하고 있습니다.\n\n관련된 상세 정보와 조치 사항은 제공된 공식 링크를 통해 확인하시기 바랍니다.",
+    "url": "https://inside.java/2026/10/24/openjdk-emudhra/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Inside Java",
+    "pubDate": "2026-10-24T00:00:00.000Z",
+    "fetchedAt": "2026-10-29T14:29:31.695Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://ollama.com/blog/speech-models",
     "title": "Speech models in Ollama",
     "summary": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple",
@@ -2182,151 +2246,6 @@
       "DeepMind",
       "Gemini",
       "AI"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=blog&p=748423",
-    "title": "Air Governance: Manage AI Agents, Access, and Spend Throughout Your Organization",
-    "summary": "Today, JetBrains Air Governance becomes generally available. Formerly known as JetBrains Central, this is the organization layer of JetBrains Air, a system of products for agentic development. Air Gov",
-    "aiSummary": "JetBrains가 조직 단위의 AI 에이전트 개발 플랫폼인 JetBrains Air의 관리 계층 서비스인 Air Governance를 정식 출시했습니다. 기존 JetBrains Central에서 명칭이 변경된 이 서비스는 기업 내에서 사용되는 AI 에이전트와 모델, 그리고 서비스 제공업체를 통합적으로 관리할 수 있는 환경을 제공합니다.\n\n관리자는 Air Governance를 통해 팀별로 사용 가능한 AI 모델을 설정하고 예산 제한을 적용할 수 있습니다. 또한 조직 전반의 AI 활용 현황을 실시간으로 모니터링하며 비용 효율성과 생산성을 상세하게 분석하는 것이 가능합니다. 이를 통해 기업은 보안과 비용을 체계적으로 통제하면서 안전하게 AI 에이전트 기반의 개발 환경을 구축할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/blog/2026/10/22/air-governance-manage-ai-agents-access-and-spend-throughout-your-organization/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Viktor Kiselev",
-    "pubDate": "2026-10-22T14:09:21.000Z",
-    "fetchedAt": "2026-10-22T19:17:06.188Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive/",
-    "title": "Inside Agent Compute Engine: Building the compute foundation for the agentic era",
-    "summary": "Every decade or so, a shift in software forces us to rethink computer architecture from first principles. After the first boom of web-scale traffic, Google pioneered warehouse-scale computing and Linu",
-    "aiSummary": "Google은 AI 에이전트 시대의 급격한 성장에 대응하기 위해 전용 컴퓨팅 플랫폼인 Agent Compute Engine을 새롭게 구축했습니다. 기존의 가상 머신은 시작 속도가 느리고 컨테이너는 격리 수준이 부족하다는 한계가 있었기에, 이를 보완한 하드웨어 격리 기반의 마이크로 VM 환경을 제공합니다.\n\n이 플랫폼은 대화형 챗봇, 자율적 소프트웨어 개발 환경, 대규모 평가 및 강화 학습 등 다양한 에이전트 워크로드를 지원합니다. 특히 보안을 최우선으로 고려하여 Google Titan과 Titanium IPU를 활용한 하드웨어 기반의 신뢰 구조를 갖추고 있으며, 샌드박스 내부에는 어떠한 사용자 자격 증명이나 보안 토큰도 저장하지 않는 제로 시크릿 아키텍처를 채택했습니다.\n\n네트워크 측면에서는 표준 네트워크 인터페이스 대신 격리된 IPC 경유 프록시 방식을 사용하여 외부 접근을 엄격히 통제합니다. 또한, 에이전트의 거버넌스를 위해 사용자 신원, 위임된 에이전트 신원, 에이전트 워크로드 신원, 에이전트 워크포스 신원이라는 4단계 식별 체계를 도입했습니다. 이를 통해 샌드박스 내부는 신원을 갖지 않으면서도, 실제 외부 API 요청 시에는 게이트웨이에서 정책에 따라 권한을 검증하고 토큰을 교체함으로써 안전하고 감사 가능한 실행 환경을 보장합니다.",
-    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Ramanathan Venkatapathy"
-      ],
-      "title": [
-        "Distinguished Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-22T13:00:00.000Z",
-    "fetchedAt": "2026-10-22T19:17:06.188Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=95131",
-    "title": "ActiveState Partners with Docker to Secure the Open Source in Enterprise Containers",
-    "summary": "Container security spans the image, build, and runtime. See the practical steps that shrink your attack surface and keep vulnerabilities out of production.",
-    "aiSummary": "ActiveState가 Docker와 전략적 파트너십을 체결하여 기업용 컨테이너 환경의 오픈소스 보안을 강화합니다. 이번 협업은 컨테이너의 이미지와 빌드, 그리고 런타임 전반에 걸친 보안 체계를 구축하는 것을 목표로 합니다.\n\n양사는 기업이 컨테이너 운영 과정에서 직면하는 보안 위협을 최소화하고 취약점이 프로덕션 환경으로 유입되는 것을 방지하기 위한 실무적인 해결책을 제공합니다. 이를 통해 기업은 공격 표면을 효과적으로 줄이고 더욱 안전한 컨테이너 기반 소프트웨어 공급망을 유지할 수 있게 됩니다.",
-    "url": "https://www.docker.com/blog/docker-activestate-partnership/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jennifer Angeles",
-    "pubDate": "2026-10-22T11:30:00.000Z",
-    "fetchedAt": "2026-10-22T13:02:37.493Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
-    "title": "Give your Supabase app its own MCP server",
-    "summary": "Every tool call runs as the signed-in user, so the RLS you already wrote decides what each agent reaches.",
-    "aiSummary": "Supabase 애플리케이션에 자체적인 MCP 서버를 연동할 수 있게 되었습니다. \n\n모든 도구 호출은 현재 로그인된 사용자의 권한으로 실행됩니다. 따라서 개발자가 이미 설정해 둔 RLS 정책이 에이전트의 접근 범위를 결정하는 기준이 됩니다.",
-    "url": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-10-22T07:00:00.000Z",
-    "fetchedAt": "2026-10-22T19:17:06.188Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://www.ruby-lang.org/en/news/2026/10/22/ruby-4-0-8-released/",
-    "title": "Ruby 4.0.8 Released",
-    "summary": "Ruby 4.0.8 has been released.\nThis is a routine update that includes bugfixes.\nPlease see the GitHub releases for further details.\nDownload\nhttps://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.8.tar.gz\n\n",
-    "aiSummary": "Ruby 4.0.8 버전이 새롭게 출시되었습니다. 이번 업데이트는 주로 버그 수정이 포함된 일상적인 유지보수 차원의 릴리스입니다. 상세한 변경 사항은 GitHub 릴리스 페이지를 통해 확인할 수 있으며 관련 소스 코드는 공식 사이트에서 다운로드할 수 있습니다. 이번 릴리스에 기여해 준 개발자와 사용자들에게 감사의 뜻을 전합니다.",
-    "url": "https://www.ruby-lang.org/en/news/2026/10/22/ruby-4-0-8-released/",
-    "category": "프로그래밍 언어",
-    "source": "Ruby News",
-    "author": "Ruby News",
-    "pubDate": "2026-10-22T06:54:51.000Z",
-    "fetchedAt": "2026-10-22T13:02:37.493Z",
-    "tags": [
-      "Ruby"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.4.5",
-    "title": "1.4.5",
-    "summary": "Improved how agent responses read: a blank line now separates the collapsed thought block from the response, and once the response starts, the collapsed thought shows only its Thought for … header ins",
-    "aiSummary": "버전 1.4.5 업데이트를 통해 에이전트 응답의 가독성이 개선되었습니다. 이제 접힌 생각 블록과 응답 사이에 빈 줄이 추가되며, 응답이 시작되면 상세 내용 대신 헤더만 표시되도록 변경되어 전체 내용을 확인하려면 확장해야 합니다.\n\nDiff 파일 보기의 검색 기능이 강화되어 접힌 영역 내의 일치 항목을 집계하고 표시합니다. 또한 Diff의 커밋 트리에서 선택된 항목을 표시하는 방식이 직관적으로 개선되었으며, Per Turn 항목의 커서 위치가 헤더가 아닌 첫 번째 파일로 지정되었습니다.\n\n스케줄링 도구를 통한 반복 작업 처리 방식이 변경되었습니다. 트래픽 집중을 방지하기 위해 일 단위로 반복되는 작업은 기간 내 랜덤 오프셋으로 실행되며, 고정된 시간의 작업은 기존대로 유지됩니다. 다만 에이전트가 정확한 타이밍을 요청할 경우 이를 반영할 수 있습니다.\n\n성능 최적화가 대폭 진행되었습니다. 화면 변화가 없을 때 새로고침을 중단하여 유휴 CPU 사용량을 절반 수준으로 낮추었고, 응답 스트리밍 시 불필요한 화면 업데이트와 크레딧 정보 갱신을 줄였습니다. 또한 긴 대화의 렌더링 및 로딩 속도를 높였고, CLI 시작 시 요약 갱신 과정에서의 CPU 사용량과 텍스트 입력 시의 메모리 할당 방식도 효율적으로 개선되었습니다.\n\n기타 버그 수정도 이루어졌습니다. 모델 응답이 콘텐츠 안전 필터에 의해 차단될 때 발생하는 무한 재시도 문제를 해결했습니다. 또한 plugin.json 설정 형식이 표준과 다를 경우 플러그인이 로드되지 않던 문제와 마켓플레이스 플러그인 설치 중 발생하는 체크섬 오류 및 네트워크 문제를 보완하기 위해 재시도 기능을 추가했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.5",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-22T05:01:45.000Z",
-    "fetchedAt": "2026-10-22T13:02:37.493Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance/",
-    "title": "Introducing Agent Compute Engine and expanded agent governance",
-    "summary": "Blog authors: Nirav Mehta, VP Product Management; Michael Bachman, VP/GM; Kevin Hutchins, VP Product Management\n\n\nScaling Gemini to planet scale taught us firsthand that securely running autonomous ag",
-    "aiSummary": "Google은 자율형 AI 에이전트의 대규모 운영과 보안을 지원하기 위한 새로운 컴퓨팅 서비스인 Agent Compute Engine을 발표했습니다. 이 서비스는 하드웨어 격리 기반의 샌드박스 환경을 제공하며, 에이전트의 효율적인 실행을 위해 마이크로VM을 활용하여 빠른 부팅과 일시 정지 및 재개 기능을 지원합니다. 또한 Titanium IPU를 통해 보안을 강화하고 Hyperdisk를 활용한 데이터 영속성을 보장합니다.\n\n플랫폼 팀과 Kubernetes 사용자를 위한 오픈소스 런타임인 Agent Substrate도 함께 공개되었습니다. 이는 GKE 환경에서 높은 컴퓨팅 밀도와 0.5초 미만의 빠른 활성화를 제공하며, 제로 트러스트 아키텍처를 기반으로 에이전트 간의 완벽한 격리와 보안을 실현합니다. 해당 기술은 여러 클라우드 환경에서 이식성을 제공하며 다양한 에이전트 프레임워크와 호환됩니다.\n\n에이전트 거버넌스를 위한 기능 또한 대폭 확장되었습니다. 기존의 Agent Gateway, Agent Registry, Agent Identity, 그리고 관찰 가능성 기능을 Google Cloud 환경을 넘어 멀티 클라우드, 온프레미스, 클라이언트 기기까지 통합 관리할 수 있도록 지원합니다.\n\n특히 이번 업데이트에는 세밀한 토큰 및 비용 관리, 지능형 모델 라우팅, 확장 가능한 정책 설정, 그리고 다양한 보안 파트너와의 생태계 연동이 포함됩니다. 이를 통해 기업은 AI 에이전트가 사용하는 자원을 투명하게 통제하고, 데이터 보안과 감사 기능을 강화하여 안전하게 에이전트 기반의 업무 자동화를 확장할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "The Google Cloud infrastructure team "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-22T04:00:00.000Z",
-    "fetchedAt": "2026-10-22T19:17:06.188Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
