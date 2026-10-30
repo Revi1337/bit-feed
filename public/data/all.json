@@ -1,5 +1,182 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
+    "title": "When the Kubernetes API went silent: A three-layer networking mystery",
+    "summary": "Every support engineer has a case that stays with them. The one that comes up at team lunches. The one where, even after it's resolved, you find yourself staring at a packet capture at midnight just t",
+    "aiSummary": "2026년 1월 GKE 환경에서 발생한 Kubernetes API 서버 연결 타임아웃 오류는 세 가지 서로 다른 계층의 버그가 동시에 작용하며 발생한 복합적인 문제였습니다. 초기에는 특정 구성 요소의 문제로 의심되었으나, 광범위한 조사 결과 네트워크 패브릭, 프록시, 리눅스 커널 수준에서 결함이 발견되었습니다.\n\n첫 번째 문제는 Google Cloud의 Private Service Connect를 담당하는 USPS의 업데이트였습니다. 해당 업데이트는 보안을 위해 연결 핸드셰이크 과정에서 발생하는 특정 패킷을 차단했으나, 이로 인해 RFC 5961 규격에 따른 Challenge ACK 패킷까지 차단되면서 stale 상태의 연결이 정상적으로 해제되지 못하고 새로운 연결을 방해하는 현상이 나타났습니다.\n\n두 번째 문제는 패킷 재정렬과 Envoy 프록시의 동작 방식이었습니다. Private Service Connect의 네트워크 패브릭 처리 과정에서 FIN 패킷이 재정렬되는 문제가 발생했고, 이로 인해 연결 종료 절차가 어긋났습니다. 설상가상으로 Envoy가 연결의 쓰기 측을 종료하는 half-close 상태를 유지하면서 소켓이 고아 상태가 되지 않아, 리눅스 커널의 강제 종료 타이머인 tcp_fin_timeout이 작동하지 않은 채 연결이 무기한 방치되었습니다.\n\n마지막 문제는 리눅스 커널의 처리 결함이었습니다. 특정 상황에서 커널이 잘못된 상태의 소켓을 적절하게 정리하지 못하면서, 결과적으로 동일한 5-tuple 주소를 사용하는 새로운 연결 요청이 들어올 때 Challenge ACK가 발생하고 이것이 USPS에 의해 차단되면서 연결 실패가 반복되었습니다.\n\nGoogle 엔지니어들은 우선 USPS의 변경 사항을 롤백하여 가용성을 확보했습니다. 이후 위에서 식별된 세 가지 기술적 결함을 해결하기 위해 리눅스 커널에 대한 패치를 적용하는 등 근본적인 개선 작업을 수행하며 사건을 마무리했습니다.",
+    "url": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Akash Thakur"
+      ],
+      "title": [
+        "Sr. Technical Solutions Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-30T16:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
+    "title": "Innovate on your own business terms: Google Cloud spend caps now generally available",
+    "summary": "Today, we’re announcing that spend caps on Google Cloud Budgets are generally available. \nWith this release, we’re delivering ways to protect your workloads from runaway costs without risking resource",
+    "aiSummary": "Google Cloud는 사용자가 리소스 삭제 없이 클라우드 비용을 효과적으로 관리할 수 있도록 지원하는 Spend caps 기능을 정식 출시합니다. 이번 업데이트는 사용자들의 피드백을 반영하여 프로그램 방식의 제어, 실시간 가시성 확보, 자동화된 보호 장치라는 세 가지 핵심 개선 사항을 포함합니다.\n\n첫째, Spend caps API를 통해 수백 개의 프로젝트에 걸쳐 금융 한도를 프로그래밍 방식으로 설정하고 관리할 수 있습니다. 이를 통해 새로운 개발 환경이 생성될 때 자동으로 한도를 적용하거나 상황에 따라 한도를 유연하게 수정하는 작업이 가능해집니다.\n\n둘째, AI 서비스 사용에 따른 예상 비용을 실시간으로 반영하여 가시성을 높였습니다. 한도가 초과될 경우 즉시 해당 비용 발생 원인을 Cost Reports에서 확인할 수 있어 신속한 근본 원인 분석이 가능합니다.\n\n셋째, 매월 초 차단된 서비스가 자동으로 재개되는 자동 리셋 기능이 도입되었습니다. 기존의 수동 해제 방식 외에도 정책에 따라 선택적으로 사용할 수 있으며, 이를 통해 관리자의 운영 부담을 줄였습니다.\n\nGoogle Cloud는 비프로덕션 환경부터 Spend caps를 적용하고, 청구 담당자와 프로젝트 소유자에게 적절한 알림 설정을 구성할 것을 권장합니다. 또한, 이번 기능은 기존의 Early Anomalies Detection과 결합하여 예측형 모니터링과 사후 금융 강제 조치를 아우르는 통합적인 비용 방어 체계를 구축하는 데 기여합니다.",
+    "url": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shruthi Nambi"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-30T16:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=security&p=750273",
+    "title": "Compromised eMudhra Certificates: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now",
+    "summary": "Summary Available fixed versions The issue is fixed in the following versions: The 2025.2.6.* updates for all IDEs now contain only the JBR fix. They will get a separate hotfix for the JCEF problem. U",
+    "aiSummary": "eMudhra가 발행한 보안 인증서가 손상되는 사고가 발생하여 JetBrains는 자사 소프트웨어 전반에 대한 긴급 업데이트를 권고합니다. 이번 보안 이슈는 JetBrains IDE를 비롯해 ReSharper, .NET Tools, Toolbox App, Gateway 등에 영향을 미칩니다.\n\n사용자는 현재 2025.2.6 버전으로 업데이트를 진행해야 하며, 해당 버전에는 JBR 관련 수정 사항이 포함되어 있습니다. 다만 JCEF 관련 문제는 별도의 핫픽스가 제공될 예정이므로, 패치가 배포되기 전까지는 안내된 방법에 따라 IDE에서 JCEF 기능을 일시적으로 비활성화하는 조치가 필요합니다.\n\n2025.1 버전 이하의 구형 소프트웨어 사용자는 지원이 종료되었거나 업데이트 방식이 다를 수 있으므로 공식 사이트의 세부 지침을 반드시 확인해야 합니다. 보안 위협으로부터 안전한 환경을 유지하기 위해 사용 중인 모든 JetBrains 도구를 최신 버전으로 즉시 업데이트할 것을 강력히 권장합니다.",
+    "url": "https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ilya Petrov",
+    "pubDate": "2026-10-30T15:24:48.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
+    "title": "New Gemini courses for financial services and legal teams",
+    "summary": "Today Google Skills is sharing new, industry-specific video learning bundles to get you into Gemini and using agents. One bundle is designed for financial services and one is built specifically for th",
+    "aiSummary": "Google Skills에서 금융 서비스 및 법률 분야 종사자를 위한 새로운 Gemini 활용 교육 영상을 무료로 공개했습니다. 해당 과정은 각 산업 현장에서 Gemini와 에이전트 기술을 활용해 업무 효율성을 높이는 방법을 제시합니다.\n\n금융 서비스 분야를 위한 교육은 복잡한 시장 데이터 분석과 포트폴리오 관리, 채권 발행 및 신용 시장 기회 포착과 같은 실무 중심의 4가지 과정으로 구성되어 있습니다. 이를 통해 방대한 시장 자료를 신속하게 처리하고 의사결정의 정확도를 높이는 방법을 배울 수 있습니다.\n\n법률 분야 교육은 규제 준수 검토, 계약서 초안 작성 및 검토, 데이터 삭제 및 DSAR 대응 등 5가지 과정으로 마련되었습니다. 복잡한 법률 문서를 빠르게 분석하고 규정 위반 사례를 찾아내어 수정안을 제시하는 등 일상적인 업무를 자동화하는 데 초점을 맞추고 있습니다.\n\n기초적인 활용법을 넘어 생산 환경에서 에이전트 시스템을 직접 구축하고자 하는 전문가를 위해 Gemini Agent Ready 프로그램을 운영합니다. 이 프로그램에 등록하면 35크레딧을 제공받아 Google Skills의 대화형 학습 환경에서 실습을 수행하고, 전문성을 검증하는 배지를 획득할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Gary Eimerman"
+      ],
+      "title": [
+        "Managing Director, Google Cloud Learning"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-30T13:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/explorer-and-notebooks-investigations-your-team-can-rerun",
+    "title": "Explorer and Notebooks: investigations your team can rerun",
+    "summary": "Explorer is one editor for your Supabase database and your logs. Save an investigation as a Notebook and anyone on the project can run it again.",
+    "aiSummary": "Supabase는 데이터베이스와 로그를 하나의 편집기에서 관리할 수 있는 Explorer 기능을 제공합니다. 사용자는 Explorer에서 수행한 데이터 조사 내용을 Notebook으로 저장할 수 있습니다. 저장된 Notebook은 프로젝트에 참여하는 팀원 누구나 언제든지 다시 실행하여 분석 결과를 재확인하거나 공유할 수 있습니다.",
+    "url": "https://supabase.com/blog/explorer-and-notebooks-investigations-your-team-can-rerun",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-10-30T07:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.4.11",
+    "title": "1.4.11",
+    "summary": "Added a billing model choice after you sign in with Google Cloud, so you can pick either a Gemini subscription or Pay As You Go.\nAdded terminationBehavior to PreInvocation hooks: returning \"terminate\"",
+    "aiSummary": "Google Cloud 로그인 이후 Gemini 구독과 종량제 과금 방식 중 하나를 선택할 수 있는 기능을 추가하였습니다.\n\nPreInvocation 훅에 terminate 동작이 추가되어 모델 호출 전 프롬프트를 중단할 수 있게 되었으며, 이를 통해 민감한 데이터를 차단하거나 사용자에게 오류 메시지를 전달할 수 있게 되었습니다.\n\nJSON 및 스트림 JSON 출력 형식에 finished_reason 필드가 추가되어 응답이 타임아웃, 중단, 오류 등으로 인해 조기에 종료된 이유를 스크립트가 식별할 수 있도록 개선되었습니다.\n\n플러그인 Discover 탭의 사용자 인터페이스를 개선하여 긴 목록을 효율적으로 탐색할 수 있도록 접기 및 펼치기 기능과 단축키를 도입하였습니다.\n\nClaude Code 마켓플레이스에서 설치된 플러그인 가져오기 기능의 오류를 수정하였습니다. 이제 Claude Code의 설정을 읽어들여 비활성화된 플러그인 등을 제외하며, 원격 MCP 서버 구성과 환경 변수 처리가 최적화되었습니다. 또한 지원되지 않는 레거시 SSE 전송 방식 서버에 대해서는 설치된 것으로 표시하지 않고 경고를 출력하도록 변경되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.11",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-10-30T05:55:46.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/10/30/jdk27-gc-changes/",
+    "title": "JDK 27 G1/Parallel/Serial GC changes",
+    "summary": "Now that the JDK 27 has been released, I thought it would be time to discuss interesting changes in OpenJDK’s stop-the-world collectors in the HotSpot VM once more.\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://tschatz",
+    "aiSummary": "JDK 27이 정식 출시됨에 따라 HotSpot VM에서 제공하는 Stop-the-world 가비지 컬렉터인 G1, Parallel, Serial GC에 적용된 주요 변경 사항들이 공개되었습니다.\n\n이번 업데이트는 자바 메모리 관리 효율성을 높이기 위한 여러 개선을 포함하고 있습니다. 상세한 기술적 변경 내역과 성능 최적화 관련 정보는 공식 게시글 링크를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/10/30/jdk27-gc-changes/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Thomas Schatzl",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
+    "title": "No tricks, just treats",
+    "summary": "Hi, it’s Claudio Baccigalupo. Don’t be scared 🎃 this week’s changes to the Rails codebase are all treats. Let’s explore them.\nNew guide to multiple databases in Active Record \nrefreshed guide is live",
+    "aiSummary": "이번 주 Rails 코드베이스에는 다수의 성능 개선과 기능 수정 사항이 포함되었습니다.\n\n가장 먼저 Active Record와 관련된 다수의 업데이트가 이루어졌습니다. 다중 데이터베이스를 위한 새로운 가이드가 공개되었으며 배포 성능 튜닝 가이드가 검토 단계에 있습니다. 새로운 애플리케이션 생성 시 Capybara와 selenium-webdriver를 기본 부팅 과정에서 로드하지 않도록 Gemfile 설정이 변경되어 시스템 테스트를 수행하지 않는 환경에서의 부팅 속도가 향상되었습니다.\n\n보안 및 렌더링 측면에서는 header_only CSRF 전략을 사용할 때 불필요한 authenticity 토큰 생성을 중단하여 페이지 상태 변화를 최소화했습니다. 또한 hidden=\"until-found\" 속성이 올바르게 렌더링되도록 수정되었으며, has_many :through 연관 관계의 프리로딩 로직과 left_joins 및 eager_load 과정에서 발생하는 조인 누락 문제가 해결되었습니다. PostgreSQL 사용자를 위해 exists? 및 계산 쿼리에서 기본 정렬을 제외하여 유효하지 않은 SQL 생성을 방지하고, integer 배열 데이터를 C 언어 수준에서 처리하도록 최적화하여 메모리 할당을 줄였습니다.\n\n개발자 편의성을 위한 변경 사항도 포함되었습니다. ActiveRecord::Validations::NumericalityValidator와 ColumnDefinition의 옵션 접근자가 더 이상 사용되지 않도록 변경되었으며, CurrentAttributes의 문자열 속성 기본값 설정 오류가 수정되었습니다. 또한 로그 필터링 시 URL로 인코딩된 쿼리 매개변수도 올바르게 매칭되도록 개선되었으며, ActiveSupport::TimeZone::MAPPING에 Northwest Territories가 추가되었습니다.\n\n문서화 측면에서는 Railties, Active Support, Action View, Action Pack의 API 문서 형식이 기존 RDoc에서 Markdown으로 전환되었습니다. 이 외에도 MessageVerifier의 HMAC 캐싱, 날짜 처리 속도 향상, 폼 빌더 헬퍼 최적화, URL 생성 시 메모리 할당 감소 등 전반적인 프레임워크 성능을 개선하는 다양한 수정이 반영되었습니다. 이번 주 업데이트에는 총 33명의 기여자가 참여했습니다.",
+    "url": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Claudio Baccigalupo",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
     "id": "/blog/release/v27.0.0-alpha.0.0.0?1793303549250",
     "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
     "summary": "Rafael Gonzaga2026-10-29, Version 27.0.0-alpha.0.0.0 (Alpha), @RafaelGSS (https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0#2026-10-29-version-2700-alpha000-alpha-rafaelgss)\nNotable Changes (http",
@@ -46299,6 +46476,22 @@
     "tags": [
       "V8",
       "JavaScript"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-out-of-box-genai-capabilities",
+    "title": "AI, out-of-the-box!",
+    "summary": "Elastic now includes a default managed LLM, prioritizing privacy and eliminating the need for additional setup or subscriptions. External LLMs continue to be supported, ensuring flexibility to meet us",
+    "aiSummary": "Elastic은 별도의 설정이나 구독 과정 없이 즉시 사용 가능한 기본 관리형 LLM을 자사 서비스에 도입하였습니다. 이번 업데이트는 사용자 프라이버시 보호를 최우선으로 고려하며 서비스 접근성을 크게 높였습니다. 기존처럼 외부 LLM에 대한 지원도 유지하여 사용자가 자신의 요구사항에 맞춰 유연하게 모델을 선택할 수 있는 환경을 제공합니다.",
+    "url": "https://www.elastic.co/blog/elastic-out-of-box-genai-capabilities",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Amena Siddiqi,James Spiteri",
+    "pubDate": "2025-06-23T00:00:00.000Z",
+    "fetchedAt": "2026-10-30T19:57:31.082Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
