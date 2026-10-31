@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://astro.build/blog/whats-new-october-2026/",
+    "title": "What's new in Astro - October 2026",
+    "summary": "October 2026 - Astro 7.4, conference talks, and more!",
+    "aiSummary": "Astro 7.4 버전이 새롭게 출시되었습니다. 이번 업데이트와 관련된 주요 정보 및 컨퍼런스 발표 내용을 포함한 다양한 소식들을 확인할 수 있습니다. 자세한 기술적 변경 사항과 향후 로드맵에 대한 정보는 공식 웹사이트의 상세 내용을 참고하시기 바랍니다.",
+    "url": "https://astro.build/blog/whats-new-october-2026/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "2026-10-31T00:00:00.000Z",
+    "fetchedAt": "2026-10-31T19:22:55.798Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/e-maj-501-major-security-update-3425/",
     "title": "E-Maj 5.0.1 : Major Security Update.\n",
     "summary": "We are very glad to announce the E-Maj 5.0.1 version.\nE-Maj is a PostgreSQL extension which enables fine-grained write logging and time travel on subsets of the database.\nThis version mainly fixes a v",
@@ -1915,23 +1930,6 @@
     "fetchedAt": "2026-10-25T12:38:26.415Z",
     "tags": [
       "Java"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.4.7",
-    "title": "1.4.7",
-    "summary": "Added lastUserInput to the JSON that hook commands receive on stdin, so a hook can inspect the latest message you sent, for example to screen prompts before the agent acts on them.\nAdded a temporary o",
-    "aiSummary": "이번 1.4.7 업데이트는 사용자 편의성 강화와 기술적 성능 개선을 중심으로 진행되었습니다.\n\n우선 hook 명령어의 stdin JSON에 lastUserInput 항목이 추가되어 에이전트가 동작하기 전에 사용자의 최신 메시지를 미리 검토할 수 있게 되었습니다. Auto 모드는 임시 파일 정리나 프로세스 종료와 같은 일상적인 명령에 대해 승인 요청 빈도를 줄여 사용성을 개선했습니다. 또한 headless -p 모드 실행 시 대화 색인 생성이나 불필요한 UI 렌더링 과정을 생략하여 CPU 사용량을 대폭 절감했습니다.\n\n성능 측면에서는 응답 스트리밍 및 창 크기 조정 시 렌더링 속도가 향상되었습니다. MCP tools의 경우, 온디맨드 방식으로 로드될 때 직접 전달 가능한 결과값의 크기가 4KB에서 10KB로 확대되어 에이전트가 결과를 확인하는 단계를 단축했습니다. /help 단축키 목록은 자주 사용하는 항목 위주로 정리하여 가독성을 높였습니다.\n\n버그 수정 및 안정성 업데이트도 다수 포함되었습니다. Application Default Credentials 로그인 시 설정이 불러와지지 않던 문제와 컨텍스트 초과 시 대화 내용이 반복 압축되던 오류가 해결되었습니다. 또한 Markdown 테이블 내 링크 클릭 문제, 코드 블록 복사 시 줄 바꿈 오류, Vim 모드의 텍스트 교체 문제 등이 수정되었습니다. 보안 및 인증 측면에서는 macOS와 Windows의 시스템 키체인 제한을 우회하여 토큰을 별도 파일에 저장하도록 변경하였고, OAuth 기반 MCP 서버의 사용자 계정 간 토큰 공유 문제를 해결하여 보안을 강화했습니다.\n\n마지막으로 /config 메뉴를 통해 할로윈 시즌 테마를 일시적으로 설정할 수 있는 기능이 추가되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.7",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-24T02:47:55.000Z",
-    "fetchedAt": "2026-10-24T12:05:38.731Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

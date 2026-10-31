@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://astro.build/blog/whats-new-october-2026/",
+    "title": "What's new in Astro - October 2026",
+    "summary": "October 2026 - Astro 7.4, conference talks, and more!",
+    "aiSummary": "Astro 7.4 버전이 새롭게 출시되었습니다. 이번 업데이트와 관련된 주요 정보 및 컨퍼런스 발표 내용을 포함한 다양한 소식들을 확인할 수 있습니다. 자세한 기술적 변경 사항과 향후 로드맵에 대한 정보는 공식 웹사이트의 상세 내용을 참고하시기 바랍니다.",
+    "url": "https://astro.build/blog/whats-new-october-2026/",
+    "category": "프론트엔드",
+    "source": "Astro Blog",
+    "author": "Astro Blog",
+    "pubDate": "2026-10-31T00:00:00.000Z",
+    "fetchedAt": "2026-10-31T19:22:55.798Z",
+    "tags": [
+      "Astro"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/e-maj-501-major-security-update-3425/",
     "title": "E-Maj 5.0.1 : Major Security Update.\n",
     "summary": "We are very glad to announce the E-Maj 5.0.1 version.\nE-Maj is a PostgreSQL extension which enables fine-grained write logging and time travel on subsets of the database.\nThis version mainly fixes a v",
