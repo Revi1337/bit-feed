@@ -144,6 +144,38 @@
     ]
   },
   {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+    "summary": "Written by: Aurora Blum, David Mainor, Rohit Nambiar, Omar ElAhdan, Matthew McWhirt, Will Silverstone, Bhavesh Dhake, Chris Busse\nIntroduction \nRecent intrusions in which threat actors have been obser",
+    "aiSummary": "최근 공격자들이 ARTEX, Hexstrike, CAIRN과 같은 오픈소스 에이전트 기반 침투 프레임워크를 악용하여 자동화된 공격을 수행하는 사례가 급증하고 있습니다. 이는 단순한 프롬프트 주입 방식을 넘어 LLM을 활용한 다중 에이전트 워크플로우로 공격 전술이 진화했음을 의미합니다.\n\n이러한 프레임워크는 공격 라이프사이클 전반을 자동화하여 시스템 침투 속도와 규모를 비약적으로 향상시킵니다. 특히 ARTEX는 6개의 전문 서브 에이전트를 통해 Active Directory 정찰, 권한 상승, 클라우드 인프라 프로파일링, 웹쉘 배포 등을 자율적으로 수행합니다. 사람이 수행하는 공격과 달리, ARTEX는 수 초 단위의 짧은 버스트 활동을 반복하며 오류 발생 시 스스로 수정하고 재시도하는 특징을 보입니다.\n\n공격자들은 침해된 자격 증명을 사용하여 ARTEX에 높은 수준의 전술적 목표를 부여하고 있으며, 미국과 유럽의 기업 소프트웨어, 산업 자동화, 반도체 제조 및 통신 분야에서 짧게는 15분 만에 시스템 깊숙한 곳까지 접근하는 사례가 확인되었습니다. ARTEX는 정상적인 API 호출이나 애플리케이션 기능을 악용하는 방식을 사용하므로 기존 보안 탐지 체계를 우회하기에 매우 효과적입니다.\n\n이와 같은 위협에 대응하기 위해 보안 팀은 제어 평면 격리, 단기 자격 증명 사용, 최소 권한 원칙, 네트워크 세분화 및 행동 기반 탐지 등 기존 보안 모범 사례를 더욱 강화해야 합니다. 자율적인 공격 프레임워크의 등장은 방어 전략의 근본적인 재설계가 시급함을 시사합니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-10-30T14:00:00.000Z",
+    "fetchedAt": "2026-11-01T19:48:00.639Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
     "title": "New Gemini courses for financial services and legal teams",
     "summary": "Today Google Skills is sharing new, industry-specific video learning bundles to get you into Gemini and using agents. One bundle is designed for financial services and one is built specifically for th",
@@ -1899,37 +1931,6 @@
       "Claude",
       "AI",
       "LLM"
-    ]
-  },
-  {
-    "id": "https://devblogs.microsoft.com/dotnet/?p=61101",
-    "title": ".NET October 2026 Out-of-Band Security Updates",
-    "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability.\nThe post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog.",
-    "aiSummary": "Microsoft는 .NET과 관련하여 2026년 10월 긴급 보안 업데이트를 발표하였습니다. 이번 업데이트는 Brotli 디코더 취약점 및 tarball 소유권 관련 취약점을 해결하기 위한 목적으로 진행되었습니다. 해당 환경을 사용하는 시스템 관리자와 개발자는 보안을 위해 관련 업데이트를 즉시 적용해야 합니다.",
-    "url": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
-    "category": "프로그래밍 언어",
-    "source": ".NET Blog",
-    "author": "Rahul Bhandari (MSFT)",
-    "pubDate": "2026-10-25T18:45:00.000Z",
-    "fetchedAt": "2026-10-26T01:21:50.816Z",
-    "tags": [
-      "C#",
-      ".NET"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/25/jep544-target-jdk28/",
-    "title": "JEP targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
-    "summary": "The following JEP is targeted to JDK 28: 544: Ahead-of-Time Code Compilation\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/544.",
-    "aiSummary": "JDK 28 버전을 대상으로 JEP 544인 Ahead-of-Time Code Compilation이 공식 선정되었습니다. 이번 도입은 자바 애플리케이션의 시작 성능을 개선하고 런타임 최적화를 강화하기 위한 목적으로 추진됩니다. 해당 기능에 대한 자세한 정보는 OpenJDK 공식 홈페이지의 JEP 544 문서를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/25/jep544-target-jdk28/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "John Rose",
-    "pubDate": "2026-10-25T00:00:00.000Z",
-    "fetchedAt": "2026-10-25T12:38:26.415Z",
-    "tags": [
-      "Java"
     ]
   }
 ]
