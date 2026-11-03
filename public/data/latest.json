@@ -1,5 +1,132 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+    "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
+    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.3. It supports new Python 3.15 language…\n",
+    "aiSummary": "GitHub의 정적 분석 엔진인 CodeQL이 2.27.3 버전으로 업데이트되었습니다. 이번 업데이트의 핵심은 최신 프로그래밍 언어인 Python 3.15에 대한 지원이 추가된 점입니다. 이로써 개발자들은 Python 3.15의 새로운 기능을 활용한 코드에서도 보안 문제를 더욱 효과적으로 탐지하고 수정할 수 있게 되었습니다.\n\n또한 이번 버전에서는 JSON 데이터 확장 기능이 새롭게 포함되었습니다. 이를 통해 데이터 처리 방식이 개선되어 GitHub 코드 스캐닝의 전반적인 정적 분석 성능과 유연성이 한층 강화되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-03T14:56:03.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=750259",
+    "title": "The eMudhra Certificate Authority Compromise: What It Means for TeamCity",
+    "summary": "Summary In October 2026, the private keys of eight intermediate certificate authorities operated by eMudhra were found to be weak and recoverable from public data. According to eMudhra’s official stat",
+    "aiSummary": "2026년 10월, eMudhra가 운영하는 8개의 중간 인증 기관(Intermediate CA)에서 개인 키가 취약한 상태로 생성되어 공개 데이터를 통해 복구될 수 있음이 확인되었습니다. eMudhra 측은 해당 중간 CA가 실제 최종 사용자용 인증서를 발급한 기록은 없으며, 이번 문제가 공개되기 전까지 키가 탈취되거나 악용된 증거는 발견되지 않았다고 밝혔습니다.\n\n이번 취약점은 JetBrains의 빌드 관리 서버인 TeamCity를 사용하는 환경에 보안 위협을 초래할 수 있습니다. TeamCity는 소프트웨어 배포 파이프라인에서 코드 서명 및 보안 통신을 위해 다양한 인증서를 활용하는데, 만약 신뢰할 수 없는 인증 기관의 키가 노출될 경우 중간자 공격이나 악성 코드 서명과 같은 보안 사고로 이어질 위험이 있습니다.\n\n사용자는 자신의 TeamCity 환경에서 사용 중인 인증서 체인을 재검토해야 합니다. 특히 eMudhra에서 발급한 인증서를 사용하고 있다면 해당 인증서를 즉시 폐기하고 신뢰할 수 있는 기관을 통해 새 인증서로 교체하는 것이 권장됩니다. 또한 보안 업데이트를 통해 시스템의 무결성을 확보하고 잠재적인 보안 공백을 차단해야 합니다.",
+    "url": "https://blog.jetbrains.com/teamcity/2026/11/emudhra-certificate-authority-compromise-what-it-means-for-teamcity/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Andrey Koltsov",
+    "pubDate": "2026-11-03T13:59:06.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
+    "title": "Dependabot now supports Python 3.15",
+    "summary": "You can now upgrade your projects to Python 3.15 and keep receiving Dependabot updates. Support for Python 3.15 is available to all github.com users and will be included in GitHub…\nThe post Dependabot",
+    "aiSummary": "GitHub의 자동 의존성 관리 도구인 Dependabot이 최신 버전인 Python 3.15에 대한 공식 지원을 시작합니다. 이제 사용자는 자신의 프로젝트를 Python 3.15로 업그레이드하더라도 중단 없이 Dependabot을 통한 보안 패치 및 업데이트 기능을 계속 사용할 수 있습니다. 해당 지원은 모든 github.com 사용자에게 즉시 적용되며, 향후 GitHub Enterprise Server 업데이트에도 포함될 예정입니다.",
+    "url": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-03T13:49:32.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
+    "title": "GitHub Desktop adds short-lived authentication tokens",
+    "summary": "When you sign in to GitHub Desktop 3.6.10 or later, eligible accounts can now use short-lived, automatically refreshing authentication tokens. Short-lived access tokens reduce how long a leaked token ",
+    "aiSummary": "GitHub Desktop 버전 3.6.10 이상부터는 자격 요건을 갖춘 계정에 대해 유효 기간이 짧은 인증 토큰을 사용할 수 있는 기능이 도입되었습니다.\n\n이러한 단기 액세스 토큰은 토큰이 유출되더라도 악용 가능한 시간을 최소화하여 보안을 강화하는 역할을 합니다. 또한 해당 토큰은 자동으로 갱신되는 기능을 포함하고 있어 사용자의 번거로움을 줄이면서도 향상된 계정 보호 환경을 제공합니다.",
+    "url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-03T07:55:58.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/composer-2-11",
+    "title": "Cooldown Dependency Policy now in Composer 2.11",
+    "summary": "Composer 2.11 can hold back newly published package versions for a set period before installing them. It also ships six security fixes and faster resolution.\nThe post Cooldown Dependency Policy now in",
+    "aiSummary": "Composer 2.11 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 새로 배포된 패키지 버전을 일정 기간 동안 설치하지 않고 보류할 수 있는 Cooldown Dependency Policy 기능이 도입된 점입니다. 또한 총 6가지 보안 취약점 해결을 포함하고 있으며 패키지 의존성 해결 속도가 한층 개선되었습니다.",
+    "url": "https://laravel-news.com/composer-2-11?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Yannick Lyn Fatt",
+    "pubDate": "2026-11-03T03:20:08.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/inertia-3-11-0",
+    "title": "Live Props for Real-Time Updates in Inertia.js v3.11",
+    "summary": "Inertia.js v3.11 adds live props, which reload a page prop when a broadcast event arrives, with Laravel Echo, Reverb, Pusher, and Action Cable transports.\nThe post Live Props for Real-Time Updates in ",
+    "aiSummary": "Inertia.js v3.11 버전이 새롭게 공개되었습니다. 이번 업데이트의 핵심 기능은 라이브 프롭스(Live Props)의 도입입니다.\n\n라이브 프롭스는 브로드캐스트 이벤트가 발생할 때 페이지의 프롭(prop)을 실시간으로 재로드할 수 있게 해줍니다. 이 기능은 Laravel Echo, Reverb, Pusher 및 Action Cable 전송 방식을 지원하며, 실시간 데이터 업데이트가 필요한 웹 애플리케이션 개발의 효율성을 크게 높여줍니다.",
+    "url": "https://laravel-news.com/inertia-3-11-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-11-03T03:19:08.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
+    "title": "Announcing rustup 1.29.3",
+    "summary": "The rustup team has published a new point release of rustup, 1.29.3.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftw",
+    "aiSummary": "Rust 프로젝트의 공식 설치 도구인 rustup이 버전 1.29.3으로 업데이트되었습니다. 이번 릴리스는 이전 버전에서 발생했던 몇 가지 사소한 문제를 해결한 패치 버전입니다.\n\n주요 수정 사항으로는 SSE4.1을 지원하지 않는 일부 x86_64 CPU 환경에서 발생하던 Illegal instruction 오류가 해결되었으며, Solaris 환경에서의 lock() not supported 오류 또한 수정되었습니다.\n\n기존 사용자는 터미널에서 rustup self update 또는 rustup update 명령어를 통해 최신 버전으로 갱신할 수 있습니다. 만약 자동 업데이트 과정에서 문제가 발생한다면 공식 웹사이트에서 rustup-init 바이너리를 내려받아 기존 파일을 수동으로 대체하는 방식을 권장합니다.\n\n새로운 릴리스 배포 직후 일부 안티 멀웨어 도구가 rust-docs 설치 시 파일 생성이나 복사를 차단할 수 있으나, 이는 시간이 지나면 백신 업데이트를 통해 자동으로 해결될 사안입니다. 상세한 변경 사항은 공식 changelog를 통해 확인할 수 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rustup Team",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/03/this-week-in-spring-november-3rd-2026",
+    "title": "This Week in Spring - November 3rd, 2026 ",
+    "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring! It's Tuesday, and you know what that means? I'm thinking about production. Now, to be fair, I'm always thinking about production",
+    "aiSummary": "이번 주 Spring 소식에서는 Docker와 kind를 활용하여 로컬 환경에 Cloud Foundry를 간편하게 구축하고 Spring Boot 애플리케이션을 배포하는 방법이 소개되었습니다. 작성자는 AI 에이전트를 활용해 복잡한 설치 과정을 자동화할 수 있음을 강조하며, cf CLI를 이용해 애플리케이션을 빠르게 실행하는 절차를 공유했습니다.\n\n주요 소식으로는 Craig Walls가 작성한 MCP 애플리케이션의 리치 UI 렌더링 방식과 RAG 속도 향상을 위한 임베딩 최적화 기법이 포함되었습니다. 또한 Spring Boot 3.5 지원 종료에 따른 Spring Boot 4 마이그레이션 가이드와 Spring Boot 4.2 릴리스 후보 버전의 주요 변경 사항인 시작 성능 개선 및 업그레이드 검사 기능이 발표되었습니다. 그 외에도 Michael Redlich의 Spring 뉴스 요약과 Java 및 Spring Boot 애플리케이션의 harness 엔지니어링, 사양 기반 개발에 관한 콘텐츠들이 이번 주 주요 정보로 다루어졌습니다.",
+    "url": "https://spring.io/blog/2026/11/03/this-week-in-spring-november-3rd-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "fetchedAt": "2026-11-03T15:20:36.109Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
     "title": "Google Cloud Developer plugin now available in Antigravity Marketplace",
     "summary": "Building cloud solutions with autonomous AI agents should feel fast, safe, and reliable. Without cloud-specific context, coding agents often struggle. They might invent deprecated SDK syntax, guess in",
@@ -1664,187 +1791,6 @@
     },
     "pubDate": "2026-10-27T16:00:00.000Z",
     "fetchedAt": "2026-10-27T20:08:15.504Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
-    "title": "Bringing Google TPUs to Oracle Cloud Infrastructure",
-    "summary": "As AI workloads scale across every industry, organizations need compute options that optimize throughput, latency, and unit economics across the AI lifecycle. To meet this demand, Oracle and Google Cl",
-    "aiSummary": "Oracle과 Google Cloud가 전략적 파트너십을 체결하고 2027년부터 Oracle Cloud Infrastructure(OCI)에서 Google TPU를 제공하기로 결정했습니다. 이는 Google 외의 하이퍼스케일러로서는 최초로 TPU를 도입하는 사례입니다.\n\n이번 협력의 핵심은 하드웨어와 소프트웨어를 통합 설계하여 전력 대비 성능과 총소유비용을 최적화하는 TPU의 강점을 OCI 환경으로 확장하는 것입니다. 특히 학습 과정에서의 생산적 연산 비율인 goodput을 높이고, 추론 시 지연 시간과 토큰당 비용을 절감하는 시스템 설계가 적용됩니다. 또한 PyTorch 커뮤니티를 위한 TorchTPU 오픈소스화 등 개발자 친화적인 생태계를 강화하여 코드 수정 없이도 다양한 환경에서 모델을 배포할 수 있도록 지원합니다.\n\nOCI에서 TPU를 제공함으로써 고객은 다음과 같은 네 가지 이점을 누릴 수 있습니다. 첫째, OCI의 차세대 데이터 센터가 제공하는 고밀도 전력 및 액체 냉각 인프라를 활용하여 에너지 효율적인 AI 연산을 수행할 수 있습니다. 둘째, Oracle Acceleron 네트워크 기술을 통해 보안과 고성능 연결성을 보장받을 수 있습니다. 셋째, 기업의 데이터가 저장된 환경 근처에서 바로 파인튜닝과 추론을 수행함으로써 데이터 전송 비용을 최소화합니다. 마지막으로, 기존 GPU와 함께 TPU를 선택적으로 활용하여 워크로드별 최적의 비용과 성능을 구현할 수 있는 다중 아키텍처 환경을 확보하게 됩니다.",
-    "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Karan Batta"
-      ],
-      "title": [
-        "Senior Vice President, Oracle Cloud Infrastructure"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-27T14:00:00.000Z",
-    "fetchedAt": "2026-10-27T20:08:15.504Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.3.2",
-    "title": "v12.3.2",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "GitHub는 소프트웨어 개발 플랫폼의 서비스 안정성과 보안을 강화하기 위한 업데이트를 포함한 v12.3.2 버전을 발표하였습니다. 이번 배포를 통해 기존 버전에서 발견된 기술적 결함들이 수정되었으며 전반적인 시스템 성능이 개선되었습니다. 사용자는 해당 버전을 통해 더욱 안정적인 개발 환경을 경험할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.3.2",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-10-27T12:01:59.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.3.1",
-    "title": "v12.3.1",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "제공된 정보는 GitHub 플랫폼의 버전 업데이트 이력인 v12.3.1을 나타내고 있습니다. 해당 페이지는 GitHub의 서비스와 관련된 저작권 정보를 포함하고 있으며, 특정 소프트웨어 기능 개선이나 변경 사항에 대한 상세한 기술적 설명은 포함되어 있지 않습니다. 이 기록은 2026 GitHub, Inc.의 서비스 운영 기록 중 하나입니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.3.1",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-10-27T09:58:41.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=platform&p=749238",
-    "title": "The Terminal in JetBrains IDEs Now Runs on libghostty",
-    "summary": "More and more of your terminal work now runs through tools that push the terminal harder than a shell prompt ever did: AI coding agents like Claude Code and Codex, full-screen apps like Neovim and tmu",
-    "aiSummary": "JetBrains가 자사의 통합 개발 환경인 IDE 내 터미널 엔진을 새롭게 교체합니다.\n\n기존 터미널은 복잡해진 최신 개발 환경의 요구사항을 충족하는 데 한계가 있었으나, 이제는 최신 터미널 에뮬레이터인 Ghostty의 핵심 라이브러리인 libghostty를 적용하여 성능과 안정성을 강화합니다.\n\n이번 업데이트를 통해 Claude Code나 Codex와 같은 AI 코딩 에이전트, Neovim, tmux 등 터미널 기반의 복잡한 도구들을 더욱 원활하게 지원합니다.\n\n현대적인 터미널 프로토콜을 적극적으로 수용함으로써 개발자들은 IDE 내에서도 독립형 터미널 애플리케이션 수준의 뛰어난 사용자 경험과 최적화된 성능을 누릴 수 있게 됩니다.",
-    "url": "https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Ekaterina Valeeva",
-    "pubDate": "2026-10-27T09:36:36.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.3.0",
-    "title": "v12.3.0",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "GitHub 플랫폼의 v12.3.0 업데이트가 공개되었습니다. 해당 버전은 플랫폼의 안정성 개선과 성능 최적화를 포함하고 있습니다. 상세한 변경 사항과 기술적 세부 정보는 GitHub 공식 저장소의 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.3.0",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-10-27T09:00:22.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.4.8",
-    "title": "1.4.8",
-    "summary": "Added [ and ] to the Per Turn tab in /diff to jump to the first file of the previous or next turn, wrapping around at either end, in both the file list and the file view; the All Changes and Per Turn ",
-    "aiSummary": "버전 1.4.8 업데이트에서는 /diff 기능의 사용성과 성능이 크게 향상되었습니다. Per Turn 탭에 키보드 단축키를 추가하여 파일 탐색 편의성을 높였고, 대규모 저장소나 긴 대화에서 /diff가 즉시 로딩되도록 최적화했습니다. 또한, 용량이 큰 파일이나 바이너리 파일을 처리할 때 메모리 부하를 줄이고, 삭제된 파일로 인한 오류를 방지하는 등 안정성을 강화했습니다.\n\nAuto 모드에서의 터미널 샌드박스 명령 검토 프로세스를 개선하여 타임아웃 발생을 줄였으며, agy 플러그인 설치 및 검증 과정에서 상세 정보 제공과 오류 메시지 기능을 보완했습니다. \n\n효율성 측면에서는 이미 완료된 도구 호출을 다시 렌더링하지 않도록 하여 CPU 사용량을 약 10퍼센트 절감했습니다. 이 외에도 잘못된 도구 호출을 에러로 정확히 인식하게 수정하였고, 대화 분기 시 이전 목표가 상속되던 문제, 서브 에이전트 실행 실패, 메모리 누수 현상 등을 해결했습니다. 마지막으로 Windows 환경에서 브라우저나 외부 앱으로부터 이미지를 붙여넣을 때 발생하는 클립보드 관련 오류를 수정하여 전반적인 사용자 경험을 개선했습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.8",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-27T07:10:44.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/supabase-compute-private-alpha",
-    "title": "Supabase Compute: run your agents inside your project",
-    "summary": "Supabase Compute is in private alpha and runs your agents and background jobs inside your Supabase project.",
-    "aiSummary": "Supabase Compute가 Private Alpha 단계로 새롭게 공개되었습니다. 해당 기능을 활용하면 사용자의 Supabase 프로젝트 환경 내에서 직접 AI 에이전트와 백그라운드 작업을 실행할 수 있습니다. 이를 통해 외부 인프라를 별도로 구축할 필요 없이 Supabase 플랫폼 안에서 데이터 처리와 자동화 작업을 통합적으로 관리할 수 있게 됩니다.",
-    "url": "https://supabase.com/blog/supabase-compute-private-alpha",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-10-27T07:00:00.000Z",
-    "fetchedAt": "2026-10-27T20:08:15.504Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
-    "title": "Announcing the Workload Conformance Working Group",
-    "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group.\nThe working group is writing a shared standard for how workloads behave at runtime on Kubernetes.",
-    "aiSummary": "Kubernetes 커뮤니티는 워크로드의 런타임 동작에 대한 공유 표준을 수립하기 위해 Workload Conformance Working Group을 신설하였습니다. 현재 클러스터 운영자들은 노드 중단이나 업그레이드 시 애플리케이션의 오작동을 확인하기 위해 매번 수동으로 점검을 수행해야 하는 번거로움을 겪고 있으며, 이를 해결하기 위해 표준화된 명세와 반복 가능한 테스트 도구가 필요한 상황입니다.\n\n본 워크로드는 Kubernetes 마이너 버전별 워크로드 동작 명세 정의, 요구사항 테스트 방법론 마련, 그리고 이를 구현하는 업스트림 적합성 도구 개발을 목표로 합니다. 해당 명세는 보안, 회복 탄력성, 리소스 사용, 네트워킹, 스토리지, API 사용 및 관측 가능성을 범위로 하며, 애플리케이션의 비즈니스 로직과는 무관한 런타임 동작만을 다룹니다. 특히 모든 요구사항은 주관적 판단을 배제하고 테스트 바이너리를 통해 객관적으로 검증 가능한 형태로 설계될 예정입니다.\n\n운영 구조는 SIG Architecture와 SIG Apps의 후원을 받아 진행되며, 다른 SIG들과의 협력을 통해 2에서 3번의 Kubernetes 릴리스 주기 내에 안정적인 첫 번째 명세와 테스트 도구를 공개하는 것을 목표로 합니다.\n\n워크로드 개발자와 클러스터 운영자는 Kubernetes Slack의 wg-workload-conformance 채널과 메일링 리스트를 통해 직접 참여할 수 있습니다. 특히 실제 운영 환경에서의 문제점 공유, 제안된 요구사항에 대한 리뷰, 테스트 및 도구 개발 참여를 통해 기여할 수 있습니다.",
-    "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-10-27T04:30:00.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/public-sector/google-cloud-and-nasa-testing-robotic-systems-for-deep-space-missions/",
-    "title": "Google Cloud and NASA: Testing robotic systems for deep space missions",
-    "summary": "As NASA advances its Artemis program to send astronauts on increasingly difficult missions to explore more of the Moon, build a sustained human presence there with a Moon Base, and build on their foun",
-    "aiSummary": "Google Public Sector와 NASA는 아르테미스 프로그램을 포함한 심우주 탐사 임무에서 우주비행사의 안전과 자율성을 강화하기 위해 로봇 시스템을 공동 개발하고 있습니다. 화성 탐사와 같은 심우주 환경에서는 지구와의 통신 지연으로 인해 실시간 의료 지원이 어렵기 때문에, 이 로봇 시스템은 승무원의 임무 효율성을 높이고 의료 및 물류 지원을 수행하는 것을 목표로 합니다.\n\n이 시스템은 우주선 내의 좁은 공간에서 인간과 안전하게 협업하도록 설계되었으며, JPL의 위성 상황 인식 도구를 활용해 3D 공간을 이해하고 탐색합니다. 또한 Google DeepMind의 MuJoCo 시뮬레이터를 통해 가상 환경에서 복잡한 동작을 사전에 학습합니다. 특히 Physical Intelligence가 개발한 Pi0 모델을 적용하여 시각-언어-행동 모델을 기반으로 우주비행사가 자연어 명령을 통해 로봇을 제어할 수 있는 환경을 구축했습니다. 초기 실험에서는 85퍼센트의 성공률을 기록하며 유효성을 입증했습니다.\n\n우주라는 극한의 엣지 컴퓨팅 환경을 고려하여, Google Cloud G4 인스턴스를 통해 Pi0 모델을 효율적으로 미세 조정했으며, 이를 저전력 경량 하드웨어에서도 구동할 수 있도록 최적화했습니다. 향후 이 로봇 시스템은 단순한 음성 명령을 통해 장비 관리나 기본적인 건강 모니터링을 수행함으로써 우주비행사가 과학적 발견과 같은 핵심 업무에 더 집중할 수 있도록 지원할 예정입니다. 이 기술은 인간의 의사결정을 보조하고 극한 환경에서의 임무 성공 가능성을 높이는 데 중점을 두고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/public-sector/google-cloud-and-nasa-testing-robotic-systems-for-deep-space-missions/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jim Kelly"
-      ],
-      "title": [
-        "Vice President, Federal"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        "Google Public Sector"
-      ]
-    },
-    "pubDate": "2026-10-27T04:00:00.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
     "tags": [
       "GCP",
       "Cloud"
