@@ -1,5 +1,86 @@
 [
   {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
+    "title": "Google Cloud Developer plugin now available in Antigravity Marketplace",
+    "summary": "Building cloud solutions with autonomous AI agents should feel fast, safe, and reliable. Without cloud-specific context, coding agents often struggle. They might invent deprecated SDK syntax, guess in",
+    "aiSummary": "Google Cloud와 Antigravity 간의 통합을 강화하는 google-cloud-developer 플러그인이 Antigravity Marketplace에 출시되었습니다. 이 플러그인은 자율 AI 에이전트가 Google Cloud 환경에서 안전하고 정확하게 코딩 작업을 수행할 수 있도록 설계되었습니다.\n\n기존의 코딩 에이전트는 정적인 학습 데이터에 의존하여 구식 SDK 구문을 생성하거나 부적절한 권한을 시도하는 문제가 있었으나, 이 플러그인은 실시간 공식 문서와 연동되어 최신 정보를 기반으로 응답합니다. 특히 개발자 지식 MCP 서버가 사전에 인증된 상태로 제공되어 API 키 관리나 OAuth 토큰 설정 등의 복잡한 구성 없이 즉시 사용 가능한 것이 특징입니다.\n\n핵심 기능으로는 실시간 문서 기반의 정확한 정보 제공, 최소 권한 원칙을 적용한 IAM 보안 가이드라인, 인프라 변경 시 사용자 승인을 요구하는 비용 방어 기제 등이 포함되어 있습니다. 또한, 사용자의 로컬 환경을 분석하여 안전한 실행 로드맵을 설계하고, 필요한 기술을 필요할 때마다 동적으로 호출하는 지능형 라우팅 아키텍처를 도입하여 토큰 효율성을 극대화합니다.\n\n사용자는 Antigravity Marketplace 내 Build with Google 섹션에서 클릭 한 번으로 간편하게 설치할 수 있으며, CLI를 통한 설치도 지원합니다. 이를 통해 에이전트는 GKE나 Cloud Run과 같은 Google Cloud 서비스에 대해 공식 문서에 근거한 검증된 답변을 생성하게 됩니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Remigiusz Samborski"
+      ],
+      "title": [
+        "Lead Developer Relations Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-02T18:00:00.000Z",
+    "fetchedAt": "2026-11-03T03:57:31.155Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "title": "The latest AI news we announced in October 2026",
+    "summary": "Here are Google’s latest AI updates from October 2026",
+    "aiSummary": "Google은 2026년 10월을 맞아 최신 AI 업데이트 소식을 발표하였습니다. 해당 발표에는 Google이 개발한 다양한 인공지능 기술의 진보와 서비스 개선 사항이 포함되어 있습니다. 이번 업데이트는 사용자 경험을 향상하고 실질적인 기술적 성능을 강화하는 데 초점을 맞추고 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Blog Team"
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-02T17:45:00.000Z",
+    "fetchedAt": "2026-11-03T03:57:31.155Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=55463",
+    "title": "An alternative to sharding a MongoDB replica set that outgrew its memory: a proof of concept",
+    "summary": "An alternative to sharding a MongoDB replica set that outgrew its memory: a proof of concept A replica set that no longer fits in memory Most MongoDB replica sets start small. The working set fits in ",
+    "aiSummary": "MongoDB 레플리카 세트의 데이터가 메모리 용량을 초과하여 성능 저하가 발생하는 상황에서, 데이터베이스 샤딩을 도입하는 대신 사용할 수 있는 대안적인 접근 방식을 제시합니다.\n\n일반적으로 MongoDB는 데이터와 인덱스가 WiredTiger 캐시 내에 위치할 때 최상의 성능을 발휘하지만, 데이터 증가로 인해 워킹 세트가 메모리를 벗어나게 되면 디스크 I/O 의존도가 높아지며 성능이 급격히 저하됩니다.\n\n본문에서는 이러한 기술적 난제를 해결하기 위해 샤딩이라는 복잡한 아키텍처 변경을 강제하기보다, 기존 환경에서 효율성을 개선할 수 있는 개념 증명 단계를 제안합니다. 이는 대규모 데이터 관리에 있어 무조건적인 확장이 아닌, 현재 운영 환경을 최적화하여 메모리 부족 문제를 극복하려는 전략을 담고 있습니다.",
+    "url": "https://www.percona.com/blog/an-alternative-to-sharding-a-mongodb-replica-set-that-outgrew-its-memory-a-proof-of-concept/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Zelmar Michelini",
+    "pubDate": "2026-11-02T17:34:07.000Z",
+    "fetchedAt": "2026-11-03T03:57:31.155Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/",
     "title": "Beyond Migration: Using Database Migration Service for disk shrinking",
     "summary": "When database engineers hear “database migration\", they typically think of a one-time onboarding pathway—moving databases from on-premises environments to the cloud, or between different cloud provide",
@@ -160,6 +241,23 @@
     ]
   },
   {
+    "id": "https://openai.com/index/lifeval",
+    "title": "LifeVal",
+    "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "aiSummary": "LifeVal은 AI가 보육 시설 찾기부터 재무 관리, 정부 서류 처리 등 일상적인 업무를 얼마나 효과적으로 수행하는지 평가하기 위해 설계된 새로운 벤치마크입니다. 해당 평가는 AI가 실제 생활 영역에서 인간의 복잡한 요구사항을 얼마나 정확하고 유용하게 지원하는지를 측정하는 데 중점을 둡니다. 이는 AI 모델이 단순히 정보를 제공하는 수준을 넘어 실질적인 삶의 질 개선에 기여하는 능력을 검증하기 위한 도구로 활용됩니다.",
+    "url": "https://openai.com/index/lifeval",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-02T09:00:00.000Z",
+    "fetchedAt": "2026-11-03T03:57:31.155Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=mps&p=749901",
     "title": "New Bug-Fix Releases for MPS Versions 2026.2 RC2, 2026.1.2, 2025.3.3, 2025.2.5, and 2025.1.5",
     "summary": "We’ve released updates for multiple MPS versions that fix a critical security issue. MPS 2026.1.2 and 2026.2 RC2 additionally bring a substantial improvement to the Projectional Agent Toolkit plugin. ",
@@ -189,6 +287,38 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/security-release-for-psqlodbc-3431/",
+    "title": "Security release for psqlodbc\n",
+    "summary": "The PostgreSQL ODBC project has released version 18.00.0006 to fix multiple security issues see the Changelog for details",
+    "aiSummary": "PostgreSQL ODBC 프로젝트가 다수의 보안 문제를 해결한 버전 18.00.0006을 발표하였습니다. 이번 업데이트를 통해 발견된 취약점들에 대한 보안 조치가 이루어졌습니다. 자세한 변경 사항은 해당 프로젝트의 Changelog를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/security-release-for-psqlodbc-3431/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-02T00:00:00.000Z",
+    "fetchedAt": "2026-11-03T03:57:31.155Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/hypopg-145-is-out-3428/",
+    "title": "HypoPG 1.4.5 is out!\n",
+    "summary": "Tainan, Taiwan - Sun  1 Nov 2026\nHypoPG 1.4.5\nI'm pleased to announce the release of the version 1.4.5 of HypoPG, an\nextension adding support for Hypothetical Indexes, compatible with PostgreSQL\n9.2 a",
+    "aiSummary": "PostgreSQL용 확장 기능인 HypoPG의 최신 버전 1.4.5가 공개되었습니다. 이번 업데이트는 PostgreSQL 9.2 이상 버전과 호환되며, 기존에 발견된 주요 문제들을 해결하는 데 중점을 두었습니다.\n\n상세 변경 사항으로는 hypo_estimate_index 내의 논리 오류를 수정하였으며, 가상 인덱스에서 발생할 수 있는 relid 처리 문제를 개선하여 시스템 충돌 현상을 방지하였습니다.\n\n사용자는 GitHub 저장소를 통해 해당 버전을 다운로드할 수 있으며, 버그 수정 및 개선 사항에 대한 상세 기록은 CHANGELOG 파일을 통해 확인할 수 있습니다. 개발자는 향후 프로젝트 발전을 위해 사용자의 다양한 의견과 기여를 적극적으로 요청하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/hypopg-145-is-out-3428/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-02T00:00:00.000Z",
+    "fetchedAt": "2026-11-03T03:57:31.155Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
     ]
   },
   {
@@ -1718,151 +1848,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
-    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Expanding our partnership with GSA to bring Claude to all levels of",
-    "aiSummary": "Anthropic이 GSA와 파트너십을 확대하며 미국 전역의 정부 기관을 대상으로 Claude Enterprise, Claude for Government, 그리고 Claude API에 대한 40% 할인 혜택을 제공합니다. 이번 협약은 연방 정부뿐만 아니라 주 정부, 지방 정부, 부족 및 영토 정부를 모두 포함하며, 직접 구매는 물론 향후 클라우드 제공업체를 통한 구매 시에도 동일한 할인율이 적용됩니다.\n\n정부 기관은 최소 사용량에 대한 약정 없이 실제 사용한 만큼만 비용을 지불하면 되며, 이를 통해 전체 정부 차원에서 약 10억 달러의 비용 절감 효과가 있을 것으로 예상됩니다. 현재 미국 내 약 500개의 정부 기관이 이미 Claude를 도입해 활용 중이며, 지난 1년간 연방 민간 기관의 사용량은 약 20배가량 급증했습니다.\n\nAnthropic은 정부 기관이 Claude를 도입하고 최적화하여 사용할 수 있도록 돕는 전용 프로그램을 새롭게 출범합니다. 현재 많은 공공 기관들이 백로그 관리, 기록 및 양식 처리, 레거시 코드 현대화와 같은 복잡한 업무를 해결하는 데 Claude를 활용하고 있습니다. 특히 Claude for Government는 보안이 중요한 비기밀 업무를 지원하며 민간용 제품과 거의 대등한 코딩 및 에이전트 기능을 제공합니다.",
-    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "fetchedAt": "2026-10-28T02:25:28.035Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/10/27/this-week-in-spring-october-27th-2026",
-    "title": "This Week in Spring - October 27th, 2026",
-    "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring, which I write from the paradise-like environs Barcelona, Spain, where I was lucky enough to be a part of the amazing Vaadin Crea",
-    "aiSummary": "스페인 바르셀로나에서 열린 Vaadin Create 행사 소식을 시작으로 Spring 생태계의 다양한 기술적 진보와 최신 업데이트를 공유합니다.\n\nCraig Walls는 Spring AI를 활용한 RAG 속도 향상 방안과 MCP Apps를 통해 풍부한 UI를 렌더링하는 방법을 다룬 새로운 기술 문서를 공개하였습니다. 에이전트 개발 분야에서는 Netflix가 JetBrains IDE 인텔리전스를 활용해 AI 코딩 에이전트의 효율성을 높인 사례가 주목받고 있으며, A Bootiful Podcast에서는 JetBrains의 Anton Arhipov가 출연하여 AI 개발 환경에 관한 깊이 있는 대담을 진행하였습니다. 또한 Quixotic AI를 통해 Spring Boot 애플리케이션에서 추론 모델을 간단한 Maven 의존성만으로 추가할 수 있는 새로운 방식이 소개되었습니다.\n\n이번 주에는 Spring 생태계 전반에 걸쳐 대규모 업데이트가 이루어졌습니다. Spring AI 2.1.0-RC1 및 2.0.2를 비롯하여 Spring Boot 4.0.9, 4.1.2, 4.2.0-RC1 버전이 출시되었습니다.\n\n이 외에도 Spring Cloud 2025.1.4와 2026.0.0-RC1을 포함하여 Spring LDAP, Spring Security, Spring Session, Spring Modulith, Spring Batch, Spring Data, Spring Web Services 등 주요 프로젝트들의 안정화 버전 및 릴리스 후보 버전이 대거 공개되었습니다. 각 프로젝트의 상세한 변경 사항은 해당 공식 블로그를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/10/27/this-week-in-spring-october-27th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "fetchedAt": "2026-10-27T20:08:15.504Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/27/quality-heads-up/",
-    "title": "Quality Outreach Heads-up - JDK 28: Value Classes",
-    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.java.net/display/quality/Quality+Outreach) is promoting the testing of FOSS projects with OpenJDK builds as a way to improve the overall quality of the ",
-    "aiSummary": "OpenJDK Quality Group은 JDK 28에서 프리뷰 기능으로 도입되는 Value Classes에 대한 프로젝트 호환성 테스트를 권장합니다. JEP 401을 통해 도입되는 이 기능은 기존 코드의 동작 방식에 광범위한 영향을 미칠 수 있으므로, 개발자들은 프리뷰 기능을 활성화한 상태와 비활성화한 상태 모두에서 지속적인 통합 테스트를 수행해야 합니다.\n\nJDK 28에서 프리뷰 기능을 활성화하면 Integer, Double 등 30개의 JDK 클래스가 Value Classes로 전환됩니다. Value Classes는 객체 정체성을 가지지 않는다는 특성이 있어 == 연산자를 통한 비교 결과가 달라질 수 있으며, 동기화 처리나 wait, notify 메서드 사용이 불가능해집니다. 또한 java.lang.ref API와 WeakHashMap 사용이 제한되며, 필드에 대한 setAccessible 호출 시 예외가 발생할 수 있습니다.\n\n레코드 생성자 규칙에도 변화가 생깁니다. 프리뷰 기능을 활성화하고 컴파일할 경우, 레코드 생성자는 조기 구성 규칙을 따라야 하므로 생성자 내에서 this를 참조하거나 인스턴스 메서드를 호출하는 기존 코드는 컴파일 오류를 유발할 수 있습니다. 이러한 경우 생성자를 리팩토링하거나 비컴팩트 생성자로 변경하는 작업이 필요합니다.\n\nOpenJDK 개발팀은 예상치 못한 동작이 발생할 경우 valhalla-dev 메일링 리스트를 통해 피드백을 공유해 줄 것을 당부하고 있습니다. 상세한 기술적 사양과 호환성 관련 정보는 JEP 401 문서를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/27/quality-heads-up/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Nicolai Parlog",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/filament-5-8-0",
-    "title": "Deferred Schema Loading in Filament v5.8",
-    "summary": "Filament v5.8 adds deferLoading() for sections, tabs, wizards, and repeater items, plus session-persisted table grouping and lifecycle hooks in traits.\nThe post Deferred Schema Loading in Filament v5.",
-    "aiSummary": "Filament v5.8 버전이 새롭게 출시되면서 성능 최적화를 위한 deferLoading() 기능이 추가되었습니다. 이 기능은 Sections, Tabs, Wizards, Repeater 항목에 적용되어 데이터 로딩을 지연시킬 수 있습니다.\n\n또한 세션 기반으로 유지되는 테이블 그룹화 기능과 Traits 내에서의 라이프사이클 훅 지원이 포함되었습니다. 이번 업데이트를 통해 Filament 기반 프로젝트의 사용자 경험과 개발 효율성이 한층 개선될 예정입니다.",
-    "url": "https://laravel-news.com/filament-5-8-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-10-26T23:33:43.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-    "title": "GitHub Copilot assisted permissions generally available",
-    "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,…\nThe p",
-    "aiSummary": "GitHub Copilot의 Assisted permissions 기능이 GitHub Copilot CLI, GitHub Copilot app, 그리고 Visual Studio Code에서 정식으로 제공됩니다.\n\n해당 기능은 Copilot이 명령어 실행이나 파일 시스템 경로 접근 등 특정 작업을 수행하기 위해 권한을 요청할 때 사용자가 이를 명확하게 인지하고 제어할 수 있도록 돕는 역할을 합니다. 이를 통해 사용자는 Copilot이 수행하는 작업 범위를 더 안전하고 투명하게 관리할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-26T22:31:30.000Z",
-    "fetchedAt": "2026-10-27T13:22:52.443Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
-    "title": "Easy to integrate, compliant by design: Bringing the Swiss Franc to Google Cloud Universal Ledger",
-    "summary": "Every day, countless financial transactions are interrupted by slow, expensive, and inflexible conventional payment systems. As a result, public commercial stablecoins like Tether, USDC, and PayPal US",
-    "aiSummary": "전통적인 금융 시스템의 느리고 복잡한 결제 프로세스를 해결하기 위해 많은 금융기관이 대안을 모색하고 있으나, 기존의 퍼블릭 블록체인 기반 스테이블코인은 규제 준수, 유동성 문제, 운영의 불확실성 등으로 인해 은행의 도입이 어려웠습니다. 이러한 문제를 해결하고자 Google Cloud Universal Ledger인 GCUL은 은행이 토큰화된 예금을 발행하고 정산할 수 있는 안전한 인프라를 제공합니다.\n\n스위스의 Crypto Finance Group은 최근 GCUL을 활용해 두 스위스 은행 간의 즉각적인 계좌 이체를 구현하는 파일럿 프로젝트를 성공적으로 수행했습니다. 이 프로젝트는 GCUL이 제공하는 프로그래밍 가능한 결제 아키텍처를 통해 은행이 규제 준수를 유지하면서도 기존의 코어 뱅킹 시스템과 원활하게 통합될 수 있음을 증명했습니다.\n\nGCUL의 핵심은 통화 운영자가 설정한 규칙에 따라 결제 방식을 유연하게 선택할 수 있다는 점입니다. 예를 들어 즉시 정산 방식이나 주기적인 네팅을 통한 지연 정산 방식을 선택하여 자본 효율성을 극대화할 수 있습니다. 또한 엔터프라이즈급 보안과 암호화 기술, 그리고 Google Cloud의 인프라를 결합하여 데이터 주권과 개인정보 보호 등 엄격한 금융 규제 요구사항을 충족합니다.\n\n이번 파일럿 성공을 통해 상업 은행들은 퍼블릭 블록체인의 높은 성능과 속도를 누리면서도, 동시에 은행 시스템의 안정성과 자본 효율성을 확보할 수 있는 구체적인 청사진을 얻게 되었습니다. 향후 GCUL은 국경 간 결제, 자동 외환 거래, 디지털 자산 담보 관리 등 더욱 고도화된 금융 서비스를 지원하는 차세대 금융 인프라로 확장될 전망입니다.",
-    "url": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Nathaniel Zollinger"
-      ],
-      "title": [
-        "CTO, Crypto Finance Group"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-26T20:00:00.000Z",
-    "fetchedAt": "2026-10-27T02:10:05.513Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-23-gpt-6-1-terra-in-github-copilot",
-    "title": "GPT-6.1 Terra in GitHub Copilot",
-    "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…\nThe post GPT-6.1 ",
-    "aiSummary": "OpenAI의 최신 모델인 GPT-6.1 Terra가 GitHub Copilot에 정식으로 도입되었습니다.\n\n해당 모델은 일상적인 에이전트 코딩 및 터미널 작업에 최적화된 성능을 제공합니다. 기존 GPT-6.1 Sol 모델 대비 더 저렴한 비용으로 효율적인 개발 환경을 지원하는 것이 특징입니다.",
-    "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-26T19:15:53.000Z",
-    "fetchedAt": "2026-10-26T20:36:58.914Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://webkit.org/?p=18515",
-    "title": "WebKit Features for Safari 27.2",
-    "summary": "Safari 27.2 is here, refining Customizable Select, renaming a Grid Lanes property, and delivering 20 bug fixes across accessibility, media, CSS, and more.",
-    "aiSummary": "Safari 27.2 버전이 새롭게 출시되었습니다. 이번 업데이트는 Customizable Select 기능의 개선과 Grid Lanes 속성 명칭 변경을 포함하고 있습니다. 또한 접근성, 미디어, CSS 등 다양한 분야에서 발견된 20가지의 버그를 수정하여 전반적인 성능과 안정성을 강화하였습니다.",
-    "url": "https://webkit.org/blog/18515/webkit-features-for-safari-27-2/",
-    "category": "웹 생태계 & 브라우저",
-    "source": "WebKit Blog",
-    "author": "WebKit Blog",
-    "pubDate": "2026-10-26T18:30:01.000Z",
-    "fetchedAt": "2026-10-26T20:36:58.914Z",
-    "tags": [
-      "WebKit",
-      "Safari"
     ]
   }
 ]
