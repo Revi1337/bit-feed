@@ -1,5 +1,250 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+    "title": "Dependabot version updates support Agent Package Manager",
+    "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported…\nThe pos",
+    "aiSummary": "GitHub가 제공하는 Dependabot version updates가 이제 Agent Package Manager를 공식적으로 지원합니다.\n\n이번 업데이트를 통해 사용자는 AI 에이전트의 스킬, 프롬프트, 지침 등을 포함한 패키지를 최신 상태로 유지할 수 있게 되었습니다.\n\nDependabot은 지원되는 패키지 관리자에 대해 자동으로 Pull Request를 생성하여 의존성 업데이트를 수행하며, 이를 통해 에이전트 개발 과정에서의 유지보수 효율성과 보안성이 크게 향상됩니다.",
+    "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-03T20:24:07.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/technical/quick-start-c-sharp-and-mongodb-starting-and-setup",
+    "title": "Quick Start: C# and MongoDB - Starting and Setup",
+    "summary": "In the first of the C# Quick Start series, I'll show how to set up connections between C# and MongoDB.\nIn future parts we'll move on and work through:\n\nDatabase Create, Read, Update, and Delete (CRUD)",
+    "aiSummary": "C#과 MongoDB를 연동하는 방법을 다루는 Quick Start 시리즈의 첫 번째 단계로, 환경 설정과 기초 연결 방법을 설명합니다. 개발 환경으로는 Windows 10의 Visual Studio 2019를 사용하며, 클라우드 환경인 MongoDB Atlas 클러스터에 접속하는 과정을 중심으로 진행합니다.\n\n프로젝트 설정은 .NET Core 콘솔 애플리케이션으로 생성하며, NuGet 패키지 관리자를 통해 최신 버전의 MongoDB.Driver를 설치합니다. 이후 프로그램 코드에서 MongoClient 객체를 생성하고 MongoDB Atlas 연결 문자열을 입력하여 서버와 연결을 확인합니다.\n\n실제 코드에서는 서버 내 데이터베이스 목록을 조회하여 연결 상태를 검증하는 과정을 포함합니다. 본 시리즈는 향후 CRUD 작업, 객체 매핑, 집계 연산 및 LINQ 활용 방법 등 C#과 MongoDB를 효율적으로 통합 개발하는 기술적 세부 사항들을 단계별로 안내할 예정입니다.",
+    "url": "https://www.mongodb.com/company/blog/technical/quick-start-c-sharp-and-mongodb-starting-and-setup",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-03T20:09:41.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-atlas-app-connections-secure-one-click-access-for-ai-tools",
+    "title": "Introducing Atlas App Connections: Secure, One-Click Access for AI Tools",
+    "summary": "For builders using AI coding tools, speed is everything. Integrations that require generating a credential, filing an access request, or waiting on a custom build can stop momentum (and productivity) ",
+    "aiSummary": "MongoDB Atlas는 개발자가 AI 코딩 도구를 더욱 안전하고 간편하게 연동할 수 있도록 지원하는 Atlas App Connections 기능을 새롭게 발표하였습니다. 기존에는 보안 위험이 있는 장기 유효 자격 증명을 공유해야 하는 불편함이 있었으나 이번 업데이트를 통해 OAuth 2.1 표준 기반의 원클릭 인증 방식으로 전환되었습니다.\n\n이 기능은 MongoDB Atlas MCP Server를 활용하여 ChatGPT, Claude, Claude Code, Codex CLI, Cursor, Devin, Devin Desktop, Grok, Grok CLI 등 다양한 AI 도구와 연동됩니다. 개발자는 복잡한 설정 없이도 AI를 통해 클러스터 생성이나 데이터 쿼리 등의 작업을 직접 수행할 수 있습니다.\n\n관리자 입장에서는 보안 통제권이 한층 강화되었습니다. 연결된 모든 활동은 사용자 및 애플리케이션별로 추적되어 투명한 감사가 가능하며 관리자는 조직 전체의 AI 접근 권한을 읽기 전용 혹은 전체 권한으로 설정하거나 즉시 차단할 수 있습니다. 또한 사용자의 권한이 변경되면 AI의 접근 권한도 실시간으로 동기화되므로 보안 사고를 방지하고 생산성을 높일 수 있습니다.\n\n작동 방식은 사용자가 AI 클라이언트에서 플러그인을 설치한 후 권한을 승인하는 단계를 거칩니다. 승인과 동시에 발급된 단기 액세스 토큰을 통해 AI는 사용자의 기존 권한 범위 내에서 안전하게 작업을 수행합니다. 이 과정은 별도의 자격 증명 관리 없이 자동화되어 개발자의 작업 흐름을 방해하지 않으면서도 기업 보안 요구 사항을 충실히 이행하도록 설계되었습니다.",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-atlas-app-connections-secure-one-click-access-for-ai-tools",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-03T20:08:21.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/building-next-gen-ai-agents-mongodb-atlas-integration-microsoft-foundry",
+    "title": "Building Next-gen AI agents: The MongoDB Atlas-Microsoft Foundry Integration",
+    "summary": "Generative AI is rapidly evolving from experimenting with models to relying on intelligent, autonomous multi-agent workflows that can reason, act, and adapt in real time. Together, Microsoft and Mongo",
+    "aiSummary": "Microsoft와 MongoDB가 차세대 AI 에이전트 개발을 위해 협력을 강화하고 Microsoft Foundry에 MongoDB MCP Server를 통합했습니다. 이번 통합을 통해 개발자들은 Microsoft Foundry의 Agent Service와 MongoDB Atlas의 실시간 데이터를 연결하여 상황 인지 능력을 갖춘 에이전트를 구축할 수 있게 되었습니다.\n\nMCP는 AI 에이전트와 외부 데이터 시스템 간의 통신을 위한 표준 규약으로, 이번 통합을 통해 에이전트는 MongoDB Atlas에 저장된 데이터에 실시간으로 접근할 수 있습니다. 이는 단순히 RAG를 위한 정보 검색을 넘어 문서 삽입, 업데이트, 삭제와 같은 데이터 조작은 물론 클러스터 관리나 사용자 생성 등 다양한 데이터베이스 운영 작업까지 가능하게 합니다.\n\nMicrosoft Foundry 인터페이스의 Tools Catalog에서 MongoDB MCP Server를 선택하고 Azure Container Apps를 통해 서버를 배포함으로써 쉽게 활용할 수 있습니다. 해당 서버는 MongoDB의 고유한 보안 모델과 API를 그대로 따르므로 기업은 에이전트의 데이터 접근 권한을 세밀하게 제어할 수 있습니다.\n\n결과적으로 이번 협력은 기업이 AI 에이전트를 단순한 실험 단계를 넘어 실제 운영 환경에 적용할 수 있도록 지원합니다. 에이전트는 최신 운영 데이터를 기반으로 자율적인 데이터 탐색과 관리, 코드 생성 등을 수행하며 비즈니스 정책과 보안을 준수하는 신뢰할 수 있는 자동화 워크플로우를 실현합니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/building-next-gen-ai-agents-mongodb-atlas-integration-microsoft-foundry",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-03T20:02:58.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/automated-secure-scalable-reference-implementation-mongodb-atlas-on-azure",
+    "title": "Automated, Secure, and Scalable: Reference Implementation for Atlas on Azure",
+    "summary": "Today’s cloud-driven world is characterized by the requirement to scale—and to do so massively and faster than ever. But standing up secure and compliant environments on the cloud is complex and requi",
+    "aiSummary": "MongoDB는 Microsoft Azure 환경에서 MongoDB Atlas를 신속하고 안전하게 구축할 수 있도록 지원하는 Reference Implementation을 공개했습니다. 이 솔루션은 기업이 복잡한 클라우드 인프라 구성 과정에서 겪는 보안 및 거버넌스 문제를 해결하고, 표준화된 환경을 통해 개발 생산성을 높이는 것을 목표로 합니다.\n\n주요 기능으로 Terraform을 활용한 IaC 기반의 자동화된 배포를 지원하며, 이를 통해 단일 및 다중 리전에서 일관된 데이터베이스 환경을 구성할 수 있습니다. 특히 Azure VNet, NSG, NAT Gateway, Private Endpoint 등을 활용하여 엄격한 보안 수준을 유지하면서도 네트워크 격리와 안전한 통신을 보장합니다.\n\n또한, Azure Function App과 Application Insights를 연동하여 데이터베이스의 상태와 성능을 모니터링할 수 있는 가시성을 제공합니다. 단일 리전 아키텍처는 데이터 보관 규정이 중요하거나 지역별 배포가 필요한 경우에 적합하며, 다중 리전 아키텍처는 VNet Peering을 통해 리전 장애 발생 시에도 비즈니스 연속성을 유지할 수 있도록 설계되었습니다.\n\n결론적으로 이번 Reference Implementation은 기업이 클라우드 거버넌스 모델을 준수하면서도 데이터 중심의 혁신을 가속화할 수 있도록 지원하는 통합 가이드이자 자동화 도구 모음입니다. 이를 통해 개발 팀은 인프라 관리에 들이는 시간을 줄이고 애플리케이션 개발에 집중할 수 있는 환경을 확보하게 됩니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/automated-secure-scalable-reference-implementation-mongodb-atlas-on-azure",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-03T20:02:16.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=air&p=751861",
+    "title": "Use Your GitHub Copilot Plan in JetBrains Air – in Your IDE and in the Cloud",
+    "summary": "GitHub and JetBrains are bringing GitHub Copilot to JetBrains Air. Air lets you hand coding tasks to agents, run them in parallel, and review their changes in one place. You can now pick GitHub Copilo",
+    "aiSummary": "GitHub와 JetBrains가 협력하여 JetBrains Air에서 GitHub Copilot을 사용할 수 있도록 지원합니다.\n\n사용자는 JetBrains Air를 통해 코딩 작업을 AI 에이전트에게 맡기고 여러 작업을 병렬로 실행하며 변경 사항을 통합적으로 검토할 수 있습니다. 이제 이러한 작업의 에이전트로 GitHub Copilot을 선택할 수 있게 되었으며 이는 사용자의 로컬 JetBrains IDE 환경과 클라우드 기반의 Air Teams 환경 모두에서 지원됩니다.",
+    "url": "https://blog.jetbrains.com/air/2026/11/github-copilot-in-air/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vladimir Gromozdin",
+    "pubDate": "2026-11-03T18:04:19.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://webkit.org/?p=18541",
+    "title": "Introducing Adaptive Dark Mode",
+    "summary": "We’re excited to announce Adaptive Dark Mode in Safari 27.3 beta.",
+    "aiSummary": "Safari 27.3 beta 버전을 통해 Adaptive Dark Mode 기능이 새롭게 도입되었습니다. 해당 기능은 웹 콘텐츠의 밝기와 대비를 사용자 환경에 맞춰 자동으로 최적화하여 시각적 편의성을 높여줍니다.",
+    "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-11-03T18:00:35.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "/blog/november-2026-security-release",
+    "title": "November 2026 Security Release",
+    "summary": "The November 2026 security release for Next.js is now available",
+    "aiSummary": "Next.js의 2026년 11월 보안 업데이트가 발표되었습니다. 해당 업데이트는 프레임워크의 보안 취약점을 해결하고 안정성을 높이기 위한 목적으로 배포되었습니다. Next.js 사용자는 서비스의 안전한 운영을 위해 최신 버전으로 업데이트할 것을 권장합니다.",
+    "url": "https://nextjs.org/blog/november-2026-security-release",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": {
+      "name": [
+        "Jamiboy Mohammad"
+      ]
+    },
+    "pubDate": "2026-11-03T18:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/financial-services/how-nammu21-automates-syndicated-loans-on-google-cloud-universal-ledger/",
+    "title": "How Nammu21 automates syndicated loans on Google Cloud Universal Ledger",
+    "summary": "The syndicated loan and private credit markets, both critical components of corporate finance, have long been constrained by manual processes, leading to multi-week settlements, valuation opacity, and",
+    "aiSummary": "신디케이트 론과 사모 신용 시장은 수작업 기반의 복잡한 절차로 인해 정산 지연, 데이터 파편화, 자본 효율성 저하라는 고질적인 문제를 겪어왔습니다. 핀테크 기업 Nammu21은 이를 해결하기 위해 Google Cloud와 협력하여 GCUL 기반의 자동화 플랫폼을 구축했습니다.\n\n이 플랫폼은 법적 계약서를 DCI라는 프로그래밍 가능한 자산으로 변환합니다. Nammu21의 AI는 계약의 조건, 동의 사항, 운영 규칙 등을 추출하여 디지털화하고, 이를 Python 기반의 도메인 특화 언어인 gculpy로 작성된 스마트 컨트랙트로 구현합니다.\n\nGCUL은 금융 기관을 위해 설계된 허가형 분산 원장 기술로, 강력한 보안과 즉각적인 거래 확정성을 보장합니다. 참여자들은 원장상에서 실시간으로 대출의 디지털 트윈을 공유하며, 모든 생애주기 이벤트는 명시적인 동의를 기반으로 자동화됩니다.\n\n이 기술을 통해 신디케이트 론 시장은 수주가 소요되던 정산 시간을 획기적으로 단축하고, 수동 해석에서 발생하는 운영 리스크를 제거하며, 규제 준수와 프라이버시를 유지하면서도 더 높은 수준의 시장 효율성을 달성할 수 있게 됩니다. 이는 복잡한 신용 계약을 프로그램 논리로 전환하여 금융 거래의 투명성과 신뢰성을 높이는 중요한 구조적 변화를 의미합니다.",
+    "url": "https://cloud.google.com/blog/topics/financial-services/how-nammu21-automates-syndicated-loans-on-google-cloud-universal-ledger/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Chang Yang Jiao"
+      ],
+      "title": [
+        "Head of Blockchain, Nammu21"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-03T18:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "title": "Agentic cheminformatics with Google Antigravity",
+    "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+    "aiSummary": "Google Antigravity는 신약 개발 워크플로우를 가속화하기 위해 설계된 에이전트 기반의 케미인포매틱스 시스템입니다. 이 시스템은 Cheminformatics Skills를 활용하여 방대한 화합물 데이터베이스를 효율적으로 검색합니다. 특히 복잡한 분자 구조인 rigidified macrocycles를 제안하는 등 신약 후보 물질 발굴 과정을 지능적으로 자동화합니다. 이를 통해 연구자들은 더욱 신속하고 정밀하게 새로운 화합물을 설계하고 연구 효율성을 높일 수 있습니다.",
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-03T17:01:49.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=platform&p=750752",
+    "title": "Hear What Your IDE Is Doing: New Sound Cues in JetBrains IDEs",
+    "summary": "You can use the audio player below to listen to this blog post. With JetBrains IDEs 2026.3, we’re adding a new way to stay connected to your work: sound cues. A short sound can tell you if a build has",
+    "aiSummary": "JetBrains IDE 2026.3 버전부터 작업 상태를 청각적으로 즉시 확인할 수 있는 사운드 큐 기능이 도입됩니다.\n\n해당 기능을 통해 빌드 성공 또는 실패 여부, 브레이크 포인트 도달, 캐럿 위치의 변경 등 개발 과정에서 발생하는 주요 이벤트를 소리로 인지할 수 있습니다. 이를 통해 개발자는 화면을 직접 확인하지 않아도 IDE의 작업 흐름을 실시간으로 파악하며 생산성을 높일 수 있습니다.",
+    "url": "https://blog.jetbrains.com/platform/2026/11/accessibility-sound-cues-in-jetbrains-ides/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Sasha Ivanova",
+    "pubDate": "2026-11-03T15:36:11.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/nov/03/security-releases/",
+    "title": "Django security releases issued: 6.1.3, 6.0.10, and 5.2.19",
+    "summary": "In accordance with our security release policy,\nthe Django team is issuing releases for\nDjango 6.1.3, Django\n6.0.10, and Django\n5.2.19.\nThese releases address the security issues detailed below. We en",
+    "aiSummary": "Django 팀은 보안 정책에 따라 Django 6.1.3, 6.0.10, 5.2.19 버전을 공개하며 모든 사용자의 즉각적인 업데이트를 권고합니다. 이번 업데이트는 총 6건의 보안 취약점을 해결합니다.\n\n첫째로 MultiPartParser에서 base64로 인코딩된 파일 업로드 시 발생할 수 있는 메모리 고갈 문제와 django.contrib.gis.forms.GeometryField에서 발생하는 로그 삽입 취약점이 수정되었습니다.\n\n둘째로 GeoJSON 객체의 crs 멤버를 악용한 서버 측 요청 위조(SSRF) 문제와 Vary 헤더 처리 미흡으로 인한 개인 데이터 노출 위험이 해결되었습니다. 특히 캐시 키 생성 로직이 개선되어 요청 간 데이터 노출을 방지합니다.\n\n셋째로 커스텀 유저 모델 사용 시 뷰 권한만 가진 관리자에게 비밀번호 해시가 노출되는 문제가 수정되었습니다.\n\n마지막으로 SpatialReference 입력값을 통한 서버 측 요청 위조(SSRF) 취약점이 조치되었습니다. GDAL 3.9 이상 환경에서 네트워크 및 파일 접근이 차단되며, 이를 위해 새로운 시스템 검사 기능인 gis.W001이 추가되었습니다.\n\n해당 보안 패치는 Django 메인 브랜치를 포함하여 지원 중인 모든 버전의 브랜치에 적용되었습니다. 상세한 패치 내역은 각 버전별 변경 세트에서 확인할 수 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/nov/03/security-releases/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Jacob Walls",
+    "pubDate": "2026-11-03T15:30:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
+    "title": "Look up a resource’s cost center with the GitHub REST API",
+    "summary": "You can now use the GitHub REST API to find which cost center a user, organization, repository, or enterprise team belongs to. Previously, you had to list every cost center…\nThe post Look up a resourc",
+    "aiSummary": "GitHub은 REST API를 통해 사용자, 조직, 저장소, 기업 팀이 어떤 비용 센터에 속해 있는지 확인할 수 있는 기능을 새롭게 제공합니다. 기존에는 모든 비용 센터 목록을 일일이 조회해야 하는 번거로움이 있었으나, 이번 업데이트를 통해 특정 리소스의 소속 비용 센터를 즉시 조회할 수 있게 되어 관리 효율성이 크게 개선되었습니다. 이 기능은 복잡한 조직 구조를 운영하는 기업 환경에서 리소스 관리 및 비용 추적을 더욱 간편하게 만들어 줍니다.",
+    "url": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-03T15:27:13.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "title": "GitHub Copilot is now available in JetBrains Air",
+    "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your…\nThe post G",
+    "aiSummary": "GitHub Copilot이 JetBrains Air 환경에서 공식적으로 지원됩니다. 이번 통합을 통해 개발자는 GitHub Copilot을 활용하여 코딩 작업을 위임하고 실행 과정을 안내받으며 결과물을 검토할 수 있게 되었습니다.\n\n해당 기능은 Agent Client Protocol(ACP)을 기반으로 구현되었습니다. 이를 통해 사용자는 JetBrains Air 내에서 더욱 효율적으로 코딩 보조 기능을 활용하고 개발 워크플로우를 최적화할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-03T15:11:46.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
     "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
     "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.3. It supports new Python 3.15 language…\n",
@@ -48,6 +293,87 @@
     ]
   },
   {
+    "id": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "title": "Accelerating engineering for the physical world",
+    "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "aiSummary": "OpenAI의 ChatGPT와 Codex는 CAD, PCB 설계, 시뮬레이션 등 물리적 세계를 다루는 다양한 엔지니어링 작업의 효율성을 크게 향상시키고 있습니다. 이러한 기술들은 복잡한 설계 과정을 자동화하거나 최적화하는 데 기여하며 엔지니어들이 더욱 빠르게 혁신적인 결과물을 도출할 수 있도록 지원합니다. 엔지니어링 워크플로우 전반에 걸쳐 인공지능을 도입함으로써 설계 기간 단축과 생산성 증대라는 실질적인 성과를 거두고 있습니다.",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-03T12:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
+    "title": "Five rules for evaluating agent skills before they bloat your context window",
+    "summary": "You’re probably hearing more about SKILL.md files, and you’ll see that a lot of people test them the same way: paste a prompt into chat, watch it pass once on a laptop, and merge to main. But when you",
+    "aiSummary": "AI 코딩 에이전트의 성능을 향상시키기 위해 작성하는 SKILL.md 파일이 오히려 문맥 창을 낭비하고 모델의 혼란을 초래하는 문제를 방지하기 위한 5가지 평가 원칙을 제시합니다.\n\n첫 번째 원칙은 컨테이너 실행 전 트리거 충돌과 보안 위험을 차단하는 것입니다. 모델은 SKILL.md 본문 전체를 읽는 것이 아니라 YAML 앞부분의 이름과 설명을 기반으로 스킬을 선택하므로, 스킬이 많아질수록 하위 트리거 문제나 기능 간의 충돌이 발생하기 쉽습니다. 이를 위해 skill-reach와 같은 도구를 활용하여 스킬 명세서를 검증하고 NVIDIA의 SkillSpector를 통해 프롬프트 주입이나 도구 오염 등의 보안 위협을 사전에 점검해야 합니다.\n\n두 번째 원칙은 개발자 로컬 환경이 아닌 격리된 환경에서 테스트하는 것입니다. 개인 노트북은 기존에 설정된 인증 정보나 환경 변수, 캐시 등이 남아 있어 테스트 결과에 왜곡을 초래합니다. 또한 호스트 리소스 사용량에 따른 성능 저하가 에이전트의 탐색 경로에 영향을 줄 수 있으므로 반드시 독립적인 샌드박스 환경에서 평가를 진행해야 합니다.\n\n세 번째 원칙은 단일 실행이 아닌 스킬 적용 전후를 비교하는 페어드 아블레이션 방식으로 측정하는 것입니다. 단순한 성공 여부 확인은 신뢰할 수 없으므로, 스킬을 적용하지 않은 모델과 적용한 모델의 결과값을 비교해야 합니다. 만약 스킬 적용 전후의 성공률과 효율성에 차이가 없다면 해당 스킬은 불필요한 문맥 비용만 발생시키는 것이므로 삭제하는 것이 좋습니다.\n\n네 번째 원칙은 효율성과 정확성을 분리하여 에이전트의 부정 행위를 방지하는 것입니다. 자동화된 최적화 과정에서 에이전트가 문제를 해결하는 대신 정답 파일을 직접 읽는 등의 방식으로 평가 지표를 조작할 수 있습니다. 이를 방지하기 위해 검증용 컨테이너를 분리하고 정확성, 효율성, 보안성 등의 평가 지표를 독립적으로 관리하며 에이전트의 데이터 접근 권한을 엄격히 제한해야 합니다.\n\n다섯 번째 원칙은 단순한 문서 요약이 아닌 실제 운영 습관과 검증 방식을 학습시키는 것입니다. 모델은 이미 방대한 공개 문서를 학습하고 있으므로 API 명세를 나열하는 것은 비효율적입니다. 대신 CLI 플래그 확인 습관, 경량 인덱스를 통한 효율적 경로 탐색, 최소 권한 원칙 준수 등 실질적인 행동 지침을 포함하는 것이 성능 향상에 훨씬 효과적입니다. 최신 모델 도입 시마다 이러한 원칙에 따라 기존 스킬을 재평가하고 불필요해진 스킬은 과감히 삭제하는 운영 체계를 갖추어야 합니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Karl Weinmeister"
+      ],
+      "title": [
+        "Director, Developer Relations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-03T08:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
+    "title": "Introducing Physical-Engineering’s Last Exam for agents",
+    "summary": "Authors: Burak Gokturk, VP Research & Development; Rujun Han, Research Scientist; George Lee, Product Manager.\nToday, the Google AI & Infrastructure team is announcing Physical-Engineering's Last Exam",
+    "aiSummary": "Google AI & Infrastructure 팀이 Mercor와 협력하여 물리 공학 분야의 AI 모델 성능을 평가하기 위한 새로운 벤치마크인 Physical-Engineering's Last Exam을 발표했습니다. 이 프로젝트는 기계, 전기, 토목, 구조 공학 분야에서 AI 에이전트가 실제 엔지니어링 업무를 수행할 수 있는지 검증하는 데 목적을 둡니다.\n\n기존 벤치마크들이 주로 교과서적인 문제나 단일 도구 사용을 평가하는 데 그친 반면, 이번 PLE는 복잡한 실제 업무 환경을 반영합니다. 에이전트는 Mercor의 Archipelago 환경 내에서 PDF, 스프레드시트, CAD 도면, BIM 모델 등 수십 개의 파일로 구성된 프로젝트를 처리해야 합니다. 최종 결과물은 안전 규정과 코드 준수 여부, 비용 효율성 등을 바탕으로 면허를 보유한 엔지니어의 검토 과정을 거쳐 평가됩니다.\n\n총 85개의 장기 과제로 구성된 이 벤치마크 테스트 결과, 현재 모든 frontier 모델이 50% 미만의 점수를 기록했습니다. 특히 최상위 모델이라 하더라도 필수 안전 검사를 모두 통과한 비율은 41.3%에 불과하여, 실제 현장 수준의 엔지니어링 업무를 수행하기에는 기술적 격차가 존재함을 확인했습니다.\n\nGoogle은 연구 커뮤니티를 위해 29개의 공개 과제와 평가 도구, 그리고 경쟁 리더보드를 공개했습니다. 개발자들은 GitHub와 공식 웹사이트를 통해 자신의 에이전트를 평가받고 물리 공학 분야에서의 실질적인 AI 발전 상황을 공유할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google AI & Infrastructure "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-03T08:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
     "title": "GitHub Desktop adds short-lived authentication tokens",
     "summary": "When you sign in to GitHub Desktop 3.6.10 or later, eligible accounts can now use short-lived, automatically refreshing authentication tokens. Short-lived access tokens reduce how long a leaked token ",
@@ -61,6 +387,23 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp",
+    "title": "Enterprise-managed auth for MCP: Claude can now issue the identity assertion",
+    "summary": "Claude can now issue the identity assertion for enterprise-managed auth on the Supabase MCP server when your identity provider can't.",
+    "aiSummary": "Claude가 Supabase MCP 서버의 기업용 인증 체계를 지원하도록 업데이트되었습니다.\n\n기존에 사용 중인 ID 공급자가 직접 신원을 증명할 수 없는 상황일 경우, 이제 Claude가 대신 신원 확인을 위한 식별 정보를 발행하는 기능을 수행합니다. 이를 통해 기업 환경에서 더욱 원활하고 안전한 MCP 연결 및 권한 관리가 가능해집니다.",
+    "url": "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-11-03T07:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
     ]
   },
   {
@@ -93,6 +436,39 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgbadger-v133-has-been-released-3435/",
+    "title": "pgbadger v13.3 has been released\n",
+    "summary": "Antananarivo, Madagascar - November 03, 2026\npgBadger\npgBadger is a PostgreSQL performance analyzer, built for speed with\nfully detailed reports based on your PostgreSQL log files.\npgBadger 13.3 was r",
+    "aiSummary": "PostgreSQL 성능 분석 도구인 pgBadger v13.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 사용자들로부터 보고된 문제를 해결하고 패치를 적용한 유지보수 성격의 릴리스입니다.\n\n주요 개선 사항으로 항목이 10개를 초과할 경우 범례 및 마우스 오버 그래프에 스크롤 기능을 추가하였으며 --explode 옵션 사용 시 발생하던 여러 문제들을 수정하였습니다. 또한 원격 호스트의 감시 모드에서 전체 로그를 가져오지 않도록 필터링 기능을 추가하였고 다중 라인 문장 처리에 관한 오류를 해결하였습니다.\n\n데이터 분석의 정확도를 높이기 위해 log_min_duration_statement와 auto_explain이 동일한 실행을 중복 집계하던 문제를 해결하였으며, auto_explain의 Query Parameters 처리 및 Explain 계획 복사 기능을 추가하였습니다. 이외에도 --dbuser 필터링 시 쿼리가 잘못 삭제되던 현상을 수정하고 동시에 여러 pgBadger가 실행될 경우 발생하는 파일 충돌을 방지하기 위해 임시 파일명 설정 방식을 개선하였습니다.\n\n상세한 변경 사항은 GitHub의 공식 릴리스 노트를 통해 확인할 수 있으며 pgBadger는 Gilles Darold에 의해 개발된 오픈소스 프로젝트로 PostgreSQL 로그 분석 및 SQL 쿼리 최적화에 활용됩니다.",
+    "url": "https://www.postgresql.org/about/news/pgbadger-v133-has-been-released-3435/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/11/fcm-android-config-v2",
+    "title": "Better Notifications with FCM AndroidConfigV2",
+    "summary": "November 3, 2026\nFirebase Cloud Messaging (FCM) v2 brings more predictability and reliability to remote notifications for the Android ecosystem. Start using FCM ACv2 today by following our guidelines ",
+    "aiSummary": "Firebase Cloud Messaging에서 새롭게 발표한 AndroidConfigV2는 기존 FCM v1의 구조적 한계를 극복하고 알림 전달의 예측 가능성과 신뢰성을 높이기 위해 설계되었습니다. 기존 방식은 시스템 브로드캐스트와 불분명한 메시지 우선순위 설정으로 인해 배터리 관리 모드나 기기 상태에 따른 알림 지연 문제가 빈번하게 발생했습니다.\n\nAndroidConfigV2는 메시지 의도를 명확히 구분하는 방식으로 이러한 문제를 해결합니다. 긴급하고 사용자에게 보여야 하는 알림은 RemoteNotification으로, 데이터 동기화와 같은 비긴급 작업은 BackgroundSync로 분리하여 처리합니다. 특히 RemoteNotification은 Doze 모드나 배터리 최적화 제한을 우회하여 즉각적인 알림 전달을 보장합니다.\n\n클라이언트 측 변화도 두드러집니다. 개발자는 기존의 단일 onMessageReceived 콜백 대신 onNotificationReceived와 onBackgroundSyncReceived를 통해 더욱 정밀한 제어가 가능합니다. 특히 RemoteNotification 처리 시 NotificationResponse 객체를 반환하여 시스템에 즉각적인 피드백을 제공해야 하며, 이를 통해 앱이 충돌하거나 처리 시간을 초과하더라도 시스템이 서버에 설정된 폴백 알림을 직접 표시할 수 있는 안정성을 확보했습니다.\n\n또한, 자동 렌더링 기능을 통해 코드 실행 없이도 알림을 표시하거나, 필요시 mutable_content 설정을 통해 동적 이미지 추가 및 암호화 해제와 같은 맞춤형 처리를 수행할 수 있습니다. 처리 시간은 20초 이내로 제한되며, 과도한 알림 억제에 대한 정책도 강화되어 시스템 전반의 성능을 최적화합니다.\n\n이번 업데이트는 하위 호환성을 보장하므로 백엔드와 클라이언트 팀이 단계적으로 전환할 수 있습니다. 서버 측에서는 기존 android 설정 대신 android_v2 블록을 사용하고, 클라이언트는 FirebaseMessagingService의 새로운 콜백 메서드를 구현함으로써 즉시 개선된 알림 시스템을 도입할 수 있습니다.",
+    "url": "https://firebase.blog/posts/2026/11/fcm-android-config-v2",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
@@ -1829,6 +2205,22 @@
     ]
   },
   {
+    "id": "https://www.hashicorp.com/blog/introducing-terraform-developer-portal",
+    "title": "Building Self-Service into Terraform: Introducing Terraform Developer Portal (Public Preview)",
+    "summary": "Terraform has long helped platform teams standardize how infrastructure is provisioned and managed. As Terraform adoption grows across an organization, the next challenge is making that infrastructure",
+    "aiSummary": "HashiCorp는 플랫폼 팀의 인프라 관리 효율성과 개발자의 사용 편의성을 동시에 높이기 위한 Terraform Developer Portal을 퍼블릭 프리뷰로 공개합니다. 이 서비스는 플랫폼 팀이 승인한 Terraform 모듈을 큐레이션된 템플릿 형태로 제공하여 개발자가 복잡한 설정 없이도 필요한 인프라를 직접 검색하고 프로비저닝할 수 있도록 지원합니다.\n\n주요 구성 요소인 템플릿, 애플리케이션, 애드온, 액션은 플랫폼 팀의 관리 체계를 유지하면서도 개발자가 인프라 생명주기를 스스로 관리할 수 있는 셀프 서비스 환경을 구축합니다. 이를 통해 개발자는 승인된 인프라를 효율적으로 활용하고 플랫폼 팀은 일관된 거버넌스와 통제권을 보장받을 수 있습니다.\n\n또한 Terraform Developer Portal은 AI 에이전트와 연동된 에이전틱 셀프 서비스 모델을 지향합니다. 개발자가 자연어로 인프라 생성이나 상태 조회를 요청하면 AI 에이전트가 Terraform API와 워크플로우를 통해 필요한 작업을 자동으로 수행합니다. 이때 에이전트는 플랫폼 팀이 사전에 정의한 권한과 표준을 준수하며 작동합니다.\n\n결과적으로 Terraform Developer Portal은 UI, CLI, API뿐만 아니라 AI 에이전트까지 아우르는 통합된 셀프 서비스 기반을 제공합니다. 이는 인프라 관리의 복잡성을 줄이고 조직 전체의 프로비저닝 경험을 현대화하는 것을 목표로 합니다. 현재 HCP Terraform 계정을 통해 해당 서비스를 즉시 이용할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/introducing-terraform-developer-portal",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Tejitha Raju",
+    "pubDate": "2026-10-27T13:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/80945428/v12.3.2",
     "title": "v12.3.2",
     "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
@@ -1975,6 +2367,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/terraform-advances-infrastructure-lifecycle-management-for-the-agentic-era",
+    "title": "Terraform advances infrastructure lifecycle management for the agentic era",
+    "summary": "AI agents are becoming active participants in infrastructure delivery and operations, fundamentally increasing the speed and scale at which infrastructure work can happen. This shift requires organiza",
+    "aiSummary": "HashiCorp는 AI 에이전트가 인프라 운영의 핵심 주체로 부상하는 에이전틱 시대를 대비하여 Terraform의 기능을 대폭 강화합니다. 이번 발표는 단순한 작업 자동화를 넘어 인간과 AI 에이전트가 신뢰할 수 있는 기반 위에서 안전하게 협업할 수 있는 자율적 인프라 운영 환경 구축을 목표로 합니다.\n\n주요 업데이트 사항은 다음과 같습니다.\n\n먼저 Terraform Policy가 정식 출시되어 HCL 기반의 정책을 코드로 직접 정의하고 강제할 수 있게 되었습니다. 이를 통해 인프라 구축 전후의 규정 준수를 관리하며 사전 작성된 정책 라이브러리를 활용해 거버넌스를 강화할 수 있습니다. 또한 향상된 검색 기능(공개 프리뷰)은 관리되지 않는 인프라를 찾아내고 규정 준수 여부를 사전에 평가하여 안전한 통합을 지원합니다.\n\n다음으로 Terraform Developer Portal(공개 프리뷰)을 통해 개발자와 AI 에이전트가 승인된 인프라 패턴을 셀프 서비스로 이용할 수 있는 환경을 제공합니다. 이와 연계된 Remote Terraform MCP 서버(공개 프리뷰)는 별도의 로컬 설치 없이도 AI 에이전트가 Terraform 워크플로우에 직접 접근할 수 있도록 연결성을 높여줍니다.\n\n마지막으로 Z 및 LinuxONE을 위한 의도 기반 워크플로우(비공개 프리뷰)는 미션 크리티컬 환경에서도 안전한 시뮬레이션과 현대적인 인프라 자동화를 가능하게 합니다. 아울러 Infragraph 기반의 HCP Terraform은 인프라 데이터와 자원 간의 관계를 실시간 지능형 정보로 변환하여, 인간과 AI 에이전트가 정확한 맥락에서 의사결정을 내릴 수 있도록 지원합니다.\n\nHashiCorp는 이러한 기능들을 통해 정의, 소비, 확장이라는 인프라 생애주기 전반을 통합하고 거버넌스가 확보된 자율적 인프라 운영 체제로의 전환을 가속화합니다.",
+    "url": "https://www.hashicorp.com/blog/terraform-advances-infrastructure-lifecycle-management-for-the-agentic-era",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Melar Chen",
+    "pubDate": "2026-10-27T01:08:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -2139,6 +2547,38 @@
     ]
   },
   {
+    "id": "https://www.hashicorp.com/blog/announcing-the-public-preview-of-hashicorp-secure-hub-govern-vault-at-scale",
+    "title": "Announcing the public preview of HashiCorp Secure Hub: Govern Vault at scale ",
+    "summary": "HashiCorp Vault has become a critical security platform for organizations managing secrets, credentials, certificates, cryptographic services, and machine and agentic access across hybrid and multi-cl",
+    "aiSummary": "HashiCorp가 분산된 Vault 환경을 통합적으로 관리하고 거버넌스를 강화할 수 있는 HashiCorp Secure Hub의 퍼블릭 프리뷰를 발표했습니다. 이 솔루션은 기존 Vault Enterprise의 개별 환경에 대한 보안 제어 기능을 유지하면서, 기업 전체의 Vault 인프라를 중앙에서 파악할 수 있는 통합 계층을 제공합니다.\n\nSecure Hub는 클러스터의 운영 상태와 버전, 구성 정보를 시각화하여 플랫폼 팀이 전체 인프라를 더 효율적으로 운영하도록 돕습니다. 또한 비밀 관리 및 인증서 발급 현황에 대한 상세 보고 기능을 제공하여 보안 모니터링과 감사 요구 사항에 효과적으로 대응할 수 있게 합니다.\n\n기업은 이를 통해 조직 전체의 리소스 소비 현황을 추적하고 예측 가능성을 높일 수 있습니다. 특히 에이전트형 AI 도입으로 기계 ID와 액세스 관계가 복잡해지는 환경에서, Secure Hub는 분산된 보안 자원의 생명 주기를 전체적으로 관리하는 Security Lifecycle Management 전략의 핵심적인 역할을 수행합니다. \n\n본 솔루션은 현재 운영 중인 Vault Enterprise 환경을 변경하지 않고도 바로 도입할 수 있으며, 향후 출시될 Vault Arc와의 연동성까지 고려하여 설계되었습니다. HashiCorp는 이번 퍼블릭 프리뷰를 통해 수집된 사용자 피드백을 바탕으로 더욱 복잡해지는 자율적인 IT 환경에 최적화된 거버넌스 기능을 발전시켜 나갈 계획입니다.",
+    "url": "https://www.hashicorp.com/blog/announcing-the-public-preview-of-hashicorp-secure-hub-govern-vault-at-scale",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Rich DuBose",
+    "pubDate": "2026-10-26T16:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/announcing-the-public-preview-of-hashicorp-vault-arc-evolve-security-for-emerging",
+    "title": "Announcing the public preview of HashiCorp Vault Arc: Evolve security for emerging workloads ",
+    "summary": "Enterprises rely on HashiCorp Vault to secure access to sensitive systems, applications, and data across increasingly complex hybrid and multi-cloud environments. But the environment around those appl",
+    "aiSummary": "HashiCorp이 하이브리드 및 멀티 클라우드 환경의 복잡성과 AI 에이전트 등 새로운 워크로드에 대응하기 위해 Vault Arc의 퍼블릭 프리뷰를 발표했습니다. Vault Arc는 기존 Vault Enterprise를 대체하는 것이 아니라 상호 보완적인 형태로 도입되어 기업이 보안 리소스를 모델링하고 관리하는 방식을 개선합니다.\n\n이 기술의 핵심은 보안 리소스 생명주기 관리에 리소스 기반 접근 방식을 도입한 점입니다. 이를 통해 권한 부여와 거버넌스 정책을 분리하여 직관적인 운영을 가능하게 하고 보안 리소스에 대한 가시성과 감사 기능을 강화합니다. 또한 API와 자동화를 통해 운영 복잡성을 낮추고 급변하는 암호화 표준에 유연하게 대응할 수 있는 기반을 제공합니다.\n\n특히 AI 에이전트와 같은 비인간 워크로드의 성장에 맞춰 에이전트의 정체성 관리와 일시적 권한 부여, 활동 기록 등을 다루는 에이전트 보안 생명주기 관리 모델을 지향합니다. 기업은 기존 Vault Enterprise 운영을 유지하면서 필요한 부분부터 점진적으로 Vault Arc를 도입할 수 있어 시스템 전환에 따른 위험을 최소화할 수 있습니다.\n\n이와 함께 공개된 Secure Hub는 여러 Vault 환경을 통합적으로 가시화하고 거버넌스를 제공하는 역할을 수행합니다. Vault Arc와 Secure Hub의 조합은 분산된 보안 환경 전반에서 일관된 관리 모델을 구축할 수 있도록 지원하며 현재 고객들이 직접 프리뷰 버전을 통해 새로운 기능을 평가하고 피드백을 제공할 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/announcing-the-public-preview-of-hashicorp-vault-arc-evolve-security-for-emerging",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Rich DuBose",
+    "pubDate": "2026-10-26T16:00:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
     "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
     "summary": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, ",
@@ -2282,6 +2722,22 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/strengthen-security-for-agentic-ai-with-new-vault-verify-boundary-and-secure-hub",
+    "title": "Strengthen security for agentic AI with new Vault, Verify, Boundary, and Secure Hub capabilities ",
+    "summary": "AI agents are reshaping what enterprises need to secure. They join workloads, applications, machines, and human users in accessing increasingly distributed infrastructure, creating new requirements fo",
+    "aiSummary": "IBM은 TechXchange에서 AI 에이전트와 자율 운영 환경을 보호하기 위해 IBM Verify, Vault, Boundary 전반에 걸친 새로운 보안 기능을 발표했습니다. 이는 기업이 분산된 인프라 환경에서 AI 에이전트의 신원을 증명하고 권한을 관리하며, 엔드투엔드 감사를 수행할 수 있도록 지원합니다.\n\nIBM Agent Identity는 AI 에이전트를 일급 신분으로 관리하여 에이전트의 소유권을 확립하고 권한을 위임하며, HashiCorp Vault와 통합하여 자격 증명을 보호합니다. 이를 통해 기업은 에이전트의 모든 활동을 추적하고 승인 절차와 연결하여 투명성을 확보할 수 있습니다.\n\nHashiCorp Vault 2.2는 비인간 신분과 AI 에이전트에 대한 거버넌스를 강화하고, vTPM 지원을 통해 리눅스 가상 머신에서 Secret Zero 문제를 해결합니다. 또한, 공개 프리뷰로 도입된 Secure Hub와 Vault Arc는 각각 중앙 집중식 가시성과 보고 기능을 제공하고, 새로운 아키텍처를 통해 확장성과 운영 유연성을 높였습니다.\n\nHashiCorp Boundary 1.1은 관리 효율성을 높이기 위해 여러 AWS 계정 간의 대상 자동 탐지 기능을 개선하고, 외부 애플리케이션과의 연동을 위한 App tokens 기능을 도입했습니다. 특히 도입된 MCP 서버는 관리자가 자연어로 Boundary 클러스터를 제어할 수 있게 돕고, AI 에이전트가 별도의 클라이언트 도구 없이도 인프라 자원에 안전하게 접근할 수 있도록 지원합니다.\n\n이러한 통합 보안 솔루션들은 기업이 AI 에이전트를 안전하게 도입하고 운영할 수 있도록 신원 기반 보안, 암호화, 거버넌스 체계를 강화하는 데 중점을 두고 있습니다.",
+    "url": "https://www.hashicorp.com/blog/strengthen-security-for-agentic-ai-with-new-vault-verify-boundary-and-secure-hub",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Isabela Palanca Aureus",
+    "pubDate": "2026-10-26T05:11:00.000Z",
+    "fetchedAt": "2026-11-03T21:09:03.207Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
