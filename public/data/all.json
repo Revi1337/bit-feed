@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+    "title": "BYOK and enterprise custom models in the Copilot usage API",
+    "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of…\nThe post BYOK and ent",
+    "aiSummary": "GitHub Copilot 사용량 측정 API가 업데이트되어 이제 BYOK 사용 현황을 별도로 확인할 수 있게 되었습니다.\n\n이를 통해 기업은 GitHub에서 제공하는 모델 사용량과 자체 키를 사용하는 BYOK 및 기업용 커스텀 모델 사용량을 명확하게 구분하여 관리할 수 있습니다. 해당 기능은 기업 관리자가 조직 내 Copilot 도입 효과를 보다 정밀하게 분석하고 비용 효율성을 최적화하는 데 도움을 줍니다.",
+    "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-04T00:32:19.000Z",
+    "fetchedAt": "2026-11-04T03:03:13.893Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
     "title": "Dependabot version updates support Agent Package Manager",
     "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported…\nThe pos",
@@ -307,6 +323,22 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated",
+    "title": "Introducing IBM Cloud Secrets Manager Vault Dedicated: HashiCorp Vault Enterprise, managed by IBM",
+    "summary": "",
+    "aiSummary": "본문이 제공되지 않은 기사입니다.",
+    "url": "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Aubrey Johnson",
+    "pubDate": "2026-11-03T08:00:00.000Z",
+    "fetchedAt": "2026-11-04T03:03:13.893Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
