@@ -1,5 +1,55 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=scala&p=753190",
+    "title": "IntelliJ Scala Plugin 2026.3 Is Out!",
+    "summary": "Hello everyone! Scala plugin 2026.3 is here! This release brings more accurate Scala 3 code analysis, substantially reworked Twirl support for Play Framework developers, and more efficient compiler-ba",
+    "aiSummary": "IntelliJ Scala Plugin 2026.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 Scala 3 코드 분석의 정확성을 대폭 향상했으며 Play Framework 개발자를 위한 Twirl 지원 기능을 전면적으로 개선했습니다.\n\n컴파일러 기반 하이라이팅 성능을 최적화하여 불필요한 백그라운드 작업을 줄임으로써 전체적인 편집 효율을 높였습니다. 이외에도 빌드 툴 지원, 디버깅 기능, 그리고 일상적인 코드 편집 과정에서 발생하는 다양한 문제점들을 보완하여 개발 환경의 안정성을 강화했습니다.",
+    "url": "https://blog.jetbrains.com/scala/2026/11/06/intellij-scala-plugin-2026-3-is-out/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitrii Naumenko",
+    "pubDate": "2026-11-06T12:15:21.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.4.0",
+    "title": "v12.4.0",
+    "summary": "v12.4.0 (2026-11-06)\nFeatures\nplatform-node\n\n#18396 feat(node): let the node adapter set locals for every view (@thekhegay)\nBug fixes\nmicroservices\n\n#18418 fix(microservices): ignore an mqtt server's ",
+    "aiSummary": "NestJS v12.4.0 버전 업데이트가 2026년 11월 6일에 배포되었습니다.\n\n주요 기능으로 platform-node 환경에서 모든 뷰에 로컬 변수를 설정할 수 있는 기능이 추가되었으며, core 및 common 모듈에서는 핸들러가 반환하는 웹 응답이나 스트림을 직접 전송할 수 있는 개선 사항이 포함되었습니다.\n\n버그 수정은 microservices, common, platform-node, platform-fastify, core 등 다양한 영역에서 광범위하게 이루어졌습니다. microservices에서는 MQTT 와일드카드 응답 처리 개선, JSON 문자열 패턴 핸들러 인식 오류 수정, gRPC 요청 스트림 옵션 전달 문제 등을 해결하였습니다.\n\nplatform-node와 관련된 수정 사항으로는 Transfer-Encoding 사용 시 Content-Length 생략, 라우트 파라미터 독립성 보장, 뷰 이름 해석 시 후행 슬래시 제거, 템플릿 엔진 지원 강화 등이 포함되었습니다. 또한 express, node, fastify 플랫폼 공통으로 RxJS를 피어 의존성으로 명시하였으며, core 모듈에서는 미들웨어 실행 로직 및 핸들러 메타데이터 캐싱 최적화가 진행되었습니다.\n\n그 외에도 @fastify/cors 의존성이 v11.4.1로 업데이트되는 등 안정성 향상을 위한 작업이 완료되었습니다. 이번 릴리즈에는 총 8명의 기여자가 참여하였습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.4.0",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-06T10:11:54.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.2",
+    "title": "1.5.2",
+    "summary": "Added skills from the cloud plugins you connected with /plugin to --remote-agent sessions, so they now appear in the / menu and can be typed at the start of a message, /skills lists them grouped by pl",
+    "aiSummary": "이번 1.5.2 업데이트에서는 연결된 클라우드 플러그인의 스킬을 remote-agent 세션에서 직접 사용할 수 있도록 기능을 확장했습니다. 이제 / 메뉴를 통해 스킬을 호출하거나 /skills 명령어로 목록을 확인할 수 있습니다.\n\nmacOS 환경에서의 사용자 경험을 개선하여 alt+m과 같은 Option 키 단축키가 터미널 설정 변경 없이도 기본적으로 작동하도록 수정했습니다. 이전 방식을 원할 경우 AGY_CLI_MAC_OPTION_AS_ALT=0 환경 변수를 설정하여 되돌릴 수 있습니다.\n\n보안과 관련해서는 dangerously-skip-permissions 플래그 사용 시 보호 대상 명령어가 자동 승인되지 않도록 제한을 강화했으며 Gemini Enterprise 관리자 정책에 따른 파일 접근 검증 프로세스를 준수하도록 변경했습니다. 또한 외부 파일 접근 시 특정 경로에 대해서만 허용하거나 차단할 수 있도록 세분화했으며 악의적인 플러그인이 파일 시스템의 임의 경로를 덮어쓰거나 심볼릭 링크를 악용하는 것을 방지하는 보안 조치를 적용했습니다.\n\n기타 주요 개선 사항으로 remote-agent 연결 안정성 강화, agy plugin validate 수행 시 불필요한 오류 메시지 감소, 그리고 백그라운드 모델 요청 최적화를 통해 리소스 낭비를 줄였습니다.\n\n오류 수정 사항으로는 --dangerously-skip-permissions 사용 시 subagents가 멈추던 현상 해결, MCP 서버 OAuth 로그인 시 PKCE 인증 오류 수정, MCP 툴 파라미터 전달 문제 해결, 에이전트의 루프 에러 수정 등이 포함되었습니다. 또한 / 메뉴가 현재 세션의 올바른 에이전트 정보를 표시하도록 수정하였으며 remote-agent 세션에서의 대용량 파일 업로드 문제와 중국어 및 일본어 음성 받아쓰기 시의 공백 문제 등을 해결했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.2",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-06T06:08:47.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
     "title": "Usage metrics API adds code review details and addressed rate",
     "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports h",
@@ -29,6 +79,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
+    "title": "Spring Boot 4.2.0-RC2 available now",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring Boot 4.2.0-RC2 버전이 새롭게 출시되었습니다. 이번 릴리스는 정식 출시를 앞둔 후보 버전으로서 해당 프레임워크의 최신 기능과 개선 사항을 포함하고 있습니다. 개발자들은 공식 채널을 통해 해당 버전을 확인하고 프로젝트에 적용해 볼 수 있습니다.",
+    "url": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "mhalbritter",
+    "pubDate": "2026-11-06T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -2175,138 +2241,6 @@
     "tags": [
       "JetBrains",
       "IDE"
-    ]
-  },
-  {
-    "id": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-    "title": "Speeding up planning decisions with AI",
-    "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
-    "aiSummary": "Google DeepMind가 영국 정부와 협력하여 도시 계획 및 건축 인허가 과정의 평가 시간을 단축하기 위한 AI 기술 도입을 추진합니다.\n\n이번 프로젝트는 복잡한 계획 심사 절차를 AI로 효율화하여 공공 행정의 처리 속도를 높이는 것을 목표로 합니다. 이를 통해 영국 내 건축 및 인프라 개발 관련 의사결정의 지연 문제를 해결하고 행정적 효율성을 대폭 개선할 것으로 기대됩니다.",
-    "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-    "category": "인공지능",
-    "source": "Google DeepMind",
-    "author": "Google DeepMind",
-    "pubDate": "2026-10-30T14:18:30.000Z",
-    "fetchedAt": "2026-11-02T17:14:35.670Z",
-    "tags": [
-      "DeepMind",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
-    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
-    "summary": "Written by: Aurora Blum, David Mainor, Rohit Nambiar, Omar ElAhdan, Matthew McWhirt, Will Silverstone, Bhavesh Dhake, Chris Busse\nIntroduction \nRecent intrusions in which threat actors have been obser",
-    "aiSummary": "최근 공격자들이 ARTEX, Hexstrike, CAIRN과 같은 오픈소스 에이전트 기반 침투 프레임워크를 악용하여 자동화된 공격을 수행하는 사례가 급증하고 있습니다. 이는 단순한 프롬프트 주입 방식을 넘어 LLM을 활용한 다중 에이전트 워크플로우로 공격 전술이 진화했음을 의미합니다.\n\n이러한 프레임워크는 공격 라이프사이클 전반을 자동화하여 시스템 침투 속도와 규모를 비약적으로 향상시킵니다. 특히 ARTEX는 6개의 전문 서브 에이전트를 통해 Active Directory 정찰, 권한 상승, 클라우드 인프라 프로파일링, 웹쉘 배포 등을 자율적으로 수행합니다. 사람이 수행하는 공격과 달리, ARTEX는 수 초 단위의 짧은 버스트 활동을 반복하며 오류 발생 시 스스로 수정하고 재시도하는 특징을 보입니다.\n\n공격자들은 침해된 자격 증명을 사용하여 ARTEX에 높은 수준의 전술적 목표를 부여하고 있으며, 미국과 유럽의 기업 소프트웨어, 산업 자동화, 반도체 제조 및 통신 분야에서 짧게는 15분 만에 시스템 깊숙한 곳까지 접근하는 사례가 확인되었습니다. ARTEX는 정상적인 API 호출이나 애플리케이션 기능을 악용하는 방식을 사용하므로 기존 보안 탐지 체계를 우회하기에 매우 효과적입니다.\n\n이와 같은 위협에 대응하기 위해 보안 팀은 제어 평면 격리, 단기 자격 증명 사용, 최소 권한 원칙, 네트워크 세분화 및 행동 기반 탐지 등 기존 보안 모범 사례를 더욱 강화해야 합니다. 자율적인 공격 프레임워크의 등장은 방어 전략의 근본적인 재설계가 시급함을 시사합니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-30T14:00:00.000Z",
-    "fetchedAt": "2026-11-01T19:48:00.639Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
-    "title": "New Gemini courses for financial services and legal teams",
-    "summary": "Today Google Skills is sharing new, industry-specific video learning bundles to get you into Gemini and using agents. One bundle is designed for financial services and one is built specifically for th",
-    "aiSummary": "Google Skills에서 금융 서비스 및 법률 분야 종사자를 위한 새로운 Gemini 활용 교육 영상을 무료로 공개했습니다. 해당 과정은 각 산업 현장에서 Gemini와 에이전트 기술을 활용해 업무 효율성을 높이는 방법을 제시합니다.\n\n금융 서비스 분야를 위한 교육은 복잡한 시장 데이터 분석과 포트폴리오 관리, 채권 발행 및 신용 시장 기회 포착과 같은 실무 중심의 4가지 과정으로 구성되어 있습니다. 이를 통해 방대한 시장 자료를 신속하게 처리하고 의사결정의 정확도를 높이는 방법을 배울 수 있습니다.\n\n법률 분야 교육은 규제 준수 검토, 계약서 초안 작성 및 검토, 데이터 삭제 및 DSAR 대응 등 5가지 과정으로 마련되었습니다. 복잡한 법률 문서를 빠르게 분석하고 규정 위반 사례를 찾아내어 수정안을 제시하는 등 일상적인 업무를 자동화하는 데 초점을 맞추고 있습니다.\n\n기초적인 활용법을 넘어 생산 환경에서 에이전트 시스템을 직접 구축하고자 하는 전문가를 위해 Gemini Agent Ready 프로그램을 운영합니다. 이 프로그램에 등록하면 35크레딧을 제공받아 Google Skills의 대화형 학습 환경에서 실습을 수행하고, 전문성을 검증하는 배지를 획득할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Gary Eimerman"
-      ],
-      "title": [
-        "Managing Director, Google Cloud Learning"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-30T13:00:00.000Z",
-    "fetchedAt": "2026-10-30T19:57:31.082Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/introducing-dbarena",
-    "title": "Introducing DBArena: open, reproducible benchmarks for hosted Postgres",
-    "summary": "DBArena benchmarks hosted Postgres providers on price-performance, with a public methodology.",
-    "aiSummary": "DBArena는 호스팅된 Postgres 제공업체들을 대상으로 가격 대비 성능을 객관적으로 측정하는 벤치마크 서비스입니다. 해당 서비스는 모든 측정 과정과 방법론을 대중에 공개하여 투명하고 재현 가능한 결과를 제공하는 것을 목표로 합니다. 이를 통해 사용자는 다양한 Postgres 호스팅 환경의 성능과 비용 효율성을 신뢰도 있게 비교할 수 있습니다.",
-    "url": "https://supabase.com/blog/introducing-dbarena",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-10-30T07:00:00.000Z",
-    "fetchedAt": "2026-10-31T02:31:27.910Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/explorer-and-notebooks-investigations-your-team-can-rerun",
-    "title": "Explorer and Notebooks: investigations your team can rerun",
-    "summary": "Explorer is one editor for your Supabase database and your logs. Save an investigation as a Notebook and anyone on the project can run it again.",
-    "aiSummary": "Supabase는 데이터베이스와 로그를 하나의 편집기에서 관리할 수 있는 Explorer 기능을 제공합니다. 사용자는 Explorer에서 수행한 데이터 조사 내용을 Notebook으로 저장할 수 있습니다. 저장된 Notebook은 프로젝트에 참여하는 팀원 누구나 언제든지 다시 실행하여 분석 결과를 재확인하거나 공유할 수 있습니다.",
-    "url": "https://supabase.com/blog/explorer-and-notebooks-investigations-your-team-can-rerun",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-10-30T07:00:00.000Z",
-    "fetchedAt": "2026-10-30T19:57:31.082Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.4.11",
-    "title": "1.4.11",
-    "summary": "Added a billing model choice after you sign in with Google Cloud, so you can pick either a Gemini subscription or Pay As You Go.\nAdded terminationBehavior to PreInvocation hooks: returning \"terminate\"",
-    "aiSummary": "Google Cloud 로그인 이후 Gemini 구독과 종량제 과금 방식 중 하나를 선택할 수 있는 기능을 추가하였습니다.\n\nPreInvocation 훅에 terminate 동작이 추가되어 모델 호출 전 프롬프트를 중단할 수 있게 되었으며, 이를 통해 민감한 데이터를 차단하거나 사용자에게 오류 메시지를 전달할 수 있게 되었습니다.\n\nJSON 및 스트림 JSON 출력 형식에 finished_reason 필드가 추가되어 응답이 타임아웃, 중단, 오류 등으로 인해 조기에 종료된 이유를 스크립트가 식별할 수 있도록 개선되었습니다.\n\n플러그인 Discover 탭의 사용자 인터페이스를 개선하여 긴 목록을 효율적으로 탐색할 수 있도록 접기 및 펼치기 기능과 단축키를 도입하였습니다.\n\nClaude Code 마켓플레이스에서 설치된 플러그인 가져오기 기능의 오류를 수정하였습니다. 이제 Claude Code의 설정을 읽어들여 비활성화된 플러그인 등을 제외하며, 원격 MCP 서버 구성과 환경 변수 처리가 최적화되었습니다. 또한 지원되지 않는 레거시 SSE 전송 방식 서버에 대해서는 설치된 것으로 표시하지 않고 경고를 출력하도록 변경되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.4.11",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-10-30T05:55:46.000Z",
-    "fetchedAt": "2026-10-30T19:57:31.082Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

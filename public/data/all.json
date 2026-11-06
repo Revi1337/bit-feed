@@ -1,5 +1,55 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=scala&p=753190",
+    "title": "IntelliJ Scala Plugin 2026.3 Is Out!",
+    "summary": "Hello everyone! Scala plugin 2026.3 is here! This release brings more accurate Scala 3 code analysis, substantially reworked Twirl support for Play Framework developers, and more efficient compiler-ba",
+    "aiSummary": "IntelliJ Scala Plugin 2026.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 Scala 3 코드 분석의 정확성을 대폭 향상했으며 Play Framework 개발자를 위한 Twirl 지원 기능을 전면적으로 개선했습니다.\n\n컴파일러 기반 하이라이팅 성능을 최적화하여 불필요한 백그라운드 작업을 줄임으로써 전체적인 편집 효율을 높였습니다. 이외에도 빌드 툴 지원, 디버깅 기능, 그리고 일상적인 코드 편집 과정에서 발생하는 다양한 문제점들을 보완하여 개발 환경의 안정성을 강화했습니다.",
+    "url": "https://blog.jetbrains.com/scala/2026/11/06/intellij-scala-plugin-2026-3-is-out/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dmitrii Naumenko",
+    "pubDate": "2026-11-06T12:15:21.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.4.0",
+    "title": "v12.4.0",
+    "summary": "v12.4.0 (2026-11-06)\nFeatures\nplatform-node\n\n#18396 feat(node): let the node adapter set locals for every view (@thekhegay)\nBug fixes\nmicroservices\n\n#18418 fix(microservices): ignore an mqtt server's ",
+    "aiSummary": "NestJS v12.4.0 버전 업데이트가 2026년 11월 6일에 배포되었습니다.\n\n주요 기능으로 platform-node 환경에서 모든 뷰에 로컬 변수를 설정할 수 있는 기능이 추가되었으며, core 및 common 모듈에서는 핸들러가 반환하는 웹 응답이나 스트림을 직접 전송할 수 있는 개선 사항이 포함되었습니다.\n\n버그 수정은 microservices, common, platform-node, platform-fastify, core 등 다양한 영역에서 광범위하게 이루어졌습니다. microservices에서는 MQTT 와일드카드 응답 처리 개선, JSON 문자열 패턴 핸들러 인식 오류 수정, gRPC 요청 스트림 옵션 전달 문제 등을 해결하였습니다.\n\nplatform-node와 관련된 수정 사항으로는 Transfer-Encoding 사용 시 Content-Length 생략, 라우트 파라미터 독립성 보장, 뷰 이름 해석 시 후행 슬래시 제거, 템플릿 엔진 지원 강화 등이 포함되었습니다. 또한 express, node, fastify 플랫폼 공통으로 RxJS를 피어 의존성으로 명시하였으며, core 모듈에서는 미들웨어 실행 로직 및 핸들러 메타데이터 캐싱 최적화가 진행되었습니다.\n\n그 외에도 @fastify/cors 의존성이 v11.4.1로 업데이트되는 등 안정성 향상을 위한 작업이 완료되었습니다. 이번 릴리즈에는 총 8명의 기여자가 참여하였습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.4.0",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-06T10:11:54.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.2",
+    "title": "1.5.2",
+    "summary": "Added skills from the cloud plugins you connected with /plugin to --remote-agent sessions, so they now appear in the / menu and can be typed at the start of a message, /skills lists them grouped by pl",
+    "aiSummary": "이번 1.5.2 업데이트에서는 연결된 클라우드 플러그인의 스킬을 remote-agent 세션에서 직접 사용할 수 있도록 기능을 확장했습니다. 이제 / 메뉴를 통해 스킬을 호출하거나 /skills 명령어로 목록을 확인할 수 있습니다.\n\nmacOS 환경에서의 사용자 경험을 개선하여 alt+m과 같은 Option 키 단축키가 터미널 설정 변경 없이도 기본적으로 작동하도록 수정했습니다. 이전 방식을 원할 경우 AGY_CLI_MAC_OPTION_AS_ALT=0 환경 변수를 설정하여 되돌릴 수 있습니다.\n\n보안과 관련해서는 dangerously-skip-permissions 플래그 사용 시 보호 대상 명령어가 자동 승인되지 않도록 제한을 강화했으며 Gemini Enterprise 관리자 정책에 따른 파일 접근 검증 프로세스를 준수하도록 변경했습니다. 또한 외부 파일 접근 시 특정 경로에 대해서만 허용하거나 차단할 수 있도록 세분화했으며 악의적인 플러그인이 파일 시스템의 임의 경로를 덮어쓰거나 심볼릭 링크를 악용하는 것을 방지하는 보안 조치를 적용했습니다.\n\n기타 주요 개선 사항으로 remote-agent 연결 안정성 강화, agy plugin validate 수행 시 불필요한 오류 메시지 감소, 그리고 백그라운드 모델 요청 최적화를 통해 리소스 낭비를 줄였습니다.\n\n오류 수정 사항으로는 --dangerously-skip-permissions 사용 시 subagents가 멈추던 현상 해결, MCP 서버 OAuth 로그인 시 PKCE 인증 오류 수정, MCP 툴 파라미터 전달 문제 해결, 에이전트의 루프 에러 수정 등이 포함되었습니다. 또한 / 메뉴가 현재 세션의 올바른 에이전트 정보를 표시하도록 수정하였으며 remote-agent 세션에서의 대용량 파일 업로드 문제와 중국어 및 일본어 음성 받아쓰기 시의 공백 문제 등을 해결했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.2",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-06T06:08:47.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
     "title": "Usage metrics API adds code review details and addressed rate",
     "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports h",
@@ -29,6 +79,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
+    "title": "Spring Boot 4.2.0-RC2 available now",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "Spring Boot 4.2.0-RC2 버전이 새롭게 출시되었습니다. 이번 릴리스는 정식 출시를 앞둔 후보 버전으로서 해당 프레임워크의 최신 기능과 개선 사항을 포함하고 있습니다. 개발자들은 공식 채널을 통해 해당 버전을 확인하고 프로젝트에 적용해 볼 수 있습니다.",
+    "url": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "mhalbritter",
+    "pubDate": "2026-11-06T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T15:11:25.745Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
