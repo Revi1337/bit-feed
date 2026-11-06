@@ -1,5 +1,85 @@
 [
   {
+    "id": "https://laravel-news.com/phpstorm-2026-3",
+    "title": "PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support",
+    "summary": "PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.\nThe post PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 S",
+    "aiSummary": "PhpStorm 2026.3 버전이 새롭게 출시되면서 PHP 8.6 버전에 대한 지원이 추가되었습니다.\n\n이번 업데이트에는 Laravel을 위한 새로운 코드 검사 기능과 큐 워커를 관리할 수 있는 Processes 탭이 포함되었습니다.\n\n또한 코딩 에이전트를 위한 작업 공간인 Air가 도입되어 개발 생산성을 높일 수 있는 환경을 제공합니다.",
+    "url": "https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-11-06T17:05:13.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/media-entertainment/how-mito-orchestrated-5000-plus-ai-assets-for-a-world-cup-tv-spot/",
+    "title": "The Blueprint: Orchestrating 5,000+ AI assets for a World Cup TV spot",
+    "summary": "Welcome back to The Blueprint, a regular feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. W",
+    "aiSummary": "Mito는 제너레이티브 AI를 활용해 광고 제작 과정을 혁신하고자 하는 기업으로 최근 Telefónica 산하의 Movistar Plus+를 위한 120초 분량의 전국 방송 광고 캠페인을 성공적으로 수행했습니다. 이 과정에서 5,000개 이상의 에셋을 관리하고 수많은 반복 작업을 처리하는 과정에서 인프라 및 워크플로우 병목 현상이라는 기술적 난관에 직면했습니다.\n\n이를 해결하기 위해 Mito는 Google Cloud 기반의 서버리스 비동기 아키텍처를 설계했습니다. Cloud Run을 사용하여 API와 AI Director 등을 Java 서비스로 운영하고 Google Cloud Pub/Sub을 통해 작업을 분산하여 실시간 협업 환경을 구축했습니다. 또한 Vertex AI를 통해 Veo, Omni, Nano Banana와 같은 모델들을 호출하고 Cloud Storage와 Cloud CDN을 활용하여 렌더링 지연 시간을 최소화했습니다.\n\n데이터베이스는 Cloud SQL과 PostgreSQL을 사용하여 부하를 분산하고 효율적인 분석 환경을 마련했습니다. 특히 프론트엔드에서는 Rule of 6라는 구조화된 프롬프트 체계를 도입하여 변수를 통제하고 제작 비용을 최적화했습니다.\n\n이러한 인프라를 통해 Mito는 95% 이상이 AI로 생성된 대규모 캠페인을 성공적으로 송출했습니다. AI Director는 자연어 지시를 정밀한 모델 매개변수로 변환하여 일관된 스타일을 유지했으며 Gemini를 활용한 자동 평가 체계를 통해 결과물의 품질을 관리했습니다. 결과적으로 Mito는 다중 모델 지능형 라우팅과 효율적인 큐 시스템을 결합하여 복잡한 창작 과정에서도 기술적 제약을 극복하고 고품질의 영상 콘텐츠를 제작할 수 있는 기반을 마련했습니다.",
+    "url": "https://cloud.google.com/blog/products/media-entertainment/how-mito-orchestrated-5000-plus-ai-assets-for-a-world-cup-tv-spot/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Iñaki Berenguer"
+      ],
+      "title": [
+        "CEO, Mito"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-06T17:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
+    "title": "Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems",
+    "summary": "Today, we’re excited to announce the general availability of our next-generation Storage-optimized Z4M machine series in Google Compute Engine, available as both Virtual Machine (VM) and bare-metal in",
+    "aiSummary": "Google Cloud가 AI 및 머신러닝 워크로드의 데이터 처리와 대규모 병렬 파일 시스템 운영을 지원하는 차세대 스토리지 최적화 머신 시리즈인 Z4M을 정식 출시했습니다. Z4M은 가상 머신과 베어메탈 인스턴스 형태로 제공되며, 5세대 Intel Xeon Scalable 프로세서와 Titanium 기술을 결합하여 강력한 컴퓨팅 자원을 제공합니다.\n\n이번 제품은 최대 168,000 GiB의 Local SSD 스토리지를 지원하며, 기존 Z3 대비 랜덤 읽기 IOPS는 최대 70%, 순차 읽기 처리량은 최대 110% 향상된 성능을 갖추었습니다. 또한 400 Gbps의 Cloud RDMA 네트워킹을 통해 TCP 대비 데이터 접근 지연 시간을 최대 60%까지 단축하여, GPUDirect Storage 및 TPUDirect Storage와 연동 시 GPU와 TPU의 활용도를 극대화할 수 있습니다.\n\n베어메탈 인스턴스는 가상화 계층 없이 물리적 하드웨어에 직접 접근할 수 있어 커스텀 하이퍼바이저 운영이나 특정 라이선스가 필요한 워크로드에 최적화되어 있습니다. 특히 에이전틱 AI를 활용하는 개발자들에게 고립된 샌드박스 환경을 대규모로 제공하는 데 유리합니다.\n\n관리 편의성을 위해 Google Cloud의 Cluster Director를 통한 클러스터 배포 및 관리가 지원되며, Hyperdisk Balanced, Throughput, Extreme 등 다양한 스토리지 옵션과 호환되어 워크로드별로 성능과 용량을 독립적으로 조정할 수 있습니다. 유지보수 측면에서는 대용량 스토리지 인스턴스의 경우 사전 고지 후 재시작 방식을 따르며, 일정 용량 이하의 가상 머신은 라이브 마이그레이션을 지원합니다.\n\n업계 파트너인 Nutanix, Silk, Sycomp, WEKA 등은 Z4M이 제공하는 높은 스토리지 밀도와 향상된 IOPS 성능, 그리고 RDMA 기반의 낮은 지연 시간이 데이터 집약적인 AI 작업과 엔터프라이즈 데이터베이스 운영에 큰 효율을 제공한다고 평가하고 있습니다. 현재 Z4M은 일부 리전에서 먼저 도입되었으며, Google Cloud 콘솔을 통해 사용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "bob Napaa"
+      ],
+      "title": [
+        "Product Management"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-06T17:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=scala&p=753190",
     "title": "IntelliJ Scala Plugin 2026.3 Is Out!",
     "summary": "Hello everyone! Scala plugin 2026.3 is here! This release brings more accurate Scala 3 code analysis, substantially reworked Twirl support for Play Framework developers, and more efficient compiler-ba",
@@ -30,6 +110,38 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/",
+    "title": "Zero-shot predictions in Pandas using the new BigQuery Accessor",
+    "summary": "Imagine running advanced machine learning workflows—from forecasting and classification to high-dimensional embedding generation—without ever leaving your familiar pandas DataFrame. With the new .bigq",
+    "aiSummary": "BigFrames 라이브러리가 제공하는 .bigquery 접근자를 통해 pandas DataFrame 환경을 벗어나지 않고도 BigQuery의 엔터프라이즈급 AI 기능을 활용할 수 있게 되었습니다. 사용자가 pandas 객체에서 함수를 호출하면, BigFrames는 이를 Google Cloud의 표준 SQL로 변환하여 처리를 위임하고 그 결과를 다시 pandas 객체 형태로 반환합니다.\n\n이 기능을 활용하면 회귀 분석, 시계열 예측, 텍스트 임베딩 생성, 유사도 측정 및 자연어 기반의 데이터 필터링 등 복잡한 머신러닝 워크플로우를 단순화할 수 있습니다. 특히 TabFM 모델을 활용한 예측이나 TimesFM 3.0 모델을 활용한 시계열 분석 등을 별도의 로컬 학습 과정 없이 즉시 실행할 수 있다는 것이 장점입니다.\n\n데이터 처리 과정에서 ai.if_()와 같은 함수는 비용 최적화 모드를 지원하여 로컬 모델과 Gemini를 효율적으로 조합해 운영 효율성을 높여줍니다. 개발자는 복잡한 환경 설정이나 데이터 추출 과정 없이 익숙한 Python 데이터 구조 안에서 확장성 있는 머신러닝 파이프라인을 구축하고 관리할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Shenyang Cai"
+      ],
+      "title": [
+        "Senior Software Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-06T08:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -82,6 +194,54 @@
     ]
   },
   {
+    "id": "https://rubyonrails.org/2026/11/6/this-week-in-rails",
+    "title": "This Week in Rails: November 6, 2026",
+    "summary": "Hi, it’s Greg, bringing you the latest changes in the Rails codebase. It was a busy week, with a lot of changes, so buckle up!\nRails 8.0.5.2 and 8.1.4.1 have been released!\nThese are security releases",
+    "aiSummary": "Rails 8.0.5.2와 8.1.4.1 버전이 보안 업데이트로 출시되었습니다. 이번 업데이트는 총 21개의 보안 문제를 해결하므로 반드시 업그레이드가 필요합니다.\n\n핵심 업데이트 내용은 다음과 같습니다.\n\nActiveRecord와 관계된 수정 사항으로는 default_order와 관련된 다양한 예외 처리가 개선되었습니다. 특히 preloading 수행 시 default_order가 무시되던 현상, 집계 계산 시 default_order가 포함되어 발생하던 SQL 오류, 그리고 limit이나 offset 사용 시 발생하던 문제들이 해결되었습니다. 또한 in_order_of 및 with_recursive 관계 병합 시의 동작 오류가 수정되었고, one?과 many? 메서드가 그룹화된 관계에서도 정확하게 작동하도록 개선되었습니다.\n\n캐시 관련 개선 사항으로는 LocalCache의 일관성 유지를 위해 MemCacheStore의 배치 작업인 delete_multi와 write_multi에 로컬 캐시 훅이 추가되었습니다. 이로써 배치 작업 이후에도 캐시 데이터의 정합성이 보장됩니다.\n\n기타 주요 변경 사항은 다음과 같습니다.\nRAILS_MASTER_KEY 환경 변수에 쉼표로 구분된 여러 키를 입력할 수 있게 되어 키 교체 시 유연성이 확보되었습니다.\nLink 헤더의 URL에 특수 문자가 포함될 경우 발생하던 파싱 문제를 해결하기 위해 퍼센트 인코딩이 적용되었습니다.\nActiveStorage의 ffprobe 분석 시 중복 키로 인한 JSON 파서 오류를 방지하도록 변경되었습니다.\n데이터베이스 연결 풀에서 대기 시간이 발생할 경우 checkout_wait.active_record 알림을 통해 이를 측정할 수 있게 되었습니다.\nPostgreSQL에서 발생하는 널 바이트 오류를 별도의 ActiveRecord::NullByteError로 처리하도록 변경하여 예외 처리가 명확해졌습니다.\n새로운 앱 생성 시 기본적으로 Capybara와 Selenium을 부팅 시점에 로드하지 않도록 하여 불필요한 리소스 사용을 줄였습니다.\n\n이외에도 서브클래스 상속 시의 enum, 속성 별칭, 애그리게이션, 연관 관계 전파 문제 등이 다수 해결되어 전반적인 프레임워크 안정성이 강화되었습니다.",
+    "url": "https://rubyonrails.org/2026/11/6/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Greg",
+    "pubDate": "2026-11-06T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/how-elastic-supports-the-community-cyber-resilience-foundation",
+    "title": "Scaling cyber protection for US critical infrastructure: How Elastic supports the Community Cyber Resilience Foundation",
+    "summary": "Elastic powers critical cybersecurity capabilities within the Dragos Platform, helping the new Community Cyber Resilience Foundation protect under-resourced US water, electric, and natural gas utiliti",
+    "aiSummary": "Elastic은 Dragos Platform의 핵심 사이버 보안 기능을 지원하는 역할을 수행합니다. 이를 통해 새롭게 설립된 Community Cyber Resilience Foundation이 보안 자원이 부족한 미국의 수도, 전기, 천연가스 관련 공공시설을 사이버 위협으로부터 보호할 수 있도록 돕고 있습니다. 특히 중요 기반 시설의 보안 역량을 강화하여 국가적 차원의 안전을 도모하는 데 기여하고 있습니다.",
+    "url": "https://www.elastic.co/blog/how-elastic-supports-the-community-cyber-resilience-foundation",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Allison Halataei,Chris Townsend",
+    "pubDate": "2026-11-06T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/voice-chat",
+    "title": "Voice Chat with Agents",
+    "summary": "Nov 6, 2026 · ChangelogVoice Chat with AgentsYou can now talk with your agents in a realtime voice call. Describe a change out loud, ask what an agent is working on, and hear updates as the work moves",
+    "aiSummary": "Cursor가 에이전트와 실시간 음성 대화를 나눌 수 있는 새로운 기능을 업데이트했습니다. 이제 사용자는 음성으로 변경 사항을 지시하거나 에이전트의 작업 현황을 확인하고, 실시간 업데이트를 들을 수 있습니다. 해당 기능은 Agents Window, IDE, 웹, 그리고 Cursor for iOS에서 모두 지원됩니다.\n\n음성 채팅은 에이전트가 대기 상태일 때 입력창의 파형 버튼을 눌러 시작할 수 있으며, iOS 환경에서는 Hey Siri, call Cursor 명령어를 통해 즉시 호출하거나 잠금 화면의 Live Activity 기능을 활용해 제어할 수 있습니다. \n\n에이전트가 작업을 수행하는 동안에도 대화는 지속됩니다. 사용자는 코드 변경 내용을 질문하거나 작업 진행 상황을 확인하고, 프로젝트 내의 다른 작업자로 전환할 수 있습니다. 에이전트 또한 스스로 작업 진행 상황과 완료 여부를 짧게 음성으로 공유하여 효율적인 소통을 돕습니다.\n\n음성 기술은 Grok Voice를 기반으로 하며 Ara, Eve, Leo, Rex, Sal 등 다양한 음성 옵션을 제공합니다. Privacy Mode를 활성화할 경우 음성 데이터는 저장되지 않습니다. 기존의 음성 입력 방식인 dictation 기능과는 별개로 동작하며, 음성 채팅은 에이전트와 직접 대화하는 양방향 소통 방식으로 구현되었습니다. 이용을 위해서는 Cursor를 최신 버전으로 업데이트해야 합니다.",
+    "url": "https://www.cursor.com/changelog/voice-chat",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-11-06T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "Cursor",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
     "title": "Spring Boot 4.2.0-RC2 available now",
     "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
@@ -95,6 +255,38 @@
     "tags": [
       "Spring",
       "Java"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/",
+    "title": "Bringing conversational analytics to Gemini with Agentic Data Cloud connectors",
+    "summary": "Data Cloud connectors in Gemini for business, now in preview, give business users and analysts a direct way to query live enterprise data in natural language. Across most organizations, data questions",
+    "aiSummary": "Google Cloud는 기업용 Gemini에서 사용자가 자연어로 엔터프라이즈 데이터를 직접 질의할 수 있는 Data Cloud 커넥터를 프리뷰로 공개했습니다. 이 기술은 복잡한 SQL 작성이나 데이터 웨어하우스 구조를 알지 못해도 BigQuery, Spanner, AlloyDB, Cloud SQL, Looker 등 다양한 데이터 소스에 접근하여 분석 결과를 얻을 수 있게 합니다.\n\nData Cloud 커넥터는 Knowledge Catalog를 활용하여 데이터의 의미를 파악하고 문맥을 매핑하며, 사용자별 데이터 접근 권한과 보안 규정을 그대로 준수합니다. 특히 데이터를 복제하지 않고 제자리에서 질의하는 연합 질의 방식을 사용하며, 행 및 열 수준의 보안 설정을 유지하여 거버넌스 요구 사항을 충족합니다.\n\nGemini는 데이터 분석을 위해 두 가지 경로를 제공합니다. 첫째는 사용자가 즉각적인 탐색 분석을 수행하는 Data Cloud 커넥터 방식이며, 둘째는 데이터 팀이 특정 목적에 맞춰 미리 설정하고 인증한 데이터를 활용하는 Conversational Analytics 에이전트 방식입니다. 이 두 방식은 상호 보완적으로 작동하여 사용자가 상황에 맞는 최적의 분석 도구를 선택할 수 있도록 돕습니다.\n\n또한 Data Cloud 커넥터는 외부 MCP 서버를 직접 설정하는 것보다 높은 분석 정확도와 간편한 인증 관리 환경을 제공합니다. 관리자는 Gemini 관리 콘솔에서 커넥터를 구성하여 데이터 접근 정책을 제어할 수 있으며, 분석 결과는 바로 Google Docs나 Gmail, Google Slides와 같은 업무 도구로 전송하여 활용할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Leigha Reid"
+      ],
+      "title": [
+        "Senior Product Manager, Data Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-05T23:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -49430,6 +49622,22 @@
     "tags": [
       "Sublime Text",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-express-migration-program",
+    "title": "Elastic launches Express Migration program for Splunk customers",
+    "summary": "The Elastic Express Migration program eases your transition from Splunk to Elastic Security, accelerating adoption and reducing total cost of ownership.",
+    "aiSummary": "Elastic은 Splunk 사용자가 Elastic Security로 원활하게 전환할 수 있도록 돕는 Express Migration 프로그램을 출시했습니다. 해당 프로그램은 시스템 이전을 가속화하고 전반적인 소유 비용을 절감하는 데 목적을 두고 있습니다. 이를 통해 기업은 기존 Splunk 환경에서 Elastic의 보안 솔루션으로 보다 효율적이고 경제적으로 이동할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-express-migration-program",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Santosh Krishnan",
+    "pubDate": "2024-08-07T07:00:00.000Z",
+    "fetchedAt": "2026-11-06T20:57:04.049Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
