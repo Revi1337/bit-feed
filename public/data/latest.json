@@ -1,5 +1,263 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "title": "Usage metrics API adds code review details and addressed rate",
+    "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports h",
+    "aiSummary": "GitHub의 Enterprise 및 Organization 리포지토리 단위 Copilot 사용량 메트릭 보고서에 코드 리뷰 관련 정보가 추가되었습니다.\n\n각 리포지토리의 일일 데이터 내에 새롭게 copilot_code_review 객체가 포함되어 Copilot이 검토한 코드의 수량과 사용자에게 전달된 피드백 처리 현황을 확인할 수 있게 되었습니다.\n\n이를 통해 개발 조직은 Copilot의 코드 리뷰 기능을 통한 기여도를 더 정밀하게 측정하고 실제 개발 생산성에 미치는 영향을 구체적으로 분석할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-06T00:19:07.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+    "title": "Usage metrics API flags telemetry and version gaps",
+    "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in…\nThe post Usag",
+    "aiSummary": "GitHub의 Copilot usage metrics API가 업데이트되어 사용자별 데이터 가시성을 강화합니다.\n\n이번 업데이트를 통해 API는 특정 사용자가 클라이언트 원격 측정 데이터를 전송하지 않거나, 분석에 필요한 최소 IDE 및 확장 프로그램 버전을 충족하지 못하는 경우를 명확하게 식별합니다.\n\n이제 API 응답에 추가된 새로운 사용자별 필드를 통해 관리자는 데이터 누락 지점을 즉각적으로 파악하고 해결할 수 있게 되었습니다. 이를 통해 조직 내 개발 환경의 버전 파편화 문제를 줄이고 보다 정확한 사용량 집계가 가능해질 것으로 보입니다.",
+    "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-06T00:08:31.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=753700",
+    "title": "The Kotlin Multiplatform Contest Is Open: Win a Trip to KotlinConf",
+    "summary": "The Kotlin Multiplatform Contest is back!  Students and recent graduates, turn your idea into a cross-platform project with Kotlin Multiplatform (KMP).  The authors of the top three projects will each",
+    "aiSummary": "Kotlin Foundation이 주최하는 Kotlin Multiplatform Contest가 새롭게 시작됩니다. 이번 대회는 학생과 최근 졸업생을 대상으로 하며 Kotlin Multiplatform을 활용해 자신만의 아이디어를 크로스 플랫폼 프로젝트로 구현하는 것을 목표로 합니다.\n\n상위 3개 프로젝트로 선정된 참가자에게는 폴란드 Kraków에서 개최되는 KotlinConf 2027 참가를 위한 항공권과 숙박비 전액 및 컨퍼런스 티켓이 제공됩니다. 유효한 프로젝트를 제출한 모든 참가자에게도 혜택이 주어질 예정입니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-multiplatform-contest-2027/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "2026-11-05T22:05:21.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=753700",
+    "title": "The Kotlin Multiplatform Contest Is Open: Win a Trip to KotlinConf",
+    "summary": "The Kotlin Multiplatform Contest is back!  Students and recent graduates, turn your idea into a cross-platform project with Kotlin Multiplatform (KMP).  The authors of the top three projects will each",
+    "aiSummary": "Kotlin Foundation이 Kotlin Multiplatform 기술을 활용한 프로젝트를 대상으로 하는 Kotlin Multiplatform Contest를 개최합니다. 이번 대회는 학생과 최근 졸업생들을 주요 대상으로 하며 참가자들은 KMP를 활용하여 독창적인 크로스 플랫폼 프로젝트를 개발해야 합니다.\n\n최종 우승자로 선정된 상위 3명의 개발자에게는 폴란드 크라쿠프에서 열리는 KotlinConf 2027에 참가할 기회가 주어집니다. 우승자에게는 왕복 항공권과 숙박비, 그리고 컨퍼런스 입장권이 전액 지원됩니다. 유효한 프로젝트를 제출한 다른 참가자들에게도 추가적인 혜택이 제공될 예정입니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-multiplatform-contest-2027/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "2026-11-05T22:05:21.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "summary": "Nov 05, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Gemini Omni 1.2 Flash brings 15-second cli",
+    "aiSummary": "Google은 영상 생성 및 편집 기능을 대폭 강화한 Gemini Omni 1.2 Flash를 정식 출시했습니다. 이번 업데이트를 통해 기존 10초였던 영상 생성 길이는 최대 15초까지 확장되었으며 사용자는 3초에서 15초 사이에서 초 단위로 영상 길이를 조정할 수 있습니다. 가격은 기존 Omni 1.1 대비 30% 저렴해진 초당 0.07달러로 책정되어 기업과 크리에이터들이 더욱 경제적으로 고품질 영상을 제작할 수 있게 되었습니다.\n\n핵심적인 기술 개선 사항은 참조 이미지나 영상에 대한 일관성 유지 능력이 향상되었다는 점입니다. 캐릭터나 제품의 외형, 브랜드 고유의 색상, 텍스트 스타일 등이 영상 전체에 걸쳐 흔들림 없이 유지되므로 가상 피팅이나 제품 광고 제작에 더욱 최적화되었습니다. 또한 대화형 편집 기능을 통해 전체 영상을 처음부터 다시 생성할 필요 없이 특정 배경이나 조명, 제품 등을 단계별로 수정할 수 있어 작업 효율성이 크게 높아졌습니다.\n\n이외에도 자연스러운 대화와 향상된 립싱크, 복잡하고 연속적인 카메라 움직임 구현 등이 가능해져 더욱 영화 같은 결과물을 얻을 수 있습니다. Gemini Omni 1.2 Flash는 현재 Gemini API와 Google Cloud의 Vertex AI를 통해 개발자와 기업 고객에게 제공되며 Google Vids, Flow, Google Ads 등 다양한 Google 서비스에서도 순차적으로 활용할 수 있게 됩니다. 모든 생성 결과물에는 SynthID 워터마크가 적용되어 보안과 책임 있는 AI 사용을 지원합니다.",
+    "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-05T17:05:16.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-an-agent-skill-optimizer-with-alphaevolve-and-harbor/",
+    "title": "Building an agent skill optimizer with AlphaEvolve, Harbor and Gemini 4 Argon",
+    "summary": "Every day, more and more people are using coding agents like Google Antigravity and OpenCode to complete software engineering tasks. But those tools need instructions to operate and their output is on",
+    "aiSummary": "Google Antigravity나 OpenCode와 같은 코딩 에이전트의 성능을 높이기 위해서는 에이전트의 작업 방식을 제어하는 스킬의 최적화가 필수적입니다. 하지만 수동으로 작성된 스킬은 효율성을 검증하기 어렵다는 문제가 있습니다. 이를 해결하기 위해 AlphaEvolve, Harbor, 그리고 Gemini 4 Argon을 결합하여 에이전트 스킬을 자동 최적화하는 루프를 구축하는 방법이 제시되었습니다.\n\n이 최적화 과정은 스킬을 일종의 프로그램으로 취급하여 AlphaEvolve가 Gemini를 통해 스킬 내용을 재작성하도록 하는 방식으로 진행됩니다. 이후 Harbor는 실제 작업 환경에서 에이전트를 구동하여 성능을 평가하며, 평가 결과와 피드백을 다시 AlphaEvolve에 전달하여 더 나은 버전의 스킬을 생성하는 반복 구조를 갖추었습니다. 신뢰할 수 있는 평가를 위해 기준 스킬과 새로운 스킬을 동시에 실행하여 결과를 비교하고, 학습되지 않은 작업에 대해 최종 검증을 수행하는 절차를 포함합니다.\n\n실험 결과 AlphaEvolve는 에이전트의 주요 실패 원인이었던 시간 초과 문제를 식별하고 이를 극복할 수 있는 최적의 스킬을 찾아내는 성과를 보였습니다. 또한 최적화 과정에서 모델의 지연 시간 관리와 방대한 로그 저장 공간 확보가 중요함을 확인하였습니다. 현재 이 기술은 엔터프라이즈 환경에서의 비즈니스 규칙 최적화 및 정책 오류 수정 등의 영역으로 확장되어 연구되고 있으며, 추후 더 광범위한 테스트 결과를 공유할 예정입니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-an-agent-skill-optimizer-with-alphaevolve-and-harbor/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ivan Nardini"
+      ],
+      "title": [
+        "AI Developer Relations Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
+    "title": "Semantic aggregation over millions of rows in BigQuery with AI.AGG",
+    "summary": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in s",
+    "aiSummary": "Google Cloud는 대규모 비정형 데이터를 처리하기 위한 새로운 SQL 함수인 AI.AGG를 프리뷰 버전으로 공개했습니다. 이 기능은 수백만 행의 텍스트 및 멀티모달 데이터를 SQL 쿼리 하나로 통합하고 요약할 수 있게 지원합니다. 기존의 LLM 컨텍스트 윈도우 제한 문제를 해결하기 위해 AI.AGG는 데이터를 동적으로 배치 처리하고 재귀적으로 합성하는 분산 Map-Reduce 아키텍처를 내부적으로 활용합니다.\n\n데이터 처리 과정은 먼저 행 단위 유효성을 검사한 뒤 토큰 제한에 맞춰 데이터를 그룹화합니다. 이후 Vertex AI의 Gemini 모델이 병렬로 추론을 수행하며, 중간 결과물을 다시 결합하여 최종 요약본을 생성하는 방식입니다. 이를 통해 DevOps 팀은 방대한 시스템 로그에서 근본 원인을 분석하거나, 고객 지원 티켓을 자동으로 분류하여 데이터 파이프라인을 구축하는 등 복잡한 데이터 엔지니어링 작업 없이도 정교한 통찰을 얻을 수 있습니다.\n\nAI.AGG를 효과적으로 활용하려면 프롬프트를 API 계약처럼 엄격하게 설계하는 것이 중요합니다. 출력 형식을 JSON으로 고정하거나 예시를 제공하는 방식의 프롬프트 엔지니어링이 필요하며, 비용 관리를 위해 쿼리 실행 전 필터링과 토큰 수 예측을 권장합니다. 또한 VPC Service Controls를 포함한 기존의 BigQuery 보안 프레임워크 내에서 안정적으로 작동하며, 특정 오류 발생 시 전체 쿼리가 중단되지 않고 유연하게 처리되는 관리 기능을 갖추고 있습니다.\n\n이 기술은 단순한 데이터 저장소를 넘어 비정형 데이터를 실시간으로 해석하고 지능적인 결과를 도출하는 의미론적 런타임으로 데이터 웨어하우스를 진화시키고 있습니다. 현재는 2천만 행 이하의 데이터 처리와 1천 개 이하의 SQL 그룹화를 권장하며, 기업은 이를 통해 데이터 분석의 효율성과 범위를 획기적으로 확장할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Pramod Niralakeri"
+      ],
+      "title": [
+        "Strategic Cloud Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
+    "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
+    "summary": "Today, Gemini Omni 1.2 Flash is generally available on Google Cloud. Built for the everyday videos businesses make in volume — like product videos, virtual try-ons, and ads — this model is fast, cost-",
+    "aiSummary": "Google Cloud는 기업용 영상 생성 및 편집에 최적화된 Gemini Omni 1.2 Flash를 정식 출시합니다. 이번 모델은 기존 Gemini Omni 1.1 Flash 대비 30% 저렴한 비용으로 제공되며, 720p 영상 기준 초당 0.07달러의 효율적인 가격 체계를 갖추었습니다.\n\n주요 성능 향상으로 영상 생성 길이는 기존 10초에서 15초로 늘어났으며, 이미지와 영상 참조 기능을 강화하여 피사체, 캐릭터, 브랜드 디테일의 일관성을 높였습니다. 또한 360p 또는 720p로 초안을 빠르게 생성한 뒤 1080p나 4K로 업스케일링할 수 있는 기능을 지원하며, 자연스러운 대화와 향상된 립싱크, 다중 화자 음성 처리 능력을 확보했습니다. 특히 대화형 인터페이스를 통해 영상의 조명, 카메라 각도, 제품 등을 원본 손상 없이 부분적으로 수정하는 편집 작업이 가능해졌습니다.\n\nGemini Omni 1.2 Flash는 Google Cloud의 엔터프라이즈급 인프라와 보안을 기반으로 하며, SynthID 워터마크가 적용되어 제작 환경에서 즉시 활용 가능합니다. 기업 사용자는 Gemini for business와 Google Vids를 통해 영상 제작에 활용할 수 있고, 개발자는 API를 통해 독자적인 애플리케이션에 해당 기능을 통합할 수 있습니다. 현재 Artlist, FLORA, invideo, Krea, Picsart, Runway, Photoroom, QuickFrame AI 등 다양한 기업들이 제품 광고, 콘텐츠 제작, 워크플로우 효율화를 위해 이 모델을 채택하고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "John Nack"
+      ],
+      "title": [
+        "Sr. Product Manager, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "aiSummary": "Google은 최신 모델인 Gemini Omni 1.2 Flash를 공개하며 성능 향상과 비용 절감을 동시에 실현했습니다.\n\n이번 업데이트를 통해 해당 모델은 15초 분량의 영상을 직접 생성하고 편집하는 기능을 기본적으로 지원하며, 기존 대비 영상 생성의 일관성이 한층 강화되었습니다.\n\n또한 사용자의 이용 부담을 줄이기 위해 기존 모델보다 가격을 30퍼센트 낮게 책정하여 효율성을 높였습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Anish Nangia"
+      ],
+      "title": [
+        "Product Manager, Google DeepMind"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=55557",
+    "title": "WooCommerce Analytics with DuckDB",
+    "summary": "MySQL and DuckDB Unlike row-oriented databases, which store data for a single record sequentially on disk, favoring single-row lookups, columnar databases store all the values from a column contiguous",
+    "aiSummary": "MySQL과 같은 행 지향 데이터베이스는 단일 레코드 조회에는 적합하지만 분석용 데이터 처리에는 비효율적입니다. 반면 DuckDB는 컬럼 단위로 데이터를 저장하는 열 지향 방식을 채택하여 필요한 데이터만 효율적으로 읽어올 수 있습니다. WooCommerce 환경에서 InnoDB 엔진 기반의 MySQL을 사용할 경우 복잡한 분석 쿼리 수행 시 성능 한계가 발생할 수 있습니다. 이를 해결하기 위해 MySQL 데이터를 DuckDB로 연동하여 분석 속도와 효율성을 높이는 방법이 주목받고 있습니다.",
+    "url": "https://www.percona.com/blog/woocommerce-analytics-with-duckdb/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Juan Arruti",
+    "pubDate": "2026-11-05T16:31:19.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=rust&p=751191",
+    "title": "RustRover 2026.3 Is Out: JetBrains Air, Clearer Debugger Views, and Agents That Debug With You",
+    "summary": "Fixing a bug starts with understanding what your code is doing at runtime: reading the program state, following the call stack, or tracking down a slow function. RustRover 2026.3 makes that work easie",
+    "aiSummary": "JetBrains가 RustRover 2026.3 버전을 공개했습니다. 이번 업데이트의 핵심은 런타임 환경에서 코드의 동작을 더 명확하게 파악할 수 있도록 개선된 디버거 뷰입니다.\n\n개발자는 이제 코드 상태를 읽거나 호출 스택을 추적하는 과정을 더욱 직관적으로 수행할 수 있습니다. 특히 새롭게 도입된 JetBrains Air 레이어는 AI 에이전트와의 협업을 지원하여, 개발자와 AI가 함께 실시간으로 버그를 디버깅할 수 있는 환경을 제공합니다. \n\n이러한 기능들은 복잡한 Rust 프로젝트에서 성능 저하를 일으키는 함수를 추적하거나 런타임 이슈를 해결하는 데 소요되는 시간을 크게 단축해 줍니다. 이번 릴리스는 개발자의 생산성 향상을 위해 지능형 보조 기능과 시각적 편의성을 결합하는 데 중점을 두었습니다.",
+    "url": "https://blog.jetbrains.com/rust/2026/11/05/new-in-rustrover-2026-3/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Irina Mihajlovic",
+    "pubDate": "2026-11-05T15:53:42.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+    "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+    "summary": "This update expands secret scanning’s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alib",
+    "aiSummary": "GitHub가 자사의 Secret scanning 기능을 업데이트하며 새로운 파트너십과 탐지 범위를 확장합니다.\n\n이번 업데이트를 통해 SpaceX가 새로운 Secret scanning 파트너로 합류하였으며 이에 따라 starlink_public_api_v2_secret을 탐지할 수 있는 신규 탐지기가 추가되었습니다.\n\n이와 함께 Alibaba, AWS, Google, OpenVSX, Pydantic Services 등 기존 파트너들에 대한 탐지기 성능도 함께 향상되었습니다. 이를 통해 개발자는 코드 저장소 내 민감한 정보 유출을 더욱 효과적으로 방지할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-05T15:48:50.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.mongodb.com/company/blog/innovation/why-actionable-banking-is-critical-stepping-stone-full-autonomy",
     "title": "Why Actionable Banking Is the Critical Stepping Stone to Full Autonomy",
     "summary": "Almost nothing is as important to someone today as their financial health. Most of us want to stay on top of what's happening with our bank accounts, like when a deposit clears so we can pay bills, if",
@@ -77,6 +335,22 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-herd-2",
+    "title": "Laravel Herd 2: Coding Agents, Workspaces, and Cloud Deploys",
+    "summary": "Laravel Herd 2.0 adds Herd Studio for running coding agents on local sites, git workspaces for parallel work, and Laravel Cloud deploys.\nThe post Laravel Herd 2: Coding Agents, Workspaces, and Cloud D",
+    "aiSummary": "Laravel Herd 2.0이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 로컬 사이트에서 코딩 에이전트를 실행할 수 있는 Herd Studio 기능이 추가된 것입니다.\n\n또한 여러 프로젝트를 병렬로 작업할 수 있도록 지원하는 git workspaces 기능과 Laravel Cloud를 통한 배포 기능이 도입되었습니다. 이를 통해 개발자는 개발 환경 구축부터 배포까지의 과정을 더욱 효율적으로 관리할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-herd-2?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-11-05T14:05:05.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -176,6 +450,22 @@
     ]
   },
   {
+    "id": "https://www.swift.org/blog/gsoc-2026-showcase/",
+    "title": "GSoC 2026 Showcase",
+    "summary": "The Swift project once again participated in Google Summer of Code in 2026, pairing newcomers to open source with mentors to build new features for Swift and its ecosystem.\nThis year, we ran three pro",
+    "aiSummary": "Swift 프로젝트가 Google Summer of Code 2026에 참여하여 총 세 가지의 주요 기능을 성공적으로 개발했습니다.\n\n첫 번째 프로젝트는 Padmashree S S가 수행한 SourceKit-LSP 내 DocC 언어 기능 구현입니다. 이를 통해 문서 주석 내 심볼 링크의 정의로 이동하는 기능과 DocC 마크다운 파일에 대한 문법 강조가 가능해졌습니다. 이러한 기능은 Language Server Protocol을 지원하는 모든 편집기에서 사용할 수 있습니다.\n\n두 번째 프로젝트는 Ege Kaya가 담당한 Swift Concurrency를 위한 Task 및 TaskGroup 추적 기능입니다. 프로세스 내 활성 상태의 작업을 기록하는 고성능 레지스트리를 구축하여 디버거인 lldb 등이 실행 중인 작업을 모니터링하고 지연 문제를 진단할 수 있게 되었습니다. 설계 단계에서 64개의 독립적인 리스트로 작업을 분할하여 성능 저하를 최소화했습니다.\n\n세 번째 프로젝트는 Filip Sakel이 진행한 swift-syntax를 위한 정규화된 이름 조회 기능입니다. 기존에는 코드 구조 파악만 가능했으나 이번 업데이트를 통해 SwiftLexicalLookup 모듈 내에서 문맥을 고려한 이름 조회가 가능해졌습니다. 이로써 매크로, 린터, 코드 생성기를 개발하는 사용자들이 외부 라이브러리 없이도 복잡한 타입 및 멤버 참조 관계를 정확하게 파악할 수 있게 되었습니다.",
+    "url": "https://www.swift.org/blog/gsoc-2026-showcase/",
+    "category": "프로그래밍 언어",
+    "source": "Swift Blog",
+    "author": "Konrad ‘ktoso’ Malawski",
+    "pubDate": "2026-11-05T11:30:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "Swift",
+      "Apple"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=clion&p=751385",
     "title": "CLion 2026.3 Is Here",
     "summary": "With JetBrains Air, agent-assisted embedded debugging and CMake project setup, plus support for NVIDIA CUDA Tile C++ and ISPC. CLion 2026.3 is now available. This latest version of the JetBrains IDE f",
@@ -189,6 +479,39 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-6-cyber",
+    "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+    "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+    "aiSummary": "OpenAI가 사이버 보안 분야를 위한 새로운 모델인 GPT-6 Cyber를 공개하였습니다.\n\n해당 모델은 시스템 내의 취약점을 탐색하고 이를 해결하기 위한 수정 방안을 개발하는 기능을 수행합니다. 특히 보안 전문가들이 허가한 범위 내에서만 작동하도록 학습되어 안전한 환경에서 취약점을 점검하는 데 특화되어 있습니다.",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-05T09:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-12-05-new-pull-request-overview-page-in-public-preview",
+    "title": "New pull request overview page in public preview",
+    "summary": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still…\nThe post New pull requ",
+    "aiSummary": "GitHub가 긴 Pull Request에서 발생하는 사용자의 불편함을 개선하기 위해 새로운 Pull Request 개요 페이지를 공개 프리뷰 형태로 선보입니다. 기존에는 수많은 댓글과 타임라인 이벤트를 일일이 스크롤해야만 Merge Box에 도달할 수 있었으나, 이제는 개요 페이지를 통해 병합을 차단하는 요소를 즉시 확인하고 효율적으로 관리할 수 있습니다. 이번 업데이트는 대규모 코드 검토 과정에서 작업 흐름을 최적화하고 사용자 경험을 향상하는 데 목적을 두고 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-05T08:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -206,6 +529,38 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/05/spring-cloud-2026-0-0-RC2-has-been-released",
+    "title": "Spring Cloud 2026.0.0-RC2 (aka Paddington) Has Been Released",
+    "summary": "On behalf of the community, I am pleased to announce that the Release Candidate 2 (RC2) of the Spring Cloud 2026.0.0-RC2 (https://cloud.spring.io/) Release Train is available today. The release can be",
+    "aiSummary": "Spring Cloud 2026.0.0-RC2 버전(코드네임 Paddington)이 새롭게 출시되었습니다. 이번 릴리스는 Spring Boot 4.2.0-RC2를 기반으로 하며 다양한 주요 모듈의 업데이트를 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다. \n\nSpring Cloud Config에서는 Google Cloud Storage를 Config Server의 백엔드로 지원하며, 일반 텍스트 및 바이너리 파일을 리소스로 가져올 수 있는 기능이 추가되었습니다.\n\nSpring Cloud Gateway는 Spring Cloud Gateway Server Web MVC 환경에서 LocalResponseCache 필터를 지원합니다.\n\nSpring Cloud Openfeign에서는 @SpringQueryMap 사용 시 중첩된 객체를 중첩 쿼리 매개변수로 전송하도록 개선되었습니다.\n\n이번 릴리스에는 Spring Cloud Build, Circuitbreaker, Commons, Config, Consul, Function, Gateway, Kubernetes, Netflix, Openfeign, Stream, Task, Vault, Zookeeper 등 다수의 모듈이 5.1.0-RC2 버전으로 함께 업데이트되었습니다. 상세한 변경 이력은 GitHub 프로젝트 보드와 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/11/05/spring-cloud-2026-0-0-RC2-has-been-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "ryanjbaxter",
+    "pubDate": "2026-11-05T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.cursor.com/changelog/build-live-apps",
+    "title": "Build Live Apps in Cursor",
+    "summary": "Nov 5, 2026 · ChangelogBuild Live Apps in CursorAgents have lowered the cost of writing code, but most apps and tools that users build never make it off of localhost.\nNow, you can build live apps dire",
+    "aiSummary": "Cursor가 로컬 환경을 넘어 즉시 배포 가능한 라이브 앱을 직접 제작하고 공유할 수 있는 기능을 새롭게 선보였습니다. 사용자가 자연어로 구현하고자 하는 앱의 기능을 설명하면 Cursor의 클라우드 에이전트가 데이터베이스 설정, 인증 구성, 호스팅 등 모든 개발 과정을 자동으로 처리합니다.\n\n이 기능을 통해 기술적 전문성이 부족한 조직 내 비개발자들도 업무에 필요한 도구를 직접 구축하고 팀원들과 공유할 수 있게 되었습니다. 데이터 웨어하우스와 같은 외부 시스템 연동은 물론 기존 GitHub 리포지토리나 Cursor Origin을 통한 앱 배포도 지원합니다.\n\n보안을 위해 앱 배포 전에는 자동화된 보안 검사가 수행되어 비밀 정보나 크리덴셜 노출 여부를 확인합니다. 또한 팀 관리자는 모든 앱과 비밀 정보를 통합 관리할 수 있으며, 배포 승인 및 해제에 대한 권한을 가집니다.\n\n완성된 앱은 고유 도메인을 통해 배포되며 팀 내 특정 그룹이나 전체 인원에게 공유가 가능합니다. 해당 기능은 클라우드 에이전트가 활성화된 모든 유료 요금제에서 지금 바로 사용할 수 있습니다.",
+    "url": "https://www.cursor.com/changelog/build-live-apps",
+    "category": "IDE & 개발 도구",
+    "source": "Cursor Changelog",
+    "author": "Cursor Team",
+    "pubDate": "2026-11-05T00:00:00.000Z",
+    "fetchedAt": "2026-11-06T03:29:19.207Z",
+    "tags": [
+      "Cursor",
+      "Editor"
     ]
   },
   {
@@ -1952,181 +2307,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/10/30/jdk27-gc-changes/",
-    "title": "JDK 27 G1/Parallel/Serial GC changes",
-    "summary": "Now that the JDK 27 has been released, I thought it would be time to discuss interesting changes in OpenJDK’s stop-the-world collectors in the HotSpot VM once more.\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://tschatz",
-    "aiSummary": "JDK 27이 정식 출시됨에 따라 HotSpot VM에서 제공하는 Stop-the-world 가비지 컬렉터인 G1, Parallel, Serial GC에 적용된 주요 변경 사항들이 공개되었습니다.\n\n이번 업데이트는 자바 메모리 관리 효율성을 높이기 위한 여러 개선을 포함하고 있습니다. 상세한 기술적 변경 내역과 성능 최적화 관련 정보는 공식 게시글 링크를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/10/30/jdk27-gc-changes/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Thomas Schatzl",
-    "pubDate": "2026-10-30T00:00:00.000Z",
-    "fetchedAt": "2026-10-30T19:57:31.082Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
-    "title": "No tricks, just treats",
-    "summary": "Hi, it’s Claudio Baccigalupo. Don’t be scared 🎃 this week’s changes to the Rails codebase are all treats. Let’s explore them.\nNew guide to multiple databases in Active Record \nrefreshed guide is live",
-    "aiSummary": "이번 주 Rails 코드베이스에는 다수의 성능 개선과 기능 수정 사항이 포함되었습니다.\n\n가장 먼저 Active Record와 관련된 다수의 업데이트가 이루어졌습니다. 다중 데이터베이스를 위한 새로운 가이드가 공개되었으며 배포 성능 튜닝 가이드가 검토 단계에 있습니다. 새로운 애플리케이션 생성 시 Capybara와 selenium-webdriver를 기본 부팅 과정에서 로드하지 않도록 Gemfile 설정이 변경되어 시스템 테스트를 수행하지 않는 환경에서의 부팅 속도가 향상되었습니다.\n\n보안 및 렌더링 측면에서는 header_only CSRF 전략을 사용할 때 불필요한 authenticity 토큰 생성을 중단하여 페이지 상태 변화를 최소화했습니다. 또한 hidden=\"until-found\" 속성이 올바르게 렌더링되도록 수정되었으며, has_many :through 연관 관계의 프리로딩 로직과 left_joins 및 eager_load 과정에서 발생하는 조인 누락 문제가 해결되었습니다. PostgreSQL 사용자를 위해 exists? 및 계산 쿼리에서 기본 정렬을 제외하여 유효하지 않은 SQL 생성을 방지하고, integer 배열 데이터를 C 언어 수준에서 처리하도록 최적화하여 메모리 할당을 줄였습니다.\n\n개발자 편의성을 위한 변경 사항도 포함되었습니다. ActiveRecord::Validations::NumericalityValidator와 ColumnDefinition의 옵션 접근자가 더 이상 사용되지 않도록 변경되었으며, CurrentAttributes의 문자열 속성 기본값 설정 오류가 수정되었습니다. 또한 로그 필터링 시 URL로 인코딩된 쿼리 매개변수도 올바르게 매칭되도록 개선되었으며, ActiveSupport::TimeZone::MAPPING에 Northwest Territories가 추가되었습니다.\n\n문서화 측면에서는 Railties, Active Support, Action View, Action Pack의 API 문서 형식이 기존 RDoc에서 Markdown으로 전환되었습니다. 이 외에도 MessageVerifier의 HMAC 캐싱, 날짜 처리 속도 향상, 폼 빌더 헬퍼 최적화, URL 생성 시 메모리 할당 감소 등 전반적인 프레임워크 성능을 개선하는 다양한 수정이 반영되었습니다. 이번 주 업데이트에는 총 33명의 기여자가 참여했습니다.",
-    "url": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Claudio Baccigalupo",
-    "pubDate": "2026-10-30T00:00:00.000Z",
-    "fetchedAt": "2026-10-30T19:57:31.082Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "/blog/release/v27.0.0-alpha.0.0.0?1793303549250",
-    "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
-    "summary": "Rafael Gonzaga2026-10-29, Version 27.0.0-alpha.0.0.0 (Alpha), @RafaelGSS (https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0#2026-10-29-version-2700-alpha000-alpha-rafaelgss)\nNotable Changes (http",
-    "aiSummary": "Node.js 27.0.0-alpha.0.0.0 버전이 공개되었습니다. 이번 릴리스의 가장 큰 변화는 V8 엔진이 14.6 버전에서 15.6.75.13 버전으로 업데이트된 점입니다. 이에 따라 Math.sumPrecise()와 같은 새로운 언어 기능이 기본적으로 활성화되었으며, 메모리 관리 정책이 변경되어 기본 힙 크기 제한이 물리 메모리의 절반으로 설정됩니다. 또한, v8.serialize() 및 structuredClone() 등에 사용되는 직렬화 형식이 변경되어 이전 버전과의 호환성이 유지되지 않습니다.\n\n주요 변경 사항 중에는 보안 및 시스템 안정성을 위한 다수의 SEMVER-MAJOR 업데이트가 포함되어 있습니다. OpenSSL 3 이상 버전이 필수로 요구되며, 기존의 레거시 OpenSSL 코드 경로와 번들 FIPS 공급자 빌드가 제거되었습니다. Intel 기반의 macOS에 대한 지원은 실험적인 단계로 하향 조정되었습니다.\n\n추가적인 기술 변화로는 네이티브 glob 구현, http 모듈의 헤더 제한 강화, 그리고 experimental 상태인 net/promises API 도입이 있습니다. 또한 domain 모듈의 런타임 폐기 및 AsyncLocalStorage로의 이전이 이루어졌으며, 다양한 API와 모듈에서 하위 호환성을 깨뜨리는 변경이 대거 적용되었습니다. 이번 릴리스는 대규모의 구조적 개선을 담고 있으므로 기존 시스템과의 호환성을 면밀히 검토해야 합니다.",
-    "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-10-29T19:52:29.000Z",
-    "fetchedAt": "2026-10-30T02:42:01.062Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-    "title": "Webhook IP ranges added to the Meta API",
-    "summary": "We’re adding IP ranges for GitHub webhook deliveries on github.com. The Meta API now includes these additional ranges in the hooks field. If you maintain a static network allowlist for…\nThe post Webho",
-    "aiSummary": "GitHub는 github.com에서 발송하는 Webhook 데이터 전달용 IP 대역을 추가합니다.\n\n이와 관련하여 Meta API의 hooks 필드에 새로운 IP 대역 정보가 포함되었습니다. 따라서 고정된 네트워크 허용 목록을 관리하는 사용자라면 해당 변경 사항을 확인하여 서비스 운영에 차질이 없도록 조치해야 합니다.",
-    "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-10-29T17:14:38.000Z",
-    "fetchedAt": "2026-10-29T20:21:53.750Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=55277",
-    "title": "Benchmarking Vector search in six database engines",
-    "summary": "We loaded 990,000 OpenAI embeddings of 1,536 dimensions into six databases that index vectors themselves, built an HNSW index in each, and measured five things: time to a queryable index, storage and ",
-    "aiSummary": "Percona에서 진행한 6개 데이터베이스 엔진의 벡터 검색 성능 비교 벤치마크 결과입니다. 1,536 차원의 OpenAI 임베딩 데이터 99만 건을 사용하여 각 엔진에 HNSW 인덱스를 구축한 뒤 총 5가지 지표를 분석했습니다.\n\n주요 측정 항목은 인덱스 생성 시간, 저장 공간 및 메모리 사용량, 처리량 대비 검색 정확도, 동시 접속 환경에서의 처리량, 데이터의 10%가 갱신될 때의 성능 변화입니다. 동일한 호스트와 컨테이너 환경에서 테스트를 수행하여 각 데이터베이스 엔진이 벡터 데이터를 처리할 때 보여주는 성능 효율과 안정성을 객관적으로 비교했습니다.",
-    "url": "https://www.percona.com/blog/benchmarking-vector-search-in-six-database-engines/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Evgeniy Patlan",
-    "pubDate": "2026-10-29T16:46:38.000Z",
-    "fetchedAt": "2026-10-29T20:21:53.750Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/",
-    "title": "Querying Databricks Apache Iceberg Tables with the borderless Lakehouse",
-    "summary": "Enterprise organizations often leverage multiple data platforms, including Databricks, to execute heavy Apache Spark jobs alongside BigQuery to power highly concurrent analytics workloads. Historicall",
-    "aiSummary": "기업들은 그동안 여러 데이터 플랫폼을 혼용하면서 발생하는 데이터 복제 파이프라인의 복잡성과 비용 문제를 겪어왔습니다. Google Cloud의 borderless Lakehouse를 활용하면 Databricks에서 관리하는 Apache Iceberg 테이블을 복제 없이 BigQuery에서 직접 조회할 수 있습니다. Databricks가 생성한 Apache Iceberg 호환 메타데이터와 파케이 파일을 활용하여 BigQuery가 데이터를 실시간으로 읽어오는 제로 카피 방식을 채택하고 있습니다.\n\n이 시스템은 GCS뿐만 아니라 Amazon S3나 Azure Blob Storage와 같은 외부 클라우드 환경으로도 확장 가능합니다. Apache Iceberg REST Catalog와 연동하여 데이터를 물리적으로 이동하지 않고도 멀티 클라우드 분석을 수행할 수 있으며, BigQuery의 벡터화 엔진이 오픈 포맷 파일을 직접 처리하여 성능을 극대화합니다. 또한 Databricks Unity Catalog를 중앙 메타데이터 계층으로 사용하여 보안 정책을 통합 관리하고, 세밀한 행 및 열 단위의 접근 제어와 데이터 마스킹을 적용할 수 있습니다.\n\nBigQuery는 Iceberg 메타데이터를 사용하여 쿼리를 계획하고 파티션 프루닝을 통해 불필요한 파일 접근을 차단함으로써 쿼리 효율성을 높입니다. 쿼리 성능을 최적화하기 위해서는 Databricks 환경에서 OPTIMIZE 명령을 통해 작은 파일들을 병합하고, VACUUM 명령으로 불필요한 고아 파일을 정리하는 등 정기적인 테이블 유지보수가 권장됩니다. 이러한 통합 아키텍처는 데이터 이동에 따른 대기 시간과 스토리지 비용을 절감하며, 현대적인 분석 및 AI 워크로드를 위한 효율적인 데이터 환경을 제공합니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Pramod Niralakeri"
-      ],
-      "title": [
-        "Strategic Cloud Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-29T16:00:00.000Z",
-    "fetchedAt": "2026-10-29T20:21:53.750Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/",
-    "title": "Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&A)",
-    "summary": "Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the c",
-    "aiSummary": "Google Cloud는 클라우드 보안 연구의 중요성이 커짐에 따라 VRP 프로그램의 보상 체계를 확대하고 최고 등급인 25만 달러 규모의 Root-in-Cloud 보상안을 신설했습니다. 이번 신규 보상은 테넌트 격리 우회나 복잡한 서비스 간 논리 결함과 같이 고도의 아키텍처 분석이 필요한 취약점을 발굴하는 연구자에게 지급됩니다. 보상을 받기 위해서는 사전 접근 권한이나 사용자 상호작용 없이도 Google Cloud 조직 및 프로젝트에 대한 완전한 관리 권한을 입증해야 합니다.\n\nGoogle Cloud는 자동화된 도구와 인간의 통찰력이 결합된 연구가 클라우드 보안 강화에 핵심적인 역할을 한다고 강조합니다. AI와 에이전트 기반 도구의 발전으로 취약점 발견 진입 장벽이 낮아진 반면, 취약점이 공개된 후 실제 공격으로 이어지는 속도 또한 빨라지고 있습니다. 이에 따라 Google Cloud는 책임 있는 공개 절차를 준수하는 것이 사용자 보호를 위해 필수적이라고 밝히며 연구자들이 보안을 위해 책임감 있게 행동할 것을 당부했습니다.\n\n안전한 테스트 환경을 보장하기 위해 실제 운영 환경에 영향을 주지 않는 암호화 검증 방식을 도입했으며 연구자가 공격 과정에서 서비스 가용성을 해치거나 권한을 남용하지 않도록 엄격한 규칙을 적용합니다. 엔터프라이즈 CISO들은 에이전트 기반의 취약점 보고가 급증하는 상황에 대비하여 보고서 분류 체계를 최적화하고 취약점 공개 이후 보안 패치 및 대응 속도를 단축하는 등 보안 대응 전략을 재정비해야 합니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Chris Betz"
-      ],
-      "title": [
-        "CISO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-29T16:00:00.000Z",
-    "fetchedAt": "2026-10-29T20:21:53.750Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/",
-    "title": "Grounding agents in one context graph connecting semantic models you already trust",
-    "summary": "Picture the scene: Before an executive business review, your VP of Sales asks an AI assistant, \"What was net revenue for our top enterprise accounts last quarter?\" In seconds, the agent returns a poli",
-    "aiSummary": "기업 내 AI 에이전트가 비즈니스 맥락을 정확히 이해하지 못해 발생하는 데이터 오류를 해결하기 위해 Knowledge Catalog가 도입되었습니다. 이 기술은 Looker, dbt, Snowflake, Databricks, SAP 등 다양한 도구에 분산된 시맨틱 모델을 하나의 컨텍스트 그래프로 통합하여, AI 에이전트가 신뢰할 수 있는 비즈니스 정의와 메트릭을 기반으로 작업하도록 지원합니다.\n\nKnowledge Catalog는 데이터를 이동하거나 비즈니스 로직을 재작성할 필요 없이 LookML, BigQuery Graph, dbt MetricFlow, Snowflake Semantic Views, Databricks Metric Views, SAP CSN 등으로부터 모델을 네이티브하게 수집합니다. 이를 통해 스키마, 데이터 프로필, 비즈니스 용어집 등의 메타데이터를 하나의 그래프로 연결하여 정보의 파편화 문제를 해결합니다.\n\n이러한 통합 환경은 AI 에이전트의 성능 향상에도 크게 기여합니다. 내부 벤치마크 결과에 따르면, Knowledge Catalog를 통해 접지된 에이전트는 그렇지 않은 경우보다 정확도가 약 4배 높으며 지연 시간은 최대 33퍼센트 단축되고 토큰 사용량은 최대 75퍼센트까지 절감되는 효과를 보였습니다.\n\n또한 Gemini를 활용한 자가 학습 기능을 통해 수동으로 관리되는 정의 외에도 운영 지침서, 회의록, 코드 등 비정형 데이터에서 유용한 컨텍스트를 지속적으로 추출합니다. 여기에 데이터 품질 점수와 최신성 신호, 계보 정보를 결합하여 에이전트가 데이터 신뢰성을 확인한 후에만 쿼리를 실행하도록 설계되었습니다.\n\n사용자는 Knowledge Studio를 통해 컨텍스트 그래프를 시각적으로 탐색하고 관리할 수 있습니다. 기업은 이를 통해 도메인별로 검증된 컨텍스트 세트를 구성하고, 이를 Gemini 에이전트나 맞춤형 에이전트에 적용하여 데이터 기반의 정확하고 일관된 비즈니스 통찰력을 확보할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Maggy Hu"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-10-29T16:00:00.000Z",
-    "fetchedAt": "2026-10-29T20:21:53.750Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
