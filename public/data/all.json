@@ -1,5 +1,21 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.2",
+    "title": "0.162.2",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 버전 0.162.2 업데이트가 발표되었습니다. 이번 업데이트의 핵심은 AI 기반 개발을 지원하기 위한 도구 강화입니다.\n\n먼저 코딩 에이전트가 설치된 FastAPI 버전에서 최신 기능과 권장 패턴을 효과적으로 활용할 수 있도록 돕는 공식 스킬이 추가되었습니다. 해당 스킬은 uvx library-skills 명령어를 통해 프로젝트에 설치하여 사용할 수 있습니다.\n\n문서 측면에서는 FastAPI Cloud에 대한 안내가 추가되었으며, AI를 활용한 FastAPI 애플리케이션 개발에 관한 가이드라인이 신설되었습니다. 내부적으로는 GitHub 릴리스 노트에 에이전트 스킬 관련 사항이 명시되도록 개선되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.2",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-07T15:41:00.000Z",
+    "fetchedAt": "2026-11-07T19:29:34.261Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.162.1",
     "title": "0.162.1",
     "summary": "Docs\n📝 Add parameter model guidance to the FastAPI skill. PR #16693 by @tiangolo.\nTranslations\n🌐 Update translations for zh-hant (update-outdated). PR #16654 by @pr-submit[bot].\n🌐 Update translatio",
@@ -480,6 +496,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-11-05-1",
+    "title": "PHP 8.6.0 RC5 available for testing",
+    "summary": "The PHP team is pleased to announce the fourth release candidate of PHP 8.6.0, RC5. This continues the PHP 8.6 release cycle, whose rough outline is specified in the .PHP Wiki\nSource downloads of PHP ",
+    "aiSummary": "PHP 팀이 PHP 8.6.0의 다섯 번째 릴리스 후보인 RC5를 공개하고 테스트를 위한 배포를 시작했습니다. 이번 릴리스는 PHP 8.6 정식 버전을 향한 개발 주기의 일환으로 진행됩니다.\n\n사용자는 PHP 공식 다운로드 페이지에서 소스 코드를 내려받아 테스트에 참여할 수 있으며 발견된 문제는 GitHub Issues를 통해 보고할 수 있습니다. 다만 해당 버전은 초기 테스트 용도이므로 실제 운영 환경에서 사용하는 것은 권장하지 않습니다.\n\n상세한 변경 사항과 새로운 기능은 함께 제공되는 NEWS 및 UPGRADING 파일에서 확인할 수 있습니다. 이번 RC5 이후 이어지는 차기 릴리스는 2026년 11월 19일로 예정된 PHP 8.6.0 GA 정식 버전입니다.",
+    "url": "https://www.php.net/index.php#2026-11-05-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-11-05T21:12:54.000Z",
+    "fetchedAt": "2026-11-07T19:29:34.261Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
