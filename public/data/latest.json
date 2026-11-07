@@ -1,5 +1,38 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.1",
+    "title": "0.162.1",
+    "summary": "Docs\n📝 Add parameter model guidance to the FastAPI skill. PR #16693 by @tiangolo.\nTranslations\n🌐 Update translations for zh-hant (update-outdated). PR #16654 by @pr-submit[bot].\n🌐 Update translatio",
+    "aiSummary": "FastAPI 0.162.1 버전 업데이트에서는 문서화 개선과 다양한 내부 의존성 최적화가 이루어졌습니다.\n\n문서 측면에서는 FastAPI 스킬에 모델 가이드라인 파라미터가 추가되었으며, 다국어 번역 데이터가 최신 상태로 갱신되었습니다. 또한 FastAPI Cloud 관련 문서 배너가 일반 제공에 맞춰 업데이트되었습니다.\n\n내부 시스템 측면에서는 주요 라이브러리인 Pillow가 13.0.0 버전으로, dnspython이 2.9.2 버전으로 각각 판올림되었습니다. 이외에도 authlib, graphql-core, black, gitpython, opentelemetry-api 등 여러 패키지의 의존성이 업데이트되었으며, pytest-xdist 호환성을 위해 pytest 버전을 9.2 미만으로 고정하는 작업이 포함되었습니다.\n\n기타 변경 사항으로는 Encore 및 MicroAuth 후원자 추가, 불필요한 컨퍼런스 관련 컴포넌트 제거, GitHub 액션 및 pre-commit 훅 업데이트 등이 진행되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-07T11:55:42.000Z",
+    "fetchedAt": "2026-11-07T14:11:02.643Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.3",
+    "title": "1.5.3",
+    "summary": "Added each subagent's model next to its name in the subagent rows above the prompt and in /agents (hidden on narrow terminals), with the full model and effort in a subagent's detail view, and a model ",
+    "aiSummary": "업데이트 버전 1.5.3에서는 서브 에이전트의 모델 정보를 명확하게 표시하도록 인터페이스를 개선하였으며, 플러그인 개발을 위한 환경 변수 PLUGIN_ROOT와 PLUGIN_DATA를 추가하여 플러그인에서 파일 관리와 상태 유지가 가능하도록 지원합니다. 또한 Vertex AI 관련 오류 메시지를 사용자 친화적으로 수정하고 플러그인 인증 화면의 가독성을 높였습니다.\n\n기능적 측면에서는 대화 제목 자동 생성 시 약어 보존 기능을 강화하였고, 심볼릭 링크로 설치된 플러그인이나 이름에 특수 문자가 포함된 플러그인의 관리 기능을 정상화하였습니다. 특히 에이전트의 응답 시간이 60초를 초과할 경우 발생하는 HTTP2 타임아웃 문제를 재시도 로직을 통해 해결하였으며, 엔터프라이즈 모델 게이트웨이 URL 처리 방식도 개선하였습니다.\n\n파일 처리 및 보안 관련하여 윈도우 환경에서의 UTF-16 및 레거시 인코딩 파일 읽기 성능을 최적화하고 PowerShell 스크립트의 인코딩 호환성을 확보하였습니다. 원격 에이전트 세션에서의 파일 로드 제한을 20 MiB로 명확히 설정하고, 터미널 샌드박스와 외부 명령 간의 환경 변수 격리 문제를 해결하여 보안을 강화하였습니다. 그 외에도 CLI 상의 경로 표시 오류와 비 ASCII 문자가 포함된 툴 호출 요약 시의 깨짐 현상을 수정하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.3",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-07T08:38:32.000Z",
+    "fetchedAt": "2026-11-07T14:11:02.643Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
     "title": "Copilot code review: API management and review overview updates",
     "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,",
@@ -13,6 +46,70 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/agensgraph-218-released-graph-database-on-postgresql-18-with-expanded-iso-gql-support-3437/",
+    "title": "AgensGraph 2.18 Released: Graph Database on PostgreSQL 18 with Expanded ISO GQL Support\n",
+    "summary": "The AgensGraph Development Team is pleased to announce the release of AgensGraph v2.18.6.1, the latest version in the 2.18 series. AgensGraph is an open-source graph database, built on PostgreSQL 18.6",
+    "aiSummary": "AgensGraph v2.18.6.1이 새롭게 출시되었습니다. 이번 버전은 PostgreSQL 18.6을 기반으로 하며 기존의 openCypher와 더불어 ISO GQL 표준 지원을 본격적으로 확대했습니다. 특히 GQL의 LET, FOR, FILTER 등 주요 구문과 다양한 서브쿼리를 지원하여 그래프 데이터베이스로서의 범용성을 강화했습니다.\n\n성능 측면에서는 획기적인 개선이 이루어졌습니다. 가변 길이 탐색 과정에서 엣지 라벨 인덱스를 활용하도록 최적화되어, 대규모 데이터셋에서 기존 대비 수천 배 이상의 속도 향상을 보여줍니다. 또한 PostgreSQL 18.6의 최신 기능인 비동기 I/O, OAuth 인증, B-tree skip scan 등을 모두 포함하며 보안 면에서도 행 수준 보안 정책을 Cypher 쓰기 작업과 고정 길이 패턴 매칭에 적용하였습니다.\n\n개발자 편의성을 위한 생태계 지원도 크게 확장되었습니다. Python 드라이버인 agensgraph-python 2.1은 psycopg 3 기반으로 재구축되어 동기 및 비동기 환경을 모두 지원하며 pandas나 Polars와의 연동성이 강화되었습니다. 더불어 LangChain, LlamaIndex, LightRAG 등과의 통합을 지원하고 MCP 서버를 제공하여 AI 기반의 GraphRAG 및 지식 그래프 애플리케이션 개발을 용이하게 합니다. pgvector 확장을 별도로 설치할 경우 그래프 탐색과 벡터 유사도 검색을 하나의 쿼리로 수행할 수 있습니다.\n\n데이터 업그레이드의 경우 기존 2.17 버전에서 2.18 버전으로 전환 시 pg_upgrade 사용이나 데이터 덤프 및 복구 과정이 필요합니다. AgensGraph는 Apache License 2.0으로 배포되는 다중 모델 그래프 데이터베이스이며, SKAI Worldwide에서 지속적으로 개발하고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/agensgraph-218-released-graph-database-on-postgresql-18-with-expanded-iso-gql-support-3437/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-07T00:00:00.000Z",
+    "fetchedAt": "2026-11-07T14:11:02.643Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/brume-fk-safe-pseudonymization-for-postgresql-test-and-debug-copies-3434/",
+    "title": "Brume: FK-safe pseudonymization for PostgreSQL test and debug copies\n",
+    "summary": "Brume 2.1, an open source (Apache 2.0) tool that creates deterministic, foreign-key-safe pseudonymized copies of PostgreSQL databases for testing, debugging and demos, is now available.\nWhy Brume?\nDev",
+    "aiSummary": "Brume 2.1은 PostgreSQL 데이터베이스를 테스트, 디버깅, 데모 용도로 안전하게 복제할 수 있게 해주는 오픈 소스 도구입니다. 운영 환경의 실제 데이터를 그대로 복제하면 개인정보 노출 위험이 크고, 기존 마스킹 방식은 외래 키 무결성을 훼손하는 경우가 많습니다. Brume은 데이터를 추출하는 과정에서 실시간으로 개인정보를 가명 처리하며, 외래 키 참조 관계를 유지하여 정합성 문제가 발생하지 않도록 합니다.\n\n이 도구는 FAKE, MASK, HASH, NULLIFY, FPE_ID, DATE_SHIFT 등 다양한 컬럼별 가명 처리 전략을 제공합니다. 특히 사용자가 설정한 비밀 키를 기반으로 결정론적 결과를 생성하므로, 동일한 입력값에 대해 항상 일관된 결과값을 출력하여 테스트 환경의 안정성을 보장합니다. 또한 연결된 컬럼 기능을 통해 외래 키가 명시되지 않은 테이블 간에도 동일한 식별자 값을 일관되게 처리합니다.\n\nBrume은 특정 조건을 만족하는 데이터의 일부만 추출하는 서브셋 기능을 지원하며, 복잡한 참조 관계를 추적하여 작고 일관된 데이터 세트를 생성합니다. 모든 설정은 YAML 기반의 선언적 파일로 관리되어 버전 제어가 가능하며, 이를 통해 GDPR 준수를 위한 감사 기록을 투명하게 확보할 수 있습니다. 현재 PostgreSQL 12 버전부터 18 버전까지 지원하며, Debian, Ubuntu, RHEL, Fedora 및 macOS 환경에서 사용할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/brume-fk-safe-pseudonymization-for-postgresql-test-and-debug-copies-3434/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-07T00:00:00.000Z",
+    "fetchedAt": "2026-11-07T14:11:02.643Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/heapdeck-an-on-call-monitor-for-postgresql-on-iphone-and-ipad-3436/",
+    "title": "HeapDeck: an on-call monitor for PostgreSQL on iPhone and iPad\n",
+    "summary": "HeapDeck is a new native app for engineers on call for PostgreSQL 13 to 19, on the App Store for iPhone and iPad.\nIt opens on one health verdict with ten tiles. The Locks screen draws the tree from pg",
+    "aiSummary": "HeapDeck은 PostgreSQL 13부터 19 버전까지를 지원하는 iPhone 및 iPad용 온콜 모니터링 네이티브 앱입니다.\n\n이 앱은 데이터베이스의 상태를 10개의 타일로 직관적으로 보여주며, pg_blocking_pids를 통한 잠금 트리 확인은 물론 pg_stat_activity, 트랜잭션 ID 랩어라운드, 데드 튜플, 복제 지연, pg_stat_statements 등 핵심 지표를 상세히 제공합니다.\n\n보안을 위해 벤더 서버를 거치지 않고 직접 연결이나 SSH 터널을 사용하며, TLS와 핀 고정된 지문 인증 방식을 도입했습니다. 별도의 알람 전송 기능은 없으며 기존의 모니터링 시스템을 보완하는 도구로 설계되었습니다.\n\n기본적으로 하나의 서버를 무료로 모니터링할 수 있으며, HeapDeck Pro를 일회성 결제로 구매하면 다중 서버 관리와 함께 세션 취소, 종료, VACUUM 실행, 슬롯 삭제 등의 관리 기능을 추가로 활용할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/heapdeck-an-on-call-monitor-for-postgresql-on-iphone-and-ipad-3436/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-07T00:00:00.000Z",
+    "fetchedAt": "2026-11-07T14:11:02.643Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg-observability-map-100-released-3427/",
+    "title": "PG Observability Map 1.0.0 Released\n",
+    "summary": "We are pleased to announce the initial release (1.0.0) of PG Observability Map, a interactive web-based tool designed to visualize and explore PostgreSQL observability, metrics, and internal diagnosti",
+    "aiSummary": "PostgreSQL의 관측 가능성과 메트릭, 내부 진단 뷰를 시각적으로 탐색할 수 있는 웹 기반 도구인 PG Observability Map 1.0.0 버전이 공식 출시되었습니다.\n\n이 도구는 PostgreSQL의 시스템 뷰와 함수, 통계 정보를 대화형 지도로 시각화하여 사용자가 직관적으로 이해할 수 있도록 돕습니다. 모든 데이터는 PostgreSQL의 아키텍처 구조에 맞게 매핑되어 있으며, 최신 버전을 포함한 다양한 PostgreSQL 버전 간의 탐색을 지원합니다. 별도의 설치 없이 웹 브라우저에서 가볍게 접속하여 사용할 수 있는 것이 특징입니다. 관심 있는 사용자는 제공된 GitHub 저장소에서 소스 코드와 문서를 확인하거나 실시간 데모 사이트를 통해 기능을 직접 체험할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg-observability-map-100-released-3427/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-07T00:00:00.000Z",
+    "fetchedAt": "2026-11-07T14:11:02.643Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
     ]
   },
   {
