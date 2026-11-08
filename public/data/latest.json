@@ -1,5 +1,20 @@
 [
   {
+    "id": "https://inside.java/2026/11/08/devoxxbelgium-java-next-programming-models/",
+    "title": "Java and the Next Generation of Programming Models",
+    "summary": "Modern software increasingly interacts with AI models, query languages, and other specialized programming models, forcing you to switch contexts, embed foreign code, or write verbose wrappers to bridg",
+    "aiSummary": "최신 소프트웨어 개발 환경은 AI 모델이나 외부 쿼리 언어와 상호작용하기 위해 복잡한 컨텍스트 전환이나 불필요한 래퍼 코드를 작성해야 하는 어려움을 겪고 있습니다. 이러한 문제를 해결하기 위해 JVM 외부의 로직을 Java 내에서 직접 표현할 수 있는 새로운 접근 방식이 제시되고 있습니다.\n\n현재는 Foreign Function and Memory API와 jextract 도구를 사용하여 JVM 외부 런타임과 안전하게 상호작용하는 기술을 활용할 수 있습니다. 이를 통해 개발자는 효율적으로 외부 기능과 통신하는 인터페이스를 구축할 수 있습니다.\n\n나아가 Project Babylon의 Code Reflection을 도입하면 AI 모델을 Java 코드로 직접 작성하고 분석할 수 있게 됩니다. 이 기술은 Java 코드를 추론 엔진으로 직접 변환하여 외부 모델 파일이나 복잡한 연결 코드 없이 하드웨어 가속기를 활용하도록 지원합니다. 결과적으로 Java 개발자는 별도의 언어 전환 없이 AI 모델을 보다 직관적이고 통합된 방식으로 개발할 수 있는 미래를 맞이하게 됩니다.",
+    "url": "https://inside.java/2026/11/08/devoxxbelgium-java-next-programming-models/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ana-Maria Mihalceanu",
+    "pubDate": "2026-11-08T00:00:00.000Z",
+    "fetchedAt": "2026-11-08T14:23:02.048Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.162.2",
     "title": "0.162.2",
     "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
