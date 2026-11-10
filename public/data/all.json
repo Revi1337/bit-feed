@@ -1,5 +1,119 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.3",
+    "title": "0.162.3",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 0.162.3 버전이 업데이트되었습니다. 주요 변경 사항으로 코딩 에이전트가 설치된 버전에 최적화된 기능과 패턴을 활용할 수 있도록 돕는 공식 스킬이 추가되었으며, 이는 uvx library-skills 명령어를 통해 설치할 수 있습니다.\n\n기술적 측면에서는 Python 3.15에 대한 지원이 추가되었고, Pydantic은 2.14.3 버전으로, markdown-include-variants는 0.0.10 버전으로 각각 업그레이드되었습니다.\n\n문서화 작업과 관련하여 Zensical 테마가 적용되었으며 AI 코딩 에이전트 관련 공지 사항이 추가되었습니다. 또한, 한국어를 포함한 총 12개 언어에 대한 번역 업데이트가 진행되었으며 내부적으로는 불필요한 문서 스니펫 명령어를 제거하는 등 시스템 최적화가 이루어졌습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.3",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-10T14:21:32.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-05-dependabot-alerts-will-pause-on-inactive-repositories",
+    "title": "Dependabot alerts will pause on inactive repositories",
+    "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can…\nThe post Dependa",
+    "aiSummary": "GitHub는 2026년 12월 8일부터 최근 1년 동안 활동이 없었던 대부분의 저장소에서 Dependabot alerts 기능을 중단합니다.\n\n해당 조치로 인해 비활성 상태인 저장소의 보안 알림은 삭제되지 않고 아카이브로 보관됩니다. 사용자는 언제든지 필요에 따라 보관된 알림을 확인하거나 기능을 다시 활성화할 수 있습니다. 이번 정책 변경은 활동이 없는 저장소의 불필요한 알림 노출을 줄이고 자원을 효율적으로 관리하기 위한 목적입니다.",
+    "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-10T14:20:05.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+    "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+    "aiSummary": "Google과 Adobe가 파트너십을 통해 양사의 창의성 및 생산성 도구를 결합합니다.\n\n이제 사용자는 Google Drive 내에서 직접 PDF 파일을 편집할 수 있게 되며, Gemini 환경에서 Adobe의 AI 기술을 활용할 수 있습니다. \n\n이번 협업으로 Google Workspace 사용자는 별도의 프로그램 전환 없이 더욱 효율적인 업무 환경을 경험할 수 있습니다.",
+    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": "Google Gemini Blog",
+    "pubDate": "2026-11-10T14:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "summary": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption.",
+    "aiSummary": "Google DeepMind는 복잡한 소프트웨어를 심층적으로 검증하기 위한 혁신적인 기술인 AlphaProof Code를 발표했습니다. 해당 기술을 활용하는 에이전트들은 Signal의 핵심 암호화 알고리즘을 검증하기 위해 Lean 언어로 300만 줄에 달하는 증명 코드를 직접 작성했습니다. 이는 소프트웨어의 안정성과 보안성을 극도로 높은 수준에서 보장할 수 있는 새로운 이정표를 제시한 것으로 평가받습니다.",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-10T12:02:28.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/",
+    "title": "Introducing Gemini for healthcare",
+    "summary": "Every healthcare organization is working to deliver great care to more people at a lower cost. However, a general AI model is not enough to solve this challenge. Today, healthcare runs on fragmented d",
+    "aiSummary": "Google Cloud는 의료 조직의 파편화된 데이터와 복잡한 행정 업무를 효율적으로 관리하기 위해 산업별 맞춤형 솔루션인 Gemini for healthcare를 발표했습니다. 이 솔루션은 Gemini 에이전트를 기반으로 임상, 재무, 행정 시스템을 유기적으로 연결하여 의료진과 보험사가 반복적인 수동 업무를 자동화하고 환자 케어에 더 집중할 수 있도록 지원합니다.\n\nGemini for healthcare는 크게 네 가지 핵심 요소로 구성됩니다. 첫째, 의료 분야 전문 지식을 바탕으로 환자 기록 요약, 진료 준비, 보험 적용 범위 검토 등 구체적인 업무를 수행하는 맞춤형 기술을 제공합니다. 둘째, Epic, Oracle Health EHR, InterSystems FHIR 등 기존 병원 및 보험 시스템과 보안을 유지하며 연결하는 커넥터를 지원합니다. 셋째, 다양한 의료 기술 파트너들과 협력하는 개방형 생태계를 통해 조직별 환경에 맞는 확장이 가능합니다. 마지막으로, HIPAA 규정 준수를 지원하는 강력한 보안 플랫폼으로서 권한 제어, 감사 로그 기록, 모델 선택권 등을 제공합니다.\n\n의료 제공자 관점에서는 파편화된 데이터를 통합해 환자의 진료 이력을 빠르게 파악하고 진료 준비 시간을 단축하며, 보험 승인 및 이의 제기 절차를 간소화할 수 있습니다. 보험사 관점에서는 의료 정책을 바탕으로 요청 사항을 자동으로 검토하고, 환자에게 복잡한 혜택이나 비용 정보를 알기 쉽게 설명해 주는 기능을 제공합니다.\n\n현재 Gemini for healthcare는 프리뷰 버전으로 제공되며, HCA Healthcare, Northwell Health, Blue Cross Blue Shield of Massachusetts 등 주요 의료 기관 및 파트너들과 협력하여 임상 워크플로우와 운영 효율성을 개선하는 데 활용되고 있습니다. 이를 통해 의료 현장은 정보 수집을 위한 행정적 부담을 줄이고 근거 기반의 진료 결정을 내릴 수 있는 환경을 구축하게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Thomas Kurian"
+      ],
+      "title": [
+        "CEO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-10T12:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=mps&p=753831",
+    "title": "MPS 2026.2 Has Been Released!",
+    "summary": "MPS now runs on Linux ARM64, and coding agents can do much more for much less. The UI allows grouping nodes by virtual package, several dialogs have their UIs reworked, editor tests allow for node-mat",
+    "aiSummary": "MPS 2026.2 버전이 새롭게 출시되었습니다. 이번 업데이트의 가장 큰 변화는 Linux ARM64 환경을 공식적으로 지원한다는 점이며 이를 통해 코딩 에이전트의 효율성과 경제성이 크게 향상되었습니다.\n\n사용자 인터페이스 측면에서는 노드를 가상 패키지별로 그룹화할 수 있는 기능이 추가되었고 여러 대화 상자의 UI가 개선되어 사용 편의성이 높아졌습니다. 또한 에디터 테스트 기능에서 노드 매칭 함수를 사용자가 직접 정의할 수 있도록 커스터마이징 옵션이 확장되었습니다. 이번 업데이트는 전반적인 도구의 성능 최적화와 함께 개발자의 작업 흐름을 개선하는 데 초점을 맞추고 있습니다.",
+    "url": "https://blog.jetbrains.com/mps/2026/11/mps-2026-2-released/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vaclav Pech",
+    "pubDate": "2026-11-10T05:38:47.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.4",
     "title": "1.5.4",
     "summary": "Added Auto mode to agy acp sessions, so editors can switch a session to auto wherever the CLI itself offers Auto mode; it approves edits inside the workspace and runs commands in the terminal sandbox,",
@@ -46,6 +160,90 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/10/spring-pulsar-new-home-asf",
+    "title": "Announcing a New Home for Spring for Apache Pulsar",
+    "summary": "We are excited to announce an important transition for the Spring for Apache Pulsar project! To foster even deeper integration and collaboration with the broader Pulsar community, the project is movin",
+    "aiSummary": "Spring for Apache Pulsar 프로젝트가 Apache Software Foundation 내의 Apache Pulsar 프로젝트 산하 하위 프로젝트로 공식 이전됩니다. 앞으로 해당 프로젝트는 Apache Pulsar support for Spring이라는 명칭으로 운영될 예정입니다. 이번 이전은 Apache Pulsar 커뮤니티와의 협력을 강화하고, Apache Pulsar의 기술 발전에 맞춘 기능 지원과 개발 효율성을 높이기 위해 결정되었습니다.\n\n이전에 따라 Spring 프로젝트 우산 아래에서 제공되던 Spring for Apache Pulsar 2.0.8 버전이 최종 릴리스가 되며, 기존 Spring 팀은 더 이상 관련 업데이트나 유지보수를 제공하지 않습니다. 향후 모든 유지보수, 기능 개발 및 버그 수정은 Apache Pulsar 프로젝트 팀이 전담하게 됩니다.\n\n생태계 통합 작업도 함께 진행됩니다. Spring Boot Starter의 유지보수는 중단되며, 이후 버전부터는 Apache Pulsar support for Spring에서 제공하는 새로운 starter를 사용해야 합니다. Spring Cloud Stream Binder 역시 마이그레이션이 이루어지며, 5.1.0 버전 이후부터는 Apache Pulsar support for Spring 프로젝트에서 직접 제공하는 방식으로 전환됩니다.\n\n기존 애플리케이션은 2.0.8 버전 및 5.1.0 binder를 계속 사용할 수 있으나, 향후 최신 기능과 보안 업데이트를 적용받기 위해서는 프로젝트 좌표와 패키지 임포트를 새로운 프로젝트 경로로 변경해야 합니다.",
+    "url": "https://spring.io/blog/2026/11/10/spring-pulsar-new-home-asf",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "jasonkonicki",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "/blog/prisma-compute-postgres-same-region-networking",
+    "title": "How Prisma Compute reaches Prisma Postgres (2026)",
+    "summary": "How a Prisma Compute app connects to Prisma Postgres in the same region today, what sleeping does to the connection, and the planned internal network.",
+    "aiSummary": "Prisma Compute 애플리케이션이 동일한 리전 내에 위치한 Prisma Postgres와 현재 어떠한 방식으로 연결되는지 그 과정을 설명합니다.\n\n연결 과정에서 애플리케이션이 대기 모드인 슬립 상태에 진입할 때 연결 세션에 발생하는 변화를 상세히 다룹니다.\n\n향후 네트워크 효율성과 연결 안정성을 개선하기 위해 도입될 예정인 내부 네트워크 설계 계획을 포함하고 있습니다.",
+    "url": "https://www.prisma.io/blog/prisma-compute-postgres-same-region-networking",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-25-released",
+    "title": "Elastic Stack 8.19.25 released",
+    "summary": "Version 8.19.25 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.25 over the previous versions 8.19.x\nFor details of the issues that have bee",
+    "aiSummary": "Elastic Stack 8.19.25 버전이 새롭게 출시되었습니다.\n\n이번 업데이트는 기존 8.19.x 버전에서 발생했던 문제들을 해결한 최신 버전이므로 사용자들에게 업그레이드를 권장합니다. 각 제품별 상세 변경 사항 및 수정된 이슈 항목은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-25-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Julien Mailleret",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/roadshow-launch",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Anthropic launches roadshow for proposed initial public offering\",\"",
+    "aiSummary": "Anthropic이 기업공개(IPO)를 위한 로드쇼를 공식적으로 시작했습니다. 이번에 발행되는 Class A 보통주는 총 8억 2,500만 주 규모이며, 이 중 8억 135만 주는 Anthropic이 직접 발행하고 나머지 2,364만 주는 기존 주주들이 매각할 예정입니다.\n\n희망 공모가는 주당 70달러에서 78달러 사이로 책정되었습니다. 또한, Anthropic은 주관사들에게 최대 1억 2,375만 주를 추가로 매수할 수 있는 30일간의 옵션을 부여할 계획입니다.\n\n회사는 이번 상장을 위해 Nasdaq Global Select Market에 종목 코드 ANT로 상장 신청을 마쳤습니다. 다만, 아직 미국 증권거래위원회(SEC)에 제출된 증권신고서가 효력을 발생하기 전이므로, 현재 시점에서의 공모 절차는 투자자 모집이나 판매 행위가 아닌 공식적인 정보 공개 단계에 해당합니다.",
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+    "aiSummary": "Google이 공개한 Gemini Robotics 2.5는 로봇의 실제 환경에서의 범용적인 조작 능력을 비약적으로 향상시킨 비전 언어 액션 모델입니다. \n\n해당 모델은 로봇이 복잡한 환경을 이해하고 정밀하게 움직일 수 있도록 돕는 데 최적화되어 있습니다. 기존 모델 대비 로봇의 작업 수행 능력을 높여 정교한 손동작이 필요한 과업을 보다 안정적으로 수행하게 합니다. \n\n또한 이번 업데이트를 통해 로봇의 신뢰성과 안전성 지표가 대폭 강화되었습니다. 이를 통해 다양한 현장에서 로봇이 더 정확한 판단을 내리고 오류 없이 작업을 지속할 수 있는 기반을 마련했습니다.",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-09T19:51:47.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -50766,6 +50964,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/overview-image-similarity-search-in-elastic",
+    "title": "Overview of image similarity search in Elasticsearch",
+    "summary": "Searching through images to find the right one has always been a challenge. But with image similarity search, you can create a more intuitive search experience. Learn more about image similarity searc",
+    "aiSummary": "Elasticsearch는 이미지 검색의 복잡함을 해결하고 사용자에게 보다 직관적인 경험을 제공하기 위한 이미지 유사도 검색 기능을 지원합니다. 이 기능을 활용하면 단순히 텍스트 기반의 검색을 넘어 이미지 데이터 간의 유사성을 바탕으로 관련성 높은 결과를 도출할 수 있습니다. Elastic이 제공하는 이러한 검색 솔루션은 데이터 탐색 과정을 효율화하고 서비스의 검색 품질을 향상하는 데 도움을 줍니다.",
+    "url": "https://www.elastic.co/blog/overview-image-similarity-search-in-elastic",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Radovan Ondas,Bernhard Suhm",
+    "pubDate": "2023-02-28T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/observability-profiling-metrics-logs-traces",
     "title": "Why metrics, logs, and traces aren’t enough",
     "summary": "The increasing complexity of cloud-native environments has led to a growing need for unified observability solutions. And metrics, logs, and traces are not enough. Learn why continuous profiling signa",
@@ -50776,6 +50990,22 @@
     "author": "Israel Ogbole,Thomas Dullien,Sean Heelan",
     "pubDate": "2023-01-18T23:00:00.000Z",
     "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/why-observability-can-break-through-top-challenges-to-digital-transformation",
+    "title": "Why observability can break through top challenges to digital transformation",
+    "summary": "Monitoring, machine learning, and visualizations are a game changer for telling the story of systems across your organization.",
+    "aiSummary": "Monitoring과 machine learning 및 데이터 시각화 기술은 조직 내 시스템의 상태를 종합적으로 파악하고 그 흐름을 명확하게 이해할 수 있도록 돕는 핵심적인 요소입니다. 이러한 observability 기술을 도입하면 시스템의 운영 현황을 입체적으로 분석할 수 있어 기업의 디지털 전환 과정에서 발생하는 여러 난관을 효과적으로 극복할 수 있습니다. 결과적으로 시스템 전반의 가시성을 확보하는 것은 기업이 직면한 디지털 혁신 과제를 해결하는 데 결정적인 역할을 수행합니다.",
+    "url": "https://www.elastic.co/blog/why-observability-can-break-through-top-challenges-to-digital-transformation",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Riva Froymovich",
+    "pubDate": "2022-10-20T07:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"

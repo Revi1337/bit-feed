@@ -1,5 +1,119 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.3",
+    "title": "0.162.3",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 0.162.3 버전이 업데이트되었습니다. 주요 변경 사항으로 코딩 에이전트가 설치된 버전에 최적화된 기능과 패턴을 활용할 수 있도록 돕는 공식 스킬이 추가되었으며, 이는 uvx library-skills 명령어를 통해 설치할 수 있습니다.\n\n기술적 측면에서는 Python 3.15에 대한 지원이 추가되었고, Pydantic은 2.14.3 버전으로, markdown-include-variants는 0.0.10 버전으로 각각 업그레이드되었습니다.\n\n문서화 작업과 관련하여 Zensical 테마가 적용되었으며 AI 코딩 에이전트 관련 공지 사항이 추가되었습니다. 또한, 한국어를 포함한 총 12개 언어에 대한 번역 업데이트가 진행되었으며 내부적으로는 불필요한 문서 스니펫 명령어를 제거하는 등 시스템 최적화가 이루어졌습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.3",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-10T14:21:32.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-05-dependabot-alerts-will-pause-on-inactive-repositories",
+    "title": "Dependabot alerts will pause on inactive repositories",
+    "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can…\nThe post Dependa",
+    "aiSummary": "GitHub는 2026년 12월 8일부터 최근 1년 동안 활동이 없었던 대부분의 저장소에서 Dependabot alerts 기능을 중단합니다.\n\n해당 조치로 인해 비활성 상태인 저장소의 보안 알림은 삭제되지 않고 아카이브로 보관됩니다. 사용자는 언제든지 필요에 따라 보관된 알림을 확인하거나 기능을 다시 활성화할 수 있습니다. 이번 정책 변경은 활동이 없는 저장소의 불필요한 알림 노출을 줄이고 자원을 효율적으로 관리하기 위한 목적입니다.",
+    "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-10T14:20:05.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+    "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+    "aiSummary": "Google과 Adobe가 파트너십을 통해 양사의 창의성 및 생산성 도구를 결합합니다.\n\n이제 사용자는 Google Drive 내에서 직접 PDF 파일을 편집할 수 있게 되며, Gemini 환경에서 Adobe의 AI 기술을 활용할 수 있습니다. \n\n이번 협업으로 Google Workspace 사용자는 별도의 프로그램 전환 없이 더욱 효율적인 업무 환경을 경험할 수 있습니다.",
+    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": "Google Gemini Blog",
+    "pubDate": "2026-11-10T14:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "summary": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption.",
+    "aiSummary": "Google DeepMind는 복잡한 소프트웨어를 심층적으로 검증하기 위한 혁신적인 기술인 AlphaProof Code를 발표했습니다. 해당 기술을 활용하는 에이전트들은 Signal의 핵심 암호화 알고리즘을 검증하기 위해 Lean 언어로 300만 줄에 달하는 증명 코드를 직접 작성했습니다. 이는 소프트웨어의 안정성과 보안성을 극도로 높은 수준에서 보장할 수 있는 새로운 이정표를 제시한 것으로 평가받습니다.",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-10T12:02:28.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/",
+    "title": "Introducing Gemini for healthcare",
+    "summary": "Every healthcare organization is working to deliver great care to more people at a lower cost. However, a general AI model is not enough to solve this challenge. Today, healthcare runs on fragmented d",
+    "aiSummary": "Google Cloud는 의료 조직의 파편화된 데이터와 복잡한 행정 업무를 효율적으로 관리하기 위해 산업별 맞춤형 솔루션인 Gemini for healthcare를 발표했습니다. 이 솔루션은 Gemini 에이전트를 기반으로 임상, 재무, 행정 시스템을 유기적으로 연결하여 의료진과 보험사가 반복적인 수동 업무를 자동화하고 환자 케어에 더 집중할 수 있도록 지원합니다.\n\nGemini for healthcare는 크게 네 가지 핵심 요소로 구성됩니다. 첫째, 의료 분야 전문 지식을 바탕으로 환자 기록 요약, 진료 준비, 보험 적용 범위 검토 등 구체적인 업무를 수행하는 맞춤형 기술을 제공합니다. 둘째, Epic, Oracle Health EHR, InterSystems FHIR 등 기존 병원 및 보험 시스템과 보안을 유지하며 연결하는 커넥터를 지원합니다. 셋째, 다양한 의료 기술 파트너들과 협력하는 개방형 생태계를 통해 조직별 환경에 맞는 확장이 가능합니다. 마지막으로, HIPAA 규정 준수를 지원하는 강력한 보안 플랫폼으로서 권한 제어, 감사 로그 기록, 모델 선택권 등을 제공합니다.\n\n의료 제공자 관점에서는 파편화된 데이터를 통합해 환자의 진료 이력을 빠르게 파악하고 진료 준비 시간을 단축하며, 보험 승인 및 이의 제기 절차를 간소화할 수 있습니다. 보험사 관점에서는 의료 정책을 바탕으로 요청 사항을 자동으로 검토하고, 환자에게 복잡한 혜택이나 비용 정보를 알기 쉽게 설명해 주는 기능을 제공합니다.\n\n현재 Gemini for healthcare는 프리뷰 버전으로 제공되며, HCA Healthcare, Northwell Health, Blue Cross Blue Shield of Massachusetts 등 주요 의료 기관 및 파트너들과 협력하여 임상 워크플로우와 운영 효율성을 개선하는 데 활용되고 있습니다. 이를 통해 의료 현장은 정보 수집을 위한 행정적 부담을 줄이고 근거 기반의 진료 결정을 내릴 수 있는 환경을 구축하게 됩니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Thomas Kurian"
+      ],
+      "title": [
+        "CEO, Google Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-10T12:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=mps&p=753831",
+    "title": "MPS 2026.2 Has Been Released!",
+    "summary": "MPS now runs on Linux ARM64, and coding agents can do much more for much less. The UI allows grouping nodes by virtual package, several dialogs have their UIs reworked, editor tests allow for node-mat",
+    "aiSummary": "MPS 2026.2 버전이 새롭게 출시되었습니다. 이번 업데이트의 가장 큰 변화는 Linux ARM64 환경을 공식적으로 지원한다는 점이며 이를 통해 코딩 에이전트의 효율성과 경제성이 크게 향상되었습니다.\n\n사용자 인터페이스 측면에서는 노드를 가상 패키지별로 그룹화할 수 있는 기능이 추가되었고 여러 대화 상자의 UI가 개선되어 사용 편의성이 높아졌습니다. 또한 에디터 테스트 기능에서 노드 매칭 함수를 사용자가 직접 정의할 수 있도록 커스터마이징 옵션이 확장되었습니다. 이번 업데이트는 전반적인 도구의 성능 최적화와 함께 개발자의 작업 흐름을 개선하는 데 초점을 맞추고 있습니다.",
+    "url": "https://blog.jetbrains.com/mps/2026/11/mps-2026-2-released/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Vaclav Pech",
+    "pubDate": "2026-11-10T05:38:47.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.4",
     "title": "1.5.4",
     "summary": "Added Auto mode to agy acp sessions, so editors can switch a session to auto wherever the CLI itself offers Auto mode; it approves edits inside the workspace and runs commands in the terminal sandbox,",
@@ -46,6 +160,90 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/10/spring-pulsar-new-home-asf",
+    "title": "Announcing a New Home for Spring for Apache Pulsar",
+    "summary": "We are excited to announce an important transition for the Spring for Apache Pulsar project! To foster even deeper integration and collaboration with the broader Pulsar community, the project is movin",
+    "aiSummary": "Spring for Apache Pulsar 프로젝트가 Apache Software Foundation 내의 Apache Pulsar 프로젝트 산하 하위 프로젝트로 공식 이전됩니다. 앞으로 해당 프로젝트는 Apache Pulsar support for Spring이라는 명칭으로 운영될 예정입니다. 이번 이전은 Apache Pulsar 커뮤니티와의 협력을 강화하고, Apache Pulsar의 기술 발전에 맞춘 기능 지원과 개발 효율성을 높이기 위해 결정되었습니다.\n\n이전에 따라 Spring 프로젝트 우산 아래에서 제공되던 Spring for Apache Pulsar 2.0.8 버전이 최종 릴리스가 되며, 기존 Spring 팀은 더 이상 관련 업데이트나 유지보수를 제공하지 않습니다. 향후 모든 유지보수, 기능 개발 및 버그 수정은 Apache Pulsar 프로젝트 팀이 전담하게 됩니다.\n\n생태계 통합 작업도 함께 진행됩니다. Spring Boot Starter의 유지보수는 중단되며, 이후 버전부터는 Apache Pulsar support for Spring에서 제공하는 새로운 starter를 사용해야 합니다. Spring Cloud Stream Binder 역시 마이그레이션이 이루어지며, 5.1.0 버전 이후부터는 Apache Pulsar support for Spring 프로젝트에서 직접 제공하는 방식으로 전환됩니다.\n\n기존 애플리케이션은 2.0.8 버전 및 5.1.0 binder를 계속 사용할 수 있으나, 향후 최신 기능과 보안 업데이트를 적용받기 위해서는 프로젝트 좌표와 패키지 임포트를 새로운 프로젝트 경로로 변경해야 합니다.",
+    "url": "https://spring.io/blog/2026/11/10/spring-pulsar-new-home-asf",
+    "category": "백엔드",
+    "source": "Spring News",
+    "author": "jasonkonicki",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "/blog/prisma-compute-postgres-same-region-networking",
+    "title": "How Prisma Compute reaches Prisma Postgres (2026)",
+    "summary": "How a Prisma Compute app connects to Prisma Postgres in the same region today, what sleeping does to the connection, and the planned internal network.",
+    "aiSummary": "Prisma Compute 애플리케이션이 동일한 리전 내에 위치한 Prisma Postgres와 현재 어떠한 방식으로 연결되는지 그 과정을 설명합니다.\n\n연결 과정에서 애플리케이션이 대기 모드인 슬립 상태에 진입할 때 연결 세션에 발생하는 변화를 상세히 다룹니다.\n\n향후 네트워크 효율성과 연결 안정성을 개선하기 위해 도입될 예정인 내부 네트워크 설계 계획을 포함하고 있습니다.",
+    "url": "https://www.prisma.io/blog/prisma-compute-postgres-same-region-networking",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-25-released",
+    "title": "Elastic Stack 8.19.25 released",
+    "summary": "Version 8.19.25 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.25 over the previous versions 8.19.x\nFor details of the issues that have bee",
+    "aiSummary": "Elastic Stack 8.19.25 버전이 새롭게 출시되었습니다.\n\n이번 업데이트는 기존 8.19.x 버전에서 발생했던 문제들을 해결한 최신 버전이므로 사용자들에게 업그레이드를 권장합니다. 각 제품별 상세 변경 사항 및 수정된 이슈 항목은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-25-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Julien Mailleret",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.anthropic.com/news/roadshow-launch",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Anthropic launches roadshow for proposed initial public offering\",\"",
+    "aiSummary": "Anthropic이 기업공개(IPO)를 위한 로드쇼를 공식적으로 시작했습니다. 이번에 발행되는 Class A 보통주는 총 8억 2,500만 주 규모이며, 이 중 8억 135만 주는 Anthropic이 직접 발행하고 나머지 2,364만 주는 기존 주주들이 매각할 예정입니다.\n\n희망 공모가는 주당 70달러에서 78달러 사이로 책정되었습니다. 또한, Anthropic은 주관사들에게 최대 1억 2,375만 주를 추가로 매수할 수 있는 30일간의 옵션을 부여할 계획입니다.\n\n회사는 이번 상장을 위해 Nasdaq Global Select Market에 종목 코드 ANT로 상장 신청을 마쳤습니다. 다만, 아직 미국 증권거래위원회(SEC)에 제출된 증권신고서가 효력을 발생하기 전이므로, 현재 시점에서의 공모 절차는 투자자 모집이나 판매 행위가 아닌 공식적인 정보 공개 단계에 해당합니다.",
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "category": "인공지능",
+    "source": "Anthropic News",
+    "author": "Anthropic",
+    "pubDate": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+    "aiSummary": "Google이 공개한 Gemini Robotics 2.5는 로봇의 실제 환경에서의 범용적인 조작 능력을 비약적으로 향상시킨 비전 언어 액션 모델입니다. \n\n해당 모델은 로봇이 복잡한 환경을 이해하고 정밀하게 움직일 수 있도록 돕는 데 최적화되어 있습니다. 기존 모델 대비 로봇의 작업 수행 능력을 높여 정교한 손동작이 필요한 과업을 보다 안정적으로 수행하게 합니다. \n\n또한 이번 업데이트를 통해 로봇의 신뢰성과 안전성 지표가 대폭 강화되었습니다. 이를 통해 다양한 현장에서 로봇이 더 정확한 판단을 내리고 오류 없이 작업을 지속할 수 있는 기반을 마련했습니다.",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-09T19:51:47.000Z",
+    "fetchedAt": "2026-11-10T15:40:13.493Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
@@ -2209,248 +2407,6 @@
       "DeepMind",
       "Gemini",
       "AI"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=platform&p=750752",
-    "title": "Hear What Your IDE Is Doing: New Sound Cues in JetBrains IDEs",
-    "summary": "You can use the audio player below to listen to this blog post. With JetBrains IDEs 2026.3, we’re adding a new way to stay connected to your work: sound cues. A short sound can tell you if a build has",
-    "aiSummary": "JetBrains IDE 2026.3 버전부터 작업 상태를 청각적으로 즉시 확인할 수 있는 사운드 큐 기능이 도입됩니다.\n\n해당 기능을 통해 빌드 성공 또는 실패 여부, 브레이크 포인트 도달, 캐럿 위치의 변경 등 개발 과정에서 발생하는 주요 이벤트를 소리로 인지할 수 있습니다. 이를 통해 개발자는 화면을 직접 확인하지 않아도 IDE의 작업 흐름을 실시간으로 파악하며 생산성을 높일 수 있습니다.",
-    "url": "https://blog.jetbrains.com/platform/2026/11/accessibility-sound-cues-in-jetbrains-ides/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Sasha Ivanova",
-    "pubDate": "2026-11-03T15:36:11.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/nov/03/security-releases/",
-    "title": "Django security releases issued: 6.1.3, 6.0.10, and 5.2.19",
-    "summary": "In accordance with our security release policy,\nthe Django team is issuing releases for\nDjango 6.1.3, Django\n6.0.10, and Django\n5.2.19.\nThese releases address the security issues detailed below. We en",
-    "aiSummary": "Django 팀은 보안 정책에 따라 Django 6.1.3, 6.0.10, 5.2.19 버전을 공개하며 모든 사용자의 즉각적인 업데이트를 권고합니다. 이번 업데이트는 총 6건의 보안 취약점을 해결합니다.\n\n첫째로 MultiPartParser에서 base64로 인코딩된 파일 업로드 시 발생할 수 있는 메모리 고갈 문제와 django.contrib.gis.forms.GeometryField에서 발생하는 로그 삽입 취약점이 수정되었습니다.\n\n둘째로 GeoJSON 객체의 crs 멤버를 악용한 서버 측 요청 위조(SSRF) 문제와 Vary 헤더 처리 미흡으로 인한 개인 데이터 노출 위험이 해결되었습니다. 특히 캐시 키 생성 로직이 개선되어 요청 간 데이터 노출을 방지합니다.\n\n셋째로 커스텀 유저 모델 사용 시 뷰 권한만 가진 관리자에게 비밀번호 해시가 노출되는 문제가 수정되었습니다.\n\n마지막으로 SpatialReference 입력값을 통한 서버 측 요청 위조(SSRF) 취약점이 조치되었습니다. GDAL 3.9 이상 환경에서 네트워크 및 파일 접근이 차단되며, 이를 위해 새로운 시스템 검사 기능인 gis.W001이 추가되었습니다.\n\n해당 보안 패치는 Django 메인 브랜치를 포함하여 지원 중인 모든 버전의 브랜치에 적용되었습니다. 상세한 패치 내역은 각 버전별 변경 세트에서 확인할 수 있습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/nov/03/security-releases/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Jacob Walls",
-    "pubDate": "2026-11-03T15:30:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
-    "title": "Look up a resource’s cost center with the GitHub REST API",
-    "summary": "You can now use the GitHub REST API to find which cost center a user, organization, repository, or enterprise team belongs to. Previously, you had to list every cost center…\nThe post Look up a resourc",
-    "aiSummary": "GitHub은 REST API를 통해 사용자, 조직, 저장소, 기업 팀이 어떤 비용 센터에 속해 있는지 확인할 수 있는 기능을 새롭게 제공합니다. 기존에는 모든 비용 센터 목록을 일일이 조회해야 하는 번거로움이 있었으나, 이번 업데이트를 통해 특정 리소스의 소속 비용 센터를 즉시 조회할 수 있게 되어 관리 효율성이 크게 개선되었습니다. 이 기능은 복잡한 조직 구조를 운영하는 기업 환경에서 리소스 관리 및 비용 추적을 더욱 간편하게 만들어 줍니다.",
-    "url": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-03T15:27:13.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-    "title": "GitHub Copilot is now available in JetBrains Air",
-    "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your…\nThe post G",
-    "aiSummary": "GitHub Copilot이 JetBrains Air 환경에서 공식적으로 지원됩니다. 이번 통합을 통해 개발자는 GitHub Copilot을 활용하여 코딩 작업을 위임하고 실행 과정을 안내받으며 결과물을 검토할 수 있게 되었습니다.\n\n해당 기능은 Agent Client Protocol(ACP)을 기반으로 구현되었습니다. 이를 통해 사용자는 JetBrains Air 내에서 더욱 효율적으로 코딩 보조 기능을 활용하고 개발 워크플로우를 최적화할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-03T15:11:46.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
-    "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
-    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.3. It supports new Python 3.15 language…\n",
-    "aiSummary": "GitHub의 정적 분석 엔진인 CodeQL이 2.27.3 버전으로 업데이트되었습니다. 이번 업데이트의 핵심은 최신 프로그래밍 언어인 Python 3.15에 대한 지원이 추가된 점입니다. 이로써 개발자들은 Python 3.15의 새로운 기능을 활용한 코드에서도 보안 문제를 더욱 효과적으로 탐지하고 수정할 수 있게 되었습니다.\n\n또한 이번 버전에서는 JSON 데이터 확장 기능이 새롭게 포함되었습니다. 이를 통해 데이터 처리 방식이 개선되어 GitHub 코드 스캐닝의 전반적인 정적 분석 성능과 유연성이 한층 강화되었습니다.",
-    "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-03T14:56:03.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=teamcity&p=750259",
-    "title": "The eMudhra Certificate Authority Compromise: What It Means for TeamCity",
-    "summary": "Summary In October 2026, the private keys of eight intermediate certificate authorities operated by eMudhra were found to be weak and recoverable from public data. According to eMudhra’s official stat",
-    "aiSummary": "2026년 10월, eMudhra가 운영하는 8개의 중간 인증 기관(Intermediate CA)에서 개인 키가 취약한 상태로 생성되어 공개 데이터를 통해 복구될 수 있음이 확인되었습니다. eMudhra 측은 해당 중간 CA가 실제 최종 사용자용 인증서를 발급한 기록은 없으며, 이번 문제가 공개되기 전까지 키가 탈취되거나 악용된 증거는 발견되지 않았다고 밝혔습니다.\n\n이번 취약점은 JetBrains의 빌드 관리 서버인 TeamCity를 사용하는 환경에 보안 위협을 초래할 수 있습니다. TeamCity는 소프트웨어 배포 파이프라인에서 코드 서명 및 보안 통신을 위해 다양한 인증서를 활용하는데, 만약 신뢰할 수 없는 인증 기관의 키가 노출될 경우 중간자 공격이나 악성 코드 서명과 같은 보안 사고로 이어질 위험이 있습니다.\n\n사용자는 자신의 TeamCity 환경에서 사용 중인 인증서 체인을 재검토해야 합니다. 특히 eMudhra에서 발급한 인증서를 사용하고 있다면 해당 인증서를 즉시 폐기하고 신뢰할 수 있는 기관을 통해 새 인증서로 교체하는 것이 권장됩니다. 또한 보안 업데이트를 통해 시스템의 무결성을 확보하고 잠재적인 보안 공백을 차단해야 합니다.",
-    "url": "https://blog.jetbrains.com/teamcity/2026/11/emudhra-certificate-authority-compromise-what-it-means-for-teamcity/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Andrey Koltsov",
-    "pubDate": "2026-11-03T13:59:06.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
-    "title": "Dependabot now supports Python 3.15",
-    "summary": "You can now upgrade your projects to Python 3.15 and keep receiving Dependabot updates. Support for Python 3.15 is available to all github.com users and will be included in GitHub…\nThe post Dependabot",
-    "aiSummary": "GitHub의 자동 의존성 관리 도구인 Dependabot이 최신 버전인 Python 3.15에 대한 공식 지원을 시작합니다. 이제 사용자는 자신의 프로젝트를 Python 3.15로 업그레이드하더라도 중단 없이 Dependabot을 통한 보안 패치 및 업데이트 기능을 계속 사용할 수 있습니다. 해당 지원은 모든 github.com 사용자에게 즉시 적용되며, 향후 GitHub Enterprise Server 업데이트에도 포함될 예정입니다.",
-    "url": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-03T13:49:32.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-    "title": "Accelerating engineering for the physical world",
-    "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-    "aiSummary": "OpenAI의 ChatGPT와 Codex는 CAD, PCB 설계, 시뮬레이션 등 물리적 세계를 다루는 다양한 엔지니어링 작업의 효율성을 크게 향상시키고 있습니다. 이러한 기술들은 복잡한 설계 과정을 자동화하거나 최적화하는 데 기여하며 엔지니어들이 더욱 빠르게 혁신적인 결과물을 도출할 수 있도록 지원합니다. 엔지니어링 워크플로우 전반에 걸쳐 인공지능을 도입함으로써 설계 기간 단축과 생산성 증대라는 실질적인 성과를 거두고 있습니다.",
-    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-03T12:00:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated",
-    "title": "Introducing IBM Cloud Secrets Manager Vault Dedicated: HashiCorp Vault Enterprise, managed by IBM",
-    "summary": "",
-    "aiSummary": "본문이 제공되지 않은 기사입니다.",
-    "url": "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Aubrey Johnson",
-    "pubDate": "2026-11-03T08:00:00.000Z",
-    "fetchedAt": "2026-11-04T03:03:13.893Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
-    "title": "Five rules for evaluating agent skills before they bloat your context window",
-    "summary": "You’re probably hearing more about SKILL.md files, and you’ll see that a lot of people test them the same way: paste a prompt into chat, watch it pass once on a laptop, and merge to main. But when you",
-    "aiSummary": "AI 코딩 에이전트의 성능을 향상시키기 위해 작성하는 SKILL.md 파일이 오히려 문맥 창을 낭비하고 모델의 혼란을 초래하는 문제를 방지하기 위한 5가지 평가 원칙을 제시합니다.\n\n첫 번째 원칙은 컨테이너 실행 전 트리거 충돌과 보안 위험을 차단하는 것입니다. 모델은 SKILL.md 본문 전체를 읽는 것이 아니라 YAML 앞부분의 이름과 설명을 기반으로 스킬을 선택하므로, 스킬이 많아질수록 하위 트리거 문제나 기능 간의 충돌이 발생하기 쉽습니다. 이를 위해 skill-reach와 같은 도구를 활용하여 스킬 명세서를 검증하고 NVIDIA의 SkillSpector를 통해 프롬프트 주입이나 도구 오염 등의 보안 위협을 사전에 점검해야 합니다.\n\n두 번째 원칙은 개발자 로컬 환경이 아닌 격리된 환경에서 테스트하는 것입니다. 개인 노트북은 기존에 설정된 인증 정보나 환경 변수, 캐시 등이 남아 있어 테스트 결과에 왜곡을 초래합니다. 또한 호스트 리소스 사용량에 따른 성능 저하가 에이전트의 탐색 경로에 영향을 줄 수 있으므로 반드시 독립적인 샌드박스 환경에서 평가를 진행해야 합니다.\n\n세 번째 원칙은 단일 실행이 아닌 스킬 적용 전후를 비교하는 페어드 아블레이션 방식으로 측정하는 것입니다. 단순한 성공 여부 확인은 신뢰할 수 없으므로, 스킬을 적용하지 않은 모델과 적용한 모델의 결과값을 비교해야 합니다. 만약 스킬 적용 전후의 성공률과 효율성에 차이가 없다면 해당 스킬은 불필요한 문맥 비용만 발생시키는 것이므로 삭제하는 것이 좋습니다.\n\n네 번째 원칙은 효율성과 정확성을 분리하여 에이전트의 부정 행위를 방지하는 것입니다. 자동화된 최적화 과정에서 에이전트가 문제를 해결하는 대신 정답 파일을 직접 읽는 등의 방식으로 평가 지표를 조작할 수 있습니다. 이를 방지하기 위해 검증용 컨테이너를 분리하고 정확성, 효율성, 보안성 등의 평가 지표를 독립적으로 관리하며 에이전트의 데이터 접근 권한을 엄격히 제한해야 합니다.\n\n다섯 번째 원칙은 단순한 문서 요약이 아닌 실제 운영 습관과 검증 방식을 학습시키는 것입니다. 모델은 이미 방대한 공개 문서를 학습하고 있으므로 API 명세를 나열하는 것은 비효율적입니다. 대신 CLI 플래그 확인 습관, 경량 인덱스를 통한 효율적 경로 탐색, 최소 권한 원칙 준수 등 실질적인 행동 지침을 포함하는 것이 성능 향상에 훨씬 효과적입니다. 최신 모델 도입 시마다 이러한 원칙에 따라 기존 스킬을 재평가하고 불필요해진 스킬은 과감히 삭제하는 운영 체계를 갖추어야 합니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Karl Weinmeister"
-      ],
-      "title": [
-        "Director, Developer Relations"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-03T08:00:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
-    "title": "Introducing Physical-Engineering’s Last Exam for agents",
-    "summary": "Authors: Burak Gokturk, VP Research & Development; Rujun Han, Research Scientist; George Lee, Product Manager.\nToday, the Google AI & Infrastructure team is announcing Physical-Engineering's Last Exam",
-    "aiSummary": "Google AI & Infrastructure 팀이 Mercor와 협력하여 물리 공학 분야의 AI 모델 성능을 평가하기 위한 새로운 벤치마크인 Physical-Engineering's Last Exam을 발표했습니다. 이 프로젝트는 기계, 전기, 토목, 구조 공학 분야에서 AI 에이전트가 실제 엔지니어링 업무를 수행할 수 있는지 검증하는 데 목적을 둡니다.\n\n기존 벤치마크들이 주로 교과서적인 문제나 단일 도구 사용을 평가하는 데 그친 반면, 이번 PLE는 복잡한 실제 업무 환경을 반영합니다. 에이전트는 Mercor의 Archipelago 환경 내에서 PDF, 스프레드시트, CAD 도면, BIM 모델 등 수십 개의 파일로 구성된 프로젝트를 처리해야 합니다. 최종 결과물은 안전 규정과 코드 준수 여부, 비용 효율성 등을 바탕으로 면허를 보유한 엔지니어의 검토 과정을 거쳐 평가됩니다.\n\n총 85개의 장기 과제로 구성된 이 벤치마크 테스트 결과, 현재 모든 frontier 모델이 50% 미만의 점수를 기록했습니다. 특히 최상위 모델이라 하더라도 필수 안전 검사를 모두 통과한 비율은 41.3%에 불과하여, 실제 현장 수준의 엔지니어링 업무를 수행하기에는 기술적 격차가 존재함을 확인했습니다.\n\nGoogle은 연구 커뮤니티를 위해 29개의 공개 과제와 평가 도구, 그리고 경쟁 리더보드를 공개했습니다. 개발자들은 GitHub와 공식 웹사이트를 통해 자신의 에이전트를 평가받고 물리 공학 분야에서의 실질적인 AI 발전 상황을 공유할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google AI & Infrastructure "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-03T08:00:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
-    "title": "GitHub Desktop adds short-lived authentication tokens",
-    "summary": "When you sign in to GitHub Desktop 3.6.10 or later, eligible accounts can now use short-lived, automatically refreshing authentication tokens. Short-lived access tokens reduce how long a leaked token ",
-    "aiSummary": "GitHub Desktop 버전 3.6.10 이상부터는 자격 요건을 갖춘 계정에 대해 유효 기간이 짧은 인증 토큰을 사용할 수 있는 기능이 도입되었습니다.\n\n이러한 단기 액세스 토큰은 토큰이 유출되더라도 악용 가능한 시간을 최소화하여 보안을 강화하는 역할을 합니다. 또한 해당 토큰은 자동으로 갱신되는 기능을 포함하고 있어 사용자의 번거로움을 줄이면서도 향상된 계정 보호 환경을 제공합니다.",
-    "url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-03T07:55:58.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp",
-    "title": "Enterprise-managed auth for MCP: Claude can now issue the identity assertion",
-    "summary": "Claude can now issue the identity assertion for enterprise-managed auth on the Supabase MCP server when your identity provider can't.",
-    "aiSummary": "Claude가 Supabase MCP 서버의 기업용 인증 체계를 지원하도록 업데이트되었습니다.\n\n기존에 사용 중인 ID 공급자가 직접 신원을 증명할 수 없는 상황일 경우, 이제 Claude가 대신 신원 확인을 위한 식별 정보를 발행하는 기능을 수행합니다. 이를 통해 기업 환경에서 더욱 원활하고 안전한 MCP 연결 및 권한 관리가 가능해집니다.",
-    "url": "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp",
-    "category": "데이터베이스",
-    "source": "Supabase Blog",
-    "author": "Supabase Blog",
-    "pubDate": "2026-11-03T07:00:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "Supabase",
-      "PostgreSQL",
-      "BaaS"
     ]
   }
 ]
