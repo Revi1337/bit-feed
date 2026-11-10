@@ -1,5 +1,87 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.4",
+    "title": "1.5.4",
+    "summary": "Added Auto mode to agy acp sessions, so editors can switch a session to auto wherever the CLI itself offers Auto mode; it approves edits inside the workspace and runs commands in the terminal sandbox,",
+    "aiSummary": "agy acp 1.5.4 버전에서는 Auto 모드 기능이 강화되었습니다. 에디터에서 CLI가 제공하는 Auto 모드로 세션을 전환할 수 있게 되었으며, 워크스페이스 내 편집과 터미널 샌드박스 명령 실행이 자동화됩니다. 샌드박스 외부 명령 실행 시 검토 속도를 높이고 타임아웃을 줄이기 위해 Gemini Flash 모델이 도입되었습니다.\n\n훅 기능에는 hookEventName, cwd, toolCall.id가 추가되어 이벤트 처리 효율성과 컨텍스트 인지 능력이 향상되었습니다. 세션 유지 관련 문제도 해결되어 에디터 재시작 시 기존 모드 설정이 유지되며, 도구 호출 시 추가 권한 요청이 발생해도 CLI가 멈추지 않도록 개선되었습니다.\n\n서브에이전트 사용 시 발생하던 충돌과 화면 고정 현상이 수정되었으며, 터미널 환경에 따른 표시 오류도 개선되었습니다. 또한 대화창에서의 페이지 이동 오류, 확장 뷰의 들여쓰기 문제 등 시각적 버그가 수정되었습니다.\n\n네트워크 연결 문제로 인한 원격 제어 서비스 연결 중단 현상을 해결하였으며, Windows Credential Manager나 macOS Keychain의 데이터 제한으로 인해 발생하던 Gemini Enterprise 플랜 인식 오류 및 권한 문제를 수정하였습니다. 이제 세션 중 로그아웃이 필요한 경우 경고 메시지가 정상적으로 표시됩니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.4",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-10T04:33:02.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/",
+    "title": "The open AI-native stack on Kubernetes: From open models to distributed inference and agents",
+    "summary": "Over the past decade, Kubernetes established itself as the standard for orchestrating microservices and containerized applications. Today, we're witnessing the next major architectural shift in distri",
+    "aiSummary": "Google Cloud는 분산 컴퓨팅 환경에서 AI 워크로드를 효과적으로 운영하기 위해 Kubernetes 기반의 오픈소스 AI 네이티브 스택을 공개했습니다. 이는 기업이 외부 API에 의존하지 않고 자체 인프라에서 고성능 모델을 학습시키고 배포할 수 있도록 지원하는 것을 목표로 합니다.\n\n주요 구성 요소는 다음과 같습니다.\n\nOpenRL은 Kubernetes 네이티브 강화학습 서비스로 학습과 추론을 동일한 가속기에서 처리하여 효율성을 극대화합니다. llm-d 1.0은 분산 추론 제어 평면으로서 KV 캐시 인지 라우팅과 다계층 캐시 오프로딩을 통해 지연 시간을 획기적으로 단축합니다. KubeRay는 Kubernetes 환경에서 Ray 워크로드를 관리하여 기업용 라이프사이클 관리와 탄력적인 오토스케일링을 제공합니다. Agent Substrate와 gVisor는 모델이 생성한 코드를 안전하게 실행하기 위한 커널 수준의 샌드박스 환경을 제공합니다.\n\n이러한 기술 스택은 기존의 가속기 자원 활용 미흡, 추론 성능 병목, 보안 취약점 등 대규모 AI 운영 환경의 고질적인 문제들을 해결합니다. 특히 법률이나 금융과 같이 데이터 보안이 중요한 분야에서 자체 모델을 효율적으로 고도화하고 운영하는 데 큰 도움을 줍니다. 실제 사례로 오픈소스 법률 벤치마크인 LAB을 통해 검증한 결과 강화학습 적용 시 모델의 정확도가 크게 향상되었으며, 하드웨어 자원을 유연하게 공유하여 운영 효율성을 최적화했습니다. 관련 프로젝트들은 현재 CNCF Sandbox를 통해 오픈소스로 제공되고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Abdelfettah Sghiouar"
+      ],
+      "title": [
+        "Cloud Developer Advocate"
+      ],
+      "department": [
+        "Google Cloud"
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-10T01:00:00.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "title": "ChatGPT Enterprise now available in AWS Marketplace",
+    "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+    "aiSummary": "OpenAI의 ChatGPT Enterprise가 AWS Marketplace에 정식으로 등록되었습니다.\n\n이번 조치를 통해 기업 고객들은 기존 AWS 구매 및 결제 체계를 활용하여 ChatGPT Enterprise를 더욱 간편하게 도입하고 관리할 수 있게 되었습니다.\n\n이를 통해 조직 내 업무 프로세스를 통합하고 클라우드 인프라 활용 효율을 높일 수 있는 기반이 마련되었습니다.",
+    "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-09T19:00:00.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "92fb165d30993e71e0cdd70801398f45f9518c7d",
+    "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+    "summary": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned t",
+    "aiSummary": "Amazon S3 Tables가 기존 Hive 테이블을 Apache Iceberg로 전환하는 과정을 3단계 절차로 대폭 간소화하여 엔지니어링 비용을 줄였습니다.\n\nAmazon DynamoDB는 대량의 데이터 삽입을 효율적으로 처리할 수 있는 bulk put items 기능을 새롭게 지원합니다.\n\nAgentCore Runtime V2가 출시되어 관련 서비스의 운영 효율성과 에이전트 구동 환경이 개선되었습니다.\n\n이번 업데이트는 복잡한 데이터 마이그레이션 작업의 난이도를 낮추고 클라우드 인프라 운영의 속도를 높이는 데 중점을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-11-09T17:55:26.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/ai-machine-learning/new-survey-finds-enterprises-trapped-between-legacy-software-and-ai-modernization/",
     "title": "New survey finds enterprises trapped between legacy software and AI modernization",
     "summary": "Throughout my career in cybersecurity and infrastructure protection — both in government and now at Google Cloud — I have consistently seen that friction between new and existing technology is often a",
@@ -29,6 +111,22 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot",
+    "title": "Claude Fable 5.2 in GitHub Copilot",
+    "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable…\nThe ",
+    "aiSummary": "Anthropic의 최신 모델인 Claude Fable 5.2가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n해당 모델은 방대한 코드베이스를 아우르는 복잡하고 다단계적인 코딩 작업을 수행하는 데 최적화되어 있습니다. 초기 테스트 결과 Claude Fable 5.2는 뛰어난 프로그래밍 성능을 입증하며 개발자의 생산성 향상에 기여할 것으로 기대됩니다. 현재 GitHub Copilot 사용자라면 누구나 해당 모델을 활용해 수준 높은 코딩 지원을 받을 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-09T16:46:43.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
     ]
   },
   {
@@ -209,6 +307,22 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-11-05-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+    "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+    "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. ",
+    "aiSummary": "GitHub이 자사의 secret scanning 서비스 범위를 확장하여 이제 GitHub Actions 워크플로우 로그에서도 민감한 정보 노출을 탐지할 수 있게 되었습니다.\n\n기존에는 이슈, 위키, 디스커션, 풀 리퀘스트 영역에서만 비밀 정보를 검색할 수 있었으나 이번 업데이트를 통해 워크플로우 로그로 그 대상이 확대되었습니다.\n\n해당 기능은 현재 퍼블릭 프리뷰 상태로 제공되며 이를 통해 개발자는 워크플로우 실행 과정에서 실수로 노출된 자격 증명이나 비밀 정보를 보다 효과적으로 식별하고 방어할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-09T09:01:37.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=55801",
     "title": "Beyond the Version Bump: Running PostgreSQL Major Upgrades in Percona Operator for PostgreSQL",
     "summary": "It was quite challenging to perform postgres major upgrade, e.g., v17 to v18, in a Percona operator/K8s environment. There was no convenient approach to accomplish this task. The only viable solutions",
@@ -256,6 +370,23 @@
       "NestJS",
       "Node.js",
       "TS"
+    ]
+  },
+  {
+    "id": "https://redis.io/blog/give-your-vercel-ai-sdk-agents-memory-with-redis-agent-memory/",
+    "title": "Give your Vercel AI SDK agents memory with Redis Agent Memory",
+    "summary": "We've released @redis/vercel-ai-sdk, an open-source package that adds Redis Agent Memory to agents built with Vercel's AI SDK.\n\nMost agents start every conversation cold. Users repeat their preference",
+    "aiSummary": "Vercel AI SDK를 사용하여 구축된 AI 에이전트에 기억 기능을 추가할 수 있는 오픈소스 패키지 @redis/vercel-ai-sdk가 출시되었습니다.\n\n기존의 많은 AI 에이전트는 대화가 시작될 때마다 이전 맥락을 기억하지 못해 사용자가 매번 선호 사항을 반복해야 하는 한계가 있었습니다. 이번에 공개된 새로운 패키지는 Redis를 활용해 에이전트가 과거의 대화 내용을 지속적으로 기억하고 활용할 수 있도록 지원합니다.\n\n개발자는 이 패키지를 통해 Vercel AI SDK 기반의 에이전트에 기억 장치를 간편하게 통합할 수 있습니다. 이를 통해 에이전트는 시간이 지나도 사용자의 과거 맥락을 유지하며 더욱 개인화되고 연속성 있는 대화를 제공할 수 있게 됩니다.",
+    "url": "https://redis.io/blog/give-your-vercel-ai-sdk-agents-memory-with-redis-agent-memory/",
+    "category": "데이터베이스",
+    "source": "Redis Blog",
+    "author": "Itamar Haber",
+    "pubDate": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-10T04:41:02.777Z",
+    "tags": [
+      "Redis",
+      "NoSQL",
+      "Cache"
     ]
   },
   {
@@ -2320,167 +2451,6 @@
       "Supabase",
       "PostgreSQL",
       "BaaS"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/composer-2-11",
-    "title": "Cooldown Dependency Policy now in Composer 2.11",
-    "summary": "Composer 2.11 can hold back newly published package versions for a set period before installing them. It also ships six security fixes and faster resolution.\nThe post Cooldown Dependency Policy now in",
-    "aiSummary": "Composer 2.11 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 새로 배포된 패키지 버전을 일정 기간 동안 설치하지 않고 보류할 수 있는 Cooldown Dependency Policy 기능이 도입된 점입니다. 또한 총 6가지 보안 취약점 해결을 포함하고 있으며 패키지 의존성 해결 속도가 한층 개선되었습니다.",
-    "url": "https://laravel-news.com/composer-2-11?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Yannick Lyn Fatt",
-    "pubDate": "2026-11-03T03:20:08.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/inertia-3-11-0",
-    "title": "Live Props for Real-Time Updates in Inertia.js v3.11",
-    "summary": "Inertia.js v3.11 adds live props, which reload a page prop when a broadcast event arrives, with Laravel Echo, Reverb, Pusher, and Action Cable transports.\nThe post Live Props for Real-Time Updates in ",
-    "aiSummary": "Inertia.js v3.11 버전이 새롭게 공개되었습니다. 이번 업데이트의 핵심 기능은 라이브 프롭스(Live Props)의 도입입니다.\n\n라이브 프롭스는 브로드캐스트 이벤트가 발생할 때 페이지의 프롭(prop)을 실시간으로 재로드할 수 있게 해줍니다. 이 기능은 Laravel Echo, Reverb, Pusher 및 Action Cable 전송 방식을 지원하며, 실시간 데이터 업데이트가 필요한 웹 애플리케이션 개발의 효율성을 크게 높여줍니다.",
-    "url": "https://laravel-news.com/inertia-3-11-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-11-03T03:19:08.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgbadger-v133-has-been-released-3435/",
-    "title": "pgbadger v13.3 has been released\n",
-    "summary": "Antananarivo, Madagascar - November 03, 2026\npgBadger\npgBadger is a PostgreSQL performance analyzer, built for speed with\nfully detailed reports based on your PostgreSQL log files.\npgBadger 13.3 was r",
-    "aiSummary": "PostgreSQL 성능 분석 도구인 pgBadger v13.3 버전이 새롭게 출시되었습니다. 이번 업데이트는 사용자들로부터 보고된 문제를 해결하고 패치를 적용한 유지보수 성격의 릴리스입니다.\n\n주요 개선 사항으로 항목이 10개를 초과할 경우 범례 및 마우스 오버 그래프에 스크롤 기능을 추가하였으며 --explode 옵션 사용 시 발생하던 여러 문제들을 수정하였습니다. 또한 원격 호스트의 감시 모드에서 전체 로그를 가져오지 않도록 필터링 기능을 추가하였고 다중 라인 문장 처리에 관한 오류를 해결하였습니다.\n\n데이터 분석의 정확도를 높이기 위해 log_min_duration_statement와 auto_explain이 동일한 실행을 중복 집계하던 문제를 해결하였으며, auto_explain의 Query Parameters 처리 및 Explain 계획 복사 기능을 추가하였습니다. 이외에도 --dbuser 필터링 시 쿼리가 잘못 삭제되던 현상을 수정하고 동시에 여러 pgBadger가 실행될 경우 발생하는 파일 충돌을 방지하기 위해 임시 파일명 설정 방식을 개선하였습니다.\n\n상세한 변경 사항은 GitHub의 공식 릴리스 노트를 통해 확인할 수 있으며 pgBadger는 Gilles Darold에 의해 개발된 오픈소스 프로젝트로 PostgreSQL 로그 분석 및 SQL 쿼리 최적화에 활용됩니다.",
-    "url": "https://www.postgresql.org/about/news/pgbadger-v133-has-been-released-3435/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/11/fcm-android-config-v2",
-    "title": "Better Notifications with FCM AndroidConfigV2",
-    "summary": "November 3, 2026\nFirebase Cloud Messaging (FCM) v2 brings more predictability and reliability to remote notifications for the Android ecosystem. Start using FCM ACv2 today by following our guidelines ",
-    "aiSummary": "Firebase Cloud Messaging에서 새롭게 발표한 AndroidConfigV2는 기존 FCM v1의 구조적 한계를 극복하고 알림 전달의 예측 가능성과 신뢰성을 높이기 위해 설계되었습니다. 기존 방식은 시스템 브로드캐스트와 불분명한 메시지 우선순위 설정으로 인해 배터리 관리 모드나 기기 상태에 따른 알림 지연 문제가 빈번하게 발생했습니다.\n\nAndroidConfigV2는 메시지 의도를 명확히 구분하는 방식으로 이러한 문제를 해결합니다. 긴급하고 사용자에게 보여야 하는 알림은 RemoteNotification으로, 데이터 동기화와 같은 비긴급 작업은 BackgroundSync로 분리하여 처리합니다. 특히 RemoteNotification은 Doze 모드나 배터리 최적화 제한을 우회하여 즉각적인 알림 전달을 보장합니다.\n\n클라이언트 측 변화도 두드러집니다. 개발자는 기존의 단일 onMessageReceived 콜백 대신 onNotificationReceived와 onBackgroundSyncReceived를 통해 더욱 정밀한 제어가 가능합니다. 특히 RemoteNotification 처리 시 NotificationResponse 객체를 반환하여 시스템에 즉각적인 피드백을 제공해야 하며, 이를 통해 앱이 충돌하거나 처리 시간을 초과하더라도 시스템이 서버에 설정된 폴백 알림을 직접 표시할 수 있는 안정성을 확보했습니다.\n\n또한, 자동 렌더링 기능을 통해 코드 실행 없이도 알림을 표시하거나, 필요시 mutable_content 설정을 통해 동적 이미지 추가 및 암호화 해제와 같은 맞춤형 처리를 수행할 수 있습니다. 처리 시간은 20초 이내로 제한되며, 과도한 알림 억제에 대한 정책도 강화되어 시스템 전반의 성능을 최적화합니다.\n\n이번 업데이트는 하위 호환성을 보장하므로 백엔드와 클라이언트 팀이 단계적으로 전환할 수 있습니다. 서버 측에서는 기존 android 설정 대신 android_v2 블록을 사용하고, 클라이언트는 FirebaseMessagingService의 새로운 콜백 메서드를 구현함으로써 즉시 개선된 알림 시스템을 도입할 수 있습니다.",
-    "url": "https://firebase.blog/posts/2026/11/fcm-android-config-v2",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "fetchedAt": "2026-11-03T21:09:03.207Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
-    "title": "Announcing rustup 1.29.3",
-    "summary": "The rustup team has published a new point release of rustup, 1.29.3.\nRustup is the recommended tool to install Rust, a\nprogramming language that empowers everyone to build reliable and efficient\nsoftw",
-    "aiSummary": "Rust 프로젝트의 공식 설치 도구인 rustup이 버전 1.29.3으로 업데이트되었습니다. 이번 릴리스는 이전 버전에서 발생했던 몇 가지 사소한 문제를 해결한 패치 버전입니다.\n\n주요 수정 사항으로는 SSE4.1을 지원하지 않는 일부 x86_64 CPU 환경에서 발생하던 Illegal instruction 오류가 해결되었으며, Solaris 환경에서의 lock() not supported 오류 또한 수정되었습니다.\n\n기존 사용자는 터미널에서 rustup self update 또는 rustup update 명령어를 통해 최신 버전으로 갱신할 수 있습니다. 만약 자동 업데이트 과정에서 문제가 발생한다면 공식 웹사이트에서 rustup-init 바이너리를 내려받아 기존 파일을 수동으로 대체하는 방식을 권장합니다.\n\n새로운 릴리스 배포 직후 일부 안티 멀웨어 도구가 rust-docs 설치 시 파일 생성이나 복사를 차단할 수 있으나, 이는 시간이 지나면 백신 업데이트를 통해 자동으로 해결될 사안입니다. 상세한 변경 사항은 공식 changelog를 통해 확인할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "The Rustup Team",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/03/this-week-in-spring-november-3rd-2026",
-    "title": "This Week in Spring - November 3rd, 2026 ",
-    "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring! It's Tuesday, and you know what that means? I'm thinking about production. Now, to be fair, I'm always thinking about production",
-    "aiSummary": "이번 주 Spring 소식에서는 Docker와 kind를 활용하여 로컬 환경에 Cloud Foundry를 간편하게 구축하고 Spring Boot 애플리케이션을 배포하는 방법이 소개되었습니다. 작성자는 AI 에이전트를 활용해 복잡한 설치 과정을 자동화할 수 있음을 강조하며, cf CLI를 이용해 애플리케이션을 빠르게 실행하는 절차를 공유했습니다.\n\n주요 소식으로는 Craig Walls가 작성한 MCP 애플리케이션의 리치 UI 렌더링 방식과 RAG 속도 향상을 위한 임베딩 최적화 기법이 포함되었습니다. 또한 Spring Boot 3.5 지원 종료에 따른 Spring Boot 4 마이그레이션 가이드와 Spring Boot 4.2 릴리스 후보 버전의 주요 변경 사항인 시작 성능 개선 및 업그레이드 검사 기능이 발표되었습니다. 그 외에도 Michael Redlich의 Spring 뉴스 요약과 Java 및 Spring Boot 애플리케이션의 harness 엔지니어링, 사양 기반 개발에 관한 콘텐츠들이 이번 주 주요 정보로 다루어졌습니다.",
-    "url": "https://spring.io/blog/2026/11/03/this-week-in-spring-november-3rd-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "fetchedAt": "2026-11-03T15:20:36.109Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
-    "title": "Google Cloud Developer plugin now available in Antigravity Marketplace",
-    "summary": "Building cloud solutions with autonomous AI agents should feel fast, safe, and reliable. Without cloud-specific context, coding agents often struggle. They might invent deprecated SDK syntax, guess in",
-    "aiSummary": "Google Cloud와 Antigravity 간의 통합을 강화하는 google-cloud-developer 플러그인이 Antigravity Marketplace에 출시되었습니다. 이 플러그인은 자율 AI 에이전트가 Google Cloud 환경에서 안전하고 정확하게 코딩 작업을 수행할 수 있도록 설계되었습니다.\n\n기존의 코딩 에이전트는 정적인 학습 데이터에 의존하여 구식 SDK 구문을 생성하거나 부적절한 권한을 시도하는 문제가 있었으나, 이 플러그인은 실시간 공식 문서와 연동되어 최신 정보를 기반으로 응답합니다. 특히 개발자 지식 MCP 서버가 사전에 인증된 상태로 제공되어 API 키 관리나 OAuth 토큰 설정 등의 복잡한 구성 없이 즉시 사용 가능한 것이 특징입니다.\n\n핵심 기능으로는 실시간 문서 기반의 정확한 정보 제공, 최소 권한 원칙을 적용한 IAM 보안 가이드라인, 인프라 변경 시 사용자 승인을 요구하는 비용 방어 기제 등이 포함되어 있습니다. 또한, 사용자의 로컬 환경을 분석하여 안전한 실행 로드맵을 설계하고, 필요한 기술을 필요할 때마다 동적으로 호출하는 지능형 라우팅 아키텍처를 도입하여 토큰 효율성을 극대화합니다.\n\n사용자는 Antigravity Marketplace 내 Build with Google 섹션에서 클릭 한 번으로 간편하게 설치할 수 있으며, CLI를 통한 설치도 지원합니다. 이를 통해 에이전트는 GKE나 Cloud Run과 같은 Google Cloud 서비스에 대해 공식 문서에 근거한 검증된 답변을 생성하게 됩니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Remigiusz Samborski"
-      ],
-      "title": [
-        "Lead Developer Relations Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-02T18:00:00.000Z",
-    "fetchedAt": "2026-11-03T03:57:31.155Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-    "title": "The latest AI news we announced in October 2026",
-    "summary": "Here are Google’s latest AI updates from October 2026",
-    "aiSummary": "Google은 2026년 10월을 맞아 최신 AI 업데이트 소식을 발표하였습니다. 해당 발표에는 Google이 개발한 다양한 인공지능 기술의 진보와 서비스 개선 사항이 포함되어 있습니다. 이번 업데이트는 사용자 경험을 향상하고 실질적인 기술적 성능을 강화하는 데 초점을 맞추고 있습니다.",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Blog Team"
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-02T17:45:00.000Z",
-    "fetchedAt": "2026-11-03T03:57:31.155Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
     ]
   }
 ]
