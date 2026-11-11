@@ -1,5 +1,86 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_147",
+    "title": "Visual Studio Code 1.147 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.147 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.147 Insiders 버전이 공개되었습니다. 해당 업데이트에는 소프트웨어 개발 효율성을 높이기 위한 다양한 기능 개선과 버그 수정이 포함되어 있습니다. 상세한 변경 사항과 새로운 기능에 대한 구체적인 정보는 공식 블로그의 전체 기사를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_147",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-11-11T15:27:19.416Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "aiSummary": "AlphaGenome 2는 DNA 서열과 그 변이가 인간의 특정 세포 유형 및 질병에 어떤 영향을 미치는지 예측하기 위해 개발된 기술입니다. 이 모델은 세포가 DNA를 해석하는 복잡한 방식을 해독함으로써 유전적 요인이 질병으로 이어지는 과정을 보다 명확하게 파악할 수 있도록 돕습니다. 결과적으로 해당 연구는 정밀 의료와 질병 기전 이해를 향상시키는 데 중요한 기여를 할 것으로 기대됩니다.",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-11T15:00:15.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/5-trillion-shift-preparing-retail-backends-for-age-of-ai-agents",
+    "title": "The $5 Trillion Shift: Preparing Retail Backends for the Age of AI Agents",
+    "summary": "Retail is entering the era of the multi-agent shopping assistant. Instead of a single, stateless chatbot following a rigid script, retailers are building systems where multiple agents collaborate behi",
+    "aiSummary": "소매 유통 분야는 단일 챗봇을 넘어 다수의 AI 에이전트가 협업하는 형태로 진화하고 있습니다. McKinsey에 따르면 AI 에이전트가 매개하는 글로벌 소비자 상거래 규모는 2030년까지 최대 5조 달러에 이를 것으로 전망됩니다. 이러한 멀티 에이전트 시스템을 성공적으로 구현하기 위해서는 벡터 검색, 사용자 문맥, 세션 상태, 장기 기억, 관측 가능성 등 다섯 가지 핵심 데이터 요건을 충족해야 합니다.\n\n기존의 방식은 각 요건을 충족하기 위해 여러 개의 독립적인 데이터 저장소를 운영하는 분산형 구조를 취하고 있어 데이터 일관성 유지에 어려움이 크고 관리 비용이 높습니다. 에이전트 간 데이터가 분리되어 있으면 고객의 요구사항이나 과거 이력을 정확하게 반영하지 못하는 문제가 발생합니다.\n\n이를 해결하기 위해 많은 기업이 MongoDB Atlas를 기반으로 데이터 레이어를 통합하고 있습니다. MongoDB Atlas는 벡터 검색과 일반 텍스트 검색을 한 곳에서 지원하며, 유연한 문서 모델을 통해 고객 프로필, 세션 문맥, 장기 기억 등을 하나의 플랫폼에서 관리합니다. 이를 통해 각 에이전트는 항상 최신화된 동일한 정보에 접근할 수 있습니다.\n\n이러한 통합 아키텍처는 IT 팀의 운영 효율성을 크게 높여줍니다. 여러 데이터 저장소를 관리할 필요가 없어 인프라 복잡도가 낮아지고, 시스템 확장과 유지보수가 용이해집니다. 또한, 새로운 에이전트나 기술이 도입되더라도 데이터 계층을 재설계할 필요 없이 확장할 수 있어 미래의 변화에 유연하게 대응할 수 있습니다.\n\n최종적으로 이러한 데이터 통합은 고객에게 끊김 없는 개인화 경험을 제공합니다. 채널이나 대화 세션에 관계없이 고객의 선호도와 구매 이력이 일관되게 반영되므로, 추천의 정확도가 향상되고 결과적으로 높은 구매 전환율과 고객 만족도를 이끌어낼 수 있습니다. 결론적으로 성공적인 멀티 에이전트 유통 환경을 구축하기 위해서는 LLM이나 오케스트레이션 프레임워크의 변화에 구애받지 않는 단일하고 탄력적인 데이터 기반을 마련하는 것이 무엇보다 중요합니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/5-trillion-shift-preparing-retail-backends-for-age-of-ai-agents",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-11T15:00:01.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/engineering/optimizing-document-lookup-making-atlas-search-vector-search-up-to-5x-faster",
+    "title": "Optimizing Document Lookup: Making Atlas Search and Vector Search Up to 5x Faster",
+    "summary": "Sometimes the biggest performance gains come not from making core operations faster, but from eliminating unnecessary work surrounding them. That is exactly what we discovered while optimizing documen",
+    "aiSummary": "MongoDB는 Atlas Search와 Vector Search의 문서 조회 성능을 최적화하여 쿼리 속도를 최대 5.5배까지 향상했습니다. 기존에는 $search나 $vectorSearch 수행 시, 검색된 각 문서마다 개별적으로 쿼리 계획을 수립하고 리소스를 확보하는 과정에서 많은 CPU 자원이 소모되는 병목 현상이 발생했습니다. 프로파일링 결과 전체 CPU 사용량의 약 30%가 실제 데이터 조회가 아닌 이러한 준비 과정에 낭비되고 있었습니다.\n\n이를 해결하기 위해 MongoDB는 $_internalSearchIdLookup 단계의 실행 방식을 근본적으로 재설계했습니다. 먼저 SBE 엔진을 활용하여 파라미터화된 실행 계획을 캐싱함으로써 동일한 쿼리 구조에 대해 계획을 재사용하도록 변경했습니다. 또한, 문서 조회 시 리소스 확보 비용을 최소화하기 위해 BatchedEnrichmentStage를 도입하여 여러 문서를 배치 단위로 처리함으로써 리소스 관리 오버헤드를 대폭 줄였습니다.\n\n이러한 최적화는 MongoDB 9.0 버전부터 기본적으로 적용되며, 별도의 애플리케이션 코드 변경이나 인덱스 재구성 없이 즉시 성능 향상 효과를 누릴 수 있습니다. 결과적으로 대규모 결과셋을 반환하는 쿼리에서 응답 속도가 비약적으로 개선되었으며, 동시성 환경에서도 약 2.75배 높은 처리량을 기록했습니다. 결과셋의 크기가 클수록 성능 개선 폭이 커지며, 실제 고객 환경에서도 널리 활용되는 대량 데이터 조회 시 실질적인 성능 이점을 제공합니다.",
+    "url": "https://www.mongodb.com/company/blog/engineering/optimizing-document-lookup-making-atlas-search-vector-search-up-to-5x-faster",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-11T15:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=ai&p=753369",
+    "title": "JetBrains IDEs Transformed for the Agentic Era of Development – With Air",
+    "summary": "As agents write more code, individual productivity goes up, but the bottleneck moves to review. 49% of developers now spend four or more hours a week reviewing AI output and correcting prompts (Atlass",
+    "aiSummary": "AI 에이전트가 코드를 작성하는 비중이 높아지면서 개발자의 생산성은 향상되었으나, 생성된 코드를 검토하고 프롬프트를 수정하는 작업이 새로운 병목 현상으로 떠오르고 있습니다. Atlassian의 2026년 보고서에 따르면 개발자의 49퍼센트가 매주 4시간 이상을 AI 결과물을 검토하는 데 할애하는 것으로 나타났습니다.\n\n이러한 문제를 해결하기 위해 JetBrains는 개발 환경의 새로운 시대를 겨냥한 Air를 공개했습니다. Air는 단순한 코드 완성을 넘어 개발자가 AI의 변경 사항을 명확히 이해하고, 그것이 프로젝트에 적합한지 신속하게 판단할 수 있도록 지원합니다.\n\nJetBrains의 이번 변화는 AI 에이전트가 생성한 코드의 품질을 보장하고 관리하는 과정을 효율화하는 데 중점을 둡니다. 이를 통해 개발자는 반복적인 검토 업무에서 벗어나 보다 고차원적인 설계와 문제 해결에 집중할 수 있는 환경을 조성합니다.",
+    "url": "https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Dominique Rolink",
+    "pubDate": "2026-11-11T09:38:53.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-06-github-app-support-for-enterprise-copilot-seat-management",
     "title": "GitHub App support for Enterprise Copilot seat management",
     "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are acces",
@@ -13,6 +94,52 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-42-0",
+    "title": "UUID Request Input and Migration Failure Events in Laravel 13.42",
+    "summary": "Laravel 13.42 adds uuid() and ulid() input helpers, a MigrationFailed event, skip reasons for scheduled tasks, and Uri::origin() for comparing URL origins.\nThe post UUID Request Input and Migration Fa",
+    "aiSummary": "Laravel 13.42 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 요청 데이터를 처리할 때 UUID와 ULID를 간편하게 다룰 수 있는 uuid()와 ulid() 입력 헬퍼가 추가되었습니다.\n\n또한 데이터베이스 마이그레이션 과정에서 오류가 발생했을 때 이를 감지할 수 있는 MigrationFailed 이벤트가 도입되었습니다. 이 외에도 예약된 작업의 실행을 건너뛰는 이유를 확인할 수 있는 기능과 URL의 출처를 비교하기 위한 Uri::origin() 메서드가 새롭게 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-42-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-11-11T00:02:52.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+    "title": "Google Summer of Code 2026 results",
+    "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several mont",
+    "aiSummary": "Rust Project는 올해로 세 번째 참여한 GSoC 2026에서 총 13개의 프로젝트를 성공적으로 완수했다고 발표했습니다. 이번 프로그램은 기여자와 멘토들의 헌신적인 협력을 통해 높은 성공률을 기록했으며, Rust 커뮤니티의 기술적 발전과 신규 기여자 유입에 중요한 역할을 했습니다. 주요 프로젝트 내용은 다음과 같습니다.\n\nMarcelo Domínguez는 std::offload 모듈을 개선하여 Rust에서 GPU 오프로딩을 더욱 안전하고 사용하기 쉽게 만들었습니다. 컴파일러 수준의 타입 검사와 제네릭 커널 지원을 추가하고, 성능을 검증하는 벤치마크를 수행했습니다.\n\nKei Akiyama는 Wild 링커에 WebAssembly 지원을 추가했습니다. 기존 표준인 wasm-ld 대비 2~15배 빠른 링크 속도와 적은 메모리 사용량을 달성하며 탁월한 성능을 입증했습니다.\n\nShota Sugano는 실험적인 std::autodiff와 std::offload 모듈을 Rust 공식 나이트리 채널에 통합하여 사용자들이 rustup을 통해 쉽게 기능을 설치하고 실험할 수 있도록 CI 환경을 구축했습니다.\n\nMohamed Ali는 Rust 코드의 정의되지 않은 동작을 탐지하는 도구인 Miri를 위해 대화형 디버거인 priroda를 재구축했습니다. 이를 통해 GDB 인터페이스와 IDE 연동 기능을 제공하여 디버깅 효율성을 크게 높였습니다.\n\nRyosuke Yamano는 RFC 3323에서 제안된 impl 및 mut 제한 기능을 언어에 직접 구현했습니다. 해당 기능은 특정 모듈 내에서의 트레이트 구현이나 필드 변경 권한을 제어할 수 있게 하며, 현재 나이트리 버전에서 피드백을 수집 중입니다.\n\nTanmay는 임베디드 워킹 그룹과 협력하여 serialport-rs의 API 인체공학적 설계와 타입 안전성을 개선했습니다. 레거시 API의 문제점을 해결하고 오류 처리를 명확히 하여 5.0 버전 출시를 준비하고 있습니다.\n\nAdam Martinez는 핵심 라이브러리인 libc의 1.0 버전 안정화에 기여했습니다. 100일 이상 매일 보고서를 제출하는 등 엄청난 생산성을 보여주며, 복잡한 비트 너비 변형 처리 및 오류 유발 상수 정리 등 난제들을 성공적으로 해결했습니다.\n\nRust Project는 이번 성과를 바탕으로 향후에도 GSoC를 비롯한 다양한 멘토십 프로그램에 지속적으로 참여할 계획입니다. 자세한 프로젝트 결과와 소스 코드는 공식 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Jakub Beránek",
+    "pubDate": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/11/11/withdraw-primitive-patterns-preview/",
+    "title": "Withdrawing the Primitive Patterns Preview Feature",
+    "summary": "We have decided to cease development of Primitive Types in Patterns, instanceof, and switch. The draft JEP https://openjdk.org/jeps/8393282 that would have been the sixth preview of this feature will ",
+    "aiSummary": "OpenJDK 프로젝트는 패턴 매칭의 일환으로 개발 중이었던 Primitive Types in Patterns, instanceof, and switch 기능의 개발을 중단하기로 결정하였습니다. \n\n해당 기능의 여섯 번째 프리뷰를 포함할 예정이었던 JEP 8393282 초안은 철회될 예정입니다. 또한, 이미 프리뷰로 제공되던 해당 기능은 향후 출시될 JDK 28에서 완전히 삭제될 예정입니다. 자세한 배경과 이유는 OpenJDK의 amber-spec-experts 메일링 리스트를 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/11/11/withdraw-primitive-patterns-preview/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Angelos Bimpoudis",
+    "pubDate": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Java"
     ]
   },
   {
@@ -93,6 +220,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
+    "title": "From insight to action: improving infrastructure risk posture with Terraform and Concert ",
+    "summary": "Advances in AI are accelerating vulnerability discovery, uncovering previously unknown weaknesses and complex attack paths. Anthropic’s Claude Mythos cyber reasoning marked a major shift in the vulner",
+    "aiSummary": "AI 기술의 발전으로 취약점 발견 속도가 빨라지면서 기업은 방대한 보안 데이터를 효율적으로 관리하고 우선순위를 정해야 하는 과제에 직면해 있습니다. 단순히 취약점을 찾아내는 것을 넘어 실제 위협 여부를 판단하고 이를 안전하게 해결하는 과정이 중요해졌습니다.\n\nIBM은 이를 위해 Terraform과 IBM Concert를 결합하여 취약점 정보와 인프라 컨텍스트를 연결하는 통합 대응 솔루션을 제시합니다. Terraform은 인프라를 코드로 정의하고 관리하는 기반으로서, 정책 기반의 거버넌스를 통해 안전하고 일관된 변경 작업을 수행할 수 있도록 지원합니다.\n\nIBM Concert Protect는 이 과정에서 핵심적인 역할을 합니다. 우선 IBM은 Anthropic의 Claude Mythos를 도입하여 기존 보안 도구로 발견하기 어려운 미지의 취약점까지 탐지 범위를 확장할 계획입니다. 또한 애플리케이션, 인프라, 네트워크 등 다양한 비즈니스 컨텍스트를 분석하여 실제로 악용 가능한 취약점만을 선별하는 검증 기능을 제공합니다.\n\n최종적으로 조직은 발견된 위협의 우선순위를 정한 뒤, Terraform의 자동화된 워크플로우를 활용해 인프라 변경 사항을 승인하고 적용할 수 있습니다. 이러한 통합적인 접근 방식은 파편화된 보안 대응 체계를 개선하고 인프라 라이프사이클 전반에 걸쳐 위험을 효과적으로 관리할 수 있도록 돕습니다.",
+    "url": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Mitchell Ross",
+    "pubDate": "2026-11-10T17:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -1441,6 +1584,22 @@
     ]
   },
   {
+    "id": "https://www.hashicorp.com/blog/consul-210-advancing-secure-resilient-connectivity-for-modern-and-agentic-applica",
+    "title": "Consul 2.1.0: Advancing secure, resilient connectivity for modern and agentic applications ",
+    "summary": "Applications are becoming more distributed, and the connections between them are becoming more complex. Platform teams must securely expose services, enforce consistent access policies, keep applicati",
+    "aiSummary": "Consul 2.1.0은 현대적이고 분산된 애플리케이션 환경을 지원하기 위해 연결성, 보안, 그리고 새롭게 부상하는 에이전트 기반 워크로드 관리에 초점을 맞추어 출시되었습니다.\n\nAPI Gateway는 HTTP/2와 gRPC를 완벽하게 지원하며, 외부 인증 및 처리 기능을 통해 더 복잡한 보안 정책과 요청 처리를 중앙에서 효율적으로 관리할 수 있도록 개선되었습니다. 또한 서비스 메쉬의 운영 안정성을 높이기 위해 제어 평면 의존도를 낮춘 로컬 DNS 기능을 도입하였고, 트래픽 리다이렉션 방식을 기존의 iptables에서 최신 Linux 패킷 필터링 프레임워크인 nftables로 전환하여 성능과 운영 일관성을 강화했습니다.\n\n보안 측면에서는 향후 양자 컴퓨팅 위협에 대비한 X25519MLKEM768 하이브리드 TLS 키 교환 방식을 도입하였으며, 규제 산업을 위한 FIPS 140-3 인증 빌드를 제공합니다.\n\n이번 버전의 핵심 중 하나인 Consul Agentic Runtime Fabric은 AI 에이전트, MCP 서버, 추론 모델 등이 상호 작용하는 환경에서 연결성, 아이덴티티, 정책을 관리할 수 있는 기반을 제공합니다. 이를 통해 기업은 AI 워크로드를 운영할 때 요구되는 인증과 접근 제어를 기존 네트워크 표준에 통합할 수 있습니다.\n\n추가로 도입된 Consul Operations Hub는 베타 버전으로 제공되며, 분산된 여러 Consul Enterprise 데이터센터의 인벤토리, 토폴로지, 보안 상태를 단일 인터페이스에서 확인할 수 있는 중앙 집중식 가시성을 제공합니다.\n\n기존 버전에서 업그레이드 시에는 iptables에서 nftables로 전환되는 과정에서 발생할 수 있는 충돌을 방지하기 위해 반드시 릴리스 노트와 마이그레이션 가이드를 사전에 검토해야 합니다.",
+    "url": "https://www.hashicorp.com/blog/consul-210-advancing-secure-resilient-connectivity-for-modern-and-agentic-applica",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Jiju John",
+    "pubDate": "2026-11-06T08:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/",
     "title": "Zero-shot predictions in Pandas using the new BigQuery Accessor",
     "summary": "Imagine running advanced machine learning workflows—from forecasting and classification to high-dimensional embedding generation—without ever leaving your familiar pandas DataFrame. With the new .bigq",
@@ -1679,6 +1838,38 @@
       "DeepMind",
       "Gemini",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/migrate-sentinel-and-opa-policies-to-terraform-policy-faster",
+    "title": "Migrate Sentinel and OPA policies to Terraform policy faster with the Terraform policy agent",
+    "summary": "Your Sentinel and OPA policies represent years of work: security and compliance decisions, edge cases, and lessons learned, all captured as code. As infrastructure has evolved, governance increasingly",
+    "aiSummary": "HashiCorp는 기존 Sentinel 및 OPA 정책을 Terraform policy로 신속하게 전환할 수 있도록 지원하는 Terraform policy agent를 정식 출시했습니다. Terraform policy는 HCL을 기반으로 인프라 생명주기 전체에 걸쳐 정책을 관리할 수 있는 프레임워크이며, 이번에 공개된 agent를 통해 기존에 축적된 정책 로직을 더 효율적으로 마이그레이션할 수 있게 되었습니다.\n\nTerraform policy agent는 Docker 컨테이너 형태로 실행되며 사용자가 선택한 모델 제공업체인 GitHub Copilot, Amazon Bedrock, LiteLLM 등을 통해 작동합니다. 이 도구는 단순히 코드를 한 줄씩 변환하는 것이 아니라 정책의 의도를 분석하여 새로운 Terraform policy 파일과 테스트 코드를 생성하고 결과 보고서를 제공하는 체계적인 워크플로우를 따릅니다. 구체적으로는 정책 목표 추출, 코드 및 테스트 생성, 결과 검증 및 요약의 3단계 과정을 거칩니다.\n\n또한 이 agent는 Terraform MCP 서버를 활용하여 실제 프로바이더 데이터를 기반으로 정책을 생성하므로 정확도가 높습니다. 생성된 모든 결과물은 사람이 직접 검토하고 검증할 수 있도록 설계되어 있으며 잠재적인 변환 제한 사항까지 명확히 보고합니다. 다만 생성형 모델의 특성상 최종 결과물은 반드시 운영자가 직접 검토해야 하며, 테스트가 통과하더라도 초기에는 자문 모드로 적용하여 동작을 충분히 확인한 뒤 필수 적용 단계로 전환할 것을 권장합니다.",
+    "url": "https://www.hashicorp.com/blog/migrate-sentinel-and-opa-policies-to-terraform-policy-faster",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Amitha Shetty",
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/secure-ai-credentials-from-discovery-to-remediation-with-vault-radar-and-vault",
+    "title": "Secure AI credentials from discovery to remediation with Vault Radar and Vault ",
+    "summary": "AI development may be changing how applications are built, but many of the security problems underneath them are familiar. Applications need credentials to connect to models, cloud services, databases",
+    "aiSummary": "AI 개발이 확산하면서 모델, 클라우드 서비스, 데이터베이스에 접근하기 위한 자격 증명이 코드 저장소나 개발 워크플로우 전반에 무분별하게 노출되는 문제가 커지고 있습니다. 개발 과정에서 프로토타입 실행을 위해 삽입된 API 키가 제거되지 않고 남거나, 협업 툴인 Confluence, Jira, Slack 등에 공유되면서 보안 취약점이 발생하는 사례가 빈번합니다.\n\nHCP Vault Radar는 이러한 보안 문제를 해결하기 위해 개발 워크플로우 전반에서 관리되지 않는 시크릿을 탐지합니다. 특히 Git 기록까지 정밀 스캔하여 OpenAI API 키를 비롯한 주요 클라우드 서비스의 자격 증명을 찾아내고, 해당 자격 증명의 활성화 여부를 확인하여 실질적인 위협을 선별합니다.\n\n단순히 노출된 키를 찾아내는 것만으로는 근본적인 해결이 되지 않으므로, HCP Vault Dedicated를 통한 중앙 집중식 관리 체계 구축이 중요합니다. 노출된 자격 증명을 폐기한 후 이를 Vault에 저장하고, 애플리케이션이 코드가 아닌 Vault를 통해 필요한 인증 정보를 동적으로 조회하도록 함으로써 보안성을 강화합니다.\n\nVault secrets sync 기능을 활용하면 Vault를 원천 데이터로 유지하면서 AWS Secrets Manager, Azure Key Vault, GitHub Repository Actions 등 외부 플랫폼과 시크릿을 동기화할 수 있습니다. 이를 통해 개발 워크플로우를 저해하지 않으면서도 보안 정책을 준수할 수 있습니다. 결과적으로 기업은 AI 개발 과정에서 발생하는 자격 증명 문제를 일회성 처리가 아닌 지속 가능한 보안 관행으로 정착시킬 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/secure-ai-credentials-from-discovery-to-remediation-with-vault-radar-and-vault",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Aubrey Johnson",
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "fetchedAt": "2026-11-11T15:27:19.416Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
