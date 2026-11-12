@@ -1,5 +1,262 @@
 [
   {
+    "id": "https://www.mongodb.com/company/blog/innovation/how-observe-ai-used-mongodb-resharding-scale-ai-platform",
+    "title": "How Observe.AI Used MongoDB Resharding to Scale Its AI Platform",
+    "summary": "Launched in 2017, Observe.AI was originally known for its expertise in conversation intelligence and contact center analytics. In recent years, however, the company has grown into a comprehensive agen",
+    "aiSummary": "Observe.AI는 대화형 지능 및 상담 센터 분석을 전문으로 하던 기업에서 현재는 고객 응대 및 운영 지원을 위한 에이전트 AI 플랫폼을 제공하는 기업으로 성장했습니다. 방대한 양의 고객 대화 데이터와 모델 메타데이터를 저장하기 위해 MongoDB Atlas를 핵심 데이터 계층으로 활용하고 있으며, 현재 100개 이상의 클러스터에서 50TB 이상의 데이터를 관리하고 있습니다.\n\n최근 데이터 증가에 따른 용량 부족 문제를 해결하고 시스템의 가용성을 유지하기 위해 Observe.AI는 MongoDB Consulting 팀과 협력하여 대규모 데이터 재분배 작업을 수행했습니다. 기존에는 데이터 확장을 위해 MongoDB 밸런서를 사용했으나, 데이터 규모가 크고 수집 속도가 빨라 밸런서만으로는 처리 효율이 낮고 운영 부하가 크다는 한계가 있었습니다.\n\n이에 양사는 신규 샤드를 추가하여 용량을 확보한 뒤, MongoDB의 resharding 기능을 활용하는 4단계 최적화 계획을 수립했습니다. 먼저 클러스터를 수평적으로 확장하고, 재분배 과정에서의 IOPS 경쟁을 막기 위해 밸런서와 범위 삭제 기능을 일시적으로 비활성화했습니다. 이후 가장 큰 컬렉션들을 순차적으로 resharding하여 데이터를 새로운 샤드셋으로 효율적으로 분산시켰습니다.\n\n결과적으로 Observe.AI는 50TB에 달하는 프로덕션 데이터를 운영 중단 없이 성공적으로 재분배하였습니다. 이 과정에서 기존 샤드의 물리적 부하를 최소화하고 데이터 증가를 위한 충분한 여유 공간을 확보할 수 있었습니다. 이번 사례는 MongoDB의 resharding 기능이 단순한 긴급 조치가 아니라, 비즈니스 성장에 맞춰 인프라를 유연하게 관리하고 성능을 최적화하는 핵심적인 도구가 될 수 있음을 입증합니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/how-observe-ai-used-mongodb-resharding-scale-ai-platform",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-12T01:00:00.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.5",
+    "title": "0.162.5",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 0.162.5 버전이 공개되었습니다. 이번 업데이트에서는 코딩 에이전트가 설치된 버전의 새로운 기능과 권장 패턴을 효과적으로 활용할 수 있도록 돕는 공식 스킬이 추가되었으며, 해당 기능은 uvx library-skills 명령어를 통해 프로젝트에 설치할 수 있습니다.\n\n버그 수정으로는 작업 취소 시 동기식 의존성 정리 과정에서 발생하던 문제를 해결하였습니다. 또한 내부 변경 사항으로 pydantic-ai 의존성을 제거하고 pydantic-ai-slim[openai]를 사용하도록 구성이 변경되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.5",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-11T22:29:35.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-claude-sdk-session-adapter-durable-session-storage-for-agents",
+    "title": "Introducing the MongoDB Claude SDK Session Adapter: Durable Session Storage for Agents",
+    "summary": "The Claude Agent SDK is a package that lets you embed Claude Code's own agent loop directly into your application: web search, file search, file editing, MCP server connections, and more, all without ",
+    "aiSummary": "Anthropic은 Claude Agent SDK를 위한 MongoDB Claude SDK Session Adapter를 새롭게 공개했습니다. 기존의 Claude Agent SDK는 에이전트의 세션 기록을 로컬 파일 시스템에 저장하는 방식이었으나, 이번에 발표된 어댑터를 사용하면 에이전트의 대화와 작업 기록을 MongoDB에 영구적으로 저장할 수 있게 됩니다.\n\n이 기능은 특히 Lambda와 같이 상태를 유지하지 않는 서버리스 환경에서 에이전트를 운영할 때 필수적입니다. SessionStore를 활용하면 에이전트가 실행되는 인스턴스가 변경되더라도 이전 대화와 작업 내용을 그대로 불러와 작업을 재개할 수 있습니다. 이를 통해 여러 기기나 서버에 걸쳐 에이전트의 연속성을 보장하는 환경을 구축할 수 있습니다.\n\nMongoDB Claude SDK Session Adapter가 제공하는 주요 이점은 세 가지입니다. 첫째는 환경 간 연속성으로, 세션 상태를 특정 기기에 종속시키지 않고 분산 배포된 환경에서 자유롭게 이어갈 수 있습니다. 둘째는 장애 대응 능력으로, 호스트가 중단되더라도 실시간으로 MongoDB에 기록된 상태를 통해 이전 작업을 즉시 복구할 수 있습니다. 셋째는 데이터 관리 및 보안으로, 기업이 이미 운영 중인 MongoDB 클러스터의 데이터 정책과 접근 제어 시스템을 에이전트 기록에도 동일하게 적용할 수 있습니다.\n\n현재 이 어댑터는 Python 환경에서 바로 사용할 수 있으며, 2027년 1월부터는 TypeScript도 지원할 예정입니다. ClaudeAgentOptions 내에서 간단한 설정을 추가하는 것만으로 구현이 가능하며, 이를 통해 에이전트 인프라의 확장성과 데이터 무결성을 동시에 확보할 수 있습니다.",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-claude-sdk-session-adapter-durable-session-storage-for-agents",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-11T20:54:41.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=56067",
+    "title": "Ten ways a glibc change can break your PostgreSQL cluster",
+    "summary": "Between any two glibc versions, locales can change, and those changes alter the order of character string comparison (text/varchar/char/citext). It may also happen that locales are removed, such as en",
+    "aiSummary": "glibc 버전이 변경될 때 발생하는 로케일의 변화는 PostgreSQL 클러스터에 심각한 문제를 야기할 수 있습니다. 로케일이 변경되면 문자열 비교 순서가 달라져 인덱스 오염이나 쿼리 결과의 오류를 초래할 수 있습니다. 특히 특정 OS 환경에서 로케일이 삭제되거나 이름이 변경되는 경우 PostgreSQL이 데이터 정렬 정보를 제대로 해석하지 못하는 상황이 발생합니다. \n\n이러한 문제들은 PostgreSQL이 데이터의 정렬 규칙을 운영체제의 glibc 라이브러리에 의존하기 때문에 발생합니다. 따라서 시스템 업데이트를 통해 glibc 버전이 바뀌면 기존 인덱스와 데이터베이스의 정렬 방식 사이에 불일치가 생길 위험이 큽니다. 안정적인 데이터베이스 운영을 위해서는 OS 업그레이드 전후로 로케일 변경 사항을 면밀히 검토하고 인덱스 재구축과 같은 적절한 대응 절차를 수립해야 합니다.",
+    "url": "https://www.percona.com/blog/ten-ways-a-glibc-change-can-break-your-postgresql-cluster/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Pablo Svampa",
+    "pubDate": "2026-11-11T20:46:25.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "c0bd049236369d601a6a4b54035a912339948df0",
+    "title": "Test your applications against AWS locally with AWS Emulator",
+    "summary": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fideli",
+    "aiSummary": "AWS Emulator는 개발자들이 자신의 로컬 환경에서 AWS 서비스를 테스트할 수 있도록 지원하는 오픈 소스 도구입니다. Rust 기반으로 설계된 이 에뮬레이터는 실제 AWS 서비스와 유사한 동작을 보장하며 동일한 CLI와 SDK 명령어를 그대로 사용할 수 있다는 점이 특징입니다. 별도의 비용 없이 로컬 머신에서 다양한 AWS 애플리케이션을 검증할 수 있어 개발 생산성 향상에 기여합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-11-11T19:00:44.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.6",
+    "title": "1.5.6",
+    "summary": "Added the swarm's queen bee to the /swarm board header and a 🐝 beside each live member in the Roster; in terminals with Kitty graphics, such as Kitty and Ghostty, each member gets its own colored bee",
+    "aiSummary": "이번 1.5.6 업데이트는 Swarm 기능 강화와 플러그인 관리 개선, 그리고 Auto 모드 및 권한 시스템의 최적화에 초점을 맞추고 있습니다.\n\nSwarm 기능에서는 /swarm board 헤더에 여왕벌 아이콘이 추가되었으며, Kitty나 Ghostty 같은 터미널 환경에서는 활성 멤버가 작업 중일 때 움직이는 벌 카드 애니메이션이 표시됩니다. 또한 Swarm 코디네이터의 응답 오류와 보드 링크 관련 버그들이 수정되어 원활한 협업 환경을 지원합니다.\n\nAuto 모드는 보안 확인 절차가 개선되었습니다. GitHub API나 단순 파일 다운로드 등 안전한 읽기 작업에 대한 검증 빈도를 줄여 사용성을 높였으며, 디지털로 시작하는 호스트네임을 IP 주소로 오인하는 문제 등을 해결했습니다. 또한 Google Cloud의 pay-as-you-go 계정에서 Auto 모드를 사용할 수 있도록 권한 정책이 변경되었습니다.\n\n플러그인 관련 업데이트로는 agy plugin install 및 import 과정에서 발생하던 복사 오류를 해결했습니다. 이제 설치 실패 시 이전 버전이 유지되며, 설치 도중 잘못된 심볼릭 링크나 디바이스 파일이 포함된 경우를 거부하여 시스템 안정성을 강화했습니다. 또한 플러그인 훅 명령에서 경로 설정 시 경고 메시지를 제공하고 누락된 스킬 폴더 처리를 개선했습니다.\n\n기술적 세부 사항으로 엔터프라이즈 모델 게이트웨이를 통한 모델 호출 시 네이티브 툴 선언이 누락되던 문제를 해결하여 에이전트의 툴 사용 신뢰성을 높였습니다. 더불어 튜닝된 Gemini 모델의 출력 토큰 제한을 기본 모델과 동일하게 65,535 토큰으로 상향 조정하여 긴 작업 처리가 가능해졌습니다.\n\n기타 수정 사항으로 Vim 모드에서의 실행 취소 및 재실행 시 커서 위치 유지, 샌드박스 미지원 환경에서의 중복 승인 프롬프트 문제 해결, 그리고 프로젝트 권한 마이그레이션 중 발생하던 데이터 유실 방지 등이 포함됩니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.6",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-11T17:35:03.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+    "title": "Issue types and fields are available for personal accounts",
+    "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to ",
+    "aiSummary": "GitHub는 개인 계정 소유의 리포지토리에서도 Issue types와 Issue fields 기능을 공식적으로 사용할 수 있도록 지원합니다.\n\n이번 업데이트를 통해 개인 개발자와 오픈소스 관리자들은 기존에 조직 단위에서만 활용 가능했던 이슈 관리 도구를 개인 프로젝트에서도 동일하게 적용할 수 있게 되었습니다. 이를 통해 이슈의 유형을 분류하고 필요한 데이터 필드를 정의함으로써 프로젝트 관리의 표준화와 체계적인 워크플로우 구축이 가능해졌습니다.",
+    "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-11T17:16:46.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus/",
+    "title": "How lemonflow built real-time agents for EV charging using Gemma and TPUs",
+    "summary": "Welcome back to The Blueprint, a regular feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. W",
+    "aiSummary": "lemonflow는 전기차 충전 과정에서 발생하는 잦은 오류와 느린 고객 지원 문제를 해결하기 위해 Google Cloud의 인프라를 활용하여 실시간 AI 상담 에이전트를 구축했습니다. 유럽 내 전기차 충전 실패율이 15%에서 25%에 달하는 상황에서, 이들은 운전자에게 즉각적인 도움을 제공하고자 90개 이상의 언어를 지원하는 대화형 AI 플랫폼을 개발했습니다.\n\n기술적으로는 초기 도입했던 관리형 LLM API의 지연 시간 변동성과 속도 제한 문제, 그리고 복잡한 충전 인프라 요구사항을 해결하기 위해 자체 호스팅 환경을 선택했습니다. lemonflow는 Gemma 4 모델을 Google Cloud TPU v6e 하드웨어에서 직접 운영함으로써 인프라에 대한 완전한 통제권을 확보했습니다. 이를 통해 호출당 지연 시간을 P50 기준 350밀리초 수준으로 낮추고, 대규모 트래픽 상황에서도 안정적인 응답 속도를 유지하고 있습니다.\n\n이 시스템은 약 30개의 서로 다른 충전 관리 시스템 인터페이스를 표준화하여 충전기 상태를 실시간으로 파악합니다. 이를 통해 상담 에이전트는 충전 세션 오류를 즉각적으로 원격 복구하거나 운전자에게 필요한 정보를 즉시 제공합니다. 또한 보안 및 안정성을 위해 입력값에 대한 결정론적 보안 제어를 적용하고, TPU 자원을 효율적으로 사용하여 17개국 25만 개 이상의 충전 지점을 지원하고 있습니다.\n\n결과적으로 상담의 80% 이상이 사람의 개입 없이 처리되며 95%의 높은 운전자 만족도를 기록하고 있습니다. lemonflow는 앞으로도 Google Cloud의 최신 TPU 기술인 Ironwood 도입을 통해 더 많은 에이전트를 동시에 운용하고, 실시간 상담 데이터를 바탕으로 AI 에이전트의 성능을 지속적으로 개선하는 Agent Coach 등의 기능을 고도화할 계획입니다.",
+    "url": "https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Dr. Lukas Fieber"
+      ],
+      "title": [
+        "Co-Founder & CTO, lemonflow"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-11T17:00:00.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/",
+    "title": "Introducing new AI functions for AlloyDB: ai.classify and ai.extract",
+    "summary": "Transactional databases store vast amounts of unstructured text — clinical notes, customer reviews, support tickets, invoices, and property descriptions. Historically, working with this text meant bui",
+    "aiSummary": "AlloyDB가 데이터베이스 내에서 직접 비정형 데이터를 처리할 수 있는 새로운 SQL 함수인 ai.classify와 ai.extract를 발표했습니다. 기존에는 데이터베이스 외부에서 모델을 호출하고 응답을 파싱하는 복잡한 과정이 필요했으나, 이제는 Gemini 모델 기능을 데이터베이스 엔진에 통합하여 표준 SQL만으로 데이터 분류와 추출 작업을 수행할 수 있게 되었습니다.\n\nai.classify 함수는 텍스트를 사용자 정의 범주로 분류하는 기능을 제공합니다. 단일 레이블과 다중 레이블 분류를 모두 지원하며, 레이블에 대한 설명이나 퓨샷 프롬프팅을 활용해 모델의 정확도를 높일 수 있습니다. 이를 통해 고객 리뷰나 피드백을 실시간으로 카테고리화하는 작업이 가능합니다.\n\nai.extract 함수는 비정형 텍스트를 지정된 스키마에 맞춰 구조화된 JSON 데이터로 변환합니다. 복잡한 프롬프트 엔지니어링이나 별도의 파서 없이도 의료 기록이나 계약서 같은 문장에서 필요한 항목을 자동으로 추출하여 저장할 수 있습니다.\n\n성능 최적화를 위해 도입된 스마트 배치 기술은 개별 행 단위가 아닌 최적화된 마이크로 배치 단위로 데이터를 처리합니다. 이는 쿼리 실행 속도를 높이고 모델 토큰 비용을 절감하며, 데이터가 외부망으로 나가는 범위를 최소화하여 보안성과 효율성을 동시에 확보합니다.\n\n이 기능들은 Healthcare, 금융, 법률, 부동산 등 비정형 데이터가 많은 산업군에서 유용하게 활용될 수 있습니다. 현재 PostgreSQL 18 기반의 AlloyDB에서 google_ml_integration 확장 버전 1.6.1 이상을 통해 사용 가능합니다.",
+    "url": "https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Paul Ramsey"
+      ],
+      "title": [
+        "Product Manager, AI for AlloyDB & Cloud SQL"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-11T17:00:00.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/training-certifications/google-cloud-agentic-architect-certification-dont-just-prompt-ai-design-it/",
+    "title": "Don’t just prompt AI — architect it: Introducing the Professional Agentic Architect Certification",
+    "summary": "It just got easier to prove your expertise in building production-ready agents. Today, Google Cloud is introducing the Professional Agentic Architect certification as the latest milestone in our Gemin",
+    "aiSummary": "Google Cloud는 Gemini Agent Ready 이니셔티브의 일환으로 새로운 Professional Agentic Architect 인증 과정을 발표했습니다. 이 인증은 내부적으로 수천 명의 Google Cloud 엔지니어와 파트너를 교육하는 데 사용되었던 검증된 교육 과정을 일반 개발자 생태계로 확장한 것입니다.\n\n해당 인증 시험은 단순한 선택형 문항을 넘어 실제 역량을 평가하기 위해 하이브리드 형식으로 구성됩니다. 이론적 지식과 시스템 설계 및 보안 거버넌스를 평가하는 다지선다형 시험과 클라우드 환경에서 직접 에이전트 워크플로우를 구축, 테스트, 디버깅하는 핸즈온 랩이 모두 포함됩니다.\n\n인증 평가 영역은 로우코드 도구를 이용한 에이전트 구축, 애플리케이션 개발을 위한 코딩 에이전트 활용, Gemini 플랫폼 및 오픈소스 프레임워크를 활용한 커스텀 에이전트 개발, 에이전트 워크플로우의 평가와 배포, 그리고 보안 및 거버넌스 관리 등 총 5가지 핵심 도메인을 다룹니다.\n\n기업들이 고성능 멀티 에이전트 시스템을 설계할 수 있는 인재를 필요로 하는 상황에서, 이번 인증은 기술적 전문성을 입증하는 강력한 지표가 될 것으로 기대됩니다. 관심 있는 개발자와 파트너는 Gemini Agent Ready 프로그램과 Google Skills의 무료 학습 크레딧을 통해 준비 과정을 시작할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/training-certifications/google-cloud-agentic-architect-certification-dont-just-prompt-ai-design-it/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Gary Eimerman"
+      ],
+      "title": [
+        "Managing Director, Google Cloud Learning"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-11T17:00:00.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "/blog/release/v26.13.1?1794415520703",
+    "title": "Node.js 26.13.1 (LTS)",
+    "summary": "Antoine du Hamel2026-11-11, Version 26.13.1 'Lithium' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v26.13.1#2026-11-11-version-26131-lithium-lts-aduh95)\nThis is a security release.\nNotable Chang",
+    "aiSummary": "Node.js 26.13.1 Lithium 버전이 LTS(Long Term Support) 업데이트로 출시되었습니다. 이번 릴리스는 주로 보안 취약점을 해결하기 위한 보안 업데이트를 포함하고 있습니다.\n\n주요 수정 사항은 다음과 같습니다.\n\nHTTP2 프로토콜과 관련하여 스트림 제거 시 헤더 릴리스, nghttp2에 의해 유기된 스트림 탐지, 소켓 쓰기 완료 시 버퍼 유지, 대기 중인 쓰기 작업 동안의 스트림 유지 등 다수의 안정성 및 보안 개선이 이루어졌습니다.\n\nTLS 및 HTTPS 관련 보안 강화도 포함되었습니다. TLS 세션 아이디 컨텍스트가 없는 mTLS 연결에서 재개(resumption) 기능을 비활성화하였으며, SNI(Server Name Indication) 변경을 방지하고 원격에서 접근 가능한 TLS 서버 충돌 문제를 해결했습니다. 또한, 중첩 파서 실행 방지와 프록시 오류 시 자격 증명 삭제 등의 보안 조치가 적용되었습니다.\n\n이 외에도 권한 설정 시 파일 시스템 감시 관련 정보 유출 방지, zlib 매개변수 콜백 처리 등이 개선되었습니다.\n\n또한, 의존성 패키지인 brotli를 1.2.1 버전으로, llhttp를 9.4.4 버전으로, sqlite를 3.54.1 버전으로, undici를 8.12.4 버전으로 각각 최신화하였습니다. 개발자는 운영 중인 환경의 보안을 위해 해당 버전으로 업데이트할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/release/v26.13.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-11T16:45:20.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/release/v24.22.3?1794415511877",
+    "title": "Node.js 24.22.3 (LTS)",
+    "summary": "Antoine du Hamel2026-11-11, Version 24.22.3 'Krypton' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v24.22.3#2026-11-11-version-24223-krypton-lts-aduh95)\nThis is a security release.\nNotable Chang",
+    "aiSummary": "Node.js 24.22.3 Krypton LTS 버전이 보안 업데이트를 위해 배포되었습니다. 이번 릴리스에는 HTTP2 및 TLS 프로토콜과 관련된 다수의 고위험군 보안 취약점 조치가 포함되어 있습니다.\n\n주요 수정 사항은 다음과 같습니다.\n\nHTTP2 프로토콜과 관련하여 스트림 제거 시 헤더 릴리스, nghttp2에 의해 유기된 스트림 탐지, 대기 중인 쓰기 작업 시 스트림 유지, ALTSVC 버퍼 오버플로우 방지 및 무효화된 프록시 URL 오류 발생 시 자격 증명 삭제 등의 보안 강화 작업이 이루어졌습니다.\n\nTLS 프로토콜 분야에서는 빈 쓰기 요청으로 인한 파서 실행 방지, 세션 ID 컨텍스트가 없는 mTLS 환경에서의 재개 제한, SNI 변경 방지 및 원격 TLS 서버 크래시 방지 등이 적용되었습니다. 또한 https 에이전트의 TLS 정책 키 격리 강화 작업이 포함되었습니다.\n\n이 외에도 파일 시스템 권한 처리, zlib 콜백 처리 등 보안상 취약할 수 있는 부분들이 보완되었습니다. 시스템 안정성을 위해 brotli, llhttp, sqlite, undici 등 내부 의존성 모듈의 최신 버전 업데이트가 함께 진행되었습니다. 사용자들은 각 운영체제에 맞는 설치 파일을 통해 업데이트를 진행할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/release/v24.22.3",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-11T16:45:11.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "/blog/release/v22.23.5?1794415498310",
+    "title": "Node.js 22.23.5 (LTS)",
+    "summary": "Antoine du Hamel2026-11-11, Version 22.23.5 'Jod' (LTS), @aduh95 (https://nodejs.org/en/blog/release/v22.23.5#2026-11-11-version-22235-jod-lts-aduh95)\nThis is a security release.\nNotable Changes (http",
+    "aiSummary": "Node.js 22.23.5 LTS 버전이 보안 업데이트를 위해 릴리스되었습니다. 이번 업데이트는 주로 http2 및 tls 프로토콜과 관련된 다수의 취약점을 해결하는 데 중점을 두었습니다.\n\n주요 변경 사항으로는 http2 스트림 처리 시 헤더 해제, 버퍼 유지, 스트림 감지 및 널(null) 쓰기 요청 방지 관련 보안 조치가 포함되었습니다. 또한 tls 통신에서 세션 아이디 컨텍스트가 없는 mTLS의 재개(resumption) 기능을 비활성화하고, 재협상(renegotiation)이나 TLS 재개 시 SNI(Server Name Indication) 변경을 제한하는 등 전반적인 통신 보안성이 강화되었습니다.\n\n이외에도 http 관련 프록시 자격 증명 누출 방지, https 에이전트 TLS 정책 키 격리, permission 모듈의 파일 시스템 접근 제한 등이 적용되었습니다. 내부 의존성인 llhttp는 9.4.4 버전으로, sqlite는 3.54.1 버전으로 각각 업데이트되었습니다. 사용자는 보안을 위해 최신 버전으로 전환할 것을 권장합니다.",
+    "url": "https://nodejs.org/en/blog/release/v22.23.5",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-11T16:44:58.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_147",
     "title": "Visual Studio Code 1.147 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.147 (Insiders)\nRead the full article",
@@ -81,6 +338,22 @@
     ]
   },
   {
+    "id": "https://www.swift.org/blog/whats-new-in-swift-november-2026/",
+    "title": "What's new in Swift: November 2026 Edition",
+    "summary": "Welcome to the latest edition of “What’s new in Swift,” a curated digest of releases, news, and discussions from the Swift project and community.\nTo start things off, our guest contributor shares a ti",
+    "aiSummary": "CocoaPods 프로젝트가 2026년 12월 2일을 기점으로 신규 배포를 중단하고 읽기 전용 상태로 전환됩니다. 기존 프로젝트는 즉시 중단되지는 않지만 향후 업데이트가 불가능하므로, Swift Package Manager인 SwiftPM으로의 전환이 강력히 권장됩니다. 개발자는 Swift Package Index를 통해 의존성 패키지의 SwiftPM 호환 여부를 확인하고 대체제를 찾을 수 있습니다.\n\n학습 및 커뮤니티 소식으로는 C++ 코드의 메모리 안전성을 높이는 Swift 연동 기법과 Swift를 활용한 안드로이드 앱 개발 사례, Minecraft 모드 제작 소식이 공유되었습니다. 또한 Optional의 take 메서드 활용, Swift로 재구축된 웹사이트 사례, 서버 사이드 프레임워크인 Hummingbird와 Vapor에 대한 경험담, 그리고 Embedded Swift를 활용한 다양한 하드웨어 테스팅 결과가 주목받았습니다.\n\n패키지 생태계에서는 Apache Kafka 클라이언트인 Swift Kafka Client 1.0.0 출시, ROS 2를 위한 swift-ros2 업데이트, SwiftNIO와 Swift 6 동시성을 적용한 Perfect-NIO의 재구현이 이루어졌습니다.\n\nSwift Evolution에서는 다국어 텍스트 처리를 위한 bidiClass 추가와 SwiftPM의 빌드 조건부 의존성 설정을 다루는 SE-0559, SE-0560이 검토 중입니다. 이 외에도 Float.pi 반올림 규정 개선, SwiftPM 빌드 성능 디버깅 옵션, Task Identity, 단일 값에 대한 Span 지원 등이 공식 채택되었으며, 특히 SwiftPM의 컴파일 캐싱 지원이 승인되어 향후 CI 환경 등에서의 빌드 성능 향상이 기대됩니다.",
+    "url": "https://www.swift.org/blog/whats-new-in-swift-november-2026/",
+    "category": "프로그래밍 언어",
+    "source": "Swift Blog",
+    "author": "Dave Verwer",
+    "pubDate": "2026-11-11T09:00:00.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "Swift",
+      "Apple"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-06-github-app-support-for-enterprise-copilot-seat-management",
     "title": "GitHub App support for Enterprise Copilot seat management",
     "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are acces",
@@ -110,6 +383,22 @@
     "tags": [
       "Laravel",
       "PHP"
+    ]
+  },
+  {
+    "id": "/blog/vulnerability/november-2026-security-releases?1794355200000",
+    "title": "Wednesday, November 11, 2026 Security Releases",
+    "summary": "The Node.js ProjectSecurity releases available (https://nodejs.org/en/blog/vulnerability/november-2026-security-releases#security-releases-available)\nUpdates are now available for the 26.x, 24.x, 22.x",
+    "aiSummary": "Node.js 프로젝트는 2026년 11월 11일 보안 업데이트를 통해 26.x, 24.x, 22.x 버전에서 발견된 다수의 취약점을 해결했습니다. 이번 업데이트에는 HTTP/2 및 TLS 관련 보안 결함이 다수 포함되어 있으며, 주요 내용은 다음과 같습니다.\n\nHTTP/2 프로토콜과 관련하여 서버 프로세스 종료, 메모리 누수, 정보 유출 및 힙 버퍼 오버플로를 유발하는 여러 취약점이 발견되었습니다. 특히 Http2Session 및 Http2Stream 처리 과정에서 발생하는 Use-after-free 오류와 프로토콜 오류 발생 시 세션이 제대로 정리되지 않는 문제가 수정되었습니다. 또한, 특정 상황에서 서버 응답 메모리가 외부로 노출되거나, 부적절한 메모리 사용 제한으로 인해 서버 자원이 고갈될 수 있는 결함들이 보완되었습니다.\n\nTLS 및 HTTPS 통신 보안과 관련해서도 심각한 결함들이 해결되었습니다. HTTPS 환경에서 연결 간 메모리 정보가 유출되는 문제와 TLS 1.2 재협상 시 서버네임 변경을 통해 클라이언트 인증을 우회하는 취약점이 수정되었습니다. 또한, TLS 서버의 핸드셰이크 처리 과정에서 비정상적인 종료가 발생하는 문제와 특정 SNI 설정 시 인증 우회가 발생하는 오류도 개선되었습니다.\n\n이 외에도 프록시 설정 오류 발생 시 자격 증명이 로그 등에 노출되는 정보 유출 문제와 https.Agent의 세션 재사용 과정에서 발생하는 인증서 검증 우회 문제가 해결되었습니다.\n\n이번 보안 릴리스는 llhttp, undici, sqlite와 같은 의존성 라이브러리의 업데이트를 포함하고 있으며, 해당 취약점들은 22.x, 24.x, 26.x 버전 사용자의 환경에 영향을 미치므로 운영 중인 모든 노드 환경을 최신 버전으로 업데이트하는 것이 권장됩니다. 각 취약점은 외부 보안 연구원들의 제보를 통해 파악되었으며, 노드 프로젝트 측에서 신속하게 패치를 적용했습니다.",
+    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-12T03:55:44.386Z",
+    "tags": [
+      "Node.js",
+      "JS"
     ]
   },
   {
@@ -2321,279 +2610,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/05/spring-cloud-2026-0-0-RC2-has-been-released",
-    "title": "Spring Cloud 2026.0.0-RC2 (aka Paddington) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the Release Candidate 2 (RC2) of the Spring Cloud 2026.0.0-RC2 (https://cloud.spring.io/) Release Train is available today. The release can be",
-    "aiSummary": "Spring Cloud 2026.0.0-RC2 버전(코드네임 Paddington)이 새롭게 출시되었습니다. 이번 릴리스는 Spring Boot 4.2.0-RC2를 기반으로 하며 다양한 주요 모듈의 업데이트를 포함하고 있습니다.\n\n주요 변경 사항은 다음과 같습니다. \n\nSpring Cloud Config에서는 Google Cloud Storage를 Config Server의 백엔드로 지원하며, 일반 텍스트 및 바이너리 파일을 리소스로 가져올 수 있는 기능이 추가되었습니다.\n\nSpring Cloud Gateway는 Spring Cloud Gateway Server Web MVC 환경에서 LocalResponseCache 필터를 지원합니다.\n\nSpring Cloud Openfeign에서는 @SpringQueryMap 사용 시 중첩된 객체를 중첩 쿼리 매개변수로 전송하도록 개선되었습니다.\n\n이번 릴리스에는 Spring Cloud Build, Circuitbreaker, Commons, Config, Consul, Function, Gateway, Kubernetes, Netflix, Openfeign, Stream, Task, Vault, Zookeeper 등 다수의 모듈이 5.1.0-RC2 버전으로 함께 업데이트되었습니다. 상세한 변경 이력은 GitHub 프로젝트 보드와 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/11/05/spring-cloud-2026-0-0-RC2-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "ryanjbaxter",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "fetchedAt": "2026-11-06T03:29:19.207Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.cursor.com/changelog/build-live-apps",
-    "title": "Build Live Apps in Cursor",
-    "summary": "Nov 5, 2026 · ChangelogBuild Live Apps in CursorAgents have lowered the cost of writing code, but most apps and tools that users build never make it off of localhost.\nNow, you can build live apps dire",
-    "aiSummary": "Cursor가 로컬 환경을 넘어 즉시 배포 가능한 라이브 앱을 직접 제작하고 공유할 수 있는 기능을 새롭게 선보였습니다. 사용자가 자연어로 구현하고자 하는 앱의 기능을 설명하면 Cursor의 클라우드 에이전트가 데이터베이스 설정, 인증 구성, 호스팅 등 모든 개발 과정을 자동으로 처리합니다.\n\n이 기능을 통해 기술적 전문성이 부족한 조직 내 비개발자들도 업무에 필요한 도구를 직접 구축하고 팀원들과 공유할 수 있게 되었습니다. 데이터 웨어하우스와 같은 외부 시스템 연동은 물론 기존 GitHub 리포지토리나 Cursor Origin을 통한 앱 배포도 지원합니다.\n\n보안을 위해 앱 배포 전에는 자동화된 보안 검사가 수행되어 비밀 정보나 크리덴셜 노출 여부를 확인합니다. 또한 팀 관리자는 모든 앱과 비밀 정보를 통합 관리할 수 있으며, 배포 승인 및 해제에 대한 권한을 가집니다.\n\n완성된 앱은 고유 도메인을 통해 배포되며 팀 내 특정 그룹이나 전체 인원에게 공유가 가능합니다. 해당 기능은 클라우드 에이전트가 활성화된 모든 유료 요금제에서 지금 바로 사용할 수 있습니다.",
-    "url": "https://www.cursor.com/changelog/build-live-apps",
-    "category": "IDE & 개발 도구",
-    "source": "Cursor Changelog",
-    "author": "Cursor Team",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "fetchedAt": "2026-11-06T03:29:19.207Z",
-    "tags": [
-      "Cursor",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/mydbr-77-brings-web-reporting-to-postgresql-3424/",
-    "title": "myDBR 7.7 brings web reporting to PostgreSQL\n",
-    "summary": "Helsinki, Finland, 2026-10-28 - myDBR.com announced PostgreSQL support in myDBR, its web-based reporting platform for SQL databases. PostgreSQL 12 or later can now hold both myDBR's own objects and th",
-    "aiSummary": "myDBR이 7.7 버전을 통해 PostgreSQL에 대한 공식 지원을 시작합니다. 이번 업데이트로 기존의 MySQL, MariaDB, Microsoft SQL Server에 이어 PostgreSQL 12 이상 환경에서도 데이터베이스 내의 로직을 활용해 웹 기반의 리포트를 생성할 수 있게 되었습니다.\n\nmyDBR은 별도의 복잡한 리포트 설계 도구나 전용 쿼리 언어 없이, 데이터베이스 내부에서 작성한 SQL 쿼리만으로 웹 인터페이스, 차트, 테이블, 대화형 기능 등을 구현할 수 있게 돕는 플랫폼입니다. 사용자는 웹 브라우저를 통해 리포트를 조회하고 엑셀이나 PDF 등으로 데이터를 추출할 수 있습니다.\n\n이번 PostgreSQL 지원에는 리포트를 PL/pgSQL 함수로 처리하는 방식이 도입되었으며, 웹 설치 프로그램을 통해 간편한 구성이 가능합니다. 특히 데이터베이스의 Row-level security를 연동하여 사용자의 권한에 따른 보안을 강화했고, 관리자는 리포트 타임아웃 설정이나 실행 중인 리포트 관리 기능을 사용할 수 있습니다.\n\n또한 SQL Editor, EXPLAIN을 이용한 쿼리 계획 분석, 데이터 브라우저, Git 버전 관리 및 AI 리포트 어시스턴트 등 기존의 개발 도구들을 PostgreSQL 환경에서도 동일하게 활용할 수 있습니다. 해당 기능을 사용하기 위해서는 PostgreSQL 12 이상과 PHP 8.0 이상, 그리고 citext 확장 모듈이 필요합니다.",
-    "url": "https://www.postgresql.org/about/news/mydbr-77-brings-web-reporting-to-postgresql-3424/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "fetchedAt": "2026-11-05T15:38:06.510Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/reindb-read-only-performance-monitoring-for-postgresql-first-database-free-3432/",
-    "title": "ReinDB: read-only performance monitoring for PostgreSQL, first database free\n",
-    "summary": "Bandlei has released ReinDB, read-only performance monitoring for PostgreSQL, self-managed or on Amazon RDS and Aurora.\nReinDB learns what normal looks like for each database and statement, hour by ho",
-    "aiSummary": "Bandlei가 PostgreSQL의 읽기 전용 성능 모니터링 도구인 ReinDB를 출시하였습니다. 이 도구는 pg_stat_statements를 활용하여 시간대별로 데이터베이스와 쿼리문의 정상 상태를 학습하고, 성능이 저하되는 지점을 감지하여 데이터베이스 소요 시간을 기준으로 우선순위를 정해 보고합니다.\n\n문제 발생 시 실행 계획 기록과 같은 근거 자료를 제공하며, DBA가 직접 테스트할 수 있는 해결 스크립트 및 되돌리기 기능을 포함하고 있습니다. ReinDB는 데이터베이스 내부에 별도의 설치가 필요 없으며 읽기 전용 계정 하나만으로 운영이 가능합니다. \n\nLinux나 Windows 환경은 물론 AWS, Google Cloud 등 다양한 인프라 환경에서 호스팅 방식으로 실행할 수 있습니다. PostgreSQL 외에도 MySQL, SQL Server, Oracle을 지원하며 첫 번째 데이터베이스는 사용자 한 명에게 무료로 무제한 제공됩니다. 관련 성능 최적화 방법론을 담은 109페이지 분량의 가이드북도 함께 배포하고 있습니다.",
-    "url": "https://www.postgresql.org/about/news/reindb-read-only-performance-monitoring-for-postgresql-first-database-free-3432/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "fetchedAt": "2026-11-05T15:38:06.510Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/autobase-212-released-3430/",
-    "title": "Autobase 2.12 released\n",
-    "summary": "We are pleased to announce the release of Autobase  2.12!\nHighlights\nBuilt-in Monitoring Dashboards\nAutobase isn't intended to replace your monitoring system. Instead, we've integrated with Netdata, w",
-    "aiSummary": "Autobase 2.12 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Netdata와 통합된 내장 모니터링 대시보드 제공입니다. 이를 통해 시스템 자원, PostgreSQL 데이터베이스 상태, PgBouncer 연결 풀링, 테이블 및 인덱스 성능 등을 실시간으로 편리하게 확인할 수 있습니다.\n\n클라우드 인프라 안정성을 높이기 위해 AWS, GCP, Azure 환경에서 PostgreSQL 클러스터를 생성할 때 노드를 여러 Availability Zone에 기본적으로 분산 배치하도록 변경되었습니다. 또한 보안 강화를 위해 AWS Secrets Manager를 외부 보안 비밀 공급자로 지원하며, 로그 내 민감 정보 삭제, PGPASSWORD 환경 변수 사용 중단, IMDSv2 강제 적용, EBS 암호화 및 AWS KMS 키 지원 등 다방면의 보안 개선 사항이 포함되었습니다.\n\n신뢰성 측면에서는 WAL 아카이빙 유지, pgBackRest 스탠자 생성 시 발생하던 경합 조건 수정, etcd와 DCS가 전용 호스트에서 실행될 때의 클러스터 관리 문제 등을 해결했습니다. 더불어 SSH Jump Host를 지원하여 직접적인 SSH 접근 없이도 프라이빗 네트워크 내의 PostgreSQL 클러스터를 관리할 수 있는 환경을 구축했습니다.",
-    "url": "https://www.postgresql.org/about/news/autobase-212-released-3430/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "fetchedAt": "2026-11-05T15:38:06.510Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/introducing-the-joint-reference-architecture-for-enterprise-grade-redis-on-vmware-cloud-foundation-9-1/",
-    "title": "Introducing the joint reference architecture for enterprise-grade Redis on VMware Cloud Foundation 9.1",
-    "summary": "Joint reference architecture from VMware by Broadcom and Redis\n\nMoving beyond caching to enterprise-grade real-time data\n\nTeams building fraud detection, streaming analytics, AI agents, and feature st",
-    "aiSummary": "Broadcom의 VMware와 Redis가 협력하여 VMware Cloud Foundation 9.1 환경에서 기업용 Redis를 구축하기 위한 공동 참조 아키텍처를 발표했습니다.\n\n이번 협력은 단순히 데이터를 캐싱하는 수준을 넘어 사기 탐지, 스트리밍 분석, AI 에이전트, 피처 스토어 등 고성능 데이터 처리가 필수적인 실시간 애플리케이션을 지원하기 위해 마련되었습니다.\n\n해당 아키텍처는 가상화된 환경에서도 엔터프라이즈급 성능과 안정성을 보장하도록 설계되었습니다. 특히 동시 접속 부하가 높은 환경에서 빠르고 일관된 데이터 접근 속도를 유지하며, VMware Cloud Foundation의 통합 관리 기능과 Redis의 실시간 데이터 처리 능력을 결합하여 인프라의 복잡성을 줄이고 운영 효율성을 높이는 것을 목표로 합니다.\n\n기업은 이 참조 아키텍처를 통해 데이터 중심의 현대적 워크로드를 더욱 안정적이고 확장성 있게 구현할 수 있을 것으로 기대됩니다.",
-    "url": "https://redis.io/blog/introducing-the-joint-reference-architecture-for-enterprise-grade-redis-on-vmware-cloud-foundation-9-1/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Mike  Moss ",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "fetchedAt": "2026-11-05T15:38:06.510Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "7d30dbf9b73fcfe8e471c3e83d1f2ee69b4b3343",
-    "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
-    "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workload",
-    "aiSummary": "Amazon S3 Tables에서 Apache Hive 데이터셋을 Apache Iceberg 테이블로 관리형 마이그레이션할 수 있는 기능을 새롭게 제공합니다. 이 기능을 활용하면 별도의 데이터 파이프라인을 구축하거나 추가 컴퓨팅 자원을 프로비저닝할 필요가 없습니다. 또한 실제 운영 중인 워크로드를 중단하지 않고도 마이그레이션을 안전하게 수행할 수 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Channy Yun (윤석찬)",
-    "pubDate": "2026-11-04T23:34:52.000Z",
-    "fetchedAt": "2026-11-05T03:33:52.369Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-    "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across",
-    "aiSummary": "GitHub의 코드 스캔 기능을 지원하는 정적 분석 엔진인 CodeQL이 버전 2.27.4로 업데이트되었습니다.\n\n이번 업데이트의 핵심은 여러 언어 및 라이브러리에 걸친 쿼리 정확도 향상입니다. 또한 분석 결과의 효율적인 관리를 위해 쿼리 메타데이터 정보가 개선되었습니다. 이러한 변화를 통해 개발자는 코드 내 보안 취약점을 더욱 정밀하게 탐지하고 보다 효과적으로 해결할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-04T20:04:52.000Z",
-    "fetchedAt": "2026-11-05T03:33:52.369Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-    "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-    "summary": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with…",
-    "aiSummary": "GitHub Copilot이 Xcode의 기본 코딩 어시스턴트와 직접 통합되어 Apple 플랫폼 개발 환경에서 사용할 수 있게 되었습니다. 이번 통합은 퍼블릭 프리뷰 형태로 제공되며, 개발자들은 별도의 외부 도구 없이 Xcode 네이티브 환경 내에서 GitHub Copilot의 코드 제안 및 지원 기능을 활용할 수 있게 되었습니다. 이로써 iOS나 macOS 앱을 개발하는 환경에서도 GitHub Copilot의 생산성 향상 기능을 편리하게 경험할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-04T19:10:40.000Z",
-    "fetchedAt": "2026-11-05T03:33:52.369Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/",
-    "title": "Helping you build and defend at machine-speed in the agentic era",
-    "summary": "As both a frontier lab and the operator of the world's most comprehensive threat intelligence network, Google occupies a unique vantage point: We see exactly how Large Language Models are engineered, ",
-    "aiSummary": "Google은 에이전트 기반의 인공지능 시대에 맞춰 기업들이 시스템을 안전하게 구축하고 방어할 수 있도록 돕는 새로운 보안 전략과 도구들을 발표했습니다. 특히 소프트웨어 개발 수명 주기 전반에 걸쳐 기계 속도로 취약점을 식별하고 수정하는 자동화된 보안 에이전트 CodeMender의 기능을 강화하여 개발 생산성과 보안성을 동시에 확보하고자 합니다.\n\nCodeMender는 Gemini 4 Argon 모델을 활용하여 알려지지 않은 취약점을 탐지하고 검증된 패치를 생성합니다. 또한 샌드박스 기반의 격리 환경과 유연한 스캔 모드를 지원하여 공격 위협을 최소화하면서도 조직별 상황에 최적화된 보안 운영을 가능하게 합니다.\n\n클라우드 환경에서는 에이전트 간의 통신과 인증을 강화하기 위해 Auth Manager를 통해 자격 증명 관리를 중앙집중화하고 Agent Identity를 도입하여 정적 API 키 없이도 멀티 클라우드 환경에서 안전하게 인증할 수 있도록 지원합니다. 추가적으로 Model Armor의 맞춤형 주제 탐지기와 VPC Service Controls를 통해 데이터 유출 방지 및 규정 준수 환경을 강화했습니다.\n\n보안 운영 측면에서는 Google Threat Intelligence를 실시간으로 결합하여 위협을 즉각적으로 추적하고 차단하는 자율 방어 체계를 구축했습니다. 이는 보안 관제 센터가 수동 분석 대신 기계적 속도로 복잡한 위협을 조사하고 대응할 수 있도록 지원하며 Mandiant의 전문적인 전환 서비스를 통해 기업의 운영 모델 현대화를 돕습니다.\n\n더불어 Google Cloud는 Wiz와의 협력을 통해 애플리케이션의 코드부터 런타임까지 전 과정을 보호합니다. Wiz의 보안 그래프와 연동된 AI 기반의 정적 애플리케이션 보안 테스트인 Wiz AI SAST와 Google Security Operations의 통합을 통해 기업은 더욱 강력한 다중 클라우드 환경의 가시성과 방어력을 확보할 수 있습니다. 또한 양사는 Scan for Good 이니셔티브를 통해 공공 서비스와 중요 인프라 시설 등 자원이 부족한 기관들의 보안을 지원하는 사회적 책임을 실천하고 있습니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sandra Joyce"
-      ],
-      "title": [
-        "VP, Google Threat Intelligence"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-04T17:00:00.000Z",
-    "fetchedAt": "2026-11-05T03:33:52.369Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/public-sector/highlights-and-reflections-from-google-public-sector-summit-where-mission-meets-moonshot/",
-    "title": "Highlights and reflections from Google Public Sector Summit: Where mission meets moonshot",
-    "summary": "Over 2,700 government leaders, innovators, and industry partners convened across two-days at our Google Public Sector Summit in Washington D.C. where we explored the theme, “Where mission meets moonsh",
-    "aiSummary": "워싱턴 D.C.에서 개최된 Google Public Sector Summit은 2천 7백여 명의 정부 관계자와 산업계 인사들이 모여 에이전트 시대를 맞아 공공 부문의 혁신과 생산성 향상을 위한 기술 활용 방안을 논의한 자리입니다. 이번 행사는 기술을 통해 공공기관의 도전적인 목표인 문샷을 현실화하고 공공 서비스의 품질을 높이는 데 초점을 맞췄습니다.\n\nGoogle Public Sector CEO Karen Dahut은 NASA와 미 육군을 비롯한 주요 기관들이 Google과 협력하여 에이전트 기반의 변화를 주도하고 있음을 강조했습니다. Google Cloud CEO Thomas Kurian은 정부 서비스에 특화된 Gemini를 포함한 보안 스택을 소개하며 Wiz for Gov 환경에서 이용 가능한 Wiz Red, Green, Blue 에이전트와 에어갭 환경을 지원하는 Google Distributed Cloud용 Gemini의 기업형 검색 기능을 발표했습니다.\n\n행사 중 진행된 클라우드 토크와 패널 세션에서는 에이전트 시대를 위한 인프라 구축, 안전한 AI 개발, 그리고 전 지구적 규모의 방어 체계 구축 방안이 심도 있게 다뤄졌습니다. 특히 참석자들은 미션 익스체인지 현장에서 긴급 대응 시뮬레이션을 경험하고 Gemini 기반의 에이전트를 직접 구축해보는 실습 세션에 참여하며 실질적인 기술 구현 방법을 익혔습니다.\n\n마지막으로 Google은 공공 부문의 과감한 도전을 지원하기 위해 Gemini for government services 도입과 Wiz 에이전트 활용 데모 등을 적극 권장하며 기술을 통해 공공 서비스의 미래를 함께 만들어갈 것을 제안했습니다. 이번 서밋은 에이전트 시대가 단순한 기술의 발전이 아닌 공공의 가치를 실현하기 위한 선택과 협업의 과정임을 확인하는 계기가 되었습니다.",
-    "url": "https://cloud.google.com/blog/topics/public-sector/highlights-and-reflections-from-google-public-sector-summit-where-mission-meets-moonshot/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Katharyn White"
-      ],
-      "title": [
-        "Director of Marketing, Public Sector"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        "Google Cloud"
-      ]
-    },
-    "pubDate": "2026-11-04T17:00:00.000Z",
-    "fetchedAt": "2026-11-05T03:33:52.369Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-compute-engine-api-multi-versioning-predictable-evolution-without-breaking-production/",
-    "title": "Introducing Compute Engine API multi-versioning: Predictable evolution without breaking production",
-    "summary": "Ready to modernize your infrastructure without risking production stability? API multi-versioning for Compute Engine, now in general availability, helps you do just that. With date-based API versions,",
-    "aiSummary": "Google Cloud는 Compute Engine API에 날짜 기반의 다중 버전 관리 시스템을 도입하여 정식 출시합니다. 기존 /v1 API는 수십 년간 신뢰성을 제공해 왔으나, 최신 기술 도입과 운영 안정성 사이의 간극을 해소하기 위해 새로운 버전 관리 방식을 채택했습니다.\n\n새로운 버전 관리 모델은 Google AIP-185를 준수하며 다음 세 가지 형태로 구성됩니다. 첫째, 분기별로 출시되는 안정적인 Stable 버전은 한 번 출시되면 사양 변경 없이 고정된 계약을 제공합니다. 둘째, Preview 버전은 최신 기능을 미리 경험할 수 있는 빠른 주기의 테스트용 버전입니다. 마지막으로 기존 /v1 API는 변경 없이 그대로 유지되어 기존 서비스에 영향을 주지 않습니다.\n\n사용자는 X-Goog-Api-Version 헤더나 $apiVersion 쿼리 매개변수를 사용하여 특정 날짜 버전을 지정할 수 있으며, 이를 통해 인프라 업데이트 시점을 직접 제어할 수 있습니다. 이러한 변화는 글로벌 쿼리 시 부분 성공 기본 활성화, 표준화된 기계 판독형 에러 모델 도입, 더 엄격한 보안 기본값 적용 등 시스템의 복원력과 보안성을 크게 향상합니다.\n\n이번 업데이트는 gcloud CLI, Terraform, 그리고 다양한 언어의 클라이언트 라이브러리에서 원활하게 지원됩니다. 개발자는 기존 코드를 수정할 필요 없이 필요에 따라 최신 API 사양을 선택적으로 도입할 수 있어, 운영 중단 위험을 최소화하면서 현대적인 클라우드 아키텍처로 점진적인 전환이 가능합니다. 현재 2026-09-01 Stable 버전과 2026-10-01-preview 버전부터 즉시 사용이 가능합니다.",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-compute-engine-api-multi-versioning-predictable-evolution-without-breaking-production/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Michael Murstein"
-      ],
-      "title": [
-        "Software Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-04T16:00:00.000Z",
-    "fetchedAt": "2026-11-05T03:33:52.369Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_146",
-    "title": "Visual Studio Code 1.146 (Insiders)",
-    "summary": "Learn what's new in Visual Studio Code 1.146 (Insiders)\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.146 Insiders 버전이 공개되었습니다. 이번 업데이트는 제품의 기능 개선과 사용자 편의성 향상을 중심으로 진행되었습니다.\n\n자세한 변경 사항과 새롭게 도입된 기술적 기능들은 Visual Studio Code 공식 사이트의 상세 게시글을 통해 확인할 수 있습니다. 사용자는 Insiders 버전을 설치하여 정식 배포 전 최신 기능을 미리 경험해 볼 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_146",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-11-04T15:33:20.291Z",
-    "fetchedAt": "2026-11-04T15:33:20.291Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-mongodb-google-adk-integration-durable-memory-agent-state",
-    "title": "Introducing the MongoDB Google ADK Integration: Durable Memory for Agent State",
-    "summary": "We’re excited to announce the MongoDB Google ADK Integration, which provides developers with the building blocks they need to create durable memory for agent state. \nAs agents move from prototypes to ",
-    "aiSummary": "MongoDB가 Google ADK와 통합되어 에이전트의 상태를 위한 지속 가능한 메모리 기능을 제공합니다. 이번 통합은 Google ADK 2.0을 사용하는 개발자들이 별도의 데이터베이스나 복잡한 동기화 파이프라인 없이도 MongoDB를 에이전트의 데이터 플랫폼으로 활용할 수 있게 지원합니다.\n\nGoogle ADK 2.0은 멀티 에이전트 시스템을 위한 오케스트레이션 계층을 담당하며 Gemini Enterprise Agent Platform과 직접 연동됩니다. 여기에 MongoDB가 추가됨으로써 세션과 이벤트를 저장하는 MongoDbSessionService와 에이전트의 기억을 관리하는 MongoDBMemoryService를 통해 에이전트가 장기적인 문맥을 유지하고 사용자 이력을 기억하도록 돕습니다.\n\n데이터 검색 측면에서는 MongoDB의 내장된 Vector Search와 하이브리드 검색 기능을 활용하여 에이전트가 운영 데이터와 지식 기반에 빠르게 접근할 수 있도록 합니다. 이를 통해 개발자는 데이터 저장, 상태 관리, 검색 엔진을 별도로 구축할 필요 없이 MongoDB라는 하나의 플랫폼 내에서 에이전트의 프로토타입부터 실제 프로덕션 환경까지 일관되게 구현할 수 있습니다.\n\n이번 통합은 MongoDB Atlas와 self-managed MongoDB 8.0 이상 환경을 지원합니다. 개발자는 최적화된 도구와 API를 통해 시스템 복잡성을 줄이고 에이전트의 응답 지연 시간을 최소화하여 더욱 신뢰성 있는 AI 서비스를 구축할 수 있습니다.",
-    "url": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-mongodb-google-adk-integration-durable-memory-agent-state",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "2026-11-04T15:29:17.000Z",
-    "fetchedAt": "2026-11-04T15:33:20.291Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
     ]
   }
 ]
