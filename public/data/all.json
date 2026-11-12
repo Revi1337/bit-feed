@@ -1,5 +1,87 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/",
+    "title": "Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms",
+    "summary": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our cus",
+    "aiSummary": "Gartner가 최초로 발표한 Lakehouse Platforms 부문 Magic Quadrant에서 Google Cloud가 비전의 완성도 측면에서 가장 높은 평가를 받으며 리더로 선정되었습니다. Google Cloud는 기존의 수동적인 데이터 저장소를 넘어 에이전트가 데이터를 스스로 추론하고 실시간으로 업무를 수행하는 에이전트 시대에 최적화된 Borderless Lakehouse 전략을 강조합니다.\n\n이 플랫폼은 파편화된 데이터 인프라 문제를 해결하기 위해 Apache Iceberg 기반의 개방형 표준을 채택하여 AWS, Azure, Google Cloud 전반에 흩어진 데이터를 물리적 이동 없이 통합합니다. 이를 통해 기업은 데이터 복제 비용과 복잡한 마이그레이션을 최소화하면서도 일관된 보안 및 거버넌스를 유지할 수 있습니다.\n\n특히 지능형 데이터 활용을 위해 Knowledge Catalog를 도입하여 단순한 데이터 접근을 넘어 비즈니스 맥락과 의미론적 가치를 에이전트에 제공합니다. 이를 통해 Looker, dbt, BigQuery 등 다양한 소스의 비즈니스 로직을 통합하고, Model Context Protocol을 활용해 에이전트의 판단 정확도를 높이고 환각 현상을 방지합니다.\n\n기술 실무자와 비즈니스 사용자 모두를 위해 Data Agent Kit와 같은 도구를 제공하여 코딩 없이도 AI 에이전트를 구축하고 데이터 분석 결과를 즉시 업무에 적용할 수 있도록 지원합니다. 또한 BigQuery의 쿼리 성능 개선 및 지능형 토큰 최적화 기능을 통해 대규모 에이전트 운용 시 발생하는 비용 효율성을 극대화합니다.\n\n결론적으로 Google Cloud는 데이터 인프라 관리 중심에서 비즈니스 성과 달성 중심으로의 전환을 가속화하며, 고객이 인프라 복잡성을 해소하고 기업 전반에 자율적인 AI 에이전트 생태계를 구축할 수 있도록 돕습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sirish Chandrasekaran"
+      ],
+      "title": [
+        "VP, Product Strategy & Growth, Data Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-12T16:00:00.000Z",
+    "fetchedAt": "2026-11-12T16:03:17.182Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.7",
+    "title": "1.5.7",
+    "summary": "Changed the default Agent Mode from Default to Auto: sessions with no saved mode, including headless -p runs, now start in Auto wherever Auto mode is available and in Default elsewhere; to keep the pr",
+    "aiSummary": "Agent Mode의 기본 설정이 Default에서 Auto로 변경되었습니다. 기존 방식을 유지하려면 /config에서 Agent Mode를 Default로 설정해야 합니다. 또한 strict 모드의 Tool Permission 설정이 Auto 및 accept-edits 모드보다 우선하도록 개선되어 파일 편집 시 승인 과정을 보장합니다.\n\nUI 성능과 응답 속도가 개선되었습니다. 공백 없이 긴 문장이 출력될 때 발생하던 수 초간의 UI 멈춤 현상을 해결하였으며, 긴 출력물이 있는 도구 호출 시 토큰 수 표시 애니메이션으로 인해 응답이 지연되던 문제를 수정하여 실시간성을 높였습니다.\n\n사용성 및 안정성 관련 오류들이 다수 해결되었습니다. 백그라운드로 전환된 명령어가 사용자 입력을 대기할 때 에이전트가 이를 즉시 인지하도록 개선되었고, Windows 환경에서의 브라우저 로그인 실패 문제를 해결하기 위해 로컬 로그인 콜백이 IPv4와 IPv6를 모두 지원하도록 변경되었습니다.\n\nGemini 4 Carbon 모델 사용 시 발생하는 HTTP 400 오류를 수정하였습니다. 이제 게이트웨이에 올바른 thinking level을 전달하며 모델 ID에서 불필요한 접미사를 제거합니다.\n\n보안 정책이 강화되었습니다. PreToolUse 훅이나 와일드카드 규칙을 통한 관리자 승인 우회 문제를 차단하여 터미널 샌드박스를 벗어나거나 관리자 정책이 적용되는 명령어는 반드시 사용자 승인을 거치도록 수정되었습니다. 또한 조직의 정책이 터미널 샌드박스를 요구할 때 저장된 규칙이 정상적으로 적용되지 않던 오류가 해결되었습니다.\n\n기타 수정 사항으로 manage_task의 서식 유지 기능이 개선되었으며, Remote Control에서 열 수 없는 링크가 표시되던 문제가 해결되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.7",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-12T15:18:38.000Z",
+    "fetchedAt": "2026-11-12T16:03:17.182Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "/blog/release/v27.0.0-alpha.0.1.0?1794490570130",
+    "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
+    "summary": "Skip to content (https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/",
+    "aiSummary": "Node.js 27.0.0-alpha.0.1.0 버전이 알파 단계로 공개되었습니다. 이번 릴리스에는 성능 향상과 기능 개선을 포함한 다양한 기술적 변경 사항이 포함되어 있습니다.\n\n주요 변경 사항으로는 child_process 모듈에 subprocess.timedOut 속성이 추가되었고, crypto 모듈에서는 X.509 인증서 검사 가드 명시화 및 CSR을 지원하는 X.509 생성 기능이 도입되었습니다. 또한 dns 모듈의 동시 lookup 요청 처리 효율이 개선되었으며, http 모듈의 바디 처리 방식 최적화와 sea 모듈의 VFS 모듈 컴파일 캐시 생성 기능, worker 모듈의 스트림 프리로드 기능 등이 추가되었습니다.\n\ndeps 관련 업데이트를 통해 V8 엔진이 15.6.75.50 버전으로 패치되었으며, llhttp 9.4.4, nghttp2 1.71.0, ngtcp2 1.26.0, simdjson 5.1.1, undici 8.12.4 및 npm 12.2.2 등 주요 의존성 패키지들이 최신 버전으로 갱신되었습니다. \n\n그 외에도 다양한 빌드 시스템 최적화와 함께 문서 개선 및 새로운 기여자들에 대한 정보 업데이트가 이루어졌습니다. 전반적으로 이번 알파 버전은 안정성과 성능을 높이기 위한 다각도의 내부 개선 작업에 집중하고 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-12T13:36:10.000Z",
+    "fetchedAt": "2026-11-12T16:03:17.182Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.5.0",
+    "title": "v12.5.0",
+    "summary": "v12.5.0 (2026-11-12)\nNotable changes\nNew options\nWsAdapter takes maxPayload, the largest message a client may send (1 MB by default, was 100 MB; a gateway's own maxPayload takes precedence, 0 lifts th",
+    "aiSummary": "NestJS v12.5.0 버전은 전반적인 성능 최적화와 보안 강화, 그리고 마이크로서비스 관련 안정성 개선에 초점을 맞춘 업데이트입니다. 주요 변경 사항과 수정 내용은 다음과 같습니다.\n\n먼저 시스템 리소스 보호를 위한 제한 옵션이 대폭 추가되었습니다. WsAdapter의 페이로드 크기 제한, IoAdapter의 메시지 대기열 제한을 비롯하여 TCP, gRPC, Redis, RabbitMQ 서버 전반에 걸쳐 메시지 처리량과 버퍼 크기를 제어하는 설정이 도입되었습니다. 특히 TCP 서버의 버퍼 처리 방식이 개선되어 작은 패킷이 연달아 들어올 때 발생하는 불필요한 연결 종료 문제를 방지합니다.\n\n새로운 동작 방식으로는 호스트 설정이 비어있을 경우 기본적으로 localhost에서 대기하도록 변경되었으며, 멀티파트 요청 처리 시 데이터의 개수 제한이 추가되어 서비스 안정성을 높였습니다. 또한 ClassSerializerInterceptor와 StandardSchemaSerializerInterceptor는 이제 스트리밍되는 HTTP 응답 객체를 각각 직렬화하여 @Exclude와 같은 데코레이터가 각 라인에 정상적으로 적용됩니다.\n\n시작 단계에서의 검증도 강화되었습니다. Guard, Interceptor, Pipe 등이 실행 가능한 상태가 아닐 경우 애플리케이션 시작 단계에서 오류를 발생시켜 런타임 문제를 사전에 차단합니다. 또한 잘못된 라우트 매칭이나 필터 설정에 대해서도 경고 및 에러 로그를 명확히 출력하도록 개선되었습니다.\n\n마이크로서비스 부문에서는 gRPC, Kafka, RabbitMQ, Redis 관련 버그가 광범위하게 해결되었습니다. 특히 gRPC는 클라이언트가 응답을 읽지 않은 상태에서 스트림이 처리되지 않을 경우 리소스를 효율적으로 해제하도록 변경되었으며, Kafka는 이벤트 처리 로직과 메시지 payload 전송 방식이 보다 엄격해졌습니다.\n\n그 외 @nestjs/platform-fastify, @nestjs/platform-express, @nestjs/platform-node 등 플랫폼별 패키지에서 발생하던 파일 스트림 처리 오류, 라우트 매칭 문제, 에러 핸들링 불일치 등 다수의 버그가 수정되었습니다. 전체적으로 NestJS 애플리케이션의 견고함과 예측 가능한 동작을 보장하기 위한 안정화 업데이트입니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.5.0",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-12T13:19:45.000Z",
+    "fetchedAt": "2026-11-12T16:03:17.182Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
     "id": "https://www.mongodb.com/company/blog/innovation/how-observe-ai-used-mongodb-resharding-scale-ai-platform",
     "title": "How Observe.AI Used MongoDB Resharding to Scale Its AI Platform",
     "summary": "Launched in 2017, Observe.AI was originally known for its expertise in conversation intelligence and contact center analytics. In recent years, however, the company has grown into a comprehensive agen",
@@ -13,6 +95,22 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+    "title": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released!\n",
+    "summary": "The PostgreSQL Global Development Group has released an update to all\nsupported versions of PostgreSQL, including 18.7, 17.12, 16.16, 15.20, and\n14.25, as well as the second release candidate of Postg",
+    "aiSummary": "PostgreSQL Global Development Group에서 PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25 버전 및 PostgreSQL 19 RC 2를 포함한 업데이트를 발표했습니다. 이번 릴리스에는 52개의 보안 취약점 수정과 140개 이상의 버그 수정 사항이 포함되어 있습니다. 특히 보안 취약점 중에는 임의 코드 실행이 가능한 심각한 문제들이 다수 포함되어 있어 신속한 업데이트가 권장됩니다.\n\n이번 업데이트를 기점으로 PostgreSQL 14는 공식 지원이 종료되는 EOL 상태가 됩니다. 따라서 PostgreSQL 14를 운영 환경에서 사용 중인 사용자는 보안 및 버그 수정을 위해 상위 버전으로의 업그레이드를 계획해야 합니다.\n\n기술적인 측면에서 GIN 인덱스, pg_trgm GiST 인덱스, TOAST 테이블 인덱스, bpchar 컬럼의 B-tree 인덱스 등에 발생할 수 있는 데이터 손상 문제를 해결했습니다. 해당 기능을 사용하는 환경에서는 업데이트 후 반드시 REINDEX 작업을 수행해야 합니다. 또한 파티션 테이블에서의 NOT NULL 제약 조건 오류 수정과 증분 백업 시 발생할 수 있는 데이터 손상 문제도 해결되었으므로, 업데이트 이후 새로운 전체 백업을 수행하는 것이 좋습니다.\n\nPostgreSQL 19 RC 2는 정식 출시 전 마지막 단계로, 이번 업데이트에 포함된 모든 보안 및 버그 수정 사항이 반영되어 있습니다. 정식 버전은 2026년 11월 19일 출시 예정입니다. 업그레이드 시 별도의 덤프 및 리로드 과정은 필요하지 않으며, 기존 바이너리를 교체하는 방식으로 업데이트를 진행할 수 있습니다. 각 버전에 따른 상세한 변경 사항과 사후 조치 방법은 공식 릴리스 노트를 확인해야 합니다.",
+    "url": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-12T00:00:00.000Z",
+    "fetchedAt": "2026-11-12T16:03:17.182Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
     ]
   },
   {
