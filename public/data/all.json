@@ -1,5 +1,103 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.6",
+    "title": "0.162.6",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 0.162.6 버전이 새롭게 배포되었습니다. \n\n이번 업데이트에는 코딩 에이전트가 설치된 버전의 최신 기능과 권장 패턴을 효과적으로 활용하도록 돕는 공식 스킬이 포함되었습니다. 해당 기능은 프로젝트 내에서 uvx library-skills 명령어를 통해 설치할 수 있으며, 자세한 내용은 Develop with AI 문서를 통해 확인할 수 있습니다.\n\n주요 변경 사항으로는 Python 3.10에 대한 지원이 중단되었습니다. 관련 내용은 Pull Request #16737을 통해 상세히 안내하고 있습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.6",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-13T13:34:50.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+    "title": "Manage AI Scan for repositories using the REST API",
+    "summary": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan…\nThe post Manage AI S",
+    "aiSummary": "GitHub는 이제 REST API를 사용하여 조직 및 저장소 수준에서 GitHub code scanning의 AI Scan 기능을 활성화하거나 비활성화할 수 있도록 지원합니다. 이번 공개 미리보기 기능을 통해 repository_scan과 관련된 API 엔드포인트를 활용하여 자동화된 방식으로 AI 기반 코드 스캔 설정을 더욱 효율적으로 관리할 수 있게 되었습니다. 사용자는 이를 통해 대규모 저장소 환경에서도 AI Scan 구성을 일관되고 체계적으로 제어할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-13T12:22:41.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.8",
+    "title": "1.5.8",
+    "summary": "Added Gemini 4 Hydrogen (Low, Medium, High, and XHigh) and Gemini 4 Carbon (Low, Medium, and High) to /model and --model when you connect with a GEMINI_API_KEY, added Gemini 4 Hydrogen (Low, Medium, H",
+    "aiSummary": "이번 1.5.8 업데이트에서는 Gemini 4 Hydrogen 및 Gemini 4 Carbon 모델 시리즈에 대한 지원이 추가되었으며, 기업용 모델 게이트웨이를 통한 Gemini 4 Hydrogen 사용이 가능해졌습니다. 사용자 편의성을 위해 전체 화면 모드에서 클릭으로 아이템을 확장하거나 축소할 수 있는 기능을 도입했고, JetBrains AI Chat과 같은 외부 에디터에서 컨텍스트 윈도우 사용량을 확인할 수 있도록 업데이트했습니다. 또한, 게이트웨이 및 원격 제어 관련 관리자 설정이 추가되어 보안과 제어 권한이 강화되었습니다.\n\n보안 측면에서는 터미널 샌드박스의 네트워크 프록시 우회 문제를 해결하고, Windows 환경에서 명령 실행 규칙이 부적절하게 우회되지 않도록 개선했습니다. MCP 도구에 대한 권한 규칙이 엄격하게 적용되도록 수정하였으며, 조직 관리자의 플러그인 차단 정책이 모든 환경에서 안정적으로 작동하도록 보완했습니다.\n\nWindows 환경에서의 사용성도 크게 향상되었습니다. 파일 인코딩 문제로 인한 설정 파일 인식 오류를 해결하고, 외부 에디터 실행 시 경로 문제로 발생하던 오류를 수정했습니다. 또한, 긴 stderr 출력이 있을 때 쉘 명령이 멈추던 현상을 해결했으며, 네트워크 연결이 끊기거나 대기 시간이 길어질 경우의 재연결 로직을 강화하여 시스템 안정성을 높였습니다.\n\n그 외에도 /learn 기능 사용 시 규칙 파일의 용량 제한 관리를 자동화하고, /diff 명령어의 시각화 오류, 검색 기능 개선, 상태 메시지 표시 방식 등을 다각도로 다듬어 전반적인 사용 경험을 최적화했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.8",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-13T05:00:49.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/11/13/this-week-in-rails",
+    "title": "Hotwire guide and more",
+    "summary": "Hi, Wojtek here. Let’s explore this week’s changes with another big round of fixes in the Rails codebase.\nAdd a guide for using Hotwire with Rails\nEdge Guides.\nUse an Array for storing Active Record a",
+    "aiSummary": "이번주 Rails 코드베이스에 다양한 개선 사항과 버그 수정이 포함되었습니다. 우선 Hotwire 사용을 위한 가이드가 Edge Guides에 추가되었으며, Active Record 속성 저장 방식이 배열을 사용하는 구조로 변경되었습니다.\n\nunscope 기능에 중요한 변화가 생겼습니다. 기존에는 unscope(where: :column) 사용 시 동일한 컬럼명을 가진 모든 테이블의 조건이 제거되었으나, Rails 9.0부터는 해당 관계가 속한 테이블의 조건만 제거되도록 변경됩니다. 또한 관계 병합 시 테이블 명을 명시하여 unscoping 범위를 명확히 하도록 개선되었습니다.\n\n기타 주요 수정 사항은 다음과 같습니다. app:update 명령에서 Kamal을 감지하여 불필요한 설정 파일 생성을 방지하며, 오류 로그에서 민감한 매개변수를 필터링합니다. PostgreSQL money 타입의 수치 처리 방식이 정확해졌고, DST 발생 시 시간대 처리 논리가 보정되었습니다.\n\n데이터 처리 및 성능 측면에서도 다수의 최적화가 이루어졌습니다. ActiveModel::Type::Integer는 64비트 정수 문자열의 무음 절삭 문제를 해결하기 위해 32바이트 윈도우를 사용합니다. ActiveJob에서 scheduled_at 시간을 현장에서 즉시 UTC로 변환하지 않도록 수정되었고, ActiveSupport::EncryptedFile의 inspect 출력에서 암호화 키가 노출되지 않도록 조치되었습니다.\n\n그 외에도 has_many :through 관계에서의 프리로드 및 정렬 오류, MessageVerifier 관련 FrozenError 문제 등이 해결되었습니다. 이번 업데이트에는 총 41명의 기여자가 참여하였습니다.",
+    "url": "https://rubyonrails.org/2026/11/13/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Wojtek",
+    "pubDate": "2026-11-13T00:00:00.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
+    "id": "deepseek-2026-11-13",
+    "title": "DeepSeek Update: Releasing the full suite of application APIs",
+    "summary": "In the DeepSeek App (including the web version), web search, file input, URL reading, voice interaction and safety work together with model inference to form the conversation experience users know. To",
+    "aiSummary": "DeepSeek가 자사 애플리케이션과 웹 버전에서 제공하던 핵심 기능들을 개발자들을 위한 API 형태로 전면 공개했습니다.\n\n이제 개발자들은 기존 DeepSeek API에서 특정 파라미터를 활성화하는 것만으로 웹 검색, 파일 입력, URL 읽기 기능을 손쉽게 연동할 수 있습니다. \n\n이번 업데이트를 통해 툴 호출과 컨텍스트 조립 등 복잡한 작업은 DeepSeek 서비스 측에서 자동으로 처리하므로, 개발자들은 이를 활용해 더욱 풍부한 대화형 서비스와 사용자 경험을 구축할 수 있게 되었습니다.",
+    "url": "https://api-docs.deepseek.com/updates#date-2026-11-13",
+    "category": "인공지능",
+    "source": "DeepSeek",
+    "author": "DeepSeek AI",
+    "pubDate": "2026-11-13T00:00:00.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-ai-sdk-1-4",
+    "title": "Laravel AI SDK 1.4 Lets Agents Recover From Tool Failures",
+    "summary": "Laravel AI SDK 1.4 sends tool exceptions back to the model instead of ending the run, and lets agent fakes resume tool approvals in tests.\nThe post Laravel AI SDK 1.4 Lets Agents Recover From Tool Fai",
+    "aiSummary": "Laravel AI SDK 1.4 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 에이전트가 도구 실행 과정에서 오류가 발생하더라도 작업을 즉시 종료하지 않고 예외 상황을 모델에 전달하여 복구할 수 있도록 개선된 점입니다. 또한 테스트 환경에서 에이전트가 도구 승인 절차를 이어갈 수 있도록 지원하는 기능이 추가되었습니다. 이로써 개발자는 더욱 안정적이고 유연한 AI 에이전트 기반의 애플리케이션을 구축할 수 있게 되었습니다.",
+    "url": "https://laravel-news.com/laravel-ai-sdk-1-4?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-11-12T23:39:51.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=56151",
     "title": "So, now you need to upgrade your MongoDB cluster…",
     "summary": "Your MongoDB cluster has been running fine for years on 4.4 or 6.0. Then the version goes end of life, a CVE shows up in an audit, or a new feature needs 8.0, and the MongoDB upgrade lands on your des",
@@ -1321,6 +1419,23 @@
     "tags": [
       "GCP",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "title": "Opening the datasets behind our AI weather models",
+    "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+    "aiSummary": "Google DeepMind가 자사의 AI 기상 모델 학습에 활용된 기초 강수 데이터셋과 정지 궤도 위성 데이터셋을 공개했습니다. 이번 데이터 공개는 지구 관측의 정확도를 높이고 기상 예측 AI 분야의 연구 발전을 촉진하기 위한 목적입니다. 연구자들과 기상 전문가들은 공개된 데이터를 활용해 더욱 정밀하고 신뢰할 수 있는 기상 분석 모델을 구축할 수 있게 될 것입니다.",
+    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-10T11:13:04.000Z",
+    "fetchedAt": "2026-11-13T15:31:02.053Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
     ]
   },
   {
