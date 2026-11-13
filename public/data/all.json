@@ -1,5 +1,266 @@
 [
   {
+    "id": "https://www.percona.com/?p=56151",
+    "title": "So, now you need to upgrade your MongoDB cluster…",
+    "summary": "Your MongoDB cluster has been running fine for years on 4.4 or 6.0. Then the version goes end of life, a CVE shows up in an audit, or a new feature needs 8.0, and the MongoDB upgrade lands on your des",
+    "aiSummary": "MongoDB 클러스터 업그레이드는 단순한 버전 변경을 넘어 운영 환경의 안정성을 유지하기 위한 복잡한 과정을 동반합니다. 4.4나 6.0 버전처럼 기존에 안정적으로 운영되던 클러스터라도 기술 지원 종료, 보안 취약점 발견, 혹은 8.0 버전의 신규 기능 도입 등의 이유로 업그레이드가 필수적으로 요구되는 상황이 발생합니다.\n\n업그레이드 작업 자체는 기술적으로 어렵지 않을 수 있으나 그 과정에서 고려해야 할 사전 준비와 운영 중 확인해야 할 요소들은 매우 방대합니다. Percona는 성공적인 클러스터 업그레이드를 위해 작업 전후로 확인해야 할 필수 체크리스트와 주의 사항들을 체계적으로 다루고 있습니다. 데이터 무결성을 유지하고 다운타임을 최소화하기 위해서는 업그레이드 전략 수립 단계부터 각 버전별 호환성 및 잠재적 리스크를 사전에 파악하는 작업이 선행되어야 합니다.",
+    "url": "https://www.percona.com/blog/mongodb-upgrade-roadmap/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Zelmar Michelini",
+    "pubDate": "2026-11-12T19:57:57.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/",
+    "title": "Chrome Enterprise brings more protections to healthcare technologies",
+    "summary": "Healthcare is adopting AI quickly, and it's moving beyond chat. Clinical teams are starting to use AI agents that draft documentation, summarize charts, navigate web apps, and complete multi-step task",
+    "aiSummary": "의료 분야에서 AI 에이전트와 웹 기반 임상 애플리케이션의 사용이 급증함에 따라 Google은 Chrome Enterprise를 통해 의료 환경에 특화된 보안 및 관리 기능을 강화합니다. 의료진이 사용하는 브라우저 상에서 환자 데이터의 유출을 방지하고 보안 가시성을 확보하는 것이 이번 업데이트의 핵심입니다.\n\nChrome Enterprise Premium은 고급 DLP 기능을 통해 민감한 데이터의 복사, 붙여넣기, 인쇄, 화면 캡처 등을 제한하며 브라우저 계층에서 웹 AI 도구와 확장 프로그램을 일관되게 통제합니다. 이를 통해 보안팀은 Shadow AI를 식별하고 여러 AI 서비스에 걸쳐 통일된 보안 정책을 적용할 수 있습니다.\n\n이번 발표에는 임상 엔드포인트에 대한 확장된 지원도 포함됩니다. 먼저 IGEL OS와의 호환성을 확보하여 의료 기관이 IGEL Marketplace를 통해 관리되는 브라우저 환경을 손쉽게 배포할 수 있도록 지원합니다. 또한 Citrix UniconOS 환경에서 Chrome Enterprise를 네이티브로 실행할 수 있게 하여 임상 현장의 기기 유연성을 높였습니다.\n\nOmnissa와의 협업을 강화하여 Zero-trust 보안 및 기기 상태 검증 기능을 추가했으며, Epic Hyperspace for the web에 대한 지원을 통해 자동 인쇄 및 PDF 렌더링 기능을 최적화했습니다. 이러한 업데이트는 의료진이 환자 진료에 집중할 수 있도록 돕는 동시에 IT 및 보안 팀이 현대적인 의료 기술을 안전하게 관리하고 제어할 수 있는 기반을 제공합니다.",
+    "url": "https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ashley Moulton"
+      ],
+      "title": [
+        "Healthcare Lead, Chrome Enterprise Ecosystem"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        "Google"
+      ]
+    },
+    "pubDate": "2026-11-12T18:55:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.10",
+    "title": "v11.2.10",
+    "summary": "What's changed\n@nestjs/common\n\nfix(common): let a null depth print every level in the console logger — backport of #18480\nfix(common): count empty strings toward the json log record cap\nfix(common): c",
+    "aiSummary": "NestJS 버전 v11.2.10은 프레임워크 전반에 걸친 광범위한 버그 수정과 안정성 개선을 포함하고 있습니다. 주요 변경 사항은 다음과 같습니다.\n\n@nestjs/common 및 @nestjs/core 영역에서는 로깅 시스템의 데이터 처리 한도 설정, SSE 연결 관리 최적화, 파이프 유효성 검사 로직 개선이 이루어졌습니다. 특히 미들웨어 마운팅 경로 처리와 컨트롤러 라우팅 로직을 정교화하여 잘못된 설정 시 애플리케이션 시작 단계에서 오류를 발생시켜 문제를 사전에 방지하도록 변경되었습니다. 또한 의존성 주입 시의 스코프 관리와 지연 로딩 모듈의 빌드 순서를 최적화하여 런타임 안정성을 높였습니다.\n\n플랫폼별 업데이트로 @nestjs/platform-express와 @nestjs/platform-fastify에서 멀티파트 파일 업로드 처리와 스트림 해제 로직이 개선되었습니다. 특히 파일 스트림의 리소스 누수를 방지하고, 에러 처리 시 표준화된 응답 본문을 반환하도록 규격화했습니다.\n\n@nestjs/microservices 분야에서는 RMQ, Kafka, gRPC, TCP, Redis 등 다양한 통신 프로토콜에서의 메시지 크기 제한, 타임아웃 설정, 연결 종료 로직이 대폭 강화되었습니다. TCP 통신에는 새로운 메시지 수신 타임아웃과 동시 메시지 처리량 제한이 추가되었으며, 각 프로토콜별 에러 발생 시 스트림 정리와 재시도 로직이 개선되었습니다.\n\n마지막으로 @nestjs/websockets 및 관련 어댑터인 ws, socket.io 환경에서는 게이트웨이 포트 설정 오류 시 앱 실행을 차단하도록 수정되었으며, 메시지 페이로드 크기 제한과 대기 메시지 수 관리 옵션이 추가되어 대규모 트래픽 환경에서의 리소스 소모를 방지합니다. 전반적으로 이번 업데이트는 보안과 안정성을 위해 비정상적인 설정에 대한 엄격한 검증을 추가하고 시스템 리소스를 효율적으로 회수하는 데 중점을 두었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.10",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-12T18:52:32.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "summary": "Nov 12, 2026\n                \n                \n                  |\n                \n              \n\n\n            \n            \n              \n                Hydrogen brings cutting-edge intelligence ",
+    "aiSummary": "Google은 일상적인 코딩 작업과 에이전트 워크플로우에 최적화된 새로운 인공지능 모델인 Gemini 4 Hydrogen을 발표하였습니다. 이 모델은 빠른 실행 속도와 효율성에 중점을 두고 설계되었으며 Google AI Studio, Gemini API, Gemini for business, Gemini 앱, Google Search 등 다양한 플랫폼을 통해 즉시 사용할 수 있습니다.\n\nGemini 4 Hydrogen은 100만 토큰의 컨텍스트 윈도우를 제공하며 입력 토큰당 1.50달러, 출력 토큰당 7.50달러의 비용으로 이용 가능합니다. 특히 Gemini 4 Carbon이나 Gemini 4 Argon과 같은 고성능 모델과 함께 사용될 때 효율적인 실행 엔진 역할을 수행할 수 있도록 설계되었습니다. 이를 위해 Google Antigravity에는 작업을 필요에 따라 모델별로 동적으로 전환하는 Orchestrator 기능이 새롭게 도입되었습니다.\n\n성능 측면에서 Gemini 4 Hydrogen은 이전 세대인 Gemini 3.8 Flash 대비 코드 작성 및 디버깅 속도가 2.5배 빠르며, 허위 정보를 생성하는 비율을 5배 이상 낮췄습니다. 또한 4단계의 추론 레벨을 제공하여 사용자가 작업의 복잡도에 따라 품질, 지연 시간, 비용을 유연하게 조정할 수 있습니다.\n\n에이전트 기능과 관련해서는 대규모 코드 저장소 분석 및 다중 도구 호출 능력이 크게 강화되었으며 법률 연구, 세금 분석, 데이터 처리 등 전문 분야에서도 우수한 성능을 입증하였습니다. 특히 다중 모달 데이터를 처리하여 보고서를 작성하거나 대화형 애플리케이션을 프로토타이핑하는 작업에 강점을 보입니다.\n\n안전성과 관련해서는 최신 보안 스택을 적용하여 에이전트의 오작동을 대폭 줄이고 프롬프트 주입 공격에 대한 방어력을 2.3배 높였습니다. 또한 의료 및 과학적 질문에 대한 정확도를 개선하여 부적절한 답변 거부율을 0.4% 미만으로 낮추는 등 신뢰성을 확보하였습니다.\n\nGoogle Search 서비스에도 통합되어 사용자의 의도를 더 정확하게 파악하고 더 시각적이며 관련성 높은 정보를 제공하게 됩니다. 본 모델은 개발자, 기업 고객, 일반 사용자 모두를 대상으로 오늘부터 전 세계에 순차적으로 배포됩니다.",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-12T18:00:50.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+    "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+    "aiSummary": "Google이 전 세계 Google Search 서비스에 Gemini 4 Hydrogen 모델을 도입합니다. 이번 업데이트를 통해 사용자들은 이전보다 더 유용하고 시각적이며 직관적인 검색 결과를 경험할 수 있게 됩니다.",
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Robby Stein"
+      ],
+      "title": [
+        "VP of Product, Google Search"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-12T18:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+    "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+    "summary": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+    "aiSummary": "Google은 비용 효율적인 에이전트 기반 코딩과 디버깅 작업을 지원하는 새로운 모델인 Gemini 4 Hydrogen을 출시하였습니다. 이 모델은 개발자가 더욱 신속하게 개발 업무를 수행할 수 있도록 최적화되어 있습니다. 관심 있는 개발자들은 오늘부터 Google AI Studio를 통해 해당 모델을 직접 활용할 수 있습니다.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": "Google Gemini Blog",
+    "pubDate": "2026-11-12T18:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "title": "Introducing Gemini 4 Hydrogen",
+    "summary": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+    "aiSummary": "Google이 에이전트 기반 워크플로우를 위해 설계된 최신 모델인 Gemini 4 Hydrogen을 새롭게 공개하였습니다. 이번 모델은 일상적인 업무와 자동화된 에이전트 작업을 효과적으로 수행하는 데 최적화된 성능을 제공합니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Koray Kavukcuoglu"
+      ],
+      "title": [
+        "SVP, Google DeepMind and Chief AI Architect, Google"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-12T18:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
+    "title": "Powering agentic cloud governance: What's new in Organization Policy",
+    "summary": "Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preven",
+    "aiSummary": "Google Cloud는 클라우드 구성 오류로 인한 보안 사고를 예방하고 거버넌스를 강화하기 위해 Organization Policy Service의 새로운 기능을 발표했습니다. 이번 업데이트의 핵심은 에이전트 기반의 자동화 도구인 Organization Policy MCP 서버 도입과 Gemini를 활용한 자연어 기반 정책 생성 지원입니다.\n\nOrganization Policy MCP 서버는 자율 에이전트와 파이프라인이 클라우드 계층 구조 내에서 직접 정책을 관리할 수 있도록 지원합니다. 이를 통해 관리자는 복잡한 수동 작업 없이도 에이전트를 활용하여 제약 조건을 파악하고 정책 평가를 수행하거나, 정책 변경 사항을 검토 및 관리하는 과정을 자동화할 수 있습니다. 예를 들어, 특정 프로젝트나 폴더에 적용된 정책을 시각화하거나 예외 사항을 식별하는 대시보드 구축이 가능합니다.\n\n또한, 복잡한 CEL 언어를 직접 작성할 필요 없이 Gemini를 통해 자연어로 커스텀 정책을 생성할 수 있는 기능이 추가되었습니다. 관리자는 Gemini에 원하는 보안 요건을 입력하여 정책을 설계하고, Gemini가 생성한 테스트 구성 데이터를 통해 실제 배포 전 드라이 드라이 런 모드에서 안정성을 검증할 수 있습니다. \n\n이러한 기능은 Agent Runtime, Agent Search, Agent Studio, Cloud Run, GKE 등 다양한 Google Cloud 서비스에 걸쳐 지원됩니다. 결과적으로 기업은 향상된 자동화와 AI 지원을 통해 보안 가드레일을 보다 빠르고 유연하게 구축하고 확장할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Bharath Sivaraman"
+      ],
+      "title": [
+        "Senior Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-12T17:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/partner-cross-cloud-interconnect-for-last-mile-delivered-by-lumen/",
+    "title": "Simplifying last mile cloud connectivity with Lumen and partner Cross-Cloud Interconnect",
+    "summary": "Cross-Cloud Interconnect is expanding to connect to more of your workloads. We designed Google Cloud's Cross-Cloud Network to simplify and optimize how organizations connect and secure applications ac",
+    "aiSummary": "Google Cloud가 기업의 멀티 클라우드 및 온프레미스 환경 연결을 단순화하기 위해 파트너 Cross-Cloud Interconnect 서비스를 확대합니다. 이번 확장으로 기존 AWS 등 퍼블릭 클라우드뿐만 아니라 사설 클라우드, 온프레미스 데이터 센터, Neocloud 등을 연결하는 Last Mile 서비스가 추가되었습니다.\n\n이 서비스는 Lumen Technologies와의 협력을 통해 제공됩니다. 기존에는 물리적 장비 설치와 복잡한 라우팅 설정으로 인해 수개월이 소요되던 연결 작업을 수 분 내로 단축하여 클라우드와 같은 속도의 네트워크 구축 경험을 제공합니다. \n\n주요 특징으로는 1에서 50 Gbps까지의 유연한 대역폭 확장, 이중화 라우터를 통한 보안과 안정성 확보, 그리고 전용 포트 관리 비용 등을 제거하여 총소유비용을 낮추는 이점이 있습니다. 또한 개방형 API 사양을 준수하여 네트워크 팀이 단일 운영 프로세스로 다양한 환경을 통합 관리할 수 있게 지원합니다.\n\n현재 Partner Cross-Cloud Interconnect for last mile은 us-east4 지역에서 Lumen Technologies와 함께 프리뷰 형태로 제공되며 향후 서비스 지역을 확대할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/networking/partner-cross-cloud-interconnect-for-last-mile-delivered-by-lumen/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Himanshu Mehra"
+      ],
+      "title": [
+        "Director, Product Management, Cloud Networking"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-12T17:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/partners/autonomous-defense-at-cloud-speed-with-sentinelone-and-google-security-operations/",
+    "title": "Autonomous defense at cloud speed with SentinelOne and Google Security Operations",
+    "summary": "Modern security operations centers (SOCs) face an ongoing pipeline dilemma. While ingesting comprehensive endpoint telemetry is non-negotiable for defense,  conventional delivery paths often drive up ",
+    "aiSummary": "현대 보안 운영 센터는 엔드포인트에서 생성되는 방대한 데이터를 처리하는 과정에서 발생하는 지연 시간과 비용 문제에 직면해 있습니다. 공격자가 기계적인 속도로 움직이는 상황에서 기존의 복잡한 중간 데이터 경로와 클라우드 버킷을 거치는 방식은 실시간 대응을 저해하는 요인이 됩니다.\n\nGoogle Cloud와 SentinelOne은 이러한 문제를 해결하기 위해 양사 간의 통합 아키텍처를 완전히 새롭게 설계했습니다. SentinelOne은 Google Unified Security Recommended EDR 파트너로서 Google Security Operations와 직접 연동되는 스트리밍 방식을 도입했습니다. 이를 통해 중간 저장소 단계를 제거함으로써 데이터 전송 속도를 비약적으로 높이고 운영 비용을 절감합니다.\n\n이번 통합의 기술적 핵심은 다음과 같습니다. 현대화된 EDR 데이터 스키마를 통해 이벤트 크기를 최적화하여 분석 효율을 높였으며, Google API를 이용한 직접 전송으로 중간 스토리지 비용과 지연 시간을 최소화했습니다. 또한 SentinelOne Cloud Funnel을 통해 필요한 데이터만 정밀하게 필터링하여 전송할 수 있습니다. 특히 Mandiant와의 협업을 바탕으로 파서와 경고 모델, SOAR 플레이북을 정렬하여 자동화된 호스트 격리나 정밀 검사와 같은 신속한 사고 대응 기능을 강화했습니다.\n\n이러한 개선은 탐지부터 대응까지의 시간을 단축하여 공격으로 인한 피해 범위를 줄이는 데 목적이 있습니다. 해당 기능은 올해 말까지 단계적으로 배포될 예정이며, 우선적으로 Mandiant Managed Defense와 Mandiant Threat Defense 사용 고객을 대상으로 우선 순위가 주어질 예정입니다. 기업들은 이번 협력을 통해 불필요한 인프라 부채를 줄이고 보안 운영의 가시성을 확보할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/partners/autonomous-defense-at-cloud-speed-with-sentinelone-and-google-security-operations/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Andre Alfred"
+      ],
+      "title": [
+        "Sr. Director, Cloud Security Threat Operations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-12T17:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/",
     "title": "Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms",
     "summary": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our cus",
@@ -49,6 +310,38 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+    "title": "Secret scanning detects Cloudflare service tokens",
+    "summary": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare clo",
+    "aiSummary": "GitHub의 Secret scanning 기능이 이제 Cloudflare service token을 자동으로 탐지합니다.\n\n이번 업데이트를 통해 개발자가 사용하는 저장소 내에 Cloudflare access service token이 포함되어 있는지 자동으로 식별할 수 있게 되었습니다. 이를 통해 보안 사고를 방지하고 민감한 인증 정보가 코드에 노출되는 것을 효과적으로 차단할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-12T14:38:25.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+    "title": "Public monitoring alerts now have direct links",
+    "summary": "You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise’s Public monitoring view, click an alert number to open the alert. You…\nThe post Public moni",
+    "aiSummary": "GitHub Enterprise의 Public monitoring 알림 기능이 개선되었습니다. 이제 Public monitoring 뷰에서 특정 알림 번호를 클릭하면 해당 알림의 상세 페이지로 바로 이동할 수 있는 직접 링크를 제공합니다. 이를 통해 사용자는 개별 알림에 더욱 신속하고 효율적으로 접근하여 보안이나 운영 이슈를 관리할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-12T14:37:38.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "/blog/release/v27.0.0-alpha.0.1.0?1794490570130",
     "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
     "summary": "Skip to content (https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0#main) (https://nodejs.org/en)Learn (https://nodejs.org/learn)About (https://nodejs.org/en/about)Download (https://nodejs.org/en/",
@@ -95,6 +388,21 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+    "title": "Announcing Rust 1.100.0",
+    "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust i",
+    "aiSummary": "Rust 1.100.0 버전이 공식 발표되었습니다. 이번 업데이트는 언어 자체의 기능 확장과 Cargo의 관리 체계 개선을 중심으로 다수의 주요 기능이 추가되었습니다.\n\n가장 눈에 띄는 변화는 10년간의 노력 끝에 never type인 !이 마침내 안정화된 것입니다. 이를 통해 값을 반환하지 않는 코드 경로를 명시적으로 표현할 수 있으며 기존의 Infallible 타입이 never type의 별칭으로 통합되었습니다. 또한 core::mem::DropGuard가 도입되어 변수의 생명주기와 연동된 클로저를 더 간편하게 실행할 수 있게 되었으며, 안전한 방식으로 영 크기 타입을 생성할 수 있는 std::mem::conjure_zst 함수가 추가되었습니다. 메모리 관리 측면에서는 Allocator trait가 안정화되어 라이브러리 작성자가 Vec이나 Box 등에서 커스텀 할당자를 사용할 수 있는 기반이 마련되었습니다.\n\nCargo 관련 기능도 대폭 강화되었습니다. 프로젝트의 빌드 속도 향상을 위해 사용되지 않는 의존성을 경고하는 기능이 추가되었고, Cargo 빌드 디렉토리의 구조를 개선하여 캐시 충돌을 방지하고 향후 캐시 관리 효율성을 높였습니다. 보안 강화 차원에서는 의존성 패키지의 신규 버전 공개 후 일정 시간이 지나야 업데이트를 허용하는 min-publish-age 옵션이 도입되어 공급망 공격에 대한 대응책을 마련했습니다.\n\n이외에도 Vec, Box, Rc, Arc 등 주요 타입의 기능을 확장하는 다수의 API가 안정화되었습니다. 상세한 변경 사항과 새롭게 안정화된 API 목록은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rust Release Team",
+    "pubDate": "2026-11-12T00:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Rust"
     ]
   },
   {
@@ -50460,6 +50768,23 @@
     ]
   },
   {
+    "id": "https://bun.sh/blog/bun-joins-anthropic",
+    "title": "Bun is joining Anthropic",
+    "summary": "TLDR: Bun has been acquired by Anthropic. Anthropic is betting on Bun as the infrastructure powering Claude Code, Claude Agent SDK, and future AI coding products & tools.What doesn't change:#Bun stays",
+    "aiSummary": "Anthropic이 고성능 JavaScript 런타임인 Bun을 인수했습니다. 이번 인수는 Claude Code, Claude Agent SDK를 비롯한 Anthropic의 AI 코딩 도구 및 인프라를 강화하기 위한 전략적 결정입니다.\n\nBun은 인수 이후에도 기존의 오픈소스 체제와 MIT 라이선스를 유지하며, GitHub를 통한 공개 개발과 커뮤니티 중심의 운영을 지속합니다. 또한 Node.js 호환성과 고성능 도구 제작이라는 핵심 로드맵에도 변함이 없습니다.\n\n이번 협력을 통해 Bun 팀은 Anthropic의 AI 코딩 도구들을 더욱 빠르고 효율적으로 개선하는 역할을 수행하게 됩니다. Anthropic은 Claude Code가 Bun 실행 파일을 기반으로 동작하는 만큼, Bun의 성능과 안정성을 최고 수준으로 유지할 강력한 동기를 가지게 되었습니다.\n\nBun은 과거 Jarred Sumner가 웹 개발 환경의 느린 빌드 속도를 개선하기 위해 시작한 프로젝트에서 유래했습니다. 이후 Bun은 JavaScriptCore 엔진을 기반으로 빌더, 트랜스파일러, 테스트 러너, 패키지 매니저를 통합한 올인원 런타임으로 성장하며 업계의 큰 주목을 받아왔습니다. 이번 Anthropic 합류는 Bun이 AI 시대의 필수적인 개발 인프라로 자리매김하는 중요한 전환점이 될 것입니다.",
+    "url": "https://bun.sh/blog/bun-joins-anthropic",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2025-12-02T10:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
+    ]
+  },
+  {
     "id": "deepseek-2025-12-01",
     "title": "DeepSeek Update: DeepSeek-V3.2",
     "summary": "Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2.",
@@ -50510,6 +50835,23 @@
     "tags": [
       "Spring",
       "Java"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/vercel-adds-native-bun-support",
+    "title": "Vercel now supports the Bun Runtime",
+    "summary": "You can now run your applications on the Bun Runtime on Vercel.Support is available today as a public beta for all projects.From package manager to full runtime support#In 2023, bun install support on",
+    "aiSummary": "Vercel이 자사 플랫폼에서 Bun Runtime을 공식 지원하기 시작했습니다. 현재 모든 프로젝트에서 퍼블릭 베타 형태로 이용할 수 있으며, vercel.json 파일에 bunVersion 항목을 1.x로 설정하는 것만으로 간단히 활성화가 가능합니다. 해당 설정이 완료되면 Vercel은 프로젝트를 자동으로 감지하고 Bun 환경에서 네이티브하게 실행합니다.\n\n이번 업데이트를 통해 개발자는 Vercel 환경에서 Bun이 제공하는 고성능 자바스크립트 런타임의 이점을 그대로 누릴 수 있습니다. Zig로 작성된 Bun의 특성상 메모리와 CPU 사용량이 감소하며, Bun.SQL이나 Bun.S3와 같은 전용 API를 서버 함수나 리액트 서버 컴포넌트 내부에서 직접 활용할 수 있습니다.\n\nNext.js와의 호환성도 뛰어나며 별도의 어댑터 설치 없이 바로 적용이 가능합니다. 현재 퍼블릭 베타 단계로서 지속적인 피드백을 수렴하고 있으며, 향후 더 많은 프레임워크와의 완벽한 호환성을 목표로 개발 생태계를 확장할 예정입니다. 로컬 환경의 vercel dev부터 프로덕션 배포까지 모든 단계에서 Bun을 사용할 수 있어 개발 생산성과 애플리케이션 성능 향상이 기대됩니다.",
+    "url": "https://bun.sh/blog/vercel-adds-native-bun-support",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2025-10-28T15:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
     ]
   },
   {
@@ -50628,6 +50970,23 @@
     "tags": [
       "VS Code",
       "Editor"
+    ]
+  },
+  {
+    "id": "https://bun.sh/blog/behind-the-scenes-of-bun-install",
+    "title": "Behind The Scenes of Bun Install",
+    "summary": "Running bun install is fast, very fast. On average, it runs ~7× faster than npm, ~4× faster than pnpm, and ~17× faster than yarn. The difference is especially noticeable in large codebases. What used ",
+    "aiSummary": "Bun은 npm 대비 약 7배, pnpm 대비 약 4배, yarn 대비 약 17배 빠른 설치 속도를 제공하며, 특히 대규모 코드베이스에서 그 성능이 두드러집니다. 이러한 속도의 비결은 패키지 설치를 자바스크립트 수준의 문제가 아닌 시스템 프로그래밍의 영역으로 접근하여 해결했기 때문입니다.\n\n과거 Node.js가 처음 등장했던 2009년에는 느린 하드웨어와 I/O 대기 시간이 주된 병목 현상이었기에 자바스크립트의 이벤트 루프와 비동기 처리가 매우 효율적인 대안이었습니다. 그러나 16년이 지난 현재는 NVMe SSD와 고성능 CPU의 보급으로 하드웨어 성능이 비약적으로 발전했습니다.\n\n오늘날의 패키지 매니저들은 여전히 과거의 I/O 대기 시간 문제에 최적화된 아키텍처를 유지하고 있지만, Bun은 현재의 진정한 병목 현상이 시스템 호출에 있다는 점에 주목합니다. 이를 해결하기 위해 Bun은 시스템 호출을 최소화하고 매니페스트를 바이너리로 캐싱하며, 타르볼 추출 최적화와 OS 네이티브 파일 복사 기능 활용, 그리고 CPU 코어 활용도를 높이는 전략을 채택하고 있습니다. \n\n결과적으로 Bun은 현대적인 하드웨어 환경에 맞춰 시스템 수준에서 설계를 최적화함으로써 기존 도구들이 가진 구조적 한계를 극복하고 설치 성능을 극대화합니다.",
+    "url": "https://bun.sh/blog/behind-the-scenes-of-bun-install",
+    "category": "웹 생태계 & 브라우저",
+    "source": "Bun Blog",
+    "author": "Bun Team",
+    "pubDate": "2025-09-10T15:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "Bun",
+      "Runtime",
+      "Build Tool"
     ]
   },
   {
@@ -51818,6 +52177,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/whats-new-elastic-8-12-0",
+    "title": "Elastic 8.12: GA of AI Assistant for Observability, Update to Apache Lucene 9.9",
+    "summary": "Elastic 8.12 includes the GA of the Elastic AI Assistant for Observability, update to Apache Lucene 9.9 with scalar quantization, enhanced machine learning capabilities, CSPM integration for Microsoft",
+    "aiSummary": "Elastic 8.12 버전이 정식 출시되었습니다. 이번 업데이트의 핵심은 Observability를 위한 Elastic AI Assistant가 정식 서비스로 전환된 점입니다.\n\n기술적으로는 Apache Lucene 9.9로 업데이트되면서 스칼라 양자화 기능이 도입되어 검색 성능과 효율성이 향상되었습니다. 또한 머신러닝 기능이 강화되었으며 Microsoft Azure를 위한 CSPM 통합이 추가되었습니다.\n\n이외에도 Elastic Agent의 기능 개선을 포함하여 전반적인 플랫폼의 안정성과 운영 편의성을 높이는 다양한 업데이트가 반영되었습니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elastic-8-12-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Brian Bergholm",
+    "pubDate": "2024-01-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://blog.vuejs.org/posts/vue-3-4",
     "title": "Announcing Vue 3.4",
     "summary": "Today we're excited to announce the release of Vue 3.4 \"🏀 Slam Dunk\"!\nThis release includes some substantial internal improvements - most notably a rewritten template parser that is 2x faster, and a ",
@@ -51930,6 +52305,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/whats-new-elastic-search-8-10-0",
+    "title": "Elasticsearch 8.10: Powerful personalized search powered by a comprehensive connector catalog",
+    "summary": "Elasticsearch 8.10 makes personalization more powerful with query rules and programmatic updates to synonyms for any search experience, including ML-powered ones. We expanded our connector catalog wit",
+    "aiSummary": "Elasticsearch 8.10 버전은 쿼리 규칙과 동의어에 대한 프로그래밍 방식의 업데이트를 지원하여 개인화된 검색 경험을 한층 강화하였습니다. 이러한 기능은 머신러닝 기반의 검색을 포함한 모든 검색 환경에 적용 가능합니다.\n\n또한 이번 업데이트를 통해 커넥터 카탈로그를 확장하였습니다. 이를 통해 더 다양한 외부 시스템과의 통합이 가능해져 데이터 연동 범위가 넓어졌습니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elastic-search-8-10-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Dana Juratoni",
+    "pubDate": "2023-09-12T07:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.sublimetext.com/blog/articles/sublime-text-4151",
     "title": "Sublime Text 4 Build 4151",
     "summary": "August 2, 2023\n\tby\n\t\n\tAll Posts\n\n\n\n\tFull Changelog\n\n\nVarious syntax highlighting improvements\nAdded \"fold_style\" setting for controlling syntax-based code folding\nLast tab in a group can now be select",
@@ -51956,6 +52347,22 @@
     "author": "Brandon Mavleos,James Hogbin",
     "pubDate": "2023-07-26T07:00:00.000Z",
     "fetchedAt": "2026-11-11T02:51:37.804Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/whats-new-elastic-8-9-0",
+    "title": "Elastic 8.9: Meet the Elastic AI Assistant for Security and ML-powered SIEM",
+    "summary": "Elastic 8.9 provides faster search performance and increased SIEM capabilities along with the beta of the Elastic AI Assistant, to bolster security teams with generative AI, and the tech preview of Re",
+    "aiSummary": "Elastic 8.9 버전은 향상된 검색 성능과 강화된 SIEM 기능을 제공합니다.\n\n이번 업데이트의 핵심은 Elastic AI Assistant의 베타 버전 공개입니다. 이는 생성형 AI를 활용하여 보안 팀의 업무를 지원하는 역할을 합니다.\n\n또한 하이브리드 검색을 위한 Reciprocal Rank Fusion 기능이 기술 프리뷰 형태로 추가되었습니다. 이를 통해 보안 및 데이터 분석 분야에서 더욱 효율적이고 지능적인 운영이 가능해집니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elastic-8-9-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Brian Bergholm",
+    "pubDate": "2023-07-25T07:00:00.000Z",
+    "fetchedAt": "2026-11-13T03:27:03.588Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
