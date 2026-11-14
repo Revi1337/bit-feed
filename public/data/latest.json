@@ -1,5 +1,214 @@
 [
   {
+    "id": "https://webkit.org/?p=18608",
+    "title": "Safari on Apple HomeView",
+    "summary": "It’s not every day our browser begins a life on a whole new platform.",
+    "aiSummary": "Apple의 웹 브라우저인 Safari가 새로운 플랫폼인 HomeView에서 서비스를 시작합니다. 그동안 모바일과 PC 환경을 중심으로 제공되던 Safari가 Apple의 새로운 기기나 인터페이스인 HomeView 생태계로 확장됨을 의미합니다. 이는 Apple이 자사의 하드웨어 환경 전반에서 웹 브라우징 경험을 통합하려는 전략으로 해석됩니다.",
+    "url": "https://webkit.org/blog/18608/safari-on-apple-homeview/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-11-13T21:00:25.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=55845",
+    "title": "Will your MongoDB upgrade break? Check it with UCFM",
+    "summary": "You were assigned one of the most common, yet feared, tasks in the life of a database administrator: Upgrades are needed for many reasons, whether to fix an existing bug or to keep the environment und",
+    "aiSummary": "데이터베이스 관리자에게 MongoDB 업그레이드는 버그 수정이나 보안 업데이트를 위해 반드시 거쳐야 하는 필수적이고도 까다로운 작업입니다. 단순히 바이너리를 교체하는 것은 비교적 간단하지만, 이후 발생할 수 있는 호환성 문제나 잠재적인 오류를 예측하는 것은 매우 어려운 일입니다. Percona는 이러한 업그레이드 과정의 위험을 최소화하고 안정성을 검증할 수 있는 도구인 UCFM을 소개합니다. UCFM을 활용하면 실제 환경에 반영하기 전 업그레이드에 따른 영향을 사전에 파악하여 예기치 못한 시스템 중단이나 장애를 방지할 수 있습니다.",
+    "url": "https://www.percona.com/blog/will-your-mongodb-upgrade-break-check-it-with-ucfm/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Jean da Silva",
+    "pubDate": "2026-11-13T19:01:03.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+    "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+    "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This…\nThe post GitHub Ent",
+    "aiSummary": "GitHub Copilot 앱에서 이제 GitHub Enterprise Server 계정을 추가하여 업무를 수행할 수 있게 되었습니다. 사용자는 자신의 계정을 앱에 연동함으로써 원격 저장소에 접근하고 이슈 및 Pull Request와 관련된 작업을 원활하게 처리할 수 있습니다. 이번 업데이트를 통해 기업용 환경에서도 GitHub Copilot의 기능을 더욱 효율적으로 활용할 수 있는 환경이 조성되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-13T18:27:13.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "title": "Gemini 4 Hydrogen in GitHub Copilot",
+    "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instru",
+    "aiSummary": "Google의 최신 Flash 모델인 Gemini 4 Hydrogen이 GitHub Copilot에서 정식으로 제공되기 시작했습니다.\n\n해당 모델은 빠르고 효율적인 에이전트 기반 코딩과 도구 활용, 그리고 다단계 워크플로우를 처리할 수 있도록 최적화되어 설계되었습니다. 특히 이전보다 향상된 지시 이행 능력을 바탕으로 개발자가 GitHub Copilot 환경 내에서 더 복잡한 작업을 신속하게 수행할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-13T18:23:48.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.7",
+    "title": "0.162.7",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 버전 0.162.7이 새롭게 릴리즈되었습니다.\n\n이번 업데이트에서는 코딩 에이전트가 설치된 버전의 최신 기능과 권장 패턴을 활용하도록 돕는 공식 스킬이 추가되었습니다. 해당 기능은 uvx library-skills 명령어를 통해 프로젝트에 설치하여 사용할 수 있으며 상세 내용은 Develop with AI 문서를 참고하면 됩니다.\n\n수정 사항으로는 비동기 yield 의존성 취소 시 발생하는 정리 문제를 해결하였습니다. 내부적으로는 GitHub Actions 워크플로우 락파일을 생성하고 Zizmor 버전을 업데이트하는 개선이 이루어졌습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.7",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-13T17:46:19.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
+    "title": "New AI agent observability and governance across BigQuery and Looker",
+    "summary": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it reason",
+    "aiSummary": "Google은 엔터프라이즈 환경에서 AI 에이전트의 운영을 최적화하기 위해 BigQuery와 Looker를 중심으로 한 통합 관측성 및 거버넌스 기능을 확장하였습니다. 이번 업데이트는 기업이 자체 데이터로 구축한 1P 에이전트와 ADK 또는 LangGraph로 개발한 3P 에이전트 모두를 포괄하여, 성능 모니터링, 비용 관리, 데이터 보호를 지원합니다.\n\n통합 관측성 프레임워크를 통해 모든 에이전트는 표준화된 원격 측정 데이터를 BigQuery로 전송합니다. 관리자는 BigQuery Studio나 Looker의 내장 대시보드를 활용하여 에이전트의 사용량, 세션, 대기 시간, 토큰 소비량을 실시간으로 추적할 수 있습니다. 또한, 민감 정보 보호를 위해 운영 메트릭과 대화 콘텐츠를 분리 관리하며, VPC Service Controls 및 고객 관리 암호화 키인 CMEK를 통해 강력한 보안 거버넌스를 유지합니다.\n\n비용 통제 측면에서는 FinOps를 고려하여 BigQuery의 쿼리 스캔 제한과 일일 토큰 할당량을 설정함으로써 예기치 못한 지출을 방지합니다. 더불어, 오픈 소스 평가 도구인 Prism 등을 통해 프로덕션 배포 전 모델이나 프롬프트 변경이 답변 품질에 미치는 영향을 미리 검증할 수 있습니다.\n\n사용자는 단계별 가이드를 통해 Cloud Monitoring 및 Cloud Trace를 활성화하고, 커스텀 에이전트에 SDK를 적용하여 통합 대시보드를 구축함으로써 AI 에이전트의 배포와 운영 전반에 대한 투명성을 확보할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Kate Grinevskaja"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-13T17:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
+    "title": "Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26",
+    "summary": "Computational scientists and HPC engineers have always been among the earliest adopters of new computing paradigms, and agents are no exception. Today, research and engineering teams use AI models and",
+    "aiSummary": "Google Cloud는 SC26 행사를 통해 HPC와 AI를 결합한 새로운 에이전트 기반 컴퓨팅 환경과 이를 지원하는 인프라 솔루션을 공개했습니다. 단순히 일반적인 범용 모델을 사용하는 것을 넘어 HPC 전문 지식을 내재화한 에이전트를 통해 복잡한 워크로드를 안정적으로 설계하고 최적화하는 데 중점을 둡니다.\n\nCluster Toolkit과 결합된 구성 가능한 에이전트 스킬은 인프라 배포 전 검증, 도메인별 과학 연산 구성, 그리고 엄격한 거버넌스 및 문제 해결 기능을 제공합니다. 이를 통해 클러스터 구축부터 OpenFOAM, GROMACS, AlphaFold 3와 같은 과학적 파이프라인 운영까지 자동화된 워크플로우를 구현합니다.\n\nGoogle DeepMind가 개발한 AlphaEvolve는 Gemini를 기반으로 알고리즘과 코드를 반복적으로 변이 및 최적화하여 성능을 극대화합니다. Google Cloud의 Batch와 연동하여 노트북 환경에서 대규모 병렬 실험까지 확장할 수 있으며, Cloud RDMA와 Managed Lustre 등 고성능 인프라를 활용해 실제 슈퍼컴퓨팅 환경에 최적화된 알고리즘을 도출합니다.\n\n또한 Google Cloud는 이를 뒷받침하는 강력한 슈퍼컴퓨팅 하드웨어 체계를 구축했습니다. 5세대 AMD EPYC 프로세서 기반의 H4D 인스턴스, NVIDIA Blackwell 아키텍처를 탑재한 A4, A4X, A5X 인스턴스, 그리고 8세대 TPU 등을 포함한 통합 하드웨어 패브릭을 제공합니다. 이와 함께 서브 밀리초 수준의 초고속 데이터 처리가 가능한 Managed Lustre 스토리지 서비스를 통해 시뮬레이션과 AI 간의 데이터 병목 현상을 해결합니다.\n\n결과적으로 Google Cloud는 추론 능력이 뛰어난 Gemini와 검증된 엔지니어링 기술, 그리고 전용 슈퍼컴퓨팅 하드웨어를 결합하여 연구자들이 인프라 관리 부담을 덜고 과학적 발견에 집중할 수 있는 환경을 제공합니다.",
+    "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Megan Gawlik"
+      ],
+      "title": [
+        "Product Manager, HPC"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-13T17:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/",
+    "title": "From OLAP to OLTP: How Copel Simplified Reverse ETL Using BigQuery's Native Export to AlloyDB",
+    "summary": "Bridging the gap between analytical systems (OLAP) and transactional databases (OLTP) is notoriously complex. Synchronizing data between the two systems, often called Reverse ETL (Extract, Transform, ",
+    "aiSummary": "Google Cloud은 분석용 OLAP 시스템인 BigQuery와 트랜잭션용 OLTP 데이터베이스인 AlloyDB를 연결하는 Reverse ETL 과정을 획기적으로 간소화하는 기능을 정식 출시했습니다. 기존에는 데이터를 이동시키기 위해 복잡한 미들웨어와 중간 저장소인 Cloud Storage, 그리고 다양한 스크립트 기반의 오케스트레이션이 필요했으나, 이제는 단일 SQL 명령문을 통해 BigQuery에서 AlloyDB로 직접 데이터를 내보낼 수 있게 되었습니다.\n\n브라질의 전력 기업인 Copel은 이 새로운 기능을 도입하여 기존의 복잡했던 Apache Airflow 기반의 파이프라인을 단순화했습니다. 과거에는 데이터를 CSV 파일로 추출하고 임시 테이블을 생성하여 로드하는 여러 단계의 비효율적인 과정을 거쳤으나, 이제는 데이터가 내부 네트워크를 통해 AlloyDB로 직접 전송됩니다. 이 과정에서 Cloud Storage의 스테이징 비용이 제거되었으며, 데이터 보안성 또한 향상되었습니다.\n\n실제 성능 검증 결과, Copel은 2억 건이 넘는 대규모 데이터를 분당 약 420만 행의 속도로 전송하는 뛰어난 처리 효율을 확인했습니다. 이번 업데이트로 데이터 엔지니어들은 인프라 유지보수와 복잡한 오류 처리에 쏟던 시간을 절약하고, 시스템 아키텍처를 훨씬 직관적이고 효율적으로 운영할 수 있게 되었습니다. 본 기능은 AlloyDB뿐만 아니라 Bigtable, Spanner, Pub/Sub 등으로의 확장 지원을 통해 전반적인 데이터 아키텍처 현대화를 뒷받침합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jelson A. Cordeiro"
+      ],
+      "title": [
+        "Solutions & Cloud Architect, Copel"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-13T17:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-chatgpt-wallet",
+    "title": "Introducing ChatGPT Wallet",
+    "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "aiSummary": "OpenAI가 ChatGPT Work, Codex, dots 내의 에이전트가 사용자 승인 및 기존 카드 보안 시스템을 통해 직접 결제를 진행할 수 있도록 지원하는 ChatGPT Wallet을 공개합니다.\n\n이번 기능은 에이전트가 업무 수행 과정에서 필요한 구매 결제까지 안전하게 처리할 수 있도록 설계되었습니다. 사용자는 결제 과정에서 직접 승인 절차를 거치며 기존에 설정된 카드 보안 보호 기능을 그대로 적용받아 안전한 거래가 가능합니다.",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-13T15:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=56188",
+    "title": "Just Because You Can, Doesn’t Mean You Should: Re-evaluating Galera Node Weights",
+    "summary": "We all know that when using a cluster based on Galera (Codership) such as Percona XtraDB Cluster (PXC), it is recommended to deploy an odd number of nodes. The generic answer to this recommendation is",
+    "aiSummary": "Percona XtraDB Cluster와 같은 Galera 기반 클러스터를 운영할 때 노드 수를 홀수로 구성하는 것은 Split-brain과 같은 데이터 불일치 위험을 방지하기 위한 권장 사항입니다. \n\n일부 환경에서는 노드 가중치 기능을 활용하여 짝수 노드 환경을 보완하려는 시도가 존재하지만, 이 글은 기술적으로 가능하다고 해서 반드시 권장되는 방식은 아님을 지적합니다. \n\n노드 가중치를 임의로 조정하는 것은 클러스터의 안정성과 장애 대응 체계에 예상치 못한 변수를 초래할 수 있습니다. 따라서 안정적인 데이터베이스 운영을 위해서는 가중치 조정에 의존하기보다 표준적인 홀수 노드 구성 원칙을 준수하는 것이 중요합니다.",
+    "url": "https://www.percona.com/blog/just-because-you-can-doesnt-mean-you-should-re-evaluating-galera-node-weights/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "2026-11-13T14:01:47.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.162.6",
     "title": "0.162.6",
     "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
@@ -46,6 +255,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/11/13/on-rails-marco-roth-herb-reaction-view",
+    "title": "On Rails — Marco Roth: Teaching Rails to Read Its Own Template",
+    "summary": "Marco Roth, independent consultant and the creator of Herb and ReActionView, joins Robby to talk about teaching Rails to understand its own templates.\n\nMarco explains how Herb parses HTML and ERB toge",
+    "aiSummary": "독립 컨설턴트이자 Herb와 ReActionView의 개발자인 Marco Roth가 On Rails 팟캐스트에 출연하여 Rails가 스스로 템플릿을 이해하도록 만드는 기술적 접근을 소개합니다.\n\nMarco Roth가 개발한 Herb는 HTML과 ERB를 동시에 파싱하여 프로덕션 환경에 배포하기 전에 뷰 파일의 오류를 미리 감지하는 역할을 수행하며, 이러한 유용성을 인정받아 향후 Rails 8.2 버전에 정식 포함될 예정입니다.\n\n또한 기존 Rails 뷰 코드를 재작성하지 않고도 반응형으로 만들어주는 ReActionView의 작동 원리와 RubyEvents.org의 개발 배경에 대해 설명합니다. 특히 AI 에이전트가 템플릿 코드를 작성하는 환경이 확산됨에 따라 Herb와 같은 정밀한 분석 도구의 중요성이 더욱 커지고 있습니다.",
+    "url": "https://rubyonrails.org/2026/11/13/on-rails-marco-roth-herb-reaction-view",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Rails Foundation",
+    "pubDate": "2026-11-13T00:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
@@ -2150,214 +2375,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-    "title": "Copilot code review: API management and review overview updates",
-    "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,",
-    "aiSummary": "GitHub Copilot의 코드 리뷰 설정을 REST API와 GraphQL API를 통해 관리할 수 있게 되었습니다. 이제 기업 수준의 정책부터 개별 리포지토리 단위까지 API를 활용한 세밀한 제어가 가능합니다.\n\n또한, Copilot이 생성하는 리뷰 개요 댓글의 형식이 더욱 간결하게 개선되었습니다. 이를 통해 개발자는 코드 리뷰 과정에서 필요한 핵심 정보를 더 효율적으로 파악할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-07T00:27:19.000Z",
-    "fetchedAt": "2026-11-07T02:56:15.235Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/agensgraph-218-released-graph-database-on-postgresql-18-with-expanded-iso-gql-support-3437/",
-    "title": "AgensGraph 2.18 Released: Graph Database on PostgreSQL 18 with Expanded ISO GQL Support\n",
-    "summary": "The AgensGraph Development Team is pleased to announce the release of AgensGraph v2.18.6.1, the latest version in the 2.18 series. AgensGraph is an open-source graph database, built on PostgreSQL 18.6",
-    "aiSummary": "AgensGraph v2.18.6.1이 새롭게 출시되었습니다. 이번 버전은 PostgreSQL 18.6을 기반으로 하며 기존의 openCypher와 더불어 ISO GQL 표준 지원을 본격적으로 확대했습니다. 특히 GQL의 LET, FOR, FILTER 등 주요 구문과 다양한 서브쿼리를 지원하여 그래프 데이터베이스로서의 범용성을 강화했습니다.\n\n성능 측면에서는 획기적인 개선이 이루어졌습니다. 가변 길이 탐색 과정에서 엣지 라벨 인덱스를 활용하도록 최적화되어, 대규모 데이터셋에서 기존 대비 수천 배 이상의 속도 향상을 보여줍니다. 또한 PostgreSQL 18.6의 최신 기능인 비동기 I/O, OAuth 인증, B-tree skip scan 등을 모두 포함하며 보안 면에서도 행 수준 보안 정책을 Cypher 쓰기 작업과 고정 길이 패턴 매칭에 적용하였습니다.\n\n개발자 편의성을 위한 생태계 지원도 크게 확장되었습니다. Python 드라이버인 agensgraph-python 2.1은 psycopg 3 기반으로 재구축되어 동기 및 비동기 환경을 모두 지원하며 pandas나 Polars와의 연동성이 강화되었습니다. 더불어 LangChain, LlamaIndex, LightRAG 등과의 통합을 지원하고 MCP 서버를 제공하여 AI 기반의 GraphRAG 및 지식 그래프 애플리케이션 개발을 용이하게 합니다. pgvector 확장을 별도로 설치할 경우 그래프 탐색과 벡터 유사도 검색을 하나의 쿼리로 수행할 수 있습니다.\n\n데이터 업그레이드의 경우 기존 2.17 버전에서 2.18 버전으로 전환 시 pg_upgrade 사용이나 데이터 덤프 및 복구 과정이 필요합니다. AgensGraph는 Apache License 2.0으로 배포되는 다중 모델 그래프 데이터베이스이며, SKAI Worldwide에서 지속적으로 개발하고 있습니다.",
-    "url": "https://www.postgresql.org/about/news/agensgraph-218-released-graph-database-on-postgresql-18-with-expanded-iso-gql-support-3437/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-07T00:00:00.000Z",
-    "fetchedAt": "2026-11-07T14:11:02.643Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/brume-fk-safe-pseudonymization-for-postgresql-test-and-debug-copies-3434/",
-    "title": "Brume: FK-safe pseudonymization for PostgreSQL test and debug copies\n",
-    "summary": "Brume 2.1, an open source (Apache 2.0) tool that creates deterministic, foreign-key-safe pseudonymized copies of PostgreSQL databases for testing, debugging and demos, is now available.\nWhy Brume?\nDev",
-    "aiSummary": "Brume 2.1은 PostgreSQL 데이터베이스를 테스트, 디버깅, 데모 용도로 안전하게 복제할 수 있게 해주는 오픈 소스 도구입니다. 운영 환경의 실제 데이터를 그대로 복제하면 개인정보 노출 위험이 크고, 기존 마스킹 방식은 외래 키 무결성을 훼손하는 경우가 많습니다. Brume은 데이터를 추출하는 과정에서 실시간으로 개인정보를 가명 처리하며, 외래 키 참조 관계를 유지하여 정합성 문제가 발생하지 않도록 합니다.\n\n이 도구는 FAKE, MASK, HASH, NULLIFY, FPE_ID, DATE_SHIFT 등 다양한 컬럼별 가명 처리 전략을 제공합니다. 특히 사용자가 설정한 비밀 키를 기반으로 결정론적 결과를 생성하므로, 동일한 입력값에 대해 항상 일관된 결과값을 출력하여 테스트 환경의 안정성을 보장합니다. 또한 연결된 컬럼 기능을 통해 외래 키가 명시되지 않은 테이블 간에도 동일한 식별자 값을 일관되게 처리합니다.\n\nBrume은 특정 조건을 만족하는 데이터의 일부만 추출하는 서브셋 기능을 지원하며, 복잡한 참조 관계를 추적하여 작고 일관된 데이터 세트를 생성합니다. 모든 설정은 YAML 기반의 선언적 파일로 관리되어 버전 제어가 가능하며, 이를 통해 GDPR 준수를 위한 감사 기록을 투명하게 확보할 수 있습니다. 현재 PostgreSQL 12 버전부터 18 버전까지 지원하며, Debian, Ubuntu, RHEL, Fedora 및 macOS 환경에서 사용할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/brume-fk-safe-pseudonymization-for-postgresql-test-and-debug-copies-3434/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-07T00:00:00.000Z",
-    "fetchedAt": "2026-11-07T14:11:02.643Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/heapdeck-an-on-call-monitor-for-postgresql-on-iphone-and-ipad-3436/",
-    "title": "HeapDeck: an on-call monitor for PostgreSQL on iPhone and iPad\n",
-    "summary": "HeapDeck is a new native app for engineers on call for PostgreSQL 13 to 19, on the App Store for iPhone and iPad.\nIt opens on one health verdict with ten tiles. The Locks screen draws the tree from pg",
-    "aiSummary": "HeapDeck은 PostgreSQL 13부터 19 버전까지를 지원하는 iPhone 및 iPad용 온콜 모니터링 네이티브 앱입니다.\n\n이 앱은 데이터베이스의 상태를 10개의 타일로 직관적으로 보여주며, pg_blocking_pids를 통한 잠금 트리 확인은 물론 pg_stat_activity, 트랜잭션 ID 랩어라운드, 데드 튜플, 복제 지연, pg_stat_statements 등 핵심 지표를 상세히 제공합니다.\n\n보안을 위해 벤더 서버를 거치지 않고 직접 연결이나 SSH 터널을 사용하며, TLS와 핀 고정된 지문 인증 방식을 도입했습니다. 별도의 알람 전송 기능은 없으며 기존의 모니터링 시스템을 보완하는 도구로 설계되었습니다.\n\n기본적으로 하나의 서버를 무료로 모니터링할 수 있으며, HeapDeck Pro를 일회성 결제로 구매하면 다중 서버 관리와 함께 세션 취소, 종료, VACUUM 실행, 슬롯 삭제 등의 관리 기능을 추가로 활용할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/heapdeck-an-on-call-monitor-for-postgresql-on-iphone-and-ipad-3436/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-07T00:00:00.000Z",
-    "fetchedAt": "2026-11-07T14:11:02.643Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg-observability-map-100-released-3427/",
-    "title": "PG Observability Map 1.0.0 Released\n",
-    "summary": "We are pleased to announce the initial release (1.0.0) of PG Observability Map, a interactive web-based tool designed to visualize and explore PostgreSQL observability, metrics, and internal diagnosti",
-    "aiSummary": "PostgreSQL의 관측 가능성과 메트릭, 내부 진단 뷰를 시각적으로 탐색할 수 있는 웹 기반 도구인 PG Observability Map 1.0.0 버전이 공식 출시되었습니다.\n\n이 도구는 PostgreSQL의 시스템 뷰와 함수, 통계 정보를 대화형 지도로 시각화하여 사용자가 직관적으로 이해할 수 있도록 돕습니다. 모든 데이터는 PostgreSQL의 아키텍처 구조에 맞게 매핑되어 있으며, 최신 버전을 포함한 다양한 PostgreSQL 버전 간의 탐색을 지원합니다. 별도의 설치 없이 웹 브라우저에서 가볍게 접속하여 사용할 수 있는 것이 특징입니다. 관심 있는 사용자는 제공된 GitHub 저장소에서 소스 코드와 문서를 확인하거나 실시간 데모 사이트를 통해 기능을 직접 체험할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg-observability-map-100-released-3427/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-07T00:00:00.000Z",
-    "fetchedAt": "2026-11-07T14:11:02.643Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-    "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-    "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption…\nThe post Copi",
-    "aiSummary": "GitHub의 Copilot impact dashboard 내 Agent adoption 차트에 Copilot Chat과 VS Code Agents 창의 사용 데이터가 새롭게 포함되었습니다. 이를 통해 사용자는 기존의 다양한 지표와 더불어 총 9가지의 Copilot 경험 전반에 걸친 참여도와 활용 현황을 더욱 종합적으로 파악할 수 있게 되었습니다. 이번 업데이트는 개발 환경 내에서 Copilot의 실질적인 활용도를 정밀하게 분석하고 관리하려는 사용자들에게 유용한 통찰을 제공합니다.",
-    "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-06T22:17:28.000Z",
-    "fetchedAt": "2026-11-07T02:56:15.235Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-    "title": "GitHub Copilot weekly releases — November 2",
-    "summary": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge…\nThe post Git",
-    "aiSummary": "GitHub Copilot이 이번 주 업데이트를 통해 JetBrains Air와 Xcode의 코딩 어시스턴트로 새롭게 도입되었습니다.\n\n이번 업데이트에는 풀 리퀘스트 관리와 설정 최적화, 그리고 에이전트 세션 운영을 지원하는 기능들이 포함되었습니다. 이를 통해 개발자는 개발 환경 전반에서 더욱 효율적으로 업무를 수행할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-06T21:00:26.000Z",
-    "fetchedAt": "2026-11-07T02:56:15.235Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-    "title": "@GitHub in Slack and Teams is generally available and more",
-    "summary": "Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests—all without leaving your conversation. What’s new Build and rev",
-    "aiSummary": "Slack과 Microsoft Teams 내에서 직접 GitHub 기능을 활용할 수 있는 @GitHub 앱이 정식 출시되었습니다.\n\n사용자들은 대화창을 벗어나지 않고도 버그 조사, 이슈 생성, 코드 수정 및 Pull Request 작성 등의 작업을 수행할 수 있습니다. 이를 통해 팀 간의 협업 효율성을 높이고 워크플로우를 간소화할 수 있습니다.\n\n이번 정식 출시를 통해 코드 리뷰와 빌드 과정을 메신저 내에서 더욱 원활하게 통합하여 개발 생산성을 향상할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-06T20:31:08.000Z",
-    "fetchedAt": "2026-11-07T02:56:15.235Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/phpstorm-2026-3",
-    "title": "PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support",
-    "summary": "PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.\nThe post PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 S",
-    "aiSummary": "PhpStorm 2026.3 버전이 새롭게 출시되면서 PHP 8.6 버전에 대한 지원이 추가되었습니다.\n\n이번 업데이트에는 Laravel을 위한 새로운 코드 검사 기능과 큐 워커를 관리할 수 있는 Processes 탭이 포함되었습니다.\n\n또한 코딩 에이전트를 위한 작업 공간인 Air가 도입되어 개발 생산성을 높일 수 있는 환경을 제공합니다.",
-    "url": "https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Eric L. Barnes",
-    "pubDate": "2026-11-06T17:05:13.000Z",
-    "fetchedAt": "2026-11-06T20:57:04.049Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/media-entertainment/how-mito-orchestrated-5000-plus-ai-assets-for-a-world-cup-tv-spot/",
-    "title": "The Blueprint: Orchestrating 5,000+ AI assets for a World Cup TV spot",
-    "summary": "Welcome back to The Blueprint, a regular feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. W",
-    "aiSummary": "Mito는 제너레이티브 AI를 활용해 광고 제작 과정을 혁신하고자 하는 기업으로 최근 Telefónica 산하의 Movistar Plus+를 위한 120초 분량의 전국 방송 광고 캠페인을 성공적으로 수행했습니다. 이 과정에서 5,000개 이상의 에셋을 관리하고 수많은 반복 작업을 처리하는 과정에서 인프라 및 워크플로우 병목 현상이라는 기술적 난관에 직면했습니다.\n\n이를 해결하기 위해 Mito는 Google Cloud 기반의 서버리스 비동기 아키텍처를 설계했습니다. Cloud Run을 사용하여 API와 AI Director 등을 Java 서비스로 운영하고 Google Cloud Pub/Sub을 통해 작업을 분산하여 실시간 협업 환경을 구축했습니다. 또한 Vertex AI를 통해 Veo, Omni, Nano Banana와 같은 모델들을 호출하고 Cloud Storage와 Cloud CDN을 활용하여 렌더링 지연 시간을 최소화했습니다.\n\n데이터베이스는 Cloud SQL과 PostgreSQL을 사용하여 부하를 분산하고 효율적인 분석 환경을 마련했습니다. 특히 프론트엔드에서는 Rule of 6라는 구조화된 프롬프트 체계를 도입하여 변수를 통제하고 제작 비용을 최적화했습니다.\n\n이러한 인프라를 통해 Mito는 95% 이상이 AI로 생성된 대규모 캠페인을 성공적으로 송출했습니다. AI Director는 자연어 지시를 정밀한 모델 매개변수로 변환하여 일관된 스타일을 유지했으며 Gemini를 활용한 자동 평가 체계를 통해 결과물의 품질을 관리했습니다. 결과적으로 Mito는 다중 모델 지능형 라우팅과 효율적인 큐 시스템을 결합하여 복잡한 창작 과정에서도 기술적 제약을 극복하고 고품질의 영상 콘텐츠를 제작할 수 있는 기반을 마련했습니다.",
-    "url": "https://cloud.google.com/blog/products/media-entertainment/how-mito-orchestrated-5000-plus-ai-assets-for-a-world-cup-tv-spot/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Iñaki Berenguer"
-      ],
-      "title": [
-        "CEO, Mito"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-06T17:00:00.000Z",
-    "fetchedAt": "2026-11-06T20:57:04.049Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
-    "title": "Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems",
-    "summary": "Today, we’re excited to announce the general availability of our next-generation Storage-optimized Z4M machine series in Google Compute Engine, available as both Virtual Machine (VM) and bare-metal in",
-    "aiSummary": "Google Cloud가 AI 및 머신러닝 워크로드의 데이터 처리와 대규모 병렬 파일 시스템 운영을 지원하는 차세대 스토리지 최적화 머신 시리즈인 Z4M을 정식 출시했습니다. Z4M은 가상 머신과 베어메탈 인스턴스 형태로 제공되며, 5세대 Intel Xeon Scalable 프로세서와 Titanium 기술을 결합하여 강력한 컴퓨팅 자원을 제공합니다.\n\n이번 제품은 최대 168,000 GiB의 Local SSD 스토리지를 지원하며, 기존 Z3 대비 랜덤 읽기 IOPS는 최대 70%, 순차 읽기 처리량은 최대 110% 향상된 성능을 갖추었습니다. 또한 400 Gbps의 Cloud RDMA 네트워킹을 통해 TCP 대비 데이터 접근 지연 시간을 최대 60%까지 단축하여, GPUDirect Storage 및 TPUDirect Storage와 연동 시 GPU와 TPU의 활용도를 극대화할 수 있습니다.\n\n베어메탈 인스턴스는 가상화 계층 없이 물리적 하드웨어에 직접 접근할 수 있어 커스텀 하이퍼바이저 운영이나 특정 라이선스가 필요한 워크로드에 최적화되어 있습니다. 특히 에이전틱 AI를 활용하는 개발자들에게 고립된 샌드박스 환경을 대규모로 제공하는 데 유리합니다.\n\n관리 편의성을 위해 Google Cloud의 Cluster Director를 통한 클러스터 배포 및 관리가 지원되며, Hyperdisk Balanced, Throughput, Extreme 등 다양한 스토리지 옵션과 호환되어 워크로드별로 성능과 용량을 독립적으로 조정할 수 있습니다. 유지보수 측면에서는 대용량 스토리지 인스턴스의 경우 사전 고지 후 재시작 방식을 따르며, 일정 용량 이하의 가상 머신은 라이브 마이그레이션을 지원합니다.\n\n업계 파트너인 Nutanix, Silk, Sycomp, WEKA 등은 Z4M이 제공하는 높은 스토리지 밀도와 향상된 IOPS 성능, 그리고 RDMA 기반의 낮은 지연 시간이 데이터 집약적인 AI 작업과 엔터프라이즈 데이터베이스 운영에 큰 효율을 제공한다고 평가하고 있습니다. 현재 Z4M은 일부 리전에서 먼저 도입되었으며, Google Cloud 콘솔을 통해 사용할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "bob Napaa"
-      ],
-      "title": [
-        "Product Management"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-06T17:00:00.000Z",
-    "fetchedAt": "2026-11-06T20:57:04.049Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]

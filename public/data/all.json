@@ -1,5 +1,214 @@
 [
   {
+    "id": "https://webkit.org/?p=18608",
+    "title": "Safari on Apple HomeView",
+    "summary": "It’s not every day our browser begins a life on a whole new platform.",
+    "aiSummary": "Apple의 웹 브라우저인 Safari가 새로운 플랫폼인 HomeView에서 서비스를 시작합니다. 그동안 모바일과 PC 환경을 중심으로 제공되던 Safari가 Apple의 새로운 기기나 인터페이스인 HomeView 생태계로 확장됨을 의미합니다. 이는 Apple이 자사의 하드웨어 환경 전반에서 웹 브라우징 경험을 통합하려는 전략으로 해석됩니다.",
+    "url": "https://webkit.org/blog/18608/safari-on-apple-homeview/",
+    "category": "웹 생태계 & 브라우저",
+    "source": "WebKit Blog",
+    "author": "WebKit Blog",
+    "pubDate": "2026-11-13T21:00:25.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "WebKit",
+      "Safari"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=55845",
+    "title": "Will your MongoDB upgrade break? Check it with UCFM",
+    "summary": "You were assigned one of the most common, yet feared, tasks in the life of a database administrator: Upgrades are needed for many reasons, whether to fix an existing bug or to keep the environment und",
+    "aiSummary": "데이터베이스 관리자에게 MongoDB 업그레이드는 버그 수정이나 보안 업데이트를 위해 반드시 거쳐야 하는 필수적이고도 까다로운 작업입니다. 단순히 바이너리를 교체하는 것은 비교적 간단하지만, 이후 발생할 수 있는 호환성 문제나 잠재적인 오류를 예측하는 것은 매우 어려운 일입니다. Percona는 이러한 업그레이드 과정의 위험을 최소화하고 안정성을 검증할 수 있는 도구인 UCFM을 소개합니다. UCFM을 활용하면 실제 환경에 반영하기 전 업그레이드에 따른 영향을 사전에 파악하여 예기치 못한 시스템 중단이나 장애를 방지할 수 있습니다.",
+    "url": "https://www.percona.com/blog/will-your-mongodb-upgrade-break-check-it-with-ucfm/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Jean da Silva",
+    "pubDate": "2026-11-13T19:01:03.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+    "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+    "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This…\nThe post GitHub Ent",
+    "aiSummary": "GitHub Copilot 앱에서 이제 GitHub Enterprise Server 계정을 추가하여 업무를 수행할 수 있게 되었습니다. 사용자는 자신의 계정을 앱에 연동함으로써 원격 저장소에 접근하고 이슈 및 Pull Request와 관련된 작업을 원활하게 처리할 수 있습니다. 이번 업데이트를 통해 기업용 환경에서도 GitHub Copilot의 기능을 더욱 효율적으로 활용할 수 있는 환경이 조성되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-13T18:27:13.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "title": "Gemini 4 Hydrogen in GitHub Copilot",
+    "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instru",
+    "aiSummary": "Google의 최신 Flash 모델인 Gemini 4 Hydrogen이 GitHub Copilot에서 정식으로 제공되기 시작했습니다.\n\n해당 모델은 빠르고 효율적인 에이전트 기반 코딩과 도구 활용, 그리고 다단계 워크플로우를 처리할 수 있도록 최적화되어 설계되었습니다. 특히 이전보다 향상된 지시 이행 능력을 바탕으로 개발자가 GitHub Copilot 환경 내에서 더 복잡한 작업을 신속하게 수행할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-13T18:23:48.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.162.7",
+    "title": "0.162.7",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 버전 0.162.7이 새롭게 릴리즈되었습니다.\n\n이번 업데이트에서는 코딩 에이전트가 설치된 버전의 최신 기능과 권장 패턴을 활용하도록 돕는 공식 스킬이 추가되었습니다. 해당 기능은 uvx library-skills 명령어를 통해 프로젝트에 설치하여 사용할 수 있으며 상세 내용은 Develop with AI 문서를 참고하면 됩니다.\n\n수정 사항으로는 비동기 yield 의존성 취소 시 발생하는 정리 문제를 해결하였습니다. 내부적으로는 GitHub Actions 워크플로우 락파일을 생성하고 Zizmor 버전을 업데이트하는 개선이 이루어졌습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.7",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-13T17:46:19.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
+    "title": "New AI agent observability and governance across BigQuery and Looker",
+    "summary": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it reason",
+    "aiSummary": "Google은 엔터프라이즈 환경에서 AI 에이전트의 운영을 최적화하기 위해 BigQuery와 Looker를 중심으로 한 통합 관측성 및 거버넌스 기능을 확장하였습니다. 이번 업데이트는 기업이 자체 데이터로 구축한 1P 에이전트와 ADK 또는 LangGraph로 개발한 3P 에이전트 모두를 포괄하여, 성능 모니터링, 비용 관리, 데이터 보호를 지원합니다.\n\n통합 관측성 프레임워크를 통해 모든 에이전트는 표준화된 원격 측정 데이터를 BigQuery로 전송합니다. 관리자는 BigQuery Studio나 Looker의 내장 대시보드를 활용하여 에이전트의 사용량, 세션, 대기 시간, 토큰 소비량을 실시간으로 추적할 수 있습니다. 또한, 민감 정보 보호를 위해 운영 메트릭과 대화 콘텐츠를 분리 관리하며, VPC Service Controls 및 고객 관리 암호화 키인 CMEK를 통해 강력한 보안 거버넌스를 유지합니다.\n\n비용 통제 측면에서는 FinOps를 고려하여 BigQuery의 쿼리 스캔 제한과 일일 토큰 할당량을 설정함으로써 예기치 못한 지출을 방지합니다. 더불어, 오픈 소스 평가 도구인 Prism 등을 통해 프로덕션 배포 전 모델이나 프롬프트 변경이 답변 품질에 미치는 영향을 미리 검증할 수 있습니다.\n\n사용자는 단계별 가이드를 통해 Cloud Monitoring 및 Cloud Trace를 활성화하고, 커스텀 에이전트에 SDK를 적용하여 통합 대시보드를 구축함으로써 AI 에이전트의 배포와 운영 전반에 대한 투명성을 확보할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Kate Grinevskaja"
+      ],
+      "title": [
+        "Product Manager"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-13T17:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
+    "title": "Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26",
+    "summary": "Computational scientists and HPC engineers have always been among the earliest adopters of new computing paradigms, and agents are no exception. Today, research and engineering teams use AI models and",
+    "aiSummary": "Google Cloud는 SC26 행사를 통해 HPC와 AI를 결합한 새로운 에이전트 기반 컴퓨팅 환경과 이를 지원하는 인프라 솔루션을 공개했습니다. 단순히 일반적인 범용 모델을 사용하는 것을 넘어 HPC 전문 지식을 내재화한 에이전트를 통해 복잡한 워크로드를 안정적으로 설계하고 최적화하는 데 중점을 둡니다.\n\nCluster Toolkit과 결합된 구성 가능한 에이전트 스킬은 인프라 배포 전 검증, 도메인별 과학 연산 구성, 그리고 엄격한 거버넌스 및 문제 해결 기능을 제공합니다. 이를 통해 클러스터 구축부터 OpenFOAM, GROMACS, AlphaFold 3와 같은 과학적 파이프라인 운영까지 자동화된 워크플로우를 구현합니다.\n\nGoogle DeepMind가 개발한 AlphaEvolve는 Gemini를 기반으로 알고리즘과 코드를 반복적으로 변이 및 최적화하여 성능을 극대화합니다. Google Cloud의 Batch와 연동하여 노트북 환경에서 대규모 병렬 실험까지 확장할 수 있으며, Cloud RDMA와 Managed Lustre 등 고성능 인프라를 활용해 실제 슈퍼컴퓨팅 환경에 최적화된 알고리즘을 도출합니다.\n\n또한 Google Cloud는 이를 뒷받침하는 강력한 슈퍼컴퓨팅 하드웨어 체계를 구축했습니다. 5세대 AMD EPYC 프로세서 기반의 H4D 인스턴스, NVIDIA Blackwell 아키텍처를 탑재한 A4, A4X, A5X 인스턴스, 그리고 8세대 TPU 등을 포함한 통합 하드웨어 패브릭을 제공합니다. 이와 함께 서브 밀리초 수준의 초고속 데이터 처리가 가능한 Managed Lustre 스토리지 서비스를 통해 시뮬레이션과 AI 간의 데이터 병목 현상을 해결합니다.\n\n결과적으로 Google Cloud는 추론 능력이 뛰어난 Gemini와 검증된 엔지니어링 기술, 그리고 전용 슈퍼컴퓨팅 하드웨어를 결합하여 연구자들이 인프라 관리 부담을 덜고 과학적 발견에 집중할 수 있는 환경을 제공합니다.",
+    "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Megan Gawlik"
+      ],
+      "title": [
+        "Product Manager, HPC"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-13T17:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/",
+    "title": "From OLAP to OLTP: How Copel Simplified Reverse ETL Using BigQuery's Native Export to AlloyDB",
+    "summary": "Bridging the gap between analytical systems (OLAP) and transactional databases (OLTP) is notoriously complex. Synchronizing data between the two systems, often called Reverse ETL (Extract, Transform, ",
+    "aiSummary": "Google Cloud은 분석용 OLAP 시스템인 BigQuery와 트랜잭션용 OLTP 데이터베이스인 AlloyDB를 연결하는 Reverse ETL 과정을 획기적으로 간소화하는 기능을 정식 출시했습니다. 기존에는 데이터를 이동시키기 위해 복잡한 미들웨어와 중간 저장소인 Cloud Storage, 그리고 다양한 스크립트 기반의 오케스트레이션이 필요했으나, 이제는 단일 SQL 명령문을 통해 BigQuery에서 AlloyDB로 직접 데이터를 내보낼 수 있게 되었습니다.\n\n브라질의 전력 기업인 Copel은 이 새로운 기능을 도입하여 기존의 복잡했던 Apache Airflow 기반의 파이프라인을 단순화했습니다. 과거에는 데이터를 CSV 파일로 추출하고 임시 테이블을 생성하여 로드하는 여러 단계의 비효율적인 과정을 거쳤으나, 이제는 데이터가 내부 네트워크를 통해 AlloyDB로 직접 전송됩니다. 이 과정에서 Cloud Storage의 스테이징 비용이 제거되었으며, 데이터 보안성 또한 향상되었습니다.\n\n실제 성능 검증 결과, Copel은 2억 건이 넘는 대규모 데이터를 분당 약 420만 행의 속도로 전송하는 뛰어난 처리 효율을 확인했습니다. 이번 업데이트로 데이터 엔지니어들은 인프라 유지보수와 복잡한 오류 처리에 쏟던 시간을 절약하고, 시스템 아키텍처를 훨씬 직관적이고 효율적으로 운영할 수 있게 되었습니다. 본 기능은 AlloyDB뿐만 아니라 Bigtable, Spanner, Pub/Sub 등으로의 확장 지원을 통해 전반적인 데이터 아키텍처 현대화를 뒷받침합니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jelson A. Cordeiro"
+      ],
+      "title": [
+        "Solutions & Cloud Architect, Copel"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-13T17:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-chatgpt-wallet",
+    "title": "Introducing ChatGPT Wallet",
+    "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "aiSummary": "OpenAI가 ChatGPT Work, Codex, dots 내의 에이전트가 사용자 승인 및 기존 카드 보안 시스템을 통해 직접 결제를 진행할 수 있도록 지원하는 ChatGPT Wallet을 공개합니다.\n\n이번 기능은 에이전트가 업무 수행 과정에서 필요한 구매 결제까지 안전하게 처리할 수 있도록 설계되었습니다. 사용자는 결제 과정에서 직접 승인 절차를 거치며 기존에 설정된 카드 보안 보호 기능을 그대로 적용받아 안전한 거래가 가능합니다.",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-13T15:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=56188",
+    "title": "Just Because You Can, Doesn’t Mean You Should: Re-evaluating Galera Node Weights",
+    "summary": "We all know that when using a cluster based on Galera (Codership) such as Percona XtraDB Cluster (PXC), it is recommended to deploy an odd number of nodes. The generic answer to this recommendation is",
+    "aiSummary": "Percona XtraDB Cluster와 같은 Galera 기반 클러스터를 운영할 때 노드 수를 홀수로 구성하는 것은 Split-brain과 같은 데이터 불일치 위험을 방지하기 위한 권장 사항입니다. \n\n일부 환경에서는 노드 가중치 기능을 활용하여 짝수 노드 환경을 보완하려는 시도가 존재하지만, 이 글은 기술적으로 가능하다고 해서 반드시 권장되는 방식은 아님을 지적합니다. \n\n노드 가중치를 임의로 조정하는 것은 클러스터의 안정성과 장애 대응 체계에 예상치 못한 변수를 초래할 수 있습니다. 따라서 안정적인 데이터베이스 운영을 위해서는 가중치 조정에 의존하기보다 표준적인 홀수 노드 구성 원칙을 준수하는 것이 중요합니다.",
+    "url": "https://www.percona.com/blog/just-because-you-can-doesnt-mean-you-should-re-evaluating-galera-node-weights/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Marco Tusa",
+    "pubDate": "2026-11-13T14:01:47.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.162.6",
     "title": "0.162.6",
     "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
@@ -46,6 +255,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/11/13/on-rails-marco-roth-herb-reaction-view",
+    "title": "On Rails — Marco Roth: Teaching Rails to Read Its Own Template",
+    "summary": "Marco Roth, independent consultant and the creator of Herb and ReActionView, joins Robby to talk about teaching Rails to understand its own templates.\n\nMarco explains how Herb parses HTML and ERB toge",
+    "aiSummary": "독립 컨설턴트이자 Herb와 ReActionView의 개발자인 Marco Roth가 On Rails 팟캐스트에 출연하여 Rails가 스스로 템플릿을 이해하도록 만드는 기술적 접근을 소개합니다.\n\nMarco Roth가 개발한 Herb는 HTML과 ERB를 동시에 파싱하여 프로덕션 환경에 배포하기 전에 뷰 파일의 오류를 미리 감지하는 역할을 수행하며, 이러한 유용성을 인정받아 향후 Rails 8.2 버전에 정식 포함될 예정입니다.\n\n또한 기존 Rails 뷰 코드를 재작성하지 않고도 반응형으로 만들어주는 ReActionView의 작동 원리와 RubyEvents.org의 개발 배경에 대해 설명합니다. 특히 AI 에이전트가 템플릿 코드를 작성하는 환경이 확산됨에 따라 Herb와 같은 정밀한 분석 도구의 중요성이 더욱 커지고 있습니다.",
+    "url": "https://rubyonrails.org/2026/11/13/on-rails-marco-roth-herb-reaction-view",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Rails Foundation",
+    "pubDate": "2026-11-13T00:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "Rails",
+      "Ruby"
     ]
   },
   {
@@ -50915,6 +51140,22 @@
       "DeepSeek",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elasticsearch-idc-marketscape-leader-2025",
+    "title": "Elastic named a Leader in the IDC MarketScape: Worldwide General-Purpose Knowledge Discovery 2025 Vendor Assessment",
+    "summary": "Elastic was named a Leader in the IDC MarketScape: Worldwide General-Purpose Knowledge Discovery 2025. Our innovation unifies search, analytics, and AI to power multimodal and agentic experiences acro",
+    "aiSummary": "Elastic이 IDC MarketScape가 발표한 Worldwide General-Purpose Knowledge Discovery 2025 Vendor Assessment에서 리더로 선정되었습니다.\n\n이번 선정은 Elastic이 제공하는 검색, 분석, AI 기술이 통합된 플랫폼의 혁신성을 인정받은 결과입니다. 해당 플랫폼은 기업과 이커머스 환경에서 다중 모달 및 에이전트 기반의 사용자 경험을 구현하는 데 핵심적인 역할을 수행하고 있습니다.",
+    "url": "https://www.elastic.co/blog/elasticsearch-idc-marketscape-leader-2025",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Natalie Blake",
+    "pubDate": "2025-11-12T00:00:00.000Z",
+    "fetchedAt": "2026-11-14T03:23:05.433Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
