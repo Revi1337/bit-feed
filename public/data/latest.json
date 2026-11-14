@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.9",
+    "title": "1.5.9",
+    "summary": "Added the run_workflow tool for everyone: the agent can run a Python workflow script that fans work out to many subagents in parallel or in stages and then combines their results. It uses the Python b",
+    "aiSummary": "이번 업데이트에서는 복잡한 워크플로우를 처리하기 위해 여러 하위 에이전트에 작업을 분산하고 결과를 통합할 수 있는 run_workflow 도구가 추가되었습니다. 또한 조직 관리 설정에 pluginControls 항목이 도입되어 Gemini Enterprise 사용자가 아니더라도 플러그인 로드 차단이나 마켓플레이스 비활성화 등을 통해 플러그인 사용을 제어할 수 있게 되었습니다.\n\n터미널 샌드박스 내부 명령을 검토하는 Auto 모드의 성능이 향상되어 검토 속도가 빨라졌고 타임아웃 오류가 줄어들었습니다. /resume 기능은 대화 기록 로딩 최적화를 통해 응답성을 높였으며 짧은 ID를 이용한 대화 식별도 지원합니다. 브라우저 하위 에이전트의 세션 녹화는 Chrome 내장 기능을 활용해 MP4 형식으로 변경되었습니다.\n\n보안 및 안정성 측면에서는 HTTP MCP 서버의 커스텀 헤더가 리다이렉트 시 다른 호스트로 전달되지 않도록 수정되었으며 비정상적인 터미널 윈도우 크기 정보를 무시하여 CLI 멈춤 현상을 방지했습니다. 또한 agy acp 관련 인증 오류와 설정 파일 내 UTF-8 BOM 처리 문제, 각종 명령행 도구의 동작 오류를 해결하였습니다.\n\nWindows 환경에서는 PowerShell의 따옴표 처리 방식이 개선되어 쉘 명령어 실행 시 오류가 줄어들었고 SSH를 통한 클립보드 복사 기능이 정상화되었습니다. macOS에서 발생하는 반복적인 키체인 오류 메시지를 방지하고 IPv6 환경에서의 OAuth 로그인 문제를 해결하는 등 전반적인 플랫폼 호환성과 사용자 인터페이스의 편의성 개선이 이루어졌습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.9",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-14T06:10:09.000Z",
+    "fetchedAt": "2026-11-14T14:19:28.967Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/newscast/117/",
+    "title": "Adaptive Heap Sizing + Numeric Conversion + Primitive Patterns - Inside Java Newscast #117",
+    "summary": "Also available as Inside Java Podcast #75:\n\t\t\t\t\n\t\t\t\n\t\t\tJDK 28’s adaptive heap sizing for ZGC dynamically balances CPU use and memory consumption with close-to-zero configuration. Value classes introdu",
+    "aiSummary": "JDK 28에는 ZGC를 위한 적응형 힙 크기 조정 기능인 JEP 546이 도입됩니다. 이 기능은 최소한의 설정만으로 CPU 사용량과 메모리 소비량 사이의 균형을 동적으로 조절하는 것을 목표로 합니다.\n\nValue classes 도입에 따라 사용자 정의 숫자 타입 간의 변환 과정에서 새로운 과제가 발생하고 있습니다. 이는 장기적으로 type classes를 통해 해결할 수 있을 것으로 보이지만, 현재 기능 간의 상호작용 방식에 대한 의문이 해결되지 않아 Primitive patterns는 JDK 28에서 제외되고 철회될 예정입니다.\n\n이번 뉴스캐스트에서는 이와 같은 JDK 28의 주요 기능과 함께 FOSDEM, JVMLS, JavaOne 등 향후 진행될 주요 Java 관련 행사 소식을 다루고 있습니다.",
+    "url": "https://inside.java/newscast/117/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Nicolai Parlog",
+    "pubDate": "2026-11-14T00:00:00.000Z",
+    "fetchedAt": "2026-11-14T14:19:28.967Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "https://webkit.org/?p=18608",
     "title": "Safari on Apple HomeView",
     "summary": "It’s not every day our browser begins a life on a whole new platform.",
@@ -2342,39 +2374,6 @@
     "tags": [
       "FastAPI",
       "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.162.1",
-    "title": "0.162.1",
-    "summary": "Docs\n📝 Add parameter model guidance to the FastAPI skill. PR #16693 by @tiangolo.\nTranslations\n🌐 Update translations for zh-hant (update-outdated). PR #16654 by @pr-submit[bot].\n🌐 Update translatio",
-    "aiSummary": "FastAPI 0.162.1 버전 업데이트에서는 문서화 개선과 다양한 내부 의존성 최적화가 이루어졌습니다.\n\n문서 측면에서는 FastAPI 스킬에 모델 가이드라인 파라미터가 추가되었으며, 다국어 번역 데이터가 최신 상태로 갱신되었습니다. 또한 FastAPI Cloud 관련 문서 배너가 일반 제공에 맞춰 업데이트되었습니다.\n\n내부 시스템 측면에서는 주요 라이브러리인 Pillow가 13.0.0 버전으로, dnspython이 2.9.2 버전으로 각각 판올림되었습니다. 이외에도 authlib, graphql-core, black, gitpython, opentelemetry-api 등 여러 패키지의 의존성이 업데이트되었으며, pytest-xdist 호환성을 위해 pytest 버전을 9.2 미만으로 고정하는 작업이 포함되었습니다.\n\n기타 변경 사항으로는 Encore 및 MicroAuth 후원자 추가, 불필요한 컨퍼런스 관련 컴포넌트 제거, GitHub 액션 및 pre-commit 훅 업데이트 등이 진행되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.1",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-11-07T11:55:42.000Z",
-    "fetchedAt": "2026-11-07T14:11:02.643Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.5.3",
-    "title": "1.5.3",
-    "summary": "Added each subagent's model next to its name in the subagent rows above the prompt and in /agents (hidden on narrow terminals), with the full model and effort in a subagent's detail view, and a model ",
-    "aiSummary": "업데이트 버전 1.5.3에서는 서브 에이전트의 모델 정보를 명확하게 표시하도록 인터페이스를 개선하였으며, 플러그인 개발을 위한 환경 변수 PLUGIN_ROOT와 PLUGIN_DATA를 추가하여 플러그인에서 파일 관리와 상태 유지가 가능하도록 지원합니다. 또한 Vertex AI 관련 오류 메시지를 사용자 친화적으로 수정하고 플러그인 인증 화면의 가독성을 높였습니다.\n\n기능적 측면에서는 대화 제목 자동 생성 시 약어 보존 기능을 강화하였고, 심볼릭 링크로 설치된 플러그인이나 이름에 특수 문자가 포함된 플러그인의 관리 기능을 정상화하였습니다. 특히 에이전트의 응답 시간이 60초를 초과할 경우 발생하는 HTTP2 타임아웃 문제를 재시도 로직을 통해 해결하였으며, 엔터프라이즈 모델 게이트웨이 URL 처리 방식도 개선하였습니다.\n\n파일 처리 및 보안 관련하여 윈도우 환경에서의 UTF-16 및 레거시 인코딩 파일 읽기 성능을 최적화하고 PowerShell 스크립트의 인코딩 호환성을 확보하였습니다. 원격 에이전트 세션에서의 파일 로드 제한을 20 MiB로 명확히 설정하고, 터미널 샌드박스와 외부 명령 간의 환경 변수 격리 문제를 해결하여 보안을 강화하였습니다. 그 외에도 CLI 상의 경로 표시 오류와 비 ASCII 문자가 포함된 툴 호출 요약 시의 깨짐 현상을 수정하였습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.3",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-11-07T08:38:32.000Z",
-    "fetchedAt": "2026-11-07T14:11:02.643Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]
