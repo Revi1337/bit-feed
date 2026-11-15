@@ -1,5 +1,37 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/160919119/0.163.1",
+    "title": "0.163.1",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 버전 0.163.1이 배포되었습니다. 이번 업데이트에는 코딩 에이전트가 현재 설치된 버전에 맞는 최신 기능과 권장 패턴을 활용하도록 돕는 공식 skill이 추가되었습니다. 해당 기능은 uvx library-skills 명령어를 통해 프로젝트에 설치할 수 있으며 자세한 내용은 Develop with AI 문서를 참고하면 됩니다.\n\n또한 버그 수정 사항으로 OpenAPI와 관련하여 중첩된 계산 필드를 포함하는 응답 모델에서 발생하던 문제가 해결되었습니다. 이는 YuriiMotov가 기여한 PR #14490을 통해 반영되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.163.1",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-15T09:50:02.000Z",
+    "fetchedAt": "2026-11-15T14:51:34.793Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/datasentinel-202610-released-with-ai-connector-3400/",
+    "title": "Datasentinel 2026.10 released with AI Connector\n",
+    "summary": "Datasentinel 2026.10, the new release of our PostgreSQL monitoring and troubleshooting platform, is now\navailable. \nIt introduces AI Connector, which connects Datasentinel metrics to the AI assistant ",
+    "aiSummary": "PostgreSQL 모니터링 및 문제 해결 플랫폼인 Datasentinel이 2026.10 버전을 통해 새로운 AI Connector 기능을 공개했습니다. 이 기능은 Claude, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot 등 주요 AI 어시스턴트와 Datasentinel 메트릭을 연결하여 자연어로 데이터베이스 성능을 분석하고 구체적인 개선 방안을 도출할 수 있게 지원합니다.\n\nAI Connector는 MCP 서버와 분석 기술을 결합하여 과거 성능 분석, 실시간 트러블슈팅, 기간별 비교, 그리고 쿼리나 인덱스에 대한 최적화 조언을 제공합니다. 사용자는 데스크톱 앱, 명령줄, IDE 등 다양한 환경에서 AI와 대화하며 인사이트를 얻을 수 있으며, AI는 사용자의 기술 수준과 언어 설정에 맞춰 맞춤형 답변을 생성합니다.\n\n보안 측면에서도 강력한 통제 모델을 적용했습니다. OAuth 2.1을 통한 안전한 로그인을 지원하며, 데이터베이스 자격 증명 없이 토큰만을 사용하여 접근 권한을 관리합니다. 또한 AI는 직접 데이터베이스에 접속하지 않으며, Datasentinel 에이전트를 통해 읽기 전용으로 데이터를 전달받아 보안성을 유지합니다.\n\n이번 업데이트에는 AI Connector 외에도 PDF 보고서 레이아웃 개선, 신규 데이터 분석 함수 추가, 에이전트리스 모니터링 필터 설정, 보안 취약점 패치 등 다양한 기능 개선이 포함되었습니다. 사용자는 공용 샌드박스를 통해 해당 기능을 체험하거나 공식 이메일을 통해 체험판을 요청할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/datasentinel-202610-released-with-ai-connector-3400/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-15T00:00:00.000Z",
+    "fetchedAt": "2026-11-15T14:51:34.793Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.163.0",
     "title": "0.163.0",
     "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
