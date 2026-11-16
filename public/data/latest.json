@@ -1,5 +1,261 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
+    "title": "Beyond the compute bottleneck: Maximizing the ROI of AI accelerators with purpose-built storage",
+    "summary": "There’s a lot more to AI infrastructure than just buying accelerators. Indeed, the infrastructure mandate for enterprise AI has shifted from acquiring accelerators to keeping them fully utilized. Next",
+    "aiSummary": "기업용 AI 인프라의 핵심은 고가의 가속기를 단순히 구매하는 것이 아니라, 가속기가 유휴 상태 없이 최대 성능을 발휘하도록 유지하는 것에 있습니다. 데이터 입출력 병목 현상은 AI 모델 학습과 추론 과정에서 가속기의 가동률을 떨어뜨리는 가장 큰 원인이 되며, 표준화된 엔터프라이즈 스토리지로는 이러한 요구사항을 충족하기 어렵습니다.\n\nAI 생애주기별로 데이터 활용 방식은 다릅니다. 모델 학습 시에는 대규모 데이터 처리와 빈번한 체크포인트 저장이 발생하는데, 이때 일반적인 스토리지 아키텍처는 네트워크 부하와 시스템 지연을 유발하여 GPU 클러스터를 멈추게 합니다. 반대로 추론 환경은 실시간성과 낮은 지연 시간이 중요하며, 대용량 컨텍스트 윈도우 처리를 위해 고속 외부 캐시가 필수적입니다.\n\nGoogle Cloud는 자사 서비스인 Search, YouTube, Gemini를 구동하는 Colossus 파일 시스템을 기반으로 이러한 I/O 문제를 해결하고 있습니다. 특히 Cloud Storage Rapid는 오브젝트 스토리지에 직접적인 고성능을 제공하여 별도의 데이터 마이그레이션 없이도 빠른 데이터 처리가 가능하게 하며, Rapid Cache를 통해 콜드 스타트 문제를 대폭 개선합니다. 또한 병렬 파일 시스템이 필요한 워크로드를 위해 DDN과 협력한 Google Cloud Managed Lustre를 제공하여 대규모 데이터 병목을 해소합니다.\n\n현재 Thinking Machines Lab, Shopify, Salesforce AI Research, Atlassian, Harmonic 등 다양한 기업이 해당 솔루션을 도입하여 GPU 가동률을 높이고 비용 효율성을 극대화하고 있습니다. 향후 성공적인 AI 전략을 위해서는 레거시 스토리지 지표가 아닌 토큰 경제성 관점에서 인프라를 평가하고, 데이터를 분산시키지 않는 통합된 기반 위에서 워크로드별 최적의 티어로 데이터를 이동시키는 접근 방식이 필요합니다.",
+    "url": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ronen Schwartz"
+      ],
+      "title": [
+        "VP, Product Management, Storage"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-16T17:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+    "title": "Bulk start AI Scan for repositories",
+    "summary": "AI Scan for repositories finds security vulnerabilities on your repository’s default branch. It covers languages CodeQL doesn’t support and finds additional issues in languages CodeQL already analyzes",
+    "aiSummary": "GitHub가 리포지토리의 보안 취약점을 탐색하는 AI Scan for repositories 기능을 대규모로 시작할 수 있도록 업데이트했습니다.\n\n이 기능은 리포지토리의 기본 브랜치를 분석하여 보안 취약점을 찾아내며 기존의 CodeQL이 지원하지 않는 언어까지 범위를 확장합니다. 또한 CodeQL이 이미 분석 중인 언어에 대해서도 추가적인 취약점을 식별하여 보안 분석의 완성도를 높입니다.\n\n분석 결과는 GitHub 내에서 직접 확인할 수 있으며 개발자와 보안 담당자는 더욱 폭넓은 범위에서 효율적으로 코드 내 결함을 관리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-16T15:50:22.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/technical/build-deploy-govern-your-agents-atlas-agent-engine",
+    "title": "Build, Deploy, and Govern Your Agents with MongoDB Atlas Agent Engine",
+    "summary": "Big Model vs. Big Harness has been an ongoing debate in AI engineering. An agent harness is everything besides the LLM that makes an agent work, including the runtime, tools, context, and guardrails s",
+    "aiSummary": "MongoDB가 자사의 플랫폼에서 에이전트를 구축, 배포 및 관리할 수 있는 통합 환경인 Atlas Agent Engine을 공개했습니다. 이 엔진은 에이전트의 제어 계층을 관리형 서비스로 제공하여 식별성, 런타임 관리, 장기 기억 장치, 감사 가능성, 가드레일을 지원합니다. 특정 모델이나 프레임워크에 종속되지 않는 중립적인 구조를 가지고 있어 LangGraph와 같은 기존 프레임워크로 작성된 에이전트를 쉽게 마이그레이션할 수 있는 것이 특징입니다.\n\n에이전트 마이그레이션 과정은 크게 코드 수정, 구성 파일 설정, 메모리 활성화, 배포 단계로 나뉩니다. 개발자는 기존 에이전트 코드를 Agent Engine SDK의 App 클래스로 감싸고 LLM 호출 및 도구 실행 경로를 엔진으로 라우팅해야 합니다. 또한 agent.yaml 파일을 통해 진입점, 샌드박스 구성, MCP 서버 연동 등을 정의하며, 프로젝트 레벨의 project-config.yaml을 통해 장기 기억 장치 기능을 활성화하고 사용자 선호도나 과거 대화 맥락을 저장할 수 있습니다.\n\nAtlas Agent Engine은 에이전트 전용 런타임 환경인 워크스페이스를 제공하며, 에이전트의 그래프와 도구 실행을 위한 격리된 샌드박스를 분리하여 운영합니다. 배포된 에이전트는 Atlas 관리 콘솔을 통해 상태를 모니터링하고 가드레일 및 거버넌스 정책을 적용받으며, 모든 도구 호출과 LLM 사용 이력을 추적할 수 있습니다. 이를 통해 기업은 보안과 거버넌스가 강화된 환경에서 더 안정적이고 지능적인 에이전트 서비스를 운영할 수 있습니다.",
+    "url": "https://www.mongodb.com/company/blog/technical/build-deploy-govern-your-agents-atlas-agent-engine",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-16T15:00:01.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+    "title": "Take GitHub Mobile with you on iPhone Duo",
+    "summary": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.…\nThe post Ta",
+    "aiSummary": "GitHub Mobile이 새롭게 iPhone Duo를 지원합니다. 기기를 펼쳤을 때 화면에 맞춰 최적화된 레이아웃을 제공하며 세로형 탭을 도입하여 Copilot, Pull Requests, Issues, Notifications와 같은 주요 메뉴 간의 이동이 더욱 편리해졌습니다. 사용자는 이제 iPhone Duo의 넓은 화면을 활용해 더욱 효율적으로 작업을 관리할 수 있게 됩니다.",
+    "url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-16T14:30:07.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
+    "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+    "summary": "Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor\nExecutive Summary \nAs threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks, automated ",
+    "aiSummary": "GTIG와 Mandiant는 위협 행위자들이 단순한 프롬프트 입력을 넘어 자율형 멀티 에이전트 프레임워크와 자동화된 취약점 공격 파이프라인을 활용하는 단계로 진입했다고 분석했습니다. 이는 사이버 범죄, 첩보 활동, 정보전 영역에서 공격 시간이 단축되고 규모가 확장되는 중요한 변곡점을 의미합니다.\n\n주요 위협 트렌드는 다음과 같습니다.\n\n첫째, ARTEX, CAIRN, CyberStrikeAI, PentAGI와 같은 오픈소스 기반의 자율형 멀티 에이전트 프레임워크가 실전 공격에 도입되고 있습니다. 이 도구들은 정찰부터 취약점 탐색, 페이로드 생성 및 실행까지의 과정을 기계적 속도로 자동화하여 공격 효율을 극대화합니다.\n\n둘째, LLM을 활용한 취약점 연구 및 자동화된 공격이 고도화되었습니다. 특히 패치 발표 전후의 코드를 비교하는 차등 분석을 통해 n-day 취약점을 신속하게 무기화하고, 인간의 개입 없이 공격을 수행하는 exploit_agent와 같은 사례가 관찰되었습니다. 이는 패치 적용 전후의 짧은 시간 내에 공격이 발생할 위험을 크게 높입니다.\n\n셋째, 수익화 및 정보전에서의 LLM 악용이 지속되고 있습니다. LLM 자격 증명과 클라우드 자원을 탈취하는 LLMJacking이 성행하고 있으며, 국가 배후의 그룹들은 LLM을 사용하여 가짜 뉴스 생성, 현지화된 페르소나 구축, 플랫폼 간 콘텐츠 배포 등 정보전을 자동화하고 있습니다.\n\n마지막으로, 공급망 공격 분야에서는 자율 코딩 보조 도구의 설정을 조작하여 로컬 실행 시 백도어를 삽입하는 등 새로운 위협 벡터가 등장했습니다.\n\n현재 이러한 자동화 도구들은 공격 속도와 규모 면에서 강력한 성능을 발휘하지만, 공격 과정에서 발생하는 흔적이 명확하여 보안 탐지에 취약한 면도 있습니다. 그러나 기술이 진화함에 따라 공격자들은 은밀함과 정교함을 함께 갖춘 완전한 에이전트형 공격을 지향할 것으로 예상됩니다. 이에 대응하여 Google은 자율형 위협 방어 아키텍처와 전문화된 행동 규칙을 통해 대응 체계를 강화하고 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Google Threat Intelligence Group "
+      ],
+      "title": [
+        ""
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-16T14:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=96139",
+    "title": "Give sandboxed agents live web access with the Firecrawl kit for Docker Sandboxes",
+    "summary": "Give AI coding agents live web access with the Firecrawl kit for Docker Sandboxes. Learn to search, scrape, and crawl websites with network controls.",
+    "aiSummary": "Docker Sandboxes 환경에서 AI 코딩 에이전트가 실시간으로 웹 데이터에 접근할 수 있도록 지원하는 Firecrawl 키트가 공개되었습니다.\n\n해당 도구를 활용하면 개발자는 AI 에이전트에 특정 웹사이트를 검색하거나 데이터를 수집하고 크롤링할 수 있는 기능을 부여할 수 있습니다. 특히 네트워크 제어 기능을 포함하고 있어 보안이 중요한 환경에서도 안정적으로 외부 웹 정보를 연동하는 것이 가능합니다.",
+    "url": "https://www.docker.com/blog/docker-sandboxes-firecrawl-web-access/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jennifer Kohl",
+    "pubDate": "2026-11-16T14:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+    "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+    "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their ",
+    "aiSummary": "Google Cloud Dedicated는 유럽의 금융, 의료, 공공 등 규제가 엄격한 분야의 기업들이 현지 데이터 주권과 규제 표준을 준수하면서 클라우드 인프라를 현대화할 수 있도록 지원하는 솔루션입니다. 이 서비스는 Google Cloud의 아키텍처와 API 일관성을 유지하면서도 프랑스의 S3NS와 같은 현지 파트너사가 운영하는 독립적인 환경에서 구동되므로, 기업들은 기존의 개발 워크플로우를 그대로 유지하면서도 엄격한 보안 요구사항을 충족할 수 있습니다.\n\n많은 유럽 기업들이 클라우드 전환 과정에서 겪는 가장 큰 걸림돌은 인프라 자체가 아닌 소프트웨어 호환성 문제입니다. Google Cloud Dedicated는 업계 표준 엔터프라이즈 소프트웨어를 별도의 재설계 없이 현지 환경에서 그대로 실행할 수 있게 함으로써, 기업들이 주권 보호를 위해 성능이 낮은 대체 도구를 사용하거나 기존 애플리케이션을 수정해야 하는 부담을 해소합니다.\n\n현재 Google Cloud Dedicated에서 검증된 주요 파트너 솔루션들은 다음과 같습니다.\n\n사이버 보안 및 데이터 보호 분야에서는 Cohesity의 제로 트러스트 복구 솔루션이 데이터 유출 없는 안전한 사이버 복구를 지원하며, Saviynt는 주권 경계 내에서 최소 권한 원칙을 적용한 접근 관리를 보장합니다.\n\n소프트웨어 개발 및 엔지니어링 분야에서는 GitLab이 보안이 강화된 DevSecOps 환경을 제공하고, Ansys는 고성능 시뮬레이션 워크로드를, Red Hat은 OpenShift를 통한 하이브리드 클라우드 운영 일관성을 지원합니다.\n\n데이터 관리 및 인프라 분야에서는 MongoDB가 최신 데이터 모델을 유럽 현지 경계 내에서 실행할 수 있게 하며, Striim은 실시간 데이터 스트리밍과 분석을, Splunk는 중앙 집중식 보안 분석과 모니터링 기능을 제공합니다. 또한, Memority와 같은 플랫폼은 NIS2 및 DORA 규제에 최적화된 ID 관리를 지원합니다.\n\n이러한 협력 모델은 기업이 보안과 운영 주권을 현지 파트너사에게 완전히 위임하면서도, 글로벌 수준의 최신 소프트웨어 생태계를 제약 없이 활용할 수 있는 실질적인 이점을 제공합니다. 기업들은 이를 통해 데이터 주권이라는 복잡한 과제를 해결하면서도 비즈니스 혁신과 운영 효율성을 지속적으로 확보할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mattia Tocco"
+      ],
+      "title": [
+        "Product Lead, Google Cloud Dedicated"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-16T08:05:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+    "title": "Inside the new Google Cloud Data Boundary experience",
+    "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign stand",
+    "aiSummary": "Google Cloud는 전 세계 규제 산업에서 요구하는 디지털 주권과 혁신 사이의 균형을 맞추기 위해 개선된 Google Cloud Data Boundary를 발표했습니다. 이 솔루션은 데이터 상주, 접근 제어, 암호화와 같은 기술적 통제 수단을 Google Cloud의 상용 인프라와 통합하여 기업이 AI 혁신을 저해하지 않으면서도 엄격한 규제 기준을 준수할 수 있도록 지원합니다.\n\n새롭게 업데이트된 경험은 보안 및 AI 팀이 조직 전반의 거버넌스를 효율적으로 설정하고 확장할 수 있도록 돕습니다. 주요 기능으로는 주권 통제 수단에 대한 가시성 제공, 계층 구조 전반에 걸친 방어 체계 적용, 활성 제어 전 잠재적 위반 사항을 확인하는 Dry run 모드, Gemini in Google Cloud를 활용한 통제 수단 커스터마이징 등이 포함됩니다. 또한 기계 판독이 가능한 증거를 생성하여 감사 과정을 단축하고, 지속적인 모니터링을 통해 구성 변경에 따른 정책 위반을 방지합니다.\n\n기업은 Google Cloud 콘솔 내의 Compliance 탭을 통해 40개 이상의 공개 및 산업별 제어 패키지를 선택하고 지역을 지정하여 솔루션을 시작할 수 있습니다. 이를 통해 기업은 복잡한 규제 환경 속에서도 운영 효율성을 유지하며 안전하게 AI 기술을 도입하고 글로벌 시장으로 서비스를 확장할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Nitin Garg"
+      ],
+      "title": [
+        "Engineering Director, Regulated Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-16T08:05:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "title": "Advancing computer-use agents for healthcare teams",
+    "summary": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer n",
+    "aiSummary": "OpenAI는 의료 현장의 파편화된 시스템 간 데이터 이동과 반복적인 행정 업무를 자동화하기 위해 컴퓨터 사용 에이전트 기술을 도입했습니다. 이 기술은 AI가 직접 소프트웨어 화면을 클릭하고 타이핑하며 애플리케이션을 조작함으로써 기존 시스템의 제약 없이 의료진의 워크플로우를 지원합니다.\n\nGPT-6 Astra와 GPT-6 Luna 모델을 활용한 평가 결과, 임상 업무에서 99%의 안전성을 기록하였으며 행정 업무 처리 능력 또한 높은 수준의 성과를 보였습니다. 특히 의학적 판단이 필요한 임상 영역에서 93%의 높은 도움도를 나타내어 의료 서비스의 효율성을 입증했습니다.\n\n현재 Abridge, Ambience, Cigna Healthcare, CVS Health 등 주요 의료 기관들이 이 기술을 도입하고 있습니다. CVS Health는 행정 업무 자동화를 위해 에이전트를 활용하며 관련 도구를 오픈소스로 공개했고, Abridge는 퇴원 계획 조율에, Cigna Healthcare는 환자 정보 통합 관리에 이를 활용하여 업무 시간을 대폭 단축하고 있습니다.\n\n이러한 에이전트 기술은 OpenAI API, ChatGPT for Healthcare, ChatGPT for Clinicians를 통해 제공됩니다. HIPAA를 준수하는 보안 환경을 구축하고 역할 기반 접근 제어와 감사 로그 기록 기능을 포함하여 환자 데이터 보호와 책임 있는 AI 운용을 보장합니다. 또한 기업 데이터는 모델 학습에 사용되지 않도록 설정되어 의료 기관들이 안심하고 기술을 도입할 수 있도록 설계되었습니다.",
+    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-16T06:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "title": "More ways to move care forward with ChatGPT for Healthcare",
+    "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+    "aiSummary": "OpenAI가 의료 분야에 특화된 ChatGPT 기능을 새롭게 강화하며 컴퓨터 제어 에이전트와 개선된 임상 답변 도구를 선보입니다.\n\n이번 업데이트의 핵심은 의료 소프트웨어 전반에서 연동되는 새로운 헬스케어 플러그인을 제공하여 실질적인 업무 효율을 높이는 것입니다.\n\n이를 통해 의료진은 복잡한 소프트웨어 환경에서도 AI를 활용해 환자 진료 및 행정 업무를 더욱 능률적으로 처리할 수 있게 됩니다.",
+    "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-16T06:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+    "title": "Enabling the parallel frontend on nightly",
+    "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default,\nto find remaining issues in preparation for its stabilization.\n\nContext\nThe Rust compiler has been using multip",
+    "aiSummary": "Rust 프로젝트 팀은 컴파일러 성능 향상을 위해 Rust 컴파일러의 프론트엔드 영역에 병렬 처리 기능을 도입하고, 이를 nightly 채널에서 기본값으로 설정했습니다. 기존의 Rust 컴파일러는 LLVM 기반의 백엔드에서는 다중 스레드를 활용해왔으나, 타입 체크와 borrow 체크를 담당하는 프론트엔드는 단일 스레드로 실행되어 성능상의 제약이 있었습니다.\n\n이번 업데이트를 통해 복잡한 코드 컴파일 시 8개 스레드 기준 최대 2배가량 컴파일 속도가 향상되는 등 유의미한 성능 개선이 확인되었습니다. 다만 현재는 초기 단계인 만큼 안정화 작업과 버그 수정을 위해 nightly 채널에서만 기본 적용하며, 컴파일러는 기본적으로 2개의 스레드를 사용하도록 설정됩니다. 사용자는 --jobs-frontend 옵션을 통해 스레드 수를 조정하거나, 이전과 같이 단일 스레드 방식으로 되돌릴 수 있습니다.\n\n현재 병렬 프론트엔드 환경에서는 진단 메시지의 출력 순서가 불규칙하거나 바이너리 재현성 문제 등 일부 제한 사항이 존재합니다. 향후 몇 달간 사용자 피드백과 오류 보고를 수집하여 안정성을 검증한 뒤 정식 안정화 버전에 포함할 계획입니다. 또한 추가적인 성능 최적화를 위해 매크로 확장이나 AST의 HIR 변환 과정 등 여전히 순차적으로 처리되는 영역에 대해서도 지속적인 병렬화 작업을 진행할 예정입니다.",
+    "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "Jakub Beránek",
+    "pubDate": "2026-11-16T00:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/11/16/devoxxbelgium-valhalla-value-objects/",
+    "title": "Why It Takes 3000 Commits to Bring Valhalla’s Value Objects to the JDK",
+    "summary": "JEP 401 (Value Objects) arrives in OpenJDK as a preview feature, enabling a new Java type model with minimal code changes. The talk explains what value objects are, JVM benefits, Valhalla history, imp",
+    "aiSummary": "OpenJDK의 JEP 401을 통해 도입되는 Value Objects는 자바의 새로운 타입 모델로, 코드 수정은 최소화하면서 객체 지향의 편리함과 원시 타입의 성능을 동시에 달성하는 것을 목표로 합니다.\n\n이 기능은 자바 가상 머신인 JVM 수준에서의 최적화를 가능하게 하며, 객체와 원시 타입 사이의 성능 차이를 좁혀 메모리 효율성을 크게 개선합니다.\n\nProject Valhalla의 오랜 역사와 수천 번의 커밋을 거쳐 구현된 이 기술은 향후 List와 같은 컬렉션 구조에서도 원시 타입처럼 효율적인 처리가 가능하도록 확장될 예정입니다.\n\n해당 내용은 Devoxx Belgium 2026에서 발표되었으며, 자바 개발 생태계 전반의 성능 향상을 위한 핵심적인 기술적 진보로 평가받습니다.",
+    "url": "https://inside.java/2026/11/16/devoxxbelgium-valhalla-value-objects/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "David Simms",
+    "pubDate": "2026-11-16T00:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/160919119/0.163.1",
     "title": "0.163.1",
     "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
@@ -806,6 +1062,21 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/11/12/announcing-oracle-weblogic-server-and-coherence-26/",
+    "title": "Announcing Oracle WebLogic Server and Coherence 26",
+    "summary": "Oracle is pleased to announce Oracle WebLogic Server and Coherence 26! This release brings Jakarta EE 11 support, Java SE 21 and 25 support, new application development capabilities, stronger security",
+    "aiSummary": "Oracle이 WebLogic Server와 Coherence 26 버전을 새롭게 발표하였습니다.\n\n이번 버전은 최신 기술 환경을 지원하기 위해 Jakarta EE 11 및 Java SE 21과 25에 대한 호환성을 제공합니다.\n\n또한 새로운 애플리케이션 개발 기능과 보안 기본 설정이 강화되었으며 데이터 처리와 영속성, 그리고 전반적인 운영 관리 측면에서 성능 향상이 이루어졌습니다.",
+    "url": "https://inside.java/2026/11/12/announcing-oracle-weblogic-server-and-coherence-26/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Monica Riccelli",
+    "pubDate": "2026-11-12T00:00:00.000Z",
+    "fetchedAt": "2026-11-16T17:11:15.312Z",
+    "tags": [
+      "Java"
     ]
   },
   {
@@ -2051,361 +2322,6 @@
     "tags": [
       "AWS",
       "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/ai-machine-learning/new-survey-finds-enterprises-trapped-between-legacy-software-and-ai-modernization/",
-    "title": "New survey finds enterprises trapped between legacy software and AI modernization",
-    "summary": "Throughout my career in cybersecurity and infrastructure protection — both in government and now at Google Cloud — I have consistently seen that friction between new and existing technology is often a",
-    "aiSummary": "Google Cloud와 Hypothesis Group이 미국 내 기업 의사결정권자 1,250명을 대상으로 조사한 결과, 많은 기업이 구형 레거시 소프트웨어와 최신 AI 기술 사이의 간극으로 인해 혁신에 어려움을 겪고 있습니다. 조사에 참여한 기업의 약 90%가 Gemini Enterprise를 활용하여 에이전트를 구축하고 있으나, 온프레미스 기반의 레거시 시스템 운영이 AI 도입을 지연시키거나 범위를 축소하는 혁신세로 작용하고 있습니다.\n\n특히 레거시 코드의 보안 패치 및 유지보수에 과도한 IT 자원이 투입되면서, 정작 AI 현대화를 위해 집중해야 할 엔지니어링 역량이 분산되는 문제가 발생하고 있습니다. 이러한 상황은 특정 공급업체에 대한 종속성인 벤더 락인 현상과도 맞물려 있습니다. 단일 공급업체에 운영체제와 클라우드, AI 모델을 모두 의존하는 방식은 기업에 거대한 단일 장애 지점을 만들고 보안 취약점을 확대하는 결과를 초래합니다.\n\n조사 대상자의 80%는 기업이 사용하는 AI 기술이 기존에 구축된 소프트웨어 생태계에 의해 결정되어서는 안 된다고 응답했습니다. 기업들은 특정 공급업체의 번들 제품을 강요받기보다 각 기술의 장점에 따라 최적의 도구를 선택할 수 있는 아키텍처와 상호운용성을 요구하고 있습니다.\n\n이러한 문제를 해결하기 위해 조직은 레거시 환경에 얽매이지 않는 유연한 아키텍처를 선택하고, 설계 단계부터 보안이 고려된 secure-by-design 원칙을 도입해야 합니다. 또한 기존 레거시 시스템의 취약점을 관리하기 위해 Security Command Center와 같은 AI 기반 보안 플랫폼을 활용하여 수동 관리의 부담을 줄이고 자동화된 방어 체계를 구축하는 것이 중요합니다. 결국 AI 시대의 진정한 민첩성을 확보하기 위해서는 수십 년 전 설계된 소프트웨어 환경에서 벗어나 AI 중심의 현대적인 기술 기반으로 전환해야 합니다.",
-    "url": "https://cloud.google.com/blog/products/ai-machine-learning/new-survey-finds-enterprises-trapped-between-legacy-software-and-ai-modernization/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Jeanette Manfra "
-      ],
-      "title": [
-        "VP, Head of Risk and Compliance, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-09T17:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot",
-    "title": "Claude Fable 5.2 in GitHub Copilot",
-    "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable…\nThe ",
-    "aiSummary": "Anthropic의 최신 모델인 Claude Fable 5.2가 GitHub Copilot에 공식적으로 도입되었습니다.\n\n해당 모델은 방대한 코드베이스를 아우르는 복잡하고 다단계적인 코딩 작업을 수행하는 데 최적화되어 있습니다. 초기 테스트 결과 Claude Fable 5.2는 뛰어난 프로그래밍 성능을 입증하며 개발자의 생산성 향상에 기여할 것으로 기대됩니다. 현재 GitHub Copilot 사용자라면 누구나 해당 모델을 활용해 수준 높은 코딩 지원을 받을 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-09T16:46:43.000Z",
-    "fetchedAt": "2026-11-10T04:41:02.777Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-security-forecast-2027/",
-    "title": "Cloud CISO Perspectives: Our security forecast for 2027",
-    "summary": "Welcome to the first Cloud CISO Perspectives for November 2026. Today, Chris Betz shares our security forecast for 2027, with insights from top leaders at Google, Google Cloud, and Mandiant.\nAs with a",
-    "aiSummary": "Google Cloud의 CISO인 Chris Betz와 보안 리더들은 2027년 사이버 보안 환경이 자율형 에이전트의 확산으로 인해 근본적인 변화를 맞이할 것으로 전망합니다. 기업들이 에이전트를 도입해 자동화된 비즈니스 프로세스를 구축함에 따라, 보안 전략 또한 기계적 속도에 맞춰 진화해야 합니다.\n\n가장 중요한 보안 원칙은 모든 자율적 결정에 대한 완전하고 변조 불가능한 추적 기록을 남기는 것입니다. 에이전트가 어떤 데이터를 입력받고, 어떤 논리 과정을 거쳐 도구를 사용했는지 상세히 기록해야만 결과를 검증하고 신뢰할 수 있습니다. 이를 통해 기존의 수동적인 경고 대응 중심에서 벗어나, 사람이 전략적 지침을 세우고 자동화된 대응의 결과를 확인하는 운영 모델로 전환해야 합니다.\n\n보안 아키텍처는 기존의 Zero Trust 개념을 넘어선 Beyond Zero 모델로 확장되어야 합니다. 모든 트랜잭션, 네트워크 패킷 및 권한 부여 지점에 대해 검증을 수행하고, 각 에이전트를 고유한 자격을 갖춘 독립된 개체로 관리해야 합니다. 또한 개발 단계부터 보안이 통합된 순환 구조를 구축하여 외부 라이브러리 및 공급망 공격에 대응하고, 실시간 운영 환경과 코드 간의 연결을 강화해야 합니다.\n\n기업은 외부 공격자보다 우월한 내부 데이터인 조직의 아키텍처, 코드 라인업, 실시간 활동 기록을 적극 활용해야 합니다. 다중 모델 앙상블을 사용하여 파편화된 공격 징후를 조기에 포착하고, 특히 범죄 조직이 노리는 모델 가중치나 클라우드 자원 탈취 시도를 차단해야 합니다.\n\n마지막으로, 보안팀은 생산 환경에 에이전트를 배치하기 전 반드시 레드팀 훈련을 실시하여 취약점을 점검해야 합니다. 또한 단일 범용 에이전트가 아닌, 각 도메인에 특화된 에이전트들을 조율하는 네트워크 체계를 갖추어 관리 사각지대와 거버넌스 부재 문제를 해결해야 합니다. 이러한 대응 체계는 혁신을 저해하는 수동적 장벽이 아닌, 비즈니스 속도와 보안이 공존하는 필수적인 기반이 되어야 합니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-security-forecast-2027/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Chris Betz"
-      ],
-      "title": [
-        "CISO, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-09T16:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/product-release-announcements/atlas-data-federation-online-archive-can-now-be-deployed-in-azure",
-    "title": "Atlas Data Federation and Online Archive Can Now Be Deployed in Azure",
-    "summary": "Exciting developments are on the horizon for users of Microsoft Azure, marking a significant leap in data management capabilities. First off, Atlas Data Federation is now Generally Available on Azure.",
-    "aiSummary": "MongoDB Atlas가 Azure 환경을 위한 두 가지 주요 기능을 정식 출시했습니다. 우선 Atlas Data Federation이 Azure에서 정식으로 제공됨에 따라 사용자는 이제 Azure Blob Storage나 Azure Data Lake Storage Gen2와 같은 Azure 기반 데이터 소스를 직접 쿼리할 수 있게 되었습니다. 이를 통해 다양한 소스의 데이터를 단일 통합 뷰로 분석할 수 있으며, MongoDB 데이터를 활용한 SQL 쿼리 실행 및 고급 집계 작업이 가능해졌습니다. 단, 현재 서비스 구성상 서로 다른 클라우드 서비스 간의 교차 쿼리는 지원하지 않습니다.\n\n또한 Atlas Online Archive 역시 Azure 환경에서 정식으로 사용할 수 있게 되어 효율적인 데이터 아카이빙이 가능해졌습니다. 이제 Azure 기반 클러스터의 데이터를 비용 효율적인 Azure 저장소로 자동으로 계층화할 수 있으며, 기존처럼 AWS로 데이터를 옮길 필요 없이 Azure 생태계 내에서 통합 관리가 가능합니다.\n\n이와 관련하여 주의할 점은, 2025년 2월 28일 이후 Azure 클러스터에서 생성된 신규 아카이브는 기본적으로 Azure 리전을 사용하게 되지만, 이미 AWS 기반 아카이브가 설정된 클러스터의 경우에는 기존 방식이 유지됩니다. 또한 한번 설정된 클라우드 제공업체나 저장소 리전은 추후 수정이 불가능하므로 초기 설정 시 신중한 결정이 필요합니다. 이번 업데이트로 인해 MongoDB Atlas는 멀티 클라우드 솔루션으로서의 유연성과 데이터 관리 효율성을 한층 강화하였습니다.",
-    "url": "https://www.mongodb.com/company/blog/product-release-announcements/atlas-data-federation-online-archive-can-now-be-deployed-in-azure",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "2026-11-09T13:22:06.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/product-release-announcements/ai-search-for-agents-announcing-automated-embedding-atlas",
-    "title": "AI Search for Agents: Announcing Automated Embedding in MongoDB Atlas",
-    "summary": "Automated Embedding is now available in Public Preview on MongoDB Atlas.\nWhen we introduced Automated Embedding to MongoDB Vector Search in MongoDB Community Edition, we started from a single principl",
-    "aiSummary": "MongoDB Atlas가 Automated Embedding 기능을 퍼블릭 프리뷰로 공개했습니다. 이 기능은 개발자가 별도의 임베딩 파이프라인을 구축하지 않고도 MongoDB 내부에서 직접 벡터 검색을 수행할 수 있도록 지원합니다.\n\n데이터 변경 사항을 실시간으로 감지하는 필드 단위 델타 감지 기술을 통해 인덱스 동기화 지연 시간을 획기적으로 줄였습니다. 이를 통해 에이전트가 사용하는 데이터가 항상 최신 상태를 유지하게 합니다.\n\n추론 워크로드의 효율성을 극대화하기 위해 인덱스 생성과 쿼리 처리를 분리하였습니다. 인덱스 생성은 처리량 중심의 Inference Flex Tier에서 수행하고 실시간 쿼리는 지연 시간 최적화 환경에서 처리하여 상호 간섭 없는 성능을 보장합니다.\n\n데이터 규모 확장에 따른 스토리지 및 인덱싱 문제를 해결하기 위해 구성 가능한 양자화와 동적 배치 처리 기능을 도입했습니다. Scalar 및 Binary 양자화를 지원하여 저장 공간을 효율적으로 관리하고, 동적 배치를 통해 문서 크기에 따른 최적의 처리 효율을 제공하며 오류 발생 시에도 전체 작업 실패 없이 지속적인 인덱싱이 가능합니다.\n\n또한 뷰에 대한 검색 기능을 지원하여 복잡한 데이터 변환 과정을 쿼리 언어만으로 해결할 수 있습니다. 이는 별도의 ETL 파이프라인 관리 없이도 정교한 특징 엔지니어링을 가능하게 하며 에이전트 애플리케이션 개발에 필요한 신뢰할 수 있는 메모리 계층을 제공합니다.",
-    "url": "https://www.mongodb.com/company/blog/product-release-announcements/ai-search-for-agents-announcing-automated-embedding-atlas",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "2026-11-09T13:17:29.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/",
-    "title": "Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU",
-    "summary": "As frontier AI evolves from stateless single-turn prompts to million-token agents, disaggregated serving, and continuous reinforcement learning (RL), the primary bottleneck in AI infrastructure has sh",
-    "aiSummary": "TPU Sync는 대규모 AI 모델의 추론 및 강화 학습 과정에서 발생하는 병목 현상을 해결하기 위해 설계된 오픈 소스 C++ 라이브러리입니다. 이 기술은 TPU의 HBM, 호스트 DRAM, 공유 스토리지, 데이터 센터 네트워크를 하나의 통합된 메모리 계층 구조로 관리하며, 비동기 DMA 전송을 통해 데이터 이동과 연산을 병렬로 처리합니다.\n\n주요 기능으로 레이아웃을 유지하는 직접적인 DMA 전송과 버퍼 별칭 기능을 지원합니다. 이를 통해 데이터를 복사하거나 잠그지 않고도 TPU의 MXU에서 즉시 실행 가능한 형태로 전달하며, 파이썬 직렬화나 레이아웃 변환 과정을 배제하여 데이터 처리 속도를 극대화합니다. 또한 XLA 컴파일 과정을 거치지 않아 프레임워크에 독립적인 고속 데이터 전송이 가능합니다.\n\n추론 영역에서는 호스트 DRAM을 대용량 계층형 KV 캐시로 활용하여 대규모 모델의 문맥 처리 능력을 확장합니다. 특히 Prefill과 Decode 노드를 분리한 Disaggregated serving 환경에서 호스트 간 스트리밍 파이프라인 역할을 수행하며, 이를 통해 KV 캐시 전송 지연 시간을 90% 이상 단축하고 첫 토큰 생성 시간인 TTFT를 대폭 감소시킵니다.\n\n강화 학습 분야에서는 학습기에서 샘플러로 모델 가중치를 동기화하는 저수준 DMA 및 DCN 기본 요소를 제공합니다. PyTorch와 JAX에 직접 통합되어 vLLM, SGLang, llm-d와 같은 주요 서비스 인프라와 호환되며, 복잡한 분산 환경에서도 효율적인 캐시 관리와 시스템 처리량 향상을 보장합니다.\n\n현재 TPU Sync는 깃허브를 통해 오픈 소스로 공개되어 있으며, 대규모 언어 모델을 활용하는 기업이나 연구소에서 추론 인프라의 효율성을 극대화하는 용도로 활용될 수 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Fenghui Zhang"
-      ],
-      "title": [
-        "Distinguished Engineer, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-09T13:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/",
-    "title": "Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs",
-    "summary": "Running large-scale AI workloads on TPU and Google Kubernetes Engine (GKE) requires infrastructure that adapts as fast as your models change. Dynamic Slicing is generally available on GKE, which decou",
-    "aiSummary": "Google Cloud는 TPU와 GKE 환경에서 AI 워크로드를 운영할 때 인프라 효율성과 복원력을 높여주는 GKE Dynamic Slicing 기능을 정식 출시했습니다. 기존에는 TPU 슬라이스마다 고정된 노드 풀을 생성해야 했기에 설정이 복잡하고 워크로드 시작 속도가 느렸으나, 이번 업데이트를 통해 논리적 슬라이스 구성과 물리적 노드 풀 배치를 완전히 분리하게 되었습니다.\n\nDynamic Slicing은 TPU OCS 기술을 활용해 TPU 큐브를 동적으로 연결하는 Super-slicing과 단일 큐브를 작은 단위로 나누는 Sub-slicing 방식을 지원합니다. 이를 통해 워크로드 요구 사항에 따라 즉각적으로 슬라이스 토폴로지를 구성할 수 있으며, 노드 풀을 반복적으로 삭제하고 다시 생성할 필요가 없습니다.\n\n주요 이점으로는 최대 5배 빠른 작업 시작 시간, 4.5배 빠른 워크로드 복구 성능, 그리고 다중 테넌트 지원을 통한 자원 활용률 극대화가 있습니다. 또한 하드웨어 장애 발생 시 영향을 받는 범위를 최소화하여 전체 시스템의 가용성을 향상시킵니다.\n\n사용자는 GKE 클러스터에서 TPU 용량을 16개 VM 단위의 큐브로 사전 프로비저닝한 뒤, 워크로드 YAML 파일 내의 간단한 어노테이션 설정을 통해 원하는 슬라이스 구성을 요청할 수 있습니다. GKE는 이를 감지하여 Slice CR을 생성하고 최적화된 스케줄링을 수행하며, 장애 발생 시에도 정상적인 노드만을 재구성하여 지속적인 운영을 보장합니다. 본 기능은 TPU를 지원하는 모든 리전에서 이용 가능합니다.",
-    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Kavitha Gowda"
-      ],
-      "title": [
-        "Product Manager, Google Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-09T13:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/",
-    "title": "Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA",
-    "summary": "Today, we are thrilled to announce the general availability (GA) of Cloud Pathways (Pathways on Cloud) on Google Kubernetes Engine (GKE) as a core runtime pillar of the Google Cloud AI Hypercomputer.\n",
-    "aiSummary": "Google Cloud는 대규모 가속기 군집을 위한 분산 머신러닝 런타임인 Cloud Pathways의 정식 출시를 발표했습니다. 이 기술은 Google DeepMind가 Gemini와 같은 차세대 모델을 학습하고 서빙하기 위해 개발한 핵심 인프라로, 현재 Google Kubernetes Engine 환경에서 사용할 수 있습니다.\n\n기존의 다중 컨트롤러 기반 JAX 방식은 수천 개의 가속기를 관리할 때 복잡도가 높고 유연성이 떨어지는 단점이 있었습니다. Cloud Pathways는 Interim Framework Runtime을 기반으로 한 단일 컨트롤러 아키텍처를 채택하여, 수천 개의 TPU 칩을 마치 하나의 로컬 자원처럼 통합적으로 관리하고 오케스트레이션합니다. 이를 통해 MPMD 워크플로우와 교차 슬라이스 자원 관리를 단순화했습니다.\n\n주요 기술적 특징으로는 단일 컨트롤러 기반의 그래프 평가 및 비동기 XLA HLO 디스패치, 공유 메모리를 지원하는 Colocated Python sidecars, 하드웨어 장애 시에도 워크로드 중단 없이 자원을 재구성하는 탄력적 학습 기능이 있습니다. 또한 대화형 모드와 공유 Pathways 서비스를 통해 노트북 환경에서 디버깅하거나 여러 사용자가 TPU 풀을 공동으로 활용할 수 있습니다.\n\n이미 다양한 글로벌 기업과 AI 연구소들이 Cloud Pathways를 도입하여 대규모 멀티 호스트 추론 및 과학적 파운데이션 모델 학습에 활용하고 있습니다. 현재 Cloud TPU v5e, v5p, Trillium, Ironwood 등을 지원하며, GKE뿐만 아니라 Cluster Director를 통한 Slurm 클러스터 환경에서도 미리보기 형태로 이용 가능합니다.",
-    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Shaurya Gupta"
-      ],
-      "title": [
-        "Software Engineer, Google"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-09T13:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.4.2",
-    "title": "v12.4.2",
-    "summary": "(https://github.com/)\n      \n        © 2026 GitHub, Inc.",
-    "aiSummary": "GitHub 플랫폼의 v12.4.2 업데이트가 배포되었습니다. 이번 업데이트는 서비스의 안정성을 강화하고 기존 기능의 유지보수를 포함하고 있습니다. 상세한 변경 사항과 수정된 오류 내역은 GitHub 공식 저장소의 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.4.2",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-11-09T12:09:46.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-05-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-    "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
-    "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. ",
-    "aiSummary": "GitHub이 자사의 secret scanning 서비스 범위를 확장하여 이제 GitHub Actions 워크플로우 로그에서도 민감한 정보 노출을 탐지할 수 있게 되었습니다.\n\n기존에는 이슈, 위키, 디스커션, 풀 리퀘스트 영역에서만 비밀 정보를 검색할 수 있었으나 이번 업데이트를 통해 워크플로우 로그로 그 대상이 확대되었습니다.\n\n해당 기능은 현재 퍼블릭 프리뷰 상태로 제공되며 이를 통해 개발자는 워크플로우 실행 과정에서 실수로 노출된 자격 증명이나 비밀 정보를 보다 효과적으로 식별하고 방어할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-09T09:01:37.000Z",
-    "fetchedAt": "2026-11-10T04:41:02.777Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=55801",
-    "title": "Beyond the Version Bump: Running PostgreSQL Major Upgrades in Percona Operator for PostgreSQL",
-    "summary": "It was quite challenging to perform postgres major upgrade, e.g., v17 to v18, in a Percona operator/K8s environment. There was no convenient approach to accomplish this task. The only viable solutions",
-    "aiSummary": "Percona Operator for PostgreSQL 환경에서 PostgreSQL 메이저 버전 업그레이드를 수행하는 것은 그동안 매우 까다로운 작업이었습니다. 기존에는 새로운 환경으로 데이터를 옮기기 위해 수동으로 덤프 및 복원을 진행하거나 논리적 복제 방식을 사용해야 했으며, 이러한 방법들은 운영 과정에서 여러 기술적인 어려움과 제약을 동반했습니다.\n\nPercona는 이러한 불편함을 해소하기 위해 Kubernetes 환경 내에서 보다 효율적이고 안정적으로 메이저 버전을 업그레이드할 수 있는 방안을 제시합니다. 이 과정은 단순히 버전을 올리는 단계를 넘어 운영 효율성을 개선하고 인프라 관리의 복잡성을 줄이는 데 목적이 있습니다. 향후 해당 가이드를 통해 보다 간편한 업그레이드 절차를 구축함으로써 운영자의 부담을 덜어줄 것으로 기대됩니다.",
-    "url": "https://www.percona.com/blog/beyond-the-version-bump-running-postgresql-major-upgrades-in-percona-operator-for-postgresql/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Anil Joshi",
-    "pubDate": "2026-11-09T08:06:54.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.4.1",
-    "title": "v12.4.1",
-    "summary": "v12.4.1 (2026-11-09)\nFeatures\nplatform-node\n\n#18435 feat(node): inject requests into the node adapter like the fastify one (@thekhegay)\n#18439 feat(node): set req.route on the node adapter like expres",
-    "aiSummary": "이번 v12.4.1 업데이트에서는 node adapter와 관련하여 Fastify와 유사하게 요청을 주입하고 Express와 동일하게 req.route를 설정할 수 있도록 기능을 추가하였습니다.\n\ncore 모듈에서는 지연 로딩 실패 시 모듈을 롤백하는 버그를 수정하였으며 decorator metadata가 누락되었을 때 경고 메시지를 출력하도록 개선하였습니다.\n\n또한 platform-ws 의존성 패키지를 8.22.0 버전에서 8.22.1 버전으로 업데이트하였고 총 8명의 기여자가 이번 버전에 참여하였습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.4.1",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-11-09T08:01:22.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.2.9",
-    "title": "v11.2.9",
-    "summary": "What's changed\n@nestjs/core\n\nfix(core): run wildcard middleware on excluded routes of every version\n@nestjs/platform-express\n\nfix(deps): update dependency multer to v2.5.0 — resolves GHSA-q7qp-rjg7-q2",
-    "aiSummary": "NestJS v11.2.9 업데이트를 통해 핵심 코어와 플랫폼별 보안 및 기능 개선이 이루어졌습니다.\n\n@nestjs/core 패키지에서는 모든 버전에서 제외된 경로에 대해 와일드카드 미들웨어가 실행되도록 수정되었습니다.\n\n@nestjs/platform-express 패키지는 multer 의존성을 v2.5.0으로 업데이트하여 관련 보안 취약점인 GHSA-q7qp-rjg7-q26m 문제를 해결했습니다.\n\n@nestjs/platform-fastify 패키지에서는 절대 경로 요청 타겟에 대한 처리가 강화되었습니다. 쿼리 스트링 이후에 슬래시가 포함된 잘못된 요청에 대해 404 응답을 반환하도록 수정되었습니다. 또한 fastify 의존성을 v5.12.8로 업데이트하여 이전 버전까지의 보안 권고 사항들을 해결하였으며, 라우팅 관련 기능이 개선되었습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.9",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-11-09T07:53:24.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://redis.io/blog/give-your-vercel-ai-sdk-agents-memory-with-redis-agent-memory/",
-    "title": "Give your Vercel AI SDK agents memory with Redis Agent Memory",
-    "summary": "We've released @redis/vercel-ai-sdk, an open-source package that adds Redis Agent Memory to agents built with Vercel's AI SDK.\n\nMost agents start every conversation cold. Users repeat their preference",
-    "aiSummary": "Vercel AI SDK를 사용하여 구축된 AI 에이전트에 기억 기능을 추가할 수 있는 오픈소스 패키지 @redis/vercel-ai-sdk가 출시되었습니다.\n\n기존의 많은 AI 에이전트는 대화가 시작될 때마다 이전 맥락을 기억하지 못해 사용자가 매번 선호 사항을 반복해야 하는 한계가 있었습니다. 이번에 공개된 새로운 패키지는 Redis를 활용해 에이전트가 과거의 대화 내용을 지속적으로 기억하고 활용할 수 있도록 지원합니다.\n\n개발자는 이 패키지를 통해 Vercel AI SDK 기반의 에이전트에 기억 장치를 간편하게 통합할 수 있습니다. 이를 통해 에이전트는 시간이 지나도 사용자의 과거 맥락을 유지하며 더욱 개인화되고 연속성 있는 대화를 제공할 수 있게 됩니다.",
-    "url": "https://redis.io/blog/give-your-vercel-ai-sdk-agents-memory-with-redis-agent-memory/",
-    "category": "데이터베이스",
-    "source": "Redis Blog",
-    "author": "Itamar Haber",
-    "pubDate": "2026-11-09T00:00:00.000Z",
-    "fetchedAt": "2026-11-10T04:41:02.777Z",
-    "tags": [
-      "Redis",
-      "NoSQL",
-      "Cache"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/11/09/inside-java-ticker-value-class/",
-    "title": "A Valhalla Ticker in One int",
-    "summary": "A ticker symbol is an abbreviation that uniquely identifies a financial product such as a publicly traded share. Well-known ticker symbols are \"ORCL\" and \"GOOGL\". In this article, we will devise a Val",
-    "aiSummary": "이 기사는 JDK 28의 프리뷰 기능인 JEP 401: Value Objects를 활용하여 주식 시장의 Ticker 심볼을 단일 int 필드 내에 효율적으로 저장하는 Ticker 클래스 구현 방법을 설명합니다.\n\nValue 클래스는 객체의 고유 식별자(identity)가 없으며, 특정 조건에서 스칼라 치환(scalarization) 최적화를 통해 객체 할당 없이 로컬 변수나 메서드 인자로 값을 직접 전달할 수 있어 성능 향상을 기대할 수 있습니다. Ticker 클래스는 A-Z, 0-9 및 .으로 구성된 37개 문자를 6비트 코드로 인코딩하여 30비트 공간 내에 최대 5글자의 심볼을 저장합니다.\n\n이러한 방식은 메모리 레이아웃을 최적화하여 Ticker[] 배열을 평탄화(flat layout)된 형태로 저장할 수 있게 합니다. 실제로 벤치마크 결과, 일반적인 객체 기반의 IdentityTicker 배열보다 약 1.4배 이상의 성능 향상을 보였습니다. \n\n다만, JVM의 최적화 수준은 실행 환경에 따라 다르며, CharSequence 구현이나 생성자 로직은 실제 운영 환경의 요구사항에 맞춰 세밀하게 조정해야 합니다. 결과적으로 Value 클래스는 데이터 패킹을 통해 메모리 사용량을 줄이고 성능을 개선할 수 있는 강력한 도구이지만, 적용 전 애플리케이션의 워크로드를 JMH 등을 통해 사전에 측정하는 과정이 반드시 필요합니다.",
-    "url": "https://inside.java/2026/11/09/inside-java-ticker-value-class/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Per-Ake Minborg",
-    "pubDate": "2026-11-09T00:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/09/spring-ai-2-1-0-RC2-available-now",
-    "title": "Spring AI 2.1.0-RC2 Available Now",
-    "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0-RC2 has been released and is now available from Maven Central!\nRelease notes (https://githu",
-    "aiSummary": "Spring AI 2.1.0-RC2 버전이 Maven Central을 통해 공개되었습니다. 이번 업데이트는 결정 모델 API인 DecisionModel의 도입과 도구 호출 스트리밍 기능 강화, 그리고 다양한 벡터 데이터베이스 지원 확대에 중점을 두고 있습니다.\n\n새로 추가된 DecisionModel은 텍스트 생성 대신 예/아니오, 선택, 점수 등 정해진 결과값을 확률과 함께 반환하는 인터페이스를 제공합니다. 이를 통해 RAG 처리 과정에서의 문서 재순위 지정이나 필터링, 도구 검색 최적화 등 비즈니스 로직 구현이 더욱 정교해졌으며 OpenAI, Ollama, System One 구현체를 지원합니다.\n\n도구 호출 기능에서는 Anthropic, OpenAI, Amazon Bedrock, DeepSeek 모델에 대해 도구 호출 인자 스트리밍을 지원합니다. 이로써 UI 상에서 모델이 답변을 작성하는 도중에 실시간으로 도구 호출 정보를 시각화할 수 있게 되었습니다.\n\n벡터 데이터베이스 지원 측면에서는 Neo4j, MongoDB Atlas, Typesense, MariaDB, Chroma 등이 추가되어 사용자가 직접 계산한 임베딩을 활용한 검색을 수행할 수 있습니다. 또한 MCP 프로토콜은 최신 2026-07-28 규격을 지원하도록 업데이트되어 다중 왕복 요청 및 향상된 메타데이터 기능을 제공합니다.\n\n이번 릴리스에서는 Anthropic Java SDK가 3.x 버전으로 업그레이드되었으며 이에 따른 인증 방식 변경과 파라미터 제한 등 일부 하위 호환성 관련 주의사항이 존재합니다. 상세한 업그레이드 가이드와 변경 사항은 공식 참조 문서를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/11/09/spring-ai-2-1-0-RC2-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "dimitarproynov",
-    "pubDate": "2026-11-09T00:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/dasha-110-patroni-auto-discovery-wait-analysis-and-replication-slot-forecasts-for-postgresql-3438/",
-    "title": "Dasha 1.10: Patroni auto-discovery, wait analysis and replication slot forecasts for PostgreSQL\n",
-    "summary": "Dasha is an open source performance dashboard for PostgreSQL fleets. It connects to your clusters with a read-only role, shows what the databases are doing right now, and explains what to do about it.",
-    "aiSummary": "Dasha 1.10 버전이 출시되면서 PostgreSQL 관리 효율을 높이는 새로운 기능들이 추가되었습니다. 가장 큰 변화는 etcd v3와 Consul을 통한 Patroni 클러스터의 자동 검색 기능입니다. 이를 통해 Dasha는 Patroni 설정을 읽어 클러스터 구성원을 자동으로 식별하고, 클러스터 간의 관계나 복제 상태를 간편하게 파악할 수 있도록 지원합니다.\n\nPostgreSQL 14 버전 이상에서 사용할 수 있는 활동 및 대기 분석 도구가 개선되었습니다. 이제 CPU, IO, Lock 등 세분화된 대기 이벤트를 실시간 차트로 확인할 수 있으며, 쿼리 아이디별로 그룹화된 통계 정보를 통해 데이터베이스의 부하 원인을 더 정밀하게 분석할 수 있습니다. \n\n복제 슬롯 무효화 예측 기능도 새롭게 도입되었습니다. WAL 생성 속도를 측정하여 현재 보유 중인 WAL 로그가 언제 소진될지 예측함으로써 복제 슬롯 유지에 필요한 정보를 사전에 제공합니다. 또한 COPY 작업의 진행률을 실시간으로 추적하거나 기존의 모니터링 도구인 postgres_exporter 등과 연동하여 통합된 건강 점수를 산출하는 기능도 향상되었습니다.\n\n이번 업데이트에서는 활동이 없는 테이블을 별도로 분류하여 상태 점수에 영향을 주지 않도록 조정했으며, 사용 중인 인프라 환경에서 별도의 에이전트 설치 없이 읽기 전용 권한만으로 운영 환경을 완벽하게 진단할 수 있습니다. 더불어 AI 보조 도구와 연동할 수 있는 MCP 커넥터가 포함되어, 외부 AI 모델이 Dasha의 진단 데이터와 도구를 활용해 복잡한 데이터베이스 문제를 해결하도록 돕습니다.",
-    "url": "https://www.postgresql.org/about/news/dasha-110-patroni-auto-discovery-wait-analysis-and-replication-slot-forecasts-for-postgresql-3438/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-09T00:00:00.000Z",
-    "fetchedAt": "2026-11-09T17:40:21.951Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
     ]
   }
 ]
