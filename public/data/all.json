@@ -1,5 +1,182 @@
 [
   {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/ai-demand-constant-unpredictable-extreme-mongodb-is-built-for-it",
+    "title": "AI Demand is Constant, Unpredictable, and Extreme. MongoDB is Built for It.",
+    "summary": "When a huge surge in demand meets limited resources, an awful experience usually isn’t far behind. Fans feel it when trying to compete for concert tickets with bots and scalpers. Diners feel it when t",
+    "aiSummary": "AI 시대에 접어들며 사용자뿐만 아니라 AI 에이전트까지 가세한 서비스 환경은 과거보다 훨씬 예측 불가능하고 극단적인 트래픽 급증을 유발하고 있습니다. 이러한 변화에 대응하기 위해 MongoDB는 새로운 배포 옵션인 Atlas Infinite를 발표했습니다.\n\nAtlas Infinite는 별도의 코드 수정이나 데이터베이스 구조 변경 없이 기존 MongoDB Atlas 환경에서 그대로 사용할 수 있는 솔루션입니다. 컴퓨팅과 스토리지를 독립적으로 확장하여 트래픽 급증에 유연하게 대응하며, Atlas Core 대비 읽기 확장 시간을 96퍼센트 이상 단축하고 10배 더 큰 스토리지 용량을 지원합니다. 또한 하드웨어 효율성을 높여 비용 대비 성능을 약 3배 향상했습니다.\n\n이와 함께 MongoDB 9.0도 공식 출시되었습니다. 이번 업데이트는 엔터프라이즈 환경에 최적화된 성능과 보안을 핵심으로 합니다. 특히 find-one과 update-one 쿼리 속도가 각각 35퍼센트, 30퍼센트 향상되었으며, 대규모 인스턴스에서의 처리량은 최대 2배까지 증가했습니다. \n\n보안 측면에서는 Queryable Encryption의 기능을 확장하여 민감한 정보를 복호화하지 않고도 다양한 검색을 수행할 수 있게 되었으며, 과부하 상태에서 클러스터를 보호하는 Intelligent Workload Management와 같은 가용성 강화 기능이 추가되었습니다. MongoDB는 Atlas Infinite와 9.0 버전을 통해 예측 불가능한 워크로드 속에서도 기업이 안정적인 서비스를 유지할 수 있도록 지원할 계획입니다.",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/ai-demand-constant-unpredictable-extreme-mongodb-is-built-for-it",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-17T16:36:12.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/agentic-treasury-how-ai-agents-turn-cash-blind-spots-into-real-time-governed-action",
+    "title": "Agentic Treasury: How AI Agents Turn Cash Blind Spots Into Real-Time, Governed Action",
+    "summary": "At 8 a.m., a $4 million payroll is due, but an expected customer payment hasn’t arrived. Leafy International’s treasury agent spots the gap in live payment data. It checks current balances and recomme",
+    "aiSummary": "Agentic treasury는 인공지능 에이전트를 활용하여 기업의 현금 흐름, 유동성, 재무 리스크 관리를 실시간으로 최적화하는 차세대 재무 관리 모델입니다. 기존의 배치 프로세스 기반 방식에서 벗어나 실시간 데이터를 통해 즉각적인 의사결정을 지원하며, 재무 담당자가 수동 모니터링이 아닌 고도의 판단과 예외 사항 처리에 집중할 수 있도록 돕습니다.\n\n이 시스템이 안정적으로 운영되기 위해서는 최신 상태가 유지되는 데이터 컨텍스트와 모든 행동이 승인되었는지 확인하는 독립적인 검증 절차가 필수적입니다. MongoDB는 이러한 요구사항을 충족하기 위해 데이터 레이어 역할을 수행하며, 실시간 상황 변화를 반영하는 문맥 데이터 저장과 통제 정책 및 감사 로그를 관리하는 기능을 제공합니다.\n\n성공적인 운영을 위한 에이전트의 데이터 역량은 크게 네 가지입니다. 첫째, 결제 상태나 시장 신호 등 관련 변화를 즉각 탐지합니다. 둘째, 유연한 데이터 모델을 통해 ISO 20022와 같이 변화하는 정보 형태를 유연하게 수용합니다. 셋째, 벡터 검색을 통해 키워드를 넘어선 의미론적 맥락에서 정보를 추출합니다. 넷째, 단기 및 장기 메모리를 활용하여 재무 담당자의 정책과 이력을 기억하고 활용합니다.\n\n재무 에이전트의 안전한 위임을 위해서는 Monetary Authority of Singapore의 SAFR 프레임워크와 같은 거버넌스 체계가 중요합니다. 에이전트는 제안된 행동과 그 근거를 담은 거버넌스 봉투를 생성하며, 이는 통제 저장소의 정책에 따라 자동 실행, 관찰, 승인 요청 또는 거부로 분류됩니다. 특히 감사 로그를 변경 불가능하게 유지하고 독립적인 검증 환경을 구축함으로써 데이터 보안과 신뢰성을 확보합니다.\n\n기업들은 급여 지급이나 단기 자금 운용과 같이 반복적이고 측정 가능한 업무부터 Agentic treasury를 도입하는 것이 권장됩니다. 처음에는 추천 시스템으로 시작하여 점진적으로 인간의 승인 기반 프로세스를 거쳐 루틴한 의사결정을 자동화하는 방식으로 신뢰를 쌓아가는 전략이 필요합니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/agentic-treasury-how-ai-agents-turn-cash-blind-spots-into-real-time-governed-action",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-17T15:00:03.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/build-once-grow-freely-search-vector-search-on-atlas-infinite",
+    "title": "Build Once, Grow Freely: Search and Vector Search on Atlas Infinite",
+    "summary": "Enterprise workloads are getting bigger, more variable, and harder to predict, especially as agentic applications introduce spiky, unpredictable demand. Most data platforms weren't built for this real",
+    "aiSummary": "MongoDB는 에이전트 애플리케이션의 급격하고 예측 불가능한 수요 변화에 대응하기 위해 스토리지와 컴퓨팅을 분리한 새로운 배포 옵션인 Atlas Infinite를 공개했습니다. 기존의 전통적인 데이터베이스 구조에서는 데이터가 특정 머신에 종속되는 스토리지 그래비티 문제가 발생하여 확장 시 데이터 복제 등에 많은 시간이 소요되었으나, Atlas Infinite는 이를 해결하여 유연하고 탄력적인 확장을 지원합니다.\n\nAtlas Infinite의 핵심은 스토리지와 컴퓨팅을 독립적으로 확장할 수 있는 아키텍처입니다. 컴퓨팅과 스토리지가 분리됨에 따라 읽기 복제본 생성 속도가 비약적으로 빨라졌으며, 샤드당 최대 128TB를 수용할 수 있어 디스크 공간 확보를 위한 불필요한 샤딩이나 컴퓨팅 티어 상향이 필요하지 않습니다. 또한 데이터가 저장된 만큼만 비용을 지불하는 구조를 채택하여 운영 효율성을 높였습니다.\n\n이번 업데이트를 통해 MongoDB Search와 Vector Search가 Atlas Infinite에서 공개 미리보기로 지원됩니다. 이를 통해 별도의 검색 엔진이나 벡터 데이터베이스를 구축하고 동기화할 필요 없이 하나의 플랫폼 내에서 모든 데이터를 관리할 수 있습니다. 특히 RAG 기반의 지식 베이스처럼 대규모 벡터 임베딩이 필요한 환경에서 강력한 성능을 발휘하며, 데이터가 증가하더라도 재설계 없이 초기 프로토타입부터 페타바이트급 운영 환경까지 동일한 기반 위에서 원활하게 성장할 수 있습니다.\n\n비용 측면에서도 Atlas Infinite는 큰 이점을 제공합니다. 텍스트와 달리 압축률이 낮은 벡터 데이터 특성을 고려할 때, Atlas Core와 달리 스토리지와 컴퓨팅을 분리하여 과도한 프로비저닝 없이 필요한 자원만 사용할 수 있습니다. 결과적으로 대규모 데이터셋에서는 기존 대비 약 25%에서 30% 이상의 TCO 절감 효과를 기대할 수 있습니다. 현재 Atlas Infinite의 Search와 Vector Search 기능은 AWS 환경에서 우선적으로 제공됩니다.",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/build-once-grow-freely-search-vector-search-on-atlas-infinite",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-17T15:00:03.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=phpstorm&p=757810",
+    "title": "PhpStorm Light: Experimenting With a Lighter Version of PhpStorm",
+    "summary": "You may have never heard of PhpStorm Light, or you may be using it and wondering if this Early Access build is ever going to make its way into a major release. In this post, we explain what PhpStorm L",
+    "aiSummary": "JetBrains는 기존 PhpStorm의 가볍고 빠른 실행을 목표로 하는 실험적인 버전인 PhpStorm Light를 선보였습니다. 이는 전체 기능을 갖춘 IDE와 달리 핵심적인 편집 기능에 집중하여 개발자의 작업 효율을 높이고자 하는 시도입니다.\n\n이번 실험을 통해 JetBrains는 사용자가 필요로 하는 기능과 성능 사이의 균형점을 파악했으며, 개발 환경의 경량화가 갖는 가치를 확인했습니다. 해당 프로젝트를 통해 얻은 피드백과 기술적 데이터는 향후 PhpStorm의 주요 릴리스를 개선하는 데 중요한 밑거름이 될 예정입니다.\n\n결론적으로 PhpStorm Light는 정식 서비스로 확장되기보다는 실험적인 성격의 프로젝트로서 지속적인 연구의 대상이 됩니다. JetBrains는 여기서 축적된 인사이트를 바탕으로 더욱 강력하고 쾌적한 통합 개발 환경을 제공하기 위한 노력을 이어갈 계획입니다.",
+    "url": "https://blog.jetbrains.com/phpstorm/2026/11/phpstorm-light-experimenting-with-a-lighter-version-of-phpstorm/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Hanna Yakush",
+    "pubDate": "2026-11-17T13:59:39.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+    "title": "MongoDB Acquires Firebolt to Bring Lightning-Fast Real-Time Analytics Into Its Intelligent Data Platform",
+    "summary": "Real-time analytics on live operational data, built so applications and AI agents can act on what’s happening now.\nThe most valuable analytics no longer live in a dashboard. They live inside the appli",
+    "aiSummary": "MongoDB는 실시간 데이터 분석 역량을 강화하기 위해 고성능 분석 엔진을 보유한 Firebolt를 인수합니다. 이번 인수는 기존 운영 데이터베이스와 별도로 운영되던 데이터 분석 환경을 통합하여 실시간 분석의 효율성을 극대화하기 위한 전략입니다.\n\n그동안 기업들은 운영 데이터와 분석 데이터를 별도의 시스템으로 분리하여 관리함으로써 데이터 파이프라인 구축 및 동기화에 따른 비용과 복잡성 문제를 겪어 왔습니다. MongoDB는 Firebolt의 분석 엔진을 자사의 지능형 데이터 플랫폼 내부에 통합함으로써 별도의 파이프라인 없이도 데이터가 생성되는 즉시 현장에서 실시간 분석이 가능하도록 지원할 계획입니다.\n\nFirebolt의 기술은 대규모 데이터셋에 대한 복잡한 쿼리를 초당 처리하며 지연 시간을 최소화하는 데 최적화되어 있습니다. 이는 특히 실시간으로 변화하는 데이터를 분석하고 즉각적으로 대응해야 하는 AI 에이전트와 현대적인 애플리케이션 환경에서 매우 중요한 역할을 할 것으로 기대됩니다.\n\n기존 Firebolt 고객들은 변동 없이 서비스를 계속 이용할 수 있으며, MongoDB는 수개월 내에 자사 플랫폼 사용자들이 실시간 분석 기능을 활성화하여 사용할 수 있도록 통합 작업을 진행할 예정입니다. 이번 조치를 통해 MongoDB는 기업 고객이 더 적은 시스템으로 더 빠르게 데이터를 처리하고 비즈니스 의사결정을 내릴 수 있는 최적의 환경을 제공하고자 합니다.",
+    "url": "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-17T13:59:01.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "/blog/release/v27.0.0-alpha.0.1.1?1794904867602",
+    "title": "Node.js 27.0.0-alpha.0.1.1 (Alpha)",
+    "summary": "Antoine du Hamel2026-11-16, Version 27.0.0-alpha.0.1.1 (Alpha), @aduh95 (https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1#2026-11-16-version-2700-alpha011-alpha-aduh95)\nNotable Changes (https://",
+    "aiSummary": "Node.js 27.0.0-alpha.0.1.1 버전이 새롭게 출시되었습니다. 이번 릴리스에서는 주요한 변경 사항으로 darwin 환경의 tarball 내 bin/node에 대한 notarization 작업이 포함되었습니다.\n\n빌드 및 종속성 관련 업데이트로는 Linux 환경에서 PIE 활성화가 이루어졌으며, nghttp3 버전이 1.19.0으로 상향 조정되었습니다. 또한 V8 엔진 관련 커밋들이 백포트 및 체리픽을 통해 반영되었습니다.\n\n문서화 부문에서는 sqlite의 숫자 및 BigInt 바인딩 설명, X509Certificate 유효 시간 명시, package exports 대상의 폴백 배열 설명 등이 추가되었고, TLS 콜백 내 this 바인딩에 대한 문서 작업도 완료되었습니다. \n\n테스트 안정화를 위한 deflake 작업이 다수 진행되었으며, 도구 측면에서는 review_backport.sh 스크립트의 다중 커밋 PR 지원 기능 추가 및 yamllint의 엄격 모드 활성화 등이 포함되었습니다. 각 OS별 설치 파일 및 바이너리는 제공된 배포 링크를 통해 확인할 수 있습니다.",
+    "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-17T08:41:07.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
+    "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
+    "summary": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI. Available in Europe and Israel, this initiative supports startups that are building cutting-",
+    "aiSummary": "Google이 유럽과 이스라엘 지역의 스타트업을 대상으로 하는 신규 액셀러레이터 프로그램인 Google for Startups Accelerator: Sovereign AI를 발표했습니다. 이 프로그램은 유럽의 엄격한 규제 환경인 EU AI Act, NIS2, DORA 등을 준수하며 혁신적인 AI 솔루션을 개발하는 스타트업을 지원하는 것을 목표로 합니다.\n\n참가 대상은 유럽과 이스라엘에 본사를 둔 Late-seed에서 Series A 단계의 스타트업이며 정부 서비스, 헬스케어, 금융, 사이버 보안 분야에서 민감한 데이터를 다루는 기업을 중점적으로 선발합니다. 15주간 진행되는 이 프로그램은 지분 투자 없이 운영되며 Google 엔지니어와 규제 전문가의 1:1 멘토링을 제공합니다.\n\n선발된 기업은 Google Cloud의 Sovereign cloud 인프라를 활용하여 데이터 주권과 보안성을 확보할 수 있습니다. 또한 Gemini 모델이나 Gemma 및 Mistral과 같은 Open-weight 모델을 결합하여 기업이 요구하는 수준의 신뢰성과 통제 가능한 AI 환경을 구축하도록 지원받습니다.\n\n이 프로그램은 단순한 기술 지원을 넘어 현지 클라우드 운영자 및 투자자와의 연결을 통해 스타트업의 유럽 시장 진입과 성장을 가속화하는 데 중점을 둡니다. 관심 있는 기업은 2027년 1월 15일까지 Google for Startups Accelerator 공식 페이지를 통해 신청할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Giorgia Abeltino"
+      ],
+      "title": [
+        "Head of Government Affairs & Public Policy, Google Cloud Europe, Middle East & Africa"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-17T08:30:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
+    "title": "Sovereign AI in Europe: New ways to control your AI stack",
+    "summary": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance ",
+    "aiSummary": "브뤼셀에서 개최된 Sovereign AI Summit에서 Google Cloud는 유럽 공공 부문 및 기업들이 AI 기술을 주권적으로 통제하며 활용할 수 있도록 지원하는 새로운 전략과 기능을 발표하였습니다. 이번 발표의 핵심은 데이터 주권, 운영 연속성, 그리고 규제 준수를 보장하면서도 고성능 AI 모델을 사용할 수 있는 환경을 제공하는 것입니다.\n\n우선 Google Cloud는 Sovereign Cloud 포트폴리오를 통해 세 가지 운영 방식을 제공합니다. 퍼블릭 클라우드에서의 Google Cloud Data Boundary, 독립적인 현지 파트너가 운영하는 Google Cloud Dedicated, 그리고 고객 데이터 센터 내에 구축되는 Google Distributed Cloud가 이에 해당합니다. 특히 Gemini 모델을 Google Cloud Dedicated에서도 사용할 수 있게 함으로써, 현지 운영이 필수적인 조직들도 고성능 AI 모델을 안전하게 배포할 수 있게 되었습니다. 프랑스 S3NS의 PREMI3NS와 같은 사례를 통해 Mistral이나 Google의 오픈 모델을 자체 관리형 환경에서 활용하는 방안도 강화되었습니다.\n\n데이터 보안과 통제권 강화를 위해 암호화 키 관리 기능도 대폭 개선되었습니다. 고객이 Google Cloud 외부에서 암호화 키를 직접 관리할 수 있는 Confidential External Key Management 기능을 통해 데이터 접근 권한을 엄격히 통제할 수 있으며, 하드웨어 기반의 Confidential Computing 환경을 결합하여 지연 시간을 최소화했습니다. 스페인의 Telefónica와 같은 현지 파트너와의 협력을 통해 이러한 외부 키 관리 서비스의 선택권도 넓혔습니다.\n\n규제 준수와 관련해서는 Data Boundary 프레임워크와 Audit Manager를 도입하여 복잡한 감사 과정을 자동화합니다. 이를 통해 스위스 규제나 유럽연합의 DORA와 같은 법적 요구 사항을 충족하는지 실시간으로 증명할 수 있습니다. 또한, Thales와의 협력으로 독일 내 Google Cloud Dedicated 서비스를 확대하고, 프랑스 ANSSI로부터 SecNumCloud 3.2 인증을 획득하는 등 유럽 내 파트너십을 견고히 하고 있습니다.\n\n마지막으로 Google Cloud는 유럽 내 AI 생태계 조성을 위해 Google for Startups Accelerator: Sovereign AI 프로그램을 신설하여 규제 산업 분야의 스타트업을 지원합니다. 앞으로도 Google Cloud는 파트너 운영 환경과 온프레미스 인프라에 더 많은 AI 플랫폼 기능을 확장하고, 유럽 규제에 맞춘 감사 프레임워크를 지속적으로 추가할 계획입니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Jai Haridas"
+      ],
+      "title": [
+        "VP & GM, Regulated & Sovereign Cloud"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-17T08:00:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.10",
+    "title": "1.5.10",
+    "summary": "Added accept-edits mode to --remote-agent sessions: Shift+Tab now switches between the default mode and accept-edits instead of doing nothing. Sessions still start in the default mode, where the remot",
+    "aiSummary": "업데이트 버전 1.5.10은 사용자의 작업 효율성과 인터페이스 편의성을 높이는 다양한 기능 추가 및 성능 개선을 포함하고 있습니다.\n\n원격 에이전트 세션에 accept-edits 모드가 추가되어 파일 수정 시 매번 승인을 요청하는 기본 모드 대신 승인 없이 수정을 진행할 수 있게 되었습니다. Gemini Enterprise 계정 및 Application Default Credentials 사용자를 위해 Orchestrator 모델이 추가되었으며, 모델 계획 단계에는 Gemini 4 Carbon, 실행 단계에는 Gemini 4 Hydrogen이 사용됩니다.\n\n원격 제어 브라우저 뷰에는 대화 내비게이터와 인용 버튼이 추가되었으며, 메시지 박스 내 링크 클릭 지원, 타이머의 잔여 시간 표시 기능이 도입되었습니다. 또한 속도 제한 처리를 개선하여 API 대기 시간이 4분 이내일 경우 자동으로 재시도하도록 변경하였습니다.\n\n장기 세션에서의 성능 및 메모리 최적화가 이루어졌습니다. 대화 전환 시 전체 기록을 불러오지 않고 필요에 따라 디스크에서 로드하도록 변경하여 응답 속도를 개선했으며, 메모리 사용량을 대폭 줄였습니다. \n\n보안 측면에서는 터미널 샌드박스의 접근 권한을 강화하여 ~/.config 및 AppData\\Roaming 경로에 대한 기본 읽기 접근을 차단했습니다.\n\n기타 주요 수정 사항으로는 모델 응답 중단 오류 해결, 대형 파일 처리 시 발생하는 대화 압축 오류 수정, 에디터 연동 시 백그라운드 작업 및 서브 에이전트 종료 처리 개선 등이 포함됩니다. 또한 원격 제어 브라우저 뷰의 스크롤, 입력 방식 및 플러그인 관리와 관련된 여러 사용자 경험 문제가 해결되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.10",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-17T05:41:17.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
     "title": "Dependabot alert dismissal requests now last one year",
     "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires…\nThe post Dependabo",
@@ -13,6 +190,86 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_cve-111-released-3443/",
+    "title": "PG_CVE 1.1.1 Released\n",
+    "summary": "We are pleased to announce the release 1.1.1 of PG_CVE, a lightweight tool designed to provide DBAs and system administrators with a clear, up-to-date overview of CVEs (Common Vulnerabilities and Expo",
+    "aiSummary": "DBA와 시스템 관리자를 위해 PostgreSQL 버전별 보안 취약점과 CVE, 알려진 익스플로잇, 그리고 릴리스 안정성 정보를 통합 제공하는 도구인 PG_CVE 1.1.1 버전이 새롭게 출시되었습니다.\n\n이번 업데이트를 통해 사용자는 특정 PostgreSQL 버전과 관련된 보안 권고 사항을 신속하게 추적할 수 있으며, 릴리스 안정성 및 패치 정보를 확인하여 효율적인 업그레이드 계획을 수립할 수 있습니다. \n\nPG_CVE는 정확한 취약점 분류를 지원하기 위해 알려진 익스플로잇 데이터를 통합하였으며, 빠른 탐색을 위해 경량화된 독립형 웹 인터페이스를 제공합니다. 관련 상세 정보와 소스 코드는 공식 GitHub 저장소에서 확인 가능하며, 제공된 라이브 데모 페이지를 통해 직접 기능을 체험할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_cve-111-released-3443/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pg_fastload-100-released-parallel-bulk-loading-for-postgresql-3445/",
+    "title": "pg_fastload 1.0.0 released: parallel bulk loading for PostgreSQL\n",
+    "summary": "pg_fastload 1.0.0 is a parallel bulk loader for PostgreSQL, 1.58x faster than the best pg_bulkload mode and 6.07x faster than COPY.\nIt parallelises the loading pipeline across background workers while",
+    "aiSummary": "PostgreSQL을 위한 병렬 대량 로딩 도구인 pg_fastload 1.0.0이 출시되었습니다. 이 도구는 기존의 pg_bulkload 3.1.23을 기반으로 개발되었으며, PostgreSQL의 기본 COPY 명령 대비 6.07배, 기존 pg_bulkload의 최적 모드 대비 1.58배 향상된 성능을 제공합니다.\n\npg_fastload는 데이터를 읽고 구문 분석하여 튜플을 생성하는 작업을 백그라운드 워커로 분산 처리하는 병렬 로딩 파이프라인 방식을 채택하고 있습니다. 데이터 읽기 단계는 단일 리더가 순차적으로 수행하여 효율성을 유지하며, 나머지 단계는 여러 파서 워커가 처리한 뒤 최종적으로 리더가 데이터를 입력하는 구조입니다. 이 모든 과정은 단일 트랜잭션 내에서 처리되므로 데이터 일관성을 보장하며, 특정 조건에서는 자동으로 직렬 처리 방식으로 전환되어 안정성을 유지합니다.\n\n주요 특징으로는 상세한 진행 상황 보고 기능이 포함되어 있어 로딩률, 경과 시간, 예상 완료 시점 등을 실시간으로 확인할 수 있습니다. 또한 export 기능을 통해 MVCC 스냅샷 정보를 포함한 데이터 추출이 가능하여 감사 추적이 가능합니다. \n\n성능 최적화 측면에서는 SKIP_INDEX 옵션을 통해 로딩 중 인덱스를 자동으로 제거하고 로딩 후 다시 생성함으로써 전체 로딩 시간을 단축할 수 있습니다. PostgreSQL 15부터 19 버전까지를 지원하며, 기존 pg_bulkload의 구문 및 설정과 호환성을 유지하여 사용자가 기존 환경에서 쉽게 전환할 수 있도록 설계되었습니다. 상세한 성능 측정 결과와 소스 코드는 GitHub 저장소에서 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pg_fastload-100-released-parallel-bulk-loading-for-postgresql-3445/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/apache-cloudberry-220-released-postgresql-based-mpp-database-moves-to-the-postgresql-1410-kernel-3440/",
+    "title": "Apache Cloudberry 2.2.0 Released: PostgreSQL-Based MPP Database Moves to the PostgreSQL 14.10 Kernel\n",
+    "summary": "The Apache Cloudberry (Incubating) community is pleased to announce the release of Apache Cloudberry 2.2.0, the latest version of its open-source massively parallel processing (MPP) database built on ",
+    "aiSummary": "Apache Cloudberry가 대규모 분석 및 AI 워크로드를 위한 MPP 데이터베이스인 Apache Cloudberry 2.2.0 버전을 출시하였습니다. 이번 업데이트의 핵심은 데이터베이스 커널을 기존 PostgreSQL 14.4에서 14.10으로 업그레이드하여 최신 업스트림 최적화 및 보안 패치를 반영한 점입니다.\n\n성능 및 기능 측면에서는 diskquota와 yezzey를 포함한 6개의 새로운 확장 기능을 추가하였고, ORCA 옵티마이저를 통한 병렬 테이블 스캔과 Hash Full Join 및 Right Join 최적화, 그리고 구체화된 뷰를 활용한 쿼리 응답 개선 등 다양한 쿼리 처리 기능을 향상시켰습니다.\n\n플랫폼 지원 범위도 넓어져 Rocky Linux 8, 9, 10과 Ubuntu 22.04, 24.04를 공식 지원하며, x86_64 및 ARM64 환경을 위한 자동화된 DEB와 RPM 패키징을 제공합니다. 특히 동일 호스트에서 여러 메이저 버전이 공존할 수 있도록 하는 가변적인 RPM 설치 방식을 도입하였습니다.\n\n생태계 구성 요소도 함께 업데이트되어 Cloudberry PXF는 Java 17을 지원하게 되었으며, Cloudberry Backup에는 백업 관리 도구인 gpbackman과 모니터링을 위한 gpbackup_exporter가 추가되었습니다. 또한, 개발 생산성을 높이기 위한 첫 번째 cloudberry-go-libs 버전이 릴리스되었습니다.\n\n현재 메인 브랜치는 이미 PostgreSQL 16 커널로 업그레이드되어 MERGE 명령 및 SQL/JSON 생성자와 같은 최신 기능을 반영 중이며, 향후 메이저 릴리스를 통해 더욱 고도화된 기능을 MPP 워크로드에 제공할 예정입니다.",
+    "url": "https://www.postgresql.org/about/news/apache-cloudberry-220-released-postgresql-based-mpp-database-moves-to-the-postgresql-1410-kernel-3440/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/navicat-introduces-navicat-18-for-postgresql-experience-enterprise-grade-postgresql-database-management-and-development-3441/",
+    "title": "Navicat Introduces Navicat 18 for PostgreSQL: Experience Enterprise-Grade PostgreSQL Database Management and Development\n",
+    "summary": "Navicat, a leading provider of powerful database management and development software, is proud to unveil Navicat 18 for PostgreSQL, an innovative release that sets a new standard in PostgreSQL adminis",
+    "aiSummary": "Navicat이 PostgreSQL 전용 데이터베이스 관리 및 개발 도구인 Navicat 18 for PostgreSQL을 새롭게 출시했습니다. 이번 업데이트는 온프레미스 환경은 물론 Amazon RDS, Amazon Aurora, Amazon Redshift, Microsoft Azure Database, Google Cloud SQL, Fujitsu Enterprise Postgres 등 다양한 클라우드 환경을 지원하며 관리 효율성을 극대화하는 데 초점을 맞추었습니다.\n\n주요 기능으로는 AI Integration이 도입되어 데이터 편집과 테이블 설계 과정에서 AI를 활용한 데이터 채우기, 번역, 분석 및 테이블 구조 생성이 가능해졌습니다. SQL 편집기에는 Refactoring 및 실시간 오류 감지 기능이 추가되어 코드 작성의 정확성과 생산성을 높였습니다.\n\n보안 측면에서는 데이터 마스킹 기능을 통해 운영 데이터를 안전하게 테스트용으로 변환할 수 있으며, 하이브리드 모델 지원을 통해 논리적 설계와 물리적 구조를 효율적으로 관리할 수 있습니다. BI 기능 또한 대시보드 자동 레이아웃 기능인 Auto Tile, 동적 데이터 제어를 위한 Parameters, 보고서 상호작용을 높이는 Add-ons 등이 강화되었습니다.\n\n이 밖에도 Parquet 파일을 지원하는 개선된 가져오기 마법사, 일괄 편집 기능, 개인 프로필 동기화 및 세션 기록 추적 등 사용자 편의성 향상을 위한 다양한 도구가 포함되었습니다. Navicat 18 for PostgreSQL은 현재 공식 웹사이트에서 다운로드 및 구매가 가능하며 14일 무료 체험판도 제공합니다.",
+    "url": "https://www.postgresql.org/about/news/navicat-introduces-navicat-18-for-postgresql-experience-enterprise-grade-postgresql-database-management-and-development-3441/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/how-security-leaders-see-ai-being-used-in-the-soc",
+    "title": "How security leaders see AI being used in the SOC ",
+    "summary": "Only 18% of teams have structured, enforced frameworks for how AI should be used in the SOC. Security leaders aren't struggling to adopt AI. They're struggling to control it, explain it, and defend it",
+    "aiSummary": "보안 운영 센터인 SOC 내에서 AI 활용에 관한 구조적이고 강제적인 프레임워크를 갖춘 팀은 전체의 18퍼센트에 불과합니다.\n\n현재 보안 리더들은 AI 기술을 도입하는 과정 자체보다는 이를 적절하게 제어하고, 그 작동 원리를 설명하며, 외부 위협으로부터 방어하는 데 큰 어려움을 겪고 있습니다.\n\n따라서 조직은 단순히 기술을 수용하는 것을 넘어, 체계적인 AI 거버넌스를 구축하여 보안 운영의 안정성과 투명성을 확보해야 합니다.",
+    "url": "https://www.elastic.co/blog/how-security-leaders-see-ai-being-used-in-the-soc",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Joe DeFever",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T16:57:30.041Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
