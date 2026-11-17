@@ -1,5 +1,167 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+    "title": "Dependabot alert dismissal requests now last one year",
+    "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires…\nThe post Dependabo",
+    "aiSummary": "GitHub는 Dependabot의 위임된 알림 해제 요청이 유효한 기간을 기존 1주일에서 1년으로 대폭 연장했습니다. 이번 업데이트를 통해 검토자들은 요청이 만료되기 전까지 더 충분한 시간을 가지고 보안 알림을 처리할 수 있게 되었습니다. 사용자는 늘어난 유예 기간을 활용하여 프로젝트의 보안 관리 효율성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-17T00:09:27.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.percona.com/?p=56291",
+    "title": "Inside Kvrocks",
+    "summary": "How Valkey/Redis data lives on RocksDB Based on my Percona Live 2026 talk “On-disk and Redis Compatible: Evaluating Kvrocks.” I will cover benchmarking Kvrocks in a separate post.   We all run Valkey ",
+    "aiSummary": "Kvrocks는 고비용의 RAM 기반인 Valkey나 Redis의 한계를 극복하기 위해 데이터를 RocksDB에 저장하는 방식을 채택하고 있습니다. \n\n기존의 메모리 기반 저장소는 빠른 속도를 제공하지만 운영 비용이 높다는 단점이 있습니다. Kvrocks는 이러한 문제를 해결하기 위해 디스크 기반의 RocksDB를 활용하면서도 Redis와 호환되는 데이터 구조를 지원합니다.\n\n향후 별도의 게시물을 통해 Kvrocks의 벤치마크 성능 평가에 대한 상세한 내용을 다룰 예정입니다.",
+    "url": "https://www.percona.com/blog/inside-kvrocks/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Martin Visser",
+    "pubDate": "2026-11-16T21:49:34.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+    "title": "GitHub Copilot weekly releases — November 9",
+    "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude…\nThe post GitHub Copilot wee",
+    "aiSummary": "GitHub Copilot의 11월 9일 자 업데이트를 통해 이제 GitHub Enterprise Server 저장소를 Copilot 앱에서 직접 연동하여 사용할 수 있게 되었습니다.\n\nVS Code 환경에서는 사용자의 확인이 필요한 에이전트 세션을 우선순위에 따라 식별할 수 있도록 개선되었습니다.\n\n또한 새로운 모델로서 Anthropic의 Claude 모델 시리즈를 추가하여 개발자가 작업 환경에서 더욱 다양한 선택지를 활용할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-16T21:34:53.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+    "title": "Budget limit increased to 40,000 budgets per account",
+    "summary": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers…\nThe post Budget limit ",
+    "aiSummary": "GitHub Enterprise Cloud 계정당 설정 가능한 예산 제한이 기존 10,000개에서 40,000개로 대폭 상향되었습니다.\n\n이번 조치를 통해 개별 사용자별 예산을 설정하거나 다수의 비용 센터를 관리하는 기업 환경에서 더욱 유연하고 정밀한 비용 통제가 가능해집니다. 대규모 조직은 더욱 상세한 예산 관리를 통해 클라우드 비용 효율성을 높일 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-16T21:30:49.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/news/mongodb-named-leader-gartner-magic-quadrant-for-cloud-operational-database-management-systems-2026",
+    "title": "MongoDB Named a Leader in Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems 2026",
+    "summary": "I’m thrilled to share that MongoDB has been named a Leader in the new Gartner Magic Quadrant for Cloud Operational Database Management Systems. \nWe believe our placement as a Leader in a brand-new cat",
+    "aiSummary": "MongoDB가 2026년 Gartner Magic Quadrant for Cloud Operational Database Management Systems 부문에서 리더로 선정되었습니다. 이번 선정은 MongoDB가 데이터 플랫폼에 투입한 대규모 투자와 7만 개 이상의 고객사로부터 얻은 높은 신뢰를 바탕으로 이루어진 성과입니다.\n\n최근 AI 에이전트 도입이 증가함에 따라 데이터 플랫폼의 역할이 더욱 중요해지고 있습니다. 에이전트는 트래픽 변동성을 높이고 실시간 컨텍스트 유지를 요구하기 때문에 탄력성과 비용 효율성이 핵심 요소가 되었습니다. MongoDB는 운영 데이터베이스와 벡터 검색, 하이브리드 검색, 임베딩 모델을 단일 플랫폼에서 통합 제공함으로써 개발자가 데이터 파이프라인을 간소화하고 운영 비용을 절감할 수 있도록 지원합니다.\n\n주요 기술적 성과로는 더욱 향상된 처리량과 쿼리 성능을 제공하는 MongoDB 9.0 출시와 예측 불가능한 트래픽을 처리하는 Atlas Infinite 아키텍처가 있습니다. 또한 개발자가 지속적인 메모리와 가드레일을 갖춘 에이전트를 쉽게 배포하도록 돕는 Atlas Agent Engine과 최신 Voyage AI 모델 등을 도입하여 AI 시대의 데이터 인프라 혁신을 주도하고 있습니다.\n\nMongoDB는 앞으로 데이터 계층이 기업 기술 스택의 핵심 컨트롤 플레인으로 자리 잡을 것으로 전망하며, 실시간 데이터 기반의 능동적인 소프트웨어 환경을 구축하는 데 더욱 집중할 계획입니다.",
+    "url": "https://www.mongodb.com/company/blog/news/mongodb-named-leader-gartner-magic-quadrant-for-cloud-operational-database-management-systems-2026",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-16T20:01:16.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+    "title": "Control where GitHub Copilot customizations come from",
+    "summary": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with",
+    "aiSummary": "GitHub Copilot의 엔터프라이즈 관리자는 이제 사용자의 개별 설정이나 프로젝트 단위의 구성이 아닌 플러그인 또는 관리되는 설정을 통해서만 커스터마이징을 수행하도록 제어할 수 있습니다.\n\n이번 업데이트는 기존의 마켓플레이스 제한 기능과 결합하여 기업 환경에서 GitHub Copilot의 구성을 더욱 중앙 집중적으로 관리하고 보안을 강화할 수 있도록 돕습니다. 이를 통해 관리자는 조직 전체의 일관된 개발 환경을 유지하고 정책에 맞지 않는 외부 설정의 개입을 차단할 수 있습니다.",
+    "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-16T19:48:33.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.5.1",
+    "title": "v12.5.1",
+    "summary": "v12.5.1 (2026-11-16)\nFeatures\ncore\n\n#18523 feat(core): accept module metadata as the root module (@kamilmysliwiec)\nBug fixes\ncommon\n\n#18515 fix(common): reject a date past the end of its month in pars",
+    "aiSummary": "NestJS 프레임워크의 v12.5.1 버전이 2026년 11월 16일에 배포되었습니다. 이번 업데이트는 신규 기능 추가와 버그 수정, 그리고 마이크로서비스 환경에서의 안정성 강화에 초점을 맞추고 있습니다.\n\n주요 변경 사항으로 core 모듈에서는 모듈 메타데이터를 루트 모듈로 허용하는 기능이 추가되었습니다.\n\n마이크로서비스와 관련된 기능 향상이 두드러집니다. rmq, tcp, mqtt, redis, nats 서버에 대해 안정적인 종료를 지원하는 graceful shutdown 기능이 구현되어 서비스 운영의 안정성을 높였습니다. 또한 Kafka 헤더의 중복 값을 올바르게 디코딩하도록 개선하였으며, 클라이언트 종료 시 Kafka 연결 시도를 중단하도록 수정하였습니다.\n\n버그 수정 및 기타 개선 사항으로는 common 패키지에서 날짜 파싱 시 해당 월을 벗어나는 날짜를 거부하도록 수정하였고, platform-node에서 Nunjucks 뷰를 환경 설정을 통해 렌더링하도록 변경하였습니다. 이 외에도 콘솔 로거의 기본 breakLength 설정을 수정하고, 번역 가이드와 라이선스 링크를 절대 경로로 변경하는 등 문서화 작업이 진행되었습니다. 이번 릴리즈에는 총 8명의 커미터가 참여하였습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.5.1",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-16T18:57:12.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+    "title": "Scheduling the removal of the kube-proxy IPVS backend",
+    "summary": "The ipvs backend for kube-proxy was an experiment in providing a\nservice proxy implementation with better performance than the\niptables backend. While it succeeded in that goal, the kernel IPVS\nAPI ha",
+    "aiSummary": "Kubernetes SIG Network은 kube-proxy의 IPVS 백엔드를 공식적으로 폐기할 예정입니다. IPVS는 과거 iptables의 성능 문제를 해결하기 위해 도입되었으나, Kubernetes Service API와의 구조적 불일치, 기능 구현의 불완전함, 유지보수의 어려움으로 인해 더 이상 권장되지 않습니다. 해당 기능은 Kubernetes 1.35 버전부터 폐기 단계에 진입했으며, 1.40 버전에서 완전히 삭제될 계획입니다.\n\nIPVS가 도입되었던 초기 목적은 대규모 클러스터에서 발생하는 데이터 플레인 및 컨트롤 플레인 지연 시간을 개선하는 것이었습니다. 그러나 IPVS API 자체의 한계로 인해 대량의 변경 사항이 발생할 때 처리 효율이 떨어지고, 복잡한 기능을 구현하기 위해 결국 다시 iptables에 의존해야 하는 등 유지보수와 성능 측면에서 한계가 드러났습니다. 또한, RHEL에서 iptables API 제거가 예정됨에 따라 IPVS의 지속적인 지원도 불가능해졌습니다.\n\n사용자는 향후 업데이트에 대비하여 다른 백엔드로 마이그레이션해야 합니다. Kubernetes 1.36 이상 버전과 커널 5.13 이상의 환경을 사용하는 경우에는 완전한 기능을 지원하며 성능이 우수한 nftables 백엔드로의 전환을 강력히 권장합니다. 이는 kube-proxy 설정 변경만으로 비교적 간단히 전환할 수 있습니다.\n\n만약 nftables 사용이 어려운 환경이라면 개선된 iptables 백엔드를 선택할 수 있습니다. 2017년 당시와 달리 현재의 iptables 백엔드는 규칙 생성 최적화, 불필요한 연산 감소, 부분 업데이트 적용 등을 통해 성능이 크게 향상되었습니다. 이를 통해 과거에 iptables를 사용하기 어려웠던 대규모 클러스터에서도 현재는 충분히 안정적인 운영이 가능합니다. iptables로 전환 시에는 설정을 변경한 뒤 노드를 재부팅하는 것이 권장됩니다.",
+    "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-11-16T18:35:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "c84e831e813aae9c114a1c7179100aac35ea0ad7",
+    "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+    "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s",
+    "aiSummary": "AWS Emulator가 새롭게 출시되어 개발자와 코딩 에이전트가 로컬 환경에서 AWS 서비스를 직접 테스트하고 디버깅할 수 있게 되었습니다. 이를 통해 애플리케이션의 예외 상황이나 복잡한 비즈니스 로직을 변경 과정에서 신속하게 검증할 수 있습니다.\n\n함께 발표된 AWS Nitro Sandboxes는 보안이 강화된 격리 환경을 제공하여 더욱 안전한 코드 실행과 서비스 운영을 지원합니다. 이번 업데이트는 로컬 개발 환경의 효율성을 높이고 클라우드 환경과의 일관성을 유지하는 데 중점을 두고 있습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-11-16T17:55:46.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "title": "Broadening access to AI for scientists",
+    "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+    "aiSummary": "OpenAI는 전 세계 과학 연구자들을 지원하기 위해 ChatGPT for Academic Researchers 프로그램을 대폭 확대합니다.\n\n이번 조치를 통해 전 세계 200,000명의 연구자들에게 최신 frontier models를 무료로 사용할 수 있는 혜택을 제공합니다. 이는 학계의 인공지능 활용 접근성을 높이고 연구 효율성을 극대화하기 위한 전략적 결정입니다.",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-16T17:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
     "title": "Beyond the compute bottleneck: Maximizing the ROI of AI accelerators with purpose-built storage",
     "summary": "There’s a lot more to AI infrastructure than just buying accelerators. Indeed, the infrastructure mandate for enterprise AI has shifted from acquiring accelerators to keeping them fully utilized. Next",
@@ -128,6 +290,55 @@
     ]
   },
   {
+    "id": "https://openai.com/index/science-at-the-frontier",
+    "title": "Science at the Frontier: How scientists use ChatGPT",
+    "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+    "aiSummary": "1,800명이 넘는 과학자들을 대상으로 조사한 결과, ChatGPT는 연구 현장에서 일상적인 업무 흐름을 크게 변화시키고 있습니다. \n\n많은 연구자가 ChatGPT를 활용해 논문 작성, 코드 개발, 데이터 분석 등 반복적인 작업을 효율화함으로써 생산성을 높이고 있다고 보고합니다. \n\n과학자들은 이러한 생성형 AI 도구가 단순한 보조 기능을 넘어 향후 새로운 과학적 발견의 속도를 앞당길 중요한 기폭제가 될 것으로 기대하고 있습니다.",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-16T12:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
+    "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems",
+    "summary": "Google has been recognized as a Leader and positioned furthest in vision in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems (Cloud ODBMS).\n\n\n\n\n\n\n\n\n  \n    \nThis reco",
+    "aiSummary": "Google이 2026 Gartner Magic Quadrant for Cloud Operational Database Management Systems 부문에서 리더로 선정되었으며, 특히 비전 완성도 측면에서 가장 높은 평가를 받았습니다. 이번 성과는 Google이 에이전트형 AI 시대를 맞아 데이터를 AI와 분리할 수 없는 통합적이고 개방적인 구조로 설계한 전략이 인정받은 결과입니다.\n\nGoogle은 핵심 데이터베이스 포트폴리오인 Spanner와 AlloyDB를 통해 AI 네이티브 기능을 제공합니다. AlloyDB는 자동 벡터 임베딩과 인덱싱, Google DeepMind 모델 기반의 시계열 예측 기능을 통해 데이터 처리 효율을 극대화하며, Spanner는 관계형, 그래프, 벡터 데이터를 단일 엔진에서 처리하여 복잡한 에이전트 워크플로우를 지원합니다. 특히 Gartner의 Critical Capabilities 보고서 내 Agentic AI Operations 사용 사례에서 Google은 1위를 차지했습니다.\n\n또한 Google은 급변하는 AI 개발 환경에 대응하기 위해 AlloyDB Express를 출시하여 빠른 프로토타이핑과 비용 효율적인 운영 환경을 제공합니다. 이 외에도 Apache Iceberg와 같은 개방형 표준을 지원하고 AlloyDB Omni 및 Spanner Omni를 통해 멀티 클라우드와 온프레미스 환경에서도 일관된 성능을 발휘하는 경계 없는 데이터 플랫폼을 구축하고 있습니다.\n\nGoogle은 이번 Gartner 선정 외에도 IDC MarketScape 보고서에서 글로벌 운영 데이터베이스 부문 리더로 선정되는 등 기술력과 시장 전략에서 높은 평가를 이어가고 있습니다. 향후에도 Google은 기업들이 자율형 AI 에이전트를 대규모로 운영할 수 있도록 강력한 데이터 기반을 지속적으로 제공할 예정입니다.",
+    "url": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Sailesh Krishnamurthy"
+      ],
+      "title": [
+        "VP & GM, Databases"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-16T08:30:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
     "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
     "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their ",
@@ -223,6 +434,38 @@
       "OpenAI",
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.djangoproject.com/weblog/2026/nov/15/2027-dsf-board-nominations/",
+    "title": "2027 DSF Board Nominations",
+    "summary": "The Django Software Foundation is inviting nominations for its 2027 Board of Directors. Five of the seven Board positions are open for election this year.\nThe Board of Directors play a central role in",
+    "aiSummary": "Django Software Foundation은 2027년도 Board of Directors 선거를 위해 5명의 이사를 선출하기 위한 후보자 추천을 시작합니다. 이번 선거는 재단 역사상 처음으로 Executive Director를 채용하는 중요한 거버넌스 전환기에 진행되어 그 의미가 큽니다.\n\n후보 등록은 DSF 회원 여부나 이전 이사회 경험과 관계없이 Django의 미래에 기여하고자 하는 모든 사람에게 열려 있습니다. 지원을 희망하는 경우 2026년 12월 2일 23시 59분까지 공식 홈페이지의 Nomination Form을 작성하여 제출해야 합니다.\n\n선출되는 5명 중 4명은 2년 임기를 수행하며, Jacob Kaplan-Moss가 사임함에 따라 발생하는 나머지 1자리는 잔여 임기인 1년 동안 활동하게 됩니다. 재단은 이사회 운영의 연속성을 유지하기 위해 교차 임기제를 운영하고 있으며, 다양한 배경을 가진 인재들의 적극적인 참여를 기대하고 있습니다.",
+    "url": "https://www.djangoproject.com/weblog/2026/nov/15/2027-dsf-board-nominations/",
+    "category": "백엔드",
+    "source": "Django Weblog",
+    "author": "Priya Pahwa",
+    "pubDate": "2026-11-16T05:33:04.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/how-attackers-target-banks",
+    "title": "How attackers target banks through trusted logins and tools",
+    "summary": "Elastic’s November 2026 threat report shows how attackers exploit trusted sign-ins, AI tools, and remote access. Learn how financial institutions can connect security and fraud signals before money mo",
+    "aiSummary": "Elastic이 발표한 2026년 11월 위협 보고서에 따르면 최근 공격자들은 금융 기관을 겨냥하여 신뢰받는 로그인 계정, AI 도구, 원격 접속 환경을 악용하는 정교한 수법을 사용하고 있습니다.\n\n이러한 위협은 정상적인 사용자나 도구인 것처럼 가장하여 시스템에 침투하기 때문에 탐지가 매우 어렵습니다. 보고서는 금융 기관들이 자금을 탈취당하기 전에 보안 경고와 이상 거래 탐지 신호를 통합하여 분석하는 것이 중요하다고 강조합니다.\n\n결론적으로 금융 서비스 분야에서는 파편화된 보안 데이터를 유기적으로 연결하여 실시간으로 위협을 식별하고 대응 체계를 고도화해야 합니다.",
+    "url": "https://www.elastic.co/blog/how-attackers-target-banks",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Karen Mcdermott",
+    "pubDate": "2026-11-16T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -3722,6 +3965,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/agile-combat-employment",
+    "title": "Distributed by design: Why Agile Combat Employment needs 1 platform, not a dozen",
+    "summary": "Learn how Elastic helps ACE's data problem by unifying, normalizing, and correlating heterogeneous data across sites, providing a common operational picture of equipment health, performance, and secur",
+    "aiSummary": "ACE는 여러 장소에 분산된 환경에서 데이터를 통합하고 표준화하는 데 어려움을 겪고 있습니다. Elastic은 이러한 이기종 데이터를 하나로 통합하고 상관관계를 분석함으로써 장비의 상태와 성능 그리고 보안을 포괄적으로 파악할 수 있는 공통 운영 시각을 제공합니다. 수많은 플랫폼을 개별적으로 운영하는 대신 Elastic을 활용하여 단일 플랫폼 환경을 구축함으로써 데이터 운영의 효율성을 높이고 신속한 의사결정을 지원합니다.",
+    "url": "https://www.elastic.co/blog/agile-combat-employment",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Trevor Yeager",
+    "pubDate": "2026-11-05T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -52498,6 +52757,22 @@
     ]
   },
   {
+    "id": "https://www.elastic.co/blog/behind-the-scenes-genai-data-analytics-public-sector",
+    "title": "How are GenAI and data analytics reshaping the public sector?",
+    "summary": "Elastic's Grant Patterson gives us an inside look on user-focused innovation, how GenAI and data analytics are reshaping the public sector, and insights that customers can use to navigate this rapidly",
+    "aiSummary": "Elastic의 Grant Patterson은 사용자 중심의 혁신을 강조하며 GenAI와 데이터 분석 기술이 공공 부문을 어떻게 변화시키고 있는지에 대해 설명합니다. 해당 기술들은 공공 서비스의 효율성을 높이고 의사결정 과정을 최적화하는 핵심 동력으로 작용하고 있습니다. 공공 부문 고객들은 급변하는 기술 환경 속에서 성공적으로 적응하기 위해 이러한 혁신 도구들을 전략적으로 활용해야 합니다. Grant Patterson은 기술 도입을 고민하는 고객들에게 실질적인 가이드를 제공하며 변화하는 시대에 대응할 수 있는 구체적인 인사이트를 제시합니다.",
+    "url": "https://www.elastic.co/blog/behind-the-scenes-genai-data-analytics-public-sector",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Observability Team",
+    "pubDate": "2024-09-26T07:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-google-cloud",
     "title": "Encryption at rest in Elastic Cloud: Bring your own key with Google Cloud",
     "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using Google Cloud Key Management Service.",
@@ -53246,6 +53521,38 @@
     "author": "Israel Ogbole,Thomas Dullien,Sean Heelan",
     "pubDate": "2023-01-18T23:00:00.000Z",
     "fetchedAt": "2026-06-16T18:59:30.600Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review",
+    "title": "Looking back at 2022 — Elastic year in review",
+    "summary": "2022 was an amazing year for Elastic with the introduction of new innovations across our solutions, new customers, and deepening partnerships. As we take a moment to reflect on the year in review, we’",
+    "aiSummary": "2022년은 Elastic에게 있어 다양한 솔루션 혁신과 새로운 고객 확보, 그리고 파트너십 강화를 이뤄낸 뜻깊은 한 해였습니다. 이번 연말 결산을 통해 지난 한 해 동안 Elastic이 달성한 성과를 돌아보고, 사용자들로부터 가장 많은 관심을 받았던 주요 블로그 게시물들을 정리하여 소개합니다.",
+    "url": "https://www.elastic.co/blog/looking-back-at-2022-elastic-year-in-review",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Observability Team",
+    "pubDate": "2023-01-03T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-aws-reinvent-2022",
+    "title": "Elastic at AWS re:Invent 2022",
+    "summary": "AWS re:Invent 2022 — Stop by Elastic booth #3004 or attend an Elastic speaking session. Learn about our new search, observability, and security capabilities and vision for a serverless Elasticsearch.",
+    "aiSummary": "AWS re:Invent 2022 행사에 참여하는 Elastic은 3004번 부스와 다양한 세션을 통해 최신 기술을 선보입니다. 이번 행사에서는 Elastic의 새로운 검색 및 관측성, 보안 기능을 소개하며 서버리스 Elasticsearch에 대한 미래 비전을 제시할 예정입니다. 행사장 방문객들은 해당 세션에 참석하여 Elastic의 기술적 도약과 향후 발전 방향에 대해 심도 있게 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-aws-reinvent-2022",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Elastic Observability Team",
+    "pubDate": "2022-11-14T00:00:00.000Z",
+    "fetchedAt": "2026-11-17T05:07:36.015Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
