@@ -1,5 +1,183 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_148",
+    "title": "Visual Studio Code 1.148 (Insiders)",
+    "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements.\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.148 Insiders 빌드가 새롭게 공개되었습니다. 이번 업데이트에는 AI 에이전트 세션 관리 기능이 추가되어 작업 흐름을 더욱 효율적으로 지원합니다.\n\n또한 에디터 탭 기능에 대한 개선 사항이 포함되어 사용자 경험이 향상되었습니다. 구체적인 변경 사항과 상세한 기능 활용 방법은 공식 블로그를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_148",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-11-18T16:34:29.723Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/persistent-sessions-memory-for-strands",
+    "title": "Persistent Sessions and Memory for Strands with MongoDB",
+    "summary": "Today, we’re launching the MongoDB Strands Harness SDK Integration, available now as the open-source strands-mongodb Python package. Strands, built and maintained by AWS, is an open-source framework f",
+    "aiSummary": "AWS에서 유지 및 관리하는 오픈소스 AI 에이전트 프레임워크 Strands를 위해 MongoDB Strands Harness SDK Integration이 출시되었습니다. 이 통합 패키지는 Python 환경에서 Strands 에이전트가 MongoDB를 단일 데이터 플랫폼으로 활용하여 세션 지속성과 장기 기억 기능을 구현할 수 있도록 지원합니다.\n\n세션 관리 측면에서는 AWS Lambda와 같이 일회성 환경에서 실행되는 에이전트가 재시작되거나 다른 인스턴스로 전환되더라도 이전 대화와 작업 상태를 유지할 수 있게 합니다. 모든 세션은 MongoDB에 저장되며, 고유한 세션 ID를 통해 언제 어디서든 상태를 불러오는 것이 가능합니다.\n\n기억 관리 기능은 MemoryManager를 통해 에이전트가 학습한 사실을 장기적으로 저장하고 필요할 때 검색할 수 있게 합니다. 특히 Atlas Automated Embedding을 사용하여 별도의 임베딩 파이프라인 구축 없이도 텍스트 기반의 벡터 검색을 자동으로 수행할 수 있으며, 데이터 중복 제거와 테넌트 격리 기능을 통해 효율적이고 안전한 운영 환경을 제공합니다.\n\n이번 통합으로 개발자는 에이전트의 핵심 로직을 변경하지 않고도 MongoDB를 활용해 상태 저장 시스템을 구축할 수 있습니다. 또한 Atlas Vector Search를 통해 운영 데이터와 에이전트 기억을 동일한 데이터베이스에서 관리할 수 있어 데이터 동기화에 따른 복잡함을 해소합니다. 해당 기능은 Python 3.10 이상의 환경과 최신 Strands 라이브러리를 통해 즉시 활용할 수 있습니다.",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/persistent-sessions-memory-for-strands",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-18T15:11:01.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=education&p=758282",
+    "title": "LinkedIn Connected Apps 1.2: Clearer Level System, Visible Progress, and Direct Answers About Privacy",
+    "summary": "What if your LinkedIn profile reflected how you actually build software instead of just being a list of your skills? That’s what the LinkedIn Connected Apps plugin does: It tracks how you use your Jet",
+    "aiSummary": "LinkedIn Connected Apps 1.2 버전이 업데이트되면서 사용자의 실제 소프트웨어 개발 활동을 LinkedIn 프로필에 더욱 명확하게 반영할 수 있게 되었습니다.\n\n이번 업데이트의 핵심은 직관적인 레벨 시스템의 도입과 진행 상황을 시각화하는 기능입니다. 사용자는 JetBrains IDE를 사용하는 동안 자신의 활동을 추적할 수 있으며, 이를 바탕으로 부여된 레벨과 함께 자신의 기술 수준을 설명하는 문구를 프로필에 게시할 수 있습니다.\n\n또한 개인정보 보호와 관련된 사용자의 궁금증을 해소하기 위해 데이터 처리 방식과 보안에 관한 직접적인 답변을 제공합니다. 이를 통해 사용자는 자신의 개발 경험을 단순한 스킬 나열이 아닌 실질적인 개발 기록으로 증명할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/education/2026/11/18/linkedin-connected-apps-1-2-clearer-level-system-visible-progress-and-direct-answers-about-privacy/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Anastasia Khramushina",
+    "pubDate": "2026-11-18T13:49:33.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.164.0",
+    "title": "0.164.0",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 버전 0.164.0이 새롭게 출시되었습니다. 이번 업데이트에는 코딩 에이전트가 설치된 버전에 맞는 최신 기능과 권장 패턴을 활용할 수 있도록 돕는 공식 스킬이 추가되었습니다. 해당 기능은 프로젝트 내에서 uvx library-skills 명령어를 통해 설치하여 사용할 수 있습니다.\n\n또한, 개발자가 요청 본문의 크기 제한을 직접 설정할 수 있는 기능이 새롭게 도입되었습니다. 이번 변경 사항은 @tiangolo에 의해 PR #16781을 통해 적용되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.164.0",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-18T13:08:49.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.11",
+    "title": "v11.2.11",
+    "summary": "What's changed\n@nestjs/common\n\nfix(common): preserve sparse array length in default value pipe — backport of #18551\n@nestjs/core\n\nfix(core): keep the nest functions in the repl after \".clear\" — backpo",
+    "aiSummary": "NestJS v11.2.11 버전 업데이트가 진행되었습니다.\n\n@nestjs/common 패키지에서는 기본값 파이프 사용 시 희소 배열의 길이를 유지하도록 수정되었습니다.\n\n@nestjs/core 패키지에서는 REPL 환경에서 .clear 명령어를 실행한 이후에도 Nest 관련 함수들이 정상적으로 유지되도록 개선되었습니다.\n\n@nestjs/platform-fastify 패키지에서는 의존성인 @fastify/middie를 v9.3.6으로 업데이트하였습니다. 이 과정에서 경로 설정과 관련된 미들웨어 동작 방식이 일부 변경되어, 이제 * 경로에 바인딩된 미들웨어가 루트 경로(/)에서는 실행되지 않습니다. 상세한 변경 사항은 이전 버전인 v11.2.10과 v11.2.11 사이의 전체 변경 로그를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.11",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-18T08:44:35.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.11",
+    "title": "1.5.11",
+    "summary": "Added dragging a subagent's tab from the side panel into the message box in the Remote Control browser view, which adds an @ mention of that subagent's conversation to your message.\nImproved undo in V",
+    "aiSummary": "Remote Control 브라우저 뷰에서 서브 에이전트 탭을 메시지 창으로 드래그하면 해당 대화를 @ 멘션으로 추가하는 기능이 도입되었습니다. 파일 및 아티팩트 탭은 이제 사이드바가 닫힌 상태로 열려 전체 너비를 활용할 수 있게 개선되었습니다. 또한 Remote Control 브라우저 뷰에서 대용량 파일 업로드 제한이 20MB로 상향되었으며, 긴 대화 내역에서 인용구 클릭 시 해당 위치로 정확히 스크롤 되도록 수정되었습니다.\n\nVim 모드의 실행 취소 기능은 Vim 표준 동작에 맞춰 변경되었습니다. u 명령은 더 이상 편집 그룹을 묶지 않고 개별 명령 단위로 되돌리며, Insert 모드 진입 전의 작업이나 연산자 실행 시 커서 위치 문제도 해결되었습니다.\n\nagy 플러그인 검증 기능이 강화되어 설치 전 로컬 폴더, .zip 파일, https 링크, GitHub URL 등을 통해 미리 확인이 가능합니다. 또한 Windows 편집기에서 생성된 UTF-8 BOM이 포함된 plugin.json 파일이 정상적으로 로드되지 않던 문제가 해결되었습니다.\n\nGEMINI_API_KEY 사용 시 /usage, /quota, /credits 명령의 오작동 문제가 수정되었습니다. 해당 명령은 이제 자동 완성 및 도움말에서 제외되며, 실행 시 AI Studio를 통한 사용량 확인을 안내합니다. 마지막으로 CLI 설치 과정에서 불필요한 오류 로그가 표시되던 버그가 수정되어 설치 상태를 명확히 확인할 수 있게 되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.11",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-18T06:51:46.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/wal-g-3010-released-3448/",
+    "title": "WAL-G 3.0.10 released\n",
+    "summary": "The WAL-G team is pleased to announce the release of WAL-G 3.0.10.\nWAL-G is an open-source backup and recovery tool for PostgreSQL,\nApache Cloudberry, MySQL/MariaDB, MongoDB, Redis, and other\ndatabase",
+    "aiSummary": "오픈소스 데이터베이스 백업 및 복구 도구인 WAL-G가 3.0.10 버전을 새롭게 출시하였습니다. PostgreSQL을 비롯하여 Apache Cloudberry, MySQL, MariaDB, MongoDB, Redis 등 다양한 데이터베이스 환경을 지원합니다.\n\nPostgreSQL 관련 주요 업데이트로 wal-send 기능이 추가되었습니다. 이를 통해 PostgreSQL 스트리밍 복제 프로토콜을 사용하여 아카이브된 WAL을 전송할 수 있으며, 대기 서버나 pg_receivewal이 객체 스토리지로부터 직접 WAL을 읽어 동기화할 수 있습니다. 또한 데몬 모드에서의 연속적인 WAL 아카이빙 개선, 백업 완료 전 WAL 세그먼트 적재 확인 기능, 백업 이름 중복 방지를 위한 예약 시스템 등이 도입되었습니다.\n\nS3 지원 부분에서는 AWS SDK v2를 적용하여 요청 시간 초과 설정, 재시도 가능한 오류 코드 관리, 체크섬 설정 등을 강화하였습니다. 데이터 전송 시 서버 측 복사 기능을 활용할 수 있고 전송 동시성도 설정 가능합니다.\n\nGreenplum과 Cloudberry 환경에서는 공유 스토리지 회계 처리 및 세그먼트 백업과 복구 관련 연산 오류가 개선되었습니다. 보관 정책에 의해 자동 삭제되지 않던 영구 백업을 명시적인 삭제 대상을 통해 제거할 수 있도록 변경된 점도 주목해야 합니다. 보다 자세한 변경 사항은 GitHub 릴리스 페이지를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/wal-g-3010-released-3448/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgjumbo-a-new-free-desktop-client-for-postgresql-3444/",
+    "title": "pgjumbo: a new free desktop client for PostgreSQL\n",
+    "summary": "pgjumbo is a new desktop client for PostgreSQL 12+, free to use, for Windows, macOS and Linux, with query, data and administration tools.\npgjumbo connects to PostgreSQL 12+, including Amazon Aurora an",
+    "aiSummary": "pgjumbo는 PostgreSQL 12 이상 버전을 지원하는 무료 데스크톱 클라이언트로 Windows, macOS, Linux 환경에서 사용할 수 있습니다. Amazon Aurora와 RDS를 포함한 다양한 환경에 직접 연결하거나 SSL, SSH 터널을 통해 접속하는 기능을 제공합니다.\n\n이번 1.0.2 버전에는 데이터베이스 객체 탐색기 및 검사기, 실시간 구문 분석과 시각적 EXPLAIN 기능을 포함한 쿼리 도구, 변경 사항을 미리 확인하고 저장하는 데이터 편집기가 포함되어 있습니다.\n\n또한 pg_dump와 pg_restore를 기반으로 한 백업 및 복원 기능과 함께 VACUUM, ANALYZE, REINDEX를 수행하는 유지보수 도구도 갖추고 있습니다. 이외에도 서버 활동 모니터링, 역할 및 권한 관리, 로그 확인, 복제 관리 등 데이터베이스 운영에 필요한 포괄적인 기능을 지원합니다.\n\n특히 운영 서버의 경우 파괴적인 명령 실행 시 확인 절차를 거치며 모든 변경 사항을 SQL 형태로 미리 검토할 수 있도록 설계되어 안전성을 강화했습니다.",
+    "url": "https://www.postgresql.org/about/news/pgjumbo-a-new-free-desktop-client-for-postgresql-3444/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgsherpa-a-free-postgresql-monitoring-companion-for-macos-3446/",
+    "title": "pgSherpa: a free PostgreSQL monitoring companion for macOS\n",
+    "summary": "CortexRidge has released pgSherpa, a free desktop companion for PostgreSQL on macOS, now available on the Mac App Store.\npgSherpa sits in a corner of the screen and polls one or more PostgreSQL server",
+    "aiSummary": "CortexRidge가 macOS를 위한 무료 PostgreSQL 모니터링 도구인 pgSherpa를 출시하였습니다. 이 소프트웨어는 Mac App Store를 통해 이용할 수 있으며, PostgreSQL 12 버전부터 18 버전까지의 서버를 모니터링합니다.\n\npgSherpa는 화면 한쪽에 상주하며 서버 상태를 실시간으로 확인합니다. 주요 기능으로는 잠금 대기, 장기 실행 세션, 복제 지연, VACUUM 진행 상황 등을 포함한 서버 건강 상태 점검과 보안 취약점 관리, SSL 및 암호화 설정 확인이 있습니다. 또한 DigitalOcean Managed Databases, Supabase, Amazon RDS 및 Aurora PostgreSQL과 같은 클라우드 서비스의 백업 및 장애 조치 상태를 API를 통해 직접 확인합니다.\n\n사용자는 내장된 SQL 쿼리 상자를 통해 데이터베이스를 조회할 수 있으며, 기본적으로 모든 문은 읽기 전용 트랜잭션으로 실행됩니다. 서버 내부에 별도의 확장 프로그램이나 에이전트를 설치할 필요가 없으며, pg_monitor 권한을 가진 계정만 있으면 즉시 사용이 가능합니다. 모든 민감한 정보는 macOS Keychain에 안전하게 저장되며 사용자 추적이나 원격 통신은 수행하지 않습니다. 본 도구는 macOS 12 이상의 환경에서 Apple silicon 및 Intel Mac 모두를 지원합니다.",
+    "url": "https://www.postgresql.org/about/news/pgsherpa-a-free-postgresql-monitoring-companion-for-macos-3446/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-cloud-serverless-now-available-azure-toronto",
+    "title": "Celebrating Microsoft Ignite with Azure region expansion in Toronto",
+    "summary": "Elastic announces the availability of Elastic Cloud Serverless in the Microsoft Azure region of Toronto, bringing serverless Azure regions to 13 worldwide. Elastic meets customers where their data is ",
+    "aiSummary": "Elastic이 Microsoft Ignite 행사를 맞아 캐나다 Toronto의 Microsoft Azure 리전에 Elastic Cloud Serverless를 공식 출시합니다. 이번 확장으로 전 세계 13개 지역에서 Elastic의 서버리스 서비스를 이용할 수 있게 되었습니다. Elastic은 사용자가 데이터가 위치한 곳 어디에서든 유연하게 서비스를 활용할 수 있도록 지원 범위를 지속적으로 넓히고 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-cloud-serverless-now-available-azure-toronto",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Lucy Wang,Brian Bergholm",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://code.visualstudio.com/blogs/2026/11/18/copilot-harness",
+    "title": "The Copilot harness: Building on a shared foundation",
+    "summary": "Learn why VS Code is moving from the Local harness to the Copilot harness, guided by data and user feedback.\nRead the full article",
+    "aiSummary": "VS Code가 사용자 피드백과 데이터 분석을 바탕으로 기존의 Local harness 체계에서 Copilot harness 체계로 전환하는 과정을 설명합니다. 이번 변화는 통합된 기반 기술을 활용하여 개발 생산성을 높이고 소프트웨어 품질을 개선하기 위한 전략적 결정입니다. 향후 VS Code 환경은 더욱 유기적으로 Copilot과 결합하여 효율적인 개발 경험을 제공할 예정입니다.",
+    "url": "https://code.visualstudio.com/blogs/2026/11/18/copilot-harness",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Brigit Murtaugh",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
     "id": "https://spring.io/blog/2026/11/18/this-week-in-spring-november-18th-2026",
     "title": "This Week in Spring - November 18th, 2026",
     "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
@@ -13,6 +191,22 @@
     "tags": [
       "Spring",
       "Java"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-43-0",
+    "title": "JSON Schema Validation Rules and a RetryFor Attribute in Laravel 13.43",
+    "summary": "Laravel 13.43 turns JSON schemas into validation rules, adds a #[RetryFor] queue attribute and releaseUsingBackoff(), and ships several security fixes.\nThe post JSON Schema Validation Rules and a Retr",
+    "aiSummary": "Laravel 13.43 버전이 출시되면서 JSON Schema를 활용한 검증 규칙 기능을 새롭게 도입했습니다. 이를 통해 개발자는 데이터 검증 과정을 더욱 효율적으로 처리할 수 있게 되었습니다.\n\n또한 큐 작업의 안정성을 높이기 위해 RetryFor 속성과 releaseUsingBackoff 메서드가 추가되었습니다. 해당 기능을 활용하면 실패한 작업에 대한 재시도 로직을 더욱 세밀하게 제어할 수 있습니다.\n\n이외에도 이번 업데이트에는 전반적인 프레임워크의 보안을 강화하기 위한 여러 가지 수정 사항이 포함되어 있습니다.",
+    "url": "https://laravel-news.com/laravel-13-43-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-11-17T23:07:18.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -318,6 +512,22 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=757982",
+    "title": "Kotlin Toolchain 0.14: Agentic Development and iOS Publishing",
+    "summary": "The Kotlin Toolchain helps you build and ship multiplatform apps faster, with less setup and configuration. Its CLI provides a unified workflow for building, running, testing, and publishing apps for ",
+    "aiSummary": "Kotlin Toolchain 0.14 버전이 새롭게 출시되었습니다. 이번 업데이트는 멀티플랫폼 앱 개발 및 배포 과정을 간소화하는 데 중점을 두었습니다.\n\n주요 변경 사항으로는 AI 에이전트를 활용한 개발 환경을 더욱 효과적으로 지원하며, 안드로이드와 iOS를 비롯해 데스크톱 및 웹 플랫폼 전반에 걸친 빌드, 테스트, 배포 과정을 통합된 CLI 환경에서 일관되게 수행할 수 있도록 개선되었습니다.\n\n특히 이번 버전에서는 iOS 앱 배포 절차를 이전보다 훨씬 간편하게 개선하여 개발 생산성을 높였습니다. 개발자는 복잡한 초기 설정이나 구성 없이도 다양한 플랫폼을 대상으로 효율적인 개발 워크플로우를 유지할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-toolchain-0-14-agentic-development-and-ios-publishing/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Kirill Likhodedov",
+    "pubDate": "2026-11-17T15:25:05.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "Kotlin",
+      "Android"
     ]
   },
   {
@@ -1837,6 +2047,22 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=idea&p=751503",
+    "title": "Forrester Consulting Finds IntelliJ IDEA Delivered 155% ROI and Highlights Open Approach to AI",
+    "summary": "We’re excited to share Forrester’s newly released Total Economic Impact™ (TEI) study of IntelliJ IDEA, which JetBrains commissioned to understand how IntelliJ IDEA has delivered value historically and",
+    "aiSummary": "JetBrains가 의뢰하고 Forrester Consulting이 수행한 Total Economic Impact 연구 결과에 따르면 IntelliJ IDEA를 도입한 기업들은 3년 동안 155%의 투자 대비 효과인 ROI를 달성한 것으로 나타났습니다.\n\n이번 연구는 400개에서 4000개 사이의 IntelliJ IDEA 라이선스를 사용하는 기업의 고위 엔지니어링 및 기술 리더들을 대상으로 인터뷰를 진행하여 분석되었습니다. 해당 연구는 IntelliJ IDEA가 개발자의 생산성을 크게 향상시키고 코드 품질을 개선하며 개발 환경을 최적화하는 데 실질적인 기여를 하고 있음을 입증했습니다.\n\n특히 이번 결과에서는 JetBrains의 AI 기술에 대한 개방적인 접근 방식이 강조되었습니다. IntelliJ IDEA는 특정 AI 모델에 종속되지 않고 다양한 도구와 통합할 수 있는 유연성을 제공하여 개발자들이 자신의 워크플로우에 맞는 AI 솔루션을 선택하고 활용할 수 있도록 지원합니다.\n\n결과적으로 IntelliJ IDEA는 단순한 개발 도구를 넘어 기업의 개발 인프라 효율성을 높이고 인적 자원의 가치를 극대화하는 전략적 투자 수단임이 확인되었습니다. 많은 조직이 IntelliJ IDEA를 통해 복잡한 소프트웨어 개발 과정을 간소화하고 더 높은 비즈니스 가치를 창출하고 있습니다.",
+    "url": "https://blog.jetbrains.com/idea/2026/11/forrester-intellij-idea-roi-2026/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Colette Des Georges",
+    "pubDate": "2026-11-12T14:43:36.000Z",
+    "fetchedAt": "2026-11-18T16:34:29.723Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
     ]
   },
   {
