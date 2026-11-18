@@ -1,5 +1,310 @@
 [
   {
+    "id": "https://spring.io/blog/2026/11/18/this-week-in-spring-november-18th-2026",
+    "title": "This Week in Spring - November 18th, 2026",
+    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
+    "aiSummary": "해당 문서는 Broadcom이 운영하는 Spring 생태계와 관련하여 사용된 각종 상표권 및 저작권에 관한 법적 고지 사항을 담고 있습니다.\n\n제공된 내용은 Apache, Java, Kubernetes, Linux, Microsoft, AWS 등 Spring 프레임워크와 연관된 다양한 기술 및 서비스의 상표권 소유 주체를 명시하고 있으며, 해당 명칭들이 정보 제공의 목적으로 사용되었음을 밝히고 있습니다. 실질적인 Spring 프레임워크의 기술적 업데이트 정보는 포함되어 있지 않으며 법적 면책 및 권리 관계에 대한 안내로 구성되어 있습니다.",
+    "url": "https://spring.io/blog/2026/11/18/this-week-in-spring-november-18th-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://devblogs.microsoft.com/dotnet/?p=61260",
+    "title": "Introducing staged publishing on NuGet.org",
+    "summary": "Stage and validate packages privately on NuGet.org, then approve their release when you are ready.\nThe post Introducing staged publishing on NuGet.org appeared first on .NET Blog.",
+    "aiSummary": "NuGet.org에 패키지를 비공개 상태로 먼저 업로드하여 검증할 수 있는 staged publishing 기능이 새롭게 도입되었습니다.\n\n해당 기능을 사용하면 개발자가 패키지를 직접 배포하기 전에 비공개 환경에서 미리 테스트하고 검증 과정을 거칠 수 있습니다.\n\n검증이 완료된 패키지는 준비가 되었을 때 승인 절차를 통해 공식적으로 출시할 수 있습니다.",
+    "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
+    "category": "프로그래밍 언어",
+    "source": ".NET Blog",
+    "author": "Jon Douglas, James Parsons",
+    "pubDate": "2026-11-17T21:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "C#",
+      ".NET"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+    "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+    "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6…\nThe",
+    "aiSummary": "OpenAI가 개발한 새로운 모델인 GPT-6.2 Astra와 GPT-6.2 Sol이 GitHub Copilot을 통해 정식으로 공개되었습니다.\n\n두 모델은 에이전트 기반의 코딩과 코드 리뷰 작업에 특화되어 설계되었습니다. 기존 GPT-6 시리즈와 비교했을 때 코딩에 대한 판단 능력이 더욱 강화된 것이 특징입니다.",
+    "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-17T20:20:29.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "/blog/how-were-using-ai-to-make-nextjs-more-secure",
+    "title": "How we're using AI to make Next.js more secure",
+    "summary": "Why you're seeing more Next.js security advisories, and what we're doing about it.",
+    "aiSummary": "최근 Next.js 보안 권고 사항이 증가하는 현상은 프레임워크의 생태계가 확장되고 복잡해짐에 따라 발생하는 자연스러운 과정입니다. Vercel은 이러한 보안 문제를 선제적으로 해결하기 위해 AI를 적극적으로 도입하고 있습니다.\n\n구체적으로는 AI를 활용하여 코드베이스 내의 잠재적인 취약점을 자동으로 탐지하고 분석하는 시스템을 구축하고 있습니다. 이를 통해 보안 위협을 더욱 신속하게 식별하여 패치와 업데이트를 배포하는 속도를 높이고 있습니다.\n\n또한 개발자들이 보안 설정을 더 쉽게 이해하고 적용할 수 있도록 AI 기반의 가이드를 제공하여 인적 오류를 최소화하는 데 집중하고 있습니다. 결과적으로 이러한 기술적 노력은 Next.js 사용자들이 더 안전한 환경에서 웹 애플리케이션을 개발하고 운영할 수 있도록 돕기 위한 것입니다.",
+    "url": "https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure",
+    "category": "프론트엔드",
+    "source": "Next.js Blog",
+    "author": "Next.js Blog",
+    "pubDate": "2026-11-17T20:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure/",
+    "title": "Simplifying multicloud networking to Azure with partner Cross-Cloud Interconnect",
+    "summary": "As AI changes how businesses build and run applications, more enterprises are spreading their models, data and applications across multiple clouds. To make that work, they need fast, private connectio",
+    "aiSummary": "Google Cloud는 기업의 멀티클라우드 환경 구성을 지원하기 위해 Microsoft Azure와 협력하여 파트너 Cross-Cloud Interconnect 서비스를 제공합니다. 기존의 복잡한 물리적 연결 방식과 달리, 이 서비스는 프로그래밍 방식으로 몇 분 안에 Google Cloud와 Azure 간의 전용 고대역폭 연결을 설정할 수 있게 합니다.\n\n주요 이점으로는 물리적 하드웨어 구축 없이 즉시 연결이 가능한 편의성, 이중화를 통한 높은 신뢰성, 공용 인터넷을 거치지 않는 보안성, 그리고 예측 가능한 고정 가격 정책이 있습니다. 현재 이 서비스는 us-east4, us-west2, europe-west3 지역에서 프리뷰 형태로 제공되며, 향후 정식 출시와 함께 지원 지역이 확대될 예정입니다.\n\n이번 서비스는 네트워크 상호 운용성을 위한 오픈 스펙을 기반으로 구축되었습니다. Google Cloud는 이미 AWS 및 OCI와도 유사한 연결 서비스를 지원하고 있으며, 이번 Microsoft와의 협업을 통해 더욱 다양한 환경에서 멀티클라우드 워크로드를 유연하고 효율적으로 관리할 수 있는 기반을 마련했습니다. Nestlé나 Walmart와 같은 글로벌 기업들은 이를 통해 인프라 복잡성을 줄이고 클라우드 간 데이터 및 애플리케이션 연결 속도를 개선하는 성과를 얻고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Himanshu Mehra"
+      ],
+      "title": [
+        "Director, Product Management, Cloud Networking"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-17T18:35:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/160919119/0.163.2",
+    "title": "0.163.2",
+    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
+    "aiSummary": "FastAPI 버전 0.163.2가 릴리스되었습니다. 이번 업데이트에서는 코딩 에이전트가 설치된 버전의 최신 기능과 권장 패턴을 활용할 수 있도록 돕는 공식 skill이 추가되었으며, 이는 uvx library-skills 명령어를 통해 프로젝트에 설치할 수 있습니다.\n\n코드 내부적으로는 query와 header, 그리고 form 파라미터 추출 방식에 대한 리팩토링이 이루어졌습니다. 또한 한국어를 포함한 다국어 번역 데이터가 대규모로 업데이트되어 최신 상태로 유지되었습니다.\n\n운영 및 내부 환경 개선 사항으로 opentelemetry-api 의존성 버전이 1.45.1에서 1.45.2로 상향 조정되었으며, 전체 테스트 매트릭스 범위를 Python 3.15 버전으로 제한하는 변경이 적용되었습니다.",
+    "url": "https://github.com/fastapi/fastapi/releases/tag/0.163.2",
+    "category": "백엔드",
+    "source": "FastAPI Releases",
+    "author": "github-actions[bot]",
+    "pubDate": "2026-11-17T18:28:44.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+    "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+    "summary": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare…",
+    "aiSummary": "GitHub Copilot Fusion이 새로운 모델을 추가하고 더 많은 서비스 영역에서 이용 가능하도록 업데이트되었습니다. 이번 업데이트를 통해 사용자들은 더 다양한 환경에서 기능을 활용할 수 있게 되었으며, Terminal-Bench 리더보드에 공개된 두 가지 벤치마크 결과를 통해 성능을 직접 비교하고 검증할 수 있습니다. 이를 통해 GitHub Copilot Fusion의 범용성과 기술적 신뢰도가 한층 강화되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-17T18:04:48.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-github-copilot-app-microsoft-ignite-releases",
+    "title": "GitHub Copilot app, Microsoft Ignite releases",
+    "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re…\nThe post GitHu",
+    "aiSummary": "GitHub Copilot 앱이 사용자의 업무 환경 전반에서 활용될 수 있도록 지원 범위를 확대합니다. 이제 Azure DevOps 리포지토리와 GitHub Enterprise Server 인스턴스에 대한 접근을 지원하며 웹 브라우저와의 연동성도 강화되었습니다. 이번 업데이트는 Microsoft Ignite 행사를 통해 발표되었으며 개발자가 사용하는 다양한 플랫폼에서 더욱 통합된 코딩 보조 경험을 제공하는 데 중점을 둡니다.",
+    "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-17T18:03:42.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-16-copilot-code-review-adaptive-effort-secret-detection-and-more",
+    "title": "Copilot code review: Adaptive effort, secret detection, and more",
+    "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and…\nThe post Copilot code",
+    "aiSummary": "GitHub Copilot code review 기능이 업데이트되어 개발자가 더 적은 노력으로 초기 단계에서 많은 문제를 발견할 수 있게 되었습니다.\n\n이번 업데이트의 핵심인 Adaptive effort 기능은 Pull request의 성격에 맞춰 코드 리뷰의 깊이를 자동으로 조절합니다. 일상적인 변경 사항은 빠르게 검토하고 복잡한 변경 사항은 더 심도 있게 분석하여 효율적인 개발 환경을 제공합니다.\n\n또한 보안 강화를 위해 secret detection 기능이 추가되었습니다. 코드 내에 실수로 포함된 민감한 정보나 비밀키 등을 자동으로 탐지하여 보안 사고를 사전에 방지할 수 있도록 지원합니다.",
+    "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-17T18:02:05.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+    "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+    "summary": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major…\nThe post MAI Code 2 and MAI C",
+    "aiSummary": "Microsoft가 차세대 AI 코딩 모델인 MAI Code 2와 MAI Code 2 Flash를 GitHub Copilot에 새롭게 도입합니다.\n\n이번에 공개된 두 모델은 성능과 효율성을 크게 개선하여 개발자들에게 한층 향상된 코딩 경험을 제공합니다. 특히 MAI Code 2는 복잡한 작업에 최적화된 높은 성능을 제공하며 MAI Code 2 Flash는 빠른 속도와 효율성에 중점을 두고 설계되었습니다. \n\n이러한 모델 업데이트를 통해 GitHub Copilot은 개발 생산성을 높이고 보다 정교한 AI 기반 프로그래밍 지원을 강화할 예정입니다.",
+    "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-17T18:01:45.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "title": "Introducing GPT-6.2 Astra and Sol",
+    "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+    "aiSummary": "OpenAI가 새로운 모델인 GPT-6.2 Astra와 Sol을 공개했습니다.\n\n이번 신규 모델은 전문적인 작업 결과물과 코딩 능력을 한층 강화했으며, 컴퓨터 사용 기능과 효율성을 크게 개선했습니다.\n\nChatGPT Work와 Codex, 그리고 API 전반에 걸쳐 적용되며 이전보다 낮은 비용으로 더욱 향상된 성능을 제공합니다.",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-17T17:45:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
+    "id": "8792b36d1af1b35d715874ec8395260652442a9e",
+    "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+    "summary": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together",
+    "aiSummary": "AWS는 곧 개최될 AWS re:Invent 행사를 앞두고 전 세계 4개 대륙에서 활동 중인 새로운 AWS Heroes를 선정하여 발표했습니다.\n\nAWS Heroes는 지식 공유와 커뮤니티 조성, 그리고 타인의 성공을 돕는 도구 개발 등을 통해 AWS 생태계 발전에 기여한 인물들로 구성됩니다. 이번 선정을 통해 AWS는 빌더들을 지원하고 커뮤니티를 활성화하기 위해 헌신하는 이들의 노고를 인정하고 응원하고자 합니다.",
+    "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Taylor Jacobsen",
+    "pubDate": "2026-11-17T17:06:43.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant/",
+    "title": "Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms",
+    "summary": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms, positioned highest overall on the Ability to Execute ax",
+    "aiSummary": "Google Cloud는 2026 Gartner Magic Quadrant for AI Application Development Platforms 부문에서 3회 연속 리더로 선정되었으며, 특히 Ability to Execute 항목에서 가장 높은 평가를 받았습니다. 기업들이 AI를 통해 실질적인 업무 자동화와 투자 대비 효과를 달성할 수 있도록 지원하는 Gemini 플랫폼의 핵심 전략은 다음과 같습니다.\n\n첫째, Gemini는 별도의 개발 환경 없이도 Google Workspace, Microsoft 365 등 기존 업무 도구 내에서 즉시 활용 가능한 유니버설 에이전트 환경을 제공합니다. 이를 통해 비기술직군도 자연어를 사용하여 맞춤형 에이전트를 구축할 수 있으며, 기업 전반의 지식과 기술을 공유하고 표준화할 수 있습니다.\n\n둘째, Google Cloud는 Google, Anthropic, OpenAI의 최신 모델을 단일 플랫폼에서 제공하여 고객이 특정 업체에 종속되지 않는 유연한 모델 선택권을 보장합니다. 최근에는 코드 작성, 법률, 금융, 사이버 보안 등 각 분야에 특화된 Gemini 4 Argon, Carbon, Hydrogen 모델을 출시하여 업무 효율을 극대화하고 있습니다.\n\n셋째, 비용 최적화와 거버넌스를 강화했습니다. TPU 기술과 모델 조합을 최적화하여 비용 효율을 높였으며, 프로젝트별 지출 한도 설정과 같은 FinOps 도구를 제공합니다. 또한 Agent Identity와 Agent Gateway 등을 통해 데이터 보안과 컴플라이언스를 실시간으로 준수하며, 기업이 보유한 BigQuery, SAP, Salesforce 등 내부 시스템 데이터와 안전하게 연동하여 AI 에이전트를 운영할 수 있도록 지원합니다.\n\n이와 같은 통합적인 접근 방식은 Dojo, PayPal, Imgix, UKG 등 대규모 기업들이 복잡한 기술적 장벽을 넘어 AI를 통한 비즈니스 가치를 빠르게 창출할 수 있는 기반이 되고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Mike Clark"
+      ],
+      "title": [
+        "Director, Product Management"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-17T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker/",
+    "title": "The visual evolution of Looker: Modern design for enterprise data storytelling",
+    "summary": "Over the past year, we’ve focused on making Looker easier to use for every business user. We started by redesigning the exploration experience with drag-and-drop workspaces, streamlined field pickers,",
+    "aiSummary": "Google의 Looker가 비즈니스 데이터 스토리텔링 역량을 강화하기 위해 대규모 시각화 업데이트를 발표했습니다. 이번 업데이트는 대시보드와 Explore 환경 전반에 걸쳐 새로운 차트 유형과 세련된 디자인을 도입하여 사용자가 데이터를 더 직관적으로 해석하도록 돕습니다.\n\n새롭게 추가된 KPI 시각화 기능을 통해 핵심 지표의 추세와 상태를 한눈에 파악할 수 있으며 불렛 차트, 게이지, 숫자 간소화 기능 등을 통해 공간 효율성을 높였습니다. 또한 Sankey 다이어그램, 계층형 테이블, 히스토그램, 네트워크 차트 등 복잡한 데이터 관계와 분포를 분석하기 위한 심층적인 시각화 도구가 대거 추가되었습니다.\n\n대시보드 디자인 역시 현대적인 타이포그래피와 여백을 적용하여 미학적으로 개선되었으며 타일 단위의 개별 필터 기능을 미리보기로 제공하여 데이터 탐색의 편의성을 높였습니다.\n\n가장 주목할 점은 AI 에이전트를 활용한 맞춤형 시각화 기능입니다. 이제 사용자는 JavaScript를 직접 작성하지 않아도 개발 에이전트를 통해 자연어로 차트를 설계하고 배치할 수 있습니다. 해당 기능은 open-source looker-skills 저장소를 통해 지원되며 D3, Vega-Lite, ECharts, Chart.js 등 다양한 라이브러리를 활용할 수 있습니다.\n\n모든 시각화 요소는 기존의 Looker 관리형 시맨틱 기반인 LookML과 연동되어 데이터의 일관성을 유지합니다. 이는 개별 대시보드 타일뿐만 아니라 Looker Data Apps를 구성하는 데에도 동일하게 적용되어 기업 내 데이터 애플리케이션의 운영 효율성을 크게 향상시킬 전망입니다.",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Ani Jain"
+      ],
+      "title": [
+        "Group Product Manager, Looker"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-17T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/topics/partners/2026-google-cloud-partner-all-stars-winners/",
+    "title": "Congratulations to our 2026 Google Cloud Partner All-stars",
+    "summary": "The Google Cloud partner ecosystem plays an essential role in driving customer success. As we enter a transformative new era, our partners are instrumental in helping move AI from early pilots into tr",
+    "aiSummary": "Google Cloud는 기업 고객의 AI 도입과 성공적인 비즈니스 전환을 지원하는 2026 Partner All-stars 선정 결과를 발표하였습니다. 이번 프로그램은 기술력은 물론 조직의 워크플로우를 재설계하고 변화를 주도하는 핵심 전문가들의 기여를 치하하기 위해 마련되었습니다.\n\n선정 분야는 AI Leadership, Sales, Marketing, Solutions Engineering, Delivery Excellence 등 총 5가지 부문입니다.\n\n신설된 AI Leadership 부문은 AI 기반 업무 환경으로의 전환을 이끌고 기업의 운영 방식을 근본적으로 재구성하는 전문가들을 선정하였습니다. Sales 부문은 단기적인 성과보다 고객과의 장기적인 관계 및 투자 대비 효과를 우선시하는 인재들이 이름을 올렸습니다. Marketing 부문은 데이터 중심의 전략으로 고객의 우선순위를 해결하고 영향력 있는 캠페인을 주도한 인물들을 대상으로 합니다.\n\nSolutions Engineering 부문은 복잡한 고객 요구사항을 해결하기 위해 제품 간 협업을 수행하고 높은 수준의 기술 인증을 유지하는 전문가들로 구성되었습니다. 마지막으로 Delivery Excellence 부문은 Google Cloud의 신속한 배포 방법론을 바탕으로 안전한 마이그레이션과 AI 스프린트를 성공적으로 실행한 기술 실무자들을 인정합니다.\n\nGoogle Cloud는 이번에 선정된 전문가들이 보여준 기술적 전문성과 리더십이 글로벌 파트너 네트워크의 표준을 세우고 있다고 강조하였습니다. 자세한 수상자 명단은 소셜 미디어에서 관련 해시태그 검색을 통해 확인할 수 있습니다.",
+    "url": "https://cloud.google.com/blog/topics/partners/2026-google-cloud-partner-all-stars-winners/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Kevin Ichhpurani"
+      ],
+      "title": [
+        "President, Global Partner Ecosystem & Channels"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-17T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "https://www.mongodb.com/company/blog/product-release-announcements/ai-demand-constant-unpredictable-extreme-mongodb-is-built-for-it",
     "title": "AI Demand is Constant, Unpredictable, and Extreme. MongoDB is Built for It.",
     "summary": "When a huge surge in demand meets limited resources, an awful experience usually isn’t far behind. Fans feel it when trying to compete for concert tickets with bots and scalpers. Diners feel it when t",
@@ -128,6 +433,39 @@
     ]
   },
   {
+    "id": "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
+    "title": "From exposed secrets to managed credentials: Reducing credential risk across the application lifecycle ",
+    "summary": "A recent software supply chain attack affecting tens of thousands of GitHub repositories highlights a security problem that is easy to underestimate: a credential does not stop being exposed simply be",
+    "aiSummary": "최근 수만 개의 GitHub 저장소를 겨냥한 소프트웨어 공급망 공격 사례는 코드에서 삭제된 자격 증명이라도 여전히 보안 위협이 될 수 있음을 보여줍니다. 공격자들은 GitHub Actions 워크플로우를 악용해 저장소의 전체 Git 이력까지 탐색하며 클라우드 및 AI 서비스 관련 자격 증명을 탈취했습니다. 이는 소스 코드에서 비밀 값을 지우는 것만으로는 충분한 보안 조치가 되지 않으며, 과거에 커밋된 데이터 내에 자격 증명이 잔존할 위험이 크다는 점을 시사합니다.\n\n이러한 문제를 해결하기 위해 HashiCorp는 HCP Vault Radar와 Vault를 활용한 통합 대응 방안을 제시합니다. HCP Vault Radar는 Git 이력은 물론 CI/CD 로그, 협업 도구 등 개발 환경 전반에 걸쳐 노출된 비밀 정보를 탐색하여 보안 팀이 우선순위에 따라 조치할 수 있도록 가시성을 제공합니다.\n\n단순히 노출된 비밀을 찾아 삭제하는 것을 넘어 근본적인 위험을 차단하는 과정이 중요합니다. 개발자는 자격 증명을 소스 코드에 직접 삽입하는 대신 Vault를 통해 중앙 집중식으로 관리해야 합니다. 가능하다면 장기적인 정적 자격 증명 대신 필요할 때만 생성되고 만료되는 동적 자격 증명을 도입하여 공격자가 자격 증명을 악용할 수 있는 시간을 최소화해야 합니다.\n\n결론적으로 자격 증명 관리는 단순한 코드 정리가 아닌 전체 개발 수명 주기 전반에 걸친 체계적인 프로세스가 되어야 합니다. HCP Vault Radar로 노출 경로를 파악하고 Vault로 관리 체계를 강화함으로써 기업은 관리되지 않는 자격 증명으로 인한 보안 사고의 위험을 효과적으로 줄일 수 있습니다.",
+    "url": "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Aubrey Johnson",
+    "pubDate": "2026-11-17T08:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
+    "id": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "title": "Introducing ChatGPT for Sales",
+    "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+    "aiSummary": "OpenAI가 영업 업무 효율화를 돕는 ChatGPT for Sales 기능을 새롭게 선보였습니다.\n\n이번 업데이트를 통해 고객 조사와 영업 제안서 준비는 물론 CRM 데이터 업데이트와 거래 진행 과정을 지원하는 전용 Sales 플러그인이 추가되었습니다.\n\n또한 기존 파트너 플러그인 30여 개가 새롭게 업데이트되거나 확장되었습니다. 이를 통해 영업 담당자는 더 정교한 분석 도구를 활용하여 비즈니스 성과를 높일 수 있습니다.",
+    "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-17T08:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
     "title": "Sovereign AI in Europe: New ways to control your AI stack",
     "summary": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance ",
@@ -190,6 +528,23 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://firebase.blog/posts/2026/11/full-stack-android-apps-ai-studio-integration",
+    "title": "Build full-stack Android apps with AI features using Google AI Studio and Firebase",
+    "summary": "November 17, 2026Earlier this year, we integrated Firebase with Google AI Studio (https://firebase.blog/posts/2026/03/announcing-ai-studio-integration) for web apps to accelerate the path from prompt ",
+    "aiSummary": "Google AI Studio와 Firebase의 통합이 확장되면서 안드로이드 개발자들은 단일 프롬프트만으로 생성형 AI 기능이 포함된 Kotlin 기반의 풀스택 안드로이드 앱을 손쉽게 구축할 수 있게 되었습니다.\n\nGoogle AI Studio 내의 에이전트는 사용자의 프롬프트를 분석하여 AI 기능, 데이터 저장소, 사용자 인증 등이 필요한 시점을 자동으로 탐지합니다. 이후 사용자의 승인을 거쳐 Firebase 프로젝트 설정, Firestore 기반의 데이터 저장소 구축, Firebase Authentication을 활용한 Google 로그인 연동, 그리고 Firebase AI Logic을 통한 Gemini API 호출 등을 자동으로 수행합니다.\n\n이번 업데이트의 핵심은 앱 개발 과정에서 요구되던 복잡한 라이브러리 설정이나 수동 코드 작성 과정을 생략하고 개발 수명 주기를 획기적으로 단축했다는 점입니다. 이를 통해 개발자는 별도의 인프라 구성 없이도 개인화되고 지능적인 협업 앱 경험을 제공할 수 있습니다.\n\n특히 Firestore와의 통합을 통해 데이터 지속성이 보장되어, 사용자는 기기를 변경하더라도 앱 데이터를 동기화하거나 오프라인 상태에서도 원활하게 앱을 사용할 수 있게 되었습니다. 또한 Firebase App Check가 자동으로 적용되어 Gemini API 호출 시 자격 증명을 안전하게 보호하고 무단 접근을 방지합니다.\n\n현재 Google AI Studio에 접속하면 즉시 이러한 기능을 사용하여 지능형 안드로이드 앱 개발을 시작할 수 있습니다.",
+    "url": "https://firebase.blog/posts/2026/11/full-stack-android-apps-ai-studio-integration",
+    "category": "데이터베이스",
+    "source": "Firebase Blog",
+    "author": "Firebase Blog",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "Firebase",
+      "NoSQL",
+      "BaaS"
     ]
   },
   {
@@ -399,6 +754,22 @@
     "tags": [
       "AWS",
       "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
+    "title": "HCP introduces IBMid support and new enterprise governance capabilities",
+    "summary": "Over the past quarter, the HashiCorp Cloud Platform (HCP) team has continued investing in the foundations that help organizations securely adopt and operate HashiCorp products at scale.\nThese updates ",
+    "aiSummary": "HashiCorp는 HCP의 보안성과 운영 효율성을 높이기 위해 아이덴티티, 거버넌스, 액세스 관리, 라이프사이클 관리를 중심으로 한 신규 기능을 발표했습니다.\n\n우선 IBMid 로그인을 공식 지원함에 따라 기존 HCP 계정을 IBMid와 연동하여 Google, GitHub 등 다양한 인증 방식을 활용하고 다중 인증인 MFA를 강화할 수 있게 되었습니다.\n\n기업용 거버넌스를 위한 Enterprise constraints 기능도 도입되었습니다. 이는 기존의 RBAC와 달리 조직 전체에서 배포 가능한 제품군을 관리자가 직접 제한할 수 있도록 하여, 비용 관리와 보안 규정 준수 및 승인된 제품 사용을 강제하는 효과를 제공합니다.\n\n사용자 온보딩 과정도 개선되어 관리자가 신규 사용자 초대 단계에서 직접 권한을 할당할 수 있게 되었으며, 이를 통해 사용자 권한 부여에 필요한 관리 업무를 간소화하고 팀의 생산성을 높였습니다.\n\n마지막으로 HCP 계정 및 조직 삭제를 위한 셀프 서비스 기능이 추가되었습니다. 이메일 및 비밀번호나 GitHub 인증을 사용하는 사용자는 고객 지원팀의 도움 없이 직접 계정을 삭제할 수 있으며, 조직 소유자 역시 시스템 내 안전 검사 절차를 거쳐 필요 없는 조직을 직접 삭제하고 정리할 수 있게 되었습니다.",
+    "url": "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Trevor Powell",
+    "pubDate": "2026-11-16T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T04:34:23.342Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -1946,244 +2317,6 @@
     "tags": [
       "Swift",
       "Apple"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-06-github-app-support-for-enterprise-copilot-seat-management",
-    "title": "GitHub App support for Enterprise Copilot seat management",
-    "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are acces",
-    "aiSummary": "GitHub Enterprise 환경의 GitHub Apps가 기업 수준의 Copilot 좌석 관리 API를 직접 호출할 수 있게 되었습니다.\n\n이를 통해 관리자는 특정 사용자나 기업 내 팀에 Copilot 사용 권한을 부여하거나 해제하는 작업을 자동화할 수 있습니다. \n\n이번 업데이트로 기업은 Copilot 좌석 할당 과정을 더욱 유연하고 효율적으로 제어할 수 있게 되었으며, 관련 API 접근 권한은 GitHub Enterprise 설정에서 확인할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-11T00:10:31.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-42-0",
-    "title": "UUID Request Input and Migration Failure Events in Laravel 13.42",
-    "summary": "Laravel 13.42 adds uuid() and ulid() input helpers, a MigrationFailed event, skip reasons for scheduled tasks, and Uri::origin() for comparing URL origins.\nThe post UUID Request Input and Migration Fa",
-    "aiSummary": "Laravel 13.42 버전이 새롭게 출시되었습니다. 이번 업데이트에서는 요청 데이터를 처리할 때 UUID와 ULID를 간편하게 다룰 수 있는 uuid()와 ulid() 입력 헬퍼가 추가되었습니다.\n\n또한 데이터베이스 마이그레이션 과정에서 오류가 발생했을 때 이를 감지할 수 있는 MigrationFailed 이벤트가 도입되었습니다. 이 외에도 예약된 작업의 실행을 건너뛰는 이유를 확인할 수 있는 기능과 URL의 출처를 비교하기 위한 Uri::origin() 메서드가 새롭게 포함되었습니다.",
-    "url": "https://laravel-news.com/laravel-13-42-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-11-11T00:02:52.000Z",
-    "fetchedAt": "2026-11-11T15:27:19.416Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "/blog/vulnerability/november-2026-security-releases?1794355200000",
-    "title": "Wednesday, November 11, 2026 Security Releases",
-    "summary": "The Node.js ProjectSecurity releases available (https://nodejs.org/en/blog/vulnerability/november-2026-security-releases#security-releases-available)\nUpdates are now available for the 26.x, 24.x, 22.x",
-    "aiSummary": "Node.js 프로젝트는 2026년 11월 11일 보안 업데이트를 통해 26.x, 24.x, 22.x 버전에서 발견된 다수의 취약점을 해결했습니다. 이번 업데이트에는 HTTP/2 및 TLS 관련 보안 결함이 다수 포함되어 있으며, 주요 내용은 다음과 같습니다.\n\nHTTP/2 프로토콜과 관련하여 서버 프로세스 종료, 메모리 누수, 정보 유출 및 힙 버퍼 오버플로를 유발하는 여러 취약점이 발견되었습니다. 특히 Http2Session 및 Http2Stream 처리 과정에서 발생하는 Use-after-free 오류와 프로토콜 오류 발생 시 세션이 제대로 정리되지 않는 문제가 수정되었습니다. 또한, 특정 상황에서 서버 응답 메모리가 외부로 노출되거나, 부적절한 메모리 사용 제한으로 인해 서버 자원이 고갈될 수 있는 결함들이 보완되었습니다.\n\nTLS 및 HTTPS 통신 보안과 관련해서도 심각한 결함들이 해결되었습니다. HTTPS 환경에서 연결 간 메모리 정보가 유출되는 문제와 TLS 1.2 재협상 시 서버네임 변경을 통해 클라이언트 인증을 우회하는 취약점이 수정되었습니다. 또한, TLS 서버의 핸드셰이크 처리 과정에서 비정상적인 종료가 발생하는 문제와 특정 SNI 설정 시 인증 우회가 발생하는 오류도 개선되었습니다.\n\n이 외에도 프록시 설정 오류 발생 시 자격 증명이 로그 등에 노출되는 정보 유출 문제와 https.Agent의 세션 재사용 과정에서 발생하는 인증서 검증 우회 문제가 해결되었습니다.\n\n이번 보안 릴리스는 llhttp, undici, sqlite와 같은 의존성 라이브러리의 업데이트를 포함하고 있으며, 해당 취약점들은 22.x, 24.x, 26.x 버전 사용자의 환경에 영향을 미치므로 운영 중인 모든 노드 환경을 최신 버전으로 업데이트하는 것이 권장됩니다. 각 취약점은 외부 보안 연구원들의 제보를 통해 파악되었으며, 노드 프로젝트 측에서 신속하게 패치를 적용했습니다.",
-    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
-    "category": "백엔드",
-    "source": "Node.js Blog",
-    "author": "Node.js Blog",
-    "pubDate": "2026-11-11T00:00:00.000Z",
-    "fetchedAt": "2026-11-12T03:55:44.386Z",
-    "tags": [
-      "Node.js",
-      "JS"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
-    "title": "Google Summer of Code 2026 results",
-    "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several mont",
-    "aiSummary": "Rust Project는 올해로 세 번째 참여한 GSoC 2026에서 총 13개의 프로젝트를 성공적으로 완수했다고 발표했습니다. 이번 프로그램은 기여자와 멘토들의 헌신적인 협력을 통해 높은 성공률을 기록했으며, Rust 커뮤니티의 기술적 발전과 신규 기여자 유입에 중요한 역할을 했습니다. 주요 프로젝트 내용은 다음과 같습니다.\n\nMarcelo Domínguez는 std::offload 모듈을 개선하여 Rust에서 GPU 오프로딩을 더욱 안전하고 사용하기 쉽게 만들었습니다. 컴파일러 수준의 타입 검사와 제네릭 커널 지원을 추가하고, 성능을 검증하는 벤치마크를 수행했습니다.\n\nKei Akiyama는 Wild 링커에 WebAssembly 지원을 추가했습니다. 기존 표준인 wasm-ld 대비 2~15배 빠른 링크 속도와 적은 메모리 사용량을 달성하며 탁월한 성능을 입증했습니다.\n\nShota Sugano는 실험적인 std::autodiff와 std::offload 모듈을 Rust 공식 나이트리 채널에 통합하여 사용자들이 rustup을 통해 쉽게 기능을 설치하고 실험할 수 있도록 CI 환경을 구축했습니다.\n\nMohamed Ali는 Rust 코드의 정의되지 않은 동작을 탐지하는 도구인 Miri를 위해 대화형 디버거인 priroda를 재구축했습니다. 이를 통해 GDB 인터페이스와 IDE 연동 기능을 제공하여 디버깅 효율성을 크게 높였습니다.\n\nRyosuke Yamano는 RFC 3323에서 제안된 impl 및 mut 제한 기능을 언어에 직접 구현했습니다. 해당 기능은 특정 모듈 내에서의 트레이트 구현이나 필드 변경 권한을 제어할 수 있게 하며, 현재 나이트리 버전에서 피드백을 수집 중입니다.\n\nTanmay는 임베디드 워킹 그룹과 협력하여 serialport-rs의 API 인체공학적 설계와 타입 안전성을 개선했습니다. 레거시 API의 문제점을 해결하고 오류 처리를 명확히 하여 5.0 버전 출시를 준비하고 있습니다.\n\nAdam Martinez는 핵심 라이브러리인 libc의 1.0 버전 안정화에 기여했습니다. 100일 이상 매일 보고서를 제출하는 등 엄청난 생산성을 보여주며, 복잡한 비트 너비 변형 처리 및 오류 유발 상수 정리 등 난제들을 성공적으로 해결했습니다.\n\nRust Project는 이번 성과를 바탕으로 향후에도 GSoC를 비롯한 다양한 멘토십 프로그램에 지속적으로 참여할 계획입니다. 자세한 프로젝트 결과와 소스 코드는 공식 웹사이트를 통해 확인할 수 있습니다.",
-    "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "Jakub Beránek",
-    "pubDate": "2026-11-11T00:00:00.000Z",
-    "fetchedAt": "2026-11-11T15:27:19.416Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/11/11/withdraw-primitive-patterns-preview/",
-    "title": "Withdrawing the Primitive Patterns Preview Feature",
-    "summary": "We have decided to cease development of Primitive Types in Patterns, instanceof, and switch. The draft JEP https://openjdk.org/jeps/8393282 that would have been the sixth preview of this feature will ",
-    "aiSummary": "OpenJDK 프로젝트는 패턴 매칭의 일환으로 개발 중이었던 Primitive Types in Patterns, instanceof, and switch 기능의 개발을 중단하기로 결정하였습니다. \n\n해당 기능의 여섯 번째 프리뷰를 포함할 예정이었던 JEP 8393282 초안은 철회될 예정입니다. 또한, 이미 프리뷰로 제공되던 해당 기능은 향후 출시될 JDK 28에서 완전히 삭제될 예정입니다. 자세한 배경과 이유는 OpenJDK의 amber-spec-experts 메일링 리스트를 통해 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/11/11/withdraw-primitive-patterns-preview/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Angelos Bimpoudis",
-    "pubDate": "2026-11-11T00:00:00.000Z",
-    "fetchedAt": "2026-11-11T15:27:19.416Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=dotnet&p=755796",
-    "title": "ReSharper 2026.3: Claude Agent and Codex in Visual Studio, .NET 11 and C# 15 Support, and More",
-    "summary": "ReSharper 2026.2 brought Junie to Visual Studio as ReSharper’s first coding agent. In 2026.3, you can also pick Claude Agent or Codex in the same tool window. All three agents can use ReSharper’s refa",
-    "aiSummary": "JetBrains가 발표한 ReSharper 2026.3 업데이트를 통해 Visual Studio 환경에서의 개발 생산성이 한층 강화되었습니다. 기존 Junie에 이어 이번 버전부터는 Claude Agent와 Codex를 동일한 도구 창에서 선택하여 사용할 수 있게 되었으며, 이들 에이전트는 ReSharper의 강력한 리팩토링 기능을 활용하여 Rename과 같은 복잡한 코드 개선 작업을 수행할 수 있습니다.\n\n또한 이번 릴리스는 최신 기술 스택에 대한 대응을 포함합니다. .NET 11과 C# 15를 공식적으로 지원하여 최신 프레임워크와 언어 기능을 즉시 활용할 수 있는 환경을 제공합니다. 이와 더불어 테스트 러너를 포함한 여러 영역에서 기능 개선이 이루어져 개발자들에게 더욱 통합적이고 효율적인 코딩 경험을 제공합니다.",
-    "url": "https://blog.jetbrains.com/dotnet/2026/11/10/resharper-2026-3-release/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Mehul Harry",
-    "pubDate": "2026-11-10T21:43:46.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=56003",
-    "title": "Heavy MySQL Reports in Seconds: Open Source HTAP with DBTrail and Percona Server for MySQL",
-    "summary": "In Part 1 we ran analytical reports in DuckDB on a DBTrail copy instead of on MySQL. This time I want to look at a different question: what if the application does not need to know the copy exists? Mo",
-    "aiSummary": "이번 기사는 애플리케이션의 수정 없이 데이터베이스의 분석 성능을 향상할 수 있는 DBTrail과 Percona Server for MySQL 기반의 오픈소스 HTAP 구축 방안을 다룹니다.\n\n일반적으로 MySQL 환경에서 무거운 분석 쿼리는 시스템 부하를 유발하고 응답 지연을 초래합니다. 이전 단계에서는 DuckDB를 활용해 DBTrail 복제본에서 분석을 수행하는 방식을 다루었으나, 이번에는 애플리케이션이 복제본의 존재를 인식하지 않고도 동일한 환경에서 고성능 분석 보고서를 생성할 수 있는 구조에 주목합니다.\n\n이러한 접근은 시스템의 복잡성을 최소화하면서도 성능 병목 현상을 일으키는 월간 집계 보고서와 같은 무거운 쿼리를 효과적으로 처리할 수 있게 합니다. DBTrail을 통해 MySQL의 데이터 관리 효율성을 유지하면서도 분석 작업의 속도를 개선하는 실용적인 기술적 해법을 제시합니다.",
-    "url": "https://www.percona.com/blog/heavy-mysql-reports-in-seconds-open-source-htap-with-dbtrail-and-percona-server-for-mysql/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Vadim Tkachenko",
-    "pubDate": "2026-11-10T21:04:03.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot",
-    "title": "Gemini 4 Carbon in GitHub Copilot",
-    "summary": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation…\nThe post ",
-    "aiSummary": "Google의 최신 AI 모델인 Gemini 4 Carbon이 GitHub Copilot에 공식적으로 도입되었습니다.\n\n해당 모델은 복잡한 코딩 작업과 에이전트 기반의 업무, 그리고 논리적 추론 능력을 극대화하도록 설계되었습니다. 특히 안전한 코드 생성에 중점을 두고 있어 개발자들이 더욱 신뢰할 수 있는 개발 환경에서 작업할 수 있도록 지원합니다.",
-    "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-10T19:26:51.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.162.4",
-    "title": "0.162.4",
-    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
-    "aiSummary": "FastAPI가 0.162.4 버전으로 업데이트되었습니다. 이번 업데이트에는 코딩 에이전트가 현재 설치된 버전의 새로운 기능과 권장 패턴을 효과적으로 활용하도록 돕는 공식 스킬이 포함되었으며, uvx library-skills 명령어를 통해 프로젝트에 설치할 수 있습니다. 또한 런타임 환경에서 AnyIO 4.1.0 이상의 버전을 요구하도록 수정되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.162.4",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-11-10T17:50:03.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
-    "title": "C++ language server now auto-configures MSBuild builds",
-    "summary": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a…\nThe post C++ l",
-    "aiSummary": "GitHub Copilot CLI의 Microsoft C++ Language Server가 MSBuild 컴파일 명령어 추출기를 자체적으로 포함하게 되었습니다. 이에 따라 서버가 빌드 과정을 자동으로 호출할 수 있게 되어, 사용자가 직접 에이전트를 통해 이를 발견하고 실행해야 하는 번거로움이 사라졌습니다. 이러한 개선을 통해 C++ 프로젝트의 개발 환경 설정 및 코드 분석 효율성이 크게 향상될 것으로 기대됩니다.",
-    "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-10T17:04:10.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
-    "title": "From insight to action: improving infrastructure risk posture with Terraform and Concert ",
-    "summary": "Advances in AI are accelerating vulnerability discovery, uncovering previously unknown weaknesses and complex attack paths. Anthropic’s Claude Mythos cyber reasoning marked a major shift in the vulner",
-    "aiSummary": "AI 기술의 발전으로 취약점 발견 속도가 빨라지면서 기업은 방대한 보안 데이터를 효율적으로 관리하고 우선순위를 정해야 하는 과제에 직면해 있습니다. 단순히 취약점을 찾아내는 것을 넘어 실제 위협 여부를 판단하고 이를 안전하게 해결하는 과정이 중요해졌습니다.\n\nIBM은 이를 위해 Terraform과 IBM Concert를 결합하여 취약점 정보와 인프라 컨텍스트를 연결하는 통합 대응 솔루션을 제시합니다. Terraform은 인프라를 코드로 정의하고 관리하는 기반으로서, 정책 기반의 거버넌스를 통해 안전하고 일관된 변경 작업을 수행할 수 있도록 지원합니다.\n\nIBM Concert Protect는 이 과정에서 핵심적인 역할을 합니다. 우선 IBM은 Anthropic의 Claude Mythos를 도입하여 기존 보안 도구로 발견하기 어려운 미지의 취약점까지 탐지 범위를 확장할 계획입니다. 또한 애플리케이션, 인프라, 네트워크 등 다양한 비즈니스 컨텍스트를 분석하여 실제로 악용 가능한 취약점만을 선별하는 검증 기능을 제공합니다.\n\n최종적으로 조직은 발견된 위협의 우선순위를 정한 뒤, Terraform의 자동화된 워크플로우를 활용해 인프라 변경 사항을 승인하고 적용할 수 있습니다. 이러한 통합적인 접근 방식은 파편화된 보안 대응 체계를 개선하고 인프라 라이프사이클 전반에 걸쳐 위험을 효과적으로 관리할 수 있도록 돕습니다.",
-    "url": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Mitchell Ross",
-    "pubDate": "2026-11-10T17:00:00.000Z",
-    "fetchedAt": "2026-11-11T15:27:19.416Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/partners/inside-the-gemini-factory-accelerating-partner-solutions/",
-    "title": "Inside the Gemini factory: Accelerating partner solutions",
-    "summary": "With the new unified Gemini experience, enterprises can bring third-party partner capabilities directly in Gemini through standardized connectors (spanning Model Context Protocol (MCP), Agent-to-Agent",
-    "aiSummary": "Google Cloud는 엔터프라이즈 기업들이 Gemini 내에서 외부 파트너의 솔루션을 통합하고 활용할 수 있도록 지원하는 Gemini factory 프로그램을 공개했습니다. 이 프로그램은 기업용 소프트웨어 공급업체들이 복잡한 기술적 장벽을 넘어 실무에 즉시 적용 가능한 에이전트 기반 솔루션을 신속하게 개발하고 배포하도록 돕는 데 목적이 있습니다.\n\nGemini factory는 MCP connectors, 선언적 Skills, Plugins, A2A 에이전트라는 4가지 핵심 아키텍처 요소를 활용합니다. 이를 통해 개발자는 범용적인 툴 연결부터 독점 알고리즘이 적용된 폐쇄형 에이전트까지 다양한 형태의 솔루션을 구축할 수 있습니다. 또한 Antigravity 환경과 Rapid Agent Development 기능을 지원하여 개발 과정을 가속화하고, 사용자가 외부 포털로 이동할 필요 없이 Gemini 인터페이스 내에서 직접 작업을 수행할 수 있는 환경을 제공합니다.\n\n프로그램 참여 파트너는 Google Cloud 전문가들과의 기술 협업을 통해 설계부터 생산 단계까지의 시간을 획기적으로 단축할 수 있습니다. 구축이 완료된 솔루션은 Google Cloud Marketplace에 등록되어 전 세계 기업 고객들에게 노출되며, 기업은 이를 통해 조달 및 통합 과정을 간소화하고 마케팅 지원과 같은 혜택을 받을 수 있습니다.\n\n이미 Aily Labs, FlowX, Klarvant, NextLM, Optimizely, Ping Identity, Sinch 등 다수의 기업이 Gemini factory를 통해 각 분야에 최적화된 에이전트 솔루션을 개발하여 운영하고 있습니다. Google Cloud는 이처럼 검증된 파트너 생태계를 확장하여 기업 업무 흐름에 깊숙이 통합된 인텔리전트 에이전트 시장을 선점하겠다는 전략입니다.",
-    "url": "https://cloud.google.com/blog/topics/partners/inside-the-gemini-factory-accelerating-partner-solutions/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Noel Kenehan"
-      ],
-      "title": [
-        "Head of Gemini factory"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-10T17:00:00.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/",
-    "title": "BigQuery measures is now GA: Unifying BI metrics and knowledge graphs for AI accuracy",
-    "summary": "To answer a complex business question, an AI agent must understand two things: what happened, and why. The what is a governed metric, like revenue at risk; the why is the network of relationships that",
-    "aiSummary": "Google Cloud는 비즈니스 지표와 관계형 지식을 통합하여 AI 에이전트의 정확도를 높이는 BigQuery measures 기능을 정식 출시했습니다. 기존에는 BI 플랫폼의 지표와 지식 그래프의 관계 데이터가 분리되어 있어 AI 에이전트가 복합적인 비즈니스 질문에 답변할 때 환각 현상을 겪거나 데이터 일관성이 깨지는 문제가 있었습니다.\n\nBigQuery measures는 BigQuery Graph와 결합하여 비즈니스 데이터의 구조와 측정 로직을 하나의 모델로 통합합니다. 이를 통해 사용자와 AI 에이전트는 특정 수치가 산출된 배경인 관계형 컨텍스트까지 파악할 수 있으며, 데이터 소스의 무결성을 보장하는 grain-locked 방식을 적용하여 조인 과정에서 발생할 수 있는 중복 계산 오류를 방지합니다.\n\n정식 출시된 BigQuery measures에는 복잡한 비즈니스 로직을 위한 모델링 기능과 AI 에이전트가 지표를 스스로 검색하고 해석할 수 있는 기능이 대폭 강화되었습니다. 사용자는 OPTIONS 절을 통해 지표에 비즈니스 의미와 동의어를 부여할 수 있으며, 이는 Knowledge Catalog와 연동되어 데이터의 발견과 활용을 지원합니다. 또한 Data Agent Kit를 통한 AI 기반 저작과 Looker의 LookML 모델 재사용, 대화형 분석 도구와의 즉각적인 통합이 가능합니다.\n\n이 기능을 활용하면 별도의 복잡한 데이터 파이프라인이나 추가 시스템 구축 없이도 기존의 데이터 인프라 위에서 일관된 비즈니스 지표를 관리할 수 있습니다. 결과적으로 인간 분석가와 AI 에이전트가 동일한 정보와 로직을 공유하게 되어 기업 전반의 데이터 거버넌스를 확립하고 분석 효율성을 크게 개선할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Bei Li"
-      ],
-      "title": [
-        "Principal Engineer"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-10T17:00:00.000Z",
-    "fetchedAt": "2026-11-11T02:51:37.804Z",
-    "tags": [
-      "GCP",
-      "Cloud"
     ]
   }
 ]
