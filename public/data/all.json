@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.postgresql.org/about/news/nordic-pgday-2027-call-for-papers-sponsors-3450/",
+    "title": "Nordic PGDay 2027 - Call for Papers & Sponsors!\n",
+    "summary": "We are pleased to announce that the Call for Papers for Nordic PGDay 2027 is now open. The conference will take place in Stockholm, Sweden on March 16, continuing the tradition of bringing together Po",
+    "aiSummary": "Nordic PGDay 2027 행사가 2027년 3월 16일 스웨덴 스톡홀름에서 개최됩니다. PostgreSQL 사용자, 개발자 및 관계자들이 교류하는 이번 행사를 앞두고 발표자 모집인 Call for Papers가 시작되었습니다. 발표 제안은 2027년 1월 8일까지 접수하며 최종 선정 결과는 1월 28일에 발표될 예정입니다.\n\n2027년 프로그램은 커뮤니티를 위한 1.5개 트랙과 스폰서를 위한 0.5개 트랙으로 확장 구성되어 더욱 다양한 주제의 발표를 수용할 예정입니다. 또한 주최 측은 PostgreSQL 커뮤니티와 네트워킹하고 브랜드 가치를 높이고자 하는 기업 및 조직의 스폰서 참여도 함께 기다리고 있습니다. 자세한 정보는 행사 공식 웹사이트의 스폰서 페이지와 CfP 위원회 정보를 통해 확인이 가능합니다.",
+    "url": "https://www.postgresql.org/about/news/nordic-pgday-2027-call-for-papers-sponsors-3450/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-22T00:00:00.000Z",
+    "fetchedAt": "2026-11-22T03:16:57.290Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.14",
     "title": "1.5.14",
     "summary": "Added /thinking (/thinking [on|off], saved as \"showThinking\" in settings.json and off by default) to stream the model's full thinking live in the transcript while it thinks and keep finished thoughts ",
@@ -319,6 +335,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
+    "title": "Spring Cloud 2026.0.0 (aka Paddington) Has Been Released",
+    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2026.0.0 (https://cloud.spring.io/) Release Train is available today. The release can b",
+    "aiSummary": "Spring Cloud 2026.0.0 버전인 Paddington이 정식 출시되었습니다. 이번 릴리스는 Spring Boot 4.2.0을 기반으로 하며 다양한 기능 개선과 함께 여러 보안 취약점 조치 사항을 포함하고 있습니다.\n\n주요 변경 사항으로 Spring Cloud Bus 프로젝트가 Spring Cloud Stream 내부로 통합되었습니다. 또한 Spring Cloud Config, Spring Cloud Gateway, Spring Cloud Kubernetes, Spring Cloud Function, Spring Cloud Netflix 등 전반적인 모듈에서 다수의 CVE 보안 취약점에 대한 패치가 적용되었습니다.\n\n세부 기능 개선 사항으로는 Spring Cloud Config에서 OAuth 2 인증 지원, Google Cloud Storage 백엔드 추가, AWS S3 S3Client 지원 등이 포함되었으며, Spring Cloud Gateway에서는 MVC 환경의 웹소켓 지원과 로컬 응답 캐시 필터가 추가되었습니다. \n\nSpring Cloud Function의 RSocket과 gRPC 모듈, Spring Cloud Stream의 리액티브 Kafka Binder와 Schema Registry 구성 요소는 이번 버전에서 지원이 중단되었습니다. 그 외에도 주요 의존성 버전들이 최신화되었으며, 자세한 변경 내역은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
+    "category": "백엔드",
+    "source": "Spring Releases",
+    "author": "spencergibb",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "fetchedAt": "2026-11-22T03:16:57.290Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
