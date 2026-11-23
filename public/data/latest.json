@@ -1,5 +1,262 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+    "title": "Secret scanning reduces false positives for Slack",
+    "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secre",
+    "aiSummary": "GitHub의 Secret scanning 기능이 Slack 토큰 탐지 시 발생하는 오탐률을 개선했습니다. \n\n이번 업데이트를 통해 slack_incoming_webhook_url 유형의 시크릿 탐지 과정에서 불필요한 URL 패턴을 제외하는 등 탐지 로직이 고도화되었습니다. 이를 통해 개발자는 보안 알림의 정확도를 높이고 불필요한 작업 부하를 줄일 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-23T18:32:59.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/",
+    "title": "Data + AI Anywhere: AlloyDB Omni integration with local models",
+    "summary": "Open models like Gemma 4 from Google DeepMind are a great option to keep your data local. But how can a local AI model integrate with on-premises data?\nAlloyDB Omni, Google’s 100% PostgreSQL-compatibl",
+    "aiSummary": "Google의 AlloyDB Omni가 로컬 환경에서 호스팅되는 LLM과 직접 연동할 수 있도록 기능을 확장했습니다. 이를 통해 사용자는 클라우드, 데이터센터, 심지어 개인 노트북 등 자신이 선호하는 인프라 환경에서 데이터를 외부로 유출하지 않고도 에이전트 기반의 인공지능 애플리케이션을 구축할 수 있습니다.\n\n이번 업데이트의 핵심은 AlloyDB Omni 데이터베이스 내에서 SQL 명령어를 통해 로컬 LLM을 직접 호출하는 방식입니다. Gemma 4나 Qwen3.8과 같은 오픈 모델을 Ollama를 통해 배포하고 AlloyDB Omni와 연결하면, 별도의 네트워크 통신 없이 로컬 환경 내에서 데이터 처리와 추론이 가능해집니다.\n\n이러한 통합 방식은 다음과 같은 이점을 제공합니다. 우선 모든 데이터가 사내 네트워크 내에서 유지되므로 엄격한 데이터 거버넌스 준수가 가능하며, 공용 인터넷을 거치지 않아 보안성이 높습니다. 또한 데이터베이스와 모델이 동일한 환경에 존재하여 지연 시간을 최소화할 수 있습니다. \n\n개발자는 표준 SQL 쿼리를 사용해 기계 학습 기능을 실행하고, 로컬 로그 분석이나 내부 문서 요약, 맞춤형 챗봇 구축 등의 작업을 효율적으로 수행할 수 있습니다. 또한 AlloyDB Omni는 Google Search 기술인 ScaNN 인덱싱을 내장하고 있어, 대규모 벡터 임베딩 저장과 시맨틱 검색을 효과적으로 지원합니다.",
+    "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Rob Yavitch"
+      ],
+      "title": [
+        "Sr. Software Engineering Manager, AlloyDB Omni"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-23T17:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
+    "title": "How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI",
+    "summary": "As the scale of global communications grows larger and larger, enterprise platforms must process billions of interactions with customers across a complex network of touchpoints without breaking them. ",
+    "aiSummary": "글로벌 CPaaS 기업인 Sinch는 방대한 고객 상호작용 데이터와 메시징 트래픽을 효율적으로 관리하기 위해 기존 Snowflake 기반의 분산형 데이터 웨어하우스를 Google Cloud BigQuery로 성공적으로 이전하였습니다. 이전에는 EU, US, Australia로 나뉜 Snowflake 인스턴스 간의 복잡한 데이터 동기화와 불규칙한 비용 급증, 지역별 데이터 사일로 현상이 심각한 운영 과제로 남아 있었습니다.\n\n이전 과정은 운영 리스크를 최소화하기 위해 다단계 프레임워크를 적용하였습니다. 먼저 20개 테이블과 125GB의 데이터를 대상으로 MVP를 검증하였으며, 데이터 계층별 마이그레이션 전략을 통해 핵심 엔티티를 우선 안정화했습니다. 특히 36개의 독립적인 ETL 워크플로우를 Google Cloud Workflows로 통합하여 운영 효율성을 크게 개선하였습니다.\n\n기술적인 고도화를 위해 데이터 수집 파이프라인을 Dataproc Serverless 기반의 Apache Spark 3.5로 전환하고 대규모 데이터셋 처리 성능을 최적화하였습니다. 또한 1,200개 이상의 dbt 모델을 변환하기 위해 BigQuery Migration Service와 AI 기반 번역 기술을 활용하여 Snowflake 고유의 구문을 BigQuery SQL로 자동화하였고, 이를 통해 수동 작업 오류를 줄이고 쿼리 구조를 현대화하였습니다.\n\n이번 마이그레이션 결과, Sinch는 대규모 레코드 처리에 대한 쿼리 성능을 대폭 향상시켰으며, BigQuery의 슬롯 자동 확장 기능을 통해 예측 가능한 비용 관리를 실현하였습니다. 결과적으로 데이터 사일로를 제거하고 데이터를 통합함으로써 Vertex AI를 포함한 고도화된 AI 기반 의사결정 체계를 구축할 수 있는 기반을 마련하였습니다. 현재 Sinch는 이러한 성공적인 현대화 모델을 전 세계 사업장으로 확대 적용하고 있습니다.",
+    "url": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Prabha Arya"
+      ],
+      "title": [
+        "Strategic Cloud Engineer"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-23T17:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "title": "Finding faster quantum algorithms with agents and formal verification",
+    "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+    "aiSummary": "AI 에이전트 팀과 형식 검증 기술을 결합하여 양자 알고리즘의 효율성을 개선하는 연구가 진행되고 있습니다. 해당 연구는 핵융합 및 화학 분야에서 활용되는 복잡한 양자 알고리즘을 최적화하는 데 중점을 둡니다. 에이전트 기반의 접근 방식을 통해 알고리즘을 더 빠르게 설계하고 형식 검증을 거쳐 정확성을 확보함으로써, 양자 컴퓨팅의 실질적인 적용 범위를 넓히는 것을 목표로 합니다.",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-23T16:59:40.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/culture/how-sales-career-at-mongodb-will-set-you-apart",
+    "title": "How a Sales Career at MongoDB Will Set You Apart",
+    "summary": "A sales career at MongoDB means owning the entire sales cycle, from pipeline generation to close, in a team-based culture where peers share what works, and career advancement follows results. MongoDB ",
+    "aiSummary": "MongoDB는 영업 담당자가 파이프라인 생성부터 계약 종료까지 전체 영업 주기를 직접 관리하는 환경을 제공하며, 이를 통해 영업 전문가로서의 역량을 극대화할 수 있는 기회를 제공합니다. 복잡한 제품을 다루고 높은 성과 기준을 요구하는 만큼 도전적인 환경이지만, 동료들과의 협업과 리더의 적극적인 코칭을 통해 빠른 성장을 이룰 수 있다는 점이 특징입니다.\n\n조직 문화의 핵심은 탁월함, 팀워크, 그리고 성과에 대한 인정입니다. 영업은 혼자 하는 것이 아니라 솔루션 아키텍트, 고객 성공 팀, 법무팀 등 다양한 부서와 협력하여 진행하는 팀 스포츠로 정의됩니다. 또한 동료들 간의 비공식적인 지식 공유와 배운 내용을 다시 가르치는 티치백 방식을 통해 실질적인 성장이 일상화되어 있습니다.\n\n경력 개발 측면에서는 BDR to CRO 프로그램과 같은 투명하고 성과 중심적인 프레임워크를 운영하여 구성원들이 리더십 단계로 나아갈 수 있도록 지원합니다. 특히 AI 시대의 핵심인 데이터 현대화와 AI 도입의 중심에 있는 제품을 판매함으로써 영업 담당자들은 엔지니어링 리더들과 전략적 의사결정을 함께하는 경험을 쌓을 수 있습니다.\n\n결론적으로 MongoDB는 높은 수준의 역량을 요구하지만, 그만큼 확실한 책임과 권한을 부여하며 강력한 동료 커뮤니티와 시장 내 독보적인 기회를 제공함으로써 영업 커리어의 질적 성장을 보장합니다.",
+    "url": "https://www.mongodb.com/company/blog/culture/how-sales-career-at-mongodb-will-set-you-apart",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-23T16:13:37.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+    "title": "Kubernetes v1.38 Sneak Peek",
+    "summary": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures,\nfeatures may be deprecated, removed, or replaced with better ones for the project's overall health.\nThis bl",
+    "aiSummary": "Kubernetes v1.38 릴리스를 앞두고 주요 변경 사항과 기능 개선 내용이 공개되었습니다. 이번 업데이트에서는 기술 부채 해소와 시스템 안정성을 위한 다양한 중단 및 폐기 작업이 포함되어 있어 운영 환경의 사전 점검이 필요합니다.\n\n주요 폐기 및 변경 사항은 다음과 같습니다.\nkubectl에서 WebSocket 연결을 제어하던 환경 변수가 제거되며, 향후에는 WebSocket이 기본값으로 고정됩니다. 또한, kuberc API가 정식 버전으로 격상됨에 따라 허용 목록 설정에서 name 필드 대신 command를 사용해야 합니다.\n\n시스템 레벨에서는 cgroup v1 지원이 단계적으로 중단되고 있으므로 cgroup v2로의 전환이 권장됩니다. Admission webhooks의 경우 일부 인증 관련 요청 수신이 제한됩니다.\n\n가장 중요한 변경 사항인 cgroup 드라이버 설정 방식도 바뀝니다. 컨테이너 런타임이 직접 cgroup 드라이버 정보를 제공해야 하며, 레거시 설정 방식은 기본적으로 차단됩니다. 또한, LimitedSwap이 설정된 환경에서 Pod 레벨 메모리 제한과 스왑 사용 정책이 변경되므로 기존 워크로드의 영향을 미리 확인해야 합니다.\n\n주요 개선 사항으로는 kuberc 설정, Pod 레벨 자원 관리, 그리고 DRA 기반의 파티셔닝 가능한 장치 지원 기능이 정식 버전으로 격상될 예정입니다. 새로 추가되는 alpha 기능인 EvictionRequest API는 애플리케이션이 안전하게 종료 과정을 수행할 수 있도록 조정된 Pod 퇴거 메커니즘을 제공합니다.\n\nKubernetes v1.38의 정식 릴리스는 2026년 12월 16일로 예정되어 있으며, 사용자들은 사전에 릴리스 노트를 확인하여 운영 중인 환경에 호환성 문제가 없는지 검토해야 합니다.",
+    "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+    "category": "클라우드 & 인프라",
+    "source": "Kubernetes Blog",
+    "author": "Kubernetes Blog",
+    "pubDate": "2026-11-23T16:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "Kubernetes",
+      "Infra"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+    "title": "Code coverage uploads now flag invalid report formats",
+    "summary": "The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn’t in a supported format, the upload step fails and the…\nThe post Code cov",
+    "aiSummary": "GitHub의 Code Quality upload-code-coverage 액션이 코드 커버리지 보고서의 형식을 검증하는 기능을 새롭게 도입했습니다. 이제 업로드되는 보고서가 Cobertura XML 형식이 아닐 경우 해당 업로드 단계가 실패하도록 변경되었습니다. 이를 통해 잘못된 형식의 데이터가 시스템에 등록되는 것을 방지하고 코드 품질 분석의 정확성을 높입니다.",
+    "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-23T15:28:36.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-black-friday-deals-2026",
+    "title": "Laravel Black Friday and Cyber Monday Deals 2026",
+    "summary": "Save on Laravel courses, packages, AI tools, and domains this Black Friday and Cyber Monday, with discount codes and sale dates for every 2026 deal.\nThe post Laravel Black Friday and Cyber Monday Deal",
+    "aiSummary": "Laravel News에서 2026년 Black Friday와 Cyber Monday를 맞이하여 다양한 할인 정보를 제공합니다. 이번 행사 기간에는 Laravel 관련 온라인 강좌를 비롯해 유용한 패키지, AI 도구, 도메인 등을 저렴한 가격에 구매할 수 있습니다. 각 거래에 대한 할인 코드와 상세 일정은 Laravel News 공식 게시글에서 확인할 수 있습니다.",
+    "url": "https://laravel-news.com/laravel-black-friday-deals-2026?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Eric L. Barnes",
+    "pubDate": "2026-11-23T14:27:20.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.15",
+    "title": "1.5.15",
+    "summary": "Added an auto-compaction threshold row under the capacity header in /context, and updated AGY_CLI_AUTO_COMPACT_OVERRIDE to support all eligible models: pass a token count (700000), a K or M shorthand ",
+    "aiSummary": "이번 업데이트 1.5.15에서는 컨텍스트 관리와 원격 제어 기능, 그리고 각종 버그 수정이 포함되었습니다.\n\n컨텍스트와 관련하여 /context 헤더 아래 자동 압축 임계값 행이 추가되었습니다. AGY_CLI_AUTO_COMPACT_OVERRIDE 기능이 개선되어 토큰 수, 약어, 혹은 백분율 단위를 지원하며 이를 통해 대화가 압축되는 시점을 유연하게 설정할 수 있습니다. 또한 tokyo night 색상 테마의 텍스트 대비를 개선하여 가독성을 높였습니다.\n\n원격 제어 브라우저 뷰에서는 프로젝트 선택기를 개선하여 최신순으로 정렬된 스크롤 가능한 목록을 제공합니다. 원격 환경이 존재할 경우 로컬과 원격 환경을 우선적으로 필터링하도록 변경되었으며 대기 중인 메시지 카드와 권한 승인 프롬프트의 가시성도 강화되었습니다.\n\nOrchestrator의 Planner와 Executor 역할에 대한 기본 사고 강도가 상향 조정되었고 로컬 대화 저장 방식이 변경되어 설정된 최대 개수를 초과하더라도 대화 내용이 삭제되지 않도록 개선되었습니다.\n\n이 외에도 /btw 사이드 질문 실행 오류, Windows 터미널 렌더링 모드 경고 문구 문제, agy acp의 세션 로드 및 파일 처리 시 발생하는 오류들이 수정되었습니다. 특히 백그라운드 작업 수행 중 턴이 조기 종료되는 현상을 해결하여 작업 완료 시까지 세션을 유지하도록 변경하였으며 터미널 탭 분할 및 UI 요소들과 관련된 다양한 동작 오류를 수정했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.15",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-23T06:59:41.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/11/23/evolving-java-language/",
+    "title": "Evolving the Java Language: An Inside Perspective",
+    "summary": "Java doesn’t evolve by accident. So, how does a new Java feature go from a promising idea to something millions of developers use? And why do some seemingly obvious improvements never make it into the",
+    "aiSummary": "Java Language Architect인 Brian Goetz는 JavaOne 키노트에서 Java 언어의 발전 과정과 설계 철학에 대해 상세히 설명합니다. 그는 Lambdas, Records, Pattern matching, Virtual threads와 같은 주요 기능이 단순한 아이디어를 넘어 실제 표준으로 정착하기까지 거치는 복잡한 의사결정과 제약 사항을 다룹니다.\n\n기술적인 발전보다 중요한 것은 문제 자체를 깊이 이해하는 과정임을 강조합니다. 성급한 기능 도입이 오히려 코드 복잡도를 높일 수 있다는 점을 경고하며 기존 사용자의 투자와 생태계를 보호하면서도 언어를 혁신해야 하는 어려운 균형점을 설명합니다.\n\n본 강연은 개발자가 사용하는 코드가 어떠한 고민과 절충 과정을 거쳐 완성되는지를 조명합니다. 소프트웨어 아키텍트와 Java 개발자들에게 언어 설계의 이면을 보여줌으로써 Java가 나아가는 방향성을 이해하는 기회를 제공합니다. 관련 내용은 JavaOne 2026 재생목록에서 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/11/23/evolving-java-language/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Brian Goetz",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/pgconfdev-2027-call-for-proposals-is-open-3451/",
+    "title": "PGConf.dev 2027 Call for Proposals is Open\n",
+    "summary": "PGConf.dev 2027 (May 11-14, 2027, Montréal, CA), aka PostgreSQL Developer Conference 2027, is the annual gathering of PostgreSQL community organizers, hackers, extension maintainers, and the developer",
+    "aiSummary": "PostgreSQL 개발자들을 위한 연례 행사인 PGConf.dev 2027이 오는 2027년 5월 11일부터 14일까지 캐나다 몬트리올에서 개최됩니다. 이번 행사는 PostgreSQL 커뮤니티 관계자들과 개발자들이 모여 기술적 미래를 논의하고 워크숍 및 다양한 세션을 진행하는 자리입니다.\n\n현재 발표자를 위한 제안서 접수가 시작되었으며 마감 기한은 2027년 1월 12일입니다. 모집 분야는 발표와 워크숍을 비롯해 패널 토론, 포스터 등 PostgreSQL 개발, 성능 최적화, 아키텍처, 커뮤니티 운영과 관련된 모든 주제를 포함합니다. 처음 발표하는 참가자에게도 피드백을 제공하는 등 적극적인 참여를 독려하고 있습니다.\n\n커뮤니티 토론 세션은 두 차례로 나뉘어 접수를 진행하며 1차 마감은 1월 12일, 2차 마감은 4월 13일입니다. 포스터 발표를 희망하는 경우 3월 15일까지 신청해야 합니다. 또한 관심 있는 주제를 직접 제안하거나 다른 제안에 투표할 수 있는 Talk Solicitation Program도 운영됩니다. 행사 관련 상세 정보나 발표 제안 및 후원 문의는 공식 웹사이트를 통해 확인할 수 있습니다.",
+    "url": "https://www.postgresql.org/about/news/pgconfdev-2027-call-for-proposals-is-open-3451/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-8-19-26-released",
+    "title": "Elastic Stack 8.19.26 released",
+    "summary": "Version 8.19.26 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 8.19.26 over the previous version 8.19.25\nFor details of the issues that have bee",
+    "aiSummary": "Elastic Stack 8.19.26 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 8.19.25에서 발견된 문제들을 해결한 최신 버전이므로 사용자들에게 업그레이드를 권장합니다. 수정된 세부 사항과 제품별 변경 내역은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-8-19-26-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-5-7-released",
+    "title": "Elastic Stack 9.5.7 released",
+    "summary": "Version 9.5.7 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.7 over the previous version 9.5.6\nFor details of the issues that have been fixe",
+    "aiSummary": "Elastic Stack 9.5.7 버전이 새롭게 출시되었습니다. 이번 업데이트는 이전 버전인 9.5.6보다 향상된 안정성과 기능 개선을 포함하고 있으므로 최신 버전으로 업그레이드하는 것을 권장합니다. 수정된 문제 항목과 제품별 상세 변경 사항은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-5-7-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/whats-new-elastic-9-6-0",
+    "title": "Elastic 9.6: AlertZero, ES|QL S3 Data Federation, Universal Alerting, and more!",
+    "summary": "We are pleased to announce the availability of Elastic 9.6 capabilities in serverless. Elastic 9.6 is expected to be available for ECH and Self-Managed deployments in early December. This release incl",
+    "aiSummary": "Elastic 9.6 버전이 서버리스 환경에 먼저 출시되었으며, ECH 및 Self-Managed 배포 버전은 12월 초에 공개될 예정입니다.\n\n이번 업데이트에는 AlertZero 기능을 비롯해 ES|QL을 활용한 S3 Data Federation 기능, 그리고 Universal Alerting 시스템 등이 새롭게 포함되었습니다. Elastic 플랫폼 전반에 걸친 주요 성능 향상과 혁신적인 기능들이 이번 릴리스를 통해 제공됩니다.",
+    "url": "https://www.elastic.co/blog/whats-new-elastic-9-6-0",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Sarah Leslie",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T19:20:56.914Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
     "id": "https://openai.com/index/perplexity-and-intelligence",
     "title": "Perplexity and Intelligence",
     "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
@@ -2538,379 +2795,6 @@
     "tags": [
       "GitHub",
       "DevOps"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v12.5.1",
-    "title": "v12.5.1",
-    "summary": "v12.5.1 (2026-11-16)\nFeatures\ncore\n\n#18523 feat(core): accept module metadata as the root module (@kamilmysliwiec)\nBug fixes\ncommon\n\n#18515 fix(common): reject a date past the end of its month in pars",
-    "aiSummary": "NestJS 프레임워크의 v12.5.1 버전이 2026년 11월 16일에 배포되었습니다. 이번 업데이트는 신규 기능 추가와 버그 수정, 그리고 마이크로서비스 환경에서의 안정성 강화에 초점을 맞추고 있습니다.\n\n주요 변경 사항으로 core 모듈에서는 모듈 메타데이터를 루트 모듈로 허용하는 기능이 추가되었습니다.\n\n마이크로서비스와 관련된 기능 향상이 두드러집니다. rmq, tcp, mqtt, redis, nats 서버에 대해 안정적인 종료를 지원하는 graceful shutdown 기능이 구현되어 서비스 운영의 안정성을 높였습니다. 또한 Kafka 헤더의 중복 값을 올바르게 디코딩하도록 개선하였으며, 클라이언트 종료 시 Kafka 연결 시도를 중단하도록 수정하였습니다.\n\n버그 수정 및 기타 개선 사항으로는 common 패키지에서 날짜 파싱 시 해당 월을 벗어나는 날짜를 거부하도록 수정하였고, platform-node에서 Nunjucks 뷰를 환경 설정을 통해 렌더링하도록 변경하였습니다. 이 외에도 콘솔 로거의 기본 breakLength 설정을 수정하고, 번역 가이드와 라이선스 링크를 절대 경로로 변경하는 등 문서화 작업이 진행되었습니다. 이번 릴리즈에는 총 8명의 커미터가 참여하였습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v12.5.1",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-11-16T18:57:12.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
-    "title": "Scheduling the removal of the kube-proxy IPVS backend",
-    "summary": "The ipvs backend for kube-proxy was an experiment in providing a\nservice proxy implementation with better performance than the\niptables backend. While it succeeded in that goal, the kernel IPVS\nAPI ha",
-    "aiSummary": "Kubernetes SIG Network은 kube-proxy의 IPVS 백엔드를 공식적으로 폐기할 예정입니다. IPVS는 과거 iptables의 성능 문제를 해결하기 위해 도입되었으나, Kubernetes Service API와의 구조적 불일치, 기능 구현의 불완전함, 유지보수의 어려움으로 인해 더 이상 권장되지 않습니다. 해당 기능은 Kubernetes 1.35 버전부터 폐기 단계에 진입했으며, 1.40 버전에서 완전히 삭제될 계획입니다.\n\nIPVS가 도입되었던 초기 목적은 대규모 클러스터에서 발생하는 데이터 플레인 및 컨트롤 플레인 지연 시간을 개선하는 것이었습니다. 그러나 IPVS API 자체의 한계로 인해 대량의 변경 사항이 발생할 때 처리 효율이 떨어지고, 복잡한 기능을 구현하기 위해 결국 다시 iptables에 의존해야 하는 등 유지보수와 성능 측면에서 한계가 드러났습니다. 또한, RHEL에서 iptables API 제거가 예정됨에 따라 IPVS의 지속적인 지원도 불가능해졌습니다.\n\n사용자는 향후 업데이트에 대비하여 다른 백엔드로 마이그레이션해야 합니다. Kubernetes 1.36 이상 버전과 커널 5.13 이상의 환경을 사용하는 경우에는 완전한 기능을 지원하며 성능이 우수한 nftables 백엔드로의 전환을 강력히 권장합니다. 이는 kube-proxy 설정 변경만으로 비교적 간단히 전환할 수 있습니다.\n\n만약 nftables 사용이 어려운 환경이라면 개선된 iptables 백엔드를 선택할 수 있습니다. 2017년 당시와 달리 현재의 iptables 백엔드는 규칙 생성 최적화, 불필요한 연산 감소, 부분 업데이트 적용 등을 통해 성능이 크게 향상되었습니다. 이를 통해 과거에 iptables를 사용하기 어려웠던 대규모 클러스터에서도 현재는 충분히 안정적인 운영이 가능합니다. iptables로 전환 시에는 설정을 변경한 뒤 노드를 재부팅하는 것이 권장됩니다.",
-    "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
-    "category": "클라우드 & 인프라",
-    "source": "Kubernetes Blog",
-    "author": "Kubernetes Blog",
-    "pubDate": "2026-11-16T18:35:00.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "Kubernetes",
-      "Infra"
-    ]
-  },
-  {
-    "id": "c84e831e813aae9c114a1c7179100aac35ea0ad7",
-    "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
-    "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s",
-    "aiSummary": "AWS Emulator가 새롭게 출시되어 개발자와 코딩 에이전트가 로컬 환경에서 AWS 서비스를 직접 테스트하고 디버깅할 수 있게 되었습니다. 이를 통해 애플리케이션의 예외 상황이나 복잡한 비즈니스 로직을 변경 과정에서 신속하게 검증할 수 있습니다.\n\n함께 발표된 AWS Nitro Sandboxes는 보안이 강화된 격리 환경을 제공하여 더욱 안전한 코드 실행과 서비스 운영을 지원합니다. 이번 업데이트는 로컬 개발 환경의 효율성을 높이고 클라우드 환경과의 일관성을 유지하는 데 중점을 두고 있습니다.",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "AWS News Blog",
-    "author": "Daniel Abib",
-    "pubDate": "2026-11-16T17:55:46.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "AWS",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
-    "title": "HCP introduces IBMid support and new enterprise governance capabilities",
-    "summary": "Over the past quarter, the HashiCorp Cloud Platform (HCP) team has continued investing in the foundations that help organizations securely adopt and operate HashiCorp products at scale.\nThese updates ",
-    "aiSummary": "HashiCorp는 HCP의 보안성과 운영 효율성을 높이기 위해 아이덴티티, 거버넌스, 액세스 관리, 라이프사이클 관리를 중심으로 한 신규 기능을 발표했습니다.\n\n우선 IBMid 로그인을 공식 지원함에 따라 기존 HCP 계정을 IBMid와 연동하여 Google, GitHub 등 다양한 인증 방식을 활용하고 다중 인증인 MFA를 강화할 수 있게 되었습니다.\n\n기업용 거버넌스를 위한 Enterprise constraints 기능도 도입되었습니다. 이는 기존의 RBAC와 달리 조직 전체에서 배포 가능한 제품군을 관리자가 직접 제한할 수 있도록 하여, 비용 관리와 보안 규정 준수 및 승인된 제품 사용을 강제하는 효과를 제공합니다.\n\n사용자 온보딩 과정도 개선되어 관리자가 신규 사용자 초대 단계에서 직접 권한을 할당할 수 있게 되었으며, 이를 통해 사용자 권한 부여에 필요한 관리 업무를 간소화하고 팀의 생산성을 높였습니다.\n\n마지막으로 HCP 계정 및 조직 삭제를 위한 셀프 서비스 기능이 추가되었습니다. 이메일 및 비밀번호나 GitHub 인증을 사용하는 사용자는 고객 지원팀의 도움 없이 직접 계정을 삭제할 수 있으며, 조직 소유자 역시 시스템 내 안전 검사 절차를 거쳐 필요 없는 조직을 직접 삭제하고 정리할 수 있게 되었습니다.",
-    "url": "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Trevor Powell",
-    "pubDate": "2026-11-16T17:00:00.000Z",
-    "fetchedAt": "2026-11-18T04:34:23.342Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-    "title": "Broadening access to AI for scientists",
-    "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-    "aiSummary": "OpenAI는 전 세계 과학 연구자들을 지원하기 위해 ChatGPT for Academic Researchers 프로그램을 대폭 확대합니다.\n\n이번 조치를 통해 전 세계 200,000명의 연구자들에게 최신 frontier models를 무료로 사용할 수 있는 혜택을 제공합니다. 이는 학계의 인공지능 활용 접근성을 높이고 연구 효율성을 극대화하기 위한 전략적 결정입니다.",
-    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-16T17:00:00.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
-    "title": "Beyond the compute bottleneck: Maximizing the ROI of AI accelerators with purpose-built storage",
-    "summary": "There’s a lot more to AI infrastructure than just buying accelerators. Indeed, the infrastructure mandate for enterprise AI has shifted from acquiring accelerators to keeping them fully utilized. Next",
-    "aiSummary": "기업용 AI 인프라의 핵심은 고가의 가속기를 단순히 구매하는 것이 아니라, 가속기가 유휴 상태 없이 최대 성능을 발휘하도록 유지하는 것에 있습니다. 데이터 입출력 병목 현상은 AI 모델 학습과 추론 과정에서 가속기의 가동률을 떨어뜨리는 가장 큰 원인이 되며, 표준화된 엔터프라이즈 스토리지로는 이러한 요구사항을 충족하기 어렵습니다.\n\nAI 생애주기별로 데이터 활용 방식은 다릅니다. 모델 학습 시에는 대규모 데이터 처리와 빈번한 체크포인트 저장이 발생하는데, 이때 일반적인 스토리지 아키텍처는 네트워크 부하와 시스템 지연을 유발하여 GPU 클러스터를 멈추게 합니다. 반대로 추론 환경은 실시간성과 낮은 지연 시간이 중요하며, 대용량 컨텍스트 윈도우 처리를 위해 고속 외부 캐시가 필수적입니다.\n\nGoogle Cloud는 자사 서비스인 Search, YouTube, Gemini를 구동하는 Colossus 파일 시스템을 기반으로 이러한 I/O 문제를 해결하고 있습니다. 특히 Cloud Storage Rapid는 오브젝트 스토리지에 직접적인 고성능을 제공하여 별도의 데이터 마이그레이션 없이도 빠른 데이터 처리가 가능하게 하며, Rapid Cache를 통해 콜드 스타트 문제를 대폭 개선합니다. 또한 병렬 파일 시스템이 필요한 워크로드를 위해 DDN과 협력한 Google Cloud Managed Lustre를 제공하여 대규모 데이터 병목을 해소합니다.\n\n현재 Thinking Machines Lab, Shopify, Salesforce AI Research, Atlassian, Harmonic 등 다양한 기업이 해당 솔루션을 도입하여 GPU 가동률을 높이고 비용 효율성을 극대화하고 있습니다. 향후 성공적인 AI 전략을 위해서는 레거시 스토리지 지표가 아닌 토큰 경제성 관점에서 인프라를 평가하고, 데이터를 분산시키지 않는 통합된 기반 위에서 워크로드별 최적의 티어로 데이터를 이동시키는 접근 방식이 필요합니다.",
-    "url": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Ronen Schwartz"
-      ],
-      "title": [
-        "VP, Product Management, Storage"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-16T17:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
-    "title": "Bulk start AI Scan for repositories",
-    "summary": "AI Scan for repositories finds security vulnerabilities on your repository’s default branch. It covers languages CodeQL doesn’t support and finds additional issues in languages CodeQL already analyzes",
-    "aiSummary": "GitHub가 리포지토리의 보안 취약점을 탐색하는 AI Scan for repositories 기능을 대규모로 시작할 수 있도록 업데이트했습니다.\n\n이 기능은 리포지토리의 기본 브랜치를 분석하여 보안 취약점을 찾아내며 기존의 CodeQL이 지원하지 않는 언어까지 범위를 확장합니다. 또한 CodeQL이 이미 분석 중인 언어에 대해서도 추가적인 취약점을 식별하여 보안 분석의 완성도를 높입니다.\n\n분석 결과는 GitHub 내에서 직접 확인할 수 있으며 개발자와 보안 담당자는 더욱 폭넓은 범위에서 효율적으로 코드 내 결함을 관리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-16T15:50:22.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/technical/build-deploy-govern-your-agents-atlas-agent-engine",
-    "title": "Build, Deploy, and Govern Your Agents with MongoDB Atlas Agent Engine",
-    "summary": "Big Model vs. Big Harness has been an ongoing debate in AI engineering. An agent harness is everything besides the LLM that makes an agent work, including the runtime, tools, context, and guardrails s",
-    "aiSummary": "MongoDB가 자사의 플랫폼에서 에이전트를 구축, 배포 및 관리할 수 있는 통합 환경인 Atlas Agent Engine을 공개했습니다. 이 엔진은 에이전트의 제어 계층을 관리형 서비스로 제공하여 식별성, 런타임 관리, 장기 기억 장치, 감사 가능성, 가드레일을 지원합니다. 특정 모델이나 프레임워크에 종속되지 않는 중립적인 구조를 가지고 있어 LangGraph와 같은 기존 프레임워크로 작성된 에이전트를 쉽게 마이그레이션할 수 있는 것이 특징입니다.\n\n에이전트 마이그레이션 과정은 크게 코드 수정, 구성 파일 설정, 메모리 활성화, 배포 단계로 나뉩니다. 개발자는 기존 에이전트 코드를 Agent Engine SDK의 App 클래스로 감싸고 LLM 호출 및 도구 실행 경로를 엔진으로 라우팅해야 합니다. 또한 agent.yaml 파일을 통해 진입점, 샌드박스 구성, MCP 서버 연동 등을 정의하며, 프로젝트 레벨의 project-config.yaml을 통해 장기 기억 장치 기능을 활성화하고 사용자 선호도나 과거 대화 맥락을 저장할 수 있습니다.\n\nAtlas Agent Engine은 에이전트 전용 런타임 환경인 워크스페이스를 제공하며, 에이전트의 그래프와 도구 실행을 위한 격리된 샌드박스를 분리하여 운영합니다. 배포된 에이전트는 Atlas 관리 콘솔을 통해 상태를 모니터링하고 가드레일 및 거버넌스 정책을 적용받으며, 모든 도구 호출과 LLM 사용 이력을 추적할 수 있습니다. 이를 통해 기업은 보안과 거버넌스가 강화된 환경에서 더 안정적이고 지능적인 에이전트 서비스를 운영할 수 있습니다.",
-    "url": "https://www.mongodb.com/company/blog/technical/build-deploy-govern-your-agents-atlas-agent-engine",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "2026-11-16T15:00:01.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
-    "title": "Take GitHub Mobile with you on iPhone Duo",
-    "summary": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.…\nThe post Ta",
-    "aiSummary": "GitHub Mobile이 새롭게 iPhone Duo를 지원합니다. 기기를 펼쳤을 때 화면에 맞춰 최적화된 레이아웃을 제공하며 세로형 탭을 도입하여 Copilot, Pull Requests, Issues, Notifications와 같은 주요 메뉴 간의 이동이 더욱 편리해졌습니다. 사용자는 이제 iPhone Duo의 넓은 화면을 활용해 더욱 효율적으로 작업을 관리할 수 있게 됩니다.",
-    "url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-16T14:30:07.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
-    "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
-    "summary": "Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor\nExecutive Summary \nAs threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks, automated ",
-    "aiSummary": "GTIG와 Mandiant는 위협 행위자들이 단순한 프롬프트 입력을 넘어 자율형 멀티 에이전트 프레임워크와 자동화된 취약점 공격 파이프라인을 활용하는 단계로 진입했다고 분석했습니다. 이는 사이버 범죄, 첩보 활동, 정보전 영역에서 공격 시간이 단축되고 규모가 확장되는 중요한 변곡점을 의미합니다.\n\n주요 위협 트렌드는 다음과 같습니다.\n\n첫째, ARTEX, CAIRN, CyberStrikeAI, PentAGI와 같은 오픈소스 기반의 자율형 멀티 에이전트 프레임워크가 실전 공격에 도입되고 있습니다. 이 도구들은 정찰부터 취약점 탐색, 페이로드 생성 및 실행까지의 과정을 기계적 속도로 자동화하여 공격 효율을 극대화합니다.\n\n둘째, LLM을 활용한 취약점 연구 및 자동화된 공격이 고도화되었습니다. 특히 패치 발표 전후의 코드를 비교하는 차등 분석을 통해 n-day 취약점을 신속하게 무기화하고, 인간의 개입 없이 공격을 수행하는 exploit_agent와 같은 사례가 관찰되었습니다. 이는 패치 적용 전후의 짧은 시간 내에 공격이 발생할 위험을 크게 높입니다.\n\n셋째, 수익화 및 정보전에서의 LLM 악용이 지속되고 있습니다. LLM 자격 증명과 클라우드 자원을 탈취하는 LLMJacking이 성행하고 있으며, 국가 배후의 그룹들은 LLM을 사용하여 가짜 뉴스 생성, 현지화된 페르소나 구축, 플랫폼 간 콘텐츠 배포 등 정보전을 자동화하고 있습니다.\n\n마지막으로, 공급망 공격 분야에서는 자율 코딩 보조 도구의 설정을 조작하여 로컬 실행 시 백도어를 삽입하는 등 새로운 위협 벡터가 등장했습니다.\n\n현재 이러한 자동화 도구들은 공격 속도와 규모 면에서 강력한 성능을 발휘하지만, 공격 과정에서 발생하는 흔적이 명확하여 보안 탐지에 취약한 면도 있습니다. 그러나 기술이 진화함에 따라 공격자들은 은밀함과 정교함을 함께 갖춘 완전한 에이전트형 공격을 지향할 것으로 예상됩니다. 이에 대응하여 Google은 자율형 위협 방어 아키텍처와 전문화된 행동 규칙을 통해 대응 체계를 강화하고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Google Threat Intelligence Group "
-      ],
-      "title": [
-        ""
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-16T14:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.docker.com/?p=96139",
-    "title": "Give sandboxed agents live web access with the Firecrawl kit for Docker Sandboxes",
-    "summary": "Give AI coding agents live web access with the Firecrawl kit for Docker Sandboxes. Learn to search, scrape, and crawl websites with network controls.",
-    "aiSummary": "Docker Sandboxes 환경에서 AI 코딩 에이전트가 실시간으로 웹 데이터에 접근할 수 있도록 지원하는 Firecrawl 키트가 공개되었습니다.\n\n해당 도구를 활용하면 개발자는 AI 에이전트에 특정 웹사이트를 검색하거나 데이터를 수집하고 크롤링할 수 있는 기능을 부여할 수 있습니다. 특히 네트워크 제어 기능을 포함하고 있어 보안이 중요한 환경에서도 안정적으로 외부 웹 정보를 연동하는 것이 가능합니다.",
-    "url": "https://www.docker.com/blog/docker-sandboxes-firecrawl-web-access/",
-    "category": "클라우드 & 인프라",
-    "source": "Docker Blog",
-    "author": "Jennifer Kohl",
-    "pubDate": "2026-11-16T14:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "Docker",
-      "Infra"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/science-at-the-frontier",
-    "title": "Science at the Frontier: How scientists use ChatGPT",
-    "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-    "aiSummary": "1,800명이 넘는 과학자들을 대상으로 조사한 결과, ChatGPT는 연구 현장에서 일상적인 업무 흐름을 크게 변화시키고 있습니다. \n\n많은 연구자가 ChatGPT를 활용해 논문 작성, 코드 개발, 데이터 분석 등 반복적인 작업을 효율화함으로써 생산성을 높이고 있다고 보고합니다. \n\n과학자들은 이러한 생성형 AI 도구가 단순한 보조 기능을 넘어 향후 새로운 과학적 발견의 속도를 앞당길 중요한 기폭제가 될 것으로 기대하고 있습니다.",
-    "url": "https://openai.com/index/science-at-the-frontier",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-16T12:00:00.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
-    "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems",
-    "summary": "Google has been recognized as a Leader and positioned furthest in vision in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems (Cloud ODBMS).\n\n\n\n\n\n\n\n\n  \n    \nThis reco",
-    "aiSummary": "Google이 2026 Gartner Magic Quadrant for Cloud Operational Database Management Systems 부문에서 리더로 선정되었으며, 특히 비전 완성도 측면에서 가장 높은 평가를 받았습니다. 이번 성과는 Google이 에이전트형 AI 시대를 맞아 데이터를 AI와 분리할 수 없는 통합적이고 개방적인 구조로 설계한 전략이 인정받은 결과입니다.\n\nGoogle은 핵심 데이터베이스 포트폴리오인 Spanner와 AlloyDB를 통해 AI 네이티브 기능을 제공합니다. AlloyDB는 자동 벡터 임베딩과 인덱싱, Google DeepMind 모델 기반의 시계열 예측 기능을 통해 데이터 처리 효율을 극대화하며, Spanner는 관계형, 그래프, 벡터 데이터를 단일 엔진에서 처리하여 복잡한 에이전트 워크플로우를 지원합니다. 특히 Gartner의 Critical Capabilities 보고서 내 Agentic AI Operations 사용 사례에서 Google은 1위를 차지했습니다.\n\n또한 Google은 급변하는 AI 개발 환경에 대응하기 위해 AlloyDB Express를 출시하여 빠른 프로토타이핑과 비용 효율적인 운영 환경을 제공합니다. 이 외에도 Apache Iceberg와 같은 개방형 표준을 지원하고 AlloyDB Omni 및 Spanner Omni를 통해 멀티 클라우드와 온프레미스 환경에서도 일관된 성능을 발휘하는 경계 없는 데이터 플랫폼을 구축하고 있습니다.\n\nGoogle은 이번 Gartner 선정 외에도 IDC MarketScape 보고서에서 글로벌 운영 데이터베이스 부문 리더로 선정되는 등 기술력과 시장 전략에서 높은 평가를 이어가고 있습니다. 향후에도 Google은 기업들이 자율형 AI 에이전트를 대규모로 운영할 수 있도록 강력한 데이터 기반을 지속적으로 제공할 예정입니다.",
-    "url": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sailesh Krishnamurthy"
-      ],
-      "title": [
-        "VP & GM, Databases"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-16T08:30:00.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
-    "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
-    "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their ",
-    "aiSummary": "Google Cloud Dedicated는 유럽의 금융, 의료, 공공 등 규제가 엄격한 분야의 기업들이 현지 데이터 주권과 규제 표준을 준수하면서 클라우드 인프라를 현대화할 수 있도록 지원하는 솔루션입니다. 이 서비스는 Google Cloud의 아키텍처와 API 일관성을 유지하면서도 프랑스의 S3NS와 같은 현지 파트너사가 운영하는 독립적인 환경에서 구동되므로, 기업들은 기존의 개발 워크플로우를 그대로 유지하면서도 엄격한 보안 요구사항을 충족할 수 있습니다.\n\n많은 유럽 기업들이 클라우드 전환 과정에서 겪는 가장 큰 걸림돌은 인프라 자체가 아닌 소프트웨어 호환성 문제입니다. Google Cloud Dedicated는 업계 표준 엔터프라이즈 소프트웨어를 별도의 재설계 없이 현지 환경에서 그대로 실행할 수 있게 함으로써, 기업들이 주권 보호를 위해 성능이 낮은 대체 도구를 사용하거나 기존 애플리케이션을 수정해야 하는 부담을 해소합니다.\n\n현재 Google Cloud Dedicated에서 검증된 주요 파트너 솔루션들은 다음과 같습니다.\n\n사이버 보안 및 데이터 보호 분야에서는 Cohesity의 제로 트러스트 복구 솔루션이 데이터 유출 없는 안전한 사이버 복구를 지원하며, Saviynt는 주권 경계 내에서 최소 권한 원칙을 적용한 접근 관리를 보장합니다.\n\n소프트웨어 개발 및 엔지니어링 분야에서는 GitLab이 보안이 강화된 DevSecOps 환경을 제공하고, Ansys는 고성능 시뮬레이션 워크로드를, Red Hat은 OpenShift를 통한 하이브리드 클라우드 운영 일관성을 지원합니다.\n\n데이터 관리 및 인프라 분야에서는 MongoDB가 최신 데이터 모델을 유럽 현지 경계 내에서 실행할 수 있게 하며, Striim은 실시간 데이터 스트리밍과 분석을, Splunk는 중앙 집중식 보안 분석과 모니터링 기능을 제공합니다. 또한, Memority와 같은 플랫폼은 NIS2 및 DORA 규제에 최적화된 ID 관리를 지원합니다.\n\n이러한 협력 모델은 기업이 보안과 운영 주권을 현지 파트너사에게 완전히 위임하면서도, 글로벌 수준의 최신 소프트웨어 생태계를 제약 없이 활용할 수 있는 실질적인 이점을 제공합니다. 기업들은 이를 통해 데이터 주권이라는 복잡한 과제를 해결하면서도 비즈니스 혁신과 운영 효율성을 지속적으로 확보할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Mattia Tocco"
-      ],
-      "title": [
-        "Product Lead, Google Cloud Dedicated"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-16T08:05:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
-    "title": "Inside the new Google Cloud Data Boundary experience",
-    "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign stand",
-    "aiSummary": "Google Cloud는 전 세계 규제 산업에서 요구하는 디지털 주권과 혁신 사이의 균형을 맞추기 위해 개선된 Google Cloud Data Boundary를 발표했습니다. 이 솔루션은 데이터 상주, 접근 제어, 암호화와 같은 기술적 통제 수단을 Google Cloud의 상용 인프라와 통합하여 기업이 AI 혁신을 저해하지 않으면서도 엄격한 규제 기준을 준수할 수 있도록 지원합니다.\n\n새롭게 업데이트된 경험은 보안 및 AI 팀이 조직 전반의 거버넌스를 효율적으로 설정하고 확장할 수 있도록 돕습니다. 주요 기능으로는 주권 통제 수단에 대한 가시성 제공, 계층 구조 전반에 걸친 방어 체계 적용, 활성 제어 전 잠재적 위반 사항을 확인하는 Dry run 모드, Gemini in Google Cloud를 활용한 통제 수단 커스터마이징 등이 포함됩니다. 또한 기계 판독이 가능한 증거를 생성하여 감사 과정을 단축하고, 지속적인 모니터링을 통해 구성 변경에 따른 정책 위반을 방지합니다.\n\n기업은 Google Cloud 콘솔 내의 Compliance 탭을 통해 40개 이상의 공개 및 산업별 제어 패키지를 선택하고 지역을 지정하여 솔루션을 시작할 수 있습니다. 이를 통해 기업은 복잡한 규제 환경 속에서도 운영 효율성을 유지하며 안전하게 AI 기술을 도입하고 글로벌 시장으로 서비스를 확장할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Nitin Garg"
-      ],
-      "title": [
-        "Engineering Director, Regulated Cloud"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-16T08:05:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-    "title": "Advancing computer-use agents for healthcare teams",
-    "summary": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer n",
-    "aiSummary": "OpenAI는 의료 현장의 파편화된 시스템 간 데이터 이동과 반복적인 행정 업무를 자동화하기 위해 컴퓨터 사용 에이전트 기술을 도입했습니다. 이 기술은 AI가 직접 소프트웨어 화면을 클릭하고 타이핑하며 애플리케이션을 조작함으로써 기존 시스템의 제약 없이 의료진의 워크플로우를 지원합니다.\n\nGPT-6 Astra와 GPT-6 Luna 모델을 활용한 평가 결과, 임상 업무에서 99%의 안전성을 기록하였으며 행정 업무 처리 능력 또한 높은 수준의 성과를 보였습니다. 특히 의학적 판단이 필요한 임상 영역에서 93%의 높은 도움도를 나타내어 의료 서비스의 효율성을 입증했습니다.\n\n현재 Abridge, Ambience, Cigna Healthcare, CVS Health 등 주요 의료 기관들이 이 기술을 도입하고 있습니다. CVS Health는 행정 업무 자동화를 위해 에이전트를 활용하며 관련 도구를 오픈소스로 공개했고, Abridge는 퇴원 계획 조율에, Cigna Healthcare는 환자 정보 통합 관리에 이를 활용하여 업무 시간을 대폭 단축하고 있습니다.\n\n이러한 에이전트 기술은 OpenAI API, ChatGPT for Healthcare, ChatGPT for Clinicians를 통해 제공됩니다. HIPAA를 준수하는 보안 환경을 구축하고 역할 기반 접근 제어와 감사 로그 기록 기능을 포함하여 환자 데이터 보호와 책임 있는 AI 운용을 보장합니다. 또한 기업 데이터는 모델 학습에 사용되지 않도록 설정되어 의료 기관들이 안심하고 기술을 도입할 수 있도록 설계되었습니다.",
-    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-16T06:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-    "title": "More ways to move care forward with ChatGPT for Healthcare",
-    "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-    "aiSummary": "OpenAI가 의료 분야에 특화된 ChatGPT 기능을 새롭게 강화하며 컴퓨터 제어 에이전트와 개선된 임상 답변 도구를 선보입니다.\n\n이번 업데이트의 핵심은 의료 소프트웨어 전반에서 연동되는 새로운 헬스케어 플러그인을 제공하여 실질적인 업무 효율을 높이는 것입니다.\n\n이를 통해 의료진은 복잡한 소프트웨어 환경에서도 AI를 활용해 환자 진료 및 행정 업무를 더욱 능률적으로 처리할 수 있게 됩니다.",
-    "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-16T06:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.djangoproject.com/weblog/2026/nov/15/2027-dsf-board-nominations/",
-    "title": "2027 DSF Board Nominations",
-    "summary": "The Django Software Foundation is inviting nominations for its 2027 Board of Directors. Five of the seven Board positions are open for election this year.\nThe Board of Directors play a central role in",
-    "aiSummary": "Django Software Foundation은 2027년도 Board of Directors 선거를 위해 5명의 이사를 선출하기 위한 후보자 추천을 시작합니다. 이번 선거는 재단 역사상 처음으로 Executive Director를 채용하는 중요한 거버넌스 전환기에 진행되어 그 의미가 큽니다.\n\n후보 등록은 DSF 회원 여부나 이전 이사회 경험과 관계없이 Django의 미래에 기여하고자 하는 모든 사람에게 열려 있습니다. 지원을 희망하는 경우 2026년 12월 2일 23시 59분까지 공식 홈페이지의 Nomination Form을 작성하여 제출해야 합니다.\n\n선출되는 5명 중 4명은 2년 임기를 수행하며, Jacob Kaplan-Moss가 사임함에 따라 발생하는 나머지 1자리는 잔여 임기인 1년 동안 활동하게 됩니다. 재단은 이사회 운영의 연속성을 유지하기 위해 교차 임기제를 운영하고 있으며, 다양한 배경을 가진 인재들의 적극적인 참여를 기대하고 있습니다.",
-    "url": "https://www.djangoproject.com/weblog/2026/nov/15/2027-dsf-board-nominations/",
-    "category": "백엔드",
-    "source": "Django Weblog",
-    "author": "Priya Pahwa",
-    "pubDate": "2026-11-16T05:33:04.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "Django",
-      "Python"
     ]
   }
 ]
