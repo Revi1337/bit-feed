@@ -1,5 +1,22 @@
 [
   {
+    "id": "https://openai.com/index/perplexity-and-intelligence",
+    "title": "Perplexity and Intelligence",
+    "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "aiSummary": "Perplexity는 AI 모델의 성능 발전 정도를 측정하는 핵심 지표로 활용됩니다. 이 지표는 모델이 예측하는 다음 토큰에 대한 불확실성을 수치화하여 언어 모델의 학습 효율과 언어 이해 능력을 평가하는 데 기여합니다.\n\n개발자들은 Perplexity를 통해 서로 다른 모델 간의 성능을 객관적으로 비교하고 새로운 기술적 역량을 검증할 수 있습니다. 이는 AI 모델 평가에 관한 공통된 기준을 수립함으로써 향후 인공지능 기술의 발전 방향을 명확히 설정하는 데 도움을 줍니다.",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-22T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T03:48:32.171Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/nordic-pgday-2027-call-for-papers-sponsors-3450/",
     "title": "Nordic PGDay 2027 - Call for Papers & Sponsors!\n",
     "summary": "We are pleased to announce that the Call for Papers for Nordic PGDay 2027 is now open. The conference will take place in Stockholm, Sweden on March 16, continuing the tradition of bringing together Po",

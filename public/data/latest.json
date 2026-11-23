@@ -1,5 +1,22 @@
 [
   {
+    "id": "https://openai.com/index/perplexity-and-intelligence",
+    "title": "Perplexity and Intelligence",
+    "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "aiSummary": "Perplexity는 AI 모델의 성능 발전 정도를 측정하는 핵심 지표로 활용됩니다. 이 지표는 모델이 예측하는 다음 토큰에 대한 불확실성을 수치화하여 언어 모델의 학습 효율과 언어 이해 능력을 평가하는 데 기여합니다.\n\n개발자들은 Perplexity를 통해 서로 다른 모델 간의 성능을 객관적으로 비교하고 새로운 기술적 역량을 검증할 수 있습니다. 이는 AI 모델 평가에 관한 공통된 기준을 수립함으로써 향후 인공지능 기술의 발전 방향을 명확히 설정하는 데 도움을 줍니다.",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "category": "인공지능",
+    "source": "OpenAI News",
+    "author": "OpenAI News",
+    "pubDate": "2026-11-22T00:00:00.000Z",
+    "fetchedAt": "2026-11-23T03:48:32.171Z",
+    "tags": [
+      "OpenAI",
+      "LLM",
+      "AI"
+    ]
+  },
+  {
     "id": "https://www.postgresql.org/about/news/nordic-pgday-2027-call-for-papers-sponsors-3450/",
     "title": "Nordic PGDay 2027 - Call for Papers & Sponsors!\n",
     "summary": "We are pleased to announce that the Call for Papers for Nordic PGDay 2027 is now open. The conference will take place in Stockholm, Sweden on March 16, continuing the tradition of bringing together Po",
@@ -2893,85 +2910,6 @@
     "fetchedAt": "2026-11-17T05:07:36.015Z",
     "tags": [
       "Django",
-      "Python"
-    ]
-  },
-  {
-    "id": "https://ollama.com/blog/open-models-long-horizon-agents",
-    "title": "Making open models work for long-horizon agentic workloads",
-    "summary": "Prefix caching helps coding agents stay fast as conversations grow. Prompts, tool calls, and inference routing determine how much work the model can reuse.",
-    "aiSummary": "Prefix caching 기술은 대화가 길어질수록 코딩 에이전트의 속도를 유지하는 데 핵심적인 역할을 합니다.\n\n모델이 재사용할 수 있는 작업량은 프롬프트의 구성, 도구 호출 방식, 그리고 추론 라우팅 전략에 따라 결정됩니다.\n\n결과적으로 이러한 요소들을 최적화하는 것은 장기적인 에이전트 워크로드를 효율적으로 처리하기 위한 필수적인 과정입니다.",
-    "url": "https://ollama.com/blog/open-models-long-horizon-agents",
-    "category": "인공지능",
-    "source": "Ollama Blog",
-    "author": "Ollama Blog",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "Ollama",
-      "LLM",
-      "Local AI"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/how-attackers-target-banks",
-    "title": "How attackers target banks through trusted logins and tools",
-    "summary": "Elastic’s November 2026 threat report shows how attackers exploit trusted sign-ins, AI tools, and remote access. Learn how financial institutions can connect security and fraud signals before money mo",
-    "aiSummary": "Elastic이 발표한 2026년 11월 위협 보고서에 따르면 최근 공격자들은 금융 기관을 겨냥하여 신뢰받는 로그인 계정, AI 도구, 원격 접속 환경을 악용하는 정교한 수법을 사용하고 있습니다.\n\n이러한 위협은 정상적인 사용자나 도구인 것처럼 가장하여 시스템에 침투하기 때문에 탐지가 매우 어렵습니다. 보고서는 금융 기관들이 자금을 탈취당하기 전에 보안 경고와 이상 거래 탐지 신호를 통합하여 분석하는 것이 중요하다고 강조합니다.\n\n결론적으로 금융 서비스 분야에서는 파편화된 보안 데이터를 유기적으로 연결하여 실시간으로 위협을 식별하고 대응 체계를 고도화해야 합니다.",
-    "url": "https://www.elastic.co/blog/how-attackers-target-banks",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Karen Mcdermott",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
-    "title": "Enabling the parallel frontend on nightly",
-    "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default,\nto find remaining issues in preparation for its stabilization.\n\nContext\nThe Rust compiler has been using multip",
-    "aiSummary": "Rust 프로젝트 팀은 컴파일러 성능 향상을 위해 Rust 컴파일러의 프론트엔드 영역에 병렬 처리 기능을 도입하고, 이를 nightly 채널에서 기본값으로 설정했습니다. 기존의 Rust 컴파일러는 LLVM 기반의 백엔드에서는 다중 스레드를 활용해왔으나, 타입 체크와 borrow 체크를 담당하는 프론트엔드는 단일 스레드로 실행되어 성능상의 제약이 있었습니다.\n\n이번 업데이트를 통해 복잡한 코드 컴파일 시 8개 스레드 기준 최대 2배가량 컴파일 속도가 향상되는 등 유의미한 성능 개선이 확인되었습니다. 다만 현재는 초기 단계인 만큼 안정화 작업과 버그 수정을 위해 nightly 채널에서만 기본 적용하며, 컴파일러는 기본적으로 2개의 스레드를 사용하도록 설정됩니다. 사용자는 --jobs-frontend 옵션을 통해 스레드 수를 조정하거나, 이전과 같이 단일 스레드 방식으로 되돌릴 수 있습니다.\n\n현재 병렬 프론트엔드 환경에서는 진단 메시지의 출력 순서가 불규칙하거나 바이너리 재현성 문제 등 일부 제한 사항이 존재합니다. 향후 몇 달간 사용자 피드백과 오류 보고를 수집하여 안정성을 검증한 뒤 정식 안정화 버전에 포함할 계획입니다. 또한 추가적인 성능 최적화를 위해 매크로 확장이나 AST의 HIR 변환 과정 등 여전히 순차적으로 처리되는 영역에 대해서도 지속적인 병렬화 작업을 진행할 예정입니다.",
-    "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
-    "category": "프로그래밍 언어",
-    "source": "Rust Blog",
-    "author": "Jakub Beránek",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/11/16/devoxxbelgium-valhalla-value-objects/",
-    "title": "Why It Takes 3000 Commits to Bring Valhalla’s Value Objects to the JDK",
-    "summary": "JEP 401 (Value Objects) arrives in OpenJDK as a preview feature, enabling a new Java type model with minimal code changes. The talk explains what value objects are, JVM benefits, Valhalla history, imp",
-    "aiSummary": "OpenJDK의 JEP 401을 통해 도입되는 Value Objects는 자바의 새로운 타입 모델로, 코드 수정은 최소화하면서 객체 지향의 편리함과 원시 타입의 성능을 동시에 달성하는 것을 목표로 합니다.\n\n이 기능은 자바 가상 머신인 JVM 수준에서의 최적화를 가능하게 하며, 객체와 원시 타입 사이의 성능 차이를 좁혀 메모리 효율성을 크게 개선합니다.\n\nProject Valhalla의 오랜 역사와 수천 번의 커밋을 거쳐 구현된 이 기술은 향후 List와 같은 컬렉션 구조에서도 원시 타입처럼 효율적인 처리가 가능하도록 확장될 예정입니다.\n\n해당 내용은 Devoxx Belgium 2026에서 발표되었으며, 자바 개발 생태계 전반의 성능 향상을 위한 핵심적인 기술적 진보로 평가받습니다.",
-    "url": "https://inside.java/2026/11/16/devoxxbelgium-valhalla-value-objects/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "David Simms",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "fetchedAt": "2026-11-16T17:11:15.312Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.163.1",
-    "title": "0.163.1",
-    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
-    "aiSummary": "FastAPI 버전 0.163.1이 배포되었습니다. 이번 업데이트에는 코딩 에이전트가 현재 설치된 버전에 맞는 최신 기능과 권장 패턴을 활용하도록 돕는 공식 skill이 추가되었습니다. 해당 기능은 uvx library-skills 명령어를 통해 프로젝트에 설치할 수 있으며 자세한 내용은 Develop with AI 문서를 참고하면 됩니다.\n\n또한 버그 수정 사항으로 OpenAPI와 관련하여 중첩된 계산 필드를 포함하는 응답 모델에서 발생하던 문제가 해결되었습니다. 이는 YuriiMotov가 기여한 PR #14490을 통해 반영되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.163.1",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-11-15T09:50:02.000Z",
-    "fetchedAt": "2026-11-15T14:51:34.793Z",
-    "tags": [
-      "FastAPI",
       "Python"
     ]
   }
