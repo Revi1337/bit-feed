@@ -1,5 +1,150 @@
 [
   {
+    "id": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
+    "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
+    "summary": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to b",
+    "aiSummary": "Google은 Google Workspace와 Google Cloud 전반에서 AI 에이전트의 보안과 신뢰성을 강화하기 위한 새로운 기술 환경을 공개했습니다. 기존 REST API는 사람의 의도를 확인하는 방식이었으나 AI 에이전트가 자율적으로 활동함에 따라 보안 요구사항이 더욱 엄격해졌습니다. 이에 따라 정책 검사와 데이터 보호 기능을 내장한 새로운 에이전트 전용 인터페이스를 도입합니다.\n\n새롭게 정식 출시된 Workspace MCP 서버와 Workspace CLI는 Gmail, Google Drive, Docs 등 주요 서비스에 대한 표준화된 접근 방식을 제공합니다. 이를 통해 개발자는 내장된 DLP 체크와 사용자 확인 절차를 거치는 안전한 에이전트를 구축할 수 있습니다. 또한 Google Cloud Agent Gateway는 LLM 및 MCP 트래픽을 처리하며 Agent Registry를 통해 에이전트의 신원을 검증하고 IAM 정책을 강제합니다.\n\n모든 에이전트 워크플로우에는 일관된 보안 제어가 적용됩니다. 2027년 2월부터는 모든 AI 에이전트가 기존 REST API 대신 Workspace MCP 서버나 CLI를 사용하도록 의무화하며 모든 요청은 조직의 권한 정책을 따르게 됩니다. 에이전트에게는 별도의 식별 정보가 부여되어 권한을 최소화하고 사용량 제한을 설정하며 핵심적인 작업에는 반드시 사람의 승인이 포함되도록 설계되었습니다.\n\n관리자는 관리 콘솔을 통해 에이전트 활동을 감시하고 언제든지 접근 권한을 철회할 수 있습니다. 또한 데이터 보안을 위해 모델 학습이나 데이터 무단 저장을 엄격히 금지하는 새로운 Workspace AI Tools Addendum을 시행합니다. Google Cloud 환경에서는 VPC Service Controls과 Sensitive Data Protection 등을 통해 민감한 데이터를 보호하며 기업이 AI 에이전트를 안전하게 확장할 수 있는 환경을 마련했습니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Chandu Thota"
+      ],
+      "title": [
+        "VP, Engineering, Workspace"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-24T17:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+    "title": "More predictable notifications on GitHub.com",
+    "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of a",
+    "aiSummary": "GitHub는 2026년 12월 1일부터 일주일 동안 GitHub.com의 알림 시스템을 순차적으로 마이그레이션합니다.\n\n이번 업데이트의 목적은 구독 관리의 예측 가능성을 높이고, 기존 알림 시스템에서 발생하던 예기치 않은 동작을 수정하며, 지속적으로 증가하는 사용자 활동 규모를 효과적으로 지원하는 것입니다.",
+    "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-24T16:40:59.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+    "title": "See what 5 builders are making with Gemini 4 Neon",
+    "summary": "See five projects builders created with Gemini 4 Neon, from a glowing 3D Earth and Three.js butterflies to an interactive black hole.",
+    "aiSummary": "Gemini 4 Neon을 활용하여 개발자들이 제작한 5가지 혁신적인 프로젝트가 공개되었습니다.\n\n주요 사례로는 빛나는 3D 지구 모델과 Three.js를 이용한 나비 애니메이션, 그리고 상호작용이 가능한 블랙홀 시뮬레이션 등이 포함되어 있습니다. 이는 Gemini 4 Neon의 뛰어난 시각적 구현 능력과 개발 도구로서의 잠재력을 잘 보여줍니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Zahra Thompson"
+      ],
+      "title": [
+        "Contributor"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-24T16:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "c2ba2dc45c5f6d0f3d50ffb444e6dae226deff4f",
+    "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+    "summary": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight y",
+    "aiSummary": "AWS Lambda의 실행 시간 제한이 기존 15분에서 30분으로 확대되었습니다. 이는 2018년 이후 8년 만에 이루어진 변경으로 보다 긴 실행 시간이 필요한 작업 처리의 유연성을 크게 높여줍니다.\n\n또한 AWS Lambda는 이제 GPU를 활용한 실행을 지원하기 시작했습니다. 이를 통해 AI 모델 추론이나 복잡한 데이터 처리 등 고성능 컴퓨팅 리소스가 요구되는 워크로드를 서버리스 환경에서 더욱 효율적으로 수행할 수 있게 되었습니다.\n\n아울러 AWS는 콜롬비아 Bogotá에 새로운 Local Zone을 개설했습니다. 이를 통해 해당 지역의 사용자와 애플리케이션은 지연 시간을 더욱 단축하고 로컬 데이터 처리 성능을 개선할 수 있는 기반을 갖추게 되었습니다.",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+    "category": "클라우드 & 인프라",
+    "source": "AWS News Blog",
+    "author": "Daniel Abib",
+    "pubDate": "2026-11-24T15:39:59.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "AWS",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/product-release-announcements/mastra-integration-adds-hybrid-search-auto-embedding-reranking",
+    "title": "MongoDB Mastra Integration Adds Hybrid Search, Auto Embedding, and Reranking",
+    "summary": "Builders use Mastra, an open-source TypeScript framework, to create increasingly capable agents with MongoDB. But preparing retrieval for those agents can mean copying operational data into a separate",
+    "aiSummary": "TypeScript 기반 오픈소스 프레임워크인 Mastra와 MongoDB가 통합되어 더욱 효율적인 에이전트 구축 환경을 제공합니다. 기존에는 검색을 위해 데이터를 별도의 컬렉션으로 복사하고 임베딩을 동기화해야 하는 번거로움이 있었으나, 이번 업데이트를 통해 이러한 복잡한 과정을 단일 쿼리로 통합했습니다.\n\n주요 기능으로 Hybrid Search는 의미론적 검색과 키워드 검색을 결합하여 별도의 조율 없이 최적의 결과를 도출합니다. Automated Embedding은 텍스트 필드의 임베딩 생성 및 관리를 자동화하여 애플리케이션 측의 부담을 줄여줍니다. 또한 BYOC를 활용하면 원본 MongoDB 컬렉션을 직접 검색할 수 있어 데이터 복제나 동기화 작업이 불필요해집니다.\n\n여기에 Pre-filtering을 통해 검색 범위를 정밀하게 제한하고 Native Reranking을 적용하여 결과의 관련성을 높일 수 있습니다. 이러한 기능들은 데이터 수집부터 최종 결과 도출까지의 전 과정을 간소화하며, 특히 가격이나 재고 등 구체적인 제약 조건이 포함된 질문에 대해서도 정교한 대응이 가능하게 합니다. 최신 통합 기능을 활용하려면 MongoDB Atlas 버전 9.0 이상이 필요합니다.",
+    "url": "https://www.mongodb.com/company/blog/product-release-announcements/mastra-integration-adds-hybrid-search-auto-embedding-reranking",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-24T15:17:15.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
+    "title": "Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium",
+    "summary": "Editor’s note: Founded in 1988 in Kota, Rajasthan, ALLEN is one of India’s leading coaching institutions, serving over 400,000 students across 350+ classroom campuses in 78 cities. Here, the IT and Cy",
+    "aiSummary": "인도의 대형 교육 기관인 ALLEN은 40만 명 이상의 학생과 5천 명 이상의 교직원 및 외부 협력업체 직원이 사용하는 디지털 환경을 보호하기 위해 Chrome Enterprise Premium을 도입했습니다. 기존의 파편화된 브라우저 환경과 가상 데스크톱 인프라 환경에서는 보안 정책을 일관되게 적용하고 가시성을 확보하는 데 어려움이 있었으나, Chrome Enterprise Premium을 통해 이를 통합 관리 체계로 전환했습니다.\n\nALLEN의 IT 및 사이버 보안 팀은 Google Admin 콘솔을 활용해 기기 상태와 사용자 ID, 네트워크 상황 등을 종합적으로 판단하는 Zero Trust 아키텍처를 구현했습니다. 특히 학생들의 개인정보 보호를 위한 DLP 규칙을 적용하여 민감한 데이터의 복사, 붙여넣기, 다운로드 및 업로드를 제어하고 있으며, 별도의 무거운 보안 소프트웨어를 설치하지 않고도 브라우저 차원에서 위협을 차단하는 효율적인 보안 환경을 조성했습니다.\n\n이번 도입을 통해 ALLEN은 Windows, macOS, ChromeOS, iOS, Android 등 다양한 플랫폼 환경에서 일관된 보안 정책을 실행하게 되었습니다. 결과적으로 보안 유지와 사용자 편의성이라는 두 가지 과제를 동시에 해결하였으며, 인도 디지털 개인정보 보호법인 DPDPA를 비롯한 규제 준수 역량을 강화하고 관리 효율성을 높이는 성과를 거두었습니다.",
+    "url": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Rishabh Chhajer"
+      ],
+      "title": [
+        "Vice President – IT & Cybersecurity"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        "ALLEN Career Institute Pvt. Ltd."
+      ]
+    },
+    "pubDate": "2026-11-24T15:02:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "GCP",
+      "Cloud"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.16",
     "title": "1.5.16",
     "summary": "Added -r and --resume command-line flag aliases for --conversation so you can resume a specific conversation by ID with agy -r  or agy --resume .\nAdded a live step checklist under the status line abov",
@@ -33,6 +178,38 @@
     ]
   },
   {
+    "id": "https://spring.io/blog/2026/11/24/spring-ai-tool-call-confirmation-park-resume",
+    "title": "Human in the Loop with Spring AI 2.1: Tool Calls That Survive a Restart",
+    "summary": "Spring AI: Tool Call Confirmation (https://docs.spring.io/spring-ai/reference/2.1-SNAPSHOT/tools/confirmation.html) | Session Extensions (https://spring-ai-community.github.io/spring-ai-session-extens",
+    "aiSummary": "Spring AI 2.1은 에이전트가 특정 도구를 호출할 때 사용자의 확인을 거치도록 하는 도구 호출 확인 기능을 도입하였습니다. 이는 금융 거래와 같이 민감한 작업이 포함된 경우 모델이 임의로 도구를 실행하지 않고 사용자 승인을 기다리게 함으로써 안전성을 확보합니다. 특정 도구에 requiresConfirmation 설정을 추가하거나 별도의 정책 빈을 정의하여 어떤 상황에서 확인이 필요한지 세밀하게 제어할 수 있습니다.\n\n이 기능의 핵심은 도구 호출이 일시 정지되어도 상태가 유지된다는 점입니다. Spring AI 2.1은 도구 호출이 보류된 상태를 일반적인 응답으로 처리하며, 이 정보는 세션 기록에 저장됩니다. 기존에는 애플리케이션이 재시작되면 대기 중인 상태를 유지하기 어려웠으나, Spring AI Community 프로젝트인 Spring AI Session Extensions가 도입되면서 이 문제를 해결하였습니다.\n\nSession Extensions는 세션 API를 확장하여 대화의 특정 턴이 사용자 승인을 기다리는 상태인 파크 상태에 있음을 기록합니다. 이를 통해 애플리케이션이 재시작되거나 다른 인스턴스에서 요청을 처리하더라도, 세션 로그를 통해 보류된 질문을 확인하고 승인 여부를 결정할 수 있습니다. 승인된 작업은 자동으로 도구가 실행된 후 모델이 대화를 마무리하며, 거부된 경우 해당 정보를 바탕으로 고객에게 대응합니다. 이 과정에서 보안을 위해 승인 결정은 신뢰할 수 있는 서버 측에서 이루어져야 하며, 동일한 결정이 반복 실행되지 않도록 관리하는 것이 중요합니다. 현재 버전에서는 타임아웃 기능 부재와 같은 일부 제한 사항이 있으나, 에이전트의 워크플로우를 안정적으로 제어할 수 있는 구조를 제공합니다.",
+    "url": "https://spring.io/blog/2026/11/24/spring-ai-tool-call-confirmation-park-resume",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/announcing-the-first-distributed-e-maj-version-3452/",
+    "title": "Announcing the first Distributed E-Maj version.\n",
+    "summary": "We are very glad to announce the Distributed E-Maj 0.9.1 version.\nDistributed E-Maj is an add-on to the E-Maj solution that brings the capability to revert data changes recorded on several databases t",
+    "aiSummary": "E-Maj 솔루션의 기능을 확장하는 Distributed E-Maj 0.9.1 버전이 처음으로 공개되었습니다. 이 솔루션은 서로 다른 여러 데이터베이스에 기록된 데이터 변경 사항을 일관된 방식으로 특정 시점으로 복구할 수 있게 지원합니다.\n\n현재 해당 버전은 테스트 목적으로만 배포되며 E-Maj 5.0.1과 호환되고 PostgreSQL 14 버전부터 19 버전까지를 지원합니다. 상세한 문서 정보는 온라인에서 확인할 수 있으며 핵심 확장은 pgxn.org 또는 github.org를 통해 이용이 가능합니다.\n\n기존 E-Maj가 Change Data Capture 솔루션으로서 데이터의 조회, 통계, 재실행 및 특정 시점인 Mark로의 롤백 기능을 제공했다면 Distributed E-Maj는 이러한 데이터 복구 범위를 여러 데이터베이스에 분산된 테이블 그룹까지 확장한 것이 특징입니다. 개발 팀은 사용자들의 다양한 피드백을 기다리고 있습니다.",
+    "url": "https://www.postgresql.org/about/news/announcing-the-first-distributed-e-maj-version-3452/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
     "title": "Issue statuses and repository boards are in public preview",
     "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight…\nThe post Issue statuses and rep",
@@ -46,6 +223,22 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/terraform-introduces-tfpolicy-support-for-stacks-scim-support-and-more",
+    "title": "Terraform introduces tfpolicy support for Stacks, SCIM support, and more ",
+    "summary": "Over the past quarter, the HashiCorp Terraform engineering team has introduced new capabilities that make infrastructure management more scalable, secure, and easier to automate. These updates help pl",
+    "aiSummary": "HashiCorp가 HCP Terraform과 Terraform Enterprise의 인프라 관리 효율성, 보안성, 자동화를 강화하는 다양한 업데이트를 발표했습니다.\n\n먼저 Terraform Stacks에 대한 정책 지원이 정식 출시되었습니다. 이제 HCL 기반의 정책을 Stacks에도 적용할 수 있어 표준 워크스페이스와 동일한 수준의 규정 준수 및 보안 가이드라인을 일관되게 유지할 수 있습니다. 정책은 배포 계획 직후 평가되므로 문제 발생 시 조기 대응이 가능합니다.\n\n다음으로 다중 배포 그룹 오케스트레이션 기능이 정식 출시되었습니다. 대규모 인프라 배포 시 여러 배포를 하나의 단위로 관리할 수 있으며, 실패 허용 임계값을 설정해 대규모 배포의 위험을 제어할 수 있습니다. 또한 계획 생성 제어와 통합된 모니터링을 통해 운영 효율성과 가시성을 크게 높였습니다.\n\nAI 에이전트와 자동화 도구를 위한 Terraform Stacks CLI 확장 기능도 선보였습니다. 비대화형 명령어를 도입하고 기계 판독이 가능한 JSON 출력을 지원하여 CI/CD 파이프라인이나 AI 에이전트가 배포 상태를 모니터링하고 오류를 진단하기 더욱 편리해졌습니다.\n\n마지막으로 SCIM 2.0 지원을 통해 사용자 수명 주기 관리의 자동화를 구현했습니다. 기업의 ID 제공업체와 연동하여 사용자 프로비저닝 및 팀 멤버십을 자동으로 동기화하며, 사용자가 삭제될 경우 활성 세션과 API 토큰까지 즉시 회수되어 보안 및 규정 준수 역량이 강화되었습니다.\n\n이러한 개선 사항들은 플랫폼 팀이 대규모 인프라 환경에서 더 안전하고 체계적으로 운영을 자동화할 수 있도록 지원합니다.",
+    "url": "https://www.hashicorp.com/blog/terraform-introduces-tfpolicy-support-for-stacks-scim-support-and-more",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Vansh Munjal",
+    "pubDate": "2026-11-23T19:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
@@ -518,6 +711,22 @@
     ]
   },
   {
+    "id": "https://www.hashicorp.com/blog/nomad-in-2026-a-year-of-scale-security-and-ecosystem-velocity",
+    "title": "Nomad in 2026: A Year of Scale, Security, and Ecosystem Velocity ",
+    "summary": "The future of orchestration is heterogeneous. Platform teams should not have to choose between containers, raw binaries, and virtual machines, or maintain separate, siloed control planes for each. Tod",
+    "aiSummary": "Nomad 2.0 및 2.1 릴리스를 통해 인프라 오케스트레이션 플랫폼으로서의 기능이 대폭 강화되었습니다. 이번 업데이트는 제어 평면의 성능 향상, 배치 작업 효율성 개선, 컨테이너 없는 워크로드의 보안성 강화에 초점을 맞추고 있습니다.\n\n핵심적인 개선 사항으로 Nomad 2.0은 Raft 로그 저장소를 BoltDB에서 Write-Ahead Log 방식으로 변경하여 성능을 높였으며, Nomad 2.1은 스냅샷 필터링 기능과 배치 작업 큐를 도입하여 대규모 워크로드 운영 시의 유연성을 확보했습니다. 특히 배치 작업 큐는 FIFO 및 우선순위 기반 스케줄링을 지원하여 작업 간의 병목 현상을 해결합니다.\n\n보안 측면에서는 exec2 드라이버의 v0.2.0 업데이트가 주목할 만합니다. 이제 컨테이너 환경이 아닌 일반 바이너리 워크로드에서도 리눅스 커널 수준의 권한 관리, Landlock 샌드박스 격리, CSI 볼륨 마운트 등을 지원하여 컨테이너 수준의 보안성을 확보했습니다.\n\n워크로드 다변화를 위한 업데이트도 이루어졌습니다. Podman 드라이버는 루트리스 환경 지원을 강화하고 의존성을 정리했으며, Virt 드라이버(Tech Preview)를 통해 가상 머신에 대한 네이티브 오케스트레이션 기능을 확장했습니다.\n\n인프라의 안정적인 확장을 위해 Nomad Autoscaler는 Instana와 InfluxDB 같은 APM 툴과의 연동성을 높였고, 노드 종료 시 작업이 완전히 마무리될 때까지 대기하는 Fail-safe 기능을 추가하여 운영의 안전성을 높였습니다.\n\n또한 Terraform Provider v2.6.1은 Ephemeral Resources를 도입하여 민감한 보안 토큰이 상태 파일에 저장되는 문제를 해결했습니다. 더불어 preserve_counts 매개변수를 통해 Terraform과 오토스케일러 간의 설정 충돌 없이 워크로드를 관리할 수 있도록 개선되었습니다.",
+    "url": "https://www.hashicorp.com/blog/nomad-in-2026-a-year-of-scale-security-and-ecosystem-velocity",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Anshu Goyal",
+    "pubDate": "2026-11-20T17:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "Terraform",
+      "IaC"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
     "title": "Ultimate guide for fixing your team’s API keys",
     "summary": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio, then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slow",
@@ -707,6 +916,21 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-11-20-1",
+    "title": "PHP Conference Kansai 2026 (JAPAN)",
+    "summary": "We are excited to announce PHP Conference Kansai 2026! 🎉\n      \nAbout the conference\n\n        PHP Conference Kansai is a technical conference where PHP engineers in the Kansai region of Japan share t",
+    "aiSummary": "PHP Conference Kansai 2026 개최 소식이 발표되었습니다. 이번 행사는 일본 간사이 지역의 PHP 엔지니어들이 지식과 경험을 공유하는 기술 컨퍼런스로, 2011년 시작 이후 오사카와 고베를 거쳐 이번에는 교토에서 개최됩니다.\n\n이번 행사의 주제는 다음 단계가 시작되는 곳이라는 의미를 담은 次は、ここから始まる입니다. AI가 업무 방식을 급격히 변화시키는 시대에 올바른 질문을 던지고 결과물을 판단하기 위해서는 타인과의 교류를 통해 관점을 넓히는 것이 중요하다는 취지를 담고 있습니다.\n\n참가 대상은 PHP에 관심이 있는 사람이라면 누구나 환영하며 모든 세션은 일본어로 진행됩니다. 행사는 2027년 1월 16일 일본 교토의 Kyoto Research Park 4호관에서 열릴 예정입니다. 상세한 정보는 공식 이벤트 페이지와 X 계정을 통해 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-11-20-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-11-20T13:54:40.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -1844,6 +2068,22 @@
     "fetchedAt": "2026-11-19T16:39:26.095Z",
     "tags": [
       "PHP"
+    ]
+  },
+  {
+    "id": "https://www.hashicorp.com/blog/building-a-secure-foundation-for-ai-on-kubernetes-with-hashicorp-vault",
+    "title": "Building a secure foundation for AI on Kubernetes with HashiCorp Vault",
+    "summary": "AI is moving beyond experimentation and into production, but security controls aren’t necessarily keeping pace. Recent IBM research shows 48% of surveyed executives say their organizations lack adequa",
+    "aiSummary": "인공지능이 실험 단계를 넘어 프로덕션 환경으로 도입되면서 기업 내 보안 통제의 필요성이 커지고 있습니다. 특히 Kubernetes 기반의 인공지능 애플리케이션과 자율형 에이전트를 운영할 때는 단순히 모델 자체를 보호하는 것을 넘어 인프라 전반의 보안을 확보하는 것이 핵심 과제입니다. HashiCorp는 최근 발표된 Vault 2.2와 다양한 통합 기능을 통해 Kubernetes 환경에서 인공지능 워크로드를 위한 안전한 보안 기반을 제공합니다.\n\n첫째, Vault Kubernetes Key Management는 Kubernetes KMS와 Vault Transit secrets engine을 연동하여 etcd에 저장되는 민감한 데이터를 암호화함으로써 클러스터 데이터 보호를 강화합니다. 이를 통해 다수의 클러스터에서 암호화 키를 중앙 집중적으로 관리할 수 있습니다.\n\n둘째, cert-manager를 위한 새로운 외부 Vault issuer를 도입하여 인증서 관리의 자동화를 지원합니다. 개발자는 기존의 표준 cert-manager 워크플로우를 그대로 유지하면서도 Vault PKI를 통해 인증서 발급을 중앙에서 통제할 수 있어, 분산된 서비스 간의 신뢰 관계를 효율적으로 자동화할 수 있습니다.\n\n셋째, Vault Secrets Operator 1.6을 통해 데이터베이스나 클라우드 자격 증명 등의 변경 사항을 즉시 반영합니다. 자격 증명 교체와 가용성 사이의 공백을 최소화하여 인공지능 워크로드와 같이 빠르게 변하는 동적 환경에서도 보안 정책이 안정적으로 유지되도록 돕습니다.\n\n마지막으로 새롭게 도입된 Vault Client는 전체 Vault 서버 바이너리 없이도 Vault Agent나 Proxy 기능을 경량화하여 사용할 수 있게 합니다. 이는 리소스 제약이 있는 워크로드에서 보안 기능을 효율적으로 실행할 수 있도록 지원합니다.\n\n결론적으로 HashiCorp Vault는 Kubernetes 기반의 클라우드 네이티브 환경에서 플랫폼 및 보안 팀이 인공지능 애플리케이션의 복잡한 보안 요구 사항을 해결하고 일관된 보안 모델을 구축할 수 있도록 핵심적인 역할을 수행합니다.",
+    "url": "https://www.hashicorp.com/blog/building-a-secure-foundation-for-ai-on-kubernetes-with-hashicorp-vault",
+    "category": "클라우드 & 인프라",
+    "source": "Terraform Blog",
+    "author": "Steve Almy",
+    "pubDate": "2026-11-18T17:00:00.000Z",
+    "fetchedAt": "2026-11-24T18:58:12.097Z",
+    "tags": [
+      "Terraform",
+      "IaC"
     ]
   },
   {
