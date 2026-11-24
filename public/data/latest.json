@@ -1,5 +1,54 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.16",
+    "title": "1.5.16",
+    "summary": "Added -r and --resume command-line flag aliases for --conversation so you can resume a specific conversation by ID with agy -r  or agy --resume .\nAdded a live step checklist under the status line abov",
+    "aiSummary": "agy 버전 1.5.16 업데이트는 사용자 경험 개선과 기능 확장, 그리고 다수의 버그 수정을 포함합니다.\n\n사용성 측면에서는 --conversation 명령어를 간단하게 사용할 수 있도록 -r 및 --resume 플래그가 추가되었습니다. 멀티 스텝 대화 시에는 상태 표시줄 하단에 진행 상황을 확인할 수 있는 실시간 체크리스트가 도입되었으며, 작업 시간 측정 기능이 세분화되어 Thinking 및 개별 Tool 실행 시간을 각각 확인할 수 있게 되었습니다. 또한, 사용자 전역 Skills 경로가 ~/.agents/skills로 확장되었으며, 모델 쿼터 추적 기능이 강화되어 대화 도중에도 사용량을 실시간으로 동기화합니다.\n\n파일 작업과 관련된 Auto 모드의 규칙이 개선되었습니다. 이제 Git이나 Mercurial 같은 버전 관리 시스템 내의 파일이거나, 기존 내용을 삭제하지 않고 새로운 내용을 추가하는 경우에는 별도의 승인 없이 파일을 생성하거나 편집할 수 있습니다. 또한 터미널 UI의 안정성을 위해 altscreen 모드에서 프롬프트 바를 하단에 고정하는 기능이 적용되었습니다.\n\n관리 및 보안 측면에서는 Gemini Enterprise 플러그인 제어 정책이 변경되어, 외부 플러그인을 차단하더라도 내장 플러그인은 정상적으로 활성화되도록 개선되었습니다.\n\n기술적인 버그 수정으로는 터미널 커서 추적 문제, macOS SSH 환경에서의 Keychain 인증 오류, 그리고 서브 에이전트 작업 시 발생하는 60초 지연 현상을 해결하였습니다. 이와 더불어 /swarm 보드의 알림 오류, Remote Control 브라우저 뷰에서의 음성 인식 문제, 그리고 20MB 이상의 대용량 미디어 파일 처리 오류 등이 수정되어 전반적인 서비스 안정성이 향상되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.16",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-24T04:07:01.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/piramal-finance-scales-internal-agentic-ai-assistant",
+    "title": "Piramal Finance Scales Its Internal Agentic AI Assistant With MongoDB",
+    "summary": "Piramal Finance Limited is a retail-led upper-layer NBFC with a pan-India presence. It offers a diverse portfolio of retail lending products spanning affordable housing loans, loan against property, m",
+    "aiSummary": "인도의 금융 서비스 기업인 Piramal Finance는 18,000명 이상의 직원을 위한 사내 agentic AI assistant를 구축하여 생산성과 고객 만족도를 크게 높였습니다. 초기에는 Neo4j, PostgreSQL, pgVector 등 여러 도구를 혼합한 복잡한 아키텍처를 사용했으나, 데이터 동기화 지연과 운영 효율성 문제에 직면했습니다.\n\n이를 해결하기 위해 Piramal Finance는 MongoDB Atlas를 기반으로 단일화된 데이터 플랫폼을 구축했습니다. MongoDB Atlas의 유연한 도큐먼트 모델을 활용하여 기존의 복잡한 그래프 데이터 모델을 효율적인 집계 파이프라인으로 전환하였고, MongoDB Search와 MongoDB Vector Search를 통해 데이터 검색 및 처리 속도를 이전 대비 3배 이상 개선하였습니다.\n\n특히 MongoDB Atlas의 내장된 RBAC 기능을 통해 기업용 싱글 사인온 및 Active Directory와 직접 연동함으로써 보안성을 강화하고, 데이터 업데이트 대기 시간을 30분에서 15초로 단축하는 성과를 거두었습니다. 현재 25개 이상의 MongoDB MCP 서버가 가동 중이며, 전 직원의 80% 이상이 매주 이 AI assistant를 활용하고 있습니다.\n\n이 플랫폼은 HR 업무 자동화, 고객 응대 시간 단축, 영업 성과 향상 등 전사적인 업무 혁신을 주도하고 있습니다. 향후 Piramal Finance는 MongoDB Atlas를 중심으로 AI 솔루션을 더욱 확장하여 모든 직원을 위한 개인 맞춤형 코칭 도구로 발전시킬 계획입니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/piramal-finance-scales-internal-agentic-ai-assistant",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-24T01:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+    "title": "Issue statuses and repository boards are in public preview",
+    "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight…\nThe post Issue statuses and rep",
+    "aiSummary": "GitHub가 Issue statuses와 repository boards 기능을 공개 프리미엄으로 전환했습니다. 기존의 단순한 열림과 닫힘 상태만으로는 프로젝트의 세부적인 진행 상황을 파악하기 어렵다는 점을 개선하기 위한 조치입니다.\n\n사용자는 이제 보다 구체적인 상태 값을 지정하여 팀원과 에이전트 간에 작업의 흐름과 진척 상황을 명확하게 공유할 수 있습니다. 이를 통해 워크플로우를 더욱 세밀하게 관리하고 협업의 효율성을 높일 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-23T20:37:11.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
     "title": "Secret scanning reduces false positives for Slack",
     "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secre",
@@ -13,6 +62,71 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+    "title": "See what 6 builders are making with Gemini 4 Hydrogen",
+    "summary": "See six projects builders created with Gemini 4 Hydrogen, from rainy sci-fi skies and pixelated koi ponds to an interactive moth.",
+    "aiSummary": "Gemini 4 Hydrogen을 활용하여 개발자들이 제작한 6가지 혁신적인 프로젝트가 공개되었습니다. 이번 사례들은 비가 내리는 공상과학 분위기의 하늘 묘사부터 픽셀 아트 형태의 잉어 연못, 그리고 사용자와 상호작용하는 나방 모델에 이르기까지 다채로운 기술적 시도들을 포함하고 있습니다. 해당 프로젝트들은 Gemini 4 Hydrogen의 향상된 생성 및 제어 능력을 실질적인 창작물에 어떻게 적용할 수 있는지를 잘 보여줍니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Molly McHugh-Johnson"
+      ],
+      "title": [
+        "Contributor"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-23T18:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "title": "Google is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+    "summary": "Today, we are proud to announce that Gartner has recognized Google as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). Among the 15 vendors evaluated",
+    "aiSummary": "Google이 2026 Gartner Magic Quadrant for SIEM 부문에서 리더로 선정되었습니다. 이번 평가에서 Google은 Completeness of Vision 항목에서 가장 높은 평가를 받으며 보안 운영 시장을 선도하는 위치를 공고히 했습니다.\n\nGoogle은 기존의 수동적인 보안 운영 방식에서 벗어나 자율형 AI 에이전트 중심의 SOC로 전환하는 전략을 추진하고 있습니다. Google Security Operations에 통합된 Gemini는 Triage, Investigation, Threat Hunt, Detection Engineering 등 목적에 특화된 에이전트 팀으로 확장되어 보안 팀의 탐지 및 대응 주기를 획기적으로 단축합니다.\n\n특히 Detection Engineering 에이전트는 규칙 생성과 검증 과정을 자동화하여 기존에 며칠이 걸리던 작업을 30분 이내로 줄여줍니다. 또한 Threat Hunting 에이전트는 위협 인텔리전스를 바탕으로 복잡한 사냥 계획을 자동으로 수립하고 실행하여, 전문가의 도움 없이도 숙련된 보안 분석가 수준의 대응이 가능하도록 지원합니다.\n\nIDC의 비즈니스 가치 보고서에 따르면 Google Security Operations를 도입한 기업은 위협 식별 시간 98% 단축, 월별 영향력 있는 보안 사고 50% 감소 등 실질적인 운영 효율성 향상을 경험했습니다. 또한 3년간 319%의 ROI를 달성하는 등 기술 도입의 경제적 효과도 입증되었습니다. 이러한 성과는 자율형 AI가 복잡한 보안 위협에 대응하는 필수적인 도구로 자리 잡았음을 시사합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Arie Zilberstein"
+      ],
+      "title": [
+        "VP, Security Products & Threat Operations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-23T17:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -161,6 +275,39 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+    "title": "Usage reports will include a user ID column starting December 1",
+    "summary": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the…\nThe post Usage reports",
+    "aiSummary": "2026년 12월 1일부터 GitHub에서 제공하는 사용자 이름 열을 포함한 사용 보고서에 user_id 열이 추가됩니다. 해당 변경 사항으로 인해 사용자 이름 열 뒤에 위치했던 기존의 모든 열은 한 칸씩 뒤로 밀리게 됩니다. 관련 데이터를 처리하는 시스템이나 보고서 활용 시 이 점을 참고해야 합니다.",
+    "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-23T10:29:36.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/introducing-supabase-knowledge-base",
+    "title": "Introducing Supabase Knowledge Base",
+    "summary": "Migration guides, troubleshooting, FAQs, tutorials, and community guides for applied Supabase answers, all in one place your coding agent can read.",
+    "aiSummary": "Supabase가 개발자들의 효율적인 문제 해결을 돕기 위해 통합 지식 베이스인 Supabase Knowledge Base를 새롭게 공개합니다.\n\n해당 플랫폼은 마이그레이션 가이드와 문제 해결 방법, 자주 묻는 질문, 튜토리얼, 커뮤니티 가이드 등 Supabase 활용에 필요한 모든 기술 정보를 한곳에 모아 제공합니다.\n\n특히 본 지식 베이스는 외부 코딩 에이전트가 직접 내용을 읽고 참조할 수 있도록 설계되어, 개발 과정에서 AI 기반 도구를 활용할 때 더욱 정확하고 최적화된 기술 지원을 받을 수 있도록 합니다.",
+    "url": "https://supabase.com/blog/introducing-supabase-knowledge-base",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-11-23T07:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.15",
     "title": "1.5.15",
     "summary": "Added an auto-compaction threshold row under the capacity header in /context, and updated AGY_CLI_AUTO_COMPACT_OVERRIDE to support all eligible models: pass a token count (700000), a K or M shorthand ",
@@ -175,6 +322,38 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/iron-mountain-enterprise-search",
+    "title": "From scattered searches to instant insight: Why Iron Mountain unified its enterprise search with Elastic",
+    "summary": "By consolidating its search infrastructure paths into Elasticsearch within InSight® DXP, Iron Mountain simplified workflows, optimized query performance, and built the fluid knowledge foundation auton",
+    "aiSummary": "Iron Mountain은 InSight DXP 내의 검색 인프라를 Elasticsearch로 통합하여 파편화된 검색 환경을 개선했습니다.\n\n이번 통합을 통해 작업 흐름을 단순화하고 쿼리 성능을 최적화하는 성과를 거두었습니다.\n\n또한 구축된 통합 데이터 환경은 향후 autonomous agents가 대규모 환경에서도 안정적으로 운영될 수 있는 핵심 지식 기반 역할을 수행하게 됩니다.",
+    "url": "https://www.elastic.co/blog/iron-mountain-enterprise-search",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Emily Chioconi",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-4-10-released",
+    "title": "Elastic Stack 9.4.10 released",
+    "summary": "Version 9.4.10 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.10 over the previous version 9.4.9\nFor details of the issues that have been fi",
+    "aiSummary": "Elastic Stack의 최신 버전인 9.4.10이 출시되었습니다.\n\n이번 업데이트는 기존 9.4.9 버전을 대체하는 권장 버전이며 사용자들에게 최신 버전으로의 업그레이드를 권장합니다.\n\n해결된 문제들에 대한 상세 내용과 제품별 변경 사항은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-4-10-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -2569,232 +2748,6 @@
     "tags": [
       "GCP",
       "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.5.10",
-    "title": "1.5.10",
-    "summary": "Added accept-edits mode to --remote-agent sessions: Shift+Tab now switches between the default mode and accept-edits instead of doing nothing. Sessions still start in the default mode, where the remot",
-    "aiSummary": "업데이트 버전 1.5.10은 사용자의 작업 효율성과 인터페이스 편의성을 높이는 다양한 기능 추가 및 성능 개선을 포함하고 있습니다.\n\n원격 에이전트 세션에 accept-edits 모드가 추가되어 파일 수정 시 매번 승인을 요청하는 기본 모드 대신 승인 없이 수정을 진행할 수 있게 되었습니다. Gemini Enterprise 계정 및 Application Default Credentials 사용자를 위해 Orchestrator 모델이 추가되었으며, 모델 계획 단계에는 Gemini 4 Carbon, 실행 단계에는 Gemini 4 Hydrogen이 사용됩니다.\n\n원격 제어 브라우저 뷰에는 대화 내비게이터와 인용 버튼이 추가되었으며, 메시지 박스 내 링크 클릭 지원, 타이머의 잔여 시간 표시 기능이 도입되었습니다. 또한 속도 제한 처리를 개선하여 API 대기 시간이 4분 이내일 경우 자동으로 재시도하도록 변경하였습니다.\n\n장기 세션에서의 성능 및 메모리 최적화가 이루어졌습니다. 대화 전환 시 전체 기록을 불러오지 않고 필요에 따라 디스크에서 로드하도록 변경하여 응답 속도를 개선했으며, 메모리 사용량을 대폭 줄였습니다. \n\n보안 측면에서는 터미널 샌드박스의 접근 권한을 강화하여 ~/.config 및 AppData\\Roaming 경로에 대한 기본 읽기 접근을 차단했습니다.\n\n기타 주요 수정 사항으로는 모델 응답 중단 오류 해결, 대형 파일 처리 시 발생하는 대화 압축 오류 수정, 에디터 연동 시 백그라운드 작업 및 서브 에이전트 종료 처리 개선 등이 포함됩니다. 또한 원격 제어 브라우저 뷰의 스크롤, 입력 방식 및 플러그인 관리와 관련된 여러 사용자 경험 문제가 해결되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.10",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-11-17T05:41:17.000Z",
-    "fetchedAt": "2026-11-17T16:57:30.041Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
-    "title": "Dependabot alert dismissal requests now last one year",
-    "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires…\nThe post Dependabo",
-    "aiSummary": "GitHub는 Dependabot의 위임된 알림 해제 요청이 유효한 기간을 기존 1주일에서 1년으로 대폭 연장했습니다. 이번 업데이트를 통해 검토자들은 요청이 만료되기 전까지 더 충분한 시간을 가지고 보안 알림을 처리할 수 있게 되었습니다. 사용자는 늘어난 유예 기간을 활용하여 프로젝트의 보안 관리 효율성을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-17T00:09:27.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/17/this-week-in-spring-november-17th-2026",
-    "title": "This Week in Spring - November 17th, 2026",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "제공된 본문은 Spring 생태계의 최신 소식을 다루는 뉴스레터인 This Week in Spring의 2026년 11월 17일 자 게시물입니다. 해당 게시물은 기사 본문 내용이 포함되지 않은 채 Broadcom과 Apache Software Foundation을 비롯한 주요 기술 기업들의 상표권 및 법적 고지 사항만을 나열하고 있습니다. 따라서 본문에서 다루는 구체적인 기술 업데이트나 프로젝트 소식은 확인되지 않습니다.",
-    "url": "https://spring.io/blog/2026/11/17/this-week-in-spring-november-17th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-19T16:39:26.095Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://firebase.blog/posts/2026/11/full-stack-android-apps-ai-studio-integration",
-    "title": "Build full-stack Android apps with AI features using Google AI Studio and Firebase",
-    "summary": "November 17, 2026Earlier this year, we integrated Firebase with Google AI Studio (https://firebase.blog/posts/2026/03/announcing-ai-studio-integration) for web apps to accelerate the path from prompt ",
-    "aiSummary": "Google AI Studio와 Firebase의 통합이 확장되면서 안드로이드 개발자들은 단일 프롬프트만으로 생성형 AI 기능이 포함된 Kotlin 기반의 풀스택 안드로이드 앱을 손쉽게 구축할 수 있게 되었습니다.\n\nGoogle AI Studio 내의 에이전트는 사용자의 프롬프트를 분석하여 AI 기능, 데이터 저장소, 사용자 인증 등이 필요한 시점을 자동으로 탐지합니다. 이후 사용자의 승인을 거쳐 Firebase 프로젝트 설정, Firestore 기반의 데이터 저장소 구축, Firebase Authentication을 활용한 Google 로그인 연동, 그리고 Firebase AI Logic을 통한 Gemini API 호출 등을 자동으로 수행합니다.\n\n이번 업데이트의 핵심은 앱 개발 과정에서 요구되던 복잡한 라이브러리 설정이나 수동 코드 작성 과정을 생략하고 개발 수명 주기를 획기적으로 단축했다는 점입니다. 이를 통해 개발자는 별도의 인프라 구성 없이도 개인화되고 지능적인 협업 앱 경험을 제공할 수 있습니다.\n\n특히 Firestore와의 통합을 통해 데이터 지속성이 보장되어, 사용자는 기기를 변경하더라도 앱 데이터를 동기화하거나 오프라인 상태에서도 원활하게 앱을 사용할 수 있게 되었습니다. 또한 Firebase App Check가 자동으로 적용되어 Gemini API 호출 시 자격 증명을 안전하게 보호하고 무단 접근을 방지합니다.\n\n현재 Google AI Studio에 접속하면 즉시 이러한 기능을 사용하여 지능형 안드로이드 앱 개발을 시작할 수 있습니다.",
-    "url": "https://firebase.blog/posts/2026/11/full-stack-android-apps-ai-studio-integration",
-    "category": "데이터베이스",
-    "source": "Firebase Blog",
-    "author": "Firebase Blog",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T04:34:23.342Z",
-    "tags": [
-      "Firebase",
-      "NoSQL",
-      "BaaS"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_cve-111-released-3443/",
-    "title": "PG_CVE 1.1.1 Released\n",
-    "summary": "We are pleased to announce the release 1.1.1 of PG_CVE, a lightweight tool designed to provide DBAs and system administrators with a clear, up-to-date overview of CVEs (Common Vulnerabilities and Expo",
-    "aiSummary": "DBA와 시스템 관리자를 위해 PostgreSQL 버전별 보안 취약점과 CVE, 알려진 익스플로잇, 그리고 릴리스 안정성 정보를 통합 제공하는 도구인 PG_CVE 1.1.1 버전이 새롭게 출시되었습니다.\n\n이번 업데이트를 통해 사용자는 특정 PostgreSQL 버전과 관련된 보안 권고 사항을 신속하게 추적할 수 있으며, 릴리스 안정성 및 패치 정보를 확인하여 효율적인 업그레이드 계획을 수립할 수 있습니다. \n\nPG_CVE는 정확한 취약점 분류를 지원하기 위해 알려진 익스플로잇 데이터를 통합하였으며, 빠른 탐색을 위해 경량화된 독립형 웹 인터페이스를 제공합니다. 관련 상세 정보와 소스 코드는 공식 GitHub 저장소에서 확인 가능하며, 제공된 라이브 데모 페이지를 통해 직접 기능을 체험할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg_cve-111-released-3443/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-17T16:57:30.041Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pg_fastload-100-released-parallel-bulk-loading-for-postgresql-3445/",
-    "title": "pg_fastload 1.0.0 released: parallel bulk loading for PostgreSQL\n",
-    "summary": "pg_fastload 1.0.0 is a parallel bulk loader for PostgreSQL, 1.58x faster than the best pg_bulkload mode and 6.07x faster than COPY.\nIt parallelises the loading pipeline across background workers while",
-    "aiSummary": "PostgreSQL을 위한 병렬 대량 로딩 도구인 pg_fastload 1.0.0이 출시되었습니다. 이 도구는 기존의 pg_bulkload 3.1.23을 기반으로 개발되었으며, PostgreSQL의 기본 COPY 명령 대비 6.07배, 기존 pg_bulkload의 최적 모드 대비 1.58배 향상된 성능을 제공합니다.\n\npg_fastload는 데이터를 읽고 구문 분석하여 튜플을 생성하는 작업을 백그라운드 워커로 분산 처리하는 병렬 로딩 파이프라인 방식을 채택하고 있습니다. 데이터 읽기 단계는 단일 리더가 순차적으로 수행하여 효율성을 유지하며, 나머지 단계는 여러 파서 워커가 처리한 뒤 최종적으로 리더가 데이터를 입력하는 구조입니다. 이 모든 과정은 단일 트랜잭션 내에서 처리되므로 데이터 일관성을 보장하며, 특정 조건에서는 자동으로 직렬 처리 방식으로 전환되어 안정성을 유지합니다.\n\n주요 특징으로는 상세한 진행 상황 보고 기능이 포함되어 있어 로딩률, 경과 시간, 예상 완료 시점 등을 실시간으로 확인할 수 있습니다. 또한 export 기능을 통해 MVCC 스냅샷 정보를 포함한 데이터 추출이 가능하여 감사 추적이 가능합니다. \n\n성능 최적화 측면에서는 SKIP_INDEX 옵션을 통해 로딩 중 인덱스를 자동으로 제거하고 로딩 후 다시 생성함으로써 전체 로딩 시간을 단축할 수 있습니다. PostgreSQL 15부터 19 버전까지를 지원하며, 기존 pg_bulkload의 구문 및 설정과 호환성을 유지하여 사용자가 기존 환경에서 쉽게 전환할 수 있도록 설계되었습니다. 상세한 성능 측정 결과와 소스 코드는 GitHub 저장소에서 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/pg_fastload-100-released-parallel-bulk-loading-for-postgresql-3445/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-17T16:57:30.041Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/apache-cloudberry-220-released-postgresql-based-mpp-database-moves-to-the-postgresql-1410-kernel-3440/",
-    "title": "Apache Cloudberry 2.2.0 Released: PostgreSQL-Based MPP Database Moves to the PostgreSQL 14.10 Kernel\n",
-    "summary": "The Apache Cloudberry (Incubating) community is pleased to announce the release of Apache Cloudberry 2.2.0, the latest version of its open-source massively parallel processing (MPP) database built on ",
-    "aiSummary": "Apache Cloudberry가 대규모 분석 및 AI 워크로드를 위한 MPP 데이터베이스인 Apache Cloudberry 2.2.0 버전을 출시하였습니다. 이번 업데이트의 핵심은 데이터베이스 커널을 기존 PostgreSQL 14.4에서 14.10으로 업그레이드하여 최신 업스트림 최적화 및 보안 패치를 반영한 점입니다.\n\n성능 및 기능 측면에서는 diskquota와 yezzey를 포함한 6개의 새로운 확장 기능을 추가하였고, ORCA 옵티마이저를 통한 병렬 테이블 스캔과 Hash Full Join 및 Right Join 최적화, 그리고 구체화된 뷰를 활용한 쿼리 응답 개선 등 다양한 쿼리 처리 기능을 향상시켰습니다.\n\n플랫폼 지원 범위도 넓어져 Rocky Linux 8, 9, 10과 Ubuntu 22.04, 24.04를 공식 지원하며, x86_64 및 ARM64 환경을 위한 자동화된 DEB와 RPM 패키징을 제공합니다. 특히 동일 호스트에서 여러 메이저 버전이 공존할 수 있도록 하는 가변적인 RPM 설치 방식을 도입하였습니다.\n\n생태계 구성 요소도 함께 업데이트되어 Cloudberry PXF는 Java 17을 지원하게 되었으며, Cloudberry Backup에는 백업 관리 도구인 gpbackman과 모니터링을 위한 gpbackup_exporter가 추가되었습니다. 또한, 개발 생산성을 높이기 위한 첫 번째 cloudberry-go-libs 버전이 릴리스되었습니다.\n\n현재 메인 브랜치는 이미 PostgreSQL 16 커널로 업그레이드되어 MERGE 명령 및 SQL/JSON 생성자와 같은 최신 기능을 반영 중이며, 향후 메이저 릴리스를 통해 더욱 고도화된 기능을 MPP 워크로드에 제공할 예정입니다.",
-    "url": "https://www.postgresql.org/about/news/apache-cloudberry-220-released-postgresql-based-mpp-database-moves-to-the-postgresql-1410-kernel-3440/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-17T16:57:30.041Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/navicat-introduces-navicat-18-for-postgresql-experience-enterprise-grade-postgresql-database-management-and-development-3441/",
-    "title": "Navicat Introduces Navicat 18 for PostgreSQL: Experience Enterprise-Grade PostgreSQL Database Management and Development\n",
-    "summary": "Navicat, a leading provider of powerful database management and development software, is proud to unveil Navicat 18 for PostgreSQL, an innovative release that sets a new standard in PostgreSQL adminis",
-    "aiSummary": "Navicat이 PostgreSQL 전용 데이터베이스 관리 및 개발 도구인 Navicat 18 for PostgreSQL을 새롭게 출시했습니다. 이번 업데이트는 온프레미스 환경은 물론 Amazon RDS, Amazon Aurora, Amazon Redshift, Microsoft Azure Database, Google Cloud SQL, Fujitsu Enterprise Postgres 등 다양한 클라우드 환경을 지원하며 관리 효율성을 극대화하는 데 초점을 맞추었습니다.\n\n주요 기능으로는 AI Integration이 도입되어 데이터 편집과 테이블 설계 과정에서 AI를 활용한 데이터 채우기, 번역, 분석 및 테이블 구조 생성이 가능해졌습니다. SQL 편집기에는 Refactoring 및 실시간 오류 감지 기능이 추가되어 코드 작성의 정확성과 생산성을 높였습니다.\n\n보안 측면에서는 데이터 마스킹 기능을 통해 운영 데이터를 안전하게 테스트용으로 변환할 수 있으며, 하이브리드 모델 지원을 통해 논리적 설계와 물리적 구조를 효율적으로 관리할 수 있습니다. BI 기능 또한 대시보드 자동 레이아웃 기능인 Auto Tile, 동적 데이터 제어를 위한 Parameters, 보고서 상호작용을 높이는 Add-ons 등이 강화되었습니다.\n\n이 밖에도 Parquet 파일을 지원하는 개선된 가져오기 마법사, 일괄 편집 기능, 개인 프로필 동기화 및 세션 기록 추적 등 사용자 편의성 향상을 위한 다양한 도구가 포함되었습니다. Navicat 18 for PostgreSQL은 현재 공식 웹사이트에서 다운로드 및 구매가 가능하며 14일 무료 체험판도 제공합니다.",
-    "url": "https://www.postgresql.org/about/news/navicat-introduces-navicat-18-for-postgresql-experience-enterprise-grade-postgresql-database-management-and-development-3441/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-17T16:57:30.041Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/how-security-leaders-see-ai-being-used-in-the-soc",
-    "title": "How security leaders see AI being used in the SOC ",
-    "summary": "Only 18% of teams have structured, enforced frameworks for how AI should be used in the SOC. Security leaders aren't struggling to adopt AI. They're struggling to control it, explain it, and defend it",
-    "aiSummary": "보안 운영 센터인 SOC 내에서 AI 활용에 관한 구조적이고 강제적인 프레임워크를 갖춘 팀은 전체의 18퍼센트에 불과합니다.\n\n현재 보안 리더들은 AI 기술을 도입하는 과정 자체보다는 이를 적절하게 제어하고, 그 작동 원리를 설명하며, 외부 위협으로부터 방어하는 데 큰 어려움을 겪고 있습니다.\n\n따라서 조직은 단순히 기술을 수용하는 것을 넘어, 체계적인 AI 거버넌스를 구축하여 보안 운영의 안정성과 투명성을 확보해야 합니다.",
-    "url": "https://www.elastic.co/blog/how-security-leaders-see-ai-being-used-in-the-soc",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Joe DeFever",
-    "pubDate": "2026-11-17T00:00:00.000Z",
-    "fetchedAt": "2026-11-17T16:57:30.041Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://www.percona.com/?p=56291",
-    "title": "Inside Kvrocks",
-    "summary": "How Valkey/Redis data lives on RocksDB Based on my Percona Live 2026 talk “On-disk and Redis Compatible: Evaluating Kvrocks.” I will cover benchmarking Kvrocks in a separate post.   We all run Valkey ",
-    "aiSummary": "Kvrocks는 고비용의 RAM 기반인 Valkey나 Redis의 한계를 극복하기 위해 데이터를 RocksDB에 저장하는 방식을 채택하고 있습니다. \n\n기존의 메모리 기반 저장소는 빠른 속도를 제공하지만 운영 비용이 높다는 단점이 있습니다. Kvrocks는 이러한 문제를 해결하기 위해 디스크 기반의 RocksDB를 활용하면서도 Redis와 호환되는 데이터 구조를 지원합니다.\n\n향후 별도의 게시물을 통해 Kvrocks의 벤치마크 성능 평가에 대한 상세한 내용을 다룰 예정입니다.",
-    "url": "https://www.percona.com/blog/inside-kvrocks/",
-    "category": "데이터베이스",
-    "source": "MySQL Blog (Percona)",
-    "author": "Martin Visser",
-    "pubDate": "2026-11-16T21:49:34.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "MySQL",
-      "Database"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-    "title": "GitHub Copilot weekly releases — November 9",
-    "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude…\nThe post GitHub Copilot wee",
-    "aiSummary": "GitHub Copilot의 11월 9일 자 업데이트를 통해 이제 GitHub Enterprise Server 저장소를 Copilot 앱에서 직접 연동하여 사용할 수 있게 되었습니다.\n\nVS Code 환경에서는 사용자의 확인이 필요한 에이전트 세션을 우선순위에 따라 식별할 수 있도록 개선되었습니다.\n\n또한 새로운 모델로서 Anthropic의 Claude 모델 시리즈를 추가하여 개발자가 작업 환경에서 더욱 다양한 선택지를 활용할 수 있도록 지원합니다.",
-    "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-16T21:34:53.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
-    "title": "Budget limit increased to 40,000 budgets per account",
-    "summary": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers…\nThe post Budget limit ",
-    "aiSummary": "GitHub Enterprise Cloud 계정당 설정 가능한 예산 제한이 기존 10,000개에서 40,000개로 대폭 상향되었습니다.\n\n이번 조치를 통해 개별 사용자별 예산을 설정하거나 다수의 비용 센터를 관리하는 기업 환경에서 더욱 유연하고 정밀한 비용 통제가 가능해집니다. 대규모 조직은 더욱 상세한 예산 관리를 통해 클라우드 비용 효율성을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-16T21:30:49.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/news/mongodb-named-leader-gartner-magic-quadrant-for-cloud-operational-database-management-systems-2026",
-    "title": "MongoDB Named a Leader in Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems 2026",
-    "summary": "I’m thrilled to share that MongoDB has been named a Leader in the new Gartner Magic Quadrant for Cloud Operational Database Management Systems. \nWe believe our placement as a Leader in a brand-new cat",
-    "aiSummary": "MongoDB가 2026년 Gartner Magic Quadrant for Cloud Operational Database Management Systems 부문에서 리더로 선정되었습니다. 이번 선정은 MongoDB가 데이터 플랫폼에 투입한 대규모 투자와 7만 개 이상의 고객사로부터 얻은 높은 신뢰를 바탕으로 이루어진 성과입니다.\n\n최근 AI 에이전트 도입이 증가함에 따라 데이터 플랫폼의 역할이 더욱 중요해지고 있습니다. 에이전트는 트래픽 변동성을 높이고 실시간 컨텍스트 유지를 요구하기 때문에 탄력성과 비용 효율성이 핵심 요소가 되었습니다. MongoDB는 운영 데이터베이스와 벡터 검색, 하이브리드 검색, 임베딩 모델을 단일 플랫폼에서 통합 제공함으로써 개발자가 데이터 파이프라인을 간소화하고 운영 비용을 절감할 수 있도록 지원합니다.\n\n주요 기술적 성과로는 더욱 향상된 처리량과 쿼리 성능을 제공하는 MongoDB 9.0 출시와 예측 불가능한 트래픽을 처리하는 Atlas Infinite 아키텍처가 있습니다. 또한 개발자가 지속적인 메모리와 가드레일을 갖춘 에이전트를 쉽게 배포하도록 돕는 Atlas Agent Engine과 최신 Voyage AI 모델 등을 도입하여 AI 시대의 데이터 인프라 혁신을 주도하고 있습니다.\n\nMongoDB는 앞으로 데이터 계층이 기업 기술 스택의 핵심 컨트롤 플레인으로 자리 잡을 것으로 전망하며, 실시간 데이터 기반의 능동적인 소프트웨어 환경을 구축하는 데 더욱 집중할 계획입니다.",
-    "url": "https://www.mongodb.com/company/blog/news/mongodb-named-leader-gartner-magic-quadrant-for-cloud-operational-database-management-systems-2026",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "2026-11-16T20:01:16.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-    "title": "Control where GitHub Copilot customizations come from",
-    "summary": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with",
-    "aiSummary": "GitHub Copilot의 엔터프라이즈 관리자는 이제 사용자의 개별 설정이나 프로젝트 단위의 구성이 아닌 플러그인 또는 관리되는 설정을 통해서만 커스터마이징을 수행하도록 제어할 수 있습니다.\n\n이번 업데이트는 기존의 마켓플레이스 제한 기능과 결합하여 기업 환경에서 GitHub Copilot의 구성을 더욱 중앙 집중적으로 관리하고 보안을 강화할 수 있도록 돕습니다. 이를 통해 관리자는 조직 전체의 일관된 개발 환경을 유지하고 정책에 맞지 않는 외부 설정의 개입을 차단할 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-16T19:48:33.000Z",
-    "fetchedAt": "2026-11-17T05:07:36.015Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

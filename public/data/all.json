@@ -1,5 +1,54 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.16",
+    "title": "1.5.16",
+    "summary": "Added -r and --resume command-line flag aliases for --conversation so you can resume a specific conversation by ID with agy -r  or agy --resume .\nAdded a live step checklist under the status line abov",
+    "aiSummary": "agy 버전 1.5.16 업데이트는 사용자 경험 개선과 기능 확장, 그리고 다수의 버그 수정을 포함합니다.\n\n사용성 측면에서는 --conversation 명령어를 간단하게 사용할 수 있도록 -r 및 --resume 플래그가 추가되었습니다. 멀티 스텝 대화 시에는 상태 표시줄 하단에 진행 상황을 확인할 수 있는 실시간 체크리스트가 도입되었으며, 작업 시간 측정 기능이 세분화되어 Thinking 및 개별 Tool 실행 시간을 각각 확인할 수 있게 되었습니다. 또한, 사용자 전역 Skills 경로가 ~/.agents/skills로 확장되었으며, 모델 쿼터 추적 기능이 강화되어 대화 도중에도 사용량을 실시간으로 동기화합니다.\n\n파일 작업과 관련된 Auto 모드의 규칙이 개선되었습니다. 이제 Git이나 Mercurial 같은 버전 관리 시스템 내의 파일이거나, 기존 내용을 삭제하지 않고 새로운 내용을 추가하는 경우에는 별도의 승인 없이 파일을 생성하거나 편집할 수 있습니다. 또한 터미널 UI의 안정성을 위해 altscreen 모드에서 프롬프트 바를 하단에 고정하는 기능이 적용되었습니다.\n\n관리 및 보안 측면에서는 Gemini Enterprise 플러그인 제어 정책이 변경되어, 외부 플러그인을 차단하더라도 내장 플러그인은 정상적으로 활성화되도록 개선되었습니다.\n\n기술적인 버그 수정으로는 터미널 커서 추적 문제, macOS SSH 환경에서의 Keychain 인증 오류, 그리고 서브 에이전트 작업 시 발생하는 60초 지연 현상을 해결하였습니다. 이와 더불어 /swarm 보드의 알림 오류, Remote Control 브라우저 뷰에서의 음성 인식 문제, 그리고 20MB 이상의 대용량 미디어 파일 처리 오류 등이 수정되어 전반적인 서비스 안정성이 향상되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.16",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-24T04:07:01.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://www.mongodb.com/company/blog/innovation/piramal-finance-scales-internal-agentic-ai-assistant",
+    "title": "Piramal Finance Scales Its Internal Agentic AI Assistant With MongoDB",
+    "summary": "Piramal Finance Limited is a retail-led upper-layer NBFC with a pan-India presence. It offers a diverse portfolio of retail lending products spanning affordable housing loans, loan against property, m",
+    "aiSummary": "인도의 금융 서비스 기업인 Piramal Finance는 18,000명 이상의 직원을 위한 사내 agentic AI assistant를 구축하여 생산성과 고객 만족도를 크게 높였습니다. 초기에는 Neo4j, PostgreSQL, pgVector 등 여러 도구를 혼합한 복잡한 아키텍처를 사용했으나, 데이터 동기화 지연과 운영 효율성 문제에 직면했습니다.\n\n이를 해결하기 위해 Piramal Finance는 MongoDB Atlas를 기반으로 단일화된 데이터 플랫폼을 구축했습니다. MongoDB Atlas의 유연한 도큐먼트 모델을 활용하여 기존의 복잡한 그래프 데이터 모델을 효율적인 집계 파이프라인으로 전환하였고, MongoDB Search와 MongoDB Vector Search를 통해 데이터 검색 및 처리 속도를 이전 대비 3배 이상 개선하였습니다.\n\n특히 MongoDB Atlas의 내장된 RBAC 기능을 통해 기업용 싱글 사인온 및 Active Directory와 직접 연동함으로써 보안성을 강화하고, 데이터 업데이트 대기 시간을 30분에서 15초로 단축하는 성과를 거두었습니다. 현재 25개 이상의 MongoDB MCP 서버가 가동 중이며, 전 직원의 80% 이상이 매주 이 AI assistant를 활용하고 있습니다.\n\n이 플랫폼은 HR 업무 자동화, 고객 응대 시간 단축, 영업 성과 향상 등 전사적인 업무 혁신을 주도하고 있습니다. 향후 Piramal Finance는 MongoDB Atlas를 중심으로 AI 솔루션을 더욱 확장하여 모든 직원을 위한 개인 맞춤형 코칭 도구로 발전시킬 계획입니다.",
+    "url": "https://www.mongodb.com/company/blog/innovation/piramal-finance-scales-internal-agentic-ai-assistant",
+    "category": "데이터베이스",
+    "source": "MongoDB Blog",
+    "author": "MongoDB Blog",
+    "pubDate": "2026-11-24T01:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "MongoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+    "title": "Issue statuses and repository boards are in public preview",
+    "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight…\nThe post Issue statuses and rep",
+    "aiSummary": "GitHub가 Issue statuses와 repository boards 기능을 공개 프리미엄으로 전환했습니다. 기존의 단순한 열림과 닫힘 상태만으로는 프로젝트의 세부적인 진행 상황을 파악하기 어렵다는 점을 개선하기 위한 조치입니다.\n\n사용자는 이제 보다 구체적인 상태 값을 지정하여 팀원과 에이전트 간에 작업의 흐름과 진척 상황을 명확하게 공유할 수 있습니다. 이를 통해 워크플로우를 더욱 세밀하게 관리하고 협업의 효율성을 높일 수 있게 되었습니다.",
+    "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-23T20:37:11.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
     "title": "Secret scanning reduces false positives for Slack",
     "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secre",
@@ -13,6 +62,71 @@
     "tags": [
       "GitHub",
       "DevOps"
+    ]
+  },
+  {
+    "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+    "title": "See what 6 builders are making with Gemini 4 Hydrogen",
+    "summary": "See six projects builders created with Gemini 4 Hydrogen, from rainy sci-fi skies and pixelated koi ponds to an interactive moth.",
+    "aiSummary": "Gemini 4 Hydrogen을 활용하여 개발자들이 제작한 6가지 혁신적인 프로젝트가 공개되었습니다. 이번 사례들은 비가 내리는 공상과학 분위기의 하늘 묘사부터 픽셀 아트 형태의 잉어 연못, 그리고 사용자와 상호작용하는 나방 모델에 이르기까지 다채로운 기술적 시도들을 포함하고 있습니다. 해당 프로젝트들은 Gemini 4 Hydrogen의 향상된 생성 및 제어 능력을 실질적인 창작물에 어떻게 적용할 수 있는지를 잘 보여줍니다.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+    "category": "인공지능",
+    "source": "Google Gemini Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Molly McHugh-Johnson"
+      ],
+      "title": [
+        "Contributor"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-23T18:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "title": "Google is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+    "summary": "Today, we are proud to announce that Gartner has recognized Google as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). Among the 15 vendors evaluated",
+    "aiSummary": "Google이 2026 Gartner Magic Quadrant for SIEM 부문에서 리더로 선정되었습니다. 이번 평가에서 Google은 Completeness of Vision 항목에서 가장 높은 평가를 받으며 보안 운영 시장을 선도하는 위치를 공고히 했습니다.\n\nGoogle은 기존의 수동적인 보안 운영 방식에서 벗어나 자율형 AI 에이전트 중심의 SOC로 전환하는 전략을 추진하고 있습니다. Google Security Operations에 통합된 Gemini는 Triage, Investigation, Threat Hunt, Detection Engineering 등 목적에 특화된 에이전트 팀으로 확장되어 보안 팀의 탐지 및 대응 주기를 획기적으로 단축합니다.\n\n특히 Detection Engineering 에이전트는 규칙 생성과 검증 과정을 자동화하여 기존에 며칠이 걸리던 작업을 30분 이내로 줄여줍니다. 또한 Threat Hunting 에이전트는 위협 인텔리전스를 바탕으로 복잡한 사냥 계획을 자동으로 수립하고 실행하여, 전문가의 도움 없이도 숙련된 보안 분석가 수준의 대응이 가능하도록 지원합니다.\n\nIDC의 비즈니스 가치 보고서에 따르면 Google Security Operations를 도입한 기업은 위협 식별 시간 98% 단축, 월별 영향력 있는 보안 사고 50% 감소 등 실질적인 운영 효율성 향상을 경험했습니다. 또한 3년간 319%의 ROI를 달성하는 등 기술 도입의 경제적 효과도 입증되었습니다. 이러한 성과는 자율형 AI가 복잡한 보안 위협에 대응하는 필수적인 도구로 자리 잡았음을 시사합니다.",
+    "url": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "category": "클라우드 & 인프라",
+    "source": "Google Cloud Blog",
+    "author": {
+      "$": {
+        "xmlns:author": "http://www.w3.org/2005/Atom"
+      },
+      "name": [
+        "Arie Zilberstein"
+      ],
+      "title": [
+        "VP, Security Products & Threat Operations"
+      ],
+      "department": [
+        ""
+      ],
+      "company": [
+        ""
+      ]
+    },
+    "pubDate": "2026-11-23T17:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "GCP",
+      "Cloud"
     ]
   },
   {
@@ -161,6 +275,39 @@
     ]
   },
   {
+    "id": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+    "title": "Usage reports will include a user ID column starting December 1",
+    "summary": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the…\nThe post Usage reports",
+    "aiSummary": "2026년 12월 1일부터 GitHub에서 제공하는 사용자 이름 열을 포함한 사용 보고서에 user_id 열이 추가됩니다. 해당 변경 사항으로 인해 사용자 이름 열 뒤에 위치했던 기존의 모든 열은 한 칸씩 뒤로 밀리게 됩니다. 관련 데이터를 처리하는 시스템이나 보고서 활용 시 이 점을 참고해야 합니다.",
+    "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-23T10:29:36.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "https://supabase.com/blog/introducing-supabase-knowledge-base",
+    "title": "Introducing Supabase Knowledge Base",
+    "summary": "Migration guides, troubleshooting, FAQs, tutorials, and community guides for applied Supabase answers, all in one place your coding agent can read.",
+    "aiSummary": "Supabase가 개발자들의 효율적인 문제 해결을 돕기 위해 통합 지식 베이스인 Supabase Knowledge Base를 새롭게 공개합니다.\n\n해당 플랫폼은 마이그레이션 가이드와 문제 해결 방법, 자주 묻는 질문, 튜토리얼, 커뮤니티 가이드 등 Supabase 활용에 필요한 모든 기술 정보를 한곳에 모아 제공합니다.\n\n특히 본 지식 베이스는 외부 코딩 에이전트가 직접 내용을 읽고 참조할 수 있도록 설계되어, 개발 과정에서 AI 기반 도구를 활용할 때 더욱 정확하고 최적화된 기술 지원을 받을 수 있도록 합니다.",
+    "url": "https://supabase.com/blog/introducing-supabase-knowledge-base",
+    "category": "데이터베이스",
+    "source": "Supabase Blog",
+    "author": "Supabase Blog",
+    "pubDate": "2026-11-23T07:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "Supabase",
+      "PostgreSQL",
+      "BaaS"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.15",
     "title": "1.5.15",
     "summary": "Added an auto-compaction threshold row under the capacity header in /context, and updated AGY_CLI_AUTO_COMPACT_OVERRIDE to support all eligible models: pass a token count (700000), a K or M shorthand ",
@@ -175,6 +322,38 @@
       "Antigravity",
       "CLI",
       "AI"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/iron-mountain-enterprise-search",
+    "title": "From scattered searches to instant insight: Why Iron Mountain unified its enterprise search with Elastic",
+    "summary": "By consolidating its search infrastructure paths into Elasticsearch within InSight® DXP, Iron Mountain simplified workflows, optimized query performance, and built the fluid knowledge foundation auton",
+    "aiSummary": "Iron Mountain은 InSight DXP 내의 검색 인프라를 Elasticsearch로 통합하여 파편화된 검색 환경을 개선했습니다.\n\n이번 통합을 통해 작업 흐름을 단순화하고 쿼리 성능을 최적화하는 성과를 거두었습니다.\n\n또한 구축된 통합 데이터 환경은 향후 autonomous agents가 대규모 환경에서도 안정적으로 운영될 수 있는 핵심 지식 기반 역할을 수행하게 됩니다.",
+    "url": "https://www.elastic.co/blog/iron-mountain-enterprise-search",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Emily Chioconi",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-stack-9-4-10-released",
+    "title": "Elastic Stack 9.4.10 released",
+    "summary": "Version 9.4.10 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.4.10 over the previous version 9.4.9\nFor details of the issues that have been fi",
+    "aiSummary": "Elastic Stack의 최신 버전인 9.4.10이 출시되었습니다.\n\n이번 업데이트는 기존 9.4.9 버전을 대체하는 권장 버전이며 사용자들에게 최신 버전으로의 업그레이드를 권장합니다.\n\n해결된 문제들에 대한 상세 내용과 제품별 변경 사항은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
+    "url": "https://www.elastic.co/blog/elastic-stack-9-4-10-released",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "Navya Uppalapati",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
     ]
   },
   {
@@ -56063,6 +56242,22 @@
     "author": "Tyler Perkins,Ninoslav Miskovic,Gilad Gal,Teresa Alvarez Soler,Shani Sagiv,Jason Burns",
     "pubDate": "2023-11-06T23:00:00.000Z",
     "fetchedAt": "2026-07-25T16:15:20.775Z",
+    "tags": [
+      "ElasticSearch",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": "https://www.elastic.co/blog/elastic-verified-designation-managed-service-provider-partners",
+    "title": "Elastic launches new Verified Designation for Managed Service Provider partners",
+    "summary": "Elastic invests in new partner programs designed to empower Managed Service Provider partners to sell, support, and embed Elastic solutions as part of your global portfolio.",
+    "aiSummary": "Elastic은 관리형 서비스 제공업체인 MSP 파트너를 지원하기 위해 새로운 Verified Designation 프로그램을 출시합니다. 이번 프로그램은 파트너가 Elastic 솔루션을 자사의 글로벌 포트폴리오에 통합하여 판매하고 기술적으로 지원할 수 있도록 돕는 데 목적을 둡니다. 이를 통해 Elastic은 파트너사의 역량을 강화하고 더욱 전문적인 서비스를 제공할 수 있는 환경을 구축하고자 합니다.",
+    "url": "https://www.elastic.co/blog/elastic-verified-designation-managed-service-provider-partners",
+    "category": "데이터베이스",
+    "source": "Elastic Blog",
+    "author": "David Kosman,Isabelle Li",
+    "pubDate": "2023-09-22T07:00:00.000Z",
+    "fetchedAt": "2026-11-24T06:58:58.539Z",
     "tags": [
       "ElasticSearch",
       "NoSQL"
