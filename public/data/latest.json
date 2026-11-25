@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://www.percona.com/?p=56790",
+    "title": "Percona Database Service Is Now Open Source",
+    "summary": "We have some exciting news to share: Percona Database Service (PDS) is now open source! The source code is available on GitHub under the Apache 2.0 license, and we’ve also launched a redesigned PDS we",
+    "aiSummary": "Percona가 자사의 Database 관리 솔루션인 Percona Database Service를 오픈 소스로 전환했습니다.\n\n관련 소스 코드는 Apache 2.0 라이선스를 적용하여 GitHub를 통해 공개되었으며 누구나 자유롭게 접근하고 활용할 수 있습니다.\n\n이번 발표와 함께 사용자가 서비스를 더 쉽게 탐색하고 시작할 수 있도록 웹사이트 디자인도 새롭게 개편되었습니다. Percona는 이번 조치를 통해 데이터베이스 배포와 운영 효율성을 높이려는 사용자들에게 더욱 개방적인 환경을 제공하고자 합니다.",
+    "url": "https://www.percona.com/blog/percona-database-service-open-source/",
+    "category": "데이터베이스",
+    "source": "MySQL Blog (Percona)",
+    "author": "Andrey Glazkov",
+    "pubDate": "2026-11-24T19:03:50.000Z",
+    "fetchedAt": "2026-11-25T05:31:01.305Z",
+    "tags": [
+      "MySQL",
+      "Database"
+    ]
+  },
+  {
     "id": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
     "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
     "summary": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to b",
@@ -175,6 +191,22 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/24/this-week-in-spring-november-24-2026",
+    "title": "This Week in Spring - November 24th, 2026 ",
+    "summary": "Hi, Spring fans! It’s Thanksgiving week here in the USA! Let me therefore take this time to remind you, dear community, just how grateful I am for you, and all that you do! Happy Thanksgiving to you i",
+    "aiSummary": "Spring AI의 리드 개발자인 Christian Tsolov은 Spring AI 2.1에서 도입된 Humans in the Loop 기능을 소개하며 도구 호출 시 발생하는 승인 프로세스를 지속 가능하게 처리하는 방법을 설명합니다. 이 기능은 세션 API를 통해 대화 상태를 영속적으로 기록하며 에이전트를 일시 중지하거나 JVM을 재시작해도 이전 작업을 이어서 수행할 수 있도록 설계되었습니다.\n\nToshiaki Maki는 Spring MVC.fn을 활용하여 WebAssembly 환경에서 HTTP 핸들러를 구현하는 사례를 공유하였습니다. 또한 Wim Deblauwe는 htmx와 Spring Boot를 결합한 프론트엔드 개발 관련 신간을 발표하였으며 Craig Walls는 AI 에이전트의 기억을 정리하기 위한 일명 드림 기법을 통해 장기 기억의 효율성을 높이는 연구 내용을 다루었습니다.\n\nJetBrains와의 협력도 강화되고 있습니다. JetBrains의 CEO인 Kirill Skrygan과 함께하는 라이브 스트리밍을 통해 JetBrains의 최신 AI 솔루션인 AIR를 포함한 통합 개발 환경 활용 전략과 AI 시대의 개발 도구 발전 방향에 대해 논의할 예정입니다.",
+    "url": "https://spring.io/blog/2026/11/24/this-week-in-spring-november-24-2026",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "joshlong",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T05:31:01.305Z",
+    "tags": [
+      "Spring",
+      "Java"
     ]
   },
   {
@@ -2327,217 +2359,6 @@
       "Antigravity",
       "CLI",
       "AI"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/java4shell-remote-code-execution-rce-vulnerability",
-    "title": "Java4Shell Remote Code Execution (RCE) Vulnerability - CVE-2026-114938",
-    "summary": "Elastic is aware of a remote code execution vulnerability (CVE-2026-114938, also known as Java4Shell) affecting OpenJDK and Oracle Java SE that was disclosed on November 17, 2026.",
-    "aiSummary": "Elastic은 2026년 11월 17일에 공개된 OpenJDK 및 Oracle Java SE 대상 원격 코드 실행 취약점인 CVE-2026-114938, 일명 Java4Shell의 존재를 인지하고 있습니다. 해당 취약점은 시스템의 보안을 심각하게 위협할 수 있는 수준으로 파악되며 이에 대한 대응이 요구됩니다.",
-    "url": "https://www.elastic.co/blog/java4shell-remote-code-execution-rce-vulnerability",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Product Security Team",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/advancing-chip-design-with-our-models",
-    "title": "Advancing chip design with OpenAI models",
-    "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-    "aiSummary": "OpenAI의 모델을 활용하여 반도체 설계 효율을 높이는 기술적 진전이 이루어졌습니다.\n\nOpenAI의 모델은 Jalapeño 실리콘에 사용되는 회로를 최적화하고 RISC-V 코어 설계를 개선하는 성과를 거두었습니다. 이는 GPT-6 Astra를 필두로 한 AI 기반 반도체 설계 기술이 실제 하드웨어 개발 과정에서 실질적인 발전을 보여주고 있음을 의미합니다.",
-    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-    "title": "Anthropic prices initial public offering",
-    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Anthropic prices initial public offering \",\"description\":\"Today Ant",
-    "aiSummary": "Anthropic이 자사 Class A 보통주에 대한 기업공개 가격을 주당 83달러로 결정했습니다. 이번 공모는 총 9억 8천만 주의 주식을 발행하며, 이 중 약 9억 5천 6백만 주는 Anthropic이 직접 발행하고 나머지는 기존 주주들이 매각하는 형태입니다.\n\n해당 주식은 2026년 11월 19일부터 Nasdaq Global Select Market에서 종목 코드 ANT로 거래가 시작될 예정입니다. 또한 Anthropic은 주관사들에게 30일 동안 최대 1억 4천 7백만 주의 Class A 보통주를 추가로 매입할 수 있는 권한을 부여했습니다.\n\n이번 공모는 미국 증권거래위원회 SEC의 승인을 거쳐 최종 투자 설명서에 따라 진행됩니다. 거래는 관례적인 마감 조건이 충족될 경우 2026년 11월 20일에 마무리될 것으로 예상합니다.",
-    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/wal-g-3010-released-3448/",
-    "title": "WAL-G 3.0.10 released\n",
-    "summary": "The WAL-G team is pleased to announce the release of WAL-G 3.0.10.\nWAL-G is an open-source backup and recovery tool for PostgreSQL,\nApache Cloudberry, MySQL/MariaDB, MongoDB, Redis, and other\ndatabase",
-    "aiSummary": "오픈소스 데이터베이스 백업 및 복구 도구인 WAL-G가 3.0.10 버전을 새롭게 출시하였습니다. PostgreSQL을 비롯하여 Apache Cloudberry, MySQL, MariaDB, MongoDB, Redis 등 다양한 데이터베이스 환경을 지원합니다.\n\nPostgreSQL 관련 주요 업데이트로 wal-send 기능이 추가되었습니다. 이를 통해 PostgreSQL 스트리밍 복제 프로토콜을 사용하여 아카이브된 WAL을 전송할 수 있으며, 대기 서버나 pg_receivewal이 객체 스토리지로부터 직접 WAL을 읽어 동기화할 수 있습니다. 또한 데몬 모드에서의 연속적인 WAL 아카이빙 개선, 백업 완료 전 WAL 세그먼트 적재 확인 기능, 백업 이름 중복 방지를 위한 예약 시스템 등이 도입되었습니다.\n\nS3 지원 부분에서는 AWS SDK v2를 적용하여 요청 시간 초과 설정, 재시도 가능한 오류 코드 관리, 체크섬 설정 등을 강화하였습니다. 데이터 전송 시 서버 측 복사 기능을 활용할 수 있고 전송 동시성도 설정 가능합니다.\n\nGreenplum과 Cloudberry 환경에서는 공유 스토리지 회계 처리 및 세그먼트 백업과 복구 관련 연산 오류가 개선되었습니다. 보관 정책에 의해 자동 삭제되지 않던 영구 백업을 명시적인 삭제 대상을 통해 제거할 수 있도록 변경된 점도 주목해야 합니다. 보다 자세한 변경 사항은 GitHub 릴리스 페이지를 통해 확인할 수 있습니다.",
-    "url": "https://www.postgresql.org/about/news/wal-g-3010-released-3448/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgjumbo-a-new-free-desktop-client-for-postgresql-3444/",
-    "title": "pgjumbo: a new free desktop client for PostgreSQL\n",
-    "summary": "pgjumbo is a new desktop client for PostgreSQL 12+, free to use, for Windows, macOS and Linux, with query, data and administration tools.\npgjumbo connects to PostgreSQL 12+, including Amazon Aurora an",
-    "aiSummary": "pgjumbo는 PostgreSQL 12 이상 버전을 지원하는 무료 데스크톱 클라이언트로 Windows, macOS, Linux 환경에서 사용할 수 있습니다. Amazon Aurora와 RDS를 포함한 다양한 환경에 직접 연결하거나 SSL, SSH 터널을 통해 접속하는 기능을 제공합니다.\n\n이번 1.0.2 버전에는 데이터베이스 객체 탐색기 및 검사기, 실시간 구문 분석과 시각적 EXPLAIN 기능을 포함한 쿼리 도구, 변경 사항을 미리 확인하고 저장하는 데이터 편집기가 포함되어 있습니다.\n\n또한 pg_dump와 pg_restore를 기반으로 한 백업 및 복원 기능과 함께 VACUUM, ANALYZE, REINDEX를 수행하는 유지보수 도구도 갖추고 있습니다. 이외에도 서버 활동 모니터링, 역할 및 권한 관리, 로그 확인, 복제 관리 등 데이터베이스 운영에 필요한 포괄적인 기능을 지원합니다.\n\n특히 운영 서버의 경우 파괴적인 명령 실행 시 확인 절차를 거치며 모든 변경 사항을 SQL 형태로 미리 검토할 수 있도록 설계되어 안전성을 강화했습니다.",
-    "url": "https://www.postgresql.org/about/news/pgjumbo-a-new-free-desktop-client-for-postgresql-3444/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.postgresql.org/about/news/pgsherpa-a-free-postgresql-monitoring-companion-for-macos-3446/",
-    "title": "pgSherpa: a free PostgreSQL monitoring companion for macOS\n",
-    "summary": "CortexRidge has released pgSherpa, a free desktop companion for PostgreSQL on macOS, now available on the Mac App Store.\npgSherpa sits in a corner of the screen and polls one or more PostgreSQL server",
-    "aiSummary": "CortexRidge가 macOS를 위한 무료 PostgreSQL 모니터링 도구인 pgSherpa를 출시하였습니다. 이 소프트웨어는 Mac App Store를 통해 이용할 수 있으며, PostgreSQL 12 버전부터 18 버전까지의 서버를 모니터링합니다.\n\npgSherpa는 화면 한쪽에 상주하며 서버 상태를 실시간으로 확인합니다. 주요 기능으로는 잠금 대기, 장기 실행 세션, 복제 지연, VACUUM 진행 상황 등을 포함한 서버 건강 상태 점검과 보안 취약점 관리, SSL 및 암호화 설정 확인이 있습니다. 또한 DigitalOcean Managed Databases, Supabase, Amazon RDS 및 Aurora PostgreSQL과 같은 클라우드 서비스의 백업 및 장애 조치 상태를 API를 통해 직접 확인합니다.\n\n사용자는 내장된 SQL 쿼리 상자를 통해 데이터베이스를 조회할 수 있으며, 기본적으로 모든 문은 읽기 전용 트랜잭션으로 실행됩니다. 서버 내부에 별도의 확장 프로그램이나 에이전트를 설치할 필요가 없으며, pg_monitor 권한을 가진 계정만 있으면 즉시 사용이 가능합니다. 모든 민감한 정보는 macOS Keychain에 안전하게 저장되며 사용자 추적이나 원격 통신은 수행하지 않습니다. 본 도구는 macOS 12 이상의 환경에서 Apple silicon 및 Intel Mac 모두를 지원합니다.",
-    "url": "https://www.postgresql.org/about/news/pgsherpa-a-free-postgresql-monitoring-companion-for-macos-3446/",
-    "category": "데이터베이스",
-    "source": "PostgreSQL News",
-    "author": "PostgreSQL News",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "PostgreSQL",
-      "SQL"
-    ]
-  },
-  {
-    "id": "https://www.elastic.co/blog/elastic-cloud-serverless-now-available-azure-toronto",
-    "title": "Celebrating Microsoft Ignite with Azure region expansion in Toronto",
-    "summary": "Elastic announces the availability of Elastic Cloud Serverless in the Microsoft Azure region of Toronto, bringing serverless Azure regions to 13 worldwide. Elastic meets customers where their data is ",
-    "aiSummary": "Elastic이 Microsoft Ignite 행사를 맞아 캐나다 Toronto의 Microsoft Azure 리전에 Elastic Cloud Serverless를 공식 출시합니다. 이번 확장으로 전 세계 13개 지역에서 Elastic의 서버리스 서비스를 이용할 수 있게 되었습니다. Elastic은 사용자가 데이터가 위치한 곳 어디에서든 유연하게 서비스를 활용할 수 있도록 지원 범위를 지속적으로 넓히고 있습니다.",
-    "url": "https://www.elastic.co/blog/elastic-cloud-serverless-now-available-azure-toronto",
-    "category": "데이터베이스",
-    "source": "Elastic Blog",
-    "author": "Lucy Wang,Brian Bergholm",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "ElasticSearch",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/blogs/2026/11/18/copilot-harness",
-    "title": "The Copilot harness: Building on a shared foundation",
-    "summary": "Learn why VS Code is moving from the Local harness to the Copilot harness, guided by data and user feedback.\nRead the full article",
-    "aiSummary": "VS Code가 사용자 피드백과 데이터 분석을 바탕으로 기존의 Local harness 체계에서 Copilot harness 체계로 전환하는 과정을 설명합니다. 이번 변화는 통합된 기반 기술을 활용하여 개발 생산성을 높이고 소프트웨어 품질을 개선하기 위한 전략적 결정입니다. 향후 VS Code 환경은 더욱 유기적으로 Copilot과 결합하여 효율적인 개발 경험을 제공할 예정입니다.",
-    "url": "https://code.visualstudio.com/blogs/2026/11/18/copilot-harness",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Brigit Murtaugh",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/18/this-week-in-spring-november-18th-2026",
-    "title": "This Week in Spring - November 18th, 2026",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "해당 문서는 Broadcom이 운영하는 Spring 생태계와 관련하여 사용된 각종 상표권 및 저작권에 관한 법적 고지 사항을 담고 있습니다.\n\n제공된 내용은 Apache, Java, Kubernetes, Linux, Microsoft, AWS 등 Spring 프레임워크와 연관된 다양한 기술 및 서비스의 상표권 소유 주체를 명시하고 있으며, 해당 명칭들이 정보 제공의 목적으로 사용되었음을 밝히고 있습니다. 실질적인 Spring 프레임워크의 기술적 업데이트 정보는 포함되어 있지 않으며 법적 면책 및 권리 관계에 대한 안내로 구성되어 있습니다.",
-    "url": "https://spring.io/blog/2026/11/18/this-week-in-spring-november-18th-2026",
-    "category": "백엔드",
-    "source": "Spring Engineering",
-    "author": "joshlong",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "fetchedAt": "2026-11-18T04:34:23.342Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/laravel-13-43-0",
-    "title": "JSON Schema Validation Rules and a RetryFor Attribute in Laravel 13.43",
-    "summary": "Laravel 13.43 turns JSON schemas into validation rules, adds a #[RetryFor] queue attribute and releaseUsingBackoff(), and ships several security fixes.\nThe post JSON Schema Validation Rules and a Retr",
-    "aiSummary": "Laravel 13.43 버전이 출시되면서 JSON Schema를 활용한 검증 규칙 기능을 새롭게 도입했습니다. 이를 통해 개발자는 데이터 검증 과정을 더욱 효율적으로 처리할 수 있게 되었습니다.\n\n또한 큐 작업의 안정성을 높이기 위해 RetryFor 속성과 releaseUsingBackoff 메서드가 추가되었습니다. 해당 기능을 활용하면 실패한 작업에 대한 재시도 로직을 더욱 세밀하게 제어할 수 있습니다.\n\n이외에도 이번 업데이트에는 전반적인 프레임워크의 보안을 강화하기 위한 여러 가지 수정 사항이 포함되어 있습니다.",
-    "url": "https://laravel-news.com/laravel-13-43-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-11-17T23:07:18.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://devblogs.microsoft.com/dotnet/?p=61260",
-    "title": "Introducing staged publishing on NuGet.org",
-    "summary": "Stage and validate packages privately on NuGet.org, then approve their release when you are ready.\nThe post Introducing staged publishing on NuGet.org appeared first on .NET Blog.",
-    "aiSummary": "NuGet.org에 패키지를 비공개 상태로 먼저 업로드하여 검증할 수 있는 staged publishing 기능이 새롭게 도입되었습니다.\n\n해당 기능을 사용하면 개발자가 패키지를 직접 배포하기 전에 비공개 환경에서 미리 테스트하고 검증 과정을 거칠 수 있습니다.\n\n검증이 완료된 패키지는 준비가 되었을 때 승인 절차를 통해 공식적으로 출시할 수 있습니다.",
-    "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
-    "category": "프로그래밍 언어",
-    "source": ".NET Blog",
-    "author": "Jon Douglas, James Parsons",
-    "pubDate": "2026-11-17T21:00:00.000Z",
-    "fetchedAt": "2026-11-18T04:34:23.342Z",
-    "tags": [
-      "C#",
-      ".NET"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-    "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-    "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6…\nThe",
-    "aiSummary": "OpenAI가 개발한 새로운 모델인 GPT-6.2 Astra와 GPT-6.2 Sol이 GitHub Copilot을 통해 정식으로 공개되었습니다.\n\n두 모델은 에이전트 기반의 코딩과 코드 리뷰 작업에 특화되어 설계되었습니다. 기존 GPT-6 시리즈와 비교했을 때 코딩에 대한 판단 능력이 더욱 강화된 것이 특징입니다.",
-    "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-17T20:20:29.000Z",
-    "fetchedAt": "2026-11-18T04:34:23.342Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "/blog/how-were-using-ai-to-make-nextjs-more-secure",
-    "title": "How we're using AI to make Next.js more secure",
-    "summary": "Why you're seeing more Next.js security advisories, and what we're doing about it.",
-    "aiSummary": "최근 Next.js 보안 권고 사항이 증가하는 현상은 프레임워크의 생태계가 확장되고 복잡해짐에 따라 발생하는 자연스러운 과정입니다. Vercel은 이러한 보안 문제를 선제적으로 해결하기 위해 AI를 적극적으로 도입하고 있습니다.\n\n구체적으로는 AI를 활용하여 코드베이스 내의 잠재적인 취약점을 자동으로 탐지하고 분석하는 시스템을 구축하고 있습니다. 이를 통해 보안 위협을 더욱 신속하게 식별하여 패치와 업데이트를 배포하는 속도를 높이고 있습니다.\n\n또한 개발자들이 보안 설정을 더 쉽게 이해하고 적용할 수 있도록 AI 기반의 가이드를 제공하여 인적 오류를 최소화하는 데 집중하고 있습니다. 결과적으로 이러한 기술적 노력은 Next.js 사용자들이 더 안전한 환경에서 웹 애플리케이션을 개발하고 운영할 수 있도록 돕기 위한 것입니다.",
-    "url": "https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure",
-    "category": "프론트엔드",
-    "source": "Next.js Blog",
-    "author": "Next.js Blog",
-    "pubDate": "2026-11-17T20:00:00.000Z",
-    "fetchedAt": "2026-11-18T04:34:23.342Z",
-    "tags": [
-      "Next.js",
-      "React"
     ]
   }
 ]
