@@ -1,5 +1,199 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_149",
+    "title": "Visual Studio Code 1.149 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.149 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.149 Insiders 버전의 주요 변경 사항과 새로운 기능에 대한 정보가 공개되었습니다. 해당 업데이트를 통해 추가된 기능과 개선된 사항들에 대한 자세한 내용은 공식 블로그의 전체 기사를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_149",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-11-25T18:01:46.847Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=96403",
+    "title": "Prove your AI agent guardrails work",
+    "summary": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+    "aiSummary": "코딩 에이전트가 작업 범위를 벗어나 시스템에 과도하게 접근하는 문제를 해결하기 위해 Docker는 AI Governance를 도입합니다. 이 기능을 통해 네트워크, 파일 시스템, 자격 증명, MCP 서버에 대한 접근 권한을 세밀하게 제어할 수 있습니다. 사용자는 Docker의 거버넌스 솔루션을 활용하여 에이전트의 동작을 엄격하게 제한하고 해당 보호 장치가 실제로 안전하게 작동하는지 직접 테스트해 볼 수 있습니다.",
+    "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jennifer Kohl",
+    "pubDate": "2026-11-25T16:57:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.6.2",
+    "title": "v12.6.2",
+    "summary": "v12.6.2 (2026-11-25)\nNotable changes\nFixes of 12.6.1\napplyDecorators() type-checks again as a class, method and property decorator. In 12.6.1 its return type became a union that TypeScript rejects whe",
+    "aiSummary": "NestJS v12.6.2 업데이트는 주요 기능 개선과 버그 수정을 포함하고 있습니다.\n\n주요 변경 사항으로 applyDecorators 함수가 클래스, 메서드, 속성 및 매개변수 데코레이터로 다시 정상적으로 타입 체크되도록 수정되었습니다. @nestjs/platform-node 환경의 res.send()는 이제 Readable 스트림을 적절히 파이핑하며 기본 Content-Type을 application/octet-stream으로 설정합니다. 또한 StreamableFile 사용 시 상태 코드 204, 205, 304 응답에 대해서는 바디를 전송하지 않도록 개선되었습니다. ParseDatePipe는 연도 정보가 없는 날짜 입력 시 해당 월의 마지막 날짜를 초과하는 값을 정확하게 거부하도록 변경되었습니다.\n\n마이크로서비스 관련 업데이트로는 RabbitMQ 연결 재시도 시 메시지 처리에 관한 오류를 수정하여 채널 간 delivery tag 불일치 문제를 해결했습니다. MQTT 클라이언트와 서버는 브로커 연결이 끊겼을 때 close() 호출이 정상적으로 종료되도록 개선되었습니다.\n\n이 외에도 @nestjs/common 패키지 루트에서 GetOrResolveOptions, SelectOptions 등 다양한 인터페이스 타입들을 추가로 내보내며 개발 편의성을 높였습니다. 또한 데코레이터 메타데이터 없이 컴파일된 서브클래스에 대한 경고 메시지 기능이 강화되었습니다. 전체적으로 프레임워크의 안정성과 타입 안정성을 보강한 릴리스입니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.6.2",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-25T14:05:56.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=qodana&p=760429",
+    "title": "Qodana 2026.3 Release: What’s New",
+    "summary": "Qodana 2026.3 release brings Dart and Flutter projects into Qodana, so you can review code analysis findings together with your team. Baseline matching is now more accurate: In targeted validation acr",
+    "aiSummary": "Qodana 2026.3 버전이 출시되면서 Dart와 Flutter 프로젝트에 대한 코드 분석 지원이 추가되어 팀 단위의 협업 효율이 향상되었습니다.\n\nBaseline matching 기능이 대폭 개선되어 기존 파일의 이동, 이름 변경, 리팩토링이 발생하더라도 동일한 문제를 인식하는 정확도가 기존 45퍼센트에서 90퍼센트로 크게 향상되었습니다.\n\n이번 업데이트를 통해 개발자들은 코드 품질 관리 과정에서 더욱 정확하고 신뢰할 수 있는 분석 결과를 확인할 수 있게 되었습니다.",
+    "url": "https://blog.jetbrains.com/qodana/2026/11/qodana-2026-3-release/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Efim Samoylov",
+    "pubDate": "2026-11-25T12:02:33.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=youtrack&p=750190",
+    "title": "YouTrack Adds More Ways to Use AI on Your Terms",
+    "summary": "YouTrack 2026.3 introduces Ask YouTrack, a new built-in agentic AI chat, where you can ask questions in natural language and take action on tasks, tickets, and articles. You can connect your preferred",
+    "aiSummary": "YouTrack 2026.3 업데이트를 통해 새로운 AI 에이전트 서비스인 Ask YouTrack이 도입되었습니다. 사용자는 자연어로 질문을 던져 작업이나 티켓, 문서와 관련된 구체적인 업무를 처리할 수 있습니다.\n\n이번 업데이트의 핵심은 사용자 정의 모델을 연결할 수 있는 유연성에 있습니다. 사용자가 선호하는 AI 모델을 직접 선택하여 사용할 수 있으며 관리자는 사용자별로 토큰 사용량을 모니터링하여 효율적인 관리가 가능합니다. 이를 통해 기업은 보안과 비용 효율성을 고려하면서도 업무 자동화 수준을 높일 수 있습니다.",
+    "url": "https://blog.jetbrains.com/youtrack/2026/11/youtrack-adds-more-ways-to-use-ai-on-your-terms/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Elena Pishkova",
+    "pubDate": "2026-11-25T11:56:27.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=ai&p=758354",
+    "title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
+    "summary": "The faster sibling of Mellum2.1 Thinking, built for sub-agents, tool loops, and chat. In October, we released Mellum2.1 Thinking, an open 12B mixture-of-experts model with 2.5B active parameters, trai",
+    "aiSummary": "Mellum2.1 Instruct가 새롭게 출시되었습니다. 이 모델은 지난 10월 공개된 Mellum2.1 Thinking의 형제 모델로, 코딩 에이전트 환경에서 더욱 빠른 응답 속도를 제공하기 위해 개발되었습니다.\n\nMellum2.1 Instruct는 기존의 12B 파라미터 기반 Mixture-of-experts 구조와 2.5B의 활성 파라미터 설계를 그대로 유지하고 있습니다. 서브 에이전트 작업이나 툴 루프, 일반적인 대화형 인터페이스에서 효율적으로 작동하도록 최적화된 것이 특징입니다.\n\n동일한 아키텍처를 기반으로 학습되어 코딩 작업을 수행하는 환경에서 기존 모델보다 즉각적인 반응성을 보여줍니다. 이를 통해 개발자는 복잡한 추론 과정보다 빠른 처리 속도가 요구되는 상황에서 더욱 유연하게 모델을 활용할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Gleb Ingman",
+    "pubDate": "2026-11-25T11:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.12",
+    "title": "v11.2.12",
+    "summary": "What's changed\n@nestjs/platform-fastify\n\nfix(deps): update dependency @fastify/middie to v9.3.8 — #18687, by @anthgrim; a request target that is neither origin-form nor an http(s) absolute-form URL, a",
+    "aiSummary": "NestJS의 @nestjs/platform-fastify 버전 11.2.12가 출시되었습니다.\n\n이번 업데이트에서는 @fastify/middie 의존성을 v9.3.8 및 v9.3.9로 업데이트하여 주요 버그들을 수정하였습니다. 우선 유효하지 않은 형식의 URL이 요청될 경우 기존의 404 처리 대신 400 에러를 반환하도록 변경되었습니다. 또한, Nest 미들웨어와 동일하게 Fastify 플러그인에 미들웨어를 추가하는 방식이 개선되었습니다.\n\n기술적인 환경 요구사항도 변경되었습니다. @fastify/middie 9.3.7 버전 이후부터는 path-to-regexp 9를 ES 모듈 방식으로 불러오기 때문에, 이번 업데이트를 사용하려면 Node.js 20.19 이상 또는 22.12 이상의 버전이 필수적으로 요구됩니다. 이전 버전의 Node.js를 사용할 경우 ERR_REQUIRE_ESM 오류가 발생하므로 주의가 필요합니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.12",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-25T08:40:38.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.6.1",
+    "title": "v12.6.1",
+    "summary": "v12.6.1 (2026-11-25)\nNotable changes\nNew features\nRabbitMQ server: nackOnInternalError (false by default). With noAck: false, the message of a handler that fails with an internal error (an exception o",
+    "aiSummary": "NestJS 프레임워크의 v12.6.1 버전 업데이트가 발표되었습니다. 이번 버전에서는 주요 기능 추가와 함께 다양한 버그 수정 및 동작 개선이 이루어졌습니다.\n\n마이크로서비스 분야에서는 RabbitMQ 서버에 nackOnInternalError 옵션이 추가되었습니다. 이를 통해 내부 오류 발생 시 메시지를 재요청 없이 부정 응답 처리하여 데드 레터 큐로 보낼 수 있게 되었습니다. 또한 RabbitMQ fanout 설정과 NATS 헤더 처리, 다양한 클라이언트의 연결 종료 시 상태 관리 등이 개선되었습니다.\n\n공통 기능과 관련해서는 ParseDatePipe의 날짜 검증 규칙이 강화되어 형식에 맞지 않는 날짜 입력을 더 엄격하게 거부합니다. ParseEnumPipe는 수치형보다 정확한 일치값을 우선하며, ConsoleLogger는 URL 내의 민감한 정보나 헤더, FormData 등을 마스킹하여 로그 보안을 강화하였습니다. 또한 applyDecorators를 통한 데코레이터 합성 동작이 TypeScript 표준과 동일하게 변경되었습니다.\n\n플랫폼별 변화로는 @nestjs/platform-express에서 프로토타입 오염 공격을 방지하기 위한 필드명 검증이 강화되었으며, @nestjs/platform-fastify의 업로드 제한 설정 오류 수정 및 미들웨어 처리 방식이 개선되었습니다. 또한 여러 소켓 통신 및 서버 설정에서 발생하던 예외 처리 누락과 비정상적인 종료 로직들이 안정화되었습니다.\n\n전반적으로 이번 v12.6.1은 보안 강화와 예외 처리의 엄격함을 높이는 데 중점을 두고 있습니다. 구체적인 변경 사항과 커밋 정보는 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.6.1",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-25T08:37:29.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.17",
+    "title": "1.5.17",
+    "summary": "Added mouse cursor placement and text selection inside the prompt box in the full screen (altscreen) rendering mode: click to move the cursor, or drag and double-click (and double-click-drag by word) ",
+    "aiSummary": "이번 업데이트 1.5.17 버전에서는 인터페이스 개선과 함께 안정성 강화에 초점을 맞추었습니다.\n\n전체 화면 모드에서 프롬프트 박스 내 마우스 커서 위치 지정과 텍스트 선택 기능이 추가되었습니다. 클릭이나 드래그를 통한 텍스트 강조, 복사, 잘라내기 등이 가능해졌으며, Vim 모드 사용 시 마우스 선택 동작이 Visual 모드와 연동되도록 개선되었습니다.\n\n백그라운드 쉘 명령 추적 방식을 효율화하여 CLI가 장시간 실행되는 명령을 더욱 정확하게 감지하도록 변경하였습니다. Orchestrator 기능에서는 Planner와 Executor에 동일한 모델과 Effort 수준을 선택할 경우 단일 에이전트 모드로 직접 실행하여 문맥 창 활용도를 높였습니다. 또한, 24시간 이상 남은 할당량 갱신 시간을 일, 시간, 분 단위로 직관적으로 표시하도록 하였습니다.\n\nMCP 서버 인증 체계를 개선하여 offline_access 범위를 명시적으로 요청함으로써 리프레시 토큰을 통해 지속적인 연결이 가능해졌습니다. Slash 명령어 자동 완성 메뉴에서 Tab 키가 정상 작동하지 않던 문제를 수정하였으며, 특정 패널에서 스크롤 동작 시 배경 화면이 움직이던 레이아웃 오류를 해결하였습니다.\n\n터미널 출력 형식과 관련해서는 업데이트 상태 표시줄의 들여쓰기 문제를 수정하였습니다. 서비스 안정성 면에서는 Google OAuth 토큰 만료 시 발생하는 401 오류를 방지하기 위해 자동 갱신 및 재시도 로직을 강화하였고, Gemini 모델 응답 도중 발생하는 503 오류 발생 시 중단 없이 재개할 수 있도록 처리하였습니다.\n\nGemini Enterprise 계정의 잔액 부족 시 사용자에게 정확한 안내를 제공하도록 수정하였으며, 권한 설정이 우회되던 보안 문제를 해결하였습니다. 이 외에도 Windows 환경에서의 인증 토큰 문제, 원격 제어 브라우저 뷰에서의 모델 선택기 잠금 현상, 그리고 LaTeX 수식 렌더링 오류 등 다양한 버그가 수정되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.17",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-25T07:23:12.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/11/25/quality-heads-up/",
+    "title": "JDK 28: New jlink Security Properties Plugin - Quality Outreach Heads-up",
+    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.org/display/quality/Quality+Outreach) promotes the testing of FOSS projects with OpenJDK early-access builds as a way to improve the overall quality of ",
+    "aiSummary": "OpenJDK Quality Group은 JDK 28부터 jlink 도구에 새로운 security-properties 플러그인이 추가되었음을 발표했습니다. 이 플러그인은 개발자가 커스텀 런타임을 생성할 때 보안 속성을 손쉽게 구성할 수 있도록 지원합니다.\n\n사용자는 --security-properties 옵션을 통해 속성 파일 이름을 지정하여 런타임 이미지 내 conf/security/java.security 파일을 업데이트하거나 새로운 속성을 추가할 수 있습니다. 해당 플러그인은 파일 내 주석을 무시하며 중복된 속성이 있을 경우 마지막 값을 적용합니다.\n\n또한 include 문을 포함하는 속성 파일을 사용할 경우, 해당 문장은 생성된 구성 파일의 끝에 배치됩니다. 이때 참조된 파일이 빌드 시점에 존재하지 않아도 되며, 대상 시스템에서 런타임이 실행될 때 보안 설정의 일부로 읽히게 됩니다. 다만 원본 java.security 파일에는 중복 속성이나 include 문이 포함되어 있어서는 안 됩니다. 더 자세한 내용은 관련 버그 리포트인 JDK-8381580을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/11/25/quality-heads-up/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ana-Maria Mihalceanu",
+    "pubDate": "2026-11-25T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/ten-years-of-svelte",
+    "title": "Celebrating ten years of Svelte",
+    "summary": "It started with a commit — specifically, this one. Ten years later, we’re far from done; software never is. But we’ve come an awful long way. Last week the community gathered in Ljubljana, at the thir",
+    "aiSummary": "Svelte가 출시 10주년을 맞이하여 슬로베니아 류블랴나에서 세 번째 Svelte Summit을 개최했습니다. AI가 주도하는 최신 소프트웨어 개발 환경 속에서도 커뮤니티는 여전히 강력한 활기를 보였으며, 다양한 기술적 진보와 함께 새로운 도구들이 발표되었습니다.\n\n주요 발표 내용으로는 네이티브 앱, 터미널 UI, PDF 구축을 지원하는 커스텀 렌더러의 실험적 도입과 프로덕션 준비 단계에 있는 Async Svelte가 포함되었습니다. 또한 Vite DevTools와 통합된 vite-devtools-svelte의 조직 합류 및 1.0 출시 준비, Rust 기반의 초고속 툴체인인 rsvelte의 등장, Storybook 공식 지원, mdsvex 1.0 출시 등 생태계 전반의 기술적 성과가 공개되었습니다.\n\nAI와 에이전트 개발에 대한 논의도 활발하게 이루어졌으며, 발표된 많은 도구가 MCP 서버 지원이나 대규모 애플리케이션의 에이전트 협업 효율화 등 AI 환경에 최적화된 기능을 갖추고 있습니다. Svelte는 지난 10년의 성과를 발판 삼아 앞으로도 더 큰 도약을 준비하고 있으며, 이번 행사의 상세 강연 영상은 Svelte Society 유튜브 채널을 통해 순차적으로 공개될 예정입니다.",
+    "url": "https://svelte.dev/blog/ten-years-of-svelte",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Rich Harris",
+    "pubDate": "2026-11-25T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-44-0",
+    "title": "Form Request Model Lookups and PHP 8.6 Support in Laravel 13.44",
+    "summary": "Laravel 13.44 adds model() helpers to form requests, alerts for long-running transactions, lockForNoKeyUpdate() for PostgreSQL, and PHP 8.6 support.\nThe post Form Request Model Lookups and PHP 8.6 Sup",
+    "aiSummary": "Laravel 13.44 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Form Request 내에서 모델을 간편하게 조회할 수 있는 model 헬퍼가 추가된 점입니다.\n\n또한 장시간 실행되는 트랜잭션에 대한 알림 기능이 도입되었고, PostgreSQL을 위한 lockForNoKeyUpdate 메서드가 새롭게 지원됩니다. 더불어 최신 PHP 버전인 PHP 8.6에 대한 공식 지원도 이번 릴리스에 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-44-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-11-24T22:07:17.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=56790",
     "title": "Percona Database Service Is Now Open Source",
     "summary": "We have some exciting news to share: Percona Database Service (PDS) is now open source! The source code is available on GitHub under the Apache 2.0 license, and we’ve also launched a redesigned PDS we",
@@ -191,6 +385,23 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "/blog/prisma-postgres-is-now-available-in-n8n",
+    "title": "Prisma Postgres is now available in n8n",
+    "summary": "The Prisma Postgres community node for n8n, built by Prisma and verified by n8n, lets a workflow create a database and connect n8n's Postgres node to it in one run.",
+    "aiSummary": "Prisma와 n8n이 협력하여 개발하고 n8n의 검증을 거친 Prisma Postgres 커뮤니티 노드가 출시되었습니다. 이 노드를 활용하면 n8n 워크플로우 내에서 데이터베이스를 즉시 생성하고, 이를 n8n의 Postgres 노드와 곧바로 연결하는 과정을 단일 실행으로 처리할 수 있습니다. 이를 통해 데이터베이스 설정과 워크플로우 통합 과정을 더욱 효율적으로 자동화할 수 있게 되었습니다.",
+    "url": "https://www.prisma.io/blog/prisma-postgres-is-now-available-in-n8n",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
@@ -2020,345 +2231,6 @@
     "tags": [
       "MongoDB",
       "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-    "title": "Genie 4 is now available",
-    "summary": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
-    "aiSummary": "Google AI Ultra 구독자를 대상으로 차세대 월드 모델인 Genie 4가 포함된 새로운 Project Genie 경험이 제공되기 시작했습니다. 이번 업데이트를 통해 대상 사용자들은 더욱 향상된 인공지능 모델인 Genie 4를 직접 활용할 수 있게 되었습니다.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-    "category": "인공지능",
-    "source": "Google Gemini Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Diego Rivas"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        "Google DeepMind"
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-18T18:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "Google",
-      "Gemini",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026/",
-    "title": "EMEA startups building the next-generation of agents on Google Cloud",
-    "summary": "As thousands of founders, investors, and technology leaders gather in Helsinki for Slush 2026, the European startup ecosystem is undergoing a profound transformation. The conversation has moved from  ",
-    "aiSummary": "헬싱키에서 열린 Slush 2026을 맞아 유럽과 중동 및 아프리카 지역의 스타트업 생태계가 단순한 AI 실험 단계를 넘어 자율적인 AI 에이전트를 운영하는 단계로 진화하고 있습니다. Google Cloud와 Google DeepMind는 Gemini Enterprise와 Gemini 에이전트를 비롯해 Claude, GPT, Gemma와 같은 다양한 모델과 GPU, TPU를 포함한 컴퓨팅 인프라를 제공하며 스타트업들이 복잡한 워크플로우를 자동화하고 AI 애플리케이션을 확장하도록 지원합니다.\n\n현지 스타트업들은 Google Cloud의 인프라를 활용해 각 산업 분야에서 혁신적인 성과를 내고 있습니다. CDON과 Fyndiq은 Google BigQuery와 같은 데이터 인프라를 통해 실시간 비즈니스 통찰력을 확보하고 있으며, Chalkie.ai는 Gemini의 추론 능력을 활용해 교육 자료를 자동 생성합니다. Finova는 주택 담보 대출 신청 과정을 자동화하는 에이전트를 도입해 업무 효율을 극대화했고, Ruby Labs는 데이터 파이프라인을 최적화해 마케팅 성과를 개선하고 있습니다. 또한 VIA HealthTech는 Gemini의 다중 모달 기능을 사용하여 심리 치료 기록을 자동화하고 보안 규정을 준수하며 임상 현장의 효율성을 높이고 있습니다.\n\nGoogle Cloud는 지속 가능한 AI 비즈니스를 지원하기 위해 Google for Startups Accelerator: Sovereign AI 프로그램을 새롭게 선보였습니다. 이 프로그램은 GovTech나 HealthTech와 같이 규제가 엄격한 분야의 스타트업을 대상으로 아키텍처 멘토링과 EU AI Act 대응을 위한 기술 자문을 제공합니다. 더불어 Google for Startups Cloud Program을 통해 최대 35만 달러의 클라우드 크레딧과 전문적인 엔지니어링 지원을 제공하며 유럽 지역 스타트업의 성장을 가속화하고 있습니다.",
-    "url": "https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Darren Mowry"
-      ],
-      "title": [
-        "VP, Global Startups & Investor Ecosystem"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-18T17:30:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://www.php.net/archive/2026.php#2026-11-18-1",
-    "title": "Upcoming Critical PHP Security Release",
-    "summary": "The PHP security team announces upcoming security releases\n        \n      scheduled for Thursday, 19 November 2026, between 14:00 and\n        14:30 UTC.\n\n        These releases are part of PHP’s regul",
-    "aiSummary": "PHP 보안 팀은 오는 2026년 11월 19일 목요일 14시부터 14시 30분 UTC 사이에 예정된 정기 보안 업데이트를 발표합니다.\n\n이번 업데이트는 현재 지원되는 모든 PHP 버전에 존재하는 취약점을 해결하기 위한 조치입니다. 특히 최고 심각도 등급인 CRITICAL로 분류된 문제가 포함되어 있습니다.\n\n해당 CRITICAL 등급의 취약점은 기본 설정이 아닌 특정 환경이나 흔치 않은 구성에서 발생할 가능성이 높습니다. 보안 팀은 릴리스가 공개되는 즉시 업그레이드를 진행할 것을 강력히 권장합니다. 상세한 기술적 내용과 수정된 버전 정보는 릴리스와 함께 공개될 예정입니다.",
-    "url": "https://www.php.net/index.php#2026-11-18-1",
-    "category": "프로그래밍 언어",
-    "source": "PHP News",
-    "author": "PHP News",
-    "pubDate": "2026-11-18T17:09:51.000Z",
-    "fetchedAt": "2026-11-19T16:39:26.095Z",
-    "tags": [
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://www.hashicorp.com/blog/building-a-secure-foundation-for-ai-on-kubernetes-with-hashicorp-vault",
-    "title": "Building a secure foundation for AI on Kubernetes with HashiCorp Vault",
-    "summary": "AI is moving beyond experimentation and into production, but security controls aren’t necessarily keeping pace. Recent IBM research shows 48% of surveyed executives say their organizations lack adequa",
-    "aiSummary": "인공지능이 실험 단계를 넘어 프로덕션 환경으로 도입되면서 기업 내 보안 통제의 필요성이 커지고 있습니다. 특히 Kubernetes 기반의 인공지능 애플리케이션과 자율형 에이전트를 운영할 때는 단순히 모델 자체를 보호하는 것을 넘어 인프라 전반의 보안을 확보하는 것이 핵심 과제입니다. HashiCorp는 최근 발표된 Vault 2.2와 다양한 통합 기능을 통해 Kubernetes 환경에서 인공지능 워크로드를 위한 안전한 보안 기반을 제공합니다.\n\n첫째, Vault Kubernetes Key Management는 Kubernetes KMS와 Vault Transit secrets engine을 연동하여 etcd에 저장되는 민감한 데이터를 암호화함으로써 클러스터 데이터 보호를 강화합니다. 이를 통해 다수의 클러스터에서 암호화 키를 중앙 집중적으로 관리할 수 있습니다.\n\n둘째, cert-manager를 위한 새로운 외부 Vault issuer를 도입하여 인증서 관리의 자동화를 지원합니다. 개발자는 기존의 표준 cert-manager 워크플로우를 그대로 유지하면서도 Vault PKI를 통해 인증서 발급을 중앙에서 통제할 수 있어, 분산된 서비스 간의 신뢰 관계를 효율적으로 자동화할 수 있습니다.\n\n셋째, Vault Secrets Operator 1.6을 통해 데이터베이스나 클라우드 자격 증명 등의 변경 사항을 즉시 반영합니다. 자격 증명 교체와 가용성 사이의 공백을 최소화하여 인공지능 워크로드와 같이 빠르게 변하는 동적 환경에서도 보안 정책이 안정적으로 유지되도록 돕습니다.\n\n마지막으로 새롭게 도입된 Vault Client는 전체 Vault 서버 바이너리 없이도 Vault Agent나 Proxy 기능을 경량화하여 사용할 수 있게 합니다. 이는 리소스 제약이 있는 워크로드에서 보안 기능을 효율적으로 실행할 수 있도록 지원합니다.\n\n결론적으로 HashiCorp Vault는 Kubernetes 기반의 클라우드 네이티브 환경에서 플랫폼 및 보안 팀이 인공지능 애플리케이션의 복잡한 보안 요구 사항을 해결하고 일관된 보안 모델을 구축할 수 있도록 핵심적인 역할을 수행합니다.",
-    "url": "https://www.hashicorp.com/blog/building-a-secure-foundation-for-ai-on-kubernetes-with-hashicorp-vault",
-    "category": "클라우드 & 인프라",
-    "source": "Terraform Blog",
-    "author": "Steve Almy",
-    "pubDate": "2026-11-18T17:00:00.000Z",
-    "fetchedAt": "2026-11-24T18:58:12.097Z",
-    "tags": [
-      "Terraform",
-      "IaC"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/",
-    "title": "What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills",
-    "summary": "In June we introduced the Open Knowledge Format (OKF), an open specification that provides plain markdown and YAML to give agents the context they need. In July, v0.2 added trust signals: provenance, ",
-    "aiSummary": "OKF v0.3은 에이전트 간 지식 공유를 원활하게 하고 기업 환경에서 즉시 활용할 수 있도록 상호운용성과 신뢰성 규격을 대폭 강화하였습니다. 이번 업데이트를 통해 OKF는 구글 클라우드 플랫폼 GitHub 조직에서 독립적인 오픈 소스 프로젝트로 분리되어 운영됩니다.\n\n주요 변경 사항은 다음과 같습니다.\n\n상호운용성 강화: RFC 2119 키워드를 기반으로 엄격한 준수 규칙을 도입하여 서로 다른 도구와 팀 간의 데이터 호환성을 높였습니다. YAML 1.2와 CommonMark 등 표준 형식을 사용하여 기존 마크다운 파일과의 공존이 용이해졌으며, 선택적 필드 누락 시에도 에이전트가 중단되지 않고 예측 가능하게 작동하도록 설계되었습니다.\n\n신뢰성 체계 고도화: 콘텐츠가 변경되면 기존의 검증 정보가 무효화되는 로직을 도입하여 신뢰 등급이 항상 최신 상태를 반영하도록 했습니다. 또한 팀 단위가 아닌 실제 인물 식별자 기반의 검증만을 인간의 검토로 인정하여 보안과 신뢰성을 높였습니다.\n\n자체 기술 번들: bundle-root 내 index.md 파일을 통해 번들 단위의 메타데이터를 제공합니다. 라이선스, OKF 버전, 설명 등을 포함하여 에이전트가 파일 전체를 읽지 않고도 필요한 정보를 효율적으로 탐색할 수 있습니다.\n\n지식 수명 주기 관리: superseded_by 필드를 추가하여 폐기된 정보를 대체 항목으로 자동으로 연결할 수 있게 했습니다. 이를 통해 지식의 이전과 이동이 발생해도 기존 링크나 참조가 깨지지 않고 유지됩니다.\n\n확장성 및 버전 정책: 확장 키 사용 규칙을 명문화하여 다양한 도구가 충돌 없이 메타데이터를 추가할 수 있도록 했습니다. 또한 1.0 버전 이전의 버전 관리 정책을 수립하여 향후 하위 호환성을 보장합니다.\n\nOKF 활용 가이드와 도구: 타 산업 표준과 OKF를 함께 사용하는 방법을 제시하는 use cases 가이드를 공개했습니다. 이와 함께 에이전트가 OKF 번들을 읽고, 쓰고, 검증할 수 있도록 지원하는 okf-generate 및 okf-consume 스킬을 출시하여 에이전트 개발자의 작업 효율을 개선했습니다.",
-    "url": "https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Sam McVeety"
-      ],
-      "title": [
-        "Tech Lead, Data Analytics"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-18T17:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
-    "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
-    "summary": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health iss",
-    "aiSummary": "Google Cloud는 Database Center에서 Cloud SQL for PostgreSQL을 위한 새로운 기능인 Assessments를 프리뷰로 공개합니다. 이 기능은 에이전트 기반 워크플로우를 활용하여 운영 중인 데이터베이스에 영향을 주지 않고 권장되는 성능 개선 사항을 안전하게 테스트할 수 있도록 지원합니다.\n\n데이터베이스 관리자는 그동안 운영 환경의 안정성을 위해 별도의 스테이징 환경을 구축하고 수동으로 벤치마크를 수행해야 하는 번거로움을 겪어 왔습니다. Assessments는 이러한 과정을 자동화하여 운영 환경을 클론한 뒤, 합성 워크로드를 실행해 변경 전후의 성능 지표를 비교 분석합니다. 사용자는 자연어 프롬프트를 통해 벤치마크 매개변수를 조정할 수 있으며, 테스트 완료 후 생성된 비교 보고서를 통해 지연 시간, 처리량, CPU 및 메모리 사용량을 확인하고 적용 여부를 결정할 수 있습니다.\n\n이번 프리뷰 단계에서는 머신 업그레이드, 에디션 업그레이드, 데이터 캐시 활성화 등 세 가지 유형의 업데이트에 대해 자동화된 평가를 지원합니다. 이를 통해 기업은 인프라 비용과 성능 사이의 균형을 효율적으로 판단하고 데이터베이스 운영의 최적화를 보다 빠르게 수행할 수 있게 됩니다.",
-    "url": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Isabella Lubin"
-      ],
-      "title": [
-        "Group Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-18T17:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/networking/run-aiml-workloads-on-ipv6-only-gke-clusters/",
-    "title": "Scaling massive AI/ML workloads with IPv6 on Google Kubernetes Engine clusters",
-    "summary": "TL;DR: Single-stack IPv6 on GKE runs both nodes and pods without having to use private IPv4 addresses. Available in preview for Cloud TPU v6e and CPU node pools, including Axion, it works with DNS64/N",
-    "aiSummary": "Google Cloud는 대규모 AI 및 ML 워크로드 확장을 지원하기 위해 GKE 환경에서 사설 IPv4 주소 없이 노드와 Pod를 운영할 수 있는 싱글 스택 IPv6 기능을 프리뷰로 공개했습니다. 이 기술은 수천 개의 가속기 노드와 레이어드된 네트워크 구조가 필요한 AI 배포 환경에서 IP 주소 고갈 문제를 해결하기 위해 도입되었습니다.\n\n주요 특징으로 먼저 노드와 Pod가 IPv6만을 독점적으로 사용함으로써 사설 IPv4 주소 대역인 RFC 1918과 관련된 네트워크 충돌 문제를 원천 차단합니다. 또한 DNS64와 NAT64 기술을 통합하여 IPv4 전용 엔드포인트나 데이터셋 허브에 대해서도 투명하게 접근할 수 있는 상호 운용성을 제공합니다.\n\n확장성 측면에서는 각 노드에 /112 규모의 Pod 대역을 할당하여 IP 주소 부족으로 인한 클러스터 확장 제한을 해소했습니다. 현재 해당 기능은 Cloud TPU v6e를 비롯하여 Axion을 포함한 다양한 CPU 머신 패밀리에서 지원됩니다. \n\n성능 검증 결과, 기존 IPv4 환경과 비교했을 때 Pod 수명 주기 관리, 네트워크 지연 시간, 처리량, 로드 밸런싱 등 전반적인 지표에서 오버헤드 없이 동등한 수준의 성능을 유지하는 것으로 확인되었습니다. 현재 GKE 버전 1.37.1-gke.3020000 이상에서 해당 기능을 즉시 테스트할 수 있습니다.",
-    "url": "https://cloud.google.com/blog/products/networking/run-aiml-workloads-on-ipv6-only-gke-clusters/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Whitney Jenkins"
-      ],
-      "title": [
-        "Product Manager"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-18T17:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-    "title": "Security risk assessments run automatically on GitHub Team",
-    "summary": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed cre",
-    "aiSummary": "GitHub Team 플랜을 사용하는 조직을 대상으로 보안 위험 평가가 자동으로 실행됩니다.\n\n조직의 관리자와 보안 책임자는 무료로 제공되는 평가 결과를 통해 코드 내에 노출된 자격 증명이나 보안 취약점을 즉시 확인하고 대응할 수 있습니다. 이번 업데이트를 통해 별도의 설정 없이도 GitHub 환경 내에서 기본적인 보안 상태를 상시 점검하고 관리하는 것이 가능해졌습니다.",
-    "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-18T16:54:26.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://code.visualstudio.com/updates/v1_148",
-    "title": "Visual Studio Code 1.148 (Insiders)",
-    "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements.\nRead the full article",
-    "aiSummary": "Visual Studio Code 1.148 Insiders 빌드가 새롭게 공개되었습니다. 이번 업데이트에는 AI 에이전트 세션 관리 기능이 추가되어 작업 흐름을 더욱 효율적으로 지원합니다.\n\n또한 에디터 탭 기능에 대한 개선 사항이 포함되어 사용자 경험이 향상되었습니다. 구체적인 변경 사항과 상세한 기능 활용 방법은 공식 블로그를 통해 확인할 수 있습니다.",
-    "url": "https://code.visualstudio.com/updates/v1_148",
-    "category": "IDE & 개발 도구",
-    "source": "VS Code",
-    "author": "Visual Studio Code Team",
-    "pubDate": "2026-11-18T16:34:29.723Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "VS Code",
-      "Editor"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-    "title": "Customize GitHub Copilot for your team",
-    "summary": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team…\nThe pos",
-    "aiSummary": "GitHub는 조직 내 팀이 사용하는 GitHub Copilot 플러그인을 개별 구성원마다 일일이 설정할 필요 없이 공유할 수 있는 기능을 정식으로 출시했습니다. 이를 통해 팀 전체가 동일한 설정과 환경을 효율적으로 적용할 수 있게 되어 업무 생산성이 향상됩니다. 현재 이 팀 단위 커스터마이징 기능은 모든 조직 팀을 대상으로 제공됩니다.",
-    "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-18T16:00:13.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://www.mongodb.com/company/blog/product-release-announcements/persistent-sessions-memory-for-strands",
-    "title": "Persistent Sessions and Memory for Strands with MongoDB",
-    "summary": "Today, we’re launching the MongoDB Strands Harness SDK Integration, available now as the open-source strands-mongodb Python package. Strands, built and maintained by AWS, is an open-source framework f",
-    "aiSummary": "AWS에서 유지 및 관리하는 오픈소스 AI 에이전트 프레임워크 Strands를 위해 MongoDB Strands Harness SDK Integration이 출시되었습니다. 이 통합 패키지는 Python 환경에서 Strands 에이전트가 MongoDB를 단일 데이터 플랫폼으로 활용하여 세션 지속성과 장기 기억 기능을 구현할 수 있도록 지원합니다.\n\n세션 관리 측면에서는 AWS Lambda와 같이 일회성 환경에서 실행되는 에이전트가 재시작되거나 다른 인스턴스로 전환되더라도 이전 대화와 작업 상태를 유지할 수 있게 합니다. 모든 세션은 MongoDB에 저장되며, 고유한 세션 ID를 통해 언제 어디서든 상태를 불러오는 것이 가능합니다.\n\n기억 관리 기능은 MemoryManager를 통해 에이전트가 학습한 사실을 장기적으로 저장하고 필요할 때 검색할 수 있게 합니다. 특히 Atlas Automated Embedding을 사용하여 별도의 임베딩 파이프라인 구축 없이도 텍스트 기반의 벡터 검색을 자동으로 수행할 수 있으며, 데이터 중복 제거와 테넌트 격리 기능을 통해 효율적이고 안전한 운영 환경을 제공합니다.\n\n이번 통합으로 개발자는 에이전트의 핵심 로직을 변경하지 않고도 MongoDB를 활용해 상태 저장 시스템을 구축할 수 있습니다. 또한 Atlas Vector Search를 통해 운영 데이터와 에이전트 기억을 동일한 데이터베이스에서 관리할 수 있어 데이터 동기화에 따른 복잡함을 해소합니다. 해당 기능은 Python 3.10 이상의 환경과 최신 Strands 라이브러리를 통해 즉시 활용할 수 있습니다.",
-    "url": "https://www.mongodb.com/company/blog/product-release-announcements/persistent-sessions-memory-for-strands",
-    "category": "데이터베이스",
-    "source": "MongoDB Blog",
-    "author": "MongoDB Blog",
-    "pubDate": "2026-11-18T15:11:01.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "MongoDB",
-      "NoSQL"
-    ]
-  },
-  {
-    "id": "https://blog.jetbrains.com/?post_type=education&p=758282",
-    "title": "LinkedIn Connected Apps 1.2: Clearer Level System, Visible Progress, and Direct Answers About Privacy",
-    "summary": "What if your LinkedIn profile reflected how you actually build software instead of just being a list of your skills? That’s what the LinkedIn Connected Apps plugin does: It tracks how you use your Jet",
-    "aiSummary": "LinkedIn Connected Apps 1.2 버전이 업데이트되면서 사용자의 실제 소프트웨어 개발 활동을 LinkedIn 프로필에 더욱 명확하게 반영할 수 있게 되었습니다.\n\n이번 업데이트의 핵심은 직관적인 레벨 시스템의 도입과 진행 상황을 시각화하는 기능입니다. 사용자는 JetBrains IDE를 사용하는 동안 자신의 활동을 추적할 수 있으며, 이를 바탕으로 부여된 레벨과 함께 자신의 기술 수준을 설명하는 문구를 프로필에 게시할 수 있습니다.\n\n또한 개인정보 보호와 관련된 사용자의 궁금증을 해소하기 위해 데이터 처리 방식과 보안에 관한 직접적인 답변을 제공합니다. 이를 통해 사용자는 자신의 개발 경험을 단순한 스킬 나열이 아닌 실질적인 개발 기록으로 증명할 수 있습니다.",
-    "url": "https://blog.jetbrains.com/education/2026/11/18/linkedin-connected-apps-1-2-clearer-level-system-visible-progress-and-direct-answers-about-privacy/",
-    "category": "IDE & 개발 도구",
-    "source": "JetBrains Blog",
-    "author": "Anastasia Khramushina",
-    "pubDate": "2026-11-18T13:49:33.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "JetBrains",
-      "IDE"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/160919119/0.164.0",
-    "title": "0.164.0",
-    "summary": "FastAPI includes an official skill that helps coding agents use new features and recommended patterns for your installed version. Install it with uvx library-skills in your project. See Develop with A",
-    "aiSummary": "FastAPI 버전 0.164.0이 새롭게 출시되었습니다. 이번 업데이트에는 코딩 에이전트가 설치된 버전에 맞는 최신 기능과 권장 패턴을 활용할 수 있도록 돕는 공식 스킬이 추가되었습니다. 해당 기능은 프로젝트 내에서 uvx library-skills 명령어를 통해 설치하여 사용할 수 있습니다.\n\n또한, 개발자가 요청 본문의 크기 제한을 직접 설정할 수 있는 기능이 새롭게 도입되었습니다. 이번 변경 사항은 @tiangolo에 의해 PR #16781을 통해 적용되었습니다.",
-    "url": "https://github.com/fastapi/fastapi/releases/tag/0.164.0",
-    "category": "백엔드",
-    "source": "FastAPI Releases",
-    "author": "github-actions[bot]",
-    "pubDate": "2026-11-18T13:08:49.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "FastAPI",
-      "Python"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/80945428/v11.2.11",
-    "title": "v11.2.11",
-    "summary": "What's changed\n@nestjs/common\n\nfix(common): preserve sparse array length in default value pipe — backport of #18551\n@nestjs/core\n\nfix(core): keep the nest functions in the repl after \".clear\" — backpo",
-    "aiSummary": "NestJS v11.2.11 버전 업데이트가 진행되었습니다.\n\n@nestjs/common 패키지에서는 기본값 파이프 사용 시 희소 배열의 길이를 유지하도록 수정되었습니다.\n\n@nestjs/core 패키지에서는 REPL 환경에서 .clear 명령어를 실행한 이후에도 Nest 관련 함수들이 정상적으로 유지되도록 개선되었습니다.\n\n@nestjs/platform-fastify 패키지에서는 의존성인 @fastify/middie를 v9.3.6으로 업데이트하였습니다. 이 과정에서 경로 설정과 관련된 미들웨어 동작 방식이 일부 변경되어, 이제 * 경로에 바인딩된 미들웨어가 루트 경로(/)에서는 실행되지 않습니다. 상세한 변경 사항은 이전 버전인 v11.2.10과 v11.2.11 사이의 전체 변경 로그를 통해 확인할 수 있습니다.",
-    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.11",
-    "category": "백엔드",
-    "source": "NestJS Releases",
-    "author": "kamilmysliwiec",
-    "pubDate": "2026-11-18T08:44:35.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "NestJS",
-      "Node.js",
-      "TS"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/research-acceleration-jagged-frontier",
-    "title": "Research acceleration: The jagged frontier",
-    "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-    "aiSummary": "OpenAI는 코딩 에이전트가 AI 연구의 가속화에 미치는 영향을 측정하고 그 성과를 분석하였습니다. 현재 코딩 에이전트의 성능은 연구의 복잡성에 따라 불균일하게 나타나는 이른바 울퉁불퉁한 경계 현상을 보이고 있습니다. 이러한 성능 격차는 향후 AI 시스템이 스스로를 개선하는 재귀적 자기 개선 과정에서 중요한 신호로 작용할 것으로 보입니다. 이번 연구는 AI 에이전트가 과학적 발견과 연구 효율성을 어떻게 변화시킬 수 있는지에 대한 가능성과 한계를 동시에 시사합니다.",
-    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-18T08:00:00.000Z",
-    "fetchedAt": "2026-11-19T04:15:41.317Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.5.11",
-    "title": "1.5.11",
-    "summary": "Added dragging a subagent's tab from the side panel into the message box in the Remote Control browser view, which adds an @ mention of that subagent's conversation to your message.\nImproved undo in V",
-    "aiSummary": "Remote Control 브라우저 뷰에서 서브 에이전트 탭을 메시지 창으로 드래그하면 해당 대화를 @ 멘션으로 추가하는 기능이 도입되었습니다. 파일 및 아티팩트 탭은 이제 사이드바가 닫힌 상태로 열려 전체 너비를 활용할 수 있게 개선되었습니다. 또한 Remote Control 브라우저 뷰에서 대용량 파일 업로드 제한이 20MB로 상향되었으며, 긴 대화 내역에서 인용구 클릭 시 해당 위치로 정확히 스크롤 되도록 수정되었습니다.\n\nVim 모드의 실행 취소 기능은 Vim 표준 동작에 맞춰 변경되었습니다. u 명령은 더 이상 편집 그룹을 묶지 않고 개별 명령 단위로 되돌리며, Insert 모드 진입 전의 작업이나 연산자 실행 시 커서 위치 문제도 해결되었습니다.\n\nagy 플러그인 검증 기능이 강화되어 설치 전 로컬 폴더, .zip 파일, https 링크, GitHub URL 등을 통해 미리 확인이 가능합니다. 또한 Windows 편집기에서 생성된 UTF-8 BOM이 포함된 plugin.json 파일이 정상적으로 로드되지 않던 문제가 해결되었습니다.\n\nGEMINI_API_KEY 사용 시 /usage, /quota, /credits 명령의 오작동 문제가 수정되었습니다. 해당 명령은 이제 자동 완성 및 도움말에서 제외되며, 실행 시 AI Studio를 통한 사용량 확인을 안내합니다. 마지막으로 CLI 설치 과정에서 불필요한 오류 로그가 표시되던 버그가 수정되어 설치 상태를 명확히 확인할 수 있게 되었습니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.11",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-11-18T06:51:46.000Z",
-    "fetchedAt": "2026-11-18T16:34:29.723Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
     ]
   }
 ]

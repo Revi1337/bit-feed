@@ -1,5 +1,199 @@
 [
   {
+    "id": "https://code.visualstudio.com/updates/v1_149",
+    "title": "Visual Studio Code 1.149 (Insiders)",
+    "summary": "Learn what's new in Visual Studio Code 1.149 (Insiders)\nRead the full article",
+    "aiSummary": "Visual Studio Code 1.149 Insiders 버전의 주요 변경 사항과 새로운 기능에 대한 정보가 공개되었습니다. 해당 업데이트를 통해 추가된 기능과 개선된 사항들에 대한 자세한 내용은 공식 블로그의 전체 기사를 통해 확인할 수 있습니다.",
+    "url": "https://code.visualstudio.com/updates/v1_149",
+    "category": "IDE & 개발 도구",
+    "source": "VS Code",
+    "author": "Visual Studio Code Team",
+    "pubDate": "2026-11-25T18:01:46.847Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "VS Code",
+      "Editor"
+    ]
+  },
+  {
+    "id": "https://www.docker.com/?p=96403",
+    "title": "Prove your AI agent guardrails work",
+    "summary": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+    "aiSummary": "코딩 에이전트가 작업 범위를 벗어나 시스템에 과도하게 접근하는 문제를 해결하기 위해 Docker는 AI Governance를 도입합니다. 이 기능을 통해 네트워크, 파일 시스템, 자격 증명, MCP 서버에 대한 접근 권한을 세밀하게 제어할 수 있습니다. 사용자는 Docker의 거버넌스 솔루션을 활용하여 에이전트의 동작을 엄격하게 제한하고 해당 보호 장치가 실제로 안전하게 작동하는지 직접 테스트해 볼 수 있습니다.",
+    "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+    "category": "클라우드 & 인프라",
+    "source": "Docker Blog",
+    "author": "Jennifer Kohl",
+    "pubDate": "2026-11-25T16:57:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Docker",
+      "Infra"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.6.2",
+    "title": "v12.6.2",
+    "summary": "v12.6.2 (2026-11-25)\nNotable changes\nFixes of 12.6.1\napplyDecorators() type-checks again as a class, method and property decorator. In 12.6.1 its return type became a union that TypeScript rejects whe",
+    "aiSummary": "NestJS v12.6.2 업데이트는 주요 기능 개선과 버그 수정을 포함하고 있습니다.\n\n주요 변경 사항으로 applyDecorators 함수가 클래스, 메서드, 속성 및 매개변수 데코레이터로 다시 정상적으로 타입 체크되도록 수정되었습니다. @nestjs/platform-node 환경의 res.send()는 이제 Readable 스트림을 적절히 파이핑하며 기본 Content-Type을 application/octet-stream으로 설정합니다. 또한 StreamableFile 사용 시 상태 코드 204, 205, 304 응답에 대해서는 바디를 전송하지 않도록 개선되었습니다. ParseDatePipe는 연도 정보가 없는 날짜 입력 시 해당 월의 마지막 날짜를 초과하는 값을 정확하게 거부하도록 변경되었습니다.\n\n마이크로서비스 관련 업데이트로는 RabbitMQ 연결 재시도 시 메시지 처리에 관한 오류를 수정하여 채널 간 delivery tag 불일치 문제를 해결했습니다. MQTT 클라이언트와 서버는 브로커 연결이 끊겼을 때 close() 호출이 정상적으로 종료되도록 개선되었습니다.\n\n이 외에도 @nestjs/common 패키지 루트에서 GetOrResolveOptions, SelectOptions 등 다양한 인터페이스 타입들을 추가로 내보내며 개발 편의성을 높였습니다. 또한 데코레이터 메타데이터 없이 컴파일된 서브클래스에 대한 경고 메시지 기능이 강화되었습니다. 전체적으로 프레임워크의 안정성과 타입 안정성을 보강한 릴리스입니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.6.2",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-25T14:05:56.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=qodana&p=760429",
+    "title": "Qodana 2026.3 Release: What’s New",
+    "summary": "Qodana 2026.3 release brings Dart and Flutter projects into Qodana, so you can review code analysis findings together with your team. Baseline matching is now more accurate: In targeted validation acr",
+    "aiSummary": "Qodana 2026.3 버전이 출시되면서 Dart와 Flutter 프로젝트에 대한 코드 분석 지원이 추가되어 팀 단위의 협업 효율이 향상되었습니다.\n\nBaseline matching 기능이 대폭 개선되어 기존 파일의 이동, 이름 변경, 리팩토링이 발생하더라도 동일한 문제를 인식하는 정확도가 기존 45퍼센트에서 90퍼센트로 크게 향상되었습니다.\n\n이번 업데이트를 통해 개발자들은 코드 품질 관리 과정에서 더욱 정확하고 신뢰할 수 있는 분석 결과를 확인할 수 있게 되었습니다.",
+    "url": "https://blog.jetbrains.com/qodana/2026/11/qodana-2026-3-release/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Efim Samoylov",
+    "pubDate": "2026-11-25T12:02:33.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=youtrack&p=750190",
+    "title": "YouTrack Adds More Ways to Use AI on Your Terms",
+    "summary": "YouTrack 2026.3 introduces Ask YouTrack, a new built-in agentic AI chat, where you can ask questions in natural language and take action on tasks, tickets, and articles. You can connect your preferred",
+    "aiSummary": "YouTrack 2026.3 업데이트를 통해 새로운 AI 에이전트 서비스인 Ask YouTrack이 도입되었습니다. 사용자는 자연어로 질문을 던져 작업이나 티켓, 문서와 관련된 구체적인 업무를 처리할 수 있습니다.\n\n이번 업데이트의 핵심은 사용자 정의 모델을 연결할 수 있는 유연성에 있습니다. 사용자가 선호하는 AI 모델을 직접 선택하여 사용할 수 있으며 관리자는 사용자별로 토큰 사용량을 모니터링하여 효율적인 관리가 가능합니다. 이를 통해 기업은 보안과 비용 효율성을 고려하면서도 업무 자동화 수준을 높일 수 있습니다.",
+    "url": "https://blog.jetbrains.com/youtrack/2026/11/youtrack-adds-more-ways-to-use-ai-on-your-terms/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Elena Pishkova",
+    "pubDate": "2026-11-25T11:56:27.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=ai&p=758354",
+    "title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
+    "summary": "The faster sibling of Mellum2.1 Thinking, built for sub-agents, tool loops, and chat. In October, we released Mellum2.1 Thinking, an open 12B mixture-of-experts model with 2.5B active parameters, trai",
+    "aiSummary": "Mellum2.1 Instruct가 새롭게 출시되었습니다. 이 모델은 지난 10월 공개된 Mellum2.1 Thinking의 형제 모델로, 코딩 에이전트 환경에서 더욱 빠른 응답 속도를 제공하기 위해 개발되었습니다.\n\nMellum2.1 Instruct는 기존의 12B 파라미터 기반 Mixture-of-experts 구조와 2.5B의 활성 파라미터 설계를 그대로 유지하고 있습니다. 서브 에이전트 작업이나 툴 루프, 일반적인 대화형 인터페이스에서 효율적으로 작동하도록 최적화된 것이 특징입니다.\n\n동일한 아키텍처를 기반으로 학습되어 코딩 작업을 수행하는 환경에서 기존 모델보다 즉각적인 반응성을 보여줍니다. 이를 통해 개발자는 복잡한 추론 과정보다 빠른 처리 속도가 요구되는 상황에서 더욱 유연하게 모델을 활용할 수 있습니다.",
+    "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Gleb Ingman",
+    "pubDate": "2026-11-25T11:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v11.2.12",
+    "title": "v11.2.12",
+    "summary": "What's changed\n@nestjs/platform-fastify\n\nfix(deps): update dependency @fastify/middie to v9.3.8 — #18687, by @anthgrim; a request target that is neither origin-form nor an http(s) absolute-form URL, a",
+    "aiSummary": "NestJS의 @nestjs/platform-fastify 버전 11.2.12가 출시되었습니다.\n\n이번 업데이트에서는 @fastify/middie 의존성을 v9.3.8 및 v9.3.9로 업데이트하여 주요 버그들을 수정하였습니다. 우선 유효하지 않은 형식의 URL이 요청될 경우 기존의 404 처리 대신 400 에러를 반환하도록 변경되었습니다. 또한, Nest 미들웨어와 동일하게 Fastify 플러그인에 미들웨어를 추가하는 방식이 개선되었습니다.\n\n기술적인 환경 요구사항도 변경되었습니다. @fastify/middie 9.3.7 버전 이후부터는 path-to-regexp 9를 ES 모듈 방식으로 불러오기 때문에, 이번 업데이트를 사용하려면 Node.js 20.19 이상 또는 22.12 이상의 버전이 필수적으로 요구됩니다. 이전 버전의 Node.js를 사용할 경우 ERR_REQUIRE_ESM 오류가 발생하므로 주의가 필요합니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.2.12",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-25T08:40:38.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.6.1",
+    "title": "v12.6.1",
+    "summary": "v12.6.1 (2026-11-25)\nNotable changes\nNew features\nRabbitMQ server: nackOnInternalError (false by default). With noAck: false, the message of a handler that fails with an internal error (an exception o",
+    "aiSummary": "NestJS 프레임워크의 v12.6.1 버전 업데이트가 발표되었습니다. 이번 버전에서는 주요 기능 추가와 함께 다양한 버그 수정 및 동작 개선이 이루어졌습니다.\n\n마이크로서비스 분야에서는 RabbitMQ 서버에 nackOnInternalError 옵션이 추가되었습니다. 이를 통해 내부 오류 발생 시 메시지를 재요청 없이 부정 응답 처리하여 데드 레터 큐로 보낼 수 있게 되었습니다. 또한 RabbitMQ fanout 설정과 NATS 헤더 처리, 다양한 클라이언트의 연결 종료 시 상태 관리 등이 개선되었습니다.\n\n공통 기능과 관련해서는 ParseDatePipe의 날짜 검증 규칙이 강화되어 형식에 맞지 않는 날짜 입력을 더 엄격하게 거부합니다. ParseEnumPipe는 수치형보다 정확한 일치값을 우선하며, ConsoleLogger는 URL 내의 민감한 정보나 헤더, FormData 등을 마스킹하여 로그 보안을 강화하였습니다. 또한 applyDecorators를 통한 데코레이터 합성 동작이 TypeScript 표준과 동일하게 변경되었습니다.\n\n플랫폼별 변화로는 @nestjs/platform-express에서 프로토타입 오염 공격을 방지하기 위한 필드명 검증이 강화되었으며, @nestjs/platform-fastify의 업로드 제한 설정 오류 수정 및 미들웨어 처리 방식이 개선되었습니다. 또한 여러 소켓 통신 및 서버 설정에서 발생하던 예외 처리 누락과 비정상적인 종료 로직들이 안정화되었습니다.\n\n전반적으로 이번 v12.6.1은 보안 강화와 예외 처리의 엄격함을 높이는 데 중점을 두고 있습니다. 구체적인 변경 사항과 커밋 정보는 공식 문서를 통해 확인할 수 있습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.6.1",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-25T08:37:29.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.17",
+    "title": "1.5.17",
+    "summary": "Added mouse cursor placement and text selection inside the prompt box in the full screen (altscreen) rendering mode: click to move the cursor, or drag and double-click (and double-click-drag by word) ",
+    "aiSummary": "이번 업데이트 1.5.17 버전에서는 인터페이스 개선과 함께 안정성 강화에 초점을 맞추었습니다.\n\n전체 화면 모드에서 프롬프트 박스 내 마우스 커서 위치 지정과 텍스트 선택 기능이 추가되었습니다. 클릭이나 드래그를 통한 텍스트 강조, 복사, 잘라내기 등이 가능해졌으며, Vim 모드 사용 시 마우스 선택 동작이 Visual 모드와 연동되도록 개선되었습니다.\n\n백그라운드 쉘 명령 추적 방식을 효율화하여 CLI가 장시간 실행되는 명령을 더욱 정확하게 감지하도록 변경하였습니다. Orchestrator 기능에서는 Planner와 Executor에 동일한 모델과 Effort 수준을 선택할 경우 단일 에이전트 모드로 직접 실행하여 문맥 창 활용도를 높였습니다. 또한, 24시간 이상 남은 할당량 갱신 시간을 일, 시간, 분 단위로 직관적으로 표시하도록 하였습니다.\n\nMCP 서버 인증 체계를 개선하여 offline_access 범위를 명시적으로 요청함으로써 리프레시 토큰을 통해 지속적인 연결이 가능해졌습니다. Slash 명령어 자동 완성 메뉴에서 Tab 키가 정상 작동하지 않던 문제를 수정하였으며, 특정 패널에서 스크롤 동작 시 배경 화면이 움직이던 레이아웃 오류를 해결하였습니다.\n\n터미널 출력 형식과 관련해서는 업데이트 상태 표시줄의 들여쓰기 문제를 수정하였습니다. 서비스 안정성 면에서는 Google OAuth 토큰 만료 시 발생하는 401 오류를 방지하기 위해 자동 갱신 및 재시도 로직을 강화하였고, Gemini 모델 응답 도중 발생하는 503 오류 발생 시 중단 없이 재개할 수 있도록 처리하였습니다.\n\nGemini Enterprise 계정의 잔액 부족 시 사용자에게 정확한 안내를 제공하도록 수정하였으며, 권한 설정이 우회되던 보안 문제를 해결하였습니다. 이 외에도 Windows 환경에서의 인증 토큰 문제, 원격 제어 브라우저 뷰에서의 모델 선택기 잠금 현상, 그리고 LaTeX 수식 렌더링 오류 등 다양한 버그가 수정되었습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.17",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-25T07:23:12.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://inside.java/2026/11/25/quality-heads-up/",
+    "title": "JDK 28: New jlink Security Properties Plugin - Quality Outreach Heads-up",
+    "summary": "The OpenJDK Quality Group (https://wiki.openjdk.org/display/quality/Quality+Outreach) promotes the testing of FOSS projects with OpenJDK early-access builds as a way to improve the overall quality of ",
+    "aiSummary": "OpenJDK Quality Group은 JDK 28부터 jlink 도구에 새로운 security-properties 플러그인이 추가되었음을 발표했습니다. 이 플러그인은 개발자가 커스텀 런타임을 생성할 때 보안 속성을 손쉽게 구성할 수 있도록 지원합니다.\n\n사용자는 --security-properties 옵션을 통해 속성 파일 이름을 지정하여 런타임 이미지 내 conf/security/java.security 파일을 업데이트하거나 새로운 속성을 추가할 수 있습니다. 해당 플러그인은 파일 내 주석을 무시하며 중복된 속성이 있을 경우 마지막 값을 적용합니다.\n\n또한 include 문을 포함하는 속성 파일을 사용할 경우, 해당 문장은 생성된 구성 파일의 끝에 배치됩니다. 이때 참조된 파일이 빌드 시점에 존재하지 않아도 되며, 대상 시스템에서 런타임이 실행될 때 보안 설정의 일부로 읽히게 됩니다. 다만 원본 java.security 파일에는 중복 속성이나 include 문이 포함되어 있어서는 안 됩니다. 더 자세한 내용은 관련 버그 리포트인 JDK-8381580을 통해 확인할 수 있습니다.",
+    "url": "https://inside.java/2026/11/25/quality-heads-up/",
+    "category": "프로그래밍 언어",
+    "source": "Inside Java",
+    "author": "Ana-Maria Mihalceanu",
+    "pubDate": "2026-11-25T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Java"
+    ]
+  },
+  {
+    "id": "https://svelte.dev/blog/ten-years-of-svelte",
+    "title": "Celebrating ten years of Svelte",
+    "summary": "It started with a commit — specifically, this one. Ten years later, we’re far from done; software never is. But we’ve come an awful long way. Last week the community gathered in Ljubljana, at the thir",
+    "aiSummary": "Svelte가 출시 10주년을 맞이하여 슬로베니아 류블랴나에서 세 번째 Svelte Summit을 개최했습니다. AI가 주도하는 최신 소프트웨어 개발 환경 속에서도 커뮤니티는 여전히 강력한 활기를 보였으며, 다양한 기술적 진보와 함께 새로운 도구들이 발표되었습니다.\n\n주요 발표 내용으로는 네이티브 앱, 터미널 UI, PDF 구축을 지원하는 커스텀 렌더러의 실험적 도입과 프로덕션 준비 단계에 있는 Async Svelte가 포함되었습니다. 또한 Vite DevTools와 통합된 vite-devtools-svelte의 조직 합류 및 1.0 출시 준비, Rust 기반의 초고속 툴체인인 rsvelte의 등장, Storybook 공식 지원, mdsvex 1.0 출시 등 생태계 전반의 기술적 성과가 공개되었습니다.\n\nAI와 에이전트 개발에 대한 논의도 활발하게 이루어졌으며, 발표된 많은 도구가 MCP 서버 지원이나 대규모 애플리케이션의 에이전트 협업 효율화 등 AI 환경에 최적화된 기능을 갖추고 있습니다. Svelte는 지난 10년의 성과를 발판 삼아 앞으로도 더 큰 도약을 준비하고 있으며, 이번 행사의 상세 강연 영상은 Svelte Society 유튜브 채널을 통해 순차적으로 공개될 예정입니다.",
+    "url": "https://svelte.dev/blog/ten-years-of-svelte",
+    "category": "프론트엔드",
+    "source": "Svelte Blog",
+    "author": "Rich Harris",
+    "pubDate": "2026-11-25T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Svelte"
+    ]
+  },
+  {
+    "id": "https://laravel-news.com/laravel-13-44-0",
+    "title": "Form Request Model Lookups and PHP 8.6 Support in Laravel 13.44",
+    "summary": "Laravel 13.44 adds model() helpers to form requests, alerts for long-running transactions, lockForNoKeyUpdate() for PostgreSQL, and PHP 8.6 support.\nThe post Form Request Model Lookups and PHP 8.6 Sup",
+    "aiSummary": "Laravel 13.44 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 Form Request 내에서 모델을 간편하게 조회할 수 있는 model 헬퍼가 추가된 점입니다.\n\n또한 장시간 실행되는 트랜잭션에 대한 알림 기능이 도입되었고, PostgreSQL을 위한 lockForNoKeyUpdate 메서드가 새롭게 지원됩니다. 더불어 최신 PHP 버전인 PHP 8.6에 대한 공식 지원도 이번 릴리스에 포함되었습니다.",
+    "url": "https://laravel-news.com/laravel-13-44-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+    "category": "백엔드",
+    "source": "Laravel News",
+    "author": "Paul Redmond",
+    "pubDate": "2026-11-24T22:07:17.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
     "id": "https://www.percona.com/?p=56790",
     "title": "Percona Database Service Is Now Open Source",
     "summary": "We have some exciting news to share: Percona Database Service (PDS) is now open source! The source code is available on GitHub under the Apache 2.0 license, and we’ve also launched a redesigned PDS we",
@@ -191,6 +385,23 @@
     "tags": [
       "MongoDB",
       "NoSQL"
+    ]
+  },
+  {
+    "id": "/blog/prisma-postgres-is-now-available-in-n8n",
+    "title": "Prisma Postgres is now available in n8n",
+    "summary": "The Prisma Postgres community node for n8n, built by Prisma and verified by n8n, lets a workflow create a database and connect n8n's Postgres node to it in one run.",
+    "aiSummary": "Prisma와 n8n이 협력하여 개발하고 n8n의 검증을 거친 Prisma Postgres 커뮤니티 노드가 출시되었습니다. 이 노드를 활용하면 n8n 워크플로우 내에서 데이터베이스를 즉시 생성하고, 이를 n8n의 Postgres 노드와 곧바로 연결하는 과정을 단일 실행으로 처리할 수 있습니다. 이를 통해 데이터베이스 설정과 워크플로우 통합 과정을 더욱 효율적으로 자동화할 수 있게 되었습니다.",
+    "url": "https://www.prisma.io/blog/prisma-postgres-is-now-available-in-n8n",
+    "category": "백엔드",
+    "source": "Prisma Blog",
+    "author": "Prisma Blog",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "fetchedAt": "2026-11-25T18:01:46.847Z",
+    "tags": [
+      "Prisma",
+      "ORM",
+      "Database"
     ]
   },
   {
