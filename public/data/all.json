@@ -1,5 +1,103 @@
 [
   {
+    "id": "https://vite.dev/blog/announcing-vite8-4",
+    "title": "Announcing Vite 8.4",
+    "summary": "Vite 8.4 is out! ​ (https://vite.dev/blog/announcing-vite8-4#vite-8-4-is-out)November 26, 2026Quick links:Docs (https://vite.dev/)Translations: 简体中文 (https://cn.vite.dev/), 日本語 (https://ja.vite.dev/),",
+    "aiSummary": "Vite 8.4 버전이 새롭게 출시되었습니다. 이번 업데이트의 핵심은 보안 강화이며, 기존의 차단 목록 방식에서 허용 목록 기반의 파일 제공 검사 방식으로 전환한 점이 특징입니다.\n\n과거에는 차단 목록 방식의 보안 기능을 제공했으나, 파일 시스템과 HTTP 파싱 취약점을 이용한 우회 공격이 증가함에 따라 보다 엄격한 관리 체계가 필요해졌습니다. 이에 따라 Vite 8.4에서는 server.fs.strict 설정에 extended 옵션을 추가하여 플러그인이 로드하는 모듈까지 검사 범위를 넓혔습니다.\n\n특히 server.fs.allow 설정을 빈 배열로 지정함으로써 허용 목록 기반의 접근 제어를 선택할 수 있게 되었으며, 이를 통해 엔트리포인트에서 참조되는 파일 외에는 서비스가 차단되어 보안성이 한층 강화되었습니다. 사용자는 공식 문서를 참고하여 새로운 기능을 도입할 수 있으며, 기존과 같이 GitHub나 Discord 커뮤니티를 통해 프로젝트 기여 및 피드백을 제공할 수 있습니다.",
+    "url": "https://vite.dev/blog/announcing-vite8-4",
+    "category": "프론트엔드",
+    "source": "Vite Blog",
+    "author": "Vite Team",
+    "pubDate": "2026-11-26T12:00:00.000Z",
+    "fetchedAt": "2026-11-26T17:47:52.328Z",
+    "tags": [
+      "Vite",
+      "Build"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/80945428/v12.6.3",
+    "title": "v12.6.3",
+    "summary": "v12.6.3 (2026-11-26)\nNotable changes\nTesting\nTest.createTestingModule() accepts the instrument option, like NestFactory.create(). Its instanceDecorator decorates the module's providers, overridden one",
+    "aiSummary": "NestJS v12.6.3 업데이트를 통해 테스트 환경 강화와 라우팅 보안 및 성능 개선이 이루어졌습니다.\n\n테스트 측면에서는 Test.createTestingModule이 instrument 옵션을 지원하게 되어 프로덕션 환경과 동일한 계측 상태에서 테스트를 수행할 수 있게 되었습니다. resolve를 통해 생성되는 요청 범위 및 임시 프로바이더들도 동일한 인스턴스 데코레이터가 적용됩니다.\n\n동작 변경 사항으로 라우터 설정에 따라 대소문자를 구분하지 않는 환경에서 라우트 충돌 탐지 기능을 강화하여 동일 경로에 대한 중복 오류 처리를 개선했습니다. 또한 ParseDatePipe에서 유효하지 않은 날짜 처리가 엄격해졌으며, @Body 키 참조 시 falsy한 기본값에 대한 일관성 있는 처리가 적용되었습니다.\n\n성능 측면에서는 404 에러 발생 시 스택 트레이스를 제외함으로써 서버 CPU 사용량을 약 28~29퍼센트 절감하였습니다.\n\nFastify 관련 수정으로는 httpAdapter.render의 응답 객체 처리 방식 개선, app.listen의 backlog 매개변수 전달 정상화, StreamableFile의 304 상태 코드 처리 최적화가 포함되었습니다.\n\nWebSockets 부분에서는 경로 표기 방식이 다른 게이트웨이들이 동일한 서버를 공유하도록 수정하였고, 클라이언트 연결 해제 시의 이벤트 핸들링 로직을 개선하여 불필요한 중복 호출을 방지했습니다. 이 외에도 GrpcExceptionFilter의 로깅 강화 및 보안 헤더 검증 로직 등의 다양한 버그 수정이 반영되었습니다.",
+    "url": "https://github.com/nestjs/nest/releases/tag/v12.6.3",
+    "category": "백엔드",
+    "source": "NestJS Releases",
+    "author": "kamilmysliwiec",
+    "pubDate": "2026-11-26T11:07:23.000Z",
+    "fetchedAt": "2026-11-26T17:47:52.328Z",
+    "tags": [
+      "NestJS",
+      "Node.js",
+      "TS"
+    ]
+  },
+  {
+    "id": "/blog/release/v27.0.0-alpha.0.2.0?1795689016201",
+    "title": "Node.js 27.0.0-alpha.0.2.0 (Alpha)",
+    "summary": "Antoine du Hamel2026-11-26, Version 27.0.0-alpha.0.2.0 (Alpha), @aduh95 (https://nodejs.org/en/blog/release/v27.0.0-alpha.0.2.0#2026-11-26-version-2700-alpha020-alpha-aduh95)\nNotable Changes (https://",
+    "aiSummary": "Node.js 27.0.0-alpha.0.2.0 버전은 다양한 기능 개선과 보안 패치, 그리고 API 변경 사항을 포함하고 있습니다. 주요 변경 사항과 특징은 다음과 같습니다.\n\n우선 util.TextDecoder와 util.TextEncoder가 더 이상 사용되지 않도록(deprecated) 처리되었으며, 전역 객체를 사용하는 방식이 권장됩니다. SQLite 모듈은 안정화 단계(stable)에 진입했으며, statement.columnCount getter 추가 및 SQLite 지원이 없는 환경에서의 예외 처리 등이 개선되었습니다.\n\n네트워크 및 프로토콜 관련해서는 http2 프로토콜에서 writeProcessing 및 setHeaders 기능이 추가되었고, 정보성 헤더 메서드에 콜백을 지원하도록 변경되었습니다. tls 모듈에서는 TLS 재협상(renegotiation)이 더 이상 권장되지 않으며, 선택적인 옵션 사용이 도입되었습니다.\n\n파일 시스템(fs) 및 시스템 관리 측면에서는 --process-timeout 옵션이 정식 기능으로 격상되었으며, 워커 프로세스까지 적용 범위가 확대되었습니다. os 모듈에는 guessFileDescriptorType이 노출되었으며, 파일 시스템 관련 오류 처리와 권한 검사 로직이 최적화되었습니다.\n\n이 외에도 crypto 모듈에서 SLH-DSA를 BoringSSL에 연동하고 보안 관련 설정을 보강했습니다. zstd, zlib, simdjson, undici, npm 등 외부 종속성 라이브러리들이 최신 버전으로 업데이트되었습니다. 빌드 시스템 및 테스트 환경에서도 WinGet 설정 변경, GCC 경고 수정, V8 엔진 패치 등이 이루어지며 전반적인 안정성을 높였습니다.",
+    "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.2.0",
+    "category": "백엔드",
+    "source": "Node.js Blog",
+    "author": "Node.js Blog",
+    "pubDate": "2026-11-26T10:30:16.000Z",
+    "fetchedAt": "2026-11-26T17:47:52.328Z",
+    "tags": [
+      "Node.js",
+      "JS"
+    ]
+  },
+  {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.18",
+    "title": "1.5.18",
+    "summary": "Fixed the agent attaching truncated or corrupt images to the conversation when viewing files; it now rejects them with an error, so a half-written image no longer makes later model requests fail and r",
+    "aiSummary": "이번 1.5.18 업데이트를 통해 파일 확인 과정에서 잘리거나 손상된 이미지가 대화에 포함되던 문제를 해결했습니다. 이제 해당 파일은 오류로 거부되어 이후 모델 요청에 영향을 주지 않습니다.\n\nWindows 환경에서 Antigravity 설정 디렉터리와 작업 공간이 서로 다른 드라이브에 있을 때 플러그인이 로드되지 않던 오류를 수정했습니다. 또한 file:/// URI를 통해 파일에 접근할 때 권한 규칙과 승인 프롬프트가 정상적으로 적용되도록 개선했습니다.\n\nRemote Control 브라우저 뷰에서의 사용자 경험도 개선되었습니다. 코드 블록이나 Markdown 뷰에서 내용을 복사할 때 빈 줄이 제거되던 현상을 수정하여 원래의 간격을 유지하도록 했습니다. 또한 서브 에이전트 응답의 LaTeX 수식이 올바르게 렌더링되며, 쉘 변수가 포함된 텍스트가 잘못된 형식으로 표시되던 문제도 해결했습니다.\n\n마지막으로 Remote Control 브라우저 뷰 설정에서 모델 할당량 정보가 로드되지 않을 때 무한 로딩이 발생하던 문제를 해결하여, 상태 정보가 정상적으로 표시되거나 새로고침이 가능하도록 조치했습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.18",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-26T05:52:08.000Z",
+    "fetchedAt": "2026-11-26T17:47:52.328Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
+    "id": "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges",
+    "title": "Decision Models in Spring AI 2.1: Yes, No, and How Sure",
+    "summary": "Spring AI: Decision Models (https://docs.spring.io/spring-ai/reference/2.1-SNAPSHOT/models/decision.html) | Decision Extensions (https://spring-ai-community.github.io/spring-ai-decision-extensions/lat",
+    "aiSummary": "Spring AI 2.1 버전에서 새롭게 도입된 DecisionModel API는 텍스트 생성 중심의 Chat Model과 달리, 미리 정의된 결과값과 확률 정보를 포함한 구조화된 응답을 반환하는 데 특화된 도구입니다. 이 모델은 분류 및 평가 작업에서 더 낮은 지연 시간과 비용으로 높은 정확도를 제공하며, 애플리케이션의 제어 흐름에 직접 통합될 수 있는 프로그래밍 추상화를 지원합니다.\n\n주요 기능으로 제공되는 결정 유형은 예 혹은 아니오를 판단하는 YesNoQuestion, 선택지를 고르는 ChoiceQuestion, 순차적 척도를 측정하는 ScoreQuestion으로 구성됩니다. 개발자는 이러한 질문을 배치로 처리하여 오버헤드를 줄일 수 있으며, 모델이 반환하는 확률 값을 활용하여 자동화된 처리와 사람의 검토가 필요한 사례를 정교하게 분리할 수 있습니다.\n\n또한 Spring AI 커뮤니티 프로젝트인 Decision Extensions를 통해 제공되는 DecisionGuardrailAdvisor는 가드레일 기능을 수행합니다. 이는 채팅 모델 호출 전후에 입력과 출력을 검사하여 jailbreak 시도나 유해한 요청 등을 차단하거나 경고하며, 사용자가 직접 위험 요소를 정의한 배터리를 구성할 수 있도록 지원합니다.\n\n현재 해당 API는 Ollama, OpenAI, System One과 같은 다양한 공급자를 지원하며 공통된 인터페이스를 통해 일관된 방식으로 구현 가능합니다. 개발자는 모델별로 최적화된 임계값을 설정하여 애플리케이션 요구사항에 맞는 유연한 의사결정 로직을 구축할 수 있습니다.",
+    "url": "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges",
+    "category": "백엔드",
+    "source": "Spring Engineering",
+    "author": "tzolov",
+    "pubDate": "2026-11-26T00:00:00.000Z",
+    "fetchedAt": "2026-11-26T17:47:52.328Z",
+    "tags": [
+      "Spring",
+      "Java"
+    ]
+  },
+  {
+    "id": "https://www.postgresql.org/about/news/code-of-conduct-committee-seeking-new-volunteers-3454/",
+    "title": "Code of Conduct Committee Seeking New Volunteers\n",
+    "summary": "This message is being sent from the Community Code of Conduct Committee, with the approval of the Core Team.\nAs part of the Community CoC policy, the Committee membership is to be refreshed on an annu",
+    "aiSummary": "PostgreSQL Community Code of Conduct Committee는 2027년 1월 1일부터 12월 31일까지 활동할 새로운 위원 3명을 모집합니다.\n\n이번 모집은 Community CoC 정책에 따라 매년 위원진을 새롭게 구성하기 위한 정기 절차입니다. PostgreSQL 커뮤니티의 다양성을 반영하기 위해 여러 국가와 다양한 인구 통계학적 배경을 가진 지원자를 찾고 있습니다.\n\n업무 부담은 월평균 5시간에서 10시간 정도 예상되지만, 사건 보고 건수에 따라 변동될 수 있습니다. 위원 활동에 관심이 있는 지원자는 지정된 설문지를 작성하여 12월 7일 오후 5시 UTC까지 이메일로 제출해야 합니다. 심사를 위해 지원자의 이름, 소속 기업, 거주 국가, 관련 경험 등을 포함한 정보가 요구됩니다.",
+    "url": "https://www.postgresql.org/about/news/code-of-conduct-committee-seeking-new-volunteers-3454/",
+    "category": "데이터베이스",
+    "source": "PostgreSQL News",
+    "author": "PostgreSQL News",
+    "pubDate": "2026-11-26T00:00:00.000Z",
+    "fetchedAt": "2026-11-26T17:47:52.328Z",
+    "tags": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
     "id": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
     "title": "Copilot code review billing will default to the organization",
     "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep…\nThe post Copilot code r",
