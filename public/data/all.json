@@ -1,5 +1,21 @@
 [
   {
+    "id": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "title": "Copilot code review billing will default to the organization",
+    "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep…\nThe post Copilot code r",
+    "aiSummary": "GitHub는 Copilot 라이선스를 보유한 구성원의 Copilot 코드 리뷰 비용 청구 방식을 변경합니다.\n\n사용자가 별도의 설정을 하지 않을 경우 2026년 12월 30일부터 해당 리뷰 비용이 조직 계정으로 자동 청구됩니다.\n\n관련 비용 설정을 관리하려면 GitHub 계정 내 청구 관련 항목을 사전에 확인하고 필요한 조치를 취해야 합니다.",
+    "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "category": "클라우드 & 인프라",
+    "source": "GitHub Changelog",
+    "author": "Allison",
+    "pubDate": "2026-11-25T22:18:03.000Z",
+    "fetchedAt": "2026-11-26T05:12:00.485Z",
+    "tags": [
+      "GitHub",
+      "DevOps"
+    ]
+  },
+  {
     "id": "https://code.visualstudio.com/updates/v1_149",
     "title": "Visual Studio Code 1.149 (Insiders)",
     "summary": "Learn what's new in Visual Studio Code 1.149 (Insiders)\nRead the full article",
