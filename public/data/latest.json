@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=761744",
+    "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
+    "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, cleve",
+    "aiSummary": "Advent of Code 2026 시즌이 다가옴에 따라 Kotlin 언어를 활용한 프로그래밍 축제가 다시 시작됩니다. 이번 행사는 매일 제공되는 알고리즘 퍼즐을 풀며 Kotlin 기술을 연마하고 개발자들과 선의의 경쟁을 펼칠 수 있는 기회를 제공합니다. 새로운 지식을 습득하고 즐겁게 코딩 실력을 향상하고자 하는 개발자들의 많은 참여를 독려하고 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "2026-11-26T22:35:00.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=761744",
+    "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
+    "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, cleve",
+    "aiSummary": "매년 12월에 진행되는 프로그래밍 이벤트인 Advent of Code가 다시 시작됩니다. 이번 시즌에도 많은 개발자가 참여하여 축제 분위기 속에서 복잡한 퍼즐을 해결하고 지식을 공유할 예정입니다. 특히 이번 행사에서는 Kotlin 언어를 활용한 창의적인 문제 해결 방식과 함께 사용자 간의 친근한 경쟁이 장려됩니다. 새로운 기술을 습득하고 프로그래밍 실력을 쌓을 좋은 기회가 될 것입니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "2026-11-26T22:35:00.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://vite.dev/blog/announcing-vite8-4",
     "title": "Announcing Vite 8.4",
     "summary": "Vite 8.4 is out! ​ (https://vite.dev/blog/announcing-vite8-4#vite-8-4-is-out)November 26, 2026Quick links:Docs (https://vite.dev/)Translations: 简体中文 (https://cn.vite.dev/), 日本語 (https://ja.vite.dev/),",
@@ -46,6 +78,21 @@
     "tags": [
       "Node.js",
       "JS"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-11-26-1",
+    "title": "phpday 2027 - Call for Papers",
+    "summary": "The 24th edition of  takes place\n        on May 13–14, 2027, at Hotel San Marco in Verona, Italy, and online.\n        The conference is organized by ,\n        and all talks are in English. Founded in ",
+    "aiSummary": "24회를 맞이하는 phpday 2027이 2027년 5월 13일부터 14일까지 이탈리아 베로나의 Hotel San Marco와 온라인을 통해 개최됩니다. GrUSP가 주관하는 이번 행사는 2003년부터 시작된 유럽에서 가장 오래된 PHP 컨퍼런스 중 하나로, 모든 발표는 영어로 진행됩니다.\n\n발표자 모집인 Call for Papers는 2026년 12월 13일까지 진행되며, 레거시 코드베이스의 현대화나 신기술 탐구, 보안 및 고성능 애플리케이션 구축, 오픈 소스 생태계 기여 등 실제 PHP 개발과 관련된 주제를 환영합니다. 발표 희망자는 최대 3개의 제안서를 제출할 수 있으며, 현재 phpday 2027 참가 티켓도 판매 중입니다.",
+    "url": "https://www.php.net/conferences/index.php?view=cfps#2026-11-26-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-11-26T10:13:24.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -192,6 +239,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-11-25-1",
+    "title": "Laracon EU 2027",
+    "summary": "Laracon EU 2027 brings together PHP and Laravel developers from around the world in Amsterdam, the Netherlands, from April 5–7, 2027.\n\n     The conference features two days of inspiring talks and a de",
+    "aiSummary": "Laracon EU 2027 행사가 2027년 4월 5일부터 7일까지 네덜란드 암스테르담에서 개최됩니다. 전 세계의 PHP 및 Laravel 개발자들이 모이는 이번 행사는 이틀간의 기술 발표 세션과 하루의 전용 워크샵으로 구성됩니다.\n\n주요 다루는 주제는 Laravel, 현대적인 PHP 개발, 소프트웨어 아키텍처, 인공지능, 성능 최적화, 테스팅 및 실제 애플리케이션 구축입니다. 경력 수준에 관계없이 모든 개발자가 업계 전문가로부터 기술을 배우고 새로운 트렌드를 파악하며 글로벌 커뮤니티와 교류할 수 있는 기회를 제공합니다. 티켓 예매와 상세 정보는 공식 웹사이트인 https://laracon.eu/에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-11-25-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-11-25T11:18:19.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -1321,281 +1383,6 @@
       "NestJS",
       "Node.js",
       "TS"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
-    "title": "GitHub Desktop now supports multiple accounts per host",
-    "summary": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most…\nThe post GitHub Desktop now",
-    "aiSummary": "GitHub Desktop이 동일한 호스트 내에서 여러 계정을 동시에 로그인하여 사용할 수 있는 기능을 새롭게 지원합니다.\n\n이번 업데이트를 통해 사용자는 GitHub.com을 비롯하여 GitHub Enterprise Server 및 GHE.com 환경에서 여러 계정을 손쉽게 전환하거나 관리할 수 있게 되었습니다. 이는 그동안 많은 사용자가 지속적으로 요청해 온 기능으로, 향후 개발자들의 다중 계정 활용 및 작업 효율성이 크게 향상될 것으로 기대됩니다.",
-    "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-20T02:06:01.000Z",
-    "fetchedAt": "2026-11-20T16:15:02.802Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://laravel-news.com/pgjumbo-postgresql-client",
-    "title": "pgjumbo: A PostgreSQL Client for macOS, Windows, and Linux",
-    "summary": "pgjumbo is a new free PostgreSQL client that shows the rows, triggers, and cascades a write will touch, and lets you rehearse it before you commit.\nThe post pgjumbo: A PostgreSQL Client for macOS, Win",
-    "aiSummary": "pgjumbo는 macOS, Windows, Linux 환경을 모두 지원하는 새로운 무료 PostgreSQL 클라이언트입니다.\n\n이 도구는 사용자가 작성한 쿼리가 실행될 때 영향을 받는 행, 트리거, 그리고 캐스케이드 관계를 사전에 시각적으로 보여줍니다. 데이터베이스에 변경 사항을 실제로 반영하기 전에 미리 확인하고 연습할 수 있는 기능을 제공하여 작업의 안정성을 높여줍니다.",
-    "url": "https://laravel-news.com/pgjumbo-postgresql-client?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-    "category": "백엔드",
-    "source": "Laravel News",
-    "author": "Paul Redmond",
-    "pubDate": "2026-11-20T02:01:20.000Z",
-    "fetchedAt": "2026-11-20T16:15:02.802Z",
-    "tags": [
-      "Laravel",
-      "PHP"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-    "title": "Improvements on the pull request overview in public preview",
-    "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks…\nThe post I",
-    "aiSummary": "GitHub은 지난 11월 5일 공개된 Pull Request Overview 페이지의 미리보기 버전에 대한 사용자 피드백을 반영하여 새로운 기능을 개선하였습니다.\n\n이번 업데이트의 핵심은 병합 상태와 다음 단계의 작업을 더욱 명확하게 확인할 수 있도록 인터페이스를 개선한 점입니다. 특히 선택 사항인 검사 단계에서 실패가 발생했을 때 이를 사용자가 보다 쉽게 식별하고 대응할 수 있도록 정보를 직관적으로 구성하였습니다.\n\n이러한 개선 사항은 사용자가 Pull Request 관리 과정에서 겪는 혼선을 줄이고 전반적인 개발 생산성을 높이는 데 중점을 두고 있습니다. GitHub은 앞으로도 사용자의 의견을 수렴하여 GitHub 플랫폼의 사용자 경험을 지속적으로 최적화해 나갈 예정입니다.",
-    "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-20T00:02:21.000Z",
-    "fetchedAt": "2026-11-20T04:03:44.967Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
-    "title": "Spring Cloud 2026.0.0 (aka Paddington) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2026.0.0 (https://cloud.spring.io/) Release Train is available today. The release can b",
-    "aiSummary": "Spring Cloud 2026.0.0 버전인 Paddington이 정식 출시되었습니다. 이번 릴리스는 Spring Boot 4.2.0을 기반으로 하며 다양한 기능 개선과 함께 여러 보안 취약점 조치 사항을 포함하고 있습니다.\n\n주요 변경 사항으로 Spring Cloud Bus 프로젝트가 Spring Cloud Stream 내부로 통합되었습니다. 또한 Spring Cloud Config, Spring Cloud Gateway, Spring Cloud Kubernetes, Spring Cloud Function, Spring Cloud Netflix 등 전반적인 모듈에서 다수의 CVE 보안 취약점에 대한 패치가 적용되었습니다.\n\n세부 기능 개선 사항으로는 Spring Cloud Config에서 OAuth 2 인증 지원, Google Cloud Storage 백엔드 추가, AWS S3 S3Client 지원 등이 포함되었으며, Spring Cloud Gateway에서는 MVC 환경의 웹소켓 지원과 로컬 응답 캐시 필터가 추가되었습니다. \n\nSpring Cloud Function의 RSocket과 gRPC 모듈, Spring Cloud Stream의 리액티브 Kafka Binder와 Schema Registry 구성 요소는 이번 버전에서 지원이 중단되었습니다. 그 외에도 주요 의존성 버전들이 최신화되었으며, 자세한 변경 내역은 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "spencergibb",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-22T03:16:57.290Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/20/spring-ai-2-1-0-GA-available-now",
-    "title": "Spring AI 2.1.0 GA and 2.0.3 GA Available Now",
-    "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0 has been released and is now available from Maven Central!\nRelease notes (https://github.co",
-    "aiSummary": "Spring AI 2.1.0 GA 버전이 공식 출시되었습니다. 이번 업데이트는 Spring Boot 4.2를 기반으로 하며 430개 이상의 커밋과 86명의 기여자가 참여하여 대규모 개선을 이루었습니다.\n\n주요 변경 사항으로 먼저 새로운 상태 비저장 Model Context Protocol인 MCP 2026-07-28을 완벽하게 지원합니다. 이를 통해 서버와 클라이언트 간의 핸드셰이크 과정 없이 현대적이고 효율적인 통신이 가능해졌습니다.\n\n또한 DecisionModel API가 도입되었습니다. 이는 yes/no, 카테고리 선택, 점수 산정 등 명확한 결정을 내려야 하는 작업에 최적화된 모델 API로, OpenAI, Ollama, System One 등 다양한 공급자를 통해 활용할 수 있습니다. 이를 통해 RAG 문서 재정렬이나 도구 선택 등 비즈니스 로직에 정확한 판단을 내릴 수 있습니다.\n\n메시지 모델 또한 대폭 강화되었습니다. AssistantMessage와 UserMessage 내부에 ReasoningPart, ToolCallPart, MediaPart 등이 포함된 메시지 파트 체계를 도입하여 추론 과정과 도구 호출 정보를 손실 없이 유지할 수 있게 되었습니다. 더불어 OpenAI의 새로운 Responses API를 지원하여 최신 GPT 모델의 성능을 최대한 활용할 수 있도록 했습니다.\n\n그 외에도 도구 호출 인자의 스트리밍 지원, 표준화된 종료 사유 범주인 FinishReasonCategory 추가, 13개의 CVE 보안 패치 등이 포함되었습니다. 향후 12월 초에는 에이전트 구성 및 오케스트레이션을 위한 신규 프로젝트인 Spring AI Agent가 인큐베이션 단계로 시작될 예정입니다.",
-    "url": "https://spring.io/blog/2026/11/20/spring-ai-2-1-0-GA-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "tzolov",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-21T04:03:39.352Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/20/spring-cloud-2025-1-5-has-been-released",
-    "title": "Spring Cloud 2025.1.5 (aka Oakwood) Has Been Released",
-    "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.5 (https://cloud.spring.io/) Release Train is available today. The release can b",
-    "aiSummary": "Spring Cloud 2025.1.5 버전인 Oakwood가 공식 출시되었습니다. 이번 릴리스는 Spring Boot 4.0.x 및 4.1.x 버전과 호환되며, 전반적인 프로젝트 안정성을 강화하기 위한 여러 버그 수정과 보안 취약점 조치를 포함하고 있습니다.\n\n주요 업데이트 사항으로 Spring Cloud Config는 자격 증명 누출 및 SSH 호스트 키 검증 부재 등 다수의 CVE 보안 문제를 해결했습니다. Spring Cloud Gateway는 리소스 누출 방지 및 WebSocket 라우팅 보안 강화가 이루어졌으며, Spring Cloud Function은 클래스 로딩 관련 보안 문제를 개선하였습니다. 또한 Spring Cloud Kubernetes와 Spring Cloud Netflix Eureka Server에서도 원격 코드 실행 및 정보 누출 방지를 위한 보안 패치가 적용되었습니다.\n\n이외에도 Spring Cloud Commons, Spring Cloud Consul, Spring Cloud Stream 등 다수의 모듈에서 버그 수정 및 최적화 작업이 진행되었습니다. 개발자는 Maven Central을 통해 이번 릴리스를 이용할 수 있으며, 빌드 환경에 맞춘 BOM 또는 Gradle 의존성 설정을 통해 업데이트를 적용할 수 있습니다. 자세한 변경 사항은 GitHub의 공식 릴리스 노트를 통해 확인할 수 있습니다.",
-    "url": "https://spring.io/blog/2026/11/20/spring-cloud-2025-1-5-has-been-released",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "spencergibb",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-21T04:03:39.352Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://rubyonrails.org/2026/11/20/this-week-in-rails",
-    "title": "Securing Rails",
-    "summary": "Hi, it’s Claudio Baccigalupo. This week’s changes to the Rails codebase have a strong focus on security, from a rewritten guide to safer defaults for new apps.\nRewrite the Securing Rails guide\nrefresh",
-    "aiSummary": "이번 Rails 업데이트는 보안 강화와 코드 품질 개선에 중점을 두고 진행되었습니다. 보안 가이드인 Securing Rails는 최신 기술에 맞춰 전면 개편되었으며, Active Storage의 파일 업로드와 쿠키 관련 내용이 보강되었습니다. 또한 Rack::Multipart::Parser의 인코딩 취약점을 보완하고, 새로 생성되는 GitHub Actions 워크플로우의 보안 설정을 강화하여 git 태그 공격 방지 및 토큰 접근 제한을 적용했습니다.\n\nActive Record 관련 보안 개선도 포함되었습니다. association_scope_keeps_owner_conditions 옵션이 추가되어 unscope 사용 시 소유자 조건이 제거되는 문제를 방지하며, 데이터 무결성을 높였습니다. 이외에도 Action Mailer와 Active Job의 강한 의존성을 분리하고, ActiveStorage::BaseController에 위조 방지 기능을 기본 적용했습니다.\n\n기능 개선 및 버그 수정 사항도 다수 포함되었습니다. Ruby 4.0에서 추가된 Set 클래스를 HTML 태그 클래스에 사용할 수 있게 되었으며, perform_now 실행 후 작업 정보가 SQL 주석에 남던 문제를 해결했습니다. 더불어 가상 컬럼에 대한 피스처 생성 제거, 정수 검증 로직 개선, polymorphic 타입 조건 무시 문제 해결 등 전반적인 시스템 안정성이 향상되었습니다. 마지막으로 String#truncate_words의 성능 개선을 포함하여 34명의 기여자가 참여한 이번 업데이트를 통해 Rails의 보안과 효율성이 한층 강화되었습니다.",
-    "url": "https://rubyonrails.org/2026/11/20/this-week-in-rails",
-    "category": "백엔드",
-    "source": "Ruby on Rails",
-    "author": "Claudio Baccigalupo",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-21T04:03:39.352Z",
-    "tags": [
-      "Rails",
-      "Ruby"
-    ]
-  },
-  {
-    "id": "https://openai.com/index/introducing-medchembench",
-    "title": "Can AI help scientists identify promising drug candidates?",
-    "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-    "aiSummary": "MedChemBench는 AI 모델이 분자 구조를 해석하고 실험적 근거를 바탕으로 추론하며 초기 신약 개발 단계에서 유망한 화합물을 선별하는 능력을 평가합니다. 이 벤치마크는 AI가 과학자의 신약 후보 물질 발굴 과정을 얼마나 효과적으로 지원할 수 있는지 검증하는 데 중점을 두고 있습니다.",
-    "url": "https://openai.com/index/introducing-medchembench",
-    "category": "인공지능",
-    "source": "OpenAI News",
-    "author": "OpenAI News",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-21T04:03:39.352Z",
-    "tags": [
-      "OpenAI",
-      "LLM",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://inside.java/2026/11/20/jep547-target-jdk28/",
-    "title": "JEP targeted to JDK 28: 547: Lazy Constants (4th Preview)",
-    "summary": "The following JEP is targeted to JDK 28: 547: Lazy Constants (Fourth Preview)\n\t\t\t\t\n\t\t\t\n\t\t\tMore at https://openjdk.org/jeps/547.",
-    "aiSummary": "JDK 28 버전을 대상으로 JEP 547인 Lazy Constants 기능이 네 번째 프리뷰 단계로 포함될 예정입니다. 해당 기능은 자바 클래스 파일의 상수 풀에 저장된 상수들을 초기화할 때 실제 사용되는 시점까지 지연시키는 메커니즘을 제공합니다. 이를 통해 프로그램의 시작 성능과 메모리 사용 효율을 개선하는 것을 목표로 하며 이번 프리뷰를 통해 관련 설계를 지속적으로 검증하고 보완해 나갈 계획입니다. 상세한 내용은 OpenJDK 공식 홈페이지의 JEP 547 문서에서 확인할 수 있습니다.",
-    "url": "https://inside.java/2026/11/20/jep547-target-jdk28/",
-    "category": "프로그래밍 언어",
-    "source": "Inside Java",
-    "author": "Per-Ake Minborg",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-20T16:15:02.802Z",
-    "tags": [
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/20/spring-boot-4-0-10-available-now",
-    "title": "Spring Boot 4.0.10 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "제공해주신 텍스트는 Spring Boot 4.0.10 버전 출시와 관련된 공지사항이나, 본문에는 실제 업데이트 내용 대신 Broadcom의 저작권 정보 및 관련 기술에 대한 상표권 고지 사항만이 포함되어 있습니다. 따라서 해당 텍스트를 통해 구체적인 기능 개선이나 버그 수정 사항을 확인하기는 어렵습니다. 관련 소프트웨어 사용자는 공식 Spring 프로젝트 홈페이지를 통해 상세한 릴리스 노트를 확인하시기 바랍니다.",
-    "url": "https://spring.io/blog/2026/11/20/spring-boot-4-0-10-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "mhalbritter",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-20T16:15:02.802Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://spring.io/blog/2026/11/20/spring-boot-4-1-3-available-now",
-    "title": "Spring Boot 4.1.3 available now",
-    "summary": "Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term \"Broadcom\" refers to Broadcom Inc. and/or its subsidiaries. Terms of Use (https://www.broadcom.com/company/legal/terms-of-use) • Privacy",
-    "aiSummary": "Spring Boot 4.1.3 버전이 새롭게 출시되었습니다. 해당 업데이트는 Broadcom의 공식 가이드라인 및 라이선스 규정을 준수하며 배포되었습니다. 이번 릴리스에 대한 구체적인 기술적 변경 사항이나 개선 내역은 공식 Spring 프로젝트 사이트에서 확인하실 수 있습니다.",
-    "url": "https://spring.io/blog/2026/11/20/spring-boot-4-1-3-available-now",
-    "category": "백엔드",
-    "source": "Spring Releases",
-    "author": "mhalbritter",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-20T16:15:02.802Z",
-    "tags": [
-      "Spring",
-      "Java"
-    ]
-  },
-  {
-    "id": "https://www.anthropic.com/news/ipo-close",
-    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
-    "summary": "Skip to main contentNewsResearchPolicyCommitmentsCompanyTry Claude{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"Anthropic announces closing of initial public offering, including f",
-    "aiSummary": "Anthropic이 Class A 보통주 총 11억 2700만 주에 대한 기업공개를 성공적으로 마무리했습니다. 주당 공모가는 83달러로 결정되었으며 여기에는 주관사들의 추가 주식 매입 옵션 행사가 포함되었습니다. 이번 공모를 통해 Anthropic은 약 916억 달러의 자금을 조달하였으며 Anthropic의 주식은 2026년 11월 19일부터 Nasdaq Global Select Market에서 ANT라는 종목 코드로 거래를 시작하였습니다.\n\n이와 더불어 Anthropic은 주요 기술 기업들을 대상으로 한 동시 사모 발행도 성공적으로 마쳤습니다. Advanced Micro Devices, Broadcom, Google, Micron Technology, Microsoft, NVIDIA, TSMC Partners 등과 같은 기업들이 총 260억 달러 규모의 Class N 보통주를 주당 83달러에 매입하였습니다. 이번 기업공개와 사모 발행을 통해 Anthropic은 AI 연구 및 서비스 개발을 위한 대규모 자본을 확보하게 되었습니다.",
-    "url": "https://www.anthropic.com/news/ipo-close",
-    "category": "인공지능",
-    "source": "Anthropic News",
-    "author": "Anthropic",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "fetchedAt": "2026-11-20T16:15:02.802Z",
-    "tags": [
-      "Anthropic",
-      "Claude",
-      "AI",
-      "LLM"
-    ]
-  },
-  {
-    "id": "https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game/",
-    "title": "The Blueprint: How Kult built a gaming companion that actually knows your game",
-    "summary": "Welcome to The Blueprint, our ongoing series where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We ho",
-    "aiSummary": "런던 소재 스타트업인 Kult는 게임 플레이 흐름을 방해하지 않으면서 실시간으로 정보를 제공하는 AI 게임 동반자 서비스를 개발했습니다. 기존의 번거로운 검색 방식에서 벗어나 게이머가 음성으로 질문하면 즉각적인 음성 답변과 함께 보조 화면으로 상세 정보를 제공하는 것이 핵심입니다.\n\nKult는 서비스 운영의 핵심 요소인 지연 시간, 정확성, 비용 문제를 해결하기 위해 Google Cloud의 Gemini 플랫폼을 도입했습니다. 단순하고 반복적인 작업은 경량 모델인 Gemini Flash가 처리하고, 복잡한 추론이 필요한 상황에서는 상위 모델을 동적으로 할당하는 구조를 통해 효율성을 극대화했습니다. 또한 백엔드는 Google Kubernetes Engine을 활용하며, 사용자 인터페이스는 에이전트 생성 인터페이스 표준을 통해 일관성을 유지합니다.\n\n이 서비스는 모델의 기억에만 의존하지 않고 게임별 구조화된 지식 베이스를 자동으로 구축하여 최신 업데이트와 패치 내용을 반영합니다. 개별 사용자의 플레이 이력과 질문 패턴을 학습하여 개인화된 답변을 제공하며, 질문 의도를 파악하는 결정 모델인 Jev를 도입해 처리 비용을 최적화했습니다.\n\n현재 100개 이상의 게임을 지원하는 Kult는 향후 컴퓨터 비전 기술과 Google의 Live 모델을 결합하여 플레이어가 별도로 질문하지 않아도 게임 상황을 스스로 인지하고 반응하는 수준으로 서비스를 고도화할 계획입니다.",
-    "url": "https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game/",
-    "category": "클라우드 & 인프라",
-    "source": "Google Cloud Blog",
-    "author": {
-      "$": {
-        "xmlns:author": "http://www.w3.org/2005/Atom"
-      },
-      "name": [
-        "Omid Ashtari"
-      ],
-      "title": [
-        "Founder & CEO, Kult"
-      ],
-      "department": [
-        ""
-      ],
-      "company": [
-        ""
-      ]
-    },
-    "pubDate": "2026-11-19T23:00:00.000Z",
-    "fetchedAt": "2026-11-20T04:03:44.967Z",
-    "tags": [
-      "GCP",
-      "Cloud"
-    ]
-  },
-  {
-    "id": "tag:github.com,2008:Repository/1237979735/1.5.13",
-    "title": "1.5.13",
-    "summary": "Added Gemini 4 Neon (Low, Medium, High, and XHigh) to /model and --model when you sign in with Application Default Credentials (AGY_ADC_AUTH), and added support for Gemini 4 Neon through an enterprise",
-    "aiSummary": "이번 1.5.13 업데이트에서는 Gemini 4 Neon 모델 라인업인 Low, Medium, High, XHigh 버전을 새롭게 추가하여 Application Default Credentials 인증 및 엔터프라이즈 모델 게이트웨이를 통해 사용할 수 있게 되었습니다.\n\n사용성 개선 측면에서는 Markdown 테이블 내 마우스 드래그 선택 기능을 강화하여 열 단위로 정확한 텍스트 복사가 가능하도록 조정하였습니다. 또한 에이전트의 멀티 스텝 작업 처리 방식을 최적화하여 독립적인 작업들을 한 단계로 묶고 셸 명령어를 병합함으로써 전체적인 작업 완료 속도와 효율을 높였습니다.\n\nCLI 및 설정 관련하여, settings.json 내 모델 기능 플래그가 무시되던 문제를 수정하였고, 사용자가 명시하지 않은 상황에서 에이전트가 임의로 Swarm을 생성하던 오류를 해결하였습니다. 또한 터미널 환경에서 키보드 레이아웃에 따른 단축키 오작동 문제를 수정하고, Vim 모드에서의 엔터 키 동작 등 사용자 편의 기능을 보완하였습니다.\n\n연동 및 외부 환경 지원도 강화되었습니다. 안드로이드 Termux 환경에서의 업데이트 오류를 해결하였으며, agy acp 사용 시 작업 디렉터리 인식 오류와 편집기에서 첨부한 파일 내용이 제대로 반영되지 않던 문제를 수정하였습니다. Zed나 JetBrains AI Chat 등과 연동 시 모델 이름이 중복 노출되던 현상도 해결되어 모델 ID가 정상적으로 표시됩니다.\n\n마지막으로 Remote Control 브라우저 뷰에서 권한 프롬프트로 인해 화면이 튀거나 설정이 초기화되던 문제들을 수정하였으며, 각종 오류 메시지 표기 및 성공 처리 로직을 개선하여 보다 안정적인 사용자 경험을 제공합니다.",
-    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.13",
-    "category": "IDE & 개발 도구",
-    "source": "Antigravity CLI",
-    "author": "haofan",
-    "pubDate": "2026-11-19T21:48:50.000Z",
-    "fetchedAt": "2026-11-20T04:03:44.967Z",
-    "tags": [
-      "Antigravity",
-      "CLI",
-      "AI"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
-    "title": "Enterprise Live Migrations from Azure DevOps generally available",
-    "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, the",
-    "aiSummary": "Azure DevOps Services에서 GitHub Enterprise Cloud로 데이터를 이전하는 Enterprise Live Migrations 기능이 정식 출시되었습니다.\n\n이번 기능은 데이터 보존 정책을 준수하면서도 팀의 업무 중단 없이 리포지토리를 원활하게 이동할 수 있도록 지원합니다. 개발 팀은 마이그레이션 과정 중에도 지속적으로 협업하고 코드를 관리할 수 있어 운영 효율성을 높일 수 있습니다.",
-    "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-19T18:50:57.000Z",
-    "fetchedAt": "2026-11-20T04:03:44.967Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
-    ]
-  },
-  {
-    "id": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
-    "title": "Red Hat Enterprise Linux runner images now generally available",
-    "summary": "Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images for GitHub-hosted larger runners are now generally available. Originally introduced in public preview in June 2026 in partnership with Red…\nThe pos",
-    "aiSummary": "GitHub가 제공하는 대규모 러너 서비스에서 RHEL 9 및 RHEL 10 이미지를 공식적으로 지원합니다.\n\n지난 2026년 6월 Red Hat과의 파트너십을 통해 공개 프리뷰 형태로 처음 도입되었던 해당 기능은 이제 정식 버전으로 전환되어 누구나 사용할 수 있습니다.\n\n이번 정식 출시를 통해 개발자와 기업은 GitHub Actions 환경에서 RHEL 기반의 신뢰할 수 있는 엔터프라이즈 환경을 안정적으로 활용할 수 있게 되었습니다.",
-    "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
-    "category": "클라우드 & 인프라",
-    "source": "GitHub Changelog",
-    "author": "Allison",
-    "pubDate": "2026-11-19T18:48:46.000Z",
-    "fetchedAt": "2026-11-20T04:03:44.967Z",
-    "tags": [
-      "GitHub",
-      "DevOps"
     ]
   }
 ]

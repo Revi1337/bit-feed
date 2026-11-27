@@ -1,5 +1,37 @@
 [
   {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=761744",
+    "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
+    "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, cleve",
+    "aiSummary": "Advent of Code 2026 시즌이 다가옴에 따라 Kotlin 언어를 활용한 프로그래밍 축제가 다시 시작됩니다. 이번 행사는 매일 제공되는 알고리즘 퍼즐을 풀며 Kotlin 기술을 연마하고 개발자들과 선의의 경쟁을 펼칠 수 있는 기회를 제공합니다. 새로운 지식을 습득하고 즐겁게 코딩 실력을 향상하고자 하는 개발자들의 많은 참여를 독려하고 있습니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin/",
+    "category": "프로그래밍 언어",
+    "source": "Kotlin Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "2026-11-26T22:35:00.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "Kotlin",
+      "Android"
+    ]
+  },
+  {
+    "id": "https://blog.jetbrains.com/?post_type=kotlin&p=761744",
+    "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
+    "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, cleve",
+    "aiSummary": "매년 12월에 진행되는 프로그래밍 이벤트인 Advent of Code가 다시 시작됩니다. 이번 시즌에도 많은 개발자가 참여하여 축제 분위기 속에서 복잡한 퍼즐을 해결하고 지식을 공유할 예정입니다. 특히 이번 행사에서는 Kotlin 언어를 활용한 창의적인 문제 해결 방식과 함께 사용자 간의 친근한 경쟁이 장려됩니다. 새로운 기술을 습득하고 프로그래밍 실력을 쌓을 좋은 기회가 될 것입니다.",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin/",
+    "category": "IDE & 개발 도구",
+    "source": "JetBrains Blog",
+    "author": "Ksenia Shneyveys",
+    "pubDate": "2026-11-26T22:35:00.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "JetBrains",
+      "IDE"
+    ]
+  },
+  {
     "id": "https://vite.dev/blog/announcing-vite8-4",
     "title": "Announcing Vite 8.4",
     "summary": "Vite 8.4 is out! ​ (https://vite.dev/blog/announcing-vite8-4#vite-8-4-is-out)November 26, 2026Quick links:Docs (https://vite.dev/)Translations: 简体中文 (https://cn.vite.dev/), 日本語 (https://ja.vite.dev/),",
@@ -46,6 +78,21 @@
     "tags": [
       "Node.js",
       "JS"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-11-26-1",
+    "title": "phpday 2027 - Call for Papers",
+    "summary": "The 24th edition of  takes place\n        on May 13–14, 2027, at Hotel San Marco in Verona, Italy, and online.\n        The conference is organized by ,\n        and all talks are in English. Founded in ",
+    "aiSummary": "24회를 맞이하는 phpday 2027이 2027년 5월 13일부터 14일까지 이탈리아 베로나의 Hotel San Marco와 온라인을 통해 개최됩니다. GrUSP가 주관하는 이번 행사는 2003년부터 시작된 유럽에서 가장 오래된 PHP 컨퍼런스 중 하나로, 모든 발표는 영어로 진행됩니다.\n\n발표자 모집인 Call for Papers는 2026년 12월 13일까지 진행되며, 레거시 코드베이스의 현대화나 신기술 탐구, 보안 및 고성능 애플리케이션 구축, 오픈 소스 생태계 기여 등 실제 PHP 개발과 관련된 주제를 환영합니다. 발표 희망자는 최대 3개의 제안서를 제출할 수 있으며, 현재 phpday 2027 참가 티켓도 판매 중입니다.",
+    "url": "https://www.php.net/conferences/index.php?view=cfps#2026-11-26-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-11-26T10:13:24.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
@@ -192,6 +239,21 @@
     "tags": [
       "JetBrains",
       "IDE"
+    ]
+  },
+  {
+    "id": "https://www.php.net/archive/2026.php#2026-11-25-1",
+    "title": "Laracon EU 2027",
+    "summary": "Laracon EU 2027 brings together PHP and Laravel developers from around the world in Amsterdam, the Netherlands, from April 5–7, 2027.\n\n     The conference features two days of inspiring talks and a de",
+    "aiSummary": "Laracon EU 2027 행사가 2027년 4월 5일부터 7일까지 네덜란드 암스테르담에서 개최됩니다. 전 세계의 PHP 및 Laravel 개발자들이 모이는 이번 행사는 이틀간의 기술 발표 세션과 하루의 전용 워크샵으로 구성됩니다.\n\n주요 다루는 주제는 Laravel, 현대적인 PHP 개발, 소프트웨어 아키텍처, 인공지능, 성능 최적화, 테스팅 및 실제 애플리케이션 구축입니다. 경력 수준에 관계없이 모든 개발자가 업계 전문가로부터 기술을 배우고 새로운 트렌드를 파악하며 글로벌 커뮤니티와 교류할 수 있는 기회를 제공합니다. 티켓 예매와 상세 정보는 공식 웹사이트인 https://laracon.eu/에서 확인할 수 있습니다.",
+    "url": "https://www.php.net/conferences/index.php#2026-11-25-1",
+    "category": "프로그래밍 언어",
+    "source": "PHP News",
+    "author": "PHP News",
+    "pubDate": "2026-11-25T11:18:19.000Z",
+    "fetchedAt": "2026-11-27T05:09:42.308Z",
+    "tags": [
+      "PHP"
     ]
   },
   {
