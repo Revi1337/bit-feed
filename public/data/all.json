@@ -531,6 +531,23 @@
     ]
   },
   {
+    "id": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+    "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+    "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+    "aiSummary": "Mass Spec Skills는 과학자들이 Google Antigravity를 활용하여 탠덤 질량 분석 데이터를 해석할 수 있도록 지원하는 도구입니다. 이 기술은 복잡한 질량 스펙트럼 정보를 바탕으로 분자의 구조를 식별하는 과정을 자동화하고 효율화하는 데 목적이 있습니다. 연구자들은 이 기능을 통해 분자 분석의 정확도를 높이고 데이터 해석에 소요되는 시간을 단축할 수 있습니다.",
+    "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+    "category": "인공지능",
+    "source": "Google DeepMind",
+    "author": "Google DeepMind",
+    "pubDate": "2026-11-24T13:07:53.000Z",
+    "fetchedAt": "2026-11-27T17:32:18.369Z",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AI"
+    ]
+  },
+  {
     "id": "tag:github.com,2008:Repository/1237979735/1.5.16",
     "title": "1.5.16",
     "summary": "Added -r and --resume command-line flag aliases for --conversation so you can resume a specific conversation by ID with agy -r  or agy --resume .\nAdded a live step checklist under the status line abov",
