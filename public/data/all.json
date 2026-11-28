@@ -1,5 +1,22 @@
 [
   {
+    "id": "tag:github.com,2008:Repository/1237979735/1.5.19",
+    "title": "1.5.19",
+    "summary": "Added agy conversations list to show saved conversations and their disk usage, and agy conversations clean (with --dry-run, --older-than, --keep-recent, --min-size, or explicit conversation IDs) to de",
+    "aiSummary": "agy 1.5.19 업데이트는 대화 관리 기능 강화와 인터페이스 개선에 초점을 맞추고 있습니다.\n\n대화 관리 측면에서는 저장된 대화 목록과 디스크 사용량을 확인하는 기능이 추가되었으며, 특정 조건이나 ID를 지정하여 오래되거나 용량이 큰 대화를 삭제하는 정리 도구가 도입되었습니다. 또한, Gemini API를 사용하는 세션에서 대화 검색 범위를 제목뿐만 아니라 대화 내용 전체로 확대하였고, 자동 압축 로직을 개선하였습니다.\n\n사용자 편의성 강화를 위해 대화 내용을 탐색하고 특정 시점으로 되돌릴 수 있는 트랜스크립트 모드가 추가되었습니다. 전체 화면 모드에서 Esc 키를 두 번 눌러 활성화할 수 있으며, r 키를 통해 원하는 프롬프트 지점으로 쉽게 되돌아가 내용을 수정하고 재전송할 수 있습니다. \n\n터미널 환경에서의 안정성과 성능도 향상되었습니다. 백그라운드 작업이나 서브 에이전트가 실행 중일 때 세션이 멈추는 현상을 해결하였으며, 쉘 명령 실행 시 전체 화면을 다시 그리지 않고 출력 부분만 갱신하여 반응 속도를 높였습니다. 또한, 터미널 샌드박스 제한으로 인해 Auto 모드를 사용할 수 없는 경우 그 구체적인 원인을 사용자에게 안내하도록 변경되었습니다.\n\n마지막으로 보안 및 데이터 처리 오류를 수정하였습니다. 관리자 정책에 의해 제거된 권한 설정이 세션 중에 예기치 않게 다시 적용되는 문제를 해결하였고, MCP 도구 호출 결과 출력 시 불필요한 타임스탬프가 포함되거나 데이터가 누락되는 현상을 개선하였습니다.",
+    "url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.19",
+    "category": "IDE & 개발 도구",
+    "source": "Antigravity CLI",
+    "author": "haofan",
+    "pubDate": "2026-11-28T08:03:08.000Z",
+    "fetchedAt": "2026-11-28T16:16:34.718Z",
+    "tags": [
+      "Antigravity",
+      "CLI",
+      "AI"
+    ]
+  },
+  {
     "id": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
     "title": "Announcing Rust 1.100.1",
     "summary": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of",
