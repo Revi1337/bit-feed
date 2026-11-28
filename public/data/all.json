@@ -1,5 +1,36 @@
 [
   {
+    "id": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
+    "title": "Announcing Rust 1.100.1",
+    "summary": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of",
+    "aiSummary": "Rust 팀이 새로운 포인트 릴리스인 Rust 1.100.1 버전을 공식 발표했습니다. 기존 rustup 사용자는 rustup update stable 명령어를 통해 간편하게 최신 버전으로 업데이트할 수 있습니다.\n\n이번 1.100.1 버전에서는 Rust 1.100.0에서 발생했던 타입 추론 관련 회귀 버그가 수정되었습니다. 구체적으로는 특정 타입이 Iterator 구현을 가지고 있음에도 불구하고 이를 올바르게 인식하지 못했던 문제가 해결되었습니다. 이는 Rust 1.100.0에서 적용되었던 Iterator의 불안정한 const 버전 변경 사항을 되돌리면서 발생했던 오류를 바로잡은 조치입니다.\n\n개발팀은 안정적인 소프트웨어 구축을 돕기 위해 지속적으로 언어를 개선하고 있으며, 향후 릴리스를 테스트하고자 하는 사용자들에게는 beta 또는 nightly 채널을 활용해 버그를 제보해 줄 것을 권장하고 있습니다. 이번 업데이트는 많은 기여자의 협력을 통해 이루어졌습니다.",
+    "url": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
+    "category": "프로그래밍 언어",
+    "source": "Rust Blog",
+    "author": "The Rust Release Team",
+    "pubDate": "2026-11-27T00:00:00.000Z",
+    "fetchedAt": "2026-11-28T04:47:02.532Z",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "id": "https://rubyonrails.org/2026/11/27/this-week-in-rails",
+    "title": "credentials:keys, bulk Action Text, and more!",
+    "summary": "You can now list credential keys without printing their values, Action Text stops querying once per attachment, and Action Mailer boots without Active Job. Here’s what’s new in Rails:\nAdd bin/rails cr",
+    "aiSummary": "Rails 최신 업데이트를 통해 보안성, 효율성, 그리고 개발 편의성이 대폭 향상되었습니다.\n\n먼저 보안 및 설정 측면에서 credentials:keys 명령어가 추가되어 실제 값을 노출하지 않고도 프로덕션 환경의 키를 확인할 수 있게 되었습니다. 또한 암호화된 파일의 키 길이를 검증하여 잘못된 키 사용을 방지하며, Action Mailbox의 라우트를 로컬 환경에서만 노출하도록 변경하여 보안을 강화했습니다.\n\nAction Mailer는 Active Job 없이도 실행 가능하도록 개선되어 해당 gem을 사용하지 않는 환경에서도 원활하게 부팅됩니다. 또한 이메일 생성 실패 시 전달 콜백이 실행되지 않도록 수정되었으며, Action Text의 첨부 파일 쿼리 방식을 최적화하여 대량의 레코드를 처리할 때 쿼리 성능을 크게 높였습니다.\n\n데이터베이스 및 컨트롤러 기능도 개선되었습니다. PostgreSQL 19 이상에서 CHECK 제약 조건을 동적으로 제어할 수 있는 enforced 옵션이 추가되었고, ActionController::Live 스트리밍 시 발생하던 캐시 오염 및 컨텍스트 공유 문제를 해결하여 안정성을 높였습니다. Rack::BadRequest 관련 예외 발생 시 서버 에러가 아닌 적절한 400 상태 코드를 반환하도록 처리 방식이 변경되었습니다.\n\n그 외에도 SQLite 최소 지원 버전을 3.37.0으로 상향 조정하였고, Dockerfile 생성 및 패키지 관리 방식을 최적화했습니다. 또한 Arel::Table 초기화 시 이름 지정을 명시적으로 변경하는 등 코드의 표준화와 지속적인 유지보수를 위한 다양한 개선 작업이 이루어졌습니다.",
+    "url": "https://rubyonrails.org/2026/11/27/this-week-in-rails",
+    "category": "백엔드",
+    "source": "Ruby on Rails",
+    "author": "Emmanuel Hayford",
+    "pubDate": "2026-11-27T00:00:00.000Z",
+    "fetchedAt": "2026-11-28T04:47:02.532Z",
+    "tags": [
+      "Rails",
+      "Ruby"
+    ]
+  },
+  {
     "id": "https://blog.jetbrains.com/?post_type=kotlin&p=761744",
     "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
     "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, cleve",
